@@ -1,0 +1,52 @@
+{
+  "id": "nh-1",
+  "ref": "NH 1",
+  "name": "Srinagar–Leh Highway",
+  "aka": [
+    "National Highway 1A (old numbering, Uri–Srinagar)",
+    "National Highway 1D (old numbering, Srinagar–Leh)"
+  ],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 534,
+  "route": {
+    "start": "Uri, Jammu & Kashmir",
+    "end": "Leh, Ladakh",
+    "states": ["Jammu and Kashmir", "Ladakh"],
+    "majorCities": ["Baramulla", "Srinagar", "Sonamarg", "Dras", "Kargil", "Leh"]
+  },
+  "timeline": [
+    { "year": "2010", "event": "Old NH 1A (Uri–Srinagar) and NH 1D (Srinagar–Leh) are merged into the new NH 1" },
+    { "year": "2018", "event": "Foundation stone laid for the Zoji La tunnel, meant to keep the route open all year" }
+  ],
+  "history": "NH 1 is the road that ties the Kashmir valley to Ladakh. It starts at Uri near the Line of Control, passes through Srinagar, and then climbs over the high Zoji La pass to reach Dras, Kargil and finally Leh. It was created in the 2010 renumbering by joining the old NH 1A and NH 1D. Because heavy snow blocks Zoji La every winter, a long tunnel is being dug so the road can stay open all year.",
+  "facts": [
+    "Crosses the Zoji La pass at about 3,528 metres, one of the highest points on any Indian national highway.",
+    "Snow closes the Zoji La stretch for several months each winter; the roughly 13 km Zoji La tunnel is under construction to fix this.",
+    "The Dras–Kargil stretch ran right along the front line of the 1999 Kargil War, and the Kargil War Memorial stands beside the road at Dras.",
+    "Dras, on this highway, is often called one of the coldest inhabited places in the world.",
+    "One of only two main road routes into Ladakh — the other is the Manali–Leh highway (NH 3)."
+  ],
+  "sources": [
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" },
+    { "title": "Border Roads Organisation", "url": "https://www.bro.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Uri", "coords": [74.038, 34.087] },
+    { "name": "Baramulla", "coords": [74.364, 34.198] },
+    { "name": "Pattan", "coords": [74.558, 34.161] },
+    { "name": "Srinagar", "coords": [74.797, 34.084] },
+    { "name": "Ganderbal", "coords": [74.775, 34.226] },
+    { "name": "Kangan", "coords": [74.911, 34.256] },
+    { "name": "Sonamarg", "coords": [75.293, 34.302] },
+    { "name": "Zoji La", "coords": [75.478, 34.276] },
+    { "name": "Dras", "coords": [75.752, 34.428] },
+    { "name": "Kargil", "coords": [76.126, 34.557] },
+    { "name": "Mulbekh", "coords": [76.369, 34.379] },
+    { "name": "Lamayuru", "coords": [76.775, 34.284] },
+    { "name": "Khaltse", "coords": [76.882, 34.323] },
+    { "name": "Nimmu", "coords": [77.336, 34.196] },
+    { "name": "Leh", "coords": [77.577, 34.152] }
+  ]
+}

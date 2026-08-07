@@ -1,0 +1,39 @@
+{
+  "id": "nh-46",
+  "ref": "NH 46",
+  "name": "Gwalior–Betul Highway",
+  "aka": ["Formed from parts of the former NH 3, NH 12 and NH 69 (old numbering)"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 634,
+  "route": {
+    "start": "Gwalior, Madhya Pradesh",
+    "end": "Betul, Madhya Pradesh",
+    "states": ["Madhya Pradesh"],
+    "majorCities": ["Gwalior", "Shivpuri", "Guna", "Biaora", "Bhopal", "Narmadapuram", "Itarsi", "Betul"]
+  },
+  "history": "NH 46 runs from north to south through the middle of Madhya Pradesh. It starts at Gwalior, follows the historic Agra–Bombay Road through Shivpuri and Guna, passes the state capital Bhopal, crosses the Narmada river near Narmadapuram and ends at Betul, close to the Maharashtra border. It was created in the highway renumbering by joining parts of the old NH 3, NH 12 and NH 69.",
+  "facts": [
+    "Lies entirely within one state — about 634 km across Madhya Pradesh.",
+    "The Gwalior–Biaora section follows the historic Agra–Bombay (AB) Road.",
+    "Crosses the Narmada, central India's biggest river, near Narmadapuram (Hoshangabad).",
+    "Passes close to Madhav National Park at Shivpuri."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Gwalior", "coords": [78.182, 26.218] },
+    { "name": "Shivpuri", "coords": [77.66, 25.42] },
+    { "name": "Kolaras", "coords": [77.61, 25.23] },
+    { "name": "Guna", "coords": [77.31, 24.65] },
+    { "name": "Chachaura-Binaganj", "coords": [77.09, 24.29] },
+    { "name": "Biaora", "coords": [76.91, 23.92] },
+    { "name": "Bhopal", "coords": [77.41, 23.26] },
+    { "name": "Obaidullaganj", "coords": [77.53, 23.0] },
+    { "name": "Narmadapuram", "coords": [77.72, 22.75] },
+    { "name": "Itarsi", "coords": [77.76, 22.61] },
+    { "name": "Betul", "coords": [77.9, 21.91] }
+  ]
+}

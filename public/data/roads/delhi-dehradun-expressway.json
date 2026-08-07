@@ -1,0 +1,44 @@
+{
+  "id": "delhi-dehradun-expressway",
+  "ref": "Delhi–Dehradun Expressway",
+  "name": "Delhi–Dehradun Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 210,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "NHAI",
+  "route": {
+    "start": "Akshardham, Delhi",
+    "end": "Dehradun, Uttarakhand",
+    "states": ["Delhi", "Uttar Pradesh", "Uttarakhand"],
+    "majorCities": ["Delhi", "Baghpat", "Shamli", "Saharanpur", "Dehradun"]
+  },
+  "timeline": [
+    { "year": "2021", "event": "Construction begins" },
+    { "year": "2026", "event": "Full expressway inaugurated in April" }
+  ],
+  "history": "The Delhi–Dehradun Expressway gives Delhi a much shorter and faster route to Dehradun, the capital of Uttarakhand, going via Baghpat, Shamli and Saharanpur instead of the older, longer road through Meerut. Construction started in 2021 and the full road was inaugurated in April 2026. Near Dehradun it runs on tall pillars through a forest, so elephants and other wild animals can pass safely underneath.",
+  "facts": [
+    "Cuts the Delhi–Dehradun drive from around six hours to about three.",
+    "Includes a roughly 12 km elevated stretch through the Rajaji National Park forest area — Asia's longest elevated wildlife corridor.",
+    "Starts at Akshardham in Delhi and crosses Delhi, Uttar Pradesh and Uttarakhand.",
+    "A short tunnel near the Daat Kali temple carries the road into the Dehradun valley."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Akshardham (Delhi)", "coords": [77.277, 28.613] },
+    { "name": "Khajuri Khas", "coords": [77.255, 28.705] },
+    { "name": "Loni", "coords": [77.27, 28.755] },
+    { "name": "Khekra", "coords": [77.282, 28.868] },
+    { "name": "Baghpat", "coords": [77.24, 28.95] },
+    { "name": "Baraut", "coords": [77.263, 29.095] },
+    { "name": "Shamli", "coords": [77.312, 29.45] },
+    { "name": "Saharanpur", "coords": [77.558, 29.93] },
+    { "name": "Ganeshpur", "coords": [77.765, 30.13] },
+    { "name": "Asharodi", "coords": [77.955, 30.255] },
+    { "name": "Dehradun (ISBT)", "coords": [78.02, 30.29] }
+  ]
+}

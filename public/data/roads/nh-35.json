@@ -1,0 +1,46 @@
+{
+  "id": "nh-35",
+  "ref": "NH 35",
+  "name": "Harpalpur–Varanasi Highway",
+  "aka": [
+    "Includes parts of the former NH 76 (Banda–Prayagraj) and NH 7 (Varanasi–Mirzapur)"
+  ],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 462,
+  "route": {
+    "start": "Harpalpur, Madhya Pradesh",
+    "end": "Varanasi, Uttar Pradesh",
+    "states": ["Madhya Pradesh", "Uttar Pradesh"],
+    "majorCities": [
+      "Mahoba",
+      "Banda",
+      "Chitrakoot Dham (Karwi)",
+      "Prayagraj",
+      "Mirzapur",
+      "Varanasi"
+    ]
+  },
+  "history": "NH 35 connects the Bundelkhand region with the holy cities of Prayagraj and Varanasi. Starting at Harpalpur in Madhya Pradesh, it passes Mahoba, Banda and the pilgrimage town of Chitrakoot, then crosses the Yamuna into Prayagraj and continues past Mirzapur to Varanasi. Parts of it were counted in the old NH 76 and the old NH 7 before the highways were renumbered.",
+  "facts": [
+    "Connects three famous pilgrimage places: Chitrakoot, Prayagraj and Varanasi.",
+    "About 462 km long, running mostly inside Uttar Pradesh.",
+    "The Varanasi–Mirzapur stretch was the first leg of the old NH 7, once India's longest highway.",
+    "An extension west towards Khajuraho in Madhya Pradesh has been proposed."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Harpalpur", "coords": [79.33, 25.29] },
+    { "name": "Mahoba", "coords": [79.87, 25.29] },
+    { "name": "Kabrai", "coords": [79.97, 25.4] },
+    { "name": "Banda", "coords": [80.34, 25.48] },
+    { "name": "Atarra", "coords": [80.57, 25.29] },
+    { "name": "Chitrakoot Dham (Karwi)", "coords": [80.9, 25.2] },
+    { "name": "Prayagraj", "coords": [81.85, 25.44] },
+    { "name": "Mirzapur", "coords": [82.57, 25.15] },
+    { "name": "Varanasi", "coords": [82.99, 25.32] }
+  ]
+}

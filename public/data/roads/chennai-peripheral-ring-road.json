@@ -1,0 +1,45 @@
+{
+  "id": "chennai-peripheral-ring-road",
+  "ref": "CPRR",
+  "name": "Chennai Peripheral Ring Road",
+  "category": "expressway",
+  "status": "under-construction",
+  "lengthKm": 133,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "Tamil Nadu Road Development Company (TNRDC), Government of Tamil Nadu",
+  "cost": "₹16,502 crore (approx.)",
+  "route": {
+    "start": "Ennore Port, Chennai, Tamil Nadu",
+    "end": "Poonjeri, near Mamallapuram, Tamil Nadu",
+    "states": ["Tamil Nadu"],
+    "majorCities": [
+      "Ennore",
+      "Thatchur",
+      "Thamaraipakkam",
+      "Sriperumbudur",
+      "Singaperumal Koil",
+      "Thiruporur",
+      "Mamallapuram"
+    ]
+  },
+  "history": "The Chennai Peripheral Ring Road is a big arc being built around the outside of Chennai, from Ennore Port in the north to the coast near Mamallapuram in the south. Its main job is to let port trucks and long-distance traffic swing around the city instead of driving through it, connecting all the major highways that fan out from Chennai. It is being built in sections by the Tamil Nadu government, and different sections are at different stages of construction and tendering.",
+  "facts": [
+    "About 133 km long, wrapping around Chennai from Ennore Port to near Mamallapuram.",
+    "Connects the big highways out of Chennai, including the Kolkata, Bengaluru and Tiruchirappalli routes and the East Coast Road.",
+    "Being built as a six-lane road with two-lane service roads on both sides.",
+    "Being built by the Tamil Nadu government rather than the central highways authority."
+  ],
+  "sources": [
+    { "title": "Chennai Peripheral Ring Road Project — Government of Tamil Nadu", "url": "https://www.cprr.tn.gov.in/" },
+    { "title": "Government of Tamil Nadu", "url": "https://www.tn.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Ennore Port", "coords": [80.33, 13.246] },
+    { "name": "Thatchur", "coords": [80.105, 13.268] },
+    { "name": "Thamaraipakkam", "coords": [79.93, 13.21] },
+    { "name": "Sriperumbudur", "coords": [79.946, 12.968] },
+    { "name": "Singaperumal Koil", "coords": [80.007, 12.76] },
+    { "name": "Thiruporur", "coords": [80.19, 12.725] },
+    { "name": "Poonjeri (Mamallapuram)", "coords": [80.16, 12.638] }
+  ]
+}

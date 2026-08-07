@@ -1,0 +1,60 @@
+{
+  "id": "nh-13",
+  "ref": "NH 13",
+  "name": "Trans-Arunachal Highway",
+  "aka": [
+    "NH 229 (old numbering)"
+  ],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 1559,
+  "lanes": "Mostly 2 lanes",
+  "route": {
+    "start": "Tawang, Arunachal Pradesh",
+    "end": "Wakro, Arunachal Pradesh",
+    "states": ["Arunachal Pradesh"],
+    "majorCities": [
+      "Tawang",
+      "Bomdila",
+      "Seppa",
+      "Ziro",
+      "Daporijo",
+      "Aalo",
+      "Pasighat",
+      "Roing",
+      "Tezu"
+    ]
+  },
+  "timeline": [
+    { "year": "2008", "event": "Trans-Arunachal Highway project announced" },
+    { "year": "2018", "event": "The 6.2 km Dibang River Bridge completes the last gap in the route" },
+    { "year": "2024", "event": "Sela Tunnel opens on the Tawang stretch" }
+  ],
+  "history": "NH 13 is better known as the Trans-Arunachal Highway. It sweeps across almost the whole of Arunachal Pradesh, from the monastery town of Tawang in the west, over the high Sela Pass, through hill towns like Ziro, Daporijo, Aalo and Pasighat, to Wakro in the east. The full route only came together in 2018, when a 6.2 km bridge over the Dibang river closed the final gap.",
+  "facts": [
+    "About 1,559 km long, yet it lies within a single state — Arunachal Pradesh.",
+    "Crosses the Sela Pass at about 4,170 m; the Sela Tunnel (opened 2024) lets traffic avoid the snowbound top.",
+    "The 6.2 km Dibang River Bridge, one of the longest road bridges in India, completed the route in 2018.",
+    "Was numbered NH 229 before the highway renumbering."
+  ],
+  "sources": [
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Tawang", "coords": [91.866, 27.586] },
+    { "name": "Jang", "coords": [91.99, 27.55] },
+    { "name": "Sela Pass", "coords": [92.105, 27.502] },
+    { "name": "Dirang", "coords": [92.24, 27.359] },
+    { "name": "Bomdila", "coords": [92.424, 27.264] },
+    { "name": "Seppa", "coords": [93.04, 27.29] },
+    { "name": "Ziro", "coords": [93.82, 27.545] },
+    { "name": "Daporijo", "coords": [94.22, 27.985] },
+    { "name": "Aalo", "coords": [94.78, 28.163] },
+    { "name": "Pangin", "coords": [95.0, 28.21] },
+    { "name": "Pasighat", "coords": [95.326, 28.066] },
+    { "name": "Roing", "coords": [95.845, 28.144] },
+    { "name": "Tezu", "coords": [96.163, 27.916] },
+    { "name": "Wakro", "coords": [96.35, 27.77] }
+  ]
+}

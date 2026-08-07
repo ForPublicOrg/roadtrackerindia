@@ -1,0 +1,44 @@
+{
+  "id": "delhi-meerut-expressway",
+  "ref": "Delhi–Meerut Expressway",
+  "name": "Delhi–Meerut Expressway",
+  "aka": ["National Expressway 3 (NE-3)"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 82,
+  "lanes": "6–14 lanes (14-lane section between Delhi and Ghaziabad)",
+  "agency": "NHAI",
+  "route": {
+    "start": "Sarai Kale Khan, Delhi",
+    "end": "Meerut, Uttar Pradesh",
+    "states": ["Delhi", "Uttar Pradesh"],
+    "majorCities": ["Delhi", "Ghaziabad", "Dasna", "Meerut"]
+  },
+  "timeline": [
+    { "year": "2015", "event": "Construction begins" },
+    { "year": "2018", "event": "14-lane Delhi section opens" },
+    { "year": "2019", "event": "Dasna–Hapur section opens" },
+    { "year": "2021", "event": "Fully opened on 1 April with the Dasna–Meerut stretch" }
+  ],
+  "history": "The Delhi–Meerut Expressway was built by NHAI to fix one of India's most crowded routes, where the trip from Delhi to Meerut could take well over two hours. It was built in four phases starting in 2015, and the whole road opened in April 2021. The trip now takes about 45 minutes to an hour.",
+  "facts": [
+    "Its first stretch, from Sarai Kale Khan to the UP border, was India's first 14-lane highway section.",
+    "Cut the Delhi–Meerut drive from around 2.5 hours to about 45–60 minutes.",
+    "The 82 km project also includes a branch from Dasna to Hapur.",
+    "At Meerut it links toward the Ganga Expressway, which continues to Prayagraj."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Press Information Bureau — inauguration of Phase 1 of the Delhi–Meerut Expressway", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1533580" }
+  ],
+  "waypoints": [
+    { "name": "Sarai Kale Khan (Delhi)", "coords": [77.253, 28.588] },
+    { "name": "Akshardham", "coords": [77.278, 28.613] },
+    { "name": "UP Gate (Ghazipur border)", "coords": [77.328, 28.632] },
+    { "name": "Indirapuram (Ghaziabad)", "coords": [77.372, 28.642] },
+    { "name": "Dasna", "coords": [77.53, 28.68] },
+    { "name": "Bhojpur", "coords": [77.62, 28.79] },
+    { "name": "Partapur", "coords": [77.642, 28.902] },
+    { "name": "Meerut", "coords": [77.672, 28.945] }
+  ]
+}

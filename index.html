@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>RoadTracker India — The living atlas of Indian roads</title>
+    <meta
+      name="description"
+      content="Explore every National Highway, Expressway and State Highway of India on one interactive map. Routes, status, toll plazas, history and facts — plus community reports of potholes and flooding."
+    />
+    <link rel="canonical" href="https://roadtrackerindia.com/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#f4f1ea" id="meta-theme-color" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="RoadTracker India" />
+    <meta property="og:title" content="RoadTracker India — The living atlas of Indian roads" />
+    <meta
+      property="og:description"
+      content="Explore every National Highway, Expressway and State Highway of India on one interactive map."
+    />
+    <meta property="og:url" content="https://roadtrackerindia.com/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "RoadTracker India",
+        "url": "https://roadtrackerindia.com/",
+        "description": "A map-first encyclopedia of Indian roads — National Highways, Expressways and State Highways.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://roadtrackerindia.com/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1 class="visually-hidden" id="page-h1">RoadTracker India — the living atlas of Indian roads</h1>
+
+    <header class="topbar">
+      <a class="brand" href="/" id="brand-link" aria-label="RoadTracker India — back to the full map">
+        <svg class="brand-mark" viewBox="0 0 28 28" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="25" height="25" rx="7" class="bm-bg" />
+          <path d="M9 24 C11 16, 13 12, 19 4" class="bm-road" />
+          <path d="M9 24 C11 16, 13 12, 19 4" class="bm-dash" />
+        </svg>
+        <span class="brand-name">RoadTracker&nbsp;<em>India</em></span>
+      </a>
+
+      <div class="search" id="search">
+        <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true">
+          <circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="2" />
+          <path d="M13.5 13.5 L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <input
+          id="search-input"
+          type="text"
+          role="combobox"
+          aria-expanded="false"
+          aria-controls="search-list"
+          aria-autocomplete="list"
+          autocomplete="off"
+          autocapitalize="off"
+          spellcheck="false"
+          placeholder="Search a road or city — try “NH 44”"
+          aria-label="Search roads and cities"
+        />
+        <kbd class="search-kbd" aria-hidden="true">/</kbd>
+        <ul id="search-list" role="listbox" aria-label="Search suggestions" hidden></ul>
+      </div>
+
+      <div class="topbar-actions">
+        <button id="btn-browse" class="chip-btn" aria-pressed="false">
+          <svg viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M3 5h14M3 10h14M3 15h9" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <span>Browse</span>
+        </button>
+        <button id="btn-theme" class="icon-btn" aria-label="Switch to dark mode">
+          <svg class="ic-sun" viewBox="0 0 20 20" aria-hidden="true">
+            <circle cx="10" cy="10" r="4" fill="currentColor" />
+            <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+              <path d="M10 1.5v2M10 16.5v2M1.5 10h2M16.5 10h2M4 4l1.4 1.4M14.6 14.6L16 16M16 4l-1.4 1.4M5.4 14.6L4 16" />
+            </g>
+          </svg>
+          <svg class="ic-moon" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M17 11.5A7.5 7.5 0 0 1 8.5 3 7.5 7.5 0 1 0 17 11.5Z" fill="currentColor" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div
+        id="map"
+        role="application"
+        aria-label="Interactive map of Indian roads. Use the search box or the browse button to pick a road."
+      ></div>
+
+      <div class="map-fabs">
+        <button id="btn-report" class="fab" aria-label="Report a pothole, damage or flooding">
+          <svg viewBox="0 0 22 22" aria-hidden="true">
+            <path d="M5 20V4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+            <path d="M5 4h11l-2.5 4L16 12H5" fill="currentColor" />
+          </svg>
+          <span class="fab-label">Report</span>
+        </button>
+        <button id="btn-locate" class="fab fab-primary" aria-label="Find my road using my location">
+          <svg viewBox="0 0 22 22" aria-hidden="true">
+            <circle cx="11" cy="11" r="3" fill="currentColor" />
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <path d="M11 1.5v3M11 17.5v3M1.5 11h3M17.5 11h3" />
+            </g>
+          </svg>
+          <span class="fab-label">Find my road</span>
+        </button>
+      </div>
+
+      <div class="legend" id="legend">
+        <button class="legend-toggle" id="legend-toggle" aria-expanded="true" aria-controls="legend-body">
+          <span>Map key</span>
+          <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+        </button>
+        <ul id="legend-body">
+          <li><i class="lg-line lg-exp"></i> Expressway</li>
+          <li><i class="lg-line lg-nh"></i> National Highway</li>
+          <li><i class="lg-line lg-sh"></i> State Highway</li>
+          <li><i class="lg-line lg-local"></i> City &amp; other roads</li>
+          <li><i class="lg-line lg-dashed"></i> Being built / planned</li>
+        </ul>
+      </div>
+
+      <aside id="panel" class="panel" aria-label="Road details" hidden>
+        <button class="sheet-handle" id="sheet-handle" aria-label="Expand or collapse the details sheet"><i></i></button>
+        <div class="panel-scroll" id="panel-content"></div>
+      </aside>
+
+      <div id="report-dialog" class="report-dialog" role="dialog" aria-label="Report a road problem" hidden></div>
+
+      <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+
+      <div id="net-banner" class="net-banner" hidden>
+        <span>The map tiles didn’t load — check your connection.</span>
+        <button id="net-retry">Try again</button>
+      </div>
+    </main>
+
+    <noscript>
+      <div class="noscript">
+        <h2>RoadTracker India</h2>
+        <p>
+          This is an interactive map atlas of Indian roads — National Highways, Expressways and State
+          Highways with routes, status, toll plazas, history and facts. Please enable JavaScript to
+          explore the map.
+        </p>
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

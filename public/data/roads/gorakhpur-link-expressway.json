@@ -1,0 +1,37 @@
+{
+  "id": "gorakhpur-link-expressway",
+  "ref": "Gorakhpur Link Expressway",
+  "name": "Gorakhpur Link Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 91,
+  "lanes": "4 lanes, access-controlled (expandable to 6)",
+  "agency": "UPEIDA",
+  "cost": "₹7,283 crore (approx., including land)",
+  "route": {
+    "start": "Jaitpur, Gorakhpur district, Uttar Pradesh",
+    "end": "Salarpur, Azamgarh district, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Gorakhpur", "Sikriganj", "Azamgarh"]
+  },
+  "timeline": [
+    { "year": "2020", "event": "Construction begins" },
+    { "year": "2025", "event": "Opened to traffic on 20 June" }
+  ],
+  "history": "The Gorakhpur Link Expressway connects the city of Gorakhpur in northeastern Uttar Pradesh to the Purvanchal Expressway at Salarpur in Azamgarh district. That link lets traffic from Gorakhpur reach Lucknow almost entirely by expressway. It was built by UPEIDA and opened to traffic in June 2025.",
+  "facts": [
+    "Links Gorakhpur to the Purvanchal Expressway, cutting the drive to Lucknow by more than an hour.",
+    "Passes through four districts: Gorakhpur, Sant Kabir Nagar, Ambedkar Nagar and Azamgarh.",
+    "Starts at Jaitpur on NH 27, on the edge of Gorakhpur.",
+    "Opened to traffic on 20 June 2025."
+  ],
+  "sources": [
+    { "title": "UPEIDA — Gorakhpur Link Expressway", "url": "https://upeida.up.gov.in/en/page/gorakhpur-link-expressway" }
+  ],
+  "waypoints": [
+    { "name": "Jaitpur (Gorakhpur)", "coords": [83.36, 26.695] },
+    { "name": "Sikriganj", "coords": [83.205, 26.505] },
+    { "name": "Fulwariya", "coords": [82.97, 26.31] },
+    { "name": "Salarpur (junction with Purvanchal Expressway)", "coords": [82.85, 26.19] }
+  ]
+}

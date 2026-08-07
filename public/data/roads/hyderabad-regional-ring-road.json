@@ -1,0 +1,49 @@
+{
+  "id": "hyderabad-regional-ring-road",
+  "ref": "Regional Ring Road",
+  "name": "Hyderabad Regional Ring Road",
+  "aka": ["RRR"],
+  "category": "expressway",
+  "status": "under-construction",
+  "lengthKm": 161.5,
+  "lanes": "6 lanes, access-controlled (as planned)",
+  "agency": "NHAI",
+  "route": {
+    "start": "Girmapur, near Sangareddy, Telangana (northern section)",
+    "end": "Choutuppal, Yadadri Bhuvanagiri district, Telangana (northern section)",
+    "states": ["Telangana"],
+    "majorCities": [
+      "Sangareddy",
+      "Narsapur",
+      "Toopran",
+      "Gajwel",
+      "Bhuvanagiri",
+      "Choutuppal"
+    ]
+  },
+  "timeline": [
+    { "year": "2021", "event": "Northern half approved as a national highway project" },
+    { "year": "2025", "event": "Construction tenders invited for the northern section as land acquisition nears completion" },
+    { "year": "2026", "event": "Contracts awarded and construction begins on the northern section" }
+  ],
+  "history": "The Regional Ring Road is planned as a second, much bigger circle around Hyderabad, far outside the existing 158 km Outer Ring Road. The full loop of roughly 340 km would tie together the towns and highways all around the city. Only the northern half — about 161 km from Girmapur near Sangareddy to Choutuppal — has been approved and is being built by NHAI, while the southern half is still waiting for final approval. The map here shows the northern section.",
+  "facts": [
+    "Planned as a roughly 340 km ring around Hyderabad — more than twice the length of the existing Outer Ring Road.",
+    "The northern section (about 161 km) runs from Girmapur near Sangareddy to Choutuppal via Narsapur, Toopran, Gajwel and Bhuvanagiri.",
+    "Links the big highways out of Hyderabad, including the Mumbai, Nagpur, Warangal and Vijayawada routes.",
+    "The southern half of the ring is still at the planning and approval stage."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Sangareddy (Girmapur)", "coords": [78.086, 17.625] },
+    { "name": "Narsapur", "coords": [78.28, 17.738] },
+    { "name": "Toopran", "coords": [78.463, 17.844] },
+    { "name": "Gajwel", "coords": [78.682, 17.851] },
+    { "name": "Jagdevpur", "coords": [78.656, 17.757] },
+    { "name": "Bhuvanagiri", "coords": [78.89, 17.51] },
+    { "name": "Choutuppal", "coords": [78.924, 17.254] }
+  ]
+}

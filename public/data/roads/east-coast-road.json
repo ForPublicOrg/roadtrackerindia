@@ -1,0 +1,48 @@
+{
+  "id": "east-coast-road",
+  "ref": "SH 49",
+  "name": "East Coast Road",
+  "aka": ["ECR"],
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 135,
+  "lanes": "Mostly 2 lanes, being widened to 4 in stages",
+  "agency": "TNRDC (Tamil Nadu Road Development Company)",
+  "route": {
+    "start": "Thiruvanmiyur, Chennai, Tamil Nadu",
+    "end": "Puducherry",
+    "states": ["Tamil Nadu", "Puducherry"],
+    "majorCities": ["Chennai", "Kovalam", "Mahabalipuram", "Kalpakkam", "Marakkanam", "Puducherry"]
+  },
+  "tolls": [
+    { "name": "Uthandi toll plaza", "note": "southern edge of Chennai" }
+  ],
+  "timeline": [
+    { "year": "2002", "event": "Reopens as an improved toll road managed by TNRDC" },
+    { "year": "2020s", "event": "Widening of the busiest stretches to four lanes taken up" }
+  ],
+  "history": "The East Coast Road is a scenic highway that runs beside the Bay of Bengal from Chennai to Puducherry. It passes beaches, fishing villages and the ancient stone temples of Mahabalipuram. In 2002 it was improved and reopened as one of India's early state toll roads, looked after by the Tamil Nadu Road Development Company. Today it is one of the most popular drives in South India.",
+  "facts": [
+    "Runs close to the sea for most of its length, with beach views at many points.",
+    "Passes the UNESCO World Heritage monuments at Mahabalipuram.",
+    "One of the first state highways in India to be improved and run as a maintained toll road, from 2002.",
+    "The coastal route continues beyond Puducherry, but the Chennai–Puducherry stretch is the best known and busiest part."
+  ],
+  "sources": [
+    { "title": "Tamil Nadu Road Development Company (TNRDC)", "url": "https://www.tnrdc.com/" },
+    { "title": "Government of Tamil Nadu", "url": "https://www.tn.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Thiruvanmiyur, Chennai", "coords": [80.259, 12.983] },
+    { "name": "Injambakkam", "coords": [80.253, 12.916] },
+    { "name": "Uthandi", "coords": [80.243, 12.866] },
+    { "name": "Kovalam (Covelong)", "coords": [80.252, 12.790] },
+    { "name": "Mahabalipuram", "coords": [80.194, 12.621] },
+    { "name": "Kalpakkam", "coords": [80.165, 12.545] },
+    { "name": "Koovathur", "coords": [80.107, 12.443] },
+    { "name": "Kadapakkam", "coords": [80.023, 12.313] },
+    { "name": "Marakkanam", "coords": [79.941, 12.192] },
+    { "name": "Kottakuppam", "coords": [79.833, 11.955] },
+    { "name": "Puducherry", "coords": [79.830, 11.934] }
+  ]
+}

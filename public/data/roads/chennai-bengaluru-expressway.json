@@ -1,0 +1,54 @@
+{
+  "id": "chennai-bengaluru-expressway",
+  "ref": "NE 7",
+  "name": "Bengaluru–Chennai Expressway",
+  "aka": ["Bangalore–Chennai Expressway (BCE)"],
+  "category": "expressway",
+  "status": "under-construction",
+  "lengthKm": 262,
+  "lanes": "4 lanes, access-controlled (built for expansion later)",
+  "agency": "NHAI",
+  "route": {
+    "start": "Hoskote, Karnataka",
+    "end": "Sriperumbudur, Tamil Nadu",
+    "states": ["Karnataka", "Andhra Pradesh", "Tamil Nadu"],
+    "majorCities": [
+      "Hoskote",
+      "Malur",
+      "Bangarpet",
+      "Chittoor",
+      "Arakkonam",
+      "Kancheepuram",
+      "Sriperumbudur"
+    ]
+  },
+  "timeline": [
+    { "year": "2021", "event": "Construction begins in packages across three states" },
+    { "year": "2024", "event": "The 71 km Karnataka stretch is completed and starts carrying traffic" },
+    { "year": "2026", "event": "A 25 km stretch opens in Andhra Pradesh, taking the open length to about 100 km" },
+    { "year": "2027", "event": "Full route targeted to open end to end" }
+  ],
+  "history": "This is a brand-new expressway being built on a fresh path between Hoskote near Bengaluru and Sriperumbudur near Chennai, instead of widening the old highway. It crosses Karnataka, Andhra Pradesh and Tamil Nadu, and is designed so cars can travel fast without any crossings on the road. The Karnataka stretch opened first, but a delayed section in Tamil Nadu has pushed the full end-to-end opening to around 2027.",
+  "facts": [
+    "Expected to cut the Bengaluru–Chennai drive to roughly 3 hours.",
+    "A greenfield expressway — built on an entirely new alignment, not on top of the old road.",
+    "Designed for speeds of up to 120 km/h.",
+    "The 71 km Karnataka section was the first stretch to open to traffic.",
+    "Runs south of the old Bengaluru–Chennai highway through Kolar and Chittoor districts."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Hoskote", "coords": [77.798, 13.072] },
+    { "name": "Malur", "coords": [77.938, 13.004] },
+    { "name": "Bangarpet", "coords": [78.178, 12.991] },
+    { "name": "Kolar Gold Fields", "coords": [78.279, 12.955] },
+    { "name": "Chittoor", "coords": [79.1, 13.217] },
+    { "name": "Sholinghur", "coords": [79.42, 13.116] },
+    { "name": "Arakkonam", "coords": [79.671, 13.085] },
+    { "name": "Kancheepuram", "coords": [79.704, 12.834] },
+    { "name": "Sriperumbudur", "coords": [79.946, 12.968] }
+  ]
+}

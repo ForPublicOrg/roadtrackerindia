@@ -1,0 +1,38 @@
+{
+  "id": "dnd-flyway",
+  "ref": "DND Flyway",
+  "name": "Delhi–Noida Direct Flyway",
+  "aka": ["DND"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "lanes": "8 lanes",
+  "agency": "Noida Toll Bridge Company Ltd (NTBCL)",
+  "route": {
+    "start": "Maharani Bagh (Ring Road), Delhi",
+    "end": "Noida, Uttar Pradesh",
+    "states": ["Delhi", "Uttar Pradesh"],
+    "majorCities": ["Delhi", "Noida"]
+  },
+  "timeline": [
+    { "year": "2001", "event": "Opened to traffic" },
+    { "year": "2016", "event": "Became toll-free after an Allahabad High Court order (October)" }
+  ],
+  "history": "The DND Flyway was one of India's first modern tollways, built by a private company to link south Delhi with Noida across the Yamuna river. It opened in 2001 and quickly became the main road for Noida's office crowd. After years of court battles over its toll, judges ruled in 2016 that using it should be free, and it has stayed toll-free ever since.",
+  "facts": [
+    "\"DND\" stands for Delhi–Noida Direct.",
+    "One of India's first privately built and operated toll roads.",
+    "Eight lanes wide where it crosses the Yamuna floodplain.",
+    "Toll-free since October 2016 after a court ruling.",
+    "A link road connects it to Mayur Vihar in east Delhi."
+  ],
+  "sources": [
+    { "title": "Noida Authority", "url": "https://noidaauthorityonline.in/" },
+    { "title": "Government of NCT of Delhi", "url": "https://delhi.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Maharani Bagh (Ring Road)", "coords": [77.259, 28.568] },
+    { "name": "DND toll plaza (Yamuna crossing)", "coords": [77.293, 28.557] },
+    { "name": "Film City, Noida", "coords": [77.313, 28.574] }
+  ]
+}

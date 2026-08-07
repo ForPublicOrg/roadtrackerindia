@@ -1,0 +1,44 @@
+{
+  "id": "jp-ganga-path",
+  "ref": "JP Ganga Path",
+  "name": "Loknayak Ganga Path",
+  "aka": ["JP Ganga Path", "Patna Marine Drive"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 20.5,
+  "lanes": "4 lanes",
+  "agency": "Bihar State Road Development Corporation (BSRDC)",
+  "cost": "₹3,831 crore (approx.)",
+  "route": {
+    "start": "Digha, Patna, Bihar",
+    "end": "Didarganj, Patna, Bihar",
+    "states": ["Bihar"],
+    "majorCities": ["Digha", "Gandhi Maidan area", "Patna City", "Didarganj"]
+  },
+  "timeline": [
+    { "year": "2013", "event": "Foundation stone laid" },
+    { "year": "2022", "event": "First stretch, Digha to PMCH, opens" },
+    { "year": "2024", "event": "Open up to Kangan Ghat in Patna City" },
+    { "year": "2025", "event": "Full 20.5 km Digha–Didarganj road inaugurated in April" }
+  ],
+  "history": "The Loknayak Ganga Path, better known as the JP Ganga Path, is a riverfront expressway that runs along the Ganga in Patna, from Digha in the west to Didarganj in the east. Much of it stands on stilts above the riverbank, which is why locals call it Patna's Marine Drive. It was opened piece by piece from 2022, and the full 20.5 km road was inaugurated in April 2025. It gives Patna a fast east–west route and easy river-side access to places like PMCH hospital and the old Patna City area.",
+  "facts": [
+    "Named after Loknayak Jayaprakash Narayan, the freedom fighter popularly called JP.",
+    "Nicknamed the Marine Drive of Patna for its long riverside views.",
+    "A large part of the road is elevated above the banks of the Ganga.",
+    "Opened in phases between 2022 and 2025, built by the Bihar government."
+  ],
+  "sources": [
+    { "title": "Government of Bihar — State Portal", "url": "https://state.bihar.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Digha", "coords": [85.091, 25.641] },
+    { "name": "Kurji", "coords": [85.105, 25.642] },
+    { "name": "Collectorate Ghat (Gandhi Maidan)", "coords": [85.14, 25.622] },
+    { "name": "PMCH", "coords": [85.152, 25.62] },
+    { "name": "Gandhi Ghat", "coords": [85.17, 25.62] },
+    { "name": "Gaighat", "coords": [85.189, 25.614] },
+    { "name": "Kangan Ghat", "coords": [85.23, 25.596] },
+    { "name": "Didarganj", "coords": [85.266, 25.582] }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "mumbai-eastern-freeway",
+  "ref": "Eastern Freeway",
+  "name": "Mumbai Eastern Freeway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 16.8,
+  "agency": "MMRDA",
+  "route": {
+    "start": "P D'Mello Road (Orange Gate), Mumbai",
+    "end": "Chheda Nagar, Ghatkopar, Mumbai",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mumbai",
+      "Sewri",
+      "Wadala",
+      "Chembur",
+      "Ghatkopar"
+    ]
+  },
+  "timeline": [
+    {
+      "year": "2013",
+      "event": "First phase, from P D'Mello Road to Panjarpol, opens to traffic"
+    },
+    {
+      "year": "2014",
+      "event": "Full 16.8 km freeway up to Ghatkopar becomes operational"
+    }
+  ],
+  "history": "The Eastern Freeway lets drivers move between south Mumbai and the eastern suburbs without a single traffic light. Built by the MMRDA, it runs mostly on long elevated viaducts past the old dock lands and even passes through twin tunnels cut into a hill near Panjarpol. It opened in stages in 2013 and 2014. Unusually for a big Mumbai road project, it is completely toll-free.",
+  "facts": [
+    "16.8 km long with no traffic signals and no toll.",
+    "Includes twin road tunnels near the Anik–Panjarpol hills.",
+    "Much of the route is one of the longest elevated road stretches in Mumbai.",
+    "Connects to the Eastern Express Highway at Chheda Nagar, Ghatkopar."
+  ],
+  "sources": [
+    {
+      "title": "MMRDA — Mumbai Metropolitan Region Development Authority",
+      "url": "https://mmrda.maharashtra.gov.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Orange Gate (P D'Mello Road)",
+      "coords": [
+        72.843,
+        18.949
+      ]
+    },
+    {
+      "name": "Sewri",
+      "coords": [
+        72.858,
+        18.993
+      ]
+    },
+    {
+      "name": "Wadala",
+      "coords": [
+        72.869,
+        19.018
+      ]
+    },
+    {
+      "name": "Anik",
+      "coords": [
+        72.875,
+        19.033
+      ]
+    },
+    {
+      "name": "Panjarpol",
+      "coords": [
+        72.885,
+        19.045
+      ]
+    },
+    {
+      "name": "Chembur (west edge)",
+      "coords": [
+        72.891,
+        19.053
+      ]
+    },
+    {
+      "name": "Chheda Nagar, Ghatkopar",
+      "coords": [
+        72.899,
+        19.062
+      ]
+    }
+  ]
+}

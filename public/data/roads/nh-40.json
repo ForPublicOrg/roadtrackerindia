@@ -1,0 +1,44 @@
+{
+  "id": "nh-40",
+  "ref": "NH 40",
+  "name": "Kurnool–Ranipet Highway",
+  "aka": ["Formed from the former NH 18 and part of the former NH 4"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 411,
+  "route": {
+    "start": "Kurnool, Andhra Pradesh",
+    "end": "Ranipet, Tamil Nadu",
+    "states": ["Andhra Pradesh", "Tamil Nadu"],
+    "majorCities": [
+      "Kurnool",
+      "Nandyal",
+      "Kadapa",
+      "Rayachoti",
+      "Chittoor",
+      "Ranipet"
+    ]
+  },
+  "history": "NH 40 runs through Rayalaseema, the dry southern part of Andhra Pradesh, connecting Kurnool, Nandyal and Kadapa with Chittoor near the Tamil Nadu border. It ends at Ranipet, an industrial town where it meets NH 48, the big Chennai–Bengaluru highway. Before the 2010 renumbering, most of this road was known as NH 18.",
+  "facts": [
+    "Begins at a junction with NH 44 at Kurnool and ends at NH 48 at Ranipet.",
+    "About 381 km of its length lies in Andhra Pradesh; only the last short stretch is in Tamil Nadu.",
+    "One of the main highways of the Rayalaseema region."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Kurnool", "coords": [78.037, 15.828] },
+    { "name": "Nandyal", "coords": [78.48, 15.48] },
+    { "name": "Allagadda", "coords": [78.51, 15.13] },
+    { "name": "Chagalamarri", "coords": [78.57, 15.04] },
+    { "name": "Mydukur", "coords": [78.75, 14.94] },
+    { "name": "Kadapa", "coords": [78.82, 14.47] },
+    { "name": "Rayachoti", "coords": [78.75, 14.06] },
+    { "name": "Pileru", "coords": [78.95, 13.65] },
+    { "name": "Chittoor", "coords": [79.1, 13.22] },
+    { "name": "Ranipet", "coords": [79.33, 12.93] }
+  ]
+}

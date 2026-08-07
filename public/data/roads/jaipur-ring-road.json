@@ -1,0 +1,40 @@
+{
+  "id": "jaipur-ring-road",
+  "ref": "Jaipur Ring Road",
+  "name": "Jaipur Ring Road (Southern Corridor)",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 47,
+  "lanes": "6-lane main carriageway with service roads on both sides",
+  "agency": "Jaipur Development Authority (JDA)",
+  "route": {
+    "start": "Ajmer Road (NH 48), Jaipur",
+    "end": "Agra Road (NH 21), Jaipur",
+    "states": ["Rajasthan"],
+    "majorCities": ["Bhankrota", "Muhana", "Vatika", "Goner"]
+  },
+  "timeline": [
+    { "year": "2011", "event": "Construction contract for the southern corridor awarded" },
+    { "year": "2019", "event": "First 27 km, from Ajmer Road to Tonk Road, inaugurated" },
+    { "year": "2020", "event": "Remaining Tonk Road–Agra Road section opens, completing the 47 km southern corridor" }
+  ],
+  "history": "The Jaipur Ring Road is a bypass that curves around the southern side of Jaipur, joining the three big highways that leave the city towards Ajmer, Tonk and Agra. It was built by the Jaipur Development Authority so that trucks and long-distance traffic no longer need to squeeze through the crowded Pink City. The first 27 km opened in 2019 and the rest of the southern corridor opened in 2020. A northern corridor to turn the arc into a full circle is planned.",
+  "facts": [
+    "A 47 km arc south of Jaipur linking the Ajmer, Tonk and Agra highways.",
+    "Built as a six-lane, access-controlled road with service lanes on both sides.",
+    "The project was delayed for years by land disputes before opening in 2019–2020.",
+    "A northern corridor of roughly 45 km is planned to complete the ring around Jaipur."
+  ],
+  "sources": [
+    { "title": "Government of Rajasthan", "url": "https://rajasthan.gov.in/" },
+    { "title": "Press Information Bureau, Government of India", "url": "https://pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Ajmer Road junction (near Bhankrota)", "coords": [75.652, 26.841] },
+    { "name": "Muhana", "coords": [75.762, 26.776] },
+    { "name": "Vatika", "coords": [75.800, 26.740] },
+    { "name": "Tonk Road junction", "coords": [75.840, 26.706] },
+    { "name": "Goner Road junction", "coords": [75.888, 26.790] },
+    { "name": "Agra Road junction", "coords": [75.920, 26.868] }
+  ]
+}

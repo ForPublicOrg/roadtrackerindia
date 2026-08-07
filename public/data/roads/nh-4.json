@@ -1,0 +1,45 @@
+{
+  "id": "nh-4",
+  "ref": "NH 4",
+  "name": "Great Andaman Trunk Road",
+  "aka": ["National Highway 223 (old numbering)", "Andaman Trunk Road"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 231,
+  "route": {
+    "start": "Chidiya Tapu, South Andaman",
+    "end": "Diglipur, North Andaman",
+    "states": ["Andaman and Nicobar Islands"],
+    "majorCities": [
+      "Port Blair",
+      "Ferrargunj",
+      "Baratang",
+      "Rangat",
+      "Mayabunder",
+      "Diglipur"
+    ]
+  },
+  "history": "NH 4 is the road lifeline of the Andaman Islands, running from Chidiya Tapu near the southern tip of South Andaman, through the capital Port Blair, all the way north to Diglipur. Vehicles cross the sea channels between the islands on ferries, and part of the road passes through the buffer zone of the Jarawa tribal reserve, where traffic moves in guarded convoys at fixed times. Before the road existed, reaching the northern islands from Port Blair took days by boat; now the trip can be done in about 10 to 12 hours.",
+  "facts": [
+    "The only national highway in the Andaman and Nicobar Islands.",
+    "Known locally as the Andaman Trunk Road, or simply the ATR.",
+    "Was numbered NH 223 before being renumbered NH 4.",
+    "Ferries carry vehicles across the sea channels between islands along the route.",
+    "Passes near Baratang island's limestone caves and mud volcanoes."
+  ],
+  "sources": [
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" }
+  ],
+  "waypoints": [
+    { "name": "Chidiya Tapu", "coords": [92.71, 11.49] },
+    { "name": "Port Blair", "coords": [92.73, 11.62] },
+    { "name": "Ferrargunj", "coords": [92.68, 11.72] },
+    { "name": "Baratang", "coords": [92.75, 12.09] },
+    { "name": "Kadamtala", "coords": [92.77, 12.33] },
+    { "name": "Rangat", "coords": [92.9, 12.5] },
+    { "name": "Billiground", "coords": [92.88, 12.62] },
+    { "name": "Mayabunder", "coords": [92.9, 12.92] },
+    { "name": "Diglipur", "coords": [92.98, 13.25] }
+  ]
+}

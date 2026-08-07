@@ -1,0 +1,39 @@
+{
+  "id": "ahmedabad-dholera-expressway",
+  "ref": "Ahmedabad–Dholera Expressway",
+  "name": "Ahmedabad–Dholera Expressway",
+  "aka": ["Dholera Expressway", "NH 751"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 109,
+  "lanes": "4 lanes, access-controlled (expandable to 8)",
+  "agency": "NHAI",
+  "route": {
+    "start": "Sarkhej (Sardar Patel Ring Road), Ahmedabad, Gujarat",
+    "end": "Adhelai (near Dholera SIR), Gujarat",
+    "states": ["Gujarat"],
+    "majorCities": ["Ahmedabad", "Dholka", "Dholera"]
+  },
+  "timeline": [
+    { "year": "2021", "event": "Construction begins on the greenfield route" },
+    { "year": "2026", "event": "Opened to traffic in January; formally inaugurated in March" }
+  ],
+  "history": "This expressway was built to connect Ahmedabad with Dholera, the site of India's first big planned 'greenfield' smart city, the Dholera Special Investment Region. It starts at the Sardar Patel Ring Road near Sarkhej and runs south on an entirely new alignment, ending near Adhelai village beyond Dholera. Built by NHAI under the Bharatmala programme and opened in early 2026, it shrinks the Ahmedabad–Dholera trip from over two hours to about one, and also serves the upcoming Dholera International Airport.",
+  "facts": [
+    "Designated National Highway 751 (NH 751).",
+    "Built as the main road link to the Dholera Special Investment Region and the new Dholera International Airport.",
+    "Cuts the Ahmedabad–Dholera journey to roughly an hour.",
+    "A brand-new 'greenfield' road — it doesn't follow any older highway."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Press Information Bureau", "url": "https://pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Sarkhej (Sardar Patel Ring Road)", "coords": [72.502, 22.981] },
+    { "name": "Dholka area", "coords": [72.441, 22.727] },
+    { "name": "Vataman area", "coords": [72.37, 22.45] },
+    { "name": "Dholera", "coords": [72.193, 22.248] },
+    { "name": "Adhelai", "coords": [72.19, 22.14] }
+  ]
+}

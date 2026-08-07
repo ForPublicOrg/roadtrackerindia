@@ -1,0 +1,44 @@
+{
+  "id": "purvanchal-expressway",
+  "ref": "Purvanchal Expressway",
+  "name": "Purvanchal Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 341,
+  "lanes": "6 lanes, access-controlled (expandable to 8)",
+  "agency": "UPEIDA",
+  "cost": "₹22,494 crore (approx., including land)",
+  "route": {
+    "start": "Chand Sarai, Lucknow district, Uttar Pradesh",
+    "end": "Haidaria, Ghazipur district, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Lucknow", "Haidergarh", "Sultanpur", "Akbarpur", "Azamgarh", "Mau", "Ghazipur"]
+  },
+  "timeline": [
+    { "year": "2018", "event": "Foundation stone laid and construction begins" },
+    { "year": "2021", "event": "Inaugurated on 16 November; the Prime Minister's C-130J Hercules lands on the expressway" }
+  ],
+  "history": "The Purvanchal Expressway was built to connect Lucknow with Purvanchal, the eastern part of Uttar Pradesh, which had few fast roads. Construction began in 2018 and Prime Minister Narendra Modi opened it in November 2021, arriving in a large air force plane that landed right on the expressway. It runs 341 km from Chand Sarai near Lucknow to Haidaria near the Bihar border.",
+  "facts": [
+    "India's longest expressway when it opened in November 2021.",
+    "Has a 3.2 km emergency airstrip near Kurebhar in Sultanpur district for air force planes.",
+    "At the opening ceremony, a C-130J Hercules aircraft carrying the Prime Minister landed directly on the expressway.",
+    "The 91 km Gorakhpur Link Expressway joins it at Salarpur in Azamgarh district.",
+    "Passes through nine districts of Uttar Pradesh."
+  ],
+  "sources": [
+    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" },
+    { "title": "Press Information Bureau", "url": "https://www.pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Chand Sarai (Lucknow)", "coords": [81.055, 26.78] },
+    { "name": "Haidergarh", "coords": [81.325, 26.615] },
+    { "name": "Kurebhar", "coords": [82.02, 26.4] },
+    { "name": "Akbarpur", "coords": [82.545, 26.355] },
+    { "name": "Salarpur (junction with Gorakhpur Link Expressway)", "coords": [82.85, 26.19] },
+    { "name": "Azamgarh", "coords": [83.15, 26.001] },
+    { "name": "Mau", "coords": [83.545, 25.87] },
+    { "name": "Ghazipur", "coords": [83.64, 25.7] },
+    { "name": "Haidaria", "coords": [83.75, 25.62] }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "agra-lucknow-expressway",
+  "ref": "Agra–Lucknow Expressway",
+  "name": "Agra–Lucknow Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 302,
+  "lanes": "6 lanes, access-controlled (expandable to 8)",
+  "agency": "UPEIDA",
+  "route": {
+    "start": "Agra (Inner Ring Road), Uttar Pradesh",
+    "end": "Lucknow, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Agra", "Firozabad", "Etawah", "Kannauj", "Bangarmau", "Lucknow"]
+  },
+  "timeline": [
+    { "year": "2014", "event": "Construction begins" },
+    { "year": "2016", "event": "Inaugurated in November; air force fighter jets land on the expressway's airstrip" },
+    { "year": "2017", "event": "Fully opened to the public" }
+  ],
+  "history": "The Agra–Lucknow Expressway was built by UPEIDA to give Uttar Pradesh's capital, Lucknow, a fast link to Agra and onward to Delhi. Work started in 2014 and the road was ready in about two years, which was very fast for a project of this size. It was inaugurated in November 2016, when air force fighter jets landed on a special straight stretch of the road, and it fully opened to the public in 2017.",
+  "facts": [
+    "At 302 km, it was India's longest expressway when it opened.",
+    "Built in about 23 months — one of the fastest expressway builds in India.",
+    "Has a 3.3 km airstrip stretch near Bangarmau in Unnao district, used by air force fighter jets for practice landings.",
+    "Meets the Yamuna Expressway at Agra, so you can drive from Greater Noida to Lucknow entirely on expressways.",
+    "The Bundelkhand Expressway joins it near Etawah."
+  ],
+  "sources": [
+    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Agra (Inner Ring Road)", "coords": [78.115, 27.205] },
+    { "name": "Firozabad", "coords": [78.42, 27.19] },
+    { "name": "Shikohabad", "coords": [78.605, 27.16] },
+    { "name": "Karhal", "coords": [78.94, 27.001] },
+    { "name": "Saifai", "coords": [79.055, 26.935] },
+    { "name": "Kudrail (near Etawah)", "coords": [79.13, 26.865] },
+    { "name": "Bidhuna", "coords": [79.5, 26.82] },
+    { "name": "Kannauj", "coords": [79.915, 27.005] },
+    { "name": "Bilhaur", "coords": [80.065, 26.855] },
+    { "name": "Bangarmau", "coords": [80.215, 26.9] },
+    { "name": "Auras", "coords": [80.505, 26.885] },
+    { "name": "Lucknow (near Kakori)", "coords": [80.835, 26.805] }
+  ]
+}

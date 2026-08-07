@@ -1,0 +1,49 @@
+{
+  "id": "yamuna-expressway",
+  "ref": "Yamuna Expressway",
+  "name": "Greater Noida–Agra Expressway",
+  "aka": ["Taj Expressway (original project name)"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 165.5,
+  "lanes": "6 lanes, access-controlled (expandable to 8)",
+  "agency": "YEIDA (Yamuna Expressway Industrial Development Authority)",
+  "contractor": "Jaypee Infratech",
+  "cost": "About ₹13,000 crore",
+  "route": {
+    "start": "Greater Noida, Uttar Pradesh",
+    "end": "Agra, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Greater Noida", "Jewar", "Mathura", "Agra"]
+  },
+  "tolls": [
+    { "name": "Jewar toll plaza", "note": "Gautam Buddh Nagar district" },
+    { "name": "Mathura (Baldev) toll plaza", "note": "Mathura district" },
+    { "name": "Agra toll plaza", "note": "near the Agra end" }
+  ],
+  "timeline": [
+    { "year": "2003", "event": "Project conceived as the Taj Expressway" },
+    { "year": "2012", "event": "Opened to traffic in August" }
+  ],
+  "history": "The Yamuna Expressway connects Greater Noida with Agra along the Yamuna river, cutting the drive to the Taj Mahal to around two hours from Delhi. Built by Jaypee Infratech under a concession from the Uttar Pradesh government, it was one of India's earliest long access-controlled expressways and opened in August 2012. It now also serves the new Noida International Airport coming up at Jewar.",
+  "facts": [
+    "Passes right by the Buddh International Circuit, which hosted India's Formula 1 Grand Prix.",
+    "Serves the under-construction Noida International Airport at Jewar.",
+    "One of the first fully access-controlled 6-lane expressways in India."
+  ],
+  "sources": [
+    { "title": "YEIDA — Yamuna Expressway Industrial Development Authority", "url": "https://www.yamunaexpresswayauthority.com/" },
+    { "title": "Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Greater Noida (Zero Point)", "coords": [77.533, 28.446] },
+    { "name": "Dankaur area", "coords": [77.548, 28.31] },
+    { "name": "Jewar", "coords": [77.585, 28.147] },
+    { "name": "Noida International Airport site", "coords": [77.606, 28.095] },
+    { "name": "Tappal", "coords": [77.65, 28.0] },
+    { "name": "Nohjhil area", "coords": [77.7, 27.8] },
+    { "name": "Mathura interchange (Raya)", "coords": [77.745, 27.56] },
+    { "name": "Baldev", "coords": [77.822, 27.393] },
+    { "name": "Etmadpur (Agra)", "coords": [78.1, 27.24] }
+  ]
+}

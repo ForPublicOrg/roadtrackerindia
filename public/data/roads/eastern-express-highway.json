@@ -1,0 +1,37 @@
+{
+  "id": "eastern-express-highway",
+  "ref": "Eastern Express Highway",
+  "name": "Eastern Express Highway",
+  "aka": ["City stretch of the old NH 3 (Mumbai–Agra Road)"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 23.5,
+  "agency": "Brihanmumbai Municipal Corporation (BMC)",
+  "route": {
+    "start": "Sion, Mumbai",
+    "end": "Thane, Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Sion", "Ghatkopar", "Vikhroli", "Bhandup", "Mulund", "Thane"]
+  },
+  "history": "The Eastern Express Highway connects Sion in Mumbai with the city of Thane, running through the eastern suburbs. It was built as the city end of the old Mumbai–Agra national highway, NH 3. Today it is a wide, mostly signal-free arterial road, and at Ghatkopar it meets the Eastern Freeway, which gives the eastern suburbs a fast run into south Mumbai.",
+  "facts": [
+    "About 23.5 km long, from Sion to Thane.",
+    "Was historically the starting stretch of NH 3, the Mumbai–Agra Road.",
+    "Meets the Eastern Freeway at Chheda Nagar, Ghatkopar.",
+    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022."
+  ],
+  "sources": [
+    { "title": "Brihanmumbai Municipal Corporation (BMC)", "url": "https://portal.mcgm.gov.in/" },
+    { "title": "MMRDA — Mumbai Metropolitan Region Development Authority", "url": "https://mmrda.maharashtra.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Sion", "coords": [72.867, 19.040] },
+    { "name": "Chheda Nagar", "coords": [72.899, 19.062] },
+    { "name": "Ghatkopar", "coords": [72.909, 19.079] },
+    { "name": "Vikhroli", "coords": [72.923, 19.106] },
+    { "name": "Kanjurmarg", "coords": [72.931, 19.124] },
+    { "name": "Bhandup", "coords": [72.937, 19.146] },
+    { "name": "Mulund", "coords": [72.947, 19.167] },
+    { "name": "Teen Hath Naka, Thane", "coords": [72.966, 19.185] }
+  ]
+}

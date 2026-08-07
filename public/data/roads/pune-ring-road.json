@@ -1,0 +1,40 @@
+{
+  "id": "pune-ring-road",
+  "ref": "Pune Ring Road",
+  "name": "Pune Ring Road",
+  "category": "expressway",
+  "status": "under-construction",
+  "lengthKm": 173,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "MSRDC (Maharashtra State Road Development Corporation)",
+  "route": {
+    "start": "Urse (Mumbai–Pune Expressway junction), Pune district, Maharashtra",
+    "end": "Urse (the ring closes back on itself), Pune district, Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Pune", "Pimpri-Chinchwad", "Chakan", "Wagholi", "Khed Shivapur"]
+  },
+  "timeline": [
+    { "year": "2024", "event": "Construction begins in December after most land is acquired" }
+  ],
+  "history": "The Pune Ring Road is a large orbital road being built by MSRDC in a circle around Pune and Pimpri-Chinchwad. Its job is to let long-distance traffic — for example trucks going between Mumbai, Bengaluru, Nashik and Solapur — pass around the city instead of squeezing through it. The route is being built in eastern and western halves, split into many construction packages, and connects the Mumbai–Pune Expressway with all the major highways that radiate out of Pune. Construction began in late 2024 and is under way as of mid-2026.",
+  "facts": [
+    "Roughly 173 km long, circling both Pune and Pimpri-Chinchwad.",
+    "Being built in two halves — an eastern section and a western section — by MSRDC.",
+    "Will link the Mumbai–Pune Expressway with the Bengaluru, Solapur, Ahmednagar and Nashik highways.",
+    "Meant to pull long-distance truck traffic out of Pune's city roads."
+  ],
+  "sources": [
+    { "title": "MSRDC — Maharashtra State Road Development Corporation", "url": "https://www.msrdc.org/" }
+  ],
+  "waypoints": [
+    { "name": "Urse (Mumbai–Pune Expressway)", "coords": [73.662, 18.744] },
+    { "name": "Hinjawadi area", "coords": [73.68, 18.59] },
+    { "name": "Paud area (Mulshi)", "coords": [73.617, 18.528] },
+    { "name": "Khed Shivapur area", "coords": [73.847, 18.361] },
+    { "name": "Loni Kalbhor area", "coords": [74.0, 18.475] },
+    { "name": "Wagholi area", "coords": [74.001, 18.581] },
+    { "name": "Alandi area", "coords": [73.898, 18.677] },
+    { "name": "Chakan area", "coords": [73.863, 18.758] },
+    { "name": "Urse (Mumbai–Pune Expressway)", "coords": [73.662, 18.744] }
+  ]
+}

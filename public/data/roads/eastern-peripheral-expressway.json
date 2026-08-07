@@ -1,0 +1,43 @@
+{
+  "id": "eastern-peripheral-expressway",
+  "ref": "Eastern Peripheral Expressway",
+  "name": "Kundli–Ghaziabad–Palwal Expressway",
+  "aka": ["KGP Expressway", "National Expressway 2"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 135,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "NHAI",
+  "cost": "₹11,000 crore (approx., including land)",
+  "route": {
+    "start": "Kundli, Haryana",
+    "end": "Palwal, Haryana",
+    "states": ["Haryana", "Uttar Pradesh"],
+    "majorCities": ["Kundli", "Baghpat", "Ghaziabad", "Greater Noida", "Palwal"]
+  },
+  "timeline": [
+    { "year": "2015", "event": "Prime Minister lays the foundation stone (5 November)" },
+    { "year": "2018", "event": "Inaugurated and opened to traffic (27 May)" }
+  ],
+  "history": "The Eastern Peripheral Expressway was built so that trucks crossing the Delhi region no longer need to drive through the crowded capital. The Supreme Court had pushed for such a bypass to help clean Delhi's air. The road loops around the east side of Delhi from Kundli to Palwal, crossing the Yamuna river twice, and opened in May 2018. Together with the KMP Expressway on the west side it forms a complete expressway ring around Delhi.",
+  "facts": [
+    "Forms the eastern half of a roughly 270 km expressway ring around Delhi, with the Western Peripheral (KMP) Expressway as the other half.",
+    "India's first expressway lit by solar power, with solar plants along its length.",
+    "Uses a closed tolling system — you pay only for the distance you actually travel.",
+    "Built mainly to let long-distance trucks bypass Delhi and cut the city's air pollution.",
+    "Never enters Delhi itself — it runs entirely through Haryana and Uttar Pradesh."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Kundli", "coords": [77.119, 28.871] },
+    { "name": "Khekra", "coords": [77.284, 28.867] },
+    { "name": "Duhai (Ghaziabad)", "coords": [77.432, 28.752] },
+    { "name": "Dasna", "coords": [77.527, 28.677] },
+    { "name": "Sirsa (Greater Noida)", "coords": [77.556, 28.407] },
+    { "name": "Jaganpur (Yamuna Expressway crossing)", "coords": [77.549, 28.33] },
+    { "name": "Palwal", "coords": [77.329, 28.144] }
+  ]
+}

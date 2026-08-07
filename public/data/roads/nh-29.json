@@ -1,0 +1,36 @@
+{
+  "id": "nh-29",
+  "ref": "NH 29",
+  "name": "Doboka–Jessami Highway",
+  "aka": ["Formed from parts of the former NH 36, NH 39 and NH 150"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 338,
+  "route": {
+    "start": "Doboka, Assam",
+    "end": "Jessami, Manipur",
+    "states": ["Assam", "Nagaland", "Manipur"],
+    "majorCities": ["Doboka", "Dimapur", "Kohima", "Jessami"]
+  },
+  "history": "NH 29 is the main highway of Nagaland. It begins at Doboka in central Assam, crosses the Karbi Anglong hills to reach the plains city of Dimapur, then climbs to Kohima, the state capital, and continues through the hills of Phek district to Jessami on the Manipur border. It was created in the 2010 renumbering from parts of the old NH 36, NH 39 and NH 150.",
+  "facts": [
+    "About 338 km long, crossing Assam, Nagaland and the edge of Manipur.",
+    "The Dimapur–Kohima stretch is part of Asian Highway 1 and is being widened to four lanes.",
+    "Kohima, on the route, was the site of a famous World War II battle in 1944.",
+    "Dimapur, the largest city on the highway, is Nagaland's gateway and railhead."
+  ],
+  "sources": [
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" }
+  ],
+  "waypoints": [
+    { "name": "Doboka", "coords": [92.866, 26.113] },
+    { "name": "Manja", "coords": [93.437, 25.970] },
+    { "name": "Dimapur", "coords": [93.727, 25.906] },
+    { "name": "Chümoukedima", "coords": [93.780, 25.862] },
+    { "name": "Medziphema", "coords": [93.860, 25.758] },
+    { "name": "Kohima", "coords": [94.108, 25.660] },
+    { "name": "Chizami", "coords": [94.372, 25.571] },
+    { "name": "Jessami", "coords": [94.539, 25.617] }
+  ]
+}

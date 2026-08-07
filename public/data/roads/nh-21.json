@@ -1,0 +1,47 @@
+{
+  "id": "nh-21",
+  "ref": "NH 21",
+  "name": "Jaipur–Bareilly Highway",
+  "aka": ["Jaipur–Agra section was the former NH 11"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 502,
+  "lanes": "4 lanes between Jaipur and Agra; narrower beyond Agra",
+  "route": {
+    "start": "Jaipur, Rajasthan",
+    "end": "Bareilly, Uttar Pradesh",
+    "states": ["Rajasthan", "Uttar Pradesh"],
+    "majorCities": [
+      "Jaipur",
+      "Dausa",
+      "Bharatpur",
+      "Agra",
+      "Kasganj",
+      "Budaun",
+      "Bareilly"
+    ]
+  },
+  "history": "NH 21 connects Jaipur, the capital of Rajasthan, with Bareilly in Uttar Pradesh, passing through Agra on the way. Its busy western half between Jaipur and Agra was the famous old NH 11, and the 2010 renumbering joined it with the road onward through Kasganj and Budaun. The highway links three very well-known tourist cities: Jaipur, Bharatpur and Agra.",
+  "facts": [
+    "About 502 km long, from Jaipur to Bareilly via Agra.",
+    "Passes close to Keoladeo National Park, the famous bird sanctuary at Bharatpur.",
+    "Connects two heritage cities, Jaipur and Agra, home of the Taj Mahal.",
+    "Crosses the Ganga between Kasganj and Budaun."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Jaipur", "coords": [75.788, 26.920] },
+    { "name": "Dausa", "coords": [76.338, 26.890] },
+    { "name": "Mahwa", "coords": [76.932, 27.045] },
+    { "name": "Bharatpur", "coords": [77.490, 27.217] },
+    { "name": "Agra", "coords": [78.008, 27.176] },
+    { "name": "Sikandra Rao", "coords": [78.385, 27.690] },
+    { "name": "Kasganj", "coords": [78.646, 27.809] },
+    { "name": "Ujhani", "coords": [79.006, 28.003] },
+    { "name": "Budaun", "coords": [79.121, 28.038] },
+    { "name": "Bareilly", "coords": [79.415, 28.364] }
+  ]
+}

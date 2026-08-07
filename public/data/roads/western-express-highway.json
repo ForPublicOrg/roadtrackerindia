@@ -1,0 +1,41 @@
+{
+  "id": "western-express-highway",
+  "ref": "Western Express Highway",
+  "name": "Western Express Highway",
+  "aka": ["City stretch of the old NH 8 (Mumbai–Ahmedabad–Delhi)"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 25,
+  "lanes": "8–10 lanes including service roads on most stretches",
+  "agency": "Brihanmumbai Municipal Corporation (BMC)",
+  "route": {
+    "start": "Bandra, Mumbai",
+    "end": "Dahisar, Mumbai",
+    "states": ["Maharashtra"],
+    "majorCities": ["Bandra", "Andheri", "Jogeshwari", "Goregaon", "Kandivali", "Borivali", "Dahisar"]
+  },
+  "history": "The Western Express Highway is the main road artery of Mumbai's western suburbs. It begins near Bandra and runs north past the airport to Dahisar, from where the road continues towards Gujarat as a national highway. For decades it carried the famous NH 8 into the city. It is one of the busiest roads in India, and elevated metro trains now run alongside much of it.",
+  "facts": [
+    "About 25 km long, from Bandra to Dahisar.",
+    "Was historically the city end of NH 8, the Mumbai–Ahmedabad–Delhi highway (now numbered NH 48 outside the city).",
+    "Passes close to Mumbai's international airport.",
+    "Mumbai Metro trains run on an elevated line along the highway.",
+    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022."
+  ],
+  "sources": [
+    { "title": "Brihanmumbai Municipal Corporation (BMC)", "url": "https://portal.mcgm.gov.in/" },
+    { "title": "MMRDA — Mumbai Metropolitan Region Development Authority", "url": "https://mmrda.maharashtra.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Bandra (Kalanagar)", "coords": [72.843, 19.057] },
+    { "name": "Vakola, Santacruz", "coords": [72.848, 19.081] },
+    { "name": "Vile Parle", "coords": [72.851, 19.097] },
+    { "name": "Andheri", "coords": [72.855, 19.113] },
+    { "name": "Jogeshwari", "coords": [72.856, 19.135] },
+    { "name": "Goregaon", "coords": [72.858, 19.160] },
+    { "name": "Malad", "coords": [72.857, 19.184] },
+    { "name": "Kandivali", "coords": [72.859, 19.205] },
+    { "name": "Borivali", "coords": [72.861, 19.228] },
+    { "name": "Dahisar", "coords": [72.866, 19.254] }
+  ]
+}

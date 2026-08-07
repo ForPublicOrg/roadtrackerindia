@@ -1,0 +1,66 @@
+{
+  "id": "mc-road",
+  "ref": "SH 1",
+  "name": "Main Central Road",
+  "aka": ["MC Road"],
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 241,
+  "lanes": "Mostly 2 lanes, wider in towns",
+  "agency": "Kerala Public Works Department (PWD)",
+  "route": {
+    "start": "Kesavadasapuram, Thiruvananthapuram, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": ["Kerala"],
+    "majorCities": [
+      "Thiruvananthapuram",
+      "Kottarakkara",
+      "Adoor",
+      "Chengannur",
+      "Thiruvalla",
+      "Changanassery",
+      "Kottayam",
+      "Ettumanoor",
+      "Muvattupuzha",
+      "Perumbavoor",
+      "Angamaly"
+    ]
+  },
+  "timeline": [
+    { "year": "1700s", "event": "First laid out as a main road of the old Travancore kingdom" },
+    { "year": "2000s", "event": "Modernised and widened in stages by Kerala PWD" }
+  ],
+  "history": "The Main Central Road, or MC Road, is one of Kerala's oldest and most important highways. It was first laid out more than two centuries ago, when the region was ruled by the kingdom of Travancore. The road links the capital Thiruvananthapuram with a chain of busy towns in central Kerala before ending at Angamaly near Kochi. Today it is Kerala State Highway 1 and works as the inland twin of the coastal national highway.",
+  "facts": [
+    "Kerala's State Highway 1.",
+    "About 240 km long, from Kesavadasapuram in Thiruvananthapuram to Angamaly.",
+    "Its starting point, Kesavadasapuram, is named after Raja Kesavadas, a famous Dewan (chief minister) of Travancore.",
+    "Crosses six districts: Thiruvananthapuram, Kollam, Pathanamthitta, Alappuzha, Kottayam and Ernakulam.",
+    "Serves as the main inland alternative to the coastal NH 66 through central Kerala."
+  ],
+  "sources": [
+    { "title": "Kerala Public Works Department", "url": "https://www.keralapwd.gov.in/" },
+    { "title": "Government of Kerala", "url": "https://kerala.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Kesavadasapuram, Thiruvananthapuram", "coords": [76.937, 8.524] },
+    { "name": "Venjaramoodu", "coords": [76.907, 8.684] },
+    { "name": "Kilimanoor", "coords": [76.868, 8.766] },
+    { "name": "Nilamel", "coords": [76.838, 8.838] },
+    { "name": "Ayoor", "coords": [76.788, 8.903] },
+    { "name": "Kottarakkara", "coords": [76.774, 9.001] },
+    { "name": "Adoor", "coords": [76.732, 9.155] },
+    { "name": "Pandalam", "coords": [76.680, 9.225] },
+    { "name": "Chengannur", "coords": [76.616, 9.315] },
+    { "name": "Thiruvalla", "coords": [76.576, 9.385] },
+    { "name": "Changanassery", "coords": [76.540, 9.444] },
+    { "name": "Kottayam", "coords": [76.522, 9.591] },
+    { "name": "Ettumanoor", "coords": [76.557, 9.670] },
+    { "name": "Kuravilangad", "coords": [76.566, 9.756] },
+    { "name": "Koothattukulam", "coords": [76.593, 9.860] },
+    { "name": "Muvattupuzha", "coords": [76.578, 9.980] },
+    { "name": "Perumbavoor", "coords": [76.476, 10.110] },
+    { "name": "Kalady", "coords": [76.442, 10.168] },
+    { "name": "Angamaly", "coords": [76.386, 10.196] }
+  ]
+}

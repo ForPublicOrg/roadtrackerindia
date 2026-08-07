@@ -1,0 +1,47 @@
+{
+  "id": "mumbai-pune-expressway",
+  "ref": "Mumbai–Pune Expressway",
+  "name": "Yashwantrao Chavan Mumbai–Pune Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 94.5,
+  "lanes": "6 lanes, concrete, fully access-controlled",
+  "agency": "MSRDC (Maharashtra State Road Development Corporation)",
+  "cost": "About ₹1,630 crore",
+  "route": {
+    "start": "Kalamboli, Navi Mumbai, Maharashtra",
+    "end": "Kiwale, Pune, Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Navi Mumbai", "Khopoli", "Lonavala", "Talegaon", "Pune"]
+  },
+  "tolls": [
+    { "name": "Khalapur toll plaza", "note": "Raigad district" },
+    { "name": "Talegaon toll plaza", "note": "Pune district" }
+  ],
+  "timeline": [
+    { "year": "1997", "event": "Construction begins" },
+    { "year": "2002", "event": "Fully opened to traffic" }
+  ],
+  "history": "India's first six-lane, fully access-controlled concrete expressway, built by the Maharashtra State Road Development Corporation. It climbs the Western Ghats through the scenic Khandala–Lonavala section and cut the Mumbai–Pune journey from four or five hours to about two. A 'Missing Link' project with long tunnels is being built to bypass the congested ghat stretch and shorten the route further.",
+  "facts": [
+    "India's first fully access-controlled expressway, fully opened in 2002.",
+    "Crosses the Western Ghats through the Bhor Ghat near Khandala.",
+    "The under-construction 'Missing Link' includes some of India's widest road tunnels."
+  ],
+  "sources": [
+    { "title": "MSRDC — Maharashtra State Road Development Corporation", "url": "https://www.msrdc.org/" }
+  ],
+  "waypoints": [
+    { "name": "Kalamboli (Navi Mumbai)", "coords": [73.098, 19.034] },
+    { "name": "Shedung", "coords": [73.13, 18.98] },
+    { "name": "Rasayani area", "coords": [73.19, 18.9] },
+    { "name": "Khalapur toll plaza", "coords": [73.27, 18.8] },
+    { "name": "Khopoli", "coords": [73.335, 18.79] },
+    { "name": "Khandala", "coords": [73.38, 18.765] },
+    { "name": "Lonavala", "coords": [73.41, 18.75] },
+    { "name": "Kamshet area", "coords": [73.53, 18.73] },
+    { "name": "Talegaon", "coords": [73.66, 18.72] },
+    { "name": "Dehu Road", "coords": [73.74, 18.68] },
+    { "name": "Kiwale (Pune)", "coords": [73.77, 18.65] }
+  ]
+}

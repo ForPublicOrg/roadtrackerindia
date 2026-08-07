@@ -1,0 +1,43 @@
+{
+  "id": "nh-37",
+  "ref": "NH 37",
+  "name": "Badarpur–Imphal Highway",
+  "aka": [
+    "National Highway 53 (old numbering)"
+  ],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 356,
+  "route": {
+    "start": "Badarpur, Assam",
+    "end": "Imphal, Manipur",
+    "states": ["Assam", "Manipur"],
+    "majorCities": [
+      "Badarpur",
+      "Silchar",
+      "Jiribam",
+      "Noney",
+      "Imphal"
+    ]
+  },
+  "history": "NH 37 is one of Manipur's two road lifelines. It starts at Badarpur in Assam's Barak valley, passes the city of Silchar, and then climbs through the steep, forested hills of Manipur via Jiribam and Noney to reach Imphal. Before the highways were renumbered it was called NH 53, and it becomes the main supply route whenever the other road to Imphal, through Kohima, is blocked.",
+  "facts": [
+    "One of only two highway lifelines into Manipur's Imphal valley — the other is NH 2 through Kohima.",
+    "Was NH 53 before the 2010 renumbering.",
+    "Climbs from the flat Barak valley into steep hills, so the roughly 356 km journey is full of bends.",
+    "Runs broadly alongside the new Jiribam–Imphal railway, whose bridge near Noney has the world's tallest railway pier."
+  ],
+  "sources": [
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Badarpur", "coords": [92.6, 24.87] },
+    { "name": "Panchgram", "coords": [92.65, 24.88] },
+    { "name": "Silchar", "coords": [92.8, 24.83] },
+    { "name": "Jiribam", "coords": [93.12, 24.8] },
+    { "name": "Nungba", "coords": [93.43, 24.78] },
+    { "name": "Noney", "coords": [93.63, 24.86] },
+    { "name": "Imphal", "coords": [93.94, 24.81] }
+  ]
+}

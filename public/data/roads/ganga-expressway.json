@@ -1,0 +1,49 @@
+{
+  "id": "ganga-expressway",
+  "ref": "Ganga Expressway",
+  "name": "Ganga Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 594,
+  "lanes": "6 lanes, access-controlled (expandable to 8)",
+  "agency": "UPEIDA",
+  "cost": "₹36,230 crore (approx.)",
+  "contractor": "IRB Infrastructure and Adani Enterprises",
+  "route": {
+    "start": "Bijauli, Meerut district, Uttar Pradesh",
+    "end": "Judapur Dandu, Prayagraj district, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Meerut", "Budaun", "Shahjahanpur", "Hardoi", "Unnao", "Rae Bareli", "Pratapgarh", "Prayagraj"]
+  },
+  "timeline": [
+    { "year": "2021", "event": "Foundation stone laid by the Prime Minister in December" },
+    { "year": "2025", "event": "Air force jets practise landings on the Shahjahanpur airstrip" },
+    { "year": "2026", "event": "Inaugurated and opened to traffic in April" }
+  ],
+  "history": "The Ganga Expressway is Uttar Pradesh's longest expressway, running 594 km from Bijauli near Meerut to Judapur Dandu near Prayagraj, roughly following the valley of the Ganga river. Prime Minister Narendra Modi laid its foundation stone in December 2021, and the finished road was opened by him in April 2026. It cuts the Meerut–Prayagraj drive from around twelve hours to roughly six.",
+  "facts": [
+    "Uttar Pradesh's longest expressway at 594 km, and one of the longest in India.",
+    "Passes through 12 districts between Meerut and Prayagraj.",
+    "Has a 3.5 km emergency airstrip near Shahjahanpur where air force jets have practised day and night landings.",
+    "Together with the Delhi–Meerut Expressway, it creates an expressway route from Delhi all the way to Prayagraj.",
+    "Planned extensions would stretch it toward Haridwar and Ballia."
+  ],
+  "sources": [
+    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" },
+    { "title": "Press Information Bureau", "url": "https://www.pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Bijauli (Meerut)", "coords": [77.775, 28.895] },
+    { "name": "Garh Mukteshwar", "coords": [78.105, 28.73] },
+    { "name": "Gajraula", "coords": [78.3, 28.7] },
+    { "name": "Bahjoi", "coords": [78.62, 28.41] },
+    { "name": "Budaun", "coords": [79.14, 28.07] },
+    { "name": "Jalalabad (Shahjahanpur)", "coords": [79.66, 27.72] },
+    { "name": "Bilgram", "coords": [80.03, 27.17] },
+    { "name": "Hasanganj", "coords": [80.53, 26.79] },
+    { "name": "Lalganj (Rae Bareli)", "coords": [81.1, 26.35] },
+    { "name": "Rae Bareli", "coords": [81.205, 26.22] },
+    { "name": "Kunda", "coords": [81.51, 25.72] },
+    { "name": "Judapur Dandu (Prayagraj)", "coords": [81.87, 25.55] }
+  ]
+}

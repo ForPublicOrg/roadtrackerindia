@@ -1,0 +1,55 @@
+{
+  "id": "delhi-outer-ring-road",
+  "ref": "Outer Ring Road",
+  "name": "Delhi Outer Ring Road",
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 47.5,
+  "lanes": "6 lanes (3 each way)",
+  "agency": "Delhi PWD",
+  "route": {
+    "start": "Wazirabad Bridge, Delhi",
+    "end": "Wazirabad Bridge, Delhi",
+    "states": ["Delhi"],
+    "majorCities": [
+      "Rohini",
+      "Pitampura",
+      "Peeragarhi",
+      "Janakpuri",
+      "Vasant Vihar",
+      "Munirka",
+      "Nehru Place",
+      "Okhla"
+    ]
+  },
+  "history": "The Outer Ring Road is one of Delhi's two great ring roads. It sweeps in a wide arc from the Wazirabad Bridge in the north, around the west and south of the city, to Kalindi Kunj in the south-east, with the Yamuna river closing the circle. Along the way it links big neighbourhoods like Rohini, Janakpuri, Vasant Vihar and Nehru Place. Over the years many flyovers and underpasses have been added so that traffic can keep moving.",
+  "facts": [
+    "About 47.5 km around, with six lanes of traffic.",
+    "Both ends of the road arc touch the Yamuna — at Wazirabad in the north and Kalindi Kunj in the south-east.",
+    "Has more than a dozen major junctions, including Mukarba Chowk, Peeragarhi and Chirag Delhi.",
+    "Passes major landmarks such as IIT Delhi and the Nehru Place business hub."
+  ],
+  "sources": [
+    { "title": "Public Works Department, Govt. of NCT of Delhi", "url": "https://pwd.delhi.gov.in/" },
+    { "title": "Government of NCT of Delhi", "url": "https://delhi.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Wazirabad Bridge", "coords": [77.232, 28.707] },
+    { "name": "Mukarba Chowk", "coords": [77.164, 28.718] },
+    { "name": "Madhuban Chowk, Pitampura", "coords": [77.123, 28.703] },
+    { "name": "Mangolpuri", "coords": [77.098, 28.687] },
+    { "name": "Peeragarhi Chowk", "coords": [77.094, 28.672] },
+    { "name": "Janakpuri", "coords": [77.078, 28.629] },
+    { "name": "Dabri Mor", "coords": [77.085, 28.612] },
+    { "name": "Palam", "coords": [77.088, 28.590] },
+    { "name": "Vasant Vihar", "coords": [77.158, 28.564] },
+    { "name": "Munirka", "coords": [77.174, 28.554] },
+    { "name": "IIT Delhi", "coords": [77.192, 28.545] },
+    { "name": "Panchsheel Park", "coords": [77.215, 28.541] },
+    { "name": "Chirag Delhi", "coords": [77.229, 28.536] },
+    { "name": "Nehru Place", "coords": [77.252, 28.549] },
+    { "name": "Okhla", "coords": [77.272, 28.542] },
+    { "name": "Kalindi Kunj", "coords": [77.310, 28.542] },
+    { "name": "Wazirabad Bridge", "coords": [77.232, 28.707] }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "nh-25",
+  "ref": "NH 25",
+  "name": "Munabao–Beawar Highway",
+  "aka": ["Largely the former NH 112"],
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 483,
+  "lanes": "Mostly 4 lanes between Barmer, Jodhpur and Beawar",
+  "route": {
+    "start": "Munabao (India–Pakistan border), Rajasthan",
+    "end": "Beawar, Rajasthan",
+    "states": ["Rajasthan"],
+    "majorCities": ["Barmer", "Balotra", "Jodhpur", "Bilara", "Beawar"]
+  },
+  "history": "NH 25 is a desert highway that lies entirely inside Rajasthan. It starts at Munabao, a small border village facing Pakistan, and runs east across the Thar desert through Barmer's oil country and the blue city of Jodhpur before ending at Beawar. Most of the route between Barmer and Beawar was the old NH 112 before highways were renumbered in 2010.",
+  "facts": [
+    "About 483 km long, entirely within Rajasthan.",
+    "Munabao, at its western end, is one of the last Indian villages before the Pakistan border and a famous railway border post.",
+    "The Barmer region along the route holds some of India's largest onshore oil fields.",
+    "A major oil refinery is coming up at Pachpadra near Balotra, close to the highway."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Munabao", "coords": [70.277, 25.744] },
+    { "name": "Ramsar", "coords": [70.874, 25.725] },
+    { "name": "Barmer", "coords": [71.396, 25.752] },
+    { "name": "Baytu", "coords": [71.769, 25.899] },
+    { "name": "Balotra", "coords": [72.240, 25.832] },
+    { "name": "Jodhpur", "coords": [73.024, 26.276] },
+    { "name": "Bilara", "coords": [73.705, 26.181] },
+    { "name": "Jaitaran", "coords": [73.934, 26.206] },
+    { "name": "Beawar", "coords": [74.320, 26.101] }
+  ]
+}

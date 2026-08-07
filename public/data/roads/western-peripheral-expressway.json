@@ -1,0 +1,41 @@
+{
+  "id": "western-peripheral-expressway",
+  "ref": "Western Peripheral Expressway",
+  "name": "Kundli–Manesar–Palwal Expressway",
+  "aka": ["KMP Expressway"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 136,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "HSIIDC (Government of Haryana)",
+  "route": {
+    "start": "Kundli, Haryana",
+    "end": "Palwal, Haryana",
+    "states": ["Haryana"],
+    "majorCities": ["Kundli", "Bahadurgarh", "Manesar", "Sohna", "Palwal"]
+  },
+  "timeline": [
+    { "year": "2016", "event": "Manesar–Palwal section opens to traffic" },
+    { "year": "2018", "event": "Kundli–Manesar section inaugurated (19 November), completing the expressway" }
+  ],
+  "history": "The KMP Expressway loops around the west side of Delhi, from Kundli near Sonipat down to Palwal, passing the big factory town of Manesar. Like its eastern twin, it was planned after the Supreme Court asked for ways to keep trucks out of Delhi. Building it took far longer than planned — the Manesar–Palwal part opened in 2016 and the rest in November 2018. Unlike most expressways it was built by the Haryana state government, not the central government.",
+  "facts": [
+    "Forms the western half of a roughly 270 km expressway ring around Delhi, with the Eastern Peripheral Expressway as the other half.",
+    "Built and run by the Haryana government through HSIIDC, not by NHAI.",
+    "The Delhi–Mumbai Expressway begins at a junction with the KMP near Sohna.",
+    "Lets long-distance trucks skip Delhi entirely, cutting traffic and pollution in the capital."
+  ],
+  "sources": [
+    { "title": "HSIIDC — Haryana State Industrial and Infrastructure Development Corporation", "url": "https://hsiidc.org.in/" },
+    { "title": "Government of Haryana", "url": "https://haryana.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Kundli", "coords": [77.119, 28.871] },
+    { "name": "Kharkhauda", "coords": [76.914, 28.871] },
+    { "name": "Bahadurgarh", "coords": [76.878, 28.695] },
+    { "name": "Farrukhnagar", "coords": [76.82, 28.446] },
+    { "name": "Manesar", "coords": [76.936, 28.345] },
+    { "name": "Sohna", "coords": [77.06, 28.23] },
+    { "name": "Palwal", "coords": [77.329, 28.144] }
+  ]
+}

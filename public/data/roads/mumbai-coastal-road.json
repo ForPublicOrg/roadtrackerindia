@@ -1,0 +1,44 @@
+{
+  "id": "mumbai-coastal-road",
+  "ref": "Mumbai Coastal Road",
+  "name": "Dharmveer Swarajyarakshak Chhatrapati Sambhaji Maharaj Coastal Road",
+  "aka": ["Mumbai Coastal Road Project (south section)"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 10.58,
+  "lanes": "8 lanes on the surface sections, with twin tunnels under Malabar Hill",
+  "agency": "BMC (Brihanmumbai Municipal Corporation)",
+  "cost": "About ₹12,700 crore",
+  "route": {
+    "start": "Marine Drive (Princess Street flyover), Mumbai, Maharashtra",
+    "end": "Worli (Bandra–Worli Sea Link), Mumbai, Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Marine Drive", "Girgaum", "Breach Candy", "Haji Ali", "Worli"]
+  },
+  "timeline": [
+    { "year": "2018", "event": "Construction begins" },
+    { "year": "2024", "event": "First stretch opens in March; both directions open in stages through the year" },
+    { "year": "2025", "event": "Fully open round-the-clock, with the new seaside promenade inaugurated in August" }
+  ],
+  "history": "Mumbai's Coastal Road is a new expressway built along the city's western shoreline, partly on land reclaimed from the sea and partly through tunnels under Malabar Hill. Built by the city's municipal corporation (BMC), its first phase runs from Marine Drive to Worli, where it joins the Bandra–Worli Sea Link. It opened in stages during 2024 and became fully operational in 2025, cutting a trip that could take close to an hour in traffic down to about ten minutes, and adding a long public promenade beside the sea.",
+  "facts": [
+    "Its twin tunnels pass beneath Girgaum Chowpatty — often described as India's first undersea road tunnels.",
+    "The tunnels were dug by 'Mavala', one of the largest tunnel boring machines ever used in India.",
+    "The road is toll-free.",
+    "Cuts the Marine Drive–Worli drive to around 10 minutes.",
+    "Comes with a new public promenade and green space built along the reclaimed shoreline."
+  ],
+  "sources": [
+    { "title": "Brihanmumbai Municipal Corporation", "url": "https://portal.mcgm.gov.in/" },
+    { "title": "Press Information Bureau", "url": "https://pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Marine Drive (Princess Street flyover)", "coords": [72.823, 18.945] },
+    { "name": "Girgaum Chowpatty", "coords": [72.814, 18.955] },
+    { "name": "Priyadarshini Park (Malabar Hill)", "coords": [72.803, 18.966] },
+    { "name": "Breach Candy", "coords": [72.804, 18.973] },
+    { "name": "Haji Ali", "coords": [72.81, 18.983] },
+    { "name": "Worli Sea Face", "coords": [72.813, 18.998] },
+    { "name": "Worli (Bandra–Worli Sea Link junction)", "coords": [72.816, 19.01] }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "nice-road",
+  "ref": "NICE Road",
+  "name": "Bengaluru–Mysuru Infrastructure Corridor Peripheral Road",
+  "aka": ["NICE Ring Road", "BMIC Peripheral Road"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 50,
+  "lanes": "4 lanes, divided, tolled",
+  "agency": "Nandi Infrastructure Corridor Enterprises (NICE)",
+  "route": {
+    "start": "Tumakuru Road (NH 48), Madavara, Bengaluru",
+    "end": "Hosur Road (NH 44), Electronic City, Bengaluru",
+    "states": ["Karnataka"],
+    "majorCities": ["Madavara", "Kengeri", "Gottigere", "Electronic City"]
+  },
+  "timeline": [
+    { "year": "1997", "event": "Karnataka government signs the framework agreement for the BMIC project" },
+    { "year": "2000s", "event": "Peripheral and link toll roads begin opening to traffic in stages" }
+  ],
+  "history": "The NICE Road is a private toll road that curves around the west and south of Bengaluru. It was built as the first part of a much bigger plan, the Bengaluru–Mysuru Infrastructure Corridor, which was meant to include a full private expressway to Mysuru. The expressway was never completed, but the peripheral road and a link road into the city opened in stages from the mid-2000s onwards. Today thousands of vehicles use it every day to skip the city's traffic while moving between the big highways that leave Bengaluru.",
+  "facts": [
+    "A privately built and operated toll road, run by Nandi Infrastructure Corridor Enterprises (NICE).",
+    "Made up of a roughly 41 km peripheral road plus a link road of about 9 km towards the city.",
+    "Connects the roads leaving Bengaluru towards Tumakuru, Magadi, Mysuru, Kanakapura, Bannerghatta and Hosur.",
+    "Was planned as the first step of a 111 km private expressway to Mysuru that was never completed."
+  ],
+  "sources": [
+    { "title": "Government of Karnataka", "url": "https://karnataka.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Madavara (Tumakuru Road)", "coords": [77.477, 13.050] },
+    { "name": "Magadi Road junction", "coords": [77.455, 12.982] },
+    { "name": "Kengeri (Mysuru Road)", "coords": [77.488, 12.901] },
+    { "name": "Talaghattapura (Kanakapura Road)", "coords": [77.546, 12.862] },
+    { "name": "Gottigere (Bannerghatta Road)", "coords": [77.598, 12.856] },
+    { "name": "Electronic City (Hosur Road)", "coords": [77.650, 12.849] }
+  ]
+}

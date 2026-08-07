@@ -1,0 +1,33 @@
+{
+  "id": "nh-23",
+  "ref": "NH 23",
+  "name": "Kothun–Dholpur Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 228,
+  "route": {
+    "start": "Kothun, Rajasthan",
+    "end": "Dholpur, Rajasthan",
+    "states": ["Rajasthan"],
+    "majorCities": ["Lalsot", "Karauli", "Bari", "Dholpur"]
+  },
+  "history": "NH 23 is an east–west highway that lies entirely inside Rajasthan. It begins at Kothun, a junction on the Jaipur–Tonk highway south of Jaipur, and runs east through Lalsot, Karauli and Bari to end at Dholpur on NH 44 near the Chambal river. It gives the towns of eastern Rajasthan a direct link between the Jaipur region and the main Delhi–Gwalior corridor.",
+  "facts": [
+    "About 228 km long, entirely within Rajasthan.",
+    "Connects NH 52 at Kothun with NH 44 at Dholpur.",
+    "Karauli, on the route, is known for the Kaila Devi temple.",
+    "Dholpur, at the eastern end, is famous for its red sandstone.",
+    "An extension westward to Ajmer has been proposed."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Kothun", "coords": [75.945, 26.513] },
+    { "name": "Lalsot", "coords": [76.328, 26.560] },
+    { "name": "Karauli", "coords": [77.020, 26.500] },
+    { "name": "Bari", "coords": [77.616, 26.644] },
+    { "name": "Dholpur", "coords": [77.893, 26.702] }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dwarka-expressway",
+  "ref": "Dwarka Expressway",
+  "name": "Northern Peripheral Road (Delhi–Gurugram)",
+  "aka": ["Northern Peripheral Road", "NH 248BB"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 29,
+  "lanes": "8 lanes, access-controlled, largely elevated",
+  "agency": "NHAI",
+  "cost": "₹9,000 crore (approx.)",
+  "route": {
+    "start": "Shiv Murti, Mahipalpur (Delhi)",
+    "end": "Kherki Daula, Gurugram (Haryana)",
+    "states": ["Delhi", "Haryana"],
+    "majorCities": ["Delhi", "Dwarka", "Gurugram"]
+  },
+  "timeline": [
+    { "year": "2024", "event": "19 km Haryana section inaugurated (11 March)" },
+    { "year": "2025", "event": "10 km Delhi section, including the airport tunnel, inaugurated (17 August), completing the expressway" }
+  ],
+  "history": "The Dwarka Expressway, also called the Northern Peripheral Road, gives Delhi and Gurugram a second fast link besides the always-crowded NH 48. Long stretches run high above the ground on a single row of pillars, and near the Delhi end the road dives into a tunnel that connects towards Indira Gandhi International Airport. The Haryana part opened in March 2024 and the Delhi part in August 2025.",
+  "facts": [
+    "Officially numbered NH 248BB.",
+    "Long stretches run on a wide elevated carriageway carried on a single row of pillars.",
+    "The Delhi end includes an 8-lane tunnel about 3.6 km long that links towards IGI Airport.",
+    "Passes Yashobhoomi, the big convention centre in Dwarka.",
+    "The 10 km Delhi section alone cost about ₹5,360 crore."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }
+  ],
+  "waypoints": [
+    { "name": "Shiv Murti, Mahipalpur", "coords": [77.122, 28.541] },
+    { "name": "Bijwasan", "coords": [77.056, 28.535] },
+    { "name": "Bajghera (Delhi–Haryana border)", "coords": [76.999, 28.507] },
+    { "name": "Gurugram Sector 109", "coords": [76.98, 28.49] },
+    { "name": "Kherki Daula", "coords": [76.972, 28.409] }
+  ]
+}

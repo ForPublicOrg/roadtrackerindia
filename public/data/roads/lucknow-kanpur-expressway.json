@@ -1,0 +1,40 @@
+{
+  "id": "lucknow-kanpur-expressway",
+  "ref": "Lucknow–Kanpur Expressway",
+  "name": "Lucknow–Kanpur Expressway",
+  "aka": ["Awadh Expressway", "National Expressway 6 (NE-6)"],
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 63,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "NHAI",
+  "cost": "₹4,700 crore (approx.)",
+  "route": {
+    "start": "Lucknow (Shaheed Path), Uttar Pradesh",
+    "end": "Kanpur, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Lucknow", "Nawabganj", "Unnao", "Kanpur"]
+  },
+  "timeline": [
+    { "year": "2023", "event": "Main construction in progress" },
+    { "year": "2026", "event": "Opened to traffic in July" }
+  ],
+  "history": "The Lucknow–Kanpur Expressway, also called the Awadh Expressway, is a 63 km road built by NHAI to replace one of Uttar Pradesh's busiest and slowest drives. Part of it runs on tall pillars above the old Lucknow–Kanpur road, and the rest is a new road through the countryside of Unnao district. It opened in July 2026, cutting the trip between the two cities to under an hour.",
+  "facts": [
+    "Cuts the Lucknow–Kanpur drive from about 2.5 hours to roughly 45 minutes.",
+    "Begins with a long elevated stretch built above the old Lucknow–Kanpur highway near Lucknow.",
+    "Officially numbered National Expressway 6 (NE-6).",
+    "Opened to traffic in July 2026."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Lucknow (Shaheed Path)", "coords": [80.905, 26.785] },
+    { "name": "Banthara", "coords": [80.81, 26.72] },
+    { "name": "Nawabganj (Unnao)", "coords": [80.645, 26.625] },
+    { "name": "Unnao", "coords": [80.505, 26.56] },
+    { "name": "Kanpur (near Ganga Barrage)", "coords": [80.31, 26.505] }
+  ]
+}

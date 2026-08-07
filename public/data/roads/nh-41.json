@@ -1,0 +1,34 @@
+{
+  "id": "nh-41",
+  "ref": "NH 41",
+  "name": "Samakhiyali–Narayan Sarovar Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 290,
+  "route": {
+    "start": "Samakhiyali, Gujarat",
+    "end": "Narayan Sarovar, Gujarat",
+    "states": ["Gujarat"],
+    "majorCities": ["Samakhiyali", "Gandhidham", "Mundra", "Mandvi", "Naliya", "Narayan Sarovar"]
+  },
+  "history": "NH 41 runs along the southern side of Kutch in Gujarat, from Samakhiyali in the east to Narayan Sarovar near India's western tip. On the way it passes Gandhidham, next to the big Deendayal (Kandla) port, the port town of Mundra and the beach town of Mandvi. Beyond Naliya the land grows dry and empty, and the road ends near the holy lake of Narayan Sarovar.",
+  "facts": [
+    "One of India's westernmost national highways — it ends near Narayan Sarovar, close to the country's western tip.",
+    "Serves two of India's busiest ports: Deendayal (Kandla) and Mundra.",
+    "About 290 km long, lying entirely within the Kutch region of Gujarat.",
+    "Mandvi, on the route, is famous for its beach and its centuries-old wooden shipbuilding yards."
+  ],
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+  ],
+  "waypoints": [
+    { "name": "Samakhiyali", "coords": [70.508, 23.303] },
+    { "name": "Bhachau", "coords": [70.343, 23.294] },
+    { "name": "Gandhidham", "coords": [70.13, 23.08] },
+    { "name": "Mundra", "coords": [69.721, 22.839] },
+    { "name": "Mandvi", "coords": [69.355, 22.833] },
+    { "name": "Naliya", "coords": [68.828, 23.261] },
+    { "name": "Narayan Sarovar", "coords": [68.54, 23.672] }
+  ]
+}
