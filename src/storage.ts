@@ -105,17 +105,32 @@ interface FirebaseCfg {
   projectId?: string
 }
 
+/** Accepts strict JSON but also the JS-object literal people paste straight
+ *  from the Firebase console ({apiKey: "...", ...} with unquoted keys). */
+function parseConfig(raw: string): FirebaseCfg | null {
+  try {
+    return JSON.parse(raw) as FirebaseCfg
+  } catch {
+    try {
+      const fixed = raw
+        .replace(/'/g, '"')
+        .replace(/([{,]\s*)([A-Za-z_$][\w$]*)\s*:/g, '$1"$2":')
+        .replace(/,\s*}/g, '}')
+      return JSON.parse(fixed) as FirebaseCfg
+    } catch {
+      return null
+    }
+  }
+}
+
 /** Preferred source: VITE_FIREBASE_CONFIG env var, set in the host's dashboard
  *  at build time — the config never lives in the repo. */
 function envConfig(): FirebaseCfg | null {
   const raw = import.meta.env.VITE_FIREBASE_CONFIG as string | undefined
   if (!raw) return null
-  try {
-    return JSON.parse(raw) as FirebaseCfg
-  } catch {
-    console.warn('[storage] VITE_FIREBASE_CONFIG is not valid JSON — ignoring.')
-    return null
-  }
+  const cfg = parseConfig(raw)
+  if (!cfg) console.warn('[storage] VITE_FIREBASE_CONFIG could not be parsed — falling back to device-local mode.')
+  return cfg
 }
 
 /** Fallback source: /firebase-config.json (gitignored; for local testing). */
@@ -123,23 +138,33 @@ async function fileConfig(): Promise<FirebaseCfg | null> {
   try {
     const res = await fetch('/firebase-config.json', { cache: 'no-store' })
     if (!res.ok) return null
-    return (await res.json()) as FirebaseCfg
+    return parseConfig(await res.text())
   } catch {
     return null
   }
 }
 
 async function detect(): Promise<UserStore> {
+  let reason = 'no Firebase config found (VITE_FIREBASE_CONFIG env var or /firebase-config.json)'
   try {
     const cfg = envConfig() ?? (await fileConfig())
     if (cfg?.apiKey && cfg.projectId && !cfg.apiKey.startsWith('PASTE')) {
       const { CloudStore } = await import('./firestore')
       const store = new CloudStore()
       await store.init(cfg as Record<string, string>)
+      console.info(`[storage] shared mode — Firestore project "${cfg.projectId}"`)
       return store
     }
+    if (cfg) reason = 'config found but apiKey/projectId missing or placeholder'
   } catch (e) {
-    console.warn('[storage] Firestore unavailable, using device-local storage.', e)
+    const code = (e as { code?: string })?.code
+    reason =
+      code === 'auth/admin-restricted-operation' || code === 'auth/operation-not-allowed'
+        ? `Firestore init failed (${code}) — enable ANONYMOUS sign-in: Firebase console → Authentication → Sign-in method → Anonymous`
+        : code === 'auth/unauthorized-domain'
+          ? `Firestore init failed (${code}) — add this site's domain: Firebase console → Authentication → Settings → Authorized domains`
+          : `Firestore init failed (${code ?? (e as Error)?.message ?? e})`
   }
+  console.warn(`[storage] device-local mode — ${reason}`)
   return new LocalStore()
 }
