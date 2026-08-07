@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3120",
+  "ref": "MDR 3120",
+  "name": "Bairagarh–Bhopal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.5,
+  "route": {
+    "start": "Bairagarh, Madhya Pradesh",
+    "end": "Bhopal, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bairagarh",
+      "Bhopal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bairagarh",
+      "coords": [
+        77.24233,
+        23.29151
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.2416,
+        23.24147
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

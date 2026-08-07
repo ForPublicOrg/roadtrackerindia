@@ -1,0 +1,42 @@
+{
+  "id": "kl-eruva-temple-nh-road",
+  "ref": "MDR",
+  "name": "Eruva Temple - NH Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.48698,
+        9.19201
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.49852,
+        9.19416
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-pb-60",
+  "ref": "MDR 60",
+  "name": "Phagwara–Hoshiarpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.8,
+  "route": {
+    "start": "Phagwara, Punjab",
+    "end": "Hoshiarpur, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Phagwara",
+      "Hoshiarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Phagwara",
+      "coords": [
+        75.76743,
+        31.22521
+      ]
+    },
+    {
+      "name": "Hoshiarpur",
+      "coords": [
+        75.90546,
+        31.53231
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-payyanamon-kuppakkara-road",
+  "ref": "MDR",
+  "name": "Payyanamon - Kuppakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.85491,
+        9.23367
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.85945,
+        9.2452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-125",
+  "ref": "SH 125",
+  "name": "Yadamari–Latteri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.5,
+  "route": {
+    "start": "Yadamari, Tamil Nadu",
+    "end": "Latteri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Yadamari",
+      "Latteri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Yadamari",
+      "coords": [
+        78.97418,
+        13.0712
+      ]
+    },
+    {
+      "name": "Latteri",
+      "coords": [
+        79.0647,
+        12.97077
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

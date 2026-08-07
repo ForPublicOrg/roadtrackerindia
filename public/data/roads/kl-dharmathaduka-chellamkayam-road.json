@@ -1,0 +1,42 @@
+{
+  "id": "kl-dharmathaduka-chellamkayam-road",
+  "ref": "MDR",
+  "name": "Dharmathaduka - Chellamkayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.02927,
+        12.66015
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        75.03664,
+        12.65619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumkadavila-kunnathukal-road",
+  "ref": "MDR",
+  "name": "Perumkadavila - Kunnathukal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.8,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.16198,
+        8.38996
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.10989,
+        8.44093
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

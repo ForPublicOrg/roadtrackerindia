@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-4010",
+  "ref": "MDR 4010",
+  "name": "Mandla–Dindori District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Mandla, Madhya Pradesh",
+    "end": "Dindori, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mandla",
+      "Dindori"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandla",
+      "coords": [
+        80.6895,
+        22.67792
+      ]
+    },
+    {
+      "name": "Dindori",
+      "coords": [
+        80.81159,
+        22.70589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

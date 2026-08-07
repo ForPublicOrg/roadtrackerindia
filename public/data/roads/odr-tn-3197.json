@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-3197",
+  "ref": "ODR 3197",
+  "name": "Melmanavur–Mottur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Melmanavur, Tamil Nadu",
+    "end": "Mottur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melmanavur",
+      "Mottur",
+      "Vanjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melmanavur",
+      "coords": [
+        79.09317,
+        12.91877
+      ]
+    },
+    {
+      "name": "Mottur",
+      "coords": [
+        79.09001,
+        12.92353
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.08457,
+        12.93097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

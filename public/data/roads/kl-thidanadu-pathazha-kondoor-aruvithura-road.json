@@ -1,0 +1,42 @@
+{
+  "id": "kl-thidanadu-pathazha-kondoor-aruvithura-road",
+  "ref": "MDR",
+  "name": "Thidanadu - Pathazha - Kondoor - Aruvithura Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.7732,
+        9.68797
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.77774,
+        9.66424
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "nh-119",
+  "ref": "NH 119",
+  "name": "Meerut–Kotdwar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 173.8,
+  "route": {
+    "start": "Meerut, Uttar Pradesh",
+    "end": "Kotdwar, Uttarakhand",
+    "states": [
+      "Uttar Pradesh",
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Meerut",
+      "Hastinapur",
+      "Miranpur",
+      "Bijnor",
+      "Najibabad",
+      "Kotdwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Meerut",
+      "coords": [
+        77.70608,
+        28.99798
+      ]
+    },
+    {
+      "name": "Mawana",
+      "coords": [
+        77.91517,
+        29.10141
+      ]
+    },
+    {
+      "name": "Hastinapur",
+      "coords": [
+        77.96527,
+        29.16224
+      ]
+    },
+    {
+      "name": "Miranpur",
+      "coords": [
+        77.95076,
+        29.28565
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.13955,
+        29.38061
+      ]
+    },
+    {
+      "name": "Kiratpur",
+      "coords": [
+        78.20305,
+        29.50234
+      ]
+    },
+    {
+      "name": "Najibabad",
+      "coords": [
+        78.34584,
+        29.60674
+      ]
+    },
+    {
+      "name": "Kotdwar",
+      "coords": [
+        78.51962,
+        29.74509
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

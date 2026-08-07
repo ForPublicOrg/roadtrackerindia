@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-461a",
+  "ref": "MDR 461A",
+  "name": "Adavathur East–Natchikurichy District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13,
+  "route": {
+    "start": "Adavathur East, Tamil Nadu",
+    "end": "Natchikurichy, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adavathur East",
+      "Tiruchirappalli",
+      "Natchikurichy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adavathur East",
+      "coords": [
+        78.59985,
+        10.8433
+      ]
+    },
+    {
+      "name": "Santhosh Nagar",
+      "coords": [
+        78.64951,
+        10.83668
+      ]
+    },
+    {
+      "name": "Tiruchirappalli",
+      "coords": [
+        78.67248,
+        10.83379
+      ]
+    },
+    {
+      "name": "Natchikurichy",
+      "coords": [
+        78.64323,
+        10.81447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

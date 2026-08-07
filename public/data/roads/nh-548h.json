@@ -1,0 +1,62 @@
+{
+  "id": "nh-548h",
+  "ref": "NH 548H",
+  "name": "Banda–Sankeshwara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 109.5,
+  "route": {
+    "start": "Banda, Maharashtra",
+    "end": "Sankeshwara, Karnataka",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Banda",
+      "Sawantwadi",
+      "Sankeshwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Banda",
+      "coords": [
+        73.84941,
+        15.82825
+      ]
+    },
+    {
+      "name": "Sawantwadi",
+      "coords": [
+        73.82235,
+        15.90821
+      ]
+    },
+    {
+      "name": "Gadahinglaj",
+      "coords": [
+        74.35105,
+        16.22447
+      ]
+    },
+    {
+      "name": "Sankeshwara",
+      "coords": [
+        74.47034,
+        16.25543
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-60",
+  "ref": "MDR 60",
+  "name": "Kasturba Nagar–Barwadda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Kasturba Nagar, Jharkhand",
+    "end": "Barwadda, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Kasturba Nagar",
+      "Dhanbad",
+      "Barwadda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kasturba Nagar",
+      "coords": [
+        86.42786,
+        23.79942
+      ]
+    },
+    {
+      "name": "Barwadda",
+      "coords": [
+        86.43089,
+        23.83525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

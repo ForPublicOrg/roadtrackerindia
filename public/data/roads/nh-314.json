@@ -1,0 +1,53 @@
+{
+  "id": "nh-314",
+  "ref": "NH 314",
+  "name": "Bankura–Purulia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 87,
+  "route": {
+    "start": "Bankura, West Bengal",
+    "end": "Purulia, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Bankura",
+      "Purulia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bankura",
+      "coords": [
+        87.08397,
+        23.23569
+      ]
+    },
+    {
+      "name": "Chhatna",
+      "coords": [
+        86.9587,
+        23.31151
+      ]
+    },
+    {
+      "name": "Purulia",
+      "coords": [
+        86.378,
+        23.33242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

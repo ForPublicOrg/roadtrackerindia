@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-11c",
+  "ref": "MDR 11C",
+  "name": "Fatehpur–Barabanki District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 30,
+  "route": {
+    "start": "Fatehpur, Uttar Pradesh",
+    "end": "Barabanki, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Fatehpur",
+      "Barabanki"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fatehpur",
+      "coords": [
+        81.21107,
+        27.17903
+      ]
+    },
+    {
+      "name": "Barabanki",
+      "coords": [
+        81.18339,
+        26.92686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

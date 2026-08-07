@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-217",
+  "ref": "MDR 217",
+  "name": "Rajmahal–Udhwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Rajmahal, Jharkhand",
+    "end": "Udhwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Rajmahal",
+      "Udhwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajmahal",
+      "coords": [
+        87.74013,
+        25.08269
+      ]
+    },
+    {
+      "name": "Udhwa",
+      "coords": [
+        87.77677,
+        25.07636
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

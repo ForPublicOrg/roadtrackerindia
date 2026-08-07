@@ -1,0 +1,79 @@
+{
+  "id": "kl-edappally-muvattupuzha-road",
+  "ref": "MDR",
+  "name": "Edappally - Muvattupuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.2,
+  "route": {
+    "start": "Edappally, Kerala",
+    "end": "Thengode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edappally",
+      "Kalamassery",
+      "Kangarappady",
+      "Thengode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edappally",
+      "coords": [
+        76.31077,
+        10.0287
+      ]
+    },
+    {
+      "name": "Thrikkakkara",
+      "coords": [
+        76.3219,
+        10.03186
+      ]
+    },
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.32732,
+        10.03362
+      ]
+    },
+    {
+      "name": "Edachira",
+      "coords": [
+        76.35051,
+        10.03895
+      ]
+    },
+    {
+      "name": "Kangarappady",
+      "coords": [
+        76.35556,
+        10.04351
+      ]
+    },
+    {
+      "name": "Kodikuthumala",
+      "coords": [
+        76.37603,
+        10.05043
+      ]
+    },
+    {
+      "name": "Thengode",
+      "coords": [
+        76.40711,
+        10.03687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

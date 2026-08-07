@@ -1,0 +1,50 @@
+{
+  "id": "kl-manipuzha-moolavattom-punnakkal-chungam-road",
+  "ref": "MDR",
+  "name": "Manipuzha - Moolavattom - Punnakkal Chungam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Nattakom, Kerala",
+    "end": "Devalokam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nattakom",
+      "Kottayam",
+      "Devalokam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.52168,
+        9.56575
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.53291,
+        9.57164
+      ]
+    },
+    {
+      "name": "Devalokam",
+      "coords": [
+        76.53592,
+        9.57152
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

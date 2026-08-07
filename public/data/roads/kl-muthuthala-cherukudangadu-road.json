@@ -1,0 +1,42 @@
+{
+  "id": "kl-muthuthala-cherukudangadu-road",
+  "ref": "MDR",
+  "name": "Muthuthala - Cherukudangadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Valanchery, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valanchery",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valanchery",
+      "coords": [
+        76.11254,
+        10.84142
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.16078,
+        10.83629
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

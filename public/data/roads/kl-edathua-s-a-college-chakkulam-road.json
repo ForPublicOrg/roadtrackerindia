@@ -1,0 +1,42 @@
+{
+  "id": "kl-edathua-s-a-college-chakkulam-road",
+  "ref": "MDR",
+  "name": "Edathua S.A. College - Chakkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.51641,
+        9.35594
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.47624,
+        9.36345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

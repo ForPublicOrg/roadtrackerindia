@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-1073",
+  "ref": "MDR 1073",
+  "name": "Coonoor–Kotagiri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.6,
+  "route": {
+    "start": "Coonoor, Tamil Nadu",
+    "end": "Kotagiri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Coonoor",
+      "Kotagiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Coonoor",
+      "coords": [
+        76.7945,
+        11.34386
+      ]
+    },
+    {
+      "name": "Brooklands Estate",
+      "coords": [
+        76.80608,
+        11.35807
+      ]
+    },
+    {
+      "name": "Kotagiri",
+      "coords": [
+        76.81332,
+        11.41218
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

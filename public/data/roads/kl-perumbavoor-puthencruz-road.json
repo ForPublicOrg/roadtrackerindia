@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbavoor-puthencruz-road",
+  "ref": "MDR",
+  "name": "Perumbavoor - Puthencruz Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.1,
+  "route": {
+    "start": "Puthencruz, Kerala",
+    "end": "Perumbavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthencruz",
+      "Perumbavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthencruz",
+      "coords": [
+        76.4475,
+        9.97398
+      ]
+    },
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.47554,
+        10.11321
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

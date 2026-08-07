@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-147",
+  "ref": "MDR 147",
+  "name": "Pindwara–Bali District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 49,
+  "route": {
+    "start": "Pindwara, Rajasthan",
+    "end": "Bali, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pindwara",
+      "Bali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pindwara",
+      "coords": [
+        73.28349,
+        24.74603
+      ]
+    },
+    {
+      "name": "Bali",
+      "coords": [
+        73.25652,
+        25.06231
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-102",
+  "ref": "SH 102",
+  "name": "Jakhal–Barwala State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64,
+  "route": {
+    "start": "Jakhal, Haryana",
+    "end": "Barwala, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Jakhal",
+      "Bhuna",
+      "Barwala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jakhal",
+      "coords": [
+        75.83677,
+        29.7996
+      ]
+    },
+    {
+      "name": "Bhuna",
+      "coords": [
+        75.70808,
+        29.53787
+      ]
+    },
+    {
+      "name": "Barwala",
+      "coords": [
+        75.83539,
+        29.32493
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

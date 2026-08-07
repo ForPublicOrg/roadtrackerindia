@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-218",
+  "ref": "MDR 218",
+  "name": "Mandro–Borio District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Mandro, Jharkhand",
+    "end": "Borio, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Mandro",
+      "Borio"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandro",
+      "coords": [
+        87.49941,
+        25.13987
+      ]
+    },
+    {
+      "name": "Borio",
+      "coords": [
+        87.52409,
+        25.12769
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

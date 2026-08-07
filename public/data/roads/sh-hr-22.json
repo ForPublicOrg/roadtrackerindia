@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-22",
+  "ref": "SH 22",
+  "name": "Matenhail–Bahadurgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 97.5,
+  "route": {
+    "start": "Matenhail, Haryana",
+    "end": "Bahadurgarh, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Matenhail",
+      "Kanina Khas",
+      "Jhajjar",
+      "Bahadurgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Matenhail",
+      "coords": [
+        76.46659,
+        28.41701
+      ]
+    },
+    {
+      "name": "Kanina Khas",
+      "coords": [
+        76.31123,
+        28.33718
+      ]
+    },
+    {
+      "name": "Jhajjar",
+      "coords": [
+        76.65386,
+        28.60555
+      ]
+    },
+    {
+      "name": "Bahadurgarh",
+      "coords": [
+        76.9296,
+        28.69138
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

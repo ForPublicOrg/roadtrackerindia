@@ -1,0 +1,57 @@
+{
+  "id": "kl-kondotti-vazhakkad-road",
+  "ref": "MDR",
+  "name": "Kondotti - Vazhakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18,
+  "route": {
+    "start": "Mavoor, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavoor",
+      "Edavannappara",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.92455,
+        11.2419
+      ]
+    },
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.9775,
+        11.24598
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.96894,
+        11.21224
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.95835,
+        11.15193
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

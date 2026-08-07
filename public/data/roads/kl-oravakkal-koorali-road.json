@@ -1,0 +1,49 @@
+{
+  "id": "kl-oravakkal-koorali-road",
+  "ref": "MDR",
+  "name": "Oravakkal - Koorali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.4,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Manarcadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Manarcadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.73125,
+        9.5981
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.64726,
+        9.59921
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.60383,
+        9.61139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

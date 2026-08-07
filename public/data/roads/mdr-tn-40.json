@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-40",
+  "ref": "MDR 40",
+  "name": "Chetpet–Arani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.2,
+  "route": {
+    "start": "Chetpet, Tamil Nadu",
+    "end": "Arani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chetpet",
+      "Arani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chetpet",
+      "coords": [
+        79.25425,
+        12.49502
+      ]
+    },
+    {
+      "name": "Arani",
+      "coords": [
+        79.28471,
+        12.66811
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

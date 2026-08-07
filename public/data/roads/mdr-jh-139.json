@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-139",
+  "ref": "MDR 139",
+  "name": "Nagar Untari–Dhekuriatola District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.6,
+  "route": {
+    "start": "Nagar Untari, Jharkhand",
+    "end": "Dhekuriatola, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Nagar Untari",
+      "Dhekuriatola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagar Untari",
+      "coords": [
+        83.45953,
+        24.08979
+      ]
+    },
+    {
+      "name": "Dhekuriatola",
+      "coords": [
+        83.47903,
+        24.27874
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-181",
+  "ref": "SH 181",
+  "name": "Parassala–Marthandam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 14.1,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Marthandam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Marthandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.18939,
+        8.41156
+      ]
+    },
+    {
+      "name": "Kuzhithura",
+      "coords": [
+        77.22189,
+        8.32041
+      ]
+    },
+    {
+      "name": "Marthandam",
+      "coords": [
+        77.22393,
+        8.30637
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

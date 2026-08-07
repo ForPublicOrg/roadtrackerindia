@@ -1,0 +1,54 @@
+{
+  "id": "nh-367a",
+  "ref": "NH 367A",
+  "name": "Bhagyanagara–Kanakagiri National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 29.1,
+  "route": {
+    "start": "Bhagyanagara, Karnataka",
+    "end": "Kanakagiri, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Bhagyanagara",
+      "Koppala",
+      "Kanakagiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhagyanagara",
+      "coords": [
+        76.10903,
+        15.3593
+      ]
+    },
+    {
+      "name": "Koppala",
+      "coords": [
+        76.15993,
+        15.34982
+      ]
+    },
+    {
+      "name": "Kanakagiri",
+      "coords": [
+        76.25935,
+        15.5181
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

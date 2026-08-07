@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-508",
+  "ref": "MDR 508",
+  "name": "Shanti Nagar–Tirunelveli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17,
+  "route": {
+    "start": "Shanti Nagar, Tamil Nadu",
+    "end": "Tirunelveli, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Shanti Nagar",
+      "Thalaiyuthu",
+      "Tirunelveli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shanti Nagar",
+      "coords": [
+        77.81196,
+        8.78865
+      ]
+    },
+    {
+      "name": "Thalaiyuthu",
+      "coords": [
+        77.74126,
+        8.77996
+      ]
+    },
+    {
+      "name": "Tirunelveli",
+      "coords": [
+        77.7141,
+        8.74127
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

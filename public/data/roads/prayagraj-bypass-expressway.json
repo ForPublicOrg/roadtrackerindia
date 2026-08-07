@@ -1,0 +1,54 @@
+{
+  "id": "prayagraj-bypass-expressway",
+  "ref": "NH",
+  "name": "Prayagraj Bypass Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 80.2,
+  "route": {
+    "start": "Meja Road, Uttar Pradesh",
+    "end": "Bharwari, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Meja Road",
+      "Phaphamau",
+      "Bharwari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Meja Road",
+      "coords": [
+        82.16703,
+        25.36577
+      ]
+    },
+    {
+      "name": "Phaphamau",
+      "coords": [
+        81.8842,
+        25.58245
+      ]
+    },
+    {
+      "name": "Bharwari",
+      "coords": [
+        81.52955,
+        25.57623
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

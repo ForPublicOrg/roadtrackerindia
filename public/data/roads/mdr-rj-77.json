@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-77",
+  "ref": "MDR 77",
+  "name": "Kankroli–Amet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.9,
+  "route": {
+    "start": "Kankroli, Rajasthan",
+    "end": "Amet, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kankroli",
+      "Amet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kankroli",
+      "coords": [
+        73.84376,
+        25.16431
+      ]
+    },
+    {
+      "name": "Amet",
+      "coords": [
+        73.92313,
+        25.29593
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

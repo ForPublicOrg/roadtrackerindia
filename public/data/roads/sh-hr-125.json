@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-125",
+  "ref": "SH 125",
+  "name": "Tosham–Badhra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.8,
+  "route": {
+    "start": "Tosham, Haryana",
+    "end": "Badhra, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Tosham",
+      "Badhra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tosham",
+      "coords": [
+        75.91175,
+        28.86375
+      ]
+    },
+    {
+      "name": "Badhra",
+      "coords": [
+        75.94501,
+        28.51266
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

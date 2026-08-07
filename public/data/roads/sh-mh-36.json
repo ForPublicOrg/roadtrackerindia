@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-36",
+  "ref": "SH 36",
+  "name": "Kasara–Jawhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83,
+  "route": {
+    "start": "Kasara, Maharashtra",
+    "end": "Jawhar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kasara",
+      "Wada",
+      "Jawhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kasara",
+      "coords": [
+        73.38723,
+        19.58494
+      ]
+    },
+    {
+      "name": "Wada",
+      "coords": [
+        73.15914,
+        19.66418
+      ]
+    },
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.23028,
+        19.91917
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

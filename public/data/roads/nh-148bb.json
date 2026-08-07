@@ -1,0 +1,54 @@
+{
+  "id": "nh-148bb",
+  "ref": "NH 148BB",
+  "name": "Jakhal–Sunam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 37.9,
+  "route": {
+    "start": "Jakhal, Punjab",
+    "end": "Sunam, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Jakhal",
+      "Lehragaga",
+      "Sunam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jakhal",
+      "coords": [
+        75.78828,
+        29.82794
+      ]
+    },
+    {
+      "name": "Lehragaga",
+      "coords": [
+        75.80026,
+        29.93387
+      ]
+    },
+    {
+      "name": "Sunam",
+      "coords": [
+        75.81432,
+        30.13674
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

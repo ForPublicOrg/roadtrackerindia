@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-21",
+  "ref": "SH 21",
+  "name": "Sagar–Majholi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.1,
+  "route": {
+    "start": "Sagar, Madhya Pradesh",
+    "end": "Majholi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sagar",
+      "Rehli",
+      "Majholi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sagar",
+      "coords": [
+        78.76224,
+        23.84067
+      ]
+    },
+    {
+      "name": "Rehli",
+      "coords": [
+        79.06065,
+        23.62986
+      ]
+    },
+    {
+      "name": "Majholi",
+      "coords": [
+        79.5317,
+        23.41384
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

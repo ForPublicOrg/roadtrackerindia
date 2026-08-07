@@ -1,0 +1,42 @@
+{
+  "id": "kl-kulappada-panacode-mannoorkonam-road",
+  "ref": "MDR",
+  "name": "Kulappada - Panacode - Mannoorkonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Mancha, Kerala",
+    "end": "Vithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mancha",
+      "Vithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mancha",
+      "coords": [
+        77.06613,
+        8.59108
+      ]
+    },
+    {
+      "name": "Vithura",
+      "coords": [
+        77.04412,
+        8.63915
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

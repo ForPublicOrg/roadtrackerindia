@@ -1,0 +1,78 @@
+{
+  "id": "dnd-kmp-expressway",
+  "ref": "NH",
+  "name": "DND–KMP Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 49.5,
+  "route": {
+    "start": "Sohna, Haryana",
+    "end": "Badarpur, Delhi",
+    "states": [
+      "Haryana",
+      "Delhi"
+    ],
+    "majorCities": [
+      "Sohna",
+      "Ballabgarh",
+      "Faridabad",
+      "Old Faridabad",
+      "Badarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sohna",
+      "coords": [
+        77.15658,
+        28.16396
+      ]
+    },
+    {
+      "name": "Jhar Saitli",
+      "coords": [
+        77.3118,
+        28.30433
+      ]
+    },
+    {
+      "name": "Ballabgarh",
+      "coords": [
+        77.34415,
+        28.32358
+      ]
+    },
+    {
+      "name": "Faridabad",
+      "coords": [
+        77.3359,
+        28.39792
+      ]
+    },
+    {
+      "name": "Old Faridabad",
+      "coords": [
+        77.3279,
+        28.42609
+      ]
+    },
+    {
+      "name": "Badarpur",
+      "coords": [
+        77.31555,
+        28.50461
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

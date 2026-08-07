@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-152w",
+  "ref": "SH 152W",
+  "name": "Hapur–Mawana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 50.1,
+  "route": {
+    "start": "Hapur, Uttar Pradesh",
+    "end": "Mawana, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Hapur",
+      "Mawana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hapur",
+      "coords": [
+        77.76689,
+        28.75839
+      ]
+    },
+    {
+      "name": "Mawana",
+      "coords": [
+        77.92,
+        29.09853
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-paingarappilly-pulikamaly-thuppampady-road",
+  "ref": "MDR",
+  "name": "Paingarappilly - Pulikamaly - Thuppampady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Chottanikkara, Kerala",
+    "end": "Piravom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chottanikkara",
+      "Piravom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.41372,
+        9.91391
+      ]
+    },
+    {
+      "name": "Piravom",
+      "coords": [
+        76.41912,
+        9.88881
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

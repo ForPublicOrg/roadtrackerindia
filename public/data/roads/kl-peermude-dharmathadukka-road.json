@@ -1,0 +1,42 @@
+{
+  "id": "kl-peermude-dharmathadukka-road",
+  "ref": "MDR",
+  "name": "Peermude - Dharmathadukka Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.01403,
+        12.65791
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        75.01105,
+        12.70587
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

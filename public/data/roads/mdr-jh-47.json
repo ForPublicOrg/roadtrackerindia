@@ -1,0 +1,49 @@
+{
+  "id": "mdr-jh-47",
+  "ref": "MDR 47",
+  "name": "Jharia–Baliapur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Jharia, Jharkhand",
+    "end": "Baliapur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jharia",
+      "Baliapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jharia",
+      "coords": [
+        86.41057,
+        23.74607
+      ]
+    },
+    {
+      "name": "Jealgora",
+      "coords": [
+        86.42757,
+        23.73881
+      ]
+    },
+    {
+      "name": "Baliapur",
+      "coords": [
+        86.52511,
+        23.71997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-edakkara-marutha-road",
+  "ref": "MDR",
+  "name": "Edakkara - Marutha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.7,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.30266,
+        11.35569
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.32686,
+        11.42819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

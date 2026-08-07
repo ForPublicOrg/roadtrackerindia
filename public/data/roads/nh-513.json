@@ -1,0 +1,54 @@
+{
+  "id": "nh-513",
+  "ref": "NH 513",
+  "name": "Pasighat–Yingkiong National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 118.3,
+  "route": {
+    "start": "Pasighat, Arunachal Pradesh",
+    "end": "Yingkiong, Arunachal Pradesh",
+    "states": [
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Pasighat",
+      "Katan",
+      "Yingkiong"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pasighat",
+      "coords": [
+        95.30589,
+        28.10781
+      ]
+    },
+    {
+      "name": "Katan",
+      "coords": [
+        95.19503,
+        28.30983
+      ]
+    },
+    {
+      "name": "Yingkiong",
+      "coords": [
+        95.03127,
+        28.64153
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

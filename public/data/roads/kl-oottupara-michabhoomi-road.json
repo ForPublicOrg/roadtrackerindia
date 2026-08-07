@@ -1,0 +1,42 @@
+{
+  "id": "kl-oottupara-michabhoomi-road",
+  "ref": "MDR",
+  "name": "Oottupara - Michabhoomi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.8753,
+        9.19761
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.88758,
+        9.18601
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

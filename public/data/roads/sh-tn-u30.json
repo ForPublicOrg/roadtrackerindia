@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u30",
+  "ref": "SH-U 30",
+  "name": "Nanguneri–Valiyoor State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Nanguneri, Tamil Nadu",
+    "end": "Valiyoor, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nanguneri",
+      "Valiyoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nanguneri",
+      "coords": [
+        77.63966,
+        8.43709
+      ]
+    },
+    {
+      "name": "Valiyoor",
+      "coords": [
+        77.64301,
+        8.44749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

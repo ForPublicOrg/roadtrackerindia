@@ -1,0 +1,64 @@
+{
+  "id": "sh-kl-6",
+  "ref": "SH 6",
+  "name": "Kayamkulam–Thiruvalla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Thiruvalla, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara",
+      "Thiruvalla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50294,
+        9.1751
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.53936,
+        9.25012
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.5454,
+        9.25345
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.53402,
+        9.31601
+      ]
+    },
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.5741,
+        9.38313
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

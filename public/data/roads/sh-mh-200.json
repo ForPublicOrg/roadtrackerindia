@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-200",
+  "ref": "SH 200",
+  "name": "Pulgaon–Akola State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 169.6,
+  "route": {
+    "start": "Pulgaon, Maharashtra",
+    "end": "Akola, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pulgaon",
+      "Fejarpura",
+      "Amravati",
+      "Akola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pulgaon",
+      "coords": [
+        78.31037,
+        20.72749
+      ]
+    },
+    {
+      "name": "Amravati",
+      "coords": [
+        77.75241,
+        20.93206
+      ]
+    },
+    {
+      "name": "Badnera",
+      "coords": [
+        77.70828,
+        20.90892
+      ]
+    },
+    {
+      "name": "Akola",
+      "coords": [
+        77.00399,
+        20.72533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

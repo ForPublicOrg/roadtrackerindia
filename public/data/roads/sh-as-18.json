@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-18",
+  "ref": "SH 18",
+  "name": "Hamren–Nagaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 105.2,
+  "route": {
+    "start": "Hamren, Assam",
+    "end": "Nagaon, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Hamren",
+      "Nagaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hamren",
+      "coords": [
+        92.43851,
+        25.72506
+      ]
+    },
+    {
+      "name": "Nagaon",
+      "coords": [
+        92.68384,
+        26.34795
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

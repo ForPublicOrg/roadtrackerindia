@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-5w",
+  "ref": "SH 5W",
+  "name": "Shahabad–Tilhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.3,
+  "route": {
+    "start": "Shahabad, Uttar Pradesh",
+    "end": "Tilhar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Shahabad",
+      "Tilhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahabad",
+      "coords": [
+        79.65108,
+        27.70898
+      ]
+    },
+    {
+      "name": "Tilhar",
+      "coords": [
+        79.66688,
+        28.02415
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

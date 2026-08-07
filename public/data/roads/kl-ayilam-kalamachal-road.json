@@ -1,0 +1,42 @@
+{
+  "id": "kl-ayilam-kalamachal-road",
+  "ref": "MDR",
+  "name": "Ayilam - Kalamachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Venjaramoodu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Venjaramoodu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.8638,
+        8.71538
+      ]
+    },
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.87668,
+        8.71384
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

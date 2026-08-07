@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-54",
+  "ref": "SH 54",
+  "name": "Salumbar–Simalwara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 104.4,
+  "route": {
+    "start": "Salumbar, Rajasthan",
+    "end": "Simalwara, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Salumbar",
+      "Dungarpur",
+      "Simalwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Salumbar",
+      "coords": [
+        74.08022,
+        23.95747
+      ]
+    },
+    {
+      "name": "Dungarpur",
+      "coords": [
+        73.70901,
+        23.84136
+      ]
+    },
+    {
+      "name": "Simalwara",
+      "coords": [
+        73.74251,
+        23.5643
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

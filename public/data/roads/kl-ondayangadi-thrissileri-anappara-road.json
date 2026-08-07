@@ -1,0 +1,42 @@
+{
+  "id": "kl-ondayangadi-thrissileri-anappara-road",
+  "ref": "MDR",
+  "name": "Ondayangadi Thrissileri Anappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.02523,
+        11.82439
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.0398,
+        11.83872
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

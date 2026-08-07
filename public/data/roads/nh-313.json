@@ -1,0 +1,46 @@
+{
+  "id": "nh-313",
+  "ref": "NH 313",
+  "name": "Anini–Roing National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 217.2,
+  "route": {
+    "start": "Anini, Arunachal Pradesh",
+    "end": "Roing, Arunachal Pradesh",
+    "states": [
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Anini",
+      "Roing"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anini",
+      "coords": [
+        95.90242,
+        28.78439
+      ]
+    },
+    {
+      "name": "Roing",
+      "coords": [
+        95.84268,
+        28.1352
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

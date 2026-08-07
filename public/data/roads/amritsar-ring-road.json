@@ -1,0 +1,61 @@
+{
+  "id": "amritsar-ring-road",
+  "ref": "NH",
+  "name": "Amritsar Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 72.2,
+  "route": {
+    "start": "Green Acres, Punjab",
+    "end": "Cantonment, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Green Acres",
+      "Verka",
+      "Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Green Acres",
+      "coords": [
+        74.74595,
+        31.68782
+      ]
+    },
+    {
+      "name": "Verka",
+      "coords": [
+        74.93309,
+        31.68413
+      ]
+    },
+    {
+      "name": "Green Acres",
+      "coords": [
+        74.84496,
+        31.71556
+      ]
+    },
+    {
+      "name": "Cantonment",
+      "coords": [
+        74.75613,
+        31.71109
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

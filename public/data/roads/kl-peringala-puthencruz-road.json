@@ -1,0 +1,42 @@
+{
+  "id": "kl-peringala-puthencruz-road",
+  "ref": "MDR",
+  "name": "Peringala - Puthencruz Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Edachira, Kerala",
+    "end": "Puthencruz, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edachira",
+      "Puthencruz"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edachira",
+      "coords": [
+        76.39945,
+        10.0055
+      ]
+    },
+    {
+      "name": "Puthencruz",
+      "coords": [
+        76.42697,
+        9.97115
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

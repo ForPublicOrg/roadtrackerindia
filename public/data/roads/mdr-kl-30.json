@@ -1,0 +1,44 @@
+{
+  "id": "mdr-kl-30",
+  "ref": "MDR 30",
+  "name": "Kalanad–Panathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 40.2,
+  "route": {
+    "start": "Kalanad, Kerala",
+    "end": "Panathur, Kerala",
+    "states": [
+      "Kerala",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Kalanad",
+      "Palakunnu",
+      "Panathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalanad",
+      "coords": [
+        75.02463,
+        12.43831
+      ]
+    },
+    {
+      "name": "Panathur",
+      "coords": [
+        75.36626,
+        12.45562
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

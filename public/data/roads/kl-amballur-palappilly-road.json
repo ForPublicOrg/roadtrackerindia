@@ -1,0 +1,42 @@
+{
+  "id": "kl-amballur-palappilly-road",
+  "ref": "MDR",
+  "name": "Amballur - Palappilly road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.26609,
+        10.43259
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.39183,
+        10.43354
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

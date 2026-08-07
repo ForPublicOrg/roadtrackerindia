@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-203",
+  "ref": "MDR 203",
+  "name": "Mahagama–Sibpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Mahagama, Jharkhand",
+    "end": "Sibpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Mahagama",
+      "Sibpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahagama",
+      "coords": [
+        87.25233,
+        25.07565
+      ]
+    },
+    {
+      "name": "Sibpur",
+      "coords": [
+        87.20965,
+        25.04647
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

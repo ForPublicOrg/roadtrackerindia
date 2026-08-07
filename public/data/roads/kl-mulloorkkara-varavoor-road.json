@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulloorkkara-varavoor-road",
+  "ref": "MDR",
+  "name": "Mulloorkkara - Varavoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Ottupara, Kerala",
+    "end": "Wadakkancherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottupara",
+      "Wadakkancherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.27148,
+        10.70436
+      ]
+    },
+    {
+      "name": "Wadakkancherry",
+      "coords": [
+        76.2148,
+        10.71454
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekode-vazhakad-road",
+  "ref": "MDR",
+  "name": "Areekode - Vazhakad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Edavannappara, Kerala",
+    "end": "Areekode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edavannappara",
+      "Areekode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.9775,
+        11.24598
+      ]
+    },
+    {
+      "name": "Areekode",
+      "coords": [
+        76.04755,
+        11.23603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

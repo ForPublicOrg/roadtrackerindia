@@ -1,0 +1,43 @@
+{
+  "id": "mdr-kl-2",
+  "ref": "MDR 2",
+  "name": "Thottada–Mattannur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.3,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Mattannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kannur",
+      "Mattannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.40642,
+        11.86671
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.56707,
+        11.93035
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

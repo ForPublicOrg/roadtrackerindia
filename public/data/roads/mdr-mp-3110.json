@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3110",
+  "ref": "MDR 3110",
+  "name": "Ibrahimpura–Bhopal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Ibrahimpura, Madhya Pradesh",
+    "end": "Bhopal, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ibrahimpura",
+      "Bhopal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ibrahimpura",
+      "coords": [
+        77.37994,
+        23.21562
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.41427,
+        23.25212
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

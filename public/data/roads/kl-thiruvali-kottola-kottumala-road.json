@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvali-kottola-kottumala-road",
+  "ref": "MDR",
+  "name": "Thiruvali - Kottola - Kottumala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Wandoor, Kerala",
+    "end": "Nilambur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Wandoor",
+      "Nilambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.17992,
+        11.20093
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.20586,
+        11.23819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

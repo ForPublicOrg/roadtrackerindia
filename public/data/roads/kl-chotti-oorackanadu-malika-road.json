@@ -1,0 +1,42 @@
+{
+  "id": "kl-chotti-oorackanadu-malika-road",
+  "ref": "MDR",
+  "name": "Chotti - Oorackanadu - Malika Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Poonjar, Kerala",
+    "end": "Mundakkayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poonjar",
+      "Mundakkayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.83024,
+        9.61477
+      ]
+    },
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.84844,
+        9.56499
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

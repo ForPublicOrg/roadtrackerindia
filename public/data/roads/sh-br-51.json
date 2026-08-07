@@ -1,0 +1,49 @@
+{
+  "id": "sh-br-51",
+  "ref": "SH 51",
+  "name": "Nirmali–Laukaha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31,
+  "route": {
+    "start": "Nirmali, Bihar",
+    "end": "Laukaha, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Nirmali",
+      "Laukaha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nirmali",
+      "coords": [
+        86.49276,
+        26.35798
+      ]
+    },
+    {
+      "name": "Khutauna",
+      "coords": [
+        86.40315,
+        26.50086
+      ]
+    },
+    {
+      "name": "Laukaha",
+      "coords": [
+        86.46983,
+        26.54424
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

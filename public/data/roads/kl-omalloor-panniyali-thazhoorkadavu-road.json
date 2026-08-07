@@ -1,0 +1,58 @@
+{
+  "id": "kl-omalloor-panniyali-thazhoorkadavu-road",
+  "ref": "MDR",
+  "name": "Omalloor - Panniyali - Thazhoorkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Puthenpeedika, Kerala",
+    "end": "Azhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthenpeedika",
+      "Pathanamthitta",
+      "Chuttipara",
+      "Azhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.75648,
+        9.24443
+      ]
+    },
+    {
+      "name": "Pathanamthitta",
+      "coords": [
+        76.77058,
+        9.23768
+      ]
+    },
+    {
+      "name": "Chuttipara",
+      "coords": [
+        76.7756,
+        9.23499
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.77941,
+        9.23273
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

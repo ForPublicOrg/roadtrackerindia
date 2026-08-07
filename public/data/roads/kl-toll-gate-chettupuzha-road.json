@@ -1,0 +1,43 @@
+{
+  "id": "kl-toll-gate-chettupuzha-road",
+  "ref": "MDR",
+  "name": "Toll Gate Chettupuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "West Fort, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "West Fort",
+      "Thrissur",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "West Fort",
+      "coords": [
+        76.19096,
+        10.51044
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.18374,
+        10.51129
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

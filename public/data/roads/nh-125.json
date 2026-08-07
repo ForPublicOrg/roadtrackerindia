@@ -1,0 +1,62 @@
+{
+  "id": "nh-125",
+  "ref": "NH 125",
+  "name": "Pokaran–Paota National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 173,
+  "route": {
+    "start": "Pokaran, Rajasthan",
+    "end": "Paota, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pokaran",
+      "Balesar",
+      "Jodhpur",
+      "Paota"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pokaran",
+      "coords": [
+        71.87418,
+        26.93263
+      ]
+    },
+    {
+      "name": "Balesar",
+      "coords": [
+        72.49232,
+        26.39337
+      ]
+    },
+    {
+      "name": "Jodhpur",
+      "coords": [
+        73.02427,
+        26.33547
+      ]
+    },
+    {
+      "name": "Paota",
+      "coords": [
+        73.03816,
+        26.3477
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-176",
+  "ref": "SCR",
+  "name": "Sugarcane Road 176",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.5,
+  "route": {
+    "start": "Garden City, Tamil Nadu",
+    "end": "Wallajahbad, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Garden City",
+      "Wallajahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Garden City",
+      "coords": [
+        79.94424,
+        12.65829
+      ]
+    },
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.89627,
+        12.75385
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakuzhy-parathanam-road",
+  "ref": "MDR",
+  "name": "Anakuzhy - Parathanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Poonjar, Kerala",
+    "end": "Mundakkayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poonjar",
+      "Mundakkayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.85166,
+        9.60702
+      ]
+    },
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.88772,
+        9.54669
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

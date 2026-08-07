@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-5797",
+  "ref": "ODR 5797",
+  "name": "Thiruverkadu–Vanagaram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Thiruverkadu, Tamil Nadu",
+    "end": "Vanagaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruverkadu",
+      "Poonamallee",
+      "Vanagaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruverkadu",
+      "coords": [
+        80.12385,
+        13.06459
+      ]
+    },
+    {
+      "name": "Nolambur",
+      "coords": [
+        80.13422,
+        13.06313
+      ]
+    },
+    {
+      "name": "Vanagaram",
+      "coords": [
+        80.13475,
+        13.0604
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

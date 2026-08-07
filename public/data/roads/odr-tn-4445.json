@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-4445",
+  "ref": "ODR 4445",
+  "name": "Mottur–Ariyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Mottur, Tamil Nadu",
+    "end": "Ariyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mottur",
+      "Ariyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mottur",
+      "coords": [
+        79.03652,
+        12.8754
+      ]
+    },
+    {
+      "name": "Ariyur",
+      "coords": [
+        79.03415,
+        12.86849
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nh-702d",
+  "ref": "NH 702D",
+  "name": "Mokokchung–Tarazan/ Rupali Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 103.7,
+  "route": {
+    "start": "Mokokchung, Nagaland",
+    "end": "Tarazan/ Rupali Nagar, Assam",
+    "states": [
+      "Nagaland",
+      "Assam"
+    ],
+    "majorCities": [
+      "Mokokchung",
+      "Mangkolemba",
+      "Mariani",
+      "Jorhat",
+      "Tarazan/ Rupali Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mokokchung",
+      "coords": [
+        94.51725,
+        26.32447
+      ]
+    },
+    {
+      "name": "Mangkolemba",
+      "coords": [
+        94.43339,
+        26.43924
+      ]
+    },
+    {
+      "name": "Mariani",
+      "coords": [
+        94.31858,
+        26.65441
+      ]
+    },
+    {
+      "name": "Jorhat",
+      "coords": [
+        94.20441,
+        26.75855
+      ]
+    },
+    {
+      "name": "Tarazan/ Rupali Nagar",
+      "coords": [
+        94.18228,
+        26.75102
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjiramattom-poothotta-road",
+  "ref": "MDR",
+  "name": "Kanjiramattom - Poothotta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Chottanikkara, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chottanikkara",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.40212,
+        9.85387
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.38824,
+        9.85238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

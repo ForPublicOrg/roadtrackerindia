@@ -1,0 +1,51 @@
+{
+  "id": "kl-eranjal-thiruvanchoor-road",
+  "ref": "MDR",
+  "name": "Eranjal - Thiruvanchoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kanjikuzhi, Kerala",
+    "end": "Manarcadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikuzhi",
+      "Kottayam",
+      "Kumaranalloor",
+      "Manarcadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikuzhi",
+      "coords": [
+        76.54511,
+        9.5943
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.54763,
+        9.60739
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.57358,
+        9.61787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

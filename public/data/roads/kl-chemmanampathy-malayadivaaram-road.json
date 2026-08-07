@@ -1,0 +1,42 @@
+{
+  "id": "kl-chemmanampathy-malayadivaaram-road",
+  "ref": "MDR",
+  "name": "Chemmanampathy - Malayadivaaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Anaimalai, Kerala",
+    "end": "Kollengode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anaimalai",
+      "Kollengode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anaimalai",
+      "coords": [
+        76.82913,
+        10.57295
+      ]
+    },
+    {
+      "name": "Kollengode",
+      "coords": [
+        76.82686,
+        10.55693
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

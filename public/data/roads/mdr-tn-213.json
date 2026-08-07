@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-213",
+  "ref": "MDR 213",
+  "name": "Koranadu–Mayiladuthurai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Koranadu, Tamil Nadu",
+    "end": "Mayiladuthurai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Koranadu",
+      "Mayiladuthurai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koranadu",
+      "coords": [
+        79.51916,
+        11.13046
+      ]
+    },
+    {
+      "name": "Mayiladuthurai",
+      "coords": [
+        79.55884,
+        11.07182
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

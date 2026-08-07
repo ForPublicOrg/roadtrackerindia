@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-44",
+  "ref": "MDR 44",
+  "name": "Nellikkuppam–Thiruvandhipuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Nellikkuppam, Tamil Nadu",
+    "end": "Thiruvandhipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nellikkuppam",
+      "Thiruvandhipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nellikkuppam",
+      "coords": [
+        79.66888,
+        11.77654
+      ]
+    },
+    {
+      "name": "Thiruvandhipuram",
+      "coords": [
+        79.6619,
+        11.74103
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

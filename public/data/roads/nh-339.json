@@ -1,0 +1,47 @@
+{
+  "id": "nh-339",
+  "ref": "NH 339",
+  "name": "Maharajpur–Nowgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 33.5,
+  "route": {
+    "start": "Maharajpur, Uttar Pradesh",
+    "end": "Nowgaon, Madhya Pradesh",
+    "states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Maharajpur",
+      "Nowgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maharajpur",
+      "coords": [
+        79.75428,
+        25.14525
+      ]
+    },
+    {
+      "name": "Nowgaon",
+      "coords": [
+        79.44471,
+        25.05692
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

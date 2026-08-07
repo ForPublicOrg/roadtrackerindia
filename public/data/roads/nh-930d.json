@@ -1,0 +1,54 @@
+{
+  "id": "nh-930d",
+  "ref": "NH 930D",
+  "name": "Chandrapur–Rajura National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 53.2,
+  "route": {
+    "start": "Chandrapur, Maharashtra",
+    "end": "Rajura, Telangana",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Chandrapur",
+      "Ballarpur",
+      "Rajura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chandrapur",
+      "coords": [
+        79.31046,
+        19.96853
+      ]
+    },
+    {
+      "name": "Ballarpur",
+      "coords": [
+        79.34588,
+        19.85703
+      ]
+    },
+    {
+      "name": "Rajura",
+      "coords": [
+        79.3707,
+        19.7856
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

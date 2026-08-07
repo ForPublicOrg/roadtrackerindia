@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-59",
+  "ref": "SH 59",
+  "name": "Indore–Ujjain State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.4,
+  "route": {
+    "start": "Indore, Madhya Pradesh",
+    "end": "Ujjain, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Indore",
+      "Ujjain"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Indore",
+      "coords": [
+        75.84956,
+        22.73663
+      ]
+    },
+    {
+      "name": "Ujjain",
+      "coords": [
+        75.78174,
+        23.18051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

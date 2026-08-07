@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-17",
+  "ref": "SH 17",
+  "name": "Hatpipliya–Jirapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175,
+  "route": {
+    "start": "Hatpipliya, Madhya Pradesh",
+    "end": "Jirapur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Hatpipliya",
+      "Shajapur",
+      "Jirapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hatpipliya",
+      "coords": [
+        76.36431,
+        22.97368
+      ]
+    },
+    {
+      "name": "Shajapur",
+      "coords": [
+        76.28706,
+        23.42259
+      ]
+    },
+    {
+      "name": "Jirapur",
+      "coords": [
+        76.45149,
+        24.02046
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

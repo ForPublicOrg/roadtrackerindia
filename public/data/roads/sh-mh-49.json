@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-49",
+  "ref": "SH 49",
+  "name": "Bhagur–Sangamner State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 119.5,
+  "route": {
+    "start": "Bhagur, Maharashtra",
+    "end": "Sangamner, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bhagur",
+      "Rahuri",
+      "Sangamner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhagur",
+      "coords": [
+        75.21981,
+        19.3529
+      ]
+    },
+    {
+      "name": "Rahuri",
+      "coords": [
+        74.6463,
+        19.396
+      ]
+    },
+    {
+      "name": "Sangamner",
+      "coords": [
+        74.33461,
+        19.33947
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

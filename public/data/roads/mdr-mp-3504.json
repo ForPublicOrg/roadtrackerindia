@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-3504",
+  "ref": "MDR 3504",
+  "name": "Betul–Sarni District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 59.4,
+  "route": {
+    "start": "Betul, Madhya Pradesh",
+    "end": "Sarni, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Betul",
+      "Amla",
+      "Sarni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Betul",
+      "coords": [
+        77.90036,
+        21.90441
+      ]
+    },
+    {
+      "name": "Amla",
+      "coords": [
+        78.12518,
+        21.92434
+      ]
+    },
+    {
+      "name": "Sarni",
+      "coords": [
+        78.35395,
+        21.99639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

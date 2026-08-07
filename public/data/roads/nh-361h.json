@@ -1,0 +1,46 @@
+{
+  "id": "nh-361h",
+  "ref": "NH 361H",
+  "name": "MIDC–Parli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 55.3,
+  "route": {
+    "start": "MIDC, Maharashtra",
+    "end": "Parli, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "MIDC",
+      "Parli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MIDC",
+      "coords": [
+        76.56596,
+        18.51497
+      ]
+    },
+    {
+      "name": "Parli",
+      "coords": [
+        76.54563,
+        18.86215
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

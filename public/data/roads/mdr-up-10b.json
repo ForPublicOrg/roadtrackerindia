@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-10b",
+  "ref": "MDR 10B",
+  "name": "Banda–Rath District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 63.4,
+  "route": {
+    "start": "Banda, Uttar Pradesh",
+    "end": "Rath, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Banda",
+      "Rath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Banda",
+      "coords": [
+        80.32807,
+        25.48224
+      ]
+    },
+    {
+      "name": "Rath",
+      "coords": [
+        79.838,
+        25.67256
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

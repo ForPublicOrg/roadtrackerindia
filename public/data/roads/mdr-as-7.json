@@ -1,0 +1,43 @@
+{
+  "id": "mdr-as-7",
+  "ref": "MDR 7",
+  "name": "Dullabhcherra–Panisagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.8,
+  "route": {
+    "start": "Dullabhcherra, Assam",
+    "end": "Panisagar, Tripura",
+    "states": [
+      "Assam",
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Dullabhcherra",
+      "Panisagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dullabhcherra",
+      "coords": [
+        92.32035,
+        24.46169
+      ]
+    },
+    {
+      "name": "Panisagar",
+      "coords": [
+        92.29613,
+        24.2379
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

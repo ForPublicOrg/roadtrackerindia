@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2110",
+  "ref": "MDR 2110",
+  "name": "Manasa–Jiran District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 39.7,
+  "route": {
+    "start": "Manasa, Madhya Pradesh",
+    "end": "Jiran, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Manasa",
+      "Jiran"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manasa",
+      "coords": [
+        75.28206,
+        24.56686
+      ]
+    },
+    {
+      "name": "Jiran",
+      "coords": [
+        75.13995,
+        24.37141
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

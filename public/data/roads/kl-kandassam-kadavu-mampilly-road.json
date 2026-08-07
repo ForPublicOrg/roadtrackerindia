@@ -1,0 +1,42 @@
+{
+  "id": "kl-kandassam-kadavu-mampilly-road",
+  "ref": "MDR",
+  "name": "Kandassam Kadavu Mampilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.09648,
+        10.4717
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.08745,
+        10.49067
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

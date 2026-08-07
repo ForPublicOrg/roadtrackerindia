@@ -1,0 +1,54 @@
+{
+  "id": "nh-311",
+  "ref": "NH 311",
+  "name": "Jasrapur–Singhana National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.5,
+  "route": {
+    "start": "Jasrapur, Rajasthan",
+    "end": "Singhana, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jasrapur",
+      "Khetri",
+      "Singhana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jasrapur",
+      "coords": [
+        75.51579,
+        27.95894
+      ]
+    },
+    {
+      "name": "Khetri",
+      "coords": [
+        75.79076,
+        28.03551
+      ]
+    },
+    {
+      "name": "Singhana",
+      "coords": [
+        75.83308,
+        28.09279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

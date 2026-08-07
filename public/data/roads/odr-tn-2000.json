@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2000",
+  "ref": "ODR 2000",
+  "name": "Pallikondai–Latteri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Pallikondai, Tamil Nadu",
+    "end": "Latteri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pallikondai",
+      "Latteri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallikondai",
+      "coords": [
+        78.96621,
+        12.98127
+      ]
+    },
+    {
+      "name": "Latteri",
+      "coords": [
+        78.96588,
+        12.99058
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

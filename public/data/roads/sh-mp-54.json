@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-54",
+  "ref": "SH 54",
+  "name": "Ashoknagar–Bamori State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 125.6,
+  "route": {
+    "start": "Ashoknagar, Madhya Pradesh",
+    "end": "Bamori, Rajasthan",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ashoknagar",
+      "Guna",
+      "Bamori"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ashoknagar",
+      "coords": [
+        77.72624,
+        24.58863
+      ]
+    },
+    {
+      "name": "Guna",
+      "coords": [
+        77.31794,
+        24.64801
+      ]
+    },
+    {
+      "name": "Bamori",
+      "coords": [
+        76.97551,
+        25.06686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

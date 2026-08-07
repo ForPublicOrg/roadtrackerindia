@@ -1,0 +1,57 @@
+{
+  "id": "kl-parallel-vp-road",
+  "ref": "MDR",
+  "name": "Parallel VP Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.2,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Puthuvype, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "Cherai",
+      "Puthuvype"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.16843,
+        10.17988
+      ]
+    },
+    {
+      "name": "Cherai",
+      "coords": [
+        76.18304,
+        10.12755
+      ]
+    },
+    {
+      "name": "Thekkinezhath",
+      "coords": [
+        76.20593,
+        10.04712
+      ]
+    },
+    {
+      "name": "Puthuvype",
+      "coords": [
+        76.21892,
+        10.00861
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

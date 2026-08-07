@@ -1,0 +1,50 @@
+{
+  "id": "kl-gujarathi-road",
+  "ref": "MDR",
+  "name": "Gujarathi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Koovapadam, Kerala",
+    "end": "Mattancherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koovapadam",
+      "Mattancherry",
+      "Kochi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.25647,
+        9.95199
+      ]
+    },
+    {
+      "name": "Mattancherry",
+      "coords": [
+        76.25549,
+        9.95642
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.25491,
+        9.96128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

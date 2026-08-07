@@ -1,0 +1,42 @@
+{
+  "id": "kl-varavoor-pilakkad-thali-road",
+  "ref": "MDR",
+  "name": "Varavoor Pilakkad Thali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Ottupara, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottupara",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.2163,
+        10.72014
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.19662,
+        10.73524
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

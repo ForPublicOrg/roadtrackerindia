@@ -1,0 +1,44 @@
+{
+  "id": "kl-kanjikuzhy-branch-road-from-kollad-chruch-road",
+  "ref": "MDR",
+  "name": "Kanjikuzhy Branch Road from Kollad Chruch Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Devalokam, Kerala",
+    "end": "Kanjikuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Devalokam",
+      "Puthuppally",
+      "Nattakom",
+      "Kanjikuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Devalokam",
+      "coords": [
+        76.54898,
+        9.5581
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.54289,
+        9.56098
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

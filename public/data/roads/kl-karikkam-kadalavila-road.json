@@ -1,0 +1,42 @@
+{
+  "id": "kl-karikkam-kadalavila-road",
+  "ref": "MDR",
+  "name": "Karikkam - Kadalavila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.77617,
+        8.97853
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.80249,
+        8.9852
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

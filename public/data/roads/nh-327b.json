@@ -1,0 +1,47 @@
+{
+  "id": "nh-327b",
+  "ref": "NH 327B",
+  "name": "Panitanki–Kakarbitta National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Panitanki, West Bengal",
+    "end": "Kakarbitta, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Panitanki",
+      "Mechinagar",
+      "Kakarbitta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panitanki",
+      "coords": [
+        88.17133,
+        26.64046
+      ]
+    },
+    {
+      "name": "Mechinagar",
+      "coords": [
+        88.16082,
+        26.64533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

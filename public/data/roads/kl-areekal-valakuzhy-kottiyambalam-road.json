@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekal-valakuzhy-kottiyambalam-road",
+  "ref": "MDR",
+  "name": "Areekal - Valakuzhy - Kottiyambalam road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.71555,
+        9.41297
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.69698,
+        9.40509
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

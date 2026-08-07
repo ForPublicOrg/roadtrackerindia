@@ -1,0 +1,42 @@
+{
+  "id": "kl-kayyoorikkal-irumpayam-pothi-road",
+  "ref": "MDR",
+  "name": "Kayyoorikkal - Irumpayam - Pothi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Piravom, Kerala",
+    "end": "Thalayolaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Piravom",
+      "Thalayolaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Piravom",
+      "coords": [
+        76.48173,
+        9.82554
+      ]
+    },
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.46871,
+        9.80352
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

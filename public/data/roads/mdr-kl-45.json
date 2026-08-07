@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-45",
+  "ref": "MDR 45",
+  "name": "Kaikunje–Manjeshwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Kaikunje, Karnataka",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaikunje",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaikunje",
+      "coords": [
+        75.00777,
+        12.7866
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.98744,
+        12.75336
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

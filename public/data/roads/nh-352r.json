@@ -1,0 +1,46 @@
+{
+  "id": "nh-352r",
+  "ref": "NH 352R",
+  "name": "Jhajjar–Bahadurgarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 25.7,
+  "route": {
+    "start": "Jhajjar, Haryana",
+    "end": "Bahadurgarh, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Jhajjar",
+      "Bahadurgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhajjar",
+      "coords": [
+        76.67916,
+        28.6127
+      ]
+    },
+    {
+      "name": "Bahadurgarh",
+      "coords": [
+        76.92486,
+        28.68613
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "nh-227a",
+  "ref": "NH 227A",
+  "name": "New Colony–Gopalganj National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 259.3,
+  "route": {
+    "start": "New Colony, Uttar Pradesh",
+    "end": "Gopalganj, Bihar",
+    "states": [
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "majorCities": [
+      "New Colony",
+      "Sikariganj",
+      "Dohrighat",
+      "Mairwa",
+      "Siwan",
+      "Gopalganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "New Colony",
+      "coords": [
+        82.37505,
+        26.77769
+      ]
+    },
+    {
+      "name": "Sikariganj",
+      "coords": [
+        83.20192,
+        26.50189
+      ]
+    },
+    {
+      "name": "Dohrighat",
+      "coords": [
+        83.51369,
+        26.28513
+      ]
+    },
+    {
+      "name": "Mairwa",
+      "coords": [
+        84.14954,
+        26.2284
+      ]
+    },
+    {
+      "name": "Siwan",
+      "coords": [
+        84.35998,
+        26.22424
+      ]
+    },
+    {
+      "name": "Barharia",
+      "coords": [
+        84.43417,
+        26.29752
+      ]
+    },
+    {
+      "name": "Gopalganj",
+      "coords": [
+        84.60823,
+        26.40927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

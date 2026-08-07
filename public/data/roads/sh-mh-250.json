@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-250",
+  "ref": "SH 250",
+  "name": "Hingna–Saoner State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 56.2,
+  "route": {
+    "start": "Hingna, Maharashtra",
+    "end": "Saoner, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Hingna",
+      "Kalmeshwar",
+      "Saoner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hingna",
+      "coords": [
+        78.81109,
+        21.05218
+      ]
+    },
+    {
+      "name": "Kalmeshwar",
+      "coords": [
+        78.84239,
+        21.24291
+      ]
+    },
+    {
+      "name": "Saoner",
+      "coords": [
+        78.91751,
+        21.37704
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

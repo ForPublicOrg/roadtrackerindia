@@ -1,0 +1,58 @@
+{
+  "id": "mdr-pb-53",
+  "ref": "MDR 53",
+  "name": "Khanna–Nawanshahr District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.5,
+  "route": {
+    "start": "Khanna, Punjab",
+    "end": "Nawanshahr, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Khanna",
+      "Samrala",
+      "Machhiwara",
+      "Nawanshahr"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khanna",
+      "coords": [
+        76.21605,
+        30.70968
+      ]
+    },
+    {
+      "name": "Samrala",
+      "coords": [
+        76.18827,
+        30.83661
+      ]
+    },
+    {
+      "name": "Machhiwara",
+      "coords": [
+        76.19337,
+        30.91182
+      ]
+    },
+    {
+      "name": "Nawanshahr",
+      "coords": [
+        76.11841,
+        31.12411
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

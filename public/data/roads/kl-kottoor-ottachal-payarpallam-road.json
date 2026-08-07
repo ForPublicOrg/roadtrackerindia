@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottoor-ottachal-payarpallam-road",
+  "ref": "MDR",
+  "name": "Kottoor - Ottachal - Payarpallam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Bovikkanam, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Bovikkanam",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.12343,
+        12.5152
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.14199,
+        12.50081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

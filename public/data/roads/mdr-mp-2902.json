@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2902",
+  "ref": "MDR 2902",
+  "name": "Kurwai–Mungaoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.1,
+  "route": {
+    "start": "Kurwai, Madhya Pradesh",
+    "end": "Mungaoli, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Kurwai",
+      "Mungaoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurwai",
+      "coords": [
+        78.02208,
+        24.11979
+      ]
+    },
+    {
+      "name": "Mungaoli",
+      "coords": [
+        78.06416,
+        24.27363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

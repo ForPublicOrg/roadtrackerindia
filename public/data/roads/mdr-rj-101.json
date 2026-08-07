@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-101",
+  "ref": "MDR 101",
+  "name": "Rohat–Basni District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 33.2,
+  "route": {
+    "start": "Rohat, Rajasthan",
+    "end": "Basni, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rohat",
+      "Basni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rohat",
+      "coords": [
+        73.13647,
+        25.96663
+      ]
+    },
+    {
+      "name": "Basni",
+      "coords": [
+        73.04031,
+        26.22889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

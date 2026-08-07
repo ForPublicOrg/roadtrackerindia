@@ -1,0 +1,65 @@
+{
+  "id": "sh-kl-10",
+  "ref": "SH 10",
+  "name": "Puthiyacavu–Kozhencherry State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.5,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara",
+      "Chengannur",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.5852,
+        9.24468
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.54827,
+        9.25463
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.61346,
+        9.31766
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.62201,
+        9.31973
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70813,
+        9.32677
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

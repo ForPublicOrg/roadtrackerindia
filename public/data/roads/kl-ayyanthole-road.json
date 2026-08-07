@@ -1,0 +1,50 @@
+{
+  "id": "kl-ayyanthole-road",
+  "ref": "MDR",
+  "name": "Ayyanthole Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Puzhakkal, Kerala",
+    "end": "West Fort, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puzhakkal",
+      "Thrissur",
+      "West Fort"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.18471,
+        10.54233
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.18422,
+        10.53709
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.20177,
+        10.52229
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

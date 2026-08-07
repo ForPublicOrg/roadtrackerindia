@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-133",
+  "ref": "MDR 133",
+  "name": "Bhim–Gangapur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 79.8,
+  "route": {
+    "start": "Bhim, Rajasthan",
+    "end": "Gangapur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhim",
+      "Gangapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhim",
+      "coords": [
+        74.08417,
+        25.73285
+      ]
+    },
+    {
+      "name": "Gangapur",
+      "coords": [
+        74.42787,
+        25.23108
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

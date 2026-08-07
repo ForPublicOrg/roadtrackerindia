@@ -8,8 +8,15 @@
   "lengthKm": 302,
   "lanes": "6 lanes, access-controlled (expandable to 8)",
   "agency": "UPEIDA",
+  "authority": "upeida",
   "cost": "₹11,527 crore (excluding the cost of land)",
   "contractor": "Built in five packages by contractors including Larsen & Toubro, Afcons Infrastructure, PNC Infratech and Nagarjuna Construction Company",
+  "builtBy": [
+    { "org": "larsen-toubro", "note": "one of five packages" },
+    { "org": "afcons", "note": "one of five packages" },
+    { "org": "pnc-infratech", "note": "one of five packages" },
+    { "org": "ncc", "note": "one of five packages" }
+  ],
   "route": {
     "start": "Agra (Inner Ring Road), Uttar Pradesh",
     "end": "Lucknow, Uttar Pradesh",

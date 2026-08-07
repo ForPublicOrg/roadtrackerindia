@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-42",
+  "ref": "SH 42",
+  "name": "Kheragarh–Bari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 36.5,
+  "route": {
+    "start": "Kheragarh, Uttar Pradesh",
+    "end": "Bari, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kheragarh",
+      "Sepau",
+      "Bari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kheragarh",
+      "coords": [
+        77.7896,
+        26.92296
+      ]
+    },
+    {
+      "name": "Sepau",
+      "coords": [
+        77.74635,
+        26.81734
+      ]
+    },
+    {
+      "name": "Bari",
+      "coords": [
+        77.61747,
+        26.64996
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

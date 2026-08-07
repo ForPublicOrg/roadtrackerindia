@@ -1,0 +1,57 @@
+{
+  "id": "kl-payyannur-south-bazar-kandankali-kurumkadavu-punnakkadavu-ro",
+  "ref": "MDR",
+  "name": "Payyannur South Bazar - Kandankali - Kurumkadavu - Punnakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Payyanur, Kerala",
+    "end": "Kotti, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyanur",
+      "Kothaymukku",
+      "Kotti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.21014,
+        12.10684
+      ]
+    },
+    {
+      "name": "Kotti",
+      "coords": [
+        75.20661,
+        12.08603
+      ]
+    },
+    {
+      "name": "Kunhimangalam",
+      "coords": [
+        75.20515,
+        12.08111
+      ]
+    },
+    {
+      "name": "Kotti",
+      "coords": [
+        75.19459,
+        12.0753
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

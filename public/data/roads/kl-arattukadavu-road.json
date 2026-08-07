@@ -1,0 +1,43 @@
+{
+  "id": "kl-arattukadavu-road",
+  "ref": "MDR",
+  "name": "Arattukadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Varappuzha, Kerala",
+    "end": "Kongorpilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varappuzha",
+      "Thrikkapuram",
+      "Kongorpilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varappuzha",
+      "coords": [
+        76.25737,
+        10.09074
+      ]
+    },
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.26656,
+        10.09211
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

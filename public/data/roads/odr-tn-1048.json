@@ -1,0 +1,43 @@
+{
+  "id": "odr-tn-1048",
+  "ref": "ODR 1048",
+  "name": "RV Nagar–Bagayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "RV Nagar, Tamil Nadu",
+    "end": "Bagayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "RV Nagar",
+      "Vellore",
+      "Bagayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "RV Nagar",
+      "coords": [
+        79.1389,
+        12.90108
+      ]
+    },
+    {
+      "name": "Bagayam",
+      "coords": [
+        79.14701,
+        12.89201
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

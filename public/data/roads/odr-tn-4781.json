@@ -1,0 +1,58 @@
+{
+  "id": "odr-tn-4781",
+  "ref": "ODR 4781",
+  "name": "Pammal–Pozhichalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Pammal, Tamil Nadu",
+    "end": "Pozhichalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pammal",
+      "Pallavaram",
+      "Anakaputhur",
+      "Pozhichalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pammal",
+      "coords": [
+        80.13519,
+        12.97446
+      ]
+    },
+    {
+      "name": "Anakaputhur",
+      "coords": [
+        80.13671,
+        12.98031
+      ]
+    },
+    {
+      "name": "Tirusulam",
+      "coords": [
+        80.13989,
+        12.98347
+      ]
+    },
+    {
+      "name": "Pozhichalur",
+      "coords": [
+        80.142,
+        12.98934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

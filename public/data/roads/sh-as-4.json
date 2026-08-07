@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-4",
+  "ref": "SH 4",
+  "name": "Mangaldoi–Tangla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61,
+  "route": {
+    "start": "Mangaldoi, Assam",
+    "end": "Tangla, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Mangaldoi",
+      "Kalaigaon",
+      "Tangla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangaldoi",
+      "coords": [
+        92.03092,
+        26.43657
+      ]
+    },
+    {
+      "name": "Kalaigaon",
+      "coords": [
+        91.9744,
+        26.57468
+      ]
+    },
+    {
+      "name": "Tangla",
+      "coords": [
+        91.90846,
+        26.66449
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

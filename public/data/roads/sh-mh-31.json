@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-31",
+  "ref": "SH 31",
+  "name": "Khadoli–Boisar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51,
+  "route": {
+    "start": "Khadoli, Maharashtra",
+    "end": "Boisar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Khadoli",
+      "Dahanu",
+      "Boisar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khadoli",
+      "coords": [
+        73.00035,
+        20.09216
+      ]
+    },
+    {
+      "name": "Dahanu",
+      "coords": [
+        72.78037,
+        19.97147
+      ]
+    },
+    {
+      "name": "Boisar",
+      "coords": [
+        72.68918,
+        19.87436
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

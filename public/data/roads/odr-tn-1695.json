@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-1695",
+  "ref": "ODR 1695",
+  "name": "Latteri–Vanjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Latteri, Tamil Nadu",
+    "end": "Vanjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Latteri",
+      "Vanjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latteri",
+      "coords": [
+        79.06784,
+        12.97257
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.06928,
+        12.98962
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

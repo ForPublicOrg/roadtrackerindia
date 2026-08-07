@@ -1,0 +1,49 @@
+{
+  "id": "mdr-jh-59",
+  "ref": "MDR 59",
+  "name": "New Delhi Colony–Dhanbad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "New Delhi Colony, Jharkhand",
+    "end": "Dhanbad, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "New Delhi Colony",
+      "Dhanbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "New Delhi Colony",
+      "coords": [
+        86.41392,
+        23.77975
+      ]
+    },
+    {
+      "name": "Dhanbad",
+      "coords": [
+        86.42386,
+        23.78636
+      ]
+    },
+    {
+      "name": "Kasturba Nagar",
+      "coords": [
+        86.42161,
+        23.78827
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

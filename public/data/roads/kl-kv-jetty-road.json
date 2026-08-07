@@ -1,0 +1,42 @@
+{
+  "id": "kl-kv-jetty-road",
+  "ref": "MDR",
+  "name": "KV Jetty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.40208,
+        9.28881
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.43425,
+        9.29502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

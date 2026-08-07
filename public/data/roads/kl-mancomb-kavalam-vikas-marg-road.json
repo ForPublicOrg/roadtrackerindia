@@ -1,0 +1,42 @@
+{
+  "id": "kl-mancomb-kavalam-vikas-marg-road",
+  "ref": "MDR",
+  "name": "Mancomb - Kavalam - Vikas Marg Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vandipetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Vandipetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.42794,
+        9.43368
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.45541,
+        9.45934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

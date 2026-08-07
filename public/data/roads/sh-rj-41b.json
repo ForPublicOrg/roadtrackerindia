@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-41b",
+  "ref": "SH 41B",
+  "name": "Jhunjhunu–Taranagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 77.7,
+  "route": {
+    "start": "Jhunjhunu, Rajasthan",
+    "end": "Taranagar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jhunjhunu",
+      "Mandrella",
+      "Taranagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhunjhunu",
+      "coords": [
+        75.40178,
+        28.13929
+      ]
+    },
+    {
+      "name": "Mandrella",
+      "coords": [
+        75.42578,
+        28.30986
+      ]
+    },
+    {
+      "name": "Taranagar",
+      "coords": [
+        75.14909,
+        28.66542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

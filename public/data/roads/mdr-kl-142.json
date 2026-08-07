@@ -1,0 +1,58 @@
+{
+  "id": "mdr-kl-142",
+  "ref": "MDR 142",
+  "name": "Chirupuram–Odayamchal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.9,
+  "route": {
+    "start": "Chirupuram, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chirupuram",
+      "Nileshwaram",
+      "Kayyur",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirupuram",
+      "coords": [
+        75.137,
+        12.25887
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.18624,
+        12.28457
+      ]
+    },
+    {
+      "name": "Choyamkode",
+      "coords": [
+        75.19229,
+        12.28795
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.22779,
+        12.3675
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

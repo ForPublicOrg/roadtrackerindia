@@ -6,8 +6,9 @@ import { loadNews } from './data'
 import { prefersReducedMotion, spring, type SpringHandle } from './animate'
 import { renderRatingRow } from './ratings'
 import { renderRoadReports } from './reports'
+import { behindHtml, contactsHtml, helplinesFor, loadOrg, orgKnown, tollHtml } from './orgs'
 
-type PanelMode = 'detail' | 'browse'
+type PanelMode = 'detail' | 'browse' | 'org'
 type SheetState = 'peek' | 'full'
 
 const panel = () => document.getElementById('panel')!
@@ -271,15 +272,13 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
   const cityLine = d.route.majorCities.join(' · ')
   const kv: string[] = []
   if (d.lanes) kv.push(`<dt>Lanes</dt><dd>${esc(d.lanes)}</dd>`)
-  if (d.agency) kv.push(`<dt>Looked after by</dt><dd>${esc(d.agency)}</dd>`)
+  // the linked org chips say this better — the free text is the fallback for
+  // the thousands of OpenStreetMap roads that have no organisation on file
+  if (d.agency && !orgKnown(d.authority)) kv.push(`<dt>Looked after by</dt><dd>${esc(d.agency)}</dd>`)
   if (d.cost) kv.push(`<dt>Project cost</dt><dd>${esc(d.cost)}</dd>`)
-  if (d.contractor) kv.push(`<dt>Built by</dt><dd>${esc(d.contractor)}</dd>`)
+  if (d.contractor && !d.builtBy?.length) kv.push(`<dt>Built by</dt><dd>${esc(d.contractor)}</dd>`)
 
-  const tolls = d.tolls?.length
-    ? `<div class="rd-section"><h3>Toll plazas</h3><ul class="rd-list">${d.tolls
-        .map((t) => `<li>${esc(t.name)}${t.note ? ` <span style="color:var(--ink-2)">— ${esc(t.note)}</span>` : ''}</li>`)
-        .join('')}</ul></div>`
-    : ''
+  const tolls = '' // toll plazas now render with their rates, in their own section
 
   const timeline = d.timeline?.length
     ? `<div class="rd-section"><h3>Timeline</h3><ol class="rd-timeline">${d.timeline
@@ -349,7 +348,11 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       (s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4 2h6v6M10 2L2 10" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>${esc(s.title)}</a>`,
     )
-    .join('')}</div></div>`
+    .join('')}</div>${
+      d.provenance === 'osm'
+        ? `<p class="rd-provenance">Route, length and place names for this road come from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors (ODbL).</p>`
+        : ''
+    }</div>`
 
   content().innerHTML = `
     ${headHtml(d.ref, d.category, d.name)}
@@ -368,6 +371,9 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       <p class="rd-meta-line"><b>Through:</b> ${esc(d.route.states.join(', '))}</p>
       <p class="rd-meta-line"><b>Main stops:</b> ${esc(cityLine)}</p>
     </div>
+    ${tollHtml(d)}
+    <div id="contacts-slot"></div>
+    ${behindHtml(d)}
     ${significance}
     ${more}
     ${engineering}
@@ -411,6 +417,72 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
   const reportsSlot = document.getElementById('reports-slot')!
   void renderRoadReports(reportsSlot, d.id, summary.ref)
   void fillNews(d.id)
+  void fillContacts(d)
+  wireOrgChips()
+}
+
+/** Org chips select a company without this module knowing how routing works. */
+function wireOrgChips(): void {
+  content()
+    .querySelectorAll<HTMLButtonElement>('.og-chip[data-org]')
+    .forEach((b) =>
+      b.addEventListener('click', () =>
+        document.dispatchEvent(new CustomEvent('rti:select-org', { detail: { id: b.dataset.org } })),
+      ),
+    )
+}
+
+/**
+ * The numbers to ring. The national ones are always right, so they render
+ * immediately; the authority's own numbers arrive with its profile.
+ */
+async function fillContacts(d: RoadDetail): Promise<void> {
+  const paint = (html: string) => {
+    const slot = document.getElementById('contacts-slot')
+    if (slot && state.selectedId === d.id) slot.innerHTML = html
+  }
+  paint(contactsHtml(helplinesFor(d, null), undefined))
+  if (!d.authority) return
+  try {
+    const org = await loadOrg(d.authority)
+    paint(contactsHtml(helplinesFor(d, org), org.grievance))
+  } catch {
+    /* national numbers are already on screen — that is the part that matters */
+  }
+}
+
+// ── organisation profile ───────────────────────────────────────────
+
+export function renderOrg(html: string): void {
+  content().innerHTML = html
+  wireHead()
+  content().querySelector<HTMLElement>('.rd-name')?.focus({ preventScroll: true })
+  content()
+    .querySelectorAll<HTMLButtonElement>('.br-row')
+    .forEach((b) =>
+      b.addEventListener('click', () =>
+        document.dispatchEvent(new CustomEvent('rti:select-road', { detail: { id: b.dataset.id } })),
+      ),
+    )
+}
+
+export function showOrgLoading(name: string): void {
+  content().innerHTML = `
+    <div class="rd-head">
+      <h2 class="rd-name" tabindex="-1">${esc(name)}</h2>
+      <button class="rd-close" id="rd-close" aria-label="Close">
+        <svg viewBox="0 0 14 14" width="14" height="14" aria-hidden="true">
+          <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <div class="rd-section">
+      <div class="skel" style="height:15px;width:70%"></div>
+      <div style="height:9px"></div>
+      <div class="skel" style="height:15px;width:52%"></div>
+    </div>`
+  wireHead()
+  openPanel('org', 'full')
 }
 
 /** "In the news" — latest-first headlines snapshotted at build time. */

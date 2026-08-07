@@ -1,0 +1,66 @@
+{
+  "id": "sh-hr-132",
+  "ref": "SH 132",
+  "name": "Haileymandi–Hodal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 96.4,
+  "route": {
+    "start": "Haileymandi, Haryana",
+    "end": "Hodal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Haileymandi",
+      "Pataudi",
+      "Tauru",
+      "Nuh",
+      "Hodal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haileymandi",
+      "coords": [
+        76.65726,
+        28.42058
+      ]
+    },
+    {
+      "name": "Pataudi",
+      "coords": [
+        76.77791,
+        28.32799
+      ]
+    },
+    {
+      "name": "Tauru",
+      "coords": [
+        76.95416,
+        28.21336
+      ]
+    },
+    {
+      "name": "Nuh",
+      "coords": [
+        77.01337,
+        28.10184
+      ]
+    },
+    {
+      "name": "Hodal",
+      "coords": [
+        77.36241,
+        27.90393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nh-115",
+  "ref": "NH 115",
+  "name": "Kakopathar–Roing National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75,
+  "route": {
+    "start": "Kakopathar, Assam",
+    "end": "Roing, Arunachal Pradesh",
+    "states": [
+      "Assam",
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Kakopathar",
+      "Talap",
+      "Chapakhowa",
+      "Roing"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakopathar",
+      "coords": [
+        95.61409,
+        27.61788
+      ]
+    },
+    {
+      "name": "Talap",
+      "coords": [
+        95.56407,
+        27.68095
+      ]
+    },
+    {
+      "name": "Chapakhowa",
+      "coords": [
+        95.76649,
+        27.9153
+      ]
+    },
+    {
+      "name": "Roing",
+      "coords": [
+        95.8201,
+        28.1153
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

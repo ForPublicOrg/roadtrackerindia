@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-58",
+  "ref": "SH 58",
+  "name": "Naubasta–Unnao State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 24.9,
+  "route": {
+    "start": "Naubasta, Uttar Pradesh",
+    "end": "Unnao, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Naubasta",
+      "Kanpur",
+      "Shuklaganj",
+      "Unnao"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naubasta",
+      "coords": [
+        80.32818,
+        26.41748
+      ]
+    },
+    {
+      "name": "Kanpur",
+      "coords": [
+        80.34535,
+        26.45094
+      ]
+    },
+    {
+      "name": "Shuklaganj",
+      "coords": [
+        80.38766,
+        26.48047
+      ]
+    },
+    {
+      "name": "Unnao",
+      "coords": [
+        80.48278,
+        26.54343
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

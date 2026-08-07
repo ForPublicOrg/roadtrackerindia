@@ -1,0 +1,42 @@
+{
+  "id": "kl-nuchiyad-manikadavu-kanhirakolly-road",
+  "ref": "MDR",
+  "name": "Nuchiyad - Manikadavu - Kanhirakolly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.63391,
+        12.1258
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.64283,
+        12.04235
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-2",
+  "ref": "SH 2",
+  "name": "Koliwar–Paliganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.9,
+  "route": {
+    "start": "Koliwar, Bihar",
+    "end": "Paliganj, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Koliwar",
+      "Paliganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koliwar",
+      "coords": [
+        84.87025,
+        25.57357
+      ]
+    },
+    {
+      "name": "Paliganj",
+      "coords": [
+        84.79468,
+        25.32852
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

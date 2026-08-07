@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-179",
+  "ref": "MDR 179",
+  "name": "Bhetia–Adityapur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.8,
+  "route": {
+    "start": "Bhetia, Jharkhand",
+    "end": "Adityapur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bhetia",
+      "Adityapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhetia",
+      "coords": [
+        86.10192,
+        22.71072
+      ]
+    },
+    {
+      "name": "Adityapur",
+      "coords": [
+        86.11692,
+        22.62536
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "kl-pettah-oruvathikotta-road",
+  "ref": "MDR",
+  "name": "Pettah - Oruvathikotta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Akkulam, Kerala",
+    "end": "Pettah, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Akkulam",
+      "Anayara",
+      "Thiruvananthapuram",
+      "Pettah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Akkulam",
+      "coords": [
+        76.89892,
+        8.51781
+      ]
+    },
+    {
+      "name": "Vettukadu",
+      "coords": [
+        76.90901,
+        8.51082
+      ]
+    },
+    {
+      "name": "Anayara",
+      "coords": [
+        76.91343,
+        8.50849
+      ]
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "coords": [
+        76.92885,
+        8.49539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

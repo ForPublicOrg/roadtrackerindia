@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallam-malankara-onibagilu-pajjana-road",
+  "ref": "MDR",
+  "name": "Pallam - Malankara - Onibagilu - Pajjana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.03874,
+        12.62497
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        75.0393,
+        12.64682
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

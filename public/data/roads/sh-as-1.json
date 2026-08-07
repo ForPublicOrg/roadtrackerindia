@@ -1,0 +1,81 @@
+{
+  "id": "sh-as-1",
+  "ref": "SH 1",
+  "name": "Dergaon–Garhgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 122.4,
+  "route": {
+    "start": "Dergaon, Assam",
+    "end": "Garhgaon, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dergaon",
+      "Golaghat",
+      "Mariani",
+      "Amguri",
+      "Nazira",
+      "Garhgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dergaon",
+      "coords": [
+        93.76093,
+        26.63924
+      ]
+    },
+    {
+      "name": "Golaghat",
+      "coords": [
+        93.97379,
+        26.50805
+      ]
+    },
+    {
+      "name": "Titabor",
+      "coords": [
+        94.18609,
+        26.59199
+      ]
+    },
+    {
+      "name": "Mariani",
+      "coords": [
+        94.31905,
+        26.65395
+      ]
+    },
+    {
+      "name": "Amguri",
+      "coords": [
+        94.51957,
+        26.80582
+      ]
+    },
+    {
+      "name": "Nazira",
+      "coords": [
+        94.74036,
+        26.92013
+      ]
+    },
+    {
+      "name": "Garhgaon",
+      "coords": [
+        94.74326,
+        26.92723
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

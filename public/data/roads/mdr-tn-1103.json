@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1103",
+  "ref": "MDR 1103",
+  "name": "Mangalam–Andipalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Mangalam, Tamil Nadu",
+    "end": "Andipalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mangalam",
+      "Andipalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangalam",
+      "coords": [
+        77.2676,
+        11.08032
+      ]
+    },
+    {
+      "name": "Andipalayam",
+      "coords": [
+        77.31344,
+        11.08168
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

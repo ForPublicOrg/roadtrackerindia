@@ -1,0 +1,43 @@
+{
+  "id": "kl-parassala-panachamoodu-road",
+  "ref": "MDR",
+  "name": "Parassala - Panachamoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.16951,
+        8.38677
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.19506,
+        8.45385
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sh-as-24",
+  "ref": "SH 24",
+  "name": "Settlement Area–Digboi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.7,
+  "route": {
+    "start": "Settlement Area, Assam",
+    "end": "Digboi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Settlement Area",
+      "Duliajan",
+      "Digboi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Settlement Area",
+      "coords": [
+        95.33245,
+        27.38665
+      ]
+    },
+    {
+      "name": "Digboi",
+      "coords": [
+        95.61408,
+        27.39621
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-460",
+  "ref": "MDR 460",
+  "name": "Puvalur–Sirudaiyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Puvalur, Tamil Nadu",
+    "end": "Sirudaiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Puvalur",
+      "Lalgudi",
+      "Sirudaiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puvalur",
+      "coords": [
+        78.82736,
+        10.89432
+      ]
+    },
+    {
+      "name": "Sirudaiyur",
+      "coords": [
+        78.83811,
+        10.89567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mayyil-sreekandapuram-road",
+  "ref": "MDR",
+  "name": "Mayyil - Sreekandapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Sreekandapuram, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekandapuram",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.48088,
+        11.99043
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.54159,
+        12.00415
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

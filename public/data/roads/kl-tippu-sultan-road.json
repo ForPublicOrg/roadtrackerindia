@@ -1,0 +1,42 @@
+{
+  "id": "kl-tippu-sultan-road",
+  "ref": "MDR",
+  "name": "Tippu Sultan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.2,
+  "route": {
+    "start": "Sreekrishnapuram, Kerala",
+    "end": "Mannarkkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekrishnapuram",
+      "Mannarkkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekrishnapuram",
+      "coords": [
+        76.50175,
+        10.86196
+      ]
+    },
+    {
+      "name": "Mannarkkad",
+      "coords": [
+        76.461,
+        10.99328
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ramapuram-kondadu-chakkampuzha-road",
+  "ref": "MDR",
+  "name": "Ramapuram - Kondadu - Chakkampuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Pala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Pala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.65114,
+        9.79774
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.65585,
+        9.76765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

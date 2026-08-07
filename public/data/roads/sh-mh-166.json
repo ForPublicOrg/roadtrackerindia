@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-166",
+  "ref": "SH 166",
+  "name": "Latur–Udgir State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83,
+  "route": {
+    "start": "Latur, Maharashtra",
+    "end": "Udgir, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Latur",
+      "Nilanga",
+      "Udgir"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latur",
+      "coords": [
+        76.59758,
+        18.4045
+      ]
+    },
+    {
+      "name": "Nilanga",
+      "coords": [
+        76.79404,
+        18.15548
+      ]
+    },
+    {
+      "name": "Udgir",
+      "coords": [
+        77.14963,
+        18.29363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

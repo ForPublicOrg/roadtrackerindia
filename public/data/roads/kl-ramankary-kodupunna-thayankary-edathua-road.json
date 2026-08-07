@@ -1,0 +1,42 @@
+{
+  "id": "kl-ramankary-kodupunna-thayankary-edathua-road",
+  "ref": "MDR",
+  "name": "Ramankary- Kodupunna - Thayankary - Edathua Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.45878,
+        9.42321
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.46146,
+        9.36396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-753",
+  "ref": "MDR 753",
+  "name": "Papanasam–Kodavasal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.1,
+  "route": {
+    "start": "Papanasam, Tamil Nadu",
+    "end": "Kodavasal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Papanasam",
+      "Valangaiman",
+      "Kodavasal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Papanasam",
+      "coords": [
+        79.2955,
+        10.93163
+      ]
+    },
+    {
+      "name": "Valangaiman",
+      "coords": [
+        79.39401,
+        10.88975
+      ]
+    },
+    {
+      "name": "Kodavasal",
+      "coords": [
+        79.47919,
+        10.85079
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

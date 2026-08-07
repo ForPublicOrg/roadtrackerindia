@@ -1,0 +1,42 @@
+{
+  "id": "kl-vengara-kunnumpuram-road",
+  "ref": "MDR",
+  "name": "Vengara - Kunnumpuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Vengara, Kerala",
+    "end": "Othukungal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengara",
+      "Othukungal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengara",
+      "coords": [
+        75.95259,
+        11.08542
+      ]
+    },
+    {
+      "name": "Othukungal",
+      "coords": [
+        75.98603,
+        11.05128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

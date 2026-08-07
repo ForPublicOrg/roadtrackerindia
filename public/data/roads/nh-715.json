@@ -1,0 +1,77 @@
+{
+  "id": "nh-715",
+  "ref": "NH 715",
+  "name": "Amguri–Lokra National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 196.7,
+  "route": {
+    "start": "Amguri, Assam",
+    "end": "Lokra, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Amguri",
+      "Jorhat",
+      "Dergaon",
+      "Tezpur",
+      "Lokra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amguri",
+      "coords": [
+        94.49411,
+        26.84889
+      ]
+    },
+    {
+      "name": "Macharhat",
+      "coords": [
+        94.20051,
+        26.78009
+      ]
+    },
+    {
+      "name": "Jorhat",
+      "coords": [
+        94.18629,
+        26.76481
+      ]
+    },
+    {
+      "name": "Dergaon",
+      "coords": [
+        93.97029,
+        26.71382
+      ]
+    },
+    {
+      "name": "Tezpur",
+      "coords": [
+        92.79578,
+        26.65334
+      ]
+    },
+    {
+      "name": "Lokra",
+      "coords": [
+        92.77384,
+        26.65455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

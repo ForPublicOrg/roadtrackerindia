@@ -1,0 +1,43 @@
+{
+  "id": "kl-pudunagaram-kinaserry-road",
+  "ref": "MDR",
+  "name": "Pudunagaram - Kinaserry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Yakkara, Kerala",
+    "end": "Thathamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Yakkara",
+      "Chittur-Thathamangalam",
+      "Thathamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Yakkara",
+      "coords": [
+        76.65477,
+        10.72737
+      ]
+    },
+    {
+      "name": "Chittur-Thathamangalam",
+      "coords": [
+        76.68751,
+        10.68276
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-up-78w",
+  "ref": "SH 78W",
+  "name": "Aligarh–Chandhat State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 75,
+  "route": {
+    "start": "Aligarh, Uttar Pradesh",
+    "end": "Chandhat, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Aligarh",
+      "Khair",
+      "Tappal",
+      "Jewar",
+      "Chandhat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aligarh",
+      "coords": [
+        78.07312,
+        27.8881
+      ]
+    },
+    {
+      "name": "Khair",
+      "coords": [
+        77.84931,
+        27.93988
+      ]
+    },
+    {
+      "name": "Tappal",
+      "coords": [
+        77.57766,
+        28.04429
+      ]
+    },
+    {
+      "name": "Jewar",
+      "coords": [
+        77.56034,
+        28.1227
+      ]
+    },
+    {
+      "name": "Chandhat",
+      "coords": [
+        77.48277,
+        28.09364
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

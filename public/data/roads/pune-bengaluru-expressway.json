@@ -1,0 +1,147 @@
+{
+  "id": "pune-bengaluru-expressway",
+  "ref": "NH",
+  "name": "Pune - Bengaluru Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 695.5,
+  "route": {
+    "start": "Bhor, Maharashtra",
+    "end": "Dabaspete, Karnataka",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Bhor",
+      "Lonand",
+      "Vita",
+      "Athani",
+      "Rabakavi Banahatti",
+      "Badami",
+      "Hagaribommanahalli",
+      "Kudligi",
+      "Challakere",
+      "Sira",
+      "Dabaspete"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhor",
+      "coords": [
+        73.85941,
+        18.28726
+      ]
+    },
+    {
+      "name": "Lonand",
+      "coords": [
+        74.15697,
+        17.98348
+      ]
+    },
+    {
+      "name": "Kuroli",
+      "coords": [
+        74.41431,
+        17.61026
+      ]
+    },
+    {
+      "name": "Vita",
+      "coords": [
+        74.60344,
+        17.31614
+      ]
+    },
+    {
+      "name": "Athani",
+      "coords": [
+        75.00801,
+        16.734
+      ]
+    },
+    {
+      "name": "Rabakavi Banahatti",
+      "coords": [
+        75.16779,
+        16.50334
+      ]
+    },
+    {
+      "name": "Mudhol",
+      "coords": [
+        75.31704,
+        16.35111
+      ]
+    },
+    {
+      "name": "Badami",
+      "coords": [
+        75.58921,
+        15.92896
+      ]
+    },
+    {
+      "name": "Naregal",
+      "coords": [
+        75.81374,
+        15.5782
+      ]
+    },
+    {
+      "name": "Hagaribommanahalli",
+      "coords": [
+        76.20914,
+        15.02303
+      ]
+    },
+    {
+      "name": "Kudligi",
+      "coords": [
+        76.33896,
+        14.88964
+      ]
+    },
+    {
+      "name": "Challakere",
+      "coords": [
+        76.68452,
+        14.33628
+      ]
+    },
+    {
+      "name": "Sira",
+      "coords": [
+        76.95661,
+        13.78685
+      ]
+    },
+    {
+      "name": "Koratagere",
+      "coords": [
+        77.20835,
+        13.45996
+      ]
+    },
+    {
+      "name": "Dabaspete",
+      "coords": [
+        77.36356,
+        13.27787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

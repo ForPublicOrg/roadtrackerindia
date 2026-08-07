@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2702",
+  "ref": "MDR 2702",
+  "name": "Maksi–Dewas District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.3,
+  "route": {
+    "start": "Maksi, Madhya Pradesh",
+    "end": "Dewas, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Maksi",
+      "Dewas"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maksi",
+      "coords": [
+        76.45751,
+        23.14533
+      ]
+    },
+    {
+      "name": "Dewas",
+      "coords": [
+        76.34327,
+        23.09696
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

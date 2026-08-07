@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-2e",
+  "ref": "SH 2E",
+  "name": "Bhinga–Amiliya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.3,
+  "route": {
+    "start": "Bhinga, Uttar Pradesh",
+    "end": "Amiliya, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bhinga",
+      "Amiliya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhinga",
+      "coords": [
+        81.95038,
+        27.74788
+      ]
+    },
+    {
+      "name": "Amiliya",
+      "coords": [
+        82.17165,
+        27.74446
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

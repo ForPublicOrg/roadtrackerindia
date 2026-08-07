@@ -1,0 +1,42 @@
+{
+  "id": "kl-panapuzha-kanaranvayal-road",
+  "ref": "MDR",
+  "name": "Panapuzha - Kanaranvayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.5,
+  "route": {
+    "start": "Pilathara, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pilathara",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pilathara",
+      "coords": [
+        75.30701,
+        12.12725
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.40153,
+        12.14713
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

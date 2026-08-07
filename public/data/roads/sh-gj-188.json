@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-188",
+  "ref": "SH 188",
+  "name": "Modasa–Vasad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 123.2,
+  "route": {
+    "start": "Modasa, Gujarat",
+    "end": "Vasad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Modasa",
+      "Bayad",
+      "Vasad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Modasa",
+      "coords": [
+        73.29875,
+        23.46424
+      ]
+    },
+    {
+      "name": "Bayad",
+      "coords": [
+        73.21461,
+        23.2266
+      ]
+    },
+    {
+      "name": "Vasad",
+      "coords": [
+        73.06042,
+        22.46895
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

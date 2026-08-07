@@ -1,0 +1,57 @@
+{
+  "id": "sh-rj-31",
+  "ref": "SH 31",
+  "name": "Raniwar–Jalore State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 105.8,
+  "route": {
+    "start": "Raniwar, Rajasthan",
+    "end": "Jalore, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Raniwar",
+      "Bhinmal",
+      "Jalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raniwar",
+      "coords": [
+        72.19838,
+        24.74922
+      ]
+    },
+    {
+      "name": "Bhinmal",
+      "coords": [
+        72.2672,
+        25.00443
+      ]
+    },
+    {
+      "name": "Bagra",
+      "coords": [
+        72.5878,
+        25.19613
+      ]
+    },
+    {
+      "name": "Jalore",
+      "coords": [
+        72.62416,
+        25.34179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

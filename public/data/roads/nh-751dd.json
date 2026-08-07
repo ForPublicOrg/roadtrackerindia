@@ -1,0 +1,54 @@
+{
+  "id": "nh-751dd",
+  "ref": "NH 751DD",
+  "name": "Tarapur–Petlad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 19.1,
+  "route": {
+    "start": "Tarapur, Gujarat",
+    "end": "Petlad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Tarapur",
+      "Sojitra",
+      "Petlad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tarapur",
+      "coords": [
+        72.6489,
+        22.4958
+      ]
+    },
+    {
+      "name": "Sojitra",
+      "coords": [
+        72.72012,
+        22.52979
+      ]
+    },
+    {
+      "name": "Petlad",
+      "coords": [
+        72.8203,
+        22.54063
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

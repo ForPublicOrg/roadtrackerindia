@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2219",
+  "ref": "MDR 2219",
+  "name": "Arnod–Daloda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.3,
+  "route": {
+    "start": "Arnod, Madhya Pradesh",
+    "end": "Daloda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Arnod",
+      "Daloda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arnod",
+      "coords": [
+        74.91377,
+        23.84485
+      ]
+    },
+    {
+      "name": "Daloda",
+      "coords": [
+        75.10132,
+        23.95275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

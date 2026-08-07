@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-62",
+  "ref": "MDR 62",
+  "name": "Khem Karan–Tarn Taran Sahib District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 45.7,
+  "route": {
+    "start": "Khem Karan, Punjab",
+    "end": "Tarn Taran Sahib, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Khem Karan",
+      "Patti",
+      "Tarn Taran Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khem Karan",
+      "coords": [
+        74.59572,
+        31.18996
+      ]
+    },
+    {
+      "name": "Patti",
+      "coords": [
+        74.84904,
+        31.28141
+      ]
+    },
+    {
+      "name": "Tarn Taran Sahib",
+      "coords": [
+        74.94147,
+        31.41773
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

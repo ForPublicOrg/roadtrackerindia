@@ -1,0 +1,87 @@
+{
+  "id": "nh-139",
+  "ref": "NH 139",
+  "name": "Hakimganj–Hurhurkatola National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 235.8,
+  "route": {
+    "start": "Hakimganj, Bihar",
+    "end": "Hurhurkatola, Jharkhand",
+    "states": [
+      "Bihar",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Hakimganj",
+      "Patna",
+      "Paliganj",
+      "Aurangabad",
+      "Chhatarpur",
+      "Medininagar",
+      "Hurhurkatola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hakimganj",
+      "coords": [
+        85.19337,
+        25.59719
+      ]
+    },
+    {
+      "name": "Patna",
+      "coords": [
+        85.12434,
+        25.59806
+      ]
+    },
+    {
+      "name": "Priyadarshi Nagar",
+      "coords": [
+        85.06693,
+        25.57605
+      ]
+    },
+    {
+      "name": "Paliganj",
+      "coords": [
+        84.7565,
+        25.35767
+      ]
+    },
+    {
+      "name": "Aurangabad",
+      "coords": [
+        84.36273,
+        24.74756
+      ]
+    },
+    {
+      "name": "Chhatarpur",
+      "coords": [
+        84.19193,
+        24.36509
+      ]
+    },
+    {
+      "name": "Medininagar",
+      "coords": [
+        84.07681,
+        24.03765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

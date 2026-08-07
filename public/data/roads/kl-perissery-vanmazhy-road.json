@@ -1,0 +1,42 @@
+{
+  "id": "kl-perissery-vanmazhy-road",
+  "ref": "MDR",
+  "name": "Perissery - Vanmazhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Mundancavu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundancavu",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.59867,
+        9.32342
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.59743,
+        9.30958
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

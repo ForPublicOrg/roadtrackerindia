@@ -1,0 +1,43 @@
+{
+  "id": "kl-chungam-bridge-pallathuruthy-police-outpost-road",
+  "ref": "MDR",
+  "name": "Chungam Bridge - Pallathuruthy Police Outpost Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Vellakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Alappuzha",
+      "Vellakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34914,
+        9.49392
+      ]
+    },
+    {
+      "name": "Vellakinar",
+      "coords": [
+        76.36519,
+        9.48944
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

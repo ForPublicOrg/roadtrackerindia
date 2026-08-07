@@ -1,0 +1,42 @@
+{
+  "id": "kl-koyyodu-pothuvachery-rv-motta-road",
+  "ref": "MDR",
+  "name": "Koyyodu - Pothuvachery - RV Motta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Kadachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kadachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.44359,
+        11.86264
+      ]
+    },
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.45928,
+        11.85743
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

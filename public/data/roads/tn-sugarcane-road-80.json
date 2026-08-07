@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-80",
+  "ref": "ODR",
+  "name": "Sugarcane Road 80",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Garden City, Tamil Nadu",
+    "end": "Natham, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Garden City",
+      "Natham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Garden City",
+      "coords": [
+        79.90947,
+        12.72731
+      ]
+    },
+    {
+      "name": "Natham",
+      "coords": [
+        79.93027,
+        12.71493
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

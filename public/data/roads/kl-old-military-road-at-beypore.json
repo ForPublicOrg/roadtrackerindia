@@ -1,0 +1,57 @@
+{
+  "id": "kl-old-military-road-at-beypore",
+  "ref": "MDR",
+  "name": "Old Military Road at Beypore",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Vattakinar, Kerala",
+    "end": "Beypore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattakinar",
+      "Cheruvannur",
+      "Beypore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattakinar",
+      "coords": [
+        75.7913,
+        11.20963
+      ]
+    },
+    {
+      "name": "Modern Bazar",
+      "coords": [
+        75.79461,
+        11.19751
+      ]
+    },
+    {
+      "name": "Cheruvannur",
+      "coords": [
+        75.79983,
+        11.18166
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.80014,
+        11.176
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

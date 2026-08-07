@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-90",
+  "ref": "SH 90",
+  "name": "Kulasekaram–Marthandam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 21.5,
+  "route": {
+    "start": "Kulasekaram, Tamil Nadu",
+    "end": "Marthandam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kulasekaram",
+      "Thiruvattar",
+      "Marthandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kulasekaram",
+      "coords": [
+        77.30826,
+        8.4493
+      ]
+    },
+    {
+      "name": "Thiruvattar",
+      "coords": [
+        77.26774,
+        8.33266
+      ]
+    },
+    {
+      "name": "Marthandam",
+      "coords": [
+        77.22594,
+        8.30592
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

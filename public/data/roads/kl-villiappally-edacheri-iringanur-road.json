@@ -1,0 +1,50 @@
+{
+  "id": "kl-villiappally-edacheri-iringanur-road",
+  "ref": "MDR",
+  "name": "Villiappally - Edacheri - Iringanur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Kalleri, Kerala",
+    "end": "Peringatoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalleri",
+      "Orkkatteri",
+      "Peringatoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.62938,
+        11.62551
+      ]
+    },
+    {
+      "name": "Orkkatteri",
+      "coords": [
+        75.61834,
+        11.65836
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.60765,
+        11.71513
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

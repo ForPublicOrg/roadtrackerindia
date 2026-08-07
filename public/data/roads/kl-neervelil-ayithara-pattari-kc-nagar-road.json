@@ -1,0 +1,42 @@
+{
+  "id": "kl-neervelil-ayithara-pattari-kc-nagar-road",
+  "ref": "MDR",
+  "name": "Neervelil - Ayithara - Pattari - KC Nagar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Koothuparamba, Kerala",
+    "end": "Mattannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothuparamba",
+      "Mattannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.57998,
+        11.87832
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.61157,
+        11.88209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

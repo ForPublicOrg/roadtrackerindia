@@ -1,0 +1,42 @@
+{
+  "id": "kl-randuthengu-rathnagiri-gandikavala-vanchiyam-road",
+  "ref": "MDR",
+  "name": "Randuthengu - Rathnagiri - Gandikavala - Vanchiyam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Chemperi, Kerala",
+    "end": "Payyavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemperi",
+      "Payyavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.566,
+        12.11253
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.59133,
+        12.14341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

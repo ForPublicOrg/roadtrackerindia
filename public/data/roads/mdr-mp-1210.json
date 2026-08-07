@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1210",
+  "ref": "MDR 1210",
+  "name": "Singrauli–Vindhyanagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Singrauli, Madhya Pradesh",
+    "end": "Vindhyanagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Singrauli",
+      "Vindhyanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Singrauli",
+      "coords": [
+        82.43643,
+        24.21281
+      ]
+    },
+    {
+      "name": "Vindhyanagar",
+      "coords": [
+        82.53887,
+        24.21645
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

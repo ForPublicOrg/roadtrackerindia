@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-27b",
+  "ref": "MDR 27B",
+  "name": "Konch–Jalaun District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.1,
+  "route": {
+    "start": "Konch, Uttar Pradesh",
+    "end": "Jalaun, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Konch",
+      "Jalaun"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konch",
+      "coords": [
+        79.16172,
+        25.99293
+      ]
+    },
+    {
+      "name": "Jalaun",
+      "coords": [
+        79.32457,
+        26.14376
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

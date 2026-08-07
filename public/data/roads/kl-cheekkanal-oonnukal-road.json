@@ -1,0 +1,42 @@
+{
+  "id": "kl-cheekkanal-oonnukal-road",
+  "ref": "MDR",
+  "name": "Cheekkanal - Oonnukal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Puthenpeedika, Kerala",
+    "end": "Nannuvakadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthenpeedika",
+      "Nannuvakadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.74404,
+        9.26043
+      ]
+    },
+    {
+      "name": "Nannuvakadu",
+      "coords": [
+        76.73377,
+        9.2514
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

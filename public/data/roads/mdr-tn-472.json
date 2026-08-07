@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-472",
+  "ref": "MDR 472",
+  "name": "Ullur–Santhanalpuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Ullur, Tamil Nadu",
+    "end": "Santhanalpuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ullur",
+      "Santhanalpuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ullur",
+      "coords": [
+        79.48121,
+        11.01305
+      ]
+    },
+    {
+      "name": "Santhanalpuram",
+      "coords": [
+        79.45312,
+        11.09099
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

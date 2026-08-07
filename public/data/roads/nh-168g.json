@@ -1,0 +1,70 @@
+{
+  "id": "nh-168g",
+  "ref": "NH 168G",
+  "name": "Akshardham township–Modasa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 120.6,
+  "route": {
+    "start": "Akshardham township, Gujarat",
+    "end": "Modasa, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Akshardham township",
+      "Mahesana",
+      "Vadnagar",
+      "Idar",
+      "Modasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Akshardham township",
+      "coords": [
+        72.40805,
+        23.61509
+      ]
+    },
+    {
+      "name": "Visnagar",
+      "coords": [
+        72.53743,
+        23.70539
+      ]
+    },
+    {
+      "name": "Vadnagar",
+      "coords": [
+        72.63476,
+        23.78333
+      ]
+    },
+    {
+      "name": "Idar",
+      "coords": [
+        73.00183,
+        23.83463
+      ]
+    },
+    {
+      "name": "Modasa",
+      "coords": [
+        73.36733,
+        23.68249
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1273",
+  "ref": "MDR 1273",
+  "name": "Thiruvarur–Kuttanallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Thiruvarur, Tamil Nadu",
+    "end": "Kuttanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruvarur",
+      "Kuttanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvarur",
+      "coords": [
+        79.63527,
+        10.75327
+      ]
+    },
+    {
+      "name": "Kuttanallur",
+      "coords": [
+        79.59418,
+        10.7528
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-ct-13",
+  "ref": "SH 13",
+  "name": "Ambapali–Sarangarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48.7,
+  "route": {
+    "start": "Ambapali, Odisha",
+    "end": "Sarangarh, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Ambapali",
+      "Sarangarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambapali",
+      "coords": [
+        83.37404,
+        21.34594
+      ]
+    },
+    {
+      "name": "Sarangarh",
+      "coords": [
+        83.12362,
+        21.58054
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

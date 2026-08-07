@@ -1,0 +1,167 @@
+{
+  "id": "mumbai-nagpur-expressway",
+  "ref": "NH",
+  "name": "Mumbai - Nagpur Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 700.8,
+  "route": {
+    "start": "Hingna, Maharashtra",
+    "end": "Titwala, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Hingna",
+      "Wardha",
+      "Pulgaon",
+      "Karanja Lad",
+      "Mehkar",
+      "Jalna",
+      "Chhatrapati Sambhajinagar",
+      "Kopargaon",
+      "Sinnar",
+      "Shahapur",
+      "Titwala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hingna",
+      "coords": [
+        78.99344,
+        21.03007
+      ]
+    },
+    {
+      "name": "Wardha",
+      "coords": [
+        78.57829,
+        20.79661
+      ]
+    },
+    {
+      "name": "Pulgaon",
+      "coords": [
+        78.28634,
+        20.78376
+      ]
+    },
+    {
+      "name": "Nandgaon Khandeshwar",
+      "coords": [
+        77.83679,
+        20.61525
+      ]
+    },
+    {
+      "name": "Karanja Lad",
+      "coords": [
+        77.50591,
+        20.51515
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        76.98853,
+        20.29198
+      ]
+    },
+    {
+      "name": "Mehkar",
+      "coords": [
+        76.56286,
+        20.18812
+      ]
+    },
+    {
+      "name": "Deulgaon Raja",
+      "coords": [
+        76.09837,
+        19.9678
+      ]
+    },
+    {
+      "name": "Jalna",
+      "coords": [
+        75.88076,
+        19.88451
+      ]
+    },
+    {
+      "name": "Harsul",
+      "coords": [
+        75.38862,
+        19.95638
+      ]
+    },
+    {
+      "name": "Chhatrapati Sambhajinagar",
+      "coords": [
+        75.29427,
+        19.95229
+      ]
+    },
+    {
+      "name": "Vaijapur",
+      "coords": [
+        74.7337,
+        19.89182
+      ]
+    },
+    {
+      "name": "Kopargaon",
+      "coords": [
+        74.47238,
+        19.84329
+      ]
+    },
+    {
+      "name": "Sinnar",
+      "coords": [
+        74.01756,
+        19.78155
+      ]
+    },
+    {
+      "name": "Ghoti",
+      "coords": [
+        73.63373,
+        19.70148
+      ]
+    },
+    {
+      "name": "Igatpuri",
+      "coords": [
+        73.57868,
+        19.67878
+      ]
+    },
+    {
+      "name": "Shahapur",
+      "coords": [
+        73.35602,
+        19.42748
+      ]
+    },
+    {
+      "name": "Titwala",
+      "coords": [
+        73.17246,
+        19.32296
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

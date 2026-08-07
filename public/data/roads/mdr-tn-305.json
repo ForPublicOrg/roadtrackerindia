@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-305",
+  "ref": "MDR 305",
+  "name": "Tiruppuvanam–Viraganur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Tiruppuvanam, Tamil Nadu",
+    "end": "Viraganur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruppuvanam",
+      "Viraganur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruppuvanam",
+      "coords": [
+        78.26769,
+        9.85623
+      ]
+    },
+    {
+      "name": "Viraganur",
+      "coords": [
+        78.25129,
+        9.86019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

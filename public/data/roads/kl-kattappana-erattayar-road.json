@@ -1,0 +1,49 @@
+{
+  "id": "kl-kattappana-erattayar-road",
+  "ref": "MDR",
+  "name": "Kattappana - Erattayar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Erattayar, Kerala",
+    "end": "Kattappana, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattayar",
+      "Kattappana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattayar",
+      "coords": [
+        77.10735,
+        9.79534
+      ]
+    },
+    {
+      "name": "Pezhumkavala",
+      "coords": [
+        77.11428,
+        9.76656
+      ]
+    },
+    {
+      "name": "Kattappana",
+      "coords": [
+        77.11542,
+        9.75679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

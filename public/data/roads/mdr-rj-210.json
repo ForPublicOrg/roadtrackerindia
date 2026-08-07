@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-210",
+  "ref": "MDR 210",
+  "name": "Bari Sadri–Sawa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.7,
+  "route": {
+    "start": "Bari Sadri, Rajasthan",
+    "end": "Sawa, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bari Sadri",
+      "Sawa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bari Sadri",
+      "coords": [
+        74.5828,
+        24.44444
+      ]
+    },
+    {
+      "name": "Sawa",
+      "coords": [
+        74.64346,
+        24.71268
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

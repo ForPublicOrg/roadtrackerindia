@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-1017",
+  "ref": "MDR 1017",
+  "name": "Manjakuppam–Kammiyampettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Manjakuppam, Tamil Nadu",
+    "end": "Kammiyampettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Manjakuppam",
+      "Cuddalore",
+      "Semmandalam",
+      "Kammiyampettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjakuppam",
+      "coords": [
+        79.76254,
+        11.76943
+      ]
+    },
+    {
+      "name": "Semmandalam",
+      "coords": [
+        79.75121,
+        11.76563
+      ]
+    },
+    {
+      "name": "Chavadi",
+      "coords": [
+        79.74746,
+        11.75822
+      ]
+    },
+    {
+      "name": "Kammiyampettai",
+      "coords": [
+        79.74826,
+        11.75178
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "kl-payyannur-annur-vellur-road",
+  "ref": "MDR",
+  "name": "Payyannur - Annur - Vellur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Payyanur, Kerala",
+    "end": "Onakkunnu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyanur",
+      "Kothaymukku",
+      "Thrikaripur",
+      "Karivellur",
+      "Onakkunnu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.21014,
+        12.10684
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.20878,
+        12.12171
+      ]
+    },
+    {
+      "name": "Thrikaripur",
+      "coords": [
+        75.20188,
+        12.13979
+      ]
+    },
+    {
+      "name": "Karivellur",
+      "coords": [
+        75.20517,
+        12.15986
+      ]
+    },
+    {
+      "name": "Onakkunnu",
+      "coords": [
+        75.20669,
+        12.16103
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

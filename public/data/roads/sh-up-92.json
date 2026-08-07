@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-92",
+  "ref": "SH 92",
+  "name": "Banda–Rajapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86.9,
+  "route": {
+    "start": "Banda, Uttar Pradesh",
+    "end": "Rajapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Banda",
+      "Baberu",
+      "Rajapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Banda",
+      "coords": [
+        80.34312,
+        25.47917
+      ]
+    },
+    {
+      "name": "Baberu",
+      "coords": [
+        80.69785,
+        25.54592
+      ]
+    },
+    {
+      "name": "Rajapur",
+      "coords": [
+        81.1428,
+        25.3898
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

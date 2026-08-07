@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-123",
+  "ref": "SH 123",
+  "name": "Jetpur–Jam Kandoma State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 27.9,
+  "route": {
+    "start": "Jetpur, Gujarat",
+    "end": "Jam Kandoma, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Jetpur",
+      "Jam Kandoma"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jetpur",
+      "coords": [
+        70.62105,
+        21.76161
+      ]
+    },
+    {
+      "name": "Jam Kandoma",
+      "coords": [
+        70.48377,
+        21.85472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

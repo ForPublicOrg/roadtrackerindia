@@ -1,0 +1,53 @@
+{
+  "id": "nh-548",
+  "ref": "NH 548",
+  "name": "Kalamboli–Panvel National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Kalamboli, Maharashtra",
+    "end": "Panvel, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kalamboli",
+      "Panvel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalamboli",
+      "coords": [
+        73.10645,
+        19.01766
+      ]
+    },
+    {
+      "name": "New Panvel",
+      "coords": [
+        73.10119,
+        19.00656
+      ]
+    },
+    {
+      "name": "Panvel",
+      "coords": [
+        73.09905,
+        18.99857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

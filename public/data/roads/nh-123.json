@@ -1,0 +1,63 @@
+{
+  "id": "nh-123",
+  "ref": "NH 123",
+  "name": "Vijay Nagar Colony–Dhaulpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 87.8,
+  "route": {
+    "start": "Vijay Nagar Colony, Rajasthan",
+    "end": "Dhaulpur, Rajasthan",
+    "states": [
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Vijay Nagar Colony",
+      "Rupbas",
+      "Sepau",
+      "Dhaulpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vijay Nagar Colony",
+      "coords": [
+        77.58054,
+        27.1537
+      ]
+    },
+    {
+      "name": "Rupbas",
+      "coords": [
+        77.59435,
+        26.99898
+      ]
+    },
+    {
+      "name": "Sepau",
+      "coords": [
+        77.75652,
+        26.82319
+      ]
+    },
+    {
+      "name": "Dhaulpur",
+      "coords": [
+        77.88369,
+        26.69521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

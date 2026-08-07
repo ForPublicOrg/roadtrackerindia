@@ -1,0 +1,42 @@
+{
+  "id": "kl-poonjar-kaippally-yendayar-road",
+  "ref": "MDR",
+  "name": "Poonjar - Kaippally - Yendayar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.8,
+  "route": {
+    "start": "Vagamon, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vagamon",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vagamon",
+      "coords": [
+        76.89127,
+        9.62525
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.81866,
+        9.66783
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

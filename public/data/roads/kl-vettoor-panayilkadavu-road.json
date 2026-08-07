@@ -1,0 +1,42 @@
+{
+  "id": "kl-vettoor-panayilkadavu-road",
+  "ref": "MDR",
+  "name": "Vettoor - Panayilkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.74062,
+        8.71493
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.75137,
+        8.70528
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

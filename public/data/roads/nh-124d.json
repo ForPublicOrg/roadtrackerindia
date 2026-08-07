@@ -1,0 +1,54 @@
+{
+  "id": "nh-124d",
+  "ref": "NH 124D",
+  "name": "Saidpur–Dullahapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 59.6,
+  "route": {
+    "start": "Saidpur, Uttar Pradesh",
+    "end": "Dullahapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Saidpur",
+      "Deva",
+      "Dullahapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saidpur",
+      "coords": [
+        83.22549,
+        25.54099
+      ]
+    },
+    {
+      "name": "Deva",
+      "coords": [
+        83.41549,
+        25.80167
+      ]
+    },
+    {
+      "name": "Dullahapur",
+      "coords": [
+        83.55594,
+        25.80822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-para-kunduchira-road",
+  "ref": "MDR",
+  "name": "Para - Kunduchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Puthanpally, Kerala",
+    "end": "Eramangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthanpally",
+      "Eramangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthanpally",
+      "coords": [
+        75.98287,
+        10.70167
+      ]
+    },
+    {
+      "name": "Eramangalam",
+      "coords": [
+        75.96,
+        10.69882
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

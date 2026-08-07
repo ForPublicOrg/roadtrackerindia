@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-67",
+  "ref": "SH 67",
+  "name": "Azamgarh–Ghazipur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53.4,
+  "route": {
+    "start": "Azamgarh, Uttar Pradesh",
+    "end": "Ghazipur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Azamgarh",
+      "Dullahapur",
+      "Ghazipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azamgarh",
+      "coords": [
+        83.18944,
+        26.04089
+      ]
+    },
+    {
+      "name": "Dullahapur",
+      "coords": [
+        83.43979,
+        25.79044
+      ]
+    },
+    {
+      "name": "Ghazipur",
+      "coords": [
+        83.54012,
+        25.70162
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

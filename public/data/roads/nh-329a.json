@@ -1,0 +1,47 @@
+{
+  "id": "nh-329a",
+  "ref": "NH 329A",
+  "name": "Dimapur–Diphu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 36.9,
+  "route": {
+    "start": "Dimapur, Nagaland",
+    "end": "Diphu, Assam",
+    "states": [
+      "Nagaland",
+      "Assam"
+    ],
+    "majorCities": [
+      "Dimapur",
+      "Diphu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dimapur",
+      "coords": [
+        93.71518,
+        25.86732
+      ]
+    },
+    {
+      "name": "Diphu",
+      "coords": [
+        93.43922,
+        25.84449
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

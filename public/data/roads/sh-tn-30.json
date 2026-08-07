@@ -1,0 +1,66 @@
+{
+  "id": "sh-tn-30",
+  "ref": "SH 30",
+  "name": "Musiri–Attur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 91.2,
+  "route": {
+    "start": "Musiri, Tamil Nadu",
+    "end": "Attur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Musiri",
+      "Kulithalai",
+      "Thuraiyur",
+      "Sentharapatti",
+      "Attur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Musiri",
+      "coords": [
+        78.44205,
+        10.9515
+      ]
+    },
+    {
+      "name": "Thuraiyur",
+      "coords": [
+        78.59541,
+        11.15189
+      ]
+    },
+    {
+      "name": "Sentharapatti",
+      "coords": [
+        78.48707,
+        11.42996
+      ]
+    },
+    {
+      "name": "Keeripatti",
+      "coords": [
+        78.48194,
+        11.53009
+      ]
+    },
+    {
+      "name": "Attur",
+      "coords": [
+        78.58243,
+        11.60133
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-752",
+  "ref": "MDR 752",
+  "name": "Adambakkam–Kottivakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Adambakkam, Tamil Nadu",
+    "end": "Kottivakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adambakkam",
+      "Taramani",
+      "Kottivakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adambakkam",
+      "coords": [
+        80.2214,
+        12.97599
+      ]
+    },
+    {
+      "name": "Guindy",
+      "coords": [
+        80.23069,
+        12.98166
+      ]
+    },
+    {
+      "name": "Taramani",
+      "coords": [
+        80.24344,
+        12.98138
+      ]
+    },
+    {
+      "name": "Kottivakkam",
+      "coords": [
+        80.25261,
+        12.9799
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

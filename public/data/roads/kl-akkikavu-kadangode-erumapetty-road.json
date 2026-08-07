@@ -1,0 +1,42 @@
+{
+  "id": "kl-akkikavu-kadangode-erumapetty-road",
+  "ref": "MDR",
+  "name": "Akkikavu - Kadangode Erumapetty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Kunnamkulam, Kerala",
+    "end": "Ottupara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kunnamkulam",
+      "Ottupara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunnamkulam",
+      "coords": [
+        76.0918,
+        10.69549
+      ]
+    },
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.1598,
+        10.6804
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karckakuzhy-thottakad-road",
+  "ref": "MDR",
+  "name": "Karckakuzhy - Thottakad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.63535,
+        9.5685
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.61365,
+        9.54832
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

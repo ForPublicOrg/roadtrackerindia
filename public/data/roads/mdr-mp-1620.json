@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-1620",
+  "ref": "MDR 1620",
+  "name": "Ghuwara–Bijawar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.8,
+  "route": {
+    "start": "Ghuwara, Madhya Pradesh",
+    "end": "Bijawar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ghuwara",
+      "Bada Malhera",
+      "Bijawar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ghuwara",
+      "coords": [
+        79.08257,
+        24.51207
+      ]
+    },
+    {
+      "name": "Bada Malhera",
+      "coords": [
+        79.30635,
+        24.56044
+      ]
+    },
+    {
+      "name": "Bijawar",
+      "coords": [
+        79.48647,
+        24.62582
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

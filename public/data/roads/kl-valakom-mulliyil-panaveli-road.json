@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakom-mulliyil-panaveli-road",
+  "ref": "MDR",
+  "name": "Valakom Mulliyil Panaveli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.83732,
+        8.94461
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.82454,
+        8.97272
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

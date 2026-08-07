@@ -1,0 +1,65 @@
+{
+  "id": "sh-tn-66",
+  "ref": "SH 66",
+  "name": "Adirampattinam–Kumbakonam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 75,
+  "route": {
+    "start": "Adirampattinam, Tamil Nadu",
+    "end": "Kumbakonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adirampattinam",
+      "Mannargudi",
+      "Needamangalam",
+      "Kumbakonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adirampattinam",
+      "coords": [
+        79.38562,
+        10.33923
+      ]
+    },
+    {
+      "name": "Mannargudi",
+      "coords": [
+        79.44472,
+        10.67207
+      ]
+    },
+    {
+      "name": "Needamangalam",
+      "coords": [
+        79.41206,
+        10.77026
+      ]
+    },
+    {
+      "name": "Valangaiman",
+      "coords": [
+        79.39261,
+        10.88734
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.38067,
+        10.95978
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

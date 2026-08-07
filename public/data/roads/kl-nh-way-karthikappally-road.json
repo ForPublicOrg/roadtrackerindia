@@ -1,0 +1,42 @@
+{
+  "id": "kl-nh-way-karthikappally-road",
+  "ref": "MDR",
+  "name": "NH Way - Karthikappally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Nangiarkulangara, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nangiarkulangara",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.46089,
+        9.26863
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.45592,
+        9.26804
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

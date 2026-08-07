@@ -1,0 +1,42 @@
+{
+  "id": "kl-panickankudy-perinjamkutty-road",
+  "ref": "MDR",
+  "name": "Panickankudy - Perinjamkutty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Murickassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Murickassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.0832,
+        9.89963
+      ]
+    },
+    {
+      "name": "Murickassery",
+      "coords": [
+        77.06436,
+        9.92472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

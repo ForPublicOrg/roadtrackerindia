@@ -1,0 +1,46 @@
+{
+  "id": "nh-310ag",
+  "ref": "NH 310AG",
+  "name": "Lachung–Lachen National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Lachung, Sikkim",
+    "end": "Lachen, Sikkim",
+    "states": [
+      "Sikkim"
+    ],
+    "majorCities": [
+      "Lachung",
+      "Lachen"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lachung",
+      "coords": [
+        88.64771,
+        27.60598
+      ]
+    },
+    {
+      "name": "Lachen",
+      "coords": [
+        88.54919,
+        27.73139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-3",
+  "ref": "MDR 3",
+  "name": "Karimganj–Ramkrishna Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.1,
+  "route": {
+    "start": "Karimganj, Assam",
+    "end": "Ramkrishna Nagar, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Karimganj",
+      "Ramkrishna Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karimganj",
+      "coords": [
+        92.28819,
+        24.8643
+      ]
+    },
+    {
+      "name": "Ramkrishna Nagar",
+      "coords": [
+        92.36701,
+        24.61863
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

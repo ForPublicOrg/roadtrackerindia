@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-20",
+  "ref": "SH 20",
+  "name": "Limbdi–Dholera State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.6,
+  "route": {
+    "start": "Limbdi, Gujarat",
+    "end": "Dholera, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Limbdi",
+      "Dhandhuka",
+      "Dholera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Limbdi",
+      "coords": [
+        71.81272,
+        22.55762
+      ]
+    },
+    {
+      "name": "Dhandhuka",
+      "coords": [
+        71.97622,
+        22.38134
+      ]
+    },
+    {
+      "name": "Dholera",
+      "coords": [
+        72.19164,
+        22.25156
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

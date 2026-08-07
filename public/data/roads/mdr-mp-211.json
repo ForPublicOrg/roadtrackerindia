@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-211",
+  "ref": "MDR 211",
+  "name": "Morena–Sumaoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.7,
+  "route": {
+    "start": "Morena, Madhya Pradesh",
+    "end": "Sumaoli, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Morena",
+      "Sumaoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morena",
+      "coords": [
+        78.0567,
+        26.41765
+      ]
+    },
+    {
+      "name": "Sumaoli",
+      "coords": [
+        77.91916,
+        26.37734
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

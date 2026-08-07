@@ -1,0 +1,51 @@
+{
+  "id": "sh-up-9a",
+  "ref": "SH 9A",
+  "name": "Singrauli–Nagar Untari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94.5,
+  "route": {
+    "start": "Singrauli, Madhya Pradesh",
+    "end": "Nagar Untari, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Singrauli",
+      "Renukoot",
+      "Nagar Untari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Singrauli",
+      "coords": [
+        82.69932,
+        24.22169
+      ]
+    },
+    {
+      "name": "Renukoot",
+      "coords": [
+        83.03563,
+        24.21907
+      ]
+    },
+    {
+      "name": "Nagar Untari",
+      "coords": [
+        83.39712,
+        24.25535
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

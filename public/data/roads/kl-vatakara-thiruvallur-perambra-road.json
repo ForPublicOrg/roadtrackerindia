@@ -1,0 +1,42 @@
+{
+  "id": "kl-vatakara-thiruvallur-perambra-road",
+  "ref": "MDR",
+  "name": "Vatakara Thiruvallur Perambra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.8,
+  "route": {
+    "start": "Perambra, Kerala",
+    "end": "Vadakara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perambra",
+      "Vadakara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perambra",
+      "coords": [
+        75.68441,
+        11.57215
+      ]
+    },
+    {
+      "name": "Vadakara",
+      "coords": [
+        75.5948,
+        11.59508
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

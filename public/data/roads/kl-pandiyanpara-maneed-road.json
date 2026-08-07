@@ -1,0 +1,42 @@
+{
+  "id": "kl-pandiyanpara-maneed-road",
+  "ref": "MDR",
+  "name": "Pandiyanpara-Maneed Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Piravom, Kerala",
+    "end": "Thammanimattam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Piravom",
+      "Thammanimattam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Piravom",
+      "coords": [
+        76.46634,
+        9.90854
+      ]
+    },
+    {
+      "name": "Thammanimattam",
+      "coords": [
+        76.50314,
+        9.88915
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

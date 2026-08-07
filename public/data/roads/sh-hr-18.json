@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-18",
+  "ref": "SH 18",
+  "name": "Rohtak–Bawana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.1,
+  "route": {
+    "start": "Rohtak, Haryana",
+    "end": "Bawana, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Rohtak",
+      "Kharkhoda",
+      "Bawana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rohtak",
+      "coords": [
+        76.5813,
+        28.89742
+      ]
+    },
+    {
+      "name": "Kharkhoda",
+      "coords": [
+        76.91149,
+        28.87666
+      ]
+    },
+    {
+      "name": "Bawana",
+      "coords": [
+        76.98645,
+        28.82946
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

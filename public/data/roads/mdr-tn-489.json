@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-489",
+  "ref": "MDR 489",
+  "name": "Thudiyalur–Kovilpalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.1,
+  "route": {
+    "start": "Thudiyalur, Tamil Nadu",
+    "end": "Kovilpalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thudiyalur",
+      "Idigarai",
+      "Kovilpalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thudiyalur",
+      "coords": [
+        76.9419,
+        11.08063
+      ]
+    },
+    {
+      "name": "Narasimhnaickenpalayam",
+      "coords": [
+        76.95472,
+        11.11193
+      ]
+    },
+    {
+      "name": "Idigarai",
+      "coords": [
+        76.96931,
+        11.11741
+      ]
+    },
+    {
+      "name": "Kovilpalayam",
+      "coords": [
+        77.03361,
+        11.13745
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

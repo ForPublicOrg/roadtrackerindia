@@ -1,0 +1,50 @@
+{
+  "id": "kl-ambalathara-poonthura-road",
+  "ref": "MDR",
+  "name": "Ambalathara - Poonthura Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Ambalathara, Kerala",
+    "end": "Poonthura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalathara",
+      "Thiruvananthapuram",
+      "Poonthura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalathara",
+      "coords": [
+        76.95099,
+        8.45272
+      ]
+    },
+    {
+      "name": "Beemapally",
+      "coords": [
+        76.94497,
+        8.44573
+      ]
+    },
+    {
+      "name": "Poonthura",
+      "coords": [
+        76.94513,
+        8.44168
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

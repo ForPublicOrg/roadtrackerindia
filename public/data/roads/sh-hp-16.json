@@ -1,0 +1,67 @@
+{
+  "id": "sh-hp-16",
+  "ref": "SH 16",
+  "name": "Bharatgarh–Prospect Hill State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 101.1,
+  "route": {
+    "start": "Bharatgarh, Punjab",
+    "end": "Prospect Hill, Himachal Pradesh",
+    "states": [
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Bharatgarh",
+      "Nalagarh",
+      "Kunihar",
+      "Shimla",
+      "Prospect Hill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bharatgarh",
+      "coords": [
+        76.61107,
+        31.0275
+      ]
+    },
+    {
+      "name": "Nalagarh",
+      "coords": [
+        76.71811,
+        31.04436
+      ]
+    },
+    {
+      "name": "Kunihar",
+      "coords": [
+        76.96335,
+        31.07782
+      ]
+    },
+    {
+      "name": "Shimla",
+      "coords": [
+        77.12719,
+        31.09539
+      ]
+    },
+    {
+      "name": "Prospect Hill",
+      "coords": [
+        77.12538,
+        31.09104
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

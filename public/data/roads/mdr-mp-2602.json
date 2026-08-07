@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-2602",
+  "ref": "MDR 2602",
+  "name": "Barnagar–Jaora District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 111.1,
+  "route": {
+    "start": "Barnagar, Madhya Pradesh",
+    "end": "Jaora, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Barnagar",
+      "Nagda",
+      "Jaora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barnagar",
+      "coords": [
+        75.39434,
+        22.88325
+      ]
+    },
+    {
+      "name": "Nagda",
+      "coords": [
+        75.42426,
+        23.46597
+      ]
+    },
+    {
+      "name": "Jaora",
+      "coords": [
+        75.25012,
+        23.57098
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

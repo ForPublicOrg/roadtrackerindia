@@ -1,0 +1,105 @@
+{
+  "id": "chennai-bypass-expressway",
+  "ref": "NH",
+  "name": "Chennai Bypass Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 33,
+  "route": {
+    "start": "Irumbuliyur, Tamil Nadu",
+    "end": "Kathirvedu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Irumbuliyur",
+      "Tambaram",
+      "Kovur",
+      "Ambattur",
+      "Kathirvedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irumbuliyur",
+      "coords": [
+        80.1017,
+        12.91297
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.09997,
+        12.9276
+      ]
+    },
+    {
+      "name": "Pallavaram",
+      "coords": [
+        80.11929,
+        12.95815
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.12169,
+        12.99324
+      ]
+    },
+    {
+      "name": "Moulivakkam",
+      "coords": [
+        80.14608,
+        13.02818
+      ]
+    },
+    {
+      "name": "Vanagaram",
+      "coords": [
+        80.15955,
+        13.05685
+      ]
+    },
+    {
+      "name": "Nolambur",
+      "coords": [
+        80.16143,
+        13.08021
+      ]
+    },
+    {
+      "name": "Ambattur",
+      "coords": [
+        80.16444,
+        13.11808
+      ]
+    },
+    {
+      "name": "Madhavaram",
+      "coords": [
+        80.21052,
+        13.15193
+      ]
+    },
+    {
+      "name": "Kathirvedu",
+      "coords": [
+        80.21009,
+        13.15242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

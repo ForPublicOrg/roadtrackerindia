@@ -1,0 +1,58 @@
+{
+  "id": "kl-shanghumugham-veli-road",
+  "ref": "MDR",
+  "name": "Shanghumugham - Veli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Vallakkadavu, Kerala",
+    "end": "Kochuveli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vallakkadavu",
+      "Thiruvananthapuram",
+      "Vettukadu",
+      "Kochuveli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vallakkadavu",
+      "coords": [
+        76.91276,
+        8.48103
+      ]
+    },
+    {
+      "name": "Chacka",
+      "coords": [
+        76.90713,
+        8.48685
+      ]
+    },
+    {
+      "name": "Vettukadu",
+      "coords": [
+        76.90073,
+        8.49452
+      ]
+    },
+    {
+      "name": "Kochuveli",
+      "coords": [
+        76.89197,
+        8.51237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

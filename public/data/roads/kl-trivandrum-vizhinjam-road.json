@@ -1,0 +1,56 @@
+{
+  "id": "kl-trivandrum-vizhinjam-road",
+  "ref": "MDR",
+  "name": "Trivandrum - Vizhinjam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Thiruvallam, Kerala",
+    "end": "Vizhinjam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvallam",
+      "Vizhinjam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvallam",
+      "coords": [
+        76.95481,
+        8.44113
+      ]
+    },
+    {
+      "name": "Vellayani",
+      "coords": [
+        76.96596,
+        8.43098
+      ]
+    },
+    {
+      "name": "Kovalam",
+      "coords": [
+        76.98557,
+        8.39318
+      ]
+    },
+    {
+      "name": "Vizhinjam",
+      "coords": [
+        76.99138,
+        8.38473
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

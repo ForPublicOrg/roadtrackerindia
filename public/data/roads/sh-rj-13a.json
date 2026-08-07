@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-13a",
+  "ref": "SH 13A",
+  "name": "Babai–Narnaul State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29,
+  "route": {
+    "start": "Babai, Rajasthan",
+    "end": "Narnaul, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Babai",
+      "Narnaul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Babai",
+      "coords": [
+        75.81055,
+        27.81798
+      ]
+    },
+    {
+      "name": "Narnaul",
+      "coords": [
+        75.97319,
+        27.96832
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

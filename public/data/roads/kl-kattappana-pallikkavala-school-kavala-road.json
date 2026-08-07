@@ -1,0 +1,43 @@
+{
+  "id": "kl-kattappana-pallikkavala-school-kavala-road",
+  "ref": "MDR",
+  "name": "Kattappana Pallikkavala - School Kavala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Pallikkavala, Kerala",
+    "end": "School Kavala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pallikkavala",
+      "Kattappana",
+      "School Kavala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallikkavala",
+      "coords": [
+        77.11471,
+        9.74861
+      ]
+    },
+    {
+      "name": "School Kavala",
+      "coords": [
+        77.10631,
+        9.74765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

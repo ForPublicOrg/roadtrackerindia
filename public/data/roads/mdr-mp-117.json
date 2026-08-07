@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-117",
+  "ref": "MDR 117",
+  "name": "Mau–Seondha District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Mau, Madhya Pradesh",
+    "end": "Seondha, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mau",
+      "Seondha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mau",
+      "coords": [
+        78.66731,
+        26.26059
+      ]
+    },
+    {
+      "name": "Seondha",
+      "coords": [
+        78.58349,
+        26.19578
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

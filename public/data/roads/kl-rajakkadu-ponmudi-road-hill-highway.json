@@ -1,0 +1,42 @@
+{
+  "id": "kl-rajakkadu-ponmudi-road-hill-highway",
+  "ref": "MDR",
+  "name": "Rajakkadu - Ponmudi Road (Hill Highway)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Anachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Anachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.05801,
+        9.97629
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.09769,
+        9.96165
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

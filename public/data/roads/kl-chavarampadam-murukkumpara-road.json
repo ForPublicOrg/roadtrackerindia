@@ -1,0 +1,42 @@
+{
+  "id": "kl-chavarampadam-murukkumpara-road",
+  "ref": "MDR",
+  "name": "Chavarampadam - Murukkumpara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Vellanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Vellanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.32645,
+        10.49112
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.30233,
+        10.52766
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

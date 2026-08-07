@@ -1,0 +1,42 @@
+{
+  "id": "kl-vedimara-vanayikadavu-road",
+  "ref": "MDR",
+  "name": "Vedimara - Vanayikadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "North Paravur, Kerala",
+    "end": "Cheriyappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "North Paravur",
+      "Cheriyappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.24512,
+        10.14824
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.24778,
+        10.13489
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

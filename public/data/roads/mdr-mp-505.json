@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-505",
+  "ref": "MDR 505",
+  "name": "Datia–Bhander District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.1,
+  "route": {
+    "start": "Datia, Madhya Pradesh",
+    "end": "Bhander, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Datia",
+      "Bhander"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Datia",
+      "coords": [
+        78.46767,
+        25.67378
+      ]
+    },
+    {
+      "name": "Bhander",
+      "coords": [
+        78.74249,
+        25.7338
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

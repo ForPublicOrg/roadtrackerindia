@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-609",
+  "ref": "MDR 609",
+  "name": "Thiruvarur–Kodavasal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 35.7,
+  "route": {
+    "start": "Thiruvarur, Tamil Nadu",
+    "end": "Kodavasal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruvarur",
+      "Kuttanallur",
+      "Koradacheri",
+      "Kodavasal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvarur",
+      "coords": [
+        79.64718,
+        10.68288
+      ]
+    },
+    {
+      "name": "Kuttanallur",
+      "coords": [
+        79.51821,
+        10.70987
+      ]
+    },
+    {
+      "name": "Podakkudi",
+      "coords": [
+        79.50636,
+        10.73917
+      ]
+    },
+    {
+      "name": "Koradacheri",
+      "coords": [
+        79.49197,
+        10.76802
+      ]
+    },
+    {
+      "name": "Kodavasal",
+      "coords": [
+        79.47901,
+        10.85097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-ptp-road",
+  "ref": "MDR",
+  "name": "PTP Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Azhoor, Kerala",
+    "end": "Chirayinkeezhu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Azhoor",
+      "Attingal",
+      "Chirayinkeezhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.81896,
+        8.65954
+      ]
+    },
+    {
+      "name": "Attingal",
+      "coords": [
+        76.81281,
+        8.67581
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.80567,
+        8.67633
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

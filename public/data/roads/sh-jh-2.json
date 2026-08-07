@@ -1,0 +1,57 @@
+{
+  "id": "sh-jh-2",
+  "ref": "SH 2",
+  "name": "Ranchi–Ramgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62,
+  "route": {
+    "start": "Ranchi, Jharkhand",
+    "end": "Ramgarh, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ranchi",
+      "Bhurkunda",
+      "Ramgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.31764,
+        23.37847
+      ]
+    },
+    {
+      "name": "Bhurkunda",
+      "coords": [
+        85.34521,
+        23.64332
+      ]
+    },
+    {
+      "name": "Barkakana",
+      "coords": [
+        85.44996,
+        23.61954
+      ]
+    },
+    {
+      "name": "Ramgarh",
+      "coords": [
+        85.51503,
+        23.62665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

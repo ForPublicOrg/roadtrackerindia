@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-1108",
+  "ref": "MDR 1108",
+  "name": "Latteri–Viruthampattu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Latteri, Tamil Nadu",
+    "end": "Viruthampattu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Latteri",
+      "Vanjur",
+      "Viruthampattu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latteri",
+      "coords": [
+        79.09362,
+        12.97558
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.11239,
+        12.95469
+      ]
+    },
+    {
+      "name": "Katpadi",
+      "coords": [
+        79.12309,
+        12.95172
+      ]
+    },
+    {
+      "name": "Viruthampattu",
+      "coords": [
+        79.13231,
+        12.94746
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

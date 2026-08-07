@@ -1,0 +1,42 @@
+{
+  "id": "kl-allappra-valamboor-road",
+  "ref": "MDR",
+  "name": "Allappra - Valamboor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Kolenchery, Kerala",
+    "end": "Perumbavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kolenchery",
+      "Perumbavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolenchery",
+      "coords": [
+        76.47895,
+        10.02391
+      ]
+    },
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.47431,
+        10.09716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

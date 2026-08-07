@@ -1,0 +1,50 @@
+{
+  "id": "kl-malampuzha-anakkal-ring-road",
+  "ref": "MDR",
+  "name": "Malampuzha - Anakkal Ring Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.2,
+  "route": {
+    "start": "Valiyapadam, Kerala",
+    "end": "Akathethara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapadam",
+      "Kanjikode",
+      "Akathethara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapadam",
+      "coords": [
+        76.69363,
+        10.8215
+      ]
+    },
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.73019,
+        10.82759
+      ]
+    },
+    {
+      "name": "Akathethara",
+      "coords": [
+        76.67978,
+        10.83045
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

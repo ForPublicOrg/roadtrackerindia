@@ -1,0 +1,69 @@
+{
+  "id": "nh-512",
+  "ref": "NH 512",
+  "name": "Gazole–Hakimpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 106.8,
+  "route": {
+    "start": "Gazole, West Bengal",
+    "end": "Hakimpur, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Gazole",
+      "Gangarampur",
+      "Balurghat",
+      "Hakimpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gazole",
+      "coords": [
+        88.18784,
+        25.20426
+      ]
+    },
+    {
+      "name": "Gangarampur",
+      "coords": [
+        88.51851,
+        25.406
+      ]
+    },
+    {
+      "name": "Rampur",
+      "coords": [
+        88.62515,
+        25.35016
+      ]
+    },
+    {
+      "name": "Balurghat",
+      "coords": [
+        88.78649,
+        25.23471
+      ]
+    },
+    {
+      "name": "Hakimpur",
+      "coords": [
+        89.0067,
+        25.28118
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

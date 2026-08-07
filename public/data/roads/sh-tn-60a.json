@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-60a",
+  "ref": "SH 60A",
+  "name": "Harur–Dharmapuri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.5,
+  "route": {
+    "start": "Harur, Tamil Nadu",
+    "end": "Dharmapuri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Harur",
+      "Dharmapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Harur",
+      "coords": [
+        78.47616,
+        12.06191
+      ]
+    },
+    {
+      "name": "Dharmapuri",
+      "coords": [
+        78.17143,
+        12.14585
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

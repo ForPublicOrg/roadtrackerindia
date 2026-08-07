@@ -1,0 +1,42 @@
+{
+  "id": "kl-chittarikkal-chattamala-road",
+  "ref": "MDR",
+  "name": "Chittarikkal - Chattamala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Cherupuzha, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherupuzha",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.3612,
+        12.32449
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.36002,
+        12.3387
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

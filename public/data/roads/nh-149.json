@@ -1,0 +1,61 @@
+{
+  "id": "nh-149",
+  "ref": "NH 149",
+  "name": "Barnapal–Pal Lahara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 83.4,
+  "route": {
+    "start": "Barnapal, Odisha",
+    "end": "Pal Lahara, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Barnapal",
+      "Biswanathpur",
+      "Pal Lahara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barnapal",
+      "coords": [
+        85.23541,
+        20.83633
+      ]
+    },
+    {
+      "name": "Biswanathpur",
+      "coords": [
+        85.21334,
+        20.85706
+      ]
+    },
+    {
+      "name": "Talcher",
+      "coords": [
+        85.21829,
+        20.95726
+      ]
+    },
+    {
+      "name": "Pal Lahara",
+      "coords": [
+        85.1835,
+        21.43582
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

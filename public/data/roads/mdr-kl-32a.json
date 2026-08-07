@@ -1,0 +1,51 @@
+{
+  "id": "mdr-kl-32a",
+  "ref": "MDR 32A",
+  "name": "Kelugudde–Siraj Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kelugudde, Kerala",
+    "end": "Siraj Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kelugudde",
+      "Anebagilu",
+      "Kasaragod",
+      "Siraj Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kelugudde",
+      "coords": [
+        74.99993,
+        12.54228
+      ]
+    },
+    {
+      "name": "Anebagilu",
+      "coords": [
+        74.99073,
+        12.53788
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        74.98142,
+        12.53643
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

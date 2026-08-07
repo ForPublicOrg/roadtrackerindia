@@ -1,0 +1,43 @@
+{
+  "id": "kl-kavilthazham-odumbra-road",
+  "ref": "MDR",
+  "name": "Kavilthazham - Odumbra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Nallalam, Kerala",
+    "end": "Thiruvannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nallalam",
+      "Cheruvannur",
+      "Thiruvannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nallalam",
+      "coords": [
+        75.83531,
+        11.22276
+      ]
+    },
+    {
+      "name": "Thiruvannur",
+      "coords": [
+        75.80964,
+        11.22454
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

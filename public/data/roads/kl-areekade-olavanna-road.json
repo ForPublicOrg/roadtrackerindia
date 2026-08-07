@@ -1,0 +1,51 @@
+{
+  "id": "kl-areekade-olavanna-road",
+  "ref": "MDR",
+  "name": "Areekade - Olavanna Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Nallalam, Kerala",
+    "end": "Areekkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nallalam",
+      "Cheruvannur",
+      "Beypore",
+      "Areekkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nallalam",
+      "coords": [
+        75.82459,
+        11.21621
+      ]
+    },
+    {
+      "name": "Modern Bazar",
+      "coords": [
+        75.80952,
+        11.21384
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.80569,
+        11.21275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

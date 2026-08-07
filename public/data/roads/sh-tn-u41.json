@@ -1,0 +1,57 @@
+{
+  "id": "sh-tn-u41",
+  "ref": "SH-U 41",
+  "name": "Karur–Pugalur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.2,
+  "route": {
+    "start": "Karur, Tamil Nadu",
+    "end": "Pugalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karur",
+      "Manmangalam",
+      "Pugalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karur",
+      "coords": [
+        78.08285,
+        10.95121
+      ]
+    },
+    {
+      "name": "Pudhucolony",
+      "coords": [
+        78.07646,
+        10.98702
+      ]
+    },
+    {
+      "name": "Manmangalam",
+      "coords": [
+        78.06911,
+        11.0114
+      ]
+    },
+    {
+      "name": "Pugalur",
+      "coords": [
+        78.00995,
+        11.07456
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

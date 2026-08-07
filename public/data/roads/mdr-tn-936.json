@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-936",
+  "ref": "MDR 936",
+  "name": "Kayalpattinam–Virapandianpatanam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Kayalpattinam, Tamil Nadu",
+    "end": "Virapandianpatanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kayalpattinam",
+      "Tiruchendur",
+      "Virapandianpatanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayalpattinam",
+      "coords": [
+        78.09564,
+        8.5697
+      ]
+    },
+    {
+      "name": "Tiruchendur",
+      "coords": [
+        78.11667,
+        8.52001
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

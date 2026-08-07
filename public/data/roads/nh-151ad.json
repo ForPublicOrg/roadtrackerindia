@@ -1,0 +1,46 @@
+{
+  "id": "nh-151ad",
+  "ref": "NH 151AD",
+  "name": "Porbandar–Khambhaliya National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 62.8,
+  "route": {
+    "start": "Porbandar, Gujarat",
+    "end": "Khambhaliya, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Porbandar",
+      "Khambhaliya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Porbandar",
+      "coords": [
+        69.60396,
+        21.68274
+      ]
+    },
+    {
+      "name": "Khambhaliya",
+      "coords": [
+        69.6351,
+        22.18283
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

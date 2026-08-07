@@ -1,0 +1,42 @@
+{
+  "id": "kl-mukkoottuthara-edakadathy-pampavally-road",
+  "ref": "MDR",
+  "name": "Mukkoottuthara - Edakadathy Pampavally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Chittar, Kerala",
+    "end": "Charala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittar",
+      "Charala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittar",
+      "coords": [
+        76.9347,
+        9.42165
+      ]
+    },
+    {
+      "name": "Charala",
+      "coords": [
+        76.87798,
+        9.44718
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

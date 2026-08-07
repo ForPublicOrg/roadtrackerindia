@@ -1,0 +1,55 @@
+{
+  "id": "nh-129a",
+  "ref": "NH 129A",
+  "name": "Dimapur–Senapati National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 198.1,
+  "route": {
+    "start": "Dimapur, Nagaland",
+    "end": "Senapati, Manipur",
+    "states": [
+      "Nagaland",
+      "Manipur"
+    ],
+    "majorCities": [
+      "Dimapur",
+      "Peren",
+      "Senapati"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dimapur",
+      "coords": [
+        93.72047,
+        25.91139
+      ]
+    },
+    {
+      "name": "Peren",
+      "coords": [
+        93.73879,
+        25.54118
+      ]
+    },
+    {
+      "name": "Senapati",
+      "coords": [
+        94.09821,
+        25.41376
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

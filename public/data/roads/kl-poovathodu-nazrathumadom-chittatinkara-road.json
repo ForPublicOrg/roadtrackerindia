@@ -1,0 +1,42 @@
+{
+  "id": "kl-poovathodu-nazrathumadom-chittatinkara-road",
+  "ref": "MDR",
+  "name": "Poovathodu - Nazrathumadom - Chittatinkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.74679,
+        9.67778
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.75796,
+        9.68345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

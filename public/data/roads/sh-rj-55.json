@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-55",
+  "ref": "SH 55",
+  "name": "Thanagazi–Ramganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87.5,
+  "route": {
+    "start": "Thanagazi, Rajasthan",
+    "end": "Ramganj, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Thanagazi",
+      "Jamwa Ramgarh",
+      "Ramganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanagazi",
+      "coords": [
+        76.27106,
+        27.36208
+      ]
+    },
+    {
+      "name": "Jamwa Ramgarh",
+      "coords": [
+        76.01696,
+        27.01997
+      ]
+    },
+    {
+      "name": "Ramganj",
+      "coords": [
+        75.86838,
+        26.96128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

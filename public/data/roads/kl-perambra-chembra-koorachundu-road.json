@@ -1,0 +1,50 @@
+{
+  "id": "kl-perambra-chembra-koorachundu-road",
+  "ref": "MDR",
+  "name": "Perambra - Chembra - Koorachundu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.8,
+  "route": {
+    "start": "Koorachundu, Kerala",
+    "end": "Perambra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koorachundu",
+      "Chakkittapara",
+      "Perambra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koorachundu",
+      "coords": [
+        75.84468,
+        11.53969
+      ]
+    },
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.8125,
+        11.55809
+      ]
+    },
+    {
+      "name": "Perambra",
+      "coords": [
+        75.76139,
+        11.55658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

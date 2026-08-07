@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1284",
+  "ref": "MDR 1284",
+  "name": "MRP Nagar–Vedasandur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18,
+  "route": {
+    "start": "MRP Nagar, Tamil Nadu",
+    "end": "Vedasandur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "MRP Nagar",
+      "Vedasandur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MRP Nagar",
+      "coords": [
+        78.07999,
+        10.59595
+      ]
+    },
+    {
+      "name": "Vedasandur",
+      "coords": [
+        77.94752,
+        10.5309
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

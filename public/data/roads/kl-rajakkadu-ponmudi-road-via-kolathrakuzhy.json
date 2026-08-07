@@ -1,0 +1,42 @@
+{
+  "id": "kl-rajakkadu-ponmudi-road-via-kolathrakuzhy",
+  "ref": "MDR",
+  "name": "Rajakkadu - Ponmudi Road via Kolathrakuzhy",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Anachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Anachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.05857,
+        9.97515
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.06882,
+        9.96282
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

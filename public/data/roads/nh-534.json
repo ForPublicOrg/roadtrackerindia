@@ -1,0 +1,71 @@
+{
+  "id": "nh-534",
+  "ref": "NH 534",
+  "name": "Pauri–Najibabad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 139.1,
+  "route": {
+    "start": "Pauri, Uttarakhand",
+    "end": "Najibabad, Uttar Pradesh",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Pauri",
+      "Satpuli",
+      "Jaiharīkhāl",
+      "Kotdwar",
+      "Najibabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pauri",
+      "coords": [
+        78.80195,
+        30.117
+      ]
+    },
+    {
+      "name": "Satpuli",
+      "coords": [
+        78.70786,
+        29.91818
+      ]
+    },
+    {
+      "name": "Jaiharīkhāl",
+      "coords": [
+        78.68137,
+        29.86142
+      ]
+    },
+    {
+      "name": "Kotdwar",
+      "coords": [
+        78.5202,
+        29.74535
+      ]
+    },
+    {
+      "name": "Najibabad",
+      "coords": [
+        78.34994,
+        29.60865
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

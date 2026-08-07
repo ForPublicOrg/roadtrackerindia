@@ -1,0 +1,50 @@
+{
+  "id": "sh-hp-6",
+  "ref": "SH 6",
+  "name": "Theog–Dharampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 81.3,
+  "route": {
+    "start": "Theog, Himachal Pradesh",
+    "end": "Dharampur, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Theog",
+      "Solan",
+      "Dharampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Theog",
+      "coords": [
+        77.41338,
+        31.09592
+      ]
+    },
+    {
+      "name": "Solan",
+      "coords": [
+        77.07569,
+        30.87632
+      ]
+    },
+    {
+      "name": "Dharampur",
+      "coords": [
+        77.0666,
+        30.87704
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

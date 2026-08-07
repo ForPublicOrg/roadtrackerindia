@@ -1,0 +1,69 @@
+{
+  "id": "nh-848k",
+  "ref": "NH 848K",
+  "name": "Nadiad–Modasa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 139.8,
+  "route": {
+    "start": "Nadiad, Gujarat",
+    "end": "Modasa, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Nadiad",
+      "Kapadvanj",
+      "Bayad",
+      "Modasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadiad",
+      "coords": [
+        72.82495,
+        22.70839
+      ]
+    },
+    {
+      "name": "Mahudha",
+      "coords": [
+        72.93615,
+        22.82021
+      ]
+    },
+    {
+      "name": "Kapadvanj",
+      "coords": [
+        73.07104,
+        23.02012
+      ]
+    },
+    {
+      "name": "Bayad",
+      "coords": [
+        73.21459,
+        23.22594
+      ]
+    },
+    {
+      "name": "Modasa",
+      "coords": [
+        73.31371,
+        23.46566
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

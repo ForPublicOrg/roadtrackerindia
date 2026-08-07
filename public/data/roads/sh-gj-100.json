@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-100",
+  "ref": "SH 100",
+  "name": "Maliya–Mendarda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.6,
+  "route": {
+    "start": "Maliya, Gujarat",
+    "end": "Mendarda, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Maliya",
+      "Mendarda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maliya",
+      "coords": [
+        70.27192,
+        21.14945
+      ]
+    },
+    {
+      "name": "Mendarda",
+      "coords": [
+        70.43602,
+        21.32512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

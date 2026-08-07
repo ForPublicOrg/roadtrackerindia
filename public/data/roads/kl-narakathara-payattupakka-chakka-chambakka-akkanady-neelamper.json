@@ -1,0 +1,42 @@
+{
+  "id": "kl-narakathara-payattupakka-chakka-chambakka-akkanady-neelamper",
+  "ref": "MDR",
+  "name": "Narakathara - Payattupakka - Chakka Chambakka - Akkanady - Neelamperoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Mathumoola, Kerala",
+    "end": "Chingavanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mathumoola",
+      "Chingavanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.48815,
+        9.46989
+      ]
+    },
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.50586,
+        9.50326
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

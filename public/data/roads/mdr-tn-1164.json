@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-1164",
+  "ref": "MDR 1164",
+  "name": "Tambaram–Mudichur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Tambaram, Tamil Nadu",
+    "end": "Mudichur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tambaram",
+      "Perungalathur",
+      "Mudichur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.12146,
+        12.93042
+      ]
+    },
+    {
+      "name": "Perungalathur",
+      "coords": [
+        80.09138,
+        12.93873
+      ]
+    },
+    {
+      "name": "Mudichur",
+      "coords": [
+        80.04287,
+        12.95431
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

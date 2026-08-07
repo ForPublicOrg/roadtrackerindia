@@ -1,0 +1,42 @@
+{
+  "id": "kl-kayyur-chayyome-road",
+  "ref": "MDR",
+  "name": "Kayyur Chayyome Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Chayoth, Kerala",
+    "end": "Kayyur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chayoth",
+      "Kayyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chayoth",
+      "coords": [
+        75.17864,
+        12.2825
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.1896,
+        12.2658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

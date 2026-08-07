@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-015-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 015 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Dudhpatli, Assam",
+    "end": "Tarapur, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dudhpatli",
+      "Tarapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dudhpatli",
+      "coords": [
+        92.71391,
+        24.89965
+      ]
+    },
+    {
+      "name": "Tarapur",
+      "coords": [
+        92.7169,
+        24.84081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-eriya-kanhiradukkam-road",
+  "ref": "MDR",
+  "name": "Eriya - Kanhiradukkam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Odayamchal, Kerala",
+    "end": "Periya, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Odayamchal",
+      "Periya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.16027,
+        12.41457
+      ]
+    },
+    {
+      "name": "Periya",
+      "coords": [
+        75.16837,
+        12.39209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-43c",
+  "ref": "MDR 43C",
+  "name": "Hardoi–Shahabad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.4,
+  "route": {
+    "start": "Hardoi, Uttar Pradesh",
+    "end": "Shahabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Hardoi",
+      "Shahabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hardoi",
+      "coords": [
+        80.12687,
+        27.40596
+      ]
+    },
+    {
+      "name": "Shahabad",
+      "coords": [
+        80.26033,
+        27.73906
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

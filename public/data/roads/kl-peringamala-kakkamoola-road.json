@@ -1,0 +1,50 @@
+{
+  "id": "kl-peringamala-kakkamoola-road",
+  "ref": "MDR",
+  "name": "Peringamala - Kakkamoola Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Vellayani, Kerala",
+    "end": "Kalliyoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellayani",
+      "Balaramapuram",
+      "Kalliyoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellayani",
+      "coords": [
+        76.99512,
+        8.42601
+      ]
+    },
+    {
+      "name": "Kalliyoor",
+      "coords": [
+        77.01383,
+        8.41943
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.02019,
+        8.41702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

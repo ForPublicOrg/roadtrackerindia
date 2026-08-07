@@ -1,0 +1,71 @@
+{
+  "id": "nh-168",
+  "ref": "NH 168",
+  "name": "Tharad–Sirohi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 158.4,
+  "route": {
+    "start": "Tharad, Gujarat",
+    "end": "Sirohi, Rajasthan",
+    "states": [
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Tharad",
+      "Dhanera",
+      "Reodhar",
+      "Mount Abu",
+      "Sirohi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tharad",
+      "coords": [
+        71.63874,
+        24.39798
+      ]
+    },
+    {
+      "name": "Dhanera",
+      "coords": [
+        72.03153,
+        24.49979
+      ]
+    },
+    {
+      "name": "Reodhar",
+      "coords": [
+        72.52542,
+        24.61684
+      ]
+    },
+    {
+      "name": "Mount Abu",
+      "coords": [
+        72.65243,
+        24.62746
+      ]
+    },
+    {
+      "name": "Sirohi",
+      "coords": [
+        72.85267,
+        24.885
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

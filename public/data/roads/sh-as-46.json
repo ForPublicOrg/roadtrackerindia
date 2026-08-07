@@ -1,0 +1,66 @@
+{
+  "id": "sh-as-46",
+  "ref": "SH 46",
+  "name": "Dhubri–Dudhnai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 102.6,
+  "route": {
+    "start": "Dhubri, Assam",
+    "end": "Dudhnai, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dhubri",
+      "Tikrikilla",
+      "Lakhipur",
+      "Goalpara",
+      "Dudhnai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhubri",
+      "coords": [
+        90.08419,
+        25.96185
+      ]
+    },
+    {
+      "name": "Tikrikilla",
+      "coords": [
+        90.18071,
+        25.9888
+      ]
+    },
+    {
+      "name": "Lakhipur",
+      "coords": [
+        90.30314,
+        26.03118
+      ]
+    },
+    {
+      "name": "Goalpara",
+      "coords": [
+        90.61983,
+        26.17786
+      ]
+    },
+    {
+      "name": "Dudhnai",
+      "coords": [
+        90.78228,
+        25.98298
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

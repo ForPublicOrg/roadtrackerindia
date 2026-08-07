@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-u78",
+  "ref": "SH-U 78",
+  "name": "Annathanapatti–Kondalampatti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Annathanapatti, Tamil Nadu",
+    "end": "Kondalampatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Annathanapatti",
+      "Salem",
+      "Nethimedu",
+      "Kondalampatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Annathanapatti",
+      "coords": [
+        78.13822,
+        11.64203
+      ]
+    },
+    {
+      "name": "Nethimedu",
+      "coords": [
+        78.1343,
+        11.63913
+      ]
+    },
+    {
+      "name": "Kondalampatti",
+      "coords": [
+        78.12779,
+        11.63351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

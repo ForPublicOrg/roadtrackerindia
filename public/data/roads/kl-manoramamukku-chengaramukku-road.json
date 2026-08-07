@@ -1,0 +1,42 @@
+{
+  "id": "kl-manoramamukku-chengaramukku-road",
+  "ref": "MDR",
+  "name": "Manoramamukku - Chengaramukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.81433,
+        9.32401
+      ]
+    },
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.82693,
+        9.33725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

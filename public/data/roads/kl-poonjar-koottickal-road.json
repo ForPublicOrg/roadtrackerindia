@@ -1,0 +1,42 @@
+{
+  "id": "kl-poonjar-koottickal-road",
+  "ref": "MDR",
+  "name": "Poonjar - Koottickal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Poonjar, Kerala",
+    "end": "Kanjirappalli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poonjar",
+      "Kanjirappalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.8152,
+        9.67063
+      ]
+    },
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.85166,
+        9.60702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-edakkara-sankaramkulam-palemad-road",
+  "ref": "MDR",
+  "name": "Edakkara - Sankaramkulam - Palemad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.30278,
+        11.36151
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.30857,
+        11.38576
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

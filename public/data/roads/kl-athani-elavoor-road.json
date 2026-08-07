@@ -1,0 +1,42 @@
+{
+  "id": "kl-athani-elavoor-road",
+  "ref": "MDR",
+  "name": "Athani - Elavoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Thottakkattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Thottakkattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.33634,
+        10.20992
+      ]
+    },
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.35642,
+        10.15781
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

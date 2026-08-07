@@ -1,0 +1,49 @@
+{
+  "id": "mdr-jh-106",
+  "ref": "MDR 106",
+  "name": "Ramgarh–Religara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.6,
+  "route": {
+    "start": "Ramgarh, Jharkhand",
+    "end": "Religara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ramgarh",
+      "Religara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramgarh",
+      "coords": [
+        85.51189,
+        23.64644
+      ]
+    },
+    {
+      "name": "Barkakana",
+      "coords": [
+        85.46183,
+        23.65038
+      ]
+    },
+    {
+      "name": "Religara",
+      "coords": [
+        85.37544,
+        23.68065
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

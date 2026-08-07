@@ -1,0 +1,42 @@
+{
+  "id": "kl-alencherry-onthupacha-road",
+  "ref": "MDR",
+  "name": "Alencherry - Onthupacha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.6,
+  "route": {
+    "start": "Anchal, Kerala",
+    "end": "Kulathupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchal",
+      "Kulathupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchal",
+      "coords": [
+        76.93166,
+        8.92986
+      ]
+    },
+    {
+      "name": "Kulathupuzha",
+      "coords": [
+        77.03653,
+        8.85858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

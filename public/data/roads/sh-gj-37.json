@@ -1,0 +1,49 @@
+{
+  "id": "sh-gj-37",
+  "ref": "SH 37",
+  "name": "Bhavnagar–Alang State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 55.6,
+  "route": {
+    "start": "Bhavnagar, Gujarat",
+    "end": "Alang, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Bhavnagar",
+      "Alang"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhavnagar",
+      "coords": [
+        72.16232,
+        21.75446
+      ]
+    },
+    {
+      "name": "Ghogha",
+      "coords": [
+        72.23408,
+        21.69384
+      ]
+    },
+    {
+      "name": "Alang",
+      "coords": [
+        72.17964,
+        21.40999
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

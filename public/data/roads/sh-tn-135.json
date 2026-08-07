@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-135",
+  "ref": "SH 135",
+  "name": "Tiruvannamalai–Tirukkovilur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Tiruvannamalai, Tamil Nadu",
+    "end": "Tirukkovilur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvannamalai",
+      "Tirukkovilur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.07467,
+        12.22533
+      ]
+    },
+    {
+      "name": "Tirukkovilur",
+      "coords": [
+        79.09249,
+        12.21934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "mdr-jh-12",
+  "ref": "MDR 12",
+  "name": "Ratu–Gutuwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Ratu, Jharkhand",
+    "end": "Gutuwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ratu",
+      "Kathartoli",
+      "Gutuwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ratu",
+      "coords": [
+        85.22939,
+        23.41251
+      ]
+    },
+    {
+      "name": "Dandai Phutaltoli",
+      "coords": [
+        85.23055,
+        23.39433
+      ]
+    },
+    {
+      "name": "Kathartoli",
+      "coords": [
+        85.23496,
+        23.38348
+      ]
+    },
+    {
+      "name": "Daladeli",
+      "coords": [
+        85.23185,
+        23.36943
+      ]
+    },
+    {
+      "name": "Nawasarai",
+      "coords": [
+        85.2384,
+        23.367
+      ]
+    },
+    {
+      "name": "Gutuwa",
+      "coords": [
+        85.24288,
+        23.3656
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

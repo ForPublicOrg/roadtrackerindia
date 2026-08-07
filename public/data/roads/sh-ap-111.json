@@ -1,0 +1,50 @@
+{
+  "id": "sh-ap-111",
+  "ref": "SH 111",
+  "name": "Polaki–Tekkali State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38,
+  "route": {
+    "start": "Polaki, Andhra Pradesh",
+    "end": "Tekkali, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Polaki",
+      "Santhabommali",
+      "Tekkali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Polaki",
+      "coords": [
+        84.09941,
+        18.35159
+      ]
+    },
+    {
+      "name": "Santhabommali",
+      "coords": [
+        84.21865,
+        18.53366
+      ]
+    },
+    {
+      "name": "Tekkali",
+      "coords": [
+        84.29203,
+        18.55665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

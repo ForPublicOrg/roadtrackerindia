@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-134",
+  "ref": "MDR 134",
+  "name": "Attayampatti–Taramangalam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.7,
+  "route": {
+    "start": "Attayampatti, Tamil Nadu",
+    "end": "Taramangalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Attayampatti",
+      "Elampillai",
+      "Taramangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attayampatti",
+      "coords": [
+        78.013,
+        11.55796
+      ]
+    },
+    {
+      "name": "Elampillai",
+      "coords": [
+        78.00531,
+        11.60231
+      ]
+    },
+    {
+      "name": "Taramangalam",
+      "coords": [
+        77.95166,
+        11.64164
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

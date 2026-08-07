@@ -1,0 +1,63 @@
+{
+  "id": "nh-135c",
+  "ref": "NH 135C",
+  "name": "Vindhyanagar–Karchana National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 204.5,
+  "route": {
+    "start": "Vindhyanagar, Madhya Pradesh",
+    "end": "Karchana, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Vindhyanagar",
+      "Singrauli",
+      "Koraon",
+      "Karchana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vindhyanagar",
+      "coords": [
+        82.65362,
+        24.12462
+      ]
+    },
+    {
+      "name": "Singrauli",
+      "coords": [
+        82.65249,
+        24.2016
+      ]
+    },
+    {
+      "name": "Koraon",
+      "coords": [
+        82.06842,
+        24.99918
+      ]
+    },
+    {
+      "name": "Karchana",
+      "coords": [
+        81.93655,
+        25.28419
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

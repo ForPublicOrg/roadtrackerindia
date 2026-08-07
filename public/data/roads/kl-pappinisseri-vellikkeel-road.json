@@ -1,0 +1,50 @@
+{
+  "id": "kl-pappinisseri-vellikkeel-road",
+  "ref": "MDR",
+  "name": "Pappinisseri - Vellikkeel Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Kannapuram, Kerala",
+    "end": "Pappinisseri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannapuram",
+      "Dharmasala",
+      "Pappinisseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.33759,
+        12.00136
+      ]
+    },
+    {
+      "name": "Dharmasala",
+      "coords": [
+        75.34151,
+        11.98729
+      ]
+    },
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.34784,
+        11.94313
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

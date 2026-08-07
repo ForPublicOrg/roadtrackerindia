@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-251",
+  "ref": "MDR 251",
+  "name": "Chas–Pathardih District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.5,
+  "route": {
+    "start": "Chas, Jharkhand",
+    "end": "Pathardih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chas",
+      "Pathardih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chas",
+      "coords": [
+        86.19636,
+        23.64314
+      ]
+    },
+    {
+      "name": "Pathardih",
+      "coords": [
+        86.40312,
+        23.65606
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

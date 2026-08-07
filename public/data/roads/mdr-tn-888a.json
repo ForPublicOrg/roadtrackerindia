@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-888a",
+  "ref": "MDR 888A",
+  "name": "Punjai Puliampatti–Nambiyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.2,
+  "route": {
+    "start": "Punjai Puliampatti, Tamil Nadu",
+    "end": "Nambiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Punjai Puliampatti",
+      "Nambiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punjai Puliampatti",
+      "coords": [
+        77.16933,
+        11.35117
+      ]
+    },
+    {
+      "name": "Nambiyur",
+      "coords": [
+        77.31887,
+        11.35679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

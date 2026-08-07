@@ -1,0 +1,42 @@
+{
+  "id": "kl-punnayoorkkulam-changaramkulam-road",
+  "ref": "MDR",
+  "name": "Punnayoorkkulam - Changaramkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Puthanpally, Kerala",
+    "end": "Eramangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthanpally",
+      "Eramangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthanpally",
+      "coords": [
+        75.9924,
+        10.68489
+      ]
+    },
+    {
+      "name": "Eramangalam",
+      "coords": [
+        76.00355,
+        10.69089
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

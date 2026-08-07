@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulakkuzha-kidangannoor-road",
+  "ref": "MDR",
+  "name": "Mulakkuzha - Kidangannoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.64877,
+        9.29133
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.68777,
+        9.29674
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nh-340b",
+  "ref": "NH 340B",
+  "name": "Dhone–Cement Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 54.8,
+  "route": {
+    "start": "Dhone, Andhra Pradesh",
+    "end": "Cement Nagar, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Dhone",
+      "Bethamcherla",
+      "Cement Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhone",
+      "coords": [
+        77.84484,
+        15.38974
+      ]
+    },
+    {
+      "name": "Bethamcherla",
+      "coords": [
+        78.14792,
+        15.44966
+      ]
+    },
+    {
+      "name": "Cement Nagar",
+      "coords": [
+        78.17655,
+        15.52017
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

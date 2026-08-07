@@ -1,0 +1,41 @@
+{
+  "id": "nhai",
+  "name": "National Highways Authority of India",
+  "shortName": "NHAI",
+  "type": "authority",
+  "summary": "The government body that builds and looks after most of India's national highways, and collects the toll on them.",
+  "founded": "1988",
+  "headquarters": "Dwarka, New Delhi",
+  "ownership": "Government of India — Ministry of Road Transport and Highways",
+  "website": "https://nhai.gov.in/",
+  "about": "NHAI was created by an Act of Parliament in 1988 and started working in 1995, when India decided its highways needed one organisation devoted to them rather than a dozen state departments. It does not usually build roads with its own workers — it plans a highway, buys the land, hires construction companies to build it, and then either maintains it itself or hands it to a private company that collects toll for an agreed number of years. Most of the big road programmes people hear about, from the Golden Quadrilateral in the 2000s to Bharatmala today, are run by NHAI. If you are driving on a road numbered NH-something, this is almost always the organisation responsible for it.",
+  "facts": [
+    "Runs the 1033 helpline, which is free to call from anywhere in India, 24 hours a day.",
+    "Looks after roughly 1.5 lakh km of national highways together with state PWDs and NHIDCL.",
+    "Built the Golden Quadrilateral connecting Delhi, Mumbai, Chennai and Kolkata.",
+    "Most of its toll is now collected electronically through FASTag, without stopping."
+  ],
+  "helplines": [
+    {
+      "kind": "emergency",
+      "label": "Highway emergency — ambulance, crane, accident, road blocked",
+      "number": "1033",
+      "note": "Free, 24×7, from any phone. Works on every national highway."
+    },
+    {
+      "kind": "complaint",
+      "label": "Toll, FASTag and road condition complaints",
+      "number": "1033",
+      "note": "The same number handles complaints about toll plazas and potholes."
+    }
+  ],
+  "grievance": {
+    "url": "https://rajmargyatra.nhai.gov.in/",
+    "app": "Rajmarg Yatra",
+    "note": "NHAI's own app takes photo complaints about road condition, toll plazas and facilities, and tracks what happened to them."
+  },
+  "sources": [
+    { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
+    { "title": "Rajmarg Yatra — NHAI's citizen app", "url": "https://rajmargyatra.nhai.gov.in/" }
+  ]
+}

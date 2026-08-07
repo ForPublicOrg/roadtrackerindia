@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattunilam-madakkalpady-naalankal-muppathinalilpady-road",
+  "ref": "MDR",
+  "name": "Kattunilam - Madakkalpady - Naalankal - Muppathinalilpady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.51357,
+        9.3595
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.47644,
+        9.35708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

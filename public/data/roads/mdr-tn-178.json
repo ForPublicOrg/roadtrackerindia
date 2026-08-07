@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-178",
+  "ref": "MDR 178",
+  "name": "Vannarpettai–Melapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Vannarpettai, Tamil Nadu",
+    "end": "Melapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vannarpettai",
+      "Tirunelveli",
+      "Palayamkottai",
+      "Melapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vannarpettai",
+      "coords": [
+        77.71586,
+        8.72812
+      ]
+    },
+    {
+      "name": "Palayamkottai",
+      "coords": [
+        77.71335,
+        8.71154
+      ]
+    },
+    {
+      "name": "Melapalayam",
+      "coords": [
+        77.71472,
+        8.69917
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

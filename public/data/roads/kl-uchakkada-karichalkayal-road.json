@@ -1,0 +1,42 @@
+{
+  "id": "kl-uchakkada-karichalkayal-road",
+  "ref": "MDR",
+  "name": "Uchakkada - Karichalkayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Vizhinjam, Kerala",
+    "end": "Venganoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vizhinjam",
+      "Venganoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vizhinjam",
+      "coords": [
+        77.02807,
+        8.35957
+      ]
+    },
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.01905,
+        8.38417
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

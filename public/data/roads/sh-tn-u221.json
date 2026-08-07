@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u221",
+  "ref": "SH-U 221",
+  "name": "Keeranur–HAPP Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Keeranur, Tamil Nadu",
+    "end": "HAPP Colony, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Keeranur",
+      "HAPP Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Keeranur",
+      "coords": [
+        78.779,
+        10.55302
+      ]
+    },
+    {
+      "name": "HAPP Colony",
+      "coords": [
+        78.77603,
+        10.58459
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-azhinjilam-vazhakkad-road",
+  "ref": "MDR",
+  "name": "Azhinjilam - Vazhakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Ramanattukara, Kerala",
+    "end": "Mavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ramanattukara",
+      "Mavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramanattukara",
+      "coords": [
+        75.86712,
+        11.2002
+      ]
+    },
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.92455,
+        11.2419
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

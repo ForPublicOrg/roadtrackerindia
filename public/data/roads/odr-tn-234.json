@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-234",
+  "ref": "ODR 234",
+  "name": "Parangipettai–Chidambaram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Parangipettai, Tamil Nadu",
+    "end": "Chidambaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Parangipettai",
+      "Chidambaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parangipettai",
+      "coords": [
+        79.70843,
+        11.46949
+      ]
+    },
+    {
+      "name": "Chidambaram",
+      "coords": [
+        79.6995,
+        11.5324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunnikkodu-pathanapuram-road",
+  "ref": "MDR",
+  "name": "Kunnikkodu - Pathanapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Central Junction, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Central Junction",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.85011,
+        9.02598
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.85626,
+        9.09253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-9196",
+  "ref": "ODR 9196",
+  "name": "Nanmangalam–Medavakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Nanmangalam, Tamil Nadu",
+    "end": "Medavakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nanmangalam",
+      "Sunnambu Kulathur",
+      "Medavakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nanmangalam",
+      "coords": [
+        80.1824,
+        12.93544
+      ]
+    },
+    {
+      "name": "Sunnambu Kulathur",
+      "coords": [
+        80.1874,
+        12.93339
+      ]
+    },
+    {
+      "name": "Medavakkam",
+      "coords": [
+        80.18736,
+        12.92924
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

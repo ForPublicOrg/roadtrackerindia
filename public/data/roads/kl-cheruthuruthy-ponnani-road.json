@@ -1,0 +1,42 @@
+{
+  "id": "kl-cheruthuruthy-ponnani-road",
+  "ref": "MDR",
+  "name": "Cheruthuruthy ponnani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Pattambi, Kerala",
+    "end": "Shoranur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pattambi",
+      "Shoranur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.20364,
+        10.7577
+      ]
+    },
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.27422,
+        10.74398
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

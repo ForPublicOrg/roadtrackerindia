@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattanimukku-vayyanam-ilampazhannoor-road",
+  "ref": "MDR",
+  "name": "Pattanimukku Vayyanam Ilampazhannoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Chadayamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Chadayamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.92118,
+        8.86073
+      ]
+    },
+    {
+      "name": "Chadayamangalam",
+      "coords": [
+        76.89263,
+        8.86383
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-875",
+  "ref": "MDR 875",
+  "name": "Kovil Vazhi–Muruganpalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Kovil Vazhi, Tamil Nadu",
+    "end": "Muruganpalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kovil Vazhi",
+      "Muruganpalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kovil Vazhi",
+      "coords": [
+        77.39261,
+        11.03743
+      ]
+    },
+    {
+      "name": "Muruganpalayam",
+      "coords": [
+        77.33845,
+        11.06203
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

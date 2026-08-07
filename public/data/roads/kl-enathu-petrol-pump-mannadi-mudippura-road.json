@@ -1,0 +1,42 @@
+{
+  "id": "kl-enathu-petrol-pump-mannadi-mudippura-road",
+  "ref": "MDR",
+  "name": "Enathu Petrol Pump - Mannadi Mudippura Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Nellimoottilpadi, Kerala",
+    "end": "Moonnalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nellimoottilpadi",
+      "Moonnalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nellimoottilpadi",
+      "coords": [
+        76.72975,
+        9.09504
+      ]
+    },
+    {
+      "name": "Moonnalam",
+      "coords": [
+        76.73788,
+        9.09529
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

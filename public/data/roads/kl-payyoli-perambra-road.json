@@ -1,0 +1,42 @@
+{
+  "id": "kl-payyoli-perambra-road",
+  "ref": "MDR",
+  "name": "Payyoli - Perambra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.9,
+  "route": {
+    "start": "Vadakara, Kerala",
+    "end": "Perambra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakara",
+      "Perambra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakara",
+      "coords": [
+        75.62026,
+        11.51566
+      ]
+    },
+    {
+      "name": "Perambra",
+      "coords": [
+        75.75542,
+        11.5609
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

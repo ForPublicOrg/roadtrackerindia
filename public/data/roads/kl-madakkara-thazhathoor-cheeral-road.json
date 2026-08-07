@@ -1,0 +1,42 @@
+{
+  "id": "kl-madakkara-thazhathoor-cheeral-road",
+  "ref": "MDR",
+  "name": "Madakkara - Thazhathoor - Cheeral Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.27519,
+        11.61898
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.31133,
+        11.60766
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

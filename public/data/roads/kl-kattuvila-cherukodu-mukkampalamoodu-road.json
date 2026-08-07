@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattuvila-cherukodu-mukkampalamoodu-road",
+  "ref": "MDR",
+  "name": "Kattuvila - Cherukodu - Mukkampalamoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Peyad, Kerala",
+    "end": "Malayinkeezhu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peyad",
+      "Malayinkeezhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peyad",
+      "coords": [
+        77.02629,
+        8.51896
+      ]
+    },
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.04004,
+        8.50498
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

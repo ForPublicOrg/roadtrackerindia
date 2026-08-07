@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekara-keeripaimala-road",
+  "ref": "MDR",
+  "name": "Areekara - Keeripaimala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.61251,
+        9.81351
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.62839,
+        9.81577
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

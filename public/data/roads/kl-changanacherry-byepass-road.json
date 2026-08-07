@@ -1,0 +1,64 @@
+{
+  "id": "kl-changanacherry-byepass-road",
+  "ref": "SH",
+  "name": "Changanacherry Byepass Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Perunna, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perunna",
+      "Changanassery",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perunna",
+      "coords": [
+        76.54468,
+        9.43027
+      ]
+    },
+    {
+      "name": "Fathimapuram",
+      "coords": [
+        76.54968,
+        9.44607
+      ]
+    },
+    {
+      "name": "Changanassery",
+      "coords": [
+        76.54667,
+        9.45028
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.54182,
+        9.45556
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.53707,
+        9.45985
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

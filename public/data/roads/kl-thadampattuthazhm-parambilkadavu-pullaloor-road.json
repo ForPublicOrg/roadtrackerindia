@@ -1,0 +1,50 @@
+{
+  "id": "kl-thadampattuthazhm-parambilkadavu-pullaloor-road",
+  "ref": "MDR",
+  "name": "Thadampattuthazhm Parambilkadavu Pullaloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Civil Station, Kerala",
+    "end": "Karanthur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Civil Station",
+      "Moozhikkal",
+      "Karanthur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Civil Station",
+      "coords": [
+        75.79538,
+        11.29746
+      ]
+    },
+    {
+      "name": "Moozhikkal",
+      "coords": [
+        75.82993,
+        11.31254
+      ]
+    },
+    {
+      "name": "Karanthur",
+      "coords": [
+        75.84812,
+        11.33565
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

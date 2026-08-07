@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-1458",
+  "ref": "ODR 1458",
+  "name": "Red Hills–Puzhal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Red Hills, Tamil Nadu",
+    "end": "Puzhal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Red Hills",
+      "Puzhal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Red Hills",
+      "coords": [
+        80.17891,
+        13.19895
+      ]
+    },
+    {
+      "name": "Puzhal",
+      "coords": [
+        80.17439,
+        13.19435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

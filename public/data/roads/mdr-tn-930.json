@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-930",
+  "ref": "MDR 930",
+  "name": "Soorankudy–Chettikulam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Soorankudy, Tamil Nadu",
+    "end": "Chettikulam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Soorankudy",
+      "Maravankudieruppu",
+      "Nagercoil",
+      "Chettikulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Soorankudy",
+      "coords": [
+        77.42544,
+        8.10035
+      ]
+    },
+    {
+      "name": "Maravankudieruppu",
+      "coords": [
+        77.43108,
+        8.14946
+      ]
+    },
+    {
+      "name": "Suchindram",
+      "coords": [
+        77.43267,
+        8.16151
+      ]
+    },
+    {
+      "name": "Nagercoil",
+      "coords": [
+        77.43189,
+        8.17457
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

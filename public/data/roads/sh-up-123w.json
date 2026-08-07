@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-123w",
+  "ref": "SH 123W",
+  "name": "Raya–Hassanpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40.7,
+  "route": {
+    "start": "Raya, Uttar Pradesh",
+    "end": "Hassanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Raya",
+      "Mant",
+      "Hassanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raya",
+      "coords": [
+        77.79281,
+        27.55575
+      ]
+    },
+    {
+      "name": "Mant",
+      "coords": [
+        77.71402,
+        27.63293
+      ]
+    },
+    {
+      "name": "Hassanpur",
+      "coords": [
+        77.65014,
+        27.84641
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

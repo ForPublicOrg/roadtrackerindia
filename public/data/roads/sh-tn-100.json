@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-100",
+  "ref": "SH 100",
+  "name": "Uthamapalayam–Bodinayakkanur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.6,
+  "route": {
+    "start": "Uthamapalayam, Tamil Nadu",
+    "end": "Bodinayakkanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Uthamapalayam",
+      "Bodinayakkanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uthamapalayam",
+      "coords": [
+        77.32941,
+        9.80636
+      ]
+    },
+    {
+      "name": "Bodinayakkanur",
+      "coords": [
+        77.34933,
+        10.00817
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

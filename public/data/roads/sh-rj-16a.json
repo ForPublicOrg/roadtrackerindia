@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-16a",
+  "ref": "SH 16A",
+  "name": "Padroo–Reodhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 151,
+  "route": {
+    "start": "Padroo, Rajasthan",
+    "end": "Reodhar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Padroo",
+      "Bagoda",
+      "Bhinmal",
+      "Reodhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Padroo",
+      "coords": [
+        72.03402,
+        25.44231
+      ]
+    },
+    {
+      "name": "Bagoda",
+      "coords": [
+        72.02019,
+        25.21393
+      ]
+    },
+    {
+      "name": "Bhinmal",
+      "coords": [
+        72.26611,
+        25.01023
+      ]
+    },
+    {
+      "name": "Reodhar",
+      "coords": [
+        72.52348,
+        24.61595
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-117",
+  "ref": "MDR 117",
+  "name": "Barki Saria–Balidih District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Barki Saria, Jharkhand",
+    "end": "Balidih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barki Saria",
+      "Balidih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barki Saria",
+      "coords": [
+        85.93942,
+        24.27177
+      ]
+    },
+    {
+      "name": "Balidih",
+      "coords": [
+        85.92607,
+        24.27616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

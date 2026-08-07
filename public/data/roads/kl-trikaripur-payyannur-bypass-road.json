@@ -1,0 +1,42 @@
+{
+  "id": "kl-trikaripur-payyannur-bypass-road",
+  "ref": "MDR",
+  "name": "Trikaripur - Payyannur Bypass Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Thrikaripur, Kerala",
+    "end": "Kothaymukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikaripur",
+      "Kothaymukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikaripur",
+      "coords": [
+        75.18224,
+        12.14379
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.19991,
+        12.13155
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

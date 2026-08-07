@@ -1,0 +1,72 @@
+{
+  "id": "sh-gj-11",
+  "ref": "SH 11",
+  "name": "Borsad–Bodeli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 105.7,
+  "route": {
+    "start": "Borsad, Gujarat",
+    "end": "Bodeli, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Borsad",
+      "Vadodara",
+      "Dabhoi",
+      "Bodeli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Borsad",
+      "coords": [
+        72.90568,
+        22.40366
+      ]
+    },
+    {
+      "name": "Vadodara",
+      "coords": [
+        73.19492,
+        22.30105
+      ]
+    },
+    {
+      "name": "Wadi",
+      "coords": [
+        73.20854,
+        22.28505
+      ]
+    },
+    {
+      "name": "Dabhoi",
+      "coords": [
+        73.41756,
+        22.14605
+      ]
+    },
+    {
+      "name": "Sankheda",
+      "coords": [
+        73.54786,
+        22.19704
+      ]
+    },
+    {
+      "name": "Bodeli",
+      "coords": [
+        73.71656,
+        22.27492
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

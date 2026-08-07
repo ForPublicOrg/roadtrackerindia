@@ -1,0 +1,46 @@
+{
+  "id": "nh-166a",
+  "ref": "NH 166A",
+  "name": "Alibag–Pen National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 24.2,
+  "route": {
+    "start": "Alibag, Maharashtra",
+    "end": "Pen, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Alibag",
+      "Pen"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alibag",
+      "coords": [
+        72.8813,
+        18.65178
+      ]
+    },
+    {
+      "name": "Pen",
+      "coords": [
+        73.06645,
+        18.72172
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

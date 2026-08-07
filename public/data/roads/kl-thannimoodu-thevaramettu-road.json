@@ -1,0 +1,42 @@
+{
+  "id": "kl-thannimoodu-thevaramettu-road",
+  "ref": "MDR",
+  "name": "Thannimoodu - Thevaramettu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Thookkupalam, Tamil Nadu",
+    "end": "Nedumkandam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thookkupalam",
+      "Nedumkandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.21813,
+        9.86812
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.17114,
+        9.83033
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-334c",
+  "ref": "NH 334C",
+  "name": "Bulandshahr–Gaur City 2 National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 46.5,
+  "route": {
+    "start": "Bulandshahr, Uttar Pradesh",
+    "end": "Gaur City 2, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bulandshahr",
+      "Sikandarabad",
+      "Dadri",
+      "Gaur City 2"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bulandshahr",
+      "coords": [
+        77.82459,
+        28.41712
+      ]
+    },
+    {
+      "name": "Sikandarabad",
+      "coords": [
+        77.69304,
+        28.4658
+      ]
+    },
+    {
+      "name": "Dadri",
+      "coords": [
+        77.5589,
+        28.5691
+      ]
+    },
+    {
+      "name": "Gaur City 2",
+      "coords": [
+        77.46088,
+        28.63638
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

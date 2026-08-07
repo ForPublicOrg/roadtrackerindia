@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-4a",
+  "ref": "SH 4A",
+  "name": "Tiruvannamalai–Chetpet State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43,
+  "route": {
+    "start": "Tiruvannamalai, Tamil Nadu",
+    "end": "Chetpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvannamalai",
+      "Chetpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.17439,
+        12.15684
+      ]
+    },
+    {
+      "name": "Chetpet",
+      "coords": [
+        79.35118,
+        12.45604
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

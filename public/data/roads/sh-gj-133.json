@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-133",
+  "ref": "SH 133",
+  "name": "Mandal–Gandhinagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 95.5,
+  "route": {
+    "start": "Mandal, Gujarat",
+    "end": "Gandhinagar, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Mandal",
+      "Kadi",
+      "Kalol",
+      "Gandhinagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandal",
+      "coords": [
+        71.91641,
+        23.27813
+      ]
+    },
+    {
+      "name": "Kadi",
+      "coords": [
+        72.32803,
+        23.29832
+      ]
+    },
+    {
+      "name": "Kalol",
+      "coords": [
+        72.4845,
+        23.25258
+      ]
+    },
+    {
+      "name": "Gandhinagar",
+      "coords": [
+        72.61977,
+        23.22918
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

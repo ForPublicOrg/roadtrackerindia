@@ -1,0 +1,42 @@
+{
+  "id": "kl-seethamount-lourde-nagar-parakkavala-kabanigiri-road",
+  "ref": "MDR",
+  "name": "Seethamount - Lourde Nagar - Parakkavala - Kabanigiri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Perikkalloor, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perikkalloor",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.18175,
+        11.85874
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.20133,
+        11.84106
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

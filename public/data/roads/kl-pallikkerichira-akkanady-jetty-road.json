@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallikkerichira-akkanady-jetty-road",
+  "ref": "ODR",
+  "name": "Pallikkerichira - Akkanady Jetty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Nattakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Nattakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.48301,
+        9.5069
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.48996,
+        9.50724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

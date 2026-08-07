@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-78a",
+  "ref": "SH 78A",
+  "name": "Kozhinjampara–Pollachi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15.8,
+  "route": {
+    "start": "Kozhinjampara, Tamil Nadu",
+    "end": "Pollachi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kozhinjampara",
+      "Pollachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.87081,
+        10.69312
+      ]
+    },
+    {
+      "name": "Nallur",
+      "coords": [
+        76.97065,
+        10.67239
+      ]
+    },
+    {
+      "name": "Pollachi",
+      "coords": [
+        77.00751,
+        10.65952
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

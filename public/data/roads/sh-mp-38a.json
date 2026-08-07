@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-38a",
+  "ref": "SH 38A",
+  "name": "Dr. Ambedkar Nagar–Vaishali Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Dr. Ambedkar Nagar, Madhya Pradesh",
+    "end": "Vaishali Nagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dr. Ambedkar Nagar",
+      "Vaishali Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dr. Ambedkar Nagar",
+      "coords": [
+        75.75774,
+        22.55267
+      ]
+    },
+    {
+      "name": "Vaishali Nagar",
+      "coords": [
+        75.79668,
+        22.61169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

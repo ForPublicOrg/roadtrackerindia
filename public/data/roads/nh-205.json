@@ -1,0 +1,86 @@
+{
+  "id": "nh-205",
+  "ref": "NH 205",
+  "name": "Boilelganj–Kharar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 162.3,
+  "route": {
+    "start": "Boilelganj, Himachal Pradesh",
+    "end": "Kharar, Punjab",
+    "states": [
+      "Himachal Pradesh",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Boilelganj",
+      "Shimla",
+      "Bilaspur",
+      "Bharatgarh",
+      "Rupnagar",
+      "Kharar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Boilelganj",
+      "coords": [
+        77.14367,
+        31.10227
+      ]
+    },
+    {
+      "name": "Bilaspur",
+      "coords": [
+        76.75331,
+        31.30171
+      ]
+    },
+    {
+      "name": "Kiratpur Sahib",
+      "coords": [
+        76.56907,
+        31.18334
+      ]
+    },
+    {
+      "name": "Bharatgarh",
+      "coords": [
+        76.61478,
+        31.09582
+      ]
+    },
+    {
+      "name": "Rupnagar",
+      "coords": [
+        76.53436,
+        30.97154
+      ]
+    },
+    {
+      "name": "Kurali",
+      "coords": [
+        76.55911,
+        30.83295
+      ]
+    },
+    {
+      "name": "Kharar",
+      "coords": [
+        76.64123,
+        30.74973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nh-727",
+  "ref": "NH 727",
+  "name": "Kushinagar–Sagauli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 169.4,
+  "route": {
+    "start": "Kushinagar, Uttar Pradesh",
+    "end": "Sagauli, Bihar",
+    "states": [
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Kushinagar",
+      "Padrauna",
+      "Bagaha",
+      "Bettiah",
+      "Sagauli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kushinagar",
+      "coords": [
+        83.9148,
+        26.73938
+      ]
+    },
+    {
+      "name": "Padrauna",
+      "coords": [
+        83.97504,
+        26.89977
+      ]
+    },
+    {
+      "name": "Bagaha",
+      "coords": [
+        84.09228,
+        27.0944
+      ]
+    },
+    {
+      "name": "Bettiah",
+      "coords": [
+        84.51213,
+        26.80553
+      ]
+    },
+    {
+      "name": "Sagauli",
+      "coords": [
+        84.72478,
+        26.74381
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

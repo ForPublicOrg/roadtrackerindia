@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-198",
+  "ref": "MDR 198",
+  "name": "Mandawar–Alwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 39.6,
+  "route": {
+    "start": "Mandawar, Rajasthan",
+    "end": "Alwar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mandawar",
+      "Khairthal",
+      "Alwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandawar",
+      "coords": [
+        76.56285,
+        27.95885
+      ]
+    },
+    {
+      "name": "Khairthal",
+      "coords": [
+        76.63981,
+        27.79674
+      ]
+    },
+    {
+      "name": "Alwar",
+      "coords": [
+        76.58822,
+        27.66209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

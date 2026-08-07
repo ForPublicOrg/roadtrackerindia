@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-695",
+  "ref": "MDR 695",
+  "name": "Ariyathidal–Papanasam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Ariyathidal, Tamil Nadu",
+    "end": "Papanasam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ariyathidal",
+      "Kumbakonam",
+      "Papanasam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ariyathidal",
+      "coords": [
+        79.38504,
+        10.92845
+      ]
+    },
+    {
+      "name": "Annalagraharam",
+      "coords": [
+        79.36604,
+        10.92851
+      ]
+    },
+    {
+      "name": "Papanasam",
+      "coords": [
+        79.30373,
+        10.93854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

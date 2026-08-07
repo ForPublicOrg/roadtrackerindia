@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-121e",
+  "ref": "SH 121E",
+  "name": "Koraon–Meja Road State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Koraon, Uttar Pradesh",
+    "end": "Meja Road, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Koraon",
+      "Meja Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koraon",
+      "coords": [
+        82.07798,
+        25.03111
+      ]
+    },
+    {
+      "name": "Meja Road",
+      "coords": [
+        82.07276,
+        24.99639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kl-kattappana-market-junction-kunthalampara-road",
+  "ref": "MDR",
+  "name": "Kattappana Market Junction - Kunthalampara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kattappana, Kerala",
+    "end": "Parakadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattappana",
+      "Parakadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattappana",
+      "coords": [
+        77.11575,
+        9.75572
+      ]
+    },
+    {
+      "name": "Pallikkavala",
+      "coords": [
+        77.118,
+        9.75127
+      ]
+    },
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.12175,
+        9.7478
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nh-122b",
+  "ref": "NH 122B",
+  "name": "Hajipur–Mansurchak National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 72.5,
+  "route": {
+    "start": "Hajipur, Bihar",
+    "end": "Mansurchak, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Hajipur",
+      "Mahnar",
+      "Mansurchak"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hajipur",
+      "coords": [
+        85.23195,
+        25.67361
+      ]
+    },
+    {
+      "name": "Desri",
+      "coords": [
+        85.41545,
+        25.631
+      ]
+    },
+    {
+      "name": "Mahnar",
+      "coords": [
+        85.48472,
+        25.60781
+      ]
+    },
+    {
+      "name": "Mansurchak",
+      "coords": [
+        85.87715,
+        25.58909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

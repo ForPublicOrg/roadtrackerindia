@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanichukulangara-chethy-road",
+  "ref": "MDR",
+  "name": "Kanichukulangara-Chethy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.31338,
+        9.62904
+      ]
+    },
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.29974,
+        9.62768
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

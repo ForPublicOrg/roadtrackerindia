@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunnukara-vayalkara-road",
+  "ref": "MDR",
+  "name": "Kunnukara - Vayalkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Thottakkattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Thottakkattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.2954,
+        10.1552
+      ]
+    },
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.29799,
+        10.13928
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

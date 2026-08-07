@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-230",
+  "ref": "MDR 230",
+  "name": "Peravoor–Mattannur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.5,
+  "route": {
+    "start": "Peravoor, Kerala",
+    "end": "Mattannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peravoor",
+      "Mattannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.73023,
+        11.90242
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.57214,
+        11.92861
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

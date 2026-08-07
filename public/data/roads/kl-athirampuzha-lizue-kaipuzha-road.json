@@ -1,0 +1,43 @@
+{
+  "id": "kl-athirampuzha-lizue-kaipuzha-road",
+  "ref": "MDR",
+  "name": "Athirampuzha Lizue Kaipuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Athirampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Ettumanoor",
+      "Athirampuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.50966,
+        9.66156
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.53168,
+        9.66793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

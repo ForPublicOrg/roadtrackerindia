@@ -1,0 +1,42 @@
+{
+  "id": "kl-muriyadu-parakkattukara-kappela-karoor-kodakara-road",
+  "ref": "MDR",
+  "name": "Muriyadu Parakkattukara Kappela Karoor Kodakara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.26326,
+        10.36356
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.29668,
+        10.35786
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

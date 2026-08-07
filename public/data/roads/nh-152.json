@@ -1,0 +1,78 @@
+{
+  "id": "nh-152",
+  "ref": "NH 152",
+  "name": "Zirakpur–Narwana National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 166.7,
+  "route": {
+    "start": "Zirakpur, Punjab",
+    "end": "Narwana, Haryana",
+    "states": [
+      "Punjab",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Zirakpur",
+      "Panchkula",
+      "Ambala",
+      "Pehowa",
+      "Narwana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Zirakpur",
+      "coords": [
+        76.82103,
+        30.655
+      ]
+    },
+    {
+      "name": "Lalru",
+      "coords": [
+        76.7992,
+        30.48796
+      ]
+    },
+    {
+      "name": "Ambala",
+      "coords": [
+        76.76463,
+        30.40936
+      ]
+    },
+    {
+      "name": "Pehowa",
+      "coords": [
+        76.59208,
+        29.95949
+      ]
+    },
+    {
+      "name": "Kalayat",
+      "coords": [
+        76.26321,
+        29.67764
+      ]
+    },
+    {
+      "name": "Narwana",
+      "coords": [
+        76.13097,
+        29.57494
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

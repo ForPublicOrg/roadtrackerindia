@@ -1,0 +1,42 @@
+{
+  "id": "ap-digavalli-valasapalli-road",
+  "ref": "SH",
+  "name": "Digavalli - Valasapalli Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 20,
+  "route": {
+    "start": "Vissannapeta, Andhra Pradesh",
+    "end": "Musunuru, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Vissannapeta",
+      "Musunuru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vissannapeta",
+      "coords": [
+        80.82907,
+        16.87351
+      ]
+    },
+    {
+      "name": "Musunuru",
+      "coords": [
+        80.99245,
+        16.8708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

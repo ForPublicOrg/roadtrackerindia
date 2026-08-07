@@ -1,0 +1,54 @@
+{
+  "id": "nh-148",
+  "ref": "NH 148",
+  "name": "Manoharpur–Lalsot National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 124.8,
+  "route": {
+    "start": "Manoharpur, Rajasthan",
+    "end": "Lalsot, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Manoharpur",
+      "Dausa",
+      "Lalsot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manoharpur",
+      "coords": [
+        75.96227,
+        27.29144
+      ]
+    },
+    {
+      "name": "Dausa",
+      "coords": [
+        76.31843,
+        26.9047
+      ]
+    },
+    {
+      "name": "Lalsot",
+      "coords": [
+        76.32959,
+        26.56126
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

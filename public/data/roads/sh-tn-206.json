@@ -1,0 +1,57 @@
+{
+  "id": "sh-tn-206",
+  "ref": "SH 206",
+  "name": "Pattabiram–Poonamallee State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Pattabiram, Tamil Nadu",
+    "end": "Poonamallee, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pattabiram",
+      "Thirumazhisai",
+      "Poonamallee"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattabiram",
+      "coords": [
+        80.06473,
+        13.12043
+      ]
+    },
+    {
+      "name": "Thirumazhisai",
+      "coords": [
+        80.07703,
+        13.07313
+      ]
+    },
+    {
+      "name": "Thiruverkadu",
+      "coords": [
+        80.09992,
+        13.06497
+      ]
+    },
+    {
+      "name": "Poonamallee",
+      "coords": [
+        80.09695,
+        13.05188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

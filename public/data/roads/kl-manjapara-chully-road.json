@@ -1,0 +1,42 @@
+{
+  "id": "kl-manjapara-chully-road",
+  "ref": "MDR",
+  "name": "Manjapara - Chully Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Kalady, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalady",
+      "Angamaly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalady",
+      "coords": [
+        76.46058,
+        10.21904
+      ]
+    },
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.43677,
+        10.27038
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

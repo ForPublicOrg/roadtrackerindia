@@ -1,0 +1,42 @@
+{
+  "id": "kl-therattummal-vadakkummuri-odakkayam-road",
+  "ref": "MDR",
+  "name": "Therattummal - Vadakkummuri - Odakkayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Koodaranji, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Koodaranji"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.05025,
+        11.24764
+      ]
+    },
+    {
+      "name": "Koodaranji",
+      "coords": [
+        76.12324,
+        11.27517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

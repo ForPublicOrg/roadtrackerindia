@@ -1,0 +1,49 @@
+{
+  "id": "kl-poochatti-eravimangalam-road",
+  "ref": "MDR",
+  "name": "Poochatti Eravimangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.26678,
+        10.50834
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.26704,
+        10.50216
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.27179,
+        10.49157
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-vennala-palachuvadu-road",
+  "ref": "MDR",
+  "name": "Vennala- Palachuvadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Kakkanad West, Kerala",
+    "end": "Pallinada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkanad West",
+      "Kakkanad",
+      "Pallinada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkanad West",
+      "coords": [
+        76.33431,
+        10.00023
+      ]
+    },
+    {
+      "name": "Pallinada",
+      "coords": [
+        76.32487,
+        9.99777
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

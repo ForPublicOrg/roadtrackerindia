@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbalam-kombanamuri-road",
+  "ref": "MDR",
+  "name": "Perumbalam - Kombanamuri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.32371,
+        9.86238
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.33902,
+        9.83472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

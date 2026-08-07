@@ -1,0 +1,78 @@
+{
+  "id": "nh-143",
+  "ref": "NH 143",
+  "name": "PurunapaniRange–Gumla National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 245.6,
+  "route": {
+    "start": "PurunapaniRange, Odisha",
+    "end": "Gumla, Jharkhand",
+    "states": [
+      "Odisha",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "PurunapaniRange",
+      "Banaigarh",
+      "Rourkela",
+      "Biramitrapur",
+      "Gumla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "PurunapaniRange",
+      "coords": [
+        84.99131,
+        21.54257
+      ]
+    },
+    {
+      "name": "Banaigarh",
+      "coords": [
+        84.92443,
+        21.80001
+      ]
+    },
+    {
+      "name": "Rourkela",
+      "coords": [
+        84.83864,
+        22.20159
+      ]
+    },
+    {
+      "name": "Chhend",
+      "coords": [
+        84.81059,
+        22.2173
+      ]
+    },
+    {
+      "name": "Biramitrapur",
+      "coords": [
+        84.731,
+        22.40701
+      ]
+    },
+    {
+      "name": "Gumla",
+      "coords": [
+        84.54442,
+        23.04148
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

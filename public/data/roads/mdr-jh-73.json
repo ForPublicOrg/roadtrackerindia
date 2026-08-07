@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-73",
+  "ref": "MDR 73",
+  "name": "Dumri–Mansa Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31,
+  "route": {
+    "start": "Dumri, Jharkhand",
+    "end": "Mansa Nagar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dumri",
+      "Mansa Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dumri",
+      "coords": [
+        86.01513,
+        23.98912
+      ]
+    },
+    {
+      "name": "Mansa Nagar",
+      "coords": [
+        86.00268,
+        23.77017
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

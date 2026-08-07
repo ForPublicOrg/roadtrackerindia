@@ -1,0 +1,50 @@
+{
+  "id": "kl-perissery-kurishummoodu-grace-theatre-road",
+  "ref": "MDR",
+  "name": "Perissery - Kurishummoodu - Grace Theatre Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Chengannur, Kerala",
+    "end": "Mundancavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengannur",
+      "Angadikkal",
+      "Mundancavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.60537,
+        9.31638
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.60587,
+        9.32293
+      ]
+    },
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.60573,
+        9.33129
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

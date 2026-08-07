@@ -1,0 +1,77 @@
+{
+  "id": "nagpur-outer-ring-road",
+  "ref": "NH",
+  "name": "Nagpur Outer Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 86.9,
+  "route": {
+    "start": "Bahadura, Maharashtra",
+    "end": "Mahal, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bahadura",
+      "Kamptee",
+      "Seminary Hills",
+      "Hingna",
+      "Mahal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bahadura",
+      "coords": [
+        79.18697,
+        21.14709
+      ]
+    },
+    {
+      "name": "Kamptee",
+      "coords": [
+        79.17804,
+        21.18641
+      ]
+    },
+    {
+      "name": "Itwari",
+      "coords": [
+        79.12226,
+        21.20983
+      ]
+    },
+    {
+      "name": "Hingna",
+      "coords": [
+        78.95723,
+        21.06467
+      ]
+    },
+    {
+      "name": "Bahadura",
+      "coords": [
+        79.15076,
+        21.07808
+      ]
+    },
+    {
+      "name": "Mahal",
+      "coords": [
+        79.18589,
+        21.14
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-arattuvazhi-beach-road",
+  "ref": "MDR",
+  "name": "Arattuvazhi Beach road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Thekkinezhath, Kerala",
+    "end": "Maniyan thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thekkinezhath",
+      "Maniyan thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thekkinezhath",
+      "coords": [
+        76.21886,
+        10.04143
+      ]
+    },
+    {
+      "name": "Maniyan thuruth",
+      "coords": [
+        76.20827,
+        10.0367
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

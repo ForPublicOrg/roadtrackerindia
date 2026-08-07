@@ -1,0 +1,59 @@
+{
+  "id": "sh-ka-24",
+  "ref": "SH 24",
+  "name": "Galihalli–Amarapuram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 140.2,
+  "route": {
+    "start": "Galihalli, Karnataka",
+    "end": "Amarapuram, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Galihalli",
+      "Tarikere",
+      "Hosadurga",
+      "Hiriyur",
+      "Amarapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Galihalli",
+      "coords": [
+        75.85692,
+        13.69976
+      ]
+    },
+    {
+      "name": "Hosadurga",
+      "coords": [
+        76.28539,
+        13.79783
+      ]
+    },
+    {
+      "name": "Hiriyur",
+      "coords": [
+        76.6201,
+        13.9571
+      ]
+    },
+    {
+      "name": "Amarapuram",
+      "coords": [
+        76.93182,
+        14.05472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

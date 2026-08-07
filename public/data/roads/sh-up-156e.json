@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-156e",
+  "ref": "SH 156E",
+  "name": "Mirzapur–Gopiganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 17.7,
+  "route": {
+    "start": "Mirzapur, Uttar Pradesh",
+    "end": "Gopiganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mirzapur",
+      "Khamaria",
+      "Gopiganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mirzapur",
+      "coords": [
+        82.54737,
+        25.17045
+      ]
+    },
+    {
+      "name": "Khamaria",
+      "coords": [
+        82.49779,
+        25.23434
+      ]
+    },
+    {
+      "name": "Gopiganj",
+      "coords": [
+        82.43598,
+        25.28438
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

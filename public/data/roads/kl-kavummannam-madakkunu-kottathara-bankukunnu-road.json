@@ -1,0 +1,42 @@
+{
+  "id": "kl-kavummannam-madakkunu-kottathara-bankukunnu-road",
+  "ref": "MDR",
+  "name": "Kavummannam - Madakkunu - Kottathara - Bankukunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.4,
+  "route": {
+    "start": "Kalpetta, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalpetta",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.01414,
+        11.63659
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.01059,
+        11.6977
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

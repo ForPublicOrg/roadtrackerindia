@@ -1,0 +1,42 @@
+{
+  "id": "kl-thamarappilly-chowalloorpady-road",
+  "ref": "MDR",
+  "name": "Thamarappilly - Chowalloorpady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Guruvayur, Kerala",
+    "end": "Chunkam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Guruvayur",
+      "Chunkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.08511,
+        10.55494
+      ]
+    },
+    {
+      "name": "Chunkam",
+      "coords": [
+        76.05946,
+        10.60081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

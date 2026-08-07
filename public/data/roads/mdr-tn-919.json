@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-919",
+  "ref": "MDR 919",
+  "name": "Thachanallur–Tirunelveli Town District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Thachanallur, Tamil Nadu",
+    "end": "Tirunelveli Town, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thachanallur",
+      "Tirunelveli",
+      "Tirunelveli Town"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachanallur",
+      "coords": [
+        77.70189,
+        8.7464
+      ]
+    },
+    {
+      "name": "Tirunelveli Town",
+      "coords": [
+        77.69084,
+        8.74159
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

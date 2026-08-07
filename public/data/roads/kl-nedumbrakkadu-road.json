@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumbrakkadu-road",
+  "ref": "MDR",
+  "name": "Nedumbrakkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.34718,
+        9.6963
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.34949,
+        9.71152
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-110",
+  "ref": "SH 110",
+  "name": "Bhiwani–Siwani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.8,
+  "route": {
+    "start": "Bhiwani, Haryana",
+    "end": "Siwani, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Bhiwani",
+      "Siwani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhiwani",
+      "coords": [
+        76.0469,
+        28.70878
+      ]
+    },
+    {
+      "name": "Siwani",
+      "coords": [
+        75.52712,
+        28.78029
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

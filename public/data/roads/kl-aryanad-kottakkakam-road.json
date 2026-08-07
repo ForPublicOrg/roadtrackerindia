@@ -1,0 +1,42 @@
+{
+  "id": "kl-aryanad-kottakkakam-road",
+  "ref": "MDR",
+  "name": "Aryanad - Kottakkakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Mancha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Mancha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.08491,
+        8.62069
+      ]
+    },
+    {
+      "name": "Mancha",
+      "coords": [
+        77.08649,
+        8.58439
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

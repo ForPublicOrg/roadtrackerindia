@@ -1,0 +1,49 @@
+{
+  "id": "kl-kadambattukonam-road",
+  "ref": "MDR",
+  "name": "Kadambattukonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Chavarcode, Kerala",
+    "end": "Paripally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavarcode",
+      "Paripally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.76184,
+        8.79489
+      ]
+    },
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.76842,
+        8.79791
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.76264,
+        8.804
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

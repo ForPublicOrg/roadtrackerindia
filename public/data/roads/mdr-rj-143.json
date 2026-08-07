@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-143",
+  "ref": "MDR 143",
+  "name": "Pahari–Kaman District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 32.5,
+  "route": {
+    "start": "Pahari, Rajasthan",
+    "end": "Kaman, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pahari",
+      "Kaman"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pahari",
+      "coords": [
+        77.06593,
+        27.7849
+      ]
+    },
+    {
+      "name": "Kaman",
+      "coords": [
+        77.27393,
+        27.65363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

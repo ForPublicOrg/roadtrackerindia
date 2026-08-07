@@ -1,0 +1,50 @@
+{
+  "id": "sh-bh-90",
+  "ref": "SH 90",
+  "name": "Barharia–Chhapra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 67.3,
+  "route": {
+    "start": "Barharia, Bihar",
+    "end": "Chhapra, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Barharia",
+      "Masrakh",
+      "Chhapra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barharia",
+      "coords": [
+        84.70091,
+        26.33422
+      ]
+    },
+    {
+      "name": "Masrakh",
+      "coords": [
+        84.80075,
+        26.10456
+      ]
+    },
+    {
+      "name": "Chhapra",
+      "coords": [
+        84.75082,
+        25.78967
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

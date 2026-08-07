@@ -1,0 +1,67 @@
+{
+  "id": "sh-hp-9",
+  "ref": "SH 9",
+  "name": "Baddi–Tattapani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 81.2,
+  "route": {
+    "start": "Baddi, Haryana",
+    "end": "Tattapani, Himachal Pradesh",
+    "states": [
+      "Haryana",
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Baddi",
+      "Kasauli",
+      "Sabathu",
+      "Kunihar",
+      "Tattapani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baddi",
+      "coords": [
+        76.82666,
+        30.89688
+      ]
+    },
+    {
+      "name": "Kasauli",
+      "coords": [
+        76.92259,
+        30.94868
+      ]
+    },
+    {
+      "name": "Sabathu",
+      "coords": [
+        76.98147,
+        30.97508
+      ]
+    },
+    {
+      "name": "Kunihar",
+      "coords": [
+        76.95825,
+        31.07869
+      ]
+    },
+    {
+      "name": "Tattapani",
+      "coords": [
+        76.98559,
+        31.18941
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-ka-14",
+  "ref": "SH 14",
+  "name": "Ramdurg–Manvi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 250.1,
+  "route": {
+    "start": "Ramdurg, Karnataka",
+    "end": "Manvi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Ramdurg",
+      "Badami",
+      "Hunagund",
+      "Mudagal",
+      "Manvi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramdurg",
+      "coords": [
+        75.28934,
+        15.95147
+      ]
+    },
+    {
+      "name": "Badami",
+      "coords": [
+        75.68066,
+        15.91861
+      ]
+    },
+    {
+      "name": "Hunagund",
+      "coords": [
+        76.06126,
+        16.05566
+      ]
+    },
+    {
+      "name": "Mudagal",
+      "coords": [
+        76.45403,
+        16.01065
+      ]
+    },
+    {
+      "name": "Manvi",
+      "coords": [
+        77.05654,
+        15.99451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

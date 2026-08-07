@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallickal-punnamoodu-road",
+  "ref": "MDR",
+  "name": "Pallickal - Punnamoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.54437,
+        9.21954
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.54533,
+        9.17785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

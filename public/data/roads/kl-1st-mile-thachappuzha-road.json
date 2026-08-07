@@ -1,0 +1,42 @@
+{
+  "id": "kl-1st-mile-thachappuzha-road",
+  "ref": "MDR",
+  "name": "1st Mile - Thachappuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.74402,
+        9.57865
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.73536,
+        9.58027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karuvanchal-vayattuparamba-pothukundu-naduvil-hill-road",
+  "ref": "MDR",
+  "name": "Karuvanchal Vayattuparamba Pothukundu Naduvil Hill Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Naduvil, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Naduvil",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.46741,
+        12.13972
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.47894,
+        12.1238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

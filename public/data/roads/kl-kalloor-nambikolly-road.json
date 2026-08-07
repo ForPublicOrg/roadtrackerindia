@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalloor-nambikolly-road",
+  "ref": "MDR",
+  "name": "Kalloor - Nambikolly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.30655,
+        11.63668
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.34088,
+        11.66427
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

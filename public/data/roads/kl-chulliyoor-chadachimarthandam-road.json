@@ -1,0 +1,42 @@
+{
+  "id": "kl-chulliyoor-chadachimarthandam-road",
+  "ref": "MDR",
+  "name": "Chulliyoor - Chadachimarthandam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Neyyatinkara, Kerala",
+    "end": "Russelpuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neyyatinkara",
+      "Russelpuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.14505,
+        8.4267
+      ]
+    },
+    {
+      "name": "Russelpuram",
+      "coords": [
+        77.10859,
+        8.41776
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

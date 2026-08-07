@@ -1,0 +1,42 @@
+{
+  "id": "kl-mattom-vechoor-road",
+  "ref": "MDR",
+  "name": "Mattom-Vechoor road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Kallara, Kerala",
+    "end": "Neendoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallara",
+      "Neendoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallara",
+      "coords": [
+        76.42239,
+        9.66992
+      ]
+    },
+    {
+      "name": "Neendoor",
+      "coords": [
+        76.45879,
+        9.68312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

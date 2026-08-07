@@ -1,0 +1,66 @@
+{
+  "id": "mdr-kl-228",
+  "ref": "MDR 228",
+  "name": "Koothuparamba–Perikkalloor District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 81.4,
+  "route": {
+    "start": "Koothuparamba, Kerala",
+    "end": "Perikkalloor, Karnataka",
+    "states": [
+      "Kerala",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Koothuparamba",
+      "Peravoor",
+      "Mananthavady",
+      "Perikkalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.56979,
+        11.84267
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.72945,
+        11.85251
+      ]
+    },
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.74661,
+        11.85491
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.00827,
+        11.8038
+      ]
+    },
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.11702,
+        11.8563
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

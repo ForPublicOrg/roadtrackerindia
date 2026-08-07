@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-26",
+  "ref": "MDR 26",
+  "name": "Bundu–Muri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Bundu, Jharkhand",
+    "end": "Muri, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bundu",
+      "Muri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bundu",
+      "coords": [
+        85.59135,
+        23.17058
+      ]
+    },
+    {
+      "name": "Muri",
+      "coords": [
+        85.80757,
+        23.25358
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

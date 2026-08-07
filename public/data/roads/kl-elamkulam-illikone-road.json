@@ -1,0 +1,42 @@
+{
+  "id": "kl-elamkulam-illikone-road",
+  "ref": "MDR",
+  "name": "Elamkulam - Illikone Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.73089,
+        9.60917
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.71695,
+        9.63253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-vandanmedu-kattappana-road",
+  "ref": "MDR",
+  "name": "Vandanmedu - Kattappana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Ambalakkavala, Kerala",
+    "end": "Parakadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalakkavala",
+      "Kattappana",
+      "Parakadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalakkavala",
+      "coords": [
+        77.11276,
+        9.74315
+      ]
+    },
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.15443,
+        9.72307
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

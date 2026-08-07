@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakkayam-oravambram-link-road",
+  "ref": "MDR",
+  "name": "Anakkayam - Oravambram Link Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Uphill, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Uphill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.14755,
+        11.0873
+      ]
+    },
+    {
+      "name": "Uphill",
+      "coords": [
+        76.13624,
+        11.06855
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

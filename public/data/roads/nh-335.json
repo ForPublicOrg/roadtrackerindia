@@ -1,0 +1,54 @@
+{
+  "id": "nh-335",
+  "ref": "NH 335",
+  "name": "Dalmau–Banda National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 110.2,
+  "route": {
+    "start": "Dalmau, Uttar Pradesh",
+    "end": "Banda, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Dalmau",
+      "Fatehpur",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dalmau",
+      "coords": [
+        80.9674,
+        26.1618
+      ]
+    },
+    {
+      "name": "Fatehpur",
+      "coords": [
+        80.8144,
+        25.92273
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.34106,
+        25.47748
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

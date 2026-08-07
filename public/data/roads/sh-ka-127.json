@@ -1,0 +1,59 @@
+{
+  "id": "sh-ka-127",
+  "ref": "SH 127",
+  "name": "Sedam–Aija State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 210.6,
+  "route": {
+    "start": "Sedam, Karnataka",
+    "end": "Aija, Telangana",
+    "states": [
+      "Karnataka",
+      "Telangana"
+    ],
+    "majorCities": [
+      "Sedam",
+      "Gurumathakal",
+      "Siravara",
+      "Aija"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sedam",
+      "coords": [
+        77.39157,
+        17.07664
+      ]
+    },
+    {
+      "name": "Gurumathakal",
+      "coords": [
+        77.39822,
+        16.8955
+      ]
+    },
+    {
+      "name": "Siravara",
+      "coords": [
+        77.03102,
+        16.18255
+      ]
+    },
+    {
+      "name": "Aija",
+      "coords": [
+        77.51659,
+        16.07974
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

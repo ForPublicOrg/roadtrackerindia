@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-66",
+  "ref": "MDR 66",
+  "name": "Batala–Beas District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.8,
+  "route": {
+    "start": "Batala, Punjab",
+    "end": "Beas, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Batala",
+      "Mehta Chowk",
+      "Beas"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Batala",
+      "coords": [
+        75.19946,
+        31.82033
+      ]
+    },
+    {
+      "name": "Mehta Chowk",
+      "coords": [
+        75.25676,
+        31.67106
+      ]
+    },
+    {
+      "name": "Beas",
+      "coords": [
+        75.25782,
+        31.532
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

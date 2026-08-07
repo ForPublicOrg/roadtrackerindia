@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-123",
+  "ref": "SH 123",
+  "name": "Arambol–Khaskilwada State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32.6,
+  "route": {
+    "start": "Arambol, Maharashtra",
+    "end": "Khaskilwada, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Arambol",
+      "Sawantwadi",
+      "Khaskilwada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arambol",
+      "coords": [
+        73.68124,
+        15.77269
+      ]
+    },
+    {
+      "name": "Sawantwadi",
+      "coords": [
+        73.82047,
+        15.8974
+      ]
+    },
+    {
+      "name": "Khaskilwada",
+      "coords": [
+        73.82273,
+        15.89732
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

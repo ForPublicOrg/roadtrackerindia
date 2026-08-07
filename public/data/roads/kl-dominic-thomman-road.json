@@ -1,0 +1,42 @@
+{
+  "id": "kl-dominic-thomman-road",
+  "ref": "MDR",
+  "name": "Dominic Thomman Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.77971,
+        9.55906
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.79337,
+        9.54653
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

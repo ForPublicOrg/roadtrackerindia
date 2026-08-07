@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-199",
+  "ref": "MDR 199",
+  "name": "Karaikkadu–Neyveli Township District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27,
+  "route": {
+    "start": "Karaikkadu, Tamil Nadu",
+    "end": "Neyveli Township, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karaikkadu",
+      "Indira Nagar",
+      "Neyveli Township"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaikkadu",
+      "coords": [
+        79.66838,
+        11.62768
+      ]
+    },
+    {
+      "name": "Indira Nagar",
+      "coords": [
+        79.54481,
+        11.65481
+      ]
+    },
+    {
+      "name": "Neyveli Township",
+      "coords": [
+        79.43228,
+        11.6565
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

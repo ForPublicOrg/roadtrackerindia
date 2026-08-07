@@ -1,0 +1,50 @@
+{
+  "id": "sh-hp-8",
+  "ref": "SH 8",
+  "name": "Tiuni–Theog State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86.4,
+  "route": {
+    "start": "Tiuni, Uttarakhand",
+    "end": "Theog, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Tiuni",
+      "Chaupal",
+      "Theog"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiuni",
+      "coords": [
+        77.74453,
+        30.85034
+      ]
+    },
+    {
+      "name": "Chaupal",
+      "coords": [
+        77.59299,
+        30.94888
+      ]
+    },
+    {
+      "name": "Theog",
+      "coords": [
+        77.38823,
+        31.07858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

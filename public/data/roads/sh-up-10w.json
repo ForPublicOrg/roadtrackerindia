@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-10w",
+  "ref": "SH 10W",
+  "name": "Muzaffarnagar–Thana Bhawan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.4,
+  "route": {
+    "start": "Muzaffarnagar, Uttar Pradesh",
+    "end": "Thana Bhawan, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Muzaffarnagar",
+      "Thana Bhawan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muzaffarnagar",
+      "coords": [
+        77.67448,
+        29.4698
+      ]
+    },
+    {
+      "name": "Thana Bhawan",
+      "coords": [
+        77.42153,
+        29.59039
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "udaipur-bypass",
+  "ref": "NH",
+  "name": "Udaipur Bypass",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 23.1,
+  "route": {
+    "start": "Udaipur, Rajasthan",
+    "end": "Jhadol, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Udaipur",
+      "Jhadol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Udaipur",
+      "coords": [
+        73.78483,
+        24.59736
+      ]
+    },
+    {
+      "name": "Jhadol",
+      "coords": [
+        73.65425,
+        24.45948
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karani-kambalakkad-road",
+  "ref": "MDR",
+  "name": "Karani - Kambalakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.11319,
+        11.68252
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.07971,
+        11.67181
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

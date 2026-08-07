@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-230",
+  "ref": "SH 230",
+  "name": "Waghala–Nanded State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Waghala, Maharashtra",
+    "end": "Nanded, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Waghala",
+      "Nanded"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Waghala",
+      "coords": [
+        77.35451,
+        19.14289
+      ]
+    },
+    {
+      "name": "Nanded",
+      "coords": [
+        77.34415,
+        19.14251
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

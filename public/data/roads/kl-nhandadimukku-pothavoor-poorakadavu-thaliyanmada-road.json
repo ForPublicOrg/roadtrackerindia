@@ -1,0 +1,57 @@
+{
+  "id": "kl-nhandadimukku-pothavoor-poorakadavu-thaliyanmada-road",
+  "ref": "MDR",
+  "name": "Nhandadimukku - Pothavoor - Poorakadavu - Thaliyanmada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Cheemeni, Kerala",
+    "end": "Kayyur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheemeni",
+      "Choyamkode",
+      "Kayyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.21711,
+        12.25614
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.21651,
+        12.26082
+      ]
+    },
+    {
+      "name": "Choyamkode",
+      "coords": [
+        75.22177,
+        12.2669
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.23138,
+        12.26443
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

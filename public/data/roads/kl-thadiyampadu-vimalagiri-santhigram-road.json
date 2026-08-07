@@ -1,0 +1,50 @@
+{
+  "id": "kl-thadiyampadu-vimalagiri-santhigram-road",
+  "ref": "MDR",
+  "name": "Thadiyampadu - Vimalagiri - Santhigram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.9,
+  "route": {
+    "start": "Erattayar, Kerala",
+    "end": "Cheruthoni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattayar",
+      "Thankamani",
+      "Cheruthoni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattayar",
+      "coords": [
+        77.09595,
+        9.80591
+      ]
+    },
+    {
+      "name": "Thankamani",
+      "coords": [
+        77.03993,
+        9.84443
+      ]
+    },
+    {
+      "name": "Cheruthoni",
+      "coords": [
+        76.97313,
+        9.88106
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

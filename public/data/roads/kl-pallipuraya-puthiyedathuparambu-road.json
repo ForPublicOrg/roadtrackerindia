@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallipuraya-puthiyedathuparambu-road",
+  "ref": "MDR",
+  "name": "Pallipuraya - Puthiyedathuparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Omanoor, Kerala",
+    "end": "Edavannappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Omanoor",
+      "Edavannappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.94264,
+        11.21616
+      ]
+    },
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.96613,
+        11.20655
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

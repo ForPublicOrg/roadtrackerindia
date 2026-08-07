@@ -1,0 +1,62 @@
+{
+  "id": "nh-844",
+  "ref": "NH 844",
+  "name": "Hosur–Dharmapuri National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 83.6,
+  "route": {
+    "start": "Hosur, Tamil Nadu",
+    "end": "Dharmapuri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Hosur",
+      "Rayakottai",
+      "Palacode",
+      "Dharmapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hosur",
+      "coords": [
+        77.83606,
+        12.73286
+      ]
+    },
+    {
+      "name": "Rayakottai",
+      "coords": [
+        78.03105,
+        12.514
+      ]
+    },
+    {
+      "name": "Palacode",
+      "coords": [
+        78.06503,
+        12.29854
+      ]
+    },
+    {
+      "name": "Dharmapuri",
+      "coords": [
+        78.12891,
+        12.12988
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

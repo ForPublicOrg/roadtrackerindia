@@ -1,0 +1,54 @@
+{
+  "id": "nh-166g",
+  "ref": "NH 166G",
+  "name": "Kankavali–Mangalwar Peth National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 88.5,
+  "route": {
+    "start": "Kankavali, Maharashtra",
+    "end": "Mangalwar Peth, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kankavali",
+      "Kolhapur",
+      "Mangalwar Peth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kankavali",
+      "coords": [
+        73.66074,
+        16.44747
+      ]
+    },
+    {
+      "name": "Sangarul",
+      "coords": [
+        74.10465,
+        16.70063
+      ]
+    },
+    {
+      "name": "Kolhapur",
+      "coords": [
+        74.22633,
+        16.70279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kavunkal-valavanad-road",
+  "ref": "MDR",
+  "name": "Kavunkal Valavanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.35156,
+        9.58521
+      ]
+    },
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.30487,
+        9.58975
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

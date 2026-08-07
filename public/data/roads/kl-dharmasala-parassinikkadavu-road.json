@@ -1,0 +1,49 @@
+{
+  "id": "kl-dharmasala-parassinikkadavu-road",
+  "ref": "MDR",
+  "name": "Dharmasala - Parassinikkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Dharmasala, Kerala",
+    "end": "Karinkalkuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Dharmasala",
+      "Karinkalkuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dharmasala",
+      "coords": [
+        75.37631,
+        11.98639
+      ]
+    },
+    {
+      "name": "Anthoor",
+      "coords": [
+        75.38152,
+        11.98816
+      ]
+    },
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.40244,
+        11.98487
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

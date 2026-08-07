@@ -1,0 +1,46 @@
+{
+  "id": "nh-127a",
+  "ref": "NH 127A",
+  "name": "Pathsala–Nganglam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 38.2,
+  "route": {
+    "start": "Pathsala, Assam",
+    "end": "Nganglam, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Pathsala",
+      "Nganglam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathsala",
+      "coords": [
+        91.1764,
+        26.51046
+      ]
+    },
+    {
+      "name": "Nganglam",
+      "coords": [
+        91.26482,
+        26.80407
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

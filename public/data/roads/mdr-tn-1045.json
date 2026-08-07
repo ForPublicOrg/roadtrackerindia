@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1045",
+  "ref": "MDR 1045",
+  "name": "Anthiyur–Hanur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.6,
+  "route": {
+    "start": "Anthiyur, Tamil Nadu",
+    "end": "Hanur, Karnataka",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Anthiyur",
+      "Hanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anthiyur",
+      "coords": [
+        77.58752,
+        11.58716
+      ]
+    },
+    {
+      "name": "Hanur",
+      "coords": [
+        77.49377,
+        11.94259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

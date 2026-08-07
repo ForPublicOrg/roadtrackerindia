@@ -1,0 +1,64 @@
+{
+  "id": "kl-pothencode-murukkumpzha-road",
+  "ref": "MDR",
+  "name": "Pothencode - Murukkumpzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Pothencode, Kerala",
+    "end": "Kadinamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pothencode",
+      "Mangalapuram",
+      "Kadinamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.90057,
+        8.61964
+      ]
+    },
+    {
+      "name": "Chanthavila",
+      "coords": [
+        76.88826,
+        8.62153
+      ]
+    },
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.84863,
+        8.62425
+      ]
+    },
+    {
+      "name": "Karichara",
+      "coords": [
+        76.83918,
+        8.61478
+      ]
+    },
+    {
+      "name": "Kadinamkulam",
+      "coords": [
+        76.82291,
+        8.60976
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mdr-kl-44",
+  "ref": "MDR 44",
+  "name": "Melparamba–Chengala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Melparamba, Kerala",
+    "end": "Chengala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Melparamba",
+      "Bangod",
+      "Kasaragod",
+      "Chengala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melparamba",
+      "coords": [
+        75.02758,
+        12.48091
+      ]
+    },
+    {
+      "name": "Bangod",
+      "coords": [
+        75.02411,
+        12.49339
+      ]
+    },
+    {
+      "name": "Chengala",
+      "coords": [
+        75.02611,
+        12.50199
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        75.02183,
+        12.50298
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

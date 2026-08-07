@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-6111",
+  "ref": "ODR 6111",
+  "name": "Arcot–Ranipet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Arcot, Tamil Nadu",
+    "end": "Ranipet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Arcot",
+      "Ranipet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arcot",
+      "coords": [
+        79.34636,
+        12.88148
+      ]
+    },
+    {
+      "name": "Ranipet",
+      "coords": [
+        79.33647,
+        12.87102
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

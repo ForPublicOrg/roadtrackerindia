@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadachira-mammakunnu-road",
+  "ref": "MDR",
+  "name": "Kadachira-Mammakunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Kadachira, Kerala",
+    "end": "Thottada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadachira",
+      "Thottada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.46622,
+        11.81398
+      ]
+    },
+    {
+      "name": "Thottada",
+      "coords": [
+        75.45898,
+        11.83324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

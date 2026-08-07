@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-172",
+  "ref": "SH 172",
+  "name": "Subir–Vyara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33.5,
+  "route": {
+    "start": "Subir, Gujarat",
+    "end": "Vyara, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Subir",
+      "Vyara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Subir",
+      "coords": [
+        73.58278,
+        20.92298
+      ]
+    },
+    {
+      "name": "Vyara",
+      "coords": [
+        73.39207,
+        21.10029
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

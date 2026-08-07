@@ -1,0 +1,70 @@
+{
+  "id": "nh-710",
+  "ref": "NH 710",
+  "name": "Namchi–Ravangla National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 53.6,
+  "route": {
+    "start": "Namchi, Sikkim",
+    "end": "Ravangla, Sikkim",
+    "states": [
+      "Sikkim",
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Namchi",
+      "Kalimpong",
+      "Teesta Bazaar",
+      "Ravangla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Namchi",
+      "coords": [
+        88.36124,
+        27.11214
+      ]
+    },
+    {
+      "name": "Kalimpong",
+      "coords": [
+        88.45193,
+        27.08608
+      ]
+    },
+    {
+      "name": "Jorethang",
+      "coords": [
+        88.33801,
+        27.13174
+      ]
+    },
+    {
+      "name": "Namchi",
+      "coords": [
+        88.36197,
+        27.16656
+      ]
+    },
+    {
+      "name": "Ravangla",
+      "coords": [
+        88.39123,
+        27.22963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

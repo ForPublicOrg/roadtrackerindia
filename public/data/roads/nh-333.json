@@ -1,0 +1,87 @@
+{
+  "id": "nh-333",
+  "ref": "NH 333",
+  "name": "Rāmpur–Railway Colony National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 157.6,
+  "route": {
+    "start": "Rāmpur, Jharkhand",
+    "end": "Railway Colony, Bihar",
+    "states": [
+      "Jharkhand",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Rāmpur",
+      "Deoghar",
+      "Gidhaur",
+      "Jamui",
+      "Lakshimpur",
+      "Kharagpur",
+      "Railway Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rāmpur",
+      "coords": [
+        86.7112,
+        24.48961
+      ]
+    },
+    {
+      "name": "Deoghar",
+      "coords": [
+        86.69792,
+        24.48899
+      ]
+    },
+    {
+      "name": "Gidhaur",
+      "coords": [
+        86.26198,
+        24.84009
+      ]
+    },
+    {
+      "name": "Jamui",
+      "coords": [
+        86.22549,
+        24.93124
+      ]
+    },
+    {
+      "name": "Lakshimpur",
+      "coords": [
+        86.39485,
+        25.0034
+      ]
+    },
+    {
+      "name": "Kharagpur",
+      "coords": [
+        86.55062,
+        25.12594
+      ]
+    },
+    {
+      "name": "Railway Colony",
+      "coords": [
+        86.57614,
+        25.28279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

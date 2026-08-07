@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerchal-manya-charladka-road",
+  "ref": "MDR",
+  "name": "Neerchal - Manya - Charladka Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Chengala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Chengala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.06998,
+        12.55579
+      ]
+    },
+    {
+      "name": "Chengala",
+      "coords": [
+        75.05033,
+        12.56188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

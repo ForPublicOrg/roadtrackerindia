@@ -1,0 +1,91 @@
+{
+  "id": "nh-344m",
+  "ref": "NH 344M",
+  "name": "Samalkha–Alipur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 47.7,
+  "route": {
+    "start": "Samalkha, Delhi",
+    "end": "Alipur, Delhi",
+    "states": [
+      "Delhi"
+    ],
+    "majorCities": [
+      "Samalkha",
+      "Goyla Khurd",
+      "Mundka",
+      "Barwala",
+      "Alipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samalkha",
+      "coords": [
+        77.1104,
+        28.53515
+      ]
+    },
+    {
+      "name": "Chhawla",
+      "coords": [
+        77.01251,
+        28.56703
+      ]
+    },
+    {
+      "name": "Goyla Khurd",
+      "coords": [
+        77.00899,
+        28.59099
+      ]
+    },
+    {
+      "name": "Lok Nayak Puram",
+      "coords": [
+        77.00076,
+        28.65483
+      ]
+    },
+    {
+      "name": "Mundka",
+      "coords": [
+        77.01826,
+        28.68527
+      ]
+    },
+    {
+      "name": "Begum Pur",
+      "coords": [
+        77.04353,
+        28.73015
+      ]
+    },
+    {
+      "name": "Barwala",
+      "coords": [
+        77.06025,
+        28.76483
+      ]
+    },
+    {
+      "name": "Alipur",
+      "coords": [
+        77.13491,
+        28.81075
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

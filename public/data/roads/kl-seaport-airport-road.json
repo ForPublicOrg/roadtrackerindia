@@ -1,0 +1,79 @@
+{
+  "id": "kl-seaport-airport-road",
+  "ref": "MDR",
+  "name": "Seaport - Airport Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Kalamassery, Kerala",
+    "end": "Irumpanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalamassery",
+      "Kakkanad",
+      "Thrippunithura",
+      "Irumpanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.33534,
+        10.05095
+      ]
+    },
+    {
+      "name": "Thrikkakkara",
+      "coords": [
+        76.3361,
+        10.03521
+      ]
+    },
+    {
+      "name": "Thengode",
+      "coords": [
+        76.34251,
+        10.02117
+      ]
+    },
+    {
+      "name": "Kakkanad",
+      "coords": [
+        76.34164,
+        10.01345
+      ]
+    },
+    {
+      "name": "Edachira",
+      "coords": [
+        76.34946,
+        10.00186
+      ]
+    },
+    {
+      "name": "Eroor",
+      "coords": [
+        76.35615,
+        9.97123
+      ]
+    },
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.35828,
+        9.95891
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

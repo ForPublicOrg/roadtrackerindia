@@ -1,0 +1,42 @@
+{
+  "id": "kl-valiyannur-nayattupara-road",
+  "ref": "MDR",
+  "name": "Valiyannur - Nayattupara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.5,
+  "route": {
+    "start": "Kannur, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannur",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannur",
+      "coords": [
+        75.4202,
+        11.89952
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.51684,
+        11.95711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

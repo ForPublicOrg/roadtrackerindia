@@ -1,0 +1,44 @@
+{
+  "id": "kl-paral-punnol-road",
+  "ref": "MDR",
+  "name": "Paral - Punnol Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Punnol, Kerala",
+    "end": "Chokli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punnol",
+      "Thalassery",
+      "Mahe",
+      "Chokli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punnol",
+      "coords": [
+        75.51123,
+        11.7286
+      ]
+    },
+    {
+      "name": "Mahe",
+      "coords": [
+        75.53107,
+        11.73396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

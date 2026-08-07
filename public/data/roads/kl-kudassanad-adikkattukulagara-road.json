@@ -1,0 +1,42 @@
+{
+  "id": "kl-kudassanad-adikkattukulagara-road",
+  "ref": "MDR",
+  "name": "Kudassanad - Adikkattukulagara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.66369,
+        9.16703
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.67127,
+        9.19205
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mdr-tn-1026",
+  "ref": "MDR 1026",
+  "name": "Gerugambakkam–Manapakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Gerugambakkam, Tamil Nadu",
+    "end": "Manapakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Gerugambakkam",
+      "Pozhichalur",
+      "Manapakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gerugambakkam",
+      "coords": [
+        80.13675,
+        13.01564
+      ]
+    },
+    {
+      "name": "Pozhichalur",
+      "coords": [
+        80.1494,
+        13.01012
+      ]
+    },
+    {
+      "name": "Porur",
+      "coords": [
+        80.15702,
+        13.01168
+      ]
+    },
+    {
+      "name": "Meenambakkam",
+      "coords": [
+        80.16257,
+        13.01136
+      ]
+    },
+    {
+      "name": "Manapakkam",
+      "coords": [
+        80.17446,
+        13.01474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

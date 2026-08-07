@@ -1,0 +1,58 @@
+{
+  "id": "mdr-pb-32",
+  "ref": "MDR 32",
+  "name": "Malerkotla–Patiala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 56.3,
+  "route": {
+    "start": "Malerkotla, Punjab",
+    "end": "Patiala, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Malerkotla",
+      "Amargarh",
+      "Nabha",
+      "Patiala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malerkotla",
+      "coords": [
+        75.89171,
+        30.52501
+      ]
+    },
+    {
+      "name": "Amargarh",
+      "coords": [
+        76.01404,
+        30.462
+      ]
+    },
+    {
+      "name": "Nabha",
+      "coords": [
+        76.15555,
+        30.36759
+      ]
+    },
+    {
+      "name": "Patiala",
+      "coords": [
+        76.37379,
+        30.35046
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

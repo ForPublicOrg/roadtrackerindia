@@ -1,0 +1,42 @@
+{
+  "id": "kl-paranthode-onnampalam-kuttapara-road",
+  "ref": "MDR",
+  "name": "Paranthode - Onnampalam - Kuttapara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Mancha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Mancha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.11045,
+        8.63639
+      ]
+    },
+    {
+      "name": "Mancha",
+      "coords": [
+        77.08292,
+        8.62242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

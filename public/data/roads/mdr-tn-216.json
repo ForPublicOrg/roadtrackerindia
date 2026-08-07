@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-216",
+  "ref": "MDR 216",
+  "name": "Thengapattinam–Kuzhithura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.3,
+  "route": {
+    "start": "Thengapattinam, Tamil Nadu",
+    "end": "Kuzhithura, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thengapattinam",
+      "Pudukadai",
+      "Kuzhithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thengapattinam",
+      "coords": [
+        77.17195,
+        8.23717
+      ]
+    },
+    {
+      "name": "Pudukadai",
+      "coords": [
+        77.17933,
+        8.2763
+      ]
+    },
+    {
+      "name": "Kuzhithura",
+      "coords": [
+        77.21175,
+        8.31044
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

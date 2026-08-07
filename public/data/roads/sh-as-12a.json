@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-12a",
+  "ref": "SH 12A",
+  "name": "Goalpara–Abhayapuri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Goalpara, Assam",
+    "end": "Abhayapuri, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Goalpara",
+      "Abhayapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Goalpara",
+      "coords": [
+        90.5782,
+        26.1152
+      ]
+    },
+    {
+      "name": "Abhayapuri",
+      "coords": [
+        90.62535,
+        26.16385
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

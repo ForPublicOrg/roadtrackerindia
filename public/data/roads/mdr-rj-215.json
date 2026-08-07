@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-215",
+  "ref": "MDR 215",
+  "name": "Jiran–Pratapgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.6,
+  "route": {
+    "start": "Jiran, Rajasthan",
+    "end": "Pratapgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jiran",
+      "Pratapgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jiran",
+      "coords": [
+        74.88524,
+        24.23255
+      ]
+    },
+    {
+      "name": "Pratapgarh",
+      "coords": [
+        74.78042,
+        24.03969
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

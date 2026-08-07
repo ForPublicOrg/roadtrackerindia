@@ -1,0 +1,77 @@
+{
+  "id": "nh-303",
+  "ref": "NH 303",
+  "name": "Nadaun–Nagrota Bagwan National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 67.1,
+  "route": {
+    "start": "Nadaun, Himachal Pradesh",
+    "end": "Nagrota Bagwan, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Nadaun",
+      "Jwalamukhi",
+      "Bagalamukhi",
+      "Kangra",
+      "Nagrota Bagwan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadaun",
+      "coords": [
+        76.34459,
+        31.77838
+      ]
+    },
+    {
+      "name": "Jwalamukhi",
+      "coords": [
+        76.31931,
+        31.87194
+      ]
+    },
+    {
+      "name": "Dehra Gopipur",
+      "coords": [
+        76.27681,
+        31.91577
+      ]
+    },
+    {
+      "name": "Bagalamukhi",
+      "coords": [
+        76.23478,
+        31.98295
+      ]
+    },
+    {
+      "name": "Kangra",
+      "coords": [
+        76.2585,
+        32.04988
+      ]
+    },
+    {
+      "name": "Nagrota Bagwan",
+      "coords": [
+        76.34887,
+        32.09199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mullakodi-chekkiyattukavu-road",
+  "ref": "MDR",
+  "name": "Mullakodi - Chekkiyattukavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Anthoor, Kerala",
+    "end": "Karinkalkuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anthoor",
+      "Karinkalkuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anthoor",
+      "coords": [
+        75.40169,
+        12.01766
+      ]
+    },
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.42487,
+        12.00639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

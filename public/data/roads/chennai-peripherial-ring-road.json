@@ -1,0 +1,92 @@
+{
+  "id": "chennai-peripherial-ring-road",
+  "ref": "NH",
+  "name": "Chennai Peripherial Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 76.3,
+  "route": {
+    "start": "Ennore Port, Tamil Nadu",
+    "end": "Pattunool Chataram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ennore Port",
+      "Minjur",
+      "Ponneri",
+      "Tiruvallur",
+      "Sriperumbudur",
+      "Pattunool Chataram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ennore Port",
+      "coords": [
+        80.33082,
+        13.30005
+      ]
+    },
+    {
+      "name": "Minjur",
+      "coords": [
+        80.27049,
+        13.29413
+      ]
+    },
+    {
+      "name": "Ponneri",
+      "coords": [
+        80.18923,
+        13.29262
+      ]
+    },
+    {
+      "name": "Arani",
+      "coords": [
+        80.08358,
+        13.28397
+      ]
+    },
+    {
+      "name": "Tiruvallur",
+      "coords": [
+        79.93315,
+        13.15643
+      ]
+    },
+    {
+      "name": "Kadambattur",
+      "coords": [
+        79.90964,
+        13.07466
+      ]
+    },
+    {
+      "name": "Sriperumbudur",
+      "coords": [
+        79.94077,
+        12.97075
+      ]
+    },
+    {
+      "name": "Pattunool Chataram",
+      "coords": [
+        79.94149,
+        12.95575
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

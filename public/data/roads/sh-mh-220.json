@@ -1,0 +1,43 @@
+{
+  "id": "sh-mh-220",
+  "ref": "SH 220",
+  "name": "Nirmal–Himayatnagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51.2,
+  "route": {
+    "start": "Nirmal, Telangana",
+    "end": "Himayatnagar, Maharashtra",
+    "states": [
+      "Telangana",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nirmal",
+      "Himayatnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nirmal",
+      "coords": [
+        78.33911,
+        19.1433
+      ]
+    },
+    {
+      "name": "Himayatnagar",
+      "coords": [
+        78.0091,
+        19.42022
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

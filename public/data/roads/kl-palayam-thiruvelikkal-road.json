@@ -1,0 +1,42 @@
+{
+  "id": "kl-palayam-thiruvelikkal-road",
+  "ref": "MDR",
+  "name": "Palayam - Thiruvelikkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Puliyannoor, Kerala",
+    "end": "Kidangoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puliyannoor",
+      "Kidangoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.63861,
+        9.71856
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.63019,
+        9.71839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

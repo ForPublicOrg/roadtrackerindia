@@ -1,0 +1,84 @@
+{
+  "id": "sh-ka-2",
+  "ref": "SH 2",
+  "name": "Sirsi–Kanakayyanahatti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 234.1,
+  "route": {
+    "start": "Sirsi, Karnataka",
+    "end": "Kanakayyanahatti, Andhra Pradesh",
+    "states": [
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Sirsi",
+      "Hanagal",
+      "Haveri",
+      "Harapanahalli",
+      "Kotturu",
+      "Kudligi",
+      "Rayadurgam",
+      "Kanakayyanahatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sirsi",
+      "coords": [
+        74.93959,
+        14.70147
+      ]
+    },
+    {
+      "name": "Hanagal",
+      "coords": [
+        75.14161,
+        14.72978
+      ]
+    },
+    {
+      "name": "Haveri",
+      "coords": [
+        75.39967,
+        14.78778
+      ]
+    },
+    {
+      "name": "Harapanahalli",
+      "coords": [
+        75.99385,
+        14.78456
+      ]
+    },
+    {
+      "name": "Kotturu",
+      "coords": [
+        76.22662,
+        14.82891
+      ]
+    },
+    {
+      "name": "Kudligi",
+      "coords": [
+        76.38632,
+        14.90387
+      ]
+    },
+    {
+      "name": "Rayadurgam",
+      "coords": [
+        76.79648,
+        14.70609
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

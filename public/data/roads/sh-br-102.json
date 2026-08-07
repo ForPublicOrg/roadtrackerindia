@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-102",
+  "ref": "SH 102",
+  "name": "Jagdispur–Behea State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.2,
+  "route": {
+    "start": "Jagdispur, Bihar",
+    "end": "Behea, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Jagdispur",
+      "Behea"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jagdispur",
+      "coords": [
+        84.40335,
+        25.33122
+      ]
+    },
+    {
+      "name": "Behea",
+      "coords": [
+        84.46191,
+        25.58565
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

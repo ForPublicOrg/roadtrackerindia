@@ -1,0 +1,42 @@
+{
+  "id": "kl-meloor-pushpagiri-adichily-road",
+  "ref": "MDR",
+  "name": "Meloor - Pushpagiri - Adichily Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.36125,
+        10.29482
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.40499,
+        10.29032
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,24 +1,29 @@
-import type { RoadSummary } from './types'
+import type { OrgSummary, RoadSummary } from './types'
 
 const SITE = 'https://roadtrackerindia.com'
 const DEFAULT_TITLE = 'RoadTracker India — The living atlas of Indian roads'
 const DEFAULT_DESC =
   'Explore every National Highway, Expressway and State Highway of India on one interactive map. Routes, status, toll plazas, history and facts.'
 
-let onRoute: (roadId: string | null) => void = () => {}
+export type Route = { kind: 'road' | 'org'; id: string } | null
+
+let onRoute: (route: Route) => void = () => {}
 
 export function initRouter(cb: typeof onRoute): void {
   onRoute = cb
   window.addEventListener('popstate', () => onRoute(parsePath(location.pathname)))
 }
 
-export function currentRoadId(): string | null {
+export function currentRoute(): Route {
   return parsePath(location.pathname)
 }
 
-function parsePath(path: string): string | null {
-  const m = path.match(/^\/road\/([a-z0-9-]+)\/?$/)
-  return m ? m[1] : null
+function parsePath(path: string): Route {
+  const road = path.match(/^\/road\/([a-z0-9-]+)\/?$/)
+  if (road) return { kind: 'road', id: road[1] }
+  const org = path.match(/^\/company\/([a-z0-9-]+)\/?$/)
+  if (org) return { kind: 'org', id: org[1] }
+  return null
 }
 
 export function navigateToRoad(road: RoadSummary): void {
@@ -26,6 +31,24 @@ export function navigateToRoad(road: RoadSummary): void {
   if (location.pathname !== path && location.pathname !== path.slice(0, -1))
     history.pushState({ roadId: road.id }, '', path)
   applyMeta(road)
+}
+
+export function navigateToOrg(org: OrgSummary): void {
+  const path = `/company/${org.id}/`
+  if (location.pathname !== path && location.pathname !== path.slice(0, -1))
+    history.pushState({ orgId: org.id }, '', path)
+  applyOrgMeta(org)
+}
+
+export function applyOrgMeta(org: OrgSummary): void {
+  const km = org.stats.lengthKm
+  const title = `${org.shortName ?? org.name} — roads built and managed | RoadTracker India`
+  const desc =
+    `${org.name}: ${org.summary} ` +
+    (org.stats.roadCount
+      ? `${org.stats.roadCount} road${org.stats.roadCount === 1 ? '' : 's'} on RoadTracker, ${km.toLocaleString('en-IN')} km in total.`
+      : '')
+  setAll(title, desc.slice(0, 300), `${SITE}/company/${org.id}/`)
 }
 
 export function navigateHome(): void {
@@ -44,10 +67,12 @@ export function applyMeta(road: RoadSummary | null): void {
     ? `${road.ref} — ${road.start.split(',')[0]} to ${road.end.split(',')[0]} | RoadTracker India`
     : DEFAULT_TITLE
   const desc = road
-    ? `${road.ref} (${road.name}): ${Math.round(road.lengthKm).toLocaleString('en-IN')} km from ${road.start} to ${road.end}. Route map, status, toll plazas, history and facts.`
+    ? `${road.ref} (${road.name}): ${Math.round(road.lengthKm).toLocaleString('en-IN')} km from ${road.start} to ${road.end}. Route map, status, toll charges, emergency numbers, history and facts.`
     : DEFAULT_DESC
-  const url = road ? `${SITE}/road/${road.id}/` : `${SITE}/`
+  setAll(title, desc, road ? `${SITE}/road/${road.id}/` : `${SITE}/`)
+}
 
+function setAll(title: string, desc: string, url: string): void {
   document.title = title
   setMeta('name', 'description', desc)
   setMeta('property', 'og:title', title)

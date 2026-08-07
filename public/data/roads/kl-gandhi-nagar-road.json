@@ -1,0 +1,49 @@
+{
+  "id": "kl-gandhi-nagar-road",
+  "ref": "MDR",
+  "name": "Gandhi Nagar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Kumaranalloor, Kerala",
+    "end": "Mannanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaranalloor",
+      "Mannanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.54075,
+        9.6279
+      ]
+    },
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.52781,
+        9.63051
+      ]
+    },
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.52416,
+        9.6331
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

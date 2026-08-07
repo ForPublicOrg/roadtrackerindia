@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-169",
+  "ref": "SH 169",
+  "name": "Ruchi–Surat State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 20.9,
+  "route": {
+    "start": "Ruchi, Gujarat",
+    "end": "Surat, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Ruchi",
+      "Surat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ruchi",
+      "coords": [
+        72.62615,
+        21.32804
+      ]
+    },
+    {
+      "name": "Surat",
+      "coords": [
+        72.78943,
+        21.2245
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

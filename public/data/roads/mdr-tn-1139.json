@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-1139",
+  "ref": "MDR 1139",
+  "name": "Sangothipalayam–Kurumbapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Sangothipalayam, Tamil Nadu",
+    "end": "Kurumbapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sangothipalayam",
+      "Kurumbapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sangothipalayam",
+      "coords": [
+        77.12564,
+        11.146
+      ]
+    },
+    {
+      "name": "Kovilpalayam",
+      "coords": [
+        77.04741,
+        11.11647
+      ]
+    },
+    {
+      "name": "Kurumbapalayam",
+      "coords": [
+        77.03029,
+        11.1125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

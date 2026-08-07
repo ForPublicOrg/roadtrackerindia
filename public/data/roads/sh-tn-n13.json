@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-n13",
+  "ref": "SH-N 13",
+  "name": "Min Arasu Nagar–Palanichettypatty State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Min Arasu Nagar, Tamil Nadu",
+    "end": "Palanichettypatty, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Min Arasu Nagar",
+      "Palanichettypatty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Min Arasu Nagar",
+      "coords": [
+        77.44108,
+        9.96954
+      ]
+    },
+    {
+      "name": "Palanichettypatty",
+      "coords": [
+        77.42972,
+        9.95603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

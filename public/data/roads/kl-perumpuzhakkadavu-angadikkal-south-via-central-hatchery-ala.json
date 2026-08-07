@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumpuzhakkadavu-angadikkal-south-via-central-hatchery-ala",
+  "ref": "MDR",
+  "name": "Perumpuzhakkadavu - Angadikkal South via Central Hatchery - Ala - Malayilppady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Chengannur, Kerala",
+    "end": "Angadikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengannur",
+      "Angadikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.62095,
+        9.29307
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.6231,
+        9.30658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

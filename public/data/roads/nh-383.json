@@ -1,0 +1,70 @@
+{
+  "id": "nh-383",
+  "ref": "NH 383",
+  "name": "Managiri–Dindigul National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 98.2,
+  "route": {
+    "start": "Managiri, Tamil Nadu",
+    "end": "Dindigul, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Managiri",
+      "Karaikudi",
+      "Singampunari",
+      "Natham",
+      "Dindigul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Managiri",
+      "coords": [
+        78.7259,
+        10.06891
+      ]
+    },
+    {
+      "name": "Tiruppattur",
+      "coords": [
+        78.6027,
+        10.11127
+      ]
+    },
+    {
+      "name": "Singampunari",
+      "coords": [
+        78.42615,
+        10.18423
+      ]
+    },
+    {
+      "name": "Natham",
+      "coords": [
+        78.22909,
+        10.22599
+      ]
+    },
+    {
+      "name": "Dindigul",
+      "coords": [
+        77.97696,
+        10.36323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

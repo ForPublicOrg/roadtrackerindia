@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottoor-chonampara-road",
+  "ref": "MDR",
+  "name": "Kottoor - Chonampara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Vithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Vithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.13945,
+        8.5657
+      ]
+    },
+    {
+      "name": "Vithura",
+      "coords": [
+        77.15343,
+        8.59871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

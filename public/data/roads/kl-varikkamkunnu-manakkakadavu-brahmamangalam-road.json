@@ -1,0 +1,42 @@
+{
+  "id": "kl-varikkamkunnu-manakkakadavu-brahmamangalam-road",
+  "ref": "MDR",
+  "name": "Varikkamkunnu - Manakkakadavu - Brahmamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.43816,
+        9.81688
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.42352,
+        9.81512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

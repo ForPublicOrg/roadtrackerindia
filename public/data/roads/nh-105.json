@@ -1,0 +1,79 @@
+{
+  "id": "nh-105",
+  "ref": "NH 105",
+  "name": "Kiratpur Sahib–Pinjore National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75.5,
+  "route": {
+    "start": "Kiratpur Sahib, Himachal Pradesh",
+    "end": "Pinjore, Haryana",
+    "states": [
+      "Himachal Pradesh",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kiratpur Sahib",
+      "Bharatgarh",
+      "Nalagarh",
+      "Baddi",
+      "Kalka",
+      "Pinjore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kiratpur Sahib",
+      "coords": [
+        76.66338,
+        31.23282
+      ]
+    },
+    {
+      "name": "Bharatgarh",
+      "coords": [
+        76.66363,
+        31.13053
+      ]
+    },
+    {
+      "name": "Nalagarh",
+      "coords": [
+        76.71666,
+        31.04294
+      ]
+    },
+    {
+      "name": "Baddi",
+      "coords": [
+        76.8018,
+        30.92189
+      ]
+    },
+    {
+      "name": "Kalka",
+      "coords": [
+        76.91507,
+        30.79913
+      ]
+    },
+    {
+      "name": "Pinjore",
+      "coords": [
+        76.91546,
+        30.79123
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

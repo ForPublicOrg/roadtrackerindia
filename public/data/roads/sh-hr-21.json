@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-21",
+  "ref": "SH 21",
+  "name": "Bhadra–Boha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.2,
+  "route": {
+    "start": "Bhadra, Rajasthan",
+    "end": "Boha, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Bhadra",
+      "Fatehabad",
+      "Ratia",
+      "Boha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhadra",
+      "coords": [
+        75.30503,
+        29.27445
+      ]
+    },
+    {
+      "name": "Fatehabad",
+      "coords": [
+        75.4505,
+        29.51272
+      ]
+    },
+    {
+      "name": "Ratia",
+      "coords": [
+        75.57088,
+        29.68149
+      ]
+    },
+    {
+      "name": "Boha",
+      "coords": [
+        75.54595,
+        29.7639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

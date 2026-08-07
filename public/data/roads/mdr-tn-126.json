@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-126",
+  "ref": "MDR 126",
+  "name": "Valparai–Marayoor District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Valparai, Tamil Nadu",
+    "end": "Marayoor, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Valparai",
+      "Marayoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valparai",
+      "coords": [
+        76.99713,
+        10.36115
+      ]
+    },
+    {
+      "name": "Marayoor",
+      "coords": [
+        76.9941,
+        10.36751
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

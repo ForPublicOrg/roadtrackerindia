@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-232",
+  "ref": "MDR 232",
+  "name": "Tiruppuvanam–Viraganur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Tiruppuvanam, Tamil Nadu",
+    "end": "Viraganur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruppuvanam",
+      "Viraganur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruppuvanam",
+      "coords": [
+        78.25129,
+        9.86019
+      ]
+    },
+    {
+      "name": "Viraganur",
+      "coords": [
+        78.21948,
+        9.86209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

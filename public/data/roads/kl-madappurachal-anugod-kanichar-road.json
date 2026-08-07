@@ -1,0 +1,42 @@
+{
+  "id": "kl-madappurachal-anugod-kanichar-road",
+  "ref": "MDR",
+  "name": "Madappurachal - Anugod - Kanichar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Peravoor, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peravoor",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.74318,
+        11.92496
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.78547,
+        11.9057
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

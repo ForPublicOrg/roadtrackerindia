@@ -1,0 +1,66 @@
+{
+  "id": "sh-mh-16",
+  "ref": "SH 16",
+  "name": "Subir–Waluj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 190.6,
+  "route": {
+    "start": "Subir, Maharashtra",
+    "end": "Waluj, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Subir",
+      "Nampur",
+      "Malegaon",
+      "Nandgaon",
+      "Waluj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Subir",
+      "coords": [
+        73.94594,
+        20.76086
+      ]
+    },
+    {
+      "name": "Nampur",
+      "coords": [
+        74.30724,
+        20.72915
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        74.52592,
+        20.55469
+      ]
+    },
+    {
+      "name": "Nandgaon",
+      "coords": [
+        74.6461,
+        20.31758
+      ]
+    },
+    {
+      "name": "Waluj",
+      "coords": [
+        75.23428,
+        19.9124
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

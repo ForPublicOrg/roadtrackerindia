@@ -1,0 +1,78 @@
+{
+  "id": "nh-947",
+  "ref": "NH 947",
+  "name": "Maliya–Sarkhej National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 183.3,
+  "route": {
+    "start": "Maliya, Gujarat",
+    "end": "Sarkhej, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Maliya",
+      "Halvad",
+      "Dhrangadhra",
+      "Viramgam",
+      "Sanand",
+      "Sarkhej"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maliya",
+      "coords": [
+        70.79535,
+        23.07569
+      ]
+    },
+    {
+      "name": "Halvad",
+      "coords": [
+        71.18919,
+        23.00372
+      ]
+    },
+    {
+      "name": "Dhrangadhra",
+      "coords": [
+        71.46453,
+        23.01121
+      ]
+    },
+    {
+      "name": "Viramgam",
+      "coords": [
+        72.05377,
+        23.0977
+      ]
+    },
+    {
+      "name": "Sanand",
+      "coords": [
+        72.38122,
+        22.98902
+      ]
+    },
+    {
+      "name": "Sarkhej",
+      "coords": [
+        72.49457,
+        22.98697
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

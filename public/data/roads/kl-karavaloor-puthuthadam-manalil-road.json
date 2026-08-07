@@ -1,0 +1,42 @@
+{
+  "id": "kl-karavaloor-puthuthadam-manalil-road",
+  "ref": "MDR",
+  "name": "Karavaloor Puthuthadam Manalil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Punalur, Kerala",
+    "end": "Anchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punalur",
+      "Anchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92505,
+        8.97601
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.94792,
+        8.96956
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2305",
+  "ref": "MDR 2305",
+  "name": "Susner–Agar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.4,
+  "route": {
+    "start": "Susner, Madhya Pradesh",
+    "end": "Agar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Susner",
+      "Agar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Susner",
+      "coords": [
+        76.22733,
+        23.83597
+      ]
+    },
+    {
+      "name": "Agar",
+      "coords": [
+        76.10265,
+        23.85334
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

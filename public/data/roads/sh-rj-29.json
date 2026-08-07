@@ -1,0 +1,65 @@
+{
+  "id": "sh-rj-29",
+  "ref": "SH 29",
+  "name": "Uniara–Bijolia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 155.3,
+  "route": {
+    "start": "Uniara, Rajasthan",
+    "end": "Bijolia, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Uniara",
+      "Lakheri",
+      "Bundi",
+      "Bijolia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uniara",
+      "coords": [
+        76.04675,
+        25.92237
+      ]
+    },
+    {
+      "name": "Indragarh",
+      "coords": [
+        76.18789,
+        25.72692
+      ]
+    },
+    {
+      "name": "Lakheri",
+      "coords": [
+        76.19661,
+        25.67347
+      ]
+    },
+    {
+      "name": "Bundi",
+      "coords": [
+        75.64352,
+        25.43485
+      ]
+    },
+    {
+      "name": "Bijolia",
+      "coords": [
+        75.32107,
+        25.16684
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

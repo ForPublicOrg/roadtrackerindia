@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-2507",
+  "ref": "ODR 2507",
+  "name": "Sathuvachari–Katpadi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Sathuvachari, Tamil Nadu",
+    "end": "Katpadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sathuvachari",
+      "Viruthampattu",
+      "Katpadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sathuvachari",
+      "coords": [
+        79.15426,
+        12.9577
+      ]
+    },
+    {
+      "name": "Viruthampattu",
+      "coords": [
+        79.1503,
+        12.96249
+      ]
+    },
+    {
+      "name": "Katpadi",
+      "coords": [
+        79.14783,
+        12.96824
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

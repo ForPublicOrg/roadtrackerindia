@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuruva-kadalayi-vattakulam-esi-hospital-road",
+  "ref": "MDR",
+  "name": "Kuruva - Kadalayi - Vattakulam - ESI Hospital Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Kadachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kadachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.40637,
+        11.85345
+      ]
+    },
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.41837,
+        11.83717
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

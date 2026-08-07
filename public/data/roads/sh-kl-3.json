@@ -1,0 +1,50 @@
+{
+  "id": "sh-kl-3",
+  "ref": "SH 3",
+  "name": "Kulasekaram–Housing Board State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.1,
+  "route": {
+    "start": "Kulasekaram, Tamil Nadu",
+    "end": "Housing Board, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kulasekaram",
+      "Nedumangad",
+      "Housing Board"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kulasekaram",
+      "coords": [
+        77.22415,
+        8.44666
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.00536,
+        8.6034
+      ]
+    },
+    {
+      "name": "Housing Board",
+      "coords": [
+        76.998,
+        8.60401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

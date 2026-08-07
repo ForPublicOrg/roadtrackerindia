@@ -1,0 +1,43 @@
+{
+  "id": "kl-a-s-canal-west-bank-road",
+  "ref": "MDR",
+  "name": "A.S.Canal West bank road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Shava kotta palam, Kerala",
+    "end": "Vazhicherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Shava kotta palam",
+      "Alappuzha",
+      "Vazhicherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.33065,
+        9.5001
+      ]
+    },
+    {
+      "name": "Vazhicherry",
+      "coords": [
+        76.32932,
+        9.51722
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

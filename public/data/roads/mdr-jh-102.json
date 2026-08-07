@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-102",
+  "ref": "MDR 102",
+  "name": "Chitarpur–Peterwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.7,
+  "route": {
+    "start": "Chitarpur, Jharkhand",
+    "end": "Peterwar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chitarpur",
+      "Peterwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chitarpur",
+      "coords": [
+        85.71448,
+        23.63127
+      ]
+    },
+    {
+      "name": "Peterwar",
+      "coords": [
+        85.71661,
+        23.53814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mavady-chettiyarazhikathu-road",
+  "ref": "MDR",
+  "name": "Mavady - Chettiyarazhikathu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.72541,
+        9.08143
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.73223,
+        9.05689
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

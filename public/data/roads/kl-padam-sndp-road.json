@@ -1,0 +1,42 @@
+{
+  "id": "kl-padam-sndp-road",
+  "ref": "MDR",
+  "name": "Padam - SNDP Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Pathanapuram, Kerala",
+    "end": "Central Junction, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pathanapuram",
+      "Central Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.91676,
+        9.12386
+      ]
+    },
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.92431,
+        9.12845
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

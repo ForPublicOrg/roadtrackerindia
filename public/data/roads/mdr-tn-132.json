@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-132",
+  "ref": "MDR 132",
+  "name": "Kadayanallur–Mela Kadayanallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Kadayanallur, Tamil Nadu",
+    "end": "Mela Kadayanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kadayanallur",
+      "Mela Kadayanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadayanallur",
+      "coords": [
+        77.3465,
+        9.08065
+      ]
+    },
+    {
+      "name": "Mela Kadayanallur",
+      "coords": [
+        77.40017,
+        9.07617
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-a-c-road-to-karumadi-vilakkumaram-road",
+  "ref": "MDR",
+  "name": "A.C.Road to Karumadi Vilakkumaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Mullakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Mullakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.38221,
+        9.42681
+      ]
+    },
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.37776,
+        9.45608
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kl-chungam-seminary-road",
+  "ref": "MDR",
+  "name": "Chungam - Seminary Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Kottayam, Kerala",
+    "end": "Nagampadam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottayam",
+      "Illikkal",
+      "Kumaranalloor",
+      "Nagampadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.51175,
+        9.60369
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.51579,
+        9.60094
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.51678,
+        9.59541
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

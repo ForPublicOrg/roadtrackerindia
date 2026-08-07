@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-16b",
+  "ref": "SH 16B",
+  "name": "Gudha Malani–Sayla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 77.3,
+  "route": {
+    "start": "Gudha Malani, Rajasthan",
+    "end": "Sayla, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Gudha Malani",
+      "Bagoda",
+      "Sayla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gudha Malani",
+      "coords": [
+        71.71467,
+        25.202
+      ]
+    },
+    {
+      "name": "Bagoda",
+      "coords": [
+        72.0205,
+        25.21679
+      ]
+    },
+    {
+      "name": "Sayla",
+      "coords": [
+        72.3409,
+        25.3268
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

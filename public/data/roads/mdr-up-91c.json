@@ -1,0 +1,50 @@
+{
+  "id": "mdr-up-91c",
+  "ref": "MDR 91C",
+  "name": "Bachhrawan–Ganesh Ganj District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.1,
+  "route": {
+    "start": "Bachhrawan, Uttar Pradesh",
+    "end": "Ganesh Ganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bachhrawan",
+      "Lucknow",
+      "Ganesh Ganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bachhrawan",
+      "coords": [
+        81.03497,
+        26.56979
+      ]
+    },
+    {
+      "name": "Vrindavan",
+      "coords": [
+        80.97899,
+        26.77329
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "coords": [
+        80.96359,
+        26.82623
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

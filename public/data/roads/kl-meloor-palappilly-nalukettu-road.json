@@ -1,0 +1,42 @@
+{
+  "id": "kl-meloor-palappilly-nalukettu-road",
+  "ref": "MDR",
+  "name": "Meloor - Palappilly - Nalukettu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.36222,
+        10.29213
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.38503,
+        10.27638
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

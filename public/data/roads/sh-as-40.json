@@ -1,0 +1,43 @@
+{
+  "id": "sh-as-40",
+  "ref": "SH 40",
+  "name": "Vairengte–Kolasib State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 16.9,
+  "route": {
+    "start": "Vairengte, Assam",
+    "end": "Kolasib, Mizoram",
+    "states": [
+      "Assam",
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Vairengte",
+      "Kolasib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vairengte",
+      "coords": [
+        92.83331,
+        24.53856
+      ]
+    },
+    {
+      "name": "Kolasib",
+      "coords": [
+        92.79696,
+        24.41255
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

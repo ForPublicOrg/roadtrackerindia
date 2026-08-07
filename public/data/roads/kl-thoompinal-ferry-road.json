@@ -1,0 +1,42 @@
+{
+  "id": "kl-thoompinal-ferry-road",
+  "ref": "MDR",
+  "name": "Thoompinal Ferry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.55291,
+        9.31379
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.5476,
+        9.30912
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

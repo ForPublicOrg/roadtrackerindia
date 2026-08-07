@@ -1,0 +1,57 @@
+{
+  "id": "kl-mannam-thathappilly-road",
+  "ref": "MDR",
+  "name": "Mannam-Thathappilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Cheriyappilly, Kerala",
+    "end": "Kongorpilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheriyappilly",
+      "North Paravur",
+      "Kongorpilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.2533,
+        10.14643
+      ]
+    },
+    {
+      "name": "Kalikulangara",
+      "coords": [
+        76.2554,
+        10.13992
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.25872,
+        10.13433
+      ]
+    },
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.26863,
+        10.1185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

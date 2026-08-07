@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-60",
+  "ref": "SH 60",
+  "name": "Vile Bhagad MIDC–Murud State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 70,
+  "route": {
+    "start": "Vile Bhagad MIDC, Maharashtra",
+    "end": "Murud, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Vile Bhagad MIDC",
+      "Roha",
+      "Murud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vile Bhagad MIDC",
+      "coords": [
+        73.36136,
+        18.41256
+      ]
+    },
+    {
+      "name": "Roha",
+      "coords": [
+        73.1228,
+        18.4367
+      ]
+    },
+    {
+      "name": "Murud",
+      "coords": [
+        72.93481,
+        18.37914
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

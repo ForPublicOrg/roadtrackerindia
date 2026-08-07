@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulikurumba-puranjan-road",
+  "ref": "MDR",
+  "name": "Pulikurumba - Puranjan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Chemperi, Kerala",
+    "end": "Naduvil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemperi",
+      "Naduvil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.53452,
+        12.1062
+      ]
+    },
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.52331,
+        12.12007
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

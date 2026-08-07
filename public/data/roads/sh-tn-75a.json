@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-75a",
+  "ref": "SH 75A",
+  "name": "Melapalayam–Thachanallur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Melapalayam, Tamil Nadu",
+    "end": "Thachanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapalayam",
+      "Palayamkottai",
+      "Tirunelveli",
+      "Thachanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapalayam",
+      "coords": [
+        77.72741,
+        8.69741
+      ]
+    },
+    {
+      "name": "Tirunelveli",
+      "coords": [
+        77.72263,
+        8.73391
+      ]
+    },
+    {
+      "name": "Thachanallur",
+      "coords": [
+        77.70466,
+        8.75083
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

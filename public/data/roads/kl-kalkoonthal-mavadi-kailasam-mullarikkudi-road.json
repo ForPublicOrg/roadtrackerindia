@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalkoonthal-mavadi-kailasam-mullarikkudi-road",
+  "ref": "MDR",
+  "name": "Kalkoonthal - Mavadi - Kailasam - Mullarikkudi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Nedumkandam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Nedumkandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.07896,
+        9.91295
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.15865,
+        9.86031
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

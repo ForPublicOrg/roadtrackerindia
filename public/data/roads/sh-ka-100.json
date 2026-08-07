@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-100",
+  "ref": "SH 100",
+  "name": "Subramanya–Vitla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 90.3,
+  "route": {
+    "start": "Subramanya, Karnataka",
+    "end": "Vitla, Kerala",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Subramanya",
+      "Puttur",
+      "Vitla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Subramanya",
+      "coords": [
+        75.6045,
+        12.67513
+      ]
+    },
+    {
+      "name": "Puttur",
+      "coords": [
+        75.20416,
+        12.76069
+      ]
+    },
+    {
+      "name": "Vitla",
+      "coords": [
+        75.10495,
+        12.73683
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

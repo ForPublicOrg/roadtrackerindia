@@ -1,0 +1,50 @@
+{
+  "id": "kl-vetturoad-st-andrews-road",
+  "ref": "MDR",
+  "name": "Vetturoad - St. Andrews Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Menamkulam, Kerala",
+    "end": "Kaniyapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Menamkulam",
+      "Vettuthura",
+      "Kaniyapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Menamkulam",
+      "coords": [
+        76.84279,
+        8.56564
+      ]
+    },
+    {
+      "name": "Kazhakkoottam",
+      "coords": [
+        76.85953,
+        8.57969
+      ]
+    },
+    {
+      "name": "Kaniyapuram",
+      "coords": [
+        76.86239,
+        8.58291
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

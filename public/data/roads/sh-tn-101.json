@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-101",
+  "ref": "SH 101",
+  "name": "Varusanadu–Devadānappatti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58.2,
+  "route": {
+    "start": "Varusanadu, Tamil Nadu",
+    "end": "Devadānappatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Varusanadu",
+      "Andipatti Jakkampatty",
+      "Devadānappatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varusanadu",
+      "coords": [
+        77.51566,
+        9.72543
+      ]
+    },
+    {
+      "name": "Andipatti Jakkampatty",
+      "coords": [
+        77.57783,
+        10.03383
+      ]
+    },
+    {
+      "name": "Devadānappatti",
+      "coords": [
+        77.64182,
+        10.14638
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

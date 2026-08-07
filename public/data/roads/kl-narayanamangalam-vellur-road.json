@@ -1,0 +1,42 @@
+{
+  "id": "kl-narayanamangalam-vellur-road",
+  "ref": "MDR",
+  "name": "Narayanamangalam - Vellur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Thiruvanchikulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Thiruvanchikulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.22654,
+        10.25413
+      ]
+    },
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.20621,
+        10.24906
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

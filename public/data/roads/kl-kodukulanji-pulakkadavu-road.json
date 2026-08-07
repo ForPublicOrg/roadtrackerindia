@@ -1,0 +1,42 @@
+{
+  "id": "kl-kodukulanji-pulakkadavu-road",
+  "ref": "MDR",
+  "name": "Kodukulanji - Pulakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.61665,
+        9.22809
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.61198,
+        9.26991
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

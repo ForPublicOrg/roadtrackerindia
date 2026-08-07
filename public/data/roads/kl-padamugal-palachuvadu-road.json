@@ -1,0 +1,44 @@
+{
+  "id": "kl-padamugal-palachuvadu-road",
+  "ref": "MDR",
+  "name": "Padamugal - Palachuvadu road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kakkanad West, Kerala",
+    "end": "Chembumukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkanad West",
+      "Kakkanad",
+      "Pallinada",
+      "Chembumukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkanad West",
+      "coords": [
+        76.33322,
+        10.0142
+      ]
+    },
+    {
+      "name": "Pallinada",
+      "coords": [
+        76.33431,
+        10.00023
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

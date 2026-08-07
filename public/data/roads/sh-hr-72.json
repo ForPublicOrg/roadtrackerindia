@@ -1,0 +1,68 @@
+{
+  "id": "sh-hr-72",
+  "ref": "SH 72",
+  "name": "Sector 1–Kala Amb State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 80.4,
+  "route": {
+    "start": "Sector 1, Haryana",
+    "end": "Kala Amb, Haryana",
+    "states": [
+      "Haryana",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Sector 1",
+      "Panchkula",
+      "Ambala",
+      "Shahzadpur",
+      "Naraingarh",
+      "Kala Amb"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sector 1",
+      "coords": [
+        76.87147,
+        30.6998
+      ]
+    },
+    {
+      "name": "Ambala",
+      "coords": [
+        76.79186,
+        30.39088
+      ]
+    },
+    {
+      "name": "Shahzadpur",
+      "coords": [
+        77.02933,
+        30.44756
+      ]
+    },
+    {
+      "name": "Naraingarh",
+      "coords": [
+        77.12212,
+        30.47519
+      ]
+    },
+    {
+      "name": "Kala Amb",
+      "coords": [
+        77.21168,
+        30.49765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

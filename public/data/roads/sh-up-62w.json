@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-62w",
+  "ref": "SH 62W",
+  "name": "Powayan–Bisalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51,
+  "route": {
+    "start": "Powayan, Uttar Pradesh",
+    "end": "Bisalpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Powayan",
+      "Banda",
+      "Bisalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Powayan",
+      "coords": [
+        80.09666,
+        28.06704
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.10846,
+        28.24004
+      ]
+    },
+    {
+      "name": "Bisalpur",
+      "coords": [
+        79.80974,
+        28.28278
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

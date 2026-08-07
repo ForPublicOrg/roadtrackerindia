@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunnathalummoodu-koottumvathukal-kadavu-road",
+  "ref": "MDR",
+  "name": "Kunnathalummoodu - Koottumvathukal Kadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.48106,
+        9.15328
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.50675,
+        9.15855
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

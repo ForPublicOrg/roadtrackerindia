@@ -1,0 +1,64 @@
+{
+  "id": "mdr-tn-319",
+  "ref": "MDR 319",
+  "name": "Pallavaram–Kundrathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Pallavaram, Tamil Nadu",
+    "end": "Kundrathur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pallavaram",
+      "Anakaputhur",
+      "Kundrathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallavaram",
+      "coords": [
+        80.14504,
+        12.97064
+      ]
+    },
+    {
+      "name": "Anakaputhur",
+      "coords": [
+        80.12925,
+        12.98251
+      ]
+    },
+    {
+      "name": "Gerugambakkam",
+      "coords": [
+        80.11495,
+        12.9921
+      ]
+    },
+    {
+      "name": "Kovur",
+      "coords": [
+        80.11034,
+        12.99581
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.0976,
+        12.99811
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

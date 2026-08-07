@@ -1,0 +1,78 @@
+{
+  "id": "nh-128",
+  "ref": "NH 128",
+  "name": "Raebareli–Tanda National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 165.4,
+  "route": {
+    "start": "Raebareli, Uttar Pradesh",
+    "end": "Tanda, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Raebareli",
+      "Gauriganj",
+      "Amethi",
+      "Sultanpur",
+      "Akbarpur",
+      "Tanda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raebareli",
+      "coords": [
+        81.25608,
+        26.22101
+      ]
+    },
+    {
+      "name": "Gauriganj",
+      "coords": [
+        81.69188,
+        26.2063
+      ]
+    },
+    {
+      "name": "Amethi",
+      "coords": [
+        81.7986,
+        26.20871
+      ]
+    },
+    {
+      "name": "Sultanpur",
+      "coords": [
+        82.09029,
+        26.2481
+      ]
+    },
+    {
+      "name": "Akbarpur",
+      "coords": [
+        82.55137,
+        26.40956
+      ]
+    },
+    {
+      "name": "Tanda",
+      "coords": [
+        82.63559,
+        26.53534
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

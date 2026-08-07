@@ -1,0 +1,64 @@
+{
+  "id": "kl-sreekariyam-pothencode-road",
+  "ref": "MDR",
+  "name": "Sreekariyam - Pothencode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Sreekariyam, Kerala",
+    "end": "Pothencode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekariyam",
+      "Kazhakkoottam",
+      "Pothencode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.91729,
+        8.54898
+      ]
+    },
+    {
+      "name": "Karyavattom",
+      "coords": [
+        76.90734,
+        8.57044
+      ]
+    },
+    {
+      "name": "Kazhakkoottam",
+      "coords": [
+        76.90597,
+        8.57577
+      ]
+    },
+    {
+      "name": "Chanthavila",
+      "coords": [
+        76.8996,
+        8.59826
+      ]
+    },
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.89734,
+        8.61777
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nh-907",
+  "ref": "NH 907",
+  "name": "Paonta Sahib–Pansara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 62.8,
+  "route": {
+    "start": "Paonta Sahib, Himachal Pradesh",
+    "end": "Pansara, Haryana",
+    "states": [
+      "Himachal Pradesh",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Paonta Sahib",
+      "Chhachhrauli",
+      "Yamunanagar",
+      "Pansara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paonta Sahib",
+      "coords": [
+        77.57562,
+        30.43633
+      ]
+    },
+    {
+      "name": "Chhachhrauli",
+      "coords": [
+        77.35957,
+        30.23806
+      ]
+    },
+    {
+      "name": "Yamunanagar",
+      "coords": [
+        77.32531,
+        30.13751
+      ]
+    },
+    {
+      "name": "Pansara",
+      "coords": [
+        77.33396,
+        30.1275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

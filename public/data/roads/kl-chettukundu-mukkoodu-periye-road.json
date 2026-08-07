@@ -1,0 +1,42 @@
+{
+  "id": "kl-chettukundu-mukkoodu-periye-road",
+  "ref": "MDR",
+  "name": "Chettukundu - Mukkoodu - Periye Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Athinhal, Kerala",
+    "end": "Periya, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athinhal",
+      "Periya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athinhal",
+      "coords": [
+        75.05394,
+        12.37304
+      ]
+    },
+    {
+      "name": "Periya",
+      "coords": [
+        75.06492,
+        12.3786
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

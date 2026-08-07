@@ -1,0 +1,78 @@
+{
+  "id": "nh-315a",
+  "ref": "NH 315A",
+  "name": "Khonsa–Tinsukia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 97.4,
+  "route": {
+    "start": "Khonsa, Arunachal Pradesh",
+    "end": "Tinsukia, Assam",
+    "states": [
+      "Arunachal Pradesh",
+      "Assam"
+    ],
+    "majorCities": [
+      "Khonsa",
+      "Deomali",
+      "Namrup",
+      "Naharkatia",
+      "Tinsukia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khonsa",
+      "coords": [
+        95.50877,
+        26.99217
+      ]
+    },
+    {
+      "name": "Lawnu",
+      "coords": [
+        95.41197,
+        27.10858
+      ]
+    },
+    {
+      "name": "Deomali",
+      "coords": [
+        95.45335,
+        27.18676
+      ]
+    },
+    {
+      "name": "Naharkatia",
+      "coords": [
+        95.32187,
+        27.28737
+      ]
+    },
+    {
+      "name": "Duliajan",
+      "coords": [
+        95.33284,
+        27.353
+      ]
+    },
+    {
+      "name": "Tinsukia",
+      "coords": [
+        95.35567,
+        27.48855
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

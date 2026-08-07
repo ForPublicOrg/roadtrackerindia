@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattarimukku-ambalakkara-paingayil-road",
+  "ref": "MDR",
+  "name": "Pattarimukku - Ambalakkara - Paingayil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.79453,
+        8.95708
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.82642,
+        8.96411
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

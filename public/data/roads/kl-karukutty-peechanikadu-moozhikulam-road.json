@@ -1,0 +1,42 @@
+{
+  "id": "kl-karukutty-peechanikadu-moozhikulam-road",
+  "ref": "MDR",
+  "name": "Karukutty - Peechanikadu - Moozhikulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Kalady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Kalady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.36287,
+        10.1957
+      ]
+    },
+    {
+      "name": "Kalady",
+      "coords": [
+        76.37883,
+        10.19747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

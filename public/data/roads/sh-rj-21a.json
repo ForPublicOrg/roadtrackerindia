@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-21a",
+  "ref": "SH 21A",
+  "name": "Riyan Badi–Parbatsar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.9,
+  "route": {
+    "start": "Riyan Badi, Rajasthan",
+    "end": "Parbatsar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Riyan Badi",
+      "Parbatsar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Riyan Badi",
+      "coords": [
+        74.34534,
+        26.59243
+      ]
+    },
+    {
+      "name": "Parbatsar",
+      "coords": [
+        74.75562,
+        26.86779
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

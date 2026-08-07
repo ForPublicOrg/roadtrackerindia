@@ -1,0 +1,62 @@
+{
+  "id": "nh-516b",
+  "ref": "NH 516B",
+  "name": "Pendurthi–Srungavarapukota National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.6,
+  "route": {
+    "start": "Pendurthi, Andhra Pradesh",
+    "end": "Srungavarapukota, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Pendurthi",
+      "Kothavalasa",
+      "Lakkavarapukota",
+      "Srungavarapukota"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pendurthi",
+      "coords": [
+        83.20262,
+        17.82954
+      ]
+    },
+    {
+      "name": "Kothavalasa",
+      "coords": [
+        83.1853,
+        17.89698
+      ]
+    },
+    {
+      "name": "Lakkavarapukota",
+      "coords": [
+        83.15318,
+        18.02056
+      ]
+    },
+    {
+      "name": "Srungavarapukota",
+      "coords": [
+        83.13874,
+        18.11397
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

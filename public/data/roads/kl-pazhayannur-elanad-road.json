@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhayannur-elanad-road",
+  "ref": "MDR",
+  "name": "Pazhayannur - Elanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Vadakkenchery, Kerala",
+    "end": "Ottapalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakkenchery",
+      "Ottapalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.39234,
+        10.62035
+      ]
+    },
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.42057,
+        10.68516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

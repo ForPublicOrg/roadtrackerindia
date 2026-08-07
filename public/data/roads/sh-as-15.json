@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-15",
+  "ref": "SH 15",
+  "name": "Kamalabari–Dhing State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48.4,
+  "route": {
+    "start": "Kamalabari, Assam",
+    "end": "Dhing, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Kamalabari",
+      "Marigaon",
+      "Dhing"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kamalabari",
+      "coords": [
+        92.4034,
+        26.19766
+      ]
+    },
+    {
+      "name": "Marigaon",
+      "coords": [
+        92.34206,
+        26.25219
+      ]
+    },
+    {
+      "name": "Dhing",
+      "coords": [
+        92.55002,
+        26.4183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

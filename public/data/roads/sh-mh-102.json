@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-102",
+  "ref": "SH 102",
+  "name": "Dapoli–Mandangad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.6,
+  "route": {
+    "start": "Dapoli, Maharashtra",
+    "end": "Mandangad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Dapoli",
+      "Mandangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dapoli",
+      "coords": [
+        73.19038,
+        17.75741
+      ]
+    },
+    {
+      "name": "Mandangad",
+      "coords": [
+        73.25502,
+        17.98026
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

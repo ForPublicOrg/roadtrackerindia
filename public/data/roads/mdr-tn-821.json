@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-821",
+  "ref": "MDR 821",
+  "name": "Kattur–Devathanam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Kattur, Tamil Nadu",
+    "end": "Devathanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kattur",
+      "Tiruchirappalli",
+      "Devathanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattur",
+      "coords": [
+        78.77181,
+        10.82752
+      ]
+    },
+    {
+      "name": "Tiruchirappalli",
+      "coords": [
+        78.70119,
+        10.83585
+      ]
+    },
+    {
+      "name": "Ariyamangalam",
+      "coords": [
+        78.71263,
+        10.82956
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

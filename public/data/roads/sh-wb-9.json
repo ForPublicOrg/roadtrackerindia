@@ -1,0 +1,50 @@
+{
+  "id": "sh-wb-9",
+  "ref": "SH 9",
+  "name": "Belda–Durgapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 236.7,
+  "route": {
+    "start": "Belda, West Bengal",
+    "end": "Durgapur, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Belda",
+      "Bankura",
+      "Durgapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Belda",
+      "coords": [
+        87.23479,
+        22.12294
+      ]
+    },
+    {
+      "name": "Bankura",
+      "coords": [
+        87.08577,
+        23.24949
+      ]
+    },
+    {
+      "name": "Durgapur",
+      "coords": [
+        87.35249,
+        23.50386
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

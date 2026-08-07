@@ -1,0 +1,42 @@
+{
+  "id": "kl-mekkara-achencovil-road",
+  "ref": "MDR",
+  "name": "Mekkara - Achencovil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13,
+  "route": {
+    "start": "Shencottai, Kerala",
+    "end": "Mela Kadayanallur, Tamil Nadu",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Shencottai",
+      "Mela Kadayanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shencottai",
+      "coords": [
+        77.12168,
+        9.09224
+      ]
+    },
+    {
+      "name": "Mela Kadayanallur",
+      "coords": [
+        77.20654,
+        9.07032
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

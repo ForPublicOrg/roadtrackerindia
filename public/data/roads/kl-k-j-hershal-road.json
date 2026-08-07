@@ -1,0 +1,51 @@
+{
+  "id": "kl-k-j-hershal-road",
+  "ref": "MDR",
+  "name": "K. J. Hershal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Mulamkuzhi, Kerala",
+    "end": "Fort Kochi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulamkuzhi",
+      "Koovapadam",
+      "Kochi",
+      "Fort Kochi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulamkuzhi",
+      "coords": [
+        76.24406,
+        9.94155
+      ]
+    },
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.24252,
+        9.95082
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.23801,
+        9.96311
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

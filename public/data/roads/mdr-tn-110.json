@@ -1,0 +1,64 @@
+{
+  "id": "mdr-tn-110",
+  "ref": "MDR 110",
+  "name": "Erode–Solar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Erode, Tamil Nadu",
+    "end": "Solar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Erode",
+      "Pallipalayam",
+      "Solar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erode",
+      "coords": [
+        77.729,
+        11.33918
+      ]
+    },
+    {
+      "name": "Pallipalayam",
+      "coords": [
+        77.73722,
+        11.33607
+      ]
+    },
+    {
+      "name": "Kattur",
+      "coords": [
+        77.74218,
+        11.33051
+      ]
+    },
+    {
+      "name": "Chettipalayam",
+      "coords": [
+        77.74551,
+        11.3273
+      ]
+    },
+    {
+      "name": "Solar",
+      "coords": [
+        77.74901,
+        11.32391
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

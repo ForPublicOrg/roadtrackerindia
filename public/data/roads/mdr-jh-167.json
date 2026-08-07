@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-167",
+  "ref": "MDR 167",
+  "name": "Gamharia–Sini District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Gamharia, Jharkhand",
+    "end": "Sini, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Gamharia",
+      "Sini"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gamharia",
+      "coords": [
+        86.03068,
+        22.90969
+      ]
+    },
+    {
+      "name": "Sini",
+      "coords": [
+        86.02189,
+        22.89905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

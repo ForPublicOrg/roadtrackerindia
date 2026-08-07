@@ -1,0 +1,42 @@
+{
+  "id": "kl-thadiyampadu-narakakkanam-road",
+  "ref": "MDR",
+  "name": "Thadiyampadu - Narakakkanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Cheruthoni, Kerala",
+    "end": "Painavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheruthoni",
+      "Painavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheruthoni",
+      "coords": [
+        76.98168,
+        9.86926
+      ]
+    },
+    {
+      "name": "Painavu",
+      "coords": [
+        76.97291,
+        9.88041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

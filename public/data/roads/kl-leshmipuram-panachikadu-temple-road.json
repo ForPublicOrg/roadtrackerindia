@@ -1,0 +1,57 @@
+{
+  "id": "kl-leshmipuram-panachikadu-temple-road",
+  "ref": "MDR",
+  "name": "Leshmipuram Panachikadu Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Nattakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Puthuppally",
+      "Nattakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.54692,
+        9.53627
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.53298,
+        9.52892
+      ]
+    },
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.52514,
+        9.52115
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.52157,
+        9.5211
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

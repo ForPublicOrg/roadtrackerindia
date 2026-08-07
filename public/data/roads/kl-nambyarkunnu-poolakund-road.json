@@ -1,0 +1,43 @@
+{
+  "id": "kl-nambyarkunnu-poolakund-road",
+  "ref": "MDR",
+  "name": "Nambyarkunnu - Poolakund Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Pandalur, Tamil Nadu",
+    "states": [
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.31527,
+        11.58725
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.30046,
+        11.57499
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

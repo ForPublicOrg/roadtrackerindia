@@ -1,0 +1,42 @@
+{
+  "id": "kl-deppoppadi-chengaramukku-road",
+  "ref": "MDR",
+  "name": "Deppoppadi - Chengaramukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Mamukku, Kerala",
+    "end": "Mylapra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mamukku",
+      "Mylapra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.79388,
+        9.34165
+      ]
+    },
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.81363,
+        9.32401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

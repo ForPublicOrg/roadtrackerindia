@@ -1,0 +1,50 @@
+{
+  "id": "ap-kalavakunta-nendragunta-road",
+  "ref": "SH",
+  "name": "Kalavakunta - Nendragunta Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 27.7,
+  "route": {
+    "start": "Satharubhavi, Andhra Pradesh",
+    "end": "Pakala, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Satharubhavi",
+      "Penumuru",
+      "Pakala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satharubhavi",
+      "coords": [
+        79.12067,
+        13.25952
+      ]
+    },
+    {
+      "name": "Penumuru",
+      "coords": [
+        79.19174,
+        13.37268
+      ]
+    },
+    {
+      "name": "Pakala",
+      "coords": [
+        79.15964,
+        13.45393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

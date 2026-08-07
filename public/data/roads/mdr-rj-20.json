@@ -1,0 +1,51 @@
+{
+  "id": "mdr-rj-20",
+  "ref": "MDR 20",
+  "name": "Hameergarh–Nimbahera District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 101.2,
+  "route": {
+    "start": "Hameergarh, Rajasthan",
+    "end": "Nimbahera, Rajasthan",
+    "states": [
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Hameergarh",
+      "Bassi",
+      "Nimbahera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hameergarh",
+      "coords": [
+        74.78355,
+        25.20781
+      ]
+    },
+    {
+      "name": "Bassi",
+      "coords": [
+        74.77176,
+        25.01522
+      ]
+    },
+    {
+      "name": "Nimbahera",
+      "coords": [
+        74.70935,
+        24.61189
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vallayil-champakadu-road",
+  "ref": "MDR",
+  "name": "Vallayil - Champakadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.30445,
+        9.66523
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.33331,
+        9.6839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

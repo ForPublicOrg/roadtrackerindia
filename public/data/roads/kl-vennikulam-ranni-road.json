@@ -1,0 +1,43 @@
+{
+  "id": "kl-vennikulam-ranni-road",
+  "ref": "MDR",
+  "name": "Vennikulam - Ranni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Kumbanad, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbanad",
+      "Ranni",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.66779,
+        9.40201
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.78142,
+        9.38343
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

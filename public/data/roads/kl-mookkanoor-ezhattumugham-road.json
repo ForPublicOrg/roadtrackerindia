@@ -1,0 +1,42 @@
+{
+  "id": "kl-mookkanoor-ezhattumugham-road",
+  "ref": "MDR",
+  "name": "Mookkanoor - Ezhattumugham Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.9,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.38176,
+        10.21042
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.42038,
+        10.28467
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-plague-camp-shed-road",
+  "ref": "MDR",
+  "name": "Plague Camp Shed Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Alappuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.33106,
+        9.48177
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32917,
+        9.49232
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

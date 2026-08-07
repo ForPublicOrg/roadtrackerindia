@@ -1,0 +1,54 @@
+{
+  "id": "nh-507",
+  "ref": "NH 507",
+  "name": "Barkot–Paonta Sahib National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 113,
+  "route": {
+    "start": "Barkot, Uttarakhand",
+    "end": "Paonta Sahib, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Barkot",
+      "Dakpathar",
+      "Paonta Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barkot",
+      "coords": [
+        78.21951,
+        30.80751
+      ]
+    },
+    {
+      "name": "Dakpathar",
+      "coords": [
+        77.80411,
+        30.4889
+      ]
+    },
+    {
+      "name": "Paonta Sahib",
+      "coords": [
+        77.72101,
+        30.41018
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-koothattukulam-edayar-piravom-road",
+  "ref": "MDR",
+  "name": "Koothattukulam - Edayar - Piravom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Piravom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Piravom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.58936,
+        9.86467
+      ]
+    },
+    {
+      "name": "Piravom",
+      "coords": [
+        76.51867,
+        9.86112
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

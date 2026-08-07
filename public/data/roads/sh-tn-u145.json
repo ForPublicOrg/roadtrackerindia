@@ -1,0 +1,64 @@
+{
+  "id": "sh-tn-u145",
+  "ref": "SH-U 145",
+  "name": "State Bank colony–Sipcot Industrial Estate State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "State Bank colony, Tamil Nadu",
+    "end": "Sipcot Industrial Estate, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "State Bank colony",
+      "Karur",
+      "Sipcot Industrial Estate"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "State Bank colony",
+      "coords": [
+        78.05456,
+        10.92958
+      ]
+    },
+    {
+      "name": "Jeeva Nagar",
+      "coords": [
+        78.05901,
+        10.93412
+      ]
+    },
+    {
+      "name": "Chinnandankoil",
+      "coords": [
+        78.06987,
+        10.94371
+      ]
+    },
+    {
+      "name": "Karur",
+      "coords": [
+        78.08553,
+        10.95088
+      ]
+    },
+    {
+      "name": "Sipcot Industrial Estate",
+      "coords": [
+        78.11398,
+        10.94429
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

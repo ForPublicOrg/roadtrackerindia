@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-153",
+  "ref": "MDR 153",
+  "name": "Bassi–Bhandrej District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.5,
+  "route": {
+    "start": "Bassi, Rajasthan",
+    "end": "Bhandrej, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bassi",
+      "Lawan",
+      "Bhandrej"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bassi",
+      "coords": [
+        76.14228,
+        26.85634
+      ]
+    },
+    {
+      "name": "Lawan",
+      "coords": [
+        76.21298,
+        26.77334
+      ]
+    },
+    {
+      "name": "Bhandrej",
+      "coords": [
+        76.43947,
+        26.7784
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

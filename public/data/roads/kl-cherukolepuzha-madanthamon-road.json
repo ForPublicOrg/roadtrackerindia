@@ -1,0 +1,43 @@
+{
+  "id": "kl-cherukolepuzha-madanthamon-road",
+  "ref": "MDR",
+  "name": "Cherukolepuzha - Madanthamon Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Ranni",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.72406,
+        9.35272
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.77422,
+        9.37998
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-461b",
+  "ref": "NH 461B",
+  "name": "Hingoli–Malegaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 105.6,
+  "route": {
+    "start": "Hingoli, Maharashtra",
+    "end": "Malegaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Hingoli",
+      "Sengaon",
+      "Risod",
+      "Malegaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hingoli",
+      "coords": [
+        77.14537,
+        19.71152
+      ]
+    },
+    {
+      "name": "Sengaon",
+      "coords": [
+        76.88758,
+        19.78438
+      ]
+    },
+    {
+      "name": "Risod",
+      "coords": [
+        76.78465,
+        19.98762
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        76.98409,
+        20.23539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

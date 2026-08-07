@@ -1,0 +1,62 @@
+{
+  "id": "nh-227f",
+  "ref": "NH 227F",
+  "name": "Chakia–Bairgania National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 42.4,
+  "route": {
+    "start": "Chakia, Bihar",
+    "end": "Bairgania, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Chakia",
+      "Pakridayal",
+      "Dhaka",
+      "Bairgania"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chakia",
+      "coords": [
+        85.03735,
+        26.43637
+      ]
+    },
+    {
+      "name": "Pakridayal",
+      "coords": [
+        85.06309,
+        26.55414
+      ]
+    },
+    {
+      "name": "Dhaka",
+      "coords": [
+        85.16428,
+        26.67337
+      ]
+    },
+    {
+      "name": "Bairgania",
+      "coords": [
+        85.24403,
+        26.72722
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

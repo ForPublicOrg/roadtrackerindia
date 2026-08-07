@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2502",
+  "ref": "ODR 2502",
+  "name": "Melapattai–Arcot District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Melapattai, Tamil Nadu",
+    "end": "Arcot, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapattai",
+      "Arcot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapattai",
+      "coords": [
+        79.30881,
+        12.79846
+      ]
+    },
+    {
+      "name": "Arcot",
+      "coords": [
+        79.31907,
+        12.78793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

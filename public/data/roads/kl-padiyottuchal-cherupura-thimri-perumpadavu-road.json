@@ -1,0 +1,42 @@
+{
+  "id": "kl-padiyottuchal-cherupura-thimri-perumpadavu-road",
+  "ref": "MDR",
+  "name": "Padiyottuchal Cherupura Thimri Perumpadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.3,
+  "route": {
+    "start": "Karuvanchal, Kerala",
+    "end": "Cherupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karuvanchal",
+      "Cherupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.38093,
+        12.16842
+      ]
+    },
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.36218,
+        12.24796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

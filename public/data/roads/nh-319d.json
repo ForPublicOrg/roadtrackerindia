@@ -1,0 +1,54 @@
+{
+  "id": "nh-319d",
+  "ref": "NH 319D",
+  "name": "Shahganj–Jhusi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 107.3,
+  "route": {
+    "start": "Shahganj, Uttar Pradesh",
+    "end": "Jhusi, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Shahganj",
+      "Mungra Badshahpur",
+      "Jhusi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahganj",
+      "coords": [
+        82.67492,
+        26.0592
+      ]
+    },
+    {
+      "name": "Mungra Badshahpur",
+      "coords": [
+        82.18973,
+        25.65754
+      ]
+    },
+    {
+      "name": "Jhusi",
+      "coords": [
+        81.935,
+        25.42797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

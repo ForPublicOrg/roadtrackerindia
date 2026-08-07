@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1001",
+  "ref": "MDR 1001",
+  "name": "Vepanapalli–Krishnagiri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.4,
+  "route": {
+    "start": "Vepanapalli, Tamil Nadu",
+    "end": "Krishnagiri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vepanapalli",
+      "Krishnagiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vepanapalli",
+      "coords": [
+        78.14592,
+        12.73836
+      ]
+    },
+    {
+      "name": "Krishnagiri",
+      "coords": [
+        78.12944,
+        12.60035
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

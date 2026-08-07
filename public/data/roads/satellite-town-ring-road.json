@@ -1,0 +1,102 @@
+{
+  "id": "satellite-town-ring-road",
+  "ref": "NH",
+  "name": "Satellite Town Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 279.7,
+  "route": {
+    "start": "Devanahalli, Karnataka",
+    "end": "Vijayapura, Karnataka",
+    "states": [
+      "Karnataka",
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Devanahalli",
+      "Hoskote",
+      "Anekal",
+      "Ramanagara",
+      "Magadi",
+      "Dabaspete",
+      "Doddaballapura",
+      "Vijayapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Devanahalli",
+      "coords": [
+        77.72443,
+        13.266
+      ]
+    },
+    {
+      "name": "Hoskote",
+      "coords": [
+        77.82458,
+        13.06911
+      ]
+    },
+    {
+      "name": "Anekal",
+      "coords": [
+        77.67716,
+        12.69023
+      ]
+    },
+    {
+      "name": "Harohalli",
+      "coords": [
+        77.47608,
+        12.62575
+      ]
+    },
+    {
+      "name": "Ramanagara",
+      "coords": [
+        77.30211,
+        12.71527
+      ]
+    },
+    {
+      "name": "Magadi",
+      "coords": [
+        77.24403,
+        12.95126
+      ]
+    },
+    {
+      "name": "Dabaspete",
+      "coords": [
+        77.23171,
+        13.2245
+      ]
+    },
+    {
+      "name": "Doddaballapura",
+      "coords": [
+        77.53673,
+        13.27632
+      ]
+    },
+    {
+      "name": "Devanahalli",
+      "coords": [
+        77.71605,
+        13.26697
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

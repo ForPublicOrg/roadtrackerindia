@@ -1,0 +1,75 @@
+{
+  "id": "sh-br-69",
+  "ref": "SH 69",
+  "name": "Chhatarpur–Paliganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175.8,
+  "route": {
+    "start": "Chhatarpur, Jharkhand",
+    "end": "Paliganj, Bihar",
+    "states": [
+      "Jharkhand",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Chhatarpur",
+      "Dumaria",
+      "Imamganj",
+      "Sherghati",
+      "Kurtha",
+      "Paliganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhatarpur",
+      "coords": [
+        84.23011,
+        24.4589
+      ]
+    },
+    {
+      "name": "Dumaria",
+      "coords": [
+        84.39197,
+        24.44264
+      ]
+    },
+    {
+      "name": "Imamganj",
+      "coords": [
+        84.58032,
+        24.45601
+      ]
+    },
+    {
+      "name": "Sherghati",
+      "coords": [
+        84.78975,
+        24.57107
+      ]
+    },
+    {
+      "name": "Kurtha",
+      "coords": [
+        84.81175,
+        25.12031
+      ]
+    },
+    {
+      "name": "Paliganj",
+      "coords": [
+        84.80154,
+        25.32726
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

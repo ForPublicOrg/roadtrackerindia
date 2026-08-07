@@ -1,0 +1,58 @@
+{
+  "id": "odr-tn-3409",
+  "ref": "ODR 3409",
+  "name": "Sithalapakkam–Rajakilpakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Sithalapakkam, Tamil Nadu",
+    "end": "Rajakilpakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sithalapakkam",
+      "Madambakkam",
+      "Tambaram",
+      "Rajakilpakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sithalapakkam",
+      "coords": [
+        80.17377,
+        12.8956
+      ]
+    },
+    {
+      "name": "Madambakkam",
+      "coords": [
+        80.16178,
+        12.89828
+      ]
+    },
+    {
+      "name": "Rajakilpakkam",
+      "coords": [
+        80.15489,
+        12.91379
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.15188,
+        12.92269
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

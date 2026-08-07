@@ -1,0 +1,42 @@
+{
+  "id": "kl-delamapady-panjikkal-road",
+  "ref": "MDR",
+  "name": "Delamapady - Panjikkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Sulya, Kerala",
+    "end": "Panathur, Karnataka",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sulya",
+      "Panathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sulya",
+      "coords": [
+        75.29036,
+        12.59982
+      ]
+    },
+    {
+      "name": "Panathur",
+      "coords": [
+        75.32486,
+        12.58051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

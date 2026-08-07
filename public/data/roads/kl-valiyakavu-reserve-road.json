@@ -1,0 +1,42 @@
+{
+  "id": "kl-valiyakavu-reserve-road",
+  "ref": "MDR",
+  "name": "Valiyakavu Reserve Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.4,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Manimala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Manimala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.78052,
+        9.39092
+      ]
+    },
+    {
+      "name": "Manimala",
+      "coords": [
+        76.78425,
+        9.46061
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

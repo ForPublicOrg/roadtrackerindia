@@ -1,0 +1,46 @@
+{
+  "id": "nh-527",
+  "ref": "NH 527",
+  "name": "Forbesganj–Jogbani National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "route": {
+    "start": "Forbesganj, Bihar",
+    "end": "Jogbani, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Forbesganj",
+      "Jogbani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Forbesganj",
+      "coords": [
+        87.24606,
+        26.30063
+      ]
+    },
+    {
+      "name": "Jogbani",
+      "coords": [
+        87.26439,
+        26.40029
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-parat-kunnothuparamba-poilur-road",
+  "ref": "MDR",
+  "name": "Parat - Kunnothuparamba - Poilur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Panoor, Kerala",
+    "end": "Peringatoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panoor",
+      "Peringatoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panoor",
+      "coords": [
+        75.64875,
+        11.76532
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.61624,
+        11.75369
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

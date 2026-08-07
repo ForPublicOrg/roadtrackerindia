@@ -1,0 +1,42 @@
+{
+  "id": "kl-mandalam-mavumpallam-karayathumchal-road",
+  "ref": "MDR",
+  "name": "Mandalam - Mavumpallam - Karayathumchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Naduvil, Kerala",
+    "end": "Chemperi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Naduvil",
+      "Chemperi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.50514,
+        12.12258
+      ]
+    },
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.52118,
+        12.10177
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-13",
+  "ref": "SH 13",
+  "name": "Nuh–Palwal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30,
+  "route": {
+    "start": "Nuh, Haryana",
+    "end": "Palwal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Nuh",
+      "Palwal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nuh",
+      "coords": [
+        77.02013,
+        28.11152
+      ]
+    },
+    {
+      "name": "Palwal",
+      "coords": [
+        77.31838,
+        28.14062
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

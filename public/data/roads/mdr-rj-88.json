@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-88",
+  "ref": "MDR 88",
+  "name": "Antah–Khanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 48.7,
+  "route": {
+    "start": "Antah, Rajasthan",
+    "end": "Khanpur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Antah",
+      "Sangod",
+      "Khanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Antah",
+      "coords": [
+        76.24086,
+        25.14793
+      ]
+    },
+    {
+      "name": "Sangod",
+      "coords": [
+        76.28858,
+        24.92391
+      ]
+    },
+    {
+      "name": "Khanpur",
+      "coords": [
+        76.39744,
+        24.78523
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

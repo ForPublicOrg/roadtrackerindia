@@ -1,0 +1,46 @@
+{
+  "id": "150-foot-ring-road",
+  "ref": "NH",
+  "name": "150 Foot Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 22.5,
+  "route": {
+    "start": "Rajkot, Gujarat",
+    "end": "Navagam, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Rajkot",
+      "Navagam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajkot",
+      "coords": [
+        70.79977,
+        22.24239
+      ]
+    },
+    {
+      "name": "Navagam",
+      "coords": [
+        70.85729,
+        22.33514
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

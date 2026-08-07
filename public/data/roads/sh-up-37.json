@@ -1,0 +1,51 @@
+{
+  "id": "sh-up-37",
+  "ref": "SH 37",
+  "name": "Kichha–Izatnagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 56.4,
+  "route": {
+    "start": "Kichha, Uttarakhand",
+    "end": "Izatnagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kichha",
+      "Baheri",
+      "Bareilly",
+      "Izatnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kichha",
+      "coords": [
+        79.51791,
+        28.87893
+      ]
+    },
+    {
+      "name": "Baheri",
+      "coords": [
+        79.48823,
+        28.7773
+      ]
+    },
+    {
+      "name": "Bareilly",
+      "coords": [
+        79.42059,
+        28.38787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

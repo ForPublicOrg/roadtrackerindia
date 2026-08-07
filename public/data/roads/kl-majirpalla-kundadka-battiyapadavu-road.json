@@ -1,0 +1,42 @@
+{
+  "id": "kl-majirpalla-kundadka-battiyapadavu-road",
+  "ref": "MDR",
+  "name": "Majirpalla - Kundadka - Battiyapadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Manjeshwar, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeshwar",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.93729,
+        12.72932
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.95172,
+        12.7512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

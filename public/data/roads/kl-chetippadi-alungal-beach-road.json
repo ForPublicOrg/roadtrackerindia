@@ -1,0 +1,42 @@
+{
+  "id": "kl-chetippadi-alungal-beach-road",
+  "ref": "MDR",
+  "name": "Chetippadi - Alungal Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Chettippadi, Kerala",
+    "end": "Parappanangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chettippadi",
+      "Parappanangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chettippadi",
+      "coords": [
+        75.85364,
+        11.07223
+      ]
+    },
+    {
+      "name": "Parappanangadi",
+      "coords": [
+        75.84524,
+        11.07004
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ancham-mile-moolakada-nanjamthavalam-road",
+  "ref": "MDR",
+  "name": "Ancham Mile - Moolakada - Nanjamthavalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Kozhinjampara, Kerala",
+    "end": "Nallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhinjampara",
+      "Nallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.82056,
+        10.69369
+      ]
+    },
+    {
+      "name": "Nallur",
+      "coords": [
+        76.86713,
+        10.67714
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

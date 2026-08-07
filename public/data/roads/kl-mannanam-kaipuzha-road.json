@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannanam-kaipuzha-road",
+  "ref": "MDR",
+  "name": "Mannanam Kaipuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Athirampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Athirampuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.50998,
+        9.64825
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.51863,
+        9.64727
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nh-719",
+  "ref": "NH 719",
+  "name": "Morar Cantonment–Etawah National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 98.2,
+  "route": {
+    "start": "Morar Cantonment, Madhya Pradesh",
+    "end": "Etawah, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Morar Cantonment",
+      "Gohad",
+      "Mahgawan",
+      "Bhind",
+      "Etawah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.26412,
+        26.31071
+      ]
+    },
+    {
+      "name": "Gohad",
+      "coords": [
+        78.40262,
+        26.44893
+      ]
+    },
+    {
+      "name": "Mahgawan",
+      "coords": [
+        78.60781,
+        26.50246
+      ]
+    },
+    {
+      "name": "Bhind",
+      "coords": [
+        78.78037,
+        26.562
+      ]
+    },
+    {
+      "name": "Etawah",
+      "coords": [
+        79.03489,
+        26.75711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

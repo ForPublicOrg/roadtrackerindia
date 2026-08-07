@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-180",
+  "ref": "SH 180",
+  "name": "Eru–Valod State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32.7,
+  "route": {
+    "start": "Eru, Gujarat",
+    "end": "Valod, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Eru",
+      "Navsari",
+      "Valod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Eru",
+      "coords": [
+        72.91756,
+        20.92178
+      ]
+    },
+    {
+      "name": "Kabilpore",
+      "coords": [
+        72.97409,
+        20.93087
+      ]
+    },
+    {
+      "name": "Valod",
+      "coords": [
+        73.18468,
+        20.9502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

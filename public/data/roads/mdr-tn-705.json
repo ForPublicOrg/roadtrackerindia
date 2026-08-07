@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-705",
+  "ref": "MDR 705",
+  "name": "Burma Colony–Pattukkottai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 56.8,
+  "route": {
+    "start": "Burma Colony, Tamil Nadu",
+    "end": "Pattukkottai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Burma Colony",
+      "Thanjavur",
+      "Karambakudi",
+      "Pattukkottai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Burma Colony",
+      "coords": [
+        79.14042,
+        10.76326
+      ]
+    },
+    {
+      "name": "Karambakudi",
+      "coords": [
+        79.13719,
+        10.45803
+      ]
+    },
+    {
+      "name": "Pattukkottai",
+      "coords": [
+        79.25648,
+        10.40617
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

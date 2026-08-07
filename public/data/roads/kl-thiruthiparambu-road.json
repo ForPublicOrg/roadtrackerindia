@@ -1,0 +1,49 @@
+{
+  "id": "kl-thiruthiparambu-road",
+  "ref": "MDR",
+  "name": "Thiruthiparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Thachudaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thachudaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.3071,
+        10.28808
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.30756,
+        10.29976
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.30663,
+        10.30405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

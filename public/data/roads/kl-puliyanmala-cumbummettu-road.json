@@ -1,0 +1,42 @@
+{
+  "id": "kl-puliyanmala-cumbummettu-road",
+  "ref": "MDR",
+  "name": "Puliyanmala - Cumbummettu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.4,
+  "route": {
+    "start": "Parakadavu, Kerala",
+    "end": "Cumbum, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakadavu",
+      "Cumbum"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.1541,
+        9.7506
+      ]
+    },
+    {
+      "name": "Cumbum",
+      "coords": [
+        77.21889,
+        9.74677
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-84",
+  "ref": "MDR 84",
+  "name": "Beawar–Mandal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 88.2,
+  "route": {
+    "start": "Beawar, Rajasthan",
+    "end": "Mandal, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Beawar",
+      "Asind",
+      "Mandal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Beawar",
+      "coords": [
+        74.2817,
+        26.03088
+      ]
+    },
+    {
+      "name": "Asind",
+      "coords": [
+        74.33611,
+        25.73443
+      ]
+    },
+    {
+      "name": "Mandal",
+      "coords": [
+        74.48975,
+        25.55385
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

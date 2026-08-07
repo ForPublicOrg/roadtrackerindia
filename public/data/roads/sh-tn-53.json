@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-53",
+  "ref": "SH 53",
+  "name": "Nagari–Pallipattu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 12.5,
+  "route": {
+    "start": "Nagari, Tamil Nadu",
+    "end": "Pallipattu, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nagari",
+      "Pallipattu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagari",
+      "coords": [
+        79.5382,
+        13.32309
+      ]
+    },
+    {
+      "name": "Pallipattu",
+      "coords": [
+        79.43956,
+        13.33822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

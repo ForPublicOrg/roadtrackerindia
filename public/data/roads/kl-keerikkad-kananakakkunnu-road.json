@@ -1,0 +1,42 @@
+{
+  "id": "kl-keerikkad-kananakakkunnu-road",
+  "ref": "MDR",
+  "name": "Keerikkad - Kananakakkunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.48063,
+        9.20707
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.44368,
+        9.2021
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

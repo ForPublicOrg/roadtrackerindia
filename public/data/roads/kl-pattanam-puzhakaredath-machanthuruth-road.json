@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattanam-puzhakaredath-machanthuruth-road",
+  "ref": "MDR",
+  "name": "Pattanam-Puzhakaredath Machanthuruth Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "North Paravur, Kerala",
+    "end": "Cherai, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "North Paravur",
+      "Cherai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.21277,
+        10.15635
+      ]
+    },
+    {
+      "name": "Cherai",
+      "coords": [
+        76.19549,
+        10.1571
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

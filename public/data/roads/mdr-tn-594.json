@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-594",
+  "ref": "MDR 594",
+  "name": "Gajelnaickenpati–Karipatti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 38,
+  "route": {
+    "start": "Gajelnaickenpati, Tamil Nadu",
+    "end": "Karipatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Gajelnaickenpati",
+      "Komarapalayam",
+      "Karipatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gajelnaickenpati",
+      "coords": [
+        78.14814,
+        11.58838
+      ]
+    },
+    {
+      "name": "Komarapalayam",
+      "coords": [
+        78.16281,
+        11.56463
+      ]
+    },
+    {
+      "name": "Karipatti",
+      "coords": [
+        78.3362,
+        11.65774
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

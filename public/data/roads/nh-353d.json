@@ -1,0 +1,79 @@
+{
+  "id": "nh-353d",
+  "ref": "NH 353D",
+  "name": "Armori–Bahadura National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 129.7,
+  "route": {
+    "start": "Armori, Maharashtra",
+    "end": "Bahadura, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Armori",
+      "Bramhapuri",
+      "Nagbhid",
+      "Bhiwapur",
+      "Umred",
+      "Nagpur",
+      "Bahadura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Armori",
+      "coords": [
+        79.97863,
+        20.4706
+      ]
+    },
+    {
+      "name": "Bramhapuri",
+      "coords": [
+        79.85882,
+        20.60608
+      ]
+    },
+    {
+      "name": "Nagbhid",
+      "coords": [
+        79.67949,
+        20.58022
+      ]
+    },
+    {
+      "name": "Bhiwapur",
+      "coords": [
+        79.51991,
+        20.76608
+      ]
+    },
+    {
+      "name": "Umred",
+      "coords": [
+        79.33024,
+        20.84113
+      ]
+    },
+    {
+      "name": "Nagpur",
+      "coords": [
+        79.13103,
+        21.114
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

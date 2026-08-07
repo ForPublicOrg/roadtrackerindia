@@ -1,0 +1,50 @@
+{
+  "id": "sh-pb-25",
+  "ref": "SH 25",
+  "name": "Gurdaspur–Talwara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49.8,
+  "route": {
+    "start": "Gurdaspur, Punjab",
+    "end": "Talwara, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Gurdaspur",
+      "Mukerian",
+      "Talwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gurdaspur",
+      "coords": [
+        75.41221,
+        32.03268
+      ]
+    },
+    {
+      "name": "Mukerian",
+      "coords": [
+        75.6131,
+        31.95004
+      ]
+    },
+    {
+      "name": "Talwara",
+      "coords": [
+        75.87601,
+        31.94368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nh-328",
+  "ref": "NH 328",
+  "name": "Maharajganj–Basti National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 90,
+  "route": {
+    "start": "Maharajganj, Uttar Pradesh",
+    "end": "Basti, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Maharajganj",
+      "Mehdawal",
+      "Basti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maharajganj",
+      "coords": [
+        83.59187,
+        26.9694
+      ]
+    },
+    {
+      "name": "Mehdawal",
+      "coords": [
+        83.10458,
+        26.98207
+      ]
+    },
+    {
+      "name": "Basti",
+      "coords": [
+        82.78075,
+        26.82747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

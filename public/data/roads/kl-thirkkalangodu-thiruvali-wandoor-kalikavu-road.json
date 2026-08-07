@@ -1,0 +1,50 @@
+{
+  "id": "kl-thirkkalangodu-thiruvali-wandoor-kalikavu-road",
+  "ref": "MDR",
+  "name": "Thirkkalangodu - Thiruvali - Wandoor - Kalikavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.3,
+  "route": {
+    "start": "Kalikavu, Kerala",
+    "end": "Manjeri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalikavu",
+      "Wandoor",
+      "Manjeri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalikavu",
+      "coords": [
+        76.32277,
+        11.1732
+      ]
+    },
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.23417,
+        11.19604
+      ]
+    },
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.13016,
+        11.16437
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-3115",
+  "ref": "MDR 3115",
+  "name": "BHEL Township–Ibrahimpura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "BHEL Township, Madhya Pradesh",
+    "end": "Ibrahimpura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "BHEL Township",
+      "Ibrahimpura",
+      "Bhopal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "BHEL Township",
+      "coords": [
+        77.4372,
+        23.22346
+      ]
+    },
+    {
+      "name": "Ibrahimpura",
+      "coords": [
+        77.40661,
+        23.22521
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.38881,
+        23.22738
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

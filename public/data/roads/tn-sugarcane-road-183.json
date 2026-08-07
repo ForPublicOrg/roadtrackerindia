@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-183",
+  "ref": "SCR",
+  "name": "Sugarcane Road 183",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Arakkonam, Tamil Nadu",
+    "end": "Thakkolam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Arakkonam",
+      "Thakkolam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.73856,
+        13.08586
+      ]
+    },
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.71748,
+        13.08418
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kl-panachikadu-temple-eravinalloor-road",
+  "ref": "MDR",
+  "name": "Panachikadu Temple - Eravinalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Puthuppally, Kerala",
+    "end": "Chingavanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthuppally",
+      "Chingavanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.56078,
+        9.54942
+      ]
+    },
+    {
+      "name": "Devalokam",
+      "coords": [
+        76.557,
+        9.54935
+      ]
+    },
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.54692,
+        9.53627
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

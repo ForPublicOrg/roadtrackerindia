@@ -1,0 +1,42 @@
+{
+  "id": "ap-koilakuntka-banaganapalle-road",
+  "ref": "SH",
+  "name": "Koilakuntka - Banaganapalle Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 13.4,
+  "route": {
+    "start": "Koilakuntla, Andhra Pradesh",
+    "end": "Banaganapalle, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Koilakuntla",
+      "Banaganapalle"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koilakuntla",
+      "coords": [
+        78.31205,
+        15.23292
+      ]
+    },
+    {
+      "name": "Banaganapalle",
+      "coords": [
+        78.22655,
+        15.30959
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

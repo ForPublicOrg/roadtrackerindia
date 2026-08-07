@@ -1,0 +1,42 @@
+{
+  "id": "kl-valiyaparambu-kuzhur-road",
+  "ref": "MDR",
+  "name": "Valiyaparambu - Kuzhur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Angamaly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.29613,
+        10.20967
+      ]
+    },
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.30139,
+        10.20047
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

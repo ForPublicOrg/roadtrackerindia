@@ -1,0 +1,63 @@
+{
+  "id": "nh-73a",
+  "ref": "NH 73A",
+  "name": "Paonta Sahib–Jagadhari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 53.2,
+  "route": {
+    "start": "Paonta Sahib, Himachal Pradesh",
+    "end": "Jagadhari, Haryana",
+    "states": [
+      "Himachal Pradesh",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Paonta Sahib",
+      "Chhachhrauli",
+      "Yamunanagar",
+      "Jagadhari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paonta Sahib",
+      "coords": [
+        77.57562,
+        30.43633
+      ]
+    },
+    {
+      "name": "Chhachhrauli",
+      "coords": [
+        77.35957,
+        30.23806
+      ]
+    },
+    {
+      "name": "Yamunanagar",
+      "coords": [
+        77.31104,
+        30.1557
+      ]
+    },
+    {
+      "name": "Jagadhari",
+      "coords": [
+        77.29812,
+        30.1648
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

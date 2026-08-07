@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-501",
+  "ref": "MDR 501",
+  "name": "Seondha–Maharajpura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Seondha, Madhya Pradesh",
+    "end": "Maharajpura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Seondha",
+      "Maharajpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Seondha",
+      "coords": [
+        78.78163,
+        26.14316
+      ]
+    },
+    {
+      "name": "Maharajpura",
+      "coords": [
+        78.8272,
+        26.11804
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

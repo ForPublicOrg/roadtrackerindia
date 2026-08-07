@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-124",
+  "ref": "MDR 124",
+  "name": "Hosur–Attibele District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Hosur, Tamil Nadu",
+    "end": "Attibele, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Hosur",
+      "Attibele"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hosur",
+      "coords": [
+        77.82221,
+        12.71925
+      ]
+    },
+    {
+      "name": "Attibele",
+      "coords": [
+        77.82862,
+        12.73209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

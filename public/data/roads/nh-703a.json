@@ -1,0 +1,77 @@
+{
+  "id": "nh-703a",
+  "ref": "NH 703A",
+  "name": "Jalandhar–Sehjra National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 103.7,
+  "route": {
+    "start": "Jalandhar, Punjab",
+    "end": "Sehjra, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Jalandhar",
+      "RCF Colony",
+      "Sultanpur Lodhi",
+      "Makhu",
+      "Sehjra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalandhar",
+      "coords": [
+        75.57169,
+        31.31889
+      ]
+    },
+    {
+      "name": "Kapurthala",
+      "coords": [
+        75.37855,
+        31.3723
+      ]
+    },
+    {
+      "name": "Sultanpur Lodhi",
+      "coords": [
+        75.19027,
+        31.2128
+      ]
+    },
+    {
+      "name": "Lohian",
+      "coords": [
+        75.20509,
+        31.16774
+      ]
+    },
+    {
+      "name": "Makhu",
+      "coords": [
+        74.97948,
+        31.11243
+      ]
+    },
+    {
+      "name": "Sehjra",
+      "coords": [
+        74.73834,
+        31.03776
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

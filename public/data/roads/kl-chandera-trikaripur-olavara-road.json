@@ -1,0 +1,72 @@
+{
+  "id": "kl-chandera-trikaripur-olavara-road",
+  "ref": "MDR",
+  "name": "Chandera - Trikaripur - Olavara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Kalikadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Kothaymukku",
+      "Thrikaripur",
+      "Kalikadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.18965,
+        12.09868
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.18447,
+        12.11834
+      ]
+    },
+    {
+      "name": "Thrikaripur",
+      "coords": [
+        75.17673,
+        12.14162
+      ]
+    },
+    {
+      "name": "Onakkunnu",
+      "coords": [
+        75.17873,
+        12.15886
+      ]
+    },
+    {
+      "name": "Karivellur",
+      "coords": [
+        75.1765,
+        12.16899
+      ]
+    },
+    {
+      "name": "Kalikadavu",
+      "coords": [
+        75.16914,
+        12.19116
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

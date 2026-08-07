@@ -1,0 +1,50 @@
+{
+  "id": "kl-pallom-thottakkad-road",
+  "ref": "MDR",
+  "name": "Pallom - Thottakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Karukachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Puthuppally",
+      "Karukachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.5164,
+        9.53305
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.56096,
+        9.52493
+      ]
+    },
+    {
+      "name": "Karukachal",
+      "coords": [
+        76.60277,
+        9.52456
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

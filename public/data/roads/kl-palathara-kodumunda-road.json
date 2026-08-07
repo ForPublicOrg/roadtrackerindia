@@ -1,0 +1,42 @@
+{
+  "id": "kl-palathara-kodumunda-road",
+  "ref": "MDR",
+  "name": "Palathara - Kodumunda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Pattambi, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pattambi",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.14932,
+        10.80919
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.12265,
+        10.83011
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-oyoor-vappala-road",
+  "ref": "MDR",
+  "name": "Oyoor - Vappala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Ayoor, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ayoor",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.78992,
+        8.90396
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.79408,
+        8.93982
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

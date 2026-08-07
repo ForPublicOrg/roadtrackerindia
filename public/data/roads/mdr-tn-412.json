@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-412",
+  "ref": "MDR 412",
+  "name": "Peyode–Ramavarmapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.4,
+  "route": {
+    "start": "Peyode, Tamil Nadu",
+    "end": "Ramavarmapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Peyode",
+      "Thammathukonam",
+      "Nagercoil",
+      "Ramavarmapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peyode",
+      "coords": [
+        77.32938,
+        8.14247
+      ]
+    },
+    {
+      "name": "Thammathukonam",
+      "coords": [
+        77.38586,
+        8.16579
+      ]
+    },
+    {
+      "name": "Asaripallam",
+      "coords": [
+        77.39128,
+        8.17369
+      ]
+    },
+    {
+      "name": "Melasurankudy",
+      "coords": [
+        77.40368,
+        8.17498
+      ]
+    },
+    {
+      "name": "Nagercoil",
+      "coords": [
+        77.42106,
+        8.17973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-anamala-kurumalloor-road",
+  "ref": "MDR",
+  "name": "Anamala Kurumalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Athirampuzha, Kerala",
+    "end": "Neendoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athirampuzha",
+      "Ettumanoor",
+      "Neendoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.53857,
+        9.68466
+      ]
+    },
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.53651,
+        9.68834
+      ]
+    },
+    {
+      "name": "Neendoor",
+      "coords": [
+        76.51943,
+        9.6967
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

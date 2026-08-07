@@ -1,0 +1,42 @@
+{
+  "id": "kl-neriamangalam-palamattom-road-via-avolichal",
+  "ref": "MDR",
+  "name": "Neriamangalam - Palamattom Road (via Avolichal)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "Neriamangalam, Kerala",
+    "end": "Kothamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neriamangalam",
+      "Kothamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.77358,
+        10.05314
+      ]
+    },
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.67346,
+        10.10796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

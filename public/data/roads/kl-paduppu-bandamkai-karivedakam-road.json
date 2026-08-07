@@ -1,0 +1,42 @@
+{
+  "id": "kl-paduppu-bandamkai-karivedakam-road",
+  "ref": "MDR",
+  "name": "Paduppu - Bandamkai - Karivedakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Odayamchal, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Odayamchal",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.25618,
+        12.47436
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.25193,
+        12.49747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vattappanakadu-alumkuzhi-elavattom-road",
+  "ref": "MDR",
+  "name": "Vattappanakadu - Alumkuzhi - Elavattom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.03978,
+        8.67286
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.02281,
+        8.67647
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

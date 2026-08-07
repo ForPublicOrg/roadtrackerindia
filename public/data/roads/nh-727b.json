@@ -1,0 +1,62 @@
+{
+  "id": "nh-727b",
+  "ref": "NH 727B",
+  "name": "Ballia–Tamkuhi Raj National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 137.2,
+  "route": {
+    "start": "Ballia, Uttar Pradesh",
+    "end": "Tamkuhi Raj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Ballia",
+      "Salempur",
+      "Tamkuhi Raj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ballia",
+      "coords": [
+        84.14597,
+        25.76212
+      ]
+    },
+    {
+      "name": "Belthara Road",
+      "coords": [
+        83.86721,
+        26.13148
+      ]
+    },
+    {
+      "name": "Salempur",
+      "coords": [
+        83.92941,
+        26.28968
+      ]
+    },
+    {
+      "name": "Tamkuhi Raj",
+      "coords": [
+        84.17962,
+        26.68859
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

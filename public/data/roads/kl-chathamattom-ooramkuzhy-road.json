@@ -1,0 +1,42 @@
+{
+  "id": "kl-chathamattom-ooramkuzhy-road",
+  "ref": "MDR",
+  "name": "Chathamattom - Ooramkuzhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Kothamangalam, Kerala",
+    "end": "Velloorkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothamangalam",
+      "Velloorkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.58534,
+        10.03895
+      ]
+    },
+    {
+      "name": "Velloorkunnam",
+      "coords": [
+        76.62597,
+        10.03156
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

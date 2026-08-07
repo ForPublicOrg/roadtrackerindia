@@ -1,0 +1,42 @@
+{
+  "id": "kl-kurichy-karunattuvala-road",
+  "ref": "MDR",
+  "name": "Kurichy - Karunattuvala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Vadakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Vadakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.50868,
+        9.50289
+      ]
+    },
+    {
+      "name": "Vadakkekara",
+      "coords": [
+        76.52492,
+        9.50021
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

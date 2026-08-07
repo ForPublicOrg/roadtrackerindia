@@ -1,0 +1,74 @@
+{
+  "id": "sh-mp-55",
+  "ref": "SH 55",
+  "name": "Ajaigarh–Vijay Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 276.2,
+  "route": {
+    "start": "Ajaigarh, Uttar Pradesh",
+    "end": "Vijay Nagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ajaigarh",
+      "Panna",
+      "Amanganj",
+      "Hatta",
+      "Damoh",
+      "Vijay Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ajaigarh",
+      "coords": [
+        80.33098,
+        24.99427
+      ]
+    },
+    {
+      "name": "Panna",
+      "coords": [
+        80.18677,
+        24.73025
+      ]
+    },
+    {
+      "name": "Amanganj",
+      "coords": [
+        80.0245,
+        24.43225
+      ]
+    },
+    {
+      "name": "Hatta",
+      "coords": [
+        79.60231,
+        24.1268
+      ]
+    },
+    {
+      "name": "Damoh",
+      "coords": [
+        79.44496,
+        23.85154
+      ]
+    },
+    {
+      "name": "Vijay Nagar",
+      "coords": [
+        79.8945,
+        23.2262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

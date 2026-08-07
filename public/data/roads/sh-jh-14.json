@@ -1,0 +1,72 @@
+{
+  "id": "sh-jh-14",
+  "ref": "SH 14",
+  "name": "Dumri–Deoghar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 152.7,
+  "route": {
+    "start": "Dumri, Jharkhand",
+    "end": "Deoghar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dumri",
+      "Giridih",
+      "Madhupur",
+      "Deoghar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dumri",
+      "coords": [
+        86.01232,
+        23.99393
+      ]
+    },
+    {
+      "name": "Giridih",
+      "coords": [
+        86.30822,
+        24.18539
+      ]
+    },
+    {
+      "name": "Baramasia",
+      "coords": [
+        86.30916,
+        24.1899
+      ]
+    },
+    {
+      "name": "Madhupur",
+      "coords": [
+        86.64122,
+        24.27429
+      ]
+    },
+    {
+      "name": "Sarwan",
+      "coords": [
+        86.7775,
+        24.37857
+      ]
+    },
+    {
+      "name": "Deoghar",
+      "coords": [
+        86.69938,
+        24.48571
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

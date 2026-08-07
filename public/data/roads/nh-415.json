@@ -1,0 +1,71 @@
+{
+  "id": "nh-415",
+  "ref": "NH 415",
+  "name": "Nirjuli–Gohpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 59.4,
+  "route": {
+    "start": "Nirjuli, Arunachal Pradesh",
+    "end": "Gohpur, Assam",
+    "states": [
+      "Arunachal Pradesh",
+      "Assam"
+    ],
+    "majorCities": [
+      "Nirjuli",
+      "Doimukh",
+      "Naharlagun",
+      "Itanagar",
+      "Gohpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nirjuli",
+      "coords": [
+        93.82375,
+        27.10856
+      ]
+    },
+    {
+      "name": "Doimukh",
+      "coords": [
+        93.75273,
+        27.13065
+      ]
+    },
+    {
+      "name": "Naharlagun",
+      "coords": [
+        93.69171,
+        27.10217
+      ]
+    },
+    {
+      "name": "Itanagar",
+      "coords": [
+        93.62431,
+        27.09632
+      ]
+    },
+    {
+      "name": "Gohpur",
+      "coords": [
+        93.62584,
+        26.8857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

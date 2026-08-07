@@ -1,0 +1,42 @@
+{
+  "id": "kl-annamanada-moozhikulam-road",
+  "ref": "MDR",
+  "name": "Annamanada - Moozhikulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Angamaly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.32876,
+        10.23449
+      ]
+    },
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.32384,
+        10.18941
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

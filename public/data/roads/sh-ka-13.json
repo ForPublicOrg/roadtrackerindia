@@ -1,0 +1,52 @@
+{
+  "id": "sh-ka-13",
+  "ref": "SH 13",
+  "name": "Mantralayam–Shaktinagara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59,
+  "route": {
+    "start": "Mantralayam, Andhra Pradesh",
+    "end": "Shaktinagara, Telangana",
+    "states": [
+      "Andhra Pradesh",
+      "Karnataka",
+      "Telangana"
+    ],
+    "majorCities": [
+      "Mantralayam",
+      "Raichur",
+      "Shaktinagara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mantralayam",
+      "coords": [
+        77.35517,
+        15.93592
+      ]
+    },
+    {
+      "name": "Raichur",
+      "coords": [
+        77.35665,
+        16.19107
+      ]
+    },
+    {
+      "name": "Shaktinagara",
+      "coords": [
+        77.34976,
+        16.36763
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

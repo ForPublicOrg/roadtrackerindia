@@ -1,0 +1,51 @@
+{
+  "id": "sh-up-30b",
+  "ref": "SH 30B",
+  "name": "Khairabad–Bahraich State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 88.9,
+  "route": {
+    "start": "Khairabad, Uttar Pradesh",
+    "end": "Bahraich, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Khairabad",
+      "Sitapur",
+      "Biswan",
+      "Bahraich"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khairabad",
+      "coords": [
+        80.71937,
+        27.54425
+      ]
+    },
+    {
+      "name": "Biswan",
+      "coords": [
+        80.99888,
+        27.49115
+      ]
+    },
+    {
+      "name": "Bahraich",
+      "coords": [
+        81.57115,
+        27.53734
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

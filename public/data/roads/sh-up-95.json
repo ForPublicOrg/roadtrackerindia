@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-95",
+  "ref": "SH 95",
+  "name": "Manauri–Paschim Sharira State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 36.5,
+  "route": {
+    "start": "Manauri, Uttar Pradesh",
+    "end": "Paschim Sharira, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Manauri",
+      "Sarai Aquil",
+      "Paschim Sharira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manauri",
+      "coords": [
+        81.66873,
+        25.48444
+      ]
+    },
+    {
+      "name": "Sarai Aquil",
+      "coords": [
+        81.51689,
+        25.37376
+      ]
+    },
+    {
+      "name": "Paschim Sharira",
+      "coords": [
+        81.38694,
+        25.35242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

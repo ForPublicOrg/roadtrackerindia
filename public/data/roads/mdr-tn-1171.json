@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1171",
+  "ref": "MDR 1171",
+  "name": "Giingee–Chetpet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.7,
+  "route": {
+    "start": "Giingee, Tamil Nadu",
+    "end": "Chetpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Giingee",
+      "Chetpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Giingee",
+      "coords": [
+        79.41683,
+        12.25254
+      ]
+    },
+    {
+      "name": "Chetpet",
+      "coords": [
+        79.33221,
+        12.28874
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-622",
+  "ref": "MDR 622",
+  "name": "Puzhuthivakkam–Moovarasampettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Puzhuthivakkam, Tamil Nadu",
+    "end": "Moovarasampettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Puzhuthivakkam",
+      "Narayanapuram",
+      "Madipakkam",
+      "Moovarasampettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhuthivakkam",
+      "coords": [
+        80.2143,
+        12.96391
+      ]
+    },
+    {
+      "name": "Madipakkam",
+      "coords": [
+        80.19925,
+        12.96482
+      ]
+    },
+    {
+      "name": "Moovarasampettai",
+      "coords": [
+        80.19141,
+        12.96541
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

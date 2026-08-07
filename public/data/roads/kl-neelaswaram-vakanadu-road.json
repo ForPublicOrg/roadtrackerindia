@@ -1,0 +1,42 @@
+{
+  "id": "kl-neelaswaram-vakanadu-road",
+  "ref": "MDR",
+  "name": "Neelaswaram - Vakanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Kundara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Kundara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.74969,
+        8.98448
+      ]
+    },
+    {
+      "name": "Kundara",
+      "coords": [
+        76.73039,
+        8.93736
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

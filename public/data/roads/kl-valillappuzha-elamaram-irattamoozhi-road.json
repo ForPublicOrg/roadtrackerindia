@@ -1,0 +1,49 @@
+{
+  "id": "kl-valillappuzha-elamaram-irattamoozhi-road",
+  "ref": "MDR",
+  "name": "Valillappuzha - Elamaram - Irattamoozhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Edavannappara, Kerala",
+    "end": "Mavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edavannappara",
+      "Mavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.99175,
+        11.24318
+      ]
+    },
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.96339,
+        11.25202
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.96255,
+        11.24447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "nh-333a",
+  "ref": "NH 333A",
+  "name": "Barbigha–Sundarpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 284,
+  "route": {
+    "start": "Barbigha, Bihar",
+    "end": "Sundarpur, Jharkhand",
+    "states": [
+      "Bihar",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barbigha",
+      "Sheikhpura",
+      "Jamui",
+      "Jhajha",
+      "Banka",
+      "Godda",
+      "Sundarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barbigha",
+      "coords": [
+        85.74044,
+        25.21074
+      ]
+    },
+    {
+      "name": "Sheikhpura",
+      "coords": [
+        85.8407,
+        25.14703
+      ]
+    },
+    {
+      "name": "Jamui",
+      "coords": [
+        86.22589,
+        24.93061
+      ]
+    },
+    {
+      "name": "Gidhaur",
+      "coords": [
+        86.30077,
+        24.85775
+      ]
+    },
+    {
+      "name": "Jhajha",
+      "coords": [
+        86.3754,
+        24.7712
+      ]
+    },
+    {
+      "name": "Banka",
+      "coords": [
+        86.92317,
+        24.88001
+      ]
+    },
+    {
+      "name": "Godda",
+      "coords": [
+        87.21271,
+        24.82373
+      ]
+    },
+    {
+      "name": "Sundarpur",
+      "coords": [
+        87.69729,
+        24.69439
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

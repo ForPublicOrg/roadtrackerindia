@@ -1,0 +1,42 @@
+{
+  "id": "kl-chethekkal-koothattukulam-road",
+  "ref": "MDR",
+  "name": "Chethekkal - Koothattukulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Karinkallummoozhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Karinkallummoozhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.80685,
+        9.43037
+      ]
+    },
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.85162,
+        9.4255
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

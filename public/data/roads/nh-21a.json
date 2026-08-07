@@ -1,0 +1,46 @@
+{
+  "id": "nh-21a",
+  "ref": "NH 21A",
+  "name": "Baddi–Pinjore National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 18.8,
+  "route": {
+    "start": "Baddi, Himachal Pradesh",
+    "end": "Pinjore, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Baddi",
+      "Pinjore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baddi",
+      "coords": [
+        76.80336,
+        30.92066
+      ]
+    },
+    {
+      "name": "Pinjore",
+      "coords": [
+        76.91507,
+        30.79913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

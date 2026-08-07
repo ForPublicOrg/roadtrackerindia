@@ -1,0 +1,42 @@
+{
+  "id": "kl-arumanoor-road",
+  "ref": "MDR",
+  "name": "Arumanoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Ettumanoor, Kerala",
+    "end": "Kidangoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ettumanoor",
+      "Kidangoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.56447,
+        9.67174
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.60271,
+        9.63455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

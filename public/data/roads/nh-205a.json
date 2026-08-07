@@ -1,0 +1,77 @@
+{
+  "id": "nh-205a",
+  "ref": "NH 205A",
+  "name": "Ambala–Kharar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.8,
+  "route": {
+    "start": "Ambala, Punjab",
+    "end": "Kharar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Ambala",
+      "Banur",
+      "Sector 102",
+      "Sector 94",
+      "Kharar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambala",
+      "coords": [
+        76.72687,
+        30.40943
+      ]
+    },
+    {
+      "name": "Banur",
+      "coords": [
+        76.72308,
+        30.55066
+      ]
+    },
+    {
+      "name": "Sector 102",
+      "coords": [
+        76.69217,
+        30.61891
+      ]
+    },
+    {
+      "name": "Sector 111",
+      "coords": [
+        76.66909,
+        30.67843
+      ]
+    },
+    {
+      "name": "Sector 94",
+      "coords": [
+        76.66417,
+        30.69167
+      ]
+    },
+    {
+      "name": "Kharar",
+      "coords": [
+        76.64143,
+        30.74989
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

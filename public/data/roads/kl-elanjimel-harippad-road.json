@@ -1,0 +1,50 @@
+{
+  "id": "kl-elanjimel-harippad-road",
+  "ref": "MDR",
+  "name": "Elanjimel - Harippad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Mavelikkara",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.57199,
+        9.29435
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.53083,
+        9.2801
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.46165,
+        9.28376
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

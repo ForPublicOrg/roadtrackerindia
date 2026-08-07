@@ -1,0 +1,42 @@
+{
+  "id": "kl-mayyanadu-sasthamkadavu-road",
+  "ref": "MDR",
+  "name": "Mayyanadu - Sasthamkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Mayyanad, Kerala",
+    "end": "Mevaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mayyanad",
+      "Mevaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mayyanad",
+      "coords": [
+        76.64687,
+        8.83907
+      ]
+    },
+    {
+      "name": "Mevaram",
+      "coords": [
+        76.64029,
+        8.83952
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

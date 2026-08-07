@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-203",
+  "ref": "MDR 203",
+  "name": "Jalore–Siwana District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 40.4,
+  "route": {
+    "start": "Jalore, Rajasthan",
+    "end": "Siwana, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jalore",
+      "Siwana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalore",
+      "coords": [
+        72.66176,
+        25.57031
+      ]
+    },
+    {
+      "name": "Siwana",
+      "coords": [
+        72.59473,
+        25.6327
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

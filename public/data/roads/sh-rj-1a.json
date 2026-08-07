@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-1a",
+  "ref": "SH 1A",
+  "name": "Malarna Doongar–Mandawari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Malarna Doongar, Rajasthan",
+    "end": "Mandawari, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Malarna Doongar",
+      "Mandawari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malarna Doongar",
+      "coords": [
+        76.50881,
+        26.21856
+      ]
+    },
+    {
+      "name": "Mandawari",
+      "coords": [
+        76.45885,
+        26.28301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

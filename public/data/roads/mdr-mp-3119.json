@@ -1,0 +1,51 @@
+{
+  "id": "mdr-mp-3119",
+  "ref": "MDR 3119",
+  "name": "BHEL Township–Ibrahimpura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "BHEL Township, Madhya Pradesh",
+    "end": "Ibrahimpura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "BHEL Township",
+      "Hoshangabad Road",
+      "Bhopal",
+      "Ibrahimpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "BHEL Township",
+      "coords": [
+        77.44294,
+        23.21238
+      ]
+    },
+    {
+      "name": "Chhatrasal Nagar",
+      "coords": [
+        77.4399,
+        23.24175
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.43064,
+        23.25199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

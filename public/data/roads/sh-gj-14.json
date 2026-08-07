@@ -1,0 +1,43 @@
+{
+  "id": "sh-gj-14",
+  "ref": "SH 14",
+  "name": "Subir–Ahwa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.6,
+  "route": {
+    "start": "Subir, Maharashtra",
+    "end": "Ahwa, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Subir",
+      "Ahwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Subir",
+      "coords": [
+        73.94594,
+        20.76086
+      ]
+    },
+    {
+      "name": "Ahwa",
+      "coords": [
+        73.69731,
+        20.76071
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-uthimoodu-peroorchal-road",
+  "ref": "MDR",
+  "name": "Uthimoodu – Peroorchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.79481,
+        9.3315
+      ]
+    },
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.76975,
+        9.35235
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

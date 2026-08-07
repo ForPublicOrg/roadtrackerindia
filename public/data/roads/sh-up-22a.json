@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-22a",
+  "ref": "SH 22A",
+  "name": "Aligarh–Khair State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Aligarh, Uttar Pradesh",
+    "end": "Khair, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Aligarh",
+      "Khair"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aligarh",
+      "coords": [
+        78.02361,
+        27.89212
+      ]
+    },
+    {
+      "name": "Khair",
+      "coords": [
+        78.07312,
+        27.8881
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

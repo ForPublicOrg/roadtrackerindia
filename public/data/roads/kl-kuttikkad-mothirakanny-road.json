@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuttikkad-mothirakanny-road",
+  "ref": "MDR",
+  "name": "Kuttikkad - Mothirakanny Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.4145,
+        10.32729
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.37982,
+        10.32065
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

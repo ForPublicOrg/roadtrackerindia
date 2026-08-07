@@ -1,0 +1,43 @@
+{
+  "id": "kl-swamipalam-mepral-road",
+  "ref": "MDR",
+  "name": "Swamipalam - Mepral Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Muthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Thiruvalla",
+      "Muthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.53305,
+        9.3951
+      ]
+    },
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.55178,
+        9.39186
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-punnekkadu-paradu-road",
+  "ref": "MDR",
+  "name": "Punnekkadu - Paradu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kothamangalam, Kerala",
+    "end": "Neriamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothamangalam",
+      "Neriamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.66982,
+        10.09398
+      ]
+    },
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.66882,
+        10.10578
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

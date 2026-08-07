@@ -1,0 +1,42 @@
+{
+  "id": "kl-vettathukavala-meenadaom-road",
+  "ref": "MDR",
+  "name": "Vettathukavala - Meenadaom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Puthuppally, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthuppally",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.58094,
+        9.54792
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.6427,
+        9.55121
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilayil-yatheemkhana-road",
+  "ref": "MDR",
+  "name": "Vilayil - Yatheemkhana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Omanoor, Kerala",
+    "end": "Edavannappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Omanoor",
+      "Edavannappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Omanoor",
+      "coords": [
+        76.00984,
+        11.20882
+      ]
+    },
+    {
+      "name": "Edavannappara",
+      "coords": [
+        76.00496,
+        11.2139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

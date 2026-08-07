@@ -1,0 +1,69 @@
+{
+  "id": "nh-703b",
+  "ref": "NH 703B",
+  "name": "Khalra–Moga National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 86.4,
+  "route": {
+    "start": "Khalra, Punjab",
+    "end": "Moga, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Khalra",
+      "Patti",
+      "Makhu",
+      "Moga"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khalra",
+      "coords": [
+        74.59778,
+        31.41337
+      ]
+    },
+    {
+      "name": "Bhikhiwind",
+      "coords": [
+        74.69331,
+        31.34427
+      ]
+    },
+    {
+      "name": "Patti",
+      "coords": [
+        74.81189,
+        31.26111
+      ]
+    },
+    {
+      "name": "Makhu",
+      "coords": [
+        74.99841,
+        31.11361
+      ]
+    },
+    {
+      "name": "Moga",
+      "coords": [
+        75.19018,
+        30.8617
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

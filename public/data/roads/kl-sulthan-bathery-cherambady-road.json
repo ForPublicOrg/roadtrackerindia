@@ -1,0 +1,42 @@
+{
+  "id": "kl-sulthan-bathery-cherambady-road",
+  "ref": "MDR",
+  "name": "Sulthan Bathery - Cherambady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.25665,
+        11.66085
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.25459,
+        11.58605
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

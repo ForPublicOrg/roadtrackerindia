@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjar-moonnumkavayal-manappady-road",
+  "ref": "MDR",
+  "name": "Kanjar - Moonnumkavayal - Manappady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Mechal, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mechal",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mechal",
+      "coords": [
+        76.80859,
+        9.81771
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.84701,
+        9.78553
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1250",
+  "ref": "MDR 1250",
+  "name": "Denkanikottai–Rayakottai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.4,
+  "route": {
+    "start": "Denkanikottai, Tamil Nadu",
+    "end": "Rayakottai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Denkanikottai",
+      "Rayakottai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Denkanikottai",
+      "coords": [
+        77.79104,
+        12.52223
+      ]
+    },
+    {
+      "name": "Rayakottai",
+      "coords": [
+        77.943,
+        12.46056
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

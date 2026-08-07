@@ -1,0 +1,54 @@
+{
+  "id": "nh-548cc",
+  "ref": "NH 548CC",
+  "name": "Mehkar–Khamgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 100.7,
+  "route": {
+    "start": "Mehkar, Maharashtra",
+    "end": "Khamgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mehkar",
+      "Chikhli",
+      "Khamgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mehkar",
+      "coords": [
+        76.55489,
+        20.15255
+      ]
+    },
+    {
+      "name": "Chikhli",
+      "coords": [
+        76.26304,
+        20.34521
+      ]
+    },
+    {
+      "name": "Khamgaon",
+      "coords": [
+        76.55433,
+        20.68846
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

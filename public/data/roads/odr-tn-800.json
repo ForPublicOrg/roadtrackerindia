@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-800",
+  "ref": "ODR 800",
+  "name": "Garden City–Gokulapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Garden City, Tamil Nadu",
+    "end": "Gokulapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Garden City",
+      "Gokulapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Garden City",
+      "coords": [
+        79.9241,
+        12.61298
+      ]
+    },
+    {
+      "name": "Gokulapuram",
+      "coords": [
+        79.92165,
+        12.62896
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

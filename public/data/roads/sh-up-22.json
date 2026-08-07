@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-22",
+  "ref": "SH 22",
+  "name": "Gaur City 2–Ghaziabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Gaur City 2, Uttar Pradesh",
+    "end": "Ghaziabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gaur City 2",
+      "Ghaziabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gaur City 2",
+      "coords": [
+        77.45985,
+        28.63715
+      ]
+    },
+    {
+      "name": "Ghaziabad",
+      "coords": [
+        77.42244,
+        28.66598
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

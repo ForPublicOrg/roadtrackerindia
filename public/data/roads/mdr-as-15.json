@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-15",
+  "ref": "MDR 15",
+  "name": "Dullabhcherra–Katlicherra District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Dullabhcherra, Assam",
+    "end": "Katlicherra, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dullabhcherra",
+      "Katlicherra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dullabhcherra",
+      "coords": [
+        92.43427,
+        24.48417
+      ]
+    },
+    {
+      "name": "Katlicherra",
+      "coords": [
+        92.49018,
+        24.46051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

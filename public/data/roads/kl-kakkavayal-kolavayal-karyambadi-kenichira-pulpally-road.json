@@ -1,0 +1,42 @@
+{
+  "id": "kl-kakkavayal-kolavayal-karyambadi-kenichira-pulpally-road",
+  "ref": "MDR",
+  "name": "Kakkavayal-Kolavayal-Karyambadi-Kenichira-Pulpally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.6,
+  "route": {
+    "start": "Perikkalloor, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perikkalloor",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.17527,
+        11.76976
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.12149,
+        11.64793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

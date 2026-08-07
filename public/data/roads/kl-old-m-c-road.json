@@ -1,0 +1,57 @@
+{
+  "id": "kl-old-m-c-road",
+  "ref": "MDR",
+  "name": "Old M.C road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Kumaranalloor, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaranalloor",
+      "Mannanam",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.53972,
+        9.62508
+      ]
+    },
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.548,
+        9.64173
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.55175,
+        9.65794
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.55663,
+        9.66854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

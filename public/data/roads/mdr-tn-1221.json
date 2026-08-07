@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1221",
+  "ref": "MDR 1221",
+  "name": "Andimadam–Udayarpalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.2,
+  "route": {
+    "start": "Andimadam, Tamil Nadu",
+    "end": "Udayarpalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Andimadam",
+      "Udayarpalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Andimadam",
+      "coords": [
+        79.37504,
+        11.33323
+      ]
+    },
+    {
+      "name": "Udayarpalayam",
+      "coords": [
+        79.31016,
+        11.23684
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

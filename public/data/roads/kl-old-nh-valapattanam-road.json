@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-nh-valapattanam-road",
+  "ref": "MDR",
+  "name": "Old NH Valapattanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Puthiyatheru, Kerala",
+    "end": "Pappinisseri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyatheru",
+      "Pappinisseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.35711,
+        11.91721
+      ]
+    },
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.34649,
+        11.92954
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-karyavattom-thrippadapuram-road",
+  "ref": "MDR",
+  "name": "Karyavattom - Thrippadapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Karyavattom, Kerala",
+    "end": "Kulathoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karyavattom",
+      "Sreekariyam",
+      "Kulathoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karyavattom",
+      "coords": [
+        76.88381,
+        8.56252
+      ]
+    },
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.88532,
+        8.55042
+      ]
+    },
+    {
+      "name": "Kulathoor",
+      "coords": [
+        76.88528,
+        8.54239
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

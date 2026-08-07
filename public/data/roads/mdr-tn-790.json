@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-790",
+  "ref": "MDR 790",
+  "name": "Perungalathur–Kolapakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Perungalathur, Tamil Nadu",
+    "end": "Kolapakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Perungalathur",
+      "Tambaram",
+      "Selaiyur",
+      "Kolapakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perungalathur",
+      "coords": [
+        80.09596,
+        12.9051
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.10476,
+        12.9
+      ]
+    },
+    {
+      "name": "Selaiyur",
+      "coords": [
+        80.11014,
+        12.89656
+      ]
+    },
+    {
+      "name": "Kolapakkam",
+      "coords": [
+        80.10652,
+        12.87051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

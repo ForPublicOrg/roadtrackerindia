@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-20",
+  "ref": "SH 20",
+  "name": "Bara Haflong–Lanka State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 113,
+  "route": {
+    "start": "Bara Haflong, Assam",
+    "end": "Lanka, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Bara Haflong",
+      "Haflong",
+      "Lanka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bara Haflong",
+      "coords": [
+        93.02516,
+        25.1265
+      ]
+    },
+    {
+      "name": "Haflong",
+      "coords": [
+        93.01726,
+        25.16284
+      ]
+    },
+    {
+      "name": "Lanka",
+      "coords": [
+        92.91502,
+        25.75727
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

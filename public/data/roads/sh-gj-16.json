@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-16",
+  "ref": "SH 16",
+  "name": "Khambhat–Dholka State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 100.3,
+  "route": {
+    "start": "Khambhat, Gujarat",
+    "end": "Dholka, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Khambhat",
+      "Tarapur",
+      "Kheda",
+      "Dholka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khambhat",
+      "coords": [
+        72.61622,
+        22.32761
+      ]
+    },
+    {
+      "name": "Tarapur",
+      "coords": [
+        72.65579,
+        22.48961
+      ]
+    },
+    {
+      "name": "Kheda",
+      "coords": [
+        72.66554,
+        22.74425
+      ]
+    },
+    {
+      "name": "Dholka",
+      "coords": [
+        72.44456,
+        22.72044
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "odr-tn-1243",
+  "ref": "ODR 1243",
+  "name": "Sri City–Tada District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Sri City, Tamil Nadu",
+    "end": "Tada, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Sri City",
+      "Tada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sri City",
+      "coords": [
+        80.00912,
+        13.53845
+      ]
+    },
+    {
+      "name": "Tada",
+      "coords": [
+        79.99942,
+        13.53139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

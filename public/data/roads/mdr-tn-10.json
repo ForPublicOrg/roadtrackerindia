@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-10",
+  "ref": "MDR 10",
+  "name": "Tirumangalam–Peraiyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.7,
+  "route": {
+    "start": "Tirumangalam, Tamil Nadu",
+    "end": "Peraiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tirumangalam",
+      "Peraiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirumangalam",
+      "coords": [
+        77.96195,
+        9.80391
+      ]
+    },
+    {
+      "name": "Peraiyur",
+      "coords": [
+        77.80014,
+        9.81905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

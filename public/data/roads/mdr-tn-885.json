@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-885",
+  "ref": "MDR 885",
+  "name": "Solar–Rangampalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.4,
+  "route": {
+    "start": "Solar, Tamil Nadu",
+    "end": "Rangampalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Solar",
+      "Rangampalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Solar",
+      "coords": [
+        77.86591,
+        11.2432
+      ]
+    },
+    {
+      "name": "Rangampalayam",
+      "coords": [
+        77.66452,
+        11.23906
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

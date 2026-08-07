@@ -1,0 +1,62 @@
+{
+  "id": "nh-369",
+  "ref": "NH 369",
+  "name": "Chitradurga–Bhadravathi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 103.7,
+  "route": {
+    "start": "Chitradurga, Karnataka",
+    "end": "Bhadravathi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Chitradurga",
+      "Holalkere",
+      "Channagiri",
+      "Bhadravathi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chitradurga",
+      "coords": [
+        76.404,
+        14.23575
+      ]
+    },
+    {
+      "name": "Holalkere",
+      "coords": [
+        76.18097,
+        14.04309
+      ]
+    },
+    {
+      "name": "Channagiri",
+      "coords": [
+        75.92412,
+        14.02612
+      ]
+    },
+    {
+      "name": "Bhadravathi",
+      "coords": [
+        75.70517,
+        13.85129
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

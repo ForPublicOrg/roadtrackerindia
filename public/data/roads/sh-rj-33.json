@@ -1,0 +1,65 @@
+{
+  "id": "sh-rj-33",
+  "ref": "SH 33",
+  "name": "Rawatbhata–Lakheri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 113.3,
+  "route": {
+    "start": "Rawatbhata, Rajasthan",
+    "end": "Lakheri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rawatbhata",
+      "Kota",
+      "Keshoraipatan",
+      "Lakheri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rawatbhata",
+      "coords": [
+        75.58686,
+        24.93736
+      ]
+    },
+    {
+      "name": "Kota",
+      "coords": [
+        75.83139,
+        25.17627
+      ]
+    },
+    {
+      "name": "Keshoraipatan",
+      "coords": [
+        75.92749,
+        25.31503
+      ]
+    },
+    {
+      "name": "Kapren",
+      "coords": [
+        76.06701,
+        25.40952
+      ]
+    },
+    {
+      "name": "Lakheri",
+      "coords": [
+        76.20938,
+        25.57375
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

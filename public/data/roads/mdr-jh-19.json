@@ -1,0 +1,51 @@
+{
+  "id": "mdr-jh-19",
+  "ref": "MDR 19",
+  "name": "Chadri–Konka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Chadri, Jharkhand",
+    "end": "Konka, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chadri",
+      "Ranchi",
+      "Lalpur",
+      "Konka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chadri",
+      "coords": [
+        85.32537,
+        23.37892
+      ]
+    },
+    {
+      "name": "Lalpur",
+      "coords": [
+        85.33824,
+        23.37225
+      ]
+    },
+    {
+      "name": "Konka",
+      "coords": [
+        85.34034,
+        23.36771
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

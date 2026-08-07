@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottarakkara-sasthamkotta-road",
+  "ref": "MDR",
+  "name": "Kottarakkara - Sasthamkotta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.2,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.64654,
+        9.06496
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.77389,
+        9.00368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

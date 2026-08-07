@@ -1,0 +1,69 @@
+{
+  "id": "nh-348a",
+  "ref": "NH 348A",
+  "name": "Nerul East–Jasai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 17.4,
+  "route": {
+    "start": "Nerul East, Maharashtra",
+    "end": "Jasai, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nerul East",
+      "Navi Mumbai",
+      "Ulwe",
+      "Jasai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nerul East",
+      "coords": [
+        73.02988,
+        19.03308
+      ]
+    },
+    {
+      "name": "Belapur West",
+      "coords": [
+        73.02911,
+        19.00873
+      ]
+    },
+    {
+      "name": "Targhar",
+      "coords": [
+        73.03664,
+        18.98927
+      ]
+    },
+    {
+      "name": "Ulwe",
+      "coords": [
+        73.03609,
+        18.96589
+      ]
+    },
+    {
+      "name": "Jasai",
+      "coords": [
+        73.0177,
+        18.93459
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

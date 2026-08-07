@@ -1,0 +1,51 @@
+{
+  "id": "odr-tn-819",
+  "ref": "ODR 819",
+  "name": "Bagayam–Allapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Bagayam, Tamil Nadu",
+    "end": "Allapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Bagayam",
+      "Adukkamparai",
+      "Vellore",
+      "Allapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bagayam",
+      "coords": [
+        79.13462,
+        12.8797
+      ]
+    },
+    {
+      "name": "Adukkamparai",
+      "coords": [
+        79.12653,
+        12.87806
+      ]
+    },
+    {
+      "name": "Vellore",
+      "coords": [
+        79.12274,
+        12.88348
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-101",
+  "ref": "SH 101",
+  "name": "MIDC Mahad–Nadgaon Tarf Birwadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 27.8,
+  "route": {
+    "start": "MIDC Mahad, Maharashtra",
+    "end": "Nadgaon Tarf Birwadi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "MIDC Mahad",
+      "Nadgaon Tarf Birwadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MIDC Mahad",
+      "coords": [
+        73.45724,
+        18.25291
+      ]
+    },
+    {
+      "name": "Nadgaon Tarf Birwadi",
+      "coords": [
+        73.46149,
+        18.09763
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-164",
+  "ref": "MDR 164",
+  "name": "Barabazar–Dimna District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Barabazar, Jharkhand",
+    "end": "Dimna, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barabazar",
+      "Dimna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barabazar",
+      "coords": [
+        86.38856,
+        22.90734
+      ]
+    },
+    {
+      "name": "Dimna",
+      "coords": [
+        86.41892,
+        22.95254
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

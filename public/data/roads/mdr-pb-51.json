@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-51",
+  "ref": "MDR 51",
+  "name": "Jagraon–Malerkotla District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 60.9,
+  "route": {
+    "start": "Jagraon, Punjab",
+    "end": "Malerkotla, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Jagraon",
+      "Raikot",
+      "Malerkotla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jagraon",
+      "coords": [
+        75.47618,
+        30.81085
+      ]
+    },
+    {
+      "name": "Raikot",
+      "coords": [
+        75.60523,
+        30.64936
+      ]
+    },
+    {
+      "name": "Malerkotla",
+      "coords": [
+        75.88785,
+        30.53016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

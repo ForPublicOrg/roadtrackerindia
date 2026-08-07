@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattikulam-panavally-sarvany-thirunelli-road",
+  "ref": "MDR",
+  "name": "Kattikulam - Panavally - Sarvany - Thirunelli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Perikkalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Perikkalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.06309,
+        11.84734
+      ]
+    },
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.00948,
+        11.9031
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

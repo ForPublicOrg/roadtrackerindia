@@ -1,0 +1,42 @@
+{
+  "id": "kl-payyavoor-kunnathoor-padamkavala-kanhirakolly-road",
+  "ref": "MDR",
+  "name": "Payyavoor Kunnathoor Padamkavala Kanhirakolly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.1,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Chemperi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Chemperi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.63053,
+        12.13932
+      ]
+    },
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.58204,
+        12.06299
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

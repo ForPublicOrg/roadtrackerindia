@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-182",
+  "ref": "SCR",
+  "name": "Sugarcane Road 182",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Thakkolam, Tamil Nadu",
+    "end": "Arakkonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thakkolam",
+      "Arakkonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.74854,
+        13.0888
+      ]
+    },
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.73856,
+        13.08586
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-160b",
+  "ref": "NH 160B",
+  "name": "Kopargaon–Annapurna Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Kopargaon, Maharashtra",
+    "end": "Annapurna Nagar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kopargaon",
+      "Annapurna Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kopargaon",
+      "coords": [
+        74.42275,
+        19.83563
+      ]
+    },
+    {
+      "name": "Annapurna Nagar",
+      "coords": [
+        74.48154,
+        19.86063
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

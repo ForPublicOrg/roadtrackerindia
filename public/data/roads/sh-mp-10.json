@@ -1,0 +1,74 @@
+{
+  "id": "sh-mp-10",
+  "ref": "SH 10",
+  "name": "Bhopal–Guna State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 193.4,
+  "route": {
+    "start": "Bhopal, Madhya Pradesh",
+    "end": "Guna, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bhopal",
+      "Berasia",
+      "Shamsabad",
+      "Sironj",
+      "Aron",
+      "Guna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.4043,
+        23.30291
+      ]
+    },
+    {
+      "name": "Berasia",
+      "coords": [
+        77.43069,
+        23.62182
+      ]
+    },
+    {
+      "name": "Shamsabad",
+      "coords": [
+        77.51853,
+        23.78395
+      ]
+    },
+    {
+      "name": "Sironj",
+      "coords": [
+        77.68649,
+        24.09839
+      ]
+    },
+    {
+      "name": "Aron",
+      "coords": [
+        77.41786,
+        24.3828
+      ]
+    },
+    {
+      "name": "Guna",
+      "coords": [
+        77.31805,
+        24.64796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

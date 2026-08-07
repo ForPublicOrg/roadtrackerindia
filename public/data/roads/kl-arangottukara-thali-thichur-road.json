@@ -1,0 +1,42 @@
+{
+  "id": "kl-arangottukara-thali-thichur-road",
+  "ref": "MDR",
+  "name": "Arangottukara - Thali - Thichur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Koottanad, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koottanad",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.18403,
+        10.72099
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.2013,
+        10.75363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

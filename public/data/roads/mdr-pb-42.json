@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-42",
+  "ref": "MDR 42",
+  "name": "Rampura Phul–Talwandi Sabo District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 39.3,
+  "route": {
+    "start": "Rampura Phul, Punjab",
+    "end": "Talwandi Sabo, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Rampura Phul",
+      "Maur",
+      "Talwandi Sabo"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rampura Phul",
+      "coords": [
+        75.23134,
+        30.26193
+      ]
+    },
+    {
+      "name": "Maur",
+      "coords": [
+        75.21577,
+        30.05852
+      ]
+    },
+    {
+      "name": "Talwandi Sabo",
+      "coords": [
+        75.09659,
+        29.98266
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

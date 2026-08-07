@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-88c",
+  "ref": "MDR 88C",
+  "name": "Indira Nagar–Jankipuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 52.7,
+  "route": {
+    "start": "Indira Nagar, Uttar Pradesh",
+    "end": "Jankipuram, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Indira Nagar",
+      "Jankipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Indira Nagar",
+      "coords": [
+        81.0398,
+        26.88086
+      ]
+    },
+    {
+      "name": "Jankipuram",
+      "coords": [
+        80.89064,
+        27.08362
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

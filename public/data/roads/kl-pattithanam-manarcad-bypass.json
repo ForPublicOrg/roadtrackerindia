@@ -1,0 +1,57 @@
+{
+  "id": "kl-pattithanam-manarcad-bypass",
+  "ref": "MDR",
+  "name": "Pattithanam - Manarcad Bypass",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Manarcadu, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manarcadu",
+      "Kumaranalloor",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.58422,
+        9.59292
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.56489,
+        9.63258
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.56201,
+        9.65829
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.5641,
+        9.67022
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

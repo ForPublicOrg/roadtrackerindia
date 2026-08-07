@@ -1,0 +1,42 @@
+{
+  "id": "kl-mothirakanni-panchayath-road",
+  "ref": "MDR",
+  "name": "Mothirakanni Panchayath Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.38873,
+        10.31401
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.41631,
+        10.32022
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

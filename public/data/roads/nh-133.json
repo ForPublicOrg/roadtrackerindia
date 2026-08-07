@@ -1,0 +1,63 @@
+{
+  "id": "nh-133",
+  "ref": "NH 133",
+  "name": "Mohanpur–Mandro National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 131.3,
+  "route": {
+    "start": "Mohanpur, Jharkhand",
+    "end": "Mandro, Bihar",
+    "states": [
+      "Jharkhand",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Mohanpur",
+      "Godda",
+      "Mahagama",
+      "Mandro"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohanpur",
+      "coords": [
+        86.78483,
+        24.49513
+      ]
+    },
+    {
+      "name": "Godda",
+      "coords": [
+        87.21271,
+        24.82373
+      ]
+    },
+    {
+      "name": "Mahagama",
+      "coords": [
+        87.31455,
+        25.03548
+      ]
+    },
+    {
+      "name": "Mandro",
+      "coords": [
+        87.41866,
+        25.2894
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

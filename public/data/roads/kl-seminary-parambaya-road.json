@@ -1,0 +1,42 @@
+{
+  "id": "kl-seminary-parambaya-road",
+  "ref": "MDR",
+  "name": "Seminary - Parambaya Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Thanikkudam, Kerala",
+    "end": "Chembukkavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thanikkudam",
+      "Chembukkavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.23541,
+        10.60947
+      ]
+    },
+    {
+      "name": "Chembukkavu",
+      "coords": [
+        76.22186,
+        10.59406
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

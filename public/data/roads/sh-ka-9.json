@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-9",
+  "ref": "SH 9",
+  "name": "Gauribidanuru–Yelahanka State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 73.1,
+  "route": {
+    "start": "Gauribidanuru, Karnataka",
+    "end": "Yelahanka, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Gauribidanuru",
+      "Doddaballapura",
+      "Yelahanka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gauribidanuru",
+      "coords": [
+        77.49903,
+        13.705
+      ]
+    },
+    {
+      "name": "Doddaballapura",
+      "coords": [
+        77.55049,
+        13.29563
+      ]
+    },
+    {
+      "name": "Yelahanka",
+      "coords": [
+        77.59429,
+        13.09531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

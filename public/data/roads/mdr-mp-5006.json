@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-5006",
+  "ref": "MDR 5006",
+  "name": "Chhanera–Khandwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Chhanera, Madhya Pradesh",
+    "end": "Khandwa, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Chhanera",
+      "Khandwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhanera",
+      "coords": [
+        76.49085,
+        22.06279
+      ]
+    },
+    {
+      "name": "Khandwa",
+      "coords": [
+        76.54561,
+        22.05469
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

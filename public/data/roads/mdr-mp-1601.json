@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1601",
+  "ref": "MDR 1601",
+  "name": "Barigarh–Banda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.9,
+  "route": {
+    "start": "Barigarh, Madhya Pradesh",
+    "end": "Banda, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Barigarh",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barigarh",
+      "coords": [
+        80.28723,
+        25.18661
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.35469,
+        25.27825
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

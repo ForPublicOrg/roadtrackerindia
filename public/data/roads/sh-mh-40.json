@@ -1,0 +1,66 @@
+{
+  "id": "sh-mh-40",
+  "ref": "SH 40",
+  "name": "Titwala–Waliv State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 67.5,
+  "route": {
+    "start": "Titwala, Maharashtra",
+    "end": "Waliv, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Titwala",
+      "Umberpada",
+      "Virar East",
+      "Vasai-Virar",
+      "Waliv"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Titwala",
+      "coords": [
+        73.18413,
+        19.36937
+      ]
+    },
+    {
+      "name": "Umberpada",
+      "coords": [
+        73.08279,
+        19.46776
+      ]
+    },
+    {
+      "name": "Vasai-Virar",
+      "coords": [
+        72.81921,
+        19.42082
+      ]
+    },
+    {
+      "name": "Nallasopara East",
+      "coords": [
+        72.82597,
+        19.41347
+      ]
+    },
+    {
+      "name": "Waliv",
+      "coords": [
+        72.88247,
+        19.40311
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

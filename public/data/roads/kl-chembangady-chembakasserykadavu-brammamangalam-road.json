@@ -1,0 +1,42 @@
+{
+  "id": "kl-chembangady-chembakasserykadavu-brammamangalam-road",
+  "ref": "MDR",
+  "name": "Chembangady - Chembakasserykadavu - Brammamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.39696,
+        9.80694
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.42253,
+        9.81402
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

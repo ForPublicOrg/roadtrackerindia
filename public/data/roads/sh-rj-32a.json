@@ -1,0 +1,57 @@
+{
+  "id": "sh-rj-32a",
+  "ref": "SH 32A",
+  "name": "Rishabdeo–Udaipur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.5,
+  "route": {
+    "start": "Rishabdeo, Rajasthan",
+    "end": "Udaipur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rishabdeo",
+      "Chawand",
+      "Udaipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rishabdeo",
+      "coords": [
+        73.69492,
+        24.07235
+      ]
+    },
+    {
+      "name": "Sarada",
+      "coords": [
+        73.82584,
+        24.14423
+      ]
+    },
+    {
+      "name": "Chawand",
+      "coords": [
+        73.82134,
+        24.17969
+      ]
+    },
+    {
+      "name": "Udaipur",
+      "coords": [
+        73.73674,
+        24.55857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

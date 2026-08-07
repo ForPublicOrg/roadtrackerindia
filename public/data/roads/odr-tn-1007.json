@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-1007",
+  "ref": "ODR 1007",
+  "name": "Sholinghur–Tiruttani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Sholinghur, Tamil Nadu",
+    "end": "Tiruttani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sholinghur",
+      "Tiruttani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.51588,
+        13.14884
+      ]
+    },
+    {
+      "name": "Tiruttani",
+      "coords": [
+        79.51514,
+        13.17406
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

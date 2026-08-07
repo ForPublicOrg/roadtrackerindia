@@ -1,0 +1,57 @@
+{
+  "id": "kl-vallarpadom-panambukadu-road",
+  "ref": "MDR",
+  "name": "Vallarpadom Panambukadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Mulavukadu, Kerala",
+    "end": "Vallarpadam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulavukadu",
+      "Kochi",
+      "Vallarpadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulavukadu",
+      "coords": [
+        76.24184,
+        10.01148
+      ]
+    },
+    {
+      "name": "Vaduthala",
+      "coords": [
+        76.24419,
+        10.00715
+      ]
+    },
+    {
+      "name": "Vallarpadam",
+      "coords": [
+        76.24868,
+        9.99134
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.25359,
+        9.98701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

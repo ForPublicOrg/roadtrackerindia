@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-66",
+  "ref": "SH 66",
+  "name": "Nira–Amrai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40.5,
+  "route": {
+    "start": "Nira, Maharashtra",
+    "end": "Amrai, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nira",
+      "Baramati",
+      "Amrai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nira",
+      "coords": [
+        74.21628,
+        18.10654
+      ]
+    },
+    {
+      "name": "Baramati",
+      "coords": [
+        74.57383,
+        18.1436
+      ]
+    },
+    {
+      "name": "Amrai",
+      "coords": [
+        74.5823,
+        18.14667
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

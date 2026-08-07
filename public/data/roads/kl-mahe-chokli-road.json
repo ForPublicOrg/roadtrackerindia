@@ -1,0 +1,49 @@
+{
+  "id": "kl-mahe-chokli-road",
+  "ref": "MDR",
+  "name": "Mahe - Chokli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Chokli, Kerala",
+    "end": "Mahe, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chokli",
+      "Mahe"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chokli",
+      "coords": [
+        75.55687,
+        11.7264
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.55556,
+        11.71817
+      ]
+    },
+    {
+      "name": "Mahe",
+      "coords": [
+        75.54172,
+        11.70943
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

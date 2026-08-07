@@ -1,0 +1,51 @@
+{
+  "id": "sh-ct-4",
+  "ref": "SH 4",
+  "name": "Amarkantak–Katghora State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 126.3,
+  "route": {
+    "start": "Amarkantak, Madhya Pradesh",
+    "end": "Katghora, Chhattisgarh",
+    "states": [
+      "Madhya Pradesh",
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Amarkantak",
+      "Pendra",
+      "Katghora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amarkantak",
+      "coords": [
+        81.76609,
+        22.68415
+      ]
+    },
+    {
+      "name": "Pendra",
+      "coords": [
+        81.95846,
+        22.77276
+      ]
+    },
+    {
+      "name": "Katghora",
+      "coords": [
+        82.52965,
+        22.48174
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

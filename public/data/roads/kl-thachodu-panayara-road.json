@@ -1,0 +1,42 @@
+{
+  "id": "kl-thachodu-panayara-road",
+  "ref": "MDR",
+  "name": "Thachodu Panayara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Chavarcode, Kerala",
+    "end": "Varkala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavarcode",
+      "Varkala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.7504,
+        8.76029
+      ]
+    },
+    {
+      "name": "Varkala",
+      "coords": [
+        76.74498,
+        8.75244
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

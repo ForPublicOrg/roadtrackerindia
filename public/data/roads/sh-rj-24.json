@@ -1,0 +1,74 @@
+{
+  "id": "sh-rj-24",
+  "ref": "SH 24",
+  "name": "Dhod–Jaitaran State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 247.1,
+  "route": {
+    "start": "Dhod, Rajasthan",
+    "end": "Jaitaran, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dhod",
+      "Didwana",
+      "Jayal",
+      "Degana",
+      "Merta City",
+      "Jaitaran"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhod",
+      "coords": [
+        74.94523,
+        27.61125
+      ]
+    },
+    {
+      "name": "Didwana",
+      "coords": [
+        74.5791,
+        27.39895
+      ]
+    },
+    {
+      "name": "Jayal",
+      "coords": [
+        74.18096,
+        27.21885
+      ]
+    },
+    {
+      "name": "Degana",
+      "coords": [
+        74.30841,
+        26.89539
+      ]
+    },
+    {
+      "name": "Merta City",
+      "coords": [
+        74.03137,
+        26.65189
+      ]
+    },
+    {
+      "name": "Jaitaran",
+      "coords": [
+        73.94021,
+        26.20339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

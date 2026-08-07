@@ -1,0 +1,46 @@
+{
+  "id": "nh-310",
+  "ref": "NH 310",
+  "name": "Gangtok–Xiayadong National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 63.2,
+  "route": {
+    "start": "Gangtok, Sikkim",
+    "end": "Xiayadong, Sikkim",
+    "states": [
+      "Sikkim"
+    ],
+    "majorCities": [
+      "Gangtok",
+      "Xiayadong"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangtok",
+      "coords": [
+        88.60618,
+        27.34538
+      ]
+    },
+    {
+      "name": "Xiayadong",
+      "coords": [
+        88.83081,
+        27.38681
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

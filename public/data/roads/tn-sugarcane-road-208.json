@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-208",
+  "ref": "SCR",
+  "name": "Sugarcane Road 208",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Thirukazhukundram, Tamil Nadu",
+    "end": "Pakshitīrtham, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thirukazhukundram",
+      "Pakshitīrtham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thirukazhukundram",
+      "coords": [
+        80.00699,
+        12.55203
+      ]
+    },
+    {
+      "name": "Pakshitīrtham",
+      "coords": [
+        80.06684,
+        12.52502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

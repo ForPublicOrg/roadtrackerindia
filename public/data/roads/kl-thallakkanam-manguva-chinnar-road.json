@@ -1,0 +1,42 @@
+{
+  "id": "kl-thallakkanam-manguva-chinnar-road",
+  "ref": "MDR",
+  "name": "Thallakkanam Manguva Chinnar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Murickassery, Kerala",
+    "end": "Cheruthoni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Murickassery",
+      "Cheruthoni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Murickassery",
+      "coords": [
+        76.98634,
+        9.95266
+      ]
+    },
+    {
+      "name": "Cheruthoni",
+      "coords": [
+        77.01345,
+        9.92416
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

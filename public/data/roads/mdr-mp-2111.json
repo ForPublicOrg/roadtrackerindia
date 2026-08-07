@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2111",
+  "ref": "MDR 2111",
+  "name": "Jiran–Neemuch District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 37.9,
+  "route": {
+    "start": "Jiran, Madhya Pradesh",
+    "end": "Neemuch, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jiran",
+      "Neemuch"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jiran",
+      "coords": [
+        74.98808,
+        24.28071
+      ]
+    },
+    {
+      "name": "Neemuch",
+      "coords": [
+        74.88366,
+        24.42479
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

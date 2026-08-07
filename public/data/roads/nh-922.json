@@ -1,0 +1,85 @@
+{
+  "id": "nh-922",
+  "ref": "NH 922",
+  "name": "Patna–Buxar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 135.3,
+  "route": {
+    "start": "Patna, Bihar",
+    "end": "Buxar, Uttar Pradesh",
+    "states": [
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Patna",
+      "Maner",
+      "Arrah",
+      "Behea",
+      "Buxar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patna",
+      "coords": [
+        85.1422,
+        25.60242
+      ]
+    },
+    {
+      "name": "Maner",
+      "coords": [
+        84.88489,
+        25.64786
+      ]
+    },
+    {
+      "name": "Koliwar",
+      "coords": [
+        84.7901,
+        25.57679
+      ]
+    },
+    {
+      "name": "Arrah",
+      "coords": [
+        84.67418,
+        25.58766
+      ]
+    },
+    {
+      "name": "Behea",
+      "coords": [
+        84.45512,
+        25.58869
+      ]
+    },
+    {
+      "name": "Dumraon",
+      "coords": [
+        84.15218,
+        25.57936
+      ]
+    },
+    {
+      "name": "Buxar",
+      "coords": [
+        83.99409,
+        25.58021
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

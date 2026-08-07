@@ -1,0 +1,46 @@
+{
+  "id": "nh-730b",
+  "ref": "NH 730B",
+  "name": "Bisalpur–Mohanpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 35.3,
+  "route": {
+    "start": "Bisalpur, Uttar Pradesh",
+    "end": "Mohanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bisalpur",
+      "Mohanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bisalpur",
+      "coords": [
+        79.80005,
+        28.28837
+      ]
+    },
+    {
+      "name": "Mohanpur",
+      "coords": [
+        79.49663,
+        28.35394
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

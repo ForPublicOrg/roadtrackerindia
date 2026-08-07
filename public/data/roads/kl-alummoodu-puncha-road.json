@@ -1,0 +1,42 @@
+{
+  "id": "kl-alummoodu-puncha-road",
+  "ref": "MDR",
+  "name": "Alummoodu - Puncha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.54432,
+        9.31008
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.52403,
+        9.30744
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

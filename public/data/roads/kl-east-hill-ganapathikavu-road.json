@@ -1,0 +1,42 @@
+{
+  "id": "kl-east-hill-ganapathikavu-road",
+  "ref": "MDR",
+  "name": "East Hill - Ganapathikavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Karaparamba, Kerala",
+    "end": "Puthiyangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karaparamba",
+      "Puthiyangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaparamba",
+      "coords": [
+        75.77462,
+        11.2903
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.77274,
+        11.30465
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

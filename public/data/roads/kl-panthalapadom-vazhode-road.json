@@ -1,0 +1,42 @@
+{
+  "id": "kl-panthalapadom-vazhode-road",
+  "ref": "MDR",
+  "name": "Panthalapadom - Vazhode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Vadakkenchery, Kerala",
+    "end": "edathil colony, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakkenchery",
+      "edathil colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.41913,
+        10.59038
+      ]
+    },
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.40108,
+        10.61973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mdr-jh-55",
+  "ref": "MDR 55",
+  "name": "Karkend–Sudamdih District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.9,
+  "route": {
+    "start": "Karkend, Jharkhand",
+    "end": "Sudamdih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Karkend",
+      "Jharia",
+      "Bhowra",
+      "Sudamdih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karkend",
+      "coords": [
+        86.35937,
+        23.76206
+      ]
+    },
+    {
+      "name": "Jharia",
+      "coords": [
+        86.39755,
+        23.72569
+      ]
+    },
+    {
+      "name": "Bhowra",
+      "coords": [
+        86.40093,
+        23.71508
+      ]
+    },
+    {
+      "name": "Pathardih",
+      "coords": [
+        86.42281,
+        23.66858
+      ]
+    },
+    {
+      "name": "Sudamdih",
+      "coords": [
+        86.43706,
+        23.65746
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

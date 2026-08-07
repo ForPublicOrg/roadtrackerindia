@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-85",
+  "ref": "SH 85",
+  "name": "Rayakottai–Attibele State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.5,
+  "route": {
+    "start": "Rayakottai, Tamil Nadu",
+    "end": "Attibele, Karnataka",
+    "states": [
+      "Tamil Nadu",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Rayakottai",
+      "Hosur",
+      "Attibele"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rayakottai",
+      "coords": [
+        78.02329,
+        12.52256
+      ]
+    },
+    {
+      "name": "Hosur",
+      "coords": [
+        77.81059,
+        12.70476
+      ]
+    },
+    {
+      "name": "Attibele",
+      "coords": [
+        77.77011,
+        12.76828
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

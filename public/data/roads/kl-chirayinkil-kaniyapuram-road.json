@@ -1,0 +1,57 @@
+{
+  "id": "kl-chirayinkil-kaniyapuram-road",
+  "ref": "MDR",
+  "name": "Chirayinkil - Kaniyapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Chirayinkeezhu, Kerala",
+    "end": "Mangalapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chirayinkeezhu",
+      "Azhoor",
+      "Mangalapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.78839,
+        8.66213
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.79937,
+        8.64385
+      ]
+    },
+    {
+      "name": "Kadinamkulam",
+      "coords": [
+        76.81993,
+        8.6309
+      ]
+    },
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.82718,
+        8.63028
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

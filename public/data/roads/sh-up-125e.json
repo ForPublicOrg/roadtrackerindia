@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-125e",
+  "ref": "SH 125E",
+  "name": "Kunda–Pratapgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.9,
+  "route": {
+    "start": "Kunda, Uttar Pradesh",
+    "end": "Pratapgarh, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kunda",
+      "Pratapgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunda",
+      "coords": [
+        81.62072,
+        25.63351
+      ]
+    },
+    {
+      "name": "Pratapgarh",
+      "coords": [
+        81.8992,
+        25.89058
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

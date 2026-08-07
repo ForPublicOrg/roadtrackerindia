@@ -1,0 +1,42 @@
+{
+  "id": "kl-ramapuram-kadampanattuvathil-kizhithiri-road",
+  "ref": "MDR",
+  "name": "Ramapuram - Kadampanattuvathil - Kizhithiri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Thodupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Thodupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.66304,
+        9.8058
+      ]
+    },
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.65711,
+        9.83134
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

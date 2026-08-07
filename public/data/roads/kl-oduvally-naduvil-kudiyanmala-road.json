@@ -1,0 +1,50 @@
+{
+  "id": "kl-oduvally-naduvil-kudiyanmala-road",
+  "ref": "MDR",
+  "name": "Oduvally - Naduvil - Kudiyanmala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Chemperi, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemperi",
+      "Naduvil",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.55379,
+        12.1361
+      ]
+    },
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.46863,
+        12.12886
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.4406,
+        12.13484
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

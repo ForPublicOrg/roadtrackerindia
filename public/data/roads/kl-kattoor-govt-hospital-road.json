@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattoor-govt-hospital-road",
+  "ref": "MDR",
+  "name": "Kattoor Govt. Hospital Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.15813,
+        10.37785
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.15617,
+        10.39049
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

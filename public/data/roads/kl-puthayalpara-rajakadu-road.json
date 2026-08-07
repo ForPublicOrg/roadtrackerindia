@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthayalpara-rajakadu-road",
+  "ref": "MDR",
+  "name": "Puthayalpara - Rajakadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Nedumkandam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Nedumkandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.09815,
+        9.96361
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.17886,
+        9.97081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-as-13",
+  "ref": "SH 13",
+  "name": "Garhgaon–Naharkatia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83,
+  "route": {
+    "start": "Garhgaon, Assam",
+    "end": "Naharkatia, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Garhgaon",
+      "Nazira",
+      "Dimow",
+      "Naharkatia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Garhgaon",
+      "coords": [
+        94.72957,
+        26.94297
+      ]
+    },
+    {
+      "name": "Dimow",
+      "coords": [
+        94.74058,
+        27.12497
+      ]
+    },
+    {
+      "name": "Naharkatia",
+      "coords": [
+        95.17623,
+        27.26225
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

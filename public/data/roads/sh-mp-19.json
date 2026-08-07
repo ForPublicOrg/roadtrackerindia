@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-19",
+  "ref": "SH 19",
+  "name": "Hatta–Khurai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 141.7,
+  "route": {
+    "start": "Hatta, Madhya Pradesh",
+    "end": "Khurai, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Hatta",
+      "Batiagarh",
+      "Banda",
+      "Khurai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hatta",
+      "coords": [
+        79.59401,
+        24.11715
+      ]
+    },
+    {
+      "name": "Batiagarh",
+      "coords": [
+        79.34871,
+        24.11265
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        78.95708,
+        24.0414
+      ]
+    },
+    {
+      "name": "Khurai",
+      "coords": [
+        78.48317,
+        23.97531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

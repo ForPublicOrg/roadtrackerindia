@@ -1,0 +1,42 @@
+{
+  "id": "kl-karuvally-junction-thuruvelikunnu-road",
+  "ref": "MDR",
+  "name": "Karuvally Junction - Thuruvelikunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Arattukulangara, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Arattukulangara",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.41528,
+        9.76663
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.39499,
+        9.76974
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

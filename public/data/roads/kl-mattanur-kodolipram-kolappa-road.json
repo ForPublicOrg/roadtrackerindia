@@ -1,0 +1,42 @@
+{
+  "id": "kl-mattanur-kodolipram-kolappa-road",
+  "ref": "MDR",
+  "name": "Mattanur - Kodolipram - Kolappa Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Irikkoor, Kerala",
+    "end": "Mattannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irikkoor",
+      "Mattannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.53172,
+        11.97578
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.57095,
+        11.93375
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

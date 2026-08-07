@@ -1,0 +1,43 @@
+{
+  "id": "mdr-kl-121",
+  "ref": "MDR 121",
+  "name": "Choyamkode–Chammattamvayal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.4,
+  "route": {
+    "start": "Choyamkode, Kerala",
+    "end": "Chammattamvayal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Choyamkode",
+      "Kanhangad",
+      "Chammattamvayal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Choyamkode",
+      "coords": [
+        75.21211,
+        12.33068
+      ]
+    },
+    {
+      "name": "Kanhangad",
+      "coords": [
+        75.1069,
+        12.3206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karikkattoor-mukkada-road",
+  "ref": "MDR",
+  "name": "Karikkattoor - Mukkada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Manimala, Kerala",
+    "end": "Karinkallummoozhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manimala",
+      "Karinkallummoozhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manimala",
+      "coords": [
+        76.78398,
+        9.48264
+      ]
+    },
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.79426,
+        9.47029
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

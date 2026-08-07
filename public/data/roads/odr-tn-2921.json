@@ -1,0 +1,49 @@
+{
+  "id": "odr-tn-2921",
+  "ref": "ODR 2921",
+  "name": "Manapakkam–Moulivakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Manapakkam, Tamil Nadu",
+    "end": "Moulivakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Manapakkam",
+      "Moulivakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manapakkam",
+      "coords": [
+        80.16633,
+        13.02116
+      ]
+    },
+    {
+      "name": "Porur",
+      "coords": [
+        80.15259,
+        13.02197
+      ]
+    },
+    {
+      "name": "Moulivakkam",
+      "coords": [
+        80.14628,
+        13.02282
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

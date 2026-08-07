@@ -1,0 +1,42 @@
+{
+  "id": "kl-kakkamvelli-parkandymukku-arattukulam-road",
+  "ref": "MDR",
+  "name": "Kakkamvelli Parkandymukku Arattukulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.63711,
+        11.70657
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.64726,
+        11.67995
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

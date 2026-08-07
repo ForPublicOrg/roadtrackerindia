@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-005-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 005 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.8,
+  "route": {
+    "start": "Vairengte, Assam",
+    "end": "Sonai, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Vairengte",
+      "Sonai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vairengte",
+      "coords": [
+        92.841,
+        24.59746
+      ]
+    },
+    {
+      "name": "Sonai",
+      "coords": [
+        92.88758,
+        24.64524
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

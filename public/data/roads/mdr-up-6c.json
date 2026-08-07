@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-6c",
+  "ref": "MDR 6C",
+  "name": "Palia Kalan–Phulbari District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.8,
+  "route": {
+    "start": "Palia Kalan, Uttar Pradesh",
+    "end": "Phulbari, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Palia Kalan",
+      "Phulbari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palia Kalan",
+      "coords": [
+        80.64467,
+        28.49236
+      ]
+    },
+    {
+      "name": "Phulbari",
+      "coords": [
+        80.77117,
+        28.5445
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

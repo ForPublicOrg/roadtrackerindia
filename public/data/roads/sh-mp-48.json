@@ -1,0 +1,66 @@
+{
+  "id": "sh-mp-48",
+  "ref": "SH 48",
+  "name": "Tirora–Birsa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 191,
+  "route": {
+    "start": "Tirora, Madhya Pradesh",
+    "end": "Birsa, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Tirora",
+      "Waraseoni",
+      "Lalbarra",
+      "Baihar",
+      "Birsa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirora",
+      "coords": [
+        79.90119,
+        21.52573
+      ]
+    },
+    {
+      "name": "Waraseoni",
+      "coords": [
+        80.05405,
+        21.76517
+      ]
+    },
+    {
+      "name": "Lalbarra",
+      "coords": [
+        80.04935,
+        21.94237
+      ]
+    },
+    {
+      "name": "Baihar",
+      "coords": [
+        80.54874,
+        22.10497
+      ]
+    },
+    {
+      "name": "Birsa",
+      "coords": [
+        80.73801,
+        22.01134
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

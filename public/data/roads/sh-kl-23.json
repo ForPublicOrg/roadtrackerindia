@@ -1,0 +1,42 @@
+{
+  "id": "sh-kl-23",
+  "ref": "SH 23",
+  "name": "Shoranur–Pattambi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Shoranur, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Shoranur",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.27584,
+        10.76003
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.18745,
+        10.80508
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

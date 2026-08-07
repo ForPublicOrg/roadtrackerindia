@@ -1,0 +1,50 @@
+{
+  "id": "kl-moolplavu-poovathukavala-kumbukal-road-vettorpurayidam-road",
+  "ref": "MDR",
+  "name": "Moolplavu - Poovathukavala Kumbukal Road - Vettorpurayidam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Manimala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Ponkunnam",
+      "Manimala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.78124,
+        9.52477
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.76199,
+        9.53676
+      ]
+    },
+    {
+      "name": "Manimala",
+      "coords": [
+        76.75125,
+        9.50567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

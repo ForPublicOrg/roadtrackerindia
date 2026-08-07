@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-23b",
+  "ref": "MDR 23B",
+  "name": "Kalpi–Kuthond District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 39.9,
+  "route": {
+    "start": "Kalpi, Uttar Pradesh",
+    "end": "Kuthond, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kalpi",
+      "Kuthond"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalpi",
+      "coords": [
+        79.70323,
+        26.09781
+      ]
+    },
+    {
+      "name": "Kuthond",
+      "coords": [
+        79.39702,
+        26.31398
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

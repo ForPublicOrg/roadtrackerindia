@@ -1,0 +1,80 @@
+{
+  "id": "sh-rj-44",
+  "ref": "SH 44",
+  "name": "Mia–Kaman State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 144.5,
+  "route": {
+    "start": "Mia, Rajasthan",
+    "end": "Kaman, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mia",
+      "Lachhmangarh",
+      "Nadbai",
+      "Deeg",
+      "Kaman"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mia",
+      "coords": [
+        76.63251,
+        27.3857
+      ]
+    },
+    {
+      "name": "Lachhmangarh",
+      "coords": [
+        76.85854,
+        27.36531
+      ]
+    },
+    {
+      "name": "Kherli",
+      "coords": [
+        77.04033,
+        27.2204
+      ]
+    },
+    {
+      "name": "Nadbai",
+      "coords": [
+        77.19893,
+        27.22073
+      ]
+    },
+    {
+      "name": "Kumher",
+      "coords": [
+        77.37235,
+        27.32268
+      ]
+    },
+    {
+      "name": "Deeg",
+      "coords": [
+        77.32524,
+        27.47926
+      ]
+    },
+    {
+      "name": "Kaman",
+      "coords": [
+        77.27506,
+        27.65498
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

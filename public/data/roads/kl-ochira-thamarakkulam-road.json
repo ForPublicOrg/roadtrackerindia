@@ -1,0 +1,42 @@
+{
+  "id": "kl-ochira-thamarakkulam-road",
+  "ref": "MDR",
+  "name": "Ochira - Thamarakkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.6,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.61465,
+        9.14514
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.51243,
+        9.13747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

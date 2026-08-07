@@ -1,0 +1,54 @@
+{
+  "id": "nh-153b",
+  "ref": "NH 153B",
+  "name": "Deogarh–Boudh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 78.6,
+  "route": {
+    "start": "Deogarh, Odisha",
+    "end": "Boudh, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Deogarh",
+      "Rairakhol",
+      "Boudh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Deogarh",
+      "coords": [
+        84.6698,
+        21.34203
+      ]
+    },
+    {
+      "name": "Rairakhol",
+      "coords": [
+        84.34127,
+        21.07178
+      ]
+    },
+    {
+      "name": "Boudh",
+      "coords": [
+        84.30663,
+        20.85083
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

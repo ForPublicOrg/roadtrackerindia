@@ -1,0 +1,58 @@
+{
+  "id": "mdr-jh-62",
+  "ref": "MDR 62",
+  "name": "Sitarampur–Chirkunda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "route": {
+    "start": "Sitarampur, West Bengal",
+    "end": "Chirkunda, Jharkhand",
+    "states": [
+      "West Bengal",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Sitarampur",
+      "Barakar",
+      "Chirkunda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sitarampur",
+      "coords": [
+        86.87485,
+        23.71863
+      ]
+    },
+    {
+      "name": "Kulti",
+      "coords": [
+        86.84452,
+        23.72823
+      ]
+    },
+    {
+      "name": "Barakar",
+      "coords": [
+        86.81431,
+        23.73428
+      ]
+    },
+    {
+      "name": "Chirkunda",
+      "coords": [
+        86.78271,
+        23.74937
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

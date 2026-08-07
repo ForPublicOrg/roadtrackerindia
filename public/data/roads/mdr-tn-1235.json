@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1235",
+  "ref": "MDR 1235",
+  "name": "Sendamangalam–Cinna Muthalai Patti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Sendamangalam, Tamil Nadu",
+    "end": "Cinna Muthalai Patti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sendamangalam",
+      "Cinna Muthalai Patti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sendamangalam",
+      "coords": [
+        78.32022,
+        11.32821
+      ]
+    },
+    {
+      "name": "Cinna Muthalai Patti",
+      "coords": [
+        78.23699,
+        11.29113
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

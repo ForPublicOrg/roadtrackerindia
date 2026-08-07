@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-59",
+  "ref": "SH 59",
+  "name": "Saharsa–Police Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 24.6,
+  "route": {
+    "start": "Saharsa, Bihar",
+    "end": "Police Colony, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Saharsa",
+      "Police Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saharsa",
+      "coords": [
+        86.70913,
+        25.69219
+      ]
+    },
+    {
+      "name": "Police Colony",
+      "coords": [
+        86.65404,
+        25.89148
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulikkathotty-venmony-road-via-rajagiri-choodanmanappady",
+  "ref": "MDR",
+  "name": "Pulikkathotty - Venmony Road (via Rajagiri - Choodanmanappady)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Koickakudy, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koickakudy",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koickakudy",
+      "coords": [
+        76.85152,
+        9.9927
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.86783,
+        9.97368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-tn-42",
+  "ref": "SH 42",
+  "name": "Manamadurai–Srivilliputhur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 109.1,
+  "route": {
+    "start": "Manamadurai, Tamil Nadu",
+    "end": "Srivilliputhur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Manamadurai",
+      "Virudhunagar",
+      "Thiruthangal",
+      "Sivakasi",
+      "Srivilliputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manamadurai",
+      "coords": [
+        78.45147,
+        9.58165
+      ]
+    },
+    {
+      "name": "Aruppukkottai",
+      "coords": [
+        78.09348,
+        9.50927
+      ]
+    },
+    {
+      "name": "Virudhunagar",
+      "coords": [
+        77.95202,
+        9.58076
+      ]
+    },
+    {
+      "name": "Sivakasi",
+      "coords": [
+        77.79541,
+        9.45115
+      ]
+    },
+    {
+      "name": "Srivilliputhur",
+      "coords": [
+        77.63313,
+        9.5122
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

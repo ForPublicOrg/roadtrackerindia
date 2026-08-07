@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-6959",
+  "ref": "ODR 6959",
+  "name": "SIPCOT Vallam Vadagal–Sriperumbudur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "SIPCOT Vallam Vadagal, Tamil Nadu",
+    "end": "Sriperumbudur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "SIPCOT Vallam Vadagal",
+      "Sriperumbudur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "SIPCOT Vallam Vadagal",
+      "coords": [
+        79.87782,
+        12.9585
+      ]
+    },
+    {
+      "name": "Sriperumbudur",
+      "coords": [
+        79.90457,
+        12.96351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

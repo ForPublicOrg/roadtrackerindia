@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumangad-aruvikkara-road",
+  "ref": "MDR",
+  "name": "Nedumangad - Aruvikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Nedumangad, Kerala",
+    "end": "Mancha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nedumangad",
+      "Mancha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.00328,
+        8.60308
+      ]
+    },
+    {
+      "name": "Mancha",
+      "coords": [
+        77.01031,
+        8.59467
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

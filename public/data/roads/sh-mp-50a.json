@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-50a",
+  "ref": "SH 50A",
+  "name": "Lahar–Bhind State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.5,
+  "route": {
+    "start": "Lahar, Madhya Pradesh",
+    "end": "Bhind, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lahar",
+      "Bhind"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lahar",
+      "coords": [
+        78.98244,
+        26.29338
+      ]
+    },
+    {
+      "name": "Bhind",
+      "coords": [
+        78.78701,
+        26.56141
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

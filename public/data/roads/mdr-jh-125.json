@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-125",
+  "ref": "MDR 125",
+  "name": "Panki–Chhatarpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.9,
+  "route": {
+    "start": "Panki, Jharkhand",
+    "end": "Chhatarpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Panki",
+      "Chhatarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panki",
+      "coords": [
+        84.30046,
+        24.07112
+      ]
+    },
+    {
+      "name": "Chhatarpur",
+      "coords": [
+        84.3552,
+        24.1664
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

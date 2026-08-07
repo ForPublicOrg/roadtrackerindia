@@ -1,0 +1,56 @@
+{
+  "id": "sh-hr-133",
+  "ref": "SH 133",
+  "name": "Sohna–Ballabgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.5,
+  "route": {
+    "start": "Sohna, Haryana",
+    "end": "Ballabgarh, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sohna",
+      "Ballabgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sohna",
+      "coords": [
+        77.10924,
+        28.23471
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        77.24177,
+        28.3773
+      ]
+    },
+    {
+      "name": "Saroor Pur",
+      "coords": [
+        77.27494,
+        28.35368
+      ]
+    },
+    {
+      "name": "Ballabgarh",
+      "coords": [
+        77.3161,
+        28.34351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

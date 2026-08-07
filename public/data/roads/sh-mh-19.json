@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-19",
+  "ref": "SH 19",
+  "name": "Chalisgaon–Satana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 117.7,
+  "route": {
+    "start": "Chalisgaon, Maharashtra",
+    "end": "Satana, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Chalisgaon",
+      "Malegaon",
+      "Satana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalisgaon",
+      "coords": [
+        75.00663,
+        20.46174
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        74.52565,
+        20.55475
+      ]
+    },
+    {
+      "name": "Satana",
+      "coords": [
+        74.20317,
+        20.59239
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

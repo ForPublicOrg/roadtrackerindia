@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-38",
+  "ref": "SH 38",
+  "name": "Bilgram–Unnao State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 92.4,
+  "route": {
+    "start": "Bilgram, Uttar Pradesh",
+    "end": "Unnao, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bilgram",
+      "Bangarmau",
+      "Safipur",
+      "Unnao"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bilgram",
+      "coords": [
+        80.04554,
+        27.17418
+      ]
+    },
+    {
+      "name": "Bangarmau",
+      "coords": [
+        80.21386,
+        26.89445
+      ]
+    },
+    {
+      "name": "Safipur",
+      "coords": [
+        80.34439,
+        26.74614
+      ]
+    },
+    {
+      "name": "Unnao",
+      "coords": [
+        80.48636,
+        26.54608
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

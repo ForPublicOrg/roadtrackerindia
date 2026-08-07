@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallamthol-kannoth-kappathikkal-road",
+  "ref": "MDR",
+  "name": "Kallamthol - Kannoth - Kappathikkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Periya, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Periya",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Periya",
+      "coords": [
+        75.14337,
+        12.38455
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.16143,
+        12.40864
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sh-mh-59",
+  "ref": "SH 59",
+  "name": "Paud–Warje State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30.5,
+  "route": {
+    "start": "Paud, Maharashtra",
+    "end": "Warje, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Paud",
+      "Anandnagar",
+      "Warje"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paud",
+      "coords": [
+        73.62387,
+        18.45845
+      ]
+    },
+    {
+      "name": "Anandnagar",
+      "coords": [
+        73.8099,
+        18.48374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

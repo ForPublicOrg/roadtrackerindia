@@ -1,0 +1,42 @@
+{
+  "id": "kl-beenachi-kattayad-vidhyabhavan-road",
+  "ref": "MDR",
+  "name": "Beenachi - Kattayad (Vidhyabhavan) Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.23703,
+        11.6621
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.24078,
+        11.67183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "nh-353b",
+  "ref": "NH 353B",
+  "name": "Gondpipri–Adilabad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 148,
+  "route": {
+    "start": "Gondpipri, Maharashtra",
+    "end": "Adilabad, Telangana",
+    "states": [
+      "Maharashtra",
+      "Telangana"
+    ],
+    "majorCities": [
+      "Gondpipri",
+      "Ballarpur",
+      "Gadchandur",
+      "Korpana",
+      "Adilabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gondpipri",
+      "coords": [
+        79.79992,
+        19.68119
+      ]
+    },
+    {
+      "name": "Ballarpur",
+      "coords": [
+        79.3792,
+        19.83228
+      ]
+    },
+    {
+      "name": "Rajura",
+      "coords": [
+        79.36574,
+        19.77927
+      ]
+    },
+    {
+      "name": "Gadchandur",
+      "coords": [
+        79.16423,
+        19.73773
+      ]
+    },
+    {
+      "name": "Korpana",
+      "coords": [
+        78.98769,
+        19.74506
+      ]
+    },
+    {
+      "name": "Adilabad",
+      "coords": [
+        78.5469,
+        19.73888
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

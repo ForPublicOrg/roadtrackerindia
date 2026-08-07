@@ -1,0 +1,42 @@
+{
+  "id": "kl-approach-road-to-kavvayi-bridge",
+  "ref": "MDR",
+  "name": "Approach Road to Kavvayi Bridge",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Payyanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Payyanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.17294,
+        12.08916
+      ]
+    },
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.19312,
+        12.09698
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

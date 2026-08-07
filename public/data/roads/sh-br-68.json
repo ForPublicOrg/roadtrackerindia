@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-68",
+  "ref": "SH 68",
+  "name": "Paliganj–Aurangabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83,
+  "route": {
+    "start": "Paliganj, Bihar",
+    "end": "Aurangabad, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Paliganj",
+      "Rafiganj",
+      "Aurangabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paliganj",
+      "coords": [
+        84.64223,
+        25.22127
+      ]
+    },
+    {
+      "name": "Rafiganj",
+      "coords": [
+        84.63715,
+        24.81938
+      ]
+    },
+    {
+      "name": "Aurangabad",
+      "coords": [
+        84.49234,
+        24.69591
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-327a",
+  "ref": "NH 327A",
+  "name": "Nirmali–Supaul National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 25.2,
+  "route": {
+    "start": "Nirmali, Bihar",
+    "end": "Supaul, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Nirmali",
+      "Supaul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nirmali",
+      "coords": [
+        86.73787,
+        26.30357
+      ]
+    },
+    {
+      "name": "Supaul",
+      "coords": [
+        86.60305,
+        26.12264
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mz-saitual-phullen-suangpuilawn-road",
+  "ref": "SH",
+  "name": "Saitual-Phullen-Suangpuilawn Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 78.7,
+  "route": {
+    "start": "Aizawl, Mizoram",
+    "end": "Tlangnuam, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Aizawl",
+      "Tlangnuam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aizawl",
+      "coords": [
+        93.04085,
+        23.96109
+      ]
+    },
+    {
+      "name": "Tlangnuam",
+      "coords": [
+        92.96174,
+        23.66836
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

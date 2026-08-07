@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-35b",
+  "ref": "MDR 35B",
+  "name": "Khimlasa–Mahrauni District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 45,
+  "route": {
+    "start": "Khimlasa, Uttar Pradesh",
+    "end": "Mahrauni, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Khimlasa",
+      "Mahrauni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khimlasa",
+      "coords": [
+        78.69371,
+        24.23589
+      ]
+    },
+    {
+      "name": "Mahrauni",
+      "coords": [
+        78.7256,
+        24.58201
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

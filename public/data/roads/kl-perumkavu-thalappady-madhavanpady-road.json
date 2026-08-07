@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumkavu-thalappady-madhavanpady-road",
+  "ref": "MDR",
+  "name": "Perumkavu - Thalappady - Madhavanpady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Manarcadu, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manarcadu",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.57094,
+        9.58661
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.5747,
+        9.56749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

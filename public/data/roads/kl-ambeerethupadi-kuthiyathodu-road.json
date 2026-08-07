@@ -1,0 +1,58 @@
+{
+  "id": "kl-ambeerethupadi-kuthiyathodu-road",
+  "ref": "MDR",
+  "name": "Ambeerethupadi - Kuthiyathodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Thirumoolapuram, Kerala",
+    "end": "Mundancavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thirumoolapuram",
+      "Kurattikkadu",
+      "Chengannur",
+      "Mundancavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thirumoolapuram",
+      "coords": [
+        76.5623,
+        9.34055
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.56177,
+        9.33625
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.5903,
+        9.33027
+      ]
+    },
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.59174,
+        9.33351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

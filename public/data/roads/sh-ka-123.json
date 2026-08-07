@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-123",
+  "ref": "SH 123",
+  "name": "Aurad Shahajani–Sippalagera State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 79.2,
+  "route": {
+    "start": "Aurad Shahajani, Karnataka",
+    "end": "Sippalagera, Telangana",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Aurad Shahajani",
+      "Bhalki",
+      "Sippalagera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aurad Shahajani",
+      "coords": [
+        77.01239,
+        18.03079
+      ]
+    },
+    {
+      "name": "Bhalki",
+      "coords": [
+        77.21996,
+        18.05905
+      ]
+    },
+    {
+      "name": "Sippalagera",
+      "coords": [
+        77.59679,
+        18.08214
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "nh-965d",
+  "ref": "NH 965D",
+  "name": "Satara–Kedgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 96.1,
+  "route": {
+    "start": "Satara, Maharashtra",
+    "end": "Kedgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Satara",
+      "Nira",
+      "Kedgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satara",
+      "coords": [
+        74.02659,
+        17.70794
+      ]
+    },
+    {
+      "name": "Lonand",
+      "coords": [
+        74.18414,
+        18.03273
+      ]
+    },
+    {
+      "name": "Nira",
+      "coords": [
+        74.2131,
+        18.09616
+      ]
+    },
+    {
+      "name": "Kedgaon",
+      "coords": [
+        74.37855,
+        18.45213
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

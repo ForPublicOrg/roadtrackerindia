@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-314",
+  "ref": "MDR 314",
+  "name": "Palayamkottai–Shanti Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Palayamkottai, Tamil Nadu",
+    "end": "Shanti Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palayamkottai",
+      "Tirunelveli",
+      "Thalaiyuthu",
+      "Shanti Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palayamkottai",
+      "coords": [
+        77.73867,
+        8.73258
+      ]
+    },
+    {
+      "name": "Thalaiyuthu",
+      "coords": [
+        77.74772,
+        8.76314
+      ]
+    },
+    {
+      "name": "Shanti Nagar",
+      "coords": [
+        77.80011,
+        8.76146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

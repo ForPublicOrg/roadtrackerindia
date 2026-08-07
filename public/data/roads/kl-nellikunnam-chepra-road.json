@@ -1,0 +1,42 @@
+{
+  "id": "kl-nellikunnam-chepra-road",
+  "ref": "MDR",
+  "name": "Nellikunnam - Chepra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.80398,
+        8.94084
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.77696,
+        8.96609
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

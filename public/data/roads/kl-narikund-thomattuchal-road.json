@@ -1,0 +1,42 @@
+{
+  "id": "kl-narikund-thomattuchal-road",
+  "ref": "MDR",
+  "name": "Narikund - Thomattuchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.21449,
+        11.59933
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.21992,
+        11.56909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

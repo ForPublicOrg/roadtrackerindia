@@ -1,0 +1,42 @@
+{
+  "id": "kl-vazhamana-elamkavu-temple-road",
+  "ref": "MDR",
+  "name": "Vazhamana - Elamkavu Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.43045,
+        9.76964
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.42933,
+        9.75945
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

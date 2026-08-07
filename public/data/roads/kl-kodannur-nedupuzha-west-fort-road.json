@@ -1,0 +1,50 @@
+{
+  "id": "kl-kodannur-nedupuzha-west-fort-road",
+  "ref": "MDR",
+  "name": "Kodannur Nedupuzha West Fort Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "West Fort, Kerala",
+    "end": "Cheerachi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "West Fort",
+      "Thrissur",
+      "Cheerachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "West Fort",
+      "coords": [
+        76.19573,
+        10.51066
+      ]
+    },
+    {
+      "name": "Kuriyachira",
+      "coords": [
+        76.19628,
+        10.50195
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.18421,
+        10.46639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

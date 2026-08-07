@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-15",
+  "ref": "SH 15",
+  "name": "Rewa–Govindgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.4,
+  "route": {
+    "start": "Rewa, Madhya Pradesh",
+    "end": "Govindgarh, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Rewa",
+      "Govindgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewa",
+      "coords": [
+        81.18958,
+        24.49266
+      ]
+    },
+    {
+      "name": "Govindgarh",
+      "coords": [
+        81.29451,
+        24.38097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

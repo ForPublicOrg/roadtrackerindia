@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalikulam-chenganda-road",
+  "ref": "MDR",
+  "name": "Kalikulam - Chenganda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.35646,
+        9.70336
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.35172,
+        9.68488
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

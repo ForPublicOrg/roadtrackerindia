@@ -1,0 +1,52 @@
+{
+  "id": "kl-modern-kolathra-road",
+  "ref": "MDR",
+  "name": "Modern - Kolathra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Cheruvannur, Kerala",
+    "end": "Modern Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheruvannur",
+      "Feroke",
+      "Nallalam",
+      "Beypore",
+      "Modern Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheruvannur",
+      "coords": [
+        75.83209,
+        11.20372
+      ]
+    },
+    {
+      "name": "Nallalam",
+      "coords": [
+        75.81944,
+        11.20707
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.81217,
+        11.2053
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

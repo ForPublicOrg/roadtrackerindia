@@ -1,0 +1,43 @@
+{
+  "id": "kl-kootikada-sasthamkadavu-road",
+  "ref": "MDR",
+  "name": "Kootikada - Sasthamkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Mayyanad, Kerala",
+    "end": "Mevaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mayyanad",
+      "Kottiyam",
+      "Mevaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mayyanad",
+      "coords": [
+        76.63607,
+        8.83968
+      ]
+    },
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.6375,
+        8.85417
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

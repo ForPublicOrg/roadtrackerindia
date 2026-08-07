@@ -1,0 +1,51 @@
+{
+  "id": "sh-rj-19d",
+  "ref": "SH 19D",
+  "name": "Bhawani Mandi–Pirawa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 45.8,
+  "route": {
+    "start": "Bhawani Mandi, Rajasthan",
+    "end": "Pirawa, Madhya Pradesh",
+    "states": [
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bhawani Mandi",
+      "Sunel",
+      "Pirawa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhawani Mandi",
+      "coords": [
+        75.88476,
+        24.41918
+      ]
+    },
+    {
+      "name": "Sunel",
+      "coords": [
+        75.95684,
+        24.37337
+      ]
+    },
+    {
+      "name": "Pirawa",
+      "coords": [
+        76.03712,
+        24.16369
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

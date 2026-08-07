@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadampanadu-enadi-road",
+  "ref": "MDR",
+  "name": "Kadampanadu - Enadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Parakode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Parakode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.6863,
+        9.09219
+      ]
+    },
+    {
+      "name": "Parakode",
+      "coords": [
+        76.75552,
+        9.09054
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

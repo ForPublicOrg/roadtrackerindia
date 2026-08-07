@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthenpally-munakkal-beach-road",
+  "ref": "MDR",
+  "name": "Puthenpally - Munakkal Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Kottapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "Kottapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.16437,
+        10.18186
+      ]
+    },
+    {
+      "name": "Kottapuram",
+      "coords": [
+        76.17028,
+        10.1966
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

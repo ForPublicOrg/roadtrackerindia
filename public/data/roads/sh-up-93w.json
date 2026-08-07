@@ -1,0 +1,43 @@
+{
+  "id": "sh-up-93w",
+  "ref": "SH 93W",
+  "name": "Sahanpur–Police Line State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39.2,
+  "route": {
+    "start": "Sahanpur, Uttar Pradesh",
+    "end": "Police Line, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sahanpur",
+      "Bijnor",
+      "Police Line"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sahanpur",
+      "coords": [
+        78.25123,
+        29.64592
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.13467,
+        29.38217
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

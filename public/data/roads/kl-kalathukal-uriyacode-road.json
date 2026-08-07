@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalathukal-uriyacode-road",
+  "ref": "MDR",
+  "name": "Kalathukal - Uriyacode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Vattiyoorkavu, Kerala",
+    "end": "Peyad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattiyoorkavu",
+      "Peyad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattiyoorkavu",
+      "coords": [
+        77.00181,
+        8.55669
+      ]
+    },
+    {
+      "name": "Peyad",
+      "coords": [
+        77.02163,
+        8.54943
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

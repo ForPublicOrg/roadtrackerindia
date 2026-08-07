@@ -1,0 +1,42 @@
+{
+  "id": "kl-kumbanad-cherukolpuzha-road",
+  "ref": "MDR",
+  "name": "Kumbanad - Cherukolpuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Kumbanad, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbanad",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.66773,
+        9.36269
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70704,
+        9.3582
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

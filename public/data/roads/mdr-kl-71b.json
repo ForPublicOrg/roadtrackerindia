@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-71b",
+  "ref": "MDR 71B",
+  "name": "Kelugudde–Badiadka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kelugudde, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kelugudde",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kelugudde",
+      "coords": [
+        75.01022,
+        12.55493
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.03632,
+        12.58372
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

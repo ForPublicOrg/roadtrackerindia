@@ -1,0 +1,42 @@
+{
+  "id": "kl-kappukala-pious-mount-road",
+  "ref": "MDR",
+  "name": "Kappukala - Pious Mount Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Koothattukulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Koothattukulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.59998,
+        9.79911
+      ]
+    },
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.58722,
+        9.81686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

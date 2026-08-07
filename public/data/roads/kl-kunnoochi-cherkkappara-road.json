@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunnoochi-cherkkappara-road",
+  "ref": "MDR",
+  "name": "Kunnoochi - Cherkkappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Periya, Kerala",
+    "end": "Palakunnu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Periya",
+      "Palakunnu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Periya",
+      "coords": [
+        75.07825,
+        12.40306
+      ]
+    },
+    {
+      "name": "Palakunnu",
+      "coords": [
+        75.06396,
+        12.42041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

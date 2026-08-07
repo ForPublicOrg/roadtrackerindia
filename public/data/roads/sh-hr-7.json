@@ -1,0 +1,59 @@
+{
+  "id": "sh-hr-7",
+  "ref": "SH 7",
+  "name": "Model Town–Shahbad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.1,
+  "route": {
+    "start": "Model Town, Haryana",
+    "end": "Shahbad, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Model Town",
+      "Karnal",
+      "Indri",
+      "Ladwa",
+      "Shahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Model Town",
+      "coords": [
+        76.98218,
+        29.71934
+      ]
+    },
+    {
+      "name": "Indri",
+      "coords": [
+        77.04769,
+        29.8802
+      ]
+    },
+    {
+      "name": "Ladwa",
+      "coords": [
+        77.04889,
+        29.99575
+      ]
+    },
+    {
+      "name": "Shahbad",
+      "coords": [
+        76.86387,
+        30.16388
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

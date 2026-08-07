@@ -1,0 +1,46 @@
+{
+  "id": "nh-227l",
+  "ref": "NH 227L",
+  "name": "Nagarain–Rahika National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 19.6,
+  "route": {
+    "start": "Nagarain, Bihar",
+    "end": "Rahika, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Nagarain",
+      "Rahika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagarain",
+      "coords": [
+        85.96988,
+        26.61246
+      ]
+    },
+    {
+      "name": "Rahika",
+      "coords": [
+        86.06252,
+        26.46414
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

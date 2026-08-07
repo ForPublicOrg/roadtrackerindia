@@ -1,0 +1,42 @@
+{
+  "id": "kl-nilambur-karulai-road",
+  "ref": "MDR",
+  "name": "Nilambur - Karulai Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Kalikavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Kalikavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.24552,
+        11.28249
+      ]
+    },
+    {
+      "name": "Kalikavu",
+      "coords": [
+        76.31786,
+        11.28538
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

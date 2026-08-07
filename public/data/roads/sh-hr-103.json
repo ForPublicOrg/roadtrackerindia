@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-103",
+  "ref": "SH 103",
+  "name": "Pephana–Fatehabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.4,
+  "route": {
+    "start": "Pephana, Haryana",
+    "end": "Fatehabad, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Pephana",
+      "Fatehabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pephana",
+      "coords": [
+        74.95696,
+        29.33034
+      ]
+    },
+    {
+      "name": "Fatehabad",
+      "coords": [
+        75.33055,
+        29.38914
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "nh-118",
+  "ref": "NH 118",
+  "name": "Bhetia–Pārdih National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 16.8,
+  "route": {
+    "start": "Bhetia, Jharkhand",
+    "end": "Pārdih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bhetia",
+      "Adityapur",
+      "Kapāli",
+      "Jamshedpur",
+      "Pārdih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhetia",
+      "coords": [
+        86.1347,
+        22.79624
+      ]
+    },
+    {
+      "name": "Adityapur",
+      "coords": [
+        86.1483,
+        22.80127
+      ]
+    },
+    {
+      "name": "Kapāli",
+      "coords": [
+        86.17788,
+        22.82876
+      ]
+    },
+    {
+      "name": "Jamshedpur",
+      "coords": [
+        86.2049,
+        22.81614
+      ]
+    },
+    {
+      "name": "Dimna",
+      "coords": [
+        86.2113,
+        22.83978
+      ]
+    },
+    {
+      "name": "Pārdih",
+      "coords": [
+        86.20341,
+        22.85262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

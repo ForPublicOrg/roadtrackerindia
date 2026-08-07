@@ -1,0 +1,42 @@
+{
+  "id": "kl-navarakkal-nh-thanniyil-junction-ammayude-lps-njondimukku-sh",
+  "ref": "MDR",
+  "name": "Navarakkal (NH) - Thanniyil Junction - Ammayude LPS - Njondimukku (SH) Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.37815,
+        9.38075
+      ]
+    },
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.35768,
+        9.37771
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

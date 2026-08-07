@@ -1,0 +1,42 @@
+{
+  "id": "kl-harippad-tb-junction-vellamkulangara-road",
+  "ref": "MDR",
+  "name": "Harippad TB Junction - Vellamkulangara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.46142,
+        9.28798
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.45607,
+        9.29984
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

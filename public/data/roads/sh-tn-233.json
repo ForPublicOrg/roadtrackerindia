@@ -1,0 +1,71 @@
+{
+  "id": "sh-tn-233",
+  "ref": "SH 233",
+  "name": "Civil Aerodrome–Kurumbapalayam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Civil Aerodrome, Tamil Nadu",
+    "end": "Kurumbapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Civil Aerodrome",
+      "Kalapatti",
+      "Kurumbapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Civil Aerodrome",
+      "coords": [
+        77.03752,
+        11.03853
+      ]
+    },
+    {
+      "name": "Chinniampalayam",
+      "coords": [
+        77.03896,
+        11.05353
+      ]
+    },
+    {
+      "name": "Mylampatti",
+      "coords": [
+        77.03843,
+        11.07268
+      ]
+    },
+    {
+      "name": "Kalapatti",
+      "coords": [
+        77.03714,
+        11.07775
+      ]
+    },
+    {
+      "name": "Sarvanampatti",
+      "coords": [
+        77.03222,
+        11.09054
+      ]
+    },
+    {
+      "name": "Kurumbapalayam",
+      "coords": [
+        77.03029,
+        11.1125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

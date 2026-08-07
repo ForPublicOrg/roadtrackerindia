@@ -1,0 +1,58 @@
+{
+  "id": "kl-athikarathodi-kuttaloor-road",
+  "ref": "MDR",
+  "name": "Athikarathodi - Kuttaloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.3,
+  "route": {
+    "start": "Valiyangadi, Kerala",
+    "end": "Vengara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyangadi",
+      "Malappuram",
+      "Panakkad",
+      "Vengara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyangadi",
+      "coords": [
+        76.07804,
+        11.06318
+      ]
+    },
+    {
+      "name": "Panakkad",
+      "coords": [
+        76.03188,
+        11.06155
+      ]
+    },
+    {
+      "name": "Othukungal",
+      "coords": [
+        76.01584,
+        11.05345
+      ]
+    },
+    {
+      "name": "Vengara",
+      "coords": [
+        75.99145,
+        11.05178
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sh-kl-28",
+  "ref": "SH 28",
+  "name": "Kaloth–Pandalur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64.3,
+  "route": {
+    "start": "Kaloth, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaloth",
+      "Manjeri",
+      "Nilambur",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaloth",
+      "coords": [
+        76.04361,
+        11.12806
+      ]
+    },
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.11584,
+        11.12296
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.24039,
+        11.28954
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.38956,
+        11.43526
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

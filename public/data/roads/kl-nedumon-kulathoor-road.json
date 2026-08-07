@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumon-kulathoor-road",
+  "ref": "MDR",
+  "name": "Nedumon - Kulathoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Manimala, Kerala",
+    "end": "Karukachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manimala",
+      "Karukachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manimala",
+      "coords": [
+        76.71029,
+        9.46218
+      ]
+    },
+    {
+      "name": "Karukachal",
+      "coords": [
+        76.68248,
+        9.50353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

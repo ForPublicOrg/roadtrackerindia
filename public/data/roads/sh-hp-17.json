@@ -1,0 +1,58 @@
+{
+  "id": "sh-hp-17",
+  "ref": "SH 17",
+  "name": "Holta Cantonment–Shyam Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33.7,
+  "route": {
+    "start": "Holta Cantonment, Himachal Pradesh",
+    "end": "Shyam Nagar, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Holta Cantonment",
+      "Palampur",
+      "Dharamshala",
+      "Shyam Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Holta Cantonment",
+      "coords": [
+        76.55174,
+        32.10439
+      ]
+    },
+    {
+      "name": "Palampur",
+      "coords": [
+        76.53949,
+        32.10879
+      ]
+    },
+    {
+      "name": "Yol Cantonment",
+      "coords": [
+        76.37883,
+        32.17881
+      ]
+    },
+    {
+      "name": "Dharamshala",
+      "coords": [
+        76.32169,
+        32.21049
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

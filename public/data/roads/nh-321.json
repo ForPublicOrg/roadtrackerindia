@@ -1,0 +1,46 @@
+{
+  "id": "nh-321",
+  "ref": "NH 321",
+  "name": "Kiraoli–Kheragarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 15,
+  "route": {
+    "start": "Kiraoli, Uttar Pradesh",
+    "end": "Kheragarh, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kiraoli",
+      "Kheragarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kiraoli",
+      "coords": [
+        77.77965,
+        27.13563
+      ]
+    },
+    {
+      "name": "Kheragarh",
+      "coords": [
+        77.85043,
+        27.02409
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

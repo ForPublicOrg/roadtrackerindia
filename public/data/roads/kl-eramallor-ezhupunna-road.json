@@ -1,0 +1,42 @@
+{
+  "id": "kl-eramallor-ezhupunna-road",
+  "ref": "MDR",
+  "name": "Eramallor - Ezhupunna Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.2986,
+        9.82109
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.31105,
+        9.82345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

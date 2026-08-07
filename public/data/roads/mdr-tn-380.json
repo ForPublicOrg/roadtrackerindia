@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-380",
+  "ref": "MDR 380",
+  "name": "Perambalur–Pullambadi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.9,
+  "route": {
+    "start": "Perambalur, Tamil Nadu",
+    "end": "Pullambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Perambalur",
+      "Pullambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perambalur",
+      "coords": [
+        78.8251,
+        11.09084
+      ]
+    },
+    {
+      "name": "Vadugarpettai",
+      "coords": [
+        78.91224,
+        10.97258
+      ]
+    },
+    {
+      "name": "Pullambadi",
+      "coords": [
+        78.91143,
+        10.94569
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

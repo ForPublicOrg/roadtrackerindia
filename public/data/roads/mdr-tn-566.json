@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-566",
+  "ref": "MDR 566",
+  "name": "Sithalapakkam–Rajakilpakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Sithalapakkam, Tamil Nadu",
+    "end": "Rajakilpakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sithalapakkam",
+      "Tambaram",
+      "Rajakilpakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sithalapakkam",
+      "coords": [
+        80.17073,
+        12.88266
+      ]
+    },
+    {
+      "name": "Madambakkam",
+      "coords": [
+        80.16174,
+        12.88459
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.14314,
+        12.91234
+      ]
+    },
+    {
+      "name": "Rajakilpakkam",
+      "coords": [
+        80.14587,
+        12.91797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

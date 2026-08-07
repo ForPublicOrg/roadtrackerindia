@@ -1,0 +1,42 @@
+{
+  "id": "kl-rajagiri-josegiri-road",
+  "ref": "MDR",
+  "name": "Rajagiri - Josegiri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Vazhakundam, Kerala",
+    "end": "Alakode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhakundam",
+      "Alakode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.47091,
+        12.28954
+      ]
+    },
+    {
+      "name": "Alakode",
+      "coords": [
+        75.47053,
+        12.27275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

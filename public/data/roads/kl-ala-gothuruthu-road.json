@@ -1,0 +1,42 @@
+{
+  "id": "kl-ala-gothuruthu-road",
+  "ref": "MDR",
+  "name": "Ala - Gothuruthu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Thiruvanchikulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Thiruvanchikulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.19764,
+        10.25581
+      ]
+    },
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.18824,
+        10.2483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

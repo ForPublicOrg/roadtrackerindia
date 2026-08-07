@@ -1,0 +1,42 @@
+{
+  "id": "kl-panickankudy-kombodinjal-ponmudi-road",
+  "ref": "MDR",
+  "name": "Panickankudy - Kombodinjal - Ponmudi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Murickassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Murickassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.05542,
+        9.96068
+      ]
+    },
+    {
+      "name": "Murickassery",
+      "coords": [
+        77.04332,
+        9.95024
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

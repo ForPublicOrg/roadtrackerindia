@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-35",
+  "ref": "SH 35",
+  "name": "Gada Sarai–Kotma State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 90.4,
+  "route": {
+    "start": "Gada Sarai, Madhya Pradesh",
+    "end": "Kotma, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gada Sarai",
+      "Jaithari",
+      "Kotma"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gada Sarai",
+      "coords": [
+        81.39504,
+        22.92745
+      ]
+    },
+    {
+      "name": "Jaithari",
+      "coords": [
+        81.79338,
+        23.04114
+      ]
+    },
+    {
+      "name": "Kotma",
+      "coords": [
+        81.9813,
+        23.20371
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-panacheppally-road",
+  "ref": "MDR",
+  "name": "Panacheppally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.81943,
+        9.52986
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.79497,
+        9.54666
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

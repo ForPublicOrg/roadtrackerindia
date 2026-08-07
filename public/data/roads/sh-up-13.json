@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-13",
+  "ref": "SH 13",
+  "name": "Barabanki–Dalmau State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 118.6,
+  "route": {
+    "start": "Barabanki, Uttar Pradesh",
+    "end": "Dalmau, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Barabanki",
+      "Haidargarh",
+      "Bachhrawan",
+      "Dalmau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barabanki",
+      "coords": [
+        81.22061,
+        26.92917
+      ]
+    },
+    {
+      "name": "Haidargarh",
+      "coords": [
+        81.36152,
+        26.60817
+      ]
+    },
+    {
+      "name": "Bachhrawan",
+      "coords": [
+        81.11381,
+        26.47305
+      ]
+    },
+    {
+      "name": "Dalmau",
+      "coords": [
+        80.96752,
+        26.16186
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

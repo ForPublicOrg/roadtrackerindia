@@ -1,0 +1,51 @@
+{
+  "id": "sh-hr-108",
+  "ref": "SH 108",
+  "name": "Bhiwani–Sector 15A State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.9,
+  "route": {
+    "start": "Bhiwani, Haryana",
+    "end": "Sector 15A, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Bhiwani",
+      "Tosham",
+      "Hisar",
+      "Sector 15A"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhiwani",
+      "coords": [
+        76.13213,
+        28.79758
+      ]
+    },
+    {
+      "name": "Tosham",
+      "coords": [
+        75.91794,
+        28.87053
+      ]
+    },
+    {
+      "name": "Hisar",
+      "coords": [
+        75.73676,
+        29.13864
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

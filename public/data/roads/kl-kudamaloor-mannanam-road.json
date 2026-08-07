@@ -1,0 +1,42 @@
+{
+  "id": "kl-kudamaloor-mannanam-road",
+  "ref": "MDR",
+  "name": "Kudamaloor Mannanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Kumaranalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Kumaranalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.52093,
+        9.64834
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.51428,
+        9.63358
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-921",
+  "ref": "MDR 921",
+  "name": "Suthamalli Vilakku–Narasinganallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Suthamalli Vilakku, Tamil Nadu",
+    "end": "Narasinganallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Suthamalli Vilakku",
+      "Narasinganallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Suthamalli Vilakku",
+      "coords": [
+        77.63816,
+        8.71088
+      ]
+    },
+    {
+      "name": "Narasinganallur",
+      "coords": [
+        77.64312,
+        8.70716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-thevar-road",
+  "ref": "MDR",
+  "name": "Thevar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.18344,
+        10.41761
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.20814,
+        10.41257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-manjamattom-kezhuvankulam-road",
+  "ref": "MDR",
+  "name": "Manjamattom - Kezhuvankulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Kidangoor",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.64777,
+        9.62897
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.63221,
+        9.65593
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.64623,
+        9.66862
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

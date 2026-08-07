@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1605",
+  "ref": "MDR 1605",
+  "name": "Lauri–Ajaigarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.8,
+  "route": {
+    "start": "Lauri, Madhya Pradesh",
+    "end": "Ajaigarh, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lauri",
+      "Ajaigarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lauri",
+      "coords": [
+        79.96591,
+        25.11177
+      ]
+    },
+    {
+      "name": "Ajaigarh",
+      "coords": [
+        80.07126,
+        24.98586
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

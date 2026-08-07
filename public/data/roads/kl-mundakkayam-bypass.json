@@ -1,0 +1,42 @@
+{
+  "id": "kl-mundakkayam-bypass",
+  "ref": "MDR",
+  "name": "Mundakkayam Bypass",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Mundakkayam, Kerala",
+    "end": "Puthenchantha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundakkayam",
+      "Puthenchantha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.87948,
+        9.5372
+      ]
+    },
+    {
+      "name": "Puthenchantha",
+      "coords": [
+        76.88648,
+        9.53629
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

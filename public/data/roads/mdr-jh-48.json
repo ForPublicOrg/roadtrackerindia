@@ -1,0 +1,64 @@
+{
+  "id": "mdr-jh-48",
+  "ref": "MDR 48",
+  "name": "Salanpur–Dhanbad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.7,
+  "route": {
+    "start": "Salanpur, Jharkhand",
+    "end": "Dhanbad, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Salanpur",
+      "Bhuli",
+      "Dhanbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Salanpur",
+      "coords": [
+        86.3093,
+        23.84551
+      ]
+    },
+    {
+      "name": "Barwadda",
+      "coords": [
+        86.41851,
+        23.83197
+      ]
+    },
+    {
+      "name": "Bhuli",
+      "coords": [
+        86.38379,
+        23.80658
+      ]
+    },
+    {
+      "name": "Loyabad",
+      "coords": [
+        86.35698,
+        23.81066
+      ]
+    },
+    {
+      "name": "Dhanbad",
+      "coords": [
+        86.42322,
+        23.79242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

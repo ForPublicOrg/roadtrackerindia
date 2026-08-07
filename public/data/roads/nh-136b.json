@@ -1,0 +1,62 @@
+{
+  "id": "nh-136b",
+  "ref": "NH 136B",
+  "name": "Chatamkaruppur–Sirkazhi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 51.2,
+  "route": {
+    "start": "Chatamkaruppur, Tamil Nadu",
+    "end": "Sirkazhi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chatamkaruppur",
+      "Kumbakonam",
+      "Mayiladuthurai",
+      "Sirkazhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chatamkaruppur",
+      "coords": [
+        79.38885,
+        10.98272
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.40108,
+        10.97144
+      ]
+    },
+    {
+      "name": "Mayiladuthurai",
+      "coords": [
+        79.64983,
+        11.1012
+      ]
+    },
+    {
+      "name": "Sirkazhi",
+      "coords": [
+        79.73243,
+        11.21034
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

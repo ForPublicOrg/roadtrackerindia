@@ -1,0 +1,42 @@
+{
+  "id": "kl-chempoor-road",
+  "ref": "MDR",
+  "name": "Chempoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.19462,
+        8.44527
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.12826,
+        8.47052
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

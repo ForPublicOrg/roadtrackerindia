@@ -1,0 +1,43 @@
+{
+  "id": "kl-coastal-road",
+  "ref": "MDR",
+  "name": "Coastal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Zakariya Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha",
+      "Zakariya Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.32562,
+        9.46727
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32151,
+        9.48093
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-u111",
+  "ref": "SH-U 111",
+  "name": "Perundurai–Perundurai SIPCOT State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Perundurai, Tamil Nadu",
+    "end": "Perundurai SIPCOT, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Perundurai",
+      "Perundurai SIPCOT"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perundurai",
+      "coords": [
+        77.59701,
+        11.29808
+      ]
+    },
+    {
+      "name": "Sanitorium",
+      "coords": [
+        77.57294,
+        11.27
+      ]
+    },
+    {
+      "name": "Perundurai SIPCOT",
+      "coords": [
+        77.55344,
+        11.25895
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karumadi-padaharam-road",
+  "ref": "MDR",
+  "name": "Karumadi - Padaharam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.41043,
+        9.38234
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.38761,
+        9.38219
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

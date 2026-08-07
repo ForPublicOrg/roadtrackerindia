@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-134",
+  "ref": "SH 134",
+  "name": "Nuh–Palwal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32.2,
+  "route": {
+    "start": "Nuh, Haryana",
+    "end": "Palwal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Nuh",
+      "Palwal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nuh",
+      "coords": [
+        77.02013,
+        28.11152
+      ]
+    },
+    {
+      "name": "Palwal",
+      "coords": [
+        77.32756,
+        28.14012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

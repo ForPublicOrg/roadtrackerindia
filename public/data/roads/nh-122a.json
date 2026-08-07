@@ -1,0 +1,46 @@
+{
+  "id": "nh-122a",
+  "ref": "NH 122A",
+  "name": "Pupri–Sheohar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 37.5,
+  "route": {
+    "start": "Pupri, Bihar",
+    "end": "Sheohar, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Pupri",
+      "Sheohar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pupri",
+      "coords": [
+        85.70412,
+        26.47104
+      ]
+    },
+    {
+      "name": "Sheohar",
+      "coords": [
+        85.38564,
+        26.3985
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

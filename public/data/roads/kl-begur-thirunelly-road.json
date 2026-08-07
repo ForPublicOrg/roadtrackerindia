@@ -1,0 +1,42 @@
+{
+  "id": "kl-begur-thirunelly-road",
+  "ref": "MDR",
+  "name": "Begur-Thirunelly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.8,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Perikkalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Perikkalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        75.9963,
+        11.90831
+      ]
+    },
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.06709,
+        11.90219
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

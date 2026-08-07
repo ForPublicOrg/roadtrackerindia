@@ -1,0 +1,42 @@
+{
+  "id": "kl-thanissery-karamchira-road",
+  "ref": "MDR",
+  "name": "Thanissery - Karamchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.15666,
+        10.401
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.17816,
+        10.36706
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

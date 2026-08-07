@@ -1,0 +1,53 @@
+{
+  "id": "nh-348",
+  "ref": "NH 348",
+  "name": "Panvel–Jasai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 29.4,
+  "route": {
+    "start": "Panvel, Maharashtra",
+    "end": "Jasai, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Panvel",
+      "Jasai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panvel",
+      "coords": [
+        73.13692,
+        18.96723
+      ]
+    },
+    {
+      "name": "Ulwe",
+      "coords": [
+        73.03747,
+        18.95776
+      ]
+    },
+    {
+      "name": "Jasai",
+      "coords": [
+        73.03066,
+        18.93223
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

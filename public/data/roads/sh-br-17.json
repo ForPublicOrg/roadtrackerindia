@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-17",
+  "ref": "SH 17",
+  "name": "Chausa–Sasaram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 68.3,
+  "route": {
+    "start": "Chausa, Bihar",
+    "end": "Sasaram, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Chausa",
+      "Kochas",
+      "Sasaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chausa",
+      "coords": [
+        83.88777,
+        25.48746
+      ]
+    },
+    {
+      "name": "Kochas",
+      "coords": [
+        83.92033,
+        25.23704
+      ]
+    },
+    {
+      "name": "Sasaram",
+      "coords": [
+        84.01003,
+        24.95605
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

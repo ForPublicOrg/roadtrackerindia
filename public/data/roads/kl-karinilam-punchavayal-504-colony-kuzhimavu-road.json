@@ -1,0 +1,43 @@
+{
+  "id": "kl-karinilam-punchavayal-504-colony-kuzhimavu-road",
+  "ref": "MDR",
+  "name": "Karinilam - Punchavayal - 504 Colony - Kuzhimavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Puthenchantha, Kerala",
+    "end": "Charala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthenchantha",
+      "Mundakkayam",
+      "Charala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthenchantha",
+      "coords": [
+        76.88976,
+        9.5184
+      ]
+    },
+    {
+      "name": "Charala",
+      "coords": [
+        76.95689,
+        9.45906
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

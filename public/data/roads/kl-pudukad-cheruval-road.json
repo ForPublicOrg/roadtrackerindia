@@ -1,0 +1,49 @@
+{
+  "id": "kl-pudukad-cheruval-road",
+  "ref": "MDR",
+  "name": "Pudukad - Cheruval Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.24951,
+        10.41556
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.25204,
+        10.42228
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.26954,
+        10.42204
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

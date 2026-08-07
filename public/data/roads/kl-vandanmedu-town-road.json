@@ -1,0 +1,42 @@
+{
+  "id": "kl-vandanmedu-town-road",
+  "ref": "MDR",
+  "name": "Vandanmedu Town Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Parakadavu, Kerala",
+    "end": "Ambalakkavala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakadavu",
+      "Ambalakkavala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.15931,
+        9.72727
+      ]
+    },
+    {
+      "name": "Ambalakkavala",
+      "coords": [
+        77.15443,
+        9.72307
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

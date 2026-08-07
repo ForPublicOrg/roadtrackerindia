@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-694",
+  "ref": "MDR 694",
+  "name": "Sultan Bathery–Pandalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Sultan Bathery, Tamil Nadu",
+    "end": "Pandalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.25442,
+        11.5853
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.27435,
+        11.51655
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

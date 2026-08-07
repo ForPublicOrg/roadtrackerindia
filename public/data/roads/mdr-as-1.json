@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-1",
+  "ref": "MDR 1",
+  "name": "Karimganj–Hailakandi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Karimganj, Assam",
+    "end": "Hailakandi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Karimganj",
+      "Hailakandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karimganj",
+      "coords": [
+        92.36379,
+        24.75074
+      ]
+    },
+    {
+      "name": "Hailakandi",
+      "coords": [
+        92.43521,
+        24.73999
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

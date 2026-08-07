@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-210",
+  "ref": "MDR 210",
+  "name": "Borio–Rajmahal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.3,
+  "route": {
+    "start": "Borio, Jharkhand",
+    "end": "Rajmahal, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Borio",
+      "Rajmahal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Borio",
+      "coords": [
+        87.61378,
+        25.03012
+      ]
+    },
+    {
+      "name": "Rajmahal",
+      "coords": [
+        87.82808,
+        25.05147
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

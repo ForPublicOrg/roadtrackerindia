@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-52",
+  "ref": "MDR 52",
+  "name": "Bundi–Hindoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.1,
+  "route": {
+    "start": "Bundi, Rajasthan",
+    "end": "Hindoli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bundi",
+      "Hindoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bundi",
+      "coords": [
+        75.64348,
+        25.44042
+      ]
+    },
+    {
+      "name": "Hindoli",
+      "coords": [
+        75.59483,
+        25.6458
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

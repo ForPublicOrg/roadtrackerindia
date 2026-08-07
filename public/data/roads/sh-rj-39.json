@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-39",
+  "ref": "SH 39",
+  "name": "Mundwa–Merta City State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.2,
+  "route": {
+    "start": "Mundwa, Rajasthan",
+    "end": "Merta City, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mundwa",
+      "Merta Road",
+      "Merta City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundwa",
+      "coords": [
+        73.82303,
+        27.06916
+      ]
+    },
+    {
+      "name": "Merta Road",
+      "coords": [
+        73.92061,
+        26.72438
+      ]
+    },
+    {
+      "name": "Merta City",
+      "coords": [
+        74.03097,
+        26.65144
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

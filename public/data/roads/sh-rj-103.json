@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-103",
+  "ref": "SH 103",
+  "name": "Boroonda–Gothan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 10.8,
+  "route": {
+    "start": "Boroonda, Rajasthan",
+    "end": "Gothan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Boroonda",
+      "Gothan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Boroonda",
+      "coords": [
+        73.73921,
+        26.51876
+      ]
+    },
+    {
+      "name": "Gothan",
+      "coords": [
+        73.72139,
+        26.60581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

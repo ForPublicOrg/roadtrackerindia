@@ -1,0 +1,42 @@
+{
+  "id": "kl-thonnalloor-athikattukulangara-road",
+  "ref": "MDR",
+  "name": "Thonnalloor - Athikattukulangara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.64838,
+        9.17486
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.68144,
+        9.21654
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

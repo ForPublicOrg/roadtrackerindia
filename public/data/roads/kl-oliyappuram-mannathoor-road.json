@@ -1,0 +1,42 @@
+{
+  "id": "kl-oliyappuram-mannathoor-road",
+  "ref": "MDR",
+  "name": "Oliyappuram - Mannathoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kizhakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kizhakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.56942,
+        9.88657
+      ]
+    },
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.56874,
+        9.90085
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

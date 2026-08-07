@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-461",
+  "ref": "MDR 461",
+  "name": "Santhosh Nagar–Puthur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.6,
+  "route": {
+    "start": "Santhosh Nagar, Tamil Nadu",
+    "end": "Puthur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Santhosh Nagar",
+      "Tiruchirappalli",
+      "Puthur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Santhosh Nagar",
+      "coords": [
+        78.60516,
+        10.87475
+      ]
+    },
+    {
+      "name": "Somarasampettai",
+      "coords": [
+        78.63905,
+        10.8127
+      ]
+    },
+    {
+      "name": "Natchikurichy",
+      "coords": [
+        78.6465,
+        10.81499
+      ]
+    },
+    {
+      "name": "Tiruchirappalli",
+      "coords": [
+        78.6778,
+        10.8152
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

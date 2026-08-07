@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-119",
+  "ref": "MDR 119",
+  "name": "Vaikom–Cherthala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Cherthala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Cherthala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.33928,
+        9.74429
+      ]
+    },
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.33711,
+        9.69113
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

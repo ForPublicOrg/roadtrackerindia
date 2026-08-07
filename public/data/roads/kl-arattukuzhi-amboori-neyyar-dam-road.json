@@ -1,0 +1,42 @@
+{
+  "id": "kl-arattukuzhi-amboori-neyyar-dam-road",
+  "ref": "MDR",
+  "name": "Arattukuzhi - Amboori Neyyar Dam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.8,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Parassala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Parassala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.1564,
+        8.52896
+      ]
+    },
+    {
+      "name": "Parassala",
+      "coords": [
+        77.19577,
+        8.43892
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

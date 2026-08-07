@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1125",
+  "ref": "MDR 1125",
+  "name": "Lalgudi–Pullambadi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.6,
+  "route": {
+    "start": "Lalgudi, Tamil Nadu",
+    "end": "Pullambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Lalgudi",
+      "Pullambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lalgudi",
+      "coords": [
+        78.81806,
+        10.87866
+      ]
+    },
+    {
+      "name": "Pullambadi",
+      "coords": [
+        78.93118,
+        10.88189
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

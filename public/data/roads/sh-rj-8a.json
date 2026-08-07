@@ -1,0 +1,66 @@
+{
+  "id": "sh-rj-8a",
+  "ref": "SH 8A",
+  "name": "Jobner–Sikar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 88.3,
+  "route": {
+    "start": "Jobner, Rajasthan",
+    "end": "Sikar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jobner",
+      "Renwal",
+      "Ramgarh",
+      "sector 14",
+      "Sikar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jobner",
+      "coords": [
+        75.38979,
+        27.06708
+      ]
+    },
+    {
+      "name": "Renwal",
+      "coords": [
+        75.37526,
+        27.16305
+      ]
+    },
+    {
+      "name": "Ramgarh",
+      "coords": [
+        75.177,
+        27.26223
+      ]
+    },
+    {
+      "name": "sector 14",
+      "coords": [
+        75.08206,
+        27.46525
+      ]
+    },
+    {
+      "name": "Sikar",
+      "coords": [
+        75.13858,
+        27.60943
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

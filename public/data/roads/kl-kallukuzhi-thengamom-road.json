@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallukuzhi-thengamom-road",
+  "ref": "MDR",
+  "name": "Kallukuzhi - Thengamom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Chennampallil, Kerala",
+    "end": "Moonnalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chennampallil",
+      "Moonnalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.6694,
+        9.1223
+      ]
+    },
+    {
+      "name": "Moonnalam",
+      "coords": [
+        76.68849,
+        9.10273
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

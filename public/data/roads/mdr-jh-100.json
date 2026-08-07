@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-100",
+  "ref": "MDR 100",
+  "name": "Bhurkunda–Religara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Bhurkunda, Jharkhand",
+    "end": "Religara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bhurkunda",
+      "Religara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhurkunda",
+      "coords": [
+        85.30644,
+        23.65752
+      ]
+    },
+    {
+      "name": "Religara",
+      "coords": [
+        85.28,
+        23.61016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "kl-panniyankara-payyanakkal-meenchanda-road",
+  "ref": "MDR",
+  "name": "Panniyankara Payyanakkal Meenchanda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Payyanakkal, Kerala",
+    "end": "Meenchanda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyanakkal",
+      "Kozhikode",
+      "Beypore",
+      "Meenchanda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyanakkal",
+      "coords": [
+        75.78757,
+        11.22898
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.79791,
+        11.21007
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

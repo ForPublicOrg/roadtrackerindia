@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-33",
+  "ref": "SH 33",
+  "name": "Kodinar–Amreli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 110.2,
+  "route": {
+    "start": "Kodinar, Gujarat",
+    "end": "Amreli, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kodinar",
+      "Dhari",
+      "Amreli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodinar",
+      "coords": [
+        70.70455,
+        20.79576
+      ]
+    },
+    {
+      "name": "Dhari",
+      "coords": [
+        71.02714,
+        21.32887
+      ]
+    },
+    {
+      "name": "Amreli",
+      "coords": [
+        71.16577,
+        21.55556
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

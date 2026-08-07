@@ -1,0 +1,42 @@
+{
+  "id": "kl-nechipuzhoor-valavoor-road",
+  "ref": "MDR",
+  "name": "Nechipuzhoor - Valavoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Puliyannoor, Kerala",
+    "end": "Pala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puliyannoor",
+      "Pala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.64574,
+        9.74947
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.66124,
+        9.75238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "nh-162",
+  "ref": "NH 162",
+  "name": "Raipur–Vallabhnagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 278,
+  "route": {
+    "start": "Raipur, Rajasthan",
+    "end": "Vallabhnagar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Raipur",
+      "Sojat",
+      "Pali",
+      "Desuri",
+      "Nathdwara",
+      "Mavli",
+      "Vallabhnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raipur",
+      "coords": [
+        74.11376,
+        26.07114
+      ]
+    },
+    {
+      "name": "Sojat",
+      "coords": [
+        73.67917,
+        25.92017
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        73.35037,
+        25.76018
+      ]
+    },
+    {
+      "name": "Desuri",
+      "coords": [
+        73.57175,
+        25.27943
+      ]
+    },
+    {
+      "name": "Nathdwara",
+      "coords": [
+        73.8179,
+        24.92546
+      ]
+    },
+    {
+      "name": "Mavli",
+      "coords": [
+        73.97541,
+        24.79086
+      ]
+    },
+    {
+      "name": "Vallabhnagar",
+      "coords": [
+        74.00398,
+        24.67335
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

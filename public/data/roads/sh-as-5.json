@@ -1,0 +1,65 @@
+{
+  "id": "sh-as-5",
+  "ref": "SH 5",
+  "name": "Tinsukia–Jagun State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 65.8,
+  "route": {
+    "start": "Tinsukia, Assam",
+    "end": "Jagun, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Tinsukia",
+      "Doom Dooma",
+      "Kakopathar",
+      "Jagun"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tinsukia",
+      "coords": [
+        95.36462,
+        27.48864
+      ]
+    },
+    {
+      "name": "Rupai",
+      "coords": [
+        95.54055,
+        27.58662
+      ]
+    },
+    {
+      "name": "Doom Dooma",
+      "coords": [
+        95.55837,
+        27.56907
+      ]
+    },
+    {
+      "name": "Kakopathar",
+      "coords": [
+        95.63552,
+        27.58112
+      ]
+    },
+    {
+      "name": "Jagun",
+      "coords": [
+        95.81896,
+        27.51676
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

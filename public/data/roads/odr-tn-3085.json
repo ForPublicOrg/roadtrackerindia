@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-3085",
+  "ref": "ODR 3085",
+  "name": "Pudupattinam–Kalpakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Pudupattinam, Tamil Nadu",
+    "end": "Kalpakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pudupattinam",
+      "Kalpakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pudupattinam",
+      "coords": [
+        80.08972,
+        12.44845
+      ]
+    },
+    {
+      "name": "Kalpakkam",
+      "coords": [
+        80.10929,
+        12.44633
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

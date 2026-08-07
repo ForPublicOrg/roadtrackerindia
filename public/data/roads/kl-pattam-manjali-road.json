@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattam-manjali-road",
+  "ref": "MDR",
+  "name": "Pattam - Manjali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Cheriyappilly, Kerala",
+    "end": "North Paravur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheriyappilly",
+      "North Paravur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.27387,
+        10.15386
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.27766,
+        10.16781
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

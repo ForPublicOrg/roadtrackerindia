@@ -1,0 +1,43 @@
+{
+  "id": "kl-thuruvelikunnu-attuvelakadavu-road",
+  "ref": "MDR",
+  "name": "Thuruvelikunnu - Attuvelakadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Vaikom",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.41941,
+        9.78658
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.41826,
+        9.77035
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

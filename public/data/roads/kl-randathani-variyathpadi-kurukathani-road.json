@@ -1,0 +1,50 @@
+{
+  "id": "kl-randathani-variyathpadi-kurukathani-road",
+  "ref": "MDR",
+  "name": "Randathani - Variyathpadi - Kurukathani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Kottakkal, Kerala",
+    "end": "Edarikkod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottakkal",
+      "Kadungathukundu",
+      "Edarikkod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottakkal",
+      "coords": [
+        76.00779,
+        10.96556
+      ]
+    },
+    {
+      "name": "College Padi",
+      "coords": [
+        75.98381,
+        10.96834
+      ]
+    },
+    {
+      "name": "Kadungathukundu",
+      "coords": [
+        75.97851,
+        10.9689
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sh-mp-54a",
+  "ref": "SH 54A",
+  "name": "Lalitpur–Chanderi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51.9,
+  "route": {
+    "start": "Lalitpur, Uttar Pradesh",
+    "end": "Chanderi, Madhya Pradesh",
+    "states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lalitpur",
+      "Chanderi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lalitpur",
+      "coords": [
+        78.42069,
+        24.70083
+      ]
+    },
+    {
+      "name": "Chanderi",
+      "coords": [
+        78.13579,
+        24.71251
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

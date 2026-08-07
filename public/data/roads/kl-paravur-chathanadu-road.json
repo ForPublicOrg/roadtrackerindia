@@ -1,0 +1,65 @@
+{
+  "id": "kl-paravur-chathanadu-road",
+  "ref": "MDR",
+  "name": "Paravur - Chathanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "North Paravur, Kerala",
+    "end": "Kadamakkudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "North Paravur",
+      "Cheriyappilly",
+      "Thrikkapuram",
+      "Kadamakkudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.21661,
+        10.14386
+      ]
+    },
+    {
+      "name": "Kalikulangara",
+      "coords": [
+        76.22331,
+        10.12889
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.22547,
+        10.12103
+      ]
+    },
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.23381,
+        10.09836
+      ]
+    },
+    {
+      "name": "Kadamakkudy",
+      "coords": [
+        76.24013,
+        10.07701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

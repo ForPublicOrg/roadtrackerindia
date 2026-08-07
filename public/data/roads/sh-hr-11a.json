@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-11a",
+  "ref": "SH 11A",
+  "name": "Kaithal–Chhatar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30.2,
+  "route": {
+    "start": "Kaithal, Haryana",
+    "end": "Chhatar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kaithal",
+      "Chhatar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaithal",
+      "coords": [
+        76.41018,
+        29.69637
+      ]
+    },
+    {
+      "name": "Chhatar",
+      "coords": [
+        76.36752,
+        29.43134
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

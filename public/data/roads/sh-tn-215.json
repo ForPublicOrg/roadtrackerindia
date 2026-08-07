@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-215",
+  "ref": "SH 215",
+  "name": "Polur–Vaniyambadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 81.3,
+  "route": {
+    "start": "Polur, Tamil Nadu",
+    "end": "Vaniyambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Polur",
+      "Alangayam",
+      "Vaniyambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Polur",
+      "coords": [
+        79.1268,
+        12.5107
+      ]
+    },
+    {
+      "name": "Alangayam",
+      "coords": [
+        78.75056,
+        12.6216
+      ]
+    },
+    {
+      "name": "Vaniyambadi",
+      "coords": [
+        78.62793,
+        12.68339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

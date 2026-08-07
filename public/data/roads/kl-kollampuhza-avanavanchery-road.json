@@ -1,0 +1,42 @@
+{
+  "id": "kl-kollampuhza-avanavanchery-road",
+  "ref": "MDR",
+  "name": "Kollampuhza- Avanavanchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Chirayinkeezhu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Chirayinkeezhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.83668,
+        8.69528
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.81877,
+        8.69517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

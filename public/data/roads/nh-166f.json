@@ -1,0 +1,46 @@
+{
+  "id": "nh-166f",
+  "ref": "NH 166F",
+  "name": "Mahad–MIDC Mahad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 23.4,
+  "route": {
+    "start": "Mahad, Maharashtra",
+    "end": "MIDC Mahad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mahad",
+      "MIDC Mahad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahad",
+      "coords": [
+        73.41863,
+        18.09272
+      ]
+    },
+    {
+      "name": "MIDC Mahad",
+      "coords": [
+        73.43611,
+        18.2296
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

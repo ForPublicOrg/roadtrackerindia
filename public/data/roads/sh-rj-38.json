@@ -1,0 +1,57 @@
+{
+  "id": "sh-rj-38",
+  "ref": "SH 38",
+  "name": "Sirohi–Jalore State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86.3,
+  "route": {
+    "start": "Sirohi, Rajasthan",
+    "end": "Jalore, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sirohi",
+      "Bagra",
+      "Jalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sirohi",
+      "coords": [
+        72.85296,
+        24.88705
+      ]
+    },
+    {
+      "name": "Jawal",
+      "coords": [
+        72.74993,
+        24.99303
+      ]
+    },
+    {
+      "name": "Bagra",
+      "coords": [
+        72.5878,
+        25.19613
+      ]
+    },
+    {
+      "name": "Jalore",
+      "coords": [
+        72.62416,
+        25.34179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

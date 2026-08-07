@@ -1,0 +1,43 @@
+{
+  "id": "kl-pandanadu-budhanur-vazhuvadikkadavu-road",
+  "ref": "MDR",
+  "name": "Pandanadu - Budhanur - Vazhuvadikkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Mavelikkara",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.56961,
+        9.32374
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.55709,
+        9.27107
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

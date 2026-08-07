@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-43",
+  "ref": "SH 43",
+  "name": "Bari–Bharatpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 88.9,
+  "route": {
+    "start": "Bari, Rajasthan",
+    "end": "Bharatpur, Rajasthan",
+    "states": [
+      "Rajasthan",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bari",
+      "Bharatpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bari",
+      "coords": [
+        77.61167,
+        26.64466
+      ]
+    },
+    {
+      "name": "Baseri",
+      "coords": [
+        77.541,
+        26.73905
+      ]
+    },
+    {
+      "name": "Bharatpur",
+      "coords": [
+        77.49261,
+        27.22742
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

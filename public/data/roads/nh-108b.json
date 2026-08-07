@@ -1,0 +1,55 @@
+{
+  "id": "nh-108b",
+  "ref": "NH 108B",
+  "name": "Abhay Nagar–Khowai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 59.3,
+  "route": {
+    "start": "Abhay Nagar, Tripura",
+    "end": "Khowai, Tripura",
+    "states": [
+      "Tripura"
+    ],
+    "majorCities": [
+      "Abhay Nagar",
+      "Agartala",
+      "Narsingarh",
+      "Khowai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Abhay Nagar",
+      "coords": [
+        91.34166,
+        23.84689
+      ]
+    },
+    {
+      "name": "Agartala",
+      "coords": [
+        91.30118,
+        23.8651
+      ]
+    },
+    {
+      "name": "Khowai",
+      "coords": [
+        91.60254,
+        24.07049
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

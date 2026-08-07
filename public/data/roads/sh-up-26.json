@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-26",
+  "ref": "SH 26",
+  "name": "Balrampur–Basti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 106.7,
+  "route": {
+    "start": "Balrampur, Uttar Pradesh",
+    "end": "Basti, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Balrampur",
+      "Utraula",
+      "Hallaur",
+      "Basti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balrampur",
+      "coords": [
+        82.15824,
+        27.44697
+      ]
+    },
+    {
+      "name": "Utraula",
+      "coords": [
+        82.4181,
+        27.30717
+      ]
+    },
+    {
+      "name": "Hallaur",
+      "coords": [
+        82.63938,
+        27.14367
+      ]
+    },
+    {
+      "name": "Basti",
+      "coords": [
+        82.75878,
+        26.82108
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

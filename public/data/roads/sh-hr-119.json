@@ -1,0 +1,43 @@
+{
+  "id": "sh-hr-119",
+  "ref": "SH 119",
+  "name": "Kaithal–Thanesar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.3,
+  "route": {
+    "start": "Kaithal, Haryana",
+    "end": "Thanesar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kaithal",
+      "Kurukshetra",
+      "Thanesar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaithal",
+      "coords": [
+        76.40432,
+        29.80472
+      ]
+    },
+    {
+      "name": "Kurukshetra",
+      "coords": [
+        76.81039,
+        29.96294
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sh-mh-69",
+  "ref": "SH 69",
+  "name": "Saidpur–Lasurne State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 137,
+  "route": {
+    "start": "Saidpur, Maharashtra",
+    "end": "Lasurne, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Saidpur",
+      "Karad",
+      "Vaduj",
+      "Natepute",
+      "Lasurne"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saidpur",
+      "coords": [
+        74.22089,
+        17.31839
+      ]
+    },
+    {
+      "name": "Vaduj",
+      "coords": [
+        74.45141,
+        17.59422
+      ]
+    },
+    {
+      "name": "Natepute",
+      "coords": [
+        74.75099,
+        17.90234
+      ]
+    },
+    {
+      "name": "Lasurne",
+      "coords": [
+        74.77733,
+        18.07728
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

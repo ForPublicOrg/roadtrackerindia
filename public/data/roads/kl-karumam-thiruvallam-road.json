@@ -1,0 +1,65 @@
+{
+  "id": "kl-karumam-thiruvallam-road",
+  "ref": "MDR",
+  "name": "Karumam - Thiruvallam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Thiruvallam, Kerala",
+    "end": "Pappanamcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvallam",
+      "Karumom",
+      "Thiruvananthapuram",
+      "Pappanamcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvallam",
+      "coords": [
+        76.95781,
+        8.44104
+      ]
+    },
+    {
+      "name": "Ambalathara",
+      "coords": [
+        76.95978,
+        8.45128
+      ]
+    },
+    {
+      "name": "Karumom",
+      "coords": [
+        76.97472,
+        8.45821
+      ]
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "coords": [
+        76.97374,
+        8.46893
+      ]
+    },
+    {
+      "name": "Pappanamcode",
+      "coords": [
+        76.9774,
+        8.47322
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

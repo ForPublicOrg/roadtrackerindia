@@ -1,0 +1,65 @@
+{
+  "id": "sh-mh-236",
+  "ref": "SH 236",
+  "name": "Ner–Rajura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 290.7,
+  "route": {
+    "start": "Ner, Maharashtra",
+    "end": "Rajura, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ner",
+      "Wani",
+      "Gadchandur",
+      "Rajura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ner",
+      "coords": [
+        77.8777,
+        20.47981
+      ]
+    },
+    {
+      "name": "Wani",
+      "coords": [
+        78.96757,
+        20.06907
+      ]
+    },
+    {
+      "name": "Korpana",
+      "coords": [
+        78.9856,
+        19.74983
+      ]
+    },
+    {
+      "name": "Gadchandur",
+      "coords": [
+        79.17591,
+        19.73686
+      ]
+    },
+    {
+      "name": "Rajura",
+      "coords": [
+        79.31989,
+        19.64617
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

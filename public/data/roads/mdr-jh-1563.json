@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-1563",
+  "ref": "MDR 1563",
+  "name": "Pārdih–Barabazar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21,
+  "route": {
+    "start": "Pārdih, Jharkhand",
+    "end": "Barabazar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Pārdih",
+      "Barabazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pārdih",
+      "coords": [
+        86.20196,
+        22.86323
+      ]
+    },
+    {
+      "name": "Barabazar",
+      "coords": [
+        86.38856,
+        22.90734
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

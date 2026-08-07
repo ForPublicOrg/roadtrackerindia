@@ -1,0 +1,42 @@
+{
+  "id": "kl-periya-korome-road",
+  "ref": "MDR",
+  "name": "Periya - Korome Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Kuttiadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Kuttiadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.84741,
+        11.77606
+      ]
+    },
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.86109,
+        11.74181
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

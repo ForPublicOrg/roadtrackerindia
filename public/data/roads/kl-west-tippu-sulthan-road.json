@@ -1,0 +1,42 @@
+{
+  "id": "kl-west-tippu-sulthan-road",
+  "ref": "MDR",
+  "name": "West Tippu Sulthan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Chavakkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Chavakkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.11263,
+        10.35222
+      ]
+    },
+    {
+      "name": "Chavakkad",
+      "coords": [
+        76.06491,
+        10.46059
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

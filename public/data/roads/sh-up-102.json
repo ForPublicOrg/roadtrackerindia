@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-102",
+  "ref": "SH 102",
+  "name": "Sarai Aquil–Gaipura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 100.8,
+  "route": {
+    "start": "Sarai Aquil, Uttar Pradesh",
+    "end": "Gaipura, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sarai Aquil",
+      "Shankargarh",
+      "Koraon",
+      "Gaipura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarai Aquil",
+      "coords": [
+        81.55525,
+        25.28765
+      ]
+    },
+    {
+      "name": "Shankargarh",
+      "coords": [
+        81.62273,
+        25.1863
+      ]
+    },
+    {
+      "name": "Koraon",
+      "coords": [
+        82.07232,
+        24.99427
+      ]
+    },
+    {
+      "name": "Gaipura",
+      "coords": [
+        82.24201,
+        25.15268
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

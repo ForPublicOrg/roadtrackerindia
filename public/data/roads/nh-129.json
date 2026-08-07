@@ -1,0 +1,78 @@
+{
+  "id": "nh-129",
+  "ref": "NH 129",
+  "name": "Dimapur–BOGORIJENG — NARAKANWAR REGION National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 105.2,
+  "route": {
+    "start": "Dimapur, Nagaland",
+    "end": "BOGORIJENG — NARAKANWAR REGION, Assam",
+    "states": [
+      "Nagaland",
+      "Assam"
+    ],
+    "majorCities": [
+      "Dimapur",
+      "Sarupathar",
+      "Barpathar",
+      "Golaghat",
+      "BOGORIJENG — NARAKANWAR REGION"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dimapur",
+      "coords": [
+        93.72843,
+        25.91358
+      ]
+    },
+    {
+      "name": "Bokajan",
+      "coords": [
+        93.76291,
+        26.02601
+      ]
+    },
+    {
+      "name": "Sarupathar",
+      "coords": [
+        93.81919,
+        26.21981
+      ]
+    },
+    {
+      "name": "Barpathar",
+      "coords": [
+        93.86021,
+        26.29345
+      ]
+    },
+    {
+      "name": "Golaghat",
+      "coords": [
+        93.91896,
+        26.50224
+      ]
+    },
+    {
+      "name": "BOGORIJENG — NARAKANWAR REGION",
+      "coords": [
+        93.72729,
+        26.63069
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

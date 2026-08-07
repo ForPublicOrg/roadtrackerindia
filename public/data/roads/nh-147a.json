@@ -1,0 +1,61 @@
+{
+  "id": "nh-147a",
+  "ref": "NH 147A",
+  "name": "Dhrangadhra–Limbdi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 85.5,
+  "route": {
+    "start": "Dhrangadhra, Gujarat",
+    "end": "Limbdi, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Dhrangadhra",
+      "Surendranagar",
+      "Limbdi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhrangadhra",
+      "coords": [
+        71.38093,
+        23.13313
+      ]
+    },
+    {
+      "name": "Surendranagar",
+      "coords": [
+        71.65293,
+        22.7195
+      ]
+    },
+    {
+      "name": "Wadhawan",
+      "coords": [
+        71.67974,
+        22.70891
+      ]
+    },
+    {
+      "name": "Limbdi",
+      "coords": [
+        71.80818,
+        22.57493
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

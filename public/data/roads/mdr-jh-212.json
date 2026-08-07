@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-212",
+  "ref": "MDR 212",
+  "name": "Dhanukpuja–Barharwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.5,
+  "route": {
+    "start": "Dhanukpuja, Jharkhand",
+    "end": "Barharwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dhanukpuja",
+      "Pakaur",
+      "Barharwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanukpuja",
+      "coords": [
+        87.83335,
+        24.6371
+      ]
+    },
+    {
+      "name": "Pakaur",
+      "coords": [
+        87.83867,
+        24.64496
+      ]
+    },
+    {
+      "name": "Barharwa",
+      "coords": [
+        87.77597,
+        24.85536
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

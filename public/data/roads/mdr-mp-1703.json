@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1703",
+  "ref": "MDR 1703",
+  "name": "Niwari–Katera District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.2,
+  "route": {
+    "start": "Niwari, Madhya Pradesh",
+    "end": "Katera, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Niwari",
+      "Katera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Niwari",
+      "coords": [
+        78.81283,
+        25.36876
+      ]
+    },
+    {
+      "name": "Katera",
+      "coords": [
+        78.74822,
+        25.20899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

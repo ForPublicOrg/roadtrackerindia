@@ -1,0 +1,50 @@
+{
+  "id": "sh-jh-6",
+  "ref": "SH 6",
+  "name": "Chaibasa–Adityapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.5,
+  "route": {
+    "start": "Chaibasa, Jharkhand",
+    "end": "Adityapur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chaibasa",
+      "Jamshedpur",
+      "Adityapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chaibasa",
+      "coords": [
+        85.80287,
+        22.55353
+      ]
+    },
+    {
+      "name": "Jamshedpur",
+      "coords": [
+        86.18423,
+        22.78441
+      ]
+    },
+    {
+      "name": "Adityapur",
+      "coords": [
+        86.17713,
+        22.7858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

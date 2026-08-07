@@ -1,0 +1,62 @@
+{
+  "id": "nh-131",
+  "ref": "NH 131",
+  "name": "Bihpur–Birpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 124,
+  "route": {
+    "start": "Bihpur, Bihar",
+    "end": "Birpur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Bihpur",
+      "Bihariganj",
+      "Madhepura",
+      "Birpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bihpur",
+      "coords": [
+        86.9448,
+        25.51166
+      ]
+    },
+    {
+      "name": "Bihariganj",
+      "coords": [
+        86.93964,
+        25.69148
+      ]
+    },
+    {
+      "name": "Madhepura",
+      "coords": [
+        86.79792,
+        25.92313
+      ]
+    },
+    {
+      "name": "Birpur",
+      "coords": [
+        86.96087,
+        26.51472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

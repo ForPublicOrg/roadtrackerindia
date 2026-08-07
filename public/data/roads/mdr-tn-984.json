@@ -1,0 +1,79 @@
+{
+  "id": "mdr-tn-984",
+  "ref": "MDR 984",
+  "name": "Thudiyalur–Bommanampalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Thudiyalur, Tamil Nadu",
+    "end": "Bommanampalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thudiyalur",
+      "Kanuvai",
+      "Somayampalayam",
+      "Bommanampalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thudiyalur",
+      "coords": [
+        76.94151,
+        11.07928
+      ]
+    },
+    {
+      "name": "Appanaickenpalayam",
+      "coords": [
+        76.92463,
+        11.07832
+      ]
+    },
+    {
+      "name": "Subramaniapalayam",
+      "coords": [
+        76.92056,
+        11.07112
+      ]
+    },
+    {
+      "name": "Kanuvai",
+      "coords": [
+        76.91001,
+        11.06498
+      ]
+    },
+    {
+      "name": "Idayarpalayam",
+      "coords": [
+        76.9041,
+        11.05621
+      ]
+    },
+    {
+      "name": "Somayampalayam",
+      "coords": [
+        76.89697,
+        11.05024
+      ]
+    },
+    {
+      "name": "Bommanampalayam",
+      "coords": [
+        76.89118,
+        11.03047
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

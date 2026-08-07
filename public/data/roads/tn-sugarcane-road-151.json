@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-151",
+  "ref": "ODR",
+  "name": "Sugarcane Road 151",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Latteri, Tamil Nadu",
+    "end": "Pallikondai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Latteri",
+      "Pallikondai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latteri",
+      "coords": [
+        78.99394,
+        12.95724
+      ]
+    },
+    {
+      "name": "Pallikondai",
+      "coords": [
+        78.99961,
+        12.93427
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

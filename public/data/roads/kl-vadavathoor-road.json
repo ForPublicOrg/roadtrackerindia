@@ -1,0 +1,43 @@
+{
+  "id": "kl-vadavathoor-road",
+  "ref": "MDR",
+  "name": "Vadavathoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Manarcadu, Kerala",
+    "end": "Kanjikuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manarcadu",
+      "Kumaranalloor",
+      "Kanjikuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.56417,
+        9.59098
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.56265,
+        9.60253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

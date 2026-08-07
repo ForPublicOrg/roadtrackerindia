@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-708",
+  "ref": "MDR 708",
+  "name": "Guna–Aron District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 35,
+  "route": {
+    "start": "Guna, Madhya Pradesh",
+    "end": "Aron, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Guna",
+      "Aron"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Guna",
+      "coords": [
+        77.44099,
+        24.65508
+      ]
+    },
+    {
+      "name": "Aron",
+      "coords": [
+        77.46324,
+        24.42047
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-165",
+  "ref": "MDR 165",
+  "name": "Barabazar–Balarampur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.6,
+  "route": {
+    "start": "Barabazar, West Bengal",
+    "end": "Balarampur, West Bengal",
+    "states": [
+      "West Bengal",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barabazar",
+      "Balarampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barabazar",
+      "coords": [
+        86.50499,
+        22.87692
+      ]
+    },
+    {
+      "name": "Balarampur",
+      "coords": [
+        86.37471,
+        22.9977
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

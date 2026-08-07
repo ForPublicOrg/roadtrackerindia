@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-115",
+  "ref": "MDR 115",
+  "name": "Danwar–Balidih District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 35.2,
+  "route": {
+    "start": "Danwar, Jharkhand",
+    "end": "Balidih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Danwar",
+      "Barki Saria",
+      "Balidih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Danwar",
+      "coords": [
+        86.00527,
+        24.45514
+      ]
+    },
+    {
+      "name": "Barki Saria",
+      "coords": [
+        85.88693,
+        24.17388
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

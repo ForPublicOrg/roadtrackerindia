@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-355a",
+  "ref": "SH 355A",
+  "name": "Shukrawari–Mendha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Shukrawari, Maharashtra",
+    "end": "Mendha, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shukrawari",
+      "Police Line",
+      "Bhandara",
+      "Mendha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shukrawari",
+      "coords": [
+        79.66423,
+        21.19446
+      ]
+    },
+    {
+      "name": "Police Line",
+      "coords": [
+        79.66405,
+        21.15472
+      ]
+    },
+    {
+      "name": "Bhandara",
+      "coords": [
+        79.6572,
+        21.17767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

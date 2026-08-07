@@ -1,0 +1,62 @@
+{
+  "id": "nh-340",
+  "ref": "NH 340",
+  "name": "Kurabalakota–Rayachoty National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 57.7,
+  "route": {
+    "start": "Kurabalakota, Andhra Pradesh",
+    "end": "Rayachoty, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kurabalakota",
+      "Gurramkonda",
+      "Chinnamandem",
+      "Rayachoty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurabalakota",
+      "coords": [
+        78.48681,
+        13.63736
+      ]
+    },
+    {
+      "name": "Gurramkonda",
+      "coords": [
+        78.58695,
+        13.78017
+      ]
+    },
+    {
+      "name": "Chinnamandem",
+      "coords": [
+        78.68683,
+        13.94488
+      ]
+    },
+    {
+      "name": "Rayachoty",
+      "coords": [
+        78.73749,
+        14.03858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

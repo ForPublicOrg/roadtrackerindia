@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattayakkudy-venmony-road",
+  "ref": "MDR",
+  "name": "Pattayakkudy - Venmony Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Koickakudy, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koickakudy",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koickakudy",
+      "coords": [
+        76.869,
+        9.98787
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.87339,
+        9.97547
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

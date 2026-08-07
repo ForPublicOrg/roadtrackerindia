@@ -1,0 +1,50 @@
+{
+  "id": "kl-thakaraparambu-thattathumala-road",
+  "ref": "MDR",
+  "name": "Thakaraparambu - Thattathumala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Nilamel, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Kilimanoor",
+      "Nilamel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.83547,
+        8.79646
+      ]
+    },
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.86547,
+        8.79431
+      ]
+    },
+    {
+      "name": "Nilamel",
+      "coords": [
+        76.87362,
+        8.80348
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

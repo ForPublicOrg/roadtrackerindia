@@ -1,0 +1,85 @@
+{
+  "id": "nh-152d",
+  "ref": "NH 152D",
+  "name": "Narnaul–Pehowa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 228.3,
+  "route": {
+    "start": "Narnaul, Haryana",
+    "end": "Pehowa, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Narnaul",
+      "Charkhi Dadri",
+      "Julana",
+      "Pundri",
+      "Kaul",
+      "Pehowa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narnaul",
+      "coords": [
+        76.1489,
+        28.08924
+      ]
+    },
+    {
+      "name": "Mahendragarh",
+      "coords": [
+        76.20047,
+        28.25034
+      ]
+    },
+    {
+      "name": "Charkhi Dadri",
+      "coords": [
+        76.2949,
+        28.57689
+      ]
+    },
+    {
+      "name": "Julana",
+      "coords": [
+        76.44671,
+        29.12068
+      ]
+    },
+    {
+      "name": "Pundri",
+      "coords": [
+        76.59385,
+        29.76094
+      ]
+    },
+    {
+      "name": "Kaul",
+      "coords": [
+        76.63989,
+        29.85472
+      ]
+    },
+    {
+      "name": "Pehowa",
+      "coords": [
+        76.64769,
+        29.96979
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

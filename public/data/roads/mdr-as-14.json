@@ -1,0 +1,43 @@
+{
+  "id": "mdr-as-14",
+  "ref": "MDR 14",
+  "name": "Karimganj–Beanibazar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.5,
+  "route": {
+    "start": "Karimganj, Assam",
+    "end": "Beanibazar, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Karimganj",
+      "Zakiganj",
+      "Beanibazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karimganj",
+      "coords": [
+        92.35719,
+        24.87019
+      ]
+    },
+    {
+      "name": "Beanibazar",
+      "coords": [
+        92.25287,
+        24.87637
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

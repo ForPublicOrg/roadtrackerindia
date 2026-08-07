@@ -1,0 +1,99 @@
+{
+  "id": "nh-109",
+  "ref": "NH 109",
+  "name": "Rudrapur–Karnaprayag National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 341,
+  "route": {
+    "start": "Rudrapur, Uttarakhand",
+    "end": "Karnaprayag, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Rudrapur",
+      "Haldwani",
+      "Bhowali",
+      "Almora",
+      "Gairsain",
+      "Karnaprayag"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rudrapur",
+      "coords": [
+        79.39745,
+        28.97085
+      ]
+    },
+    {
+      "name": "Lalkuan",
+      "coords": [
+        79.51635,
+        29.07129
+      ]
+    },
+    {
+      "name": "Haldwani",
+      "coords": [
+        79.52803,
+        29.21349
+      ]
+    },
+    {
+      "name": "Nainital",
+      "coords": [
+        79.4643,
+        29.37896
+      ]
+    },
+    {
+      "name": "Bhowali",
+      "coords": [
+        79.51375,
+        29.38596
+      ]
+    },
+    {
+      "name": "Almora",
+      "coords": [
+        79.65989,
+        29.60289
+      ]
+    },
+    {
+      "name": "Rānikhet",
+      "coords": [
+        79.42951,
+        29.64391
+      ]
+    },
+    {
+      "name": "Gairsain",
+      "coords": [
+        79.28848,
+        30.05258
+      ]
+    },
+    {
+      "name": "Karnaprayag",
+      "coords": [
+        79.21715,
+        30.25796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

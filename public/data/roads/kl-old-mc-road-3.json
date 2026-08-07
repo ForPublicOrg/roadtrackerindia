@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-mc-road-3",
+  "ref": "MDR",
+  "name": "Old MC Road 3",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Nattakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Nattakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.5251,
+        9.50432
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.52293,
+        9.51306
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

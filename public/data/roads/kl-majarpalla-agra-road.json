@@ -1,0 +1,42 @@
+{
+  "id": "kl-majarpalla-agra-road",
+  "ref": "MDR",
+  "name": "Majarpalla - Agra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Manjeshwar, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeshwar",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.95293,
+        12.75469
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.95,
+        12.76749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

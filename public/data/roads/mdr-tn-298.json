@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-298",
+  "ref": "MDR 298",
+  "name": "Kodaikanal–Naidupuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Kodaikanal, Tamil Nadu",
+    "end": "Naidupuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kodaikanal",
+      "Naidupuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodaikanal",
+      "coords": [
+        77.44838,
+        10.21102
+      ]
+    },
+    {
+      "name": "Naidupuram",
+      "coords": [
+        77.44437,
+        10.21591
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

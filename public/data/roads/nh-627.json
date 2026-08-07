@@ -1,0 +1,69 @@
+{
+  "id": "nh-627",
+  "ref": "NH 627",
+  "name": "Marigaon–Bara Haflong National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 268.8,
+  "route": {
+    "start": "Marigaon, Assam",
+    "end": "Bara Haflong, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Marigaon",
+      "Umrangso",
+      "Haflong",
+      "Bara Haflong"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marigaon",
+      "coords": [
+        92.35354,
+        26.1588
+      ]
+    },
+    {
+      "name": "Umrangso",
+      "coords": [
+        92.73324,
+        25.51145
+      ]
+    },
+    {
+      "name": "Lungkhong",
+      "coords": [
+        93.01801,
+        25.19735
+      ]
+    },
+    {
+      "name": "Haflong",
+      "coords": [
+        93.01726,
+        25.16284
+      ]
+    },
+    {
+      "name": "Bara Haflong",
+      "coords": [
+        93.02516,
+        25.1265
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

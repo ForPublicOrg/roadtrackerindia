@@ -1,0 +1,42 @@
+{
+  "id": "kl-naduvannur-arikkulam-iringath-road",
+  "ref": "MDR",
+  "name": "Naduvannur - Arikkulam - Iringath Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Perambra, Kerala",
+    "end": "Naduvannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perambra",
+      "Naduvannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perambra",
+      "coords": [
+        75.6856,
+        11.52666
+      ]
+    },
+    {
+      "name": "Naduvannur",
+      "coords": [
+        75.77493,
+        11.48863
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

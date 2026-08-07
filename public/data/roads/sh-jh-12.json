@@ -1,0 +1,58 @@
+{
+  "id": "sh-jh-12",
+  "ref": "SH 12",
+  "name": "Dhanbad–Chas State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49.5,
+  "route": {
+    "start": "Dhanbad, Jharkhand",
+    "end": "Chas, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dhanbad",
+      "Pathardih",
+      "Bokaro",
+      "Chas"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanbad",
+      "coords": [
+        86.41902,
+        23.78829
+      ]
+    },
+    {
+      "name": "Jealgora",
+      "coords": [
+        86.41506,
+        23.70807
+      ]
+    },
+    {
+      "name": "Pathardih",
+      "coords": [
+        86.41635,
+        23.67159
+      ]
+    },
+    {
+      "name": "Bokaro",
+      "coords": [
+        86.16212,
+        23.6376
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

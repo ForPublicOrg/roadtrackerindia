@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuzhikkala-mezhuveli-road",
+  "ref": "MDR",
+  "name": "Kuzhikkala - Mezhuveli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Puthenpeedika, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Puthenpeedika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70738,
+        9.29195
+      ]
+    },
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.69826,
+        9.28293
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

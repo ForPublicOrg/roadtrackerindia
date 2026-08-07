@@ -1,0 +1,53 @@
+{
+  "id": "nh-333b",
+  "ref": "NH 333B",
+  "name": "Munger–Khagaria National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 27.5,
+  "route": {
+    "start": "Munger, Bihar",
+    "end": "Khagaria, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Munger",
+      "Khagaria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Munger",
+      "coords": [
+        86.46502,
+        25.37548
+      ]
+    },
+    {
+      "name": "Jamalpur",
+      "coords": [
+        86.4636,
+        25.34062
+      ]
+    },
+    {
+      "name": "Khagaria",
+      "coords": [
+        86.44129,
+        25.46088
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

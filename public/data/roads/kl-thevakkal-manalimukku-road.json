@@ -1,0 +1,43 @@
+{
+  "id": "kl-thevakkal-manalimukku-road",
+  "ref": "MDR",
+  "name": "Thevakkal - Manalimukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kangarappady, Kerala",
+    "end": "Thengode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kangarappady",
+      "Kodikuthumala",
+      "Thengode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kangarappady",
+      "coords": [
+        76.36172,
+        10.05881
+      ]
+    },
+    {
+      "name": "Thengode",
+      "coords": [
+        76.36329,
+        10.04613
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

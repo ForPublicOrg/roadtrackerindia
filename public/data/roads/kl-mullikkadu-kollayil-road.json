@@ -1,0 +1,42 @@
+{
+  "id": "kl-mullikkadu-kollayil-road",
+  "ref": "MDR",
+  "name": "Mullikkadu - Kollayil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Nilamel, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Nilamel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        77.0103,
+        8.79613
+      ]
+    },
+    {
+      "name": "Nilamel",
+      "coords": [
+        76.98057,
+        8.81542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

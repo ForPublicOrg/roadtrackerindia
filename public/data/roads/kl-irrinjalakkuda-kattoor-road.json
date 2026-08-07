@@ -1,0 +1,42 @@
+{
+  "id": "kl-irrinjalakkuda-kattoor-road",
+  "ref": "MDR",
+  "name": "Irrinjalakkuda Kattoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Thriprayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Thriprayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.20742,
+        10.34684
+      ]
+    },
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.15909,
+        10.36997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

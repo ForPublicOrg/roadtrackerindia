@@ -1,0 +1,49 @@
+{
+  "id": "kl-muttil-vivekananda-hospital-edapetty-road",
+  "ref": "MDR",
+  "name": "Muttil - Vivekananda Hospital - Edapetty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.09981,
+        11.6368
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.10317,
+        11.63374
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.1105,
+        11.63998
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

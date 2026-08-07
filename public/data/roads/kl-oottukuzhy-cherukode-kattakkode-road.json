@@ -1,0 +1,42 @@
+{
+  "id": "kl-oottukuzhy-cherukode-kattakkode-road",
+  "ref": "MDR",
+  "name": "Oottukuzhy - Cherukode - Kattakkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Peyad, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peyad",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peyad",
+      "coords": [
+        77.04441,
+        8.53447
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.07505,
+        8.51428
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

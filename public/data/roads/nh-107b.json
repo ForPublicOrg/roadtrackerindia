@@ -1,0 +1,46 @@
+{
+  "id": "nh-107b",
+  "ref": "NH 107B",
+  "name": "Joshimath–Badrinath National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 61.5,
+  "route": {
+    "start": "Joshimath, Uttarakhand",
+    "end": "Badrinath, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Joshimath",
+      "Badrinath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Joshimath",
+      "coords": [
+        79.89156,
+        30.68252
+      ]
+    },
+    {
+      "name": "Badrinath",
+      "coords": [
+        79.5668,
+        30.5538
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

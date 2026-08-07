@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-255",
+  "ref": "MDR 255",
+  "name": "Thiruvarur–Kilvelur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Thiruvarur, Tamil Nadu",
+    "end": "Kilvelur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruvarur",
+      "Kilvelur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvarur",
+      "coords": [
+        79.64693,
+        10.68491
+      ]
+    },
+    {
+      "name": "Kilvelur",
+      "coords": [
+        79.70745,
+        10.66751
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

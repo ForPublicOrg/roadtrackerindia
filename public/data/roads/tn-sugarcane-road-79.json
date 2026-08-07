@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-79",
+  "ref": "MDR",
+  "name": "Sugarcane Road 79",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Melapattai, Tamil Nadu",
+    "end": "Walajapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapattai",
+      "Walajapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapattai",
+      "coords": [
+        79.41854,
+        12.76965
+      ]
+    },
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.43182,
+        12.77922
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

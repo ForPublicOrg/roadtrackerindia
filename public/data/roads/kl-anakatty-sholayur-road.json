@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakatty-sholayur-road",
+  "ref": "MDR",
+  "name": "Anakatty - Sholayur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Marudhamalai, Kerala",
+    "end": "Karunya Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Marudhamalai",
+      "Karunya Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marudhamalai",
+      "coords": [
+        76.7466,
+        11.11697
+      ]
+    },
+    {
+      "name": "Karunya Nagar",
+      "coords": [
+        76.69582,
+        11.0538
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

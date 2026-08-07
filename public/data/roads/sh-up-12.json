@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-12",
+  "ref": "SH 12",
+  "name": "Dhampur–Police Line State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 47.6,
+  "route": {
+    "start": "Dhampur, Uttar Pradesh",
+    "end": "Police Line, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Dhampur",
+      "Bijnor",
+      "Police Line"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhampur",
+      "coords": [
+        78.50679,
+        29.31156
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.1404,
+        29.36698
+      ]
+    },
+    {
+      "name": "Police Line",
+      "coords": [
+        78.12345,
+        29.39023
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

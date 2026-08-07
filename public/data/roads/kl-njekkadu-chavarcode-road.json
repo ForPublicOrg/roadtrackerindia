@@ -1,0 +1,50 @@
+{
+  "id": "kl-njekkadu-chavarcode-road",
+  "ref": "MDR",
+  "name": "Njekkadu Chavarcode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Chavarcode, Kerala",
+    "end": "Kallambalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavarcode",
+      "Paripally",
+      "Kallambalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.75801,
+        8.78736
+      ]
+    },
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.7607,
+        8.77562
+      ]
+    },
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.76996,
+        8.75322
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

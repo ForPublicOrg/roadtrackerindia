@@ -1,0 +1,42 @@
+{
+  "id": "kl-punnamoodu-kurakanni-road",
+  "ref": "MDR",
+  "name": "Punnamoodu - Kurakanni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.7063,
+        8.74396
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.71712,
+        8.74718
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

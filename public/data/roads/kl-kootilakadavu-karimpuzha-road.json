@@ -1,0 +1,42 @@
+{
+  "id": "kl-kootilakadavu-karimpuzha-road",
+  "ref": "MDR",
+  "name": "Kootilakadavu - Karimpuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Sreekrishnapuram, Kerala",
+    "end": "Kumaramputhur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekrishnapuram",
+      "Kumaramputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekrishnapuram",
+      "coords": [
+        76.41876,
+        10.91843
+      ]
+    },
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.42967,
+        10.91907
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

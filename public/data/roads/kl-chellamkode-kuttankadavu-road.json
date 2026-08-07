@@ -1,0 +1,42 @@
+{
+  "id": "kl-chellamkode-kuttankadavu-road",
+  "ref": "MDR",
+  "name": "Chellamkode - Kuttankadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Pandalur, Kerala",
+    "end": "Sultan Bathery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pandalur",
+      "Sultan Bathery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.24433,
+        11.53421
+      ]
+    },
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.25031,
+        11.534
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

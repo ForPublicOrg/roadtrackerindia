@@ -1,0 +1,42 @@
+{
+  "id": "kl-irinavu-madakkara-road",
+  "ref": "MDR",
+  "name": "Irinavu - Madakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kannapuram, Kerala",
+    "end": "Pappinisseri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannapuram",
+      "Pappinisseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.30248,
+        11.95492
+      ]
+    },
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.3304,
+        11.96304
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

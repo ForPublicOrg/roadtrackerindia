@@ -1,0 +1,42 @@
+{
+  "id": "kl-karinilam-pachima-kuzhimavu-road",
+  "ref": "MDR",
+  "name": "Karinilam - Pachima - Kuzhimavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Puthenchantha, Kerala",
+    "end": "Mundakkayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthenchantha",
+      "Mundakkayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthenchantha",
+      "coords": [
+        76.94752,
+        9.46692
+      ]
+    },
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.89182,
+        9.51641
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

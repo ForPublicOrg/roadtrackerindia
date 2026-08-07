@@ -1,0 +1,43 @@
+{
+  "id": "kl-kayamkulam-karthikappally-road",
+  "ref": "MDR",
+  "name": "Kayamkulam - Karthikappally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Nangiarkulangara, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nangiarkulangara",
+      "Haripad",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.44986,
+        9.2603
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.49457,
+        9.17607
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

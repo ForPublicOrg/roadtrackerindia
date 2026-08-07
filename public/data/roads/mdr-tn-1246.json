@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1246",
+  "ref": "MDR 1246",
+  "name": "Hosur–Sarjapura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Hosur, Tamil Nadu",
+    "end": "Sarjapura, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Hosur",
+      "Sarjapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hosur",
+      "coords": [
+        77.83519,
+        12.75578
+      ]
+    },
+    {
+      "name": "Sarjapura",
+      "coords": [
+        77.82063,
+        12.85105
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "kl-perumbalakadavu-kappanadukkam-paravanadukkam-road",
+  "ref": "MDR",
+  "name": "Perumbalakadavu - Kappanadukkam - Paravanadukkam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Chengala, Kerala",
+    "end": "Bangod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengala",
+      "Kasaragod",
+      "Melparamba",
+      "Bangod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengala",
+      "coords": [
+        75.02197,
+        12.50374
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        75.01582,
+        12.49929
+      ]
+    },
+    {
+      "name": "Theruvath",
+      "coords": [
+        75.01549,
+        12.49123
+      ]
+    },
+    {
+      "name": "Melparamba",
+      "coords": [
+        75.01483,
+        12.48432
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

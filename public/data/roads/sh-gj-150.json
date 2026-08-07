@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-150",
+  "ref": "SH 150",
+  "name": "Kanjari–Dahod State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 187.5,
+  "route": {
+    "start": "Kanjari, Gujarat",
+    "end": "Dahod, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kanjari",
+      "Nadiad",
+      "Devgadh Baria",
+      "Dahod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjari",
+      "coords": [
+        72.89062,
+        22.64008
+      ]
+    },
+    {
+      "name": "Nadiad",
+      "coords": [
+        72.8955,
+        22.65023
+      ]
+    },
+    {
+      "name": "Devgadh Baria",
+      "coords": [
+        73.91167,
+        22.70075
+      ]
+    },
+    {
+      "name": "Dahod",
+      "coords": [
+        74.2621,
+        22.81961
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

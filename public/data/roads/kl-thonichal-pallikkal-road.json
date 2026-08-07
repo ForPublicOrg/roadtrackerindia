@@ -1,0 +1,42 @@
+{
+  "id": "kl-thonichal-pallikkal-road",
+  "ref": "MDR",
+  "name": "Thonichal - Pallikkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.00047,
+        11.77156
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        75.97677,
+        11.77781
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

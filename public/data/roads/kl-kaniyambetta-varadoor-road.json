@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaniyambetta-varadoor-road",
+  "ref": "MDR",
+  "name": "Kaniyambetta - Varadoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.08073,
+        11.69539
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.09551,
+        11.70936
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

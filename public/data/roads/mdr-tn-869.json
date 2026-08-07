@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-869",
+  "ref": "MDR 869",
+  "name": "Andipalayam–Karumathampatti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Andipalayam, Tamil Nadu",
+    "end": "Karumathampatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Andipalayam",
+      "Tiruppur",
+      "Mangalam",
+      "Karumathampatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Andipalayam",
+      "coords": [
+        77.3102,
+        11.10927
+      ]
+    },
+    {
+      "name": "Mangalam",
+      "coords": [
+        77.26812,
+        11.11823
+      ]
+    },
+    {
+      "name": "Karumathampatti",
+      "coords": [
+        77.21337,
+        11.15458
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

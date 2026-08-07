@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-273",
+  "ref": "SH 273",
+  "name": "Sanitorium–Satyamangalam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.9,
+  "route": {
+    "start": "Sanitorium, Tamil Nadu",
+    "end": "Satyamangalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sanitorium",
+      "Perundurai",
+      "Kolappalur",
+      "Satyamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sanitorium",
+      "coords": [
+        77.56938,
+        11.28186
+      ]
+    },
+    {
+      "name": "Kolappalur",
+      "coords": [
+        77.4308,
+        11.3794
+      ]
+    },
+    {
+      "name": "Satyamangalam",
+      "coords": [
+        77.29616,
+        11.45335
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

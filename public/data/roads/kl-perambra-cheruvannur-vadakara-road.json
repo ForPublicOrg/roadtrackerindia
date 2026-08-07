@@ -1,0 +1,42 @@
+{
+  "id": "kl-perambra-cheruvannur-vadakara-road",
+  "ref": "MDR",
+  "name": "Perambra - Cheruvannur - Vadakara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Perambra, Kerala",
+    "end": "Chakkittapara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perambra",
+      "Chakkittapara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perambra",
+      "coords": [
+        75.68483,
+        11.57031
+      ]
+    },
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.75803,
+        11.56017
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

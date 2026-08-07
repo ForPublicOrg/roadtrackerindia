@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-19e",
+  "ref": "SH 19E",
+  "name": "Dag–Gangdhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40.3,
+  "route": {
+    "start": "Dag, Rajasthan",
+    "end": "Gangdhar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dag",
+      "Gangdhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dag",
+      "coords": [
+        75.83108,
+        23.93241
+      ]
+    },
+    {
+      "name": "Gangdhar",
+      "coords": [
+        75.62546,
+        23.9382
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

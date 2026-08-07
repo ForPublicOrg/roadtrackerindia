@@ -1,0 +1,66 @@
+{
+  "id": "sh-ct-6",
+  "ref": "SH 6",
+  "name": "Manpur–Nagari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 174.3,
+  "route": {
+    "start": "Manpur, Chhattisgarh",
+    "end": "Nagari, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Manpur",
+      "Bhanupratappur",
+      "Korar",
+      "Kanker",
+      "Nagari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manpur",
+      "coords": [
+        80.81436,
+        20.41357
+      ]
+    },
+    {
+      "name": "Bhanupratappur",
+      "coords": [
+        81.08401,
+        20.31226
+      ]
+    },
+    {
+      "name": "Korar",
+      "coords": [
+        81.27489,
+        20.32031
+      ]
+    },
+    {
+      "name": "Kanker",
+      "coords": [
+        81.50683,
+        20.26207
+      ]
+    },
+    {
+      "name": "Nagari",
+      "coords": [
+        81.95898,
+        20.34821
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

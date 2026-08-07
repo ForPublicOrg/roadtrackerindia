@@ -1,0 +1,42 @@
+{
+  "id": "kl-karappara-road",
+  "ref": "MDR",
+  "name": "Karappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Kollengode, Kerala",
+    "end": "Vadakkenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kollengode",
+      "Vadakkenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kollengode",
+      "coords": [
+        76.67385,
+        10.50416
+      ]
+    },
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.64993,
+        10.46087
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

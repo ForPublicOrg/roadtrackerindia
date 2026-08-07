@@ -1,0 +1,42 @@
+{
+  "id": "ap-adoni-gadwal-road",
+  "ref": "SH",
+  "name": "Adoni - Gadwal Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.1,
+  "route": {
+    "start": "Nandavaram, Andhra Pradesh",
+    "end": "Yemmiganuru, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Nandavaram",
+      "Yemmiganuru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nandavaram",
+      "coords": [
+        77.56921,
+        15.91414
+      ]
+    },
+    {
+      "name": "Yemmiganuru",
+      "coords": [
+        77.47293,
+        15.79735
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

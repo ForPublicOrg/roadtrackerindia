@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-113",
+  "ref": "MDR 113",
+  "name": "Palakunnu–Chattanchal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Palakunnu, Kerala",
+    "end": "Chattanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Palakunnu",
+      "Kalanad",
+      "Chattanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palakunnu",
+      "coords": [
+        75.03336,
+        12.40062
+      ]
+    },
+    {
+      "name": "Kalanad",
+      "coords": [
+        75.05067,
+        12.43175
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.06385,
+        12.43871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

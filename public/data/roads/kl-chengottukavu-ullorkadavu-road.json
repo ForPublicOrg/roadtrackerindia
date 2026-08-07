@@ -1,0 +1,42 @@
+{
+  "id": "kl-chengottukavu-ullorkadavu-road",
+  "ref": "MDR",
+  "name": "Chengottukavu - Ullorkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Koyilandy, Kerala",
+    "end": "Ulliyeri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koyilandy",
+      "Ulliyeri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koyilandy",
+      "coords": [
+        75.71233,
+        11.42142
+      ]
+    },
+    {
+      "name": "Ulliyeri",
+      "coords": [
+        75.73681,
+        11.4254
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

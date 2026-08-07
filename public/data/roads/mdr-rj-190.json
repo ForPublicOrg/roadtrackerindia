@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-190",
+  "ref": "MDR 190",
+  "name": "Niwaru–Renwal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.1,
+  "route": {
+    "start": "Niwaru, Rajasthan",
+    "end": "Renwal, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Niwaru",
+      "Renwal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Niwaru",
+      "coords": [
+        75.70907,
+        27.01339
+      ]
+    },
+    {
+      "name": "Renwal",
+      "coords": [
+        75.45061,
+        27.09307
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

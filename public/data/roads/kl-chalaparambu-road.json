@@ -1,0 +1,42 @@
+{
+  "id": "kl-chalaparambu-road",
+  "ref": "MDR",
+  "name": "Chalaparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Arattukulangara, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Arattukulangara",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.40691,
+        9.75064
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.40741,
+        9.75899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karukaputhur-ittonam-road",
+  "ref": "MDR",
+  "name": "Karukaputhur - Ittonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Koottanad, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koottanad",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.16002,
+        10.73332
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.17914,
+        10.72851
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjikkode-bazar-road",
+  "ref": "MDR",
+  "name": "Kanjikkode Bazar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Chandranagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Chandranagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.74307,
+        10.79739
+      ]
+    },
+    {
+      "name": "Chandranagar",
+      "coords": [
+        76.76401,
+        10.79712
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

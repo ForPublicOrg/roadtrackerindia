@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalichamaram-parappa-road",
+  "ref": "MDR",
+  "name": "Kalichamaram Parappa Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12,
+  "route": {
+    "start": "Odayamchal, Kerala",
+    "end": "Cheemeni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Odayamchal",
+      "Cheemeni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.24432,
+        12.36993
+      ]
+    },
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.25602,
+        12.28342
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

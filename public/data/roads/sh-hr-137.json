@@ -1,0 +1,72 @@
+{
+  "id": "sh-hr-137",
+  "ref": "SH 137",
+  "name": "Sector 26–New Industrial Township State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30.2,
+  "route": {
+    "start": "Sector 26, Haryana",
+    "end": "New Industrial Township, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sector 26",
+      "Sector 26A",
+      "Faridabad",
+      "New Industrial Township"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sector 26",
+      "coords": [
+        77.09399,
+        28.47888
+      ]
+    },
+    {
+      "name": "Sector 26A",
+      "coords": [
+        77.1015,
+        28.47387
+      ]
+    },
+    {
+      "name": "Sector 54",
+      "coords": [
+        77.12236,
+        28.4443
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        77.2524,
+        28.40306
+      ]
+    },
+    {
+      "name": "Faridabad",
+      "coords": [
+        77.2849,
+        28.39509
+      ]
+    },
+    {
+      "name": "New Industrial Township",
+      "coords": [
+        77.31273,
+        28.37841
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

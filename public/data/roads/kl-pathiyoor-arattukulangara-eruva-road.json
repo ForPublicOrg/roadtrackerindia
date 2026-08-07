@@ -1,0 +1,42 @@
+{
+  "id": "kl-pathiyoor-arattukulangara-eruva-road",
+  "ref": "MDR",
+  "name": "Pathiyoor Arattukulangara - Eruva Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50234,
+        9.19439
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.49968,
+        9.21171
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

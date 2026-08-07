@@ -1,0 +1,42 @@
+{
+  "id": "kl-koovapoika-moozhoor-karimpani-road",
+  "ref": "MDR",
+  "name": "Koovapoika - Moozhoor - Karimpani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Puliyannoor, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puliyannoor",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.65881,
+        9.63689
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.65804,
+        9.60692
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

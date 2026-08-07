@@ -1,0 +1,54 @@
+{
+  "id": "nh-522",
+  "ref": "NH 522",
+  "name": "Chatra–Bagodar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 119.3,
+  "route": {
+    "start": "Chatra, Jharkhand",
+    "end": "Bagodar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chatra",
+      "Hazaribagh",
+      "Bagodar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chatra",
+      "coords": [
+        84.87464,
+        24.19368
+      ]
+    },
+    {
+      "name": "Hazaribagh",
+      "coords": [
+        85.36762,
+        23.99875
+      ]
+    },
+    {
+      "name": "Bagodar",
+      "coords": [
+        85.83188,
+        24.07756
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

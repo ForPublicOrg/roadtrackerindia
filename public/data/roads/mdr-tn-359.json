@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-359",
+  "ref": "MDR 359",
+  "name": "Pettai–Palaya Pettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Pettai, Tamil Nadu",
+    "end": "Palaya Pettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pettai",
+      "Narasinganallur",
+      "Palaya Pettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pettai",
+      "coords": [
+        77.66432,
+        8.7147
+      ]
+    },
+    {
+      "name": "Palaya Pettai",
+      "coords": [
+        77.67201,
+        8.72592
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

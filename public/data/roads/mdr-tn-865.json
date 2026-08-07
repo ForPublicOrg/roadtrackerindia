@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-865",
+  "ref": "MDR 865",
+  "name": "V.S.Nagar–Ganapathi Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "V.S.Nagar, Tamil Nadu",
+    "end": "Ganapathi Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "V.S.Nagar",
+      "Ganapathi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.24284,
+        10.8924
+      ]
+    },
+    {
+      "name": "Ganapathi Nagar",
+      "coords": [
+        78.1589,
+        10.89937
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

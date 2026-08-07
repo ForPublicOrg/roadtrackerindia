@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1280",
+  "ref": "MDR 1280",
+  "name": "Sirkazhi–Akkur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Sirkazhi, Tamil Nadu",
+    "end": "Akkur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sirkazhi",
+      "Akkur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sirkazhi",
+      "coords": [
+        79.71344,
+        11.19628
+      ]
+    },
+    {
+      "name": "Akkur",
+      "coords": [
+        79.75716,
+        11.19814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

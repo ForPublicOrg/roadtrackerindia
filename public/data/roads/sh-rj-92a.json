@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-92a",
+  "ref": "SH 92A",
+  "name": "Kuchera–Jayal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 24.8,
+  "route": {
+    "start": "Kuchera, Rajasthan",
+    "end": "Jayal, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kuchera",
+      "Jayal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuchera",
+      "coords": [
+        73.97518,
+        26.98982
+      ]
+    },
+    {
+      "name": "Jayal",
+      "coords": [
+        74.05536,
+        27.13971
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

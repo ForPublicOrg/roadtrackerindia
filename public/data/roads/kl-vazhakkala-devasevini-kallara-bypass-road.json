@@ -1,0 +1,42 @@
+{
+  "id": "kl-vazhakkala-devasevini-kallara-bypass-road",
+  "ref": "MDR",
+  "name": "Vazhakkala Devasevini Kallara Bypass Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kallara, Kerala",
+    "end": "Neendoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallara",
+      "Neendoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallara",
+      "coords": [
+        76.4775,
+        9.70028
+      ]
+    },
+    {
+      "name": "Neendoor",
+      "coords": [
+        76.48202,
+        9.7012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

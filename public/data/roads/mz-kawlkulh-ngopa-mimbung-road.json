@@ -1,0 +1,42 @@
+{
+  "id": "mz-kawlkulh-ngopa-mimbung-road",
+  "ref": "SH",
+  "name": "Kawlkulh-Ngopa-Mimbung Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.4,
+  "route": {
+    "start": "Cikha, Mizoram",
+    "end": "Khawzawl, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Cikha",
+      "Khawzawl"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cikha",
+      "coords": [
+        93.28772,
+        23.99962
+      ]
+    },
+    {
+      "name": "Khawzawl",
+      "coords": [
+        93.21065,
+        23.88279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

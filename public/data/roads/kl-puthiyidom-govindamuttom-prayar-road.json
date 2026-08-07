@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthiyidom-govindamuttom-prayar-road",
+  "ref": "MDR",
+  "name": "Puthiyidom Govindamuttom - Prayar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50326,
+        9.12941
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.49935,
+        9.16939
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sh-mp-12",
+  "ref": "SH 12",
+  "name": "Katera–Lauri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 167.8,
+  "route": {
+    "start": "Katera, Madhya Pradesh",
+    "end": "Lauri, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Katera",
+      "Jatara",
+      "Palera",
+      "Nowgaon",
+      "Maharajpur",
+      "Lauri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Katera",
+      "coords": [
+        78.80721,
+        25.08081
+      ]
+    },
+    {
+      "name": "Jatara",
+      "coords": [
+        79.06289,
+        25.00469
+      ]
+    },
+    {
+      "name": "Palera",
+      "coords": [
+        79.22747,
+        25.02327
+      ]
+    },
+    {
+      "name": "Nowgaon",
+      "coords": [
+        79.44471,
+        25.05692
+      ]
+    },
+    {
+      "name": "Maharajpur",
+      "coords": [
+        79.72671,
+        25.01866
+      ]
+    },
+    {
+      "name": "Lauri",
+      "coords": [
+        80.00451,
+        25.13997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

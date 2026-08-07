@@ -1,0 +1,57 @@
+{
+  "id": "sh-rj-16",
+  "ref": "SH 16",
+  "name": "Jalore–Jat Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 134.5,
+  "route": {
+    "start": "Jalore, Rajasthan",
+    "end": "Jat Colony, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jalore",
+      "Sayla",
+      "Jat Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalore",
+      "coords": [
+        72.56759,
+        25.44458
+      ]
+    },
+    {
+      "name": "Ummedabad",
+      "coords": [
+        72.46166,
+        25.35725
+      ]
+    },
+    {
+      "name": "Sayla",
+      "coords": [
+        72.36634,
+        25.32463
+      ]
+    },
+    {
+      "name": "Jat Colony",
+      "coords": [
+        71.66914,
+        25.74435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

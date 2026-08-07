@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-15",
+  "ref": "SH 15",
+  "name": "Dhule–Bhadgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64.3,
+  "route": {
+    "start": "Dhule, Maharashtra",
+    "end": "Bhadgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Dhule",
+      "Bhadgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhule",
+      "coords": [
+        74.71775,
+        20.75002
+      ]
+    },
+    {
+      "name": "Bhadgaon",
+      "coords": [
+        75.22704,
+        20.67734
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-jh-15",
+  "ref": "SH 15",
+  "name": "Deoghar–Sitarampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 147.8,
+  "route": {
+    "start": "Deoghar, Jharkhand",
+    "end": "Sitarampur, West Bengal",
+    "states": [
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Deoghar",
+      "Jarmundi",
+      "Jamtara",
+      "Sitarampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Deoghar",
+      "coords": [
+        86.69908,
+        24.48899
+      ]
+    },
+    {
+      "name": "Jarmundi",
+      "coords": [
+        87.05556,
+        24.39247
+      ]
+    },
+    {
+      "name": "Jamtara",
+      "coords": [
+        86.80906,
+        23.96009
+      ]
+    },
+    {
+      "name": "Mihijam",
+      "coords": [
+        86.88183,
+        23.85358
+      ]
+    },
+    {
+      "name": "Sitarampur",
+      "coords": [
+        86.8834,
+        23.7464
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-10a",
+  "ref": "SH 10A",
+  "name": "Santrampur–Ghatol State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87.7,
+  "route": {
+    "start": "Santrampur, Rajasthan",
+    "end": "Ghatol, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Santrampur",
+      "Partapur",
+      "Ghatol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Santrampur",
+      "coords": [
+        73.98308,
+        23.35759
+      ]
+    },
+    {
+      "name": "Partapur",
+      "coords": [
+        74.15068,
+        23.59276
+      ]
+    },
+    {
+      "name": "Ghatol",
+      "coords": [
+        74.40878,
+        23.7582
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

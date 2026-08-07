@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-503",
+  "ref": "MDR 503",
+  "name": "Unnao Balaji–Indergarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 41.3,
+  "route": {
+    "start": "Unnao Balaji, Uttar Pradesh",
+    "end": "Indergarh, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Unnao Balaji",
+      "Indergarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Unnao Balaji",
+      "coords": [
+        78.59281,
+        25.56338
+      ]
+    },
+    {
+      "name": "Indergarh",
+      "coords": [
+        78.5623,
+        25.9082
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

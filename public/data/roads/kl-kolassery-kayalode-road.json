@@ -1,0 +1,42 @@
+{
+  "id": "kl-kolassery-kayalode-road",
+  "ref": "MDR",
+  "name": "Kolassery - Kayalode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Koothuparamba, Kerala",
+    "end": "Thalassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothuparamba",
+      "Thalassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.51934,
+        11.82372
+      ]
+    },
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.50384,
+        11.76957
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

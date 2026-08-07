@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-23",
+  "ref": "SH 23",
+  "name": "Bada Malhera–Sihora State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 184.9,
+  "route": {
+    "start": "Bada Malhera, Madhya Pradesh",
+    "end": "Sihora, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bada Malhera",
+      "Hatta",
+      "Patera",
+      "Sihora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bada Malhera",
+      "coords": [
+        79.27215,
+        24.44397
+      ]
+    },
+    {
+      "name": "Hatta",
+      "coords": [
+        79.60231,
+        24.1268
+      ]
+    },
+    {
+      "name": "Patera",
+      "coords": [
+        79.68387,
+        23.99704
+      ]
+    },
+    {
+      "name": "Sihora",
+      "coords": [
+        80.13657,
+        23.52426
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

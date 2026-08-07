@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road",
+  "ref": "SCR",
+  "name": "Sugarcane Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Thakkolam, Tamil Nadu",
+    "end": "Kadambattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thakkolam",
+      "Kadambattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.76337,
+        13.08011
+      ]
+    },
+    {
+      "name": "Kadambattur",
+      "coords": [
+        79.78878,
+        13.07084
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

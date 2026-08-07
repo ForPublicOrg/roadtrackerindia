@@ -1,0 +1,46 @@
+{
+  "id": "nh-127c",
+  "ref": "NH 127C",
+  "name": "Gelephu–Kajalgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.2,
+  "route": {
+    "start": "Gelephu, Assam",
+    "end": "Kajalgaon, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Gelephu",
+      "Kajalgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gelephu",
+      "coords": [
+        90.48375,
+        26.85961
+      ]
+    },
+    {
+      "name": "Kajalgaon",
+      "coords": [
+        90.37635,
+        26.55154
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

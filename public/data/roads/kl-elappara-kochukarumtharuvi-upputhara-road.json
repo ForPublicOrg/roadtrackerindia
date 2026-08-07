@@ -1,0 +1,42 @@
+{
+  "id": "kl-elappara-kochukarumtharuvi-upputhara-road",
+  "ref": "MDR",
+  "name": "Elappara - Kochukarumtharuvi - Upputhara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.8,
+  "route": {
+    "start": "Elappara, Kerala",
+    "end": "Vagamon, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Elappara",
+      "Vagamon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Elappara",
+      "coords": [
+        76.97942,
+        9.63305
+      ]
+    },
+    {
+      "name": "Vagamon",
+      "coords": [
+        77.00908,
+        9.68909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

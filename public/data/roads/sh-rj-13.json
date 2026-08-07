@@ -1,0 +1,81 @@
+{
+  "id": "sh-rj-13",
+  "ref": "SH 13",
+  "name": "Pilani–Shahpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 147.3,
+  "route": {
+    "start": "Pilani, Rajasthan",
+    "end": "Shahpur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pilani",
+      "Chirawa",
+      "Khetri",
+      "Neem Ka Thana",
+      "Kanwat",
+      "Shahpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pilani",
+      "coords": [
+        75.60533,
+        28.36097
+      ]
+    },
+    {
+      "name": "Chirawa",
+      "coords": [
+        75.65146,
+        28.24464
+      ]
+    },
+    {
+      "name": "Khetri",
+      "coords": [
+        75.78782,
+        28.00077
+      ]
+    },
+    {
+      "name": "Babai",
+      "coords": [
+        75.76196,
+        27.88685
+      ]
+    },
+    {
+      "name": "Neem Ka Thana",
+      "coords": [
+        75.78772,
+        27.73808
+      ]
+    },
+    {
+      "name": "Kanwat",
+      "coords": [
+        75.70892,
+        27.59121
+      ]
+    },
+    {
+      "name": "Shahpur",
+      "coords": [
+        75.96111,
+        27.38427
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-74",
+  "ref": "MDR 74",
+  "name": "Cherkala–Mulleria District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Cherkala, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherkala",
+      "Bovikkanam",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.07067,
+        12.54449
+      ]
+    },
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.09576,
+        12.54038
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.16509,
+        12.54755
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

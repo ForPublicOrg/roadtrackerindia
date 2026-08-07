@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-126",
+  "ref": "MDR 126",
+  "name": "Antah–Baran District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 24.2,
+  "route": {
+    "start": "Antah, Rajasthan",
+    "end": "Baran, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Antah",
+      "Baran"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Antah",
+      "coords": [
+        76.34391,
+        25.13248
+      ]
+    },
+    {
+      "name": "Baran",
+      "coords": [
+        76.48148,
+        25.02839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-alathur-maruthamthadam-road",
+  "ref": "MDR",
+  "name": "Alathur - Maruthamthadam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "edathil colony, Kerala",
+    "end": "Kannanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "edathil colony",
+      "Kannanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.5443,
+        10.64878
+      ]
+    },
+    {
+      "name": "Kannanur",
+      "coords": [
+        76.53721,
+        10.69797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

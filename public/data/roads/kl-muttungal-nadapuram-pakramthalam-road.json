@@ -1,0 +1,57 @@
+{
+  "id": "kl-muttungal-nadapuram-pakramthalam-road",
+  "ref": "MDR",
+  "name": "Muttungal Nadapuram Pakramthalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Vadakara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Orkkatteri",
+      "Vadakara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.65389,
+        11.68469
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.62629,
+        11.66613
+      ]
+    },
+    {
+      "name": "Orkkatteri",
+      "coords": [
+        75.60286,
+        11.65395
+      ]
+    },
+    {
+      "name": "Vadakara",
+      "coords": [
+        75.57907,
+        11.62862
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

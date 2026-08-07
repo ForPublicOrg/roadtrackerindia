@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-51",
+  "ref": "MDR 51",
+  "name": "Barora–Salanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.6,
+  "route": {
+    "start": "Barora, Jharkhand",
+    "end": "Salanpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barora",
+      "Baghmara",
+      "Salanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barora",
+      "coords": [
+        86.22176,
+        23.80004
+      ]
+    },
+    {
+      "name": "Sonardih",
+      "coords": [
+        86.27311,
+        23.81893
+      ]
+    },
+    {
+      "name": "Salanpur",
+      "coords": [
+        86.29384,
+        23.81839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

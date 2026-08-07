@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-226",
+  "ref": "SH 226",
+  "name": "Krishnagiri–Shoolagiri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 46.8,
+  "route": {
+    "start": "Krishnagiri, Tamil Nadu",
+    "end": "Shoolagiri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Krishnagiri",
+      "Vepanapalli",
+      "Shoolagiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnagiri",
+      "coords": [
+        78.18154,
+        12.56098
+      ]
+    },
+    {
+      "name": "Vepanapalli",
+      "coords": [
+        78.19421,
+        12.70487
+      ]
+    },
+    {
+      "name": "Shoolagiri",
+      "coords": [
+        77.97362,
+        12.80525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

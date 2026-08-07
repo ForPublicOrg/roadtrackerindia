@@ -1,0 +1,42 @@
+{
+  "id": "kl-kannitta-kadavu-illichira-road",
+  "ref": "MDR",
+  "name": "Kannitta Kadavu - Illichira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.38129,
+        9.33752
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.38419,
+        9.32716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

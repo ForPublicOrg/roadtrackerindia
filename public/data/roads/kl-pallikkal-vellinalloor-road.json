@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallikkal-vellinalloor-road",
+  "ref": "MDR",
+  "name": "Pallikkal - Vellinalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Kalluvathukkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Kalluvathukkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.80829,
+        8.82337
+      ]
+    },
+    {
+      "name": "Kalluvathukkal",
+      "coords": [
+        76.78208,
+        8.86134
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

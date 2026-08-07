@@ -1,0 +1,57 @@
+{
+  "id": "kl-thiruvalla-mallappally-road",
+  "ref": "MDR",
+  "name": "Thiruvalla - Mallappally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Thiruvalla, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Anjilithanam",
+      "Thiruvalla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.65533,
+        9.44394
+      ]
+    },
+    {
+      "name": "Anjilithanam",
+      "coords": [
+        76.5943,
+        9.4307
+      ]
+    },
+    {
+      "name": "Kizhakken Muthoor",
+      "coords": [
+        76.58449,
+        9.40687
+      ]
+    },
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.57511,
+        9.38877
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

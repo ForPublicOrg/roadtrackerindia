@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakkavu-thonippara-ambilikkunnu-nalukettu-road",
+  "ref": "MDR",
+  "name": "Valakkavu-Thonippara-Ambilikkunnu-Nalukettu road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Vellanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Vellanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.2937,
+        10.51419
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.32529,
+        10.50845
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

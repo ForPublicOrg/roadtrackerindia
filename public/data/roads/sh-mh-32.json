@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-32",
+  "ref": "SH 32",
+  "name": "Boisar–Palghar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 16.8,
+  "route": {
+    "start": "Boisar, Maharashtra",
+    "end": "Palghar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Boisar",
+      "Palghar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Boisar",
+      "coords": [
+        72.76168,
+        19.78656
+      ]
+    },
+    {
+      "name": "Palghar",
+      "coords": [
+        72.91425,
+        19.76883
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

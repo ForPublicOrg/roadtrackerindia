@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-25",
+  "ref": "MDR 25",
+  "name": "Muri–Sini District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 38.6,
+  "route": {
+    "start": "Muri, Jharkhand",
+    "end": "Sini, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Muri",
+      "Sini"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muri",
+      "coords": [
+        85.83312,
+        23.35203
+      ]
+    },
+    {
+      "name": "Sini",
+      "coords": [
+        85.86588,
+        23.03717
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

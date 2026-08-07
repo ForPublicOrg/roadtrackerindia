@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-93",
+  "ref": "MDR 93",
+  "name": "Islampur–Khetri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 46.5,
+  "route": {
+    "start": "Islampur, Rajasthan",
+    "end": "Khetri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Islampur",
+      "Jasrapur",
+      "Khetri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Islampur",
+      "coords": [
+        75.52066,
+        28.02617
+      ]
+    },
+    {
+      "name": "Jasrapur",
+      "coords": [
+        75.71287,
+        28.0271
+      ]
+    },
+    {
+      "name": "Khetri",
+      "coords": [
+        75.80368,
+        28.03016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

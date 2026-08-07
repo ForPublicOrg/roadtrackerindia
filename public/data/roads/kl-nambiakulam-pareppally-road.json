@@ -1,0 +1,42 @@
+{
+  "id": "kl-nambiakulam-pareppally-road",
+  "ref": "MDR",
+  "name": "Nambiakulam - Pareppally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Neendoor, Kerala",
+    "end": "Kanakkarry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neendoor",
+      "Kanakkarry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neendoor",
+      "coords": [
+        76.51705,
+        9.70244
+      ]
+    },
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.53037,
+        9.70542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

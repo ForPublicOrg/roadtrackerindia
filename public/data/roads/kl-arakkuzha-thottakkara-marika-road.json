@@ -1,0 +1,42 @@
+{
+  "id": "kl-arakkuzha-thottakkara-marika-road",
+  "ref": "MDR",
+  "name": "Arakkuzha - Thottakkara (Marika) Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kizhakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kizhakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.62345,
+        9.9085
+      ]
+    },
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.6066,
+        9.92834
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

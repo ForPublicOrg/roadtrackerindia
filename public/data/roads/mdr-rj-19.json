@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-19",
+  "ref": "MDR 19",
+  "name": "Bap–Jaisalmer District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 162.3,
+  "route": {
+    "start": "Bap, Rajasthan",
+    "end": "Jaisalmer, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bap",
+      "Jaisalmer"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bap",
+      "coords": [
+        72.16371,
+        27.73161
+      ]
+    },
+    {
+      "name": "Jaisalmer",
+      "coords": [
+        70.858,
+        27.38684
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

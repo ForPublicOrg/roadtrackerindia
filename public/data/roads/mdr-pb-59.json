@@ -1,0 +1,42 @@
+{
+  "id": "mdr-pb-59",
+  "ref": "MDR 59",
+  "name": "Rupnagar–Bharatgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Rupnagar, Punjab",
+    "end": "Bharatgarh, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Rupnagar",
+      "Bharatgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rupnagar",
+      "coords": [
+        76.5914,
+        31.0199
+      ]
+    },
+    {
+      "name": "Bharatgarh",
+      "coords": [
+        76.61107,
+        31.0275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

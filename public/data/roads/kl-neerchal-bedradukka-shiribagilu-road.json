@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerchal-bedradukka-shiribagilu-road",
+  "ref": "MDR",
+  "name": "Neerchal - Bedradukka - Shiribagilu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Siraj Nagar, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Siraj Nagar",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.97495,
+        12.53807
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.97589,
+        12.56577
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

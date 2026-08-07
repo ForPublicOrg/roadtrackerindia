@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhanji-kadavllur-road",
+  "ref": "MDR",
+  "name": "Pazhanji - Kadavllur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Kunnamkulam, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kunnamkulam",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunnamkulam",
+      "coords": [
+        76.05882,
+        10.69219
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.06436,
+        10.71451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

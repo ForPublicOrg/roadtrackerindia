@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-380",
+  "ref": "ODR 380",
+  "name": "Satyavedu–Sri City District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Satyavedu, Tamil Nadu",
+    "end": "Sri City, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Satyavedu",
+      "Sri City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satyavedu",
+      "coords": [
+        80.00615,
+        13.44787
+      ]
+    },
+    {
+      "name": "Sri City",
+      "coords": [
+        80.03047,
+        13.49934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

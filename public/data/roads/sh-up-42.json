@@ -1,0 +1,73 @@
+{
+  "id": "sh-up-42",
+  "ref": "SH 42",
+  "name": "Chirgaon–Hamirpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 157.6,
+  "route": {
+    "start": "Chirgaon, Uttar Pradesh",
+    "end": "Hamirpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Chirgaon",
+      "Gursarai",
+      "Garautha",
+      "Rath",
+      "Hamirpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirgaon",
+      "coords": [
+        78.81699,
+        25.57321
+      ]
+    },
+    {
+      "name": "Tahrauli",
+      "coords": [
+        78.99721,
+        25.5885
+      ]
+    },
+    {
+      "name": "Gursarai",
+      "coords": [
+        79.18387,
+        25.61294
+      ]
+    },
+    {
+      "name": "Garautha",
+      "coords": [
+        79.29752,
+        25.57411
+      ]
+    },
+    {
+      "name": "Rath",
+      "coords": [
+        79.56777,
+        25.59033
+      ]
+    },
+    {
+      "name": "Hamirpur",
+      "coords": [
+        80.1431,
+        25.94166
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-901",
+  "ref": "MDR 901",
+  "name": "Palani–Komaralingam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Palani, Tamil Nadu",
+    "end": "Komaralingam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palani",
+      "Komaralingam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palani",
+      "coords": [
+        77.48631,
+        10.45393
+      ]
+    },
+    {
+      "name": "Komaralingam",
+      "coords": [
+        77.38216,
+        10.47531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

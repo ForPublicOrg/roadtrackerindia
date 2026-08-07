@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-1111",
+  "ref": "MDR 1111",
+  "name": "Pattersonpettai–Kodiyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Pattersonpettai, Tamil Nadu",
+    "end": "Kodiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pattersonpettai",
+      "Thathukavundanūr",
+      "Jolarpet",
+      "Kodiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattersonpettai",
+      "coords": [
+        78.51437,
+        12.59204
+      ]
+    },
+    {
+      "name": "Jolarpet",
+      "coords": [
+        78.57483,
+        12.56873
+      ]
+    },
+    {
+      "name": "Hodsonpettai",
+      "coords": [
+        78.57481,
+        12.5758
+      ]
+    },
+    {
+      "name": "Kodiyur",
+      "coords": [
+        78.58876,
+        12.57908
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

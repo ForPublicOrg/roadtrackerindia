@@ -1,0 +1,51 @@
+{
+  "id": "sh-hr-101a",
+  "ref": "SH 101A",
+  "name": "Mandi Dabwali–Sardulgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53.1,
+  "route": {
+    "start": "Mandi Dabwali, Haryana",
+    "end": "Sardulgarh, Punjab",
+    "states": [
+      "Haryana",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Mandi Dabwali",
+      "Kalanwali",
+      "Sardulgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandi Dabwali",
+      "coords": [
+        74.74054,
+        29.94002
+      ]
+    },
+    {
+      "name": "Kalanwali",
+      "coords": [
+        74.97214,
+        29.82528
+      ]
+    },
+    {
+      "name": "Sardulgarh",
+      "coords": [
+        75.21875,
+        29.73348
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

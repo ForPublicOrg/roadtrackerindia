@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-50w",
+  "ref": "SH 50W",
+  "name": "Dhaulana–Siyana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.2,
+  "route": {
+    "start": "Dhaulana, Uttar Pradesh",
+    "end": "Siyana, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Dhaulana",
+      "Siyana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhaulana",
+      "coords": [
+        77.79038,
+        28.58307
+      ]
+    },
+    {
+      "name": "Siyana",
+      "coords": [
+        78.06417,
+        28.62522
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

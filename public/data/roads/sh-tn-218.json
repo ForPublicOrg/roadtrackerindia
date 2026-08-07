@@ -1,0 +1,72 @@
+{
+  "id": "sh-tn-218",
+  "ref": "SH 218",
+  "name": "Narasothipatti–Salem State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Narasothipatti, Tamil Nadu",
+    "end": "Salem, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Narasothipatti",
+      "Swarnapuri",
+      "Pallapatti",
+      "Salem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narasothipatti",
+      "coords": [
+        78.13086,
+        11.67916
+      ]
+    },
+    {
+      "name": "Meyyanur",
+      "coords": [
+        78.13565,
+        11.6738
+      ]
+    },
+    {
+      "name": "Swarnapuri",
+      "coords": [
+        78.13908,
+        11.67096
+      ]
+    },
+    {
+      "name": "Pallapatti",
+      "coords": [
+        78.14361,
+        11.66681
+      ]
+    },
+    {
+      "name": "Shevapet",
+      "coords": [
+        78.15141,
+        11.6601
+      ]
+    },
+    {
+      "name": "Salem",
+      "coords": [
+        78.15851,
+        11.65483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

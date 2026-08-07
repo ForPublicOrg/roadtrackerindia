@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellanikode-kallai-vepoor-varandarappilly-road",
+  "ref": "MDR",
+  "name": "Vellanikode Kallai Vepoor - Varandarappilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Nadathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Nadathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.33401,
+        10.42304
+      ]
+    },
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.34082,
+        10.46607
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

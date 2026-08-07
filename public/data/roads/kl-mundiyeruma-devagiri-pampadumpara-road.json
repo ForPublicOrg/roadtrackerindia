@@ -1,0 +1,42 @@
+{
+  "id": "kl-mundiyeruma-devagiri-pampadumpara-road",
+  "ref": "MDR",
+  "name": "Mundiyeruma - Devagiri - Pampadumpara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Thookkupalam, Kerala",
+    "end": "Nedumkandam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thookkupalam",
+      "Nedumkandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.18133,
+        9.8179
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.16909,
+        9.80963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

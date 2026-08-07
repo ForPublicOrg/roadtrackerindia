@@ -1,0 +1,42 @@
+{
+  "id": "kl-amaravila-karakonam-road",
+  "ref": "MDR",
+  "name": "Amaravila - Karakonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.16521,
+        8.3882
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.11203,
+        8.38743
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

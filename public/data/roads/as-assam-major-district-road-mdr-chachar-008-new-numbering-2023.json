@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-008-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 008 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Lala, Assam",
+    "end": "Sonai, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Lala",
+      "Sonai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lala",
+      "coords": [
+        92.72106,
+        24.61346
+      ]
+    },
+    {
+      "name": "Sonai",
+      "coords": [
+        92.75537,
+        24.65345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

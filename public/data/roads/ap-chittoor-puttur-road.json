@@ -1,0 +1,72 @@
+{
+  "id": "ap-chittoor-puttur-road",
+  "ref": "SH",
+  "name": "Chittoor - Puttur Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64.2,
+  "route": {
+    "start": "Chittoor, Andhra Pradesh",
+    "end": "Puttur, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Chittoor",
+      "Srirangarajapuram",
+      "Pallipattu",
+      "Puttur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittoor",
+      "coords": [
+        79.10213,
+        13.21685
+      ]
+    },
+    {
+      "name": "Gangadharanellore",
+      "coords": [
+        79.18085,
+        13.23077
+      ]
+    },
+    {
+      "name": "Srirangarajapuram",
+      "coords": [
+        79.36033,
+        13.31083
+      ]
+    },
+    {
+      "name": "Pallipattu",
+      "coords": [
+        79.42862,
+        13.33943
+      ]
+    },
+    {
+      "name": "Karvetinagar",
+      "coords": [
+        79.44686,
+        13.42188
+      ]
+    },
+    {
+      "name": "Puttur",
+      "coords": [
+        79.55221,
+        13.43814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

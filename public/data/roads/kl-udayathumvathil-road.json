@@ -1,0 +1,42 @@
+{
+  "id": "kl-udayathumvathil-road",
+  "ref": "MDR",
+  "name": "Udayathumvathil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Maradu, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Maradu",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maradu",
+      "coords": [
+        76.31711,
+        9.91552
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.32167,
+        9.90161
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

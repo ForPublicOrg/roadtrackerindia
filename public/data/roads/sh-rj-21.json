@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-21",
+  "ref": "SH 21",
+  "name": "Pipar City–Merta City State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87.4,
+  "route": {
+    "start": "Pipar City, Rajasthan",
+    "end": "Merta City, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pipar City",
+      "Boroonda",
+      "Merta City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pipar City",
+      "coords": [
+        73.34336,
+        26.27842
+      ]
+    },
+    {
+      "name": "Boroonda",
+      "coords": [
+        73.79721,
+        26.47415
+      ]
+    },
+    {
+      "name": "Merta City",
+      "coords": [
+        74.02172,
+        26.64473
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

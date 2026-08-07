@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2397",
+  "ref": "ODR 2397",
+  "name": "Latteri–Mottur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12,
+  "route": {
+    "start": "Latteri, Tamil Nadu",
+    "end": "Mottur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Latteri",
+      "Mottur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latteri",
+      "coords": [
+        79.01948,
+        13.00334
+      ]
+    },
+    {
+      "name": "Mottur",
+      "coords": [
+        79.01694,
+        12.96254
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

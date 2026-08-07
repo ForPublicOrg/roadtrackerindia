@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-7",
+  "ref": "MDR 7",
+  "name": "Odayamchal–Panathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Odayamchal, Kerala",
+    "end": "Panathur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Odayamchal",
+      "Panathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.27226,
+        12.44421
+      ]
+    },
+    {
+      "name": "Panathur",
+      "coords": [
+        75.27415,
+        12.45937
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

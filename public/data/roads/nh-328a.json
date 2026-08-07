@@ -1,0 +1,54 @@
+{
+  "id": "nh-328a",
+  "ref": "NH 328A",
+  "name": "Mehdawal–Jalalpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 82.3,
+  "route": {
+    "start": "Mehdawal, Uttar Pradesh",
+    "end": "Jalalpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mehdawal",
+      "Maghar",
+      "Jalalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mehdawal",
+      "coords": [
+        83.10515,
+        26.97117
+      ]
+    },
+    {
+      "name": "Maghar",
+      "coords": [
+        83.071,
+        26.77264
+      ]
+    },
+    {
+      "name": "Jalalpur",
+      "coords": [
+        82.86933,
+        26.37554
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

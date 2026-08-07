@@ -1,0 +1,42 @@
+{
+  "id": "kl-haripad-veeyapuram-road",
+  "ref": "MDR",
+  "name": "Haripad - Veeyapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.45422,
+        9.28353
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.46541,
+        9.33077
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

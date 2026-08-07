@@ -1,0 +1,42 @@
+{
+  "id": "kl-ponthenpuzha-alpara-road",
+  "ref": "MDR",
+  "name": "Ponthenpuzha - Alpara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Manimala, Kerala",
+    "end": "Karinkallummoozhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manimala",
+      "Karinkallummoozhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manimala",
+      "coords": [
+        76.76288,
+        9.45557
+      ]
+    },
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.78153,
+        9.46307
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

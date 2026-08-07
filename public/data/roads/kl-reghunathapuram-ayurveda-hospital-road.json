@@ -1,0 +1,42 @@
+{
+  "id": "kl-reghunathapuram-ayurveda-hospital-road",
+  "ref": "MDR",
+  "name": "Reghunathapuram - Ayurveda Hospital Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.74163,
+        8.73629
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.73162,
+        8.73196
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

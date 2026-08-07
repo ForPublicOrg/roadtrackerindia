@@ -1,0 +1,46 @@
+{
+  "id": "nh-330b",
+  "ref": "NH 330B",
+  "name": "Gonda–Ramnagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 46.1,
+  "route": {
+    "start": "Gonda, Uttar Pradesh",
+    "end": "Ramnagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gonda",
+      "Ramnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gonda",
+      "coords": [
+        81.96874,
+        27.14545
+      ]
+    },
+    {
+      "name": "Ramnagar",
+      "coords": [
+        81.52734,
+        27.11739
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottayi-peringottukurrissi-road",
+  "ref": "MDR",
+  "name": "Kottayi - Peringottukurrissi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Kallekkad, Kerala",
+    "end": "Kannanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallekkad",
+      "Kannanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallekkad",
+      "coords": [
+        76.49363,
+        10.75701
+      ]
+    },
+    {
+      "name": "Kannanur",
+      "coords": [
+        76.54453,
+        10.76082
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,99 @@
+{
+  "id": "nh-248bb",
+  "ref": "NH 248BB",
+  "name": "Kapashera–Sector 75A National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 22.4,
+  "route": {
+    "start": "Kapashera, Delhi",
+    "end": "Sector 75A, Haryana",
+    "states": [
+      "Delhi",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kapashera",
+      "Sector 111",
+      "Sector 105",
+      "Sector 36A",
+      "Sector 75A"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kapashera",
+      "coords": [
+        77.05521,
+        28.54897
+      ]
+    },
+    {
+      "name": "Qutub Vihar",
+      "coords": [
+        77.04932,
+        28.55284
+      ]
+    },
+    {
+      "name": "Sector 111",
+      "coords": [
+        77.03533,
+        28.53233
+      ]
+    },
+    {
+      "name": "Sector 105",
+      "coords": [
+        77.00673,
+        28.4996
+      ]
+    },
+    {
+      "name": "Sector 100",
+      "coords": [
+        76.97102,
+        28.46685
+      ]
+    },
+    {
+      "name": "Sector 99",
+      "coords": [
+        76.96551,
+        28.45926
+      ]
+    },
+    {
+      "name": "Sector 88",
+      "coords": [
+        76.9628,
+        28.42143
+      ]
+    },
+    {
+      "name": "Sector 36A",
+      "coords": [
+        76.97185,
+        28.41702
+      ]
+    },
+    {
+      "name": "Sector 75A",
+      "coords": [
+        76.9909,
+        28.40561
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

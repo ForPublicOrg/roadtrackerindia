@@ -1,0 +1,50 @@
+{
+  "id": "kl-pala-mevada-road",
+  "ref": "MDR",
+  "name": "Pala - Mevada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kottaramattom, Kerala",
+    "end": "Pala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottaramattom",
+      "Puliyannoor",
+      "Pala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottaramattom",
+      "coords": [
+        76.67422,
+        9.68736
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.67435,
+        9.69057
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.68383,
+        9.69871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

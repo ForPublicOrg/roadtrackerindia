@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakkallu-karivedakam-pookayam-road",
+  "ref": "MDR",
+  "name": "Anakkallu - Karivedakam - Pookayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.27409,
+        12.45997
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.24508,
+        12.49042
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mithramadom-palachuvadu-road",
+  "ref": "MDR",
+  "name": "Mithramadom - Palachuvadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Mundancavu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundancavu",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.58407,
+        9.32352
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.58454,
+        9.3184
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

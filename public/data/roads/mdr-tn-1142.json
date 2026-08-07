@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1142",
+  "ref": "MDR 1142",
+  "name": "Wellington Cantonment–Ottupatrai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.2,
+  "route": {
+    "start": "Wellington Cantonment, Tamil Nadu",
+    "end": "Ottupatrai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Wellington Cantonment",
+      "Ottupatrai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wellington Cantonment",
+      "coords": [
+        76.74397,
+        11.37825
+      ]
+    },
+    {
+      "name": "Ottupatrai",
+      "coords": [
+        76.73603,
+        11.32895
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

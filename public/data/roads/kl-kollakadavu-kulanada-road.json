@@ -1,0 +1,42 @@
+{
+  "id": "kl-kollakadavu-kulanada-road",
+  "ref": "MDR",
+  "name": "Kollakadavu - Kulanada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Nooranad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Nooranad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.59041,
+        9.25499
+      ]
+    },
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.67147,
+        9.24438
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

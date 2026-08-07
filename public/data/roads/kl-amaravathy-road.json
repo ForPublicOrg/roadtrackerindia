@@ -1,0 +1,50 @@
+{
+  "id": "kl-amaravathy-road",
+  "ref": "MDR",
+  "name": "Amaravathy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kochi, Kerala",
+    "end": "Koovapadam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kochi",
+      "Mattancherry",
+      "Koovapadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kochi",
+      "coords": [
+        76.24442,
+        9.96857
+      ]
+    },
+    {
+      "name": "Mattancherry",
+      "coords": [
+        76.2458,
+        9.96103
+      ]
+    },
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.24469,
+        9.95234
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

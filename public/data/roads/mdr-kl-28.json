@@ -1,0 +1,56 @@
+{
+  "id": "mdr-kl-28",
+  "ref": "MDR 28",
+  "name": "Chengala–Cherkala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Chengala, Kerala",
+    "end": "Cherkala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengala",
+      "Cherkala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengala",
+      "coords": [
+        75.03607,
+        12.51059
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.04731,
+        12.502
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.05026,
+        12.4981
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.05073,
+        12.49835
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

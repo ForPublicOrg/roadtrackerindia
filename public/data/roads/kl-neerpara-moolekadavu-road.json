@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerpara-moolekadavu-road",
+  "ref": "MDR",
+  "name": "Neerpara - Moolekadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.42298,
+        9.79386
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.42956,
+        9.8244
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

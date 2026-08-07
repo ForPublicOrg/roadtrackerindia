@@ -1,0 +1,65 @@
+{
+  "id": "sh-mp-25",
+  "ref": "SH 25",
+  "name": "Shujalpur–Jaora State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 193.8,
+  "route": {
+    "start": "Shujalpur, Madhya Pradesh",
+    "end": "Jaora, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Shujalpur",
+      "Sarangpur",
+      "Agar",
+      "Jaora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shujalpur",
+      "coords": [
+        76.70776,
+        23.39671
+      ]
+    },
+    {
+      "name": "Sarangpur",
+      "coords": [
+        76.46467,
+        23.57085
+      ]
+    },
+    {
+      "name": "Mohan Badodiya",
+      "coords": [
+        76.33641,
+        23.61048
+      ]
+    },
+    {
+      "name": "Agar",
+      "coords": [
+        76.00866,
+        23.71655
+      ]
+    },
+    {
+      "name": "Jaora",
+      "coords": [
+        75.13973,
+        23.6482
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

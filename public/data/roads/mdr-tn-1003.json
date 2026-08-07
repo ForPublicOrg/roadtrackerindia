@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1003",
+  "ref": "MDR 1003",
+  "name": "TNPL Pugalur–Pugalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "TNPL Pugalur, Tamil Nadu",
+    "end": "Pugalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "TNPL Pugalur",
+      "Pugalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "TNPL Pugalur",
+      "coords": [
+        77.9894,
+        11.05262
+      ]
+    },
+    {
+      "name": "Pugalur",
+      "coords": [
+        78.01092,
+        11.07427
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-86b",
+  "ref": "SH 86B",
+  "name": "Pipar City–Gothan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39,
+  "route": {
+    "start": "Pipar City, Rajasthan",
+    "end": "Gothan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pipar City",
+      "Gothan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pipar City",
+      "coords": [
+        73.53395,
+        26.40173
+      ]
+    },
+    {
+      "name": "Gothan",
+      "coords": [
+        73.73426,
+        26.64745
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

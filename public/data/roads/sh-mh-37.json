@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-37",
+  "ref": "SH 37",
+  "name": "Jawhar–Murbad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 133.7,
+  "route": {
+    "start": "Jawhar, Maharashtra",
+    "end": "Murbad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Jawhar",
+      "Khodala",
+      "Kasara",
+      "Murbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.352,
+        19.91698
+      ]
+    },
+    {
+      "name": "Khodala",
+      "coords": [
+        73.39933,
+        19.79097
+      ]
+    },
+    {
+      "name": "Kasara",
+      "coords": [
+        73.47438,
+        19.64732
+      ]
+    },
+    {
+      "name": "Murbad",
+      "coords": [
+        73.44678,
+        19.16741
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-thekkemuri-andoor-road",
+  "ref": "MDR",
+  "name": "Thekkemuri - Andoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Puliyannoor, Kerala",
+    "end": "Kottaramattom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puliyannoor",
+      "Pala",
+      "Kottaramattom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.63064,
+        9.73274
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.65114,
+        9.69858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

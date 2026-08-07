@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-789",
+  "ref": "MDR 789",
+  "name": "Pakshitīrtham–Wallajahbad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 49.1,
+  "route": {
+    "start": "Pakshitīrtham, Tamil Nadu",
+    "end": "Wallajahbad, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pakshitīrtham",
+      "Thirukazhukundram",
+      "Wallajahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pakshitīrtham",
+      "coords": [
+        80.05646,
+        12.60428
+      ]
+    },
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.86308,
+        12.74681
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

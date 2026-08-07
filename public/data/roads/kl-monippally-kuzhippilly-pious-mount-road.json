@@ -1,0 +1,42 @@
+{
+  "id": "kl-monippally-kuzhippilly-pious-mount-road",
+  "ref": "MDR",
+  "name": "Monippally - Kuzhippilly - Pious Mount Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Koothattukulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Koothattukulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.57561,
+        9.80934
+      ]
+    },
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.59705,
+        9.80386
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

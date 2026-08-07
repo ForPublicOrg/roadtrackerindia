@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuttivattom-arinalloor-road",
+  "ref": "MDR",
+  "name": "Kuttivattom - Arinalloor road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Anchalummood, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Anchalummood"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.54317,
+        9.0304
+      ]
+    },
+    {
+      "name": "Anchalummood",
+      "coords": [
+        76.57524,
+        9.00743
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-527a",
+  "ref": "NH 527A",
+  "name": "Rahika–Supaul National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 77.1,
+  "route": {
+    "start": "Rahika, Bihar",
+    "end": "Supaul, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Rahika",
+      "Madhubani",
+      "Jhanjharpur",
+      "Supaul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rahika",
+      "coords": [
+        86.01895,
+        26.38045
+      ]
+    },
+    {
+      "name": "Madhubani",
+      "coords": [
+        86.07017,
+        26.35684
+      ]
+    },
+    {
+      "name": "Jhanjharpur",
+      "coords": [
+        86.2819,
+        26.26822
+      ]
+    },
+    {
+      "name": "Supaul",
+      "coords": [
+        86.56542,
+        26.04216
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

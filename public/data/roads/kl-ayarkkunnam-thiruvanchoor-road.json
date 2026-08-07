@@ -1,0 +1,42 @@
+{
+  "id": "kl-ayarkkunnam-thiruvanchoor-road",
+  "ref": "MDR",
+  "name": "Ayarkkunnam - Thiruvanchoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Manarcadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Manarcadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.60628,
+        9.63567
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.5831,
+        9.62224
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-nariampara-kalthotty-vellilamkandom-road",
+  "ref": "MDR",
+  "name": "Nariampara - Kalthotty - Vellilamkandom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "School Kavala, Kerala",
+    "end": "Ambalakkavala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "School Kavala",
+      "Ambalakkavala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "School Kavala",
+      "coords": [
+        77.08557,
+        9.72893
+      ]
+    },
+    {
+      "name": "Ambalakkavala",
+      "coords": [
+        77.05059,
+        9.7124
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

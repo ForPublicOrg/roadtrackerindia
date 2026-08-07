@@ -1,0 +1,42 @@
+{
+  "id": "kl-chungam-kuttikalathani-road",
+  "ref": "MDR",
+  "name": "Chungam - Kuttikalathani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Vettichira, Kerala",
+    "end": "Kadungathukundu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vettichira",
+      "Kadungathukundu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vettichira",
+      "coords": [
+        76.01171,
+        10.93088
+      ]
+    },
+    {
+      "name": "Kadungathukundu",
+      "coords": [
+        75.99701,
+        10.92348
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

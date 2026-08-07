@@ -1,0 +1,43 @@
+{
+  "id": "sh-mp-44",
+  "ref": "SH 44",
+  "name": "Lormi–Gada Sarai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 46.4,
+  "route": {
+    "start": "Lormi, Chhattisgarh",
+    "end": "Gada Sarai, Madhya Pradesh",
+    "states": [
+      "Chhattisgarh",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lormi",
+      "Gada Sarai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lormi",
+      "coords": [
+        81.39091,
+        22.4468
+      ]
+    },
+    {
+      "name": "Gada Sarai",
+      "coords": [
+        81.32876,
+        22.82233
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

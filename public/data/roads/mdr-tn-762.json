@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-762",
+  "ref": "MDR 762",
+  "name": "Nannilam–Thiruvarur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Nannilam, Tamil Nadu",
+    "end": "Thiruvarur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nannilam",
+      "Thiruvarur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nannilam",
+      "coords": [
+        79.61037,
+        10.88133
+      ]
+    },
+    {
+      "name": "Thiruvarur",
+      "coords": [
+        79.64261,
+        10.85766
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

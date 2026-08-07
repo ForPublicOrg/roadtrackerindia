@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-u55",
+  "ref": "SH-U 55",
+  "name": "Kakkan Colony–Kamarajar Nagar Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Kakkan Colony, Tamil Nadu",
+    "end": "Kamarajar Nagar Colony, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kakkan Colony",
+      "Ayodhiyapatinam",
+      "Kamarajar Nagar Colony",
+      "Salem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkan Colony",
+      "coords": [
+        78.20644,
+        11.66368
+      ]
+    },
+    {
+      "name": "Kamarajar Nagar Colony",
+      "coords": [
+        78.19594,
+        11.66188
+      ]
+    },
+    {
+      "name": "Salem",
+      "coords": [
+        78.18968,
+        11.66025
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

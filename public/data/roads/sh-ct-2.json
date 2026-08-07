@@ -1,0 +1,42 @@
+{
+  "id": "sh-ct-2",
+  "ref": "SH 2",
+  "name": "Ambikapur–Renukoot State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 107.8,
+  "route": {
+    "start": "Ambikapur, Chhattisgarh",
+    "end": "Renukoot, Uttar Pradesh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Ambikapur",
+      "Renukoot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambikapur",
+      "coords": [
+        83.19792,
+        23.13691
+      ]
+    },
+    {
+      "name": "Renukoot",
+      "coords": [
+        83.15505,
+        23.9045
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

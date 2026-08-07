@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-1021",
+  "ref": "MDR 1021",
+  "name": "Valasaravakkam–Maduravoyal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Valasaravakkam, Tamil Nadu",
+    "end": "Maduravoyal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Valasaravakkam",
+      "Alapakkam",
+      "Maduravoyal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valasaravakkam",
+      "coords": [
+        80.16338,
+        13.0412
+      ]
+    },
+    {
+      "name": "Alapakkam",
+      "coords": [
+        80.16532,
+        13.04796
+      ]
+    },
+    {
+      "name": "Maduravoyal",
+      "coords": [
+        80.16635,
+        13.05879
+      ]
+    },
+    {
+      "name": "Vanagaram",
+      "coords": [
+        80.16385,
+        13.06125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

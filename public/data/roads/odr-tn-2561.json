@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-2561",
+  "ref": "ODR 2561",
+  "name": "Kovur–Anakaputhur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Kovur, Tamil Nadu",
+    "end": "Anakaputhur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kovur",
+      "Kundrathur",
+      "Anakaputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kovur",
+      "coords": [
+        80.10939,
+        13.00545
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.11043,
+        12.99943
+      ]
+    },
+    {
+      "name": "Anakaputhur",
+      "coords": [
+        80.11844,
+        12.9917
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

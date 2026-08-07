@@ -1,0 +1,42 @@
+{
+  "id": "kl-karetta-kanhileri-kunderipoil-maloor-road",
+  "ref": "MDR",
+  "name": "Karetta - Kanhileri - Kunderipoil - Maloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Koothuparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Koothuparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.58344,
+        11.88577
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.62946,
+        11.87405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

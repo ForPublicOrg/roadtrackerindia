@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-5a",
+  "ref": "SH 5A",
+  "name": "Asoj–Kalol State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Asoj, Gujarat",
+    "end": "Kalol, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Asoj",
+      "Kalol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Asoj",
+      "coords": [
+        73.53591,
+        22.48317
+      ]
+    },
+    {
+      "name": "Kalol",
+      "coords": [
+        73.52439,
+        22.46851
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

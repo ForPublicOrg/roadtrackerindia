@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-864",
+  "ref": "MDR 864",
+  "name": "V.S.Nagar–Karur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "V.S.Nagar, Tamil Nadu",
+    "end": "Karur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "V.S.Nagar",
+      "Karur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.15811,
+        10.99885
+      ]
+    },
+    {
+      "name": "Sipcot Industrial Estate",
+      "coords": [
+        78.11033,
+        10.97996
+      ]
+    },
+    {
+      "name": "Karur",
+      "coords": [
+        78.09597,
+        10.97773
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

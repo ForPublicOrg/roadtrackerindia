@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-77",
+  "ref": "MDR 77",
+  "name": "Bokaro–Mansa Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16,
+  "route": {
+    "start": "Bokaro, Jharkhand",
+    "end": "Mansa Nagar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bokaro",
+      "Mansa Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bokaro",
+      "coords": [
+        86.01853,
+        23.67204
+      ]
+    },
+    {
+      "name": "Mansa Nagar",
+      "coords": [
+        86.00268,
+        23.77017
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttipalam-panayi-road",
+  "ref": "MDR",
+  "name": "Muttipalam - Panayi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Uphill, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Uphill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.11896,
+        11.09488
+      ]
+    },
+    {
+      "name": "Uphill",
+      "coords": [
+        76.11198,
+        11.08558
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

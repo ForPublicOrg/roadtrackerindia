@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-968",
+  "ref": "MDR 968",
+  "name": "Attur–Chinnalapatti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Attur, Tamil Nadu",
+    "end": "Chinnalapatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Attur",
+      "Chinnalapatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attur",
+      "coords": [
+        77.8592,
+        10.31773
+      ]
+    },
+    {
+      "name": "Chinnalapatti",
+      "coords": [
+        77.89982,
+        10.31341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

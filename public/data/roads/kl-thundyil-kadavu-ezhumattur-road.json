@@ -1,0 +1,42 @@
+{
+  "id": "kl-thundyil-kadavu-ezhumattur-road",
+  "ref": "MDR",
+  "name": "Thundyil Kadavu - Ezhumattur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Mallappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Mallappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70982,
+        9.36469
+      ]
+    },
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.70574,
+        9.41779
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhanthong-cheyoor-naripetta-road",
+  "ref": "MDR",
+  "name": "Pazhanthong - Cheyoor - Naripetta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.69288,
+        11.69368
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.67428,
+        11.68991
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

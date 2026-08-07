@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuruthikavala-kabanigiri-high-school-road",
+  "ref": "MDR",
+  "name": "Thuruthikavala - Kabanigiri High School Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Perikkalloor, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perikkalloor",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.18085,
+        11.85635
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.19657,
+        11.84339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

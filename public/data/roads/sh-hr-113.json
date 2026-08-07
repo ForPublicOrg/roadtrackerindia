@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-113",
+  "ref": "SH 113",
+  "name": "Kaul–Chhatar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 50.4,
+  "route": {
+    "start": "Kaul, Haryana",
+    "end": "Chhatar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kaul",
+      "Pundri",
+      "Chhatar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaul",
+      "coords": [
+        76.61715,
+        29.87612
+      ]
+    },
+    {
+      "name": "Pundri",
+      "coords": [
+        76.55481,
+        29.75691
+      ]
+    },
+    {
+      "name": "Chhatar",
+      "coords": [
+        76.45452,
+        29.46495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

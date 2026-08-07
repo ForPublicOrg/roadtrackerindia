@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-172",
+  "ref": "MDR 172",
+  "name": "Govindpur–Ghatsila District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 43.7,
+  "route": {
+    "start": "Govindpur, Jharkhand",
+    "end": "Ghatsila, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Govindpur",
+      "Jaduguda",
+      "Ghatsila"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Govindpur",
+      "coords": [
+        86.15987,
+        22.618
+      ]
+    },
+    {
+      "name": "Jaduguda",
+      "coords": [
+        86.35103,
+        22.65426
+      ]
+    },
+    {
+      "name": "Ghatsila",
+      "coords": [
+        86.458,
+        22.51193
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

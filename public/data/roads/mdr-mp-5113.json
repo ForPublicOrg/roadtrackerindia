@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-5113",
+  "ref": "MDR 5113",
+  "name": "Jalgaon Jamod–Shahi Qila District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.7,
+  "route": {
+    "start": "Jalgaon Jamod, Maharashtra",
+    "end": "Shahi Qila, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jalgaon Jamod",
+      "Shahi Qila"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalgaon Jamod",
+      "coords": [
+        76.47995,
+        21.15184
+      ]
+    },
+    {
+      "name": "Shahi Qila",
+      "coords": [
+        76.29554,
+        21.29476
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-santhipuram-elanji-road",
+  "ref": "MDR",
+  "name": "Santhipuram-Elanji Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Piravom, Kerala",
+    "end": "Koothattukulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Piravom",
+      "Koothattukulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Piravom",
+      "coords": [
+        76.52196,
+        9.82231
+      ]
+    },
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.53842,
+        9.82875
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

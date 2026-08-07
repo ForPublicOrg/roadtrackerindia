@@ -1,0 +1,42 @@
+{
+  "id": "kl-podikalam-madampam-parakkadavu-road",
+  "ref": "MDR",
+  "name": "Podikalam - Madampam - Parakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Sreekandapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Sreekandapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.57089,
+        12.05912
+      ]
+    },
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.52476,
+        12.04894
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

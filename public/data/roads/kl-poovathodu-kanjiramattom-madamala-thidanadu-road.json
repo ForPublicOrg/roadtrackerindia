@@ -1,0 +1,42 @@
+{
+  "id": "kl-poovathodu-kanjiramattom-madamala-thidanadu-road",
+  "ref": "MDR",
+  "name": "Poovathodu - Kanjiramattom - Madamala - Thidanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Pala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Pala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.7726,
+        9.66042
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.74298,
+        9.68051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

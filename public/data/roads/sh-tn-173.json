@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-173",
+  "ref": "SH 173",
+  "name": "Anna Nagar–Sampath Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 47.8,
+  "route": {
+    "start": "Anna Nagar, Tamil Nadu",
+    "end": "Sampath Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Anna Nagar",
+      "Erode",
+      "Sampath Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anna Nagar",
+      "coords": [
+        77.34038,
+        11.20452
+      ]
+    },
+    {
+      "name": "Nasiyanur",
+      "coords": [
+        77.63857,
+        11.33925
+      ]
+    },
+    {
+      "name": "Erode",
+      "coords": [
+        77.71058,
+        11.34226
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-vadakkakara-munambam-road",
+  "ref": "MDR",
+  "name": "Vadakkakara-Munambam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "North Paravur, Kerala",
+    "end": "Cherai, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "North Paravur",
+      "Valiyapanikkan Thuruth",
+      "Cherai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.21325,
+        10.15868
+      ]
+    },
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.20626,
+        10.1642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

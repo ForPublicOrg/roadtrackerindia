@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-200",
+  "ref": "MDR 200",
+  "name": "Barhait–Asanbani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 44.7,
+  "route": {
+    "start": "Barhait, Jharkhand",
+    "end": "Asanbani, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barhait",
+      "Godda",
+      "Asanbani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barhait",
+      "coords": [
+        87.56761,
+        24.78307
+      ]
+    },
+    {
+      "name": "Godda",
+      "coords": [
+        87.21356,
+        24.80823
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

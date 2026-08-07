@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-206",
+  "ref": "MDR 206",
+  "name": "Bardod–Shahjahanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.7,
+  "route": {
+    "start": "Bardod, Rajasthan",
+    "end": "Shahjahanpur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bardod",
+      "Shahjahanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bardod",
+      "coords": [
+        76.37131,
+        27.88879
+      ]
+    },
+    {
+      "name": "Shahjahanpur",
+      "coords": [
+        76.45152,
+        27.99355
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

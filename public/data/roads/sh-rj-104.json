@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-104",
+  "ref": "SH 104",
+  "name": "Pushkar–Ajmer State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48.9,
+  "route": {
+    "start": "Pushkar, Rajasthan",
+    "end": "Ajmer, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Pushkar",
+      "Govindgarh",
+      "Ajmer"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pushkar",
+      "coords": [
+        74.46296,
+        26.55813
+      ]
+    },
+    {
+      "name": "Govindgarh",
+      "coords": [
+        74.38524,
+        26.45459
+      ]
+    },
+    {
+      "name": "Pushkar",
+      "coords": [
+        74.5457,
+        26.49512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

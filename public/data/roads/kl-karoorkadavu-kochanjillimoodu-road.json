@@ -1,0 +1,42 @@
+{
+  "id": "kl-karoorkadavu-kochanjillimoodu-road",
+  "ref": "MDR",
+  "name": "Karoorkadavu - Kochanjillimoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Puthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Puthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.56772,
+        9.06376
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.61391,
+        9.04867
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

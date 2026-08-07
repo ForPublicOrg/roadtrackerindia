@@ -1,0 +1,56 @@
+{
+  "id": "sh-tn-u18",
+  "ref": "SH-U 18",
+  "name": "Hasthampatti–Salem State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Hasthampatti, Tamil Nadu",
+    "end": "Salem, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Hasthampatti",
+      "Salem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hasthampatti",
+      "coords": [
+        78.15982,
+        11.67547
+      ]
+    },
+    {
+      "name": "Johnsonpet",
+      "coords": [
+        78.15816,
+        11.67054
+      ]
+    },
+    {
+      "name": "Maravaneri",
+      "coords": [
+        78.15803,
+        11.66349
+      ]
+    },
+    {
+      "name": "Salem",
+      "coords": [
+        78.15915,
+        11.65767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

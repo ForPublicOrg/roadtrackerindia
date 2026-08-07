@@ -1,0 +1,54 @@
+{
+  "id": "nh-351k",
+  "ref": "NH 351K",
+  "name": "Una–Bagasara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 92.1,
+  "route": {
+    "start": "Una, Gujarat",
+    "end": "Bagasara, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Una",
+      "Dhari",
+      "Bagasara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Una",
+      "coords": [
+        71.05224,
+        20.84265
+      ]
+    },
+    {
+      "name": "Dhari",
+      "coords": [
+        71.02743,
+        21.32728
+      ]
+    },
+    {
+      "name": "Bagasara",
+      "coords": [
+        70.96438,
+        21.48847
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

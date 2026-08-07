@@ -1,0 +1,71 @@
+{
+  "id": "nh-220",
+  "ref": "NH 220",
+  "name": "Kendujhargarh–Chaibasa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 189.6,
+  "route": {
+    "start": "Kendujhargarh, Odisha",
+    "end": "Chaibasa, Jharkhand",
+    "states": [
+      "Odisha",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Kendujhargarh",
+      "Karanjia",
+      "Badampahar",
+      "Rairangpur",
+      "Chaibasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kendujhargarh",
+      "coords": [
+        85.83332,
+        21.49754
+      ]
+    },
+    {
+      "name": "Karanjia",
+      "coords": [
+        85.97683,
+        21.75459
+      ]
+    },
+    {
+      "name": "Badampahar",
+      "coords": [
+        86.08136,
+        22.09457
+      ]
+    },
+    {
+      "name": "Rairangpur",
+      "coords": [
+        86.17447,
+        22.26473
+      ]
+    },
+    {
+      "name": "Chaibasa",
+      "coords": [
+        85.80287,
+        22.55353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

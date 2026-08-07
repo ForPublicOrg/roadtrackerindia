@@ -1,0 +1,42 @@
+{
+  "id": "sh-kl-21",
+  "ref": "SH 21",
+  "name": "Valparai–Chalakudy State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87,
+  "route": {
+    "start": "Valparai, Tamil Nadu",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valparai",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valparai",
+      "coords": [
+        76.87344,
+        10.28505
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33707,
+        10.311
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

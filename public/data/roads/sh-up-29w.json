@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-29w",
+  "ref": "SH 29W",
+  "name": "Baheri–Meerganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 26.8,
+  "route": {
+    "start": "Baheri, Uttar Pradesh",
+    "end": "Meerganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Baheri",
+      "Shahi",
+      "Meerganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baheri",
+      "coords": [
+        79.314,
+        28.72783
+      ]
+    },
+    {
+      "name": "Shahi",
+      "coords": [
+        79.299,
+        28.55348
+      ]
+    },
+    {
+      "name": "Meerganj",
+      "coords": [
+        79.25834,
+        28.51772
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-bovikkanam-mullacheriyadukkam-aloor-road",
+  "ref": "MDR",
+  "name": "Bovikkanam - Mullacheriyadukkam - Aloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Bovikkanam, Kerala",
+    "end": "Chattanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Bovikkanam",
+      "Chattanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.086,
+        12.49776
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.08236,
+        12.48576
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

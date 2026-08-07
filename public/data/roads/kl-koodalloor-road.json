@@ -1,0 +1,42 @@
+{
+  "id": "kl-koodalloor-road",
+  "ref": "MDR",
+  "name": "Koodalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.59638,
+        9.71224
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.58893,
+        9.67894
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

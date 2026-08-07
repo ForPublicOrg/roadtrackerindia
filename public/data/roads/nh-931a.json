@@ -1,0 +1,46 @@
+{
+  "id": "nh-931a",
+  "ref": "NH 931A",
+  "name": "Salon–Jagdishpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 51,
+  "route": {
+    "start": "Salon, Uttar Pradesh",
+    "end": "Jagdishpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Salon",
+      "Jagdishpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Salon",
+      "coords": [
+        81.46129,
+        26.03551
+      ]
+    },
+    {
+      "name": "Jagdishpur",
+      "coords": [
+        81.60691,
+        26.44043
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

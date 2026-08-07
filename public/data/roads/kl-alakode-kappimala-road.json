@@ -1,0 +1,42 @@
+{
+  "id": "kl-alakode-kappimala-road",
+  "ref": "MDR",
+  "name": "Alakode - Kappimala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Alakode, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Alakode",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alakode",
+      "coords": [
+        75.4672,
+        12.19149
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.51469,
+        12.19834
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

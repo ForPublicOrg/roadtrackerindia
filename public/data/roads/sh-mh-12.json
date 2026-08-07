@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-12",
+  "ref": "SH 12",
+  "name": "Pimpalner–Kapadne State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 74.4,
+  "route": {
+    "start": "Pimpalner, Maharashtra",
+    "end": "Kapadne, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pimpalner",
+      "Kapadne"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pimpalner",
+      "coords": [
+        74.12872,
+        21.11144
+      ]
+    },
+    {
+      "name": "Kapadne",
+      "coords": [
+        74.78462,
+        21.0408
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

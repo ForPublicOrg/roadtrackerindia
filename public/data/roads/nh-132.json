@@ -1,0 +1,54 @@
+{
+  "id": "nh-132",
+  "ref": "NH 132",
+  "name": "Viluppuram–Tindivanam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 37.2,
+  "route": {
+    "start": "Viluppuram, Tamil Nadu",
+    "end": "Tindivanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Viluppuram",
+      "Vikravandi",
+      "Tindivanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Viluppuram",
+      "coords": [
+        79.48239,
+        11.9567
+      ]
+    },
+    {
+      "name": "Vikravandi",
+      "coords": [
+        79.54215,
+        12.03865
+      ]
+    },
+    {
+      "name": "Tindivanam",
+      "coords": [
+        79.6614,
+        12.22054
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

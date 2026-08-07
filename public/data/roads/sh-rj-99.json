@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-99",
+  "ref": "SH 99",
+  "name": "Hanumangarh–Ellenabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.8,
+  "route": {
+    "start": "Hanumangarh, Rajasthan",
+    "end": "Ellenabad, Haryana",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Hanumangarh",
+      "Tibbi",
+      "Ellenabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hanumangarh",
+      "coords": [
+        74.32337,
+        29.57752
+      ]
+    },
+    {
+      "name": "Tibbi",
+      "coords": [
+        74.5021,
+        29.55526
+      ]
+    },
+    {
+      "name": "Ellenabad",
+      "coords": [
+        74.61042,
+        29.51132
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-153",
+  "ref": "NH 153",
+  "name": "Saraipali–Raigarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 82.9,
+  "route": {
+    "start": "Saraipali, Chhattisgarh",
+    "end": "Raigarh, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Saraipali",
+      "Sarangarh",
+      "Chandarpur",
+      "Raigarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saraipali",
+      "coords": [
+        83.03687,
+        21.3103
+      ]
+    },
+    {
+      "name": "Sarangarh",
+      "coords": [
+        83.12492,
+        21.57758
+      ]
+    },
+    {
+      "name": "Chandarpur",
+      "coords": [
+        83.23823,
+        21.70966
+      ]
+    },
+    {
+      "name": "Raigarh",
+      "coords": [
+        83.38532,
+        21.87495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

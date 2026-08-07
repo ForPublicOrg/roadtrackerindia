@@ -3,7 +3,7 @@ export type Theme = 'light' | 'dark'
 const KEY = 'rti-theme'
 
 export interface MapColors {
-  categories: { expressway: string; nh: string; sh: string; local: string }
+  categories: { expressway: string; nh: string; sh: string; district: string; local: string }
   casing: string
   labelText: string
   labelHalo: string
@@ -12,14 +12,14 @@ export interface MapColors {
 
 export const MAP_COLORS: Record<Theme, MapColors> = {
   light: {
-    categories: { expressway: '#3b5bdb', nh: '#d9480f', sh: '#2f9e44', local: '#78838f' },
+    categories: { expressway: '#3b5bdb', nh: '#d9480f', sh: '#2f9e44', district: '#9c6f19', local: '#78838f' },
     casing: '#ffffff',
     labelText: '#3d3830',
     labelHalo: 'rgba(255,255,255,0.92)',
     background: '#f4f1ea',
   },
   dark: {
-    categories: { expressway: '#8da2fb', nh: '#f4915a', sh: '#6ecb7c', local: '#93a0af' },
+    categories: { expressway: '#8da2fb', nh: '#f4915a', sh: '#6ecb7c', district: '#d4a24c', local: '#93a0af' },
     casing: '#10131a',
     labelText: '#d8d2c6',
     labelHalo: 'rgba(16,19,26,0.9)',

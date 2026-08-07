@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2304",
+  "ref": "MDR 2304",
+  "name": "Bakani–Susner District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.8,
+  "route": {
+    "start": "Bakani, Madhya Pradesh",
+    "end": "Susner, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bakani",
+      "Susner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bakani",
+      "coords": [
+        76.17251,
+        24.1892
+      ]
+    },
+    {
+      "name": "Susner",
+      "coords": [
+        76.21628,
+        23.84281
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

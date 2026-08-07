@@ -1,0 +1,65 @@
+{
+  "id": "kl-kaniyapuram-chirayinkeezhu-road",
+  "ref": "MDR",
+  "name": "Kaniyapuram - Chirayinkeezhu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Mangalapuram, Kerala",
+    "end": "Kaniyapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mangalapuram",
+      "Kadinamkulam",
+      "Karichara",
+      "Kaniyapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.82718,
+        8.63028
+      ]
+    },
+    {
+      "name": "Kadinamkulam",
+      "coords": [
+        76.82745,
+        8.6177
+      ]
+    },
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.83366,
+        8.61305
+      ]
+    },
+    {
+      "name": "Karichara",
+      "coords": [
+        76.84566,
+        8.59929
+      ]
+    },
+    {
+      "name": "Kaniyapuram",
+      "coords": [
+        76.85372,
+        8.58844
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

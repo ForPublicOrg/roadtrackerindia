@@ -1,0 +1,57 @@
+{
+  "id": "kl-koottilangadi-vallikkapetta-road",
+  "ref": "MDR",
+  "name": "Koottilangadi - Vallikkapetta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Thamarakuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Malappuram",
+      "Thamarakuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.13487,
+        11.06891
+      ]
+    },
+    {
+      "name": "Downhill",
+      "coords": [
+        76.1024,
+        11.04347
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "coords": [
+        76.1017,
+        11.03915
+      ]
+    },
+    {
+      "name": "Thamarakuzhi",
+      "coords": [
+        76.10348,
+        11.03336
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

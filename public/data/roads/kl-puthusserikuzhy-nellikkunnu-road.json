@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthusserikuzhy-nellikkunnu-road",
+  "ref": "MDR",
+  "name": "Puthusserikuzhy - Nellikkunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.58912,
+        9.74031
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.59048,
+        9.73025
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

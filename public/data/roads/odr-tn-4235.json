@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-4235",
+  "ref": "ODR 4235",
+  "name": "Nagari–Podaturpet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Nagari, Tamil Nadu",
+    "end": "Podaturpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nagari",
+      "Podaturpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagari",
+      "coords": [
+        79.52637,
+        13.32358
+      ]
+    },
+    {
+      "name": "Podaturpet",
+      "coords": [
+        79.52803,
+        13.29226
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

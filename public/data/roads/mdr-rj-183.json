@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-183",
+  "ref": "MDR 183",
+  "name": "Hindoli–Nainwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.8,
+  "route": {
+    "start": "Hindoli, Rajasthan",
+    "end": "Nainwa, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Hindoli",
+      "Nainwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hindoli",
+      "coords": [
+        75.54036,
+        25.51729
+      ]
+    },
+    {
+      "name": "Nainwa",
+      "coords": [
+        75.8573,
+        25.75701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

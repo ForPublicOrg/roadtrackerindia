@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1408",
+  "ref": "MDR 1408",
+  "name": "Amlai–Burhar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.6,
+  "route": {
+    "start": "Amlai, Madhya Pradesh",
+    "end": "Burhar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Amlai",
+      "Burhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amlai",
+      "coords": [
+        81.64701,
+        23.20937
+      ]
+    },
+    {
+      "name": "Burhar",
+      "coords": [
+        81.72807,
+        23.47455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

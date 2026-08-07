@@ -1,0 +1,62 @@
+{
+  "id": "nh-510",
+  "ref": "NH 510",
+  "name": "Singtam–Gyalshing National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 86.1,
+  "route": {
+    "start": "Singtam, Sikkim",
+    "end": "Gyalshing, Sikkim",
+    "states": [
+      "Sikkim"
+    ],
+    "majorCities": [
+      "Singtam",
+      "Ravangla",
+      "Rangit Nagar",
+      "Gyalshing"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Singtam",
+      "coords": [
+        88.49871,
+        27.23208
+      ]
+    },
+    {
+      "name": "Ravangla",
+      "coords": [
+        88.36398,
+        27.30373
+      ]
+    },
+    {
+      "name": "Rangit Nagar",
+      "coords": [
+        88.28501,
+        27.28188
+      ]
+    },
+    {
+      "name": "Gyalshing",
+      "coords": [
+        88.257,
+        27.28957
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

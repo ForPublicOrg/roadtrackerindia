@@ -1,0 +1,42 @@
+{
+  "id": "kl-alapra-reserve-road",
+  "ref": "MDR",
+  "name": "Alapra Reserve Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Manimala, Kerala",
+    "end": "Ranni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manimala",
+      "Ranni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manimala",
+      "coords": [
+        76.74562,
+        9.45185
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.76288,
+        9.45557
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

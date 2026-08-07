@@ -1,0 +1,58 @@
+{
+  "id": "sh-tn-220",
+  "ref": "SH 220",
+  "name": "Sankagiri–Mecheri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 46.7,
+  "route": {
+    "start": "Sankagiri, Tamil Nadu",
+    "end": "Mecheri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sankagiri",
+      "Edappadi",
+      "Jalakandapuram",
+      "Mecheri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sankagiri",
+      "coords": [
+        77.86911,
+        11.47444
+      ]
+    },
+    {
+      "name": "Edappadi",
+      "coords": [
+        77.85429,
+        11.57807
+      ]
+    },
+    {
+      "name": "Jalakandapuram",
+      "coords": [
+        77.8777,
+        11.70018
+      ]
+    },
+    {
+      "name": "Mecheri",
+      "coords": [
+        77.9441,
+        11.83262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

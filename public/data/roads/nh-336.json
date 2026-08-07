@@ -1,0 +1,64 @@
+{
+  "id": "nh-336",
+  "ref": "NH 336",
+  "name": "Kovilpatti–Subramaniyapuram National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 44.2,
+  "route": {
+    "start": "Kovilpatti, Tamil Nadu",
+    "end": "Subramaniyapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kovilpatti",
+      "Pudukkottai (North)",
+      "Keeranur",
+      "Mathur",
+      "Tiruchirappalli",
+      "Subramaniyapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kovilpatti",
+      "coords": [
+        78.78813,
+        10.41597
+      ]
+    },
+    {
+      "name": "Keeranur",
+      "coords": [
+        78.7737,
+        10.57043
+      ]
+    },
+    {
+      "name": "Mathur",
+      "coords": [
+        78.72807,
+        10.70569
+      ]
+    },
+    {
+      "name": "Tiruchirappalli",
+      "coords": [
+        78.69643,
+        10.78786
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

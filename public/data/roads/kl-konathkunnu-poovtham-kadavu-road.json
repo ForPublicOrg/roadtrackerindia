@@ -1,0 +1,42 @@
+{
+  "id": "kl-konathkunnu-poovtham-kadavu-road",
+  "ref": "MDR",
+  "name": "Konathkunnu Poovtham Kadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.17955,
+        10.27935
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.21304,
+        10.2819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

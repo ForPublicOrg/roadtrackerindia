@@ -1,0 +1,70 @@
+{
+  "id": "nh-752d",
+  "ref": "NH 752D",
+  "name": "Shamgarh–Barnagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 242,
+  "route": {
+    "start": "Shamgarh, Madhya Pradesh",
+    "end": "Barnagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Shamgarh",
+      "Jharda",
+      "Ujjain",
+      "Barnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shamgarh",
+      "coords": [
+        75.64231,
+        24.29789
+      ]
+    },
+    {
+      "name": "Suwasra",
+      "coords": [
+        75.70374,
+        24.081
+      ]
+    },
+    {
+      "name": "Jharda",
+      "coords": [
+        75.76424,
+        23.61708
+      ]
+    },
+    {
+      "name": "Ujjain",
+      "coords": [
+        75.79924,
+        23.21276
+      ]
+    },
+    {
+      "name": "Barnagar",
+      "coords": [
+        75.34628,
+        23.05439
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

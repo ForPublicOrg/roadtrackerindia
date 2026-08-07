@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-893",
+  "ref": "MDR 893",
+  "name": "Kadachanenthal–Melur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18,
+  "route": {
+    "start": "Kadachanenthal, Tamil Nadu",
+    "end": "Melur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kadachanenthal",
+      "Melur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachanenthal",
+      "coords": [
+        78.1691,
+        9.97701
+      ]
+    },
+    {
+      "name": "Karuppayurani",
+      "coords": [
+        78.18768,
+        9.95967
+      ]
+    },
+    {
+      "name": "Melur",
+      "coords": [
+        78.31264,
+        9.95405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

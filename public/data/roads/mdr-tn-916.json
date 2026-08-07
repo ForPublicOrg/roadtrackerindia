@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-916",
+  "ref": "MDR 916",
+  "name": "Tiruvadanai–Sundarapandianpattinam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.8,
+  "route": {
+    "start": "Tiruvadanai, Tamil Nadu",
+    "end": "Sundarapandianpattinam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvadanai",
+      "Sundarapandianpattinam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvadanai",
+      "coords": [
+        78.91744,
+        9.78519
+      ]
+    },
+    {
+      "name": "Sundarapandianpattinam",
+      "coords": [
+        79.09447,
+        9.84405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

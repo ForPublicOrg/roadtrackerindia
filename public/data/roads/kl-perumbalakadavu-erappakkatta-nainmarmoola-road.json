@@ -1,0 +1,50 @@
+{
+  "id": "kl-perumbalakadavu-erappakkatta-nainmarmoola-road",
+  "ref": "MDR",
+  "name": "Perumbalakadavu - Erappakkatta -Nainmarmoola Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Chengala, Kerala",
+    "end": "Anebagilu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengala",
+      "Kasaragod",
+      "Anebagilu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengala",
+      "coords": [
+        75.02288,
+        12.51545
+      ]
+    },
+    {
+      "name": "Karandakkad",
+      "coords": [
+        75.02153,
+        12.50839
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        75.02166,
+        12.50588
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

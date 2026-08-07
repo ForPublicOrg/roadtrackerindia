@@ -1,0 +1,42 @@
+{
+  "id": "kl-pynummoodu-kochalummodu-road",
+  "ref": "MDR",
+  "name": "Pynummoodu - Kochalummodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.57835,
+        9.24957
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.5665,
+        9.25539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

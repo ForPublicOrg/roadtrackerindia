@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-225",
+  "ref": "SH 225",
+  "name": "Ahmadpur–Dharmabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 93,
+  "route": {
+    "start": "Ahmadpur, Maharashtra",
+    "end": "Dharmabad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ahmadpur",
+      "Mukhed",
+      "Naigaon",
+      "Dharmabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ahmadpur",
+      "coords": [
+        76.96865,
+        18.62956
+      ]
+    },
+    {
+      "name": "Mukhed",
+      "coords": [
+        77.37305,
+        18.70678
+      ]
+    },
+    {
+      "name": "Naigaon",
+      "coords": [
+        77.54301,
+        18.81165
+      ]
+    },
+    {
+      "name": "Dharmabad",
+      "coords": [
+        77.72661,
+        18.76887
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

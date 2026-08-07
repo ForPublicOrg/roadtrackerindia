@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-272",
+  "ref": "SH 272",
+  "name": "Sakoli–Katangi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 80.6,
+  "route": {
+    "start": "Sakoli, Maharashtra",
+    "end": "Katangi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Sakoli",
+      "Tumsar",
+      "Katangi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sakoli",
+      "coords": [
+        79.99165,
+        21.08614
+      ]
+    },
+    {
+      "name": "Tumsar",
+      "coords": [
+        79.74906,
+        21.37776
+      ]
+    },
+    {
+      "name": "Katangi",
+      "coords": [
+        79.75569,
+        21.59342
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mz-khawzawl-sinzawl-thanlawn-road",
+  "ref": "SH",
+  "name": "Khawzawl-Sinzawl-Thanlawn Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 56.9,
+  "route": {
+    "start": "Khawzawl, Mizoram",
+    "end": "Champhai, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Khawzawl",
+      "Champhai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khawzawl",
+      "coords": [
+        93.18975,
+        23.51555
+      ]
+    },
+    {
+      "name": "Champhai",
+      "coords": [
+        93.15765,
+        23.79322
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

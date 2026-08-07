@@ -1,0 +1,42 @@
+{
+  "id": "kl-vakayar-vallikkode-road",
+  "ref": "MDR",
+  "name": "Vakayar - Vallikkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Azhoor, Kerala",
+    "end": "Konni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Azhoor",
+      "Konni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.77867,
+        9.21874
+      ]
+    },
+    {
+      "name": "Konni",
+      "coords": [
+        76.83785,
+        9.20173
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

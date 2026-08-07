@@ -1,0 +1,63 @@
+{
+  "id": "nh-360",
+  "ref": "NH 360",
+  "name": "Chandvad–Bilimora National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 178.2,
+  "route": {
+    "start": "Chandvad, Maharashtra",
+    "end": "Bilimora, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Chandvad",
+      "Saputara",
+      "Chikhli",
+      "Bilimora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chandvad",
+      "coords": [
+        74.1018,
+        20.28163
+      ]
+    },
+    {
+      "name": "Saputara",
+      "coords": [
+        73.74814,
+        20.57694
+      ]
+    },
+    {
+      "name": "Chikhli",
+      "coords": [
+        73.05637,
+        20.76019
+      ]
+    },
+    {
+      "name": "Bilimora",
+      "coords": [
+        73.00306,
+        20.79694
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

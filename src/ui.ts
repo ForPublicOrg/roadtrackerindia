@@ -82,6 +82,7 @@ export const CATEGORY_LABEL: Record<string, string> = {
   nh: 'National Highway',
   expressway: 'Expressway',
   sh: 'State Highway',
+  district: 'District road',
   local: 'City road',
 }
 

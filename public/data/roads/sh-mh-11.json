@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-11",
+  "ref": "SH 11",
+  "name": "Sakri–Aamoda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 74.4,
+  "route": {
+    "start": "Sakri, Maharashtra",
+    "end": "Aamoda, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Sakri",
+      "Chimthane",
+      "Shindkheda",
+      "Aamoda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sakri",
+      "coords": [
+        74.35941,
+        21.04588
+      ]
+    },
+    {
+      "name": "Chimthane",
+      "coords": [
+        74.69382,
+        21.18505
+      ]
+    },
+    {
+      "name": "Shindkheda",
+      "coords": [
+        74.74353,
+        21.26996
+      ]
+    },
+    {
+      "name": "Aamoda",
+      "coords": [
+        74.85524,
+        21.28785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

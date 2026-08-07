@@ -1,0 +1,58 @@
+{
+  "id": "mdr-rj-202",
+  "ref": "MDR 202",
+  "name": "Desuri–Kapasan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 116.2,
+  "route": {
+    "start": "Desuri, Rajasthan",
+    "end": "Kapasan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Desuri",
+      "Rajsamand",
+      "Railmagara",
+      "Kapasan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Desuri",
+      "coords": [
+        73.64723,
+        25.10731
+      ]
+    },
+    {
+      "name": "Rajsamand",
+      "coords": [
+        73.93417,
+        25.02169
+      ]
+    },
+    {
+      "name": "Railmagara",
+      "coords": [
+        74.11653,
+        25.02756
+      ]
+    },
+    {
+      "name": "Kapasan",
+      "coords": [
+        74.31229,
+        24.88519
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-83",
+  "ref": "MDR 83",
+  "name": "Alagappapuram–Soodamanipuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Alagappapuram, Tamil Nadu",
+    "end": "Soodamanipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Alagappapuram",
+      "Karaikudi",
+      "Soodamanipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alagappapuram",
+      "coords": [
+        78.79384,
+        10.07861
+      ]
+    },
+    {
+      "name": "Karaikudi",
+      "coords": [
+        78.792,
+        10.06869
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

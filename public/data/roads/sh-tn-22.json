@@ -1,0 +1,74 @@
+{
+  "id": "sh-tn-22",
+  "ref": "SH 22",
+  "name": "Krishnapuram–Kaverippattinam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 125.6,
+  "route": {
+    "start": "Krishnapuram, Tamil Nadu",
+    "end": "Kaverippattinam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Krishnapuram",
+      "Lalgudi",
+      "Thiruvaiyaru",
+      "Kumbakonam",
+      "Mayiladuthurai",
+      "Kaverippattinam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnapuram",
+      "coords": [
+        78.81938,
+        10.83288
+      ]
+    },
+    {
+      "name": "Thiruvaiyaru",
+      "coords": [
+        79.10001,
+        10.87912
+      ]
+    },
+    {
+      "name": "Papanasam",
+      "coords": [
+        79.26057,
+        10.94492
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.37904,
+        10.96958
+      ]
+    },
+    {
+      "name": "Mayiladuthurai",
+      "coords": [
+        79.64851,
+        11.10711
+      ]
+    },
+    {
+      "name": "Kaverippattinam",
+      "coords": [
+        79.85696,
+        11.14352
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

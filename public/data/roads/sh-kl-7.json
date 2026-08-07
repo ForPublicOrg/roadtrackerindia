@@ -1,0 +1,73 @@
+{
+  "id": "sh-kl-7",
+  "ref": "SH 7",
+  "name": "Thiruvalla–Kumbazha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32.4,
+  "route": {
+    "start": "Thiruvalla, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvalla",
+      "Kumbanad",
+      "Kozhencherry",
+      "Pathanamthitta",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.57526,
+        9.38528
+      ]
+    },
+    {
+      "name": "Thottabhagam",
+      "coords": [
+        76.61452,
+        9.38477
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.65838,
+        9.36756
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70814,
+        9.33341
+      ]
+    },
+    {
+      "name": "Pathanamthitta",
+      "coords": [
+        76.79145,
+        9.2648
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.80647,
+        9.26496
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

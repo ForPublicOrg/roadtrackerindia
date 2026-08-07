@@ -1,0 +1,42 @@
+{
+  "id": "kl-avanur-road",
+  "ref": "MDR",
+  "name": "Avanur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Thanikkudam, Kerala",
+    "end": "Puzhakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thanikkudam",
+      "Puzhakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.21081,
+        10.60225
+      ]
+    },
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.15821,
+        10.59236
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

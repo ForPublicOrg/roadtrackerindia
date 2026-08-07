@@ -1,0 +1,50 @@
+{
+  "id": "mdr-up-31b",
+  "ref": "MDR 31B",
+  "name": "Mauranipur–Poonch District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 69.9,
+  "route": {
+    "start": "Mauranipur, Uttar Pradesh",
+    "end": "Poonch, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mauranipur",
+      "Gursarai",
+      "Poonch"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mauranipur",
+      "coords": [
+        79.12758,
+        25.26356
+      ]
+    },
+    {
+      "name": "Gursarai",
+      "coords": [
+        79.186,
+        25.61538
+      ]
+    },
+    {
+      "name": "Poonch",
+      "coords": [
+        79.04511,
+        25.82048
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

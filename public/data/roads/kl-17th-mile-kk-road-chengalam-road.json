@@ -1,0 +1,42 @@
+{
+  "id": "kl-17th-mile-kk-road-chengalam-road",
+  "ref": "MDR",
+  "name": "17th Mile KK Road - Chengalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.71034,
+        9.61548
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.71766,
+        9.57042
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

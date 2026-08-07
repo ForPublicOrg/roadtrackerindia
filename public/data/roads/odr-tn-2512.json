@@ -1,0 +1,49 @@
+{
+  "id": "odr-tn-2512",
+  "ref": "ODR 2512",
+  "name": "Thiruvalam–Lalapet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Thiruvalam, Tamil Nadu",
+    "end": "Lalapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruvalam",
+      "Lalapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvalam",
+      "coords": [
+        79.27681,
+        12.9844
+      ]
+    },
+    {
+      "name": "Sipcot",
+      "coords": [
+        79.28235,
+        12.98487
+      ]
+    },
+    {
+      "name": "Lalapet",
+      "coords": [
+        79.29335,
+        12.99061
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

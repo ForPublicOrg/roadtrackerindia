@@ -1,0 +1,43 @@
+{
+  "id": "kl-s-l-puram-road",
+  "ref": "MDR",
+  "name": "S. L. Puram road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.1,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Alappuzha",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.34483,
+        9.60775
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33391,
+        9.51687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

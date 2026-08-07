@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakuthy-kummanoor-road",
+  "ref": "MDR",
+  "name": "Anakuthy - Kummanoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.86796,
+        9.22609
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.88415,
+        9.2117
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

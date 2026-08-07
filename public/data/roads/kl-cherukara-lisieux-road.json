@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherukara-lisieux-road",
+  "ref": "MDR",
+  "name": "Cherukara - Lisieux Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.47005,
+        9.48611
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.44963,
+        9.48682
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

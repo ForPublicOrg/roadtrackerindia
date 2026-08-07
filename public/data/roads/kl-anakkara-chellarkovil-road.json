@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakkara-chellarkovil-road",
+  "ref": "MDR",
+  "name": "Anakkara - Chellarkovil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Anakkara, Kerala",
+    "end": "1st Mile, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anakkara",
+      "1st Mile"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.15819,
+        9.66454
+      ]
+    },
+    {
+      "name": "1st Mile",
+      "coords": [
+        77.19288,
+        9.66996
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-014-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 014 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Dudhpatli, Assam",
+    "end": "Dudpatil, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dudhpatli",
+      "Dudpatil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dudhpatli",
+      "coords": [
+        92.70456,
+        24.9029
+      ]
+    },
+    {
+      "name": "Dudpatil",
+      "coords": [
+        92.74795,
+        24.92483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

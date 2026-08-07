@@ -1,0 +1,42 @@
+{
+  "id": "kl-irulam-moonnanakuzhi-meenangadi-road",
+  "ref": "MDR",
+  "name": "Irulam - Moonnanakuzhi - Meenangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Sultan Bathery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Sultan Bathery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.16697,
+        11.66431
+      ]
+    },
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.20072,
+        11.75053
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

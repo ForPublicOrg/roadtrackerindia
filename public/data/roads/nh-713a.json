@@ -1,0 +1,61 @@
+{
+  "id": "nh-713a",
+  "ref": "NH 713A",
+  "name": "Pappu Nallah–Doimukh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 28.5,
+  "route": {
+    "start": "Pappu Nallah, Arunachal Pradesh",
+    "end": "Doimukh, Arunachal Pradesh",
+    "states": [
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Pappu Nallah",
+      "Naharlagun",
+      "Doimukh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pappu Nallah",
+      "coords": [
+        93.67902,
+        27.09957
+      ]
+    },
+    {
+      "name": "Naharlagun",
+      "coords": [
+        93.68375,
+        27.1074
+      ]
+    },
+    {
+      "name": "Nirjuli",
+      "coords": [
+        93.7324,
+        27.14647
+      ]
+    },
+    {
+      "name": "Doimukh",
+      "coords": [
+        93.74867,
+        27.16077
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

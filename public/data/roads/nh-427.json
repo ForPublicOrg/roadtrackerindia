@@ -1,0 +1,78 @@
+{
+  "id": "nh-427",
+  "ref": "NH 427",
+  "name": "Amingaon–Howly National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 90.8,
+  "route": {
+    "start": "Amingaon, Assam",
+    "end": "Howly, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Amingaon",
+      "Maligaon",
+      "Hajo",
+      "Bohori",
+      "Barpeta",
+      "Howly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amingaon",
+      "coords": [
+        91.67089,
+        26.18991
+      ]
+    },
+    {
+      "name": "Maligaon",
+      "coords": [
+        91.66733,
+        26.18484
+      ]
+    },
+    {
+      "name": "Hajo",
+      "coords": [
+        91.5286,
+        26.25155
+      ]
+    },
+    {
+      "name": "Bohori",
+      "coords": [
+        91.15708,
+        26.27898
+      ]
+    },
+    {
+      "name": "Barpeta",
+      "coords": [
+        91.01278,
+        26.32774
+      ]
+    },
+    {
+      "name": "Howly",
+      "coords": [
+        90.97187,
+        26.4253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

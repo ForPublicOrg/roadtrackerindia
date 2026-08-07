@@ -1,0 +1,42 @@
+{
+  "id": "kl-nss-engineering-college-road",
+  "ref": "MDR",
+  "name": "NSS Engineering College Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Puthuppariyaram, Kerala",
+    "end": "Akathethara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthuppariyaram",
+      "Akathethara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthuppariyaram",
+      "coords": [
+        76.63168,
+        10.82348
+      ]
+    },
+    {
+      "name": "Akathethara",
+      "coords": [
+        76.64788,
+        10.81086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

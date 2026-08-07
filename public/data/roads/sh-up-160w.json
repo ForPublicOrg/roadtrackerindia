@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-160w",
+  "ref": "SH 160W",
+  "name": "Bilhaur–Chhibramau State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 67.6,
+  "route": {
+    "start": "Bilhaur, Uttar Pradesh",
+    "end": "Chhibramau, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bilhaur",
+      "Kannauj",
+      "Tirwaganj",
+      "Chhibramau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bilhaur",
+      "coords": [
+        79.9799,
+        26.90065
+      ]
+    },
+    {
+      "name": "Kannauj",
+      "coords": [
+        79.89979,
+        27.02217
+      ]
+    },
+    {
+      "name": "Tirwaganj",
+      "coords": [
+        79.78797,
+        26.95731
+      ]
+    },
+    {
+      "name": "Chhibramau",
+      "coords": [
+        79.52368,
+        27.02393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

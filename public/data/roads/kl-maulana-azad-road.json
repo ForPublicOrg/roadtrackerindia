@@ -1,0 +1,72 @@
+{
+  "id": "kl-maulana-azad-road",
+  "ref": "MDR",
+  "name": "Maulana Azad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kochi, Kerala",
+    "end": "Thoppumpady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kochi",
+      "Mattancherry",
+      "Chullickal",
+      "Thoppumpady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kochi",
+      "coords": [
+        76.24691,
+        9.96801
+      ]
+    },
+    {
+      "name": "Ernakulam",
+      "coords": [
+        76.25662,
+        9.96359
+      ]
+    },
+    {
+      "name": "Mattancherry",
+      "coords": [
+        76.25972,
+        9.9594
+      ]
+    },
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.2573,
+        9.9481
+      ]
+    },
+    {
+      "name": "Chullickal",
+      "coords": [
+        76.25964,
+        9.94472
+      ]
+    },
+    {
+      "name": "Thoppumpady",
+      "coords": [
+        76.26023,
+        9.93992
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

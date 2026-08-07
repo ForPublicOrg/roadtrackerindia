@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-159",
+  "ref": "SH 159",
+  "name": "Sira–Hindupur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 70.6,
+  "route": {
+    "start": "Sira, Karnataka",
+    "end": "Hindupur, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Sira",
+      "Agali",
+      "Hindupur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sira",
+      "coords": [
+        76.97985,
+        13.57376
+      ]
+    },
+    {
+      "name": "Agali",
+      "coords": [
+        77.07009,
+        13.74111
+      ]
+    },
+    {
+      "name": "Hindupur",
+      "coords": [
+        77.42618,
+        13.7902
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

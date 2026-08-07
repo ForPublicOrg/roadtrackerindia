@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-75",
+  "ref": "SH 75",
+  "name": "Karad–Satara Road State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 82.8,
+  "route": {
+    "start": "Karad, Maharashtra",
+    "end": "Satara Road, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Karad",
+      "Rahimatpur",
+      "Koregaon",
+      "Satara Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karad",
+      "coords": [
+        74.18498,
+        17.277
+      ]
+    },
+    {
+      "name": "Rahimatpur",
+      "coords": [
+        74.20017,
+        17.58643
+      ]
+    },
+    {
+      "name": "Koregaon",
+      "coords": [
+        74.15804,
+        17.70049
+      ]
+    },
+    {
+      "name": "Satara Road",
+      "coords": [
+        74.1143,
+        17.77485
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sh-hr-118",
+  "ref": "SH 118",
+  "name": "Parwanoo–Sector 23 State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32,
+  "route": {
+    "start": "Parwanoo, Haryana",
+    "end": "Sector 23, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Parwanoo",
+      "Panchkula",
+      "Sector 23"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parwanoo",
+      "coords": [
+        77.0915,
+        30.69987
+      ]
+    },
+    {
+      "name": "Panchkula",
+      "coords": [
+        76.89024,
+        30.68935
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

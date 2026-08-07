@@ -1,0 +1,57 @@
+{
+  "id": "kl-illickal-kuzhithar-road",
+  "ref": "MDR",
+  "name": "Illickal-Kuzhithar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Parippu, Kerala",
+    "end": "Illikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parippu",
+      "Kottayam",
+      "Illikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parippu",
+      "coords": [
+        76.48635,
+        9.60853
+      ]
+    },
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.50364,
+        9.60192
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.50292,
+        9.59741
+      ]
+    },
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.49142,
+        9.58868
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

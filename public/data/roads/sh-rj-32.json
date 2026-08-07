@@ -1,0 +1,73 @@
+{
+  "id": "sh-rj-32",
+  "ref": "SH 32",
+  "name": "Banswara–Sadri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 247.9,
+  "route": {
+    "start": "Banswara, Rajasthan",
+    "end": "Sadri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Banswara",
+      "Salumbar",
+      "Udaipur",
+      "Gogunda",
+      "Sadri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Banswara",
+      "coords": [
+        74.44523,
+        23.55403
+      ]
+    },
+    {
+      "name": "Sundani",
+      "coords": [
+        74.30827,
+        23.68292
+      ]
+    },
+    {
+      "name": "Salumbar",
+      "coords": [
+        74.0429,
+        24.13279
+      ]
+    },
+    {
+      "name": "Udaipur",
+      "coords": [
+        73.6994,
+        24.5774
+      ]
+    },
+    {
+      "name": "Gogunda",
+      "coords": [
+        73.48426,
+        24.77992
+      ]
+    },
+    {
+      "name": "Sadri",
+      "coords": [
+        73.55009,
+        25.1211
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

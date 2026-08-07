@@ -1,0 +1,42 @@
+{
+  "id": "kl-aripalam-panachikachira-road",
+  "ref": "MDR",
+  "name": "Aripalam Panachikachira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.19785,
+        10.29589
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.19091,
+        10.29947
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

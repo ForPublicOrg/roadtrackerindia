@@ -1,0 +1,51 @@
+{
+  "id": "sh-rj-39a",
+  "ref": "SH 39A",
+  "name": "Hurda Seja–Kotri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 81.4,
+  "route": {
+    "start": "Hurda Seja, Rajasthan",
+    "end": "Kotri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Hurda Seja",
+      "Vijainagar",
+      "Banera",
+      "Kotri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hurda Seja",
+      "coords": [
+        74.68678,
+        25.89936
+      ]
+    },
+    {
+      "name": "Banera",
+      "coords": [
+        74.6765,
+        25.50377
+      ]
+    },
+    {
+      "name": "Kotri",
+      "coords": [
+        74.89222,
+        25.40284
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

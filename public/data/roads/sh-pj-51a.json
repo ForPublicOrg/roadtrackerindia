@@ -1,0 +1,50 @@
+{
+  "id": "sh-pj-51a",
+  "ref": "SH 51A",
+  "name": "Sangod–Mangrol State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53.2,
+  "route": {
+    "start": "Sangod, Rajasthan",
+    "end": "Mangrol, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sangod",
+      "Antah",
+      "Mangrol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sangod",
+      "coords": [
+        76.28829,
+        24.92545
+      ]
+    },
+    {
+      "name": "Antah",
+      "coords": [
+        76.29552,
+        25.1591
+      ]
+    },
+    {
+      "name": "Mangrol",
+      "coords": [
+        76.35895,
+        25.35255
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

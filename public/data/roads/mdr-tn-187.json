@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-187",
+  "ref": "MDR 187",
+  "name": "Thammathukonam–Kottar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Thammathukonam, Tamil Nadu",
+    "end": "Kottar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thammathukonam",
+      "Soorankudy",
+      "Nagercoil",
+      "Kottar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thammathukonam",
+      "coords": [
+        77.3897,
+        8.12049
+      ]
+    },
+    {
+      "name": "Soorankudy",
+      "coords": [
+        77.41689,
+        8.14655
+      ]
+    },
+    {
+      "name": "Maravankudieruppu",
+      "coords": [
+        77.42282,
+        8.15635
+      ]
+    },
+    {
+      "name": "Nagercoil",
+      "coords": [
+        77.43838,
+        8.17217
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

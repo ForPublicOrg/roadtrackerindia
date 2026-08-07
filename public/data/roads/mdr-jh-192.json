@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-192",
+  "ref": "MDR 192",
+  "name": "Jarmundi–Sarwan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.9,
+  "route": {
+    "start": "Jarmundi, Jharkhand",
+    "end": "Sarwan, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jarmundi",
+      "Sarwan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jarmundi",
+      "coords": [
+        87.13277,
+        24.46715
+      ]
+    },
+    {
+      "name": "Sarwan",
+      "coords": [
+        87.06803,
+        24.256
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

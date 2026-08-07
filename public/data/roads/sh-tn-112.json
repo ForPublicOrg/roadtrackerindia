@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-112",
+  "ref": "SH 112",
+  "name": "Mogappair East–Anna Nagar West State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Mogappair East, Tamil Nadu",
+    "end": "Anna Nagar West, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mogappair East",
+      "Nolambur",
+      "Anna Nagar West"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mogappair East",
+      "coords": [
+        80.17714,
+        13.08827
+      ]
+    },
+    {
+      "name": "Anna Nagar West",
+      "coords": [
+        80.1927,
+        13.0873
+      ]
+    },
+    {
+      "name": "Arumbakkam",
+      "coords": [
+        80.19845,
+        13.08711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

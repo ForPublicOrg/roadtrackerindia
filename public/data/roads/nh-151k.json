@@ -1,0 +1,54 @@
+{
+  "id": "nh-151k",
+  "ref": "NH 151K",
+  "name": "Kalavad–Porbandar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 133.9,
+  "route": {
+    "start": "Kalavad, Gujarat",
+    "end": "Porbandar, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kalavad",
+      "Bhanvad",
+      "Porbandar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalavad",
+      "coords": [
+        70.37507,
+        22.21828
+      ]
+    },
+    {
+      "name": "Bhanvad",
+      "coords": [
+        69.78186,
+        21.92927
+      ]
+    },
+    {
+      "name": "Porbandar",
+      "coords": [
+        69.63741,
+        21.68266
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

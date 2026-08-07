@@ -1,0 +1,81 @@
+{
+  "id": "sh-pb-11",
+  "ref": "SH 11",
+  "name": "Ludhiana–Sunam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 91.5,
+  "route": {
+    "start": "Ludhiana, Punjab",
+    "end": "Sunam, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Ludhiana",
+      "Dehlon",
+      "Malerkotla",
+      "Dhuri",
+      "Sangrur",
+      "Sunam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ludhiana",
+      "coords": [
+        75.8581,
+        30.90034
+      ]
+    },
+    {
+      "name": "Dehlon",
+      "coords": [
+        75.84952,
+        30.74438
+      ]
+    },
+    {
+      "name": "Ahmedgarh",
+      "coords": [
+        75.85454,
+        30.67478
+      ]
+    },
+    {
+      "name": "Malerkotla",
+      "coords": [
+        75.88746,
+        30.53082
+      ]
+    },
+    {
+      "name": "Dhuri",
+      "coords": [
+        75.85605,
+        30.36237
+      ]
+    },
+    {
+      "name": "Sangrur",
+      "coords": [
+        75.83755,
+        30.23818
+      ]
+    },
+    {
+      "name": "Sunam",
+      "coords": [
+        75.81432,
+        30.13675
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

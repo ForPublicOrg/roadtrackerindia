@@ -1,0 +1,50 @@
+{
+  "id": "kl-vilappilsala-malappanamcode-road",
+  "ref": "MDR",
+  "name": "Vilappilsala - Malappanamcode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Peyad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Malayinkeezhu",
+      "Peyad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.08197,
+        8.50906
+      ]
+    },
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.05135,
+        8.51631
+      ]
+    },
+    {
+      "name": "Peyad",
+      "coords": [
+        77.04066,
+        8.52555
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

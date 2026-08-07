@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-241",
+  "ref": "SH 241",
+  "name": "Sipcot–Thiruvalam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Sipcot, Tamil Nadu",
+    "end": "Thiruvalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sipcot",
+      "Lalapet",
+      "Thiruvalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sipcot",
+      "coords": [
+        79.30949,
+        12.96848
+      ]
+    },
+    {
+      "name": "Lalapet",
+      "coords": [
+        79.29643,
+        12.97603
+      ]
+    },
+    {
+      "name": "Thiruvalam",
+      "coords": [
+        79.27615,
+        12.98188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

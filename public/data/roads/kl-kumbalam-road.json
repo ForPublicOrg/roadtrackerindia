@@ -1,0 +1,50 @@
+{
+  "id": "kl-kumbalam-road",
+  "ref": "MDR",
+  "name": "Kumbalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu",
+      "Maradu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.31172,
+        9.89032
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.30589,
+        9.90795
+      ]
+    },
+    {
+      "name": "Maradu",
+      "coords": [
+        76.30511,
+        9.91992
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

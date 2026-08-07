@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-999",
+  "ref": "MDR 999",
+  "name": "Mohanur–V.S.Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Mohanur, Tamil Nadu",
+    "end": "V.S.Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mohanur",
+      "V.S.Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohanur",
+      "coords": [
+        78.13953,
+        11.05321
+      ]
+    },
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.17205,
+        11.01325
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

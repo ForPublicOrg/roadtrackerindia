@@ -1,0 +1,42 @@
+{
+  "id": "kl-nandipulam-varandarappilly-road",
+  "ref": "MDR",
+  "name": "Nandipulam - Varandarappilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.33318,
+        10.42315
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.32821,
+        10.40359
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

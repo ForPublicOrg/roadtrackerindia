@@ -1,0 +1,42 @@
+{
+  "id": "kl-koodalloor-market-vayala-road",
+  "ref": "MDR",
+  "name": "Koodalloor Market - Vayala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Kanakkarry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Kanakkarry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.58905,
+        9.70428
+      ]
+    },
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.58015,
+        9.71385
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

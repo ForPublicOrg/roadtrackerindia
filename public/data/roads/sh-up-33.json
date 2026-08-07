@@ -1,0 +1,44 @@
+{
+  "id": "sh-up-33",
+  "ref": "SH 33",
+  "name": "Dholi Pyau–Tontpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.6,
+  "route": {
+    "start": "Dholi Pyau, Uttar Pradesh",
+    "end": "Tontpur, Rajasthan",
+    "states": [
+      "Uttar Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dholi Pyau",
+      "Bharatpur",
+      "Tontpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dholi Pyau",
+      "coords": [
+        77.66877,
+        27.46249
+      ]
+    },
+    {
+      "name": "Bharatpur",
+      "coords": [
+        77.4914,
+        27.23463
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

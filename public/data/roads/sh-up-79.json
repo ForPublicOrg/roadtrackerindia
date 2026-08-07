@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-79",
+  "ref": "SH 79",
+  "name": "Deoria–Kushinagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33.5,
+  "route": {
+    "start": "Deoria, Uttar Pradesh",
+    "end": "Kushinagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Deoria",
+      "Kanchanpur",
+      "Kushinagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Deoria",
+      "coords": [
+        83.77955,
+        26.49665
+      ]
+    },
+    {
+      "name": "Kanchanpur",
+      "coords": [
+        83.88959,
+        26.60384
+      ]
+    },
+    {
+      "name": "Kushinagar",
+      "coords": [
+        83.9148,
+        26.73938
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

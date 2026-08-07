@@ -1,0 +1,44 @@
+{
+  "id": "mdr-kl-33",
+  "ref": "MDR 33",
+  "name": "Melparamba–Bangod District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Melparamba, Kerala",
+    "end": "Bangod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Melparamba",
+      "Kalanad",
+      "Kasaragod",
+      "Bangod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melparamba",
+      "coords": [
+        75.02348,
+        12.47912
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        75.0021,
+        12.49472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

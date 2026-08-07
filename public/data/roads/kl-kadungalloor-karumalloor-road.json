@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadungalloor-karumalloor-road",
+  "ref": "MDR",
+  "name": "Kadungalloor - Karumalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Thottakkattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Thottakkattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.28318,
+        10.13067
+      ]
+    },
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.29808,
+        10.12165
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

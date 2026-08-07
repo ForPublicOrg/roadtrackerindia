@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallickal-krishnapuram-road",
+  "ref": "MDR",
+  "name": "Pallickal - Krishnapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.53106,
+        9.1506
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.54533,
+        9.17785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

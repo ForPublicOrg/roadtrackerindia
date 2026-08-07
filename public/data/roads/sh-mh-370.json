@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-370",
+  "ref": "SH 370",
+  "name": "Mul–Aheri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 108,
+  "route": {
+    "start": "Mul, Maharashtra",
+    "end": "Aheri, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mul",
+      "Chamorshi",
+      "Mulchera",
+      "Aheri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mul",
+      "coords": [
+        79.68867,
+        20.06526
+      ]
+    },
+    {
+      "name": "Chamorshi",
+      "coords": [
+        79.88836,
+        19.93761
+      ]
+    },
+    {
+      "name": "Mulchera",
+      "coords": [
+        80.00364,
+        19.68003
+      ]
+    },
+    {
+      "name": "Aheri",
+      "coords": [
+        80.00257,
+        19.41244
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

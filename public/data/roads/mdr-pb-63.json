@@ -1,0 +1,73 @@
+{
+  "id": "mdr-pb-63",
+  "ref": "MDR 63",
+  "name": "Sri Hargobindpur–Attari District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 107.2,
+  "route": {
+    "start": "Sri Hargobindpur, Punjab",
+    "end": "Attari, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Sri Hargobindpur",
+      "Batala",
+      "Churian",
+      "Ajnala",
+      "Attari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sri Hargobindpur",
+      "coords": [
+        75.47668,
+        31.68743
+      ]
+    },
+    {
+      "name": "Wadala Granthian",
+      "coords": [
+        75.2894,
+        31.77164
+      ]
+    },
+    {
+      "name": "Batala",
+      "coords": [
+        75.19251,
+        31.80034
+      ]
+    },
+    {
+      "name": "Churian",
+      "coords": [
+        74.95884,
+        31.86249
+      ]
+    },
+    {
+      "name": "Ajnala",
+      "coords": [
+        74.76162,
+        31.84422
+      ]
+    },
+    {
+      "name": "Attari",
+      "coords": [
+        74.62752,
+        31.61027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

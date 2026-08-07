@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallachi-kummankode-road",
+  "ref": "MDR",
+  "name": "Kallachi - Kummankode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.6664,
+        11.68951
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.67139,
+        11.68293
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

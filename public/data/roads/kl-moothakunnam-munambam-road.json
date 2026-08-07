@@ -1,0 +1,42 @@
+{
+  "id": "kl-moothakunnam-munambam-road",
+  "ref": "MDR",
+  "name": "Moothakunnam - Munambam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Cherai, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "Cherai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.2017,
+        10.18864
+      ]
+    },
+    {
+      "name": "Cherai",
+      "coords": [
+        76.17863,
+        10.17223
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

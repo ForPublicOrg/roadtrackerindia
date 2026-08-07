@@ -1,0 +1,69 @@
+{
+  "id": "nh-730c",
+  "ref": "NH 730C",
+  "name": "Bewar–Bisalpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 144.2,
+  "route": {
+    "start": "Bewar, Uttar Pradesh",
+    "end": "Bisalpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bewar",
+      "Farrukhabad",
+      "Tilhar",
+      "Bisalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bewar",
+      "coords": [
+        79.29986,
+        27.22042
+      ]
+    },
+    {
+      "name": "Farrukhabad",
+      "coords": [
+        79.58264,
+        27.35992
+      ]
+    },
+    {
+      "name": "Fatehgarh",
+      "coords": [
+        79.60797,
+        27.3719
+      ]
+    },
+    {
+      "name": "Tilhar",
+      "coords": [
+        79.66725,
+        27.96403
+      ]
+    },
+    {
+      "name": "Bisalpur",
+      "coords": [
+        79.78317,
+        28.26014
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

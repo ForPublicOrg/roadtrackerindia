@@ -1,0 +1,42 @@
+{
+  "id": "kl-panayil-anayadi-road",
+  "ref": "MDR",
+  "name": "Panayil - Anayadi road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.63796,
+        9.13823
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.64443,
+        9.17362
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-469",
+  "ref": "MDR 469",
+  "name": "Pasumalai–Balaji Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Pasumalai, Tamil Nadu",
+    "end": "Balaji Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pasumalai",
+      "Thirupparankundram",
+      "Balaji Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pasumalai",
+      "coords": [
+        78.07462,
+        9.88585
+      ]
+    },
+    {
+      "name": "Thirupparankundram",
+      "coords": [
+        78.06443,
+        9.88053
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-eachur-mouwanchery-road",
+  "ref": "MDR",
+  "name": "Eachur - Mouwanchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Kadachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kadachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.44546,
+        11.90135
+      ]
+    },
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.45845,
+        11.88957
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-136",
+  "ref": "SH 136",
+  "name": "Shiroli–Mhasvad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 127.8,
+  "route": {
+    "start": "Shiroli, Maharashtra",
+    "end": "Mhasvad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shiroli",
+      "Ashta",
+      "Tasgaon",
+      "Mhasvad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shiroli",
+      "coords": [
+        74.28421,
+        16.79486
+      ]
+    },
+    {
+      "name": "Ashta",
+      "coords": [
+        74.40572,
+        16.94314
+      ]
+    },
+    {
+      "name": "Tasgaon",
+      "coords": [
+        74.60489,
+        17.03672
+      ]
+    },
+    {
+      "name": "Mhasvad",
+      "coords": [
+        74.92805,
+        17.52801
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-as-5",
+  "ref": "MDR 5",
+  "name": "Ramkrishna Nagar–Bairabi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36,
+  "route": {
+    "start": "Ramkrishna Nagar, Assam",
+    "end": "Bairabi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Ramkrishna Nagar",
+      "Dullabhcherra",
+      "Bairabi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramkrishna Nagar",
+      "coords": [
+        92.41904,
+        24.5466
+      ]
+    },
+    {
+      "name": "Dullabhcherra",
+      "coords": [
+        92.4344,
+        24.48546
+      ]
+    },
+    {
+      "name": "Bairabi",
+      "coords": [
+        92.38322,
+        24.25429
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

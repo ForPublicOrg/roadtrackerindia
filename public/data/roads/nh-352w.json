@@ -1,0 +1,70 @@
+{
+  "id": "nh-352w",
+  "ref": "NH 352W",
+  "name": "Rewari–Sector 10 National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 48.5,
+  "route": {
+    "start": "Rewari, Haryana",
+    "end": "Sector 10, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Rewari",
+      "Pataudi",
+      "Sector 97",
+      "Gurgaon",
+      "Sector 10"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewari",
+      "coords": [
+        76.63149,
+        28.22867
+      ]
+    },
+    {
+      "name": "Pataudi",
+      "coords": [
+        76.7852,
+        28.31227
+      ]
+    },
+    {
+      "name": "Sector 97",
+      "coords": [
+        76.88264,
+        28.405
+      ]
+    },
+    {
+      "name": "Sector 94",
+      "coords": [
+        76.93407,
+        28.42422
+      ]
+    },
+    {
+      "name": "Gurgaon",
+      "coords": [
+        76.99682,
+        28.44818
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

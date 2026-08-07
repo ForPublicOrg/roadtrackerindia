@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottakkal-kottappadi-road-kovilakam-road",
+  "ref": "MDR",
+  "name": "Kottakkal - Kottappadi Road (Kovilakam Road)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Kottakkal, Kerala",
+    "end": "Changuvetty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottakkal",
+      "Changuvetty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottakkal",
+      "coords": [
+        76.00643,
+        10.99368
+      ]
+    },
+    {
+      "name": "Changuvetty",
+      "coords": [
+        75.99272,
+        10.9936
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

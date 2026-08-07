@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjiramkuzhy-perinad-railway-station-road",
+  "ref": "MDR",
+  "name": "Kanjiramkuzhy - Perinad Railway Station Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Anchalummood, Kerala",
+    "end": "Neeravil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchalummood",
+      "Neeravil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchalummood",
+      "coords": [
+        76.61973,
+        8.94948
+      ]
+    },
+    {
+      "name": "Neeravil",
+      "coords": [
+        76.61197,
+        8.94219
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

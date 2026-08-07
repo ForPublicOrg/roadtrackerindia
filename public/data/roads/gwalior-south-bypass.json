@@ -1,0 +1,46 @@
+{
+  "id": "gwalior-south-bypass",
+  "ref": "NH",
+  "name": "Gwalior South Bypass",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 15.3,
+  "route": {
+    "start": "Gwalior, Madhya Pradesh",
+    "end": "Morar Cantonment, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gwalior",
+      "Morar Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gwalior",
+      "coords": [
+        78.06948,
+        26.11728
+      ]
+    },
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.21512,
+        26.12365
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

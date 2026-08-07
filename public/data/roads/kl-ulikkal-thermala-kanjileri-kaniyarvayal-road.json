@@ -1,0 +1,50 @@
+{
+  "id": "kl-ulikkal-thermala-kanjileri-kaniyarvayal-road",
+  "ref": "MDR",
+  "name": "Ulikkal - Thermala - Kanjileri - Kaniyarvayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.9,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Payyavoor",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.65308,
+        12.04322
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.57533,
+        12.04605
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.54012,
+        12.02018
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kavanoor-vadakkummala-karaparamba-road",
+  "ref": "MDR",
+  "name": "Kavanoor - Vadakkummala - Karaparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Areekode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Areekode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.08253,
+        11.15753
+      ]
+    },
+    {
+      "name": "Areekode",
+      "coords": [
+        76.06923,
+        11.19659
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

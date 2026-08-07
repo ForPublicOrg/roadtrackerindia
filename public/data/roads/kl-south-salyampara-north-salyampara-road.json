@@ -1,0 +1,42 @@
+{
+  "id": "kl-south-salyampara-north-salyampara-road",
+  "ref": "MDR",
+  "name": "South Salyampara - North Salyampara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.02387,
+        9.97613
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        77.0181,
+        9.9968
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

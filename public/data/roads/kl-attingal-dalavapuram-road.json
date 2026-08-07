@@ -1,0 +1,49 @@
+{
+  "id": "kl-attingal-dalavapuram-road",
+  "ref": "MDR",
+  "name": "Attingal - Dalavapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.4,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Attingal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Attingal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.75515,
+        8.72565
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.78563,
+        8.6958
+      ]
+    },
+    {
+      "name": "Attingal",
+      "coords": [
+        76.79769,
+        8.6882
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

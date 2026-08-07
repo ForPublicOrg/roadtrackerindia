@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-4321",
+  "ref": "MDR 4321",
+  "name": "Tirora–Katangi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20,
+  "route": {
+    "start": "Tirora, Madhya Pradesh",
+    "end": "Katangi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Tirora",
+      "Katangi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirora",
+      "coords": [
+        79.90198,
+        21.52959
+      ]
+    },
+    {
+      "name": "Katangi",
+      "coords": [
+        79.75538,
+        21.6018
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

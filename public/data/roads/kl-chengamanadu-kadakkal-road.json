@@ -1,0 +1,58 @@
+{
+  "id": "kl-chengamanadu-kadakkal-road",
+  "ref": "MDR",
+  "name": "Chengamanadu - Kadakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.2,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Kadakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Valakom",
+      "Anchal",
+      "Kadakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.82565,
+        9.01408
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.84718,
+        8.96562
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.90814,
+        8.92914
+      ]
+    },
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.91769,
+        8.82636
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mh-neware-bulk-movers-pvt-ltd-road",
+  "ref": "SH",
+  "name": "neware bulk movers Pvt Ltd road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Boisar, Maharashtra",
+    "end": "Palghar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Boisar",
+      "Palghar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Boisar",
+      "coords": [
+        72.833,
+        19.84881
+      ]
+    },
+    {
+      "name": "Palghar",
+      "coords": [
+        72.79428,
+        19.83699
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

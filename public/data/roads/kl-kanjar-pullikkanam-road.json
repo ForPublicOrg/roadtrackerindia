@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjar-pullikkanam-road",
+  "ref": "MDR",
+  "name": "Kanjar - Pullikkanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17,
+  "route": {
+    "start": "Mechal, Kerala",
+    "end": "Vagamon, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mechal",
+      "Vagamon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mechal",
+      "coords": [
+        76.80701,
+        9.81816
+      ]
+    },
+    {
+      "name": "Vagamon",
+      "coords": [
+        76.86732,
+        9.73311
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

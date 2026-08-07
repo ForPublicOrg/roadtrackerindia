@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-112",
+  "ref": "MDR 112",
+  "name": "Panathur–Badiadka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.8,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Mulleria",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.3118,
+        12.40592
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.16501,
+        12.549
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.07445,
+        12.5837
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-417",
+  "ref": "MDR 417",
+  "name": "Sulur–Palladam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Sulur, Tamil Nadu",
+    "end": "Palladam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sulur",
+      "Palladam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sulur",
+      "coords": [
+        77.16556,
+        10.94693
+      ]
+    },
+    {
+      "name": "Palladam",
+      "coords": [
+        77.19767,
+        10.87815
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

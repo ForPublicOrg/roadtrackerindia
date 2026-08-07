@@ -1,0 +1,42 @@
+{
+  "id": "kl-panachikkachira-road",
+  "ref": "MDR",
+  "name": "Panachikkachira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.21181,
+        10.28186
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.19785,
+        10.29589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

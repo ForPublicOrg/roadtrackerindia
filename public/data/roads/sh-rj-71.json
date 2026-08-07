@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-71",
+  "ref": "SH 71",
+  "name": "Mangrol–Atru State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 42.5,
+  "route": {
+    "start": "Mangrol, Rajasthan",
+    "end": "Atru, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mangrol",
+      "Kishanganj",
+      "Atru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangrol",
+      "coords": [
+        76.55119,
+        25.22644
+      ]
+    },
+    {
+      "name": "Kishanganj",
+      "coords": [
+        76.60444,
+        25.11541
+      ]
+    },
+    {
+      "name": "Atru",
+      "coords": [
+        76.65656,
+        24.94699
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

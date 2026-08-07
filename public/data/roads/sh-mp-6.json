@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-6",
+  "ref": "SH 6",
+  "name": "Maihar–Umaria State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.4,
+  "route": {
+    "start": "Maihar, Madhya Pradesh",
+    "end": "Umaria, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Maihar",
+      "Barhi",
+      "Umaria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maihar",
+      "coords": [
+        80.76109,
+        24.26154
+      ]
+    },
+    {
+      "name": "Barhi",
+      "coords": [
+        80.81441,
+        23.89941
+      ]
+    },
+    {
+      "name": "Umaria",
+      "coords": [
+        80.93443,
+        23.65631
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

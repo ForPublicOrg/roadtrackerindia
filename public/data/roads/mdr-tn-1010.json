@@ -1,0 +1,66 @@
+{
+  "id": "mdr-tn-1010",
+  "ref": "MDR 1010",
+  "name": "Ambedkarnagar–Matthi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Ambedkarnagar, Tamil Nadu",
+    "end": "Matthi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ambedkarnagar",
+      "Ullur",
+      "Ariyathidal",
+      "Kumbakonam",
+      "Matthi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambedkarnagar",
+      "coords": [
+        79.39911,
+        10.94324
+      ]
+    },
+    {
+      "name": "Ullur",
+      "coords": [
+        79.39369,
+        10.94468
+      ]
+    },
+    {
+      "name": "Ariyathidal",
+      "coords": [
+        79.3871,
+        10.94352
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.38203,
+        10.94637
+      ]
+    },
+    {
+      "name": "Matthi",
+      "coords": [
+        79.3797,
+        10.94647
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

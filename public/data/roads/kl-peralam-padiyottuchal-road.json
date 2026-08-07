@@ -1,0 +1,42 @@
+{
+  "id": "kl-peralam-padiyottuchal-road",
+  "ref": "MDR",
+  "name": "Peralam - Padiyottuchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Cherupuzha, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherupuzha",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.3193,
+        12.29044
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.33639,
+        12.25354
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

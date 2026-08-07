@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-151",
+  "ref": "MDR 151",
+  "name": "Ghatsila–Jaduguda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Ghatsila, Jharkhand",
+    "end": "Jaduguda, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ghatsila",
+      "Jaduguda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ghatsila",
+      "coords": [
+        86.47494,
+        22.58859
+      ]
+    },
+    {
+      "name": "Jaduguda",
+      "coords": [
+        86.47236,
+        22.59854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

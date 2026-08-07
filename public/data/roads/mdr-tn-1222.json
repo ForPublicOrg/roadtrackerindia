@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1222",
+  "ref": "MDR 1222",
+  "name": "Thiruvaiyaru–Ayyampettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Thiruvaiyaru, Tamil Nadu",
+    "end": "Ayyampettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thiruvaiyaru",
+      "Ayyampettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvaiyaru",
+      "coords": [
+        79.06046,
+        10.93084
+      ]
+    },
+    {
+      "name": "Ayyampettai",
+      "coords": [
+        79.10184,
+        10.93401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

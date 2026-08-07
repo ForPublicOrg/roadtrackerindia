@@ -1,0 +1,42 @@
+{
+  "id": "kl-perinjamkutty-karithodu-road",
+  "ref": "MDR",
+  "name": "Perinjamkutty - Karithodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Nedumkandam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Nedumkandam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.08396,
+        9.89875
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.10161,
+        9.89459
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

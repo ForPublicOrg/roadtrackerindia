@@ -1,0 +1,42 @@
+{
+  "id": "kl-kumbala-shedikkavu-kanjikkatta-choorithdka-road",
+  "ref": "MDR",
+  "name": "Kumbala - Shedikkavu - Kanjikkatta - Choorithdka Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kumbala, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbala",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.94357,
+        12.59505
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.95706,
+        12.61822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

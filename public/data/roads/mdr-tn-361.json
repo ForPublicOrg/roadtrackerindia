@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-361",
+  "ref": "MDR 361",
+  "name": "Kuniamuthur–Podanur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kuniamuthur, Tamil Nadu",
+    "end": "Podanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kuniamuthur",
+      "Coimbatore",
+      "Podanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuniamuthur",
+      "coords": [
+        76.96578,
+        10.9719
+      ]
+    },
+    {
+      "name": "Podanur",
+      "coords": [
+        76.9876,
+        10.96475
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

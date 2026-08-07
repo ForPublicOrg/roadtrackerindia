@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-369",
+  "ref": "SCR",
+  "name": "Sugarcane Road 369",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Kadambattur, Tamil Nadu",
+    "end": "Tiruvallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kadambattur",
+      "Tiruvallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadambattur",
+      "coords": [
+        79.80313,
+        13.10006
+      ]
+    },
+    {
+      "name": "Tiruvallur",
+      "coords": [
+        79.82488,
+        13.11467
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

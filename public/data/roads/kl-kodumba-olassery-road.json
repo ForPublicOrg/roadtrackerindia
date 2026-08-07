@@ -1,0 +1,42 @@
+{
+  "id": "kl-kodumba-olassery-road",
+  "ref": "MDR",
+  "name": "Kodumba - Olassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Chittur, Kerala",
+    "end": "Kunnathurmedu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittur",
+      "Kunnathurmedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittur",
+      "coords": [
+        76.70505,
+        10.7225
+      ]
+    },
+    {
+      "name": "Kunnathurmedu",
+      "coords": [
+        76.68959,
+        10.74004
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

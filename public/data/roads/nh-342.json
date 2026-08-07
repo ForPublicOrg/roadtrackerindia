@@ -1,0 +1,62 @@
+{
+  "id": "nh-342",
+  "ref": "NH 342",
+  "name": "Mudigubba–Chilamathur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75.1,
+  "route": {
+    "start": "Mudigubba, Andhra Pradesh",
+    "end": "Chilamathur, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Mudigubba",
+      "Kothacheruvu",
+      "Gorantla",
+      "Chilamathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mudigubba",
+      "coords": [
+        77.99471,
+        14.35215
+      ]
+    },
+    {
+      "name": "Kothacheruvu",
+      "coords": [
+        77.76743,
+        14.18606
+      ]
+    },
+    {
+      "name": "Gorantla",
+      "coords": [
+        77.74841,
+        13.98099
+      ]
+    },
+    {
+      "name": "Chilamathur",
+      "coords": [
+        77.72143,
+        13.87056
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

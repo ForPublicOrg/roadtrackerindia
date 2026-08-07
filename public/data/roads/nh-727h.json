@@ -1,0 +1,69 @@
+{
+  "id": "nh-727h",
+  "ref": "NH 727H",
+  "name": "Lakhimpur–Barabanki National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 134.4,
+  "route": {
+    "start": "Lakhimpur, Uttar Pradesh",
+    "end": "Barabanki, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Lakhimpur",
+      "Biswan",
+      "Mahmudabad",
+      "Barabanki"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lakhimpur",
+      "coords": [
+        80.79154,
+        27.92507
+      ]
+    },
+    {
+      "name": "Biswan",
+      "coords": [
+        80.99685,
+        27.49246
+      ]
+    },
+    {
+      "name": "Mahmudabad",
+      "coords": [
+        81.12701,
+        27.29927
+      ]
+    },
+    {
+      "name": "Paintepur",
+      "coords": [
+        81.13991,
+        27.26033
+      ]
+    },
+    {
+      "name": "Barabanki",
+      "coords": [
+        81.18317,
+        26.92797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

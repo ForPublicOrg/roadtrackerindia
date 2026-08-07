@@ -1,0 +1,42 @@
+{
+  "id": "kl-vythiri-tharuvana-road",
+  "ref": "MDR",
+  "name": "Vythiri-Tharuvana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.1,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Old Vythiri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Old Vythiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        75.97502,
+        11.67808
+      ]
+    },
+    {
+      "name": "Old Vythiri",
+      "coords": [
+        76.03809,
+        11.55611
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

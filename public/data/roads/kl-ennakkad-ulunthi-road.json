@@ -1,0 +1,43 @@
+{
+  "id": "kl-ennakkad-ulunthi-road",
+  "ref": "MDR",
+  "name": "Ennakkad - Ulunthi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.54646,
+        9.26744
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.55305,
+        9.29185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

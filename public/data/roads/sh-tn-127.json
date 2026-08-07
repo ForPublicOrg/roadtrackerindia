@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-127",
+  "ref": "SH 127",
+  "name": "Pallikondai–Palamaneru State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.7,
+  "route": {
+    "start": "Pallikondai, Tamil Nadu",
+    "end": "Palamaneru, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Pallikondai",
+      "Gudiyatham",
+      "Palamaneru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallikondai",
+      "coords": [
+        78.94054,
+        12.90402
+      ]
+    },
+    {
+      "name": "Gudiyatham",
+      "coords": [
+        78.87238,
+        12.95229
+      ]
+    },
+    {
+      "name": "Palamaneru",
+      "coords": [
+        78.8228,
+        13.08658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

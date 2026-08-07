@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-89c",
+  "ref": "MDR 89C",
+  "name": "Nawab Ganj–Amethi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 33.5,
+  "route": {
+    "start": "Nawab Ganj, Uttar Pradesh",
+    "end": "Amethi, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nawab Ganj",
+      "Amethi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nawab Ganj",
+      "coords": [
+        80.80848,
+        26.66594
+      ]
+    },
+    {
+      "name": "Amethi",
+      "coords": [
+        81.10135,
+        26.76707
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

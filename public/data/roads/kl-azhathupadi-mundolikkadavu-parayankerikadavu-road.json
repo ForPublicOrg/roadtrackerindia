@@ -1,0 +1,42 @@
+{
+  "id": "kl-azhathupadi-mundolikkadavu-parayankerikadavu-road",
+  "ref": "MDR",
+  "name": "Azhathupadi - Mundolikkadavu - Parayankerikadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.52073,
+        9.27094
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.50004,
+        9.27747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

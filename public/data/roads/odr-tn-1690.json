@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-1690",
+  "ref": "ODR 1690",
+  "name": "Ramapuram–Valasaravakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Ramapuram, Tamil Nadu",
+    "end": "Valasaravakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ramapuram",
+      "Manapakkam",
+      "Valasaravakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramapuram",
+      "coords": [
+        80.17692,
+        13.02492
+      ]
+    },
+    {
+      "name": "Porur",
+      "coords": [
+        80.17429,
+        13.03589
+      ]
+    },
+    {
+      "name": "Valasaravakkam",
+      "coords": [
+        80.17414,
+        13.04125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

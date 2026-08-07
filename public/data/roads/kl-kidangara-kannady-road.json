@@ -1,0 +1,42 @@
+{
+  "id": "kl-kidangara-kannady-road",
+  "ref": "MDR",
+  "name": "Kidangara - Kannady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.49451,
+        9.42029
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.45541,
+        9.45934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

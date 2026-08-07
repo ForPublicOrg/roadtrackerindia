@@ -1,0 +1,42 @@
+{
+  "id": "kl-amala-pavaratty-road",
+  "ref": "MDR",
+  "name": "Amala - Pavaratty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Puzhakkal, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puzhakkal",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.16775,
+        10.56345
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.07518,
+        10.55272
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

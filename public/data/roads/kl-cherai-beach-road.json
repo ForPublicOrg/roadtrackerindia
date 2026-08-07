@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherai-beach-road",
+  "ref": "MDR",
+  "name": "Cherai Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Cherai, Kerala",
+    "end": "North Paravur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherai",
+      "North Paravur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherai",
+      "coords": [
+        76.19223,
+        10.14314
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.1824,
+        10.13973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

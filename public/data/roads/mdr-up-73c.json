@@ -1,0 +1,50 @@
+{
+  "id": "mdr-up-73c",
+  "ref": "MDR 73C",
+  "name": "Sitapur–Sidhauli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 70.9,
+  "route": {
+    "start": "Sitapur, Uttar Pradesh",
+    "end": "Sidhauli, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sitapur",
+      "Misrikh",
+      "Sidhauli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sitapur",
+      "coords": [
+        80.4607,
+        27.66021
+      ]
+    },
+    {
+      "name": "Misrikh",
+      "coords": [
+        80.53039,
+        27.42729
+      ]
+    },
+    {
+      "name": "Sidhauli",
+      "coords": [
+        80.83593,
+        27.29046
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

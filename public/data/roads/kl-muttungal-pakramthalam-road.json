@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttungal-pakramthalam-road",
+  "ref": "MDR",
+  "name": "Muttungal - Pakramthalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.3,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Kuttiadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Kuttiadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.77839,
+        11.67673
+      ]
+    },
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.81275,
+        11.73037
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

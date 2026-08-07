@@ -1,0 +1,46 @@
+{
+  "id": "nh-127e",
+  "ref": "NH 127E",
+  "name": "Samdrup Jongkhar–Barama National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 37.2,
+  "route": {
+    "start": "Samdrup Jongkhar, Assam",
+    "end": "Barama, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Samdrup Jongkhar",
+      "Barama"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samdrup Jongkhar",
+      "coords": [
+        91.41592,
+        26.79012
+      ]
+    },
+    {
+      "name": "Barama",
+      "coords": [
+        91.35046,
+        26.52495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

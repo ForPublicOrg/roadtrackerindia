@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-88",
+  "ref": "MDR 88",
+  "name": "Makatpur–Danwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.5,
+  "route": {
+    "start": "Makatpur, Jharkhand",
+    "end": "Danwar, Bihar",
+    "states": [
+      "Jharkhand",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Makatpur",
+      "Danwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Makatpur",
+      "coords": [
+        86.3607,
+        24.30211
+      ]
+    },
+    {
+      "name": "Danwar",
+      "coords": [
+        86.27907,
+        24.47326
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

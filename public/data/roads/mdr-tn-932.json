@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-932",
+  "ref": "MDR 932",
+  "name": "Colachel–Thuckalay District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Colachel, Tamil Nadu",
+    "end": "Thuckalay, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Colachel",
+      "Karungal",
+      "Thuckalay"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Colachel",
+      "coords": [
+        77.25942,
+        8.17916
+      ]
+    },
+    {
+      "name": "Thingal Nagar",
+      "coords": [
+        77.27226,
+        8.21774
+      ]
+    },
+    {
+      "name": "Karungal",
+      "coords": [
+        77.27463,
+        8.22775
+      ]
+    },
+    {
+      "name": "Thuckalay",
+      "coords": [
+        77.28949,
+        8.24226
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pothiyaruvila-charipparambu-road",
+  "ref": "MDR",
+  "name": "Pothiyaruvila -Charipparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Nilamel, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Nilamel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.93106,
+        8.86212
+      ]
+    },
+    {
+      "name": "Nilamel",
+      "coords": [
+        76.94868,
+        8.85668
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

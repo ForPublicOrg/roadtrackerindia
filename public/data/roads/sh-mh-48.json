@@ -1,0 +1,65 @@
+{
+  "id": "sh-mh-48",
+  "ref": "SH 48",
+  "name": "Gangapur–Amalner State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 183.2,
+  "route": {
+    "start": "Gangapur, Maharashtra",
+    "end": "Amalner, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Gangapur",
+      "Kannad",
+      "Bhadgaon",
+      "Amalner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangapur",
+      "coords": [
+        75.02808,
+        19.63255
+      ]
+    },
+    {
+      "name": "Kannad",
+      "coords": [
+        75.13388,
+        20.26523
+      ]
+    },
+    {
+      "name": "Bhadgaon",
+      "coords": [
+        75.2259,
+        20.67209
+      ]
+    },
+    {
+      "name": "Parola",
+      "coords": [
+        75.11243,
+        20.87614
+      ]
+    },
+    {
+      "name": "Amalner",
+      "coords": [
+        75.07121,
+        21.04107
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

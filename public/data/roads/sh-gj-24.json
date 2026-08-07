@@ -1,0 +1,59 @@
+{
+  "id": "sh-gj-24",
+  "ref": "SH 24",
+  "name": "Navagam–Navlakhi Port State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 103.8,
+  "route": {
+    "start": "Navagam, Gujarat",
+    "end": "Navlakhi Port, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Navagam",
+      "Rajkot",
+      "Tankara",
+      "Morbi",
+      "Navlakhi Port"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navagam",
+      "coords": [
+        70.8289,
+        22.31183
+      ]
+    },
+    {
+      "name": "Tankara",
+      "coords": [
+        70.74635,
+        22.65651
+      ]
+    },
+    {
+      "name": "Morbi",
+      "coords": [
+        70.81037,
+        22.80597
+      ]
+    },
+    {
+      "name": "Navlakhi Port",
+      "coords": [
+        70.45329,
+        22.95712
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

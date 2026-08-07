@@ -1,0 +1,42 @@
+{
+  "id": "kl-chalakudy-vellikulangara-road",
+  "ref": "MDR",
+  "name": "Chalakudy - Vellikulangara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33585,
+        10.31293
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.41002,
+        10.36226
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

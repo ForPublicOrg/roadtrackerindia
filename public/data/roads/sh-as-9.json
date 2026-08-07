@@ -1,0 +1,58 @@
+{
+  "id": "sh-as-9",
+  "ref": "SH 9",
+  "name": "Bohori–Hajo State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.1,
+  "route": {
+    "start": "Bohori, Assam",
+    "end": "Hajo, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Bohori",
+      "Sarthebari",
+      "Nalbari",
+      "Hajo"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bohori",
+      "coords": [
+        91.10908,
+        26.30576
+      ]
+    },
+    {
+      "name": "Sarthebari",
+      "coords": [
+        91.22439,
+        26.36831
+      ]
+    },
+    {
+      "name": "Nalbari",
+      "coords": [
+        91.43649,
+        26.44368
+      ]
+    },
+    {
+      "name": "Hajo",
+      "coords": [
+        91.51233,
+        26.27394
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-45",
+  "ref": "SH 45",
+  "name": "Sinnar–Ghulewadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 27.8,
+  "route": {
+    "start": "Sinnar, Maharashtra",
+    "end": "Ghulewadi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Sinnar",
+      "Ghulewadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sinnar",
+      "coords": [
+        74.02265,
+        19.84475
+      ]
+    },
+    {
+      "name": "Ghulewadi",
+      "coords": [
+        74.14034,
+        19.71905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

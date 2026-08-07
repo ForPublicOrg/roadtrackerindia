@@ -1,0 +1,42 @@
+{
+  "id": "kl-nelluvai-thichoor-ittonam-road",
+  "ref": "MDR",
+  "name": "Nelluvai - Thichoor - Ittonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Ottupara, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottupara",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.17194,
+        10.68152
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.17914,
+        10.72851
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-keezhoor-njeezhoor-road",
+  "ref": "MDR",
+  "name": "Keezhoor - Njeezhoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Kaduthuruthy, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaduthuruthy",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.48912,
+        9.80734
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.52626,
+        9.79249
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

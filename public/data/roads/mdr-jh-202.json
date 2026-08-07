@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-202",
+  "ref": "MDR 202",
+  "name": "Gangta–Godda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.3,
+  "route": {
+    "start": "Gangta, Jharkhand",
+    "end": "Godda, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Gangta",
+      "Godda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangta",
+      "coords": [
+        87.11046,
+        24.84779
+      ]
+    },
+    {
+      "name": "Godda",
+      "coords": [
+        87.21461,
+        24.82947
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

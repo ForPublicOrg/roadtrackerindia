@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-205",
+  "ref": "MDR 205",
+  "name": "Mooppakovil–Santhanalpuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Mooppakovil, Tamil Nadu",
+    "end": "Santhanalpuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mooppakovil",
+      "Kumbakonam",
+      "Santhanalpuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mooppakovil",
+      "coords": [
+        79.3743,
+        10.99242
+      ]
+    },
+    {
+      "name": "Santhanalpuram",
+      "coords": [
+        79.35937,
+        11.05665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

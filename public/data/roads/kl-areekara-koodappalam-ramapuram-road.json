@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekara-koodappalam-ramapuram-road",
+  "ref": "MDR",
+  "name": "Areekara - Koodappalam - Ramapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.61403,
+        9.80358
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.65114,
+        9.79774
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

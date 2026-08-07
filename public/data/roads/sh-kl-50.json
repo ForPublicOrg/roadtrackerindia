@@ -1,0 +1,57 @@
+{
+  "id": "sh-kl-50",
+  "ref": "SH 50",
+  "name": "Chavakkad–Ottupara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Chavakkad, Kerala",
+    "end": "Ottupara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavakkad",
+      "Wadakkancherry",
+      "Ottupara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavakkad",
+      "coords": [
+        76.02303,
+        10.58049
+      ]
+    },
+    {
+      "name": "Chunkam",
+      "coords": [
+        76.04502,
+        10.6158
+      ]
+    },
+    {
+      "name": "Kunnamkulam",
+      "coords": [
+        76.07176,
+        10.65089
+      ]
+    },
+    {
+      "name": "Wadakkancherry",
+      "coords": [
+        76.25104,
+        10.6651
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

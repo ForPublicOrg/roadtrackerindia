@@ -1,0 +1,54 @@
+{
+  "id": "jaipur-ring-road-southern-corridor",
+  "ref": "NH",
+  "name": "Jaipur Ring Road: Southern Corridor",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 47.4,
+  "route": {
+    "start": "Lalarpura, Rajasthan",
+    "end": "Ramganj, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Lalarpura",
+      "Prahladpura",
+      "Ramganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lalarpura",
+      "coords": [
+        75.67835,
+        26.86374
+      ]
+    },
+    {
+      "name": "Prahladpura",
+      "coords": [
+        75.8835,
+        26.72825
+      ]
+    },
+    {
+      "name": "Ramganj",
+      "coords": [
+        75.9241,
+        26.87884
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

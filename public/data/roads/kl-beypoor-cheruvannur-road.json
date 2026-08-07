@@ -1,0 +1,58 @@
+{
+  "id": "kl-beypoor-cheruvannur-road",
+  "ref": "MDR",
+  "name": "Beypoor - Cheruvannur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Cheruvannur, Kerala",
+    "end": "Beypore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheruvannur",
+      "Feroke",
+      "Modern Bazar",
+      "Beypore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheruvannur",
+      "coords": [
+        75.8284,
+        11.1903
+      ]
+    },
+    {
+      "name": "Modern Bazar",
+      "coords": [
+        75.81811,
+        11.18457
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.81237,
+        11.18049
+      ]
+    },
+    {
+      "name": "Meenchanda",
+      "coords": [
+        75.80758,
+        11.18072
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

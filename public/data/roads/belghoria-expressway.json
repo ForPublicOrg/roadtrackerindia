@@ -1,0 +1,84 @@
+{
+  "id": "belghoria-expressway",
+  "ref": "NH",
+  "name": "Belghoria Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Dum Dum, West Bengal",
+    "end": "Uttarpara Kotrung, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Dum Dum",
+      "New Barrackpore",
+      "Baranagar",
+      "Bally",
+      "Uttarpara Kotrung"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dum Dum",
+      "coords": [
+        88.43925,
+        22.65432
+      ]
+    },
+    {
+      "name": "North Dumdum",
+      "coords": [
+        88.4202,
+        22.65584
+      ]
+    },
+    {
+      "name": "Belgharia",
+      "coords": [
+        88.3988,
+        22.65152
+      ]
+    },
+    {
+      "name": "Baranagar",
+      "coords": [
+        88.37465,
+        22.65483
+      ]
+    },
+    {
+      "name": "Dakshineswar",
+      "coords": [
+        88.36069,
+        22.65299
+      ]
+    },
+    {
+      "name": "Bally",
+      "coords": [
+        88.34358,
+        22.65295
+      ]
+    },
+    {
+      "name": "Dankuni",
+      "coords": [
+        88.31378,
+        22.65768
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

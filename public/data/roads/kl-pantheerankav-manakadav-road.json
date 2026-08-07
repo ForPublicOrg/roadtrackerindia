@@ -1,0 +1,42 @@
+{
+  "id": "kl-pantheerankav-manakadav-road",
+  "ref": "MDR",
+  "name": "Pantheerankav - Manakadav Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Nallalam, Kerala",
+    "end": "Ramanattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nallalam",
+      "Ramanattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nallalam",
+      "coords": [
+        75.85431,
+        11.22487
+      ]
+    },
+    {
+      "name": "Ramanattukara",
+      "coords": [
+        75.87551,
+        11.22405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kl-ayoor-chunda-road",
+  "ref": "MDR",
+  "name": "Ayoor - Chunda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Ayoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Ayoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.92088,
+        8.86826
+      ]
+    },
+    {
+      "name": "Chadayamangalam",
+      "coords": [
+        76.87917,
+        8.88719
+      ]
+    },
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.86695,
+        8.89222
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

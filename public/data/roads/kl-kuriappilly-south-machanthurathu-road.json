@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuriappilly-south-machanthurathu-road",
+  "ref": "MDR",
+  "name": "Kuriappilly South - Machanthurathu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Cherai, Kerala",
+    "end": "Valiyapanikkan Thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherai",
+      "Valiyapanikkan Thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherai",
+      "coords": [
+        76.19823,
+        10.16775
+      ]
+    },
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.20528,
+        10.18079
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

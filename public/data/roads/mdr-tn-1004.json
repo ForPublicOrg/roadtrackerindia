@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-1004",
+  "ref": "MDR 1004",
+  "name": "Musiri–Thirumurugan Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Musiri, Tamil Nadu",
+    "end": "Thirumurugan Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Musiri",
+      "Kulithalai",
+      "Thirumurugan Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Musiri",
+      "coords": [
+        78.42375,
+        10.96062
+      ]
+    },
+    {
+      "name": "Thirumurugan Nagar",
+      "coords": [
+        78.4484,
+        10.96081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

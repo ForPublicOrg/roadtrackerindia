@@ -1,0 +1,46 @@
+{
+  "id": "nh-344b",
+  "ref": "NH 344B",
+  "name": "Phagwara–Aslamabad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 30.1,
+  "route": {
+    "start": "Phagwara, Punjab",
+    "end": "Aslamabad, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Phagwara",
+      "Aslamabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Phagwara",
+      "coords": [
+        75.77486,
+        31.24287
+      ]
+    },
+    {
+      "name": "Aslamabad",
+      "coords": [
+        75.89023,
+        31.49329
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

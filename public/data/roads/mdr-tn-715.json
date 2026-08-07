@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-715",
+  "ref": "MDR 715",
+  "name": "Managiri–Tiruppattur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17,
+  "route": {
+    "start": "Managiri, Tamil Nadu",
+    "end": "Tiruppattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Managiri",
+      "Tiruppattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Managiri",
+      "coords": [
+        78.69552,
+        10.04289
+      ]
+    },
+    {
+      "name": "Tiruppattur",
+      "coords": [
+        78.6,
+        10.1094
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

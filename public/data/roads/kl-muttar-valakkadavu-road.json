@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttar-valakkadavu-road",
+  "ref": "MDR",
+  "name": "Muttar - Valakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.67035,
+        9.22465
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.66581,
+        9.21227
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

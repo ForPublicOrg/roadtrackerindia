@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannar-puliyoor-road",
+  "ref": "MDR",
+  "name": "Mannar - Puliyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.53491,
+        9.31154
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.58839,
+        9.30721
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

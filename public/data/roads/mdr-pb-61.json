@@ -1,0 +1,57 @@
+{
+  "id": "mdr-pb-61",
+  "ref": "MDR 61",
+  "name": "Attari–Goindval District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 75.2,
+  "route": {
+    "start": "Attari, Punjab",
+    "end": "Goindval, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Attari",
+      "Tarn Taran Sahib",
+      "Goindval"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attari",
+      "coords": [
+        74.59512,
+        31.60705
+      ]
+    },
+    {
+      "name": "Tarn Taran Sahib",
+      "coords": [
+        74.93994,
+        31.45729
+      ]
+    },
+    {
+      "name": "Khadur Sahib",
+      "coords": [
+        75.08051,
+        31.39053
+      ]
+    },
+    {
+      "name": "Goindval",
+      "coords": [
+        75.13458,
+        31.36594
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

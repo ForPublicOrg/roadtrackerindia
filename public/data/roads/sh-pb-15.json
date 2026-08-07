@@ -1,0 +1,42 @@
+{
+  "id": "sh-pb-15",
+  "ref": "SH 15",
+  "name": "Faridkot–Firozpur Cantonment State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30.1,
+  "route": {
+    "start": "Faridkot, Punjab",
+    "end": "Firozpur Cantonment, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Faridkot",
+      "Firozpur Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Faridkot",
+      "coords": [
+        74.75828,
+        30.67792
+      ]
+    },
+    {
+      "name": "Firozpur Cantonment",
+      "coords": [
+        74.63697,
+        30.92485
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

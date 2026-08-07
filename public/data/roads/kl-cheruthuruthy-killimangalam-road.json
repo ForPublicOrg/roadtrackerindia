@@ -1,0 +1,42 @@
+{
+  "id": "kl-cheruthuruthy-killimangalam-road",
+  "ref": "MDR",
+  "name": "Cheruthuruthy Killimangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Shoranur, Kerala",
+    "end": "Ottupara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Shoranur",
+      "Ottupara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.31994,
+        10.70489
+      ]
+    },
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.27465,
+        10.7484
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

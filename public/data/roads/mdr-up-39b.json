@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-39b",
+  "ref": "MDR 39B",
+  "name": "Mungaoli–Lalitpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 33.6,
+  "route": {
+    "start": "Mungaoli, Uttar Pradesh",
+    "end": "Lalitpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mungaoli",
+      "Lalitpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mungaoli",
+      "coords": [
+        78.24477,
+        24.51768
+      ]
+    },
+    {
+      "name": "Lalitpur",
+      "coords": [
+        78.4184,
+        24.69208
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

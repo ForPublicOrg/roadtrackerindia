@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannar-veeyapuram-road",
+  "ref": "MDR",
+  "name": "Mannar - Veeyapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.4612,
+        9.32449
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.53348,
+        9.31961
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

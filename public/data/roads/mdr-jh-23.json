@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-23",
+  "ref": "MDR 23",
+  "name": "Hesal–Chitarpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21,
+  "route": {
+    "start": "Hesal, Jharkhand",
+    "end": "Chitarpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Hesal",
+      "Chitarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hesal",
+      "coords": [
+        85.51115,
+        23.40137
+      ]
+    },
+    {
+      "name": "Chitarpur",
+      "coords": [
+        85.66479,
+        23.45094
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

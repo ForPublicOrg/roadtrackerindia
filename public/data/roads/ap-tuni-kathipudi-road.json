@@ -1,0 +1,58 @@
+{
+  "id": "ap-tuni-kathipudi-road",
+  "ref": "SH",
+  "name": "Tuni - Kathipudi Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51.2,
+  "route": {
+    "start": "Tuni, Andhra Pradesh",
+    "end": "Shankavaram, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Tuni",
+      "Kotanandūru",
+      "Routhulapudi",
+      "Shankavaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tuni",
+      "coords": [
+        82.54577,
+        17.36817
+      ]
+    },
+    {
+      "name": "Kotanandūru",
+      "coords": [
+        82.47971,
+        17.45494
+      ]
+    },
+    {
+      "name": "Routhulapudi",
+      "coords": [
+        82.36876,
+        17.37901
+      ]
+    },
+    {
+      "name": "Shankavaram",
+      "coords": [
+        82.3645,
+        17.31281
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

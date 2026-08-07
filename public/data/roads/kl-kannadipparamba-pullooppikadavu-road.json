@@ -1,0 +1,42 @@
+{
+  "id": "kl-kannadipparamba-pullooppikadavu-road",
+  "ref": "MDR",
+  "name": "Kannadipparamba - Pullooppikadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Karinkalkuzhi, Kerala",
+    "end": "Puthiyatheru, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkalkuzhi",
+      "Puthiyatheru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.40131,
+        11.93847
+      ]
+    },
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.39673,
+        11.91819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

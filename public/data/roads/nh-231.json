@@ -1,0 +1,84 @@
+{
+  "id": "nh-231",
+  "ref": "NH 231",
+  "name": "Maheshkhunt–Purnia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 220.2,
+  "route": {
+    "start": "Maheshkhunt, Bihar",
+    "end": "Purnia, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Maheshkhunt",
+      "Saharsa",
+      "Banmankhi",
+      "Purnia",
+      "Ramnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maheshkhunt",
+      "coords": [
+        86.63957,
+        25.46642
+      ]
+    },
+    {
+      "name": "Saharsa",
+      "coords": [
+        86.59289,
+        25.87738
+      ]
+    },
+    {
+      "name": "Madhepura",
+      "coords": [
+        86.79328,
+        25.916
+      ]
+    },
+    {
+      "name": "Banmankhi",
+      "coords": [
+        87.19381,
+        25.89405
+      ]
+    },
+    {
+      "name": "Purnia",
+      "coords": [
+        87.47534,
+        25.77958
+      ]
+    },
+    {
+      "name": "Ramnagar",
+      "coords": [
+        87.47421,
+        25.75501
+      ]
+    },
+    {
+      "name": "Purnia",
+      "coords": [
+        87.54299,
+        25.79139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

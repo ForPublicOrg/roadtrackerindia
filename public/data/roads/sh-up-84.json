@@ -1,0 +1,49 @@
+{
+  "id": "sh-up-84",
+  "ref": "SH 84",
+  "name": "Shikohabad–Mainpuri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.9,
+  "route": {
+    "start": "Shikohabad, Uttar Pradesh",
+    "end": "Mainpuri, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Shikohabad",
+      "Mainpuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shikohabad",
+      "coords": [
+        78.70881,
+        27.15199
+      ]
+    },
+    {
+      "name": "Bhongaon",
+      "coords": [
+        79.17232,
+        27.25545
+      ]
+    },
+    {
+      "name": "Mainpuri",
+      "coords": [
+        79.02889,
+        27.22892
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

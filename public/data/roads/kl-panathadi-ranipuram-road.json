@@ -1,0 +1,42 @@
+{
+  "id": "kl-panathadi-ranipuram-road",
+  "ref": "MDR",
+  "name": "Panathadi - Ranipuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.30941,
+        12.45429
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.36393,
+        12.4164
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

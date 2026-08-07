@@ -1,0 +1,78 @@
+{
+  "id": "nh-114",
+  "ref": "NH 114",
+  "name": "Renaissance Township–Mallarpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 111.8,
+  "route": {
+    "start": "Renaissance Township, West Bengal",
+    "end": "Mallarpur, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Renaissance Township",
+      "Bardhaman",
+      "Guskara",
+      "Bolpur",
+      "Sainthia",
+      "Mallarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Renaissance Township",
+      "coords": [
+        87.83282,
+        23.26471
+      ]
+    },
+    {
+      "name": "Guskara",
+      "coords": [
+        87.74542,
+        23.49505
+      ]
+    },
+    {
+      "name": "Bolpur",
+      "coords": [
+        87.69637,
+        23.66348
+      ]
+    },
+    {
+      "name": "Prantik",
+      "coords": [
+        87.6956,
+        23.70068
+      ]
+    },
+    {
+      "name": "Sainthia",
+      "coords": [
+        87.6824,
+        23.94515
+      ]
+    },
+    {
+      "name": "Mallarpur",
+      "coords": [
+        87.73035,
+        24.07527
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

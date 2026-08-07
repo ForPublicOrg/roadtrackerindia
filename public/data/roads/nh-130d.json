@@ -1,0 +1,78 @@
+{
+  "id": "nh-130d",
+  "ref": "NH 130D",
+  "name": "Kondagaon–Allapalli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 205.9,
+  "route": {
+    "start": "Kondagaon, Chhattisgarh",
+    "end": "Allapalli, Maharashtra",
+    "states": [
+      "Chhattisgarh",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kondagaon",
+      "Narayanpur",
+      "Dhodraj",
+      "Aheri",
+      "Allapalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kondagaon",
+      "coords": [
+        81.66466,
+        19.59523
+      ]
+    },
+    {
+      "name": "Gadh Bengal",
+      "coords": [
+        81.2798,
+        19.71125
+      ]
+    },
+    {
+      "name": "Narayanpur",
+      "coords": [
+        81.2492,
+        19.71635
+      ]
+    },
+    {
+      "name": "Dhodraj",
+      "coords": [
+        80.63791,
+        19.41073
+      ]
+    },
+    {
+      "name": "Bhamaragad",
+      "coords": [
+        80.5902,
+        19.41396
+      ]
+    },
+    {
+      "name": "Aheri",
+      "coords": [
+        80.05606,
+        19.4256
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

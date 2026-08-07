@@ -1,0 +1,42 @@
+{
+  "id": "kl-mylachal-koranamcode-road",
+  "ref": "MDR",
+  "name": "Mylachal - Koranamcode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Neyyatinkara, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neyyatinkara",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.15012,
+        8.42864
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.16043,
+        8.46259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

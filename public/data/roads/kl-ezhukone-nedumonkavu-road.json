@@ -1,0 +1,42 @@
+{
+  "id": "kl-ezhukone-nedumonkavu-road",
+  "ref": "MDR",
+  "name": "Ezhukone - Nedumonkavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Kannanalloor, Kerala",
+    "end": "Kundara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannanalloor",
+      "Kundara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannanalloor",
+      "coords": [
+        76.73611,
+        8.92481
+      ]
+    },
+    {
+      "name": "Kundara",
+      "coords": [
+        76.72253,
+        8.97782
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

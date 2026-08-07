@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-82",
+  "ref": "MDR 82",
+  "name": "Isri–Topchanchi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Isri, Jharkhand",
+    "end": "Topchanchi, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Isri",
+      "Topchanchi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Isri",
+      "coords": [
+        86.07689,
+        23.95317
+      ]
+    },
+    {
+      "name": "Topchanchi",
+      "coords": [
+        86.12327,
+        23.97005
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

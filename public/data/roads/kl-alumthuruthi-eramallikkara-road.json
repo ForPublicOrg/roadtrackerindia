@@ -1,0 +1,42 @@
+{
+  "id": "kl-alumthuruthi-eramallikkara-road",
+  "ref": "MDR",
+  "name": "Alumthuruthi - Eramallikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.55042,
+        9.34939
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.53933,
+        9.34913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

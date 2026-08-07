@@ -1,0 +1,67 @@
+{
+  "id": "sh-ka-101",
+  "ref": "SH 101",
+  "name": "Kallega–Surathkal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 74.3,
+  "route": {
+    "start": "Kallega, Karnataka",
+    "end": "Surathkal, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Kallega",
+      "Puttur",
+      "Kaikunje",
+      "Bantwal Cross Road",
+      "Suralpadi",
+      "Surathkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallega",
+      "coords": [
+        75.15678,
+        12.78607
+      ]
+    },
+    {
+      "name": "Bantwal Cross Road",
+      "coords": [
+        75.02256,
+        12.88058
+      ]
+    },
+    {
+      "name": "Suralpadi",
+      "coords": [
+        74.92902,
+        12.96709
+      ]
+    },
+    {
+      "name": "Gandhinagar",
+      "coords": [
+        74.86624,
+        12.9744
+      ]
+    },
+    {
+      "name": "Surathkal",
+      "coords": [
+        74.80039,
+        12.98932
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-841",
+  "ref": "MDR 841",
+  "name": "Attur–Veeraganur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.1,
+  "route": {
+    "start": "Attur, Tamil Nadu",
+    "end": "Veeraganur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Attur",
+      "Veeraganur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attur",
+      "coords": [
+        78.66559,
+        11.59099
+      ]
+    },
+    {
+      "name": "Veeraganur",
+      "coords": [
+        78.69899,
+        11.49533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

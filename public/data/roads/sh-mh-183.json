@@ -1,0 +1,66 @@
+{
+  "id": "sh-mh-183",
+  "ref": "SH 183",
+  "name": "Kinwat–Lonar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 232.4,
+  "route": {
+    "start": "Kinwat, Maharashtra",
+    "end": "Lonar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kinwat",
+      "Pusad",
+      "Washim",
+      "Risod",
+      "Lonar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kinwat",
+      "coords": [
+        78.31962,
+        19.71107
+      ]
+    },
+    {
+      "name": "Pusad",
+      "coords": [
+        77.56882,
+        19.91068
+      ]
+    },
+    {
+      "name": "Washim",
+      "coords": [
+        77.12983,
+        20.11104
+      ]
+    },
+    {
+      "name": "Risod",
+      "coords": [
+        76.78701,
+        19.97855
+      ]
+    },
+    {
+      "name": "Lonar",
+      "coords": [
+        76.52729,
+        19.97724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-edayanambalam-thottathilmukku-road",
+  "ref": "MDR",
+  "name": "Edayanambalam - Thottathilmukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Amritapuri, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Amritapuri",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.49705,
+        9.10493
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50169,
+        9.12529
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

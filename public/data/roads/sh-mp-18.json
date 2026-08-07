@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-18",
+  "ref": "SH 18",
+  "name": "Berasia–Manoharthana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 127.5,
+  "route": {
+    "start": "Berasia, Madhya Pradesh",
+    "end": "Manoharthana, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Berasia",
+      "Kumbhraj",
+      "Manoharthana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Berasia",
+      "coords": [
+        77.34165,
+        23.65726
+      ]
+    },
+    {
+      "name": "Kumbhraj",
+      "coords": [
+        77.05048,
+        24.37028
+      ]
+    },
+    {
+      "name": "Manoharthana",
+      "coords": [
+        76.91855,
+        24.27854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

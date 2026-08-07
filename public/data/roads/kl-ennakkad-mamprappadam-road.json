@@ -1,0 +1,43 @@
+{
+  "id": "kl-ennakkad-mamprappadam-road",
+  "ref": "MDR",
+  "name": "Ennakkad - Mamprappadam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.55382,
+        9.27885
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.60764,
+        9.27595
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

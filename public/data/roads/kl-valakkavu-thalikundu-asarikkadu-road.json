@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakkavu-thalikundu-asarikkadu-road",
+  "ref": "MDR",
+  "name": "Valakkavu-Thalikundu-Asarikkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Vellanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Vellanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.32204,
+        10.51132
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.29648,
+        10.51784
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

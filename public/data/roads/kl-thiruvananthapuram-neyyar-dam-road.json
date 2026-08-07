@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvananthapuram-neyyar-dam-road",
+  "ref": "MDR",
+  "name": "Thiruvananthapuram - Neyyar Dam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Malayinkeezhu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Malayinkeezhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.14454,
+        8.53272
+      ]
+    },
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.08191,
+        8.50792
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

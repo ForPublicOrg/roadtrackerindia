@@ -1,0 +1,42 @@
+{
+  "id": "kl-nalka-birmoola-bakkilapadavu-road",
+  "ref": "MDR",
+  "name": "Nalka Birmoola Bakkilapadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Vitla, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Vitla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.1087,
+        12.66495
+      ]
+    },
+    {
+      "name": "Vitla",
+      "coords": [
+        75.09252,
+        12.67328
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

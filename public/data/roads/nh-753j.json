@@ -1,0 +1,77 @@
+{
+  "id": "nh-753j",
+  "ref": "NH 753J",
+  "name": "Manmad–Jalgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 166.3,
+  "route": {
+    "start": "Manmad, Maharashtra",
+    "end": "Jalgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Manmad",
+      "Nandgaon",
+      "Chalisgaon",
+      "Pachora",
+      "Jalgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manmad",
+      "coords": [
+        74.43956,
+        20.26158
+      ]
+    },
+    {
+      "name": "Nandgaon",
+      "coords": [
+        74.65575,
+        20.30952
+      ]
+    },
+    {
+      "name": "Chalisgaon",
+      "coords": [
+        75.00496,
+        20.46209
+      ]
+    },
+    {
+      "name": "Bhadgaon",
+      "coords": [
+        75.22943,
+        20.6648
+      ]
+    },
+    {
+      "name": "Pachora",
+      "coords": [
+        75.35519,
+        20.66092
+      ]
+    },
+    {
+      "name": "Jalgaon",
+      "coords": [
+        75.5658,
+        20.99505
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sh-mp-70",
+  "ref": "SH 70",
+  "name": "Ichhawar–Dharni State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 241.6,
+  "route": {
+    "start": "Ichhawar, Madhya Pradesh",
+    "end": "Dharni, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ichhawar",
+      "Kannod",
+      "Khandwa",
+      "Dharni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ichhawar",
+      "coords": [
+        76.71389,
+        23.03599
+      ]
+    },
+    {
+      "name": "Kannod",
+      "coords": [
+        76.73844,
+        22.67006
+      ]
+    },
+    {
+      "name": "Satwas",
+      "coords": [
+        76.68614,
+        22.53461
+      ]
+    },
+    {
+      "name": "Khandwa",
+      "coords": [
+        76.3575,
+        21.82014
+      ]
+    },
+    {
+      "name": "Dharni",
+      "coords": [
+        76.76646,
+        21.49729
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

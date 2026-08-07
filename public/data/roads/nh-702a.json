@@ -1,0 +1,63 @@
+{
+  "id": "nh-702a",
+  "ref": "NH 702A",
+  "name": "Meluri–Alichen National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 244.9,
+  "route": {
+    "start": "Meluri, Nagaland",
+    "end": "Alichen, Nagaland",
+    "states": [
+      "Nagaland"
+    ],
+    "majorCities": [
+      "Meluri",
+      "Phek",
+      "Zunheboto",
+      "Mokokchung",
+      "Alichen"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Meluri",
+      "coords": [
+        94.61667,
+        25.67674
+      ]
+    },
+    {
+      "name": "Phek",
+      "coords": [
+        94.46378,
+        25.70864
+      ]
+    },
+    {
+      "name": "Zunheboto",
+      "coords": [
+        94.52745,
+        26.01549
+      ]
+    },
+    {
+      "name": "Mokokchung",
+      "coords": [
+        94.47567,
+        26.28254
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mdr-kl-136",
+  "ref": "MDR 136",
+  "name": "Kayyur–Kalikadavu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.3,
+  "route": {
+    "start": "Kayyur, Kerala",
+    "end": "Kalikadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayyur",
+      "Kalikadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.18846,
+        12.26505
+      ]
+    },
+    {
+      "name": "Kalikadavu",
+      "coords": [
+        75.18387,
+        12.19645
+      ]
+    },
+    {
+      "name": "Karivellur",
+      "coords": [
+        75.18315,
+        12.18396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-hollow-way-road",
+  "ref": "MDR",
+  "name": "Hollow Way Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Thalassery, Kerala",
+    "end": "Punnol, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalassery",
+      "Punnol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.47934,
+        11.75768
+      ]
+    },
+    {
+      "name": "Punnol",
+      "coords": [
+        75.48034,
+        11.7638
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

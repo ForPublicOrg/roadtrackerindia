@@ -1,0 +1,52 @@
+{
+  "id": "sh-ka-141",
+  "ref": "SH 141",
+  "name": "Auto Nagar–Hindalaga State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49.6,
+  "route": {
+    "start": "Auto Nagar, Karnataka",
+    "end": "Hindalaga, Maharashtra",
+    "states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Auto Nagar",
+      "Subhash Nagar",
+      "Belagavi",
+      "Hindalaga"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Auto Nagar",
+      "coords": [
+        74.51155,
+        16.05213
+      ]
+    },
+    {
+      "name": "Belagavi",
+      "coords": [
+        74.50423,
+        15.88229
+      ]
+    },
+    {
+      "name": "Hindalaga",
+      "coords": [
+        74.47751,
+        15.87927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

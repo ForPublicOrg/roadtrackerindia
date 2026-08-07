@@ -1,0 +1,69 @@
+{
+  "id": "nh-765dg",
+  "ref": "NH 765DG",
+  "name": "Medak–Hasanparthy National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 133.6,
+  "route": {
+    "start": "Medak, Telangana",
+    "end": "Hasanparthy, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Medak",
+      "Dubbak",
+      "Siddipet",
+      "Hasanparthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Medak",
+      "coords": [
+        78.27582,
+        18.0615
+      ]
+    },
+    {
+      "name": "Ramayampet",
+      "coords": [
+        78.4297,
+        18.11843
+      ]
+    },
+    {
+      "name": "Dubbak",
+      "coords": [
+        78.67066,
+        18.12878
+      ]
+    },
+    {
+      "name": "Siddipet",
+      "coords": [
+        78.85749,
+        18.08398
+      ]
+    },
+    {
+      "name": "Hasanparthy",
+      "coords": [
+        79.44862,
+        18.09542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

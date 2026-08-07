@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-822",
+  "ref": "MDR 822",
+  "name": "Krishnapuram–Srirangam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "Krishnapuram, Tamil Nadu",
+    "end": "Srirangam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Krishnapuram",
+      "Pichandarkovil",
+      "Srirangam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnapuram",
+      "coords": [
+        78.81923,
+        10.83295
+      ]
+    },
+    {
+      "name": "Devathanam",
+      "coords": [
+        78.71322,
+        10.84125
+      ]
+    },
+    {
+      "name": "Pichandarkovil",
+      "coords": [
+        78.6998,
+        10.8502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

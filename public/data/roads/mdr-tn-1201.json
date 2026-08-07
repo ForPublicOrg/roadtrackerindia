@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1201",
+  "ref": "MDR 1201",
+  "name": "Uthangarai–Chengam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Uthangarai, Tamil Nadu",
+    "end": "Chengam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Uthangarai",
+      "Chengam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uthangarai",
+      "coords": [
+        78.64498,
+        12.16098
+      ]
+    },
+    {
+      "name": "Chengam",
+      "coords": [
+        78.76501,
+        12.28561
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-chullimada-bazaar-road",
+  "ref": "MDR",
+  "name": "Chullimada - Bazaar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Kozhinjampara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Kozhinjampara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.77956,
+        10.79877
+      ]
+    },
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.78541,
+        10.78949
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

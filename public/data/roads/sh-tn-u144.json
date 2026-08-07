@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-u144",
+  "ref": "SH-U 144",
+  "name": "Kulithalai–Pettavaithalai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Kulithalai, Tamil Nadu",
+    "end": "Pettavaithalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kulithalai",
+      "Pettavaithalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kulithalai",
+      "coords": [
+        78.38695,
+        10.95294
+      ]
+    },
+    {
+      "name": "Musiri",
+      "coords": [
+        78.428,
+        10.93431
+      ]
+    },
+    {
+      "name": "Pettavaithalai",
+      "coords": [
+        78.45564,
+        10.91392
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

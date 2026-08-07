@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-12a",
+  "ref": "SH 12A",
+  "name": "Muzaffarnagar–Miranpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.6,
+  "route": {
+    "start": "Muzaffarnagar, Uttar Pradesh",
+    "end": "Miranpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Muzaffarnagar",
+      "Miranpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muzaffarnagar",
+      "coords": [
+        77.70498,
+        29.46529
+      ]
+    },
+    {
+      "name": "Miranpur",
+      "coords": [
+        77.93395,
+        29.29679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

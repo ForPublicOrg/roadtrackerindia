@@ -1,0 +1,51 @@
+{
+  "id": "odr-tn-5581",
+  "ref": "ODR 5581",
+  "name": "Chromepet–Hasthinapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Chromepet, Tamil Nadu",
+    "end": "Hasthinapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chromepet",
+      "Tambaram",
+      "Chitlapakkam",
+      "Hasthinapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chromepet",
+      "coords": [
+        80.13798,
+        12.94339
+      ]
+    },
+    {
+      "name": "Chitlapakkam",
+      "coords": [
+        80.14281,
+        12.94194
+      ]
+    },
+    {
+      "name": "Hasthinapuram",
+      "coords": [
+        80.15078,
+        12.94023
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

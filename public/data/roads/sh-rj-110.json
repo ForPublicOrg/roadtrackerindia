@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-110",
+  "ref": "SH 110",
+  "name": "Hindaun–Nadoti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.4,
+  "route": {
+    "start": "Hindaun, Rajasthan",
+    "end": "Nadoti, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Hindaun",
+      "Sri Mahaveer Ji",
+      "Nadoti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hindaun",
+      "coords": [
+        76.99602,
+        26.67119
+      ]
+    },
+    {
+      "name": "Sri Mahaveer Ji",
+      "coords": [
+        76.90757,
+        26.69862
+      ]
+    },
+    {
+      "name": "Nadoti",
+      "coords": [
+        76.71634,
+        26.70519
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

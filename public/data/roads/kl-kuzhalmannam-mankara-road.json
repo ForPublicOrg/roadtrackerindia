@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuzhalmannam-mankara-road",
+  "ref": "MDR",
+  "name": "Kuzhalmannam - Mankara road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Kallekkad, Kerala",
+    "end": "Kannanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallekkad",
+      "Kannanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallekkad",
+      "coords": [
+        76.49669,
+        10.78673
+      ]
+    },
+    {
+      "name": "Kannanur",
+      "coords": [
+        76.59992,
+        10.72032
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

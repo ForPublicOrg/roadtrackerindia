@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-39",
+  "ref": "SH 39",
+  "name": "Agra–Baseri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 73,
+  "route": {
+    "start": "Agra, Uttar Pradesh",
+    "end": "Baseri, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Agra",
+      "Kheragarh",
+      "Baseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Agra",
+      "coords": [
+        78.00886,
+        27.16685
+      ]
+    },
+    {
+      "name": "Kheragarh",
+      "coords": [
+        77.784,
+        26.9833
+      ]
+    },
+    {
+      "name": "Baseri",
+      "coords": [
+        77.44303,
+        26.81823
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

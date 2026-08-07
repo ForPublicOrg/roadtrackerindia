@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-666",
+  "ref": "ODR 666",
+  "name": "Sholinghur–Palasamudram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Sholinghur, Tamil Nadu",
+    "end": "Palasamudram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sholinghur",
+      "Palasamudram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.45135,
+        13.12085
+      ]
+    },
+    {
+      "name": "Palasamudram",
+      "coords": [
+        79.46931,
+        13.13453
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

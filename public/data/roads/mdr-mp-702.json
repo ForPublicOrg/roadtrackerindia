@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-702",
+  "ref": "MDR 702",
+  "name": "Atru–Bamori District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 48.5,
+  "route": {
+    "start": "Atru, Madhya Pradesh",
+    "end": "Bamori, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Atru",
+      "Bamori"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Atru",
+      "coords": [
+        76.88892,
+        24.93697
+      ]
+    },
+    {
+      "name": "Bamori",
+      "coords": [
+        77.2664,
+        25.02995
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

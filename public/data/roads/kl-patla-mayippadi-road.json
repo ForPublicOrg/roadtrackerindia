@@ -1,0 +1,42 @@
+{
+  "id": "kl-patla-mayippadi-road",
+  "ref": "MDR",
+  "name": "Patla - Mayippadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Siraj Nagar, Kerala",
+    "end": "Kelugudde, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Siraj Nagar",
+      "Kelugudde"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.9947,
+        12.56296
+      ]
+    },
+    {
+      "name": "Kelugudde",
+      "coords": [
+        75.00274,
+        12.56212
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

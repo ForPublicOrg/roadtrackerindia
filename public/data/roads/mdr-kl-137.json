@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-137",
+  "ref": "MDR 137",
+  "name": "Palakunnu–Kalanad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Palakunnu, Kerala",
+    "end": "Kalanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Palakunnu",
+      "Kalanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palakunnu",
+      "coords": [
+        75.04605,
+        12.42518
+      ]
+    },
+    {
+      "name": "Kalanad",
+      "coords": [
+        75.02454,
+        12.42422
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

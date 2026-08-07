@@ -1,0 +1,42 @@
+{
+  "id": "kl-kizhuthani-karalam-road",
+  "ref": "MDR",
+  "name": "Kizhuthani Karalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.19406,
+        10.36651
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.19042,
+        10.40214
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

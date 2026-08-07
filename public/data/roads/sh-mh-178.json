@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-178",
+  "ref": "SH 178",
+  "name": "Kannad–Jafarabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 116.7,
+  "route": {
+    "start": "Kannad, Maharashtra",
+    "end": "Jafarabad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kannad",
+      "Sillod",
+      "Jafarabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannad",
+      "coords": [
+        75.13554,
+        20.26328
+      ]
+    },
+    {
+      "name": "Sillod",
+      "coords": [
+        75.65441,
+        20.31386
+      ]
+    },
+    {
+      "name": "Jafarabad",
+      "coords": [
+        76.01001,
+        20.1982
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

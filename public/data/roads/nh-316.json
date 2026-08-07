@@ -1,0 +1,77 @@
+{
+  "id": "nh-316",
+  "ref": "NH 316",
+  "name": "Satya Nagar–Balugaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 107.5,
+  "route": {
+    "start": "Satya Nagar, Odisha",
+    "end": "Balugaon, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Satya Nagar",
+      "Bhubaneshwar",
+      "Pipili",
+      "Puri",
+      "Balugaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satya Nagar",
+      "coords": [
+        85.87271,
+        20.3073
+      ]
+    },
+    {
+      "name": "Bhubaneshwar",
+      "coords": [
+        85.86247,
+        20.25261
+      ]
+    },
+    {
+      "name": "Pipili",
+      "coords": [
+        85.84602,
+        20.1254
+      ]
+    },
+    {
+      "name": "Chandanpur",
+      "coords": [
+        85.81119,
+        19.88052
+      ]
+    },
+    {
+      "name": "Puri",
+      "coords": [
+        85.81058,
+        19.81689
+      ]
+    },
+    {
+      "name": "Balugaon",
+      "coords": [
+        85.43789,
+        19.66636
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

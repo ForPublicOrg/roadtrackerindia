@@ -1,0 +1,46 @@
+{
+  "id": "nh-306a",
+  "ref": "NH 306A",
+  "name": "Vairengte–Kolasib National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 91.2,
+  "route": {
+    "start": "Vairengte, Mizoram",
+    "end": "Kolasib, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Vairengte",
+      "Kolasib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vairengte",
+      "coords": [
+        92.7557,
+        24.48342
+      ]
+    },
+    {
+      "name": "Kolasib",
+      "coords": [
+        92.94454,
+        24.18501
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

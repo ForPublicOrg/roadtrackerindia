@@ -1,0 +1,42 @@
+{
+  "id": "kl-andanikulam-puthenchira-road",
+  "ref": "MDR",
+  "name": "Andanikulam - Puthenchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.24512,
+        10.27364
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.21935,
+        10.3155
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

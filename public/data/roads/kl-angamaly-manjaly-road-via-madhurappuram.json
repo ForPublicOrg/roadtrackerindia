@@ -1,0 +1,42 @@
+{
+  "id": "kl-angamaly-manjaly-road-via-madhurappuram",
+  "ref": "MDR",
+  "name": "Angamaly-Manjaly Road Via Madhurappuram",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Thottakkattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Thottakkattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.37195,
+        10.17714
+      ]
+    },
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.35291,
+        10.175
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-9a",
+  "ref": "SH 9A",
+  "name": "Sarthebari–Pathsala State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.1,
+  "route": {
+    "start": "Sarthebari, Assam",
+    "end": "Pathsala, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sarthebari",
+      "Pathsala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarthebari",
+      "coords": [
+        91.22439,
+        26.36831
+      ]
+    },
+    {
+      "name": "Pathsala",
+      "coords": [
+        91.17781,
+        26.50511
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-505",
+  "ref": "NH 505",
+  "name": "Diyag–Keylang National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 284.3,
+  "route": {
+    "start": "Diyag, Himachal Pradesh",
+    "end": "Keylang, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Diyag",
+      "Tabo",
+      "Kaza",
+      "Keylang"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Diyag",
+      "coords": [
+        78.63591,
+        31.78671
+      ]
+    },
+    {
+      "name": "Tabo",
+      "coords": [
+        78.38594,
+        32.09587
+      ]
+    },
+    {
+      "name": "Kaza",
+      "coords": [
+        78.07389,
+        32.22498
+      ]
+    },
+    {
+      "name": "Keylang",
+      "coords": [
+        77.16681,
+        32.44101
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-250",
+  "ref": "MDR 250",
+  "name": "Marthandam–Karungal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Marthandam, Tamil Nadu",
+    "end": "Karungal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Marthandam",
+      "Karungal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marthandam",
+      "coords": [
+        77.22393,
+        8.30637
+      ]
+    },
+    {
+      "name": "Karungal",
+      "coords": [
+        77.24045,
+        8.2584
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

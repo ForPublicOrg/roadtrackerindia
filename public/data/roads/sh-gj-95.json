@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-95",
+  "ref": "SH 95",
+  "name": "Porbandar–Khambhaliya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 72.7,
+  "route": {
+    "start": "Porbandar, Gujarat",
+    "end": "Khambhaliya, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Porbandar",
+      "Bhanvad",
+      "Khambhaliya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Porbandar",
+      "coords": [
+        69.61084,
+        21.65321
+      ]
+    },
+    {
+      "name": "Bhanvad",
+      "coords": [
+        69.76142,
+        21.92351
+      ]
+    },
+    {
+      "name": "Khambhaliya",
+      "coords": [
+        69.6351,
+        22.18283
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

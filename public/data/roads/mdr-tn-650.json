@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-650",
+  "ref": "MDR 650",
+  "name": "Annanagar–Golden nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.8,
+  "route": {
+    "start": "Annanagar, Tamil Nadu",
+    "end": "Golden nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Annanagar",
+      "Mallaiya nagar",
+      "Golden nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Annanagar",
+      "coords": [
+        77.89192,
+        10.72527
+      ]
+    },
+    {
+      "name": "Mallaiya nagar",
+      "coords": [
+        77.99694,
+        10.70628
+      ]
+    },
+    {
+      "name": "Golden nagar",
+      "coords": [
+        78.11255,
+        10.67966
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-pookkattiry-edayur-road",
+  "ref": "MDR",
+  "name": "Pookkattiry - Edayur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Vengad, Kerala",
+    "end": "Padapparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengad",
+      "Valanchery",
+      "Padapparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengad",
+      "coords": [
+        76.09781,
+        10.90445
+      ]
+    },
+    {
+      "name": "Padapparamba",
+      "coords": [
+        76.10712,
+        10.93913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

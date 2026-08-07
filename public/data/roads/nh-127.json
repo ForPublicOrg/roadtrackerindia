@@ -1,0 +1,46 @@
+{
+  "id": "nh-127",
+  "ref": "NH 127",
+  "name": "Missa Cantonment–Nagaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.5,
+  "route": {
+    "start": "Missa Cantonment, Assam",
+    "end": "Nagaon, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Missa Cantonment",
+      "Nagaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Missa Cantonment",
+      "coords": [
+        92.92802,
+        26.53828
+      ]
+    },
+    {
+      "name": "Nagaon",
+      "coords": [
+        92.71655,
+        26.32746
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

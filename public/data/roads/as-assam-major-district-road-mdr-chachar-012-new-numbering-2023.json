@@ -1,0 +1,43 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-012-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 012 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.7,
+  "route": {
+    "start": "Panchgram, Assam",
+    "end": "Dudhpatli, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Panchgram",
+      "Badarpur",
+      "Dudhpatli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panchgram",
+      "coords": [
+        92.58545,
+        24.88044
+      ]
+    },
+    {
+      "name": "Dudhpatli",
+      "coords": [
+        92.703,
+        24.90245
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

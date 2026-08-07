@@ -1,0 +1,42 @@
+{
+  "id": "kl-velliyankallu-thiruvegappura-road",
+  "ref": "MDR",
+  "name": "Velliyankallu - Thiruvegappura Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Pattambi, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pattambi",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.11745,
+        10.8302
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.11747,
+        10.80444
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

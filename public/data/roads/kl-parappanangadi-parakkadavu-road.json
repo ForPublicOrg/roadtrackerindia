@@ -1,0 +1,50 @@
+{
+  "id": "kl-parappanangadi-parakkadavu-road",
+  "ref": "MDR",
+  "name": "Parappanangadi - Parakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Parappanangadi, Kerala",
+    "end": "Chemmad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parappanangadi",
+      "Tirurangadi",
+      "Chemmad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parappanangadi",
+      "coords": [
+        75.86429,
+        11.04645
+      ]
+    },
+    {
+      "name": "Kodakkad",
+      "coords": [
+        75.87037,
+        11.05509
+      ]
+    },
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.90602,
+        11.05932
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

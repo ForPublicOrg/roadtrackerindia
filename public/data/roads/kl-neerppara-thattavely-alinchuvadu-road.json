@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerppara-thattavely-alinchuvadu-road",
+  "ref": "MDR",
+  "name": "Neerppara - Thattavely - Alinchuvadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.42964,
+        9.82459
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.43727,
+        9.79206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

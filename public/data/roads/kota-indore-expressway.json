@@ -1,0 +1,70 @@
+{
+  "id": "kota-indore-expressway",
+  "ref": "NH",
+  "name": "Kota Indore Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 135.6,
+  "route": {
+    "start": "Freeganj, Madhya Pradesh",
+    "end": "Shamgarh, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Freeganj",
+      "Ujjain",
+      "Jharda",
+      "Shamgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Freeganj",
+      "coords": [
+        75.83674,
+        23.10774
+      ]
+    },
+    {
+      "name": "Ujjain",
+      "coords": [
+        75.79759,
+        23.2146
+      ]
+    },
+    {
+      "name": "Jharda",
+      "coords": [
+        75.76424,
+        23.61708
+      ]
+    },
+    {
+      "name": "Suwasra",
+      "coords": [
+        75.70374,
+        24.081
+      ]
+    },
+    {
+      "name": "Shamgarh",
+      "coords": [
+        75.65912,
+        24.20245
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

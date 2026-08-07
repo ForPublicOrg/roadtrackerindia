@@ -1,0 +1,42 @@
+{
+  "id": "kl-paruthippalli-manthikkalam-kottoor-road",
+  "ref": "MDR",
+  "name": "Paruthippalli - Manthikkalam - Kottoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Vithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Vithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.10602,
+        8.56143
+      ]
+    },
+    {
+      "name": "Vithura",
+      "coords": [
+        77.13945,
+        8.5657
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

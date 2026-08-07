@@ -1,0 +1,42 @@
+{
+  "id": "kl-thumbode-kaithode-road",
+  "ref": "MDR",
+  "name": "Thumbode - Kaithode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Nilamel, Kerala",
+    "end": "Navaikulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilamel",
+      "Navaikulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilamel",
+      "coords": [
+        76.85126,
+        8.81902
+      ]
+    },
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.82731,
+        8.80469
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

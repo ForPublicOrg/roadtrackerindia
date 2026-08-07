@@ -1,0 +1,63 @@
+{
+  "id": "nh-548dd",
+  "ref": "NH 548DD",
+  "name": "Vadgaon Budruk–Wagholi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 51,
+  "route": {
+    "start": "Vadgaon Budruk, Maharashtra",
+    "end": "Wagholi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Vadgaon Budruk",
+      "Anandnagar",
+      "Krushna Nagar",
+      "Gopalpatti",
+      "Wagholi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadgaon Budruk",
+      "coords": [
+        73.81926,
+        18.46344
+      ]
+    },
+    {
+      "name": "Krushna Nagar",
+      "coords": [
+        73.92485,
+        18.45304
+      ]
+    },
+    {
+      "name": "Gopalpatti",
+      "coords": [
+        74.00039,
+        18.49058
+      ]
+    },
+    {
+      "name": "Wagholi",
+      "coords": [
+        74.02213,
+        18.57285
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

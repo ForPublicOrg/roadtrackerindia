@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-121",
+  "ref": "SH 121",
+  "name": "Kelambakkam–Vandalur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 26,
+  "route": {
+    "start": "Kelambakkam, Tamil Nadu",
+    "end": "Vandalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kelambakkam",
+      "Vandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kelambakkam",
+      "coords": [
+        80.22172,
+        12.78965
+      ]
+    },
+    {
+      "name": "Siruseri",
+      "coords": [
+        80.21535,
+        12.79275
+      ]
+    },
+    {
+      "name": "Vandalur",
+      "coords": [
+        80.07997,
+        12.87926
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

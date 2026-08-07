@@ -1,0 +1,66 @@
+{
+  "id": "sh-mp-65",
+  "ref": "SH 65",
+  "name": "Jaora–Kukshi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 258.5,
+  "route": {
+    "start": "Jaora, Madhya Pradesh",
+    "end": "Kukshi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jaora",
+      "Nagda",
+      "Barnagar",
+      "Sardarpur",
+      "Kukshi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jaora",
+      "coords": [
+        75.12076,
+        23.65616
+      ]
+    },
+    {
+      "name": "Nagda",
+      "coords": [
+        75.41761,
+        23.46488
+      ]
+    },
+    {
+      "name": "Barnagar",
+      "coords": [
+        75.37388,
+        23.04905
+      ]
+    },
+    {
+      "name": "Sardarpur",
+      "coords": [
+        74.98098,
+        22.66996
+      ]
+    },
+    {
+      "name": "Kukshi",
+      "coords": [
+        74.76544,
+        22.21246
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

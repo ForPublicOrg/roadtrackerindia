@@ -1,0 +1,42 @@
+{
+  "id": "kl-vayala-kuttikkadu-road",
+  "ref": "MDR",
+  "name": "Vayala - Kuttikkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Anchal, Kerala",
+    "end": "Kadakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchal",
+      "Kadakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchal",
+      "coords": [
+        76.92926,
+        8.88264
+      ]
+    },
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.92345,
+        8.8506
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

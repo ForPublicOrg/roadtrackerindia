@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-301",
+  "ref": "MDR 301",
+  "name": "Tindivanam–Marakkanam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Tindivanam, Tamil Nadu",
+    "end": "Marakkanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tindivanam",
+      "Marakkanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tindivanam",
+      "coords": [
+        79.71825,
+        12.31175
+      ]
+    },
+    {
+      "name": "Marakkanam",
+      "coords": [
+        79.72361,
+        12.29492
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

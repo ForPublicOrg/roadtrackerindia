@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-246",
+  "ref": "MDR 246",
+  "name": "Mannargudi–Kuttanallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Mannargudi, Tamil Nadu",
+    "end": "Kuttanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mannargudi",
+      "Kuttanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannargudi",
+      "coords": [
+        79.45375,
+        10.66709
+      ]
+    },
+    {
+      "name": "Kuttanallur",
+      "coords": [
+        79.46109,
+        10.66374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

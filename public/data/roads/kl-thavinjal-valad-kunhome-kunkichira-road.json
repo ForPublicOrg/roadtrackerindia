@@ -1,0 +1,42 @@
+{
+  "id": "kl-thavinjal-valad-kunhome-kunkichira-road",
+  "ref": "MDR",
+  "name": "Thavinjal - Valad - Kunhome - Kunkichira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.7,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.83194,
+        11.76788
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        75.93032,
+        11.8374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

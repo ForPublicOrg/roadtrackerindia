@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-82",
+  "ref": "SH 82",
+  "name": "Satyamangalam–Bhavani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53.2,
+  "route": {
+    "start": "Satyamangalam, Tamil Nadu",
+    "end": "Bhavani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Satyamangalam",
+      "Gobichettipalayam",
+      "Bhavani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satyamangalam",
+      "coords": [
+        77.24555,
+        11.50425
+      ]
+    },
+    {
+      "name": "Gobichettipalayam",
+      "coords": [
+        77.40756,
+        11.50746
+      ]
+    },
+    {
+      "name": "Bhavani",
+      "coords": [
+        77.68376,
+        11.44758
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

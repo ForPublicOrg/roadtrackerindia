@@ -1,0 +1,42 @@
+{
+  "id": "kl-chirayinkil-korani-road",
+  "ref": "MDR",
+  "name": "Chirayinkil - Korani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Chirayinkeezhu, Kerala",
+    "end": "Mangalapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chirayinkeezhu",
+      "Mangalapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.79574,
+        8.6634
+      ]
+    },
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.83903,
+        8.66478
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

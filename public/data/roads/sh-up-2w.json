@@ -1,0 +1,51 @@
+{
+  "id": "sh-up-2w",
+  "ref": "SH 2W",
+  "name": "Purkaji–Nanauta State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 44.8,
+  "route": {
+    "start": "Purkaji, Uttarakhand",
+    "end": "Nanauta, Uttar Pradesh",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Purkaji",
+      "Deoband",
+      "Nanauta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Purkaji",
+      "coords": [
+        77.80282,
+        29.73182
+      ]
+    },
+    {
+      "name": "Deoband",
+      "coords": [
+        77.68271,
+        29.69046
+      ]
+    },
+    {
+      "name": "Nanauta",
+      "coords": [
+        77.42585,
+        29.71428
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

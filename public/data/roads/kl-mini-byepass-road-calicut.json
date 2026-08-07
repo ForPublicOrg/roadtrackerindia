@@ -1,0 +1,87 @@
+{
+  "id": "kl-mini-byepass-road-calicut",
+  "ref": "SH",
+  "name": "Mini Byepass Road Calicut",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "West Hill, Kerala",
+    "end": "Meenchanda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "West Hill",
+      "Karaparamba",
+      "Kozhikode",
+      "Beypore",
+      "Meenchanda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "West Hill",
+      "coords": [
+        75.76456,
+        11.29211
+      ]
+    },
+    {
+      "name": "Karaparamba",
+      "coords": [
+        75.77949,
+        11.28735
+      ]
+    },
+    {
+      "name": "Jawahar Nagar",
+      "coords": [
+        75.78833,
+        11.27121
+      ]
+    },
+    {
+      "name": "Thiruthiyad",
+      "coords": [
+        75.79464,
+        11.26168
+      ]
+    },
+    {
+      "name": "Kozhikode",
+      "coords": [
+        75.79499,
+        11.25236
+      ]
+    },
+    {
+      "name": "Kallai",
+      "coords": [
+        75.80057,
+        11.24284
+      ]
+    },
+    {
+      "name": "Panniankara",
+      "coords": [
+        75.80159,
+        11.22891
+      ]
+    },
+    {
+      "name": "Beypore",
+      "coords": [
+        75.80194,
+        11.21402
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

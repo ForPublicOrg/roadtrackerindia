@@ -1,0 +1,69 @@
+{
+  "id": "nh-157",
+  "ref": "NH 157",
+  "name": "Asika–Athmallik National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 156.2,
+  "route": {
+    "start": "Asika, Odisha",
+    "end": "Athmallik, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Asika",
+      "Bellaguntha",
+      "Phulbani",
+      "Athmallik"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Asika",
+      "coords": [
+        84.66873,
+        19.60234
+      ]
+    },
+    {
+      "name": "Bellaguntha",
+      "coords": [
+        84.58899,
+        19.85896
+      ]
+    },
+    {
+      "name": "Bhanjanagar",
+      "coords": [
+        84.56587,
+        19.92239
+      ]
+    },
+    {
+      "name": "Phulbani",
+      "coords": [
+        84.23847,
+        20.47535
+      ]
+    },
+    {
+      "name": "Athmallik",
+      "coords": [
+        84.4225,
+        20.58383
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-114",
+  "ref": "MDR 114",
+  "name": "Danwar–Kawakol District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.4,
+  "route": {
+    "start": "Danwar, Jharkhand",
+    "end": "Kawakol, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Danwar",
+      "Kawakol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Danwar",
+      "coords": [
+        85.9499,
+        24.46558
+      ]
+    },
+    {
+      "name": "Kawakol",
+      "coords": [
+        85.89979,
+        24.61531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

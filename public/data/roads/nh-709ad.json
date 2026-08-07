@@ -1,0 +1,95 @@
+{
+  "id": "nh-709ad",
+  "ref": "NH 709AD",
+  "name": "Nagina–Bapoli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 164.1,
+  "route": {
+    "start": "Nagina, Uttar Pradesh",
+    "end": "Bapoli, Haryana",
+    "states": [
+      "Uttar Pradesh",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Nagina",
+      "Bijnor",
+      "Police Line",
+      "Muzaffarnagar",
+      "Shamli",
+      "Kairana",
+      "Panipat",
+      "Bapoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagina",
+      "coords": [
+        78.35703,
+        29.43106
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.15405,
+        29.38477
+      ]
+    },
+    {
+      "name": "Muzaffarnagar",
+      "coords": [
+        77.69613,
+        29.47178
+      ]
+    },
+    {
+      "name": "Shamli",
+      "coords": [
+        77.30532,
+        29.44788
+      ]
+    },
+    {
+      "name": "Kairana",
+      "coords": [
+        77.20249,
+        29.40639
+      ]
+    },
+    {
+      "name": "Bapoli",
+      "coords": [
+        77.05251,
+        29.36396
+      ]
+    },
+    {
+      "name": "Panipat",
+      "coords": [
+        76.97628,
+        29.38632
+      ]
+    },
+    {
+      "name": "Bapoli",
+      "coords": [
+        77.06666,
+        29.38195
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

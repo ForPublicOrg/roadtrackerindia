@@ -1,0 +1,54 @@
+{
+  "id": "nh-753e",
+  "ref": "NH 753E",
+  "name": "Soegaon–Khamgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 99.6,
+  "route": {
+    "start": "Soegaon, Maharashtra",
+    "end": "Khamgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Soegaon",
+      "Buldhana",
+      "Khamgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Soegaon",
+      "coords": [
+        75.75252,
+        20.53126
+      ]
+    },
+    {
+      "name": "Buldhana",
+      "coords": [
+        76.17967,
+        20.5264
+      ]
+    },
+    {
+      "name": "Khamgaon",
+      "coords": [
+        76.55672,
+        20.69115
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

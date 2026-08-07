@@ -1,0 +1,43 @@
+{
+  "id": "kl-taliparamba-pattuvam-koovappuram-road",
+  "ref": "MDR",
+  "name": "Taliparamba - Pattuvam - Koovappuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Chiravakku, Kerala",
+    "end": "Muttukandi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chiravakku",
+      "Taliparamba",
+      "Muttukandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chiravakku",
+      "coords": [
+        75.35581,
+        12.04181
+      ]
+    },
+    {
+      "name": "Muttukandi",
+      "coords": [
+        75.30414,
+        12.01703
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

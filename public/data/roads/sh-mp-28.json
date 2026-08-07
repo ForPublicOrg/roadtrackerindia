@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-28",
+  "ref": "SH 28",
+  "name": "Sehore–Vidisha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 79.6,
+  "route": {
+    "start": "Sehore, Madhya Pradesh",
+    "end": "Vidisha, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sehore",
+      "Bhopal",
+      "Vidisha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sehore",
+      "coords": [
+        77.04248,
+        23.18144
+      ]
+    },
+    {
+      "name": "Bhopal",
+      "coords": [
+        77.41748,
+        23.27911
+      ]
+    },
+    {
+      "name": "Vidisha",
+      "coords": [
+        77.6981,
+        23.45293
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

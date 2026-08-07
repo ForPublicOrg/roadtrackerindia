@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilayur-kaippuram-road",
+  "ref": "MDR",
+  "name": "Vilayur - Kaippuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.5,
+  "route": {
+    "start": "Vengad, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengad",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengad",
+      "coords": [
+        76.13405,
+        10.87315
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.18944,
+        10.89184
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

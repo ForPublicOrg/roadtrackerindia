@@ -1,0 +1,50 @@
+{
+  "id": "kl-kb-jacob-road",
+  "ref": "MDR",
+  "name": "KB Jacob Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Koovapadam, Kerala",
+    "end": "Kochi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koovapadam",
+      "Mattancherry",
+      "Kochi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.24233,
+        9.95178
+      ]
+    },
+    {
+      "name": "Mattancherry",
+      "coords": [
+        76.24248,
+        9.95832
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.24441,
+        9.96799
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

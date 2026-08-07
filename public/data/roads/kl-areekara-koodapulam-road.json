@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekara-koodapulam-road",
+  "ref": "MDR",
+  "name": "Areekara - Koodapulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.61258,
+        9.81258
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.62926,
+        9.80767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

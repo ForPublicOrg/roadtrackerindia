@@ -1,0 +1,109 @@
+{
+  "id": "nh-150",
+  "ref": "NH 150",
+  "name": "Solapur–Shaktinagara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 278.5,
+  "route": {
+    "start": "Solapur, Maharashtra",
+    "end": "Shaktinagara, Telangana",
+    "states": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana"
+    ],
+    "majorCities": [
+      "Solapur",
+      "Maindargi",
+      "Afzalpur",
+      "Kalaburagi",
+      "Shahabad",
+      "Yadgiri",
+      "Shaktinagara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Solapur",
+      "coords": [
+        75.9277,
+        17.6829
+      ]
+    },
+    {
+      "name": "Akkalkot",
+      "coords": [
+        76.20674,
+        17.53676
+      ]
+    },
+    {
+      "name": "Maindargi",
+      "coords": [
+        76.29264,
+        17.46054
+      ]
+    },
+    {
+      "name": "Afzalpur",
+      "coords": [
+        76.36175,
+        17.20683
+      ]
+    },
+    {
+      "name": "Hirapura",
+      "coords": [
+        76.7958,
+        17.31683
+      ]
+    },
+    {
+      "name": "Kalaburagi",
+      "coords": [
+        76.85106,
+        17.31409
+      ]
+    },
+    {
+      "name": "Shahabad",
+      "coords": [
+        76.94641,
+        17.14296
+      ]
+    },
+    {
+      "name": "Chittapura",
+      "coords": [
+        77.02624,
+        17.09394
+      ]
+    },
+    {
+      "name": "Yadgiri",
+      "coords": [
+        77.14824,
+        16.76466
+      ]
+    },
+    {
+      "name": "Shaktinagara",
+      "coords": [
+        77.3655,
+        16.40067
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

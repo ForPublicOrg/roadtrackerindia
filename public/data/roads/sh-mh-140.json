@@ -1,0 +1,43 @@
+{
+  "id": "sh-mh-140",
+  "ref": "SH 140",
+  "name": "Jath–Chadachana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.4,
+  "route": {
+    "start": "Jath, Maharashtra",
+    "end": "Chadachana, Karnataka",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Jath",
+      "Chadachana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jath",
+      "coords": [
+        75.22398,
+        17.04824
+      ]
+    },
+    {
+      "name": "Chadachana",
+      "coords": [
+        75.6563,
+        17.31321
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-1212",
+  "ref": "MDR 1212",
+  "name": "Vindhyanagar–Sidhi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 98.8,
+  "route": {
+    "start": "Vindhyanagar, Madhya Pradesh",
+    "end": "Sidhi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Vindhyanagar",
+      "Sarai",
+      "Sidhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vindhyanagar",
+      "coords": [
+        82.55878,
+        24.08802
+      ]
+    },
+    {
+      "name": "Sarai",
+      "coords": [
+        82.19337,
+        24.04011
+      ]
+    },
+    {
+      "name": "Sidhi",
+      "coords": [
+        81.86052,
+        24.16461
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

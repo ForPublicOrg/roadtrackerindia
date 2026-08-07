@@ -1,0 +1,42 @@
+{
+  "id": "kl-krishnapadi-kailiyad-road",
+  "ref": "MDR",
+  "name": "Krishnapadi - Kailiyad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Cherpulassery, Kerala",
+    "end": "Shoranur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherpulassery",
+      "Shoranur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherpulassery",
+      "coords": [
+        76.28242,
+        10.86431
+      ]
+    },
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.27903,
+        10.81716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

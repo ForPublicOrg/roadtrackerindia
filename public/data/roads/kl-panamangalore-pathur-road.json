@@ -1,0 +1,42 @@
+{
+  "id": "kl-panamangalore-pathur-road",
+  "ref": "MDR",
+  "name": "Panamangalore - Pathur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Vitla, Kerala",
+    "end": "Kaikunje, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vitla",
+      "Kaikunje"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vitla",
+      "coords": [
+        74.99582,
+        12.77668
+      ]
+    },
+    {
+      "name": "Kaikunje",
+      "coords": [
+        75.00319,
+        12.76811
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

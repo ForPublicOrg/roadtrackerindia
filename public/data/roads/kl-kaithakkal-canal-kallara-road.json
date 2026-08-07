@@ -1,0 +1,65 @@
+{
+  "id": "kl-kaithakkal-canal-kallara-road",
+  "ref": "MDR",
+  "name": "Kaithakkal Canal Kallara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Neendoor, Kerala",
+    "end": "Mannanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neendoor",
+      "Kallara",
+      "Mannanam",
+      "Kumaranalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neendoor",
+      "coords": [
+        76.50574,
+        9.68008
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.50692,
+        9.66121
+      ]
+    },
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.50998,
+        9.64825
+      ]
+    },
+    {
+      "name": "Parippu",
+      "coords": [
+        76.50914,
+        9.63321
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.51263,
+        9.62899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

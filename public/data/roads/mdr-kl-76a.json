@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-76a",
+  "ref": "MDR 76A",
+  "name": "Badiadka–Mulleria District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.07964,
+        12.61382
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.12446,
+        12.60299
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

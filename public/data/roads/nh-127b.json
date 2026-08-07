@@ -1,0 +1,100 @@
+{
+  "id": "nh-127b",
+  "ref": "NH 127B",
+  "name": "Laskarpara–Nongstoin National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 370.5,
+  "route": {
+    "start": "Laskarpara, Assam",
+    "end": "Nongstoin, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Laskarpara",
+      "Gauripur",
+      "Dhubri",
+      "Garobadha",
+      "Rongram",
+      "Williamnagar",
+      "Nongstoin"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Laskarpara",
+      "coords": [
+        89.90406,
+        26.43748
+      ]
+    },
+    {
+      "name": "Golakganj",
+      "coords": [
+        89.87412,
+        26.11123
+      ]
+    },
+    {
+      "name": "Dhubri",
+      "coords": [
+        89.98837,
+        26.02073
+      ]
+    },
+    {
+      "name": "Garobadha",
+      "coords": [
+        90.02337,
+        25.57791
+      ]
+    },
+    {
+      "name": "Tura",
+      "coords": [
+        90.22103,
+        25.5147
+      ]
+    },
+    {
+      "name": "Rongram",
+      "coords": [
+        90.25128,
+        25.59681
+      ]
+    },
+    {
+      "name": "Williamnagar",
+      "coords": [
+        90.60913,
+        25.50822
+      ]
+    },
+    {
+      "name": "Mawshynrut",
+      "coords": [
+        91.06279,
+        25.65772
+      ]
+    },
+    {
+      "name": "Nongstoin",
+      "coords": [
+        91.26693,
+        25.51965
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

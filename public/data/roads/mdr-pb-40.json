@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-40",
+  "ref": "MDR 40",
+  "name": "Malout–Fazilka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 49.1,
+  "route": {
+    "start": "Malout, Punjab",
+    "end": "Fazilka, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Malout",
+      "Arniwala",
+      "Fazilka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malout",
+      "coords": [
+        74.4775,
+        30.20862
+      ]
+    },
+    {
+      "name": "Arniwala",
+      "coords": [
+        74.25819,
+        30.34771
+      ]
+    },
+    {
+      "name": "Fazilka",
+      "coords": [
+        74.03476,
+        30.40882
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

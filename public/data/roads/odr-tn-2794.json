@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2794",
+  "ref": "ODR 2794",
+  "name": "Ennore Port–Minjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Ennore Port, Tamil Nadu",
+    "end": "Minjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ennore Port",
+      "Minjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ennore Port",
+      "coords": [
+        80.30498,
+        13.30753
+      ]
+    },
+    {
+      "name": "Minjur",
+      "coords": [
+        80.30227,
+        13.31699
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

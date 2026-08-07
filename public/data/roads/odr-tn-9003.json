@@ -1,0 +1,57 @@
+{
+  "id": "odr-tn-9003",
+  "ref": "ODR 9003",
+  "name": "Urapakkam–Vandalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Urapakkam, Tamil Nadu",
+    "end": "Vandalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Urapakkam",
+      "Kolapakkam",
+      "Vandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Urapakkam",
+      "coords": [
+        80.08285,
+        12.85853
+      ]
+    },
+    {
+      "name": "Kolapakkam",
+      "coords": [
+        80.08905,
+        12.86485
+      ]
+    },
+    {
+      "name": "Vandalur",
+      "coords": [
+        80.08346,
+        12.87067
+      ]
+    },
+    {
+      "name": "Urapakkam",
+      "coords": [
+        80.07522,
+        12.86673
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

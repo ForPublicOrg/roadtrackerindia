@@ -1,0 +1,42 @@
+{
+  "id": "kl-vadakkumuri-thottumukkom-road",
+  "ref": "MDR",
+  "name": "Vadakkumuri - Thottumukkom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Edavannappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Edavannappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.05291,
+        11.27223
+      ]
+    },
+    {
+      "name": "Edavannappara",
+      "coords": [
+        76.05138,
+        11.25865
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

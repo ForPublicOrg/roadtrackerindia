@@ -1,0 +1,59 @@
+{
+  "id": "mdr-rj-170",
+  "ref": "MDR 170",
+  "name": "Ferozepur Jhirka–Bawal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 41.5,
+  "route": {
+    "start": "Ferozepur Jhirka, Rajasthan",
+    "end": "Bawal, Haryana",
+    "states": [
+      "Rajasthan",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Ferozepur Jhirka",
+      "Tijara",
+      "Kotkasim",
+      "Bawal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ferozepur Jhirka",
+      "coords": [
+        76.9264,
+        27.84861
+      ]
+    },
+    {
+      "name": "Tijara",
+      "coords": [
+        76.85104,
+        27.93309
+      ]
+    },
+    {
+      "name": "Kotkasim",
+      "coords": [
+        76.7203,
+        28.02875
+      ]
+    },
+    {
+      "name": "Bawal",
+      "coords": [
+        76.63829,
+        28.07036
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

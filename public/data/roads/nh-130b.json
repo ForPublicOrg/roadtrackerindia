@@ -1,0 +1,93 @@
+{
+  "id": "nh-130b",
+  "ref": "NH 130B",
+  "name": "Sarangarh–Raipur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 191.9,
+  "route": {
+    "start": "Sarangarh, Chhattisgarh",
+    "end": "Raipur, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Sarangarh",
+      "Bilaigarh",
+      "Seorinarayan",
+      "Balodabazar",
+      "Palari",
+      "Kharora",
+      "Raipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarangarh",
+      "coords": [
+        83.12362,
+        21.58054
+      ]
+    },
+    {
+      "name": "Bilaigarh",
+      "coords": [
+        82.7269,
+        21.66501
+      ]
+    },
+    {
+      "name": "Seorinarayan",
+      "coords": [
+        82.5994,
+        21.7086
+      ]
+    },
+    {
+      "name": "Kasdol",
+      "coords": [
+        82.42394,
+        21.62663
+      ]
+    },
+    {
+      "name": "Balodabazar",
+      "coords": [
+        82.16389,
+        21.65667
+      ]
+    },
+    {
+      "name": "Palari",
+      "coords": [
+        82.16275,
+        21.53005
+      ]
+    },
+    {
+      "name": "Kharora",
+      "coords": [
+        81.93706,
+        21.39483
+      ]
+    },
+    {
+      "name": "Raipur",
+      "coords": [
+        81.64179,
+        21.24709
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

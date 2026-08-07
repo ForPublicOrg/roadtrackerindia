@@ -1,0 +1,66 @@
+{
+  "id": "sh-tn-50",
+  "ref": "SH 50",
+  "name": "Uthukottai–Nazarathpet State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 47.5,
+  "route": {
+    "start": "Uthukottai, Tamil Nadu",
+    "end": "Nazarathpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Uthukottai",
+      "Tiruvallur",
+      "Sevvapet",
+      "Thirumazhisai",
+      "Nazarathpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uthukottai",
+      "coords": [
+        79.89177,
+        13.33385
+      ]
+    },
+    {
+      "name": "Tiruvallur",
+      "coords": [
+        79.89069,
+        13.14454
+      ]
+    },
+    {
+      "name": "Sevvapet",
+      "coords": [
+        79.95715,
+        13.10769
+      ]
+    },
+    {
+      "name": "Thirumazhisai",
+      "coords": [
+        80.06323,
+        13.05391
+      ]
+    },
+    {
+      "name": "Nazarathpet",
+      "coords": [
+        80.07006,
+        13.0455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

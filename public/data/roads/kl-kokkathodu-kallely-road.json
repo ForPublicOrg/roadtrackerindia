@@ -1,0 +1,42 @@
+{
+  "id": "kl-kokkathodu-kallely-road",
+  "ref": "MDR",
+  "name": "Kokkathodu - Kallely Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Chittar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Chittar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.92483,
+        9.17911
+      ]
+    },
+    {
+      "name": "Chittar",
+      "coords": [
+        76.97789,
+        9.19825
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

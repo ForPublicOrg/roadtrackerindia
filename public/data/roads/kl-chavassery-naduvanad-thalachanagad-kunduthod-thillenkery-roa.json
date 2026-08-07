@@ -1,0 +1,42 @@
+{
+  "id": "kl-chavassery-naduvanad-thalachanagad-kunduthod-thillenkery-roa",
+  "ref": "MDR",
+  "name": "Chavassery - Naduvanad - Thalachanagad - Kunduthod - Thillenkery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Kakkayangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Kakkayangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.60952,
+        11.94731
+      ]
+    },
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.63353,
+        11.92016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

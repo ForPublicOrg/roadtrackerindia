@@ -1,0 +1,54 @@
+{
+  "id": "nh-702c",
+  "ref": "NH 702C",
+  "name": "Sivasagar–Sonari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 45.7,
+  "route": {
+    "start": "Sivasagar, Assam",
+    "end": "Sonari, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sivasagar",
+      "Nazira",
+      "Sonari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sivasagar",
+      "coords": [
+        94.64549,
+        26.99611
+      ]
+    },
+    {
+      "name": "Nazira",
+      "coords": [
+        94.74326,
+        26.92723
+      ]
+    },
+    {
+      "name": "Sonari",
+      "coords": [
+        95.01734,
+        27.02627
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

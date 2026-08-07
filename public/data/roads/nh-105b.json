@@ -1,0 +1,54 @@
+{
+  "id": "nh-105b",
+  "ref": "NH 105B",
+  "name": "Kot Kapura–Moga National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 45.2,
+  "route": {
+    "start": "Kot Kapura, Punjab",
+    "end": "Moga, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Kot Kapura",
+      "Bagha Purana",
+      "Moga"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kot Kapura",
+      "coords": [
+        74.85331,
+        30.59108
+      ]
+    },
+    {
+      "name": "Bagha Purana",
+      "coords": [
+        75.09378,
+        30.68591
+      ]
+    },
+    {
+      "name": "Moga",
+      "coords": [
+        75.18708,
+        30.81203
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

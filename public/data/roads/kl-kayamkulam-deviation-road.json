@@ -1,0 +1,42 @@
+{
+  "id": "kl-kayamkulam-deviation-road",
+  "ref": "MDR",
+  "name": "Kayamkulam Deviation Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.49117,
+        9.18239
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.50171,
+        9.16604
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

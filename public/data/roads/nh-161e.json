@@ -1,0 +1,62 @@
+{
+  "id": "nh-161e",
+  "ref": "NH 161E",
+  "name": "Washim–Badnera National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 105.1,
+  "route": {
+    "start": "Washim, Maharashtra",
+    "end": "Badnera, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Washim",
+      "Mangrul Pir",
+      "Karanja Lad",
+      "Badnera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Washim",
+      "coords": [
+        77.14137,
+        20.10773
+      ]
+    },
+    {
+      "name": "Mangrul Pir",
+      "coords": [
+        77.34079,
+        20.31222
+      ]
+    },
+    {
+      "name": "Karanja Lad",
+      "coords": [
+        77.47315,
+        20.49814
+      ]
+    },
+    {
+      "name": "Badnera",
+      "coords": [
+        77.63474,
+        20.76615
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

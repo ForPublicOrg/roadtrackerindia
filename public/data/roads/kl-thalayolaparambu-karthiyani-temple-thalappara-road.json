@@ -1,0 +1,42 @@
+{
+  "id": "kl-thalayolaparambu-karthiyani-temple-thalappara-road",
+  "ref": "MDR",
+  "name": "Thalayolaparambu - Karthiyani Temple - Thalappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.45433,
+        9.78644
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.45778,
+        9.77694
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

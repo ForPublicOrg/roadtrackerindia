@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulakkuzha-puthencavu-road",
+  "ref": "MDR",
+  "name": "Mulakkuzha - Puthencavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.63489,
+        9.30096
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.6336,
+        9.3253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

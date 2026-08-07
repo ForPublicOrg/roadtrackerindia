@@ -1,0 +1,42 @@
+{
+  "id": "kl-parakkadavu-kochukadavu-road",
+  "ref": "MDR",
+  "name": "Parakkadavu - Kochukadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Angamaly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.30936,
+        10.18654
+      ]
+    },
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.32384,
+        10.18941
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

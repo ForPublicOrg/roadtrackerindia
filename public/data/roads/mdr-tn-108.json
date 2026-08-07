@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-108",
+  "ref": "MDR 108",
+  "name": "Erode–Chennimalai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.9,
+  "route": {
+    "start": "Erode, Tamil Nadu",
+    "end": "Chennimalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Erode",
+      "Chennimalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erode",
+      "coords": [
+        77.7239,
+        11.32909
+      ]
+    },
+    {
+      "name": "Rangampalayam",
+      "coords": [
+        77.70195,
+        11.30327
+      ]
+    },
+    {
+      "name": "Chennimalai",
+      "coords": [
+        77.60233,
+        11.16618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

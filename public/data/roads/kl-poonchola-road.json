@@ -1,0 +1,42 @@
+{
+  "id": "kl-poonchola-road",
+  "ref": "MDR",
+  "name": "Poonchola Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Mannarkkad, Kerala",
+    "end": "Kumaramputhur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannarkkad",
+      "Kumaramputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannarkkad",
+      "coords": [
+        76.56184,
+        11.02046
+      ]
+    },
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.51408,
+        11.0051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

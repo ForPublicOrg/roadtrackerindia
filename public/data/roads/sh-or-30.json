@@ -1,0 +1,50 @@
+{
+  "id": "sh-or-30",
+  "ref": "SH 30",
+  "name": "Rambha–Asika State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 115.1,
+  "route": {
+    "start": "Rambha, Odisha",
+    "end": "Asika, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Rambha",
+      "Bellaguntha",
+      "Asika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rambha",
+      "coords": [
+        85.11607,
+        19.60215
+      ]
+    },
+    {
+      "name": "Bellaguntha",
+      "coords": [
+        84.64015,
+        19.8799
+      ]
+    },
+    {
+      "name": "Asika",
+      "coords": [
+        84.67285,
+        19.60628
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

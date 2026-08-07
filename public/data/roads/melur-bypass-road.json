@@ -1,0 +1,46 @@
+{
+  "id": "melur-bypass-road",
+  "ref": "NH",
+  "name": "Melur Bypass Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Melur, Tamil Nadu",
+    "end": "Singampunari, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melur",
+      "Singampunari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melur",
+      "coords": [
+        78.31923,
+        10.02361
+      ]
+    },
+    {
+      "name": "Singampunari",
+      "coords": [
+        78.34893,
+        10.04916
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

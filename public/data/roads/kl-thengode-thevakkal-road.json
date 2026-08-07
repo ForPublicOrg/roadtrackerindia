@@ -1,0 +1,50 @@
+{
+  "id": "kl-thengode-thevakkal-road",
+  "ref": "MDR",
+  "name": "Thengode - Thevakkal road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kangarappady, Kerala",
+    "end": "Thengode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kangarappady",
+      "Kakkanad",
+      "Thengode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kangarappady",
+      "coords": [
+        76.36377,
+        10.04633
+      ]
+    },
+    {
+      "name": "Kakkanad",
+      "coords": [
+        76.36516,
+        10.03602
+      ]
+    },
+    {
+      "name": "Thengode",
+      "coords": [
+        76.37165,
+        10.03378
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-jh-10",
+  "ref": "SH 10",
+  "name": "Hurhurkatola–Balumath State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 92.7,
+  "route": {
+    "start": "Hurhurkatola, Jharkhand",
+    "end": "Balumath, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Hurhurkatola",
+      "Medininagar",
+      "Panki",
+      "Balumath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hurhurkatola",
+      "coords": [
+        84.07687,
+        24.03759
+      ]
+    },
+    {
+      "name": "Panki",
+      "coords": [
+        84.47244,
+        24.03985
+      ]
+    },
+    {
+      "name": "Balumath",
+      "coords": [
+        84.78511,
+        23.8366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

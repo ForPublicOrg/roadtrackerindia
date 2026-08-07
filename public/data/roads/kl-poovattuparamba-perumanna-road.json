@@ -1,0 +1,42 @@
+{
+  "id": "kl-poovattuparamba-perumanna-road",
+  "ref": "MDR",
+  "name": "Poovattuparamba - Perumanna Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Karanthur, Kerala",
+    "end": "Mavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karanthur",
+      "Mavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karanthur",
+      "coords": [
+        75.89087,
+        11.26442
+      ]
+    },
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.88822,
+        11.24446
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

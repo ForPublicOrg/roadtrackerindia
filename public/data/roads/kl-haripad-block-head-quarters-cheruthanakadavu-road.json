@@ -1,0 +1,42 @@
+{
+  "id": "kl-haripad-block-head-quarters-cheruthanakadavu-road",
+  "ref": "MDR",
+  "name": "Haripad Block Head Quarters - Cheruthanakadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.44,
+        9.31835
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.44309,
+        9.28909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-naduvattom-thannerkode-road",
+  "ref": "MDR",
+  "name": "Naduvattom - Thannerkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Athani, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athani",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athani",
+      "coords": [
+        76.01306,
+        10.77305
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.07522,
+        10.77314
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

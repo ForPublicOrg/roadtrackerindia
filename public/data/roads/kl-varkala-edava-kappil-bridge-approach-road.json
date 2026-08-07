@@ -1,0 +1,42 @@
+{
+  "id": "kl-varkala-edava-kappil-bridge-approach-road",
+  "ref": "MDR",
+  "name": "Varkala Edava Kappil Bridge Approach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Paravur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Paravur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.71632,
+        8.74799
+      ]
+    },
+    {
+      "name": "Paravur",
+      "coords": [
+        76.67473,
+        8.78145
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

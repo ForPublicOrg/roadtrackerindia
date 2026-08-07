@@ -1,0 +1,86 @@
+{
+  "id": "jalna-nanded-expressway",
+  "ref": "NH",
+  "name": "Jalna-Nanded Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 184.8,
+  "route": {
+    "start": "Jalna, Maharashtra",
+    "end": "Waghala, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Jalna",
+      "Partur",
+      "Selu",
+      "Parbhani",
+      "Purna",
+      "Nanded",
+      "Waghala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalna",
+      "coords": [
+        75.92545,
+        19.89246
+      ]
+    },
+    {
+      "name": "Partur",
+      "coords": [
+        76.2223,
+        19.60951
+      ]
+    },
+    {
+      "name": "Selu",
+      "coords": [
+        76.41483,
+        19.43879
+      ]
+    },
+    {
+      "name": "Parbhani",
+      "coords": [
+        76.77862,
+        19.28764
+      ]
+    },
+    {
+      "name": "Purna",
+      "coords": [
+        77.02229,
+        19.17315
+      ]
+    },
+    {
+      "name": "Nanded",
+      "coords": [
+        77.2725,
+        19.12546
+      ]
+    },
+    {
+      "name": "Waghala",
+      "coords": [
+        77.32096,
+        19.08652
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-pariyaram-vettippuram-road",
+  "ref": "MDR",
+  "name": "Pariyaram - Vettippuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Nannuvakadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Pathanamthitta",
+      "Nannuvakadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.72963,
+        9.30534
+      ]
+    },
+    {
+      "name": "Pathanamthitta",
+      "coords": [
+        76.76564,
+        9.28585
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

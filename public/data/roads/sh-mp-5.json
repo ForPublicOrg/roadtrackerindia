@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-5",
+  "ref": "SH 5",
+  "name": "Satai–Banda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 131.3,
+  "route": {
+    "start": "Satai, Madhya Pradesh",
+    "end": "Banda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Satai",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satai",
+      "coords": [
+        79.64357,
+        24.58896
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.18673,
+        25.37167
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

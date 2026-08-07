@@ -1,0 +1,64 @@
+{
+  "id": "nh-848a",
+  "ref": "NH 848A",
+  "name": "Bhilad–Talasari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.9,
+  "route": {
+    "start": "Bhilad, Gujarat",
+    "end": "Talasari, Maharashtra",
+    "states": [
+      "Gujarat",
+      "Dadra and Nagar Haveli and Daman and Diu",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bhilad",
+      "Silvassa",
+      "Khadoli",
+      "Talasari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhilad",
+      "coords": [
+        72.89528,
+        20.28211
+      ]
+    },
+    {
+      "name": "Silvassa",
+      "coords": [
+        73.0001,
+        20.26568
+      ]
+    },
+    {
+      "name": "Khadoli",
+      "coords": [
+        73.02847,
+        20.1643
+      ]
+    },
+    {
+      "name": "Talasari",
+      "coords": [
+        72.91764,
+        20.13699
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

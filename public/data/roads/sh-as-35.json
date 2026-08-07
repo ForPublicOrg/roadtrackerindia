@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-35",
+  "ref": "SH 35",
+  "name": "MOINAPARA–Bishwanath Charaili State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 77.5,
+  "route": {
+    "start": "MOINAPARA, Assam",
+    "end": "Bishwanath Charaili, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "MOINAPARA",
+      "Bishwanath Charaili"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MOINAPARA",
+      "coords": [
+        93.92493,
+        26.45796
+      ]
+    },
+    {
+      "name": "Bishwanath Charaili",
+      "coords": [
+        93.41559,
+        26.59019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

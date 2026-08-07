@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-60",
+  "ref": "SH 60",
+  "name": "Jirapur–Bakani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.9,
+  "route": {
+    "start": "Jirapur, Madhya Pradesh",
+    "end": "Bakani, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jirapur",
+      "Bakani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jirapur",
+      "coords": [
+        76.37182,
+        24.02139
+      ]
+    },
+    {
+      "name": "Bakani",
+      "coords": [
+        76.17419,
+        24.1974
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

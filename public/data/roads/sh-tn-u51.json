@@ -1,0 +1,58 @@
+{
+  "id": "sh-tn-u51",
+  "ref": "SH-U 51",
+  "name": "Vadasery–Kottar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Vadasery, Tamil Nadu",
+    "end": "Kottar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadasery",
+      "Nagercoil",
+      "Suchindram",
+      "Kottar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadasery",
+      "coords": [
+        77.4319,
+        8.19158
+      ]
+    },
+    {
+      "name": "Nagercoil",
+      "coords": [
+        77.43084,
+        8.18642
+      ]
+    },
+    {
+      "name": "Vadiweeswaram",
+      "coords": [
+        77.43662,
+        8.17809
+      ]
+    },
+    {
+      "name": "Suchindram",
+      "coords": [
+        77.43777,
+        8.1751
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

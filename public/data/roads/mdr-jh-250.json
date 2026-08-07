@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-250",
+  "ref": "MDR 250",
+  "name": "Barabazar–Balarampur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.4,
+  "route": {
+    "start": "Barabazar, Jharkhand",
+    "end": "Balarampur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barabazar",
+      "Balarampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barabazar",
+      "coords": [
+        86.38031,
+        22.89806
+      ]
+    },
+    {
+      "name": "Balarampur",
+      "coords": [
+        86.13524,
+        22.99912
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

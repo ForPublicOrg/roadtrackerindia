@@ -1,0 +1,50 @@
+{
+  "id": "kl-kaniyar-vayal-malapattam-munambukadavu-mayyil-road",
+  "ref": "MDR",
+  "name": "Kaniyar Vayal - Malapattam - Munambukadavu - Mayyil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Irikkoor, Kerala",
+    "end": "Karinkalkuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irikkoor",
+      "Sreekandapuram",
+      "Karinkalkuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.52911,
+        12.0165
+      ]
+    },
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.51813,
+        12.01576
+      ]
+    },
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.47165,
+        11.99082
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

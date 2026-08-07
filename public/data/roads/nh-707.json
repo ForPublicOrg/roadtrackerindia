@@ -1,0 +1,55 @@
+{
+  "id": "nh-707",
+  "ref": "NH 707",
+  "name": "Sawra–Paonta Sahib National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 157.5,
+  "route": {
+    "start": "Sawra, Himachal Pradesh",
+    "end": "Paonta Sahib, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh",
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Sawra",
+      "Sainj",
+      "Paonta Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sawra",
+      "coords": [
+        77.74623,
+        31.12574
+      ]
+    },
+    {
+      "name": "Sainj",
+      "coords": [
+        77.85291,
+        30.94595
+      ]
+    },
+    {
+      "name": "Paonta Sahib",
+      "coords": [
+        77.60631,
+        30.44437
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-anchalummoodu-prakkulam-road",
+  "ref": "MDR",
+  "name": "Anchalummoodu - Prakkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Anchalummood, Kerala",
+    "end": "Neeravil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchalummood",
+      "Kureepuzha",
+      "Neeravil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchalummood",
+      "coords": [
+        76.60362,
+        8.93266
+      ]
+    },
+    {
+      "name": "Kureepuzha",
+      "coords": [
+        76.58509,
+        8.93953
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-udharani-villoor-kooryad-road",
+  "ref": "MDR",
+  "name": "Udharani - Villoor - Kooryad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Ponmala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Kottakkal",
+      "Ponmala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.02243,
+        11.00478
+      ]
+    },
+    {
+      "name": "Changuvetty",
+      "coords": [
+        76.02271,
+        10.99503
+      ]
+    },
+    {
+      "name": "Ponmala",
+      "coords": [
+        76.04281,
+        10.99128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

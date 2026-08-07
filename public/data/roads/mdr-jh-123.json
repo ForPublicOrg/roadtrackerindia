@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-123",
+  "ref": "MDR 123",
+  "name": "Nagwa–Garhwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Nagwa, Jharkhand",
+    "end": "Garhwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Nagwa",
+      "Garhwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagwa",
+      "coords": [
+        83.89976,
+        24.2284
+      ]
+    },
+    {
+      "name": "Garhwa",
+      "coords": [
+        83.92818,
+        24.25086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

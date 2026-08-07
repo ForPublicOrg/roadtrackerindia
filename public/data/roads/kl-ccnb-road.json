@@ -1,0 +1,58 @@
+{
+  "id": "kl-ccnb-road",
+  "ref": "MDR",
+  "name": "CCNB Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Zakariya Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Vazhicherry",
+      "Alappuzha",
+      "Zakariya Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34901,
+        9.49396
+      ]
+    },
+    {
+      "name": "Vazhicherry",
+      "coords": [
+        76.33787,
+        9.4955
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32969,
+        9.49512
+      ]
+    },
+    {
+      "name": "Zakariya Bazar",
+      "coords": [
+        76.32491,
+        9.49457
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

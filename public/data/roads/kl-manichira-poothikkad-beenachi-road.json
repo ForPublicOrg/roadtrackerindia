@@ -1,0 +1,42 @@
+{
+  "id": "kl-manichira-poothikkad-beenachi-road",
+  "ref": "MDR",
+  "name": "Manichira - Poothikkad - Beenachi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.24855,
+        11.652
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.23271,
+        11.66154
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

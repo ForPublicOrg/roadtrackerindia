@@ -1,0 +1,42 @@
+{
+  "id": "kl-vizhikkithodu-chenappady-road",
+  "ref": "MDR",
+  "name": "Vizhikkithodu - Chenappady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Erumely, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Erumely"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.80482,
+        9.51741
+      ]
+    },
+    {
+      "name": "Erumely",
+      "coords": [
+        76.80174,
+        9.50465
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

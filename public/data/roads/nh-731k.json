@@ -1,0 +1,63 @@
+{
+  "id": "nh-731k",
+  "ref": "NH 731K",
+  "name": "Shahjahanpur–Khatīma National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 122.2,
+  "route": {
+    "start": "Shahjahanpur, Uttar Pradesh",
+    "end": "Khatīma, Uttarakhand",
+    "states": [
+      "Uttar Pradesh",
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Shahjahanpur",
+      "Bisalpur",
+      "Pilibhit",
+      "Khatīma"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahjahanpur",
+      "coords": [
+        79.90908,
+        27.89274
+      ]
+    },
+    {
+      "name": "Bisalpur",
+      "coords": [
+        79.79679,
+        28.29434
+      ]
+    },
+    {
+      "name": "Pilibhit",
+      "coords": [
+        79.80995,
+        28.62034
+      ]
+    },
+    {
+      "name": "Khatīma",
+      "coords": [
+        79.96991,
+        28.91976
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

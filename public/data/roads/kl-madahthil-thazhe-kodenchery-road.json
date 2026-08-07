@@ -1,0 +1,42 @@
+{
+  "id": "kl-madahthil-thazhe-kodenchery-road",
+  "ref": "MDR",
+  "name": "Madahthil Thazhe - Kodenchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.62598,
+        11.69365
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.64776,
+        11.68889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

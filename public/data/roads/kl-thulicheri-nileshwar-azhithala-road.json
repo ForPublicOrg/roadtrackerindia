@@ -1,0 +1,57 @@
+{
+  "id": "kl-thulicheri-nileshwar-azhithala-road",
+  "ref": "MDR",
+  "name": "Thulicheri - Nileshwar - Azhithala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.9,
+  "route": {
+    "start": "Athinhal, Kerala",
+    "end": "Nileshwaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athinhal",
+      "Kanhangad",
+      "Nileshwaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athinhal",
+      "coords": [
+        75.08269,
+        12.3299
+      ]
+    },
+    {
+      "name": "Kanhangad",
+      "coords": [
+        75.07944,
+        12.30405
+      ]
+    },
+    {
+      "name": "Kanhangad South",
+      "coords": [
+        75.09201,
+        12.2737
+      ]
+    },
+    {
+      "name": "Nileshwaram",
+      "coords": [
+        75.1067,
+        12.24228
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

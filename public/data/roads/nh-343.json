@@ -1,0 +1,55 @@
+{
+  "id": "nh-343",
+  "ref": "NH 343",
+  "name": "Ambikapur–Garhwa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 156.1,
+  "route": {
+    "start": "Ambikapur, Chhattisgarh",
+    "end": "Garhwa, Jharkhand",
+    "states": [
+      "Chhattisgarh",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ambikapur",
+      "Ramanuj Ganj",
+      "Garhwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambikapur",
+      "coords": [
+        83.18615,
+        23.12952
+      ]
+    },
+    {
+      "name": "Ramanuj Ganj",
+      "coords": [
+        83.69614,
+        23.80863
+      ]
+    },
+    {
+      "name": "Garhwa",
+      "coords": [
+        83.82012,
+        24.14187
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-86c",
+  "ref": "SH 86C",
+  "name": "Kheenvsar–Pipar City State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 117.1,
+  "route": {
+    "start": "Kheenvsar, Rajasthan",
+    "end": "Pipar City, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kheenvsar",
+      "Bhopalgarh",
+      "Pipar City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kheenvsar",
+      "coords": [
+        73.4143,
+        26.96692
+      ]
+    },
+    {
+      "name": "Bhopalgarh",
+      "coords": [
+        73.49765,
+        26.65006
+      ]
+    },
+    {
+      "name": "Pipar City",
+      "coords": [
+        73.54317,
+        26.38051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

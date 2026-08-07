@@ -1,0 +1,54 @@
+{
+  "id": "nh-166d",
+  "ref": "NH 166D",
+  "name": "Pen–Khopoli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 30.5,
+  "route": {
+    "start": "Pen, Maharashtra",
+    "end": "Khopoli, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pen",
+      "Vavoshi",
+      "Khopoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pen",
+      "coords": [
+        73.09427,
+        18.75104
+      ]
+    },
+    {
+      "name": "Vavoshi",
+      "coords": [
+        73.22475,
+        18.77287
+      ]
+    },
+    {
+      "name": "Khopoli",
+      "coords": [
+        73.32225,
+        18.80042
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

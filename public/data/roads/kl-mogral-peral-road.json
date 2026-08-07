@@ -1,0 +1,42 @@
+{
+  "id": "kl-mogral-peral-road",
+  "ref": "MDR",
+  "name": "Mogral Peral Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kumbala, Kerala",
+    "end": "Siraj Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbala",
+      "Siraj Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.95287,
+        12.56905
+      ]
+    },
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.96787,
+        12.57325
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

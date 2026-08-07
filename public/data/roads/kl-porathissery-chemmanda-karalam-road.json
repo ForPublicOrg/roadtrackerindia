@@ -1,0 +1,42 @@
+{
+  "id": "kl-porathissery-chemmanda-karalam-road",
+  "ref": "MDR",
+  "name": "Porathissery Chemmanda Karalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Puthukkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Puthukkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.19516,
+        10.40259
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.20486,
+        10.36766
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-209",
+  "ref": "MDR 209",
+  "name": "Kottayur–Kundrakudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.5,
+  "route": {
+    "start": "Kottayur, Tamil Nadu",
+    "end": "Kundrakudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kottayur",
+      "Kundrakudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottayur",
+      "coords": [
+        78.77407,
+        10.17041
+      ]
+    },
+    {
+      "name": "Kundrakudi",
+      "coords": [
+        78.69838,
+        10.11669
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

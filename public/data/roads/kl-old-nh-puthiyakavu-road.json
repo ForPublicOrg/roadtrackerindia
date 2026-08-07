@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-nh-puthiyakavu-road",
+  "ref": "MDR",
+  "name": "Old NH Puthiyakavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.31708,
+        9.71131
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.31802,
+        9.72178
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

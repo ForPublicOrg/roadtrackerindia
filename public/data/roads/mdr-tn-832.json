@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-832",
+  "ref": "MDR 832",
+  "name": "Ariyathidal–Matthi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Ariyathidal, Tamil Nadu",
+    "end": "Matthi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ariyathidal",
+      "Valangaiman",
+      "Kumbakonam",
+      "Matthi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ariyathidal",
+      "coords": [
+        79.40217,
+        10.92482
+      ]
+    },
+    {
+      "name": "Valangaiman",
+      "coords": [
+        79.39204,
+        10.92335
+      ]
+    },
+    {
+      "name": "Ariyathidal",
+      "coords": [
+        79.38205,
+        10.93567
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.37957,
+        10.94968
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

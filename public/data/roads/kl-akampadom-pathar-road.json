@@ -1,0 +1,42 @@
+{
+  "id": "kl-akampadom-pathar-road",
+  "ref": "MDR",
+  "name": "Akampadom - Pathar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.5,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Wandoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Wandoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.25322,
+        11.40158
+      ]
+    },
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.2105,
+        11.31027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

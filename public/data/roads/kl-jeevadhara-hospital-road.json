@@ -1,0 +1,42 @@
+{
+  "id": "kl-jeevadhara-hospital-road",
+  "ref": "MDR",
+  "name": "Jeevadhara Hospital Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.4035,
+        10.32161
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.39782,
+        10.32902
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

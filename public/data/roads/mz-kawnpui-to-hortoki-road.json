@@ -1,0 +1,42 @@
+{
+  "id": "mz-kawnpui-to-hortoki-road",
+  "ref": "SH",
+  "name": "Kawnpui to Hortoki road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 16,
+  "route": {
+    "start": "Bairabi, Mizoram",
+    "end": "Kolasib, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Bairabi",
+      "Kolasib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bairabi",
+      "coords": [
+        92.59971,
+        24.06151
+      ]
+    },
+    {
+      "name": "Kolasib",
+      "coords": [
+        92.67142,
+        24.04447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

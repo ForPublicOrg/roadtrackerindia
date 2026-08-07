@@ -1,0 +1,50 @@
+{
+  "id": "kl-shutterkavala-pallikkunnu-kandanchira-aruvakurinji-road",
+  "ref": "MDR",
+  "name": "Shutterkavala - Pallikkunnu - Kandanchira - Aruvakurinji Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Mannanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Ettumanoor",
+      "Mannanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.58544,
+        9.67324
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.56306,
+        9.65062
+      ]
+    },
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.54546,
+        9.64248
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

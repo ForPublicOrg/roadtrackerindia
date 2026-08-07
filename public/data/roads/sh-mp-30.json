@@ -1,0 +1,57 @@
+{
+  "id": "sh-mp-30",
+  "ref": "SH 30",
+  "name": "Gyaraspur–Gaurjhamar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 116.8,
+  "route": {
+    "start": "Gyaraspur, Madhya Pradesh",
+    "end": "Gaurjhamar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gyaraspur",
+      "Begamganj",
+      "Gaurjhamar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gyaraspur",
+      "coords": [
+        78.15526,
+        23.70142
+      ]
+    },
+    {
+      "name": "Begamganj",
+      "coords": [
+        78.34107,
+        23.60082
+      ]
+    },
+    {
+      "name": "Kesli",
+      "coords": [
+        78.80581,
+        23.4206
+      ]
+    },
+    {
+      "name": "Gaurjhamar",
+      "coords": [
+        78.93349,
+        23.51188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "nh-707a",
+  "ref": "NH 707A",
+  "name": "Srinagar–Mussoorie National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 345,
+  "route": {
+    "start": "Srinagar, Uttarakhand",
+    "end": "Mussoorie, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Srinagar",
+      "New Tehri",
+      "Mussoorie",
+      "Chakrata",
+      "Tiuni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Srinagar",
+      "coords": [
+        78.724,
+        30.2349
+      ]
+    },
+    {
+      "name": "New Tehri",
+      "coords": [
+        78.43111,
+        30.37313
+      ]
+    },
+    {
+      "name": "Mussoorie",
+      "coords": [
+        78.07875,
+        30.45229
+      ]
+    },
+    {
+      "name": "Chakrata",
+      "coords": [
+        77.87017,
+        30.70195
+      ]
+    },
+    {
+      "name": "Tiuni",
+      "coords": [
+        77.84679,
+        30.93801
+      ]
+    },
+    {
+      "name": "Mussoorie",
+      "coords": [
+        77.99578,
+        30.51245
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

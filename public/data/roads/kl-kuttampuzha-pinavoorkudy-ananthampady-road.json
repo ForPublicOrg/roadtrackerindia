@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuttampuzha-pinavoorkudy-ananthampady-road",
+  "ref": "MDR",
+  "name": "Kuttampuzha - Pinavoorkudy - Ananthampady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Neriamangalam, Kerala",
+    "end": "Kothamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neriamangalam",
+      "Kothamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.77635,
+        10.10982
+      ]
+    },
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.73957,
+        10.1525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

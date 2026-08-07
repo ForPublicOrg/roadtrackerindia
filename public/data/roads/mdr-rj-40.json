@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-40",
+  "ref": "MDR 40",
+  "name": "Rani–Sadri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 24,
+  "route": {
+    "start": "Rani, Rajasthan",
+    "end": "Sadri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rani",
+      "Sadri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rani",
+      "coords": [
+        73.45266,
+        25.37299
+      ]
+    },
+    {
+      "name": "Sadri",
+      "coords": [
+        73.46089,
+        25.19452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

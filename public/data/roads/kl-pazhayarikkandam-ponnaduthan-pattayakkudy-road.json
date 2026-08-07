@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhayarikkandam-ponnaduthan-pattayakkudy-road",
+  "ref": "MDR",
+  "name": "Pazhayarikkandam - Ponnaduthan - Pattayakkudy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Koickakudy, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koickakudy",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koickakudy",
+      "coords": [
+        76.90902,
+        9.96676
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.87059,
+        9.98853
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

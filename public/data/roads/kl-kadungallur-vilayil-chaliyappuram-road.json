@@ -1,0 +1,49 @@
+{
+  "id": "kl-kadungallur-vilayil-chaliyappuram-road",
+  "ref": "MDR",
+  "name": "Kadungallur - Vilayil - Chaliyappuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Edavannappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Edavannappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.01901,
+        11.19749
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.98982,
+        11.22807
+      ]
+    },
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.98025,
+        11.24548
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

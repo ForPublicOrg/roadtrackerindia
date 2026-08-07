@@ -1,0 +1,42 @@
+{
+  "id": "sh-pb-14",
+  "ref": "SH 14",
+  "name": "Abohar–Sadulshahar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 21.7,
+  "route": {
+    "start": "Abohar, Punjab",
+    "end": "Sadulshahar, Rajasthan",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Abohar",
+      "Sadulshahar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Abohar",
+      "coords": [
+        74.2023,
+        30.15101
+      ]
+    },
+    {
+      "name": "Sadulshahar",
+      "coords": [
+        74.19529,
+        29.95797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

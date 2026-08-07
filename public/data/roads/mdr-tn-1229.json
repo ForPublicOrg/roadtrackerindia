@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1229",
+  "ref": "MDR 1229",
+  "name": "Veeraganur–Chinnasalem District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.5,
+  "route": {
+    "start": "Veeraganur, Tamil Nadu",
+    "end": "Chinnasalem, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Veeraganur",
+      "Chinnasalem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Veeraganur",
+      "coords": [
+        78.79221,
+        11.37525
+      ]
+    },
+    {
+      "name": "Chinnasalem",
+      "coords": [
+        78.85574,
+        11.51917
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

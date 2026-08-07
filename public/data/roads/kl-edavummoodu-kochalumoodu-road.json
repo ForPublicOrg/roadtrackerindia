@@ -1,0 +1,42 @@
+{
+  "id": "kl-edavummoodu-kochalumoodu-road",
+  "ref": "MDR",
+  "name": "Edavummoodu - Kochalumoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Parakode, Kerala",
+    "end": "Azhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakode",
+      "Azhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakode",
+      "coords": [
+        76.77852,
+        9.19558
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.78547,
+        9.21638
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

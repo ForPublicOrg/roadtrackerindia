@@ -1,0 +1,42 @@
+{
+  "id": "kl-thriprayar-kanjani-chavakkad-road",
+  "ref": "MDR",
+  "name": "Thriprayar - Kanjani - Chavakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Chavakkad, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavakkad",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavakkad",
+      "coords": [
+        76.02498,
+        10.58085
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.03739,
+        10.58147
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

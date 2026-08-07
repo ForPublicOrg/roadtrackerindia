@@ -1,0 +1,50 @@
+{
+  "id": "kl-nad-hmt-road",
+  "ref": "MDR",
+  "name": "NAD-HMT road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kangarappady, Kerala",
+    "end": "Kodikuthumala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kangarappady",
+      "Aluva",
+      "Kodikuthumala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kangarappady",
+      "coords": [
+        76.36152,
+        10.0594
+      ]
+    },
+    {
+      "name": "Kodikuthumala",
+      "coords": [
+        76.36445,
+        10.08338
+      ]
+    },
+    {
+      "name": "Aluva",
+      "coords": [
+        76.36498,
+        10.08851
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

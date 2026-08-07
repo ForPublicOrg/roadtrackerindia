@@ -1,0 +1,42 @@
+{
+  "id": "kl-pookottuchola-mathakkode-puliyakkode-road",
+  "ref": "MDR",
+  "name": "Pookottuchola - Mathakkode - Puliyakkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Omanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Omanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.04212,
+        11.21925
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        76.04334,
+        11.1889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

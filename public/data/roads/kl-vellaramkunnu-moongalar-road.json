@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellaramkunnu-moongalar-road",
+  "ref": "MDR",
+  "name": "Vellaramkunnu - Moongalar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Chelimada, Kerala",
+    "end": "Vandiperiyar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chelimada",
+      "Vandiperiyar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chelimada",
+      "coords": [
+        77.10309,
+        9.6326
+      ]
+    },
+    {
+      "name": "Vandiperiyar",
+      "coords": [
+        77.08736,
+        9.63259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

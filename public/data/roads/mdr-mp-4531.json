@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-4531",
+  "ref": "MDR 4531",
+  "name": "Dr. Ambedkar Nagar–Pithampur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Dr. Ambedkar Nagar, Madhya Pradesh",
+    "end": "Pithampur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dr. Ambedkar Nagar",
+      "Pithampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dr. Ambedkar Nagar",
+      "coords": [
+        75.66737,
+        22.49018
+      ]
+    },
+    {
+      "name": "Pithampur",
+      "coords": [
+        75.75706,
+        22.5525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

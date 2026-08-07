@@ -1,0 +1,42 @@
+{
+  "id": "kl-keezhoor-poovathumchuvadu-kalayathumkunnu-road",
+  "ref": "MDR",
+  "name": "Keezhoor - Poovathumchuvadu - Kalayathumkunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.47685,
+        9.82084
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.47608,
+        9.8015
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

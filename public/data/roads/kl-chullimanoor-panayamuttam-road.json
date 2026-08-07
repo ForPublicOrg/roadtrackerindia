@@ -1,0 +1,42 @@
+{
+  "id": "kl-chullimanoor-panayamuttam-road",
+  "ref": "MDR",
+  "name": "Chullimanoor - Panayamuttam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Pazhakutty, Kerala",
+    "end": "Nedumangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pazhakutty",
+      "Nedumangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.00428,
+        8.67646
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.01929,
+        8.64884
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-308",
+  "ref": "MDR 308",
+  "name": "Gwalior–Morar Cantonment District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Gwalior, Madhya Pradesh",
+    "end": "Morar Cantonment, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gwalior",
+      "Morar Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gwalior",
+      "coords": [
+        78.17829,
+        26.25207
+      ]
+    },
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.18977,
+        26.32046
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

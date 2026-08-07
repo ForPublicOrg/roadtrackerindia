@@ -1,0 +1,42 @@
+{
+  "id": "kl-karukutty-moozhikkulam-road",
+  "ref": "MDR",
+  "name": "Karukutty - Moozhikkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Valiyaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Valiyaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.3284,
+        10.18782
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.35486,
+        10.21591
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

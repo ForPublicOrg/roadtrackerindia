@@ -1,0 +1,42 @@
+{
+  "id": "kl-adimaly-chithirapuram-road-thottapura-vellathooval-road",
+  "ref": "MDR",
+  "name": "Adimaly - Chithirapuram Road;Thottapura - Vellathooval Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Murickassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Murickassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.00972,
+        9.98182
+      ]
+    },
+    {
+      "name": "Murickassery",
+      "coords": [
+        77.02705,
+        9.97601
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

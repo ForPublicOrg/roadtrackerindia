@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-110",
+  "ref": "MDR 110",
+  "name": "Baroli–Chechat District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.9,
+  "route": {
+    "start": "Baroli, Rajasthan",
+    "end": "Chechat, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Baroli",
+      "Chechat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baroli",
+      "coords": [
+        75.70616,
+        24.81105
+      ]
+    },
+    {
+      "name": "Chechat",
+      "coords": [
+        75.8807,
+        24.76936
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-kizhakketheruvu-pathanapuram-road",
+  "ref": "MDR",
+  "name": "Kizhakketheruvu - Pathanapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.3,
+  "route": {
+    "start": "Central Junction, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Central Junction",
+      "Pathanapuram",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.85672,
+        9.07577
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.81014,
+        9.00877
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

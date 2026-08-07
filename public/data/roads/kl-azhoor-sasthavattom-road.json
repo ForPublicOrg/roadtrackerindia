@@ -1,0 +1,42 @@
+{
+  "id": "kl-azhoor-sasthavattom-road",
+  "ref": "MDR",
+  "name": "Azhoor - Sasthavattom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Mangalapuram, Kerala",
+    "end": "Azhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mangalapuram",
+      "Azhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.84536,
+        8.63811
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.80041,
+        8.64247
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

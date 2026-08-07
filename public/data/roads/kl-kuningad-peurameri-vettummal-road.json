@@ -1,0 +1,57 @@
+{
+  "id": "kl-kuningad-peurameri-vettummal-road",
+  "ref": "MDR",
+  "name": "Kuningad - Peurameri - Vettummal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Peringatoor, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peringatoor",
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.62303,
+        11.71093
+      ]
+    },
+    {
+      "name": "Orkkatteri",
+      "coords": [
+        75.63094,
+        11.67486
+      ]
+    },
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.63529,
+        11.67044
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.63898,
+        11.65045
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

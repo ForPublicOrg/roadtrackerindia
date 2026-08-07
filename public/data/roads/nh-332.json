@@ -1,0 +1,70 @@
+{
+  "id": "nh-332",
+  "ref": "NH 332",
+  "name": "Villianur–Viluppuram National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 49.2,
+  "route": {
+    "start": "Villianur, Tamil Nadu",
+    "end": "Viluppuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu",
+      "Puducherry"
+    ],
+    "majorCities": [
+      "Villianur",
+      "Puducherry",
+      "Madhagadipet",
+      "Viluppuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Villianur",
+      "coords": [
+        79.7157,
+        11.90075
+      ]
+    },
+    {
+      "name": "Puducherry",
+      "coords": [
+        79.80536,
+        11.93168
+      ]
+    },
+    {
+      "name": "Villianur",
+      "coords": [
+        79.75255,
+        11.91561
+      ]
+    },
+    {
+      "name": "Madhagadipet",
+      "coords": [
+        79.635,
+        11.91832
+      ]
+    },
+    {
+      "name": "Viluppuram",
+      "coords": [
+        79.49594,
+        11.94123
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

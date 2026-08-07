@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuttiyilmukku-areekkaramukku-road",
+  "ref": "MDR",
+  "name": "Kuttiyilmukku - Areekkaramukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.55154,
+        9.14988
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.5398,
+        9.15366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-mh-68",
+  "ref": "SH 68",
+  "name": "Baramati–Bhagur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175,
+  "route": {
+    "start": "Baramati, Maharashtra",
+    "end": "Bhagur, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Baramati",
+      "Karjat",
+      "Kada",
+      "Pathardi",
+      "Bhagur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baramati",
+      "coords": [
+        74.57422,
+        18.14624
+      ]
+    },
+    {
+      "name": "Karjat",
+      "coords": [
+        75.00883,
+        18.54811
+      ]
+    },
+    {
+      "name": "Kada",
+      "coords": [
+        75.07851,
+        18.89249
+      ]
+    },
+    {
+      "name": "Pathardi",
+      "coords": [
+        75.17497,
+        19.17283
+      ]
+    },
+    {
+      "name": "Bhagur",
+      "coords": [
+        75.2029,
+        19.32206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "nh-113",
+  "ref": "NH 113",
+  "name": "Kibithu–Tezu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 178.7,
+  "route": {
+    "start": "Kibithu, Arunachal Pradesh",
+    "end": "Tezu, Arunachal Pradesh",
+    "states": [
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Kibithu",
+      "Walong",
+      "Hawai",
+      "Manchal",
+      "Hayuliang",
+      "Tezu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kibithu",
+      "coords": [
+        97.01801,
+        28.28185
+      ]
+    },
+    {
+      "name": "Walong",
+      "coords": [
+        97.01529,
+        28.12864
+      ]
+    },
+    {
+      "name": "Hawai",
+      "coords": [
+        96.81171,
+        27.8935
+      ]
+    },
+    {
+      "name": "Manchal",
+      "coords": [
+        96.64307,
+        27.98821
+      ]
+    },
+    {
+      "name": "Hayuliang",
+      "coords": [
+        96.54407,
+        28.07543
+      ]
+    },
+    {
+      "name": "Delei Bridge Point",
+      "coords": [
+        96.52511,
+        28.07934
+      ]
+    },
+    {
+      "name": "Tezu",
+      "coords": [
+        96.37486,
+        27.88677
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

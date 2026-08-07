@@ -1,0 +1,42 @@
+{
+  "id": "kl-chungathara-kaippini-erumamunda-road",
+  "ref": "MDR",
+  "name": "Chungathara - Kaippini - Erumamunda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Wandoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Wandoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.22097,
+        11.36252
+      ]
+    },
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.2747,
+        11.33096
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

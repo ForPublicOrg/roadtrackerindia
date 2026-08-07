@@ -1,0 +1,42 @@
+{
+  "id": "kl-tv-puram-road-v-t-road",
+  "ref": "MDR",
+  "name": "TV Puram Road;V.T Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Cherthala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Cherthala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.39259,
+        9.76345
+      ]
+    },
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.39109,
+        9.70086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

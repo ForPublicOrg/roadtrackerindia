@@ -1,0 +1,77 @@
+{
+  "id": "nh-539",
+  "ref": "NH 539",
+  "name": "Shahgarh–Veerangna Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 150.5,
+  "route": {
+    "start": "Shahgarh, Madhya Pradesh",
+    "end": "Veerangna Nagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Shahgarh",
+      "Ghuwara",
+      "Tikamgarh",
+      "Orchha",
+      "Veerangna Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahgarh",
+      "coords": [
+        79.12012,
+        24.32008
+      ]
+    },
+    {
+      "name": "Ghuwara",
+      "coords": [
+        79.08222,
+        24.50659
+      ]
+    },
+    {
+      "name": "Badagaon",
+      "coords": [
+        79.01621,
+        24.57324
+      ]
+    },
+    {
+      "name": "Tikamgarh",
+      "coords": [
+        78.83112,
+        24.74094
+      ]
+    },
+    {
+      "name": "Orchha",
+      "coords": [
+        78.64087,
+        25.351
+      ]
+    },
+    {
+      "name": "Veerangna Nagar",
+      "coords": [
+        78.65137,
+        25.41709
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

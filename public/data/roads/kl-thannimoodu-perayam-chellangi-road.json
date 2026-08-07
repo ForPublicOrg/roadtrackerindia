@@ -1,0 +1,42 @@
+{
+  "id": "kl-thannimoodu-perayam-chellangi-road",
+  "ref": "MDR",
+  "name": "Thannimoodu - Perayam - Chellangi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.00135,
+        8.70937
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.02009,
+        8.68274
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

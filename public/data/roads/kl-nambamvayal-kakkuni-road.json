@@ -1,0 +1,42 @@
+{
+  "id": "kl-nambamvayal-kakkuni-road",
+  "ref": "MDR",
+  "name": "Nambamvayal - Kakkuni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kuttiadi, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuttiadi",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.70618,
+        11.6178
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.6975,
+        11.63285
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

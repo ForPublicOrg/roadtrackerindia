@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuyyali-kolassery-road",
+  "ref": "MDR",
+  "name": "Kuyyali - Kolassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Thalassery, Kerala",
+    "end": "Punnol, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalassery",
+      "Punnol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.48872,
+        11.75982
+      ]
+    },
+    {
+      "name": "Punnol",
+      "coords": [
+        75.49778,
+        11.76978
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

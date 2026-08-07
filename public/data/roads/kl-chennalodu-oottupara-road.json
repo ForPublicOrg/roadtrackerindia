@@ -1,0 +1,42 @@
+{
+  "id": "kl-chennalodu-oottupara-road",
+  "ref": "MDR",
+  "name": "Chennalodu - Oottupara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.0598,
+        11.67838
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        75.99114,
+        11.65927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

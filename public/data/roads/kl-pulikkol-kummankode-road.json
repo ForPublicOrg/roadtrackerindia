@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulikkol-kummankode-road",
+  "ref": "MDR",
+  "name": "Pulikkol - Kummankode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.65365,
+        11.68312
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.66484,
+        11.67292
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

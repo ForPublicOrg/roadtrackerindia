@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-84",
+  "ref": "SH 84",
+  "name": "Gangta–Kahalgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 42.8,
+  "route": {
+    "start": "Gangta, Bihar",
+    "end": "Kahalgaon, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Gangta",
+      "Kahalgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangta",
+      "coords": [
+        87.09114,
+        24.85583
+      ]
+    },
+    {
+      "name": "Kahalgaon",
+      "coords": [
+        87.16615,
+        25.21889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

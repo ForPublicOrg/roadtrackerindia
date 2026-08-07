@@ -1,0 +1,42 @@
+{
+  "id": "kl-thrikkur-road",
+  "ref": "MDR",
+  "name": "Thrikkur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.27238,
+        10.46411
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.2449,
+        10.47675
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

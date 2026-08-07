@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaikatty-pulaymapra-road",
+  "ref": "MDR",
+  "name": "Kaikatty - Pulaymapra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kollengode, Kerala",
+    "end": "Thathamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kollengode",
+      "Thathamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kollengode",
+      "coords": [
+        76.67976,
+        10.53296
+      ]
+    },
+    {
+      "name": "Thathamangalam",
+      "coords": [
+        76.69357,
+        10.53546
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

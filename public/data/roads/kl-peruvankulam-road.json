@@ -1,0 +1,51 @@
+{
+  "id": "kl-peruvankulam-road",
+  "ref": "MDR",
+  "name": "Peruvankulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Cheerachi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Nadathara",
+      "Thalore",
+      "Cheerachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.25281,
+        10.48844
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.2467,
+        10.48778
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.23893,
+        10.48618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

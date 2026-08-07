@@ -1,0 +1,61 @@
+{
+  "id": "nh-516f",
+  "ref": "NH 516F",
+  "name": "Kakinada Industrial Area–Kakinada National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Kakinada Industrial Area, Andhra Pradesh",
+    "end": "Kakinada, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kakinada Industrial Area",
+      "Kakinada Port",
+      "Kakinada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakinada Industrial Area",
+      "coords": [
+        82.28395,
+        17.01339
+      ]
+    },
+    {
+      "name": "Kannayya Kapu Nagar",
+      "coords": [
+        82.2685,
+        16.95862
+      ]
+    },
+    {
+      "name": "Kakinada Port",
+      "coords": [
+        82.26928,
+        16.94966
+      ]
+    },
+    {
+      "name": "Kakinada",
+      "coords": [
+        82.23575,
+        16.94272
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

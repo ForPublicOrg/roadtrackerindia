@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjikkode-malampuzha-road",
+  "ref": "MDR",
+  "name": "Kanjikkode - Malampuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Akathethara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Akathethara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.72925,
+        10.79476
+      ]
+    },
+    {
+      "name": "Akathethara",
+      "coords": [
+        76.67978,
+        10.83045
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

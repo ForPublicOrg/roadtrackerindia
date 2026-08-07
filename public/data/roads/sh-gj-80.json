@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-80",
+  "ref": "SH 80",
+  "name": "Shahada–Ahwa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 141.2,
+  "route": {
+    "start": "Shahada, Maharashtra",
+    "end": "Ahwa, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Shahada",
+      "Navapur",
+      "Ahwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahada",
+      "coords": [
+        74.34105,
+        21.50816
+      ]
+    },
+    {
+      "name": "Navapur",
+      "coords": [
+        73.76915,
+        21.17211
+      ]
+    },
+    {
+      "name": "Subir",
+      "coords": [
+        73.77404,
+        20.92842
+      ]
+    },
+    {
+      "name": "Ahwa",
+      "coords": [
+        73.72081,
+        20.77197
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

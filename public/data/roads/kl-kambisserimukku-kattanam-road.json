@@ -1,0 +1,42 @@
+{
+  "id": "kl-kambisserimukku-kattanam-road",
+  "ref": "MDR",
+  "name": "Kambisserimukku - Kattanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Karunagapally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Karunagapally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.56504,
+        9.17639
+      ]
+    },
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.57104,
+        9.12331
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

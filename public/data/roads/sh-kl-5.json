@@ -1,0 +1,66 @@
+{
+  "id": "sh-kl-5",
+  "ref": "SH 5",
+  "name": "Kayamkulam–Pathanapuram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 42.7,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Nooranad",
+      "Chennampallil",
+      "Adoor",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50294,
+        9.1751
+      ]
+    },
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.63608,
+        9.17591
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.71652,
+        9.15989
+      ]
+    },
+    {
+      "name": "Adoor",
+      "coords": [
+        76.73805,
+        9.15209
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.85234,
+        9.09561
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

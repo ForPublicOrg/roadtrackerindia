@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-6789",
+  "ref": "ODR 6789",
+  "name": "Adukkamparai–Kannamangalam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Adukkamparai, Tamil Nadu",
+    "end": "Kannamangalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adukkamparai",
+      "Kannamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adukkamparai",
+      "coords": [
+        79.13434,
+        12.81035
+      ]
+    },
+    {
+      "name": "Kannamangalam",
+      "coords": [
+        79.08809,
+        12.78857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

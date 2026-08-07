@@ -1,0 +1,63 @@
+{
+  "id": "nh-341",
+  "ref": "NH 341",
+  "name": "Gandhidham–Diplo National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 164.8,
+  "route": {
+    "start": "Gandhidham, Gujarat",
+    "end": "Diplo, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Gandhidham",
+      "Adipur",
+      "Anjar",
+      "Bhuj",
+      "Diplo"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gandhidham",
+      "coords": [
+        70.21881,
+        23.196
+      ]
+    },
+    {
+      "name": "Adipur",
+      "coords": [
+        70.0587,
+        23.124
+      ]
+    },
+    {
+      "name": "Bhuj",
+      "coords": [
+        69.67873,
+        23.25377
+      ]
+    },
+    {
+      "name": "Diplo",
+      "coords": [
+        69.61257,
+        24.04491
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

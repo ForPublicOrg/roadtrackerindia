@@ -1,0 +1,50 @@
+{
+  "id": "kl-angengo-muthalapozhi-road",
+  "ref": "MDR",
+  "name": "Angengo - Muthalapozhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Azhoor, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Azhoor",
+      "Chirayinkeezhu",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.78792,
+        8.63321
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.77631,
+        8.64702
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.75664,
+        8.67219
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

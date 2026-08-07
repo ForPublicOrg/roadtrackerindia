@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalkoonthal-perinjamkutty-road",
+  "ref": "MDR",
+  "name": "Kalkoonthal - Perinjamkutty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Nedumkandam, Kerala",
+    "end": "Thookkupalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nedumkandam",
+      "Thookkupalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.09939,
+        9.88225
+      ]
+    },
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.14716,
+        9.85141
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

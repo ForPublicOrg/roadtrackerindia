@@ -1,0 +1,42 @@
+{
+  "id": "kl-vithura-peppara-road",
+  "ref": "MDR",
+  "name": "Vithura - Peppara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Nedumangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Nedumangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.1359,
+        8.62396
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.09284,
+        8.67404
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

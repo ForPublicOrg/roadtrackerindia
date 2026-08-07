@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-138",
+  "ref": "MDR 138",
+  "name": "Shree Krishan Nagar–Shahjahanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.4,
+  "route": {
+    "start": "Shree Krishan Nagar, Rajasthan",
+    "end": "Shahjahanpur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Shree Krishan Nagar",
+      "Mandawar",
+      "Shahjahanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shree Krishan Nagar",
+      "coords": [
+        76.48051,
+        27.80778
+      ]
+    },
+    {
+      "name": "Mandawar",
+      "coords": [
+        76.51321,
+        27.87179
+      ]
+    },
+    {
+      "name": "Shahjahanpur",
+      "coords": [
+        76.53415,
+        27.99085
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

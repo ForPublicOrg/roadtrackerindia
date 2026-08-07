@@ -1,0 +1,42 @@
+{
+  "id": "kl-road-from-mavelikkara-temple-puthiyakavu-temple-and-bh-lane",
+  "ref": "MDR",
+  "name": "Road from Mavelikkara Temple - Puthiyakavu Temple and BH Lane",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.54038,
+        9.24616
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.54472,
+        9.25313
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-24",
+  "ref": "MDR 24",
+  "name": "Muri–Chitarpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.5,
+  "route": {
+    "start": "Muri, Jharkhand",
+    "end": "Chitarpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Muri",
+      "Chitarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muri",
+      "coords": [
+        85.85665,
+        23.36458
+      ]
+    },
+    {
+      "name": "Chitarpur",
+      "coords": [
+        85.72234,
+        23.53501
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

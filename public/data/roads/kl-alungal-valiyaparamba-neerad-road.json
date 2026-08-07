@@ -1,0 +1,42 @@
+{
+  "id": "kl-alungal-valiyaparamba-neerad-road",
+  "ref": "MDR",
+  "name": "Alungal - Valiyaparamba - Neerad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Kondotty, Kerala",
+    "end": "Kaloth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kondotty",
+      "Kaloth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.92655,
+        11.1693
+      ]
+    },
+    {
+      "name": "Kaloth",
+      "coords": [
+        75.96781,
+        11.17161
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

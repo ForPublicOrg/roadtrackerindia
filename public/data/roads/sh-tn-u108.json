@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u108",
+  "ref": "SH-U 108",
+  "name": "Palani–Adivaram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Palani, Tamil Nadu",
+    "end": "Adivaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palani",
+      "Adivaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palani",
+      "coords": [
+        77.49469,
+        10.45499
+      ]
+    },
+    {
+      "name": "Adivaram",
+      "coords": [
+        77.51969,
+        10.4487
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

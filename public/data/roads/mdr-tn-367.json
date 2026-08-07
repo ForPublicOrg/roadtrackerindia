@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-367",
+  "ref": "MDR 367",
+  "name": "Sendurai–Udayarpalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Sendurai, Tamil Nadu",
+    "end": "Udayarpalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sendurai",
+      "Udayarpalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sendurai",
+      "coords": [
+        79.22865,
+        11.26608
+      ]
+    },
+    {
+      "name": "Udayarpalayam",
+      "coords": [
+        79.24222,
+        11.27032
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vayala-koodalloor-road",
+  "ref": "MDR",
+  "name": "Vayala - Koodalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.59638,
+        9.71224
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.57916,
+        9.72514
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

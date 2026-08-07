@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-80",
+  "ref": "MDR 80",
+  "name": "Marakkanam–Cheyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Marakkanam, Tamil Nadu",
+    "end": "Cheyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Marakkanam",
+      "Cheyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marakkanam",
+      "coords": [
+        79.86911,
+        12.21585
+      ]
+    },
+    {
+      "name": "Cheyur",
+      "coords": [
+        79.88442,
+        12.23581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

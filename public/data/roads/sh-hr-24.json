@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-24",
+  "ref": "SH 24",
+  "name": "Rewari–Loharu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94.5,
+  "route": {
+    "start": "Rewari, Haryana",
+    "end": "Loharu, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Rewari",
+      "Kanina Khas",
+      "Mahendragarh",
+      "Loharu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewari",
+      "coords": [
+        76.5958,
+        28.19435
+      ]
+    },
+    {
+      "name": "Kanina Khas",
+      "coords": [
+        76.31634,
+        28.32738
+      ]
+    },
+    {
+      "name": "Mahendragarh",
+      "coords": [
+        76.14029,
+        28.26677
+      ]
+    },
+    {
+      "name": "Loharu",
+      "coords": [
+        75.82014,
+        28.44727
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

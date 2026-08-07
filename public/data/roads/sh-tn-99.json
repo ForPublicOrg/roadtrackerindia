@@ -1,0 +1,59 @@
+{
+  "id": "sh-tn-99",
+  "ref": "SH 99",
+  "name": "Pattukkottai–Pullambadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 71.3,
+  "route": {
+    "start": "Pattukkottai, Tamil Nadu",
+    "end": "Pullambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pattukkottai",
+      "Karambakudi",
+      "Gandarvakottai",
+      "Sitapatti",
+      "Pullambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattukkottai",
+      "coords": [
+        79.30599,
+        10.45066
+      ]
+    },
+    {
+      "name": "Karambakudi",
+      "coords": [
+        79.14866,
+        10.5068
+      ]
+    },
+    {
+      "name": "Gandarvakottai",
+      "coords": [
+        79.01836,
+        10.57312
+      ]
+    },
+    {
+      "name": "Pullambadi",
+      "coords": [
+        78.95401,
+        10.85505
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

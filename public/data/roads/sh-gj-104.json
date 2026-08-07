@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-104",
+  "ref": "SH 104",
+  "name": "Una–Gondal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 185.9,
+  "route": {
+    "start": "Una, Gujarat",
+    "end": "Gondal, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Una",
+      "Dhari",
+      "Bagasara",
+      "Gondal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Una",
+      "coords": [
+        71.20323,
+        20.79361
+      ]
+    },
+    {
+      "name": "Dhari",
+      "coords": [
+        71.02743,
+        21.32728
+      ]
+    },
+    {
+      "name": "Bagasara",
+      "coords": [
+        70.95798,
+        21.48686
+      ]
+    },
+    {
+      "name": "Gondal",
+      "coords": [
+        70.80665,
+        21.95699
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

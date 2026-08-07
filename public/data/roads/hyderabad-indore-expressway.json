@@ -1,0 +1,46 @@
+{
+  "id": "hyderabad-indore-expressway",
+  "ref": "NH",
+  "name": "Hyderabad-Indore Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 99.5,
+  "route": {
+    "start": "Sadasivpet, Telangana",
+    "end": "Degloor, Maharashtra",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Sadasivpet",
+      "Degloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sadasivpet",
+      "coords": [
+        78.01688,
+        17.87023
+      ]
+    },
+    {
+      "name": "Degloor",
+      "coords": [
+        77.59279,
+        18.5341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

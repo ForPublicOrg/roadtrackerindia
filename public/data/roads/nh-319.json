@@ -1,0 +1,69 @@
+{
+  "id": "nh-319",
+  "ref": "NH 319",
+  "name": "Mohania–Arrah National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 116.9,
+  "route": {
+    "start": "Mohania, Bihar",
+    "end": "Arrah, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Mohania",
+      "Kochas",
+      "Jagdispur",
+      "Arrah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohania",
+      "coords": [
+        83.63343,
+        25.15967
+      ]
+    },
+    {
+      "name": "Kochas",
+      "coords": [
+        83.92043,
+        25.2316
+      ]
+    },
+    {
+      "name": "Kesath",
+      "coords": [
+        84.28143,
+        25.39303
+      ]
+    },
+    {
+      "name": "Jagdispur",
+      "coords": [
+        84.41238,
+        25.47769
+      ]
+    },
+    {
+      "name": "Arrah",
+      "coords": [
+        84.65297,
+        25.54055
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

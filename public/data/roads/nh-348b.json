@@ -1,0 +1,53 @@
+{
+  "id": "nh-348b",
+  "ref": "NH 348B",
+  "name": "Rasayani–Ulwe National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 19.2,
+  "route": {
+    "start": "Rasayani, Maharashtra",
+    "end": "Ulwe, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Rasayani",
+      "Ulwe"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rasayani",
+      "coords": [
+        73.09352,
+        18.84253
+      ]
+    },
+    {
+      "name": "Jasai",
+      "coords": [
+        73.04156,
+        18.93459
+      ]
+    },
+    {
+      "name": "Ulwe",
+      "coords": [
+        73.03654,
+        18.95686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

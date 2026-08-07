@@ -1,0 +1,50 @@
+{
+  "id": "kl-athikarathodi-kuttaloor-road-reach-2",
+  "ref": "MDR",
+  "name": "Athikarathodi - Kuttaloor Road Reach 2",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Panakkad, Kerala",
+    "end": "Vengara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panakkad",
+      "Othukungal",
+      "Vengara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panakkad",
+      "coords": [
+        76.03436,
+        11.06078
+      ]
+    },
+    {
+      "name": "Othukungal",
+      "coords": [
+        76.01104,
+        11.05066
+      ]
+    },
+    {
+      "name": "Vengara",
+      "coords": [
+        75.99145,
+        11.05178
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

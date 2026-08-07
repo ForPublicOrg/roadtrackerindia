@@ -1,0 +1,42 @@
+{
+  "id": "kl-kolayad-tholambra-road",
+  "ref": "MDR",
+  "name": "Kolayad - Tholambra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Kakkayangad, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayangad",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.6722,
+        11.89176
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.69783,
+        11.858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

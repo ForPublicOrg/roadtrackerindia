@@ -1,0 +1,58 @@
+{
+  "id": "kl-nettoor-panangad-road",
+  "ref": "MDR",
+  "name": "Nettoor - Panangad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Thykoodam, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thykoodam",
+      "Maradu",
+      "Perumpadappu",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thykoodam",
+      "coords": [
+        76.30626,
+        9.94406
+      ]
+    },
+    {
+      "name": "Maradu",
+      "coords": [
+        76.30959,
+        9.93618
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.31486,
+        9.91553
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.3268,
+        9.89071
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

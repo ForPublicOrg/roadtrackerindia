@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-143w",
+  "ref": "SH 143W",
+  "name": "Tontpur–Hodal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.6,
+  "route": {
+    "start": "Tontpur, Uttar Pradesh",
+    "end": "Hodal, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Tontpur",
+      "Govardhan",
+      "Hodal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tontpur",
+      "coords": [
+        77.57446,
+        27.35182
+      ]
+    },
+    {
+      "name": "Govardhan",
+      "coords": [
+        77.46247,
+        27.49516
+      ]
+    },
+    {
+      "name": "Hodal",
+      "coords": [
+        77.44331,
+        27.78848
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

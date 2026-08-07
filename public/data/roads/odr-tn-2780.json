@@ -1,0 +1,43 @@
+{
+  "id": "odr-tn-2780",
+  "ref": "ODR 2780",
+  "name": "Natham–Mahindra World City District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Natham, Tamil Nadu",
+    "end": "Mahindra World City, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Natham",
+      "Chengalpattu",
+      "Mahindra World City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Natham",
+      "coords": [
+        79.97865,
+        12.71136
+      ]
+    },
+    {
+      "name": "Mahindra World City",
+      "coords": [
+        79.97596,
+        12.7323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "tn-major-dsitrict-road",
+  "ref": "MDR",
+  "name": "Major Dsitrict Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.6,
+  "route": {
+    "start": "Rasipuram, Tamil Nadu",
+    "end": "Pillanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Rasipuram",
+      "Pillanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rasipuram",
+      "coords": [
+        78.20755,
+        11.43536
+      ]
+    },
+    {
+      "name": "Pillanallur",
+      "coords": [
+        78.13103,
+        11.42179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

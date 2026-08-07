@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-10",
+  "ref": "MDR 10",
+  "name": "Badiadka–Cherkala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Cherkala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Cherkala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.10921,
+        12.59572
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.07243,
+        12.59291
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-millupadi-kakkunni-masjid-road",
+  "ref": "MDR",
+  "name": "Millupadi Kakkunni Masjid Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Pathalam, Kerala",
+    "end": "Kongorpilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pathalam",
+      "Kongorpilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathalam",
+      "coords": [
+        76.31809,
+        10.0987
+      ]
+    },
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.3046,
+        10.09973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

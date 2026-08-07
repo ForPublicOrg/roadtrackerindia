@@ -1,0 +1,42 @@
+{
+  "id": "kl-akkaparamba-kottappuram-road",
+  "ref": "MDR",
+  "name": "Akkaparamba - Kottappuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Padapparamba, Kerala",
+    "end": "Ponmala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Padapparamba",
+      "Ponmala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Padapparamba",
+      "coords": [
+        76.0927,
+        10.97303
+      ]
+    },
+    {
+      "name": "Ponmala",
+      "coords": [
+        76.07008,
+        10.98431
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

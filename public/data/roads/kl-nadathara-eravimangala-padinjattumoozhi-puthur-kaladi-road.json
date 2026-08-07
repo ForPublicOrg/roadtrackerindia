@@ -1,0 +1,49 @@
+{
+  "id": "kl-nadathara-eravimangala-padinjattumoozhi-puthur-kaladi-road",
+  "ref": "MDR",
+  "name": "Nadathara – Eravimangala – Padinjattumoozhi – Puthur Kaladi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Chelakkottukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Chelakkottukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.26232,
+        10.50926
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.25864,
+        10.49866
+      ]
+    },
+    {
+      "name": "Chelakkottukara",
+      "coords": [
+        76.26691,
+        10.50038
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

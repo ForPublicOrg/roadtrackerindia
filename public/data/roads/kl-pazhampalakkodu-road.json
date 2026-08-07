@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhampalakkodu-road",
+  "ref": "MDR",
+  "name": "Pazhampalakkodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Ottapalam, Kerala",
+    "end": "edathil colony, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottapalam",
+      "edathil colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.42828,
+        10.71493
+      ]
+    },
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.44819,
+        10.70066
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ap-nagari-nagalapuram-road",
+  "ref": "SH",
+  "name": "Nagari - Nagalapuram Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19,
+  "route": {
+    "start": "Nindra, Andhra Pradesh",
+    "end": "Nagari, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Nindra",
+      "Nagari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nindra",
+      "coords": [
+        79.71442,
+        13.3991
+      ]
+    },
+    {
+      "name": "Nagari",
+      "coords": [
+        79.58602,
+        13.31939
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mattakara-kummannor-road",
+  "ref": "MDR",
+  "name": "Mattakara - Kummannor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.64687,
+        9.64634
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.63031,
+        9.68862
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

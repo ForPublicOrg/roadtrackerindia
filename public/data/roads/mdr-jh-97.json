@@ -1,0 +1,65 @@
+{
+  "id": "mdr-jh-97",
+  "ref": "MDR 97",
+  "name": "Kolghati–Sarle District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Kolghati, Jharkhand",
+    "end": "Sarle, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Kolghati",
+      "Hazaribagh",
+      "Jabra",
+      "Sarle"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolghati",
+      "coords": [
+        85.36234,
+        24.01199
+      ]
+    },
+    {
+      "name": "Nura",
+      "coords": [
+        85.35966,
+        24.00806
+      ]
+    },
+    {
+      "name": "Hazaribagh",
+      "coords": [
+        85.36436,
+        23.99887
+      ]
+    },
+    {
+      "name": "Jabra",
+      "coords": [
+        85.37084,
+        24.00872
+      ]
+    },
+    {
+      "name": "Sarle",
+      "coords": [
+        85.37531,
+        24.01669
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

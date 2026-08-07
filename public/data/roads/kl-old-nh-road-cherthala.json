@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-nh-road-cherthala",
+  "ref": "MDR",
+  "name": "Old NH road Cherthala",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.34031,
+        9.6744
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.31884,
+        9.6973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

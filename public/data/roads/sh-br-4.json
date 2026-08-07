@@ -1,0 +1,67 @@
+{
+  "id": "sh-br-4",
+  "ref": "SH 4",
+  "name": "Manpur–Karai Parsurai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 78.7,
+  "route": {
+    "start": "Manpur, Bihar",
+    "end": "Karai Parsurai, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Manpur",
+      "Gaya",
+      "Islampur",
+      "Ekangar Sarai",
+      "Hilsa",
+      "Karai Parsurai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manpur",
+      "coords": [
+        85.03676,
+        24.79923
+      ]
+    },
+    {
+      "name": "Islampur",
+      "coords": [
+        85.20278,
+        25.14142
+      ]
+    },
+    {
+      "name": "Ekangar Sarai",
+      "coords": [
+        85.22823,
+        25.21992
+      ]
+    },
+    {
+      "name": "Hilsa",
+      "coords": [
+        85.28055,
+        25.31372
+      ]
+    },
+    {
+      "name": "Karai Parsurai",
+      "coords": [
+        85.28347,
+        25.3813
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

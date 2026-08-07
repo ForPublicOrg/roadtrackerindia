@@ -1,0 +1,42 @@
+{
+  "id": "kl-edayannur-kanad-lp-school-kariyil-moola-pallikkaramukku-road",
+  "ref": "MDR",
+  "name": "Edayannur - Kanad LP School - Kariyil Moola - Pallikkaramukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.52664,
+        11.91616
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.51325,
+        11.92855
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

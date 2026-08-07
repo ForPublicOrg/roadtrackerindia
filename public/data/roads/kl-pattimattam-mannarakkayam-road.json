@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattimattam-mannarakkayam-road",
+  "ref": "MDR",
+  "name": "Pattimattam - Mannarakkayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.79504,
+        9.54664
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.81591,
+        9.54469
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

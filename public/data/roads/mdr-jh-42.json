@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-42",
+  "ref": "MDR 42",
+  "name": "Jhirpani–Biramitrapur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 81.5,
+  "route": {
+    "start": "Jhirpani, Jharkhand",
+    "end": "Biramitrapur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jhirpani",
+      "Biramitrapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhirpani",
+      "coords": [
+        85.06617,
+        22.53707
+      ]
+    },
+    {
+      "name": "Biramitrapur",
+      "coords": [
+        84.50286,
+        22.62146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

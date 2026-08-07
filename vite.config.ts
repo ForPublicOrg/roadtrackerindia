@@ -9,6 +9,7 @@ export default defineConfig({
     assetsInlineLimit: 4096,
   },
   server: {
-    port: 5173,
+    // honour PORT so tooling can hand us a free port (two dev servers at once)
+    port: Number(process.env.PORT) || 5173,
   },
 })

@@ -1,0 +1,42 @@
+{
+  "id": "kl-porathissery-road-mini-civil-station-road",
+  "ref": "MDR",
+  "name": "Porathissery Road (Mini Civil Station Road)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Puthukkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Puthukkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.22108,
+        10.3734
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.20849,
+        10.35793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

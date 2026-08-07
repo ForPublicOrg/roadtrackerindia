@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakuzhy-madayankunnu-road",
+  "ref": "MDR",
+  "name": "Valakuzhy - Madayankunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.58545,
+        9.75652
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.57822,
+        9.74483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

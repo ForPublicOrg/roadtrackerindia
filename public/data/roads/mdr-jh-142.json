@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-142",
+  "ref": "MDR 142",
+  "name": "Taliatanr–Khelari District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 24.4,
+  "route": {
+    "start": "Taliatanr, Jharkhand",
+    "end": "Khelari, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Taliatanr",
+      "Khelari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Taliatanr",
+      "coords": [
+        84.73776,
+        23.66929
+      ]
+    },
+    {
+      "name": "Khelari",
+      "coords": [
+        84.94882,
+        23.64828
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

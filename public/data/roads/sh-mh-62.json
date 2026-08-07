@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-62",
+  "ref": "SH 62",
+  "name": "Shirur–Kasba State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 72.1,
+  "route": {
+    "start": "Shirur, Maharashtra",
+    "end": "Kasba, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shirur",
+      "Kedgaon",
+      "Kasba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shirur",
+      "coords": [
+        74.33942,
+        18.80587
+      ]
+    },
+    {
+      "name": "Kedgaon",
+      "coords": [
+        74.37848,
+        18.45448
+      ]
+    },
+    {
+      "name": "Kasba",
+      "coords": [
+        74.39109,
+        18.18471
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

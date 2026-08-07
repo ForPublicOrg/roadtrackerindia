@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1206",
+  "ref": "MDR 1206",
+  "name": "Sarai–Singrauli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 35,
+  "route": {
+    "start": "Sarai, Madhya Pradesh",
+    "end": "Singrauli, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sarai",
+      "Singrauli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarai",
+      "coords": [
+        82.19337,
+        24.04011
+      ]
+    },
+    {
+      "name": "Singrauli",
+      "coords": [
+        82.37755,
+        24.23843
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

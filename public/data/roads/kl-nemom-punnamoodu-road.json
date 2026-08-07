@@ -1,0 +1,50 @@
+{
+  "id": "kl-nemom-punnamoodu-road",
+  "ref": "MDR",
+  "name": "Nemom - Punnamoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Kalliyoor, Kerala",
+    "end": "Nemom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalliyoor",
+      "Balaramapuram",
+      "Nemom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalliyoor",
+      "coords": [
+        77.02405,
+        8.4317
+      ]
+    },
+    {
+      "name": "Vellayani",
+      "coords": [
+        76.9931,
+        8.44853
+      ]
+    },
+    {
+      "name": "Nemom",
+      "coords": [
+        77.00001,
+        8.45733
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

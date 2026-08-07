@@ -1,0 +1,42 @@
+{
+  "id": "kl-karthikappally-danappady-road",
+  "ref": "MDR",
+  "name": "Karthikappally - Danappady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.4445,
+        9.28327
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.44986,
+        9.2603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

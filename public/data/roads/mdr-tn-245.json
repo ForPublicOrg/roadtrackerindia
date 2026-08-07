@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-245",
+  "ref": "MDR 245",
+  "name": "Kattumannarkoil–Lalpet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Kattumannarkoil, Tamil Nadu",
+    "end": "Lalpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kattumannarkoil",
+      "Lalpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattumannarkoil",
+      "coords": [
+        79.55434,
+        11.26084
+      ]
+    },
+    {
+      "name": "Lalpet",
+      "coords": [
+        79.51684,
+        11.18787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

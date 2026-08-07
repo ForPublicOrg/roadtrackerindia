@@ -1,0 +1,59 @@
+{
+  "id": "sh-hr-12",
+  "ref": "SH 12",
+  "name": "Jind–Rajgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 116.7,
+  "route": {
+    "start": "Jind, Haryana",
+    "end": "Rajgarh, Rajasthan",
+    "states": [
+      "Haryana",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jind",
+      "Hansi",
+      "Tosham",
+      "Rajgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jind",
+      "coords": [
+        76.28711,
+        29.30416
+      ]
+    },
+    {
+      "name": "Hansi",
+      "coords": [
+        75.97066,
+        29.09948
+      ]
+    },
+    {
+      "name": "Tosham",
+      "coords": [
+        75.91795,
+        28.87047
+      ]
+    },
+    {
+      "name": "Rajgarh",
+      "coords": [
+        75.55401,
+        28.62175
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

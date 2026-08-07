@@ -1,0 +1,46 @@
+{
+  "id": "nh-109d",
+  "ref": "NH 109D",
+  "name": "Tanakpur–Bhimdatta National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Tanakpur, Uttarakhand",
+    "end": "Bhimdatta, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Tanakpur",
+      "Bhimdatta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tanakpur",
+      "coords": [
+        80.07203,
+        28.99585
+      ]
+    },
+    {
+      "name": "Bhimdatta",
+      "coords": [
+        80.12164,
+        28.99169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

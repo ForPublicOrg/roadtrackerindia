@@ -1,0 +1,42 @@
+{
+  "id": "kl-bhagavathipadi-olaketty-road",
+  "ref": "MDR",
+  "name": "Bhagavathipadi - Olaketty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.51512,
+        9.20785
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.53398,
+        9.19951
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

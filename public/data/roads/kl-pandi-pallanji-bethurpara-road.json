@@ -1,0 +1,42 @@
+{
+  "id": "kl-pandi-pallanji-bethurpara-road",
+  "ref": "MDR",
+  "name": "Pandi - Pallanji - Bethurpara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Mulleria, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulleria",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.20481,
+        12.51092
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.19672,
+        12.49687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

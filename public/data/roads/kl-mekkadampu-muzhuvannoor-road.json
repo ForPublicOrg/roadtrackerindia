@@ -1,0 +1,50 @@
+{
+  "id": "kl-mekkadampu-muzhuvannoor-road",
+  "ref": "MDR",
+  "name": "Mekkadampu - Muzhuvannoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Kolenchery, Kerala",
+    "end": "Vazhappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kolenchery",
+      "Muvattupuzha",
+      "Vazhappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolenchery",
+      "coords": [
+        76.48682,
+        10.00285
+      ]
+    },
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.54309,
+        9.99801
+      ]
+    },
+    {
+      "name": "Muvattupuzha",
+      "coords": [
+        76.54178,
+        9.98009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

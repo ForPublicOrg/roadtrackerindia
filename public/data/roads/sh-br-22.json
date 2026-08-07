@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-22",
+  "ref": "SH 22",
+  "name": "Jasidih–Sultanganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 98.4,
+  "route": {
+    "start": "Jasidih, Jharkhand",
+    "end": "Sultanganj, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Jasidih",
+      "Sultanganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jasidih",
+      "coords": [
+        86.6575,
+        24.56881
+      ]
+    },
+    {
+      "name": "Sultanganj",
+      "coords": [
+        86.72817,
+        25.24364
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

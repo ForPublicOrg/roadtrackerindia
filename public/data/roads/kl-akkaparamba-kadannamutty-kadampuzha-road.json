@@ -1,0 +1,42 @@
+{
+  "id": "kl-akkaparamba-kadannamutty-kadampuzha-road",
+  "ref": "MDR",
+  "name": "Akkaparamba - Kadannamutty - Kadampuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Kadampuzha, Kerala",
+    "end": "Padapparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadampuzha",
+      "Padapparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadampuzha",
+      "coords": [
+        76.06177,
+        10.96787
+      ]
+    },
+    {
+      "name": "Padapparamba",
+      "coords": [
+        76.08276,
+        10.97921
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

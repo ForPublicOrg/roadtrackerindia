@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-nh-road-vadakara",
+  "ref": "SH",
+  "name": "Old NH Road Vadakara",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Vadakara, Kerala",
+    "end": "Orkkatteri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakara",
+      "Orkkatteri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakara",
+      "coords": [
+        75.59218,
+        11.58687
+      ]
+    },
+    {
+      "name": "Orkkatteri",
+      "coords": [
+        75.57965,
+        11.60993
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-vattappally-road",
+  "ref": "MDR",
+  "name": "Vattappally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Zakariya Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha",
+      "Zakariya Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.32704,
+        9.48573
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32613,
+        9.49428
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

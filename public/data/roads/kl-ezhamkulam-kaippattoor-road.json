@@ -1,0 +1,43 @@
+{
+  "id": "kl-ezhamkulam-kaippattoor-road",
+  "ref": "MDR",
+  "name": "Ezhamkulam - Kaippattoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.3,
+  "route": {
+    "start": "Parakode, Kerala",
+    "end": "Puthenpeedika, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakode",
+      "Adoor",
+      "Puthenpeedika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakode",
+      "coords": [
+        76.76952,
+        9.14488
+      ]
+    },
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.75337,
+        9.22597
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

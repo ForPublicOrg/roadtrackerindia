@@ -1,0 +1,42 @@
+{
+  "id": "kl-mala-chungam-kombathukadavu-road",
+  "ref": "MDR",
+  "name": "Mala - Chungam - Kombathukadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.26254,
+        10.24442
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.23297,
+        10.24301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

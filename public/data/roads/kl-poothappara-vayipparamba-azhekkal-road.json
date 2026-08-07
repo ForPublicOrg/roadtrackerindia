@@ -1,0 +1,42 @@
+{
+  "id": "kl-poothappara-vayipparamba-azhekkal-road",
+  "ref": "MDR",
+  "name": "Poothappara - Vayipparamba - Azhekkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Puthiyatheru, Kerala",
+    "end": "Pappinisseri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyatheru",
+      "Pappinisseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.34222,
+        11.91029
+      ]
+    },
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.32047,
+        11.92343
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

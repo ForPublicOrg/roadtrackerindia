@@ -1,0 +1,42 @@
+{
+  "id": "kl-wallardy-chenkara-pullumedu-road",
+  "ref": "MDR",
+  "name": "Wallardy - Chenkara - Pullumedu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.1,
+  "route": {
+    "start": "Vandiperiyar, Kerala",
+    "end": "Elappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandiperiyar",
+      "Elappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandiperiyar",
+      "coords": [
+        77.1065,
+        9.58422
+      ]
+    },
+    {
+      "name": "Elappara",
+      "coords": [
+        77.06036,
+        9.66606
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

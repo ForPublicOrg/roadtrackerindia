@@ -1,0 +1,66 @@
+{
+  "id": "mdr-tn-1166",
+  "ref": "MDR 1166",
+  "name": "Vanagaram–Thiruvengada Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Vanagaram, Tamil Nadu",
+    "end": "Thiruvengada Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vanagaram",
+      "Poonamallee",
+      "Avadi",
+      "Ambattur",
+      "Thiruvengada Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vanagaram",
+      "coords": [
+        80.13852,
+        13.06262
+      ]
+    },
+    {
+      "name": "Poonamallee",
+      "coords": [
+        80.12572,
+        13.06838
+      ]
+    },
+    {
+      "name": "Thiruverkadu",
+      "coords": [
+        80.12492,
+        13.07453
+      ]
+    },
+    {
+      "name": "Avadi",
+      "coords": [
+        80.12749,
+        13.09733
+      ]
+    },
+    {
+      "name": "Ambattur",
+      "coords": [
+        80.15026,
+        13.10345
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

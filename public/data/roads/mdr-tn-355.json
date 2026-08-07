@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-355",
+  "ref": "MDR 355",
+  "name": "Karaikkadu–Vadalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Karaikkadu, Tamil Nadu",
+    "end": "Vadalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karaikkadu",
+      "Vadalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaikkadu",
+      "coords": [
+        79.69377,
+        11.64354
+      ]
+    },
+    {
+      "name": "Vadalur",
+      "coords": [
+        79.65433,
+        11.53374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

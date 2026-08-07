@@ -1,0 +1,42 @@
+{
+  "id": "kl-enathu-pattazhi-road",
+  "ref": "MDR",
+  "name": "Enathu - Pattazhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Parakode, Kerala",
+    "end": "Nellimoottilpadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakode",
+      "Nellimoottilpadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakode",
+      "coords": [
+        76.75546,
+        9.09117
+      ]
+    },
+    {
+      "name": "Nellimoottilpadi",
+      "coords": [
+        76.7719,
+        9.0875
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

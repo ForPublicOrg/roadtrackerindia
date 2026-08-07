@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-5",
+  "ref": "MDR 5",
+  "name": "Badiadka–Puttur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Puttur, Karnataka",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Puttur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.12553,
+        12.66958
+      ]
+    },
+    {
+      "name": "Puttur",
+      "coords": [
+        75.15895,
+        12.66662
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

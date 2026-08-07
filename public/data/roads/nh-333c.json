@@ -1,0 +1,47 @@
+{
+  "id": "nh-333c",
+  "ref": "NH 333C",
+  "name": "Jhajha–Devipur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 15.9,
+  "route": {
+    "start": "Jhajha, Bihar",
+    "end": "Devipur, Bihar",
+    "states": [
+      "Bihar",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jhajha",
+      "Devipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhajha",
+      "coords": [
+        86.39683,
+        24.55638
+      ]
+    },
+    {
+      "name": "Devipur",
+      "coords": [
+        86.29216,
+        24.47912
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

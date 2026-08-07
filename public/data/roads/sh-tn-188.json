@@ -1,0 +1,65 @@
+{
+  "id": "sh-tn-188",
+  "ref": "SH 188",
+  "name": "Old Suramangalam–Yercaud State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.3,
+  "route": {
+    "start": "Old Suramangalam, Tamil Nadu",
+    "end": "Yercaud, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Old Suramangalam",
+      "Salem",
+      "Kondappanaickenpatti",
+      "Yercaud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Old Suramangalam",
+      "coords": [
+        78.11189,
+        11.67838
+      ]
+    },
+    {
+      "name": "Suramangalam",
+      "coords": [
+        78.12042,
+        11.67303
+      ]
+    },
+    {
+      "name": "Salem",
+      "coords": [
+        78.1599,
+        11.67564
+      ]
+    },
+    {
+      "name": "Gorimedu",
+      "coords": [
+        78.16411,
+        11.69569
+      ]
+    },
+    {
+      "name": "Yercaud",
+      "coords": [
+        78.20675,
+        11.78512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-1020",
+  "ref": "MDR 1020",
+  "name": "Ramapuram–Virugambakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Ramapuram, Tamil Nadu",
+    "end": "Virugambakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ramapuram",
+      "Nesapakkam",
+      "Valasaravakkam",
+      "Virugambakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramapuram",
+      "coords": [
+        80.18309,
+        13.02451
+      ]
+    },
+    {
+      "name": "Nesapakkam",
+      "coords": [
+        80.18377,
+        13.03069
+      ]
+    },
+    {
+      "name": "Valasaravakkam",
+      "coords": [
+        80.18406,
+        13.03891
+      ]
+    },
+    {
+      "name": "Virugambakkam",
+      "coords": [
+        80.186,
+        13.04493
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

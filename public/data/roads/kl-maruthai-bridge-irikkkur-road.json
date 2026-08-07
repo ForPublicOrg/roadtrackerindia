@@ -1,0 +1,42 @@
+{
+  "id": "kl-maruthai-bridge-irikkkur-road",
+  "ref": "MDR",
+  "name": "Maruthai Bridge - Irikkkur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Irikkoor, Kerala",
+    "end": "Mattannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irikkoor",
+      "Mattannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.53246,
+        11.97065
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.54779,
+        11.96524
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

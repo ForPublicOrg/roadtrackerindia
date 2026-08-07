@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-525",
+  "ref": "MDR 525",
+  "name": "Machuvadi–Karambakudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 24.9,
+  "route": {
+    "start": "Machuvadi, Tamil Nadu",
+    "end": "Karambakudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Machuvadi",
+      "Karambakudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Machuvadi",
+      "coords": [
+        78.87812,
+        10.42664
+      ]
+    },
+    {
+      "name": "Karambakudi",
+      "coords": [
+        79.09304,
+        10.44903
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

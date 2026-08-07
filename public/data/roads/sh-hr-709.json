@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-709",
+  "ref": "SH 709",
+  "name": "Rohtak–Loharu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 109.1,
+  "route": {
+    "start": "Rohtak, Haryana",
+    "end": "Loharu, Rajasthan",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Rohtak",
+      "Bhiwani",
+      "Loharu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rohtak",
+      "coords": [
+        76.57435,
+        28.8979
+      ]
+    },
+    {
+      "name": "Bhiwani",
+      "coords": [
+        76.14594,
+        28.79291
+      ]
+    },
+    {
+      "name": "Loharu",
+      "coords": [
+        75.79972,
+        28.43078
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

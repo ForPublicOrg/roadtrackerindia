@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2280",
+  "ref": "ODR 2280",
+  "name": "Arani–Uthukottai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Arani, Tamil Nadu",
+    "end": "Uthukottai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Arani",
+      "Uthukottai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arani",
+      "coords": [
+        79.99208,
+        13.2978
+      ]
+    },
+    {
+      "name": "Uthukottai",
+      "coords": [
+        80.00506,
+        13.3107
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-105",
+  "ref": "MDR 105",
+  "name": "Takhatgarh–Sadri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.4,
+  "route": {
+    "start": "Takhatgarh, Rajasthan",
+    "end": "Sadri, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Takhatgarh",
+      "Rani",
+      "Sadri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Takhatgarh",
+      "coords": [
+        73.13052,
+        25.53115
+      ]
+    },
+    {
+      "name": "Rani",
+      "coords": [
+        73.30642,
+        25.3466
+      ]
+    },
+    {
+      "name": "Sadri",
+      "coords": [
+        73.39133,
+        25.19583
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

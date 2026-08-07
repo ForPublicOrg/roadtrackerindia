@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-13",
+  "ref": "SH 13",
+  "name": "Navapur–Sakri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 75,
+  "route": {
+    "start": "Navapur, Maharashtra",
+    "end": "Sakri, Maharashtra",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Navapur",
+      "Pimpalner",
+      "Sakri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navapur",
+      "coords": [
+        73.79105,
+        21.15603
+      ]
+    },
+    {
+      "name": "Pimpalner",
+      "coords": [
+        74.11814,
+        20.95599
+      ]
+    },
+    {
+      "name": "Sakri",
+      "coords": [
+        74.30824,
+        20.99188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

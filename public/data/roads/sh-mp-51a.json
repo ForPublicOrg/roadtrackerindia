@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-51a",
+  "ref": "SH 51A",
+  "name": "Shivpuri–Sheopur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.7,
+  "route": {
+    "start": "Shivpuri, Madhya Pradesh",
+    "end": "Sheopur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Shivpuri",
+      "Pohari",
+      "Sheopur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shivpuri",
+      "coords": [
+        77.64259,
+        25.42746
+      ]
+    },
+    {
+      "name": "Pohari",
+      "coords": [
+        77.36327,
+        25.54223
+      ]
+    },
+    {
+      "name": "Sheopur",
+      "coords": [
+        76.94718,
+        25.53474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

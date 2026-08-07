@@ -1,0 +1,56 @@
+{
+  "id": "mdr-mp-3123",
+  "ref": "MDR 3123",
+  "name": "Mandideep–Kolar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Mandideep, Madhya Pradesh",
+    "end": "Kolar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mandideep",
+      "Kolar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandideep",
+      "coords": [
+        77.33731,
+        22.9647
+      ]
+    },
+    {
+      "name": "Kolar",
+      "coords": [
+        77.41754,
+        23.17465
+      ]
+    },
+    {
+      "name": "Hoshangabad Road",
+      "coords": [
+        77.41741,
+        23.19061
+      ]
+    },
+    {
+      "name": "Kolar",
+      "coords": [
+        77.41723,
+        23.21732
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

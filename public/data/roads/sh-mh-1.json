@@ -1,0 +1,80 @@
+{
+  "id": "sh-mh-1",
+  "ref": "SH 1",
+  "name": "Kevadiya–Shahada State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 342,
+  "route": {
+    "start": "Kevadiya, Maharashtra",
+    "end": "Shahada, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kevadiya",
+      "Balwadi",
+      "Amalner",
+      "Chimthane",
+      "Shahada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kevadiya",
+      "coords": [
+        73.84441,
+        21.74139
+      ]
+    },
+    {
+      "name": "Balwadi",
+      "coords": [
+        75.14213,
+        21.40405
+      ]
+    },
+    {
+      "name": "Amalner",
+      "coords": [
+        75.08711,
+        21.05086
+      ]
+    },
+    {
+      "name": "Kapadne",
+      "coords": [
+        74.78592,
+        21.07021
+      ]
+    },
+    {
+      "name": "Shindkheda",
+      "coords": [
+        74.67568,
+        21.21275
+      ]
+    },
+    {
+      "name": "Dondaicha",
+      "coords": [
+        74.5665,
+        21.32872
+      ]
+    },
+    {
+      "name": "Shahada",
+      "coords": [
+        74.48264,
+        21.54175
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

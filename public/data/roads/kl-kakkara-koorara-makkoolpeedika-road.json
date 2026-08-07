@@ -1,0 +1,42 @@
+{
+  "id": "kl-kakkara-koorara-makkoolpeedika-road",
+  "ref": "MDR",
+  "name": "Kakkara - Koorara - Makkoolpeedika Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Panoor, Kerala",
+    "end": "Chokli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panoor",
+      "Chokli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panoor",
+      "coords": [
+        75.54045,
+        11.77692
+      ]
+    },
+    {
+      "name": "Chokli",
+      "coords": [
+        75.57972,
+        11.77569
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

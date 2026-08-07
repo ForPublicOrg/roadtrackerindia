@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallissery-church-road",
+  "ref": "MDR",
+  "name": "Pallissery Church Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Puthukkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Puthukkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.2168,
+        10.43111
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.22181,
+        10.41746
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

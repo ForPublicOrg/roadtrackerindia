@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-18",
+  "ref": "SH 18",
+  "name": "Meerut–Hapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39.9,
+  "route": {
+    "start": "Meerut, Uttar Pradesh",
+    "end": "Hapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Meerut",
+      "Hapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Meerut",
+      "coords": [
+        77.70553,
+        28.995
+      ]
+    },
+    {
+      "name": "Hapur",
+      "coords": [
+        77.77143,
+        28.7439
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kl-attingal-tottavaram-road",
+  "ref": "MDR",
+  "name": "Attingal Tottavaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.80607,
+        8.69968
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.79899,
+        8.69354
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.80023,
+        8.69072
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

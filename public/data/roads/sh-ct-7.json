@@ -1,0 +1,66 @@
+{
+  "id": "sh-ct-7",
+  "ref": "SH 7",
+  "name": "Balod–Mungeli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 176.2,
+  "route": {
+    "start": "Balod, Chhattisgarh",
+    "end": "Mungeli, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Balod",
+      "Durg",
+      "Nandini Nagar",
+      "Bemetara",
+      "Mungeli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balod",
+      "coords": [
+        81.23891,
+        20.71639
+      ]
+    },
+    {
+      "name": "Durg",
+      "coords": [
+        81.2803,
+        21.19005
+      ]
+    },
+    {
+      "name": "Nandini Nagar",
+      "coords": [
+        81.35842,
+        21.36971
+      ]
+    },
+    {
+      "name": "Bemetara",
+      "coords": [
+        81.53474,
+        21.71535
+      ]
+    },
+    {
+      "name": "Mungeli",
+      "coords": [
+        81.6839,
+        22.06622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

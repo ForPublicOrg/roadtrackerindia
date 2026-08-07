@@ -1,0 +1,44 @@
+{
+  "id": "odr-tn-6605",
+  "ref": "ODR 6605",
+  "name": "Chromepet–Anakaputhur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Chromepet, Tamil Nadu",
+    "end": "Anakaputhur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chromepet",
+      "Tambaram",
+      "Pallavaram",
+      "Anakaputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chromepet",
+      "coords": [
+        80.11606,
+        12.94769
+      ]
+    },
+    {
+      "name": "Pallavaram",
+      "coords": [
+        80.11666,
+        12.96
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

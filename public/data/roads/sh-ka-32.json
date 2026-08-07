@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-32",
+  "ref": "SH 32",
+  "name": "Umarga–Chincholi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 117.8,
+  "route": {
+    "start": "Umarga, Karnataka",
+    "end": "Chincholi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Umarga",
+      "Alanda",
+      "Chincholi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Umarga",
+      "coords": [
+        76.57805,
+        17.70525
+      ]
+    },
+    {
+      "name": "Alanda",
+      "coords": [
+        76.56765,
+        17.56842
+      ]
+    },
+    {
+      "name": "Chincholi",
+      "coords": [
+        77.34145,
+        17.40292
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

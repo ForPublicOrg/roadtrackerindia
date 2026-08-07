@@ -1,0 +1,42 @@
+{
+  "id": "kl-chengothuvayal-valayamkundu-road",
+  "ref": "MDR",
+  "name": "Chengothuvayal - Valayamkundu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Chemperi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Chemperi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.56071,
+        12.07585
+      ]
+    },
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.55244,
+        12.08679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

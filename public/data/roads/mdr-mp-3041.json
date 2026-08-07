@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-3041",
+  "ref": "MDR 3041",
+  "name": "Baraily–Gadarwara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 58.1,
+  "route": {
+    "start": "Baraily, Madhya Pradesh",
+    "end": "Gadarwara, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Baraily",
+      "Udaipura",
+      "Gadarwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baraily",
+      "coords": [
+        78.32341,
+        23.12394
+      ]
+    },
+    {
+      "name": "Udaipura",
+      "coords": [
+        78.50566,
+        23.12893
+      ]
+    },
+    {
+      "name": "Gadarwara",
+      "coords": [
+        78.68117,
+        23.0399
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

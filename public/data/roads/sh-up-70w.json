@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-70w",
+  "ref": "SH 70W",
+  "name": "Jewar–Khurja State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33.5,
+  "route": {
+    "start": "Jewar, Uttar Pradesh",
+    "end": "Khurja, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Jewar",
+      "Khurja"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jewar",
+      "coords": [
+        77.56082,
+        28.12398
+      ]
+    },
+    {
+      "name": "Khurja",
+      "coords": [
+        77.85476,
+        28.24891
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

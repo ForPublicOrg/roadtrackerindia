@@ -1,0 +1,46 @@
+{
+  "id": "nh-505a",
+  "ref": "NH 505A",
+  "name": "Rekong Peo–Sangla National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Rekong Peo, Himachal Pradesh",
+    "end": "Sangla, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Rekong Peo",
+      "Sangla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rekong Peo",
+      "coords": [
+        78.25068,
+        31.53327
+      ]
+    },
+    {
+      "name": "Sangla",
+      "coords": [
+        78.28036,
+        31.55567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

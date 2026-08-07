@@ -1,0 +1,85 @@
+{
+  "id": "nh-753",
+  "ref": "NH 753",
+  "name": "Saoner–Sadak-Arjuni National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 205,
+  "route": {
+    "start": "Saoner, Maharashtra",
+    "end": "Sadak-Arjuni, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Saoner",
+      "Ramtek",
+      "Tumsar",
+      "Tirora",
+      "Gondia",
+      "Sadak-Arjuni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saoner",
+      "coords": [
+        78.93134,
+        21.39333
+      ]
+    },
+    {
+      "name": "Parshivni",
+      "coords": [
+        79.15075,
+        21.37154
+      ]
+    },
+    {
+      "name": "Ramtek",
+      "coords": [
+        79.32311,
+        21.39034
+      ]
+    },
+    {
+      "name": "Tumsar",
+      "coords": [
+        79.73501,
+        21.35415
+      ]
+    },
+    {
+      "name": "Tirora",
+      "coords": [
+        79.92947,
+        21.40206
+      ]
+    },
+    {
+      "name": "Gondia",
+      "coords": [
+        80.19698,
+        21.47279
+      ]
+    },
+    {
+      "name": "Sadak-Arjuni",
+      "coords": [
+        80.15435,
+        21.09314
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

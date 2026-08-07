@@ -1,0 +1,42 @@
+{
+  "id": "kl-chulliyodu-pattakarimba-road",
+  "ref": "MDR",
+  "name": "Chulliyodu - Pattakarimba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Kalikavu, Kerala",
+    "end": "Nilambur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalikavu",
+      "Nilambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalikavu",
+      "coords": [
+        76.35858,
+        11.26789
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.31727,
+        11.25798
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

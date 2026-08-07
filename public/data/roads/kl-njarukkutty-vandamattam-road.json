@@ -1,0 +1,42 @@
+{
+  "id": "kl-njarukkutty-vandamattam-road",
+  "ref": "MDR",
+  "name": "Njarukkutty - Vandamattam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Thodupuzha, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thodupuzha",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.75816,
+        9.93514
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.7498,
+        9.92504
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

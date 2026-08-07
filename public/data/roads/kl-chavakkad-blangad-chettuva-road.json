@@ -1,0 +1,42 @@
+{
+  "id": "kl-chavakkad-blangad-chettuva-road",
+  "ref": "MDR",
+  "name": "Chavakkad - Blangad - Chettuva Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Chavakkad, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavakkad",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavakkad",
+      "coords": [
+        76.01953,
+        10.57701
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.04413,
+        10.54184
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

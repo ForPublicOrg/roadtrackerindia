@@ -1,0 +1,42 @@
+{
+  "id": "kl-glenmary-road",
+  "ref": "MDR",
+  "name": "Glenmary Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Peermade, Kerala",
+    "end": "Elappara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peermade",
+      "Elappara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peermade",
+      "coords": [
+        77.0154,
+        9.57831
+      ]
+    },
+    {
+      "name": "Elappara",
+      "coords": [
+        76.97371,
+        9.60763
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

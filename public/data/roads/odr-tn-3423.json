@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-3423",
+  "ref": "ODR 3423",
+  "name": "Tiruttani–Nagari District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Tiruttani, Tamil Nadu",
+    "end": "Nagari, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruttani",
+      "Nagari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruttani",
+      "coords": [
+        79.56689,
+        13.23895
+      ]
+    },
+    {
+      "name": "Nagari",
+      "coords": [
+        79.58815,
+        13.24194
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

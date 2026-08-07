@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-213",
+  "ref": "MDR 213",
+  "name": "Bakani–Suket District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.6,
+  "route": {
+    "start": "Bakani, Rajasthan",
+    "end": "Suket, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bakani",
+      "Suket"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bakani",
+      "coords": [
+        76.17928,
+        24.36188
+      ]
+    },
+    {
+      "name": "Suket",
+      "coords": [
+        76.04675,
+        24.53616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

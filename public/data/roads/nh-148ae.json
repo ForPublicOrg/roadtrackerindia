@@ -1,0 +1,68 @@
+{
+  "id": "nh-148ae",
+  "ref": "NH 148AE",
+  "name": "Chhattarpur–Vasant Vihar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Chhattarpur, Delhi",
+    "end": "Vasant Vihar, Delhi",
+    "states": [
+      "Delhi"
+    ],
+    "majorCities": [
+      "Chhattarpur",
+      "Vasant Kunj",
+      "Vasant Vihar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhattarpur",
+      "coords": [
+        77.17588,
+        28.50805
+      ]
+    },
+    {
+      "name": "Kishangarh",
+      "coords": [
+        77.16485,
+        28.514
+      ]
+    },
+    {
+      "name": "Vasant Kunj",
+      "coords": [
+        77.15515,
+        28.52501
+      ]
+    },
+    {
+      "name": "Samalkha",
+      "coords": [
+        77.12494,
+        28.54658
+      ]
+    },
+    {
+      "name": "Vasant Vihar",
+      "coords": [
+        77.1339,
+        28.55221
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

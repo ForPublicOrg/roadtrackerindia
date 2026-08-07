@@ -1,0 +1,50 @@
+{
+  "id": "kl-viyyur-tanikudam-road",
+  "ref": "MDR",
+  "name": "Viyyur - Tanikudam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Chembukkavu, Kerala",
+    "end": "Thanikkudam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chembukkavu",
+      "Thrissur",
+      "Thanikkudam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chembukkavu",
+      "coords": [
+        76.2264,
+        10.55524
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.24751,
+        10.5646
+      ]
+    },
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.25764,
+        10.57424
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

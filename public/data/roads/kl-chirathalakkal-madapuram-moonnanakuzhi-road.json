@@ -1,0 +1,42 @@
+{
+  "id": "kl-chirathalakkal-madapuram-moonnanakuzhi-road",
+  "ref": "MDR",
+  "name": "Chirathalakkal - Madapuram - Moonnanakuzhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Venjaramoodu, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venjaramoodu",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.93979,
+        8.64864
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        76.9659,
+        8.65094
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

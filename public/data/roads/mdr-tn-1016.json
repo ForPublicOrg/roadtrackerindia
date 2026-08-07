@@ -1,0 +1,59 @@
+{
+  "id": "mdr-tn-1016",
+  "ref": "MDR 1016",
+  "name": "Vannarapalayam–New Town District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Vannarapalayam, Tamil Nadu",
+    "end": "New Town, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vannarapalayam",
+      "Cuddalore Old Town",
+      "Vanniyarpalayam",
+      "Cuddalore",
+      "New Town"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vannarapalayam",
+      "coords": [
+        79.78573,
+        11.73964
+      ]
+    },
+    {
+      "name": "Cuddalore Old Town",
+      "coords": [
+        79.77976,
+        11.73898
+      ]
+    },
+    {
+      "name": "Vanniyarpalayam",
+      "coords": [
+        79.77152,
+        11.74798
+      ]
+    },
+    {
+      "name": "Cuddalore",
+      "coords": [
+        79.76214,
+        11.75405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

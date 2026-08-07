@@ -1,0 +1,42 @@
+{
+  "id": "kl-elimukku-karithotta-kuriyanippally-road",
+  "ref": "MDR",
+  "name": "Elimukku - Karithotta - Kuriyanippally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.67146,
+        9.28971
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.68547,
+        9.27561
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

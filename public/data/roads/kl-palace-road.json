@@ -1,0 +1,50 @@
+{
+  "id": "kl-palace-road",
+  "ref": "MDR",
+  "name": "Palace Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.3,
+  "route": {
+    "start": "Kottayam, Kerala",
+    "end": "Zakariya Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottayam",
+      "Alappuzha",
+      "Zakariya Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.52081,
+        9.58844
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32917,
+        9.49232
+      ]
+    },
+    {
+      "name": "Zakariya Bazar",
+      "coords": [
+        76.31933,
+        9.4897
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

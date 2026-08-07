@@ -1,0 +1,43 @@
+{
+  "id": "mdr-kl-102",
+  "ref": "MDR 102",
+  "name": "Kalanad–Chattanchal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Kalanad, Kerala",
+    "end": "Chattanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalanad",
+      "Palakunnu",
+      "Chattanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalanad",
+      "coords": [
+        75.02242,
+        12.4506
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.05805,
+        12.47982
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

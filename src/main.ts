@@ -2,16 +2,20 @@ import '@fontsource-variable/inter'
 import '@fontsource-variable/fraunces'
 import './styles.css'
 
+import type { BBox } from './types'
 import { initTheme, toggleTheme } from './theme'
 import { emit, state } from './state'
-import { loadDetail, loadIndex, loadNetwork, loadShape } from './data'
+import { loadDetail, loadIndex, loadNetwork, loadNetworkDetail, loadOrg, loadShape } from './data'
 import {
   clearSelected,
   flyHome,
   flyToRoad,
+  highlightRoads,
   initMap,
   onBaseClick,
+  onDetailNetworkNeeded,
   onRoadClick,
+  setDetailNetworkData,
   setNetworkData,
   showSelected,
 } from './map'
@@ -22,13 +26,25 @@ import {
   onPanelClose,
   panelMode,
   renderDetail,
+  renderOrg,
   showLoading,
+  showOrgLoading,
 } from './panel'
+import { initOrgs, orgSummary, renderOrgProfile } from './orgs'
 import { initSearch } from './search'
 import { initBrowse, openBrowse } from './browse'
 import { initLocate } from './locate'
 import { initReports, handleMapClick as handleReportClick, isReporting } from './reports'
-import { applyMeta, currentRoadId, initRouter, navigateHome, navigateToRoad, replaceHome } from './router'
+import {
+  applyMeta,
+  applyOrgMeta,
+  currentRoute,
+  initRouter,
+  navigateHome,
+  navigateToOrg,
+  navigateToRoad,
+  replaceHome,
+} from './router'
 import { initLegend, toast } from './ui'
 
 async function boot(): Promise<void> {
@@ -56,10 +72,30 @@ async function boot(): Promise<void> {
   await mapReady
   setNetworkData(network)
 
+  // thousands of state and district roads — fetched the first time the map is
+  // zoomed in far enough for them to be legible, never on the home view
+  onDetailNetworkNeeded(() => {
+    void loadNetworkDetail()
+      .then(setDetailNetworkData)
+      .catch(() => {
+        /* the trunk network still works — no need to alarm anyone */
+      })
+  })
+
+  void initOrgs() // org names for the panel chips; the page works without them
+
   // ── selection flow ───────────────────────────────────────────────
   let selectToken = 0
+  let selectedOrgId: string | null = null
+
+  function clearOrg(): void {
+    if (!selectedOrgId) return
+    selectedOrgId = null
+    highlightRoads(null)
+  }
 
   async function select(id: string, opts: { skipFly?: boolean; fromRouter?: boolean } = {}) {
+    clearOrg()
     const summary = state.byId.get(id)
     if (!summary) {
       toast("We don't have that road catalogued (yet).")
@@ -90,9 +126,65 @@ async function boot(): Promise<void> {
     }
   }
 
+  /** One box around every road an organisation touched, from the search index. */
+  function unionBbox(ids: string[]): BBox | null {
+    let box: BBox | null = null
+    for (const id of ids) {
+      const b = state.byId.get(id)?.bbox
+      if (!b) continue
+      box = box
+        ? [Math.min(box[0], b[0]), Math.min(box[1], b[1]), Math.max(box[2], b[2]), Math.max(box[3], b[3])]
+        : [...b]
+    }
+    return box
+  }
+
+  /**
+   * A company page: its profile in the panel, and every road it has touched lit
+   * up on the map at once. That map view is the whole point — it turns "who
+   * built this?" into "what else have they built?".
+   */
+  async function selectOrg(id: string, opts: { fromRouter?: boolean } = {}) {
+    const token = ++selectToken
+    state.selectedId = null
+    emit('select', null)
+    clearSelected()
+    selectedOrgId = id
+    document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'false')
+
+    const summary = orgSummary(id)
+    showOrgLoading(summary?.name ?? 'Loading…')
+    if (summary) {
+      if (opts.fromRouter) applyOrgMeta(summary)
+      else navigateToOrg(summary)
+    }
+
+    try {
+      const org = await loadOrg(id)
+      if (token !== selectToken) return
+      // on a cold deep link the org index has not arrived yet, so the title and
+      // canonical URL are still the defaults — set them from the profile itself
+      if (!summary) {
+        const loaded = { id: org.id, name: org.name, shortName: org.shortName, type: org.type, summary: org.summary, stats: org.stats }
+        if (opts.fromRouter) applyOrgMeta(loaded)
+        else navigateToOrg(loaded)
+      }
+      renderOrg(renderOrgProfile(org))
+      const ids = org.roads.map((r) => r.id).filter((rid) => state.byId.has(rid))
+      highlightRoads(ids)
+      const bbox = unionBbox(ids)
+      if (bbox) flyToRoad(bbox)
+    } catch {
+      if (token !== selectToken) return
+      toast("We don't have a profile for that organisation.")
+      deselect(opts)
+    }
+  }
+
   function deselect(opts: { fromRouter?: boolean } = {}) {
     selectToken++
-    const hadSelection = state.selectedId !== null
+    const hadSelection = state.selectedId !== null || selectedOrgId !== null
+    clearOrg()
     state.selectedId = null
     emit('select', null)
     clearSelected()
@@ -173,6 +265,10 @@ async function boot(): Promise<void> {
     const id = (e as CustomEvent<{ id?: string }>).detail?.id
     if (id) void select(id)
   })
+  document.addEventListener('rti:select-org', (e) => {
+    const id = (e as CustomEvent<{ id?: string }>).detail?.id
+    if (id) void selectOrg(id)
+  })
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape' || e.defaultPrevented) return // report mode/dialog consumed it
@@ -182,12 +278,14 @@ async function boot(): Promise<void> {
   })
 
   // ── deep link ────────────────────────────────────────────────────
-  initRouter((roadId) => {
-    if (roadId) void select(roadId, { fromRouter: true })
-    else deselect({ fromRouter: true })
-  })
-  const initial = currentRoadId()
-  if (initial) void select(initial, { fromRouter: true })
+  const go = (route: ReturnType<typeof currentRoute>, fromRouter: boolean) => {
+    if (route?.kind === 'road') void select(route.id, { fromRouter })
+    else if (route?.kind === 'org') void selectOrg(route.id, { fromRouter })
+    else deselect({ fromRouter })
+  }
+  initRouter((route) => go(route, true))
+  const initial = currentRoute()
+  if (initial) go(initial, true)
 }
 
 void boot()

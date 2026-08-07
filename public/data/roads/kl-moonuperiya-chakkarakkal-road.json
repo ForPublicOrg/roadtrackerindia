@@ -1,0 +1,42 @@
+{
+  "id": "kl-moonuperiya-chakkarakkal-road",
+  "ref": "MDR",
+  "name": "Moonuperiya - Chakkarakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Kadachira, Kerala",
+    "end": "Thottada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadachira",
+      "Thottada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.47455,
+        11.83261
+      ]
+    },
+    {
+      "name": "Thottada",
+      "coords": [
+        75.47058,
+        11.89097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

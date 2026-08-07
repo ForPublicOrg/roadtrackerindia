@@ -1,0 +1,42 @@
+{
+  "id": "kl-malavayal-ammaiyipalam-road",
+  "ref": "MDR",
+  "name": "Malavayal - Ammaiyipalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.25918,
+        11.63141
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.2627,
+        11.64612
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

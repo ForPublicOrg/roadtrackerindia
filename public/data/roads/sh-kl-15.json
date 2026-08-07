@@ -1,0 +1,73 @@
+{
+  "id": "sh-kl-15",
+  "ref": "SH 15",
+  "name": "Vyttila–Ettumanoor State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54,
+  "route": {
+    "start": "Vyttila, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vyttila",
+      "Ernakulam",
+      "Vaikom",
+      "Thalayolaparambu",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vyttila",
+      "coords": [
+        76.31858,
+        9.968
+      ]
+    },
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.36022,
+        9.92412
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.39581,
+        9.75775
+      ]
+    },
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.44962,
+        9.78503
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.51852,
+        9.73592
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.55669,
+        9.68565
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-thondiyil-kolakkad-malayampadi-poovathumchola-road",
+  "ref": "MDR",
+  "name": "Thondiyil - Kolakkad - Malayampadi - Poovathumchola Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Peravoor, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peravoor",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.74559,
+        11.89866
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.80522,
+        11.88297
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-rj-9a",
+  "ref": "SH 9A",
+  "name": "Begun–Ramganj Mandi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 146.5,
+  "route": {
+    "start": "Begun, Rajasthan",
+    "end": "Ramganj Mandi, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Begun",
+      "Singoli",
+      "Rawatbhata",
+      "Chechat",
+      "Ramganj Mandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Begun",
+      "coords": [
+        75.01213,
+        25.05212
+      ]
+    },
+    {
+      "name": "Singoli",
+      "coords": [
+        75.32765,
+        24.96675
+      ]
+    },
+    {
+      "name": "Rawatbhata",
+      "coords": [
+        75.59098,
+        24.9347
+      ]
+    },
+    {
+      "name": "Chechat",
+      "coords": [
+        75.88962,
+        24.76529
+      ]
+    },
+    {
+      "name": "Ramganj Mandi",
+      "coords": [
+        75.9415,
+        24.65072
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulikuzhi-irukunnam-road",
+  "ref": "MDR",
+  "name": "Pulikuzhi - Irukunnam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.8112,
+        8.95103
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.80675,
+        8.95958
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kl-thiruvambady-thambalamanna-kodenchery-puthuppady-road",
+  "ref": "MDR",
+  "name": "Thiruvambady - Thambalamanna - Kodenchery - Puthuppady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.9,
+  "route": {
+    "start": "Adivaram, Kerala",
+    "end": "Thiruvambady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Adivaram",
+      "Thiruvambady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adivaram",
+      "coords": [
+        76.00111,
+        11.47814
+      ]
+    },
+    {
+      "name": "Maikave",
+      "coords": [
+        76.00894,
+        11.39443
+      ]
+    },
+    {
+      "name": "Thiruvambady",
+      "coords": [
+        76.01051,
+        11.36789
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1705",
+  "ref": "MDR 1705",
+  "name": "Babina–Barua Sagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.3,
+  "route": {
+    "start": "Babina, Madhya Pradesh",
+    "end": "Barua Sagar, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Babina",
+      "Barua Sagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Babina",
+      "coords": [
+        78.65341,
+        25.12137
+      ]
+    },
+    {
+      "name": "Barua Sagar",
+      "coords": [
+        78.73553,
+        25.34922
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

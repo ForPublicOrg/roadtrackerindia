@@ -1,0 +1,70 @@
+{
+  "id": "nh-208a",
+  "ref": "NH 208A",
+  "name": "Ramkrishna Nagar–Kumarghat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75.4,
+  "route": {
+    "start": "Ramkrishna Nagar, Assam",
+    "end": "Kumarghat, Tripura",
+    "states": [
+      "Assam",
+      "Tripura"
+    ],
+    "majorCities": [
+      "Ramkrishna Nagar",
+      "Dharmanagar",
+      "Kailashahar",
+      "Kumarghat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramkrishna Nagar",
+      "coords": [
+        92.30592,
+        24.56786
+      ]
+    },
+    {
+      "name": "Dharmanagar",
+      "coords": [
+        92.16076,
+        24.37737
+      ]
+    },
+    {
+      "name": "Panisagar",
+      "coords": [
+        92.11529,
+        24.31901
+      ]
+    },
+    {
+      "name": "Kailashahar",
+      "coords": [
+        92.01979,
+        24.30799
+      ]
+    },
+    {
+      "name": "Kumarghat",
+      "coords": [
+        92.03376,
+        24.16636
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

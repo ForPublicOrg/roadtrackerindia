@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-720",
+  "ref": "MDR 720",
+  "name": "Brindavanam–Annalagraharam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.5,
+  "route": {
+    "start": "Brindavanam, Tamil Nadu",
+    "end": "Annalagraharam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Brindavanam",
+      "Kumbakonam",
+      "Annalagraharam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Brindavanam",
+      "coords": [
+        79.14685,
+        10.8301
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.356,
+        10.9503
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

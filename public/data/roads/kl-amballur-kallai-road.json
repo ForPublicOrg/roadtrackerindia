@@ -1,0 +1,49 @@
+{
+  "id": "kl-amballur-kallai-road",
+  "ref": "MDR",
+  "name": "Amballur - Kallai road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Nadathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Nadathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.27001,
+        10.43267
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.27333,
+        10.44574
+      ]
+    },
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.33715,
+        10.46259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

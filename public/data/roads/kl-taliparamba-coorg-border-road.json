@@ -1,0 +1,51 @@
+{
+  "id": "kl-taliparamba-coorg-border-road",
+  "ref": "MDR",
+  "name": "Taliparamba - Coorg Border Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.3,
+  "route": {
+    "start": "Kappalam, Kerala",
+    "end": "Alakode, Karnataka",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kappalam",
+      "Taliparamba",
+      "Karuvanchal",
+      "Alakode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kappalam",
+      "coords": [
+        75.36832,
+        12.04181
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.46167,
+        12.16702
+      ]
+    },
+    {
+      "name": "Alakode",
+      "coords": [
+        75.46302,
+        12.19918
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -13,6 +13,8 @@ interface Filters {
 
 const filters: Filters = { category: 'all', status: 'all', state: 'all', city: null }
 
+const MAX_ROWS = 400
+
 let onRoad: (id: string) => void = () => {}
 let onClose: () => void = () => {}
 
@@ -46,6 +48,7 @@ const CAT_CHIPS: [Category | 'all', string][] = [
   ['expressway', 'Expressways'],
   ['nh', 'National'],
   ['sh', 'State'],
+  ['district', 'District'],
   ['local', 'City'],
 ]
 const STATUS_CHIPS: [Status | 'all', string][] = [
@@ -60,6 +63,9 @@ function render(): void {
 
   const rows = state.roads.filter(matches)
   rows.sort((a, b) => b.lengthKm - a.lengthKm)
+  // "All roads" is thousands of rows; building that much DOM janks the sheet
+  // open, and nobody scrolls past the first screenful anyway
+  const shown = rows.slice(0, MAX_ROWS)
 
   root.innerHTML = `
     <div class="rd-head">
@@ -83,15 +89,15 @@ function render(): void {
         ${allStates().map((s) => `<option value="${esc(s)}" ${filters.state === s ? 'selected' : ''}>${esc(s)}</option>`).join('')}
       </select>
     </div>
-    <p class="br-count">${rows.length} road${rows.length === 1 ? '' : 's'}</p>
+    <p class="br-count">${shown.length === rows.length ? `${rows.length.toLocaleString('en-IN')} road${rows.length === 1 ? '' : 's'}` : `Longest ${shown.length} of ${rows.length.toLocaleString('en-IN')} roads — filter or search to narrow it down`}</p>
     <ul class="br-list">
-      ${rows
+      ${shown
         .map(
           (r) => `<li><button class="br-row" data-id="${esc(r.id)}">
             <span class="sr-badge cat-${esc(r.category)}">${esc(shortRef(r.ref))}</span>
             <span class="sr-main">
               <span class="sr-title">${esc(r.name)}</span>
-              <span class="sr-sub">${esc(r.start.split(',')[0])} → ${esc(r.end.split(',')[0])} · ${STATUS_LABEL[r.status]}</span>
+              <span class="sr-sub">${esc(r.start.split(',')[0])} → ${esc(r.end.split(',')[0])}${r.states.length === 1 ? ` · ${esc(r.states[0])}` : ` · ${STATUS_LABEL[r.status]}`}</span>
             </span>
             <span class="br-len">${formatKm(r.lengthKm)}</span>
           </button></li>`,

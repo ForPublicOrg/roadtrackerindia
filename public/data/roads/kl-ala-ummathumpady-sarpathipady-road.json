@@ -1,0 +1,50 @@
+{
+  "id": "kl-ala-ummathumpady-sarpathipady-road",
+  "ref": "MDR",
+  "name": "Ala - Ummathumpady - Sarpathipady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Chengannur, Kerala",
+    "end": "Angadikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengannur",
+      "Mundancavu",
+      "Angadikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.61763,
+        9.29762
+      ]
+    },
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.60707,
+        9.29676
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.60217,
+        9.29685
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

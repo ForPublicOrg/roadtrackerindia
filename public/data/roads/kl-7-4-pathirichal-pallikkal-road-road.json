@@ -1,0 +1,42 @@
+{
+  "id": "kl-7-4-pathirichal-pallikkal-road-road",
+  "ref": "MDR",
+  "name": "7/4 - Pathirichal - Pallikkal Road Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        75.97542,
+        11.77313
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        75.96965,
+        11.73795
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

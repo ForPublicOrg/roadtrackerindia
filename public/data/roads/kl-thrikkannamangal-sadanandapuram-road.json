@@ -1,0 +1,42 @@
+{
+  "id": "kl-thrikkannamangal-sadanandapuram-road",
+  "ref": "MDR",
+  "name": "Thrikkannamangal - Sadanandapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.77914,
+        8.98836
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.81072,
+        8.97902
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

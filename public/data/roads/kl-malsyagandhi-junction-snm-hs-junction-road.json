@@ -1,0 +1,43 @@
+{
+  "id": "kl-malsyagandhi-junction-snm-hs-junction-road",
+  "ref": "MDR",
+  "name": "Malsyagandhi Junction - SNM HS Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.7,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Alappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.36041,
+        9.3666
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32559,
+        9.46338
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

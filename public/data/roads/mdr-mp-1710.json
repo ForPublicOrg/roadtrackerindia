@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-1710",
+  "ref": "MDR 1710",
+  "name": "Baldeogarh–Palera District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 38.5,
+  "route": {
+    "start": "Baldeogarh, Madhya Pradesh",
+    "end": "Palera, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Baldeogarh",
+      "Khargapur",
+      "Palera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baldeogarh",
+      "coords": [
+        79.07649,
+        24.75578
+      ]
+    },
+    {
+      "name": "Khargapur",
+      "coords": [
+        79.14605,
+        24.8213
+      ]
+    },
+    {
+      "name": "Palera",
+      "coords": [
+        79.22362,
+        25.01844
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

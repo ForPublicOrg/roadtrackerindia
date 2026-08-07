@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadassikkadavu-vazhaveedu-sasthamnada-road",
+  "ref": "MDR",
+  "name": "Kadassikkadavu - Vazhaveedu - Sasthamnada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Anakkara, Kerala",
+    "end": "1st Mile, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anakkara",
+      "1st Mile"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.10535,
+        9.68104
+      ]
+    },
+    {
+      "name": "1st Mile",
+      "coords": [
+        77.14609,
+        9.68401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "nh-156",
+  "ref": "NH 156",
+  "name": "Betma–Nimbahera National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 268.4,
+  "route": {
+    "start": "Betma, Madhya Pradesh",
+    "end": "Nimbahera, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Betma",
+      "Ratlam",
+      "Jaora",
+      "Mandsaur",
+      "Neemuch",
+      "Nimbahera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Betma",
+      "coords": [
+        75.5325,
+        22.66897
+      ]
+    },
+    {
+      "name": "Ratlam",
+      "coords": [
+        75.07771,
+        23.33149
+      ]
+    },
+    {
+      "name": "Jaora",
+      "coords": [
+        75.12041,
+        23.64417
+      ]
+    },
+    {
+      "name": "Daloda",
+      "coords": [
+        75.101,
+        23.95774
+      ]
+    },
+    {
+      "name": "Mandsaur",
+      "coords": [
+        75.03923,
+        24.05803
+      ]
+    },
+    {
+      "name": "Neemuch",
+      "coords": [
+        74.89097,
+        24.49808
+      ]
+    },
+    {
+      "name": "Nimbahera",
+      "coords": [
+        74.67152,
+        24.59594
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

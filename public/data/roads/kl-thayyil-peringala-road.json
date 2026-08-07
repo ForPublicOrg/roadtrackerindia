@@ -1,0 +1,42 @@
+{
+  "id": "kl-thayyil-peringala-road",
+  "ref": "MDR",
+  "name": "Thayyil - Peringala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50265,
+        9.17777
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.51615,
+        9.17863
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

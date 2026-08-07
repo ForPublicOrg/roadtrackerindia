@@ -1,0 +1,65 @@
+{
+  "id": "mdr-jh-49",
+  "ref": "MDR 49",
+  "name": "Barora–Bhuli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.7,
+  "route": {
+    "start": "Barora, Jharkhand",
+    "end": "Bhuli, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barora",
+      "Baghmara",
+      "Sonardih",
+      "Bhuli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barora",
+      "coords": [
+        86.22689,
+        23.74552
+      ]
+    },
+    {
+      "name": "Baghmara",
+      "coords": [
+        86.23288,
+        23.77546
+      ]
+    },
+    {
+      "name": "Sonardih",
+      "coords": [
+        86.26551,
+        23.79226
+      ]
+    },
+    {
+      "name": "Salanpur",
+      "coords": [
+        86.28825,
+        23.81245
+      ]
+    },
+    {
+      "name": "Bhuli",
+      "coords": [
+        86.33665,
+        23.87305
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

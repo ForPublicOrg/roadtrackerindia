@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-102",
+  "ref": "SH 102",
+  "name": "Cumbum–Uthamapalayam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.9,
+  "route": {
+    "start": "Cumbum, Tamil Nadu",
+    "end": "Uthamapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Cumbum",
+      "Uthamapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cumbum",
+      "coords": [
+        77.3038,
+        9.66426
+      ]
+    },
+    {
+      "name": "Uthamapalayam",
+      "coords": [
+        77.34095,
+        9.80464
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-1017",
+  "ref": "SH 1017",
+  "name": "MOINAPARA–Bishwanath Charaili State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.7,
+  "route": {
+    "start": "MOINAPARA, Assam",
+    "end": "Bishwanath Charaili, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "MOINAPARA",
+      "Bishwanath Charaili"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MOINAPARA",
+      "coords": [
+        93.78316,
+        26.42335
+      ]
+    },
+    {
+      "name": "Bishwanath Charaili",
+      "coords": [
+        93.41559,
+        26.59019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

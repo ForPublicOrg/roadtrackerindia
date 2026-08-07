@@ -1,0 +1,74 @@
+{
+  "id": "sh-up-40",
+  "ref": "SH 40",
+  "name": "Tirwaganj–Sadat Ganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 151.5,
+  "route": {
+    "start": "Tirwaganj, Uttar Pradesh",
+    "end": "Sadat Ganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Tirwaganj",
+      "Bilhaur",
+      "Bangarmau",
+      "Mohan",
+      "Lucknow",
+      "Sadat Ganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirwaganj",
+      "coords": [
+        79.67346,
+        26.8275
+      ]
+    },
+    {
+      "name": "Bilhaur",
+      "coords": [
+        80.0619,
+        26.8353
+      ]
+    },
+    {
+      "name": "Bangarmau",
+      "coords": [
+        80.20836,
+        26.88938
+      ]
+    },
+    {
+      "name": "Mohan",
+      "coords": [
+        80.67869,
+        26.77686
+      ]
+    },
+    {
+      "name": "Kakori",
+      "coords": [
+        80.8129,
+        26.83027
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "coords": [
+        80.89687,
+        26.84523
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

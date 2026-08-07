@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-568",
+  "ref": "MDR 568",
+  "name": "Sholavandan–Alanganallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.6,
+  "route": {
+    "start": "Sholavandan, Tamil Nadu",
+    "end": "Alanganallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sholavandan",
+      "Alanganallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholavandan",
+      "coords": [
+        77.95878,
+        10.02194
+      ]
+    },
+    {
+      "name": "Vadipatti",
+      "coords": [
+        77.98757,
+        10.07885
+      ]
+    },
+    {
+      "name": "Alanganallur",
+      "coords": [
+        78.11791,
+        10.15593
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-chirakalpadi-kanjirapuzha-road",
+  "ref": "MDR",
+  "name": "Chirakalpadi Kanjirapuzha road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Mannarkkad, Kerala",
+    "end": "Kumaramputhur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannarkkad",
+      "Kumaramputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannarkkad",
+      "coords": [
+        76.49247,
+        10.97852
+      ]
+    },
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.53418,
+        10.98938
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

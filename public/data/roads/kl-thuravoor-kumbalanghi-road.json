@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuravoor-kumbalanghi-road",
+  "ref": "MDR",
+  "name": "Thuravoor - Kumbalanghi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.2,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.31784,
+        9.76854
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.29482,
+        9.84841
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

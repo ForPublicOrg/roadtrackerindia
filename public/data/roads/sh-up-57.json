@@ -1,0 +1,66 @@
+{
+  "id": "sh-up-57",
+  "ref": "SH 57",
+  "name": "Saharanpur–Paonta Sahib State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.8,
+  "route": {
+    "start": "Saharanpur, Uttar Pradesh",
+    "end": "Paonta Sahib, Uttarakhand",
+    "states": [
+      "Uttar Pradesh",
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Saharanpur",
+      "Kalsia",
+      "Behat",
+      "Paonta Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saharanpur",
+      "coords": [
+        77.54627,
+        29.96435
+      ]
+    },
+    {
+      "name": "Kalsia",
+      "coords": [
+        77.61775,
+        30.14188
+      ]
+    },
+    {
+      "name": "Behat",
+      "coords": [
+        77.61742,
+        30.17423
+      ]
+    },
+    {
+      "name": "Badshahrbagh",
+      "coords": [
+        77.62264,
+        30.25234
+      ]
+    },
+    {
+      "name": "Paonta Sahib",
+      "coords": [
+        77.72113,
+        30.4097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

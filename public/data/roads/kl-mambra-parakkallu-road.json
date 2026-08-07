@@ -1,0 +1,42 @@
+{
+  "id": "kl-mambra-parakkallu-road",
+  "ref": "MDR",
+  "name": "Mambra - Parakkallu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Chemmad, Kerala",
+    "end": "Tirurangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemmad",
+      "Tirurangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemmad",
+      "coords": [
+        75.92016,
+        11.04382
+      ]
+    },
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.92116,
+        11.0689
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

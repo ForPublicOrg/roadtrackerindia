@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-910",
+  "ref": "MDR 910",
+  "name": "Uchahera–Satna District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.1,
+  "route": {
+    "start": "Uchahera, Madhya Pradesh",
+    "end": "Satna, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Uchahera",
+      "Satna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uchahera",
+      "coords": [
+        80.61068,
+        24.35229
+      ]
+    },
+    {
+      "name": "Satna",
+      "coords": [
+        80.75022,
+        24.48323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

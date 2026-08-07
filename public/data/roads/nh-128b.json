@@ -1,0 +1,70 @@
+{
+  "id": "nh-128b",
+  "ref": "NH 128B",
+  "name": "Azamgarh–Ballia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 106.3,
+  "route": {
+    "start": "Azamgarh, Uttar Pradesh",
+    "end": "Ballia, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Azamgarh",
+      "Muhammadabad Gohna",
+      "Mau",
+      "Rasra",
+      "Ballia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azamgarh",
+      "coords": [
+        83.16819,
+        26.04816
+      ]
+    },
+    {
+      "name": "Mubarakpur",
+      "coords": [
+        83.32855,
+        26.03819
+      ]
+    },
+    {
+      "name": "Mau",
+      "coords": [
+        83.57732,
+        25.93958
+      ]
+    },
+    {
+      "name": "Rasra",
+      "coords": [
+        83.85359,
+        25.86263
+      ]
+    },
+    {
+      "name": "Ballia",
+      "coords": [
+        84.04754,
+        25.76891
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

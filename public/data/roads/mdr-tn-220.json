@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-220",
+  "ref": "MDR 220",
+  "name": "Ottavidu–Thoothukudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Ottavidu, Tamil Nadu",
+    "end": "Thoothukudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ottavidu",
+      "Vallinayagipuram",
+      "Thoothukudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottavidu",
+      "coords": [
+        78.15905,
+        8.77942
+      ]
+    },
+    {
+      "name": "Vallinayagipuram",
+      "coords": [
+        78.15906,
+        8.78878
+      ]
+    },
+    {
+      "name": "Thoothukudi",
+      "coords": [
+        78.15747,
+        8.79822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

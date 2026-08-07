@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuthiathodu-valamangalam-road",
+  "ref": "MDR",
+  "name": "Kuthiathodu - Valamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.32583,
+        9.77151
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.32006,
+        9.78752
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

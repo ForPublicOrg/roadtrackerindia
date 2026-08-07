@@ -1,0 +1,65 @@
+{
+  "id": "sh-up-76",
+  "ref": "SH 76",
+  "name": "Umri Kalan–Bijnor State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.1,
+  "route": {
+    "start": "Umri Kalan, Uttar Pradesh",
+    "end": "Bijnor, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Umri Kalan",
+      "Kanth",
+      "Noorpur",
+      "Bijnor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Umri Kalan",
+      "coords": [
+        78.62074,
+        28.98655
+      ]
+    },
+    {
+      "name": "Kanth",
+      "coords": [
+        78.58995,
+        29.00987
+      ]
+    },
+    {
+      "name": "Umri Kalan",
+      "coords": [
+        78.55126,
+        29.03732
+      ]
+    },
+    {
+      "name": "Noorpur",
+      "coords": [
+        78.4093,
+        29.15075
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.14128,
+        29.36614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

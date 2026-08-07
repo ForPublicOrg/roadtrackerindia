@@ -1,0 +1,64 @@
+{
+  "id": "mdr-jh-5",
+  "ref": "MDR 5",
+  "name": "Haratu–Pertol District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Haratu, Jharkhand",
+    "end": "Pertol, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Haratu",
+      "Garhatoli",
+      "Pertol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haratu",
+      "coords": [
+        85.43611,
+        23.37146
+      ]
+    },
+    {
+      "name": "Mansu",
+      "coords": [
+        85.43008,
+        23.37659
+      ]
+    },
+    {
+      "name": "Garhatoli",
+      "coords": [
+        85.4253,
+        23.38146
+      ]
+    },
+    {
+      "name": "Kitrutoli",
+      "coords": [
+        85.41708,
+        23.38314
+      ]
+    },
+    {
+      "name": "Pertol",
+      "coords": [
+        85.41071,
+        23.38429
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

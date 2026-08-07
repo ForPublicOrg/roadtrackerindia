@@ -1,0 +1,46 @@
+{
+  "id": "nh-320b",
+  "ref": "NH 320B",
+  "name": "Hesal–Chitarpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 32.8,
+  "route": {
+    "start": "Hesal, Jharkhand",
+    "end": "Chitarpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Hesal",
+      "Chitarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hesal",
+      "coords": [
+        85.46961,
+        23.47262
+      ]
+    },
+    {
+      "name": "Chitarpur",
+      "coords": [
+        85.72234,
+        23.53501
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

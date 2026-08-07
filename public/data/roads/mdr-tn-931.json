@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-931",
+  "ref": "MDR 931",
+  "name": "Kundal–Anjugramam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Kundal, Tamil Nadu",
+    "end": "Anjugramam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kundal",
+      "Kanyakumari",
+      "Anjugramam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kundal",
+      "coords": [
+        77.51722,
+        8.0877
+      ]
+    },
+    {
+      "name": "Vivekanandapuram",
+      "coords": [
+        77.51986,
+        8.10097
+      ]
+    },
+    {
+      "name": "Anjugramam",
+      "coords": [
+        77.5615,
+        8.1294
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

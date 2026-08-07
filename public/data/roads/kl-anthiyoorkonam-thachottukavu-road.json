@@ -1,0 +1,57 @@
+{
+  "id": "kl-anthiyoorkonam-thachottukavu-road",
+  "ref": "MDR",
+  "name": "Anthiyoorkonam - Thachottukavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Malayinkeezhu, Kerala",
+    "end": "Peyad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Malayinkeezhu",
+      "Kattakada",
+      "Peyad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.05117,
+        8.49088
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.05004,
+        8.49517
+      ]
+    },
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.04813,
+        8.49795
+      ]
+    },
+    {
+      "name": "Peyad",
+      "coords": [
+        77.02626,
+        8.50808
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

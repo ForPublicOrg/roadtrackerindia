@@ -1,0 +1,42 @@
+{
+  "id": "kl-parekkadu-vazheppady-road",
+  "ref": "MDR",
+  "name": "Parekkadu - Vazheppady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Ettumanoor, Kerala",
+    "end": "Manarcadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ettumanoor",
+      "Manarcadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.59138,
+        9.64331
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.60113,
+        9.63367
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

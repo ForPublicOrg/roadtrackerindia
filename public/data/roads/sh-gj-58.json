@@ -1,0 +1,51 @@
+{
+  "id": "sh-gj-58",
+  "ref": "SH 58",
+  "name": "Alirajpur–Jhalod State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 100.2,
+  "route": {
+    "start": "Alirajpur, Madhya Pradesh",
+    "end": "Jhalod, Gujarat",
+    "states": [
+      "Madhya Pradesh",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Alirajpur",
+      "Dahod",
+      "Jhalod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alirajpur",
+      "coords": [
+        74.42502,
+        22.43825
+      ]
+    },
+    {
+      "name": "Dahod",
+      "coords": [
+        74.25561,
+        22.83592
+      ]
+    },
+    {
+      "name": "Jhalod",
+      "coords": [
+        74.15683,
+        23.09844
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

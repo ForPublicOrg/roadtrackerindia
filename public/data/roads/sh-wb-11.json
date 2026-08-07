@@ -1,0 +1,66 @@
+{
+  "id": "sh-wb-11",
+  "ref": "SH 11",
+  "name": "Siuri–Cossimbazar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 85.5,
+  "route": {
+    "start": "Siuri, West Bengal",
+    "end": "Cossimbazar, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Siuri",
+      "Sainthia",
+      "Kandi",
+      "Berhampore",
+      "Cossimbazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siuri",
+      "coords": [
+        87.5658,
+        23.98524
+      ]
+    },
+    {
+      "name": "Sainthia",
+      "coords": [
+        87.66895,
+        23.95506
+      ]
+    },
+    {
+      "name": "Kandi",
+      "coords": [
+        88.03725,
+        23.96424
+      ]
+    },
+    {
+      "name": "Berhampore",
+      "coords": [
+        88.23289,
+        24.10664
+      ]
+    },
+    {
+      "name": "Cossimbazar",
+      "coords": [
+        88.29314,
+        24.12419
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

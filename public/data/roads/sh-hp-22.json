@@ -1,0 +1,58 @@
+{
+  "id": "sh-hp-22",
+  "ref": "SH 22",
+  "name": "Baud–Jwalamukhi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 79.2,
+  "route": {
+    "start": "Baud, Himachal Pradesh",
+    "end": "Jwalamukhi, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Baud",
+      "Bagalamukhi",
+      "Dehra Gopipur",
+      "Jwalamukhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baud",
+      "coords": [
+        75.91424,
+        32.21405
+      ]
+    },
+    {
+      "name": "Bagalamukhi",
+      "coords": [
+        76.16914,
+        31.95496
+      ]
+    },
+    {
+      "name": "Dehra Gopipur",
+      "coords": [
+        76.22742,
+        31.87754
+      ]
+    },
+    {
+      "name": "Jwalamukhi",
+      "coords": [
+        76.31625,
+        31.87736
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

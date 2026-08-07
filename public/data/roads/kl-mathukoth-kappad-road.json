@@ -1,0 +1,42 @@
+{
+  "id": "kl-mathukoth-kappad-road",
+  "ref": "MDR",
+  "name": "Mathukoth - Kappad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Kannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.43024,
+        11.88255
+      ]
+    },
+    {
+      "name": "Kannur",
+      "coords": [
+        75.43091,
+        11.90034
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

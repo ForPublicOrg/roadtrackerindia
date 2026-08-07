@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-123",
+  "ref": "MDR 123",
+  "name": "Thrikaripur–Cheruvathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Thrikaripur, Kerala",
+    "end": "Cheruvathur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikaripur",
+      "Kalikadavu",
+      "Cheruvathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikaripur",
+      "coords": [
+        75.17839,
+        12.16051
+      ]
+    },
+    {
+      "name": "Kalikadavu",
+      "coords": [
+        75.16308,
+        12.16879
+      ]
+    },
+    {
+      "name": "Cheruvathur",
+      "coords": [
+        75.15039,
+        12.20955
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

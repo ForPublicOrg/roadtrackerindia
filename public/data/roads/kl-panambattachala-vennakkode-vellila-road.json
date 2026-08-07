@@ -1,0 +1,42 @@
+{
+  "id": "kl-panambattachala-vennakkode-vellila-road",
+  "ref": "MDR",
+  "name": "Panambattachala - Vennakkode - Vellila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Uphill, Kerala",
+    "end": "Malappuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uphill",
+      "Malappuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uphill",
+      "coords": [
+        76.14109,
+        11.05014
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "coords": [
+        76.09901,
+        11.06136
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

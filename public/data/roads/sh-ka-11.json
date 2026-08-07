@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-11",
+  "ref": "SH 11",
+  "name": "Aurad Shahajani–Kamalapura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.9,
+  "route": {
+    "start": "Aurad Shahajani, Maharashtra",
+    "end": "Kamalapura, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Aurad Shahajani",
+      "Basavakalyana",
+      "Kamalapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aurad Shahajani",
+      "coords": [
+        76.93681,
+        18.0413
+      ]
+    },
+    {
+      "name": "Basavakalyana",
+      "coords": [
+        76.95128,
+        17.86943
+      ]
+    },
+    {
+      "name": "Kamalapura",
+      "coords": [
+        76.87425,
+        17.59629
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

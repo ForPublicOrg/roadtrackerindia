@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2464",
+  "ref": "ODR 2464",
+  "name": "Mottur–Ariyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Mottur, Tamil Nadu",
+    "end": "Ariyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mottur",
+      "Ariyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mottur",
+      "coords": [
+        79.05444,
+        12.88337
+      ]
+    },
+    {
+      "name": "Ariyur",
+      "coords": [
+        79.05119,
+        12.8721
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

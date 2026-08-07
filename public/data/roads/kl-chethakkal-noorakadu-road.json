@@ -1,0 +1,42 @@
+{
+  "id": "kl-chethakkal-noorakadu-road",
+  "ref": "MDR",
+  "name": "Chethakkal - Noorakadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Karinkallummoozhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Karinkallummoozhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.79732,
+        9.42107
+      ]
+    },
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.8351,
+        9.43789
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

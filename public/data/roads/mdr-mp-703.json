@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-703",
+  "ref": "MDR 703",
+  "name": "Bamori–Chhabra District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.3,
+  "route": {
+    "start": "Bamori, Madhya Pradesh",
+    "end": "Chhabra, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bamori",
+      "Chhabra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bamori",
+      "coords": [
+        76.99825,
+        24.96089
+      ]
+    },
+    {
+      "name": "Chhabra",
+      "coords": [
+        77.05995,
+        24.74826
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

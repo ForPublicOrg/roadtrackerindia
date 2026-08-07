@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-255",
+  "ref": "MDR 255",
+  "name": "Ichinda–Saraikela District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.7,
+  "route": {
+    "start": "Ichinda, Jharkhand",
+    "end": "Saraikela, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ichinda",
+      "Saraikela"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ichinda",
+      "coords": [
+        85.72825,
+        22.7046
+      ]
+    },
+    {
+      "name": "Saraikela",
+      "coords": [
+        85.81634,
+        22.72138
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

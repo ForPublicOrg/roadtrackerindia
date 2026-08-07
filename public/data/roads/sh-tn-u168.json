@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u168",
+  "ref": "SH-U 168",
+  "name": "Pattanur–Auroville State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Pattanur, Tamil Nadu",
+    "end": "Auroville, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pattanur",
+      "Auroville"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattanur",
+      "coords": [
+        79.78803,
+        11.98541
+      ]
+    },
+    {
+      "name": "Auroville",
+      "coords": [
+        79.78386,
+        11.9908
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

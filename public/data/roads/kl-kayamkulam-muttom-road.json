@@ -1,0 +1,42 @@
+{
+  "id": "kl-kayamkulam-muttom-road",
+  "ref": "MDR",
+  "name": "Kayamkulam - Muttom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Nangiarkulangara, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nangiarkulangara",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.48794,
+        9.25138
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.50033,
+        9.17771
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

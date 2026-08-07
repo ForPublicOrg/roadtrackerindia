@@ -1,0 +1,42 @@
+{
+  "id": "kl-old-paripally-madathara-road",
+  "ref": "MDR",
+  "name": "Old Paripally - Madathara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Paripally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Paripally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.79252,
+        8.81306
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.77719,
+        8.80981
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

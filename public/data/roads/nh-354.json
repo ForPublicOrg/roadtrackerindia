@@ -1,0 +1,116 @@
+{
+  "id": "nh-354",
+  "ref": "NH 354",
+  "name": "Malout–Gurdaspur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 295.3,
+  "route": {
+    "start": "Malout, Punjab",
+    "end": "Gurdaspur, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Malout",
+      "Sri Muktsar Sahib",
+      "Firozpur Cantonment",
+      "Firozpur",
+      "Khem Karan",
+      "Amritsar",
+      "Ajnala",
+      "Dera Baba Nanak",
+      "Gurdaspur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malout",
+      "coords": [
+        74.48835,
+        30.20464
+      ]
+    },
+    {
+      "name": "Sri Muktsar Sahib",
+      "coords": [
+        74.51776,
+        30.47207
+      ]
+    },
+    {
+      "name": "Firozpur Cantonment",
+      "coords": [
+        74.6136,
+        30.92147
+      ]
+    },
+    {
+      "name": "Firozpur",
+      "coords": [
+        74.61186,
+        30.95934
+      ]
+    },
+    {
+      "name": "Sehjra",
+      "coords": [
+        74.62357,
+        31.14059
+      ]
+    },
+    {
+      "name": "Khem Karan",
+      "coords": [
+        74.56824,
+        31.14408
+      ]
+    },
+    {
+      "name": "Bhikhiwind",
+      "coords": [
+        74.69875,
+        31.35756
+      ]
+    },
+    {
+      "name": "Amritsar",
+      "coords": [
+        74.87404,
+        31.63142
+      ]
+    },
+    {
+      "name": "Ajnala",
+      "coords": [
+        74.76102,
+        31.84469
+      ]
+    },
+    {
+      "name": "Dera Baba Nanak",
+      "coords": [
+        75.02377,
+        32.01985
+      ]
+    },
+    {
+      "name": "Gurdaspur",
+      "coords": [
+        75.37715,
+        32.031
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

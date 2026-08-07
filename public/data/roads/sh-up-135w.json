@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-135w",
+  "ref": "SH 135W",
+  "name": "Baraut–Muzaffarnagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.3,
+  "route": {
+    "start": "Baraut, Uttar Pradesh",
+    "end": "Muzaffarnagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Baraut",
+      "Muzaffarnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baraut",
+      "coords": [
+        77.2565,
+        29.09913
+      ]
+    },
+    {
+      "name": "Muzaffarnagar",
+      "coords": [
+        77.66616,
+        29.46953
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

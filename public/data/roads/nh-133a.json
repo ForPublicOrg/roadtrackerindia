@@ -1,0 +1,63 @@
+{
+  "id": "nh-133a",
+  "ref": "NH 133A",
+  "name": "Dhulian–Barharwa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 54.1,
+  "route": {
+    "start": "Dhulian, West Bengal",
+    "end": "Barharwa, Jharkhand",
+    "states": [
+      "West Bengal",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dhulian",
+      "Pakaur",
+      "Sundarpur",
+      "Barharwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhulian",
+      "coords": [
+        87.94313,
+        24.65674
+      ]
+    },
+    {
+      "name": "Pakaur",
+      "coords": [
+        87.84274,
+        24.63892
+      ]
+    },
+    {
+      "name": "Sundarpur",
+      "coords": [
+        87.70648,
+        24.70513
+      ]
+    },
+    {
+      "name": "Barharwa",
+      "coords": [
+        87.77414,
+        24.85806
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

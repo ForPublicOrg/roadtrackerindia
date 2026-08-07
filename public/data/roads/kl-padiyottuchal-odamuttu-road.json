@@ -1,0 +1,42 @@
+{
+  "id": "kl-padiyottuchal-odamuttu-road",
+  "ref": "MDR",
+  "name": "Padiyottuchal - Odamuttu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Cherupuzha, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherupuzha",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.33967,
+        12.19652
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.33463,
+        12.25296
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

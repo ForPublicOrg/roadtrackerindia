@@ -1,0 +1,108 @@
+{
+  "id": "surat-chennai-expressway",
+  "ref": "NH",
+  "name": "Surat-Chennai Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 523.7,
+  "route": {
+    "start": "Kabilpore, Gujarat",
+    "end": "Akkalkot, Maharashtra",
+    "states": [
+      "Gujarat",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kabilpore",
+      "Nashik",
+      "Loni",
+      "Ahilyanagar",
+      "Ashti",
+      "Barshi",
+      "Akkalkot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kabilpore",
+      "coords": [
+        73.06453,
+        20.923
+      ]
+    },
+    {
+      "name": "Nashik",
+      "coords": [
+        73.8447,
+        20.0664
+      ]
+    },
+    {
+      "name": "Sinnar",
+      "coords": [
+        74.04875,
+        19.91913
+      ]
+    },
+    {
+      "name": "Loni",
+      "coords": [
+        74.43826,
+        19.55312
+      ]
+    },
+    {
+      "name": "Rahuri",
+      "coords": [
+        74.63711,
+        19.37484
+      ]
+    },
+    {
+      "name": "Ahilyanagar",
+      "coords": [
+        74.80388,
+        19.1343
+      ]
+    },
+    {
+      "name": "Ashti",
+      "coords": [
+        75.13662,
+        18.76499
+      ]
+    },
+    {
+      "name": "Barshi",
+      "coords": [
+        75.65908,
+        18.21012
+      ]
+    },
+    {
+      "name": "Vairag",
+      "coords": [
+        75.81497,
+        18.06714
+      ]
+    },
+    {
+      "name": "Akkalkot",
+      "coords": [
+        76.20674,
+        17.53676
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nh-319a",
+  "ref": "NH 319A",
+  "name": "Mohania–Chausa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 50,
+  "route": {
+    "start": "Mohania, Bihar",
+    "end": "Chausa, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Mohania",
+      "Dewal",
+      "Chausa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohania",
+      "coords": [
+        83.62454,
+        25.1659
+      ]
+    },
+    {
+      "name": "Dewal",
+      "coords": [
+        83.78283,
+        25.38734
+      ]
+    },
+    {
+      "name": "Chausa",
+      "coords": [
+        83.88587,
+        25.49899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

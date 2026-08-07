@@ -1,0 +1,70 @@
+{
+  "id": "nh-351",
+  "ref": "NH 351",
+  "name": "Mahuva–Jetpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 177.2,
+  "route": {
+    "start": "Mahuva, Gujarat",
+    "end": "Jetpur, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Mahuva",
+      "Savarkundla",
+      "Amreli",
+      "Bagasara",
+      "Jetpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahuva",
+      "coords": [
+        71.75062,
+        21.09899
+      ]
+    },
+    {
+      "name": "Savarkundla",
+      "coords": [
+        71.32995,
+        21.34649
+      ]
+    },
+    {
+      "name": "Amreli",
+      "coords": [
+        71.21543,
+        21.57874
+      ]
+    },
+    {
+      "name": "Bagasara",
+      "coords": [
+        70.95062,
+        21.50017
+      ]
+    },
+    {
+      "name": "Jetpur",
+      "coords": [
+        70.61193,
+        21.74527
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

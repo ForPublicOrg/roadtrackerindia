@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u23",
+  "ref": "SH-U 23",
+  "name": "Krishnagiri–Kaveripattinam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Krishnagiri, Tamil Nadu",
+    "end": "Kaveripattinam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Krishnagiri",
+      "Kaveripattinam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnagiri",
+      "coords": [
+        78.23209,
+        12.52381
+      ]
+    },
+    {
+      "name": "Kaveripattinam",
+      "coords": [
+        78.22207,
+        12.51951
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

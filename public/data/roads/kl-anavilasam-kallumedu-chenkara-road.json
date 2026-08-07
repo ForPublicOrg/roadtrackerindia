@@ -1,0 +1,42 @@
+{
+  "id": "kl-anavilasam-kallumedu-chenkara-road",
+  "ref": "MDR",
+  "name": "Anavilasam - Kallumedu - Chenkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Anakkara, Kerala",
+    "end": "Vandiperiyar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anakkara",
+      "Vandiperiyar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.09655,
+        9.66314
+      ]
+    },
+    {
+      "name": "Vandiperiyar",
+      "coords": [
+        77.0732,
+        9.6455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

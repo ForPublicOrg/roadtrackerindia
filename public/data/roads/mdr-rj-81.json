@@ -1,0 +1,66 @@
+{
+  "id": "mdr-rj-81",
+  "ref": "MDR 81",
+  "name": "Mauzamabad–Govindgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 111.1,
+  "route": {
+    "start": "Mauzamabad, Rajasthan",
+    "end": "Govindgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mauzamabad",
+      "Bagru",
+      "Renwal",
+      "Badhal",
+      "Govindgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mauzamabad",
+      "coords": [
+        75.36308,
+        26.66988
+      ]
+    },
+    {
+      "name": "Bagru",
+      "coords": [
+        75.54192,
+        26.81024
+      ]
+    },
+    {
+      "name": "Renwal",
+      "coords": [
+        75.41246,
+        27.15283
+      ]
+    },
+    {
+      "name": "Badhal",
+      "coords": [
+        75.47201,
+        27.24767
+      ]
+    },
+    {
+      "name": "Govindgarh",
+      "coords": [
+        75.64051,
+        27.21468
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

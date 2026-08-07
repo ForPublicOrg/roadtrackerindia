@@ -1,0 +1,43 @@
+{
+  "id": "mdr-pb-71",
+  "ref": "MDR 71",
+  "name": "Sri Muktsar Sahib–Firozpur Cantonment District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 53.4,
+  "route": {
+    "start": "Sri Muktsar Sahib, Punjab",
+    "end": "Firozpur Cantonment, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Sri Muktsar Sahib",
+      "Firozpur",
+      "Firozpur Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sri Muktsar Sahib",
+      "coords": [
+        74.51872,
+        30.46053
+      ]
+    },
+    {
+      "name": "Firozpur",
+      "coords": [
+        74.61333,
+        30.92964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

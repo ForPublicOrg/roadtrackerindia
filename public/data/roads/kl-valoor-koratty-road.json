@@ -1,0 +1,42 @@
+{
+  "id": "kl-valoor-koratty-road",
+  "ref": "MDR",
+  "name": "Valoor - Koratty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.33498,
+        10.24403
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.35833,
+        10.25722
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

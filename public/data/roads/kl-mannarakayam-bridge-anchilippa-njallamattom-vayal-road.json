@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannarakayam-bridge-anchilippa-njallamattom-vayal-road",
+  "ref": "MDR",
+  "name": "Mannarakayam Bridge - Anchilippa - Njallamattom Vayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Manimala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Manimala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.79504,
+        9.54664
+      ]
+    },
+    {
+      "name": "Manimala",
+      "coords": [
+        76.79412,
+        9.52603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-arakulam-azhikodu-road",
+  "ref": "MDR",
+  "name": "Arakulam Azhikodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Thiruvanchikulam, Kerala",
+    "end": "Valiyapanikkan Thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvanchikulam",
+      "Kodungallur",
+      "Valiyapanikkan Thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.20262,
+        10.21273
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.19731,
+        10.21258
+      ]
+    },
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.1701,
+        10.1971
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

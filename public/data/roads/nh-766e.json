@@ -1,0 +1,62 @@
+{
+  "id": "nh-766e",
+  "ref": "NH 766E",
+  "name": "Kumta–Haveri National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 127,
+  "route": {
+    "start": "Kumta, Karnataka",
+    "end": "Haveri, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Kumta",
+      "Sirsi",
+      "Hanagal",
+      "Haveri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumta",
+      "coords": [
+        74.4452,
+        14.45033
+      ]
+    },
+    {
+      "name": "Sirsi",
+      "coords": [
+        74.8436,
+        14.61865
+      ]
+    },
+    {
+      "name": "Hanagal",
+      "coords": [
+        75.14161,
+        14.72978
+      ]
+    },
+    {
+      "name": "Haveri",
+      "coords": [
+        75.38515,
+        14.78504
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

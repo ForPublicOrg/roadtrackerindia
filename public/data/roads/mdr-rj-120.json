@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-120",
+  "ref": "MDR 120",
+  "name": "Rani–Falna District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 32.3,
+  "route": {
+    "start": "Rani, Rajasthan",
+    "end": "Falna, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rani",
+      "Falna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rani",
+      "coords": [
+        73.45318,
+        25.37259
+      ]
+    },
+    {
+      "name": "Falna",
+      "coords": [
+        73.22835,
+        25.25491
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

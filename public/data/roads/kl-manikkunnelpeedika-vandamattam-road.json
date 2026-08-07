@@ -1,0 +1,42 @@
+{
+  "id": "kl-manikkunnelpeedika-vandamattam-road",
+  "ref": "MDR",
+  "name": "Manikkunnelpeedika - Vandamattam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Thodupuzha, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thodupuzha",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.75809,
+        9.93348
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.76137,
+        9.92525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-punalur-papermill-panampatta-road",
+  "ref": "MDR",
+  "name": "Punalur Papermill Panampatta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Punalur, Kerala",
+    "end": "Central Junction, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punalur",
+      "Central Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92005,
+        9.02284
+      ]
+    },
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.85644,
+        9.05215
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

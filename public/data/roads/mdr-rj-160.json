@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-160",
+  "ref": "MDR 160",
+  "name": "Chhapoli–Neem Ka Thana District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.1,
+  "route": {
+    "start": "Chhapoli, Rajasthan",
+    "end": "Neem Ka Thana, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Chhapoli",
+      "Neem Ka Thana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhapoli",
+      "coords": [
+        75.63143,
+        27.82936
+      ]
+    },
+    {
+      "name": "Neem Ka Thana",
+      "coords": [
+        75.7761,
+        27.73714
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

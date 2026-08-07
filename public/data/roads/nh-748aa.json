@@ -1,0 +1,63 @@
+{
+  "id": "nh-748aa",
+  "ref": "NH 748AA",
+  "name": "Corlim–Udyambag National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 90.4,
+  "route": {
+    "start": "Corlim, Goa",
+    "end": "Udyambag, Karnataka",
+    "states": [
+      "Goa",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Corlim",
+      "Sankhali",
+      "Belagavi",
+      "Udyambag"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Corlim",
+      "coords": [
+        73.95874,
+        15.48502
+      ]
+    },
+    {
+      "name": "Marcel",
+      "coords": [
+        73.9612,
+        15.51354
+      ]
+    },
+    {
+      "name": "Sankhali",
+      "coords": [
+        74.00844,
+        15.5657
+      ]
+    },
+    {
+      "name": "Belagavi",
+      "coords": [
+        74.48364,
+        15.8045
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

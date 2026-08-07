@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-1812",
+  "ref": "MDR 1812",
+  "name": "Amanganj–Devendranagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 40.2,
+  "route": {
+    "start": "Amanganj, Madhya Pradesh",
+    "end": "Devendranagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Amanganj",
+      "Gunnor",
+      "Devendranagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amanganj",
+      "coords": [
+        80.03582,
+        24.43046
+      ]
+    },
+    {
+      "name": "Gunnor",
+      "coords": [
+        80.24908,
+        24.45889
+      ]
+    },
+    {
+      "name": "Devendranagar",
+      "coords": [
+        80.37889,
+        24.50939
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

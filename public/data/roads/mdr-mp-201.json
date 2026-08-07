@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-201",
+  "ref": "MDR 201",
+  "name": "Ambah–Pinahat District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.5,
+  "route": {
+    "start": "Ambah, Madhya Pradesh",
+    "end": "Pinahat, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ambah",
+      "Pinahat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambah",
+      "coords": [
+        78.23099,
+        26.705
+      ]
+    },
+    {
+      "name": "Pinahat",
+      "coords": [
+        78.36619,
+        26.86331
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

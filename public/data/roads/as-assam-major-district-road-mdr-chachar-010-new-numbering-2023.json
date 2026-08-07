@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-010-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 010 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.8,
+  "route": {
+    "start": "Dudhpatli, Assam",
+    "end": "Hailakandi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dudhpatli",
+      "Hailakandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dudhpatli",
+      "coords": [
+        92.72472,
+        24.8361
+      ]
+    },
+    {
+      "name": "Hailakandi",
+      "coords": [
+        92.66762,
+        24.74305
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-palappilly-echippara-road",
+  "ref": "MDR",
+  "name": "Palappilly - Echippara road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Vadakkenchery, Kerala",
+    "end": "Puthukkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakkenchery",
+      "Puthukkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.44838,
+        10.44064
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.38413,
+        10.43591
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-77",
+  "ref": "SH 77",
+  "name": "Latur–MIDC State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Latur, Maharashtra",
+    "end": "MIDC, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Latur",
+      "MIDC"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latur",
+      "coords": [
+        76.60367,
+        18.40914
+      ]
+    },
+    {
+      "name": "MIDC",
+      "coords": [
+        76.54013,
+        18.40834
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

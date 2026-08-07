@@ -1,0 +1,64 @@
+{
+  "id": "sh-rj-102",
+  "ref": "SH 102",
+  "name": "Riyan Badi–Peesangan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 120,
+  "route": {
+    "start": "Riyan Badi, Rajasthan",
+    "end": "Peesangan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Riyan Badi",
+      "Peesangan",
+      "Nasirabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Riyan Badi",
+      "coords": [
+        74.26297,
+        26.61408
+      ]
+    },
+    {
+      "name": "Govindgarh",
+      "coords": [
+        74.38441,
+        26.45459
+      ]
+    },
+    {
+      "name": "Peesangan",
+      "coords": [
+        74.38406,
+        26.39888
+      ]
+    },
+    {
+      "name": "Nasirabad",
+      "coords": [
+        74.73152,
+        26.29697
+      ]
+    },
+    {
+      "name": "Peesangan",
+      "coords": [
+        74.46505,
+        26.28521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

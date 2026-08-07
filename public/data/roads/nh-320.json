@@ -1,0 +1,69 @@
+{
+  "id": "nh-320",
+  "ref": "NH 320",
+  "name": "Chas–Ramgarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 78.3,
+  "route": {
+    "start": "Chas, Jharkhand",
+    "end": "Ramgarh, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chas",
+      "Bokaro",
+      "Peterwar",
+      "Ramgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chas",
+      "coords": [
+        86.18323,
+        23.6124
+      ]
+    },
+    {
+      "name": "Bokaro",
+      "coords": [
+        86.1325,
+        23.636
+      ]
+    },
+    {
+      "name": "Peterwar",
+      "coords": [
+        85.85021,
+        23.6151
+      ]
+    },
+    {
+      "name": "Chitarpur",
+      "coords": [
+        85.65633,
+        23.57448
+      ]
+    },
+    {
+      "name": "Ramgarh",
+      "coords": [
+        85.54923,
+        23.61516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

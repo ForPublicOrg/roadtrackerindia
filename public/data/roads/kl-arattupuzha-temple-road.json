@@ -1,0 +1,42 @@
+{
+  "id": "kl-arattupuzha-temple-road",
+  "ref": "MDR",
+  "name": "Arattupuzha Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.22918,
+        10.4166
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.21345,
+        10.41531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

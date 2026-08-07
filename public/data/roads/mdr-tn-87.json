@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-87",
+  "ref": "MDR 87",
+  "name": "Shencottai–Tenkasi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Shencottai, Tamil Nadu",
+    "end": "Tenkasi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Shencottai",
+      "Tenkasi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shencottai",
+      "coords": [
+        77.27013,
+        8.93318
+      ]
+    },
+    {
+      "name": "Tenkasi",
+      "coords": [
+        77.23859,
+        8.93175
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

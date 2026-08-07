@@ -1,0 +1,51 @@
+{
+  "id": "sh-as-23",
+  "ref": "SH 23",
+  "name": "Tinsukia–Dibrugarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 65.2,
+  "route": {
+    "start": "Tinsukia, Assam",
+    "end": "Dibrugarh, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Tinsukia",
+      "Duliajan",
+      "Naharkatia",
+      "Dibrugarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tinsukia",
+      "coords": [
+        95.33171,
+        27.51534
+      ]
+    },
+    {
+      "name": "Duliajan",
+      "coords": [
+        95.33284,
+        27.353
+      ]
+    },
+    {
+      "name": "Dibrugarh",
+      "coords": [
+        94.99727,
+        27.4528
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

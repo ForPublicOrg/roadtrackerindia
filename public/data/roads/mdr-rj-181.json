@@ -1,0 +1,57 @@
+{
+  "id": "mdr-rj-181",
+  "ref": "MDR 181",
+  "name": "Sikar–Pushkar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 174.8,
+  "route": {
+    "start": "Sikar, Rajasthan",
+    "end": "Pushkar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sikar",
+      "Didwana",
+      "Pushkar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sikar",
+      "coords": [
+        75.10876,
+        27.60604
+      ]
+    },
+    {
+      "name": "Dhod",
+      "coords": [
+        74.97348,
+        27.55256
+      ]
+    },
+    {
+      "name": "Didwana",
+      "coords": [
+        74.57706,
+        27.39832
+      ]
+    },
+    {
+      "name": "Pushkar",
+      "coords": [
+        74.51261,
+        26.54283
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

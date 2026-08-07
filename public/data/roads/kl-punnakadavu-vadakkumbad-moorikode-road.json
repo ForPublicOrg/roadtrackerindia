@@ -1,0 +1,42 @@
+{
+  "id": "kl-punnakadavu-vadakkumbad-moorikode-road",
+  "ref": "MDR",
+  "name": "Punnakadavu - Vadakkumbad - Moorikode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Payyanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Payyanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.19206,
+        12.07411
+      ]
+    },
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.18307,
+        12.07752
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-20",
+  "ref": "SH 20",
+  "name": "Sonipat–Gannaur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Sonipat, Haryana",
+    "end": "Gannaur, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sonipat",
+      "Gannaur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonipat",
+      "coords": [
+        77.03743,
+        28.98872
+      ]
+    },
+    {
+      "name": "Gannaur",
+      "coords": [
+        77.07382,
+        29.02666
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

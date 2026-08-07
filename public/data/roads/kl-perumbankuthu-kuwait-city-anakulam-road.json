@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbankuthu-kuwait-city-anakulam-road",
+  "ref": "MDR",
+  "name": "Perumbankuthu - Kuwait City - Anakulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.4,
+  "route": {
+    "start": "Munnar, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Munnar",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Munnar",
+      "coords": [
+        76.92986,
+        10.16601
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.91833,
+        10.1364
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

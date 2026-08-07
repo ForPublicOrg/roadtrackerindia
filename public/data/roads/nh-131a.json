@@ -1,0 +1,72 @@
+{
+  "id": "nh-131a",
+  "ref": "NH 131A",
+  "name": "Ratua–Ramnagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 99.7,
+  "route": {
+    "start": "Ratua, West Bengal",
+    "end": "Ramnagar, Bihar",
+    "states": [
+      "West Bengal",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Ratua",
+      "Amdabad",
+      "Manihari",
+      "Katihar",
+      "Purnia",
+      "Ramnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ratua",
+      "coords": [
+        87.92686,
+        25.19901
+      ]
+    },
+    {
+      "name": "Amdabad",
+      "coords": [
+        87.79259,
+        25.29846
+      ]
+    },
+    {
+      "name": "Manihari",
+      "coords": [
+        87.62645,
+        25.34416
+      ]
+    },
+    {
+      "name": "Katihar",
+      "coords": [
+        87.58778,
+        25.55103
+      ]
+    },
+    {
+      "name": "Purnia",
+      "coords": [
+        87.51547,
+        25.76737
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

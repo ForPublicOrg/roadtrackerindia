@@ -1,0 +1,62 @@
+{
+  "id": "nh-103",
+  "ref": "NH 103",
+  "name": "Anu–Ghumarwin National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 47.7,
+  "route": {
+    "start": "Anu, Himachal Pradesh",
+    "end": "Ghumarwin, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Anu",
+      "Hamirpur",
+      "Bhotta",
+      "Ghumarwin"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anu",
+      "coords": [
+        76.50747,
+        31.692
+      ]
+    },
+    {
+      "name": "Hamirpur",
+      "coords": [
+        76.51501,
+        31.68223
+      ]
+    },
+    {
+      "name": "Bhotta",
+      "coords": [
+        76.56702,
+        31.60999
+      ]
+    },
+    {
+      "name": "Ghumarwin",
+      "coords": [
+        76.70991,
+        31.44067
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

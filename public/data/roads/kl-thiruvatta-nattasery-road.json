@@ -1,0 +1,43 @@
+{
+  "id": "kl-thiruvatta-nattasery-road",
+  "ref": "MDR",
+  "name": "Thiruvatta Nattasery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Nagampadam, Kerala",
+    "end": "Kumaranalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nagampadam",
+      "Kottayam",
+      "Kumaranalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.51869,
+        9.60278
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.52988,
+        9.60602
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

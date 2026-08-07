@@ -1,0 +1,42 @@
+{
+  "id": "kl-kochal-karingamthuruth-road",
+  "ref": "MDR",
+  "name": "Kochal - Karingamthuruth Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Thrikkapuram, Kerala",
+    "end": "Kongorpilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikkapuram",
+      "Kongorpilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.26042,
+        10.11215
+      ]
+    },
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.2789,
+        10.10859
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-arunassery-kuravilangad-road",
+  "ref": "MDR",
+  "name": "Arunassery - Kuravilangad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Kuravilangad, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuravilangad",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.55676,
+        9.75639
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.51528,
+        9.7708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

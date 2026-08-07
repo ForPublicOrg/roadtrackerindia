@@ -1,0 +1,80 @@
+{
+  "id": "sh-mp-26",
+  "ref": "SH 26",
+  "name": "Kukshi–Nagda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 230.5,
+  "route": {
+    "start": "Kukshi, Madhya Pradesh",
+    "end": "Nagda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Kukshi",
+      "Ranapur",
+      "Meghnagar",
+      "Ratlam",
+      "Nagda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kukshi",
+      "coords": [
+        74.78111,
+        22.33876
+      ]
+    },
+    {
+      "name": "Ranapur",
+      "coords": [
+        74.52294,
+        22.65045
+      ]
+    },
+    {
+      "name": "Jhabua",
+      "coords": [
+        74.59201,
+        22.77411
+      ]
+    },
+    {
+      "name": "Meghnagar",
+      "coords": [
+        74.54308,
+        22.9043
+      ]
+    },
+    {
+      "name": "Ratlam",
+      "coords": [
+        75.06099,
+        23.30123
+      ]
+    },
+    {
+      "name": "Khachrod",
+      "coords": [
+        75.28567,
+        23.42553
+      ]
+    },
+    {
+      "name": "Nagda",
+      "coords": [
+        75.42157,
+        23.45679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

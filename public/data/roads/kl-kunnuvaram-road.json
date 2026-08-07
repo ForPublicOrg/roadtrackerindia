@@ -1,0 +1,49 @@
+{
+  "id": "kl-kunnuvaram-road",
+  "ref": "MDR",
+  "name": "Kunnuvaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.80381,
+        8.68916
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.80217,
+        8.69112
+      ]
+    },
+    {
+      "name": "Attingal",
+      "coords": [
+        76.81361,
+        8.69878
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

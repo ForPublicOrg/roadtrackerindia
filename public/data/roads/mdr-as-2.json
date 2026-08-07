@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-2",
+  "ref": "MDR 2",
+  "name": "Bijni–Gelephu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.7,
+  "route": {
+    "start": "Bijni, Assam",
+    "end": "Gelephu, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Bijni",
+      "Gelephu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bijni",
+      "coords": [
+        90.69919,
+        26.50087
+      ]
+    },
+    {
+      "name": "Gelephu",
+      "coords": [
+        90.52444,
+        26.83169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-10",
+  "ref": "SH 10",
+  "name": "Balsamand–Jind State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94.3,
+  "route": {
+    "start": "Balsamand, Haryana",
+    "end": "Jind, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Balsamand",
+      "Barwala",
+      "Jind"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balsamand",
+      "coords": [
+        75.41064,
+        29.20237
+      ]
+    },
+    {
+      "name": "Barwala",
+      "coords": [
+        75.89854,
+        29.36248
+      ]
+    },
+    {
+      "name": "Jind",
+      "coords": [
+        76.28711,
+        29.30416
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

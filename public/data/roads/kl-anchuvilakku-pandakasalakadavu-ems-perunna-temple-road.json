@@ -1,0 +1,50 @@
+{
+  "id": "kl-anchuvilakku-pandakasalakadavu-ems-perunna-temple-road",
+  "ref": "MDR",
+  "name": "Anchuvilakku - Pandakasalakadavu - EMS - Perunna Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Perunna, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Changanassery",
+      "Perunna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.52894,
+        9.44501
+      ]
+    },
+    {
+      "name": "Changanassery",
+      "coords": [
+        76.53178,
+        9.44063
+      ]
+    },
+    {
+      "name": "Perunna",
+      "coords": [
+        76.53911,
+        9.43343
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1217",
+  "ref": "MDR 1217",
+  "name": "Neyveli–Sethiathoppu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Neyveli, Tamil Nadu",
+    "end": "Sethiathoppu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Neyveli",
+      "Sethiathoppu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyveli",
+      "coords": [
+        79.45051,
+        11.47375
+      ]
+    },
+    {
+      "name": "Sethiathoppu",
+      "coords": [
+        79.54157,
+        11.43259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

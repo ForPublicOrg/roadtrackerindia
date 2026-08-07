@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-95",
+  "ref": "MDR 95",
+  "name": "Sahwa–Taranagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 39.5,
+  "route": {
+    "start": "Sahwa, Rajasthan",
+    "end": "Taranagar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sahwa",
+      "Taranagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sahwa",
+      "coords": [
+        74.85209,
+        28.87015
+      ]
+    },
+    {
+      "name": "Taranagar",
+      "coords": [
+        74.78566,
+        28.54686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

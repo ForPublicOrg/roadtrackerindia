@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-240",
+  "ref": "SH 240",
+  "name": "Adukkamparai–Pallikondai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 20.1,
+  "route": {
+    "start": "Adukkamparai, Tamil Nadu",
+    "end": "Pallikondai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adukkamparai",
+      "Pallikondai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adukkamparai",
+      "coords": [
+        79.13051,
+        12.83628
+      ]
+    },
+    {
+      "name": "Ariyur",
+      "coords": [
+        79.08615,
+        12.86771
+      ]
+    },
+    {
+      "name": "Pallikondai",
+      "coords": [
+        78.97292,
+        12.90892
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

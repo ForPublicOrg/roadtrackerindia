@@ -1,0 +1,54 @@
+{
+  "id": "nh-717",
+  "ref": "NH 717",
+  "name": "Mal Bazaar–Changrabandha National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 62.9,
+  "route": {
+    "start": "Mal Bazaar, West Bengal",
+    "end": "Changrabandha, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Mal Bazaar",
+      "Maynaguri",
+      "Changrabandha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mal Bazaar",
+      "coords": [
+        88.80295,
+        26.88085
+      ]
+    },
+    {
+      "name": "Maynaguri",
+      "coords": [
+        88.80915,
+        26.57128
+      ]
+    },
+    {
+      "name": "Changrabandha",
+      "coords": [
+        88.91881,
+        26.41503
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-narakathra-nss-karayogam-kuttissery-junction-road",
+  "ref": "MDR",
+  "name": "Narakathra NSS Karayogam - Kuttissery Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.47878,
+        9.46907
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.47008,
+        9.47615
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-931",
+  "ref": "NH 931",
+  "name": "Musarfirkhana–Pratapgarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 69.4,
+  "route": {
+    "start": "Musarfirkhana, Uttar Pradesh",
+    "end": "Pratapgarh, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Musarfirkhana",
+      "Gauriganj",
+      "Amethi",
+      "Pratapgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Musarfirkhana",
+      "coords": [
+        81.79324,
+        26.37869
+      ]
+    },
+    {
+      "name": "Gauriganj",
+      "coords": [
+        81.69534,
+        26.20719
+      ]
+    },
+    {
+      "name": "Amethi",
+      "coords": [
+        81.8056,
+        26.15665
+      ]
+    },
+    {
+      "name": "Pratapgarh",
+      "coords": [
+        82.00398,
+        25.93817
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

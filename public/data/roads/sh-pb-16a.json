@@ -1,0 +1,49 @@
+{
+  "id": "sh-pb-16a",
+  "ref": "SH 16A",
+  "name": "Bhucho Mandi–Bhagta Bhai Ka State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32.3,
+  "route": {
+    "start": "Bhucho Mandi, Punjab",
+    "end": "Bhagta Bhai Ka, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Bhucho Mandi",
+      "Bhagta Bhai Ka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhucho Mandi",
+      "coords": [
+        75.08879,
+        30.22678
+      ]
+    },
+    {
+      "name": "Nathana",
+      "coords": [
+        75.0939,
+        30.31228
+      ]
+    },
+    {
+      "name": "Bhagta Bhai Ka",
+      "coords": [
+        75.09525,
+        30.48288
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

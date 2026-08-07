@@ -1,0 +1,60 @@
+{
+  "id": "sh-ka-99",
+  "ref": "SH 99",
+  "name": "Maluru–Beerongi Kothakota State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 103.5,
+  "route": {
+    "start": "Maluru, Karnataka",
+    "end": "Beerongi Kothakota, Andhra Pradesh",
+    "states": [
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Maluru",
+      "Harohalli",
+      "Kolar",
+      "Srinivaspur",
+      "Beerongi Kothakota"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maluru",
+      "coords": [
+        77.98988,
+        12.88248
+      ]
+    },
+    {
+      "name": "Kolar",
+      "coords": [
+        78.13342,
+        13.14014
+      ]
+    },
+    {
+      "name": "Srinivaspur",
+      "coords": [
+        78.21331,
+        13.33962
+      ]
+    },
+    {
+      "name": "Beerongi Kothakota",
+      "coords": [
+        78.23198,
+        13.60292
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

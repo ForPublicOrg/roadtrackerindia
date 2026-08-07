@@ -1,0 +1,71 @@
+{
+  "id": "kl-ulloor-akkulam-road",
+  "ref": "MDR",
+  "name": "Ulloor - Akkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Ulloor, Kerala",
+    "end": "Karimanal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ulloor",
+      "Akkulam",
+      "Karimanal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ulloor",
+      "coords": [
+        76.92866,
+        8.52944
+      ]
+    },
+    {
+      "name": "Kumarapuram",
+      "coords": [
+        76.92241,
+        8.52613
+      ]
+    },
+    {
+      "name": "Anayara",
+      "coords": [
+        76.913,
+        8.52257
+      ]
+    },
+    {
+      "name": "Akkulam",
+      "coords": [
+        76.90661,
+        8.52077
+      ]
+    },
+    {
+      "name": "Manvila",
+      "coords": [
+        76.89729,
+        8.5241
+      ]
+    },
+    {
+      "name": "Karimanal",
+      "coords": [
+        76.8915,
+        8.52379
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

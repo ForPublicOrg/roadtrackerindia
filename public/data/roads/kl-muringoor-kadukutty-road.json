@@ -1,0 +1,42 @@
+{
+  "id": "kl-muringoor-kadukutty-road",
+  "ref": "MDR",
+  "name": "Muringoor - Kadukutty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.29356,
+        10.26528
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33771,
+        10.28579
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

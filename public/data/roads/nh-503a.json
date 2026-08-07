@@ -1,0 +1,117 @@
+{
+  "id": "nh-503a",
+  "ref": "NH 503A",
+  "name": "Golden Avenue–Bhotta National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 214.3,
+  "route": {
+    "start": "Golden Avenue, Punjab",
+    "end": "Bhotta, Himachal Pradesh",
+    "states": [
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Golden Avenue",
+      "Amritsar",
+      "Mehta Chowk",
+      "Urmar Tanda",
+      "Hoshiarpur",
+      "Una",
+      "Bangana",
+      "Barsar",
+      "Bhotta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Golden Avenue",
+      "coords": [
+        74.90123,
+        31.62172
+      ]
+    },
+    {
+      "name": "Mehta Chowk",
+      "coords": [
+        75.26061,
+        31.67739
+      ]
+    },
+    {
+      "name": "Sri Hargobindpur",
+      "coords": [
+        75.46663,
+        31.69491
+      ]
+    },
+    {
+      "name": "Urmar Tanda",
+      "coords": [
+        75.62981,
+        31.67536
+      ]
+    },
+    {
+      "name": "Hoshiarpur",
+      "coords": [
+        75.90927,
+        31.53988
+      ]
+    },
+    {
+      "name": "Aslamabad",
+      "coords": [
+        75.93077,
+        31.52797
+      ]
+    },
+    {
+      "name": "Panoh-I",
+      "coords": [
+        76.18871,
+        31.49006
+      ]
+    },
+    {
+      "name": "Una",
+      "coords": [
+        76.2709,
+        31.46846
+      ]
+    },
+    {
+      "name": "Bangana",
+      "coords": [
+        76.34484,
+        31.62651
+      ]
+    },
+    {
+      "name": "Barsar",
+      "coords": [
+        76.46273,
+        31.5271
+      ]
+    },
+    {
+      "name": "Bhotta",
+      "coords": [
+        76.56343,
+        31.60713
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

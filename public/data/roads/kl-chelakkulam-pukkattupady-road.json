@@ -1,0 +1,42 @@
+{
+  "id": "kl-chelakkulam-pukkattupady-road",
+  "ref": "MDR",
+  "name": "Chelakkulam - Pukkattupady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Perumbavoor, Kerala",
+    "end": "Kolenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perumbavoor",
+      "Kolenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.4367,
+        10.05778
+      ]
+    },
+    {
+      "name": "Kolenchery",
+      "coords": [
+        76.44924,
+        10.05147
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-924",
+  "ref": "MDR 924",
+  "name": "Shencottai–Mela Kadayanallur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Shencottai, Tamil Nadu",
+    "end": "Mela Kadayanallur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Shencottai",
+      "Mela Kadayanallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shencottai",
+      "coords": [
+        77.27281,
+        9.03835
+      ]
+    },
+    {
+      "name": "Mela Kadayanallur",
+      "coords": [
+        77.23219,
+        9.07181
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

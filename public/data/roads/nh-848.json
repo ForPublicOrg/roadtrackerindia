@@ -1,0 +1,102 @@
+{
+  "id": "nh-848",
+  "ref": "NH 848",
+  "name": "Majiwada–Udvada National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 325.8,
+  "route": {
+    "start": "Majiwada, Maharashtra",
+    "end": "Udvada, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Majiwada",
+      "Thane",
+      "Wada",
+      "Jawhar",
+      "Trimbak",
+      "Nashik",
+      "Peth",
+      "Udvada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Majiwada",
+      "coords": [
+        72.97736,
+        19.21269
+      ]
+    },
+    {
+      "name": "Kalyan-Dombivli",
+      "coords": [
+        73.06511,
+        19.29893
+      ]
+    },
+    {
+      "name": "Umberpada",
+      "coords": [
+        73.08368,
+        19.47073
+      ]
+    },
+    {
+      "name": "Wada",
+      "coords": [
+        73.14608,
+        19.65215
+      ]
+    },
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.22481,
+        19.90955
+      ]
+    },
+    {
+      "name": "Trimbak",
+      "coords": [
+        73.53629,
+        19.93741
+      ]
+    },
+    {
+      "name": "Nashik",
+      "coords": [
+        73.79307,
+        20.01248
+      ]
+    },
+    {
+      "name": "Peth",
+      "coords": [
+        73.50523,
+        20.25769
+      ]
+    },
+    {
+      "name": "Udvada",
+      "coords": [
+        72.94565,
+        20.51353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

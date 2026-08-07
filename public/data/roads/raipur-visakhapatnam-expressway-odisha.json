@@ -1,0 +1,70 @@
+{
+  "id": "raipur-visakhapatnam-expressway-odisha",
+  "ref": "NH",
+  "name": "Raipur - Visakhapatnam Expressway - Odisha",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 294.1,
+  "route": {
+    "start": "Pachipenta, Odisha",
+    "end": "Nagari, Chhattisgarh",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Pachipenta",
+      "Sunabeda",
+      "Nabarangapur",
+      "Umerkote",
+      "Nagari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pachipenta",
+      "coords": [
+        83.04027,
+        18.42789
+      ]
+    },
+    {
+      "name": "Sunabeda",
+      "coords": [
+        82.87181,
+        18.71372
+      ]
+    },
+    {
+      "name": "Nabarangapur",
+      "coords": [
+        82.49919,
+        19.20709
+      ]
+    },
+    {
+      "name": "Umerkote",
+      "coords": [
+        82.20285,
+        19.62181
+      ]
+    },
+    {
+      "name": "Nagari",
+      "coords": [
+        81.8656,
+        20.02967
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

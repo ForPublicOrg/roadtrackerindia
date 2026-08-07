@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuthiathodu-parayakadu-road",
+  "ref": "MDR",
+  "name": "Kuthiathodu -- Parayakadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.31807,
+        9.78228
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.30459,
+        9.78019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-arunoottimangalam-appanchira-road",
+  "ref": "MDR",
+  "name": "Arunoottimangalam - Appanchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kaduthuruthy, Kerala",
+    "end": "Thalayolaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaduthuruthy",
+      "Thalayolaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.49813,
+        9.80093
+      ]
+    },
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.47641,
+        9.77913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

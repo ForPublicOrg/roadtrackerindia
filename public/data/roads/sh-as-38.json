@@ -1,0 +1,43 @@
+{
+  "id": "sh-as-38",
+  "ref": "SH 38",
+  "name": "Badarpur–Tarapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28.2,
+  "route": {
+    "start": "Badarpur, Assam",
+    "end": "Tarapur, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Badarpur",
+      "Silchar",
+      "Tarapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badarpur",
+      "coords": [
+        92.57494,
+        24.96776
+      ]
+    },
+    {
+      "name": "Silchar",
+      "coords": [
+        92.78107,
+        24.83206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

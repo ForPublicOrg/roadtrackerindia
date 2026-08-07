@@ -1,0 +1,50 @@
+{
+  "id": "sh-kl-48",
+  "ref": "SH 48",
+  "name": "Ayoor–Punalur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.8,
+  "route": {
+    "start": "Ayoor, Kerala",
+    "end": "Punalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ayoor",
+      "Anchal",
+      "Punalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.86037,
+        8.89773
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.90833,
+        8.92868
+      ]
+    },
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92714,
+        9.01651
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

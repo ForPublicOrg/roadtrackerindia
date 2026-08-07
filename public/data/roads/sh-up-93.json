@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-93",
+  "ref": "SH 93",
+  "name": "Rosa–Gola Gokarannath State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.7,
+  "route": {
+    "start": "Rosa, Uttar Pradesh",
+    "end": "Gola Gokarannath, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Rosa",
+      "Shahjahanpur",
+      "Gola Gokarannath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rosa",
+      "coords": [
+        79.92324,
+        27.85341
+      ]
+    },
+    {
+      "name": "Shahjahanpur",
+      "coords": [
+        79.9368,
+        27.87464
+      ]
+    },
+    {
+      "name": "Gola Gokarannath",
+      "coords": [
+        80.45761,
+        28.07494
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

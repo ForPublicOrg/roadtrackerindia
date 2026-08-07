@@ -1,0 +1,42 @@
+{
+  "id": "kl-pambadi-peringottukurussi-road",
+  "ref": "MDR",
+  "name": "Pambadi - Peringottukurussi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Ottapalam, Kerala",
+    "end": "Kallekkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottapalam",
+      "Kallekkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.43484,
+        10.74732
+      ]
+    },
+    {
+      "name": "Kallekkad",
+      "coords": [
+        76.49363,
+        10.75701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

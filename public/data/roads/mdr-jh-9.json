@@ -1,0 +1,65 @@
+{
+  "id": "mdr-jh-9",
+  "ref": "MDR 9",
+  "name": "Chhotkatoli–Ranchi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Chhotkatoli, Jharkhand",
+    "end": "Ranchi, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chhotkatoli",
+      "Kokar",
+      "Lalpur",
+      "Ranchi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhotkatoli",
+      "coords": [
+        85.36003,
+        23.37721
+      ]
+    },
+    {
+      "name": "Kokar",
+      "coords": [
+        85.35355,
+        23.3763
+      ]
+    },
+    {
+      "name": "Lalpur",
+      "coords": [
+        85.33823,
+        23.37214
+      ]
+    },
+    {
+      "name": "Chadri",
+      "coords": [
+        85.33139,
+        23.37123
+      ]
+    },
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.3253,
+        23.37015
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

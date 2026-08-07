@@ -1,0 +1,58 @@
+{
+  "id": "mdr-pb-56",
+  "ref": "MDR 56",
+  "name": "Phagwara–Nawanshahr District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 81.3,
+  "route": {
+    "start": "Phagwara, Punjab",
+    "end": "Nawanshahr, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Phagwara",
+      "Banga",
+      "Balachaur",
+      "Nawanshahr"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Phagwara",
+      "coords": [
+        75.73746,
+        31.24671
+      ]
+    },
+    {
+      "name": "Banga",
+      "coords": [
+        75.99182,
+        31.18537
+      ]
+    },
+    {
+      "name": "Balachaur",
+      "coords": [
+        76.30088,
+        31.06268
+      ]
+    },
+    {
+      "name": "Nawanshahr",
+      "coords": [
+        76.1185,
+        31.12563
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

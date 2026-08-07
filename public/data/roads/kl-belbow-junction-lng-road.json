@@ -1,0 +1,43 @@
+{
+  "id": "kl-belbow-junction-lng-road",
+  "ref": "MDR",
+  "name": "Belbow Junction - LNG Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Vallarpadam, Kerala",
+    "end": "Puthuvype, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vallarpadam",
+      "Kochi",
+      "Puthuvype"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vallarpadam",
+      "coords": [
+        76.23832,
+        9.9922
+      ]
+    },
+    {
+      "name": "Puthuvype",
+      "coords": [
+        76.22871,
+        9.98956
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

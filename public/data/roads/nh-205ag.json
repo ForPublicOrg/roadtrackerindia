@@ -1,0 +1,61 @@
+{
+  "id": "nh-205ag",
+  "ref": "NH 205AG",
+  "name": "Sector 94–Fatehgarh Sahib National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 23.3,
+  "route": {
+    "start": "Sector 94, Punjab",
+    "end": "Fatehgarh Sahib, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Sector 94",
+      "Chunni Kalan",
+      "Fatehgarh Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sector 94",
+      "coords": [
+        76.66431,
+        30.69103
+      ]
+    },
+    {
+      "name": "Chunni Kalan",
+      "coords": [
+        76.56833,
+        30.65938
+      ]
+    },
+    {
+      "name": "Badali Ala Singh",
+      "coords": [
+        76.51975,
+        30.64421
+      ]
+    },
+    {
+      "name": "Fatehgarh Sahib",
+      "coords": [
+        76.44113,
+        30.64431
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

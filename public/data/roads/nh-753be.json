@@ -1,0 +1,84 @@
+{
+  "id": "nh-753be",
+  "ref": "NH 753BE",
+  "name": "Raver–Shahada National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 179.8,
+  "route": {
+    "start": "Raver, Maharashtra",
+    "end": "Shahada, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Raver",
+      "Yawal",
+      "Chopda",
+      "Shirpur",
+      "Shahada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raver",
+      "coords": [
+        76.0339,
+        21.24329
+      ]
+    },
+    {
+      "name": "Savda",
+      "coords": [
+        75.88673,
+        21.1544
+      ]
+    },
+    {
+      "name": "Faizpur",
+      "coords": [
+        75.85898,
+        21.16578
+      ]
+    },
+    {
+      "name": "Yawal",
+      "coords": [
+        75.69945,
+        21.17042
+      ]
+    },
+    {
+      "name": "Chopda",
+      "coords": [
+        75.3012,
+        21.23979
+      ]
+    },
+    {
+      "name": "Shirpur",
+      "coords": [
+        74.88064,
+        21.35764
+      ]
+    },
+    {
+      "name": "Shahada",
+      "coords": [
+        74.49063,
+        21.49052
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

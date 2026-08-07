@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-8796",
+  "ref": "ODR 8796",
+  "name": "Mahindra World City–Maraimalai Nagar Industrial Area District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Mahindra World City, Tamil Nadu",
+    "end": "Maraimalai Nagar Industrial Area, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mahindra World City",
+      "Maraimalai Nagar Industrial Area"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahindra World City",
+      "coords": [
+        80.0711,
+        12.74192
+      ]
+    },
+    {
+      "name": "Maraimalai Nagar Industrial Area",
+      "coords": [
+        80.09213,
+        12.75068
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

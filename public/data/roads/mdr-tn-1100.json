@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1100",
+  "ref": "MDR 1100",
+  "name": "Sulur–Papampatti Pirivu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Sulur, Tamil Nadu",
+    "end": "Papampatti Pirivu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sulur",
+      "Papampatti Pirivu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sulur",
+      "coords": [
+        77.13029,
+        10.94856
+      ]
+    },
+    {
+      "name": "Papampatti Pirivu",
+      "coords": [
+        77.13791,
+        11.00618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

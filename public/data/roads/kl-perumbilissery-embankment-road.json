@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbilissery-embankment-road",
+  "ref": "MDR",
+  "name": "Perumbilissery Embankment Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Cheerachi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Cheerachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.2104,
+        10.44426
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.19412,
+        10.45898
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

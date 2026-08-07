@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-135",
+  "ref": "SH 135",
+  "name": "Kadi–Lakhtar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 75.8,
+  "route": {
+    "start": "Kadi, Gujarat",
+    "end": "Lakhtar, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kadi",
+      "Chekhla Godhavi",
+      "Sanand",
+      "Lakhtar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadi",
+      "coords": [
+        72.33808,
+        23.29958
+      ]
+    },
+    {
+      "name": "Chekhla Godhavi",
+      "coords": [
+        72.36164,
+        23.06572
+      ]
+    },
+    {
+      "name": "Sanand",
+      "coords": [
+        72.38137,
+        22.99561
+      ]
+    },
+    {
+      "name": "Lakhtar",
+      "coords": [
+        72.05792,
+        22.82844
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

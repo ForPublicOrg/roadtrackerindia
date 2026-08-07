@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-16",
+  "ref": "SH 16",
+  "name": "Barpathar–Bokajan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 70.3,
+  "route": {
+    "start": "Barpathar, Assam",
+    "end": "Bokajan, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Barpathar",
+      "Sarupathar",
+      "Bokajan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barpathar",
+      "coords": [
+        93.87218,
+        26.31988
+      ]
+    },
+    {
+      "name": "Sarupathar",
+      "coords": [
+        93.86533,
+        26.19531
+      ]
+    },
+    {
+      "name": "Bokajan",
+      "coords": [
+        93.77016,
+        26.02512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

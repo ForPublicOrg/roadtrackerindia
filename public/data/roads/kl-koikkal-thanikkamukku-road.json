@@ -1,0 +1,65 @@
+{
+  "id": "kl-koikkal-thanikkamukku-road",
+  "ref": "MDR",
+  "name": "Koikkal - Thanikkamukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Kallumthazham, Kerala",
+    "end": "Anchalummood, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallumthazham",
+      "Kollam",
+      "Mangad",
+      "Anchalummood"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallumthazham",
+      "coords": [
+        76.62018,
+        8.9024
+      ]
+    },
+    {
+      "name": "Karikode",
+      "coords": [
+        76.61912,
+        8.91304
+      ]
+    },
+    {
+      "name": "Mangad",
+      "coords": [
+        76.6184,
+        8.92024
+      ]
+    },
+    {
+      "name": "Neeravil",
+      "coords": [
+        76.6186,
+        8.9251
+      ]
+    },
+    {
+      "name": "Anchalummood",
+      "coords": [
+        76.61863,
+        8.93335
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

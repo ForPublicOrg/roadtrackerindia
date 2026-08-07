@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-102w",
+  "ref": "SH 102W",
+  "name": "Mathura–Sadabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40.5,
+  "route": {
+    "start": "Mathura, Uttar Pradesh",
+    "end": "Sadabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mathura",
+      "Gokul",
+      "Bisawar",
+      "Sadabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mathura",
+      "coords": [
+        77.70716,
+        27.51169
+      ]
+    },
+    {
+      "name": "Gokul",
+      "coords": [
+        77.73243,
+        27.44842
+      ]
+    },
+    {
+      "name": "Bisawar",
+      "coords": [
+        77.92487,
+        27.40224
+      ]
+    },
+    {
+      "name": "Sadabad",
+      "coords": [
+        78.03116,
+        27.44052
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjar-karukappilly-road",
+  "ref": "MDR",
+  "name": "Kanjar - Karukappilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Mechal, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mechal",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mechal",
+      "coords": [
+        76.81759,
+        9.83589
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.81279,
+        9.8185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

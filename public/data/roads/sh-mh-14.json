@@ -1,0 +1,59 @@
+{
+  "id": "sh-mh-14",
+  "ref": "SH 14",
+  "name": "Dhule–Balwadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 113.3,
+  "route": {
+    "start": "Dhule, Maharashtra",
+    "end": "Balwadi, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dhule",
+      "Amalner",
+      "Chopda",
+      "Balwadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhule",
+      "coords": [
+        74.6274,
+        20.97772
+      ]
+    },
+    {
+      "name": "Amalner",
+      "coords": [
+        75.07121,
+        21.04107
+      ]
+    },
+    {
+      "name": "Chopda",
+      "coords": [
+        75.29393,
+        21.24961
+      ]
+    },
+    {
+      "name": "Balwadi",
+      "coords": [
+        75.34941,
+        21.4072
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2112",
+  "ref": "MDR 2112",
+  "name": "Kacchi Basti–Manasa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 55.2,
+  "route": {
+    "start": "Kacchi Basti, Madhya Pradesh",
+    "end": "Manasa, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Kacchi Basti",
+      "Manasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kacchi Basti",
+      "coords": [
+        74.8028,
+        24.77958
+      ]
+    },
+    {
+      "name": "Manasa",
+      "coords": [
+        75.06813,
+        24.45428
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

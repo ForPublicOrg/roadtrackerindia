@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-7926",
+  "ref": "ODR 7926",
+  "name": "SIPCOT Vallam Vadagal–Pattunool Chataram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "SIPCOT Vallam Vadagal, Tamil Nadu",
+    "end": "Pattunool Chataram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "SIPCOT Vallam Vadagal",
+      "Pattunool Chataram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "SIPCOT Vallam Vadagal",
+      "coords": [
+        79.85442,
+        12.95745
+      ]
+    },
+    {
+      "name": "Pattunool Chataram",
+      "coords": [
+        79.87079,
+        12.95602
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

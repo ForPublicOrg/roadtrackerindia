@@ -1,0 +1,105 @@
+{
+  "id": "nh-120",
+  "ref": "NH 120",
+  "name": "Bihar Sharif–Dumraon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 234.8,
+  "route": {
+    "start": "Bihar Sharif, Bihar",
+    "end": "Dumraon, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Bihar Sharif",
+      "Hisua",
+      "Gaya",
+      "Bikramganj",
+      "Dumraon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bihar Sharif",
+      "coords": [
+        85.51188,
+        25.17713
+      ]
+    },
+    {
+      "name": "Rajgir",
+      "coords": [
+        85.41727,
+        25.03094
+      ]
+    },
+    {
+      "name": "Nardiganj",
+      "coords": [
+        85.43745,
+        24.93563
+      ]
+    },
+    {
+      "name": "Hisua",
+      "coords": [
+        85.41552,
+        24.83783
+      ]
+    },
+    {
+      "name": "Wazirganj",
+      "coords": [
+        85.23673,
+        24.80506
+      ]
+    },
+    {
+      "name": "Gaya",
+      "coords": [
+        85.01214,
+        24.79881
+      ]
+    },
+    {
+      "name": "Bikramganj",
+      "coords": [
+        84.26315,
+        25.2246
+      ]
+    },
+    {
+      "name": "Suryapura",
+      "coords": [
+        84.24126,
+        25.26311
+      ]
+    },
+    {
+      "name": "Kesath",
+      "coords": [
+        84.20328,
+        25.39331
+      ]
+    },
+    {
+      "name": "Dumraon",
+      "coords": [
+        84.14647,
+        25.55767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

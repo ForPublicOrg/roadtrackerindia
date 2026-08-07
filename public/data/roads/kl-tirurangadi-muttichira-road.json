@@ -1,0 +1,42 @@
+{
+  "id": "kl-tirurangadi-muttichira-road",
+  "ref": "MDR",
+  "name": "Tirurangadi - Muttichira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Chemmad, Kerala",
+    "end": "Tirurangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemmad",
+      "Tirurangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemmad",
+      "coords": [
+        75.90288,
+        11.07233
+      ]
+    },
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.91115,
+        11.04253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

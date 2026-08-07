@@ -1,0 +1,65 @@
+{
+  "id": "mdr-rj-82",
+  "ref": "MDR 82",
+  "name": "Mandrella–Bissau District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 84.4,
+  "route": {
+    "start": "Mandrella, Rajasthan",
+    "end": "Bissau, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mandrella",
+      "Pilani",
+      "Malsisar",
+      "Bissau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandrella",
+      "coords": [
+        75.4297,
+        28.30107
+      ]
+    },
+    {
+      "name": "Pilani",
+      "coords": [
+        75.61004,
+        28.35039
+      ]
+    },
+    {
+      "name": "Mandrella",
+      "coords": [
+        75.4278,
+        28.31592
+      ]
+    },
+    {
+      "name": "Malsisar",
+      "coords": [
+        75.29923,
+        28.34681
+      ]
+    },
+    {
+      "name": "Bissau",
+      "coords": [
+        75.08745,
+        28.23985
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

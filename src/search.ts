@@ -1,6 +1,6 @@
 import { state } from './state'
 import type { RoadSummary } from './types'
-import { esc, STATUS_LABEL } from './ui'
+import { esc } from './ui'
 import { formatKm } from './geo'
 
 interface RoadResult {
@@ -103,6 +103,40 @@ function update(raw: string): void {
   render()
 }
 
+/**
+ * Normalising 8,000 refs and names on every keystroke is the difference
+ * between instant and laggy on a mid-range phone — do it once per road.
+ */
+interface Terms {
+  ref: string
+  name: string
+  sname: string
+  aka: string[]
+}
+const terms = new WeakMap<RoadSummary, Terms>()
+function termsFor(road: RoadSummary): Terms {
+  let t = terms.get(road)
+  if (!t) {
+    t = {
+      ref: squash(road.ref),
+      name: norm(road.name),
+      sname: squash(road.name),
+      aka: (road.aka ?? []).map(squash),
+    }
+    terms.set(road, t)
+  }
+  return t
+}
+
+/** A search for "44" should surface NH 44 before a district road numbered 44. */
+const CATEGORY_BONUS: Record<string, number> = {
+  expressway: 6,
+  nh: 5,
+  sh: 2,
+  district: 0,
+  local: 1,
+}
+
 function compute(q: string): Result[] {
   const sq = squash(q)
   const out: Result[] = []
@@ -111,16 +145,19 @@ function compute(q: string): Result[] {
 
   for (const road of state.roads) {
     let score = 0
-    const ref = squash(road.ref)
-    const name = norm(road.name)
-    if (ref === sq) score = 100
-    else if (ref.startsWith(sq)) score = 80
-    else if (name.startsWith(q)) score = 72
-    else if (squash(road.name).includes(sq)) score = 55
-    else if (road.aka?.some((a) => squash(a).includes(sq))) score = 50
+    const t = termsFor(road)
+    if (t.ref === sq) score = 100
+    else if (t.ref.startsWith(sq)) score = 80
+    else if (t.name.startsWith(q)) score = 72
+    else if (t.sname.includes(sq)) score = 55
+    else if (t.aka.some((a) => a.includes(sq))) score = 50
     if (score > 0) {
-      // prefer bigger roads on ties
-      out.push({ kind: 'road', road, score: score + Math.min(9, road.lengthKm / 500) })
+      // prefer bigger, more important roads on ties
+      out.push({
+        kind: 'road',
+        road,
+        score: score + (CATEGORY_BONUS[road.category] ?? 0) + Math.min(9, road.lengthKm / 500),
+      })
     }
     for (const city of road.cities) {
       const nc = norm(city)
@@ -167,7 +204,7 @@ function render(): void {
             <span class="sr-badge cat-${esc(rd.category)}">${esc(shortRef(rd.ref))}</span>
             <span class="sr-main">
               <span class="sr-title">${esc(rd.name)}</span>
-              <span class="sr-sub">${formatKm(rd.lengthKm)} · ${STATUS_LABEL[rd.status]} · ${esc(rd.start.split(',')[0])} → ${esc(rd.end.split(',')[0])}</span>
+              <span class="sr-sub">${formatKm(rd.lengthKm)}${scopeOf(rd)} · ${esc(rd.start.split(',')[0])} → ${esc(rd.end.split(',')[0])}</span>
             </span></li>`
         }
         const label = r.kind === 'city' ? r.city : r.state
@@ -193,6 +230,15 @@ function render(): void {
 
 function shortRef(ref: string): string {
   return ref.length <= 7 ? ref : ref.split(/[\s–—]/)[0].slice(0, 7)
+}
+
+/**
+ * Every state numbers its own highways, so "SH 27" and "MDR 37" each match
+ * several roads. The state is what tells them apart — show it whenever a road
+ * belongs to exactly one.
+ */
+function scopeOf(rd: RoadSummary): string {
+  return rd.states.length === 1 ? ` · ${esc(rd.states[0])}` : ''
 }
 
 function setActive(i: number): void {

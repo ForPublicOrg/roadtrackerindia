@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-886",
+  "ref": "MDR 886",
+  "name": "Arachalur–Vellakovil District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.5,
+  "route": {
+    "start": "Arachalur, Tamil Nadu",
+    "end": "Vellakovil, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Arachalur",
+      "Vellakovil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arachalur",
+      "coords": [
+        77.6619,
+        11.085
+      ]
+    },
+    {
+      "name": "Vellakovil",
+      "coords": [
+        77.67318,
+        10.9001
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ahmednagar-bypass",
+  "ref": "NH",
+  "name": "Ahmednagar Bypass",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 30.5,
+  "route": {
+    "start": "Kedgaon, Maharashtra",
+    "end": "Ahilyanagar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kedgaon",
+      "Ahilyanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kedgaon",
+      "coords": [
+        74.69797,
+        19.10008
+      ]
+    },
+    {
+      "name": "Ahilyanagar",
+      "coords": [
+        74.84106,
+        19.08864
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

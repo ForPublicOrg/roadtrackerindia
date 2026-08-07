@@ -1,0 +1,92 @@
+{
+  "id": "nh-444",
+  "ref": "NH 444",
+  "name": "Bemina–Qazigund National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 101.8,
+  "route": {
+    "start": "Bemina, Jammu and Kashmir",
+    "end": "Qazigund, Jammu and Kashmir",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "majorCities": [
+      "Bemina",
+      "Srinagar",
+      "Pulwama",
+      "Shopian",
+      "Kulgam",
+      "Qazigund"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bemina",
+      "coords": [
+        74.76789,
+        34.07208
+      ]
+    },
+    {
+      "name": "Chadoora",
+      "coords": [
+        74.79915,
+        33.94536
+      ]
+    },
+    {
+      "name": "Pampore",
+      "coords": [
+        74.86742,
+        33.96483
+      ]
+    },
+    {
+      "name": "Pulwama",
+      "coords": [
+        74.89961,
+        33.87265
+      ]
+    },
+    {
+      "name": "Shopian",
+      "coords": [
+        74.83104,
+        33.71946
+      ]
+    },
+    {
+      "name": "Kulgam",
+      "coords": [
+        75.0155,
+        33.64583
+      ]
+    },
+    {
+      "name": "Devsar",
+      "coords": [
+        75.08125,
+        33.63251
+      ]
+    },
+    {
+      "name": "Qazigund",
+      "coords": [
+        75.15827,
+        33.60016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

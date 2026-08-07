@@ -1,0 +1,57 @@
+{
+  "id": "mdr-jh-53",
+  "ref": "MDR 53",
+  "name": "Barora–Topchanchi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.4,
+  "route": {
+    "start": "Barora, Jharkhand",
+    "end": "Topchanchi, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barora",
+      "Baghmara",
+      "Topchanchi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barora",
+      "coords": [
+        86.232,
+        23.77302
+      ]
+    },
+    {
+      "name": "Baghmara",
+      "coords": [
+        86.21086,
+        23.79748
+      ]
+    },
+    {
+      "name": "Gomoh",
+      "coords": [
+        86.16236,
+        23.86752
+      ]
+    },
+    {
+      "name": "Topchanchi",
+      "coords": [
+        86.19352,
+        23.90537
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

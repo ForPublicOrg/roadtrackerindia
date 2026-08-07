@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-304",
+  "ref": "MDR 304",
+  "name": "Morar Cantonment–Gohad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.6,
+  "route": {
+    "start": "Morar Cantonment, Madhya Pradesh",
+    "end": "Gohad, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Morar Cantonment",
+      "Gohad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.22573,
+        26.23021
+      ]
+    },
+    {
+      "name": "Gohad",
+      "coords": [
+        78.39915,
+        26.27322
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

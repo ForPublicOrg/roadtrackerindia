@@ -1,0 +1,86 @@
+{
+  "id": "mdr-jh-2",
+  "ref": "MDR 2",
+  "name": "Naditoli–Khijri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Naditoli, Jharkhand",
+    "end": "Khijri, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Naditoli",
+      "Ranchi",
+      "Bara Ghaghra",
+      "Khijri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naditoli",
+      "coords": [
+        85.31913,
+        23.33911
+      ]
+    },
+    {
+      "name": "Doronda",
+      "coords": [
+        85.33081,
+        23.33769
+      ]
+    },
+    {
+      "name": "Kusai",
+      "coords": [
+        85.33693,
+        23.33539
+      ]
+    },
+    {
+      "name": "Bara Ghaghra",
+      "coords": [
+        85.34416,
+        23.33481
+      ]
+    },
+    {
+      "name": "Chirutoli",
+      "coords": [
+        85.34862,
+        23.33257
+      ]
+    },
+    {
+      "name": "Parsatoli",
+      "coords": [
+        85.35905,
+        23.33391
+      ]
+    },
+    {
+      "name": "Namkom",
+      "coords": [
+        85.36581,
+        23.33227
+      ]
+    },
+    {
+      "name": "Khijri",
+      "coords": [
+        85.36966,
+        23.32725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

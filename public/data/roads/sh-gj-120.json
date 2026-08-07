@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-120",
+  "ref": "SH 120",
+  "name": "Gondal–Tankara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86,
+  "route": {
+    "start": "Gondal, Gujarat",
+    "end": "Tankara, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Gondal",
+      "Paddhari",
+      "Tankara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gondal",
+      "coords": [
+        70.73038,
+        21.96868
+      ]
+    },
+    {
+      "name": "Paddhari",
+      "coords": [
+        70.60192,
+        22.4397
+      ]
+    },
+    {
+      "name": "Tankara",
+      "coords": [
+        70.7467,
+        22.56145
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

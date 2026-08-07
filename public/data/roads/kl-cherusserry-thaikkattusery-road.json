@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherusserry-thaikkattusery-road",
+  "ref": "MDR",
+  "name": "Cherusserry Thaikkattusery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.23866,
+        10.47174
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.24168,
+        10.46053
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

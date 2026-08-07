@@ -1,0 +1,65 @@
+{
+  "id": "kl-kavumbhagam-idinjillam-road",
+  "ref": "MDR",
+  "name": "Kavumbhagam - Idinjillam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Muthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Thiruvalla",
+      "Muthoor",
+      "Changanassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.55693,
+        9.37711
+      ]
+    },
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.55593,
+        9.38113
+      ]
+    },
+    {
+      "name": "Muthoor",
+      "coords": [
+        76.55173,
+        9.39269
+      ]
+    },
+    {
+      "name": "Kizhakken Muthoor",
+      "coords": [
+        76.55027,
+        9.40477
+      ]
+    },
+    {
+      "name": "Changanassery",
+      "coords": [
+        76.54968,
+        9.41477
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

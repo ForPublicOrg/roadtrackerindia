@@ -1,0 +1,70 @@
+{
+  "id": "nh-151",
+  "ref": "NH 151",
+  "name": "Gadu–Jetpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 97.6,
+  "route": {
+    "start": "Gadu, Gujarat",
+    "end": "Jetpur, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Gadu",
+      "Keshod",
+      "Vanthali",
+      "Junagadh",
+      "Jetpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gadu",
+      "coords": [
+        70.28943,
+        21.05334
+      ]
+    },
+    {
+      "name": "Keshod",
+      "coords": [
+        70.24619,
+        21.32483
+      ]
+    },
+    {
+      "name": "Vanthali",
+      "coords": [
+        70.33678,
+        21.47726
+      ]
+    },
+    {
+      "name": "Junagadh",
+      "coords": [
+        70.42439,
+        21.57568
+      ]
+    },
+    {
+      "name": "Jetpur",
+      "coords": [
+        70.59391,
+        21.75354
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

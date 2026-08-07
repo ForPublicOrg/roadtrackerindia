@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-214",
+  "ref": "MDR 214",
+  "name": "Morar Cantonment–Morena District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Morar Cantonment, Madhya Pradesh",
+    "end": "Morena, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Morar Cantonment",
+      "Morena"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.19003,
+        26.32108
+      ]
+    },
+    {
+      "name": "Morena",
+      "coords": [
+        78.17448,
+        26.42108
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

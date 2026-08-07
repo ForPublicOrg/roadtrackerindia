@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-62",
+  "ref": "SH 62",
+  "name": "Pichandarkovil–Thuraiyur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32,
+  "route": {
+    "start": "Pichandarkovil, Tamil Nadu",
+    "end": "Thuraiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pichandarkovil",
+      "Manachanallur",
+      "Thuraiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pichandarkovil",
+      "coords": [
+        78.69098,
+        10.88308
+      ]
+    },
+    {
+      "name": "Manachanallur",
+      "coords": [
+        78.69983,
+        10.91027
+      ]
+    },
+    {
+      "name": "Thuraiyur",
+      "coords": [
+        78.59146,
+        11.13408
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

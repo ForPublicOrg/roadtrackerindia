@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-20a",
+  "ref": "MDR 20A",
+  "name": "Barmer–Gadra Road District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 85.2,
+  "route": {
+    "start": "Barmer, Rajasthan",
+    "end": "Gadra Road, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Barmer",
+      "Gadra Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barmer",
+      "coords": [
+        71.24089,
+        26.1963
+      ]
+    },
+    {
+      "name": "Gadra Road",
+      "coords": [
+        70.64976,
+        25.74537
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

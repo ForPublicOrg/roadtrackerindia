@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuruthummel-ala-sn-college-neduvaramcode-road",
+  "ref": "MDR",
+  "name": "Thuruthummel - Ala SN College - Neduvaramcode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Chengannur, Kerala",
+    "end": "Angadikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengannur",
+      "Angadikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.59298,
+        9.28566
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.60329,
+        9.28521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

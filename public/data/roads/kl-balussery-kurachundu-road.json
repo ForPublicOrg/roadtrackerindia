@@ -1,0 +1,50 @@
+{
+  "id": "kl-balussery-kurachundu-road",
+  "ref": "MDR",
+  "name": "Balussery - Kurachundu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.8,
+  "route": {
+    "start": "Balusseri, Kerala",
+    "end": "Koorachundu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Balusseri",
+      "Kootalida",
+      "Koorachundu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balusseri",
+      "coords": [
+        75.82216,
+        11.44916
+      ]
+    },
+    {
+      "name": "Kootalida",
+      "coords": [
+        75.80942,
+        11.49455
+      ]
+    },
+    {
+      "name": "Koorachundu",
+      "coords": [
+        75.84501,
+        11.53897
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

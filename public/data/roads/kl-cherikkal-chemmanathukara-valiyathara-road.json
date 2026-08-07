@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherikkal-chemmanathukara-valiyathara-road",
+  "ref": "MDR",
+  "name": "Cherikkal - Chemmanathukara - Valiyathara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Arattukulangara, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Arattukulangara",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.41041,
+        9.72286
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.3964,
+        9.72337
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-bastow-road-1st-section-paduthodu-ezhumattoor-road",
+  "ref": "MDR",
+  "name": "Bastow Road (1st Section) - Paduthodu - Ezhumattoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.66968,
+        9.41613
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.70536,
+        9.42329
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

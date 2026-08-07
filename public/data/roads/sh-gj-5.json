@@ -1,0 +1,74 @@
+{
+  "id": "sh-gj-5",
+  "ref": "SH 5",
+  "name": "Asoj–Modasa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175.3,
+  "route": {
+    "start": "Asoj, Gujarat",
+    "end": "Modasa, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Asoj",
+      "Kalol",
+      "Godhra",
+      "Lunavada",
+      "Malpur",
+      "Modasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Asoj",
+      "coords": [
+        73.56449,
+        22.46047
+      ]
+    },
+    {
+      "name": "Kalol",
+      "coords": [
+        73.46188,
+        22.6096
+      ]
+    },
+    {
+      "name": "Godhra",
+      "coords": [
+        73.61921,
+        22.78131
+      ]
+    },
+    {
+      "name": "Lunavada",
+      "coords": [
+        73.60836,
+        23.12122
+      ]
+    },
+    {
+      "name": "Malpur",
+      "coords": [
+        73.46632,
+        23.36234
+      ]
+    },
+    {
+      "name": "Modasa",
+      "coords": [
+        73.31365,
+        23.46541
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

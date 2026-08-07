@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerathanam-kurinji-road",
+  "ref": "MDR",
+  "name": "Neerathanam - Kurinji Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.64717,
+        9.82793
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.66969,
+        9.82312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

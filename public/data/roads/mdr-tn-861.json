@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-861",
+  "ref": "MDR 861",
+  "name": "Palacode–Kaveripattinam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.5,
+  "route": {
+    "start": "Palacode, Tamil Nadu",
+    "end": "Kaveripattinam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palacode",
+      "Kaveripattinam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palacode",
+      "coords": [
+        78.07653,
+        12.32005
+      ]
+    },
+    {
+      "name": "Kaveripattinam",
+      "coords": [
+        78.21879,
+        12.41837
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

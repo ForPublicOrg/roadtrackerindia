@@ -1,0 +1,51 @@
+{
+  "id": "sh-ct-3",
+  "ref": "SH 3",
+  "name": "Bohla–Shahdol State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 311.8,
+  "route": {
+    "start": "Bohla, Chhattisgarh",
+    "end": "Shahdol, Madhya Pradesh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Bohla",
+      "Ramanuj Ganj",
+      "Manendragarh",
+      "Shahdol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bohla",
+      "coords": [
+        83.6959,
+        23.80812
+      ]
+    },
+    {
+      "name": "Manendragarh",
+      "coords": [
+        82.25056,
+        23.28423
+      ]
+    },
+    {
+      "name": "Shahdol",
+      "coords": [
+        81.66866,
+        23.68647
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

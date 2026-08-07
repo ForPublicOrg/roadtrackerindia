@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-915a",
+  "ref": "MDR 915A",
+  "name": "Kilakkarai–Ramanathapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.6,
+  "route": {
+    "start": "Kilakkarai, Tamil Nadu",
+    "end": "Ramanathapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kilakkarai",
+      "Ramanathapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kilakkarai",
+      "coords": [
+        78.74285,
+        9.31518
+      ]
+    },
+    {
+      "name": "Ramanathapuram",
+      "coords": [
+        78.8266,
+        9.28214
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

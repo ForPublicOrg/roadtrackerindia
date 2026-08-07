@@ -1,0 +1,55 @@
+{
+  "id": "nh-219",
+  "ref": "NH 219",
+  "name": "Mohania–Chandauli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 60.5,
+  "route": {
+    "start": "Mohania, Bihar",
+    "end": "Chandauli, Uttar Pradesh",
+    "states": [
+      "Bihar",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mohania",
+      "Bhabua",
+      "Chandauli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohania",
+      "coords": [
+        83.62395,
+        25.16525
+      ]
+    },
+    {
+      "name": "Bhabua",
+      "coords": [
+        83.60459,
+        25.03989
+      ]
+    },
+    {
+      "name": "Chandauli",
+      "coords": [
+        83.27105,
+        25.25963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

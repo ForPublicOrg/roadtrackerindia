@@ -1,0 +1,58 @@
+{
+  "id": "sh-br-78",
+  "ref": "SH 78",
+  "name": "Maner–Barbigha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 122.3,
+  "route": {
+    "start": "Maner, Bihar",
+    "end": "Barbigha, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Maner",
+      "Chandi",
+      "Nursarai",
+      "Barbigha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maner",
+      "coords": [
+        84.91371,
+        25.58147
+      ]
+    },
+    {
+      "name": "Chandi",
+      "coords": [
+        85.40221,
+        25.32582
+      ]
+    },
+    {
+      "name": "Nursarai",
+      "coords": [
+        85.45536,
+        25.2754
+      ]
+    },
+    {
+      "name": "Barbigha",
+      "coords": [
+        85.77108,
+        25.27251
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

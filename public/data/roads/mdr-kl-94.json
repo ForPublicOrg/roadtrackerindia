@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-94",
+  "ref": "MDR 94",
+  "name": "Siraj Nagar–Kumbala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Siraj Nagar, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Siraj Nagar",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.99368,
+        12.57036
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.95605,
+        12.58764
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

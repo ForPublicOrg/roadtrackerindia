@@ -1,0 +1,42 @@
+{
+  "id": "kl-ambalavayal-chulliyode-road",
+  "ref": "MDR",
+  "name": "Ambalavayal - Chulliyode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.25665,
+        11.60154
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.21213,
+        11.61793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

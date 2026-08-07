@@ -1,0 +1,79 @@
+{
+  "id": "sh-kl-30",
+  "ref": "SH 30",
+  "name": "Thalassery–Iritty State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54,
+  "route": {
+    "start": "Thalassery, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalassery",
+      "Koothuparamba",
+      "Mattannur",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.48892,
+        11.74757
+      ]
+    },
+    {
+      "name": "Panoor",
+      "coords": [
+        75.54034,
+        11.79252
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.56766,
+        11.83133
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.57251,
+        11.93001
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.57625,
+        11.93245
+      ]
+    },
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.67342,
+        11.98161
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.67695,
+        11.98816
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

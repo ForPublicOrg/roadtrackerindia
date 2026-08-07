@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-40",
+  "ref": "SH 40",
+  "name": "Betma–Pithampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 34.6,
+  "route": {
+    "start": "Betma, Madhya Pradesh",
+    "end": "Pithampur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Betma",
+      "Pithampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Betma",
+      "coords": [
+        75.46574,
+        22.67742
+      ]
+    },
+    {
+      "name": "Pithampur",
+      "coords": [
+        75.61049,
+        22.42596
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

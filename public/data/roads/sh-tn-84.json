@@ -1,0 +1,66 @@
+{
+  "id": "sh-tn-84",
+  "ref": "SH 84",
+  "name": "Vadivel Nagar–Nadarmedu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.3,
+  "route": {
+    "start": "Vadivel Nagar, Tamil Nadu",
+    "end": "Nadarmedu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadivel Nagar",
+      "Karur",
+      "Kodumudi",
+      "Erode",
+      "Nadarmedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadivel Nagar",
+      "coords": [
+        78.05739,
+        10.96379
+      ]
+    },
+    {
+      "name": "TNPL Pugalur",
+      "coords": [
+        77.95756,
+        11.02773
+      ]
+    },
+    {
+      "name": "Kodumudi",
+      "coords": [
+        77.88439,
+        11.07794
+      ]
+    },
+    {
+      "name": "Erode",
+      "coords": [
+        77.73477,
+        11.32317
+      ]
+    },
+    {
+      "name": "Nadarmedu",
+      "coords": [
+        77.7273,
+        11.31926
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-9",
+  "ref": "SH 9",
+  "name": "Akkalkuva–Subir State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 72.5,
+  "route": {
+    "start": "Akkalkuva, Maharashtra",
+    "end": "Subir, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Akkalkuva",
+      "Navapur",
+      "Subir"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Akkalkuva",
+      "coords": [
+        74.06702,
+        21.43695
+      ]
+    },
+    {
+      "name": "Navapur",
+      "coords": [
+        73.82079,
+        21.16339
+      ]
+    },
+    {
+      "name": "Subir",
+      "coords": [
+        73.80858,
+        21.02009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

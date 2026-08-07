@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-165",
+  "ref": "SH 165",
+  "name": "Valod–Bharuch State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 138.6,
+  "route": {
+    "start": "Valod, Gujarat",
+    "end": "Bharuch, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Valod",
+      "Bardoli",
+      "Bharuch"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valod",
+      "coords": [
+        73.329,
+        20.81608
+      ]
+    },
+    {
+      "name": "Bardoli",
+      "coords": [
+        73.10663,
+        21.11972
+      ]
+    },
+    {
+      "name": "Bharuch",
+      "coords": [
+        73.07132,
+        21.68424
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

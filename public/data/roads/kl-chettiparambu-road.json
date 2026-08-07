@@ -1,0 +1,42 @@
+{
+  "id": "kl-chettiparambu-road",
+  "ref": "MDR",
+  "name": "Chettiparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Thiruvanchikulam, Kerala",
+    "end": "Valiyaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvanchikulam",
+      "Valiyaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.23962,
+        10.21391
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.28435,
+        10.23016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

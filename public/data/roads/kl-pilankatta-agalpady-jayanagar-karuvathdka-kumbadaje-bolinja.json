@@ -1,0 +1,42 @@
+{
+  "id": "kl-pilankatta-agalpady-jayanagar-karuvathdka-kumbadaje-bolinja",
+  "ref": "MDR",
+  "name": "Pilankatta - Agalpady - Jayanagar - Karuvathdka - Kumbadaje - Bolinja - Nattakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Mulleria, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulleria",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.16789,
+        12.582
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.09014,
+        12.57237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-52",
+  "ref": "MDR 52",
+  "name": "Ayyampettai–Papanasam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Ayyampettai, Tamil Nadu",
+    "end": "Papanasam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ayyampettai",
+      "Papanasam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayyampettai",
+      "coords": [
+        79.19488,
+        10.90058
+      ]
+    },
+    {
+      "name": "Papanasam",
+      "coords": [
+        79.20674,
+        10.89584
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

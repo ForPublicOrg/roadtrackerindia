@@ -1,0 +1,73 @@
+{
+  "id": "nh-150c",
+  "ref": "NH 150C",
+  "name": "Akkalkot–Kallur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 280.1,
+  "route": {
+    "start": "Akkalkot, Maharashtra",
+    "end": "Kallur, Andhra Pradesh",
+    "states": [
+      "Maharashtra",
+      "Karnataka",
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Akkalkot",
+      "Jevaragi",
+      "Shaktinagara",
+      "Aija",
+      "Kallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Akkalkot",
+      "coords": [
+        76.22846,
+        17.50789
+      ]
+    },
+    {
+      "name": "Jevaragi",
+      "coords": [
+        76.75922,
+        16.9942
+      ]
+    },
+    {
+      "name": "Shaktinagara",
+      "coords": [
+        77.33986,
+        16.32946
+      ]
+    },
+    {
+      "name": "Aija",
+      "coords": [
+        77.69012,
+        16.04002
+      ]
+    },
+    {
+      "name": "Kallur",
+      "coords": [
+        78.01481,
+        15.76591
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

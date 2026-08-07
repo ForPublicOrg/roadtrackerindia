@@ -1,0 +1,50 @@
+{
+  "id": "kl-engapuzha-omassery-road",
+  "ref": "MDR",
+  "name": "Engapuzha - Omassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Engapuzha, Kerala",
+    "end": "Maikave, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Engapuzha",
+      "Adivaram",
+      "Maikave"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Engapuzha",
+      "coords": [
+        75.96889,
+        11.47134
+      ]
+    },
+    {
+      "name": "Adivaram",
+      "coords": [
+        76.00381,
+        11.45678
+      ]
+    },
+    {
+      "name": "Maikave",
+      "coords": [
+        76.00538,
+        11.43191
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

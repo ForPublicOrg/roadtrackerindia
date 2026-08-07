@@ -1,0 +1,42 @@
+{
+  "id": "kl-pothipadu-mundakkal-kumbalampoika-road",
+  "ref": "MDR",
+  "name": "Pothipadu - Mundakkal - Kumbalampoika Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.81145,
+        9.32026
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.83158,
+        9.29358
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

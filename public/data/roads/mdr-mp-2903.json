@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2903",
+  "ref": "MDR 2903",
+  "name": "Mandi Bamora–Kurwai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Mandi Bamora, Madhya Pradesh",
+    "end": "Kurwai, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mandi Bamora",
+      "Kurwai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandi Bamora",
+      "coords": [
+        78.08171,
+        24.0497
+      ]
+    },
+    {
+      "name": "Kurwai",
+      "coords": [
+        78.04267,
+        24.1188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

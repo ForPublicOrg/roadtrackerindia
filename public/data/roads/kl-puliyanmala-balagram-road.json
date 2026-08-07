@@ -1,0 +1,42 @@
+{
+  "id": "kl-puliyanmala-balagram-road",
+  "ref": "MDR",
+  "name": "Puliyanmala - Balagram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Thookkupalam, Kerala",
+    "end": "Parakadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thookkupalam",
+      "Parakadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.18777,
+        9.80307
+      ]
+    },
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.15145,
+        9.75285
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

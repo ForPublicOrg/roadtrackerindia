@@ -1,0 +1,54 @@
+{
+  "id": "nh-137a",
+  "ref": "NH 137A",
+  "name": "Kakching–Imphal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 43.8,
+  "route": {
+    "start": "Kakching, Manipur",
+    "end": "Imphal, Manipur",
+    "states": [
+      "Manipur"
+    ],
+    "majorCities": [
+      "Kakching",
+      "Lilong",
+      "Imphal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakching",
+      "coords": [
+        94.01178,
+        24.49667
+      ]
+    },
+    {
+      "name": "Lilong",
+      "coords": [
+        93.90567,
+        24.72698
+      ]
+    },
+    {
+      "name": "Imphal",
+      "coords": [
+        93.93508,
+        24.79967
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

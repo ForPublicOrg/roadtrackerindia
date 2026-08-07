@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthenchantha-chilakoor-road",
+  "ref": "MDR",
+  "name": "Puthenchantha - Chilakoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.72439,
+        8.72519
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.73359,
+        8.72833
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

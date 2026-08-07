@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-32",
+  "ref": "SH 32",
+  "name": "Vanthali–Kutiyana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 46.6,
+  "route": {
+    "start": "Vanthali, Gujarat",
+    "end": "Kutiyana, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Vanthali",
+      "Manavadar",
+      "Kutiyana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vanthali",
+      "coords": [
+        70.33837,
+        21.47812
+      ]
+    },
+    {
+      "name": "Manavadar",
+      "coords": [
+        70.13874,
+        21.49942
+      ]
+    },
+    {
+      "name": "Kutiyana",
+      "coords": [
+        70.02306,
+        21.63181
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

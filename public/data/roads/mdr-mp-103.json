@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-103",
+  "ref": "MDR 103",
+  "name": "Bhind–Mahgawan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 22.6,
+  "route": {
+    "start": "Bhind, Madhya Pradesh",
+    "end": "Mahgawan, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bhind",
+      "Mahgawan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhind",
+      "coords": [
+        78.74247,
+        26.61028
+      ]
+    },
+    {
+      "name": "Mahgawan",
+      "coords": [
+        78.53005,
+        26.56097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

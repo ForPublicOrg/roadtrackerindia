@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-5115",
+  "ref": "MDR 5115",
+  "name": "Shapur–Shahi Qila District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Shapur, Madhya Pradesh",
+    "end": "Shahi Qila, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Shapur",
+      "Shahi Qila"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shapur",
+      "coords": [
+        76.14559,
+        21.23205
+      ]
+    },
+    {
+      "name": "Shahi Qila",
+      "coords": [
+        76.22255,
+        21.24454
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

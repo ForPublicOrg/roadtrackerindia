@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3323",
+  "ref": "MDR 3323",
+  "name": "Seoni Malwa–Banapura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 30.7,
+  "route": {
+    "start": "Seoni Malwa, Madhya Pradesh",
+    "end": "Banapura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Seoni Malwa",
+      "Banapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Seoni Malwa",
+      "coords": [
+        77.34588,
+        22.41341
+      ]
+    },
+    {
+      "name": "Banapura",
+      "coords": [
+        77.46571,
+        22.4516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

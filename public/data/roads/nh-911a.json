@@ -1,0 +1,46 @@
+{
+  "id": "nh-911a",
+  "ref": "NH 911A",
+  "name": "Poogal–Khajuwala National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 31.3,
+  "route": {
+    "start": "Poogal, Rajasthan",
+    "end": "Khajuwala, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Poogal",
+      "Khajuwala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poogal",
+      "coords": [
+        72.79619,
+        28.50214
+      ]
+    },
+    {
+      "name": "Khajuwala",
+      "coords": [
+        72.59767,
+        28.70206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

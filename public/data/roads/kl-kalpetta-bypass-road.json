@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalpetta-bypass-road",
+  "ref": "MDR",
+  "name": "Kalpetta Bypass Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kalpetta, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalpetta",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.08297,
+        11.60141
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.09017,
+        11.63024
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

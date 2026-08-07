@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-104",
+  "ref": "MDR 104",
+  "name": "Uppala–Vitla District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.5,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Vitla, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Vitla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.91683,
+        12.66446
+      ]
+    },
+    {
+      "name": "Vitla",
+      "coords": [
+        75.02346,
+        12.71964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

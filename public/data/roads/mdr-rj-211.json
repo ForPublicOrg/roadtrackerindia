@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-211",
+  "ref": "MDR 211",
+  "name": "Kaman–Deeg District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 24.1,
+  "route": {
+    "start": "Kaman, Rajasthan",
+    "end": "Deeg, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kaman",
+      "Deeg"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaman",
+      "coords": [
+        77.21307,
+        27.64098
+      ]
+    },
+    {
+      "name": "Deeg",
+      "coords": [
+        77.30781,
+        27.50548
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

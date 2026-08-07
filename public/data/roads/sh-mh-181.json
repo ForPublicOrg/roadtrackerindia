@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-181",
+  "ref": "SH 181",
+  "name": "Partur–Jalna State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40,
+  "route": {
+    "start": "Partur, Maharashtra",
+    "end": "Jalna, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Partur",
+      "Jalna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Partur",
+      "coords": [
+        76.12911,
+        19.68762
+      ]
+    },
+    {
+      "name": "Jalna",
+      "coords": [
+        75.88777,
+        19.84891
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

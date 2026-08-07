@@ -1,0 +1,44 @@
+{
+  "id": "sh-as-33",
+  "ref": "SH 33",
+  "name": "Merapani–Dohabora Chuk State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.9,
+  "route": {
+    "start": "Merapani, Assam",
+    "end": "Dohabora Chuk, Assam",
+    "states": [
+      "Assam",
+      "Nagaland"
+    ],
+    "majorCities": [
+      "Merapani",
+      "Jorhat",
+      "Dohabora Chuk"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Merapani",
+      "coords": [
+        94.17365,
+        26.34401
+      ]
+    },
+    {
+      "name": "Jorhat",
+      "coords": [
+        94.21175,
+        26.75392
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

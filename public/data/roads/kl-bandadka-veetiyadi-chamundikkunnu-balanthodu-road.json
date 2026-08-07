@@ -1,0 +1,42 @@
+{
+  "id": "kl-bandadka-veetiyadi-chamundikkunnu-balanthodu-road",
+  "ref": "MDR",
+  "name": "Bandadka - Veetiyadi - Chamundikkunnu Balanthodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.32347,
+        12.45898
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.26984,
+        12.49421
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "sh-hr-107",
+  "ref": "SH 107",
+  "name": "Hisar–Balsamand State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.4,
+  "route": {
+    "start": "Hisar, Haryana",
+    "end": "Balsamand, Rajasthan",
+    "states": [
+      "Haryana",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Hisar",
+      "Balsamand"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hisar",
+      "coords": [
+        75.72091,
+        29.16019
+      ]
+    },
+    {
+      "name": "Balsamand",
+      "coords": [
+        75.4886,
+        29.06858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

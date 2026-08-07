@@ -1,0 +1,46 @@
+{
+  "id": "nh-163a",
+  "ref": "NH 163A",
+  "name": "Dantewada–Gidam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 31.1,
+  "route": {
+    "start": "Dantewada, Chhattisgarh",
+    "end": "Gidam, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Dantewada",
+      "Gidam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dantewada",
+      "coords": [
+        81.38114,
+        18.78766
+      ]
+    },
+    {
+      "name": "Gidam",
+      "coords": [
+        81.38919,
+        18.97533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-cheppad-choolatheruvu-road",
+  "ref": "MDR",
+  "name": "Cheppad - Choolatheruvu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Nangiarkulangara, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nangiarkulangara",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.47152,
+        9.2339
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.44107,
+        9.23208
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

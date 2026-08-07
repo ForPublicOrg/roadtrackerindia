@@ -1,0 +1,42 @@
+{
+  "id": "kl-udayagiri-arivilonjapoil-josegiri-road",
+  "ref": "MDR",
+  "name": "Udayagiri - Arivilonjapoil - Josegiri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Alakode, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Alakode",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alakode",
+      "coords": [
+        75.48706,
+        12.25808
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.47053,
+        12.27275
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

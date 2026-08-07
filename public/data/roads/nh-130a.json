@@ -1,0 +1,77 @@
+{
+  "id": "nh-130a",
+  "ref": "NH 130A",
+  "name": "Kawardha–Pathalgaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 280.1,
+  "route": {
+    "start": "Kawardha, Chhattisgarh",
+    "end": "Pathalgaon, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Kawardha",
+      "Mungeli",
+      "Bilaspur",
+      "Kartala",
+      "Pathalgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kawardha",
+      "coords": [
+        81.22524,
+        22.15983
+      ]
+    },
+    {
+      "name": "Mungeli",
+      "coords": [
+        81.68432,
+        22.06618
+      ]
+    },
+    {
+      "name": "Bilaspur",
+      "coords": [
+        82.14356,
+        22.08956
+      ]
+    },
+    {
+      "name": "Kartala",
+      "coords": [
+        82.96546,
+        22.30195
+      ]
+    },
+    {
+      "name": "Dharamjaigarh",
+      "coords": [
+        83.21014,
+        22.46505
+      ]
+    },
+    {
+      "name": "Pathalgaon",
+      "coords": [
+        83.45948,
+        22.55614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

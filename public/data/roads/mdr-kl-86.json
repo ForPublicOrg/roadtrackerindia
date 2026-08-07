@@ -1,0 +1,43 @@
+{
+  "id": "mdr-kl-86",
+  "ref": "MDR 86",
+  "name": "Chengala–Badiadka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Chengala, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chengala",
+      "Kasaragod",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengala",
+      "coords": [
+        75.02288,
+        12.51545
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.05456,
+        12.55684
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-3606",
+  "ref": "MDR 3606",
+  "name": "Katni–Barhi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.9,
+  "route": {
+    "start": "Katni, Madhya Pradesh",
+    "end": "Barhi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Katni",
+      "Vijayraghavgarh",
+      "Barhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Katni",
+      "coords": [
+        80.38871,
+        23.88371
+      ]
+    },
+    {
+      "name": "Vijayraghavgarh",
+      "coords": [
+        80.60459,
+        23.99765
+      ]
+    },
+    {
+      "name": "Barhi",
+      "coords": [
+        80.81242,
+        23.90333
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

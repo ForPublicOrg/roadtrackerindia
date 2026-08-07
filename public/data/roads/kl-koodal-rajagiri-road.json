@@ -1,0 +1,42 @@
+{
+  "id": "kl-koodal-rajagiri-road",
+  "ref": "MDR",
+  "name": "Koodal - Rajagiri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Pathanapuram, Kerala",
+    "end": "Central Junction, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pathanapuram",
+      "Central Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.85684,
+        9.13679
+      ]
+    },
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.90389,
+        9.12597
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

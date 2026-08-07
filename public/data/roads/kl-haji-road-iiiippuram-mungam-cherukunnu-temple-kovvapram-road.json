@@ -1,0 +1,50 @@
+{
+  "id": "kl-haji-road-iiiippuram-mungam-cherukunnu-temple-kovvapram-road",
+  "ref": "MDR",
+  "name": "Haji road - IIIippuram - Mungam - Cherukunnu Temple - Kovvapram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.6,
+  "route": {
+    "start": "Pappinisseri, Kerala",
+    "end": "Kannapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pappinisseri",
+      "Kannapuram",
+      "Muttukandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.34366,
+        11.94243
+      ]
+    },
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.31112,
+        11.97286
+      ]
+    },
+    {
+      "name": "Muttukandi",
+      "coords": [
+        75.2964,
+        11.99603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-makkaraparamba-mankada-road",
+  "ref": "MDR",
+  "name": "Makkaraparamba-Mankada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Perinthalmanna, Kerala",
+    "end": "Padapparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perinthalmanna",
+      "Padapparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perinthalmanna",
+      "coords": [
+        76.17593,
+        11.01889
+      ]
+    },
+    {
+      "name": "Padapparamba",
+      "coords": [
+        76.12693,
+        11.01824
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

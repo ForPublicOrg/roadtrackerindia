@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-4",
+  "ref": "SH 4",
+  "name": "Chanderi–Shivpuri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 77.5,
+  "route": {
+    "start": "Chanderi, Madhya Pradesh",
+    "end": "Shivpuri, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Chanderi",
+      "Isagarh",
+      "Shivpuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chanderi",
+      "coords": [
+        78.00641,
+        24.7228
+      ]
+    },
+    {
+      "name": "Isagarh",
+      "coords": [
+        77.88734,
+        24.84057
+      ]
+    },
+    {
+      "name": "Shivpuri",
+      "coords": [
+        77.60389,
+        25.12352
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

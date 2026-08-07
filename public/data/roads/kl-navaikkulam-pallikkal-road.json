@@ -1,0 +1,43 @@
+{
+  "id": "kl-navaikkulam-pallikkal-road",
+  "ref": "MDR",
+  "name": "Navaikkulam - Pallikkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Paripally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Kallambalam",
+      "Paripally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.78604,
+        8.77521
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.79729,
+        8.81336
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-66",
+  "ref": "SH 66",
+  "name": "Siwana–Balesar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 88.2,
+  "route": {
+    "start": "Siwana, Rajasthan",
+    "end": "Balesar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Siwana",
+      "Samdari",
+      "Balesar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siwana",
+      "coords": [
+        72.42368,
+        25.65812
+      ]
+    },
+    {
+      "name": "Samdari",
+      "coords": [
+        72.5779,
+        25.81592
+      ]
+    },
+    {
+      "name": "Balesar",
+      "coords": [
+        72.63472,
+        26.28377
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

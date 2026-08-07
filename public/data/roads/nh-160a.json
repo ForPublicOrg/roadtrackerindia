@@ -1,0 +1,85 @@
+{
+  "id": "nh-160a",
+  "ref": "NH 160A",
+  "name": "Palghar–Sinnar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 232,
+  "route": {
+    "start": "Palghar, Maharashtra",
+    "end": "Sinnar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Palghar",
+      "Jawhar",
+      "Trimbak",
+      "Khodala",
+      "Ghoti",
+      "Sinnar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palghar",
+      "coords": [
+        72.76793,
+        19.7062
+      ]
+    },
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.22599,
+        19.91362
+      ]
+    },
+    {
+      "name": "Trimbak",
+      "coords": [
+        73.53629,
+        19.93741
+      ]
+    },
+    {
+      "name": "Khodala",
+      "coords": [
+        73.43804,
+        19.83685
+      ]
+    },
+    {
+      "name": "Ghoti",
+      "coords": [
+        73.63066,
+        19.72447
+      ]
+    },
+    {
+      "name": "Deolali Camp",
+      "coords": [
+        73.84307,
+        19.83181
+      ]
+    },
+    {
+      "name": "Sinnar",
+      "coords": [
+        73.98199,
+        19.82991
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

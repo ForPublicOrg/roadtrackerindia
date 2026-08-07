@@ -1,0 +1,51 @@
+{
+  "id": "kl-kakkamoola-kalliyoor-road",
+  "ref": "MDR",
+  "name": "Kakkamoola - Kalliyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kalliyoor, Kerala",
+    "end": "Pallichal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalliyoor",
+      "Vellayani",
+      "Balaramapuram",
+      "Pallichal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalliyoor",
+      "coords": [
+        77.00086,
+        8.42601
+      ]
+    },
+    {
+      "name": "Vellayani",
+      "coords": [
+        77.00395,
+        8.42902
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.01669,
+        8.43252
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

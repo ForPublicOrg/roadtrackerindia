@@ -1,0 +1,42 @@
+{
+  "id": "kl-parathodu-pazhumala-chanakakulam-chemmalamattom-road",
+  "ref": "MDR",
+  "name": "Parathodu - Pazhumala - Chanakakulam - Chemmalamattom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Kanjirappalli, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjirappalli",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.82472,
+        9.57851
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.77732,
+        9.63437
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

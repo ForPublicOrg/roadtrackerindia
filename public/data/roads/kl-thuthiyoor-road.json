@@ -1,0 +1,56 @@
+{
+  "id": "kl-thuthiyoor-road",
+  "ref": "MDR",
+  "name": "Thuthiyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kakkanad West, Kerala",
+    "end": "Eroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkanad West",
+      "Eroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkanad West",
+      "coords": [
+        76.33955,
+        10.0021
+      ]
+    },
+    {
+      "name": "Pallinada",
+      "coords": [
+        76.3408,
+        9.99642
+      ]
+    },
+    {
+      "name": "Thammanam",
+      "coords": [
+        76.34123,
+        9.98797
+      ]
+    },
+    {
+      "name": "Eroor",
+      "coords": [
+        76.34164,
+        9.98234
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

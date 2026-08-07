@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhamthottam-vadavucode-road",
+  "ref": "MDR",
+  "name": "Pazhamthottam - Vadavucode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Puthencruz, Kerala",
+    "end": "Kolenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthencruz",
+      "Kolenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthencruz",
+      "coords": [
+        76.42847,
+        10.01708
+      ]
+    },
+    {
+      "name": "Kolenchery",
+      "coords": [
+        76.43115,
+        9.9989
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

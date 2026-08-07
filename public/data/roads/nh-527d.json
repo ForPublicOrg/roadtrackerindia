@@ -1,0 +1,56 @@
+{
+  "id": "nh-527d",
+  "ref": "NH 527D",
+  "name": "Raxaul–Motihari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 70.3,
+  "route": {
+    "start": "Raxaul, Bihar",
+    "end": "Motihari, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Raxaul",
+      "Birgunj",
+      "Sagauli",
+      "Banjaria",
+      "Motihari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raxaul",
+      "coords": [
+        84.84133,
+        27.01258
+      ]
+    },
+    {
+      "name": "Sagauli",
+      "coords": [
+        84.74293,
+        26.76562
+      ]
+    },
+    {
+      "name": "Motihari",
+      "coords": [
+        84.92889,
+        26.64904
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

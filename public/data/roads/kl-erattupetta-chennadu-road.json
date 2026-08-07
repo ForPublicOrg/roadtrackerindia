@@ -1,0 +1,42 @@
+{
+  "id": "kl-erattupetta-chennadu-road",
+  "ref": "MDR",
+  "name": "Erattupetta - Chennadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.77864,
+        9.68185
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.79829,
+        9.66097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-647",
+  "ref": "NH 647",
+  "name": "Arvi–Wardha National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 53.8,
+  "route": {
+    "start": "Arvi, Maharashtra",
+    "end": "Wardha, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Arvi",
+      "Wardha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arvi",
+      "coords": [
+        78.22529,
+        21.00843
+      ]
+    },
+    {
+      "name": "Wardha",
+      "coords": [
+        78.59561,
+        20.77265
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

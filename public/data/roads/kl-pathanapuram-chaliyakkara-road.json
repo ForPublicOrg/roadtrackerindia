@@ -1,0 +1,43 @@
+{
+  "id": "kl-pathanapuram-chaliyakkara-road",
+  "ref": "MDR",
+  "name": "Pathanapuram - Chaliyakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.8,
+  "route": {
+    "start": "Central Junction, Kerala",
+    "end": "Punalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Central Junction",
+      "Pathanapuram",
+      "Punalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.86935,
+        9.08639
+      ]
+    },
+    {
+      "name": "Punalur",
+      "coords": [
+        76.96087,
+        9.04306
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

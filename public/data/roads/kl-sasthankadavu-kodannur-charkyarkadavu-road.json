@@ -1,0 +1,42 @@
+{
+  "id": "kl-sasthankadavu-kodannur-charkyarkadavu-road",
+  "ref": "MDR",
+  "name": "Sasthankadavu Kodannur Charkyarkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "West Fort, Kerala",
+    "end": "Poothole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "West Fort",
+      "Poothole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "West Fort",
+      "coords": [
+        76.16219,
+        10.46871
+      ]
+    },
+    {
+      "name": "Poothole",
+      "coords": [
+        76.17666,
+        10.47368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

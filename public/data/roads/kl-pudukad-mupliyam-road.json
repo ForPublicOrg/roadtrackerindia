@@ -1,0 +1,42 @@
+{
+  "id": "kl-pudukad-mupliyam-road",
+  "ref": "MDR",
+  "name": "Pudukad - Mupliyam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.33772,
+        10.40051
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.27025,
+        10.41915
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

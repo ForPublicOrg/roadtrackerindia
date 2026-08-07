@@ -1,0 +1,42 @@
+{
+  "id": "kl-painumkal-chemmanathukara-kottarappally-t-v-puram-road",
+  "ref": "MDR",
+  "name": "Painumkal - Chemmanathukara - Kottarappally - T.V. Puram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.39206,
+        9.71241
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.3961,
+        9.73177
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

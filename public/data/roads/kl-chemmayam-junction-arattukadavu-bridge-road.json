@@ -1,0 +1,42 @@
+{
+  "id": "kl-chemmayam-junction-arattukadavu-bridge-road",
+  "ref": "MDR",
+  "name": "Chemmayam Junction - Arattukadavu Bridge Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Thrikkapuram, Kerala",
+    "end": "Varappuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikkapuram",
+      "Varappuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.25055,
+        10.10133
+      ]
+    },
+    {
+      "name": "Varappuzha",
+      "coords": [
+        76.25469,
+        10.09157
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-128a",
+  "ref": "NH 128A",
+  "name": "Lalganj–Jaunpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 43.3,
+  "route": {
+    "start": "Lalganj, Uttar Pradesh",
+    "end": "Jaunpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Lalganj",
+      "Jaunpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lalganj",
+      "coords": [
+        83.034,
+        25.96672
+      ]
+    },
+    {
+      "name": "Jaunpur",
+      "coords": [
+        82.72664,
+        25.76087
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1031",
+  "ref": "MDR 1031",
+  "name": "Srivilliputhur–Palayapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Srivilliputhur, Tamil Nadu",
+    "end": "Palayapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Srivilliputhur",
+      "Palayapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Srivilliputhur",
+      "coords": [
+        77.62986,
+        9.51353
+      ]
+    },
+    {
+      "name": "Palayapalayam",
+      "coords": [
+        77.61926,
+        9.53907
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

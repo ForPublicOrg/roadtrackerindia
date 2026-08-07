@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilakumadom-chathankulam-road",
+  "ref": "MDR",
+  "name": "Vilakumadom - Chathankulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Pala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Pala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.74777,
+        9.66293
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.73223,
+        9.66401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

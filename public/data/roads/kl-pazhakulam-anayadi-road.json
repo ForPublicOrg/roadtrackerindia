@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhakulam-anayadi-road",
+  "ref": "MDR",
+  "name": "Pazhakulam - Anayadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Chennampallil, Kerala",
+    "end": "Nooranad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chennampallil",
+      "Nooranad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.68449,
+        9.16528
+      ]
+    },
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.63253,
+        9.12657
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

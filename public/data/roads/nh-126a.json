@@ -1,0 +1,54 @@
+{
+  "id": "nh-126a",
+  "ref": "NH 126A",
+  "name": "Subarnapur–Barapali National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 57.2,
+  "route": {
+    "start": "Subarnapur, Odisha",
+    "end": "Barapali, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Subarnapur",
+      "Binka",
+      "Barapali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Subarnapur",
+      "coords": [
+        83.89505,
+        20.85237
+      ]
+    },
+    {
+      "name": "Binka",
+      "coords": [
+        83.8111,
+        21.02021
+      ]
+    },
+    {
+      "name": "Barapali",
+      "coords": [
+        83.58995,
+        21.19116
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

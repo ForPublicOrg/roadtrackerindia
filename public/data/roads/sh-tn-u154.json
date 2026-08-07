@@ -1,0 +1,65 @@
+{
+  "id": "sh-tn-u154",
+  "ref": "SH-U 154",
+  "name": "Ramji Nagar–Cantonment State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Ramji Nagar, Tamil Nadu",
+    "end": "Cantonment, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ramji Nagar",
+      "Pirattiyur",
+      "Tiruchirappalli",
+      "Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramji Nagar",
+      "coords": [
+        78.62462,
+        10.7718
+      ]
+    },
+    {
+      "name": "Pirattiyur",
+      "coords": [
+        78.651,
+        10.79159
+      ]
+    },
+    {
+      "name": "Uyyakondan Thirumalai",
+      "coords": [
+        78.65913,
+        10.79145
+      ]
+    },
+    {
+      "name": "Crawford",
+      "coords": [
+        78.67155,
+        10.78702
+      ]
+    },
+    {
+      "name": "Tiruchirappalli",
+      "coords": [
+        78.68128,
+        10.79461
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

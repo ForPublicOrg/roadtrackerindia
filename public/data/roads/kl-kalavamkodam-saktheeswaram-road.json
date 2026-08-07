@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalavamkodam-saktheeswaram-road",
+  "ref": "MDR",
+  "name": "Kalavamkodam-Saktheeswaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.32802,
+        9.72283
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.32507,
+        9.69568
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

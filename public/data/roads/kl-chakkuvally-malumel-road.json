@@ -1,0 +1,42 @@
+{
+  "id": "kl-chakkuvally-malumel-road",
+  "ref": "MDR",
+  "name": "Chakkuvally - Malumel Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Nooranad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Nooranad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.58731,
+        9.07455
+      ]
+    },
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.62612,
+        9.08787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-6",
+  "ref": "SH 6",
+  "name": "Kallakuruchi–Tiruvannamalai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.6,
+  "route": {
+    "start": "Kallakuruchi, Tamil Nadu",
+    "end": "Tiruvannamalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kallakuruchi",
+      "Sankarapuram",
+      "Tiruvannamalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallakuruchi",
+      "coords": [
+        78.96379,
+        11.73812
+      ]
+    },
+    {
+      "name": "Sankarapuram",
+      "coords": [
+        78.91722,
+        11.88494
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.06599,
+        12.22447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

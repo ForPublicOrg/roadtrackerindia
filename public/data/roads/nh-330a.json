@@ -1,0 +1,62 @@
+{
+  "id": "nh-330a",
+  "ref": "NH 330A",
+  "name": "Jagdishpur–Lalbagh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 148.1,
+  "route": {
+    "start": "Jagdishpur, Uttar Pradesh",
+    "end": "Lalbagh, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Jagdishpur",
+      "Raebareli",
+      "Faizabad",
+      "Lalbagh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jagdishpur",
+      "coords": [
+        81.57537,
+        26.33738
+      ]
+    },
+    {
+      "name": "Raebareli",
+      "coords": [
+        81.24177,
+        26.24391
+      ]
+    },
+    {
+      "name": "Jagdishpur",
+      "coords": [
+        81.62048,
+        26.45411
+      ]
+    },
+    {
+      "name": "Faizabad",
+      "coords": [
+        82.13589,
+        26.75628
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

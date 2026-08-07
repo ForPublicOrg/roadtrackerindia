@@ -1,0 +1,42 @@
+{
+  "id": "kl-sultan-bathery-kattayad-pazhuppathur-chappakolly-vakery-irul",
+  "ref": "MDR",
+  "name": "Sultan Bathery - Kattayad - Pazhuppathur - Chappakolly - Vakery - Irulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.19376,
+        11.72251
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.25432,
+        11.66261
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

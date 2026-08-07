@@ -1,0 +1,49 @@
+{
+  "id": "sh-mh-138",
+  "ref": "SH 138",
+  "name": "Sangli–Miraj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Sangli, Maharashtra",
+    "end": "Miraj, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Sangli",
+      "Miraj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sangli",
+      "coords": [
+        74.54669,
+        16.86796
+      ]
+    },
+    {
+      "name": "Kupwad",
+      "coords": [
+        74.60761,
+        16.8443
+      ]
+    },
+    {
+      "name": "Miraj",
+      "coords": [
+        74.64504,
+        16.83097
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

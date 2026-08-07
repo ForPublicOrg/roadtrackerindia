@@ -1,0 +1,42 @@
+{
+  "id": "kl-uchakkada-nellimoodu-road",
+  "ref": "MDR",
+  "name": "Uchakkada - Nellimoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Venganoor, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venganoor",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.02377,
+        8.39507
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.04509,
+        8.3796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

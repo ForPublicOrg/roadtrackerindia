@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-37",
+  "ref": "MDR 37",
+  "name": "Panchoo–Osiyan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 272.9,
+  "route": {
+    "start": "Panchoo, Rajasthan",
+    "end": "Osiyan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Panchoo",
+      "Nokha",
+      "Osiyan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panchoo",
+      "coords": [
+        72.12152,
+        28.02032
+      ]
+    },
+    {
+      "name": "Nokha",
+      "coords": [
+        73.45261,
+        27.54026
+      ]
+    },
+    {
+      "name": "Osiyan",
+      "coords": [
+        72.92202,
+        26.71032
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

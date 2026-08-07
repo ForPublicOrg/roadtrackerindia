@@ -1,0 +1,42 @@
+{
+  "id": "kl-hajee-road-ayyappankavu-raod",
+  "ref": "MDR",
+  "name": "Hajee Road - Ayyappankavu Raod",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kakkayangad, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayangad",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.69577,
+        11.96285
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.71503,
+        11.95852
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

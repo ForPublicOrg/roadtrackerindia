@@ -1,0 +1,57 @@
+{
+  "id": "sh-mp-22",
+  "ref": "SH 22",
+  "name": "Patharia–Udaipura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 180.8,
+  "route": {
+    "start": "Patharia, Madhya Pradesh",
+    "end": "Udaipura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Patharia",
+      "Rehli",
+      "Udaipura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patharia",
+      "coords": [
+        79.19663,
+        24.02161
+      ]
+    },
+    {
+      "name": "Garhakota",
+      "coords": [
+        79.14732,
+        23.78569
+      ]
+    },
+    {
+      "name": "Rehli",
+      "coords": [
+        79.04951,
+        23.64729
+      ]
+    },
+    {
+      "name": "Udaipura",
+      "coords": [
+        78.42782,
+        23.10709
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

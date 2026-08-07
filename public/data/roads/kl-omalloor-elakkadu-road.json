@@ -1,0 +1,50 @@
+{
+  "id": "kl-omalloor-elakkadu-road",
+  "ref": "MDR",
+  "name": "Omalloor Elakkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Kuravilangad, Kerala",
+    "end": "Kuruppanthara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuravilangad",
+      "Kanakkarry",
+      "Kuruppanthara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.57443,
+        9.73575
+      ]
+    },
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.55024,
+        9.72939
+      ]
+    },
+    {
+      "name": "Kuruppanthara",
+      "coords": [
+        76.51868,
+        9.73578
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-bhoothakulom-hs-road",
+  "ref": "MDR",
+  "name": "Bhoothakulom HS Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Paravur, Kerala",
+    "end": "Kalluvathukkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Paravur",
+      "Kalluvathukkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paravur",
+      "coords": [
+        76.70044,
+        8.8052
+      ]
+    },
+    {
+      "name": "Kalluvathukkal",
+      "coords": [
+        76.70483,
+        8.81643
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

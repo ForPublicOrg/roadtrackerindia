@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-149",
+  "ref": "SH 149",
+  "name": "Mohol–Paranda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 65.5,
+  "route": {
+    "start": "Mohol, Maharashtra",
+    "end": "Paranda, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mohol",
+      "Kurduvadi",
+      "Paranda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohol",
+      "coords": [
+        75.59006,
+        17.83688
+      ]
+    },
+    {
+      "name": "Kurduvadi",
+      "coords": [
+        75.41401,
+        18.09255
+      ]
+    },
+    {
+      "name": "Paranda",
+      "coords": [
+        75.31457,
+        18.29091
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

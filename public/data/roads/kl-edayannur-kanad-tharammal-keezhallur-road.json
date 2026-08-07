@@ -1,0 +1,42 @@
+{
+  "id": "kl-edayannur-kanad-tharammal-keezhallur-road",
+  "ref": "MDR",
+  "name": "Edayannur - Kanad - Tharammal - Keezhallur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Koothuparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Koothuparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.526,
+        11.92958
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.5348,
+        11.89737
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

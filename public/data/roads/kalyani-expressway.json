@@ -1,0 +1,100 @@
+{
+  "id": "kalyani-expressway",
+  "ref": "NH",
+  "name": "Kalyani Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 42.6,
+  "route": {
+    "start": "Belgharia, West Bengal",
+    "end": "Bansberia, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Belgharia",
+      "New Barrackpore",
+      "Barrackpore",
+      "Bhatpara",
+      "Naihati",
+      "Kalyani",
+      "Bansberia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Belgharia",
+      "coords": [
+        88.40609,
+        22.65316
+      ]
+    },
+    {
+      "name": "New Barrackpore",
+      "coords": [
+        88.41941,
+        22.69347
+      ]
+    },
+    {
+      "name": "Khardaha",
+      "coords": [
+        88.40535,
+        22.72459
+      ]
+    },
+    {
+      "name": "Barrackpore",
+      "coords": [
+        88.38682,
+        22.75943
+      ]
+    },
+    {
+      "name": "Bhatpara",
+      "coords": [
+        88.40603,
+        22.82559
+      ]
+    },
+    {
+      "name": "Jagaddal",
+      "coords": [
+        88.42184,
+        22.84302
+      ]
+    },
+    {
+      "name": "Naihati",
+      "coords": [
+        88.43239,
+        22.87441
+      ]
+    },
+    {
+      "name": "Kalyani",
+      "coords": [
+        88.42736,
+        22.96324
+      ]
+    },
+    {
+      "name": "Bansberia",
+      "coords": [
+        88.41387,
+        22.96832
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

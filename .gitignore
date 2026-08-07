@@ -6,6 +6,12 @@ dist/
 public/firebase-config.json
 .env
 .env.*
+# derived by `npm run data` — never edit, never commit
 public/data/index.json
 public/data/network-lite.geojson
+public/data/network-detail.geojson
 public/data/shapes/
+public/data/orgs.json
+public/data/org/
+# raw OpenStreetMap downloads used to generate the corpus (large, re-fetchable)
+.cache/

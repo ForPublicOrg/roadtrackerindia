@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-234",
+  "ref": "SH 234",
+  "name": "Adilabad–Ghugus State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 123.6,
+  "route": {
+    "start": "Adilabad, Maharashtra",
+    "end": "Ghugus, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Adilabad",
+      "Ghugus"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adilabad",
+      "coords": [
+        78.57357,
+        19.82556
+      ]
+    },
+    {
+      "name": "Ghugus",
+      "coords": [
+        78.99354,
+        19.89125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

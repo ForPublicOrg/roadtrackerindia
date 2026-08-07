@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-6241",
+  "ref": "ODR 6241",
+  "name": "Vanjur–Viruthampattu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Vanjur, Tamil Nadu",
+    "end": "Viruthampattu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vanjur",
+      "Melmanavur",
+      "Viruthampattu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.08575,
+        12.94362
+      ]
+    },
+    {
+      "name": "Melmanavur",
+      "coords": [
+        79.09047,
+        12.94315
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.10893,
+        12.94652
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

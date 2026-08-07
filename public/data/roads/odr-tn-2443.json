@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-2443",
+  "ref": "ODR 2443",
+  "name": "Vanjur–Sholinghur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 46.6,
+  "route": {
+    "start": "Vanjur, Tamil Nadu",
+    "end": "Sholinghur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vanjur",
+      "Vellore",
+      "Sholinghur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.11073,
+        12.94577
+      ]
+    },
+    {
+      "name": "Vellore",
+      "coords": [
+        79.12537,
+        12.94003
+      ]
+    },
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.48656,
+        13.05873
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

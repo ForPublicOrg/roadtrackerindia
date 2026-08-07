@@ -1,0 +1,42 @@
+{
+  "id": "kl-link-road-connecting-ettikulam-kottapally-gate-no-7-road",
+  "ref": "MDR",
+  "name": "Link road connecting Ettikulam - Kottapally Gate No.7 Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Puthiyangadi, Kerala",
+    "end": "Pazhayangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyangadi",
+      "Pazhayangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.20879,
+        12.01116
+      ]
+    },
+    {
+      "name": "Pazhayangadi",
+      "coords": [
+        75.21595,
+        12.01339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

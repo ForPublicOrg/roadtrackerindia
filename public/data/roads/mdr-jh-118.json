@@ -1,0 +1,65 @@
+{
+  "id": "mdr-jh-118",
+  "ref": "MDR 118",
+  "name": "Abatganj–Sudna District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Abatganj, Jharkhand",
+    "end": "Sudna, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Abatganj",
+      "Medininagar",
+      "Hamidganj",
+      "Sudna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Abatganj",
+      "coords": [
+        84.06885,
+        24.04383
+      ]
+    },
+    {
+      "name": "Medininagar",
+      "coords": [
+        84.06361,
+        24.03985
+      ]
+    },
+    {
+      "name": "Dhangartola",
+      "coords": [
+        84.06108,
+        24.04367
+      ]
+    },
+    {
+      "name": "Hamidganj",
+      "coords": [
+        84.06513,
+        24.04744
+      ]
+    },
+    {
+      "name": "Sudna",
+      "coords": [
+        84.07085,
+        24.06777
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

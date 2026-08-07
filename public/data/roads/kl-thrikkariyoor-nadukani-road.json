@@ -1,0 +1,42 @@
+{
+  "id": "kl-thrikkariyoor-nadukani-road",
+  "ref": "MDR",
+  "name": "Thrikkariyoor - Nadukani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Kothamangalam, Kerala",
+    "end": "Vazhappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothamangalam",
+      "Vazhappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.67822,
+        10.086
+      ]
+    },
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.61292,
+        10.08366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

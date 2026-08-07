@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-6",
+  "ref": "MDR 6",
+  "name": "Vitla–Cherupuzha District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 43.1,
+  "route": {
+    "start": "Vitla, Kerala",
+    "end": "Cherupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vitla",
+      "Cherupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vitla",
+      "coords": [
+        75.12111,
+        12.67094
+      ]
+    },
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.32385,
+        12.35884
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

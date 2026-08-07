@@ -1,0 +1,78 @@
+{
+  "id": "nh-347c",
+  "ref": "NH 347C",
+  "name": "Burhanpur–Dhar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 260.3,
+  "route": {
+    "start": "Burhanpur, Madhya Pradesh",
+    "end": "Dhar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Burhanpur",
+      "Khargone",
+      "Kasrawad",
+      "Guljhiri",
+      "Dhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Burhanpur",
+      "coords": [
+        76.23022,
+        21.32163
+      ]
+    },
+    {
+      "name": "Raver",
+      "coords": [
+        76.0339,
+        21.24329
+      ]
+    },
+    {
+      "name": "Khargone",
+      "coords": [
+        75.61841,
+        21.8258
+      ]
+    },
+    {
+      "name": "Kasrawad",
+      "coords": [
+        75.60927,
+        22.12374
+      ]
+    },
+    {
+      "name": "Guljhiri",
+      "coords": [
+        75.46024,
+        22.21164
+      ]
+    },
+    {
+      "name": "Dhar",
+      "coords": [
+        75.30509,
+        22.59623
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

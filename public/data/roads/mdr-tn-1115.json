@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-1115",
+  "ref": "MDR 1115",
+  "name": "Kottakuppam–Pattanur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Kottakuppam, Tamil Nadu",
+    "end": "Pattanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kottakuppam",
+      "Auroville",
+      "Pattanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottakuppam",
+      "coords": [
+        79.84925,
+        11.99164
+      ]
+    },
+    {
+      "name": "Auroville",
+      "coords": [
+        79.80628,
+        11.99621
+      ]
+    },
+    {
+      "name": "Pattanur",
+      "coords": [
+        79.79553,
+        11.98452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

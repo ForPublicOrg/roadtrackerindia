@@ -1,0 +1,43 @@
+{
+  "id": "kl-palachuvadu-narikkuzhy-road",
+  "ref": "MDR",
+  "name": "Palachuvadu - Narikkuzhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Ranni",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.81945,
+        9.33034
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.79566,
+        9.35837
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

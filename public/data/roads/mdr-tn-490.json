@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-490",
+  "ref": "MDR 490",
+  "name": "Tiruvallur–Kadambattur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Tiruvallur, Tamil Nadu",
+    "end": "Kadambattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvallur",
+      "Kadambattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvallur",
+      "coords": [
+        79.91186,
+        13.12263
+      ]
+    },
+    {
+      "name": "Kadambattur",
+      "coords": [
+        79.91174,
+        13.11441
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

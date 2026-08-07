@@ -1,0 +1,42 @@
+{
+  "id": "kl-muringoor-ezhattumugham-road",
+  "ref": "MDR",
+  "name": "Muringoor - Ezhattumugham Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.41214,
+        10.28794
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.34299,
+        10.28397
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

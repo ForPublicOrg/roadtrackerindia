@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakai-chuzhali-chempanthotty-road",
+  "ref": "MDR",
+  "name": "Valakai - Chuzhali - Chempanthotty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Sreekandapuram, Kerala",
+    "end": "Naduvil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekandapuram",
+      "Naduvil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.4465,
+        12.04238
+      ]
+    },
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.4837,
+        12.08983
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

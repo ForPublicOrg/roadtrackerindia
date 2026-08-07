@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-734",
+  "ref": "MDR 734",
+  "name": "Min Arasu Nagar–Bodinayakkanur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Min Arasu Nagar, Tamil Nadu",
+    "end": "Bodinayakkanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Min Arasu Nagar",
+      "Bodinayakkanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Min Arasu Nagar",
+      "coords": [
+        77.40864,
+        9.95757
+      ]
+    },
+    {
+      "name": "Bodinayakkanur",
+      "coords": [
+        77.33201,
+        9.92184
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-mambram-thaneerpanthal-road",
+  "ref": "MDR",
+  "name": "Mambram Thaneerpanthal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Yakkara, Kerala",
+    "end": "Kunnathurmedu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Yakkara",
+      "Palakkad",
+      "Kunnathurmedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Yakkara",
+      "coords": [
+        76.66013,
+        10.74638
+      ]
+    },
+    {
+      "name": "Kunnathurmedu",
+      "coords": [
+        76.66771,
+        10.74631
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

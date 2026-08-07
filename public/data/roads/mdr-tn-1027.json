@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-1027",
+  "ref": "MDR 1027",
+  "name": "Navalur–Kelambakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Navalur, Tamil Nadu",
+    "end": "Kelambakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Navalur",
+      "Siruseri",
+      "Kelambakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navalur",
+      "coords": [
+        80.20084,
+        12.84041
+      ]
+    },
+    {
+      "name": "Siruseri",
+      "coords": [
+        80.20377,
+        12.82134
+      ]
+    },
+    {
+      "name": "Padur",
+      "coords": [
+        80.20451,
+        12.81117
+      ]
+    },
+    {
+      "name": "Kelambakkam",
+      "coords": [
+        80.19784,
+        12.79965
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-kallissery-kuthiyathode-road",
+  "ref": "MDR",
+  "name": "Kallissery - Kuthiyathode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Mundancavu, Kerala",
+    "end": "Thirumoolapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundancavu",
+      "Chengannur",
+      "Thirumoolapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.60202,
+        9.33724
+      ]
+    },
+    {
+      "name": "Thirumoolapuram",
+      "coords": [
+        76.57267,
+        9.3406
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.5623,
+        9.34055
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

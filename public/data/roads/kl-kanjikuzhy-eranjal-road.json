@@ -1,0 +1,52 @@
+{
+  "id": "kl-kanjikuzhy-eranjal-road",
+  "ref": "MDR",
+  "name": "Kanjikuzhy - Eranjal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Kanjikuzhi, Kerala",
+    "end": "Devalokam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikuzhi",
+      "Kottayam",
+      "Nagampadam",
+      "Kumaranalloor",
+      "Devalokam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikuzhi",
+      "coords": [
+        76.54281,
+        9.58749
+      ]
+    },
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.54403,
+        9.59048
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.54513,
+        9.59393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

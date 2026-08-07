@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3803",
+  "ref": "MDR 3803",
+  "name": "Chhota Chhindwara–Narsinghpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Chhota Chhindwara, Madhya Pradesh",
+    "end": "Narsinghpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Chhota Chhindwara",
+      "Narsinghpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhota Chhindwara",
+      "coords": [
+        79.59882,
+        23.05165
+      ]
+    },
+    {
+      "name": "Narsinghpur",
+      "coords": [
+        79.49001,
+        23.04272
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

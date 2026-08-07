@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-3994",
+  "ref": "ODR 3994",
+  "name": "Fort–Arcot District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Fort, Tamil Nadu",
+    "end": "Arcot, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Fort",
+      "Arcot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fort",
+      "coords": [
+        79.26945,
+        12.79107
+      ]
+    },
+    {
+      "name": "Arcot",
+      "coords": [
+        79.27736,
+        12.81119
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

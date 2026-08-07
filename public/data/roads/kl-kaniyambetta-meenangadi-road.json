@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaniyambetta-meenangadi-road",
+  "ref": "MDR",
+  "name": "Kaniyambetta - Meenangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.8,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.07948,
+        11.7111
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.16286,
+        11.66027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

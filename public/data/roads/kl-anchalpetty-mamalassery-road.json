@@ -1,0 +1,42 @@
+{
+  "id": "kl-anchalpetty-mamalassery-road",
+  "ref": "MDR",
+  "name": "Anchalpetty - Mamalassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Piravom, Kerala",
+    "end": "Thammanimattam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Piravom",
+      "Thammanimattam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Piravom",
+      "coords": [
+        76.51321,
+        9.90164
+      ]
+    },
+    {
+      "name": "Thammanimattam",
+      "coords": [
+        76.48677,
+        9.90861
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

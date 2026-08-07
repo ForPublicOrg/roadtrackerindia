@@ -1,0 +1,74 @@
+{
+  "id": "sh-rj-36",
+  "ref": "SH 36",
+  "name": "Churu–Sri Ganganagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 255.6,
+  "route": {
+    "start": "Churu, Rajasthan",
+    "end": "Sri Ganganagar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Churu",
+      "Taranagar",
+      "Sahwa",
+      "Nohar",
+      "Hanumangarh",
+      "Sri Ganganagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Churu",
+      "coords": [
+        74.9513,
+        28.30129
+      ]
+    },
+    {
+      "name": "Taranagar",
+      "coords": [
+        75.05005,
+        28.66666
+      ]
+    },
+    {
+      "name": "Sahwa",
+      "coords": [
+        74.85162,
+        28.87043
+      ]
+    },
+    {
+      "name": "Nohar",
+      "coords": [
+        74.77185,
+        29.18606
+      ]
+    },
+    {
+      "name": "Hanumangarh",
+      "coords": [
+        74.32322,
+        29.57194
+      ]
+    },
+    {
+      "name": "Sri Ganganagar",
+      "coords": [
+        73.876,
+        29.91231
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

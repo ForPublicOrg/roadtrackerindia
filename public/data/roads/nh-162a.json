@@ -1,0 +1,54 @@
+{
+  "id": "nh-162a",
+  "ref": "NH 162A",
+  "name": "Railmagara–Mavli National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 48.6,
+  "route": {
+    "start": "Railmagara, Rajasthan",
+    "end": "Mavli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Railmagara",
+      "Fatehnagar",
+      "Mavli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Railmagara",
+      "coords": [
+        74.10381,
+        25.11482
+      ]
+    },
+    {
+      "name": "Fatehnagar",
+      "coords": [
+        74.08896,
+        24.82283
+      ]
+    },
+    {
+      "name": "Mavli",
+      "coords": [
+        73.98016,
+        24.79187
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

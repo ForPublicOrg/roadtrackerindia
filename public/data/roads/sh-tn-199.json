@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-199",
+  "ref": "SH 199",
+  "name": "Sipcot Industrial Estate–Ponmuchanti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54.8,
+  "route": {
+    "start": "Sipcot Industrial Estate, Tamil Nadu",
+    "end": "Ponmuchanti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sipcot Industrial Estate",
+      "Velliyanai",
+      "Ponmuchanti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sipcot Industrial Estate",
+      "coords": [
+        78.1465,
+        10.9395
+      ]
+    },
+    {
+      "name": "Velliyanai",
+      "coords": [
+        78.16116,
+        10.85166
+      ]
+    },
+    {
+      "name": "Ponmuchanti",
+      "coords": [
+        78.30339,
+        10.5512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

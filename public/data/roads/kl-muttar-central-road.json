@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttar-central-road",
+  "ref": "MDR",
+  "name": "Muttar Central Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Vandipetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Vandipetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.50902,
+        9.37795
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.4914,
+        9.41864
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-koorachipadi-naduvattom-road",
+  "ref": "MDR",
+  "name": "Koorachipadi - Naduvattom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Vengad, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengad",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengad",
+      "coords": [
+        76.15227,
+        10.86928
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.16628,
+        10.89324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

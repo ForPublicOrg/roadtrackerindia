@@ -1,0 +1,46 @@
+{
+  "id": "nh-133e",
+  "ref": "NH 133E",
+  "name": "Bhagalpur–Gangta National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 64,
+  "route": {
+    "start": "Bhagalpur, Bihar",
+    "end": "Gangta, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Bhagalpur",
+      "Gangta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhagalpur",
+      "coords": [
+        86.97522,
+        25.24113
+      ]
+    },
+    {
+      "name": "Gangta",
+      "coords": [
+        87.05986,
+        24.68078
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

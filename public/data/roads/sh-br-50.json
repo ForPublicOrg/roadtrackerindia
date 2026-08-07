@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-50",
+  "ref": "SH 50",
+  "name": "Darbhanga–Samastipur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.9,
+  "route": {
+    "start": "Darbhanga, Bihar",
+    "end": "Samastipur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Darbhanga",
+      "Samastipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Darbhanga",
+      "coords": [
+        85.90288,
+        26.16939
+      ]
+    },
+    {
+      "name": "Samastipur",
+      "coords": [
+        85.78142,
+        25.86517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-452",
+  "ref": "MDR 452",
+  "name": "Taramani–Perungudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Taramani, Tamil Nadu",
+    "end": "Perungudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Taramani",
+      "Perungudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Taramani",
+      "coords": [
+        80.24327,
+        12.9813
+      ]
+    },
+    {
+      "name": "Perungudi",
+      "coords": [
+        80.24648,
+        12.964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

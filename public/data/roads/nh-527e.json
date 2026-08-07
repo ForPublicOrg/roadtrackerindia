@@ -1,0 +1,54 @@
+{
+  "id": "nh-527e",
+  "ref": "NH 527E",
+  "name": "Shivaji Nagar–Laheriasarai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 52.5,
+  "route": {
+    "start": "Shivaji Nagar, Bihar",
+    "end": "Laheriasarai, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Shivaji Nagar",
+      "Darbhanga",
+      "Laheriasarai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shivaji Nagar",
+      "coords": [
+        86.02318,
+        25.75702
+      ]
+    },
+    {
+      "name": "Darbhanga",
+      "coords": [
+        85.89722,
+        26.11922
+      ]
+    },
+    {
+      "name": "Laheriasarai",
+      "coords": [
+        85.87376,
+        26.11709
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

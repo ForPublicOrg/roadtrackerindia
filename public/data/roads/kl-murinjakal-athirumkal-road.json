@@ -1,0 +1,42 @@
+{
+  "id": "kl-murinjakal-athirumkal-road",
+  "ref": "MDR",
+  "name": "Murinjakal - Athirumkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.8733,
+        9.16266
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.85546,
+        9.16963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

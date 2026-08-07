@@ -1,0 +1,43 @@
+{
+  "id": "sh-hr-15",
+  "ref": "SH 15",
+  "name": "Shahjahanpur–Rewari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 22.9,
+  "route": {
+    "start": "Shahjahanpur, Rajasthan",
+    "end": "Rewari, Haryana",
+    "states": [
+      "Rajasthan",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Shahjahanpur",
+      "Rewari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahjahanpur",
+      "coords": [
+        76.49477,
+        28.02976
+      ]
+    },
+    {
+      "name": "Rewari",
+      "coords": [
+        76.60888,
+        28.19589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

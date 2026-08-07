@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjikode-para-kunnachi-kallukuttyal-road",
+  "ref": "MDR",
+  "name": "Kanjikode - Para - Kunnachi - Kallukuttyal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Chittur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Chittur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.7476,
+        10.78993
+      ]
+    },
+    {
+      "name": "Chittur",
+      "coords": [
+        76.73343,
+        10.72881
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

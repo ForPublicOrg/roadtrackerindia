@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-106",
+  "ref": "SH 106",
+  "name": "Nohar–Rajgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 104.2,
+  "route": {
+    "start": "Nohar, Rajasthan",
+    "end": "Rajgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Nohar",
+      "Bhadra",
+      "Rajgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nohar",
+      "coords": [
+        74.77369,
+        29.19168
+      ]
+    },
+    {
+      "name": "Bhadra",
+      "coords": [
+        75.16734,
+        29.0978
+      ]
+    },
+    {
+      "name": "Rajgarh",
+      "coords": [
+        75.38461,
+        28.65161
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

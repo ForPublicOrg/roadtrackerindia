@@ -1,0 +1,50 @@
+{
+  "id": "kl-olavakkode-malampuzha-road",
+  "ref": "MDR",
+  "name": "Olavakkode - Malampuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Olavakkode, Kerala",
+    "end": "Akathethara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Olavakkode",
+      "Palakkad",
+      "Akathethara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Olavakkode",
+      "coords": [
+        76.64316,
+        10.79638
+      ]
+    },
+    {
+      "name": "Valiyapadam",
+      "coords": [
+        76.64746,
+        10.79982
+      ]
+    },
+    {
+      "name": "Akathethara",
+      "coords": [
+        76.64788,
+        10.81086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

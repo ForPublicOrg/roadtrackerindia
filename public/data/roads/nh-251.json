@@ -1,0 +1,61 @@
+{
+  "id": "nh-251",
+  "ref": "NH 251",
+  "name": "Una–Diu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 33.7,
+  "route": {
+    "start": "Una, Gujarat",
+    "end": "Diu, Gujarat",
+    "states": [
+      "Gujarat",
+      "Dadra and Nagar Haveli and Daman and Diu"
+    ],
+    "majorCities": [
+      "Una",
+      "Diu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Una",
+      "coords": [
+        70.9399,
+        20.80584
+      ]
+    },
+    {
+      "name": "Diu",
+      "coords": [
+        70.98064,
+        20.71697
+      ]
+    },
+    {
+      "name": "Una",
+      "coords": [
+        71.04263,
+        20.81831
+      ]
+    },
+    {
+      "name": "Diu",
+      "coords": [
+        71.05224,
+        20.84265
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

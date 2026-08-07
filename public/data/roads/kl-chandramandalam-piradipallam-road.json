@@ -1,0 +1,42 @@
+{
+  "id": "kl-chandramandalam-piradipallam-road",
+  "ref": "MDR",
+  "name": "Chandramandalam - Piradipallam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Marayoor, Kerala",
+    "end": "Munnar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Marayoor",
+      "Munnar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marayoor",
+      "coords": [
+        77.22739,
+        10.2612
+      ]
+    },
+    {
+      "name": "Munnar",
+      "coords": [
+        77.19757,
+        10.23539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

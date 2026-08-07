@@ -1,0 +1,70 @@
+{
+  "id": "nh-334a",
+  "ref": "NH 334A",
+  "name": "BHEL Township–Purkaji National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 68.3,
+  "route": {
+    "start": "BHEL Township, Uttarakhand",
+    "end": "Purkaji, Uttar Pradesh",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "BHEL Township",
+      "Haridwar",
+      "Laksar",
+      "Purkaji"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "BHEL Township",
+      "coords": [
+        78.09905,
+        29.91713
+      ]
+    },
+    {
+      "name": "Laksar",
+      "coords": [
+        78.02229,
+        29.74782
+      ]
+    },
+    {
+      "name": "Purkaji",
+      "coords": [
+        77.84396,
+        29.65814
+      ]
+    },
+    {
+      "name": "Barla",
+      "coords": [
+        77.80777,
+        29.62451
+      ]
+    },
+    {
+      "name": "Purkaji",
+      "coords": [
+        77.84789,
+        29.67435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

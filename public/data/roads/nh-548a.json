@@ -1,0 +1,84 @@
+{
+  "id": "nh-548a",
+  "ref": "NH 548A",
+  "name": "Shahapur–Murud National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 195.9,
+  "route": {
+    "start": "Shahapur, Maharashtra",
+    "end": "Murud, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shahapur",
+      "Karjat",
+      "Vavoshi",
+      "Nagothane",
+      "Murud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahapur",
+      "coords": [
+        73.33347,
+        19.45605
+      ]
+    },
+    {
+      "name": "Murbad",
+      "coords": [
+        73.39138,
+        19.25825
+      ]
+    },
+    {
+      "name": "Karjat",
+      "coords": [
+        73.32794,
+        18.91188
+      ]
+    },
+    {
+      "name": "Vavoshi",
+      "coords": [
+        73.28045,
+        18.79312
+      ]
+    },
+    {
+      "name": "Nagothane",
+      "coords": [
+        73.13054,
+        18.51707
+      ]
+    },
+    {
+      "name": "Roha",
+      "coords": [
+        73.1175,
+        18.4349
+      ]
+    },
+    {
+      "name": "Murud",
+      "coords": [
+        72.98896,
+        18.28845
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

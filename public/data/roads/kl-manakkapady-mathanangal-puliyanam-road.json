@@ -1,0 +1,42 @@
+{
+  "id": "kl-manakkapady-mathanangal-puliyanam-road",
+  "ref": "MDR",
+  "name": "Manakkapady Mathanangal Puliyanam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Chowara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Chowara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.35664,
+        10.20341
+      ]
+    },
+    {
+      "name": "Chowara",
+      "coords": [
+        76.36287,
+        10.1957
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

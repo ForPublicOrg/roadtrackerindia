@@ -1,0 +1,42 @@
+{
+  "id": "kl-peruthodu-irumboonnikkara-thumarampara-road",
+  "ref": "MDR",
+  "name": "Peruthodu - Irumboonnikkara - Thumarampara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Charala, Kerala",
+    "end": "Erumely, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Charala",
+      "Erumely"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Charala",
+      "coords": [
+        76.88345,
+        9.4507
+      ]
+    },
+    {
+      "name": "Erumely",
+      "coords": [
+        76.87323,
+        9.47666
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

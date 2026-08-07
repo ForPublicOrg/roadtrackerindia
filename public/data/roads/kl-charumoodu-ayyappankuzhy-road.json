@@ -1,0 +1,50 @@
+{
+  "id": "kl-charumoodu-ayyappankuzhy-road",
+  "ref": "MDR",
+  "name": "Charumoodu - Ayyappankuzhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Mancha, Kerala",
+    "end": "Nedumangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mancha",
+      "Pazhakutty",
+      "Nedumangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mancha",
+      "coords": [
+        77.05083,
+        8.60505
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.0322,
+        8.6065
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.03175,
+        8.60252
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

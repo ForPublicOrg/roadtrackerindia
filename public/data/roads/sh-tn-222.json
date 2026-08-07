@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-222",
+  "ref": "SH 222",
+  "name": "Omalur–Pennagaram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 57.8,
+  "route": {
+    "start": "Omalur, Tamil Nadu",
+    "end": "Pennagaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Omalur",
+      "Mecheri",
+      "Pennagaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Omalur",
+      "coords": [
+        78.03549,
+        11.73783
+      ]
+    },
+    {
+      "name": "Mecheri",
+      "coords": [
+        77.94582,
+        11.8319
+      ]
+    },
+    {
+      "name": "Pennagaram",
+      "coords": [
+        77.90187,
+        12.13215
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

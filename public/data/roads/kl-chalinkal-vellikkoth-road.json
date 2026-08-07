@@ -1,0 +1,43 @@
+{
+  "id": "kl-chalinkal-vellikkoth-road",
+  "ref": "MDR",
+  "name": "Chalinkal-Vellikkoth Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Athinhal, Kerala",
+    "end": "Periya, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athinhal",
+      "Kanhangad",
+      "Periya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athinhal",
+      "coords": [
+        75.08956,
+        12.34336
+      ]
+    },
+    {
+      "name": "Periya",
+      "coords": [
+        75.09944,
+        12.37779
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

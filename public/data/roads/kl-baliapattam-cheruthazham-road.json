@@ -1,0 +1,59 @@
+{
+  "id": "kl-baliapattam-cheruthazham-road",
+  "ref": "MDR",
+  "name": "Baliapattam - Cheruthazham Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21,
+  "route": {
+    "start": "Pappinisseri, Kerala",
+    "end": "Pilathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pappinisseri",
+      "Kannapuram",
+      "Muttukandi",
+      "Pazhayangadi",
+      "Pilathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.35343,
+        11.93575
+      ]
+    },
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.31771,
+        11.97825
+      ]
+    },
+    {
+      "name": "Pazhayangadi",
+      "coords": [
+        75.26677,
+        12.02424
+      ]
+    },
+    {
+      "name": "Pilathara",
+      "coords": [
+        75.25864,
+        12.07962
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

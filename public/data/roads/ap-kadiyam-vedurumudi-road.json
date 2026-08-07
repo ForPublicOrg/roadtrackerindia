@@ -1,0 +1,42 @@
+{
+  "id": "ap-kadiyam-vedurumudi-road",
+  "ref": "SH",
+  "name": "Kadiyam - Vedurumudi Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 23.9,
+  "route": {
+    "start": "Kadiyam, Andhra Pradesh",
+    "end": "Alamuru, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kadiyam",
+      "Alamuru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadiyam",
+      "coords": [
+        81.8172,
+        16.91075
+      ]
+    },
+    {
+      "name": "Alamuru",
+      "coords": [
+        81.89105,
+        16.79822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

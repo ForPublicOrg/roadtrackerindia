@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumkunnam-attakulam-road",
+  "ref": "MDR",
+  "name": "Nedumkunnam - Attakulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Karukachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Karukachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.67183,
+        9.4721
+      ]
+    },
+    {
+      "name": "Karukachal",
+      "coords": [
+        76.66492,
+        9.50164
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

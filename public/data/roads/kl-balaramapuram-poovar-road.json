@@ -1,0 +1,49 @@
+{
+  "id": "kl-balaramapuram-poovar-road",
+  "ref": "MDR",
+  "name": "Balaramapuram - Poovar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.4,
+  "route": {
+    "start": "Poovar, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poovar",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poovar",
+      "coords": [
+        77.07066,
+        8.31831
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.05519,
+        8.39564
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.05261,
+        8.41937
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

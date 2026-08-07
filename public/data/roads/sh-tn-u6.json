@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-u6",
+  "ref": "SH-U 6",
+  "name": "Natham–Chengalpattu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Natham, Tamil Nadu",
+    "end": "Chengalpattu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Natham",
+      "Gokulapuram",
+      "Chengalpattu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Natham",
+      "coords": [
+        79.97768,
+        12.7097
+      ]
+    },
+    {
+      "name": "Gokulapuram",
+      "coords": [
+        79.97938,
+        12.6936
+      ]
+    },
+    {
+      "name": "Chengalpattu",
+      "coords": [
+        79.98338,
+        12.68431
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

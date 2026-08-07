@@ -1,0 +1,42 @@
+{
+  "id": "kl-dhasanakkara-payyampalli-koyileri-road",
+  "ref": "MDR",
+  "name": "Dhasanakkara - Payyampalli - Koyileri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.0455,
+        11.78691
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.08115,
+        11.79647
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

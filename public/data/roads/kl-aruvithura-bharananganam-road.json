@@ -1,0 +1,42 @@
+{
+  "id": "kl-aruvithura-bharananganam-road",
+  "ref": "MDR",
+  "name": "Aruvithura - Bharananganam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.73139,
+        9.69988
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.77718,
+        9.68541
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

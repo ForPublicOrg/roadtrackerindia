@@ -1,0 +1,42 @@
+{
+  "id": "kl-kurumaly-thottipal-mulangu-road",
+  "ref": "MDR",
+  "name": "Kurumaly Thottipal Mulangu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.27177,
+        10.40963
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.23866,
+        10.42138
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

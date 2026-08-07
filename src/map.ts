@@ -12,12 +12,24 @@ const INDIA_BOUNDS: [[number, number], [number, number]] = [
 
 const EMPTY_FC = { type: 'FeatureCollection', features: [] } as unknown as GeoJSON.GeoJSON
 
+/**
+ * State and district roads outnumber the trunk network ten to one and are
+ * unreadable below this zoom, so they load only once someone gets close enough
+ * to want them.
+ */
+const DETAIL_ZOOM = 7.2
+
 let map: maplibregl.Map
 let networkFC: NetworkFC | null = null
+let detailFC: NetworkFC | null = null
+let detailRequested = false
+let detailNeededCb: () => void = () => {}
 let selectedShape: ShapeFeature | null = null
 let selectedCategory: Category = 'nh'
 let dimmed = false
-let hoveredId: string | null = null
+/** Road ids to light up for an organisation, remembered until the layers exist. */
+let highlightIds: string[] | null = null
+let hovered: { source: string; id: string } | null = null
 let usingFallbackStyle = false
 
 let roadClickCb: (id: string, lngLat: [number, number]) => void = () => {}
@@ -173,6 +185,7 @@ function categoryColorExpr(theme: Theme): unknown {
     'expressway', c.expressway,
     'nh', c.nh,
     'sh', c.sh,
+    'district', c.district,
     c.local,
   ]
 }
@@ -192,6 +205,11 @@ export function addAppLayers(): void {
   map.addSource('network', {
     type: 'geojson',
     data: (networkFC ?? EMPTY_FC) as never,
+    promoteId: 'id',
+  })
+  map.addSource('network-detail', {
+    type: 'geojson',
+    data: (detailFC ?? EMPTY_FC) as never,
     promoteId: 'id',
   })
   map.addSource('selected', { type: 'geojson', data: EMPTY_FC as never, lineMetrics: true })
@@ -250,12 +268,56 @@ export function addAppLayers(): void {
     firstSymbol,
   )
 
+  // the state/district tier: same look, thinner, and only near the ground
+  map.addLayer(
+    {
+      id: 'network-detail-casing',
+      type: 'line',
+      source: 'network-detail',
+      minzoom: DETAIL_ZOOM,
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': colors.casing,
+        'line-opacity': 0.8,
+        'line-width': ['interpolate', ['linear'], ['zoom'], 7, 2.4, 12, 8],
+      },
+    },
+    firstSymbol,
+  )
+  map.addLayer(
+    {
+      id: 'network-detail-line',
+      type: 'line',
+      source: 'network-detail',
+      minzoom: DETAIL_ZOOM,
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': categoryColorExpr(theme) as never,
+        'line-width': ['interpolate', ['linear'], ['zoom'],
+          7, hoverWidth(1.1, 2.2),
+          12, hoverWidth(4.6, 7),
+        ] as never,
+      },
+    },
+    firstSymbol,
+  )
+
   map.addLayer(
     {
       id: 'network-hit',
       type: 'line',
       source: 'network',
       paint: { 'line-color': '#000', 'line-opacity': 0.001, 'line-width': 20 },
+    },
+    firstSymbol,
+  )
+  map.addLayer(
+    {
+      id: 'network-detail-hit',
+      type: 'line',
+      source: 'network-detail',
+      minzoom: DETAIL_ZOOM,
+      paint: { 'line-color': '#000', 'line-opacity': 0.001, 'line-width': 16 },
     },
     firstSymbol,
   )
@@ -306,6 +368,7 @@ export function addAppLayers(): void {
   })
 
   applyDim()
+  applyHighlight() // a company deep link may have asked for one before now
 }
 
 export function setNetworkData(fc: NetworkFC): void {
@@ -314,33 +377,56 @@ export function setNetworkData(fc: NetworkFC): void {
   src?.setData(fc as never)
 }
 
+export function setDetailNetworkData(fc: NetworkFC): void {
+  detailFC = fc
+  const src = map.getSource('network-detail') as maplibregl.GeoJSONSource | undefined
+  src?.setData(fc as never)
+  applyDim()
+}
+
+/** Called once, the first time the user zooms in far enough to need them. */
+export function onDetailNetworkNeeded(cb: () => void): void {
+  detailNeededCb = cb
+  maybeRequestDetail()
+}
+
+function maybeRequestDetail(): void {
+  if (detailRequested || !map || map.getZoom() < DETAIL_ZOOM) return
+  detailRequested = true
+  detailNeededCb()
+}
+
 // ── interactions ───────────────────────────────────────────────────
 
 function clearHover(): void {
-  if (hoveredId && map.getSource('network')) {
-    map.setFeatureState({ source: 'network', id: hoveredId }, { hover: false })
+  if (hovered && map.getSource(hovered.source)) {
+    map.setFeatureState({ source: hovered.source, id: hovered.id }, { hover: false })
   }
-  hoveredId = null
+  hovered = null
   tip.classList.remove('is-on')
   if (map) map.getCanvas().style.cursor = ''
 }
 
+/** Hit layers currently on the map — the detail tier only exists once loaded. */
+function hitLayers(): string[] {
+  return ['network-hit', 'network-detail-hit'].filter((l) => map.getLayer(l))
+}
+
 function wireInteractions(): void {
   map.on('mouseout', clearHover)
+  // zoomend covers wheel and pinch; moveend also catches a fitBounds that lands
+  // deep (following a deep link straight to a two-kilometre district road)
+  map.on('zoomend', maybeRequestDetail)
+  map.on('moveend', maybeRequestDetail)
   map.on('mousemove', (e) => {
-    if (!map.getLayer('network-hit')) return
-    const feats = map.queryRenderedFeatures(e.point, { layers: ['network-hit'] })
-    const top = feats[0]
-    if (hoveredId && (!top || top.properties.id !== hoveredId)) {
-      map.setFeatureState({ source: 'network', id: hoveredId }, { hover: false })
-      hoveredId = null
-      tip.classList.remove('is-on')
-      map.getCanvas().style.cursor = ''
-    }
+    const layers = hitLayers()
+    if (!layers.length) return
+    const top = map.queryRenderedFeatures(e.point, { layers })[0]
+    if (hovered && (!top || top.properties.id !== hovered.id)) clearHover()
     if (top && !document.body.classList.contains('is-reporting')) {
-      if (hoveredId !== top.properties.id) {
-        hoveredId = top.properties.id as string
-        map.setFeatureState({ source: 'network', id: hoveredId }, { hover: true })
+      if (hovered?.id !== top.properties.id) {
+        hovered = { source: top.source, id: top.properties.id as string }
+        map.setFeatureState({ source: hovered.source, id: hovered.id }, { hover: true })
         tip.textContent = `${top.properties.ref} — ${top.properties.name}`
         tip.classList.add('is-on')
       }
@@ -352,11 +438,8 @@ function wireInteractions(): void {
   })
 
   map.on('click', (e) => {
-    if (!map.getLayer('network-hit')) {
-      baseClickCb([e.lngLat.lng, e.lngLat.lat])
-      return
-    }
-    const feats = map.queryRenderedFeatures(e.point, { layers: ['network-hit'] })
+    const layers = hitLayers()
+    const feats = layers.length ? map.queryRenderedFeatures(e.point, { layers }) : []
     if (feats[0]) roadClickCb(feats[0].properties.id as string, [e.lngLat.lng, e.lngLat.lat])
     else baseClickCb([e.lngLat.lng, e.lngLat.lat])
   })
@@ -387,12 +470,61 @@ export function setDimmed(v: boolean): void {
   applyDim()
 }
 
+/**
+ * Light up every road belonging to one organisation. Reuses the network
+ * sources rather than fetching anything — the ids are already on the map, so
+ * this is a filter change, not a download.
+ */
+export function highlightRoads(ids: string[] | null): void {
+  highlightIds = ids?.length ? ids : null
+  applyHighlight()
+  setDimmed(!!highlightIds)
+}
+
+/**
+ * Deep-linking straight to a company page can ask for a highlight before the
+ * style has loaded and the network layers exist. Remember what was asked for
+ * and paint it here, which `addAppLayers` calls again once they do.
+ */
+function applyHighlight(): void {
+  for (const [layer, source, minzoom] of [
+    ['org-highlight', 'network', undefined],
+    ['org-highlight-detail', 'network-detail', DETAIL_ZOOM],
+  ] as const) {
+    if (!map.getSource(source)) continue
+    if (!map.getLayer(layer)) {
+      map.addLayer({
+        id: layer,
+        type: 'line',
+        source,
+        ...(minzoom ? { minzoom } : {}),
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: {
+          'line-color': MAP_COLORS[getTheme()].categories.expressway,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 4, 2.6, 8, 4.6, 12, 8] as never,
+          'line-opacity': 0.95,
+        },
+      })
+    }
+    map.setFilter(
+      layer,
+      highlightIds
+        ? (['in', ['get', 'id'], ['literal', highlightIds]] as never)
+        : (['==', ['get', 'id'], ''] as never),
+    )
+  }
+}
+
 function applyDim(): void {
   if (!map.getLayer('network-line')) return
   const lineOp = dimmed ? 0.3 : 1
   map.setPaintProperty('network-line', 'line-opacity', lineOp)
   map.setPaintProperty('network-line-dashed', 'line-opacity', dimmed ? 0.28 : 0.9)
   map.setPaintProperty('network-casing', 'line-opacity', dimmed ? 0.4 : 0.85)
+  if (map.getLayer('network-detail-line')) {
+    map.setPaintProperty('network-detail-line', 'line-opacity', dimmed ? 0.22 : 0.92)
+    map.setPaintProperty('network-detail-casing', 'line-opacity', dimmed ? 0.3 : 0.8)
+  }
   if (map.getLayer('network-label'))
     map.setPaintProperty('network-label', 'text-opacity', dimmed ? 0.45 : 1)
 }

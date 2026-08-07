@@ -1,0 +1,62 @@
+{
+  "id": "nh-116",
+  "ref": "NH 116",
+  "name": "Kolaghat–Haldia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 53.5,
+  "route": {
+    "start": "Kolaghat, West Bengal",
+    "end": "Haldia, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Kolaghat",
+      "Tamluk",
+      "Mahishadal",
+      "Haldia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolaghat",
+      "coords": [
+        87.86042,
+        22.43471
+      ]
+    },
+    {
+      "name": "Tamluk",
+      "coords": [
+        87.88758,
+        22.27676
+      ]
+    },
+    {
+      "name": "Mahishadal",
+      "coords": [
+        87.94929,
+        22.16065
+      ]
+    },
+    {
+      "name": "Haldia",
+      "coords": [
+        88.0869,
+        22.04708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

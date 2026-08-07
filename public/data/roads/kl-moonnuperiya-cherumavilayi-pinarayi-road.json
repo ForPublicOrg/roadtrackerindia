@@ -1,0 +1,42 @@
+{
+  "id": "kl-moonnuperiya-cherumavilayi-pinarayi-road",
+  "ref": "MDR",
+  "name": "Moonnuperiya - Cherumavilayi - Pinarayi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Kadachira, Kerala",
+    "end": "Thottada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadachira",
+      "Thottada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.48914,
+        11.79994
+      ]
+    },
+    {
+      "name": "Thottada",
+      "coords": [
+        75.47436,
+        11.83249
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

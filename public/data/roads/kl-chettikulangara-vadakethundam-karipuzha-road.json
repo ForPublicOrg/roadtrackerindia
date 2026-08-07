@@ -1,0 +1,42 @@
+{
+  "id": "kl-chettikulangara-vadakethundam-karipuzha-road",
+  "ref": "MDR",
+  "name": "Chettikulangara - Vadakethundam - Karipuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.50525,
+        9.252
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.51654,
+        9.2278
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

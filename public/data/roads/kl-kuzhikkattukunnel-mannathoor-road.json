@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuzhikkattukunnel-mannathoor-road",
+  "ref": "MDR",
+  "name": "Kuzhikkattukunnel - Mannathoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kizhakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kizhakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.58116,
+        9.88931
+      ]
+    },
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.56767,
+        9.90458
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

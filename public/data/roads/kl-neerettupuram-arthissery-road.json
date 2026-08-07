@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerettupuram-arthissery-road",
+  "ref": "MDR",
+  "name": "Neerettupuram - Arthissery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Vandipetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Vandipetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.51554,
+        9.3689
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.49497,
+        9.38899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-105",
+  "ref": "MDR 105",
+  "name": "Peyode–Thingal Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.6,
+  "route": {
+    "start": "Peyode, Tamil Nadu",
+    "end": "Thingal Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Peyode",
+      "Thingal Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peyode",
+      "coords": [
+        77.31701,
+        8.12429
+      ]
+    },
+    {
+      "name": "Thingal Nagar",
+      "coords": [
+        77.31804,
+        8.20516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

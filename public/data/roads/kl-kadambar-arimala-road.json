@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadambar-arimala-road",
+  "ref": "MDR",
+  "name": "Kadambar - Arimala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Manjeshwar, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeshwar",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.91593,
+        12.71702
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.90685,
+        12.72012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

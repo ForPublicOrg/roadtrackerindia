@@ -1,0 +1,56 @@
+{
+  "id": "nh-320d",
+  "ref": "NH 320D",
+  "name": "Chhend–Jogibera National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 138.4,
+  "route": {
+    "start": "Chhend, Odisha",
+    "end": "Jogibera, Jharkhand",
+    "states": [
+      "Odisha",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chhend",
+      "Rourkela",
+      "Chakradharpur",
+      "Jogibera"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhend",
+      "coords": [
+        84.8066,
+        22.22188
+      ]
+    },
+    {
+      "name": "Rourkela",
+      "coords": [
+        84.87066,
+        22.22674
+      ]
+    },
+    {
+      "name": "Chakradharpur",
+      "coords": [
+        85.61398,
+        22.68128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

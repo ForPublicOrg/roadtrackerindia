@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-9012",
+  "ref": "ODR 9012",
+  "name": "Thakkolam–Arakkonam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Thakkolam, Tamil Nadu",
+    "end": "Arakkonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thakkolam",
+      "Arakkonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.76748,
+        12.96124
+      ]
+    },
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.77086,
+        12.97674
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "mdr-up-11b",
+  "ref": "MDR 11B",
+  "name": "Nagod–Banda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 95.9,
+  "route": {
+    "start": "Nagod, Madhya Pradesh",
+    "end": "Banda, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nagod",
+      "Kalinjar",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagod",
+      "coords": [
+        80.58506,
+        24.71483
+      ]
+    },
+    {
+      "name": "Kalinjar",
+      "coords": [
+        80.47247,
+        25.02031
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.34601,
+        25.46534
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

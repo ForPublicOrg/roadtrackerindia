@@ -1,0 +1,50 @@
+{
+  "id": "kl-kottiyam-ottaplamood-road",
+  "ref": "MDR",
+  "name": "Kottiyam - Ottaplamood Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Kottiyam, Kerala",
+    "end": "Mayyanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottiyam",
+      "Tirumukku",
+      "Mayyanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.67134,
+        8.86568
+      ]
+    },
+    {
+      "name": "Tirumukku",
+      "coords": [
+        76.67449,
+        8.85857
+      ]
+    },
+    {
+      "name": "Mayyanad",
+      "coords": [
+        76.6753,
+        8.85102
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

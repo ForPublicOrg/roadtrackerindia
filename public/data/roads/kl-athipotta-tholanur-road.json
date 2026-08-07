@@ -1,0 +1,42 @@
+{
+  "id": "kl-athipotta-tholanur-road",
+  "ref": "MDR",
+  "name": "Athipotta - Tholanur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "edathil colony, Kerala",
+    "end": "Vadakkenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "edathil colony",
+      "Vadakkenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.50875,
+        10.71971
+      ]
+    },
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.48156,
+        10.66735
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

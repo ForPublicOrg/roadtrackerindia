@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-152",
+  "ref": "MDR 152",
+  "name": "Jamwa Ramgarh–Lawan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 47.2,
+  "route": {
+    "start": "Jamwa Ramgarh, Rajasthan",
+    "end": "Lawan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jamwa Ramgarh",
+      "Dausa",
+      "Lawan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jamwa Ramgarh",
+      "coords": [
+        76.09092,
+        27.02196
+      ]
+    },
+    {
+      "name": "Dausa",
+      "coords": [
+        76.31403,
+        26.88129
+      ]
+    },
+    {
+      "name": "Lawan",
+      "coords": [
+        76.27037,
+        26.76531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ummanoor-sadanandapuram-road",
+  "ref": "MDR",
+  "name": "Ummanoor - Sadanandapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.80438,
+        8.94548
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.81757,
+        8.97567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

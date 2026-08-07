@@ -24,7 +24,32 @@ const CATEGORY_LABEL = {
   nh: 'National Highway',
   expressway: 'Expressway',
   sh: 'State Highway',
+  district: 'district road',
   local: 'city road',
+}
+
+/**
+ * Which roads get a prerendered page. Every road stays reachable through the
+ * SPA fallback; stamping a 7 KB shell for all 8,000 of them would bloat the
+ * deploy with thin pages, so this covers the roads people actually search for.
+ */
+const worthPrerendering = (road) =>
+  road.category === 'nh' ||
+  road.category === 'expressway' ||
+  road.lengthKm >= 100 ||
+  detailOf(road.id)?.history !== undefined
+
+const detailCache = new Map()
+function detailOf(id) {
+  if (detailCache.has(id)) return detailCache.get(id)
+  let detail = null
+  try {
+    detail = JSON.parse(readFileSync(join(DIST, 'data', 'roads', `${id}.json`), 'utf8'))
+  } catch {
+    /* summary-only */
+  }
+  detailCache.set(id, detail)
+  return detail
 }
 
 const escAttr = (s) =>
@@ -34,13 +59,7 @@ function roadHtml(road) {
   const startShort = road.start.split(',')[0]
   const endShort = road.end.split(',')[0]
   const title = `${road.ref} — ${startShort} to ${endShort} | RoadTracker India`
-  let history = ''
-  try {
-    const detail = JSON.parse(readFileSync(join(DIST, 'data', 'roads', `${road.id}.json`), 'utf8'))
-    history = detail.history ? ` ${detail.history}` : ''
-  } catch {
-    /* summary-only description */
-  }
+  const history = detailOf(road.id)?.history ? ` ${detailOf(road.id).history}` : ''
   const desc = (
     `${road.ref} (${road.name}) is a ${Math.round(road.lengthKm).toLocaleString('en-IN')} km ` +
     `${CATEGORY_LABEL[road.category]} from ${road.start} to ${road.end}.${history}`
@@ -79,16 +98,81 @@ function roadHtml(road) {
     )
 }
 
+/**
+ * Company pages. "Who built the Yamuna Expressway" is a real search, and the
+ * answer lives on an organisation's page, so every profile gets stamped —
+ * there are only a few dozen of them.
+ */
+function orgHtml(org) {
+  const stats = org.stats
+  const title = `${org.shortName ?? org.name} — roads built and managed | RoadTracker India`
+  const scale = stats.roadCount
+    ? ` ${stats.roadCount} road${stats.roadCount === 1 ? '' : 's'} on RoadTracker, ${stats.lengthKm.toLocaleString('en-IN')} km in total.`
+    : ''
+  const desc = `${org.name}: ${org.summary}${scale}`.slice(0, 300)
+  const url = `${SITE}/company/${org.id}/`
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        name: org.name,
+        ...(org.shortName ? { alternateName: org.shortName } : {}),
+        description: org.summary,
+        ...(org.website ? { sameAs: [org.website] } : {}),
+        url,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'RoadTracker India', item: `${SITE}/` },
+          { '@type': 'ListItem', position: 2, name: org.shortName ?? org.name, item: url },
+        ],
+      },
+    ],
+  }
+
+  return template
+    .replace(/<title>[\s\S]*?<\/title>/, `<title>${escAttr(title)}</title>`)
+    .replace(/(<meta\s+name="description"\s+content=")[\s\S]*?("\s*\/?>)/, `$1${escAttr(desc)}$2`)
+    .replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, `$1${url}$2`)
+    .replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, `$1${escAttr(title)}$2`)
+    .replace(/(<meta\s+property="og:description"\s+content=")[\s\S]*?("\s*\/?>)/, `$1${escAttr(desc)}$2`)
+    .replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, `$1${url}$2`)
+    .replace(
+      '</head>',
+      `<script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script></head>`,
+    )
+}
+
+const prerendered = index.roads.filter(worthPrerendering)
 let pages = 0
-for (const road of index.roads) {
+for (const road of prerendered) {
   const dir = join(DIST, 'road', road.id)
   mkdirSync(dir, { recursive: true })
   writeFileSync(join(dir, 'index.html'), roadHtml(road))
   pages++
 }
 
+let orgs = []
+try {
+  orgs = JSON.parse(readFileSync(join(DIST, 'data', 'orgs.json'), 'utf8')).orgs
+} catch {
+  /* no organisations on file yet */
+}
+for (const org of orgs) {
+  const dir = join(DIST, 'company', org.id)
+  mkdirSync(dir, { recursive: true })
+  writeFileSync(join(dir, 'index.html'), orgHtml(org))
+}
+
 const today = new Date().toISOString().slice(0, 10)
-const urls = [`${SITE}/`, ...index.roads.map((r) => `${SITE}/road/${r.id}/`)]
+const urls = [
+  `${SITE}/`,
+  ...prerendered.map((r) => `${SITE}/road/${r.id}/`),
+  ...orgs.map((o) => `${SITE}/company/${o.id}/`),
+]
 const sitemap =
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
@@ -98,4 +182,7 @@ writeFileSync(join(DIST, 'sitemap.xml'), sitemap)
 
 copyFileSync(join(DIST, 'index.html'), join(DIST, '404.html'))
 
-console.log(`✓ ${pages} road pages, sitemap.xml (${urls.length} urls), 404.html`)
+console.log(
+  `✓ ${pages} road pages of ${index.roads.length} roads, ${orgs.length} company pages, ` +
+    `sitemap.xml (${urls.length} urls), 404.html`,
+)

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-190",
+  "ref": "MDR 190",
+  "name": "Gua–Jhirpani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.3,
+  "route": {
+    "start": "Gua, Jharkhand",
+    "end": "Jhirpani, Odisha",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Gua",
+      "Jhirpani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gua",
+      "coords": [
+        85.19745,
+        22.37271
+      ]
+    },
+    {
+      "name": "Jhirpani",
+      "coords": [
+        85.11487,
+        22.30944
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

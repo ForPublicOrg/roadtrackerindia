@@ -1,0 +1,42 @@
+{
+  "id": "kl-nellaya-mavundirikadavu-road",
+  "ref": "MDR",
+  "name": "Nellaya - Mavundirikadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Cherpulassery, Kerala",
+    "end": "Perinthalmanna, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherpulassery",
+      "Perinthalmanna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherpulassery",
+      "coords": [
+        76.28583,
+        10.87137
+      ]
+    },
+    {
+      "name": "Perinthalmanna",
+      "coords": [
+        76.24656,
+        10.88149
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

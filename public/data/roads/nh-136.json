@@ -1,0 +1,77 @@
+{
+  "id": "nh-136",
+  "ref": "NH 136",
+  "name": "Pudupattinam–Attur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 135.3,
+  "route": {
+    "start": "Pudupattinam, Tamil Nadu",
+    "end": "Attur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pudupattinam",
+      "Thanjavur",
+      "Ariyalur",
+      "Perambalur",
+      "Attur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pudupattinam",
+      "coords": [
+        79.17178,
+        10.78544
+      ]
+    },
+    {
+      "name": "Thanjavur",
+      "coords": [
+        79.16258,
+        10.79121
+      ]
+    },
+    {
+      "name": "Ariyalur",
+      "coords": [
+        79.08406,
+        11.13557
+      ]
+    },
+    {
+      "name": "Perambalur",
+      "coords": [
+        78.89429,
+        11.24167
+      ]
+    },
+    {
+      "name": "Veeraganur",
+      "coords": [
+        78.73522,
+        11.47662
+      ]
+    },
+    {
+      "name": "Attur",
+      "coords": [
+        78.61109,
+        11.59199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

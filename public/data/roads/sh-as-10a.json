@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-10a",
+  "ref": "SH 10A",
+  "name": "Barama–Mushalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 23.6,
+  "route": {
+    "start": "Barama, Assam",
+    "end": "Mushalpur, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Barama",
+      "Mushalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barama",
+      "coords": [
+        91.35137,
+        26.52898
+      ]
+    },
+    {
+      "name": "Mushalpur",
+      "coords": [
+        91.34007,
+        26.66686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

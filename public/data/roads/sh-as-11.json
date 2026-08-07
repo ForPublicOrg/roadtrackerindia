@@ -1,0 +1,58 @@
+{
+  "id": "sh-as-11",
+  "ref": "SH 11",
+  "name": "Mangaldoi–Tangla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.6,
+  "route": {
+    "start": "Mangaldoi, Assam",
+    "end": "Tangla, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Mangaldoi",
+      "Sipajhar",
+      "Khairabari",
+      "Tangla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangaldoi",
+      "coords": [
+        92.02903,
+        26.44808
+      ]
+    },
+    {
+      "name": "Sipajhar",
+      "coords": [
+        91.89821,
+        26.44361
+      ]
+    },
+    {
+      "name": "Khairabari",
+      "coords": [
+        91.81413,
+        26.60314
+      ]
+    },
+    {
+      "name": "Tangla",
+      "coords": [
+        91.81264,
+        26.73964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-varode-chunangad-road",
+  "ref": "MDR",
+  "name": "Varode - Chunangad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Ottapalam, Kerala",
+    "end": "Sreekrishnapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottapalam",
+      "Sreekrishnapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.37923,
+        10.80811
+      ]
+    },
+    {
+      "name": "Sreekrishnapuram",
+      "coords": [
+        76.40499,
+        10.802
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

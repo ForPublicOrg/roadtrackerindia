@@ -1,0 +1,57 @@
+{
+  "id": "sh-tn-99a",
+  "ref": "SH 99A",
+  "name": "Thanjavur–Vallam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11.3,
+  "route": {
+    "start": "Thanjavur, Tamil Nadu",
+    "end": "Vallam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thanjavur",
+      "Sarafojinagar",
+      "Vallam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanjavur",
+      "coords": [
+        79.13264,
+        10.77289
+      ]
+    },
+    {
+      "name": "Ramanathapuram",
+      "coords": [
+        79.11444,
+        10.77042
+      ]
+    },
+    {
+      "name": "Sarafojinagar",
+      "coords": [
+        79.09495,
+        10.75176
+      ]
+    },
+    {
+      "name": "Vallam",
+      "coords": [
+        79.06758,
+        10.72068
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

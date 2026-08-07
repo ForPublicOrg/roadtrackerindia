@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-68",
+  "ref": "MDR 68",
+  "name": "Chatra–Konra District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 48.8,
+  "route": {
+    "start": "Chatra, Jharkhand",
+    "end": "Konra, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chatra",
+      "Konra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chatra",
+      "coords": [
+        84.8719,
+        24.20648
+      ]
+    },
+    {
+      "name": "Konra",
+      "coords": [
+        85.25323,
+        24.38775
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

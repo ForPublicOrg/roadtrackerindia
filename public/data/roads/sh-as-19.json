@@ -1,0 +1,58 @@
+{
+  "id": "sh-as-19",
+  "ref": "SH 19",
+  "name": "Hamren–Baghuliaghat State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 80.4,
+  "route": {
+    "start": "Hamren, Assam",
+    "end": "Baghuliaghat, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Hamren",
+      "Hojai",
+      "Daboka",
+      "Baghuliaghat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hamren",
+      "coords": [
+        92.59939,
+        25.8734
+      ]
+    },
+    {
+      "name": "Hojai",
+      "coords": [
+        92.854,
+        26.00334
+      ]
+    },
+    {
+      "name": "Daboka",
+      "coords": [
+        92.89945,
+        26.06442
+      ]
+    },
+    {
+      "name": "Baghuliaghat",
+      "coords": [
+        93.13915,
+        26.09099
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-888",
+  "ref": "MDR 888",
+  "name": "Punjai Puliampatti–Satyamangalam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.2,
+  "route": {
+    "start": "Punjai Puliampatti, Tamil Nadu",
+    "end": "Satyamangalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Punjai Puliampatti",
+      "Satyamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punjai Puliampatti",
+      "coords": [
+        77.16736,
+        11.35133
+      ]
+    },
+    {
+      "name": "Satyamangalam",
+      "coords": [
+        77.24833,
+        11.48384
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

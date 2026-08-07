@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u22",
+  "ref": "SH-U 22",
+  "name": "Komarapalayam–Bhavani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Komarapalayam, Tamil Nadu",
+    "end": "Bhavani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Komarapalayam",
+      "Bhavani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Komarapalayam",
+      "coords": [
+        77.71462,
+        11.44439
+      ]
+    },
+    {
+      "name": "Bhavani",
+      "coords": [
+        77.68461,
+        11.44122
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

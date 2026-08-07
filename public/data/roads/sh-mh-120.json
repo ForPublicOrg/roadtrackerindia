@@ -1,0 +1,65 @@
+{
+  "id": "sh-mh-120",
+  "ref": "SH 120",
+  "name": "Vengurla–Kankavali State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 46.9,
+  "route": {
+    "start": "Vengurla, Maharashtra",
+    "end": "Kankavali, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Vengurla",
+      "Kudal",
+      "Oros",
+      "Kankavali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengurla",
+      "coords": [
+        73.68529,
+        15.90195
+      ]
+    },
+    {
+      "name": "Kudal MIDC",
+      "coords": [
+        73.68314,
+        15.9887
+      ]
+    },
+    {
+      "name": "Kudal",
+      "coords": [
+        73.6901,
+        16.00283
+      ]
+    },
+    {
+      "name": "Oros",
+      "coords": [
+        73.72576,
+        16.09015
+      ]
+    },
+    {
+      "name": "Kankavali",
+      "coords": [
+        73.85651,
+        16.19232
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-puthencav-eraviperoor-road",
+  "ref": "MDR",
+  "name": "Puthencav - Eraviperoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Kumbanad",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.63688,
+        9.34107
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.63299,
+        9.32745
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

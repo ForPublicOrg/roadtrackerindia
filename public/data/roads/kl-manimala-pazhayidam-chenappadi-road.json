@@ -1,0 +1,42 @@
+{
+  "id": "kl-manimala-pazhayidam-chenappadi-road",
+  "ref": "MDR",
+  "name": "Manimala - Pazhayidam - Chenappadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Manimala, Kerala",
+    "end": "Kanjirappalli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manimala",
+      "Kanjirappalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manimala",
+      "coords": [
+        76.75259,
+        9.49329
+      ]
+    },
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.77443,
+        9.50458
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nh-752e",
+  "ref": "NH 752E",
+  "name": "Patoda–Cantonment National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 161.6,
+  "route": {
+    "start": "Patoda, Maharashtra",
+    "end": "Cantonment, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Patoda",
+      "Shirur Kasar",
+      "Paithan",
+      "Chhatrapati Sambhajinagar",
+      "Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patoda",
+      "coords": [
+        75.46729,
+        18.646
+      ]
+    },
+    {
+      "name": "Shirur Kasar",
+      "coords": [
+        75.42636,
+        19.06835
+      ]
+    },
+    {
+      "name": "Paithan",
+      "coords": [
+        75.39635,
+        19.47671
+      ]
+    },
+    {
+      "name": "Chhatrapati Sambhajinagar",
+      "coords": [
+        75.29295,
+        19.84111
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

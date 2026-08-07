@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2553",
+  "ref": "ODR 2553",
+  "name": "Pallikondai–Mottur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Pallikondai, Tamil Nadu",
+    "end": "Mottur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pallikondai",
+      "Mottur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallikondai",
+      "coords": [
+        78.99284,
+        12.88954
+      ]
+    },
+    {
+      "name": "Mottur",
+      "coords": [
+        78.99787,
+        12.89968
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

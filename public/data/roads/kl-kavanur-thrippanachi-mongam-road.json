@@ -1,0 +1,42 @@
+{
+  "id": "kl-kavanur-thrippanachi-mongam-road",
+  "ref": "MDR",
+  "name": "Kavanur - Thrippanachi - Mongam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Kaloth, Kerala",
+    "end": "Areekode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaloth",
+      "Areekode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaloth",
+      "coords": [
+        76.03548,
+        11.14217
+      ]
+    },
+    {
+      "name": "Areekode",
+      "coords": [
+        76.0526,
+        11.19014
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

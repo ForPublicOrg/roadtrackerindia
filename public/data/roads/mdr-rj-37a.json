@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-37a",
+  "ref": "MDR 37A",
+  "name": "Kheenvsar–Teja Colony District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.9,
+  "route": {
+    "start": "Kheenvsar, Rajasthan",
+    "end": "Teja Colony, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kheenvsar",
+      "Nagaur",
+      "Teja Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kheenvsar",
+      "coords": [
+        73.27492,
+        26.98705
+      ]
+    },
+    {
+      "name": "Basni",
+      "coords": [
+        73.64443,
+        27.16788
+      ]
+    },
+    {
+      "name": "Nagaur",
+      "coords": [
+        73.71724,
+        27.19262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

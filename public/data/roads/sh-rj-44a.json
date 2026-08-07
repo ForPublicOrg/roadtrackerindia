@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-44a",
+  "ref": "SH 44A",
+  "name": "Kumher–Azad Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 17.2,
+  "route": {
+    "start": "Kumher, Rajasthan",
+    "end": "Azad Colony, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kumher",
+      "Azad Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumher",
+      "coords": [
+        77.35175,
+        27.31799
+      ]
+    },
+    {
+      "name": "Azad Colony",
+      "coords": [
+        77.227,
+        27.3444
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

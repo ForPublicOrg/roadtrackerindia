@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-39",
+  "ref": "SH 39",
+  "name": "Hailakandi–Silchar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 110.2,
+  "route": {
+    "start": "Hailakandi, Assam",
+    "end": "Silchar, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Hailakandi",
+      "Zakiganj",
+      "Silchar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hailakandi",
+      "coords": [
+        92.56715,
+        24.6779
+      ]
+    },
+    {
+      "name": "Zakiganj",
+      "coords": [
+        92.36694,
+        24.8436
+      ]
+    },
+    {
+      "name": "Silchar",
+      "coords": [
+        92.7971,
+        24.81192
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kl-thonniakavu-thrikkapuram-road",
+  "ref": "MDR",
+  "name": "Thonniakavu - Thrikkapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kalikulangara, Kerala",
+    "end": "Thrikkapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalikulangara",
+      "North Paravur",
+      "Cheriyappilly",
+      "Thrikkapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalikulangara",
+      "coords": [
+        76.23051,
+        10.13666
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.23867,
+        10.12403
+      ]
+    },
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.24758,
+        10.10806
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

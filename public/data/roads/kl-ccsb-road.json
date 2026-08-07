@@ -1,0 +1,58 @@
+{
+  "id": "kl-ccsb-road",
+  "ref": "MDR",
+  "name": "CCSB Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Zakariya Bazar, Kerala",
+    "end": "Mullakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Zakariya Bazar",
+      "Alappuzha",
+      "Vellakinar",
+      "Mullakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Zakariya Bazar",
+      "coords": [
+        76.32239,
+        9.49422
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33069,
+        9.49475
+      ]
+    },
+    {
+      "name": "Vellakinar",
+      "coords": [
+        76.33548,
+        9.49476
+      ]
+    },
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34255,
+        9.49508
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

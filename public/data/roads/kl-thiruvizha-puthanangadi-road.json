@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvizha-puthanangadi-road",
+  "ref": "MDR",
+  "name": "Thiruvizha-Puthanangadi road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.37154,
+        9.6354
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.33663,
+        9.63742
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

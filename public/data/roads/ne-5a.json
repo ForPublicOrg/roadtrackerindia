@@ -1,0 +1,46 @@
+{
+  "id": "ne-5a",
+  "ref": "NE 5A",
+  "name": "Nakodar–Goindval Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 40.8,
+  "route": {
+    "start": "Nakodar, Punjab",
+    "end": "Goindval, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Nakodar",
+      "Goindval"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nakodar",
+      "coords": [
+        75.51304,
+        31.19792
+      ]
+    },
+    {
+      "name": "Goindval",
+      "coords": [
+        75.13043,
+        31.34786
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

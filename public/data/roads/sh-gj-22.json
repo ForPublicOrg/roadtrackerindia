@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-22",
+  "ref": "SH 22",
+  "name": "Jodiya–Halvad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 104.5,
+  "route": {
+    "start": "Jodiya, Gujarat",
+    "end": "Halvad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Jodiya",
+      "Tankara",
+      "Morbi",
+      "Halvad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jodiya",
+      "coords": [
+        70.4102,
+        22.57793
+      ]
+    },
+    {
+      "name": "Tankara",
+      "coords": [
+        70.74612,
+        22.65771
+      ]
+    },
+    {
+      "name": "Morbi",
+      "coords": [
+        70.83305,
+        22.81643
+      ]
+    },
+    {
+      "name": "Halvad",
+      "coords": [
+        71.16534,
+        23.0041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

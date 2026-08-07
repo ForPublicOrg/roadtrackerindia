@@ -1,0 +1,42 @@
+{
+  "id": "kl-kurichy-pathamuttom-road",
+  "ref": "MDR",
+  "name": "Kurichy - Pathamuttom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Vadakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Vadakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.53374,
+        9.50359
+      ]
+    },
+    {
+      "name": "Vadakkekara",
+      "coords": [
+        76.5525,
+        9.51183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

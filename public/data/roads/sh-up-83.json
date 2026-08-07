@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-83",
+  "ref": "SH 83",
+  "name": "Etawah–Mainpuri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.4,
+  "route": {
+    "start": "Etawah, Uttar Pradesh",
+    "end": "Mainpuri, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Etawah",
+      "Karhal",
+      "Mainpuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Etawah",
+      "coords": [
+        79.01293,
+        26.78529
+      ]
+    },
+    {
+      "name": "Karhal",
+      "coords": [
+        78.93258,
+        27.00599
+      ]
+    },
+    {
+      "name": "Mainpuri",
+      "coords": [
+        79.02184,
+        27.2193
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

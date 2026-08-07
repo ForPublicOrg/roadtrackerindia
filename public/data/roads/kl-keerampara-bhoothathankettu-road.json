@@ -1,0 +1,42 @@
+{
+  "id": "kl-keerampara-bhoothathankettu-road",
+  "ref": "MDR",
+  "name": "Keerampara - Bhoothathankettu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Kothamangalam, Kerala",
+    "end": "Neriamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothamangalam",
+      "Neriamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.65074,
+        10.10011
+      ]
+    },
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.66735,
+        10.14764
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

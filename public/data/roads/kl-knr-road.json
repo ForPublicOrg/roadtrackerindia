@@ -1,0 +1,43 @@
+{
+  "id": "kl-knr-road",
+  "ref": "MDR",
+  "name": "KNR Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Vellanikkara, Kerala",
+    "end": "Thanikkudam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellanikkara",
+      "Chelakkottukara",
+      "Thanikkudam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.25804,
+        10.53847
+      ]
+    },
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.26453,
+        10.56411
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

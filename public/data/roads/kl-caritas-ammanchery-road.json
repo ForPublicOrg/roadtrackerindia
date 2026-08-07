@@ -1,0 +1,50 @@
+{
+  "id": "kl-caritas-ammanchery-road",
+  "ref": "MDR",
+  "name": "Caritas Ammanchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Athirampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Athirampuzha",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.53387,
+        9.64247
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.53766,
+        9.64487
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.54362,
+        9.64657
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

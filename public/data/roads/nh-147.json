@@ -1,0 +1,69 @@
+{
+  "id": "nh-147",
+  "ref": "NH 147",
+  "name": "Sarkhej–Gandhinagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 46.9,
+  "route": {
+    "start": "Sarkhej, Gujarat",
+    "end": "Gandhinagar, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Sarkhej",
+      "Bodakdev",
+      "Adalaj",
+      "Gandhinagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarkhej",
+      "coords": [
+        72.47572,
+        22.96183
+      ]
+    },
+    {
+      "name": "Bodakdev",
+      "coords": [
+        72.51694,
+        23.04884
+      ]
+    },
+    {
+      "name": "Adalaj",
+      "coords": [
+        72.58615,
+        23.17733
+      ]
+    },
+    {
+      "name": "Kudasan",
+      "coords": [
+        72.62014,
+        23.19532
+      ]
+    },
+    {
+      "name": "Gandhinagar",
+      "coords": [
+        72.66802,
+        23.21246
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

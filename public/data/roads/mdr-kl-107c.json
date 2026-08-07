@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-107c",
+  "ref": "MDR 107C",
+  "name": "Anebagilu–Kumbala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Anebagilu, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anebagilu",
+      "Kasaragod",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anebagilu",
+      "coords": [
+        75.01445,
+        12.51749
+      ]
+    },
+    {
+      "name": "Karandakkad",
+      "coords": [
+        75.00799,
+        12.52589
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        75.00202,
+        12.5892
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

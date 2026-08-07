@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-101",
+  "ref": "SH 101",
+  "name": "Ajmer–Malpura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 85.7,
+  "route": {
+    "start": "Ajmer, Rajasthan",
+    "end": "Malpura, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Ajmer",
+      "Malpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ajmer",
+      "coords": [
+        74.67008,
+        26.45247
+      ]
+    },
+    {
+      "name": "Malpura",
+      "coords": [
+        75.37183,
+        26.29516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-anacharikkal-meenmuttikkal-pullamala-road",
+  "ref": "MDR",
+  "name": "Anacharikkal - Meenmuttikkal - Pullamala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.80966,
+        9.31703
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.82826,
+        9.29477
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

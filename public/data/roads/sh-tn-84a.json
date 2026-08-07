@@ -1,0 +1,59 @@
+{
+  "id": "sh-tn-84a",
+  "ref": "SH 84A",
+  "name": "Solar–Mulanur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.2,
+  "route": {
+    "start": "Solar, Tamil Nadu",
+    "end": "Mulanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Solar",
+      "Erode",
+      "Muthur",
+      "Vellakovil",
+      "Mulanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Solar",
+      "coords": [
+        77.75113,
+        11.32053
+      ]
+    },
+    {
+      "name": "Muthur",
+      "coords": [
+        77.73637,
+        11.04058
+      ]
+    },
+    {
+      "name": "Vellakovil",
+      "coords": [
+        77.71323,
+        10.94747
+      ]
+    },
+    {
+      "name": "Mulanur",
+      "coords": [
+        77.7107,
+        10.79518
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "nh-306",
+  "ref": "NH 306",
+  "name": "Kolasib–Silchar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 87.2,
+  "route": {
+    "start": "Kolasib, Mizoram",
+    "end": "Silchar, Assam",
+    "states": [
+      "Mizoram",
+      "Assam"
+    ],
+    "majorCities": [
+      "Kolasib",
+      "Vairengte",
+      "Silchar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolasib",
+      "coords": [
+        92.68277,
+        24.24695
+      ]
+    },
+    {
+      "name": "Vairengte",
+      "coords": [
+        92.76071,
+        24.49778
+      ]
+    },
+    {
+      "name": "Silchar",
+      "coords": [
+        92.79989,
+        24.828
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

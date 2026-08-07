@@ -1,0 +1,88 @@
+{
+  "id": "kl-old-nh-sh-road-eranakulam",
+  "ref": "SH",
+  "name": "Old NH/SH Road Eranakulam",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 55.4,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Thrippunithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "North Paravur",
+      "Kalamassery",
+      "Kochi",
+      "Valummel",
+      "Thrippunithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.20248,
+        10.1874
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.2048,
+        10.18197
+      ]
+    },
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.31837,
+        10.05139
+      ]
+    },
+    {
+      "name": "Palarivattom",
+      "coords": [
+        76.30518,
+        10.00532
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.28327,
+        9.97932
+      ]
+    },
+    {
+      "name": "Valummel",
+      "coords": [
+        76.26746,
+        9.93106
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.30229,
+        9.88327
+      ]
+    },
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.35449,
+        9.94711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

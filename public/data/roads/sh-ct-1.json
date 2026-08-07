@@ -1,0 +1,50 @@
+{
+  "id": "sh-ct-1",
+  "ref": "SH 1",
+  "name": "Raigarh–Dharamjaigarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 80.6,
+  "route": {
+    "start": "Raigarh, Chhattisgarh",
+    "end": "Dharamjaigarh, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Raigarh",
+      "Gharghoda",
+      "Dharamjaigarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raigarh",
+      "coords": [
+        83.38532,
+        21.87495
+      ]
+    },
+    {
+      "name": "Gharghoda",
+      "coords": [
+        83.33628,
+        22.17151
+      ]
+    },
+    {
+      "name": "Dharamjaigarh",
+      "coords": [
+        83.20833,
+        22.46432
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

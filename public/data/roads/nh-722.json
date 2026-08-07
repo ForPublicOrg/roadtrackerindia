@@ -1,0 +1,54 @@
+{
+  "id": "nh-722",
+  "ref": "NH 722",
+  "name": "Muzaffarpur–Chhapra National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 76.2,
+  "route": {
+    "start": "Muzaffarpur, Bihar",
+    "end": "Chhapra, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Muzaffarpur",
+      "Maker",
+      "Chhapra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muzaffarpur",
+      "coords": [
+        85.35841,
+        26.12197
+      ]
+    },
+    {
+      "name": "Maker",
+      "coords": [
+        85.02277,
+        25.95631
+      ]
+    },
+    {
+      "name": "Chhapra",
+      "coords": [
+        84.75438,
+        25.78125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

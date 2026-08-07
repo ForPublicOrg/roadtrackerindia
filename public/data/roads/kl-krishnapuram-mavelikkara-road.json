@@ -1,0 +1,42 @@
+{
+  "id": "kl-krishnapuram-mavelikkara-road",
+  "ref": "MDR",
+  "name": "Krishnapuram - Mavelikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.2,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.54011,
+        9.25057
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.51719,
+        9.15481
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

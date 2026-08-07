@@ -1,0 +1,84 @@
+{
+  "id": "nh-10",
+  "ref": "NH 10",
+  "name": "Gangtok–Teesta Bazaar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 146.3,
+  "route": {
+    "start": "Gangtok, Sikkim",
+    "end": "Teesta Bazaar, West Bengal",
+    "states": [
+      "Sikkim",
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Gangtok",
+      "Kalimpong",
+      "Teesta Bazaar",
+      "Siliguri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangtok",
+      "coords": [
+        88.60618,
+        27.34538
+      ]
+    },
+    {
+      "name": "Singtam",
+      "coords": [
+        88.49702,
+        27.23274
+      ]
+    },
+    {
+      "name": "Rangpo",
+      "coords": [
+        88.52611,
+        27.16977
+      ]
+    },
+    {
+      "name": "Kalimpong",
+      "coords": [
+        88.451,
+        27.08329
+      ]
+    },
+    {
+      "name": "Siliguri",
+      "coords": [
+        88.41403,
+        26.73447
+      ]
+    },
+    {
+      "name": "Bagdogra",
+      "coords": [
+        88.36712,
+        26.71115
+      ]
+    },
+    {
+      "name": "Teesta Bazaar",
+      "coords": [
+        88.42356,
+        26.97719
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-58",
+  "ref": "MDR 58",
+  "name": "Kenduadih–Jharia District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kenduadih, Jharkhand",
+    "end": "Jharia, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Kenduadih",
+      "Loyabad",
+      "Jharia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kenduadih",
+      "coords": [
+        86.38021,
+        23.77559
+      ]
+    },
+    {
+      "name": "Kusunda",
+      "coords": [
+        86.38468,
+        23.77156
+      ]
+    },
+    {
+      "name": "Jharia",
+      "coords": [
+        86.41005,
+        23.74832
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakkallu-changalagate-boat-jetty-road",
+  "ref": "MDR",
+  "name": "Anakkallu Changalagate Boat Jetty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Cheerachi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Cheerachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.23246,
+        10.47047
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.2293,
+        10.47851
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

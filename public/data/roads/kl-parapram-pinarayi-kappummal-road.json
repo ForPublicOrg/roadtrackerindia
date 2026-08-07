@@ -1,0 +1,42 @@
+{
+  "id": "kl-parapram-pinarayi-kappummal-road",
+  "ref": "MDR",
+  "name": "Parapram - Pinarayi - Kappummal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kadachira, Kerala",
+    "end": "Koothuparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadachira",
+      "Koothuparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.4742,
+        11.81492
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.51617,
+        11.80721
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

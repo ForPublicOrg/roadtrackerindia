@@ -1,0 +1,77 @@
+{
+  "id": "nh-561",
+  "ref": "NH 561",
+  "name": "Ahilyanagar–Beed National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 129.8,
+  "route": {
+    "start": "Ahilyanagar, Maharashtra",
+    "end": "Beed, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ahilyanagar",
+      "Kada",
+      "Jamkhed",
+      "Patoda",
+      "Beed"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ahilyanagar",
+      "coords": [
+        74.74686,
+        19.09258
+      ]
+    },
+    {
+      "name": "Kada",
+      "coords": [
+        75.07851,
+        18.89249
+      ]
+    },
+    {
+      "name": "Ashti",
+      "coords": [
+        75.16993,
+        18.80517
+      ]
+    },
+    {
+      "name": "Jamkhed",
+      "coords": [
+        75.30055,
+        18.74097
+      ]
+    },
+    {
+      "name": "Patoda",
+      "coords": [
+        75.4641,
+        18.84481
+      ]
+    },
+    {
+      "name": "Beed",
+      "coords": [
+        75.64803,
+        18.99894
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

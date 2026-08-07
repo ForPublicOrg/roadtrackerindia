@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u161",
+  "ref": "SH-U 161",
+  "name": "Chengam–Tiruvannamalai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54,
+  "route": {
+    "start": "Chengam, Tamil Nadu",
+    "end": "Tiruvannamalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chengam",
+      "Tiruvannamalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chengam",
+      "coords": [
+        78.7654,
+        12.28564
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.07502,
+        12.23448
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

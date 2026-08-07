@@ -1,0 +1,42 @@
+{
+  "id": "kl-pullu-manakkody-road",
+  "ref": "MDR",
+  "name": "Pullu Manakkody Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Ayyanthole, Kerala",
+    "end": "Thriprayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ayyanthole",
+      "Thriprayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.16524,
+        10.49807
+      ]
+    },
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.1547,
+        10.45692
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

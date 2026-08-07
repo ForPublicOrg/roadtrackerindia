@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-100a",
+  "ref": "SH 100A",
+  "name": "Maliya–talala State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.8,
+  "route": {
+    "start": "Maliya, Gujarat",
+    "end": "talala, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Maliya",
+      "talala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maliya",
+      "coords": [
+        70.28606,
+        21.15443
+      ]
+    },
+    {
+      "name": "talala",
+      "coords": [
+        70.55636,
+        21.18185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

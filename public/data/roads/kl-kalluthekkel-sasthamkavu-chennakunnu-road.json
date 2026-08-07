@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalluthekkel-sasthamkavu-chennakunnu-road",
+  "ref": "MDR",
+  "name": "Kalluthekkel - Sasthamkavu Chennakunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.73718,
+        9.55749
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.71612,
+        9.55987
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

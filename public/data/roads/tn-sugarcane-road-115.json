@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-115",
+  "ref": "SCR",
+  "name": "Sugarcane Road 115",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Walajapet, Tamil Nadu",
+    "end": "Kanchipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Walajapet",
+      "Kanchipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.46293,
+        12.96187
+      ]
+    },
+    {
+      "name": "Kanchipuram",
+      "coords": [
+        79.56503,
+        12.92422
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

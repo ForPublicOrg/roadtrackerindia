@@ -1,0 +1,70 @@
+{
+  "id": "nh-230",
+  "ref": "NH 230",
+  "name": "Jankipuram–Barabanki National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 94.9,
+  "route": {
+    "start": "Jankipuram, Uttar Pradesh",
+    "end": "Barabanki, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Jankipuram",
+      "Kakori",
+      "Lucknow",
+      "Amethi",
+      "Barabanki"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jankipuram",
+      "coords": [
+        80.90978,
+        26.9323
+      ]
+    },
+    {
+      "name": "Kakori",
+      "coords": [
+        80.85472,
+        26.87657
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "coords": [
+        80.89565,
+        26.80205
+      ]
+    },
+    {
+      "name": "Amethi",
+      "coords": [
+        81.12279,
+        26.77748
+      ]
+    },
+    {
+      "name": "Barabanki",
+      "coords": [
+        81.19956,
+        26.90685
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

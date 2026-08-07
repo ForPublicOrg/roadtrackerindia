@@ -1,0 +1,42 @@
+{
+  "id": "kl-vettukad-olavathur-mundumuzhi-road",
+  "ref": "MDR",
+  "name": "Vettukad - Olavathur - Mundumuzhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Omanoor, Kerala",
+    "end": "Mavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Omanoor",
+      "Mavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.96302,
+        11.1964
+      ]
+    },
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.93776,
+        11.2451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

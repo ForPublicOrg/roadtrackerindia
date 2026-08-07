@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-30",
+  "ref": "SH 30",
+  "name": "Gonda–Bahraich State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64,
+  "route": {
+    "start": "Gonda, Uttar Pradesh",
+    "end": "Bahraich, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gonda",
+      "Bahraich"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gonda",
+      "coords": [
+        81.9685,
+        27.14567
+      ]
+    },
+    {
+      "name": "Bahraich",
+      "coords": [
+        81.59378,
+        27.57964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

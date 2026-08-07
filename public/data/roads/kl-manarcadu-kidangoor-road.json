@@ -1,0 +1,42 @@
+{
+  "id": "kl-manarcadu-kidangoor-road",
+  "ref": "MDR",
+  "name": "Manarcadu - Kidangoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.8,
+  "route": {
+    "start": "Manarcadu, Kerala",
+    "end": "Kidangoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manarcadu",
+      "Kidangoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.58285,
+        9.58938
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.61094,
+        9.68387
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-thirupuram-mavilakkadavu-road",
+  "ref": "MDR",
+  "name": "Thirupuram - Mavilakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Poovar, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poovar",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poovar",
+      "coords": [
+        77.08937,
+        8.34158
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.08065,
+        8.35642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

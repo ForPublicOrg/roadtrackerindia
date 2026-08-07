@@ -1,0 +1,49 @@
+{
+  "id": "kl-puthiyangadi-muttom-road-via-jamayath-high-school-ambedkar-c",
+  "ref": "MDR",
+  "name": "Puthiyangadi - Muttom Road (via Jamayath High School Ambedkar Colony)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Puthiyangadi, Kerala",
+    "end": "Pazhayangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyangadi",
+      "Pazhayangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.23995,
+        12.02886
+      ]
+    },
+    {
+      "name": "Pazhayangadi",
+      "coords": [
+        75.24708,
+        12.02421
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.24551,
+        12.02101
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

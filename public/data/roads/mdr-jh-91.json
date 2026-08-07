@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-91",
+  "ref": "MDR 91",
+  "name": "Danwar–Barki Saria District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.9,
+  "route": {
+    "start": "Danwar, Jharkhand",
+    "end": "Barki Saria, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Danwar",
+      "Barki Saria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Danwar",
+      "coords": [
+        86.18706,
+        24.47577
+      ]
+    },
+    {
+      "name": "Barki Saria",
+      "coords": [
+        86.06914,
+        24.45587
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

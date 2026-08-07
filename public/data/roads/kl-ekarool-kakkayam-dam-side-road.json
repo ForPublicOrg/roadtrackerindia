@@ -1,0 +1,42 @@
+{
+  "id": "kl-ekarool-kakkayam-dam-side-road",
+  "ref": "MDR",
+  "name": "Ekarool Kakkayam Dam Side Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.3,
+  "route": {
+    "start": "Arapeedika, Kerala",
+    "end": "Kakkayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Arapeedika",
+      "Kakkayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arapeedika",
+      "coords": [
+        75.88829,
+        11.44255
+      ]
+    },
+    {
+      "name": "Kakkayam",
+      "coords": [
+        75.89578,
+        11.55091
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

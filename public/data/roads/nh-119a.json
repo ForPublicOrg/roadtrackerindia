@@ -1,0 +1,69 @@
+{
+  "id": "nh-119a",
+  "ref": "NH 119A",
+  "name": "Dalmianagar–Arrah National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 108.7,
+  "route": {
+    "start": "Dalmianagar, Bihar",
+    "end": "Arrah, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Dalmianagar",
+      "Sasaram",
+      "Bikramganj",
+      "Arrah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dalmianagar",
+      "coords": [
+        84.14448,
+        24.92065
+      ]
+    },
+    {
+      "name": "Sasaram",
+      "coords": [
+        84.01439,
+        24.95386
+      ]
+    },
+    {
+      "name": "Bikramganj",
+      "coords": [
+        84.25914,
+        25.21848
+      ]
+    },
+    {
+      "name": "Garahni",
+      "coords": [
+        84.55795,
+        25.40789
+      ]
+    },
+    {
+      "name": "Arrah",
+      "coords": [
+        84.645,
+        25.53209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

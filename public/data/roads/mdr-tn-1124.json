@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-1124",
+  "ref": "MDR 1124",
+  "name": "Kajamalai–Mathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Kajamalai, Tamil Nadu",
+    "end": "Mathur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kajamalai",
+      "Tiruchirappalli",
+      "Issikkaamalaippatti",
+      "Mathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kajamalai",
+      "coords": [
+        78.69347,
+        10.77634
+      ]
+    },
+    {
+      "name": "K.K. Nagar",
+      "coords": [
+        78.69254,
+        10.75333
+      ]
+    },
+    {
+      "name": "Gundur",
+      "coords": [
+        78.6916,
+        10.73894
+      ]
+    },
+    {
+      "name": "Issikkaamalaippatti",
+      "coords": [
+        78.68778,
+        10.72822
+      ]
+    },
+    {
+      "name": "Mathur",
+      "coords": [
+        78.69439,
+        10.69531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

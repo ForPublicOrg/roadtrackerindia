@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-34",
+  "ref": "SH 34",
+  "name": "Azamgarh–Sultanpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 113.4,
+  "route": {
+    "start": "Azamgarh, Uttar Pradesh",
+    "end": "Sultanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Azamgarh",
+      "Shahganj",
+      "Sultanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azamgarh",
+      "coords": [
+        83.08658,
+        25.99235
+      ]
+    },
+    {
+      "name": "Shahganj",
+      "coords": [
+        82.68437,
+        26.05786
+      ]
+    },
+    {
+      "name": "Sultanpur",
+      "coords": [
+        82.11044,
+        26.29394
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

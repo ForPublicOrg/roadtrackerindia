@@ -1,0 +1,86 @@
+{
+  "id": "nh-315",
+  "ref": "NH 315",
+  "name": "Pansaung–Makum National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 116,
+  "route": {
+    "start": "Pansaung, Arunachal Pradesh",
+    "end": "Makum, Assam",
+    "states": [
+      "Arunachal Pradesh",
+      "Assam"
+    ],
+    "majorCities": [
+      "Pansaung",
+      "Jairampur",
+      "Jagun",
+      "Margherita",
+      "Digboi",
+      "Makum"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pansaung",
+      "coords": [
+        96.1537,
+        27.24727
+      ]
+    },
+    {
+      "name": "Jairampur",
+      "coords": [
+        96.01909,
+        27.35706
+      ]
+    },
+    {
+      "name": "Jagun",
+      "coords": [
+        95.89149,
+        27.37562
+      ]
+    },
+    {
+      "name": "Ledo",
+      "coords": [
+        95.73889,
+        27.29155
+      ]
+    },
+    {
+      "name": "Margherita",
+      "coords": [
+        95.6746,
+        27.28952
+      ]
+    },
+    {
+      "name": "Digboi",
+      "coords": [
+        95.61469,
+        27.39596
+      ]
+    },
+    {
+      "name": "Makum",
+      "coords": [
+        95.46247,
+        27.48858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

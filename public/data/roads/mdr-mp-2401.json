@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2401",
+  "ref": "MDR 2401",
+  "name": "Mohan Badodiya–Sarangpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.3,
+  "route": {
+    "start": "Mohan Badodiya, Madhya Pradesh",
+    "end": "Sarangpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mohan Badodiya",
+      "Sarangpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohan Badodiya",
+      "coords": [
+        76.35189,
+        23.59949
+      ]
+    },
+    {
+      "name": "Sarangpur",
+      "coords": [
+        76.44505,
+        23.58226
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

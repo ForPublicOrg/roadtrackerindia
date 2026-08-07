@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-61",
+  "ref": "SH 61",
+  "name": "Sironj–Khimlasa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 95.6,
+  "route": {
+    "start": "Sironj, Madhya Pradesh",
+    "end": "Khimlasa, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sironj",
+      "Kurwai",
+      "Bina Etawa",
+      "Khimlasa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sironj",
+      "coords": [
+        77.69827,
+        24.10498
+      ]
+    },
+    {
+      "name": "Kurwai",
+      "coords": [
+        78.04182,
+        24.12089
+      ]
+    },
+    {
+      "name": "Bina Etawa",
+      "coords": [
+        78.20311,
+        24.18331
+      ]
+    },
+    {
+      "name": "Khimlasa",
+      "coords": [
+        78.36831,
+        24.20516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

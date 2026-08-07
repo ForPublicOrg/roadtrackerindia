@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-82",
+  "ref": "SH 82",
+  "name": "Nawada–Jamui State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 74.6,
+  "route": {
+    "start": "Nawada, Bihar",
+    "end": "Jamui, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Nawada",
+      "Kawakol",
+      "Jamui"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nawada",
+      "coords": [
+        85.59998,
+        24.91719
+      ]
+    },
+    {
+      "name": "Kawakol",
+      "coords": [
+        85.8815,
+        24.84009
+      ]
+    },
+    {
+      "name": "Jamui",
+      "coords": [
+        86.20791,
+        24.87062
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

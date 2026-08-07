@@ -1,0 +1,43 @@
+{
+  "id": "kl-valappu-beach-road",
+  "ref": "MDR",
+  "name": "Valappu Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Puthuvype, Kerala",
+    "end": "Vallarpadam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthuvype",
+      "Mulavukadu",
+      "Vallarpadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthuvype",
+      "coords": [
+        76.22761,
+        10.01471
+      ]
+    },
+    {
+      "name": "Vallarpadam",
+      "coords": [
+        76.21868,
+        10.00842
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

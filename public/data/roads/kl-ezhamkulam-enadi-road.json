@@ -1,0 +1,57 @@
+{
+  "id": "kl-ezhamkulam-enadi-road",
+  "ref": "MDR",
+  "name": "Ezhamkulam - Enadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Parakode, Kerala",
+    "end": "Kannamkode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakode",
+      "Adoor",
+      "Kannamkode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakode",
+      "coords": [
+        76.75546,
+        9.09117
+      ]
+    },
+    {
+      "name": "Nellimoottilpadi",
+      "coords": [
+        76.76426,
+        9.1278
+      ]
+    },
+    {
+      "name": "Adoor",
+      "coords": [
+        76.76865,
+        9.1416
+      ]
+    },
+    {
+      "name": "Kannamkode",
+      "coords": [
+        76.7691,
+        9.14242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

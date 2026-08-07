@@ -1,0 +1,42 @@
+{
+  "id": "kl-lower-bazaar-road",
+  "ref": "MDR",
+  "name": "Lower Bazaar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kottayam, Kerala",
+    "end": "Illikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottayam",
+      "Illikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.52195,
+        9.5934
+      ]
+    },
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.50205,
+        9.59395
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

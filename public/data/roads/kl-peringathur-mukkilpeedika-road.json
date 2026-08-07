@@ -1,0 +1,42 @@
+{
+  "id": "kl-peringathur-mukkilpeedika-road",
+  "ref": "MDR",
+  "name": "Peringathur - Mukkilpeedika Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Peringatoor, Kerala",
+    "end": "Chokli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peringatoor",
+      "Chokli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.58304,
+        11.7297
+      ]
+    },
+    {
+      "name": "Chokli",
+      "coords": [
+        75.58706,
+        11.71377
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

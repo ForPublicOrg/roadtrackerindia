@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-191",
+  "ref": "SCR",
+  "name": "Sugarcane Road 191",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Kanchipuram, Tamil Nadu",
+    "end": "Wallajahbad, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kanchipuram",
+      "Wallajahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanchipuram",
+      "coords": [
+        79.7391,
+        12.83607
+      ]
+    },
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.75315,
+        12.81141
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ayiroor-hariharapuram-road",
+  "ref": "MDR",
+  "name": "Ayiroor - Hariharapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Chavarcode, Kerala",
+    "end": "Paravur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavarcode",
+      "Paravur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.72573,
+        8.78407
+      ]
+    },
+    {
+      "name": "Paravur",
+      "coords": [
+        76.71562,
+        8.78831
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

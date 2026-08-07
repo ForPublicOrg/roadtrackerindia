@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthen-road-manjadimukku-road",
+  "ref": "MDR",
+  "name": "Puthen Road - Manjadimukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.48343,
+        9.19424
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.4727,
+        9.19169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

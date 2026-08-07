@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-200",
+  "ref": "MDR 200",
+  "name": "Karaikkadu–Cuddalore Old Town District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Karaikkadu, Tamil Nadu",
+    "end": "Cuddalore Old Town, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karaikkadu",
+      "Cuddalore Old Town"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaikkadu",
+      "coords": [
+        79.66853,
+        11.62789
+      ]
+    },
+    {
+      "name": "Cuddalore Old Town",
+      "coords": [
+        79.72585,
+        11.62301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

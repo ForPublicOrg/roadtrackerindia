@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-38",
+  "ref": "SH 38",
+  "name": "Wada–Shahapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30,
+  "route": {
+    "start": "Wada, Maharashtra",
+    "end": "Shahapur, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Wada",
+      "Shahapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wada",
+      "coords": [
+        73.12913,
+        19.62233
+      ]
+    },
+    {
+      "name": "Shahapur",
+      "coords": [
+        73.33026,
+        19.50101
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

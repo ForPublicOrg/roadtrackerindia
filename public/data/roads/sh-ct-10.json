@@ -1,0 +1,66 @@
+{
+  "id": "sh-ct-10",
+  "ref": "SH 10",
+  "name": "Kota–Balodabazar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175.6,
+  "route": {
+    "start": "Kota, Chhattisgarh",
+    "end": "Balodabazar, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Kota",
+      "Lormi",
+      "Mungeli",
+      "Bhatapara",
+      "Balodabazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kota",
+      "coords": [
+        81.98536,
+        22.28552
+      ]
+    },
+    {
+      "name": "Lormi",
+      "coords": [
+        81.70639,
+        22.27212
+      ]
+    },
+    {
+      "name": "Mungeli",
+      "coords": [
+        81.6839,
+        22.06622
+      ]
+    },
+    {
+      "name": "Bhatapara",
+      "coords": [
+        81.94553,
+        21.74342
+      ]
+    },
+    {
+      "name": "Balodabazar",
+      "coords": [
+        82.1603,
+        21.65703
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

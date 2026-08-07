@@ -1,0 +1,42 @@
+{
+  "id": "kl-thekkedathukadavu-kuniyodu-vadakkumbad-high-school-road",
+  "ref": "MDR",
+  "name": "Thekkedathukadavu - Kuniyodu - Vadakkumbad High School Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kuttiadi, Kerala",
+    "end": "Perambra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuttiadi",
+      "Perambra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.76096,
+        11.6182
+      ]
+    },
+    {
+      "name": "Perambra",
+      "coords": [
+        75.74412,
+        11.60814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

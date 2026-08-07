@@ -1,0 +1,46 @@
+{
+  "id": "nh-339b",
+  "ref": "NH 339B",
+  "name": "Bamitha–Maharajpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Bamitha, Madhya Pradesh",
+    "end": "Maharajpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bamitha",
+      "Maharajpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bamitha",
+      "coords": [
+        79.87367,
+        24.76839
+      ]
+    },
+    {
+      "name": "Maharajpur",
+      "coords": [
+        79.92195,
+        24.84404
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

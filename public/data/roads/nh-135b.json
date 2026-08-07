@@ -1,0 +1,46 @@
+{
+  "id": "nh-135b",
+  "ref": "NH 135B",
+  "name": "Rewa–Manikpur Sarhat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 79.8,
+  "route": {
+    "start": "Rewa, Madhya Pradesh",
+    "end": "Manikpur Sarhat, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Rewa",
+      "Manikpur Sarhat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewa",
+      "coords": [
+        81.27655,
+        24.54292
+      ]
+    },
+    {
+      "name": "Manikpur Sarhat",
+      "coords": [
+        81.30866,
+        25.11351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "sh-mp-33",
+  "ref": "SH 33",
+  "name": "Dhanora–Pali State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 242.7,
+  "route": {
+    "start": "Dhanora, Madhya Pradesh",
+    "end": "Pali, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dhanora",
+      "Ghansor",
+      "Mandla",
+      "Shahpura",
+      "Pali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanora",
+      "coords": [
+        79.61209,
+        22.60089
+      ]
+    },
+    {
+      "name": "Ghansor",
+      "coords": [
+        79.95587,
+        22.66146
+      ]
+    },
+    {
+      "name": "Mandla",
+      "coords": [
+        80.36221,
+        22.59081
+      ]
+    },
+    {
+      "name": "Shahpura",
+      "coords": [
+        80.6952,
+        23.18394
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        81.03818,
+        23.36716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

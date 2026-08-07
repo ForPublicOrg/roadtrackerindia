@@ -1,0 +1,42 @@
+{
+  "id": "kl-balussery-kurumpoyil-vayalida-thalayad-road",
+  "ref": "MDR",
+  "name": "Balussery - Kurumpoyil - Vayalida - Thalayad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.2,
+  "route": {
+    "start": "Kakkayam, Kerala",
+    "end": "Balusseri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayam",
+      "Balusseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayam",
+      "coords": [
+        75.89283,
+        11.50233
+      ]
+    },
+    {
+      "name": "Balusseri",
+      "coords": [
+        75.8297,
+        11.44681
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

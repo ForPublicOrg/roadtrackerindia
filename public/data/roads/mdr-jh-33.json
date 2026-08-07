@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-33",
+  "ref": "MDR 33",
+  "name": "Khunti–Murhu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Khunti, Jharkhand",
+    "end": "Murhu, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Khunti",
+      "Murhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khunti",
+      "coords": [
+        85.15498,
+        23.11316
+      ]
+    },
+    {
+      "name": "Murhu",
+      "coords": [
+        85.24836,
+        23.0581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

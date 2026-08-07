@@ -1,0 +1,78 @@
+{
+  "id": "nh-154a",
+  "ref": "NH 154A",
+  "name": "McLeod Ganj–Bakloh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 191.3,
+  "route": {
+    "start": "McLeod Ganj, Himachal Pradesh",
+    "end": "Bakloh, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh",
+      "Punjab"
+    ],
+    "majorCities": [
+      "McLeod Ganj",
+      "Chamba",
+      "Dalhousie",
+      "Bakloh",
+      "Thara Uparla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "McLeod Ganj",
+      "coords": [
+        76.53287,
+        32.44087
+      ]
+    },
+    {
+      "name": "Chamba",
+      "coords": [
+        76.12166,
+        32.55348
+      ]
+    },
+    {
+      "name": "Dalhousie",
+      "coords": [
+        75.94931,
+        32.55049
+      ]
+    },
+    {
+      "name": "Bakloh",
+      "coords": [
+        75.90831,
+        32.47242
+      ]
+    },
+    {
+      "name": "Thara Uparla",
+      "coords": [
+        75.79175,
+        32.41206
+      ]
+    },
+    {
+      "name": "Bakloh",
+      "coords": [
+        75.92744,
+        32.4993
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

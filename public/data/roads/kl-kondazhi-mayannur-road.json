@@ -1,0 +1,42 @@
+{
+  "id": "kl-kondazhi-mayannur-road",
+  "ref": "MDR",
+  "name": "Kondazhi Mayannur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.7,
+  "route": {
+    "start": "Ottapalam, Kerala",
+    "end": "Shoranur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottapalam",
+      "Shoranur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.38453,
+        10.69038
+      ]
+    },
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.38208,
+        10.76274
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

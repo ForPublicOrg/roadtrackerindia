@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalliyad-oorathur-thermala-road",
+  "ref": "MDR",
+  "name": "Kalliyad - Oorathur - Thermala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.6227,
+        12.03051
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.58664,
+        12.00637
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

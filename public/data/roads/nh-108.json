@@ -1,0 +1,70 @@
+{
+  "id": "nh-108",
+  "ref": "NH 108",
+  "name": "Aizawl–Panisagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 184.4,
+  "route": {
+    "start": "Aizawl, Mizoram",
+    "end": "Panisagar, Tripura",
+    "states": [
+      "Mizoram",
+      "Tripura"
+    ],
+    "majorCities": [
+      "Aizawl",
+      "Lengpui",
+      "Mamit",
+      "Panisagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aizawl",
+      "coords": [
+        92.72848,
+        23.7534
+      ]
+    },
+    {
+      "name": "Sairang",
+      "coords": [
+        92.65716,
+        23.80606
+      ]
+    },
+    {
+      "name": "Lengpui",
+      "coords": [
+        92.62554,
+        23.82851
+      ]
+    },
+    {
+      "name": "Mamit",
+      "coords": [
+        92.49124,
+        23.89387
+      ]
+    },
+    {
+      "name": "Panisagar",
+      "coords": [
+        92.15216,
+        24.26521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

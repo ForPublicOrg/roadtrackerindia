@@ -1,0 +1,43 @@
+{
+  "id": "kl-poinachi-bandichal-moodamvayal-road",
+  "ref": "MDR",
+  "name": "Poinachi Bandichal Moodamvayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Chattanchal, Kerala",
+    "end": "Kalanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chattanchal",
+      "Chengala",
+      "Kalanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.04096,
+        12.488
+      ]
+    },
+    {
+      "name": "Kalanad",
+      "coords": [
+        75.05775,
+        12.46923
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

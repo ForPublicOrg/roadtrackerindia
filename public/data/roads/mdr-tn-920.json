@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-920",
+  "ref": "MDR 920",
+  "name": "Melapalayam–Tirunelveli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Melapalayam, Tamil Nadu",
+    "end": "Tirunelveli, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapalayam",
+      "Tirunelveli Town",
+      "Tirunelveli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapalayam",
+      "coords": [
+        77.70833,
+        8.70421
+      ]
+    },
+    {
+      "name": "Pettai",
+      "coords": [
+        77.69535,
+        8.71344
+      ]
+    },
+    {
+      "name": "Tirunelveli Town",
+      "coords": [
+        77.69742,
+        8.71809
+      ]
+    },
+    {
+      "name": "Tirunelveli",
+      "coords": [
+        77.7095,
+        8.7289
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

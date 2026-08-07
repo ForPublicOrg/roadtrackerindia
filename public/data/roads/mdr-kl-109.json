@@ -1,0 +1,49 @@
+{
+  "id": "mdr-kl-109",
+  "ref": "MDR 109",
+  "name": "Valiyaparambu–Chalakudy District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.6,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.27927,
+        10.2715
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.32864,
+        10.30451
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33575,
+        10.30761
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

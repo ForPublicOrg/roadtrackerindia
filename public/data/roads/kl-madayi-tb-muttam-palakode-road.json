@@ -1,0 +1,42 @@
+{
+  "id": "kl-madayi-tb-muttam-palakode-road",
+  "ref": "MDR",
+  "name": "Madayi - TB Muttam - Palakode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Puthiyangadi, Kerala",
+    "end": "Pazhayangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyangadi",
+      "Pazhayangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.232,
+        12.03252
+      ]
+    },
+    {
+      "name": "Pazhayangadi",
+      "coords": [
+        75.2659,
+        12.03063
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

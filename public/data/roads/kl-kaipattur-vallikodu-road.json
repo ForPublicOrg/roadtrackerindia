@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaipattur-vallikodu-road",
+  "ref": "MDR",
+  "name": "Kaipattur - Vallikodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Puthenpeedika, Kerala",
+    "end": "Azhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthenpeedika",
+      "Azhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.7541,
+        9.23023
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.777,
+        9.21821
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

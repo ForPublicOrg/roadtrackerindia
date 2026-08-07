@@ -1,0 +1,42 @@
+{
+  "id": "kl-adukkalamoola-venchembu-road",
+  "ref": "MDR",
+  "name": "Adukkalamoola - Venchembu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Punalur, Kerala",
+    "end": "Anchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punalur",
+      "Anchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92401,
+        8.99799
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.90447,
+        8.98302
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

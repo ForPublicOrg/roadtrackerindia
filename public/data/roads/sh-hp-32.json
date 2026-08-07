@@ -1,0 +1,65 @@
+{
+  "id": "sh-hp-32",
+  "ref": "SH 32",
+  "name": "Una–Nerchowk State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 123.5,
+  "route": {
+    "start": "Una, Himachal Pradesh",
+    "end": "Nerchowk, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Una",
+      "Barsar",
+      "Bhotta",
+      "Nerchowk"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Una",
+      "coords": [
+        76.2709,
+        31.46846
+      ]
+    },
+    {
+      "name": "Bangana",
+      "coords": [
+        76.34484,
+        31.62651
+      ]
+    },
+    {
+      "name": "Barsar",
+      "coords": [
+        76.46742,
+        31.52818
+      ]
+    },
+    {
+      "name": "Bhotta",
+      "coords": [
+        76.56343,
+        31.60713
+      ]
+    },
+    {
+      "name": "Nerchowk",
+      "coords": [
+        76.91282,
+        31.60792
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

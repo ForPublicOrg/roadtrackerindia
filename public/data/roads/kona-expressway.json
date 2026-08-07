@@ -1,0 +1,69 @@
+{
+  "id": "kona-expressway",
+  "ref": "NH",
+  "name": "Kona Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Watganj, West Bengal",
+    "end": "Domjur, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Watganj",
+      "Kolkata",
+      "Shibpur",
+      "Domjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Watganj",
+      "coords": [
+        88.3317,
+        22.54224
+      ]
+    },
+    {
+      "name": "Kolkata",
+      "coords": [
+        88.33182,
+        22.55389
+      ]
+    },
+    {
+      "name": "Howrah",
+      "coords": [
+        88.31816,
+        22.56356
+      ]
+    },
+    {
+      "name": "Shibpur",
+      "coords": [
+        88.3036,
+        22.57346
+      ]
+    },
+    {
+      "name": "Domjur",
+      "coords": [
+        88.25943,
+        22.6058
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kl-chathannoor-paravoor-road",
+  "ref": "MDR",
+  "name": "Chathannoor - Paravoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.6,
+  "route": {
+    "start": "Paravur, Kerala",
+    "end": "Tirumukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Paravur",
+      "Mayyanad",
+      "Chathannoor",
+      "Tirumukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paravur",
+      "coords": [
+        76.65047,
+        8.81156
+      ]
+    },
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.69388,
+        8.84841
+      ]
+    },
+    {
+      "name": "Chathannoor",
+      "coords": [
+        76.70679,
+        8.86191
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

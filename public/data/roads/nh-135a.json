@@ -1,0 +1,86 @@
+{
+  "id": "nh-135a",
+  "ref": "NH 135A",
+  "name": "Ashapur–Mirzapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 213.6,
+  "route": {
+    "start": "Ashapur, Uttar Pradesh",
+    "end": "Mirzapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Ashapur",
+      "Faizabad",
+      "Akbarpur",
+      "Shahganj",
+      "Jaunpur",
+      "Bhadohi",
+      "Mirzapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ashapur",
+      "coords": [
+        82.17451,
+        26.76808
+      ]
+    },
+    {
+      "name": "Akbarpur",
+      "coords": [
+        82.53599,
+        26.41822
+      ]
+    },
+    {
+      "name": "Shahganj",
+      "coords": [
+        82.68196,
+        26.05344
+      ]
+    },
+    {
+      "name": "Jaunpur",
+      "coords": [
+        82.68636,
+        25.74124
+      ]
+    },
+    {
+      "name": "Mariahu",
+      "coords": [
+        82.60811,
+        25.60157
+      ]
+    },
+    {
+      "name": "Bhadohi",
+      "coords": [
+        82.57858,
+        25.40509
+      ]
+    },
+    {
+      "name": "Mirzapur",
+      "coords": [
+        82.54431,
+        25.14931
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-40a",
+  "ref": "SH 40A",
+  "name": "Kadayam–Mukoodal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28.6,
+  "route": {
+    "start": "Kadayam, Tamil Nadu",
+    "end": "Mukoodal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kadayam",
+      "Alangulam",
+      "Mukoodal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadayam",
+      "coords": [
+        77.37967,
+        8.81773
+      ]
+    },
+    {
+      "name": "Alangulam",
+      "coords": [
+        77.49771,
+        8.83605
+      ]
+    },
+    {
+      "name": "Mukoodal",
+      "coords": [
+        77.52516,
+        8.74262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

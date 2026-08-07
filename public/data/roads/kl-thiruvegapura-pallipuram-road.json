@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvegapura-pallipuram-road",
+  "ref": "MDR",
+  "name": "Thiruvegapura - Pallipuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Valanchery, Kerala",
+    "end": "Vengad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valanchery",
+      "Vengad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valanchery",
+      "coords": [
+        76.11783,
+        10.84237
+      ]
+    },
+    {
+      "name": "Vengad",
+      "coords": [
+        76.11809,
+        10.87732
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

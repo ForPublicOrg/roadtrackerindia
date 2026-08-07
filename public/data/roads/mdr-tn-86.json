@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-86",
+  "ref": "MDR 86",
+  "name": "Coonoor–Kundah District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27,
+  "route": {
+    "start": "Coonoor, Tamil Nadu",
+    "end": "Kundah, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Coonoor",
+      "Kundah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Coonoor",
+      "coords": [
+        76.7888,
+        11.33382
+      ]
+    },
+    {
+      "name": "Kundah",
+      "coords": [
+        76.6499,
+        11.28168
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

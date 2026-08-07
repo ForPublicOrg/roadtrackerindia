@@ -1,0 +1,50 @@
+{
+  "id": "kl-payyannur-kara-thalichalam-thankayam-road",
+  "ref": "MDR",
+  "name": "Payyannur - Kara - Thalichalam - Thankayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Thrikaripur, Kerala",
+    "end": "Payyanur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikaripur",
+      "Kothaymukku",
+      "Payyanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikaripur",
+      "coords": [
+        75.18368,
+        12.1335
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.19984,
+        12.11884
+      ]
+    },
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.20489,
+        12.10785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

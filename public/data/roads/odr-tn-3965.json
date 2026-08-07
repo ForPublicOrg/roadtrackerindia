@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-3965",
+  "ref": "ODR 3965",
+  "name": "Garden City–Natham District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Garden City, Tamil Nadu",
+    "end": "Natham, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Garden City",
+      "Natham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Garden City",
+      "coords": [
+        79.93847,
+        12.69194
+      ]
+    },
+    {
+      "name": "Natham",
+      "coords": [
+        79.94465,
+        12.66913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

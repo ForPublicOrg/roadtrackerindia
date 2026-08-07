@@ -1,0 +1,42 @@
+{
+  "id": "kl-chathan-master-road",
+  "ref": "MDR",
+  "name": "Chathan Master Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.23575,
+        10.38481
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.2986,
+        10.36673
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

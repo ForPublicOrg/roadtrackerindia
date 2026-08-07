@@ -1,0 +1,62 @@
+{
+  "id": "nh-116b",
+  "ref": "NH 116B",
+  "name": "New Digha–Mahishadal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 88.5,
+  "route": {
+    "start": "New Digha, Odisha",
+    "end": "Mahishadal, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "New Digha",
+      "Digha",
+      "Contai",
+      "Mahishadal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "New Digha",
+      "coords": [
+        87.48478,
+        21.62173
+      ]
+    },
+    {
+      "name": "Digha",
+      "coords": [
+        87.50216,
+        21.62257
+      ]
+    },
+    {
+      "name": "Contai",
+      "coords": [
+        87.74201,
+        21.78729
+      ]
+    },
+    {
+      "name": "Mahishadal",
+      "coords": [
+        87.91848,
+        22.18754
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

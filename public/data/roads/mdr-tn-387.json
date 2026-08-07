@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-387",
+  "ref": "MDR 387",
+  "name": "Rajapalayam–Palayapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Rajapalayam, Tamil Nadu",
+    "end": "Palayapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Rajapalayam",
+      "Palayapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajapalayam",
+      "coords": [
+        77.55436,
+        9.45149
+      ]
+    },
+    {
+      "name": "Palayapalayam",
+      "coords": [
+        77.45574,
+        9.50948
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

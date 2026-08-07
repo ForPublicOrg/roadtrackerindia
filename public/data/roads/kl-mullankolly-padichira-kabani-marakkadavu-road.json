@@ -1,0 +1,42 @@
+{
+  "id": "kl-mullankolly-padichira-kabani-marakkadavu-road",
+  "ref": "MDR",
+  "name": "Mullankolly - Padichira - Kabani - Marakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Perikkalloor, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perikkalloor",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.16376,
+        11.81709
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.14888,
+        11.86514
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

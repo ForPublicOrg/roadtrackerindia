@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-18w",
+  "ref": "SH 18W",
+  "name": "Khatauli–Chhapar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 34.7,
+  "route": {
+    "start": "Khatauli, Uttar Pradesh",
+    "end": "Chhapar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Khatauli",
+      "Chhapar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khatauli",
+      "coords": [
+        77.73589,
+        29.27672
+      ]
+    },
+    {
+      "name": "Chhapar",
+      "coords": [
+        77.93792,
+        29.46905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

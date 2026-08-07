@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannoor-valakam-road",
+  "ref": "MDR",
+  "name": "Mannoor - Valakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.4,
+  "route": {
+    "start": "Kolenchery, Kerala",
+    "end": "Vazhappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kolenchery",
+      "Vazhappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolenchery",
+      "coords": [
+        76.52041,
+        9.9811
+      ]
+    },
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.53224,
+        10.04861
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

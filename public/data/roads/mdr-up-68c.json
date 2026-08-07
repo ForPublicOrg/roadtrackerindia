@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-68c",
+  "ref": "MDR 68C",
+  "name": "Raebareli–Dalmau District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 32.4,
+  "route": {
+    "start": "Raebareli, Uttar Pradesh",
+    "end": "Dalmau, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Raebareli",
+      "Dalmau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Raebareli",
+      "coords": [
+        81.25064,
+        26.20344
+      ]
+    },
+    {
+      "name": "Dalmau",
+      "coords": [
+        80.97106,
+        26.16068
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

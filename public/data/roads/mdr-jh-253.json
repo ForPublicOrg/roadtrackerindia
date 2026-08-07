@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-253",
+  "ref": "MDR 253",
+  "name": "Chaibasa–Saraikela District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Chaibasa, Jharkhand",
+    "end": "Saraikela, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chaibasa",
+      "Saraikela"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chaibasa",
+      "coords": [
+        85.80797,
+        22.63373
+      ]
+    },
+    {
+      "name": "Saraikela",
+      "coords": [
+        85.81255,
+        22.6831
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

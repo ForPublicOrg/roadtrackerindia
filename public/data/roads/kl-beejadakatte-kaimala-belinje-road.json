@@ -1,0 +1,42 @@
+{
+  "id": "kl-beejadakatte-kaimala-belinje-road",
+  "ref": "MDR",
+  "name": "Beejadakatte - Kaimala - Belinje Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Mulleria, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulleria",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.14594,
+        12.60406
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.14807,
+        12.58824
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

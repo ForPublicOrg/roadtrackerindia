@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-168",
+  "ref": "SH 168",
+  "name": "Kim–Sachin State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48.4,
+  "route": {
+    "start": "Kim, Gujarat",
+    "end": "Sachin, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kim",
+      "Amroli",
+      "Ruchi",
+      "Sachin"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kim",
+      "coords": [
+        72.96236,
+        21.33086
+      ]
+    },
+    {
+      "name": "Amroli",
+      "coords": [
+        72.84623,
+        21.26517
+      ]
+    },
+    {
+      "name": "Ruchi",
+      "coords": [
+        72.72286,
+        21.19147
+      ]
+    },
+    {
+      "name": "Sachin",
+      "coords": [
+        72.85891,
+        21.10328
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

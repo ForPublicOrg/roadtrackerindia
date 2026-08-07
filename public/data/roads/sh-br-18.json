@@ -1,0 +1,58 @@
+{
+  "id": "sh-br-18",
+  "ref": "SH 18",
+  "name": "Jhajha–Sheikhpura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86.7,
+  "route": {
+    "start": "Jhajha, Bihar",
+    "end": "Sheikhpura, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Jhajha",
+      "Jamui",
+      "Lakhisarai",
+      "Sheikhpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhajha",
+      "coords": [
+        86.30657,
+        24.73932
+      ]
+    },
+    {
+      "name": "Jamui",
+      "coords": [
+        86.2191,
+        24.93279
+      ]
+    },
+    {
+      "name": "Lakhisarai",
+      "coords": [
+        86.09253,
+        25.14754
+      ]
+    },
+    {
+      "name": "Sheikhpura",
+      "coords": [
+        85.87122,
+        25.13677
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-padayanippara-kodumudi-chittar-road",
+  "ref": "MDR",
+  "name": "Padayanippara - Kodumudi - Chittar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Chittar, Kerala",
+    "end": "Mylapra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittar",
+      "Mylapra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittar",
+      "coords": [
+        76.93054,
+        9.31988
+      ]
+    },
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.89242,
+        9.32869
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

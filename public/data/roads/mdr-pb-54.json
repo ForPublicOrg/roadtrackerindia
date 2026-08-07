@@ -1,0 +1,42 @@
+{
+  "id": "mdr-pb-54",
+  "ref": "MDR 54",
+  "name": "Ludhiana–Machhiwara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 38.6,
+  "route": {
+    "start": "Ludhiana, Punjab",
+    "end": "Machhiwara, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Ludhiana",
+      "Machhiwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ludhiana",
+      "coords": [
+        75.87028,
+        30.9309
+      ]
+    },
+    {
+      "name": "Machhiwara",
+      "coords": [
+        76.15107,
+        30.96756
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

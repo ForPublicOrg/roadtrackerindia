@@ -1,0 +1,42 @@
+{
+  "id": "sh-hp-23",
+  "ref": "SH 23",
+  "name": "Sihunta–Bagalamukhi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.2,
+  "route": {
+    "start": "Sihunta, Himachal Pradesh",
+    "end": "Bagalamukhi, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Sihunta",
+      "Bagalamukhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sihunta",
+      "coords": [
+        76.08137,
+        32.22677
+      ]
+    },
+    {
+      "name": "Bagalamukhi",
+      "coords": [
+        76.23196,
+        32.01954
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

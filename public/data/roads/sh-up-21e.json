@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-21e",
+  "ref": "SH 21E",
+  "name": "Hata–Deoria State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 24.5,
+  "route": {
+    "start": "Hata, Uttar Pradesh",
+    "end": "Deoria, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Hata",
+      "Deoria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hata",
+      "coords": [
+        83.73374,
+        26.73408
+      ]
+    },
+    {
+      "name": "Deoria",
+      "coords": [
+        83.77291,
+        26.51871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

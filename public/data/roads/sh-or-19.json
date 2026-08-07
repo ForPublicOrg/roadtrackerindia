@@ -1,0 +1,51 @@
+{
+  "id": "sh-or-19",
+  "ref": "SH 19",
+  "name": "Jhargram–Balasore State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 129.6,
+  "route": {
+    "start": "Jhargram, West Bengal",
+    "end": "Balasore, Odisha",
+    "states": [
+      "West Bengal",
+      "Odisha"
+    ],
+    "majorCities": [
+      "Jhargram",
+      "Baripada",
+      "Balasore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhargram",
+      "coords": [
+        86.89675,
+        22.2085
+      ]
+    },
+    {
+      "name": "Baripada",
+      "coords": [
+        86.72721,
+        21.92795
+      ]
+    },
+    {
+      "name": "Balasore",
+      "coords": [
+        86.84352,
+        21.43588
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

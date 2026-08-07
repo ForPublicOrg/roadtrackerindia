@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-416",
+  "ref": "MDR 416",
+  "name": "V.S.Nagar–Valayapatti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "V.S.Nagar, Tamil Nadu",
+    "end": "Valayapatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "V.S.Nagar",
+      "Valayapatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.23191,
+        10.9694
+      ]
+    },
+    {
+      "name": "Valayapatti",
+      "coords": [
+        78.22291,
+        11.05742
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

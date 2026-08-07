@@ -1,0 +1,58 @@
+{
+  "id": "sh-br-8",
+  "ref": "SH 8",
+  "name": "Hisua–Lakhisarai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 95,
+  "route": {
+    "start": "Hisua, Bihar",
+    "end": "Lakhisarai, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Hisua",
+      "Nawada",
+      "Pakribarawan",
+      "Lakhisarai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hisua",
+      "coords": [
+        85.41552,
+        24.83783
+      ]
+    },
+    {
+      "name": "Nawada",
+      "coords": [
+        85.54846,
+        24.8893
+      ]
+    },
+    {
+      "name": "Pakribarawan",
+      "coords": [
+        85.73681,
+        24.95378
+      ]
+    },
+    {
+      "name": "Lakhisarai",
+      "coords": [
+        86.08316,
+        25.17643
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

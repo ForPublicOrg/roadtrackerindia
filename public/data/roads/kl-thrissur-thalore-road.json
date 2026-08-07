@@ -1,0 +1,65 @@
+{
+  "id": "kl-thrissur-thalore-road",
+  "ref": "MDR",
+  "name": "Thrissur - Thalore Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Thrissur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Puthukkad",
+      "Ollur",
+      "Thrissur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.26293,
+        10.44008
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.24071,
+        10.4747
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.23518,
+        10.48939
+      ]
+    },
+    {
+      "name": "Kuriyachira",
+      "coords": [
+        76.22385,
+        10.50734
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.21673,
+        10.52267
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

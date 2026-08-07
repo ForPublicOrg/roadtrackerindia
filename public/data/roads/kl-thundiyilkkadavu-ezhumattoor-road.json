@@ -1,0 +1,42 @@
+{
+  "id": "kl-thundiyilkkadavu-ezhumattoor-road",
+  "ref": "MDR",
+  "name": "Thundiyilkkadavu-Ezhumattoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70857,
+        9.3736
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.70895,
+        9.38298
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

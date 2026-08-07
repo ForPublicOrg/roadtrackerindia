@@ -1,0 +1,62 @@
+{
+  "id": "nh-248",
+  "ref": "NH 248",
+  "name": "Manoharpur–Ramganj National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.7,
+  "route": {
+    "start": "Manoharpur, Rajasthan",
+    "end": "Ramganj, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Manoharpur",
+      "Achrol",
+      "Jaipur",
+      "Ramganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manoharpur",
+      "coords": [
+        75.94871,
+        27.23408
+      ]
+    },
+    {
+      "name": "Achrol",
+      "coords": [
+        75.96188,
+        27.13417
+      ]
+    },
+    {
+      "name": "Jaipur",
+      "coords": [
+        75.84571,
+        26.92351
+      ]
+    },
+    {
+      "name": "Ramganj",
+      "coords": [
+        75.84374,
+        26.90317
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

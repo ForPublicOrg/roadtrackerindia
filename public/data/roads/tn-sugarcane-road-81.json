@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-81",
+  "ref": "SCR",
+  "name": "Sugarcane Road 81",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Wallajahbad, Tamil Nadu",
+    "end": "Vandavasi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Wallajahbad",
+      "Vandavasi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.76201,
+        12.66466
+      ]
+    },
+    {
+      "name": "Vandavasi",
+      "coords": [
+        79.71874,
+        12.63822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

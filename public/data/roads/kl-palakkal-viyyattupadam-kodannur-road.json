@@ -1,0 +1,42 @@
+{
+  "id": "kl-palakkal-viyyattupadam-kodannur-road",
+  "ref": "MDR",
+  "name": "Palakkal Viyyattupadam Kodannur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Cheerachi, Kerala",
+    "end": "Kuriyachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheerachi",
+      "Kuriyachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.21034,
+        10.47127
+      ]
+    },
+    {
+      "name": "Kuriyachira",
+      "coords": [
+        76.18706,
+        10.47506
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-chirakkakode-pullanikad-road",
+  "ref": "MDR",
+  "name": "Chirakkakode - Pullanikad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Thanikkudam, Kerala",
+    "end": "Vellanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thanikkudam",
+      "Vellanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.24802,
+        10.56671
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.27031,
+        10.56034
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

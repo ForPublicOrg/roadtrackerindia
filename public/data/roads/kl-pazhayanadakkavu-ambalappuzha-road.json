@@ -1,0 +1,43 @@
+{
+  "id": "kl-pazhayanadakkavu-ambalappuzha-road",
+  "ref": "MDR",
+  "name": "Pazhayanadakkavu - Ambalappuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.8,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Alappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.36847,
+        9.3843
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.3425,
+        9.46631
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

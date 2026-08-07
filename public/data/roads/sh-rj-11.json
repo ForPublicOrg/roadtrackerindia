@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-11",
+  "ref": "SH 11",
+  "name": "Abu Road–Sanchore State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 124.9,
+  "route": {
+    "start": "Abu Road, Rajasthan",
+    "end": "Sanchore, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Abu Road",
+      "Reodhar",
+      "Raniwar",
+      "Sanchore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Abu Road",
+      "coords": [
+        72.78149,
+        24.48106
+      ]
+    },
+    {
+      "name": "Reodhar",
+      "coords": [
+        72.56307,
+        24.59038
+      ]
+    },
+    {
+      "name": "Raniwar",
+      "coords": [
+        72.20394,
+        24.74969
+      ]
+    },
+    {
+      "name": "Sanchore",
+      "coords": [
+        71.7803,
+        24.75377
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

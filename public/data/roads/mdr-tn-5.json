@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-5",
+  "ref": "MDR 5",
+  "name": "Natchiarkoil–Ullur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Natchiarkoil, Tamil Nadu",
+    "end": "Ullur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Natchiarkoil",
+      "Ullur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Natchiarkoil",
+      "coords": [
+        79.48534,
+        10.98703
+      ]
+    },
+    {
+      "name": "Ullur",
+      "coords": [
+        79.48121,
+        11.01305
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-331",
+  "ref": "NH 331",
+  "name": "Chhapra–Barharia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 65.3,
+  "route": {
+    "start": "Chhapra, Bihar",
+    "end": "Barharia, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Chhapra",
+      "Barharia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhapra",
+      "coords": [
+        84.71139,
+        25.78823
+      ]
+    },
+    {
+      "name": "Barharia",
+      "coords": [
+        84.69916,
+        26.35258
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

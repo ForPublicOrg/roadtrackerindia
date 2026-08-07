@@ -1,0 +1,49 @@
+{
+  "id": "kl-kakkodi-puthiyangadi-road",
+  "ref": "MDR",
+  "name": "Kakkodi - Puthiyangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Civil Station, Kerala",
+    "end": "Puthiyangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Civil Station",
+      "Puthiyangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Civil Station",
+      "coords": [
+        75.79773,
+        11.30906
+      ]
+    },
+    {
+      "name": "West Hill",
+      "coords": [
+        75.76803,
+        11.30348
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.76197,
+        11.30291
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

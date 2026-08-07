@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-73",
+  "ref": "SH 73",
+  "name": "Vita–Mahabaleshwar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 130.1,
+  "route": {
+    "start": "Vita, Maharashtra",
+    "end": "Mahabaleshwar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Vita",
+      "Satara",
+      "Karanje",
+      "Mahabaleshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vita",
+      "coords": [
+        74.53262,
+        17.2726
+      ]
+    },
+    {
+      "name": "Rahimatpur",
+      "coords": [
+        74.19756,
+        17.58812
+      ]
+    },
+    {
+      "name": "Satara",
+      "coords": [
+        74.00694,
+        17.68704
+      ]
+    },
+    {
+      "name": "Mahabaleshwar",
+      "coords": [
+        73.65899,
+        17.92658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

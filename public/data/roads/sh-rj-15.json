@@ -1,0 +1,59 @@
+{
+  "id": "sh-rj-15",
+  "ref": "SH 15",
+  "name": "Doongla–Neemuch State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87,
+  "route": {
+    "start": "Doongla, Rajasthan",
+    "end": "Neemuch, Madhya Pradesh",
+    "states": [
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Doongla",
+      "Bari Sadri",
+      "Chhoti Sadri",
+      "Neemuch"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Doongla",
+      "coords": [
+        74.29896,
+        24.60749
+      ]
+    },
+    {
+      "name": "Bari Sadri",
+      "coords": [
+        74.47155,
+        24.41347
+      ]
+    },
+    {
+      "name": "Chhoti Sadri",
+      "coords": [
+        74.71484,
+        24.38716
+      ]
+    },
+    {
+      "name": "Neemuch",
+      "coords": [
+        74.86389,
+        24.46387
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

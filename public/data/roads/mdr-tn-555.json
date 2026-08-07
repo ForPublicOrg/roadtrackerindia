@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-555",
+  "ref": "MDR 555",
+  "name": "Walajapet–Muthukadai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Walajapet, Tamil Nadu",
+    "end": "Muthukadai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Walajapet",
+      "Ranipet",
+      "Muthukadai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.36444,
+        12.93342
+      ]
+    },
+    {
+      "name": "Ranipet",
+      "coords": [
+        79.36188,
+        12.93742
+      ]
+    },
+    {
+      "name": "Muthukadai",
+      "coords": [
+        79.35929,
+        12.96297
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-703aa",
+  "ref": "NH 703AA",
+  "name": "Tarn Taran Sahib–Kapurthala National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 50.8,
+  "route": {
+    "start": "Tarn Taran Sahib, Punjab",
+    "end": "Kapurthala, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Tarn Taran Sahib",
+      "Khadur Sahib",
+      "Goindval",
+      "Kapurthala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tarn Taran Sahib",
+      "coords": [
+        74.94257,
+        31.45249
+      ]
+    },
+    {
+      "name": "Khadur Sahib",
+      "coords": [
+        75.08051,
+        31.39053
+      ]
+    },
+    {
+      "name": "Goindval",
+      "coords": [
+        75.13458,
+        31.36594
+      ]
+    },
+    {
+      "name": "Kapurthala",
+      "coords": [
+        75.37383,
+        31.37932
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

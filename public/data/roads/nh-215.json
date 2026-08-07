@@ -1,0 +1,96 @@
+{
+  "id": "nh-215",
+  "ref": "NH 215",
+  "name": "Namsai–Moranhat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 321.7,
+  "route": {
+    "start": "Namsai, Arunachal Pradesh",
+    "end": "Moranhat, Assam",
+    "states": [
+      "Arunachal Pradesh",
+      "Assam",
+      "Nagaland"
+    ],
+    "majorCities": [
+      "Namsai",
+      "Jairampur",
+      "Tipong",
+      "Changlang",
+      "Khonsa",
+      "Longding",
+      "Moran",
+      "Moranhat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Namsai",
+      "coords": [
+        95.82147,
+        27.62979
+      ]
+    },
+    {
+      "name": "Kharsang",
+      "coords": [
+        95.9938,
+        27.40346
+      ]
+    },
+    {
+      "name": "Jairampur",
+      "coords": [
+        96.0165,
+        27.36053
+      ]
+    },
+    {
+      "name": "Tipong",
+      "coords": [
+        95.92165,
+        27.25122
+      ]
+    },
+    {
+      "name": "Changlang",
+      "coords": [
+        95.73556,
+        27.13066
+      ]
+    },
+    {
+      "name": "Khonsa",
+      "coords": [
+        95.5093,
+        26.99114
+      ]
+    },
+    {
+      "name": "Longding",
+      "coords": [
+        95.32216,
+        26.88639
+      ]
+    },
+    {
+      "name": "Moran",
+      "coords": [
+        94.91498,
+        27.18319
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

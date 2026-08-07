@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-23",
+  "ref": "SH 23",
+  "name": "Rajkot–Khambhaliya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 147.2,
+  "route": {
+    "start": "Rajkot, Gujarat",
+    "end": "Khambhaliya, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Rajkot",
+      "Kalavad",
+      "Lalpur",
+      "Khambhaliya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajkot",
+      "coords": [
+        70.78276,
+        22.29294
+      ]
+    },
+    {
+      "name": "Kalavad",
+      "coords": [
+        70.38734,
+        22.21384
+      ]
+    },
+    {
+      "name": "Lalpur",
+      "coords": [
+        69.9628,
+        22.19301
+      ]
+    },
+    {
+      "name": "Khambhaliya",
+      "coords": [
+        69.67419,
+        22.22154
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

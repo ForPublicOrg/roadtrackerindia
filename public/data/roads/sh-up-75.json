@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-75",
+  "ref": "SH 75",
+  "name": "Hallaur–Barhni State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 40.7,
+  "route": {
+    "start": "Hallaur, Uttar Pradesh",
+    "end": "Barhni, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Hallaur",
+      "Domariaganj",
+      "Barhni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hallaur",
+      "coords": [
+        82.65322,
+        27.18781
+      ]
+    },
+    {
+      "name": "Domariaganj",
+      "coords": [
+        82.65491,
+        27.20429
+      ]
+    },
+    {
+      "name": "Barhni",
+      "coords": [
+        82.78582,
+        27.49355
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

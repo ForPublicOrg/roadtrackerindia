@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhoor-cheeral-nambiarkunnu-road",
+  "ref": "MDR",
+  "name": "Pazhoor - Cheeral - Nambiarkunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.32098,
+        11.58526
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.31093,
+        11.62958
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1920",
+  "ref": "MDR 1920",
+  "name": "Sagar–Banda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Sagar, Madhya Pradesh",
+    "end": "Banda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sagar",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sagar",
+      "coords": [
+        78.741,
+        23.85007
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        78.73644,
+        23.86821
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

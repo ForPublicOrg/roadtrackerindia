@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-208",
+  "ref": "MDR 208",
+  "name": "Mahagama–Borio District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.8,
+  "route": {
+    "start": "Mahagama, Jharkhand",
+    "end": "Borio, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Mahagama",
+      "Borio"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahagama",
+      "coords": [
+        87.36245,
+        25.05323
+      ]
+    },
+    {
+      "name": "Borio",
+      "coords": [
+        87.58932,
+        25.03608
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

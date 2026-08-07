@@ -1,0 +1,46 @@
+{
+  "id": "nh-70",
+  "ref": "NH 70",
+  "name": "Sadiqabad–Gadra Road National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 310.5,
+  "route": {
+    "start": "Sadiqabad, Rajasthan",
+    "end": "Gadra Road, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sadiqabad",
+      "Gadra Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sadiqabad",
+      "coords": [
+        70.35438,
+        27.79427
+      ]
+    },
+    {
+      "name": "Gadra Road",
+      "coords": [
+        70.28849,
+        25.754
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

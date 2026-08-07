@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-14",
+  "ref": "MDR 14",
+  "name": "Harmu–Kadru District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Harmu, Jharkhand",
+    "end": "Kadru, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Harmu",
+      "Ranchi",
+      "Kadru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Harmu",
+      "coords": [
+        85.30827,
+        23.35837
+      ]
+    },
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.31542,
+        23.35334
+      ]
+    },
+    {
+      "name": "Kadru",
+      "coords": [
+        85.31662,
+        23.35233
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

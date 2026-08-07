@@ -1,0 +1,42 @@
+{
+  "id": "kl-chandanappalli-koodal-road",
+  "ref": "MDR",
+  "name": "Chandanappalli - Koodal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.8,
+  "route": {
+    "start": "Pathanapuram, Kerala",
+    "end": "Puthenpeedika, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pathanapuram",
+      "Puthenpeedika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.85423,
+        9.15881
+      ]
+    },
+    {
+      "name": "Puthenpeedika",
+      "coords": [
+        76.76746,
+        9.21123
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

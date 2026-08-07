@@ -1,0 +1,42 @@
+{
+  "id": "ap-alur-holagunda-honnur-road",
+  "ref": "SH",
+  "name": "Alur - Holagunda - Honnur Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.2,
+  "route": {
+    "start": "Aluru, Andhra Pradesh",
+    "end": "Holagunda, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Aluru",
+      "Holagunda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aluru",
+      "coords": [
+        77.22606,
+        15.39542
+      ]
+    },
+    {
+      "name": "Holagunda",
+      "coords": [
+        77.04232,
+        15.48811
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

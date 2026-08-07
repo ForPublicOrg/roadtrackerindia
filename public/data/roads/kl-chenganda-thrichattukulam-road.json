@@ -1,0 +1,42 @@
+{
+  "id": "kl-chenganda-thrichattukulam-road",
+  "ref": "MDR",
+  "name": "Chenganda - Thrichattukulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.35305,
+        9.72175
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.33389,
+        9.83357
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

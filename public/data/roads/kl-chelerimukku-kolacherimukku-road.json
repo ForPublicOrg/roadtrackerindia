@@ -1,0 +1,43 @@
+{
+  "id": "kl-chelerimukku-kolacherimukku-road",
+  "ref": "MDR",
+  "name": "Chelerimukku - Kolacherimukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Karinkalkuzhi, Kerala",
+    "end": "Puthiyatheru, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkalkuzhi",
+      "Dharmasala",
+      "Puthiyatheru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.40902,
+        11.97118
+      ]
+    },
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.41601,
+        11.93963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

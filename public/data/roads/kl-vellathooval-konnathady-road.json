@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellathooval-konnathady-road",
+  "ref": "MDR",
+  "name": "Vellathooval - Konnathady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Murickassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Murickassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.03003,
+        9.97281
+      ]
+    },
+    {
+      "name": "Murickassery",
+      "coords": [
+        77.02552,
+        9.95992
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

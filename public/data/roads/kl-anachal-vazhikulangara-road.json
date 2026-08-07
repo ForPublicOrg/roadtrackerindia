@@ -1,0 +1,43 @@
+{
+  "id": "kl-anachal-vazhikulangara-road",
+  "ref": "MDR",
+  "name": "Anachal - Vazhikulangara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Cheriyappilly, Kerala",
+    "end": "Kalikulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheriyappilly",
+      "North Paravur",
+      "Kalikulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.24038,
+        10.13357
+      ]
+    },
+    {
+      "name": "Kalikulangara",
+      "coords": [
+        76.26088,
+        10.14054
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

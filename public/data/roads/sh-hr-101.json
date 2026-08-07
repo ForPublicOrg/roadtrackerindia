@@ -1,0 +1,51 @@
+{
+  "id": "sh-hr-101",
+  "ref": "SH 101",
+  "name": "Sardulgarh–Tohana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.8,
+  "route": {
+    "start": "Sardulgarh, Punjab",
+    "end": "Tohana, Haryana",
+    "states": [
+      "Punjab",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sardulgarh",
+      "Ratia",
+      "Tohana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sardulgarh",
+      "coords": [
+        75.31424,
+        29.66356
+      ]
+    },
+    {
+      "name": "Ratia",
+      "coords": [
+        75.58122,
+        29.68662
+      ]
+    },
+    {
+      "name": "Tohana",
+      "coords": [
+        75.90056,
+        29.70883
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

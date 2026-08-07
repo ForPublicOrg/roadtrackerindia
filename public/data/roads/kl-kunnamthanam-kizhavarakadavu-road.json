@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunnamthanam-kizhavarakadavu-road",
+  "ref": "MDR",
+  "name": "Kunnamthanam - Kizhavarakadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.67597,
+        9.33508
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.68027,
+        9.35315
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

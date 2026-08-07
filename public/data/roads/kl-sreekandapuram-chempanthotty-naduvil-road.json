@@ -1,0 +1,42 @@
+{
+  "id": "kl-sreekandapuram-chempanthotty-naduvil-road",
+  "ref": "MDR",
+  "name": "Sreekandapuram - Chempanthotty - Naduvil Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Naduvil, Kerala",
+    "end": "Sreekandapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Naduvil",
+      "Sreekandapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.48385,
+        12.1215
+      ]
+    },
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.50984,
+        12.04741
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

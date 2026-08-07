@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-20",
+  "ref": "SH 20",
+  "name": "Ahwa–Chandvad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 136.1,
+  "route": {
+    "start": "Ahwa, Maharashtra",
+    "end": "Chandvad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ahwa",
+      "Saputara",
+      "Chandvad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ahwa",
+      "coords": [
+        73.45415,
+        20.71457
+      ]
+    },
+    {
+      "name": "Saputara",
+      "coords": [
+        73.77909,
+        20.55254
+      ]
+    },
+    {
+      "name": "Chandvad",
+      "coords": [
+        74.37702,
+        20.44642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

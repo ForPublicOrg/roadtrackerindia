@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-98w",
+  "ref": "SH 98W",
+  "name": "Etah–Kaimganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 68.6,
+  "route": {
+    "start": "Etah, Uttar Pradesh",
+    "end": "Kaimganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Etah",
+      "Aliganj",
+      "Kaimganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Etah",
+      "coords": [
+        78.66782,
+        27.5549
+      ]
+    },
+    {
+      "name": "Aliganj",
+      "coords": [
+        79.17209,
+        27.50021
+      ]
+    },
+    {
+      "name": "Kaimganj",
+      "coords": [
+        79.33177,
+        27.54839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-130",
+  "ref": "SH 130",
+  "name": "Gudiyatham–Vaniyambadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 42.4,
+  "route": {
+    "start": "Gudiyatham, Tamil Nadu",
+    "end": "Vaniyambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Gudiyatham",
+      "Ambur",
+      "Vaniyambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gudiyatham",
+      "coords": [
+        78.86149,
+        12.94142
+      ]
+    },
+    {
+      "name": "Ambur",
+      "coords": [
+        78.68975,
+        12.79172
+      ]
+    },
+    {
+      "name": "Vaniyambadi",
+      "coords": [
+        78.62063,
+        12.69585
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

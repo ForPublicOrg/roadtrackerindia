@@ -1,0 +1,51 @@
+{
+  "id": "sh-tn-61",
+  "ref": "SH 61",
+  "name": "Walajapet–Arakkonam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.6,
+  "route": {
+    "start": "Walajapet, Tamil Nadu",
+    "end": "Arakkonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Walajapet",
+      "Ranipet",
+      "Sholinghur",
+      "Arakkonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.36397,
+        12.92535
+      ]
+    },
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.42243,
+        13.11339
+      ]
+    },
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.66606,
+        13.08495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

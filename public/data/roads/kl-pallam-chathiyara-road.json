@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallam-chathiyara-road",
+  "ref": "MDR",
+  "name": "Pallam - Chathiyara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.57844,
+        9.13079
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.60115,
+        9.14144
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

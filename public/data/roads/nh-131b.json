@@ -1,0 +1,47 @@
+{
+  "id": "nh-131b",
+  "ref": "NH 131B",
+  "name": "Kuppaghat–Naugachia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 14.9,
+  "route": {
+    "start": "Kuppaghat, Bihar",
+    "end": "Naugachia, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Kuppaghat",
+      "Sabour",
+      "Naugachia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuppaghat",
+      "coords": [
+        87.02265,
+        25.25377
+      ]
+    },
+    {
+      "name": "Naugachia",
+      "coords": [
+        87.06329,
+        25.37751
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

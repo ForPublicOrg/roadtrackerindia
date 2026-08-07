@@ -1,0 +1,139 @@
+{
+  "id": "nh-548c",
+  "ref": "NH 548C",
+  "name": "Satara–Betul National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 787.9,
+  "route": {
+    "start": "Satara, Maharashtra",
+    "end": "Betul, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Satara",
+      "Akluj",
+      "Barshi",
+      "Majalgaon",
+      "Partur",
+      "Mehkar",
+      "Khamgaon",
+      "Achalpur",
+      "Paratwada",
+      "Betul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Satara",
+      "coords": [
+        74.02483,
+        17.68607
+      ]
+    },
+    {
+      "name": "Mhasvad",
+      "coords": [
+        74.78419,
+        17.63483
+      ]
+    },
+    {
+      "name": "Akluj",
+      "coords": [
+        75.02746,
+        17.8896
+      ]
+    },
+    {
+      "name": "Barshi",
+      "coords": [
+        75.66143,
+        18.24289
+      ]
+    },
+    {
+      "name": "Kaij",
+      "coords": [
+        76.06516,
+        18.71412
+      ]
+    },
+    {
+      "name": "Majalgaon",
+      "coords": [
+        76.20921,
+        19.14837
+      ]
+    },
+    {
+      "name": "Partur",
+      "coords": [
+        76.20989,
+        19.57659
+      ]
+    },
+    {
+      "name": "Lonar",
+      "coords": [
+        76.52312,
+        19.98484
+      ]
+    },
+    {
+      "name": "Mehkar",
+      "coords": [
+        76.57323,
+        20.1495
+      ]
+    },
+    {
+      "name": "Khamgaon",
+      "coords": [
+        76.57466,
+        20.70654
+      ]
+    },
+    {
+      "name": "Akot",
+      "coords": [
+        77.05386,
+        21.09725
+      ]
+    },
+    {
+      "name": "Achalpur",
+      "coords": [
+        77.50369,
+        21.29941
+      ]
+    },
+    {
+      "name": "Paratwada",
+      "coords": [
+        77.51962,
+        21.30465
+      ]
+    },
+    {
+      "name": "Betul",
+      "coords": [
+        77.80273,
+        21.85653
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

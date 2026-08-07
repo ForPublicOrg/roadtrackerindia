@@ -1,0 +1,50 @@
+{
+  "id": "sh-or-21",
+  "ref": "SH 21",
+  "name": "Bhanjanagar–Nayagarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 81.7,
+  "route": {
+    "start": "Bhanjanagar, Odisha",
+    "end": "Nayagarh, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Bhanjanagar",
+      "Bellaguntha",
+      "Nayagarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhanjanagar",
+      "coords": [
+        84.58309,
+        19.92871
+      ]
+    },
+    {
+      "name": "Bellaguntha",
+      "coords": [
+        84.63871,
+        19.88245
+      ]
+    },
+    {
+      "name": "Nayagarh",
+      "coords": [
+        85.10456,
+        20.12711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

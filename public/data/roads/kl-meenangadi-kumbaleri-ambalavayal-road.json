@@ -1,0 +1,42 @@
+{
+  "id": "kl-meenangadi-kumbaleri-ambalavayal-road",
+  "ref": "MDR",
+  "name": "Meenangadi - Kumbaleri - Ambalavayal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Sultan Bathery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Sultan Bathery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.17154,
+        11.65534
+      ]
+    },
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.21075,
+        11.62777
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

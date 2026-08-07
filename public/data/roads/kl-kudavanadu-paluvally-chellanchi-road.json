@@ -1,0 +1,42 @@
+{
+  "id": "kl-kudavanadu-paluvally-chellanchi-road",
+  "ref": "MDR",
+  "name": "Kudavanadu - Paluvally - Chellanchi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Venjaramoodu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Venjaramoodu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.01021,
+        8.70066
+      ]
+    },
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.99084,
+        8.71888
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

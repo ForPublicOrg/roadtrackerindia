@@ -1,0 +1,51 @@
+{
+  "id": "kl-aluva-varappuzha-road",
+  "ref": "MDR",
+  "name": "Aluva - Varappuzha road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kodikuthumala, Kerala",
+    "end": "Pathalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodikuthumala",
+      "Aluva",
+      "Kalamassery",
+      "Pathalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodikuthumala",
+      "coords": [
+        76.34313,
+        10.0879
+      ]
+    },
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.32832,
+        10.08041
+      ]
+    },
+    {
+      "name": "Pathalam",
+      "coords": [
+        76.32746,
+        10.08065
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

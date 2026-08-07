@@ -1,0 +1,46 @@
+{
+  "id": "nh-125a",
+  "ref": "NH 125A",
+  "name": "Jwala Vihar–Saran Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 62.7,
+  "route": {
+    "start": "Jwala Vihar, Rajasthan",
+    "end": "Saran Nagar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jwala Vihar",
+      "Saran Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jwala Vihar",
+      "coords": [
+        72.89677,
+        26.31695
+      ]
+    },
+    {
+      "name": "Saran Nagar",
+      "coords": [
+        73.23872,
+        26.26814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

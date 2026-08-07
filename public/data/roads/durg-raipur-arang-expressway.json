@@ -1,0 +1,54 @@
+{
+  "id": "durg-raipur-arang-expressway",
+  "ref": "NH",
+  "name": "Durg - Raipur - Arang Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 95.2,
+  "route": {
+    "start": "Arang, Chhattisgarh",
+    "end": "Chikhali, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Arang",
+      "Durg",
+      "Chikhali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arang",
+      "coords": [
+        82.01163,
+        21.16476
+      ]
+    },
+    {
+      "name": "Durg",
+      "coords": [
+        81.30263,
+        21.13835
+      ]
+    },
+    {
+      "name": "Chikhali",
+      "coords": [
+        81.15389,
+        21.12705
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

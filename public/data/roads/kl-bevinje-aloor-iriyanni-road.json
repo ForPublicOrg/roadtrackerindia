@@ -1,0 +1,42 @@
+{
+  "id": "kl-bevinje-aloor-iriyanni-road",
+  "ref": "MDR",
+  "name": "Bevinje - Aloor - Iriyanni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Cherkala, Kerala",
+    "end": "Bovikkanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherkala",
+      "Bovikkanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.06156,
+        12.49473
+      ]
+    },
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.09239,
+        12.49861
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

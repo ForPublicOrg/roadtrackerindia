@@ -1,0 +1,66 @@
+{
+  "id": "sh-mh-72",
+  "ref": "SH 72",
+  "name": "Mahad–Satara Road State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 103.6,
+  "route": {
+    "start": "Mahad, Maharashtra",
+    "end": "Satara Road, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mahad",
+      "Mahabaleshwar",
+      "Panchgani",
+      "Wai",
+      "Satara Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahad",
+      "coords": [
+        73.46667,
+        17.98989
+      ]
+    },
+    {
+      "name": "Mahabaleshwar",
+      "coords": [
+        73.65943,
+        17.92722
+      ]
+    },
+    {
+      "name": "Panchgani",
+      "coords": [
+        73.7961,
+        17.92288
+      ]
+    },
+    {
+      "name": "Wai",
+      "coords": [
+        73.88485,
+        17.95021
+      ]
+    },
+    {
+      "name": "Satara Road",
+      "coords": [
+        74.14013,
+        17.88633
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

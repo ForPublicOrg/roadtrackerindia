@@ -1,0 +1,63 @@
+{
+  "id": "nh-717a",
+  "ref": "NH 717A",
+  "name": "Odlabari–Ranipool National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 138.3,
+  "route": {
+    "start": "Odlabari, West Bengal",
+    "end": "Ranipool, Sikkim",
+    "states": [
+      "West Bengal",
+      "Sikkim"
+    ],
+    "majorCities": [
+      "Odlabari",
+      "Rhenock",
+      "Gangtok",
+      "Ranipool"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odlabari",
+      "coords": [
+        88.67056,
+        26.86969
+      ]
+    },
+    {
+      "name": "Rhenock",
+      "coords": [
+        88.64073,
+        27.17435
+      ]
+    },
+    {
+      "name": "Pakyong",
+      "coords": [
+        88.60083,
+        27.24364
+      ]
+    },
+    {
+      "name": "Gangtok",
+      "coords": [
+        88.59121,
+        27.29323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

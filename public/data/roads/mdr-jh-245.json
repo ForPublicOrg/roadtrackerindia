@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-245",
+  "ref": "MDR 245",
+  "name": "Murarai–Amrapara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.2,
+  "route": {
+    "start": "Murarai, West Bengal",
+    "end": "Amrapara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Murarai",
+      "Maheshpur",
+      "Amrapara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Murarai",
+      "coords": [
+        87.82363,
+        24.46055
+      ]
+    },
+    {
+      "name": "Maheshpur",
+      "coords": [
+        87.7607,
+        24.47422
+      ]
+    },
+    {
+      "name": "Amrapara",
+      "coords": [
+        87.55611,
+        24.49529
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

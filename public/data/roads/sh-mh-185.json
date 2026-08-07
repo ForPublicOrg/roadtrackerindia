@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-185",
+  "ref": "SH 185",
+  "name": "Dharangaon–Jamner State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 75.8,
+  "route": {
+    "start": "Dharangaon, Maharashtra",
+    "end": "Jamner, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Dharangaon",
+      "Erandol",
+      "Jamner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dharangaon",
+      "coords": [
+        75.22794,
+        21.12016
+      ]
+    },
+    {
+      "name": "Erandol",
+      "coords": [
+        75.32912,
+        20.92699
+      ]
+    },
+    {
+      "name": "Jamner",
+      "coords": [
+        75.7775,
+        20.8096
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

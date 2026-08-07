@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbavoor-rayamangalam-road",
+  "ref": "MDR",
+  "name": "Perumbavoor - Rayamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Perumbavoor, Kerala",
+    "end": "Vallam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perumbavoor",
+      "Vallam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.51914,
+        10.09928
+      ]
+    },
+    {
+      "name": "Vallam",
+      "coords": [
+        76.47864,
+        10.11464
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

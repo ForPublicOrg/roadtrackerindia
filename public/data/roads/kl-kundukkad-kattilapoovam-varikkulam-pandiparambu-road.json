@@ -1,0 +1,42 @@
+{
+  "id": "kl-kundukkad-kattilapoovam-varikkulam-pandiparambu-road",
+  "ref": "MDR",
+  "name": "Kundukkad - Kattilapoovam - Varikkulam - Pandiparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Thanikkudam, Kerala",
+    "end": "Vellanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thanikkudam",
+      "Vellanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanikkudam",
+      "coords": [
+        76.26953,
+        10.59304
+      ]
+    },
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.28232,
+        10.55944
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

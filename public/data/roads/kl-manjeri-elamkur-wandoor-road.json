@@ -1,0 +1,42 @@
+{
+  "id": "kl-manjeri-elamkur-wandoor-road",
+  "ref": "MDR",
+  "name": "Manjeri - Elamkur - Wandoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.2,
+  "route": {
+    "start": "Wandoor, Kerala",
+    "end": "Manjeri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Wandoor",
+      "Manjeri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.21574,
+        11.19671
+      ]
+    },
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.11976,
+        11.14016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

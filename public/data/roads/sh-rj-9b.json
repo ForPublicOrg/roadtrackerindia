@@ -1,0 +1,49 @@
+{
+  "id": "sh-rj-9b",
+  "ref": "SH 9B",
+  "name": "Ramganj Mandi–Suket State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 10.5,
+  "route": {
+    "start": "Ramganj Mandi, Rajasthan",
+    "end": "Suket, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Ramganj Mandi",
+      "Suket"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramganj Mandi",
+      "coords": [
+        75.94267,
+        24.65061
+      ]
+    },
+    {
+      "name": "Satalkheri",
+      "coords": [
+        75.97311,
+        24.65245
+      ]
+    },
+    {
+      "name": "Suket",
+      "coords": [
+        76.0417,
+        24.64809
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

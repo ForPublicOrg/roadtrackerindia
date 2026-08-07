@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-13a",
+  "ref": "SH 13A",
+  "name": "Fatehpur–Dalmau State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18,
+  "route": {
+    "start": "Fatehpur, Uttar Pradesh",
+    "end": "Dalmau, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Fatehpur",
+      "Dalmau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fatehpur",
+      "coords": [
+        80.9102,
+        25.98648
+      ]
+    },
+    {
+      "name": "Dalmau",
+      "coords": [
+        81.05196,
+        26.07715
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

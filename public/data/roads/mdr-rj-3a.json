@@ -1,0 +1,58 @@
+{
+  "id": "mdr-rj-3a",
+  "ref": "MDR 3A",
+  "name": "Sapotra–Kailaras District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 112.5,
+  "route": {
+    "start": "Sapotra, Rajasthan",
+    "end": "Kailaras, Madhya Pradesh",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sapotra",
+      "Mandrail",
+      "Sarmathura",
+      "Kailaras"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sapotra",
+      "coords": [
+        76.97299,
+        26.18248
+      ]
+    },
+    {
+      "name": "Mandrail",
+      "coords": [
+        77.2942,
+        26.42609
+      ]
+    },
+    {
+      "name": "Sarmathura",
+      "coords": [
+        77.36455,
+        26.51453
+      ]
+    },
+    {
+      "name": "Kailaras",
+      "coords": [
+        77.56794,
+        26.43455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

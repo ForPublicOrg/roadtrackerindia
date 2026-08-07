@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-111",
+  "ref": "SH 111",
+  "name": "Tohana–Narwana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28.8,
+  "route": {
+    "start": "Tohana, Haryana",
+    "end": "Narwana, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Tohana",
+      "Narwana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tohana",
+      "coords": [
+        75.91168,
+        29.69667
+      ]
+    },
+    {
+      "name": "Narwana",
+      "coords": [
+        76.11928,
+        29.60361
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

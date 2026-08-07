@@ -1,0 +1,42 @@
+{
+  "id": "kl-annallur-karoor-kuzhikkattussery-road",
+  "ref": "MDR",
+  "name": "Annallur - Karoor - Kuzhikkattussery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Thachudaparambu, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thachudaparambu",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.29451,
+        10.28806
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.27797,
+        10.29743
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

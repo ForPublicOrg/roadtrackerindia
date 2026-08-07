@@ -1,0 +1,46 @@
+{
+  "id": "nh-147d",
+  "ref": "NH 147D",
+  "name": "Devgadh Baria–Jhalod National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 50.1,
+  "route": {
+    "start": "Devgadh Baria, Gujarat",
+    "end": "Jhalod, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Devgadh Baria",
+      "Jhalod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Devgadh Baria",
+      "coords": [
+        73.96494,
+        22.83245
+      ]
+    },
+    {
+      "name": "Jhalod",
+      "coords": [
+        74.31832,
+        23.05422
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

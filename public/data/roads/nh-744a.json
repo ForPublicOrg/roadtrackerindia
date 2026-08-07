@@ -1,0 +1,61 @@
+{
+  "id": "nh-744a",
+  "ref": "NH 744A",
+  "name": "Vadipatti–Kadachanenthal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 30.4,
+  "route": {
+    "start": "Vadipatti, Tamil Nadu",
+    "end": "Kadachanenthal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadipatti",
+      "Alanganallur",
+      "Kadachanenthal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadipatti",
+      "coords": [
+        77.97863,
+        10.06854
+      ]
+    },
+    {
+      "name": "Alanganallur",
+      "coords": [
+        78.07275,
+        10.04077
+      ]
+    },
+    {
+      "name": "Oomachikulam",
+      "coords": [
+        78.14532,
+        10.01799
+      ]
+    },
+    {
+      "name": "Kadachanenthal",
+      "coords": [
+        78.2282,
+        9.97902
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

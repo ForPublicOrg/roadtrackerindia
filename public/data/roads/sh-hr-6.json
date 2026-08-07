@@ -1,0 +1,73 @@
+{
+  "id": "sh-hr-6",
+  "ref": "SH 6",
+  "name": "Cheeka–Yamunanagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.9,
+  "route": {
+    "start": "Cheeka, Haryana",
+    "end": "Yamunanagar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Cheeka",
+      "Pehowa",
+      "Kurukshetra",
+      "Ladwa",
+      "Yamunanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheeka",
+      "coords": [
+        76.33402,
+        30.04823
+      ]
+    },
+    {
+      "name": "Pehowa",
+      "coords": [
+        76.58462,
+        29.98073
+      ]
+    },
+    {
+      "name": "Kurukshetra",
+      "coords": [
+        76.84642,
+        29.97277
+      ]
+    },
+    {
+      "name": "Ladwa",
+      "coords": [
+        77.04445,
+        29.99549
+      ]
+    },
+    {
+      "name": "Radaur",
+      "coords": [
+        77.14879,
+        30.03245
+      ]
+    },
+    {
+      "name": "Yamunanagar",
+      "coords": [
+        77.26505,
+        30.11892
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

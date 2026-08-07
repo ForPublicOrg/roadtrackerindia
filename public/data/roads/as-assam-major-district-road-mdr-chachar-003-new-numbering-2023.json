@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-003-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 003 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.5,
+  "route": {
+    "start": "Sonai, Assam",
+    "end": "Lakhipur, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sonai",
+      "Lakhipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonai",
+      "coords": [
+        92.87418,
+        24.66371
+      ]
+    },
+    {
+      "name": "Lakhipur",
+      "coords": [
+        92.96689,
+        24.67994
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

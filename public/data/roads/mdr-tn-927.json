@@ -1,0 +1,64 @@
+{
+  "id": "mdr-tn-927",
+  "ref": "MDR 927",
+  "name": "Vadasery–Suchindram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Vadasery, Tamil Nadu",
+    "end": "Suchindram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadasery",
+      "Nagercoil",
+      "Suchindram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadasery",
+      "coords": [
+        77.46374,
+        8.21129
+      ]
+    },
+    {
+      "name": "Nagercoil",
+      "coords": [
+        77.46658,
+        8.17785
+      ]
+    },
+    {
+      "name": "Kottar",
+      "coords": [
+        77.46548,
+        8.16989
+      ]
+    },
+    {
+      "name": "Edalakudy",
+      "coords": [
+        77.4651,
+        8.16218
+      ]
+    },
+    {
+      "name": "Suchindram",
+      "coords": [
+        77.46922,
+        8.15621
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

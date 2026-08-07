@@ -1,0 +1,67 @@
+{
+  "id": "sh-kl-19",
+  "ref": "SH 19",
+  "name": "Munnar Bazaar–Kumily State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 103.4,
+  "route": {
+    "start": "Munnar Bazaar, Kerala",
+    "end": "Kumily, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Munnar Bazaar",
+      "Munnar",
+      "Nedumkandam",
+      "Kattappana",
+      "Anakkara",
+      "Kumily"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Munnar Bazaar",
+      "coords": [
+        77.06285,
+        10.08456
+      ]
+    },
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.15128,
+        9.84332
+      ]
+    },
+    {
+      "name": "Kattappana",
+      "coords": [
+        77.14533,
+        9.76781
+      ]
+    },
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.15771,
+        9.66677
+      ]
+    },
+    {
+      "name": "Kumily",
+      "coords": [
+        77.16803,
+        9.60877
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

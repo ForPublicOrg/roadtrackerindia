@@ -1,0 +1,44 @@
+{
+  "id": "kl-ponpally-road",
+  "ref": "MDR",
+  "name": "Ponpally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kumaranalloor, Kerala",
+    "end": "Kanjikuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaranalloor",
+      "Kottayam",
+      "Manarcadu",
+      "Kanjikuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.54823,
+        9.60639
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.55332,
+        9.5899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

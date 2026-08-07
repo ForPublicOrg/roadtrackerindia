@@ -1,0 +1,51 @@
+{
+  "id": "sh-as-32",
+  "ref": "SH 32",
+  "name": "CHANDAN NAGAR–Dohabora Chuk State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49.2,
+  "route": {
+    "start": "CHANDAN NAGAR, Assam",
+    "end": "Dohabora Chuk, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "CHANDAN NAGAR",
+      "Titabor",
+      "Jorhat",
+      "Dohabora Chuk"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "CHANDAN NAGAR",
+      "coords": [
+        94.03205,
+        26.42966
+      ]
+    },
+    {
+      "name": "Titabor",
+      "coords": [
+        94.1861,
+        26.59212
+      ]
+    },
+    {
+      "name": "Jorhat",
+      "coords": [
+        94.21198,
+        26.75267
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

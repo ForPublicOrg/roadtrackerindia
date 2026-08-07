@@ -1,0 +1,42 @@
+{
+  "id": "kl-varanadu-road",
+  "ref": "MDR",
+  "name": "Varanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.35961,
+        9.68288
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.35579,
+        9.69665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

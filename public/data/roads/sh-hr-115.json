@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-115",
+  "ref": "SH 115",
+  "name": "Gharaunda–Karnal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.2,
+  "route": {
+    "start": "Gharaunda, Haryana",
+    "end": "Karnal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Gharaunda",
+      "Karnal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gharaunda",
+      "coords": [
+        76.84255,
+        29.50506
+      ]
+    },
+    {
+      "name": "Karnal",
+      "coords": [
+        76.97415,
+        29.68603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-moottoli-kuruvattor-road",
+  "ref": "MDR",
+  "name": "Moottoli - Kuruvattor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Moozhikkal, Kerala",
+    "end": "Karanthur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Moozhikkal",
+      "Karanthur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Moozhikkal",
+      "coords": [
+        75.80788,
+        11.32357
+      ]
+    },
+    {
+      "name": "Karanthur",
+      "coords": [
+        75.83281,
+        11.32418
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

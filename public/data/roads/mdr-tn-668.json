@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-668",
+  "ref": "MDR 668",
+  "name": "Pugalur–Bharathi Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Pugalur, Tamil Nadu",
+    "end": "Bharathi Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pugalur",
+      "Bharathi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pugalur",
+      "coords": [
+        78.00349,
+        11.08159
+      ]
+    },
+    {
+      "name": "TNPL Pugalur",
+      "coords": [
+        77.99397,
+        11.06158
+      ]
+    },
+    {
+      "name": "Bharathi Nagar",
+      "coords": [
+        77.97992,
+        11.01318
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

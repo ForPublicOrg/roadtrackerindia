@@ -1,0 +1,42 @@
+{
+  "id": "kl-kazhani-pazhampalakode-road",
+  "ref": "MDR",
+  "name": "Kazhani - Pazhampalakode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "edathil colony, Kerala",
+    "end": "Vadakkenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "edathil colony",
+      "Vadakkenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.44825,
+        10.70048
+      ]
+    },
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.50063,
+        10.65719
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-107",
+  "ref": "NH 107",
+  "name": "Rudraprayag–Kedarnath National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 74.5,
+  "route": {
+    "start": "Rudraprayag, Uttarakhand",
+    "end": "Kedarnath, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Rudraprayag",
+      "Agastmuni",
+      "Ukhimath",
+      "Kedarnath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rudraprayag",
+      "coords": [
+        78.96434,
+        30.27597
+      ]
+    },
+    {
+      "name": "Agastmuni",
+      "coords": [
+        79.02654,
+        30.39233
+      ]
+    },
+    {
+      "name": "Ukhimath",
+      "coords": [
+        79.08422,
+        30.51365
+      ]
+    },
+    {
+      "name": "Kedarnath",
+      "coords": [
+        79.02831,
+        30.65545
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

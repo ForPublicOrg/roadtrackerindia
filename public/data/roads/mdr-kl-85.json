@@ -1,0 +1,43 @@
+{
+  "id": "mdr-kl-85",
+  "ref": "MDR 85",
+  "name": "Karandakkad–Siraj Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Karandakkad, Kerala",
+    "end": "Siraj Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karandakkad",
+      "Kasaragod",
+      "Siraj Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karandakkad",
+      "coords": [
+        74.99512,
+        12.52351
+      ]
+    },
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.97727,
+        12.53605
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

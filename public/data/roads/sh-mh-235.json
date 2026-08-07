@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-235",
+  "ref": "SH 235",
+  "name": "Bhosa–Ghatanji State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.5,
+  "route": {
+    "start": "Bhosa, Maharashtra",
+    "end": "Ghatanji, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bhosa",
+      "Yavatmal",
+      "Ghatanji"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhosa",
+      "coords": [
+        78.16225,
+        20.38651
+      ]
+    },
+    {
+      "name": "Yavatmal",
+      "coords": [
+        78.15248,
+        20.37439
+      ]
+    },
+    {
+      "name": "Ghatanji",
+      "coords": [
+        78.31247,
+        20.1427
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

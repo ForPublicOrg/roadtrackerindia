@@ -1,0 +1,42 @@
+{
+  "id": "kl-1st-mile-kv-road-to-agriculture-farm-road",
+  "ref": "MDR",
+  "name": "1st Mile KV Road to Agriculture Farm Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.76913,
+        8.98657
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.77571,
+        8.99146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

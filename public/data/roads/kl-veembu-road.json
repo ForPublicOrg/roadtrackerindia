@@ -1,0 +1,50 @@
+{
+  "id": "kl-veembu-road",
+  "ref": "MDR",
+  "name": "Veembu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Chelakkottukara, Kerala",
+    "end": "Nadathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chelakkottukara",
+      "Thrissur",
+      "Nadathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chelakkottukara",
+      "coords": [
+        76.23412,
+        10.51667
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.24632,
+        10.5123
+      ]
+    },
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.27154,
+        10.50783
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

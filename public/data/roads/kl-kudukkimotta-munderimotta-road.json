@@ -1,0 +1,42 @@
+{
+  "id": "kl-kudukkimotta-munderimotta-road",
+  "ref": "MDR",
+  "name": "Kudukkimotta - Munderimotta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Karinkalkuzhi, Kerala",
+    "end": "Thottada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkalkuzhi",
+      "Thottada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.4384,
+        11.93375
+      ]
+    },
+    {
+      "name": "Thottada",
+      "coords": [
+        75.45806,
+        11.91853
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

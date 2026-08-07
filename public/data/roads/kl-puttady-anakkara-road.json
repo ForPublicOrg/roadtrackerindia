@@ -1,0 +1,42 @@
+{
+  "id": "kl-puttady-anakkara-road",
+  "ref": "MDR",
+  "name": "Puttady - Anakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Anakkara, Kerala",
+    "end": "Parakadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anakkara",
+      "Parakadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.16115,
+        9.66615
+      ]
+    },
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.15977,
+        9.69474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

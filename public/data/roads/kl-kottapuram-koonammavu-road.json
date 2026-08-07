@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottapuram-koonammavu-road",
+  "ref": "MDR",
+  "name": "Kottapuram - Koonammavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Thrikkapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Thrikkapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.30145,
+        10.12901
+      ]
+    },
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.26855,
+        10.10195
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

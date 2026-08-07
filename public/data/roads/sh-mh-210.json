@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-210",
+  "ref": "SH 210",
+  "name": "Manora–Ghatanji State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 118.7,
+  "route": {
+    "start": "Manora, Maharashtra",
+    "end": "Ghatanji, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Manora",
+      "Darwha",
+      "Ghatanji"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manora",
+      "coords": [
+        77.56116,
+        20.29908
+      ]
+    },
+    {
+      "name": "Darwha",
+      "coords": [
+        77.77564,
+        20.31027
+      ]
+    },
+    {
+      "name": "Ghatanji",
+      "coords": [
+        78.31228,
+        20.14178
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

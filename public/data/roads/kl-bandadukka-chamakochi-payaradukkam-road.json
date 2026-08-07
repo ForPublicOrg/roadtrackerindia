@@ -1,0 +1,42 @@
+{
+  "id": "kl-bandadukka-chamakochi-payaradukkam-road",
+  "ref": "MDR",
+  "name": "Bandadukka - Chamakochi - Payaradukkam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.26766,
+        12.5016
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.24937,
+        12.51817
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

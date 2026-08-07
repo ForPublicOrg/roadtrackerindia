@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-26",
+  "ref": "SH 26",
+  "name": "Mhasrul–Jawhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 104.4,
+  "route": {
+    "start": "Mhasrul, Maharashtra",
+    "end": "Jawhar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mhasrul",
+      "Nashik",
+      "Jawhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mhasrul",
+      "coords": [
+        73.80582,
+        20.05032
+      ]
+    },
+    {
+      "name": "Nashik",
+      "coords": [
+        73.79131,
+        20.0464
+      ]
+    },
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.16894,
+        20.02833
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

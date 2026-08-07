@@ -1,0 +1,42 @@
+{
+  "id": "kl-alumkunnu-narukara-road",
+  "ref": "MDR",
+  "name": "Alumkunnu - Narukara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Valiyangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Valiyangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.09038,
+        11.11925
+      ]
+    },
+    {
+      "name": "Valiyangadi",
+      "coords": [
+        76.09845,
+        11.10286
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

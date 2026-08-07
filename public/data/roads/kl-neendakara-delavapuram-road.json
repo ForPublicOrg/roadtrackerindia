@@ -1,0 +1,42 @@
+{
+  "id": "kl-neendakara-delavapuram-road",
+  "ref": "MDR",
+  "name": "Neendakara - Delavapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Kavanad, Kerala",
+    "end": "Kureepuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavanad",
+      "Kureepuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavanad",
+      "coords": [
+        76.5525,
+        8.94868
+      ]
+    },
+    {
+      "name": "Kureepuzha",
+      "coords": [
+        76.53847,
+        8.94221
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mullankunnu-chembanadu-road",
+  "ref": "MDR",
+  "name": "Mullankunnu - Chembanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Chakkittapara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Chakkittapara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.80662,
+        11.63591
+      ]
+    },
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.81821,
+        11.63299
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-675",
+  "ref": "MDR 675",
+  "name": "Ponnammapet–Minnampalli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.7,
+  "route": {
+    "start": "Ponnammapet, Tamil Nadu",
+    "end": "Minnampalli, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ponnammapet",
+      "Salem",
+      "Ayodhiyapatinam",
+      "Minnampalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponnammapet",
+      "coords": [
+        78.17333,
+        11.66238
+      ]
+    },
+    {
+      "name": "Mannarpalayam Pirivu",
+      "coords": [
+        78.19154,
+        11.67285
+      ]
+    },
+    {
+      "name": "Kamarajar Nagar Colony",
+      "coords": [
+        78.19675,
+        11.6742
+      ]
+    },
+    {
+      "name": "Ayodhiyapatinam",
+      "coords": [
+        78.22668,
+        11.68723
+      ]
+    },
+    {
+      "name": "Minnampalli",
+      "coords": [
+        78.25598,
+        11.70068
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

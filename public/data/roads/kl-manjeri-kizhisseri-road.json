@@ -1,0 +1,42 @@
+{
+  "id": "kl-manjeri-kizhisseri-road",
+  "ref": "MDR",
+  "name": "Manjeri - Kizhisseri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.3,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Kaloth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Kaloth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.10857,
+        11.12447
+      ]
+    },
+    {
+      "name": "Kaloth",
+      "coords": [
+        75.99881,
+        11.17602
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

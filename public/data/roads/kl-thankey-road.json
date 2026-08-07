@@ -1,0 +1,42 @@
+{
+  "id": "kl-thankey-road",
+  "ref": "MDR",
+  "name": "Thankey Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.29546,
+        9.72813
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.31717,
+        9.70383
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

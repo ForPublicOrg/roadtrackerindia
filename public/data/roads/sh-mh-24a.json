@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-24a",
+  "ref": "SH 24A",
+  "name": "Paratwada–Nanadgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 126.6,
+  "route": {
+    "start": "Paratwada, Maharashtra",
+    "end": "Nanadgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Paratwada",
+      "Chandur Bazar",
+      "Chandur",
+      "Nanadgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paratwada",
+      "coords": [
+        77.62361,
+        21.37566
+      ]
+    },
+    {
+      "name": "Chandur Bazar",
+      "coords": [
+        77.74848,
+        21.23801
+      ]
+    },
+    {
+      "name": "Chandur",
+      "coords": [
+        77.96297,
+        20.81918
+      ]
+    },
+    {
+      "name": "Nanadgaon",
+      "coords": [
+        77.85817,
+        21.05713
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

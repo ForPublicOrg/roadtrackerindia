@@ -1,0 +1,42 @@
+{
+  "id": "kl-velliyamattom-kurithikkalam-road",
+  "ref": "MDR",
+  "name": "Velliyamattom - Kurithikkalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Mechal, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mechal",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mechal",
+      "coords": [
+        76.83516,
+        9.82675
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.81698,
+        9.84139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

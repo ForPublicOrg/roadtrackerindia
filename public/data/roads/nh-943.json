@@ -1,0 +1,54 @@
+{
+  "id": "nh-943",
+  "ref": "NH 943",
+  "name": "Pawai–Nagod National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 69.9,
+  "route": {
+    "start": "Pawai, Madhya Pradesh",
+    "end": "Nagod, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Pawai",
+      "Gunnor",
+      "Nagod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pawai",
+      "coords": [
+        80.16186,
+        24.27827
+      ]
+    },
+    {
+      "name": "Gunnor",
+      "coords": [
+        80.25304,
+        24.40781
+      ]
+    },
+    {
+      "name": "Nagod",
+      "coords": [
+        80.58446,
+        24.57343
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

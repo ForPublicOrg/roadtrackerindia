@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-215",
+  "ref": "MDR 215",
+  "name": "Barharwa–Udhwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Barharwa, Jharkhand",
+    "end": "Udhwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Barharwa",
+      "Udhwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barharwa",
+      "coords": [
+        87.78073,
+        24.85017
+      ]
+    },
+    {
+      "name": "Udhwa",
+      "coords": [
+        87.77414,
+        24.85806
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

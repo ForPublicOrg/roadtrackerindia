@@ -1,0 +1,42 @@
+{
+  "id": "kl-e-h-s-kalamachal-road",
+  "ref": "MDR",
+  "name": "E.H.S. Kalamachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Kilimanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Kilimanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.83668,
+        8.69528
+      ]
+    },
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.8638,
+        8.71538
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "sh-ka-12",
+  "ref": "SH 12",
+  "name": "Sankeshwara–Vijayapura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 175.5,
+  "route": {
+    "start": "Sankeshwara, Maharashtra",
+    "end": "Vijayapura, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Sankeshwara",
+      "Chikkodi",
+      "Shedabal",
+      "Athani",
+      "Vijayapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sankeshwara",
+      "coords": [
+        74.45632,
+        16.24581
+      ]
+    },
+    {
+      "name": "Chikkodi",
+      "coords": [
+        74.58747,
+        16.42725
+      ]
+    },
+    {
+      "name": "Khidrapur",
+      "coords": [
+        74.71033,
+        16.61846
+      ]
+    },
+    {
+      "name": "Shedabal",
+      "coords": [
+        74.74235,
+        16.70418
+      ]
+    },
+    {
+      "name": "Athani",
+      "coords": [
+        75.06512,
+        16.72515
+      ]
+    },
+    {
+      "name": "Tikota",
+      "coords": [
+        75.52044,
+        16.84101
+      ]
+    },
+    {
+      "name": "Vijayapura",
+      "coords": [
+        75.71425,
+        16.82927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

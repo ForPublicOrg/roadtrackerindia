@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadaplamattom-andoor-road",
+  "ref": "MDR",
+  "name": "Kadaplamattom - Andoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Puliyannoor, Kerala",
+    "end": "Kidangoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puliyannoor",
+      "Kidangoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.62471,
+        9.72337
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.6098,
+        9.71613
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

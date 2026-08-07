@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-103",
+  "ref": "MDR 103",
+  "name": "Badiadka–Kumbala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.09519,
+        12.62384
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        75.04652,
+        12.62335
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

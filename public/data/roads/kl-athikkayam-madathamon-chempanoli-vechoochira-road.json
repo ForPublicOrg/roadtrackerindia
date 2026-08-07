@@ -1,0 +1,42 @@
+{
+  "id": "kl-athikkayam-madathamon-chempanoli-vechoochira-road",
+  "ref": "MDR",
+  "name": "Athikkayam - Madathamon - Chempanoli - Vechoochira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Karinkallummoozhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Karinkallummoozhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.84326,
+        9.3872
+      ]
+    },
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.85162,
+        9.4255
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

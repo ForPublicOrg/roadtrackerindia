@@ -1,0 +1,61 @@
+{
+  "id": "nh-752h",
+  "ref": "NH 752H",
+  "name": "Yeola–Deulgaon Raja National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 213.7,
+  "route": {
+    "start": "Yeola, Maharashtra",
+    "end": "Deulgaon Raja, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Yeola",
+      "Phulambri",
+      "Deulgaon Raja"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Yeola",
+      "coords": [
+        74.48682,
+        20.03827
+      ]
+    },
+    {
+      "name": "Vaijapur",
+      "coords": [
+        74.72966,
+        19.92788
+      ]
+    },
+    {
+      "name": "Phulambri",
+      "coords": [
+        75.42049,
+        20.0874
+      ]
+    },
+    {
+      "name": "Deulgaon Raja",
+      "coords": [
+        76.03548,
+        20.02997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

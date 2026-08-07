@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-198",
+  "ref": "MDR 198",
+  "name": "Vasantha Nagar–Melapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Vasantha Nagar, Tamil Nadu",
+    "end": "Melapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vasantha Nagar",
+      "Palayamkottai",
+      "Tirunelveli",
+      "Melapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vasantha Nagar",
+      "coords": [
+        77.72984,
+        8.71004
+      ]
+    },
+    {
+      "name": "Vannarpettai",
+      "coords": [
+        77.72491,
+        8.70953
+      ]
+    },
+    {
+      "name": "Melapalayam",
+      "coords": [
+        77.71714,
+        8.70722
+      ]
+    },
+    {
+      "name": "Tirunelveli",
+      "coords": [
+        77.71277,
+        8.70724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-101w",
+  "ref": "SH 101W",
+  "name": "Modipuram–Chacha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15.6,
+  "route": {
+    "start": "Modipuram, Uttar Pradesh",
+    "end": "Chacha, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Modipuram",
+      "Sardhana",
+      "Chacha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Modipuram",
+      "coords": [
+        77.71274,
+        29.12103
+      ]
+    },
+    {
+      "name": "Sardhana",
+      "coords": [
+        77.6098,
+        29.14287
+      ]
+    },
+    {
+      "name": "Chacha",
+      "coords": [
+        77.56573,
+        29.13614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

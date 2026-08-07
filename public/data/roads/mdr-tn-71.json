@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-71",
+  "ref": "MDR 71",
+  "name": "Vavipalayam–Chennimalai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.3,
+  "route": {
+    "start": "Vavipalayam, Tamil Nadu",
+    "end": "Chennimalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vavipalayam",
+      "Chennimalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vavipalayam",
+      "coords": [
+        77.45541,
+        11.16686
+      ]
+    },
+    {
+      "name": "Chennimalai",
+      "coords": [
+        77.60222,
+        11.16513
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

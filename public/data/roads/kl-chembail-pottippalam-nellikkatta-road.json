@@ -1,0 +1,50 @@
+{
+  "id": "kl-chembail-pottippalam-nellikkatta-road",
+  "ref": "MDR",
+  "name": "Chembail - Pottippalam - Nellikkatta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Cherkala, Kerala",
+    "end": "Chengala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherkala",
+      "Bovikkanam",
+      "Chengala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.07059,
+        12.54416
+      ]
+    },
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.08445,
+        12.52795
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.07121,
+        12.5261
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

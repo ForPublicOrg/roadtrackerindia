@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellangallur-mathilakam-road",
+  "ref": "MDR",
+  "name": "Vellangallur - Mathilakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.16434,
+        10.29297
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.21842,
+        10.30496
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

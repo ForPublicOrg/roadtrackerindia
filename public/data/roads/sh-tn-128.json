@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-128",
+  "ref": "SH 128",
+  "name": "Sholinghur–Walajapet State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30,
+  "route": {
+    "start": "Sholinghur, Tamil Nadu",
+    "end": "Walajapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sholinghur",
+      "Walajapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.43388,
+        13.10331
+      ]
+    },
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.45681,
+        12.88203
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-327ad",
+  "ref": "NH 327AD",
+  "name": "Nirmali–Tribeniganj National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Nirmali, Bihar",
+    "end": "Tribeniganj, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Nirmali",
+      "Tribeniganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nirmali",
+      "coords": [
+        86.73324,
+        26.28825
+      ]
+    },
+    {
+      "name": "Tribeniganj",
+      "coords": [
+        86.82252,
+        26.26803
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

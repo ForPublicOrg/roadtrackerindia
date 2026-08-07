@@ -1,0 +1,46 @@
+{
+  "id": "nh-730h",
+  "ref": "NH 730H",
+  "name": "Rupadiya–Tikapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 46.9,
+  "route": {
+    "start": "Rupadiya, Uttar Pradesh",
+    "end": "Tikapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Rupadiya",
+      "Tikapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rupadiya",
+      "coords": [
+        81.40564,
+        28.01548
+      ]
+    },
+    {
+      "name": "Tikapur",
+      "coords": [
+        81.12351,
+        28.33605
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

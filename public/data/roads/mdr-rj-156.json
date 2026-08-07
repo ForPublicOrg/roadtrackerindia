@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-156",
+  "ref": "MDR 156",
+  "name": "Kekri–Sarwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.3,
+  "route": {
+    "start": "Kekri, Rajasthan",
+    "end": "Sarwar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kekri",
+      "Sarwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kekri",
+      "coords": [
+        74.98345,
+        25.86394
+      ]
+    },
+    {
+      "name": "Sarwar",
+      "coords": [
+        75.01561,
+        26.05856
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

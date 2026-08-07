@@ -1,0 +1,43 @@
+{
+  "id": "kl-meenakshipuram-gopalapuram-road",
+  "ref": "MDR",
+  "name": "Meenakshipuram - Gopalapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Anaimalai, Tamil Nadu",
+    "end": "Kozhinjampara, Tamil Nadu",
+    "states": [
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anaimalai",
+      "Kozhinjampara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anaimalai",
+      "coords": [
+        76.86658,
+        10.63323
+      ]
+    },
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.87081,
+        10.69312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-hr-9",
+  "ref": "SH 9",
+  "name": "Pehowa–Model Town State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.4,
+  "route": {
+    "start": "Pehowa, Haryana",
+    "end": "Model Town, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Pehowa",
+      "Kaul",
+      "Karnal",
+      "Model Town"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pehowa",
+      "coords": [
+        76.55312,
+        30.06781
+      ]
+    },
+    {
+      "name": "Kaul",
+      "coords": [
+        76.66439,
+        29.84852
+      ]
+    },
+    {
+      "name": "Karnal",
+      "coords": [
+        76.98649,
+        29.695
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

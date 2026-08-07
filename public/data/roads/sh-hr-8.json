@@ -1,0 +1,73 @@
+{
+  "id": "sh-hr-8",
+  "ref": "SH 8",
+  "name": "Model Town–Kaithal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.9,
+  "route": {
+    "start": "Model Town, Haryana",
+    "end": "Kaithal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Model Town",
+      "Karnal",
+      "Nisang",
+      "Pundri",
+      "Kaithal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Model Town",
+      "coords": [
+        77.00545,
+        29.7077
+      ]
+    },
+    {
+      "name": "Karnal",
+      "coords": [
+        76.98652,
+        29.68817
+      ]
+    },
+    {
+      "name": "Gyanpura Colony",
+      "coords": [
+        76.94321,
+        29.68643
+      ]
+    },
+    {
+      "name": "Nisang",
+      "coords": [
+        76.75283,
+        29.69344
+      ]
+    },
+    {
+      "name": "Pundri",
+      "coords": [
+        76.55544,
+        29.77188
+      ]
+    },
+    {
+      "name": "Kaithal",
+      "coords": [
+        76.42616,
+        29.79793
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

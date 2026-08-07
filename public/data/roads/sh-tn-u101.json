@@ -1,0 +1,58 @@
+{
+  "id": "sh-tn-u101",
+  "ref": "SH-U 101",
+  "name": "Palanganatham–Thirupparankundram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Palanganatham, Tamil Nadu",
+    "end": "Thirupparankundram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palanganatham",
+      "Madurai",
+      "Harveypatti",
+      "Thirupparankundram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palanganatham",
+      "coords": [
+        78.09872,
+        9.90552
+      ]
+    },
+    {
+      "name": "Pasumalai",
+      "coords": [
+        78.07805,
+        9.89333
+      ]
+    },
+    {
+      "name": "Harveypatti",
+      "coords": [
+        78.06088,
+        9.88068
+      ]
+    },
+    {
+      "name": "Thirupparankundram",
+      "coords": [
+        78.05162,
+        9.88235
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

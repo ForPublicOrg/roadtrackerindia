@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-64",
+  "ref": "MDR 64",
+  "name": "Chirkunda–Barakar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Chirkunda, Jharkhand",
+    "end": "Barakar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chirkunda",
+      "Barakar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirkunda",
+      "coords": [
+        86.79093,
+        23.74564
+      ]
+    },
+    {
+      "name": "Barakar",
+      "coords": [
+        86.79668,
+        23.73311
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

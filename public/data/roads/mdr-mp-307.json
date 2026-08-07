@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-307",
+  "ref": "MDR 307",
+  "name": "Mau–Tekanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 33.7,
+  "route": {
+    "start": "Mau, Madhya Pradesh",
+    "end": "Tekanpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mau",
+      "Tekanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mau",
+      "coords": [
+        78.57733,
+        26.19011
+      ]
+    },
+    {
+      "name": "Tekanpur",
+      "coords": [
+        78.46186,
+        26.08149
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

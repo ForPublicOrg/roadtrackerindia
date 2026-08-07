@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-44",
+  "ref": "SH 44",
+  "name": "Mahewa–Mirzapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.8,
+  "route": {
+    "start": "Mahewa, Uttar Pradesh",
+    "end": "Mirzapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mahewa",
+      "Prayagraj",
+      "Karchana",
+      "Mirzapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahewa",
+      "coords": [
+        81.85173,
+        25.41977
+      ]
+    },
+    {
+      "name": "Karchana",
+      "coords": [
+        81.94692,
+        25.29943
+      ]
+    },
+    {
+      "name": "Gaipura",
+      "coords": [
+        82.39055,
+        25.15445
+      ]
+    },
+    {
+      "name": "Mirzapur",
+      "coords": [
+        82.54124,
+        25.14405
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

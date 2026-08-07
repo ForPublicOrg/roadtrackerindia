@@ -1,0 +1,43 @@
+{
+  "id": "sh-hr-105",
+  "ref": "SH 105",
+  "name": "Mandi Dabwali–Sangariya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33.9,
+  "route": {
+    "start": "Mandi Dabwali, Haryana",
+    "end": "Sangariya, Rajasthan",
+    "states": [
+      "Haryana",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mandi Dabwali",
+      "Sangariya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandi Dabwali",
+      "coords": [
+        74.71064,
+        29.96468
+      ]
+    },
+    {
+      "name": "Sangariya",
+      "coords": [
+        74.46859,
+        29.79479
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

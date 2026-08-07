@@ -1,0 +1,50 @@
+{
+  "id": "kl-andipillykkavu-vadakkumpuram-road",
+  "ref": "MDR",
+  "name": "Andipillykkavu - Vadakkumpuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Kottapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "North Paravur",
+      "Kottapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.21088,
+        10.17813
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.22339,
+        10.17814
+      ]
+    },
+    {
+      "name": "Kottapuram",
+      "coords": [
+        76.22626,
+        10.17918
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

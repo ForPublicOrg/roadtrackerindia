@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-39",
+  "ref": "SH 39",
+  "name": "Khetia–Mandu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 168.3,
+  "route": {
+    "start": "Khetia, Madhya Pradesh",
+    "end": "Mandu, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Khetia",
+      "Pati",
+      "Barwani",
+      "Mandu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khetia",
+      "coords": [
+        74.58898,
+        21.66917
+      ]
+    },
+    {
+      "name": "Pati",
+      "coords": [
+        74.74603,
+        21.93908
+      ]
+    },
+    {
+      "name": "Barwani",
+      "coords": [
+        74.89453,
+        22.0333
+      ]
+    },
+    {
+      "name": "Mandu",
+      "coords": [
+        75.39782,
+        22.34895
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

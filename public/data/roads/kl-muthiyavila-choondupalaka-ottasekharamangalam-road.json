@@ -1,0 +1,42 @@
+{
+  "id": "kl-muthiyavila-choondupalaka-ottasekharamangalam-road",
+  "ref": "MDR",
+  "name": "Muthiyavila(Choondupalaka) - Ottasekharamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Russelpuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Russelpuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.08891,
+        8.50568
+      ]
+    },
+    {
+      "name": "Russelpuram",
+      "coords": [
+        77.12378,
+        8.49157
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

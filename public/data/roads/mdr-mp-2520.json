@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-2520",
+  "ref": "MDR 2520",
+  "name": "Bajna–Ratlam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 52.8,
+  "route": {
+    "start": "Bajna, Madhya Pradesh",
+    "end": "Ratlam, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bajna",
+      "Rawti",
+      "Ratlam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bajna",
+      "coords": [
+        74.63679,
+        23.31482
+      ]
+    },
+    {
+      "name": "Rawti",
+      "coords": [
+        74.83895,
+        23.23201
+      ]
+    },
+    {
+      "name": "Ratlam",
+      "coords": [
+        75.03512,
+        23.32798
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

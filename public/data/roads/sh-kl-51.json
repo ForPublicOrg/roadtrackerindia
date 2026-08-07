@@ -1,0 +1,51 @@
+{
+  "id": "sh-kl-51",
+  "ref": "SH 51",
+  "name": "Thiruvanchikulam–Potta State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.7,
+  "route": {
+    "start": "Thiruvanchikulam, Kerala",
+    "end": "Potta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvanchikulam",
+      "Kodungallur",
+      "Valiyaparambu",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.20412,
+        10.20862
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.26264,
+        10.23956
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.29235,
+        10.33451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

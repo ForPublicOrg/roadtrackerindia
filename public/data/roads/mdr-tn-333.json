@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-333",
+  "ref": "MDR 333",
+  "name": "Neru Nagar–Bharathi Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "route": {
+    "start": "Neru Nagar, Tamil Nadu",
+    "end": "Bharathi Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Neru Nagar",
+      "Chinna Dharapuram",
+      "Bharathi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neru Nagar",
+      "coords": [
+        77.87856,
+        10.861
+      ]
+    },
+    {
+      "name": "Bharathi Nagar",
+      "coords": [
+        77.91085,
+        10.95884
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

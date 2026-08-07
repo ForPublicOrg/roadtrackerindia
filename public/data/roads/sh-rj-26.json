@@ -1,0 +1,66 @@
+{
+  "id": "sh-rj-26",
+  "ref": "SH 26",
+  "name": "Deoli Cantonment–Nasirabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.3,
+  "route": {
+    "start": "Deoli Cantonment, Rajasthan",
+    "end": "Nasirabad, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Deoli Cantonment",
+      "Deoli",
+      "Kekri",
+      "Sarwar",
+      "Nasirabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Deoli Cantonment",
+      "coords": [
+        75.39399,
+        25.7447
+      ]
+    },
+    {
+      "name": "Deoli",
+      "coords": [
+        75.37515,
+        25.73973
+      ]
+    },
+    {
+      "name": "Kekri",
+      "coords": [
+        75.15092,
+        25.97197
+      ]
+    },
+    {
+      "name": "Sarwar",
+      "coords": [
+        75.02092,
+        26.06529
+      ]
+    },
+    {
+      "name": "Nasirabad",
+      "coords": [
+        74.73417,
+        26.29027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

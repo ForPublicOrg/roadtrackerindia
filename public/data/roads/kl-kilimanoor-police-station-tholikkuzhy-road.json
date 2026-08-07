@@ -1,0 +1,42 @@
+{
+  "id": "kl-kilimanoor-police-station-tholikkuzhy-road",
+  "ref": "MDR",
+  "name": "Kilimanoor Police Station Tholikkuzhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kilimanoor, Kerala",
+    "end": "Kadakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kilimanoor",
+      "Kadakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.88522,
+        8.7679
+      ]
+    },
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.91353,
+        8.78824
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

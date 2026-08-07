@@ -1,0 +1,42 @@
+{
+  "id": "sh-wb-10a",
+  "ref": "SH 10A",
+  "name": "Gangarampur–Raiganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54.2,
+  "route": {
+    "start": "Gangarampur, West Bengal",
+    "end": "Raiganj, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Gangarampur",
+      "Raiganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangarampur",
+      "coords": [
+        88.39555,
+        25.39043
+      ]
+    },
+    {
+      "name": "Raiganj",
+      "coords": [
+        88.13186,
+        25.63273
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

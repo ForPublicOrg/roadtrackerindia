@@ -1,0 +1,51 @@
+{
+  "id": "sh-ka-82",
+  "ref": "SH 82",
+  "name": "Hoskote–Madanapalle State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 86.8,
+  "route": {
+    "start": "Hoskote, Karnataka",
+    "end": "Madanapalle, Andhra Pradesh",
+    "states": [
+      "Karnataka",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Hoskote",
+      "Chintamani",
+      "Madanapalle"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hoskote",
+      "coords": [
+        77.8079,
+        13.08844
+      ]
+    },
+    {
+      "name": "Chintamani",
+      "coords": [
+        78.05999,
+        13.36975
+      ]
+    },
+    {
+      "name": "Madanapalle",
+      "coords": [
+        78.40393,
+        13.54327
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

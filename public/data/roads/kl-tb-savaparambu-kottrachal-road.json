@@ -1,0 +1,57 @@
+{
+  "id": "kl-tb-savaparambu-kottrachal-road",
+  "ref": "MDR",
+  "name": "TB - Savaparambu - Kottrachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Kanhangad, Kerala",
+    "end": "Nileshwaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanhangad",
+      "Kanhangad South",
+      "Nileshwaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanhangad",
+      "coords": [
+        75.09034,
+        12.31262
+      ]
+    },
+    {
+      "name": "Hosdurg",
+      "coords": [
+        75.09236,
+        12.29586
+      ]
+    },
+    {
+      "name": "Padannakkad",
+      "coords": [
+        75.10494,
+        12.26194
+      ]
+    },
+    {
+      "name": "Nileshwaram",
+      "coords": [
+        75.11068,
+        12.2457
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

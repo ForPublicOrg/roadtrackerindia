@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-292",
+  "ref": "SCR",
+  "name": "Sugarcane Road 292",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Melapattai, Tamil Nadu",
+    "end": "Walajapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapattai",
+      "Walajapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapattai",
+      "coords": [
+        79.4471,
+        12.86244
+      ]
+    },
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.41321,
+        12.85979
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

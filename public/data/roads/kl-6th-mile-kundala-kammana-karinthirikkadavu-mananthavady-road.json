@@ -1,0 +1,42 @@
+{
+  "id": "kl-6th-mile-kundala-kammana-karinthirikkadavu-mananthavady-road",
+  "ref": "MDR",
+  "name": "6th Mile - Kundala - Kammana - Karinthirikkadavu - Mananthavady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Mananthavady, Kerala",
+    "end": "Panamaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mananthavady",
+      "Panamaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.00557,
+        11.79846
+      ]
+    },
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.02694,
+        11.75474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

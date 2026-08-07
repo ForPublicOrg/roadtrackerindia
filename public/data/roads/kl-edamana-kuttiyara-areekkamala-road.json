@@ -1,0 +1,42 @@
+{
+  "id": "kl-edamana-kuttiyara-areekkamala-road",
+  "ref": "MDR",
+  "name": "Edamana - Kuttiyara - Areekkamala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Chemperi, Kerala",
+    "end": "Payyavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemperi",
+      "Payyavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.58309,
+        12.11722
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.55234,
+        12.09923
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

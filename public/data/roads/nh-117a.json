@@ -1,0 +1,46 @@
+{
+  "id": "nh-117a",
+  "ref": "NH 117A",
+  "name": "Bilasipara–Kokrajhar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.8,
+  "route": {
+    "start": "Bilasipara, Assam",
+    "end": "Kokrajhar, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Bilasipara",
+      "Kokrajhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bilasipara",
+      "coords": [
+        90.24437,
+        26.24865
+      ]
+    },
+    {
+      "name": "Kokrajhar",
+      "coords": [
+        90.26871,
+        26.40105
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

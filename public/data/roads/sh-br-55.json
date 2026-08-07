@@ -1,0 +1,49 @@
+{
+  "id": "sh-br-55",
+  "ref": "SH 55",
+  "name": "Begusarai–Samastipur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 76.4,
+  "route": {
+    "start": "Begusarai, Bihar",
+    "end": "Samastipur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Begusarai",
+      "Samastipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Begusarai",
+      "coords": [
+        86.13978,
+        25.42404
+      ]
+    },
+    {
+      "name": "Birpur",
+      "coords": [
+        86.12748,
+        25.52613
+      ]
+    },
+    {
+      "name": "Samastipur",
+      "coords": [
+        85.78458,
+        25.86364
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

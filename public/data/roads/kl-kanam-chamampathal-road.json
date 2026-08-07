@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanam-chamampathal-road",
+  "ref": "MDR",
+  "name": "Kanam - Chamampathal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.71896,
+        9.53938
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.6928,
+        9.54106
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

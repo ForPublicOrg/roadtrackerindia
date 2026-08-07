@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-42",
+  "ref": "SH 42",
+  "name": "Dhemaji–Gogamukh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 41.7,
+  "route": {
+    "start": "Dhemaji, Assam",
+    "end": "Gogamukh, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Dhemaji",
+      "Gogamukh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhemaji",
+      "coords": [
+        94.52753,
+        27.38842
+      ]
+    },
+    {
+      "name": "Gogamukh",
+      "coords": [
+        94.42277,
+        27.31807
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

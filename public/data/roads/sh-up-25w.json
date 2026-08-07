@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-25w",
+  "ref": "SH 25W",
+  "name": "Bhargain–Budaun State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.5,
+  "route": {
+    "start": "Bhargain, Uttar Pradesh",
+    "end": "Budaun, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bhargain",
+      "Budaun"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhargain",
+      "coords": [
+        79.23502,
+        27.79835
+      ]
+    },
+    {
+      "name": "Budaun",
+      "coords": [
+        79.35142,
+        28.02432
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

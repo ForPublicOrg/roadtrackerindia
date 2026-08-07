@@ -1,0 +1,51 @@
+{
+  "id": "kl-chirakkal-kattampally-mayyil-kololam-road",
+  "ref": "MDR",
+  "name": "Chirakkal - Kattampally - Mayyil - Kololam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.8,
+  "route": {
+    "start": "Puthiyatheru, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyatheru",
+      "Dharmasala",
+      "Karinkalkuzhi",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.36181,
+        11.91527
+      ]
+    },
+    {
+      "name": "Dharmasala",
+      "coords": [
+        75.39505,
+        11.96608
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.50452,
+        11.94077
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanam-pathanadu-road",
+  "ref": "MDR",
+  "name": "Kanam - Pathanadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Manimala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Manimala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.69437,
+        9.54173
+      ]
+    },
+    {
+      "name": "Manimala",
+      "coords": [
+        76.70059,
+        9.52714
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mangala-hospital-nadakkamukku-road",
+  "ref": "MDR",
+  "name": "Mangala Hospital - Nadakkamukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.71841,
+        8.73207
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.72,
+        8.7442
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

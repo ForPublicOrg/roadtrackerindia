@@ -1,0 +1,43 @@
+{
+  "id": "sh-rj-11a",
+  "ref": "SH 11A",
+  "name": "Ambaji–Abu Road State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 17.2,
+  "route": {
+    "start": "Ambaji, Gujarat",
+    "end": "Abu Road, Rajasthan",
+    "states": [
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Ambaji",
+      "Abu Road"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambaji",
+      "coords": [
+        72.81658,
+        24.35896
+      ]
+    },
+    {
+      "name": "Abu Road",
+      "coords": [
+        72.78149,
+        24.48106
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

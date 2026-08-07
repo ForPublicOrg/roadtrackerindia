@@ -1,0 +1,57 @@
+{
+  "id": "sh-ka-70",
+  "ref": "SH 70",
+  "name": "Belthangadi–Mulki State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.5,
+  "route": {
+    "start": "Belthangadi, Karnataka",
+    "end": "Mulki, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Belthangadi",
+      "Moodabidri",
+      "Mulki"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Belthangadi",
+      "coords": [
+        75.24219,
+        12.99382
+      ]
+    },
+    {
+      "name": "Moodabidri",
+      "coords": [
+        74.99912,
+        13.06858
+      ]
+    },
+    {
+      "name": "Kinnigoli",
+      "coords": [
+        74.85013,
+        13.06405
+      ]
+    },
+    {
+      "name": "Mulki",
+      "coords": [
+        74.7892,
+        13.08873
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

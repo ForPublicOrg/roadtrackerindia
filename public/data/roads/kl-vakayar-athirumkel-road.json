@@ -1,0 +1,42 @@
+{
+  "id": "kl-vakayar-athirumkel-road",
+  "ref": "MDR",
+  "name": "Vakayar - Athirumkel Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.85836,
+        9.18741
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.87309,
+        9.164
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

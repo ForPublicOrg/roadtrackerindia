@@ -1,0 +1,42 @@
+{
+  "id": "kl-benchkodathy-ammamkodu-kallukattam-chathappadi-road",
+  "ref": "MDR",
+  "name": "Benchkodathy - Ammamkodu - Kallukattam - Chathappadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Bovikkanam, Kerala",
+    "end": "Cherkala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Bovikkanam",
+      "Cherkala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.0837,
+        12.50945
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.10009,
+        12.53312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

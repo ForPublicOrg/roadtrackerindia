@@ -1,0 +1,42 @@
+{
+  "id": "ap-krishnadevipeta-chintapalli-road",
+  "ref": "SH",
+  "name": "Krishnadevipeta - Chintapalli Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 41.9,
+  "route": {
+    "start": "Krishnadevipeta, Andhra Pradesh",
+    "end": "Chintapalle, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Krishnadevipeta",
+      "Chintapalle"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnadevipeta",
+      "coords": [
+        82.37961,
+        17.67304
+      ]
+    },
+    {
+      "name": "Chintapalle",
+      "coords": [
+        82.3079,
+        17.86157
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

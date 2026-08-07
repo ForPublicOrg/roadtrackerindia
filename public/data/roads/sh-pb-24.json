@@ -1,0 +1,66 @@
+{
+  "id": "sh-pb-24",
+  "ref": "SH 24",
+  "name": "Dasuya–Balachaur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 106.1,
+  "route": {
+    "start": "Dasuya, Punjab",
+    "end": "Balachaur, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Dasuya",
+      "Hoshiarpur",
+      "Aslamabad",
+      "Garhshankar",
+      "Balachaur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dasuya",
+      "coords": [
+        75.65962,
+        31.81454
+      ]
+    },
+    {
+      "name": "Hoshiarpur",
+      "coords": [
+        75.9043,
+        31.54908
+      ]
+    },
+    {
+      "name": "Aslamabad",
+      "coords": [
+        75.93426,
+        31.50793
+      ]
+    },
+    {
+      "name": "Garhshankar",
+      "coords": [
+        76.14615,
+        31.21269
+      ]
+    },
+    {
+      "name": "Balachaur",
+      "coords": [
+        76.30235,
+        31.06246
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-edavannappara-elamaram-road",
+  "ref": "MDR",
+  "name": "Edavannappara - Elamaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Edavannappara, Kerala",
+    "end": "Mavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edavannappara",
+      "Mavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edavannappara",
+      "coords": [
+        75.9775,
+        11.24598
+      ]
+    },
+    {
+      "name": "Mavoor",
+      "coords": [
+        75.96531,
+        11.25974
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

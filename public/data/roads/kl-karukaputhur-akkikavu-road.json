@@ -1,0 +1,42 @@
+{
+  "id": "kl-karukaputhur-akkikavu-road",
+  "ref": "MDR",
+  "name": "Karukaputhur - Akkikavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Koottanad, Kerala",
+    "end": "Pattambi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koottanad",
+      "Pattambi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.12,
+        10.70554
+      ]
+    },
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.16002,
+        10.73332
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

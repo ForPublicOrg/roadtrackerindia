@@ -1,0 +1,52 @@
+{
+  "id": "sh-pb-8",
+  "ref": "SH 8",
+  "name": "Pehowa–Fatehgarh Sahib State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 84.3,
+  "route": {
+    "start": "Pehowa, Haryana",
+    "end": "Fatehgarh Sahib, Punjab",
+    "states": [
+      "Haryana",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Pehowa",
+      "Sanaur",
+      "Patiala",
+      "Fatehgarh Sahib"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pehowa",
+      "coords": [
+        76.54594,
+        30.07419
+      ]
+    },
+    {
+      "name": "Patiala",
+      "coords": [
+        76.39572,
+        30.346
+      ]
+    },
+    {
+      "name": "Fatehgarh Sahib",
+      "coords": [
+        76.40104,
+        30.64291
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-nellimukal-thengamam-road",
+  "ref": "MDR",
+  "name": "Nellimukal - Thengamam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Moonnalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Moonnalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.65647,
+        9.12174
+      ]
+    },
+    {
+      "name": "Moonnalam",
+      "coords": [
+        76.69775,
+        9.12209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

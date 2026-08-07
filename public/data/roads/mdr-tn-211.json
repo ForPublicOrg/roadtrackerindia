@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-211",
+  "ref": "MDR 211",
+  "name": "Koranadu–Nannilam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.8,
+  "route": {
+    "start": "Koranadu, Tamil Nadu",
+    "end": "Nannilam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Koranadu",
+      "Nannilam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koranadu",
+      "coords": [
+        79.57701,
+        11.07686
+      ]
+    },
+    {
+      "name": "Nannilam",
+      "coords": [
+        79.57343,
+        10.9904
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

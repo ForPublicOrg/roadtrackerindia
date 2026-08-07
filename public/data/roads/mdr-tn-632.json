@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-632",
+  "ref": "MDR 632",
+  "name": "V.S.Nagar–Dheena Nagar Naval Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.7,
+  "route": {
+    "start": "V.S.Nagar, Tamil Nadu",
+    "end": "Dheena Nagar Naval Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "V.S.Nagar",
+      "Dheena Nagar Naval Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.24124,
+        10.95694
+      ]
+    },
+    {
+      "name": "Dheena Nagar Naval Nagar",
+      "coords": [
+        78.27384,
+        10.83206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvanchoor-chengalam-road",
+  "ref": "MDR",
+  "name": "Thiruvanchoor - Chengalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.9,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Kidangoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Kidangoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.72033,
+        9.6019
+      ]
+    },
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.60628,
+        9.63567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

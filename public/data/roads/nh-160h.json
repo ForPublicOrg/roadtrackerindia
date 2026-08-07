@@ -1,0 +1,62 @@
+{
+  "id": "nh-160h",
+  "ref": "NH 160H",
+  "name": "Manmad–Shahada National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 160.4,
+  "route": {
+    "start": "Manmad, Maharashtra",
+    "end": "Shahada, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Manmad",
+      "Malegaon",
+      "Dondaicha",
+      "Shahada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manmad",
+      "coords": [
+        74.43956,
+        20.26158
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        74.52588,
+        20.55448
+      ]
+    },
+    {
+      "name": "Dondaicha",
+      "coords": [
+        74.55765,
+        21.32518
+      ]
+    },
+    {
+      "name": "Shahada",
+      "coords": [
+        74.47634,
+        21.52894
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

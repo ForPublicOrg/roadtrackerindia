@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallachi-valayam-chehuli-puthukyam-road",
+  "ref": "MDR",
+  "name": "Kallachi Valayam Chehuli Puthukyam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Thottilpalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Thottilpalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.66731,
+        11.69224
+      ]
+    },
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.71714,
+        11.74347
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

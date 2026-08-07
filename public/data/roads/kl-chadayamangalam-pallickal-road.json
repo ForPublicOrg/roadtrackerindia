@@ -1,0 +1,43 @@
+{
+  "id": "kl-chadayamangalam-pallickal-road",
+  "ref": "MDR",
+  "name": "Chadayamangalam - Pallickal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Chadayamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Ayoor",
+      "Chadayamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.80934,
+        8.82412
+      ]
+    },
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.86937,
+        8.87299
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

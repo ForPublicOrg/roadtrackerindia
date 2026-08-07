@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-50",
+  "ref": "ODR 50",
+  "name": "Tiruvallur–Kadambattur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Tiruvallur, Tamil Nadu",
+    "end": "Kadambattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvallur",
+      "Kadambattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvallur",
+      "coords": [
+        79.90767,
+        13.10318
+      ]
+    },
+    {
+      "name": "Kadambattur",
+      "coords": [
+        79.88206,
+        13.09469
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

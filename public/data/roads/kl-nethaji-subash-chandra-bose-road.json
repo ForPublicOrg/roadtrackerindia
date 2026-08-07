@@ -1,0 +1,43 @@
+{
+  "id": "kl-nethaji-subash-chandra-bose-road",
+  "ref": "MDR",
+  "name": "Nethaji Subash Chandra Bose Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Vellakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha",
+      "Vellakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.34319,
+        9.47038
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.34418,
+        9.48693
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

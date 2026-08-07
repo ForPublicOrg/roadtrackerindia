@@ -1,0 +1,62 @@
+{
+  "id": "nh-752c",
+  "ref": "NH 752C",
+  "name": "Ichhawar–Jirapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 138.8,
+  "route": {
+    "start": "Ichhawar, Madhya Pradesh",
+    "end": "Jirapur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ichhawar",
+      "Shujalpur",
+      "Pachore",
+      "Jirapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ichhawar",
+      "coords": [
+        76.71389,
+        23.03599
+      ]
+    },
+    {
+      "name": "Shujalpur",
+      "coords": [
+        76.7079,
+        23.3955
+      ]
+    },
+    {
+      "name": "Pachore",
+      "coords": [
+        76.7337,
+        23.71159
+      ]
+    },
+    {
+      "name": "Jirapur",
+      "coords": [
+        76.37689,
+        24.0165
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

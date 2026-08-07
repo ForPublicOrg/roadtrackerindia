@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-60c",
+  "ref": "MDR 60C",
+  "name": "Fatehpur–Dalmau District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 30.4,
+  "route": {
+    "start": "Fatehpur, Uttar Pradesh",
+    "end": "Dalmau, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Fatehpur",
+      "Dalmau"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fatehpur",
+      "coords": [
+        80.62475,
+        26.09425
+      ]
+    },
+    {
+      "name": "Dalmau",
+      "coords": [
+        80.81545,
+        26.28624
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

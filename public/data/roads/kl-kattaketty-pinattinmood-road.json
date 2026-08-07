@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattaketty-pinattinmood-road",
+  "ref": "MDR",
+  "name": "Kattaketty - Pinattinmood Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Puthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Puthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.73272,
+        8.98359
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.76635,
+        8.99908
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

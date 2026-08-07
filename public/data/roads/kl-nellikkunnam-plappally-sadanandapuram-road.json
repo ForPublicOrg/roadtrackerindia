@@ -1,0 +1,42 @@
+{
+  "id": "kl-nellikkunnam-plappally-sadanandapuram-road",
+  "ref": "MDR",
+  "name": "Nellikkunnam - Plappally - Sadanandapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.77731,
+        8.96828
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.79436,
+        8.9743
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

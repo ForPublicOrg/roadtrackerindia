@@ -1,0 +1,43 @@
+{
+  "id": "kl-arunassery-njeezhoor-kattampakku-mukkavalakunnu-road",
+  "ref": "MDR",
+  "name": "Arunassery (Njeezhoor) - Kattampakku - Mukkavalakunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Kuravilangad",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.55399,
+        9.78148
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.5274,
+        9.79254
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

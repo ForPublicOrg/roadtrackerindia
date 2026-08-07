@@ -1,0 +1,50 @@
+{
+  "id": "kl-kadungathukundu-edarikkode-road",
+  "ref": "MDR",
+  "name": "Kadungathukundu - Edarikkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Kadungathukundu, Kerala",
+    "end": "Edarikkod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadungathukundu",
+      "Kottakkal",
+      "Edarikkod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadungathukundu",
+      "coords": [
+        75.97543,
+        10.93975
+      ]
+    },
+    {
+      "name": "Kottakkal",
+      "coords": [
+        75.97917,
+        10.98309
+      ]
+    },
+    {
+      "name": "Edarikkod",
+      "coords": [
+        75.97634,
+        10.98755
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

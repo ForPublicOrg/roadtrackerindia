@@ -1,0 +1,66 @@
+{
+  "id": "mdr-pb-43",
+  "ref": "MDR 43",
+  "name": "Barnala–Jaito District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 56.2,
+  "route": {
+    "start": "Barnala, Punjab",
+    "end": "Jaito, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Barnala",
+      "Bhadaur",
+      "Bhai Rupa",
+      "Bhagta Bhai Ka",
+      "Jaito"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barnala",
+      "coords": [
+        75.43299,
+        30.40506
+      ]
+    },
+    {
+      "name": "Bhadaur",
+      "coords": [
+        75.32953,
+        30.46923
+      ]
+    },
+    {
+      "name": "Bhai Rupa",
+      "coords": [
+        75.21854,
+        30.48664
+      ]
+    },
+    {
+      "name": "Bhagta Bhai Ka",
+      "coords": [
+        75.09698,
+        30.48276
+      ]
+    },
+    {
+      "name": "Jaito",
+      "coords": [
+        74.88782,
+        30.44649
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

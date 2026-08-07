@@ -1,0 +1,55 @@
+{
+  "id": "nh-135",
+  "ref": "NH 135",
+  "name": "Mirzapur–Gurh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 142.4,
+  "route": {
+    "start": "Mirzapur, Uttar Pradesh",
+    "end": "Gurh, Madhya Pradesh",
+    "states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mirzapur",
+      "Mauganj",
+      "Gurh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mirzapur",
+      "coords": [
+        82.67481,
+        25.10784
+      ]
+    },
+    {
+      "name": "Mauganj",
+      "coords": [
+        81.88187,
+        24.67986
+      ]
+    },
+    {
+      "name": "Gurh",
+      "coords": [
+        81.54679,
+        24.65183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

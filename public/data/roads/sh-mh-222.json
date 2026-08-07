@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-222",
+  "ref": "SH 222",
+  "name": "Udgir–Loha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 76.7,
+  "route": {
+    "start": "Udgir, Maharashtra",
+    "end": "Loha, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Udgir",
+      "Kandhar",
+      "Loha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Udgir",
+      "coords": [
+        77.12353,
+        18.38916
+      ]
+    },
+    {
+      "name": "Kandhar",
+      "coords": [
+        77.19188,
+        18.86577
+      ]
+    },
+    {
+      "name": "Loha",
+      "coords": [
+        77.12401,
+        18.95476
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

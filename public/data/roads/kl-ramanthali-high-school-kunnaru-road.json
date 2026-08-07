@@ -1,0 +1,42 @@
+{
+  "id": "kl-ramanthali-high-school-kunnaru-road",
+  "ref": "MDR",
+  "name": "Ramanthali High School - Kunnaru Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Kunhimangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Kunhimangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.19014,
+        12.06057
+      ]
+    },
+    {
+      "name": "Kunhimangalam",
+      "coords": [
+        75.21555,
+        12.05875
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

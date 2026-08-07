@@ -1,0 +1,49 @@
+{
+  "id": "kl-malayinkeezhu-pappanamkode-road",
+  "ref": "MDR",
+  "name": "Malayinkeezhu - Pappanamkode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Malayinkeezhu, Kerala",
+    "end": "Nemom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Malayinkeezhu",
+      "Nemom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.03784,
+        8.49017
+      ]
+    },
+    {
+      "name": "Thirumala",
+      "coords": [
+        77.00773,
+        8.47621
+      ]
+    },
+    {
+      "name": "Nemom",
+      "coords": [
+        77.00438,
+        8.46946
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

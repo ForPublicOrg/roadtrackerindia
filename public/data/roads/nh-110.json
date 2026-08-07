@@ -1,0 +1,70 @@
+{
+  "id": "nh-110",
+  "ref": "NH 110",
+  "name": "Darjeeling–Matigara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 79.6,
+  "route": {
+    "start": "Darjeeling, West Bengal",
+    "end": "Matigara, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Darjeeling",
+      "Sonada",
+      "Kurseong",
+      "Siliguri",
+      "Matigara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Darjeeling",
+      "coords": [
+        88.27805,
+        27.05987
+      ]
+    },
+    {
+      "name": "Sonada",
+      "coords": [
+        88.27494,
+        26.96028
+      ]
+    },
+    {
+      "name": "Kurseong",
+      "coords": [
+        88.27709,
+        26.87905
+      ]
+    },
+    {
+      "name": "Sukna Cantonment",
+      "coords": [
+        88.3567,
+        26.80066
+      ]
+    },
+    {
+      "name": "Siliguri",
+      "coords": [
+        88.40782,
+        26.73326
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

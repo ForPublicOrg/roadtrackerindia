@@ -1,0 +1,58 @@
+{
+  "id": "sh-kl-56",
+  "ref": "SH 56",
+  "name": "Kottachery–Panathur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 44,
+  "route": {
+    "start": "Kottachery, Kerala",
+    "end": "Panathur, Karnataka",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottachery",
+      "Kanhangad",
+      "Odayamchal",
+      "Panathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottachery",
+      "coords": [
+        75.08539,
+        12.32437
+      ]
+    },
+    {
+      "name": "Kanhangad",
+      "coords": [
+        75.0896,
+        12.32601
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.20438,
+        12.4019
+      ]
+    },
+    {
+      "name": "Panathur",
+      "coords": [
+        75.35247,
+        12.45787
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

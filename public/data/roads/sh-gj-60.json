@@ -1,0 +1,75 @@
+{
+  "id": "sh-gj-60",
+  "ref": "SH 60",
+  "name": "Kheda–Kanjari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 104,
+  "route": {
+    "start": "Kheda, Gujarat",
+    "end": "Kanjari, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kheda",
+      "Mahemdavad",
+      "Mahudha",
+      "Dakor",
+      "Umreth",
+      "Nadiad",
+      "Kanjari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kheda",
+      "coords": [
+        72.68627,
+        22.74812
+      ]
+    },
+    {
+      "name": "Mahemdavad",
+      "coords": [
+        72.75925,
+        22.81719
+      ]
+    },
+    {
+      "name": "Mahudha",
+      "coords": [
+        72.94049,
+        22.81463
+      ]
+    },
+    {
+      "name": "Dakor",
+      "coords": [
+        73.15531,
+        22.7496
+      ]
+    },
+    {
+      "name": "Anand",
+      "coords": [
+        72.95904,
+        22.5598
+      ]
+    },
+    {
+      "name": "Nadiad",
+      "coords": [
+        72.89042,
+        22.63909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-ka-111",
+  "ref": "SH 111",
+  "name": "Ramanagara–Magadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 20.6,
+  "route": {
+    "start": "Ramanagara, Karnataka",
+    "end": "Magadi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Ramanagara",
+      "Magadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramanagara",
+      "coords": [
+        77.22066,
+        12.77857
+      ]
+    },
+    {
+      "name": "Magadi",
+      "coords": [
+        77.09085,
+        12.85853
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

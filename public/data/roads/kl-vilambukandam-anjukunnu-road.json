@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilambukandam-anjukunnu-road",
+  "ref": "MDR",
+  "name": "Vilambukandam - Anjukunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.03745,
+        11.75239
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.03853,
+        11.71233
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

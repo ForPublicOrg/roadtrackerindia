@@ -1,0 +1,42 @@
+{
+  "id": "kl-kollamchina-pukayoor-road",
+  "ref": "MDR",
+  "name": "Kollamchina - Pukayoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Tirurangadi, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Tirurangadi",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.92836,
+        11.08
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.94222,
+        11.10316
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

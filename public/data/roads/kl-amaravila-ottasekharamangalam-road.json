@@ -1,0 +1,42 @@
+{
+  "id": "kl-amaravila-ottasekharamangalam-road",
+  "ref": "MDR",
+  "name": "Amaravila - Ottasekharamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Neyyatinkara, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neyyatinkara",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.10501,
+        8.38903
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.12826,
+        8.47052
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

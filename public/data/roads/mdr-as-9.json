@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-9",
+  "ref": "MDR 9",
+  "name": "Ramkrishna Nagar–Lala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.8,
+  "route": {
+    "start": "Ramkrishna Nagar, Assam",
+    "end": "Lala, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Ramkrishna Nagar",
+      "Lala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramkrishna Nagar",
+      "coords": [
+        92.40171,
+        24.58909
+      ]
+    },
+    {
+      "name": "Lala",
+      "coords": [
+        92.50787,
+        24.59614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

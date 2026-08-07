@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalleli-oottupara-road",
+  "ref": "MDR",
+  "name": "Kalleli - Oottupara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.87805,
+        9.2053
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.86493,
+        9.20419
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

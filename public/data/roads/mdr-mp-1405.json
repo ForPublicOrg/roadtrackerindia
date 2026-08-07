@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1405",
+  "ref": "MDR 1405",
+  "name": "Burhar–Shahdol District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 66.6,
+  "route": {
+    "start": "Burhar, Madhya Pradesh",
+    "end": "Shahdol, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Burhar",
+      "Shahdol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Burhar",
+      "coords": [
+        81.53423,
+        23.22485
+      ]
+    },
+    {
+      "name": "Shahdol",
+      "coords": [
+        81.40691,
+        23.49122
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

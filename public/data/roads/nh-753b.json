@@ -1,0 +1,79 @@
+{
+  "id": "nh-753b",
+  "ref": "NH 753B",
+  "name": "Sakri–Netrang National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 187.9,
+  "route": {
+    "start": "Sakri, Maharashtra",
+    "end": "Netrang, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Sakri",
+      "Nandurbar",
+      "Taloda",
+      "Akkalkuva",
+      "Dediapada",
+      "Netrang"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sakri",
+      "coords": [
+        74.34824,
+        20.994
+      ]
+    },
+    {
+      "name": "Nandurbar",
+      "coords": [
+        74.24981,
+        21.36005
+      ]
+    },
+    {
+      "name": "Taloda",
+      "coords": [
+        74.20512,
+        21.56969
+      ]
+    },
+    {
+      "name": "Akkalkuva",
+      "coords": [
+        74.01461,
+        21.55324
+      ]
+    },
+    {
+      "name": "Dediapada",
+      "coords": [
+        73.59116,
+        21.62419
+      ]
+    },
+    {
+      "name": "Netrang",
+      "coords": [
+        73.36734,
+        21.63835
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

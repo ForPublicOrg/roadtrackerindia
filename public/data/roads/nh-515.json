@@ -1,0 +1,55 @@
+{
+  "id": "nh-515",
+  "ref": "NH 515",
+  "name": "Kulajan–Pasighat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 112.1,
+  "route": {
+    "start": "Kulajan, Assam",
+    "end": "Pasighat, Arunachal Pradesh",
+    "states": [
+      "Assam",
+      "Arunachal Pradesh"
+    ],
+    "majorCities": [
+      "Kulajan",
+      "Jonai",
+      "Pasighat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kulajan",
+      "coords": [
+        94.72695,
+        27.52658
+      ]
+    },
+    {
+      "name": "Jonai",
+      "coords": [
+        95.22595,
+        27.82859
+      ]
+    },
+    {
+      "name": "Pasighat",
+      "coords": [
+        95.33188,
+        28.05857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

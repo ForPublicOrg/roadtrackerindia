@@ -1,0 +1,42 @@
+{
+  "id": "kl-lalbag-maskumari-kurudappadavu-road",
+  "ref": "MDR",
+  "name": "Lalbag Maskumari Kurudappadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.99123,
+        12.7289
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.99034,
+        12.69198
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

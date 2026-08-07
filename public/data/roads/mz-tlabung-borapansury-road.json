@@ -1,0 +1,42 @@
+{
+  "id": "mz-tlabung-borapansury-road",
+  "ref": "SH",
+  "name": "Tlabung-Borapansury Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 36.4,
+  "route": {
+    "start": "Kamalanagar, Mizoram",
+    "end": "Barkal, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Kamalanagar",
+      "Barkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kamalanagar",
+      "coords": [
+        92.52932,
+        22.70705
+      ]
+    },
+    {
+      "name": "Barkal",
+      "coords": [
+        92.47043,
+        22.90663
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

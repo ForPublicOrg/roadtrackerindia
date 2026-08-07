@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-188",
+  "ref": "SH 188",
+  "name": "Bhusawal–Khamgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 134.5,
+  "route": {
+    "start": "Bhusawal, Maharashtra",
+    "end": "Khamgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bhusawal",
+      "Jamner",
+      "Motala",
+      "Khamgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhusawal",
+      "coords": [
+        75.77926,
+        21.02857
+      ]
+    },
+    {
+      "name": "Jamner",
+      "coords": [
+        75.77834,
+        20.80687
+      ]
+    },
+    {
+      "name": "Motala",
+      "coords": [
+        76.20441,
+        20.67353
+      ]
+    },
+    {
+      "name": "Khamgaon",
+      "coords": [
+        76.53789,
+        20.71584
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

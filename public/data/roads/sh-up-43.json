@@ -1,0 +1,59 @@
+{
+  "id": "sh-up-43",
+  "ref": "SH 43",
+  "name": "Cantonment–Chandausi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 159.4,
+  "route": {
+    "start": "Cantonment, Uttar Pradesh",
+    "end": "Chandausi, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Cantonment",
+      "Fatehgarh",
+      "Budaun",
+      "Wazirganj",
+      "Chandausi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cantonment",
+      "coords": [
+        79.64942,
+        27.42234
+      ]
+    },
+    {
+      "name": "Budaun",
+      "coords": [
+        79.13042,
+        28.04343
+      ]
+    },
+    {
+      "name": "Wazirganj",
+      "coords": [
+        79.05754,
+        28.20633
+      ]
+    },
+    {
+      "name": "Chandausi",
+      "coords": [
+        78.79543,
+        28.45339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

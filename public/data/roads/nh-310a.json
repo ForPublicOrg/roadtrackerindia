@@ -1,0 +1,54 @@
+{
+  "id": "nh-310a",
+  "ref": "NH 310A",
+  "name": "Lachung–Gangtok National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 156.3,
+  "route": {
+    "start": "Lachung, Sikkim",
+    "end": "Gangtok, Sikkim",
+    "states": [
+      "Sikkim"
+    ],
+    "majorCities": [
+      "Lachung",
+      "Mangan",
+      "Gangtok"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lachung",
+      "coords": [
+        88.73384,
+        27.93038
+      ]
+    },
+    {
+      "name": "Mangan",
+      "coords": [
+        88.5347,
+        27.50072
+      ]
+    },
+    {
+      "name": "Gangtok",
+      "coords": [
+        88.61555,
+        27.37055
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

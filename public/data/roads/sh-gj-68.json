@@ -1,0 +1,59 @@
+{
+  "id": "sh-gj-68",
+  "ref": "SH 68",
+  "name": "Naroda–Bayad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 73.4,
+  "route": {
+    "start": "Naroda, Gujarat",
+    "end": "Bayad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Naroda",
+      "Sahijpur",
+      "Dahegam",
+      "Talod",
+      "Bayad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naroda",
+      "coords": [
+        72.64863,
+        23.07157
+      ]
+    },
+    {
+      "name": "Dahegam",
+      "coords": [
+        72.82193,
+        23.17137
+      ]
+    },
+    {
+      "name": "Talod",
+      "coords": [
+        72.96898,
+        23.3133
+      ]
+    },
+    {
+      "name": "Bayad",
+      "coords": [
+        73.20864,
+        23.34815
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nh-705",
+  "ref": "NH 705",
+  "name": "Theog–Sawra National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 67.2,
+  "route": {
+    "start": "Theog, Himachal Pradesh",
+    "end": "Sawra, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Theog",
+      "Jubbal",
+      "Sawra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Theog",
+      "coords": [
+        77.35857,
+        31.11983
+      ]
+    },
+    {
+      "name": "Jubbal",
+      "coords": [
+        77.66622,
+        31.10454
+      ]
+    },
+    {
+      "name": "Sawra",
+      "coords": [
+        77.74598,
+        31.12602
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

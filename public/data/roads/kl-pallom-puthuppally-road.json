@@ -1,0 +1,58 @@
+{
+  "id": "kl-pallom-puthuppally-road",
+  "ref": "MDR",
+  "name": "Pallom - Puthuppally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Nattakom",
+      "Devalokam",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.51292,
+        9.53598
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.51919,
+        9.5449
+      ]
+    },
+    {
+      "name": "Devalokam",
+      "coords": [
+        76.53639,
+        9.55606
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.5621,
+        9.5505
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

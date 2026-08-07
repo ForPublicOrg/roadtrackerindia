@@ -1,0 +1,62 @@
+{
+  "id": "nh-205k",
+  "ref": "NH 205K",
+  "name": "Samrala–Rupnagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.9,
+  "route": {
+    "start": "Samrala, Punjab",
+    "end": "Rupnagar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Samrala",
+      "Machhiwara",
+      "Chamkaur Sahib",
+      "Rupnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samrala",
+      "coords": [
+        76.11156,
+        30.85032
+      ]
+    },
+    {
+      "name": "Machhiwara",
+      "coords": [
+        76.20827,
+        30.89109
+      ]
+    },
+    {
+      "name": "Chamkaur Sahib",
+      "coords": [
+        76.39977,
+        30.90132
+      ]
+    },
+    {
+      "name": "Rupnagar",
+      "coords": [
+        76.51985,
+        30.94329
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

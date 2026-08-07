@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-91",
+  "ref": "SH 91",
+  "name": "Dhariawad–Simalwara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 150,
+  "route": {
+    "start": "Dhariawad, Rajasthan",
+    "end": "Simalwara, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dhariawad",
+      "Sagwara",
+      "Galiakot",
+      "Simalwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhariawad",
+      "coords": [
+        74.44271,
+        24.10303
+      ]
+    },
+    {
+      "name": "Sagwara",
+      "coords": [
+        74.02086,
+        23.67386
+      ]
+    },
+    {
+      "name": "Galiakot",
+      "coords": [
+        73.98688,
+        23.55443
+      ]
+    },
+    {
+      "name": "Simalwara",
+      "coords": [
+        73.76576,
+        23.52534
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

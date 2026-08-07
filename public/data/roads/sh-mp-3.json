@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-3",
+  "ref": "SH 3",
+  "name": "Gwalior–Pichore State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 132.8,
+  "route": {
+    "start": "Gwalior, Madhya Pradesh",
+    "end": "Pichore, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gwalior",
+      "Bhitarwar",
+      "Karera",
+      "Pichore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gwalior",
+      "coords": [
+        78.14024,
+        26.14748
+      ]
+    },
+    {
+      "name": "Bhitarwar",
+      "coords": [
+        78.11545,
+        25.79869
+      ]
+    },
+    {
+      "name": "Karera",
+      "coords": [
+        78.12443,
+        25.45335
+      ]
+    },
+    {
+      "name": "Pichore",
+      "coords": [
+        78.18077,
+        25.19472
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ammadam-mullakkara-chenam-road",
+  "ref": "MDR",
+  "name": "Ammadam Mullakkara Chenam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Cheerachi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Cheerachi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.1878,
+        10.45596
+      ]
+    },
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.18501,
+        10.44441
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

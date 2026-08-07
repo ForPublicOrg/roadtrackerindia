@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-135",
+  "ref": "SH 135",
+  "name": "Badami–Nidagundi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 69.9,
+  "route": {
+    "start": "Badami, Karnataka",
+    "end": "Nidagundi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Badami",
+      "Guledagudda",
+      "Nidagundi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badami",
+      "coords": [
+        75.70445,
+        15.88873
+      ]
+    },
+    {
+      "name": "Guledagudda",
+      "coords": [
+        75.79173,
+        16.04716
+      ]
+    },
+    {
+      "name": "Nidagundi",
+      "coords": [
+        75.90192,
+        16.31585
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

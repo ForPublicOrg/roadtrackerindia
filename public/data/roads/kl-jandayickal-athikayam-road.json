@@ -1,0 +1,42 @@
+{
+  "id": "kl-jandayickal-athikayam-road",
+  "ref": "MDR",
+  "name": "Jandayickal - Athikayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.83909,
+        9.38409
+      ]
+    },
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.80477,
+        9.3707
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

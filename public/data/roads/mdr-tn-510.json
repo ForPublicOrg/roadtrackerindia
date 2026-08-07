@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-510",
+  "ref": "MDR 510",
+  "name": "Udumalaipettai–Komaralingam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.3,
+  "route": {
+    "start": "Udumalaipettai, Tamil Nadu",
+    "end": "Komaralingam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Udumalaipettai",
+      "Komaralingam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Udumalaipettai",
+      "coords": [
+        77.25833,
+        10.58049
+      ]
+    },
+    {
+      "name": "Komaralingam",
+      "coords": [
+        77.3544,
+        10.48848
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

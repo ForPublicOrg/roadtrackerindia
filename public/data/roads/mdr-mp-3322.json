@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-3322",
+  "ref": "MDR 3322",
+  "name": "Nasrullahganj–Banapura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.8,
+  "route": {
+    "start": "Nasrullahganj, Madhya Pradesh",
+    "end": "Banapura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Nasrullahganj",
+      "Seoni Malwa",
+      "Banapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nasrullahganj",
+      "coords": [
+        77.37008,
+        22.60236
+      ]
+    },
+    {
+      "name": "Seoni Malwa",
+      "coords": [
+        77.48353,
+        22.47447
+      ]
+    },
+    {
+      "name": "Banapura",
+      "coords": [
+        77.48642,
+        22.47264
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

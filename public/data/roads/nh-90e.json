@@ -1,0 +1,46 @@
+{
+  "id": "nh-90e",
+  "ref": "NH 90E",
+  "name": "Mubarakpur–Rajesultanpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 35.4,
+  "route": {
+    "start": "Mubarakpur, Uttar Pradesh",
+    "end": "Rajesultanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mubarakpur",
+      "Rajesultanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mubarakpur",
+      "coords": [
+        83.29096,
+        26.07966
+      ]
+    },
+    {
+      "name": "Rajesultanpur",
+      "coords": [
+        83.11401,
+        26.25569
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kl-mylakkadu-kannanalloor-road",
+  "ref": "MDR",
+  "name": "Mylakkadu - Kannanalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kannanalloor, Kerala",
+    "end": "Tirumukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannanalloor",
+      "Kottiyam",
+      "Chathannoor",
+      "Tirumukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannanalloor",
+      "coords": [
+        76.68064,
+        8.89004
+      ]
+    },
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.68585,
+        8.87438
+      ]
+    },
+    {
+      "name": "Chathannoor",
+      "coords": [
+        76.69042,
+        8.86363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

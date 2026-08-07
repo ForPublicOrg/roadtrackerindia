@@ -1,0 +1,42 @@
+{
+  "id": "kl-neriamanagalam-inchathotty-road",
+  "ref": "MDR",
+  "name": "Neriamanagalam - Inchathotty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Neriamangalam, Kerala",
+    "end": "Kothamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neriamangalam",
+      "Kothamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.77358,
+        10.06503
+      ]
+    },
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.72354,
+        10.09619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

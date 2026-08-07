@@ -1,0 +1,99 @@
+{
+  "id": "bengaluru-business-corridor",
+  "ref": "NH",
+  "name": "Bengaluru Business Corridor",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 99.8,
+  "route": {
+    "start": "Chikka Banavara, Karnataka",
+    "end": "TC Palya, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Chikka Banavara",
+      "Madhavara",
+      "Yelahanka",
+      "Hoskote",
+      "Electronic City",
+      "TC Palya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chikka Banavara",
+      "coords": [
+        77.48345,
+        13.07976
+      ]
+    },
+    {
+      "name": "Madhavara",
+      "coords": [
+        77.47701,
+        13.0539
+      ]
+    },
+    {
+      "name": "Dr. Shivaram Karanth Layout",
+      "coords": [
+        77.52245,
+        13.11783
+      ]
+    },
+    {
+      "name": "Yelahanka",
+      "coords": [
+        77.61374,
+        13.10434
+      ]
+    },
+    {
+      "name": "Hoskote",
+      "coords": [
+        77.76946,
+        13.03148
+      ]
+    },
+    {
+      "name": "Varthur",
+      "coords": [
+        77.75174,
+        12.93549
+      ]
+    },
+    {
+      "name": "Sarjapura",
+      "coords": [
+        77.73401,
+        12.89253
+      ]
+    },
+    {
+      "name": "Electronic City",
+      "coords": [
+        77.67948,
+        12.83647
+      ]
+    },
+    {
+      "name": "TC Palya",
+      "coords": [
+        77.73917,
+        13.04061
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

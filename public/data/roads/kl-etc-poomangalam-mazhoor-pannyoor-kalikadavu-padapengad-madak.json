@@ -1,0 +1,43 @@
+{
+  "id": "kl-etc-poomangalam-mazhoor-pannyoor-kalikadavu-padapengad-madak",
+  "ref": "MDR",
+  "name": "ETC - Poomangalam Mazhoor Pannyoor Kalikadavu Padapengad - Madakkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Kappalam, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kappalam",
+      "Taliparamba",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kappalam",
+      "coords": [
+        75.3846,
+        12.04579
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.42402,
+        12.12474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

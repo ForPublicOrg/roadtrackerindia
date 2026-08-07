@@ -1,0 +1,57 @@
+{
+  "id": "mdr-kl-214",
+  "ref": "MDR 214",
+  "name": "Iritty–Kunithalamukku District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.4,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Peravoor",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.67537,
+        11.98378
+      ]
+    },
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.70464,
+        11.9385
+      ]
+    },
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.73023,
+        11.90242
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.73047,
+        11.89753
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

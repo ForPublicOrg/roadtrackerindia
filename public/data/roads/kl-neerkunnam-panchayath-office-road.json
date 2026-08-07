@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerkunnam-panchayath-office-road",
+  "ref": "MDR",
+  "name": "Neerkunnam - Panchayath Office Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.35091,
+        9.40651
+      ]
+    },
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.36275,
+        9.40819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

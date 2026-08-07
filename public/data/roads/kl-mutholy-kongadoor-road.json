@@ -1,0 +1,42 @@
+{
+  "id": "kl-mutholy-kongadoor-road",
+  "ref": "MDR",
+  "name": "Mutholy Kongadoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.6287,
+        9.66065
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.6574,
+        9.68079
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

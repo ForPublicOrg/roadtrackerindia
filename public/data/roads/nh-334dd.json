@@ -1,0 +1,70 @@
+{
+  "id": "nh-334dd",
+  "ref": "NH 334DD",
+  "name": "Tappal–Bulandshahr National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 44.6,
+  "route": {
+    "start": "Tappal, Uttar Pradesh",
+    "end": "Bulandshahr, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Tappal",
+      "Jewar",
+      "YEIDA Sector 32",
+      "YEIDA Sector 33",
+      "Bulandshahr"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tappal",
+      "coords": [
+        77.55985,
+        28.07982
+      ]
+    },
+    {
+      "name": "Jewar",
+      "coords": [
+        77.56034,
+        28.1227
+      ]
+    },
+    {
+      "name": "YEIDA Sector 32",
+      "coords": [
+        77.62448,
+        28.2004
+      ]
+    },
+    {
+      "name": "YEIDA Sector 33",
+      "coords": [
+        77.63456,
+        28.2257
+      ]
+    },
+    {
+      "name": "Bulandshahr",
+      "coords": [
+        77.82437,
+        28.38324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

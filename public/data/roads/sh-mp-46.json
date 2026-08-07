@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-46",
+  "ref": "SH 46",
+  "name": "Seoni–Sausar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 174.4,
+  "route": {
+    "start": "Seoni, Madhya Pradesh",
+    "end": "Sausar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Seoni",
+      "Chaurai",
+      "Sausar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Seoni",
+      "coords": [
+        79.54061,
+        22.24072
+      ]
+    },
+    {
+      "name": "Chaurai",
+      "coords": [
+        79.24921,
+        22.05382
+      ]
+    },
+    {
+      "name": "Sausar",
+      "coords": [
+        78.74816,
+        21.48858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

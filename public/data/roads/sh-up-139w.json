@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-139w",
+  "ref": "SH 139W",
+  "name": "Mant–Khair State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 43.1,
+  "route": {
+    "start": "Mant, Uttar Pradesh",
+    "end": "Khair, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mant",
+      "Khair"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mant",
+      "coords": [
+        77.50761,
+        27.71393
+      ]
+    },
+    {
+      "name": "Khair",
+      "coords": [
+        77.79948,
+        27.96205
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

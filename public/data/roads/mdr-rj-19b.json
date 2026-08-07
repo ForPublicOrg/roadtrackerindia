@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-19b",
+  "ref": "MDR 19B",
+  "name": "Jaisalmer–Pokaran District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 45.2,
+  "route": {
+    "start": "Jaisalmer, Rajasthan",
+    "end": "Pokaran, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jaisalmer",
+      "Pokaran"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jaisalmer",
+      "coords": [
+        71.06491,
+        26.93353
+      ]
+    },
+    {
+      "name": "Pokaran",
+      "coords": [
+        71.23679,
+        27.27935
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

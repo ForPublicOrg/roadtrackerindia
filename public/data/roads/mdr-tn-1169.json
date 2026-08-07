@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1169",
+  "ref": "MDR 1169",
+  "name": "Tirukkovilur–Tiruvannamalai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.6,
+  "route": {
+    "start": "Tirukkovilur, Tamil Nadu",
+    "end": "Tiruvannamalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tirukkovilur",
+      "Tiruvannamalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirukkovilur",
+      "coords": [
+        79.13553,
+        12.06464
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.08255,
+        12.03593
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthiyakavu-chakkuvally-road",
+  "ref": "MDR",
+  "name": "Puthiyakavu - Chakkuvally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Puthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Puthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.53201,
+        9.0772
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.64518,
+        9.09036
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

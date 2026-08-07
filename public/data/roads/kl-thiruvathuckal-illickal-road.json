@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvathuckal-illickal-road",
+  "ref": "MDR",
+  "name": "Thiruvathuckal - Illickal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Illikkal, Kerala",
+    "end": "Kottayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Illikkal",
+      "Kottayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.49229,
+        9.58823
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.50426,
+        9.58447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-wada-canal-south-bank-road-revi-karunakaran-road",
+  "ref": "MDR",
+  "name": "Wada Canal South Bank Road;Revi Karunakaran Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Alappuzha",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34918,
+        9.49982
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.32859,
+        9.49971
+      ]
+    },
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.32168,
+        9.49969
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "kl-thiruvatta-kallumada-road",
+  "ref": "MDR",
+  "name": "Thiruvatta Kallumada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Parippu, Kerala",
+    "end": "Kottayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parippu",
+      "Illikkal",
+      "Kottayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parippu",
+      "coords": [
+        76.49353,
+        9.61031
+      ]
+    },
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.49647,
+        9.60653
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.50646,
+        9.60434
+      ]
+    },
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.50824,
+        9.60652
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

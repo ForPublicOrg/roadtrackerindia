@@ -1,0 +1,51 @@
+{
+  "id": "kl-puthupally-puthusserry-road",
+  "ref": "MDR",
+  "name": "Puthupally - Puthusserry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Kanjikuzhi, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikuzhi",
+      "Kottayam",
+      "Manarcadu",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikuzhi",
+      "coords": [
+        76.55403,
+        9.58578
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.5681,
+        9.57678
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.57029,
+        9.56519
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

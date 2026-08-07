@@ -1,0 +1,57 @@
+{
+  "id": "kl-thrissur-mannuthy-road",
+  "ref": "MDR",
+  "name": "Thrissur - Mannuthy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Vellanikkara, Kerala",
+    "end": "Thrissur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellanikkara",
+      "Chelakkottukara",
+      "Thrissur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.25833,
+        10.53054
+      ]
+    },
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.2515,
+        10.52401
+      ]
+    },
+    {
+      "name": "Chelakkottukara",
+      "coords": [
+        76.23466,
+        10.51936
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.21682,
+        10.52336
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

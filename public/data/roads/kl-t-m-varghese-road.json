@@ -1,0 +1,42 @@
+{
+  "id": "kl-t-m-varghese-road",
+  "ref": "MDR",
+  "name": "T M Varghese Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.54521,
+        9.18622
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.53075,
+        9.18925
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

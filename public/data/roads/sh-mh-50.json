@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-50",
+  "ref": "SH 50",
+  "name": "Shrigonda–Sangamner State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 129.7,
+  "route": {
+    "start": "Shrigonda, Maharashtra",
+    "end": "Sangamner, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shrigonda",
+      "Shirur",
+      "Sangamner"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shrigonda",
+      "coords": [
+        74.69593,
+        18.61214
+      ]
+    },
+    {
+      "name": "Shirur",
+      "coords": [
+        74.40651,
+        18.84757
+      ]
+    },
+    {
+      "name": "Sangamner",
+      "coords": [
+        74.20433,
+        19.42626
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "odr-tn-7396",
+  "ref": "ODR 7396",
+  "name": "Puzhal–Minjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Puzhal, Tamil Nadu",
+    "end": "Minjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Puzhal",
+      "Minjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhal",
+      "coords": [
+        80.21549,
+        13.17523
+      ]
+    },
+    {
+      "name": "Red Hills",
+      "coords": [
+        80.21842,
+        13.20163
+      ]
+    },
+    {
+      "name": "Minjur",
+      "coords": [
+        80.21206,
+        13.27542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

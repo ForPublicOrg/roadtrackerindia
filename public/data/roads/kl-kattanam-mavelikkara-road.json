@@ -1,0 +1,43 @@
+{
+  "id": "kl-kattanam-mavelikkara-road",
+  "ref": "MDR",
+  "name": "Kattanam - Mavelikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.54695,
+        9.25357
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.56418,
+        9.17637
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

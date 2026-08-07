@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1251",
+  "ref": "MDR 1251",
+  "name": "Denkanikottai–Palacode District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.4,
+  "route": {
+    "start": "Denkanikottai, Tamil Nadu",
+    "end": "Palacode, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Denkanikottai",
+      "Palacode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Denkanikottai",
+      "coords": [
+        77.78738,
+        12.51186
+      ]
+    },
+    {
+      "name": "Palacode",
+      "coords": [
+        77.91025,
+        12.36855
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

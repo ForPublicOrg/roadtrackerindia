@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-438",
+  "ref": "MDR 438",
+  "name": "Sulur–Neelambur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Sulur, Tamil Nadu",
+    "end": "Neelambur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sulur",
+      "Neelambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sulur",
+      "coords": [
+        77.1225,
+        11.0277
+      ]
+    },
+    {
+      "name": "Neelambur",
+      "coords": [
+        77.10732,
+        11.07242
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

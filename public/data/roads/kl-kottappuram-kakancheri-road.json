@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottappuram-kakancheri-road",
+  "ref": "MDR",
+  "name": "Kottappuram - Kakancheri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Thenhipalam, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thenhipalam",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thenhipalam",
+      "coords": [
+        75.89292,
+        11.15316
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.93438,
+        11.16481
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

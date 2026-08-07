@@ -1,0 +1,43 @@
+{
+  "id": "kl-kunnamkary-kumaramkary-paral-changanacherry-road",
+  "ref": "MDR",
+  "name": "Kunnamkary - Kumaramkary - Paral - Changanacherry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.6,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Changanassery",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.5294,
+        9.44686
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.49422,
+        9.46725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sh-mh-121",
+  "ref": "SH 121",
+  "name": "Hindalaga–Vengurla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 96.7,
+  "route": {
+    "start": "Hindalaga, Karnataka",
+    "end": "Vengurla, Maharashtra",
+    "states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Hindalaga",
+      "Chandgad",
+      "Sawantwadi",
+      "Vengurla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hindalaga",
+      "coords": [
+        74.37172,
+        15.87449
+      ]
+    },
+    {
+      "name": "Chandgad",
+      "coords": [
+        74.19572,
+        15.95624
+      ]
+    },
+    {
+      "name": "Sawantwadi",
+      "coords": [
+        73.82211,
+        15.91094
+      ]
+    },
+    {
+      "name": "Vengurla",
+      "coords": [
+        73.63197,
+        15.8622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

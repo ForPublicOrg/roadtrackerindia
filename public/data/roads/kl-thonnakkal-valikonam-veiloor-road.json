@@ -1,0 +1,42 @@
+{
+  "id": "kl-thonnakkal-valikonam-veiloor-road",
+  "ref": "MDR",
+  "name": "Thonnakkal - Valikonam - Veiloor\tRoad",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Mangalapuram, Kerala",
+    "end": "Azhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mangalapuram",
+      "Azhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.82884,
+        8.62637
+      ]
+    },
+    {
+      "name": "Azhoor",
+      "coords": [
+        76.83678,
+        8.63952
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

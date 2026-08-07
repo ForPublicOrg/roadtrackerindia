@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-107",
+  "ref": "MDR 107",
+  "name": "Thuckalay–Thingal Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Thuckalay, Tamil Nadu",
+    "end": "Thingal Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thuckalay",
+      "Thingal Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thuckalay",
+      "coords": [
+        77.32112,
+        8.24061
+      ]
+    },
+    {
+      "name": "Thingal Nagar",
+      "coords": [
+        77.31626,
+        8.20616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

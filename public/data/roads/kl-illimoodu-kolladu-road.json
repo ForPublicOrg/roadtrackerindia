@@ -1,0 +1,50 @@
+{
+  "id": "kl-illimoodu-kolladu-road",
+  "ref": "MDR",
+  "name": "Illimoodu - Kolladu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Nattakom, Kerala",
+    "end": "Chingavanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nattakom",
+      "Puthuppally",
+      "Chingavanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.53238,
+        9.55479
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.53863,
+        9.54864
+      ]
+    },
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.52133,
+        9.53702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

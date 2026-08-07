@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-165",
+  "ref": "SH 165",
+  "name": "Palladam–Annur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.7,
+  "route": {
+    "start": "Palladam, Tamil Nadu",
+    "end": "Annur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palladam",
+      "Karumathampatti",
+      "Annur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palladam",
+      "coords": [
+        77.21846,
+        10.90673
+      ]
+    },
+    {
+      "name": "Karumathampatti",
+      "coords": [
+        77.17631,
+        11.10957
+      ]
+    },
+    {
+      "name": "Annur",
+      "coords": [
+        77.12012,
+        11.22869
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

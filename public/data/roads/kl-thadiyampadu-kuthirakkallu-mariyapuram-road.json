@@ -1,0 +1,42 @@
+{
+  "id": "kl-thadiyampadu-kuthirakkallu-mariyapuram-road",
+  "ref": "MDR",
+  "name": "Thadiyampadu - Kuthirakkallu - Mariyapuram road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Cheruthoni, Kerala",
+    "end": "Painavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheruthoni",
+      "Painavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheruthoni",
+      "coords": [
+        76.98781,
+        9.85649
+      ]
+    },
+    {
+      "name": "Painavu",
+      "coords": [
+        76.97439,
+        9.87351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vembayam-thalayil-thembamoodu-road",
+  "ref": "MDR",
+  "name": "Vembayam Thalayil Thembamoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Venjaramoodu, Kerala",
+    "end": "Pothencode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venjaramoodu",
+      "Pothencode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.94217,
+        8.67967
+      ]
+    },
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.93878,
+        8.63879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

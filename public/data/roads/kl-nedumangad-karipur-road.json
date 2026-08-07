@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumangad-karipur-road",
+  "ref": "MDR",
+  "name": "Nedumangad - Karipur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Nedumangad, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nedumangad",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.00114,
+        8.60537
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.02794,
+        8.63473
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

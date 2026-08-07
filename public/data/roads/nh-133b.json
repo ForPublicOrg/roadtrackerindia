@@ -1,0 +1,55 @@
+{
+  "id": "nh-133b",
+  "ref": "NH 133B",
+  "name": "Tarbana–Manihari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 21.6,
+  "route": {
+    "start": "Tarbana, Jharkhand",
+    "end": "Manihari, Bihar",
+    "states": [
+      "Jharkhand",
+      "Bihar"
+    ],
+    "majorCities": [
+      "Tarbana",
+      "Sahibganj",
+      "Manihari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tarbana",
+      "coords": [
+        87.59789,
+        25.23576
+      ]
+    },
+    {
+      "name": "Sahibganj",
+      "coords": [
+        87.59947,
+        25.24907
+      ]
+    },
+    {
+      "name": "Manihari",
+      "coords": [
+        87.65525,
+        25.3533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

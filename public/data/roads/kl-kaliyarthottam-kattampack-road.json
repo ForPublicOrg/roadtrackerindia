@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaliyarthottam-kattampack-road",
+  "ref": "MDR",
+  "name": "Kaliyarthottam - Kattampack Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Kuravilangad, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuravilangad",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.53911,
+        9.78105
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.54911,
+        9.75771
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

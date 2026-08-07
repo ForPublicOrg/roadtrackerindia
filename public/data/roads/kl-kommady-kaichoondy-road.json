@@ -1,0 +1,43 @@
+{
+  "id": "kl-kommady-kaichoondy-road",
+  "ref": "MDR",
+  "name": "Kommady - Kaichoondy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Alappuzha",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.33806,
+        9.51356
+      ]
+    },
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.32976,
+        9.51729
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

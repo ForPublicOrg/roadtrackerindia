@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-29e",
+  "ref": "SH 29E",
+  "name": "Nautanwa–Ramkola State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 82.3,
+  "route": {
+    "start": "Nautanwa, Uttar Pradesh",
+    "end": "Ramkola, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nautanwa",
+      "Nichlaul",
+      "Ramkola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nautanwa",
+      "coords": [
+        83.42659,
+        27.4343
+      ]
+    },
+    {
+      "name": "Nichlaul",
+      "coords": [
+        83.7285,
+        27.27601
+      ]
+    },
+    {
+      "name": "Ramkola",
+      "coords": [
+        83.67532,
+        26.9434
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

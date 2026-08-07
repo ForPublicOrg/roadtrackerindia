@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-4415",
+  "ref": "MDR 4415",
+  "name": "Jhabua–Meghnagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 46.3,
+  "route": {
+    "start": "Jhabua, Madhya Pradesh",
+    "end": "Meghnagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jhabua",
+      "Ranapur",
+      "Meghnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jhabua",
+      "coords": [
+        74.72528,
+        22.65638
+      ]
+    },
+    {
+      "name": "Ranapur",
+      "coords": [
+        74.51968,
+        22.64887
+      ]
+    },
+    {
+      "name": "Meghnagar",
+      "coords": [
+        74.46469,
+        22.78506
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

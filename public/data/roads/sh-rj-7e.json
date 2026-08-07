@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-7e",
+  "ref": "SH 7E",
+  "name": "RICCO Industrial Area–Sarwar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 70.7,
+  "route": {
+    "start": "RICCO Industrial Area, Rajasthan",
+    "end": "Sarwar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "RICCO Industrial Area",
+      "Sarwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "RICCO Industrial Area",
+      "coords": [
+        74.86034,
+        26.58915
+      ]
+    },
+    {
+      "name": "Sarwar",
+      "coords": [
+        75.0085,
+        26.07511
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

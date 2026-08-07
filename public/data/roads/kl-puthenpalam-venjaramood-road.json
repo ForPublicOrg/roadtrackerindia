@@ -1,0 +1,43 @@
+{
+  "id": "kl-puthenpalam-venjaramood-road",
+  "ref": "MDR",
+  "name": "Puthenpalam - Venjaramood Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.3,
+  "route": {
+    "start": "Venjaramoodu, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venjaramoodu",
+      "Nedumangad",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.90969,
+        8.67788
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.00125,
+        8.62868
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

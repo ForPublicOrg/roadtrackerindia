@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallikoottumma-neelamperoor-road",
+  "ref": "MDR",
+  "name": "Pallikoottumma - Neelamperoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.9,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Chingavanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Chingavanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.44682,
+        9.42868
+      ]
+    },
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.50855,
+        9.50281
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

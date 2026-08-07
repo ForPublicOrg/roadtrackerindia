@@ -1,0 +1,99 @@
+{
+  "id": "nh-165",
+  "ref": "NH 165",
+  "name": "Pamarru–Palakollu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 106.4,
+  "route": {
+    "start": "Pamarru, Andhra Pradesh",
+    "end": "Palakollu, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Pamarru",
+      "Gudivada",
+      "Mudinepalli",
+      "Akividu",
+      "Bhimavaram",
+      "Palakollu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pamarru",
+      "coords": [
+        80.9612,
+        16.32406
+      ]
+    },
+    {
+      "name": "Gudivada",
+      "coords": [
+        81.001,
+        16.42746
+      ]
+    },
+    {
+      "name": "Mudinepalli",
+      "coords": [
+        81.1122,
+        16.42294
+      ]
+    },
+    {
+      "name": "Mandavalli",
+      "coords": [
+        81.15615,
+        16.50977
+      ]
+    },
+    {
+      "name": "Kaikaluru",
+      "coords": [
+        81.21334,
+        16.55293
+      ]
+    },
+    {
+      "name": "Akividu",
+      "coords": [
+        81.3766,
+        16.58175
+      ]
+    },
+    {
+      "name": "Undi",
+      "coords": [
+        81.45893,
+        16.5842
+      ]
+    },
+    {
+      "name": "Bhimavaram",
+      "coords": [
+        81.52507,
+        16.54469
+      ]
+    },
+    {
+      "name": "Palakollu",
+      "coords": [
+        81.71954,
+        16.5098
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

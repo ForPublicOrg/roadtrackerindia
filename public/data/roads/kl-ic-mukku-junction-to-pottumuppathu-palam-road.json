@@ -1,0 +1,42 @@
+{
+  "id": "kl-ic-mukku-junction-to-pottumuppathu-palam-road",
+  "ref": "MDR",
+  "name": "IC Mukku Junction to Pottumuppathu Palam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.43527,
+        9.44938
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.4459,
+        9.44371
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

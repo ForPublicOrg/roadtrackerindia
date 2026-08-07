@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-63",
+  "ref": "SH 63",
+  "name": "Wai–Kedgaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 112.9,
+  "route": {
+    "start": "Wai, Maharashtra",
+    "end": "Kedgaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Wai",
+      "Bhor",
+      "Saswad",
+      "Kedgaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wai",
+      "coords": [
+        73.98533,
+        17.96592
+      ]
+    },
+    {
+      "name": "Bhor",
+      "coords": [
+        73.84696,
+        18.15247
+      ]
+    },
+    {
+      "name": "Saswad",
+      "coords": [
+        74.033,
+        18.34591
+      ]
+    },
+    {
+      "name": "Kedgaon",
+      "coords": [
+        74.26299,
+        18.47758
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

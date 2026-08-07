@@ -1,0 +1,42 @@
+{
+  "id": "kl-varkala-kallambalam-road",
+  "ref": "MDR",
+  "name": "Varkala - Kallambalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.1,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Kallambalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Kallambalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.70888,
+        8.73422
+      ]
+    },
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.79141,
+        8.76285
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "mdr-pb-31",
+  "ref": "MDR 31",
+  "name": "Fatehgarh Sahib–Baddi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 57.9,
+  "route": {
+    "start": "Fatehgarh Sahib, Punjab",
+    "end": "Baddi, Haryana",
+    "states": [
+      "Punjab",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Fatehgarh Sahib",
+      "Bassi Pathana",
+      "Morinda",
+      "Kurali",
+      "Baddi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fatehgarh Sahib",
+      "coords": [
+        76.39668,
+        30.64387
+      ]
+    },
+    {
+      "name": "Bassi Pathana",
+      "coords": [
+        76.40683,
+        30.6872
+      ]
+    },
+    {
+      "name": "Morinda",
+      "coords": [
+        76.49803,
+        30.79372
+      ]
+    },
+    {
+      "name": "Kurali",
+      "coords": [
+        76.57621,
+        30.82884
+      ]
+    },
+    {
+      "name": "Baddi",
+      "coords": [
+        76.81074,
+        30.91291
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

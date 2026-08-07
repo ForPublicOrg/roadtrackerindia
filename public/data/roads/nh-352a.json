@@ -1,0 +1,54 @@
+{
+  "id": "nh-352a",
+  "ref": "NH 352A",
+  "name": "Jind–Sonipat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 87.6,
+  "route": {
+    "start": "Jind, Haryana",
+    "end": "Sonipat, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Jind",
+      "Gohana",
+      "Sonipat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jind",
+      "coords": [
+        76.31606,
+        29.31021
+      ]
+    },
+    {
+      "name": "Gohana",
+      "coords": [
+        76.71128,
+        29.15597
+      ]
+    },
+    {
+      "name": "Sonipat",
+      "coords": [
+        77.01985,
+        28.99392
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

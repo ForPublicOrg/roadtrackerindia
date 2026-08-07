@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-4514",
+  "ref": "MDR 4514",
+  "name": "Lasudia Mori–Indore District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.2,
+  "route": {
+    "start": "Lasudia Mori, Madhya Pradesh",
+    "end": "Indore, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lasudia Mori",
+      "Indore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lasudia Mori",
+      "coords": [
+        75.9336,
+        22.72848
+      ]
+    },
+    {
+      "name": "Indore",
+      "coords": [
+        76.07689,
+        22.765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

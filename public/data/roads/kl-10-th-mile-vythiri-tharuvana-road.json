@@ -1,0 +1,42 @@
+{
+  "id": "kl-10-th-mile-vythiri-tharuvana-road",
+  "ref": "MDR",
+  "name": "10 th Mile –Vythiri-Tharuvana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kalpetta, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalpetta",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalpetta",
+      "coords": [
+        75.98406,
+        11.64162
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.00313,
+        11.64378
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

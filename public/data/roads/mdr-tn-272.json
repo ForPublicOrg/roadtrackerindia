@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-272",
+  "ref": "MDR 272",
+  "name": "Neyveli–Virudhachalam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Neyveli, Tamil Nadu",
+    "end": "Virudhachalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Neyveli",
+      "Virudhachalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyveli",
+      "coords": [
+        79.40509,
+        11.58722
+      ]
+    },
+    {
+      "name": "Virudhachalam",
+      "coords": [
+        79.39027,
+        11.52494
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

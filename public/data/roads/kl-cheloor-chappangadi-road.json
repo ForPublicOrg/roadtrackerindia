@@ -1,0 +1,43 @@
+{
+  "id": "kl-cheloor-chappangadi-road",
+  "ref": "MDR",
+  "name": "Cheloor - Chappangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Ponmala, Kerala",
+    "end": "Nooradi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponmala",
+      "Malappuram",
+      "Nooradi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponmala",
+      "coords": [
+        76.06204,
+        10.99948
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "coords": [
+        76.06801,
+        11.02295
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-or-22",
+  "ref": "SH 22",
+  "name": "Chikiti–Dharma Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 50.4,
+  "route": {
+    "start": "Chikiti, Odisha",
+    "end": "Dharma Nagar, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Chikiti",
+      "Brahmapur",
+      "Dharma Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chikiti",
+      "coords": [
+        84.43715,
+        19.14492
+      ]
+    },
+    {
+      "name": "Brahmapur",
+      "coords": [
+        84.77284,
+        19.31102
+      ]
+    },
+    {
+      "name": "Dharma Nagar",
+      "coords": [
+        84.77091,
+        19.32064
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

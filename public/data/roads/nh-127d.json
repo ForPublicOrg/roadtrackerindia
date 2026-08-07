@@ -1,0 +1,54 @@
+{
+  "id": "nh-127d",
+  "ref": "NH 127D",
+  "name": "Samdrup Jongkhar–Rangia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 50,
+  "route": {
+    "start": "Samdrup Jongkhar, Assam",
+    "end": "Rangia, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Samdrup Jongkhar",
+      "Tamulpur",
+      "Rangia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samdrup Jongkhar",
+      "coords": [
+        91.50229,
+        26.79262
+      ]
+    },
+    {
+      "name": "Tamulpur",
+      "coords": [
+        91.57463,
+        26.61147
+      ]
+    },
+    {
+      "name": "Rangia",
+      "coords": [
+        91.62094,
+        26.44398
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

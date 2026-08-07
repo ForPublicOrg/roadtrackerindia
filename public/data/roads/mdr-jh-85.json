@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-85",
+  "ref": "MDR 85",
+  "name": "Danwar–Jhajha District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.4,
+  "route": {
+    "start": "Danwar, Jharkhand",
+    "end": "Jhajha, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Danwar",
+      "Jhajha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Danwar",
+      "coords": [
+        86.16581,
+        24.42606
+      ]
+    },
+    {
+      "name": "Jhajha",
+      "coords": [
+        86.09903,
+        24.54491
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

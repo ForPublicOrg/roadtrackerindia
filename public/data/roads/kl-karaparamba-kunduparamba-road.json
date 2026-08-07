@@ -1,0 +1,42 @@
+{
+  "id": "kl-karaparamba-kunduparamba-road",
+  "ref": "MDR",
+  "name": "Karaparamba - Kunduparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Karaparamba, Kerala",
+    "end": "Puthiyangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karaparamba",
+      "Puthiyangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaparamba",
+      "coords": [
+        75.78171,
+        11.28703
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.77416,
+        11.30516
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

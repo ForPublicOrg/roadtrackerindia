@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-10",
+  "ref": "SH 10",
+  "name": "Manmad–Malegaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.6,
+  "route": {
+    "start": "Manmad, Maharashtra",
+    "end": "Malegaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Manmad",
+      "Malegaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manmad",
+      "coords": [
+        74.43956,
+        20.26158
+      ]
+    },
+    {
+      "name": "Malegaon",
+      "coords": [
+        74.52588,
+        20.55448
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nh-530b",
+  "ref": "NH 530B",
+  "name": "Gokul–Sikandra Rao National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 87.1,
+  "route": {
+    "start": "Gokul, Uttar Pradesh",
+    "end": "Sikandra Rao, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gokul",
+      "Mathura",
+      "Raya",
+      "Hathras",
+      "Sikandra Rao"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gokul",
+      "coords": [
+        77.69346,
+        27.41179
+      ]
+    },
+    {
+      "name": "Mathura",
+      "coords": [
+        77.74805,
+        27.47419
+      ]
+    },
+    {
+      "name": "Raya",
+      "coords": [
+        77.8001,
+        27.5477
+      ]
+    },
+    {
+      "name": "Hathras",
+      "coords": [
+        78.04116,
+        27.63281
+      ]
+    },
+    {
+      "name": "Sikandra Rao",
+      "coords": [
+        78.37212,
+        27.69184
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

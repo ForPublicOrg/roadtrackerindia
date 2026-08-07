@@ -1,0 +1,43 @@
+{
+  "id": "kl-kottayam-kumarakom-road",
+  "ref": "MDR",
+  "name": "Kottayam -Kumarakom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Illikkal, Kerala",
+    "end": "Thiruvarppu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Illikkal",
+      "Kottayam",
+      "Thiruvarppu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.48847,
+        9.58823
+      ]
+    },
+    {
+      "name": "Thiruvarppu",
+      "coords": [
+        76.47399,
+        9.59515
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nh-161g",
+  "ref": "NH 161G",
+  "name": "Patur–Jalgaon Jamod National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 117.5,
+  "route": {
+    "start": "Patur, Maharashtra",
+    "end": "Jalgaon Jamod, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Patur",
+      "Balapur",
+      "Shegaon",
+      "Sangrampur",
+      "Jalgaon Jamod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patur",
+      "coords": [
+        76.94168,
+        20.45602
+      ]
+    },
+    {
+      "name": "Balapur",
+      "coords": [
+        76.77634,
+        20.66369
+      ]
+    },
+    {
+      "name": "Shegaon",
+      "coords": [
+        76.69482,
+        20.79603
+      ]
+    },
+    {
+      "name": "Sangrampur",
+      "coords": [
+        76.67379,
+        21.03227
+      ]
+    },
+    {
+      "name": "Jalgaon Jamod",
+      "coords": [
+        76.53134,
+        21.04725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

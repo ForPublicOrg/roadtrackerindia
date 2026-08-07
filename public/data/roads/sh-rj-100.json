@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-100",
+  "ref": "SH 100",
+  "name": "Mauzamabad–Ajmer State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.7,
+  "route": {
+    "start": "Mauzamabad, Rajasthan",
+    "end": "Ajmer, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mauzamabad",
+      "Narayana",
+      "Roopangarh",
+      "Ajmer"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mauzamabad",
+      "coords": [
+        75.30636,
+        26.73396
+      ]
+    },
+    {
+      "name": "Narayana",
+      "coords": [
+        75.205,
+        26.78713
+      ]
+    },
+    {
+      "name": "Roopangarh",
+      "coords": [
+        74.84664,
+        26.7872
+      ]
+    },
+    {
+      "name": "Ajmer",
+      "coords": [
+        74.6371,
+        26.47452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

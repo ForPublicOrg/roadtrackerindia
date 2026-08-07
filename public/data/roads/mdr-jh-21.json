@@ -1,0 +1,49 @@
+{
+  "id": "mdr-jh-21",
+  "ref": "MDR 21",
+  "name": "Rahe–Hesal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.4,
+  "route": {
+    "start": "Rahe, Jharkhand",
+    "end": "Hesal, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Rahe",
+      "Hesal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rahe",
+      "coords": [
+        85.64309,
+        23.26022
+      ]
+    },
+    {
+      "name": "Sisipidih",
+      "coords": [
+        85.51631,
+        23.37258
+      ]
+    },
+    {
+      "name": "Hesal",
+      "coords": [
+        85.504,
+        23.40056
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

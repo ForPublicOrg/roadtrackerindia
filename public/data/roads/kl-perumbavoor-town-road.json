@@ -1,0 +1,42 @@
+{
+  "id": "kl-perumbavoor-town-road",
+  "ref": "MDR",
+  "name": "Perumbavoor Town Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Perumbavoor, Kerala",
+    "end": "Vallam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perumbavoor",
+      "Vallam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.4795,
+        10.11747
+      ]
+    },
+    {
+      "name": "Vallam",
+      "coords": [
+        76.47053,
+        10.12546
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

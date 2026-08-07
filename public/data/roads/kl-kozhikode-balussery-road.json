@@ -1,0 +1,43 @@
+{
+  "id": "kl-kozhikode-balussery-road",
+  "ref": "MDR",
+  "name": "Kozhikode - Balussery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.6,
+  "route": {
+    "start": "Balusseri Mukku, Kerala",
+    "end": "Civil Station, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Balusseri Mukku",
+      "Balusseri",
+      "Civil Station"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balusseri Mukku",
+      "coords": [
+        75.83528,
+        11.44583
+      ]
+    },
+    {
+      "name": "Civil Station",
+      "coords": [
+        75.78836,
+        11.29003
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-varam-bazar-varam-kadavu-road",
+  "ref": "MDR",
+  "name": "Varam Bazar - Varam Kadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Puthiyatheru, Kerala",
+    "end": "Kannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyatheru",
+      "Kannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.4112,
+        11.91899
+      ]
+    },
+    {
+      "name": "Kannur",
+      "coords": [
+        75.41387,
+        11.89879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

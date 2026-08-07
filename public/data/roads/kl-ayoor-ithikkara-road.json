@@ -1,0 +1,50 @@
+{
+  "id": "kl-ayoor-ithikkara-road",
+  "ref": "MDR",
+  "name": "Ayoor - Ithikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.5,
+  "route": {
+    "start": "Ayoor, Kerala",
+    "end": "Tirumukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ayoor",
+      "Chathannoor",
+      "Tirumukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.86037,
+        8.89773
+      ]
+    },
+    {
+      "name": "Chathannoor",
+      "coords": [
+        76.71962,
+        8.87829
+      ]
+    },
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.69647,
+        8.86687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

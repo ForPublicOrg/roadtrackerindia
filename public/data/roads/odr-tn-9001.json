@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-9001",
+  "ref": "ODR 9001",
+  "name": "Mahindra World City–Alapakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Mahindra World City, Tamil Nadu",
+    "end": "Alapakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mahindra World City",
+      "Alapakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahindra World City",
+      "coords": [
+        80.07629,
+        12.71075
+      ]
+    },
+    {
+      "name": "Alapakkam",
+      "coords": [
+        80.07814,
+        12.70199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

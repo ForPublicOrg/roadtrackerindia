@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u32",
+  "ref": "SH-U 32",
+  "name": "Sattur–Vishwanatham State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Sattur, Tamil Nadu",
+    "end": "Vishwanatham, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sattur",
+      "Vishwanatham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sattur",
+      "coords": [
+        77.92023,
+        9.34155
+      ]
+    },
+    {
+      "name": "Vishwanatham",
+      "coords": [
+        77.91615,
+        9.36433
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

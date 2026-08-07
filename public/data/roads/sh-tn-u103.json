@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-u103",
+  "ref": "SH-U 103",
+  "name": "KK Nagar–Kadachanenthal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "KK Nagar, Tamil Nadu",
+    "end": "Kadachanenthal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "KK Nagar",
+      "Karuppayurani",
+      "Kadachanenthal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "KK Nagar",
+      "coords": [
+        78.16341,
+        9.94944
+      ]
+    },
+    {
+      "name": "Karuppayurani",
+      "coords": [
+        78.17514,
+        9.95238
+      ]
+    },
+    {
+      "name": "Kadachanenthal",
+      "coords": [
+        78.20023,
+        9.96237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

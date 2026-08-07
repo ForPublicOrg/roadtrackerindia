@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekara-thamaracaudu-road",
+  "ref": "MDR",
+  "name": "Areekara - Thamaracaudu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.61877,
+        9.81542
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.61824,
+        9.82789
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

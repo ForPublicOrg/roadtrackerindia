@@ -1,0 +1,43 @@
+{
+  "id": "kl-chappangadi-indianoor-kottakkal-road",
+  "ref": "MDR",
+  "name": "Chappangadi - Indianoor - Kottakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Ponmala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Kottakkal",
+      "Ponmala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.01605,
+        10.9933
+      ]
+    },
+    {
+      "name": "Ponmala",
+      "coords": [
+        76.05413,
+        11.00014
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

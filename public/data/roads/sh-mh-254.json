@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-254",
+  "ref": "SH 254",
+  "name": "Bahadura–Police Line State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.8,
+  "route": {
+    "start": "Bahadura, Maharashtra",
+    "end": "Police Line, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bahadura",
+      "Kuhi",
+      "Bhandara",
+      "Police Line"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bahadura",
+      "coords": [
+        79.18832,
+        21.00565
+      ]
+    },
+    {
+      "name": "Kuhi",
+      "coords": [
+        79.36539,
+        21.01257
+      ]
+    },
+    {
+      "name": "Bhandara",
+      "coords": [
+        79.67433,
+        21.12837
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

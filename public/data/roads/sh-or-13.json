@@ -1,0 +1,42 @@
+{
+  "id": "sh-or-13",
+  "ref": "SH 13",
+  "name": "Pipili–Jatani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 10.6,
+  "route": {
+    "start": "Pipili, Odisha",
+    "end": "Jatani, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Pipili",
+      "Jatani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pipili",
+      "coords": [
+        85.83329,
+        20.11495
+      ]
+    },
+    {
+      "name": "Jatani",
+      "coords": [
+        85.7398,
+        20.14842
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

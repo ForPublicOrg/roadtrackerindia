@@ -1,0 +1,67 @@
+{
+  "id": "sh-tn-75",
+  "ref": "SH 75",
+  "name": "Palayamkottai–Pandalgudi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 111.1,
+  "route": {
+    "start": "Palayamkottai, Tamil Nadu",
+    "end": "Pandalgudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palayamkottai",
+      "Tirunelveli",
+      "Puthiamputhur",
+      "Keelavaipar",
+      "Vilattikulam",
+      "Pandalgudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palayamkottai",
+      "coords": [
+        77.739,
+        8.72702
+      ]
+    },
+    {
+      "name": "Puthiamputhur",
+      "coords": [
+        78.0154,
+        8.90259
+      ]
+    },
+    {
+      "name": "Keelavaipar",
+      "coords": [
+        78.20088,
+        9.00701
+      ]
+    },
+    {
+      "name": "Vilattikulam",
+      "coords": [
+        78.16732,
+        9.13093
+      ]
+    },
+    {
+      "name": "Pandalgudi",
+      "coords": [
+        78.097,
+        9.36596
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

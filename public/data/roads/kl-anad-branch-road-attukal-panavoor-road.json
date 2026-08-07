@@ -1,0 +1,42 @@
+{
+  "id": "kl-anad-branch-road-attukal-panavoor-road",
+  "ref": "MDR",
+  "name": "Anad Branch Road (Attukal - Panavoor Road)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Pazhakutty, Kerala",
+    "end": "Nedumangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pazhakutty",
+      "Nedumangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        76.98583,
+        8.66348
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.02169,
+        8.64695
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

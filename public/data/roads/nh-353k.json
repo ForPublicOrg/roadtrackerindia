@@ -1,0 +1,54 @@
+{
+  "id": "nh-353k",
+  "ref": "NH 353K",
+  "name": "Nanadgaon–Warud National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 73.6,
+  "route": {
+    "start": "Nanadgaon, Maharashtra",
+    "end": "Warud, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nanadgaon",
+      "Morshi",
+      "Warud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nanadgaon",
+      "coords": [
+        77.83168,
+        21.03001
+      ]
+    },
+    {
+      "name": "Morshi",
+      "coords": [
+        78.01277,
+        21.34261
+      ]
+    },
+    {
+      "name": "Warud",
+      "coords": [
+        78.26761,
+        21.4767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

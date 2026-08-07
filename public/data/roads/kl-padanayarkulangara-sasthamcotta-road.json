@@ -1,0 +1,42 @@
+{
+  "id": "kl-padanayarkulangara-sasthamcotta-road",
+  "ref": "MDR",
+  "name": "Padanayarkulangara - Sasthamcotta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.61353,
+        9.04217
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.5355,
+        9.05546
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

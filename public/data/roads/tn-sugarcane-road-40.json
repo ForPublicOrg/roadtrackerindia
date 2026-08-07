@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-40",
+  "ref": "SCR",
+  "name": "Sugarcane Road 40",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Thakkolam, Tamil Nadu",
+    "end": "Arakkonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thakkolam",
+      "Arakkonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.7324,
+        13.01567
+      ]
+    },
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.74292,
+        13.05518
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

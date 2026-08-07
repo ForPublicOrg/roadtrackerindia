@@ -1,0 +1,50 @@
+{
+  "id": "kl-mannarakulanji-kozhencherry-road",
+  "ref": "MDR",
+  "name": "Mannarakulanji - Kozhencherry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.1,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Thazhevettipuram",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.80264,
+        9.31455
+      ]
+    },
+    {
+      "name": "Thazhevettipuram",
+      "coords": [
+        76.77442,
+        9.30347
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.70893,
+        9.33557
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

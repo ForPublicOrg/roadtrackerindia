@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-509",
+  "ref": "MDR 509",
+  "name": "Amaravathi Nagar–Udumalaipettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29,
+  "route": {
+    "start": "Amaravathi Nagar, Tamil Nadu",
+    "end": "Udumalaipettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Amaravathi Nagar",
+      "Udumalaipettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amaravathi Nagar",
+      "coords": [
+        77.21952,
+        10.35383
+      ]
+    },
+    {
+      "name": "Udumalaipettai",
+      "coords": [
+        77.24584,
+        10.58724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

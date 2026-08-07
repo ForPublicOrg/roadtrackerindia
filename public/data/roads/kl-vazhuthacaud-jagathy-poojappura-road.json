@@ -1,0 +1,58 @@
+{
+  "id": "kl-vazhuthacaud-jagathy-poojappura-road",
+  "ref": "MDR",
+  "name": "Vazhuthacaud - Jagathy - Poojappura road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Poojappura, Kerala",
+    "end": "Vazhuthacaud, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poojappura",
+      "Jagathy",
+      "Thiruvananthapuram",
+      "Vazhuthacaud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poojappura",
+      "coords": [
+        76.97299,
+        8.49091
+      ]
+    },
+    {
+      "name": "Jagathy",
+      "coords": [
+        76.9638,
+        8.49442
+      ]
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "coords": [
+        76.96028,
+        8.49828
+      ]
+    },
+    {
+      "name": "Vazhuthacaud",
+      "coords": [
+        76.95922,
+        8.50084
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

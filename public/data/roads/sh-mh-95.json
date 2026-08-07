@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-95",
+  "ref": "SH 95",
+  "name": "Shrivardhan–Mangaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 47.4,
+  "route": {
+    "start": "Shrivardhan, Maharashtra",
+    "end": "Mangaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shrivardhan",
+      "Tala",
+      "Mangaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shrivardhan",
+      "coords": [
+        73.11463,
+        18.13658
+      ]
+    },
+    {
+      "name": "Tala",
+      "coords": [
+        73.14194,
+        18.29182
+      ]
+    },
+    {
+      "name": "Mangaon",
+      "coords": [
+        73.23581,
+        18.30645
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

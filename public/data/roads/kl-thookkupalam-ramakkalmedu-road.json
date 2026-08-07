@@ -1,0 +1,42 @@
+{
+  "id": "kl-thookkupalam-ramakkalmedu-road",
+  "ref": "MDR",
+  "name": "Thookkupalam - Ramakkalmedu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Thookkupalam, Kerala",
+    "end": "Cumbum, Tamil Nadu",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thookkupalam",
+      "Cumbum"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.19335,
+        9.81438
+      ]
+    },
+    {
+      "name": "Cumbum",
+      "coords": [
+        77.24455,
+        9.81166
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

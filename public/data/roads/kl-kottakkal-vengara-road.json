@@ -1,0 +1,56 @@
+{
+  "id": "kl-kottakkal-vengara-road",
+  "ref": "MDR",
+  "name": "Kottakkal - Vengara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Vengara, Kerala",
+    "end": "Kottakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengara",
+      "Kottakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengara",
+      "coords": [
+        75.99771,
+        11.02845
+      ]
+    },
+    {
+      "name": "College Padi",
+      "coords": [
+        75.99894,
+        11.00824
+      ]
+    },
+    {
+      "name": "Changuvetty",
+      "coords": [
+        76.00201,
+        11.00481
+      ]
+    },
+    {
+      "name": "Kottakkal",
+      "coords": [
+        76.00373,
+        11.0009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

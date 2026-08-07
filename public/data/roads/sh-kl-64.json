@@ -1,0 +1,57 @@
+{
+  "id": "sh-kl-64",
+  "ref": "SH 64",
+  "name": "Varkala–Kadakkal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 45.5,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Kadakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Paripally",
+      "Kadakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.72533,
+        8.73412
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.75801,
+        8.78736
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.75912,
+        8.81238
+      ]
+    },
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.91442,
+        8.82462
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

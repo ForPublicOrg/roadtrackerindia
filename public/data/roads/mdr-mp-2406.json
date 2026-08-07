@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-2406",
+  "ref": "MDR 2406",
+  "name": "Kurawar–Shujalpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 44.2,
+  "route": {
+    "start": "Kurawar, Madhya Pradesh",
+    "end": "Shujalpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Kurawar",
+      "Kala Pipal",
+      "Shujalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurawar",
+      "coords": [
+        77.02744,
+        23.5183
+      ]
+    },
+    {
+      "name": "Kala Pipal",
+      "coords": [
+        76.83715,
+        23.34664
+      ]
+    },
+    {
+      "name": "Shujalpur",
+      "coords": [
+        76.72021,
+        23.38381
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

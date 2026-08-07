@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1302",
+  "ref": "MDR 1302",
+  "name": "Barhi–Ramnagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.9,
+  "route": {
+    "start": "Barhi, Madhya Pradesh",
+    "end": "Ramnagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Barhi",
+      "Ramnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barhi",
+      "coords": [
+        81.11851,
+        23.76017
+      ]
+    },
+    {
+      "name": "Ramnagar",
+      "coords": [
+        81.21558,
+        23.86717
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

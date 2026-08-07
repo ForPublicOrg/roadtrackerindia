@@ -1,0 +1,65 @@
+{
+  "id": "sh-rj-78",
+  "ref": "SH 78",
+  "name": "Dausa–Kherli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 127.1,
+  "route": {
+    "start": "Dausa, Rajasthan",
+    "end": "Kherli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dausa",
+      "Bandikui",
+      "Mandawar",
+      "Kherli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dausa",
+      "coords": [
+        76.33327,
+        26.89983
+      ]
+    },
+    {
+      "name": "Bandikui",
+      "coords": [
+        76.57387,
+        27.04564
+      ]
+    },
+    {
+      "name": "Reni",
+      "coords": [
+        76.77371,
+        27.11172
+      ]
+    },
+    {
+      "name": "Mandawar",
+      "coords": [
+        76.85209,
+        27.15608
+      ]
+    },
+    {
+      "name": "Kherli",
+      "coords": [
+        76.93669,
+        27.22962
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

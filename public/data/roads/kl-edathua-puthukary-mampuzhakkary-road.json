@@ -1,0 +1,42 @@
+{
+  "id": "kl-edathua-puthukary-mampuzhakkary-road",
+  "ref": "MDR",
+  "name": "Edathua - Puthukary - Mampuzhakkary Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Kavumbhagom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Kavumbhagom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.47367,
+        9.4188
+      ]
+    },
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.48191,
+        9.36769
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

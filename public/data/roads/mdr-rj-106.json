@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-106",
+  "ref": "MDR 106",
+  "name": "Bali–Falna District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.9,
+  "route": {
+    "start": "Bali, Rajasthan",
+    "end": "Falna, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bali",
+      "Falna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bali",
+      "coords": [
+        73.28349,
+        25.19224
+      ]
+    },
+    {
+      "name": "Falna",
+      "coords": [
+        73.29751,
+        25.09465
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

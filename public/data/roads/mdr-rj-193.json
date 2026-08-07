@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-193",
+  "ref": "MDR 193",
+  "name": "Losal–Kuchaman District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.2,
+  "route": {
+    "start": "Losal, Rajasthan",
+    "end": "Kuchaman, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Losal",
+      "Kuchaman"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Losal",
+      "coords": [
+        74.77524,
+        27.44505
+      ]
+    },
+    {
+      "name": "Kuchaman",
+      "coords": [
+        74.78173,
+        27.24879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

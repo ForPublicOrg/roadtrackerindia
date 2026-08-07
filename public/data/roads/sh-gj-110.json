@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-110",
+  "ref": "SH 110",
+  "name": "Bhavnath–Lathi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 128.5,
+  "route": {
+    "start": "Bhavnath, Gujarat",
+    "end": "Lathi, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Bhavnath",
+      "Amreli",
+      "Lathi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhavnath",
+      "coords": [
+        70.70264,
+        21.55562
+      ]
+    },
+    {
+      "name": "Amreli",
+      "coords": [
+        71.21727,
+        21.60067
+      ]
+    },
+    {
+      "name": "Lathi",
+      "coords": [
+        71.47592,
+        21.65618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

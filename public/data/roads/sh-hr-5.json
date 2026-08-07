@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-5",
+  "ref": "SH 5",
+  "name": "Sadar Bazaar–Barara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 14.8,
+  "route": {
+    "start": "Sadar Bazaar, Haryana",
+    "end": "Barara, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sadar Bazaar",
+      "Barara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sadar Bazaar",
+      "coords": [
+        76.8303,
+        30.33847
+      ]
+    },
+    {
+      "name": "Barara",
+      "coords": [
+        76.96791,
+        30.30086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

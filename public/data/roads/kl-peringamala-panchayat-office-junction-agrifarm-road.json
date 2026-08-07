@@ -1,0 +1,42 @@
+{
+  "id": "kl-peringamala-panchayat-office-junction-agrifarm-road",
+  "ref": "MDR",
+  "name": "Peringamala Panchayat Office Junction - Agrifarm Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Kulathupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Kulathupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.05115,
+        8.73128
+      ]
+    },
+    {
+      "name": "Kulathupuzha",
+      "coords": [
+        77.05691,
+        8.75653
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

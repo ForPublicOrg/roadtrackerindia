@@ -1,0 +1,42 @@
+{
+  "id": "kl-chempanthotty-puranjan-road",
+  "ref": "MDR",
+  "name": "Chempanthotty - Puranjan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Naduvil, Kerala",
+    "end": "Chemperi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Naduvil",
+      "Chemperi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naduvil",
+      "coords": [
+        75.4939,
+        12.09042
+      ]
+    },
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.53476,
+        12.10568
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

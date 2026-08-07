@@ -1,0 +1,65 @@
+{
+  "id": "kl-kadungalloor-elookara-kayantikara-alupuram-road",
+  "ref": "MDR",
+  "name": "Kadungalloor-Elookara-Kayantikara-Alupuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Thottakkattukara, Kerala",
+    "end": "Pathalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottakkattukara",
+      "Aluva",
+      "Kalamassery",
+      "Pathalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.31851,
+        10.10671
+      ]
+    },
+    {
+      "name": "Aluva",
+      "coords": [
+        76.33404,
+        10.10627
+      ]
+    },
+    {
+      "name": "Kodikuthumala",
+      "coords": [
+        76.33162,
+        10.08859
+      ]
+    },
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.32474,
+        10.08344
+      ]
+    },
+    {
+      "name": "Pathalam",
+      "coords": [
+        76.3142,
+        10.08435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

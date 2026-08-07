@@ -1,0 +1,46 @@
+{
+  "id": "nh-152g",
+  "ref": "NH 152G",
+  "name": "Shahbad–Sadar Bazaar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 17.5,
+  "route": {
+    "start": "Shahbad, Haryana",
+    "end": "Sadar Bazaar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Shahbad",
+      "Sadar Bazaar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahbad",
+      "coords": [
+        76.86009,
+        30.18343
+      ]
+    },
+    {
+      "name": "Sadar Bazaar",
+      "coords": [
+        76.69738,
+        30.17691
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

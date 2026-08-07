@@ -1,0 +1,42 @@
+{
+  "id": "kl-pooyappilly-thrikkadakappilly-road",
+  "ref": "MDR",
+  "name": "Pooyappilly - Thrikkadakappilly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "North Paravur, Kerala",
+    "end": "Cherai, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "North Paravur",
+      "Cherai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.21423,
+        10.15245
+      ]
+    },
+    {
+      "name": "Cherai",
+      "coords": [
+        76.2,
+        10.14813
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

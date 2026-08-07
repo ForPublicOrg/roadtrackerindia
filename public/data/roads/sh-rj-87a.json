@@ -1,0 +1,57 @@
+{
+  "id": "sh-rj-87a",
+  "ref": "SH 87A",
+  "name": "Poogal–Kheenvsar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 195.2,
+  "route": {
+    "start": "Poogal, Rajasthan",
+    "end": "Kheenvsar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Poogal",
+      "Nokha",
+      "Kheenvsar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poogal",
+      "coords": [
+        72.27297,
+        27.99658
+      ]
+    },
+    {
+      "name": "Panchoo",
+      "coords": [
+        73.21794,
+        27.5248
+      ]
+    },
+    {
+      "name": "Nokha",
+      "coords": [
+        73.45261,
+        27.54026
+      ]
+    },
+    {
+      "name": "Kheenvsar",
+      "coords": [
+        73.22486,
+        27.10846
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

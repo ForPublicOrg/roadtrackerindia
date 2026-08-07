@@ -1,0 +1,72 @@
+{
+  "id": "sh-up-49",
+  "ref": "SH 49",
+  "name": "Moradabad–Dhampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 71,
+  "route": {
+    "start": "Moradabad, Uttar Pradesh",
+    "end": "Dhampur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Moradabad",
+      "Kanth",
+      "Seohara",
+      "Dhampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Moradabad",
+      "coords": [
+        78.82509,
+        28.84028
+      ]
+    },
+    {
+      "name": "Umri Kalan",
+      "coords": [
+        78.61655,
+        29.02849
+      ]
+    },
+    {
+      "name": "Kanth",
+      "coords": [
+        78.62533,
+        29.0602
+      ]
+    },
+    {
+      "name": "Sahaspur",
+      "coords": [
+        78.61537,
+        29.117
+      ]
+    },
+    {
+      "name": "Seohara",
+      "coords": [
+        78.58463,
+        29.20495
+      ]
+    },
+    {
+      "name": "Dhampur",
+      "coords": [
+        78.51584,
+        29.30289
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-21",
+  "ref": "SH 21",
+  "name": "Ozhar–Saputara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 249.4,
+  "route": {
+    "start": "Ozhar, Maharashtra",
+    "end": "Saputara, Gujarat",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ozhar",
+      "Ghoti",
+      "Peth",
+      "Saputara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ozhar",
+      "coords": [
+        74.14479,
+        19.25745
+      ]
+    },
+    {
+      "name": "Ghoti",
+      "coords": [
+        73.68673,
+        19.70989
+      ]
+    },
+    {
+      "name": "Peth",
+      "coords": [
+        73.50718,
+        20.25791
+      ]
+    },
+    {
+      "name": "Saputara",
+      "coords": [
+        73.66468,
+        20.56382
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

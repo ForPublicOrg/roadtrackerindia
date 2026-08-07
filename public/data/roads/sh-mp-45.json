@@ -1,0 +1,72 @@
+{
+  "id": "sh-mp-45",
+  "ref": "SH 45",
+  "name": "Betul–Parasia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 123.9,
+  "route": {
+    "start": "Betul, Madhya Pradesh",
+    "end": "Parasia, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Betul",
+      "Sarni",
+      "Damua",
+      "Parasia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Betul",
+      "coords": [
+        77.90188,
+        21.91681
+      ]
+    },
+    {
+      "name": "Bagdona",
+      "coords": [
+        78.10162,
+        22.12312
+      ]
+    },
+    {
+      "name": "Sarni",
+      "coords": [
+        78.17479,
+        22.10756
+      ]
+    },
+    {
+      "name": "Damua",
+      "coords": [
+        78.46757,
+        22.19079
+      ]
+    },
+    {
+      "name": "Jamai",
+      "coords": [
+        78.54461,
+        22.19909
+      ]
+    },
+    {
+      "name": "Parasia",
+      "coords": [
+        78.7604,
+        22.19187
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

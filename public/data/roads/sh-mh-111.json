@@ -1,0 +1,49 @@
+{
+  "id": "sh-mh-111",
+  "ref": "SH 111",
+  "name": "Rajapur–Ishwarpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 135.1,
+  "route": {
+    "start": "Rajapur, Maharashtra",
+    "end": "Ishwarpur, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Rajapur",
+      "Ishwarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajapur",
+      "coords": [
+        73.49704,
+        16.76055
+      ]
+    },
+    {
+      "name": "Shirala",
+      "coords": [
+        74.12512,
+        16.98292
+      ]
+    },
+    {
+      "name": "Ishwarpur",
+      "coords": [
+        74.25676,
+        17.04739
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

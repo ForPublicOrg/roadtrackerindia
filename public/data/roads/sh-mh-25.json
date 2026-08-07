@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-25",
+  "ref": "SH 25",
+  "name": "Erandol–Yeola State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 164.7,
+  "route": {
+    "start": "Erandol, Maharashtra",
+    "end": "Yeola, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Erandol",
+      "Bhadgaon",
+      "Nandgaon",
+      "Yeola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erandol",
+      "coords": [
+        75.32328,
+        20.92506
+      ]
+    },
+    {
+      "name": "Bhadgaon",
+      "coords": [
+        75.23765,
+        20.67924
+      ]
+    },
+    {
+      "name": "Nandgaon",
+      "coords": [
+        74.65921,
+        20.30922
+      ]
+    },
+    {
+      "name": "Yeola",
+      "coords": [
+        74.49317,
+        20.04543
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

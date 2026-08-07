@@ -1,0 +1,43 @@
+{
+  "id": "kl-s-h-mount-road",
+  "ref": "MDR",
+  "name": "S.H. Mount Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Nagampadam, Kerala",
+    "end": "Kumaranalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nagampadam",
+      "Kottayam",
+      "Kumaranalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagampadam",
+      "coords": [
+        76.53017,
+        9.60614
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.53148,
+        9.61806
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-181",
+  "ref": "SH 181",
+  "name": "Chikhli–Peth State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 71.8,
+  "route": {
+    "start": "Chikhli, Gujarat",
+    "end": "Peth, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Chikhli",
+      "Khergam",
+      "Peth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chikhli",
+      "coords": [
+        73.0636,
+        20.76184
+      ]
+    },
+    {
+      "name": "Khergam",
+      "coords": [
+        73.09305,
+        20.63177
+      ]
+    },
+    {
+      "name": "Peth",
+      "coords": [
+        73.40485,
+        20.45847
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

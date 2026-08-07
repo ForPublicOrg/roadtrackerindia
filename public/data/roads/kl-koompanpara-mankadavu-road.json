@@ -1,0 +1,42 @@
+{
+  "id": "kl-koompanpara-mankadavu-road",
+  "ref": "MDR",
+  "name": "Koompanpara - Mankadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.00321,
+        10.00036
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.98074,
+        10.01113
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

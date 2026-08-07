@@ -1,0 +1,42 @@
+{
+  "id": "kl-kurathikkad-temple-chunakara-via-varanickal-road",
+  "ref": "MDR",
+  "name": "Kurathikkad Temple - Chunakara (Via Varanickal) Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.58634,
+        9.21007
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.56189,
+        9.21453
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "kl-vyttila-mathoor-road",
+  "ref": "MDR",
+  "name": "Vyttila - Mathoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Vyttila, Kerala",
+    "end": "Eroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vyttila",
+      "Maradu",
+      "Pallinada",
+      "Thrippunithura",
+      "Eroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vyttila",
+      "coords": [
+        76.31893,
+        9.96889
+      ]
+    },
+    {
+      "name": "Pallinada",
+      "coords": [
+        76.3245,
+        9.97214
+      ]
+    },
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.33635,
+        9.97318
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

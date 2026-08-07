@@ -1,0 +1,50 @@
+{
+  "id": "kl-parakodu-vadakkadathucavu-road",
+  "ref": "MDR",
+  "name": "Parakodu - Vadakkadathucavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Nellimoottilpadi, Kerala",
+    "end": "Parakode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nellimoottilpadi",
+      "Adoor",
+      "Parakode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nellimoottilpadi",
+      "coords": [
+        76.73679,
+        9.13275
+      ]
+    },
+    {
+      "name": "Adoor",
+      "coords": [
+        76.74511,
+        9.13793
+      ]
+    },
+    {
+      "name": "Parakode",
+      "coords": [
+        76.76082,
+        9.14819
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

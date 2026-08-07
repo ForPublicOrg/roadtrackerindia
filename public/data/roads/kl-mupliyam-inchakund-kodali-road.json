@@ -1,0 +1,42 @@
+{
+  "id": "kl-mupliyam-inchakund-kodali-road",
+  "ref": "MDR",
+  "name": "Mupliyam - Inchakund - Kodali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "route": {
+    "start": "Potta, Kerala",
+    "end": "Puthukkad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Potta",
+      "Puthukkad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Potta",
+      "coords": [
+        76.375,
+        10.37541
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.33772,
+        10.40051
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

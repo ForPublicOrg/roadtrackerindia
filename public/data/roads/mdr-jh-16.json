@@ -1,0 +1,57 @@
+{
+  "id": "mdr-jh-16",
+  "ref": "MDR 16",
+  "name": "Hesal–Morhabadi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.2,
+  "route": {
+    "start": "Hesal, Jharkhand",
+    "end": "Morhabadi, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Hesal",
+      "Ranchi",
+      "Morhabadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hesal",
+      "coords": [
+        85.46961,
+        23.47262
+      ]
+    },
+    {
+      "name": "Lem",
+      "coords": [
+        85.36868,
+        23.43731
+      ]
+    },
+    {
+      "name": "Borea",
+      "coords": [
+        85.3506,
+        23.42565
+      ]
+    },
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.33128,
+        23.38823
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

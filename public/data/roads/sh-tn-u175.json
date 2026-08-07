@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u175",
+  "ref": "SH-U 175",
+  "name": "Vavipalayam–Anna Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Vavipalayam, Tamil Nadu",
+    "end": "Anna Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vavipalayam",
+      "Anna Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vavipalayam",
+      "coords": [
+        77.41733,
+        11.19831
+      ]
+    },
+    {
+      "name": "Anna Nagar",
+      "coords": [
+        77.42622,
+        11.20258
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

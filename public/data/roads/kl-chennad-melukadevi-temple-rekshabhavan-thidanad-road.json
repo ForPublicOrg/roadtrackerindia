@@ -1,0 +1,42 @@
+{
+  "id": "kl-chennad-melukadevi-temple-rekshabhavan-thidanad-road",
+  "ref": "MDR",
+  "name": "Chennad - Melukadevi Temple - Rekshabhavan - Thidanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.6,
+  "route": {
+    "start": "Erattupetta, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattupetta",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.78483,
+        9.66321
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.82256,
+        9.6202
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

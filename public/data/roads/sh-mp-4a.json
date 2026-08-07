@@ -1,0 +1,43 @@
+{
+  "id": "sh-mp-4a",
+  "ref": "SH 4A",
+  "name": "Sheopur–Bamori State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.8,
+  "route": {
+    "start": "Sheopur, Madhya Pradesh",
+    "end": "Bamori, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sheopur",
+      "Bamori"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sheopur",
+      "coords": [
+        76.93644,
+        25.54499
+      ]
+    },
+    {
+      "name": "Bamori",
+      "coords": [
+        76.9752,
+        25.06775
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

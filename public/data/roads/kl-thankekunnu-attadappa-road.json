@@ -1,0 +1,43 @@
+{
+  "id": "kl-thankekunnu-attadappa-road",
+  "ref": "MDR",
+  "name": "Thankekunnu - Attadappa Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Thottada, Kerala",
+    "end": "Kadachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottada",
+      "Kannur",
+      "Kadachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottada",
+      "coords": [
+        75.40776,
+        11.86493
+      ]
+    },
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.42215,
+        11.8621
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

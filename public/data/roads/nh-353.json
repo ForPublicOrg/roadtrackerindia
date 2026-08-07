@@ -1,0 +1,78 @@
+{
+  "id": "nh-353",
+  "ref": "NH 353",
+  "name": "Bangomunda–Arang National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 145.7,
+  "route": {
+    "start": "Bangomunda, Odisha",
+    "end": "Arang, Chhattisgarh",
+    "states": [
+      "Odisha",
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Bangomunda",
+      "Nuapada",
+      "Bagbahra",
+      "Mahasamund",
+      "Arang"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bangomunda",
+      "coords": [
+        82.76342,
+        20.29289
+      ]
+    },
+    {
+      "name": "Nuapada",
+      "coords": [
+        82.53328,
+        20.80245
+      ]
+    },
+    {
+      "name": "Daleshwar Chakradhari",
+      "coords": [
+        82.50675,
+        20.87525
+      ]
+    },
+    {
+      "name": "Bagbahra",
+      "coords": [
+        82.38177,
+        21.04876
+      ]
+    },
+    {
+      "name": "Mahasamund",
+      "coords": [
+        82.09579,
+        21.11246
+      ]
+    },
+    {
+      "name": "Arang",
+      "coords": [
+        82.0285,
+        21.16321
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

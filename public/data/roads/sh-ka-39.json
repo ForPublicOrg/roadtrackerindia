@@ -1,0 +1,49 @@
+{
+  "id": "sh-ka-39",
+  "ref": "SH 39",
+  "name": "Chikka Banavara–Nagasandra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11.4,
+  "route": {
+    "start": "Chikka Banavara, Karnataka",
+    "end": "Nagasandra, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Chikka Banavara",
+      "Nagasandra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chikka Banavara",
+      "coords": [
+        77.4842,
+        13.12829
+      ]
+    },
+    {
+      "name": "Madhavara",
+      "coords": [
+        77.50688,
+        13.06088
+      ]
+    },
+    {
+      "name": "Nagasandra",
+      "coords": [
+        77.5073,
+        13.0452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "odr-tn-7546",
+  "ref": "ODR 7546",
+  "name": "Sipcot–Navalpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Sipcot, Tamil Nadu",
+    "end": "Navalpur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sipcot",
+      "Lalapet",
+      "Ranipet",
+      "Navalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sipcot",
+      "coords": [
+        79.32457,
+        12.97001
+      ]
+    },
+    {
+      "name": "Ranipet",
+      "coords": [
+        79.3272,
+        12.93579
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-170",
+  "ref": "MDR 170",
+  "name": "Kodaikanal–Marayoor District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 59,
+  "route": {
+    "start": "Kodaikanal, Tamil Nadu",
+    "end": "Marayoor, Kerala",
+    "states": [
+      "Tamil Nadu",
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodaikanal",
+      "Marayoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodaikanal",
+      "coords": [
+        77.48908,
+        10.23752
+      ]
+    },
+    {
+      "name": "Marayoor",
+      "coords": [
+        77.23555,
+        10.12858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

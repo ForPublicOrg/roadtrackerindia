@@ -1,0 +1,42 @@
+{
+  "id": "kl-edathua-thayankary-champakkulam-road",
+  "ref": "MDR",
+  "name": "Edathua - Thayankary - Champakkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.6,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Ambalappuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Ambalappuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.4802,
+        9.36721
+      ]
+    },
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.41371,
+        9.40652
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

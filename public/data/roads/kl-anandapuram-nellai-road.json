@@ -1,0 +1,42 @@
+{
+  "id": "kl-anandapuram-nellai-road",
+  "ref": "MDR",
+  "name": "Anandapuram - Nellai Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.28633,
+        10.39507
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.26598,
+        10.34206
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

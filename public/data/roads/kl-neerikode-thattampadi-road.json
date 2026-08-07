@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerikode-thattampadi-road",
+  "ref": "MDR",
+  "name": "Neerikode-Thattampadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Cheriyappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Cheriyappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.28342,
+        10.11768
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.28304,
+        10.13103
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

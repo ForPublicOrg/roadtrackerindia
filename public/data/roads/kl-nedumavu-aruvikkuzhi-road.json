@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumavu-aruvikkuzhi-road",
+  "ref": "MDR",
+  "name": "Nedumavu - Aruvikkuzhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.66756,
+        9.60341
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.68726,
+        9.5673
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

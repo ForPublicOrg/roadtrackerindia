@@ -1,0 +1,51 @@
+{
+  "id": "kl-santo-gopalan-road",
+  "ref": "MDR",
+  "name": "Santo Gopalan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kazhuthumuttu, Kerala",
+    "end": "Koovapadam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kazhuthumuttu",
+      "Chullickal",
+      "Kochi",
+      "Koovapadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kazhuthumuttu",
+      "coords": [
+        76.25311,
+        9.93926
+      ]
+    },
+    {
+      "name": "Chullickal",
+      "coords": [
+        76.25369,
+        9.94562
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.25302,
+        9.95201
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

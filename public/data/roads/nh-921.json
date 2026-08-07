@@ -1,0 +1,54 @@
+{
+  "id": "nh-921",
+  "ref": "NH 921",
+  "name": "Mahwa–Rajgarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 52.7,
+  "route": {
+    "start": "Mahwa, Rajasthan",
+    "end": "Rajgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mahwa",
+      "Mandawar",
+      "Rajgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahwa",
+      "coords": [
+        76.94092,
+        27.05296
+      ]
+    },
+    {
+      "name": "Mandawar",
+      "coords": [
+        76.8381,
+        27.14935
+      ]
+    },
+    {
+      "name": "Rajgarh",
+      "coords": [
+        76.62082,
+        27.23611
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

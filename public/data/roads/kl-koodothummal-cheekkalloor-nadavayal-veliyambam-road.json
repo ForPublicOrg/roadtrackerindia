@@ -1,0 +1,42 @@
+{
+  "id": "kl-koodothummal-cheekkalloor-nadavayal-veliyambam-road",
+  "ref": "MDR",
+  "name": "Koodothummal - Cheekkalloor - Nadavayal - Veliyambam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.8,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Perikkalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Perikkalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.08717,
+        11.71356
+      ]
+    },
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.13686,
+        11.78795
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

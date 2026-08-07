@@ -1,0 +1,42 @@
+{
+  "id": "kl-benglamkadavu-mukkam-road",
+  "ref": "MDR",
+  "name": "Benglamkadavu - Mukkam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Ranni, Kerala",
+    "end": "Mamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ranni",
+      "Mamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranni",
+      "coords": [
+        76.8286,
+        9.34439
+      ]
+    },
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.8457,
+        9.36899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

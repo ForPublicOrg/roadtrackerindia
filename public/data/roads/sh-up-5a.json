@@ -1,0 +1,74 @@
+{
+  "id": "sh-up-5a",
+  "ref": "SH 5A",
+  "name": "Renukoot–Bhullanpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 137.2,
+  "route": {
+    "start": "Renukoot, Uttar Pradesh",
+    "end": "Bhullanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Renukoot",
+      "Dalla",
+      "Chopan",
+      "Robertsganj",
+      "Ahraura",
+      "Bhullanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Renukoot",
+      "coords": [
+        83.09221,
+        24.30187
+      ]
+    },
+    {
+      "name": "Chopan",
+      "coords": [
+        83.02495,
+        24.51866
+      ]
+    },
+    {
+      "name": "Churk",
+      "coords": [
+        83.0587,
+        24.63703
+      ]
+    },
+    {
+      "name": "Robertsganj",
+      "coords": [
+        83.06134,
+        24.68918
+      ]
+    },
+    {
+      "name": "Ahraura",
+      "coords": [
+        83.02894,
+        25.01402
+      ]
+    },
+    {
+      "name": "Bhullanpur",
+      "coords": [
+        83.02488,
+        25.19914
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

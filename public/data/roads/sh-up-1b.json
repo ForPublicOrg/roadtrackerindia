@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-1b",
+  "ref": "SH 1B",
+  "name": "Belthara Road–Sahatwar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62,
+  "route": {
+    "start": "Belthara Road, Uttar Pradesh",
+    "end": "Sahatwar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Belthara Road",
+      "Sahatwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Belthara Road",
+      "coords": [
+        84.05562,
+        26.03543
+      ]
+    },
+    {
+      "name": "Sahatwar",
+      "coords": [
+        84.30654,
+        25.8394
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

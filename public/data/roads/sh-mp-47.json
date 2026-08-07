@@ -1,0 +1,51 @@
+{
+  "id": "sh-mp-47",
+  "ref": "SH 47",
+  "name": "Balaghat–Kawardha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 133.3,
+  "route": {
+    "start": "Balaghat, Madhya Pradesh",
+    "end": "Kawardha, Chhattisgarh",
+    "states": [
+      "Madhya Pradesh",
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Balaghat",
+      "Baihar",
+      "Kawardha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balaghat",
+      "coords": [
+        80.18484,
+        21.81778
+      ]
+    },
+    {
+      "name": "Baihar",
+      "coords": [
+        80.54874,
+        22.10497
+      ]
+    },
+    {
+      "name": "Kawardha",
+      "coords": [
+        81.05911,
+        22.16558
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

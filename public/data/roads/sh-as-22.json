@@ -1,0 +1,43 @@
+{
+  "id": "sh-as-22",
+  "ref": "SH 22",
+  "name": "Mahur–Dudpatil State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 76.8,
+  "route": {
+    "start": "Mahur, Assam",
+    "end": "Dudpatil, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Mahur",
+      "Silchar",
+      "Dudpatil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahur",
+      "coords": [
+        93.11675,
+        25.17838
+      ]
+    },
+    {
+      "name": "Silchar",
+      "coords": [
+        92.85384,
+        24.86282
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

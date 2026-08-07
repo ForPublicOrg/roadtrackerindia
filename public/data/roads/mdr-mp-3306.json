@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3306",
+  "ref": "MDR 3306",
+  "name": "Narmadapuram–Sethani Ghat District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Narmadapuram, Madhya Pradesh",
+    "end": "Sethani Ghat, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Narmadapuram",
+      "Sethani Ghat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narmadapuram",
+      "coords": [
+        77.73631,
+        22.75134
+      ]
+    },
+    {
+      "name": "Sethani Ghat",
+      "coords": [
+        77.78223,
+        22.75124
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

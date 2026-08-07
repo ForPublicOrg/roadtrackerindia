@@ -1,0 +1,43 @@
+{
+  "id": "kl-avalookkunnu-public-road",
+  "ref": "MDR",
+  "name": "Avalookkunnu Public road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Vazhicherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Shava kotta palam",
+      "Vazhicherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34032,
+        9.52684
+      ]
+    },
+    {
+      "name": "Vazhicherry",
+      "coords": [
+        76.35142,
+        9.52196
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

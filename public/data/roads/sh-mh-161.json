@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-161",
+  "ref": "SH 161",
+  "name": "Kurduvadi–Patoda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60,
+  "route": {
+    "start": "Kurduvadi, Maharashtra",
+    "end": "Patoda, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kurduvadi",
+      "Paranda",
+      "Patoda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurduvadi",
+      "coords": [
+        75.43315,
+        18.10022
+      ]
+    },
+    {
+      "name": "Paranda",
+      "coords": [
+        75.45135,
+        18.26393
+      ]
+    },
+    {
+      "name": "Patoda",
+      "coords": [
+        75.5283,
+        18.55866
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

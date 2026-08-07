@@ -1,0 +1,42 @@
+{
+  "id": "kl-areepparambu-pampady-road",
+  "ref": "MDR",
+  "name": "Areepparambu - Pampady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Manarcadu, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manarcadu",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.61621,
+        9.60624
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.63802,
+        9.56949
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

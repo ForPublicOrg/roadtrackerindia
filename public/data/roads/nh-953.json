@@ -1,0 +1,63 @@
+{
+  "id": "nh-953",
+  "ref": "NH 953",
+  "name": "Ojhar–Songadh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 172.1,
+  "route": {
+    "start": "Ojhar, Maharashtra",
+    "end": "Songadh, Gujarat",
+    "states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Ojhar",
+      "Saputara",
+      "Ahwa",
+      "Songadh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ojhar",
+      "coords": [
+        73.99296,
+        20.17002
+      ]
+    },
+    {
+      "name": "Saputara",
+      "coords": [
+        73.74814,
+        20.57694
+      ]
+    },
+    {
+      "name": "Ahwa",
+      "coords": [
+        73.68748,
+        20.75731
+      ]
+    },
+    {
+      "name": "Songadh",
+      "coords": [
+        73.56457,
+        21.16622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

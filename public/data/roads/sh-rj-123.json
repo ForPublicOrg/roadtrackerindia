@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-123",
+  "ref": "SH 123",
+  "name": "Baseri–Kasba Khandhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 177.2,
+  "route": {
+    "start": "Baseri, Rajasthan",
+    "end": "Kasba Khandhar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Baseri",
+      "Karauli",
+      "Kasba Khandhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baseri",
+      "coords": [
+        77.42357,
+        26.80055
+      ]
+    },
+    {
+      "name": "Karauli",
+      "coords": [
+        76.97884,
+        26.46603
+      ]
+    },
+    {
+      "name": "Kasba Khandhar",
+      "coords": [
+        76.60684,
+        26.01139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

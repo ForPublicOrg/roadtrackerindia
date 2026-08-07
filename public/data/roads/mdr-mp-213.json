@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-213",
+  "ref": "MDR 213",
+  "name": "Morar Cantonment–Sumaoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.1,
+  "route": {
+    "start": "Morar Cantonment, Madhya Pradesh",
+    "end": "Sumaoli, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Morar Cantonment",
+      "Sumaoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morar Cantonment",
+      "coords": [
+        78.24449,
+        26.4007
+      ]
+    },
+    {
+      "name": "Sumaoli",
+      "coords": [
+        78.09247,
+        26.35909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

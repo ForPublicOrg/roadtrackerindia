@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1185",
+  "ref": "MDR 1185",
+  "name": "Min Arasu Nagar–Palanichettypatty District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Min Arasu Nagar, Tamil Nadu",
+    "end": "Palanichettypatty, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Min Arasu Nagar",
+      "Palanichettypatty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Min Arasu Nagar",
+      "coords": [
+        77.40425,
+        9.90451
+      ]
+    },
+    {
+      "name": "Palanichettypatty",
+      "coords": [
+        77.45065,
+        9.87105
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

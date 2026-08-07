@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-60",
+  "ref": "SH 60",
+  "name": "Pennagaram–Tirupattur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 106.8,
+  "route": {
+    "start": "Pennagaram, Tamil Nadu",
+    "end": "Tirupattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pennagaram",
+      "Dharmapuri",
+      "Tirupattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pennagaram",
+      "coords": [
+        77.78154,
+        12.12018
+      ]
+    },
+    {
+      "name": "Dharmapuri",
+      "coords": [
+        78.16223,
+        12.13628
+      ]
+    },
+    {
+      "name": "Tirupattur",
+      "coords": [
+        78.56419,
+        12.48911
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

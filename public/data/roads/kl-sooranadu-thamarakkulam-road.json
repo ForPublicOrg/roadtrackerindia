@@ -1,0 +1,42 @@
+{
+  "id": "kl-sooranadu-thamarakkulam-road",
+  "ref": "MDR",
+  "name": "Sooranadu - Thamarakkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Karunagapally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Karunagapally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.61475,
+        9.14457
+      ]
+    },
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.62553,
+        9.08795
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ponnurukkipara-karakkundu-madamthattu-road",
+  "ref": "MDR",
+  "name": "Ponnurukkipara - Karakkundu - Madamthattu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Karuvanchal, Kerala",
+    "end": "Pilathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karuvanchal",
+      "Pilathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.40258,
+        12.13792
+      ]
+    },
+    {
+      "name": "Pilathara",
+      "coords": [
+        75.31645,
+        12.09483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

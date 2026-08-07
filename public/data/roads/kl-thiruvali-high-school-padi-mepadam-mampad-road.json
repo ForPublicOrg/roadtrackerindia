@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvali-high-school-padi-mepadam-mampad-road",
+  "ref": "MDR",
+  "name": "Thiruvali High School Padi - Mepadam - Mampad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Wandoor, Kerala",
+    "end": "Nilambur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Wandoor",
+      "Nilambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.17192,
+        11.20285
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.18316,
+        11.24485
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vennikulam-thelliyoor-road",
+  "ref": "MDR",
+  "name": "Vennikulam - Thelliyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Kumbanad, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbanad",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.67004,
+        9.39009
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.69823,
+        9.38589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

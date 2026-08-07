@@ -1,0 +1,42 @@
+{
+  "id": "kl-adianadka-bagilappadavu-piligude-road",
+  "ref": "MDR",
+  "name": "Adianadka - Bagilappadavu - Piligude Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Vitla, Kerala",
+    "end": "Badiadka, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vitla",
+      "Badiadka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vitla",
+      "coords": [
+        75.10803,
+        12.69184
+      ]
+    },
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.09218,
+        12.67901
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

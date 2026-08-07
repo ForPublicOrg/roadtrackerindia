@@ -1,0 +1,42 @@
+{
+  "id": "kl-kodannur-kundolikkadavu-road",
+  "ref": "MDR",
+  "name": "Kodannur Kundolikkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Cheerachi, Kerala",
+    "end": "Kuriyachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheerachi",
+      "Kuriyachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.2006,
+        10.46807
+      ]
+    },
+    {
+      "name": "Kuriyachira",
+      "coords": [
+        76.18421,
+        10.46639
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

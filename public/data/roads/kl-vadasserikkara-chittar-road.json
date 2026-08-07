@@ -1,0 +1,42 @@
+{
+  "id": "kl-vadasserikkara-chittar-road",
+  "ref": "MDR",
+  "name": "Vadasserikkara - Chittar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.4,
+  "route": {
+    "start": "Chittar, Kerala",
+    "end": "Ranni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittar",
+      "Ranni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittar",
+      "coords": [
+        76.93271,
+        9.33265
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.83106,
+        9.34149
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

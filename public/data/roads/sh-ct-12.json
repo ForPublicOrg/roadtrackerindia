@@ -1,0 +1,42 @@
+{
+  "id": "sh-ct-12",
+  "ref": "SH 12",
+  "name": "Jashpur Nagar–Surajpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 256.6,
+  "route": {
+    "start": "Jashpur Nagar, Chhattisgarh",
+    "end": "Surajpur, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Jashpur Nagar",
+      "Surajpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jashpur Nagar",
+      "coords": [
+        84.15663,
+        22.87277
+      ]
+    },
+    {
+      "name": "Surajpur",
+      "coords": [
+        82.66684,
+        23.30264
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

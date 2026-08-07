@@ -1,0 +1,42 @@
+{
+  "id": "kl-kankol-cheemeni-road",
+  "ref": "MDR",
+  "name": "Kankol - Cheemeni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.2,
+  "route": {
+    "start": "Kothaymukku, Kerala",
+    "end": "Cheemeni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothaymukku",
+      "Cheemeni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.22416,
+        12.15491
+      ]
+    },
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.23239,
+        12.23833
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

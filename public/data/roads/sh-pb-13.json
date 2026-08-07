@@ -1,0 +1,50 @@
+{
+  "id": "sh-pb-13",
+  "ref": "SH 13",
+  "name": "Barnala–Mullanpur Dakha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.2,
+  "route": {
+    "start": "Barnala, Punjab",
+    "end": "Mullanpur Dakha, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Barnala",
+      "Raikot",
+      "Mullanpur Dakha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barnala",
+      "coords": [
+        75.51202,
+        30.33471
+      ]
+    },
+    {
+      "name": "Raikot",
+      "coords": [
+        75.59972,
+        30.65692
+      ]
+    },
+    {
+      "name": "Mullanpur Dakha",
+      "coords": [
+        75.67121,
+        30.84224
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

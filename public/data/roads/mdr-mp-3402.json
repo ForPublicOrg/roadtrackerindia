@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3402",
+  "ref": "MDR 3402",
+  "name": "Harda–Nemawar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.9,
+  "route": {
+    "start": "Harda, Madhya Pradesh",
+    "end": "Nemawar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Harda",
+      "Nemawar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Harda",
+      "coords": [
+        77.07766,
+        22.33135
+      ]
+    },
+    {
+      "name": "Nemawar",
+      "coords": [
+        76.97588,
+        22.34208
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

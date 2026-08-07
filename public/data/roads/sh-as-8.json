@@ -1,0 +1,43 @@
+{
+  "id": "sh-as-8",
+  "ref": "SH 8",
+  "name": "Sonari–Moranhat State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 30.8,
+  "route": {
+    "start": "Sonari, Assam",
+    "end": "Moranhat, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sonari",
+      "Moran",
+      "Moranhat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonari",
+      "coords": [
+        95.01643,
+        27.02605
+      ]
+    },
+    {
+      "name": "Moran",
+      "coords": [
+        94.91321,
+        27.18158
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

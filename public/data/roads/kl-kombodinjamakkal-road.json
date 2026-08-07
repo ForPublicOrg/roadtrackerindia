@@ -1,0 +1,42 @@
+{
+  "id": "kl-kombodinjamakkal-road",
+  "ref": "MDR",
+  "name": "Kombodinjamakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Thachudaparambu, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thachudaparambu",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.27724,
+        10.30999
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.21842,
+        10.30496
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

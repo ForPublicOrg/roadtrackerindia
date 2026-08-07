@@ -1,0 +1,42 @@
+{
+  "id": "kl-thattukadavu-chendamangalam-road",
+  "ref": "MDR",
+  "name": "Thattukadavu - Chendamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Kottapuram, Kerala",
+    "end": "North Paravur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottapuram",
+      "North Paravur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottapuram",
+      "coords": [
+        76.22304,
+        10.17812
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.22251,
+        10.15433
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

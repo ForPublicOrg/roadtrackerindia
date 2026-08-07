@@ -1,0 +1,57 @@
+{
+  "id": "kl-eramangalam-naranipuzha-road",
+  "ref": "MDR",
+  "name": "Eramangalam - Naranipuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Eramangalam, Kerala",
+    "end": "Puthanpally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Eramangalam",
+      "Adhikaripadi",
+      "Puthanpally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Eramangalam",
+      "coords": [
+        75.98969,
+        10.71898
+      ]
+    },
+    {
+      "name": "Adhikaripadi",
+      "coords": [
+        75.9843,
+        10.71876
+      ]
+    },
+    {
+      "name": "Puthanpally",
+      "coords": [
+        75.98003,
+        10.71659
+      ]
+    },
+    {
+      "name": "Eramangalam",
+      "coords": [
+        75.97786,
+        10.71583
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

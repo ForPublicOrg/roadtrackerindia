@@ -1,0 +1,64 @@
+{
+  "id": "sh-up-45w",
+  "ref": "SH 45W",
+  "name": "Aliganj–Kasganj State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.4,
+  "route": {
+    "start": "Aliganj, Uttar Pradesh",
+    "end": "Kasganj, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Aliganj",
+      "Ganj Dundwara",
+      "Kasganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aliganj",
+      "coords": [
+        79.16453,
+        27.50021
+      ]
+    },
+    {
+      "name": "Bhargain",
+      "coords": [
+        79.12015,
+        27.56604
+      ]
+    },
+    {
+      "name": "Patiyali",
+      "coords": [
+        78.99797,
+        27.68695
+      ]
+    },
+    {
+      "name": "Ganj Dundwara",
+      "coords": [
+        78.93957,
+        27.73457
+      ]
+    },
+    {
+      "name": "Kasganj",
+      "coords": [
+        78.74822,
+        27.88688
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

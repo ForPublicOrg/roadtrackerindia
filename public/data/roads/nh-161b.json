@@ -1,0 +1,46 @@
+{
+  "id": "nh-161b",
+  "ref": "NH 161B",
+  "name": "Goranalli–Narayankhed National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 50.5,
+  "route": {
+    "start": "Goranalli, Telangana",
+    "end": "Narayankhed, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Goranalli",
+      "Narayankhed"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Goranalli",
+      "coords": [
+        77.59987,
+        17.87629
+      ]
+    },
+    {
+      "name": "Narayankhed",
+      "coords": [
+        77.77615,
+        18.03196
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

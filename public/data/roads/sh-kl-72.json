@@ -1,0 +1,58 @@
+{
+  "id": "sh-kl-72",
+  "ref": "SH 72",
+  "name": "Downhill–Tirurangadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 21,
+  "route": {
+    "start": "Downhill, Kerala",
+    "end": "Tirurangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Downhill",
+      "Malappuram",
+      "Vengara",
+      "Tirurangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Downhill",
+      "coords": [
+        76.07099,
+        11.051
+      ]
+    },
+    {
+      "name": "Othukungal",
+      "coords": [
+        76.04761,
+        11.03946
+      ]
+    },
+    {
+      "name": "Vengara",
+      "coords": [
+        75.98816,
+        11.05125
+      ]
+    },
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.9284,
+        11.04159
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

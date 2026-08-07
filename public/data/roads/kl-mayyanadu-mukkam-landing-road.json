@@ -1,0 +1,43 @@
+{
+  "id": "kl-mayyanadu-mukkam-landing-road",
+  "ref": "MDR",
+  "name": "Mayyanadu - Mukkam Landing Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Mayyanad, Kerala",
+    "end": "Mevaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mayyanad",
+      "Paravur",
+      "Mevaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mayyanad",
+      "coords": [
+        76.64621,
+        8.82232
+      ]
+    },
+    {
+      "name": "Mevaram",
+      "coords": [
+        76.64603,
+        8.83792
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

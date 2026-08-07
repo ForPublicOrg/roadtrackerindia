@@ -1,0 +1,42 @@
+{
+  "id": "kl-east-tippu-sulthan-road",
+  "ref": "MDR",
+  "name": "East Tippu Sulthan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.15205,
+        10.32385
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.16447,
+        10.2931
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

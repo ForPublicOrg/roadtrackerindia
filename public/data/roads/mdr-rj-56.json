@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-56",
+  "ref": "MDR 56",
+  "name": "Sanganer–Deoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 83.9,
+  "route": {
+    "start": "Sanganer, Rajasthan",
+    "end": "Deoli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sanganer",
+      "Kotri",
+      "Deoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sanganer",
+      "coords": [
+        74.71585,
+        25.34479
+      ]
+    },
+    {
+      "name": "Kotri",
+      "coords": [
+        74.90078,
+        25.40205
+      ]
+    },
+    {
+      "name": "Deoli",
+      "coords": [
+        75.21678,
+        25.76562
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-madathil-koomanthodu-road",
+  "ref": "MDR",
+  "name": "Madathil - Koomanthodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Payyavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Payyavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.68847,
+        12.00262
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.68095,
+        12.03769
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

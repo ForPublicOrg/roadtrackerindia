@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-17a",
+  "ref": "SH 17A",
+  "name": "Hosur–Denkanikottai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.8,
+  "route": {
+    "start": "Hosur, Tamil Nadu",
+    "end": "Denkanikottai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Hosur",
+      "Denkanikottai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hosur",
+      "coords": [
+        77.82625,
+        12.73385
+      ]
+    },
+    {
+      "name": "Denkanikottai",
+      "coords": [
+        77.79011,
+        12.52685
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

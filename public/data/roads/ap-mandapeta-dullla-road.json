@@ -1,0 +1,42 @@
+{
+  "id": "ap-mandapeta-dullla-road",
+  "ref": "SH",
+  "name": "Mandapeta - Dullla Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Kadiyam, Andhra Pradesh",
+    "end": "Mandapeta, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kadiyam",
+      "Mandapeta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadiyam",
+      "coords": [
+        81.85978,
+        16.85982
+      ]
+    },
+    {
+      "name": "Mandapeta",
+      "coords": [
+        81.92612,
+        16.86199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

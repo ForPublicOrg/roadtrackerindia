@@ -1,0 +1,51 @@
+{
+  "id": "odr-tn-6294",
+  "ref": "ODR 6294",
+  "name": "Konavattam–Vanjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Konavattam, Tamil Nadu",
+    "end": "Vanjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Konavattam",
+      "Vellore",
+      "Viruthampattu",
+      "Vanjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konavattam",
+      "coords": [
+        79.11654,
+        12.92243
+      ]
+    },
+    {
+      "name": "Viruthampattu",
+      "coords": [
+        79.11406,
+        12.92974
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.11128,
+        12.93199
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

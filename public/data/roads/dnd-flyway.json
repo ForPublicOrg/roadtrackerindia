@@ -8,7 +8,19 @@
   "lengthKm": 9.2,
   "lanes": "8 lanes",
   "agency": "Noida Toll Bridge Company Ltd (NTBCL)",
+  "authority": "noida-authority",
   "contractor": "Noida Toll Bridge Company Ltd (NTBCL), owned by IL&FS",
+  "builtBy": [
+    { "org": "ntbcl" }
+  ],
+  "operatedBy": [
+    { "org": "ntbcl" },
+    { "org": "ntbcl", "note": "still maintains it, though tolling was stopped by court order" }
+  ],
+  "tollInfo": {
+    "tolled": false,
+    "note": "The Allahabad High Court ordered the toll stopped in 2016, holding that drivers had already paid back the cost of the bridge many times over, and the Supreme Court upheld that in December 2024."
+  },
   "route": {
     "start": "Maharani Bagh (Ring Road), Delhi",
     "end": "Noida, Uttar Pradesh",

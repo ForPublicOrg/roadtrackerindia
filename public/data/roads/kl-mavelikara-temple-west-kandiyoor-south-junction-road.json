@@ -1,0 +1,42 @@
+{
+  "id": "kl-mavelikara-temple-west-kandiyoor-south-junction-road",
+  "ref": "MDR",
+  "name": "Mavelikara Temple West - Kandiyoor South Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Mavelikkara, Kerala",
+    "end": "Puthiyacavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mavelikkara",
+      "Puthiyacavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.53387,
+        9.24575
+      ]
+    },
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.52961,
+        9.25087
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

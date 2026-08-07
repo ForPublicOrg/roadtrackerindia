@@ -1,0 +1,42 @@
+{
+  "id": "kl-aravanchal-purakkunnu-mathamangalam-road",
+  "ref": "MDR",
+  "name": "Aravanchal - Purakkunnu - Mathamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Cheemeni, Kerala",
+    "end": "Ezhilode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheemeni",
+      "Ezhilode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.28401,
+        12.20938
+      ]
+    },
+    {
+      "name": "Ezhilode",
+      "coords": [
+        75.28933,
+        12.13973
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

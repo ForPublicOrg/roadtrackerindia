@@ -1,0 +1,42 @@
+{
+  "id": "kl-vallapuzha-mulayankavu-road",
+  "ref": "MDR",
+  "name": "Vallapuzha - Mulayankavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Pattambi, Kerala",
+    "end": "Cherpulassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pattambi",
+      "Cherpulassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.24717,
+        10.83699
+      ]
+    },
+    {
+      "name": "Cherpulassery",
+      "coords": [
+        76.2309,
+        10.86392
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kacheri-vellur-kottambaram-road",
+  "ref": "MDR",
+  "name": "Kacheri - Vellur Kottambaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Peringatoor, Kerala",
+    "end": "Nadapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peringatoor",
+      "Nadapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.60936,
+        11.70047
+      ]
+    },
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.62587,
+        11.69712
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-n10",
+  "ref": "SH-N 10",
+  "name": "Uthamapalayam–Cumbum State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Uthamapalayam, Tamil Nadu",
+    "end": "Cumbum, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Uthamapalayam",
+      "Cumbum"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uthamapalayam",
+      "coords": [
+        77.38717,
+        9.85566
+      ]
+    },
+    {
+      "name": "Cumbum",
+      "coords": [
+        77.37596,
+        9.83406
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-516a",
+  "ref": "NH 516A",
+  "name": "Gopalpur–Balugaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 84.7,
+  "route": {
+    "start": "Gopalpur, Odisha",
+    "end": "Balugaon, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Gopalpur",
+      "Chhatrapur",
+      "Ganjam",
+      "Balugaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gopalpur",
+      "coords": [
+        84.89679,
+        19.27345
+      ]
+    },
+    {
+      "name": "Chhatrapur",
+      "coords": [
+        84.98314,
+        19.35054
+      ]
+    },
+    {
+      "name": "Ganjam",
+      "coords": [
+        85.05116,
+        19.3843
+      ]
+    },
+    {
+      "name": "Balugaon",
+      "coords": [
+        85.40544,
+        19.64609
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

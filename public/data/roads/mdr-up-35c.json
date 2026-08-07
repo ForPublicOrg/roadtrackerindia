@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-35c",
+  "ref": "MDR 35C",
+  "name": "Lakhan Khera–Fatehpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 43.1,
+  "route": {
+    "start": "Lakhan Khera, Uttar Pradesh",
+    "end": "Fatehpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Lakhan Khera",
+      "Fatehpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lakhan Khera",
+      "coords": [
+        80.3509,
+        26.10072
+      ]
+    },
+    {
+      "name": "Fatehpur",
+      "coords": [
+        80.59924,
+        25.94179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

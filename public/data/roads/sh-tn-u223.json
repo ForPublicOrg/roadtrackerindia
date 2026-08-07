@@ -1,0 +1,43 @@
+{
+  "id": "sh-tn-u223",
+  "ref": "SH-U 223",
+  "name": "Kottakuppam–Karuvadikuppam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Kottakuppam, Tamil Nadu",
+    "end": "Karuvadikuppam, Puducherry",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kottakuppam",
+      "Puducherry",
+      "Karuvadikuppam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottakuppam",
+      "coords": [
+        79.83769,
+        11.96708
+      ]
+    },
+    {
+      "name": "Puducherry",
+      "coords": [
+        79.83312,
+        11.95671
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-valankara-ayroor-road",
+  "ref": "MDR",
+  "name": "Valankara - Ayroor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Mamukku, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mamukku",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mamukku",
+      "coords": [
+        76.72842,
+        9.39094
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.668,
+        9.40319
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

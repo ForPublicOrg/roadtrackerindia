@@ -1,0 +1,42 @@
+{
+  "id": "kl-kottapuzhakkal-thazhava-road",
+  "ref": "MDR",
+  "name": "Kottapuzhakkal - Thazhava Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.2,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Kayamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Kayamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.57434,
+        9.08811
+      ]
+    },
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.55796,
+        9.17718
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

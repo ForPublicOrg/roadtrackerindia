@@ -1,0 +1,43 @@
+{
+  "id": "kl-scooter-factory-road",
+  "ref": "MDR",
+  "name": "Scooter Factory Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Vellakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha",
+      "Vellakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.33563,
+        9.45075
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33274,
+        9.46571
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

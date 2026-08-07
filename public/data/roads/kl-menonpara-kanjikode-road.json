@@ -1,0 +1,42 @@
+{
+  "id": "kl-menonpara-kanjikode-road",
+  "ref": "MDR",
+  "name": "Menonpara - Kanjikode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Chandranagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Chandranagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.78541,
+        10.78949
+      ]
+    },
+    {
+      "name": "Chandranagar",
+      "coords": [
+        76.74719,
+        10.79657
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

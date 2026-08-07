@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuzhuchira-nadavaramb-road",
+  "ref": "MDR",
+  "name": "Kuzhuchira - Nadavaramb Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Angamaly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Angamaly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.30432,
+        10.20048
+      ]
+    },
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.32078,
+        10.21454
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

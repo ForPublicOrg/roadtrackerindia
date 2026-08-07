@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-110",
+  "ref": "SH 110",
+  "name": "Shanivarsanthe–Belur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.2,
+  "route": {
+    "start": "Shanivarsanthe, Karnataka",
+    "end": "Belur, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Shanivarsanthe",
+      "Aluru",
+      "Belur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shanivarsanthe",
+      "coords": [
+        75.85825,
+        12.84083
+      ]
+    },
+    {
+      "name": "Aluru",
+      "coords": [
+        75.98589,
+        12.9768
+      ]
+    },
+    {
+      "name": "Belur",
+      "coords": [
+        75.86424,
+        13.16366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

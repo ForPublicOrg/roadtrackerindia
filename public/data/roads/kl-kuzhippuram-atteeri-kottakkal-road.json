@@ -1,0 +1,43 @@
+{
+  "id": "kl-kuzhippuram-atteeri-kottakkal-road",
+  "ref": "MDR",
+  "name": "Kuzhippuram - Atteeri - Kottakkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Kottakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Othukungal",
+      "Kottakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.00689,
+        11.02369
+      ]
+    },
+    {
+      "name": "Kottakkal",
+      "coords": [
+        76.00583,
+        11.00356
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

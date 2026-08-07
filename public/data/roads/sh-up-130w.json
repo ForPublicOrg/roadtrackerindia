@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-130w",
+  "ref": "SH 130W",
+  "name": "Fatehabad–Kheragarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.4,
+  "route": {
+    "start": "Fatehabad, Uttar Pradesh",
+    "end": "Kheragarh, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Fatehabad",
+      "Shamsabad",
+      "Kheragarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Fatehabad",
+      "coords": [
+        78.29213,
+        27.03132
+      ]
+    },
+    {
+      "name": "Shamsabad",
+      "coords": [
+        78.12496,
+        27.01603
+      ]
+    },
+    {
+      "name": "Kheragarh",
+      "coords": [
+        77.93605,
+        26.94612
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

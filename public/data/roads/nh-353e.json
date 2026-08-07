@@ -1,0 +1,54 @@
+{
+  "id": "nh-353e",
+  "ref": "NH 353E",
+  "name": "Warora–Umred National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 100.6,
+  "route": {
+    "start": "Warora, Maharashtra",
+    "end": "Umred, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Warora",
+      "Chimur",
+      "Umred"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Warora",
+      "coords": [
+        79.0155,
+        20.23472
+      ]
+    },
+    {
+      "name": "Chimur",
+      "coords": [
+        79.37187,
+        20.49424
+      ]
+    },
+    {
+      "name": "Umred",
+      "coords": [
+        79.32252,
+        20.84179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

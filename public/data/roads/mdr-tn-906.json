@@ -1,0 +1,44 @@
+{
+  "id": "mdr-tn-906",
+  "ref": "MDR 906",
+  "name": "Mettupatti–Begambur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Mettupatti, Tamil Nadu",
+    "end": "Begambur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mettupatti",
+      "Thottanuthu",
+      "Dindigul",
+      "Begambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mettupatti",
+      "coords": [
+        77.98216,
+        10.3517
+      ]
+    },
+    {
+      "name": "Dindigul",
+      "coords": [
+        77.96572,
+        10.35417
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

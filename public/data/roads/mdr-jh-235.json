@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-235",
+  "ref": "MDR 235",
+  "name": "Bawāndīgha–Deoghar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 31.5,
+  "route": {
+    "start": "Bawāndīgha, Jharkhand",
+    "end": "Deoghar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Bawāndīgha",
+      "Devipur",
+      "Deoghar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bawāndīgha",
+      "coords": [
+        86.51024,
+        24.2914
+      ]
+    },
+    {
+      "name": "Devipur",
+      "coords": [
+        86.58429,
+        24.40688
+      ]
+    },
+    {
+      "name": "Deoghar",
+      "coords": [
+        86.68008,
+        24.48752
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

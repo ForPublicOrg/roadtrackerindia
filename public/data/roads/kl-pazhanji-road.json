@@ -1,0 +1,42 @@
+{
+  "id": "kl-pazhanji-road",
+  "ref": "MDR",
+  "name": "Pazhanji Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kunnamkulam, Kerala",
+    "end": "Koottanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kunnamkulam",
+      "Koottanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunnamkulam",
+      "coords": [
+        76.05717,
+        10.69139
+      ]
+    },
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.0918,
+        10.69549
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

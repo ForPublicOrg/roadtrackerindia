@@ -1,0 +1,42 @@
+{
+  "id": "kl-areepalam-vallivattom-road",
+  "ref": "MDR",
+  "name": "Areepalam - Vallivattom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.18588,
+        10.28066
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.18265,
+        10.29222
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

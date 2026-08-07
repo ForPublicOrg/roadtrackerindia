@@ -1,0 +1,42 @@
+{
+  "id": "kl-thadikkadu-venchembu-road",
+  "ref": "MDR",
+  "name": "Thadikkadu - Venchembu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Anchal, Kerala",
+    "end": "Valakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchal",
+      "Valakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchal",
+      "coords": [
+        76.89009,
+        8.97591
+      ]
+    },
+    {
+      "name": "Valakom",
+      "coords": [
+        76.87944,
+        8.95483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

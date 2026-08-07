@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-110a",
+  "ref": "SH 110A",
+  "name": "Jetpur–Jetalsar Junction State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 22.5,
+  "route": {
+    "start": "Jetpur, Gujarat",
+    "end": "Jetalsar Junction, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Jetpur",
+      "Jetalsar Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jetpur",
+      "coords": [
+        70.64015,
+        21.73534
+      ]
+    },
+    {
+      "name": "Jetalsar Junction",
+      "coords": [
+        70.81676,
+        21.68488
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

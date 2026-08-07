@@ -1,0 +1,58 @@
+{
+  "id": "kl-edakazhiyoor-veliyancode-road",
+  "ref": "MDR",
+  "name": "Edakazhiyoor - Veliyancode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Athani, Kerala",
+    "end": "Puthanpally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Athani",
+      "Mukkala",
+      "Eramangalam",
+      "Puthanpally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Athani",
+      "coords": [
+        75.95259,
+        10.7618
+      ]
+    },
+    {
+      "name": "Mukkala",
+      "coords": [
+        75.95645,
+        10.73156
+      ]
+    },
+    {
+      "name": "Eramangalam",
+      "coords": [
+        75.96512,
+        10.71196
+      ]
+    },
+    {
+      "name": "Puthanpally",
+      "coords": [
+        75.96975,
+        10.69881
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

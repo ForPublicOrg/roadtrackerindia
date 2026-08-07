@@ -1,0 +1,42 @@
+{
+  "id": "sh-mh-240",
+  "ref": "SH 240",
+  "name": "Morshi–Warud State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 8.4,
+  "route": {
+    "start": "Morshi, Maharashtra",
+    "end": "Warud, Madhya Pradesh",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Morshi",
+      "Warud"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morshi",
+      "coords": [
+        78.01869,
+        21.34512
+      ]
+    },
+    {
+      "name": "Warud",
+      "coords": [
+        78.00724,
+        21.41648
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-melechinnar-perinjamkutty-road",
+  "ref": "MDR",
+  "name": "Melechinnar - Perinjamkutty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Thankamani, Kerala",
+    "end": "Rajakkaad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thankamani",
+      "Rajakkaad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thankamani",
+      "coords": [
+        77.09072,
+        9.87371
+      ]
+    },
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.08433,
+        9.898
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

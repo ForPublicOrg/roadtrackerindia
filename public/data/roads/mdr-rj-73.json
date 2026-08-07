@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-73",
+  "ref": "MDR 73",
+  "name": "Kekri–Peeplu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 71.5,
+  "route": {
+    "start": "Kekri, Rajasthan",
+    "end": "Peeplu, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kekri",
+      "Todaraisingh",
+      "Peeplu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kekri",
+      "coords": [
+        75.15743,
+        25.98091
+      ]
+    },
+    {
+      "name": "Todaraisingh",
+      "coords": [
+        75.48254,
+        26.02398
+      ]
+    },
+    {
+      "name": "Peeplu",
+      "coords": [
+        75.6392,
+        26.27363
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

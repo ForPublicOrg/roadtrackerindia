@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-143",
+  "ref": "MDR 143",
+  "name": "Khelari–Balumath District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.7,
+  "route": {
+    "start": "Khelari, Jharkhand",
+    "end": "Balumath, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Khelari",
+      "Balumath"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khelari",
+      "coords": [
+        84.95182,
+        23.65155
+      ]
+    },
+    {
+      "name": "Balumath",
+      "coords": [
+        84.79166,
+        23.82566
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

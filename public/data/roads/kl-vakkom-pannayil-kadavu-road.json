@@ -1,0 +1,42 @@
+{
+  "id": "kl-vakkom-pannayil-kadavu-road",
+  "ref": "MDR",
+  "name": "Vakkom - Pannayil Kadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kadakkavoor, Kerala",
+    "end": "Chirayinkeezhu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkavoor",
+      "Chirayinkeezhu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.75263,
+        8.70077
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.75422,
+        8.68817
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

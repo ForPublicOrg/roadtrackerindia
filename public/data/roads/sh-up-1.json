@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-1",
+  "ref": "SH 1",
+  "name": "Air Force Area–Anand Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54.4,
+  "route": {
+    "start": "Air Force Area, Uttar Pradesh",
+    "end": "Anand Nagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Air Force Area",
+      "Gorakhpur",
+      "Anand Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Air Force Area",
+      "coords": [
+        83.47836,
+        26.69655
+      ]
+    },
+    {
+      "name": "Gorakhpur",
+      "coords": [
+        83.37207,
+        26.75458
+      ]
+    },
+    {
+      "name": "Anand Nagar",
+      "coords": [
+        83.27297,
+        27.10393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

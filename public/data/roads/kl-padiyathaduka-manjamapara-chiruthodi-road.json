@@ -1,0 +1,42 @@
+{
+  "id": "kl-padiyathaduka-manjamapara-chiruthodi-road",
+  "ref": "MDR",
+  "name": "Padiyathaduka - Manjamapara - Chiruthodi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Mulleria, Kerala",
+    "end": "Bovikkanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulleria",
+      "Bovikkanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.19907,
+        12.55942
+      ]
+    },
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.2046,
+        12.55016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

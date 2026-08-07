@@ -1,0 +1,42 @@
+{
+  "id": "kl-tv-puram-moothedathukavu-road",
+  "ref": "MDR",
+  "name": "TV Puram - Moothedathukavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.39125,
+        9.70442
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.40017,
+        9.70706
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

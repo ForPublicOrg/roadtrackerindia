@@ -1,0 +1,42 @@
+{
+  "id": "kl-venpakal-road",
+  "ref": "MDR",
+  "name": "Venpakal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Neyyatinkara, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neyyatinkara",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.07554,
+        8.38562
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.06246,
+        8.39299
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

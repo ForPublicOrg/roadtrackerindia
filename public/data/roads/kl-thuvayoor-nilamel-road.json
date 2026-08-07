@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuvayoor-nilamel-road",
+  "ref": "MDR",
+  "name": "Thuvayoor - Nilamel Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Moonnalam, Kerala",
+    "end": "Nellimoottilpadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Moonnalam",
+      "Nellimoottilpadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Moonnalam",
+      "coords": [
+        76.69442,
+        9.10702
+      ]
+    },
+    {
+      "name": "Nellimoottilpadi",
+      "coords": [
+        76.72578,
+        9.09983
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

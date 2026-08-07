@@ -1,0 +1,43 @@
+{
+  "id": "kl-valavupara-kacherikkadavu-palathumkadavu-road",
+  "ref": "MDR",
+  "name": "Valavupara - Kacherikkadavu - Palathumkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Virajpet, Kerala",
+    "states": [
+      "Kerala",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Virajpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.72092,
+        12.06864
+      ]
+    },
+    {
+      "name": "Virajpet",
+      "coords": [
+        75.79063,
+        12.07965
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

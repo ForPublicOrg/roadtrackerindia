@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-5100",
+  "ref": "ODR 5100",
+  "name": "Tindivanam–Vandavasi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Tindivanam, Tamil Nadu",
+    "end": "Vandavasi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tindivanam",
+      "Vandavasi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tindivanam",
+      "coords": [
+        79.70566,
+        12.36163
+      ]
+    },
+    {
+      "name": "Vandavasi",
+      "coords": [
+        79.71986,
+        12.37358
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

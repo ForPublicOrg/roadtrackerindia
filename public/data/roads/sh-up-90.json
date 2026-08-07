@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-90",
+  "ref": "SH 90",
+  "name": "Dhangadhi–Lakhimpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 109.5,
+  "route": {
+    "start": "Dhangadhi, Uttar Pradesh",
+    "end": "Lakhimpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Dhangadhi",
+      "Palia Kalan",
+      "Aliganj",
+      "Lakhimpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhangadhi",
+      "coords": [
+        80.552,
+        28.69165
+      ]
+    },
+    {
+      "name": "Palia Kalan",
+      "coords": [
+        80.58295,
+        28.43261
+      ]
+    },
+    {
+      "name": "Aliganj",
+      "coords": [
+        80.58975,
+        28.1135
+      ]
+    },
+    {
+      "name": "Lakhimpur",
+      "coords": [
+        80.77722,
+        27.94994
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

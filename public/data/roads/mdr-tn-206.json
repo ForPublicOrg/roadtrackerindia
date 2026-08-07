@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-206",
+  "ref": "MDR 206",
+  "name": "Palavanthankattalai–Kumbakonam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Palavanthankattalai, Tamil Nadu",
+    "end": "Kumbakonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palavanthankattalai",
+      "Chekkankanni",
+      "Perumandy",
+      "Kumbakonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palavanthankattalai",
+      "coords": [
+        79.39224,
+        10.95847
+      ]
+    },
+    {
+      "name": "Kuppankulam",
+      "coords": [
+        79.39266,
+        10.96295
+      ]
+    },
+    {
+      "name": "Ullur",
+      "coords": [
+        79.39074,
+        10.96734
+      ]
+    },
+    {
+      "name": "Perumandy",
+      "coords": [
+        79.38576,
+        10.96778
+      ]
+    },
+    {
+      "name": "Kumbakonam",
+      "coords": [
+        79.37849,
+        10.96758
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

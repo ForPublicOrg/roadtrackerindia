@@ -1,0 +1,42 @@
+{
+  "id": "kl-perla-kattukukke-road",
+  "ref": "MDR",
+  "name": "Perla - Kattukukke Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.13018,
+        12.66106
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.10805,
+        12.64453
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

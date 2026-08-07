@@ -1,0 +1,66 @@
+{
+  "id": "sh-up-10e",
+  "ref": "SH 10E",
+  "name": "Gadhawa–Ramnagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 136.6,
+  "route": {
+    "start": "Gadhawa, Uttar Pradesh",
+    "end": "Ramnagar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gadhawa",
+      "Tulsipur",
+      "Balrampur",
+      "Gonda",
+      "Ramnagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gadhawa",
+      "coords": [
+        82.52487,
+        27.68886
+      ]
+    },
+    {
+      "name": "Tulsipur",
+      "coords": [
+        82.41257,
+        27.53248
+      ]
+    },
+    {
+      "name": "Balrampur",
+      "coords": [
+        82.18755,
+        27.43234
+      ]
+    },
+    {
+      "name": "Gonda",
+      "coords": [
+        81.96173,
+        27.13388
+      ]
+    },
+    {
+      "name": "Ramnagar",
+      "coords": [
+        81.53484,
+        27.11933
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

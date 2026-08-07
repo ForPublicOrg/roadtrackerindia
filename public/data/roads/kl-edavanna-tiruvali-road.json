@@ -1,0 +1,42 @@
+{
+  "id": "kl-edavanna-tiruvali-road",
+  "ref": "MDR",
+  "name": "Edavanna - Tiruvali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Wandoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Wandoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.14142,
+        11.21666
+      ]
+    },
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.17882,
+        11.20022
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

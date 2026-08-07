@@ -1,0 +1,78 @@
+{
+  "id": "nh-77",
+  "ref": "NH 77",
+  "name": "Krishnagiri–Tindivanam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 181.1,
+  "route": {
+    "start": "Krishnagiri, Tamil Nadu",
+    "end": "Tindivanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Krishnagiri",
+      "Uthangarai",
+      "Chengam",
+      "Tiruvannamalai",
+      "Giingee",
+      "Tindivanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Krishnagiri",
+      "coords": [
+        78.23136,
+        12.51524
+      ]
+    },
+    {
+      "name": "Uthangarai",
+      "coords": [
+        78.54153,
+        12.27286
+      ]
+    },
+    {
+      "name": "Chengam",
+      "coords": [
+        78.79857,
+        12.29627
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.0975,
+        12.22749
+      ]
+    },
+    {
+      "name": "Giingee",
+      "coords": [
+        79.4239,
+        12.25275
+      ]
+    },
+    {
+      "name": "Tindivanam",
+      "coords": [
+        79.66584,
+        12.24717
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

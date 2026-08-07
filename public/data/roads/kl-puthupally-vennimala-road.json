@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthupally-vennimala-road",
+  "ref": "MDR",
+  "name": "Puthupally-Vennimala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.61226,
+        9.57293
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.57865,
+        9.56702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

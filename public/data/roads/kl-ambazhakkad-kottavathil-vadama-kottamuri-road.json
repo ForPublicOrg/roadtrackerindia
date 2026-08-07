@@ -1,0 +1,42 @@
+{
+  "id": "kl-ambazhakkad-kottavathil-vadama-kottamuri-road",
+  "ref": "MDR",
+  "name": "Ambazhakkad - Kottavathil - Vadama - Kottamuri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Thachudaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.27899,
+        10.24024
+      ]
+    },
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.28902,
+        10.26257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

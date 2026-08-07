@@ -1,0 +1,74 @@
+{
+  "id": "sh-mp-7",
+  "ref": "SH 7",
+  "name": "Ramganj Mandi–Neemuch State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 169.5,
+  "route": {
+    "start": "Ramganj Mandi, Rajasthan",
+    "end": "Neemuch, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ramganj Mandi",
+      "Gandhi Sagar Colony No.3",
+      "Gandhi Sagar Colony",
+      "Rampura",
+      "Manasa",
+      "Neemuch"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramganj Mandi",
+      "coords": [
+        75.92169,
+        24.53924
+      ]
+    },
+    {
+      "name": "Gandhi Sagar Colony No.3",
+      "coords": [
+        75.59817,
+        24.66231
+      ]
+    },
+    {
+      "name": "Gandhi Sagar Colony",
+      "coords": [
+        75.56418,
+        24.69276
+      ]
+    },
+    {
+      "name": "Rampura",
+      "coords": [
+        75.43492,
+        24.46524
+      ]
+    },
+    {
+      "name": "Manasa",
+      "coords": [
+        75.14505,
+        24.47358
+      ]
+    },
+    {
+      "name": "Neemuch",
+      "coords": [
+        74.89441,
+        24.46362
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

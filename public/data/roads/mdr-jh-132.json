@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-132",
+  "ref": "MDR 132",
+  "name": "Nagwa–Nagar Untari District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 29.6,
+  "route": {
+    "start": "Nagwa, Jharkhand",
+    "end": "Nagar Untari, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Nagwa",
+      "Nagar Untari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagwa",
+      "coords": [
+        83.81995,
+        24.3248
+      ]
+    },
+    {
+      "name": "Nagar Untari",
+      "coords": [
+        83.59105,
+        24.23963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

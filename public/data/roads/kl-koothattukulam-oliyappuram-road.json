@@ -1,0 +1,42 @@
+{
+  "id": "kl-koothattukulam-oliyappuram-road",
+  "ref": "MDR",
+  "name": "Koothattukulam - Oliyappuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Piravom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Piravom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.59551,
+        9.86152
+      ]
+    },
+    {
+      "name": "Piravom",
+      "coords": [
+        76.57161,
+        9.88628
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

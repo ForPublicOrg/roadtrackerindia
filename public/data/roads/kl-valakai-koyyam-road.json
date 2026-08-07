@@ -1,0 +1,42 @@
+{
+  "id": "kl-valakai-koyyam-road",
+  "ref": "MDR",
+  "name": "Valakai - Koyyam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Karinkalkuzhi, Kerala",
+    "end": "Sreekandapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkalkuzhi",
+      "Sreekandapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.46053,
+        12.00825
+      ]
+    },
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.4481,
+        12.04183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

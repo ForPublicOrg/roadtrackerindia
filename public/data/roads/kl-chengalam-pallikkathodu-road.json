@@ -1,0 +1,42 @@
+{
+  "id": "kl-chengalam-pallikkathodu-road",
+  "ref": "MDR",
+  "name": "Chengalam - Pallikkathodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.70849,
+        9.61914
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.68902,
+        9.60248
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

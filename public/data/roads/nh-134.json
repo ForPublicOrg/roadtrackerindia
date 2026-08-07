@@ -1,0 +1,54 @@
+{
+  "id": "nh-134",
+  "ref": "NH 134",
+  "name": "Chinyalisaur–Gangori National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 94.7,
+  "route": {
+    "start": "Chinyalisaur, Uttarakhand",
+    "end": "Gangori, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Chinyalisaur",
+      "Barkot",
+      "Gangori"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chinyalisaur",
+      "coords": [
+        78.33027,
+        30.62965
+      ]
+    },
+    {
+      "name": "Barkot",
+      "coords": [
+        78.21665,
+        30.81264
+      ]
+    },
+    {
+      "name": "Gangori",
+      "coords": [
+        78.43888,
+        30.97619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

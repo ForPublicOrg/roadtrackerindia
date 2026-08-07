@@ -1,0 +1,42 @@
+{
+  "id": "kl-manimala-pazhayidam-chengakunnu-chenapady-erumely-road",
+  "ref": "MDR",
+  "name": "Manimala - Pazhayidam - Chengakunnu - Chenapady - Erumely Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.5,
+  "route": {
+    "start": "Erumely, Kerala",
+    "end": "Manimala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erumely",
+      "Manimala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erumely",
+      "coords": [
+        76.84405,
+        9.48125
+      ]
+    },
+    {
+      "name": "Manimala",
+      "coords": [
+        76.77755,
+        9.50399
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

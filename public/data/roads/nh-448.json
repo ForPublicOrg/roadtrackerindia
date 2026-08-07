@@ -1,0 +1,55 @@
+{
+  "id": "nh-448",
+  "ref": "NH 448",
+  "name": "RICCO Industrial Area–Nasirabad Cantonment National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 51.6,
+  "route": {
+    "start": "RICCO Industrial Area, Rajasthan",
+    "end": "Nasirabad Cantonment, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "RICCO Industrial Area",
+      "Ajmer",
+      "Nasirabad",
+      "Nasirabad Cantonment"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "RICCO Industrial Area",
+      "coords": [
+        74.90726,
+        26.59006
+      ]
+    },
+    {
+      "name": "Ajmer",
+      "coords": [
+        74.67463,
+        26.421
+      ]
+    },
+    {
+      "name": "Nasirabad",
+      "coords": [
+        74.74408,
+        26.32071
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

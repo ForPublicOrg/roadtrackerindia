@@ -1,0 +1,79 @@
+{
+  "id": "nh-135bg",
+  "ref": "NH 135BG",
+  "name": "Maihar–Chitrakoot Dham National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 123.2,
+  "route": {
+    "start": "Maihar, Madhya Pradesh",
+    "end": "Chitrakoot Dham, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Maihar",
+      "Uchahera",
+      "Satna",
+      "Majhagawan",
+      "Chitrakoot",
+      "Chitrakoot Dham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maihar",
+      "coords": [
+        80.75193,
+        24.24744
+      ]
+    },
+    {
+      "name": "Uchahera",
+      "coords": [
+        80.78369,
+        24.37811
+      ]
+    },
+    {
+      "name": "Satna",
+      "coords": [
+        80.83058,
+        24.5732
+      ]
+    },
+    {
+      "name": "Majhagawan",
+      "coords": [
+        80.79926,
+        24.9137
+      ]
+    },
+    {
+      "name": "Chitrakoot",
+      "coords": [
+        80.86849,
+        25.17605
+      ]
+    },
+    {
+      "name": "Chitrakoot Dham",
+      "coords": [
+        80.87969,
+        25.21676
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

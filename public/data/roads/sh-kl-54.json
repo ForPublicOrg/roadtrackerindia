@@ -1,0 +1,65 @@
+{
+  "id": "sh-kl-54",
+  "ref": "SH 54",
+  "name": "Kalpetta–Perambra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 76.6,
+  "route": {
+    "start": "Kalpetta, Kerala",
+    "end": "Perambra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalpetta",
+      "Mananthavady",
+      "Chakkittapara",
+      "Perambra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.08311,
+        11.60205
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.00654,
+        11.75491
+      ]
+    },
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.82097,
+        11.63392
+      ]
+    },
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.8146,
+        11.59928
+      ]
+    },
+    {
+      "name": "Perambra",
+      "coords": [
+        75.76489,
+        11.5997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

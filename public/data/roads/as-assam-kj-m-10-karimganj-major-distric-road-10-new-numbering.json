@@ -1,0 +1,50 @@
+{
+  "id": "as-assam-kj-m-10-karimganj-major-distric-road-10-new-numbering",
+  "ref": "MDR",
+  "name": "Assam Kj-M-10 (Karimganj Major Distric Road 10) (new Numbering 2024)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.5,
+  "route": {
+    "start": "Karimganj, Assam",
+    "end": "Panchgram, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Karimganj",
+      "Badarpur",
+      "Panchgram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karimganj",
+      "coords": [
+        92.41711,
+        24.84821
+      ]
+    },
+    {
+      "name": "Badarpur",
+      "coords": [
+        92.56824,
+        24.8599
+      ]
+    },
+    {
+      "name": "Panchgram",
+      "coords": [
+        92.58271,
+        24.87281
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

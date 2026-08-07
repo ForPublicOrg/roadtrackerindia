@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-158",
+  "ref": "MDR 158",
+  "name": "Kayalpattinam–Virapandianpatanam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Kayalpattinam, Tamil Nadu",
+    "end": "Virapandianpatanam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kayalpattinam",
+      "Virapandianpatanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayalpattinam",
+      "coords": [
+        78.08636,
+        8.58215
+      ]
+    },
+    {
+      "name": "Virapandianpatanam",
+      "coords": [
+        78.12178,
+        8.56456
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

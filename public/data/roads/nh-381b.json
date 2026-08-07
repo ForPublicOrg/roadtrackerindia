@@ -1,0 +1,63 @@
+{
+  "id": "nh-381b",
+  "ref": "NH 381B",
+  "name": "Musiri–Namakkal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 43.6,
+  "route": {
+    "start": "Musiri, Tamil Nadu",
+    "end": "Namakkal, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Musiri",
+      "Kulithalai",
+      "Thottiyam",
+      "Valayapatti",
+      "Namakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Musiri",
+      "coords": [
+        78.42209,
+        10.96012
+      ]
+    },
+    {
+      "name": "Thottiyam",
+      "coords": [
+        78.33323,
+        10.98814
+      ]
+    },
+    {
+      "name": "Valayapatti",
+      "coords": [
+        78.23136,
+        11.12559
+      ]
+    },
+    {
+      "name": "Namakkal",
+      "coords": [
+        78.1682,
+        11.21916
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

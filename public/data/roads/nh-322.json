@@ -1,0 +1,61 @@
+{
+  "id": "nh-322",
+  "ref": "NH 322",
+  "name": "Darbhanga–Hajipur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 112.1,
+  "route": {
+    "start": "Darbhanga, Bihar",
+    "end": "Hajipur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Darbhanga",
+      "Samastipur",
+      "Hajipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Darbhanga",
+      "coords": [
+        85.82635,
+        26.17848
+      ]
+    },
+    {
+      "name": "Samastipur",
+      "coords": [
+        85.78142,
+        25.86517
+      ]
+    },
+    {
+      "name": "Desri",
+      "coords": [
+        85.40373,
+        25.69284
+      ]
+    },
+    {
+      "name": "Hajipur",
+      "coords": [
+        85.22735,
+        25.69437
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

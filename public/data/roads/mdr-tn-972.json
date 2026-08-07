@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-972",
+  "ref": "MDR 972",
+  "name": "Melur–Tiruppattur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.5,
+  "route": {
+    "start": "Melur, Tamil Nadu",
+    "end": "Tiruppattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melur",
+      "Tiruppattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melur",
+      "coords": [
+        78.43672,
+        10.05977
+      ]
+    },
+    {
+      "name": "Tiruppattur",
+      "coords": [
+        78.54127,
+        10.01838
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-25e",
+  "ref": "SH 25E",
+  "name": "Ramkola–Chauri Chaura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 41,
+  "route": {
+    "start": "Ramkola, Uttar Pradesh",
+    "end": "Chauri Chaura, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Ramkola",
+      "Hata",
+      "Chauri Chaura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramkola",
+      "coords": [
+        83.706,
+        26.92873
+      ]
+    },
+    {
+      "name": "Hata",
+      "coords": [
+        83.74316,
+        26.74181
+      ]
+    },
+    {
+      "name": "Chauri Chaura",
+      "coords": [
+        83.67227,
+        26.59916
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

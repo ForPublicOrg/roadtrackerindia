@@ -1,0 +1,42 @@
+{
+  "id": "sh-hp-43",
+  "ref": "SH 43",
+  "name": "Chowari–Sihunta State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 52.6,
+  "route": {
+    "start": "Chowari, Himachal Pradesh",
+    "end": "Sihunta, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Chowari",
+      "Sihunta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chowari",
+      "coords": [
+        76.01097,
+        32.43407
+      ]
+    },
+    {
+      "name": "Sihunta",
+      "coords": [
+        76.09205,
+        32.30057
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

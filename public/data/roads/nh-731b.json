@@ -1,0 +1,63 @@
+{
+  "id": "nh-731b",
+  "ref": "NH 731B",
+  "name": "Cantonment–Machhlishahr National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 96.9,
+  "route": {
+    "start": "Cantonment, Uttar Pradesh",
+    "end": "Machhlishahr, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Cantonment",
+      "Varanasi",
+      "Bhadohi",
+      "Suriyawan",
+      "Machhlishahr"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cantonment",
+      "coords": [
+        82.96812,
+        25.3161
+      ]
+    },
+    {
+      "name": "Bhadohi",
+      "coords": [
+        82.56994,
+        25.3924
+      ]
+    },
+    {
+      "name": "Suriyawan",
+      "coords": [
+        82.42212,
+        25.45861
+      ]
+    },
+    {
+      "name": "Machhlishahr",
+      "coords": [
+        82.40656,
+        25.6866
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

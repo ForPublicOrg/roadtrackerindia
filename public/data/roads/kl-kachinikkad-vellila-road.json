@@ -1,0 +1,42 @@
+{
+  "id": "kl-kachinikkad-vellila-road",
+  "ref": "MDR",
+  "name": "Kachinikkad - Vellila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Thamarakuzhi, Kerala",
+    "end": "Uphill, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thamarakuzhi",
+      "Uphill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thamarakuzhi",
+      "coords": [
+        76.11904,
+        11.0237
+      ]
+    },
+    {
+      "name": "Uphill",
+      "coords": [
+        76.15065,
+        11.04877
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

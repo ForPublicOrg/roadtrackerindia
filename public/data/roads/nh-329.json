@@ -1,0 +1,54 @@
+{
+  "id": "nh-329",
+  "ref": "NH 329",
+  "name": "Lumding–Manja National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 52.3,
+  "route": {
+    "start": "Lumding, Assam",
+    "end": "Manja, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Lumding",
+      "Diphu",
+      "Manja"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lumding",
+      "coords": [
+        93.16402,
+        25.77625
+      ]
+    },
+    {
+      "name": "Diphu",
+      "coords": [
+        93.4379,
+        25.84578
+      ]
+    },
+    {
+      "name": "Manja",
+      "coords": [
+        93.43683,
+        25.97012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

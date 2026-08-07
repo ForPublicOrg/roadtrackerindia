@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-224",
+  "ref": "MDR 224",
+  "name": "Jarmundi–Mohanpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.8,
+  "route": {
+    "start": "Jarmundi, Jharkhand",
+    "end": "Mohanpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jarmundi",
+      "Mohanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jarmundi",
+      "coords": [
+        86.95232,
+        24.24207
+      ]
+    },
+    {
+      "name": "Mohanpur",
+      "coords": [
+        86.87617,
+        24.44785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

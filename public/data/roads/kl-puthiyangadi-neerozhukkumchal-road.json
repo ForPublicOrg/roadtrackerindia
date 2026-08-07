@@ -1,0 +1,49 @@
+{
+  "id": "kl-puthiyangadi-neerozhukkumchal-road",
+  "ref": "MDR",
+  "name": "Puthiyangadi - Neerozhukkumchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Puthiyangadi, Kerala",
+    "end": "Pazhayangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyangadi",
+      "Pazhayangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.25381,
+        12.00346
+      ]
+    },
+    {
+      "name": "Pazhayangadi",
+      "coords": [
+        75.25101,
+        12.0071
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.24158,
+        12.01729
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

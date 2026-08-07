@@ -1,0 +1,62 @@
+{
+  "id": "nh-765d",
+  "ref": "NH 765D",
+  "name": "Gandimaisamma–Rudrur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 161.1,
+  "route": {
+    "start": "Gandimaisamma, Telangana",
+    "end": "Rudrur, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Gandimaisamma",
+      "Medak",
+      "Banswada",
+      "Rudrur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gandimaisamma",
+      "coords": [
+        78.40746,
+        17.59271
+      ]
+    },
+    {
+      "name": "Medak",
+      "coords": [
+        78.26357,
+        18.04601
+      ]
+    },
+    {
+      "name": "Banswada",
+      "coords": [
+        77.87537,
+        18.38345
+      ]
+    },
+    {
+      "name": "Rudrur",
+      "coords": [
+        77.87587,
+        18.58359
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

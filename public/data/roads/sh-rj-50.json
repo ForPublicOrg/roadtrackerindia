@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-50",
+  "ref": "SH 50",
+  "name": "Kotra–Udaipur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 88.1,
+  "route": {
+    "start": "Kotra, Rajasthan",
+    "end": "Udaipur, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Kotra",
+      "Jhadol",
+      "Udaipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotra",
+      "coords": [
+        73.34217,
+        24.18239
+      ]
+    },
+    {
+      "name": "Jhadol",
+      "coords": [
+        73.47776,
+        24.41688
+      ]
+    },
+    {
+      "name": "Udaipur",
+      "coords": [
+        73.69217,
+        24.59041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "nh-366",
+  "ref": "NH 366",
+  "name": "Chicalim–Madkai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Chicalim, Goa",
+    "end": "Madkai, Goa",
+    "states": [
+      "Goa"
+    ],
+    "majorCities": [
+      "Chicalim",
+      "Vasco da Gama",
+      "Zuarinagar",
+      "Madkai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chicalim",
+      "coords": [
+        73.83834,
+        15.38636
+      ]
+    },
+    {
+      "name": "Vasco da Gama",
+      "coords": [
+        73.83298,
+        15.39582
+      ]
+    },
+    {
+      "name": "Zuarinagar",
+      "coords": [
+        73.85928,
+        15.39739
+      ]
+    },
+    {
+      "name": "Madkai",
+      "coords": [
+        73.90782,
+        15.40255
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

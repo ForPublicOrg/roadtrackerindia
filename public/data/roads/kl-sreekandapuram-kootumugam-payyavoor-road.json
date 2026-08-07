@@ -1,0 +1,42 @@
+{
+  "id": "kl-sreekandapuram-kootumugam-payyavoor-road",
+  "ref": "MDR",
+  "name": "Sreekandapuram Kootumugam Payyavoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Sreekandapuram, Kerala",
+    "end": "Payyavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekandapuram",
+      "Payyavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.50984,
+        12.04741
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.58061,
+        12.06151
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

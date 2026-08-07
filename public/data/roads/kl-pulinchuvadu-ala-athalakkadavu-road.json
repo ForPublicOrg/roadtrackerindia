@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulinchuvadu-ala-athalakkadavu-road",
+  "ref": "MDR",
+  "name": "Pulinchuvadu - Ala - Athalakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.59555,
+        9.26528
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.60234,
+        9.29462
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

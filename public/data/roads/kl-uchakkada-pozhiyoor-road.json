@@ -1,0 +1,42 @@
+{
+  "id": "kl-uchakkada-pozhiyoor-road",
+  "ref": "MDR",
+  "name": "Uchakkada - Pozhiyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Poovar, Kerala",
+    "end": "Parassala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poovar",
+      "Parassala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poovar",
+      "coords": [
+        77.0964,
+        8.31537
+      ]
+    },
+    {
+      "name": "Parassala",
+      "coords": [
+        77.09296,
+        8.3005
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

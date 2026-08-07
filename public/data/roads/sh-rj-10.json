@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-10",
+  "ref": "SH 10",
+  "name": "Talwara–Galiakot State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 50.5,
+  "route": {
+    "start": "Talwara, Rajasthan",
+    "end": "Galiakot, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Talwara",
+      "Bagidora",
+      "Galiakot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Talwara",
+      "coords": [
+        74.36122,
+        23.49169
+      ]
+    },
+    {
+      "name": "Bagidora",
+      "coords": [
+        74.26376,
+        23.40627
+      ]
+    },
+    {
+      "name": "Galiakot",
+      "coords": [
+        74.02389,
+        23.38533
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

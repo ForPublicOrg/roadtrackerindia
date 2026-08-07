@@ -1,0 +1,42 @@
+{
+  "id": "kl-mepayyur-avala-road",
+  "ref": "MDR",
+  "name": "Mepayyur - Avala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.5,
+  "route": {
+    "start": "Perambra, Kerala",
+    "end": "Naduvannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perambra",
+      "Naduvannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perambra",
+      "coords": [
+        75.70546,
+        11.60194
+      ]
+    },
+    {
+      "name": "Naduvannur",
+      "coords": [
+        75.71163,
+        11.53149
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-nadukkunu-punalur-road",
+  "ref": "MDR",
+  "name": "Nadukkunu - Punalur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Punalur, Kerala",
+    "end": "Central Junction, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punalur",
+      "Pathanapuram",
+      "Central Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92149,
+        9.04211
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.86841,
+        9.0858
+      ]
+    },
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.86885,
+        9.08659
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

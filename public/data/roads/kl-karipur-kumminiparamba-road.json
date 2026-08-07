@@ -1,0 +1,42 @@
+{
+  "id": "kl-karipur-kumminiparamba-road",
+  "ref": "MDR",
+  "name": "Karipur - Kumminiparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Kondotty, Kerala",
+    "end": "Kaloth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kondotty",
+      "Kaloth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.9445,
+        11.14668
+      ]
+    },
+    {
+      "name": "Kaloth",
+      "coords": [
+        75.93977,
+        11.13542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-aroor-church-edakkochi-bridge-road",
+  "ref": "MDR",
+  "name": "Aroor Church - Edakkochi Bridge Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.30324,
+        9.87987
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.29668,
+        9.89006
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

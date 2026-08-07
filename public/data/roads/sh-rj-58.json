@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-58",
+  "ref": "SH 58",
+  "name": "Saran Nagar–Bhim State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 204.2,
+  "route": {
+    "start": "Saran Nagar, Rajasthan",
+    "end": "Bhim, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Saran Nagar",
+      "Sojat",
+      "Sojat Road",
+      "Bhim"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saran Nagar",
+      "coords": [
+        73.11055,
+        26.45959
+      ]
+    },
+    {
+      "name": "Sojat",
+      "coords": [
+        73.66286,
+        25.9214
+      ]
+    },
+    {
+      "name": "Sojat Road",
+      "coords": [
+        73.7458,
+        25.86243
+      ]
+    },
+    {
+      "name": "Bhim",
+      "coords": [
+        74.07851,
+        25.74396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-161h",
+  "ref": "NH 161H",
+  "name": "Nandura–Jalgaon Jamod National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 25.4,
+  "route": {
+    "start": "Nandura, Maharashtra",
+    "end": "Jalgaon Jamod, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nandura",
+      "Jalgaon Jamod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nandura",
+      "coords": [
+        76.463,
+        20.83661
+      ]
+    },
+    {
+      "name": "Jalgaon Jamod",
+      "coords": [
+        76.5247,
+        21.04128
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

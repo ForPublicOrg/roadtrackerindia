@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2777",
+  "ref": "ODR 2777",
+  "name": "SIPCOT Vallam Vadagal–Wallajahbad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "SIPCOT Vallam Vadagal, Tamil Nadu",
+    "end": "Wallajahbad, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "SIPCOT Vallam Vadagal",
+      "Wallajahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "SIPCOT Vallam Vadagal",
+      "coords": [
+        79.91502,
+        12.8693
+      ]
+    },
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.90864,
+        12.8417
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

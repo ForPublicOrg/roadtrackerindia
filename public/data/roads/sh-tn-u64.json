@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-u64",
+  "ref": "SH-U 64",
+  "name": "Salem–Dadagapatti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Salem, Tamil Nadu",
+    "end": "Dadagapatti, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Salem",
+      "Dadagapatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Salem",
+      "coords": [
+        78.15817,
+        11.65514
+      ]
+    },
+    {
+      "name": "Kitchipalayam",
+      "coords": [
+        78.16023,
+        11.6512
+      ]
+    },
+    {
+      "name": "Dadagapatti",
+      "coords": [
+        78.14965,
+        11.63376
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

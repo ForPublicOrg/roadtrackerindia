@@ -1,0 +1,42 @@
+{
+  "id": "kl-karukutty-elavoor-road",
+  "ref": "MDR",
+  "name": "Karukutty - Elavoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Valiyaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Valiyaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.37788,
+        10.21681
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.33605,
+        10.21585
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

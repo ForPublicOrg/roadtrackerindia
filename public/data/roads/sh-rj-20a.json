@@ -1,0 +1,51 @@
+{
+  "id": "sh-rj-20a",
+  "ref": "SH 20A",
+  "name": "Jaswant Garh–Bidasar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 56.7,
+  "route": {
+    "start": "Jaswant Garh, Rajasthan",
+    "end": "Bidasar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jaswant Garh",
+      "Ladnu",
+      "Sujangarh",
+      "Bidasar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jaswant Garh",
+      "coords": [
+        74.72858,
+        27.63433
+      ]
+    },
+    {
+      "name": "Sujangarh",
+      "coords": [
+        74.44237,
+        27.70566
+      ]
+    },
+    {
+      "name": "Bidasar",
+      "coords": [
+        74.31719,
+        27.82981
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

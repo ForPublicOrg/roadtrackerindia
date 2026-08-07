@@ -1,0 +1,58 @@
+{
+  "id": "sh-kl-2",
+  "ref": "SH 2",
+  "name": "Thampanoor–Kulathupuzha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 72,
+  "route": {
+    "start": "Thampanoor, Kerala",
+    "end": "Kulathupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thampanoor",
+      "Thiruvananthapuram",
+      "Nedumangad",
+      "Kulathupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thampanoor",
+      "coords": [
+        76.95619,
+        8.48708
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        76.99833,
+        8.60435
+      ]
+    },
+    {
+      "name": "Vithura",
+      "coords": [
+        77.0276,
+        8.66012
+      ]
+    },
+    {
+      "name": "Kulathupuzha",
+      "coords": [
+        77.05733,
+        8.90622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

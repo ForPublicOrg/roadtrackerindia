@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-105",
+  "ref": "SH 105",
+  "name": "Pipavav Port–Rajula State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 13.1,
+  "route": {
+    "start": "Pipavav Port, Gujarat",
+    "end": "Rajula, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Pipavav Port",
+      "Pipavav",
+      "Rajula"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pipavav Port",
+      "coords": [
+        71.50676,
+        20.91825
+      ]
+    },
+    {
+      "name": "Pipavav",
+      "coords": [
+        71.48913,
+        20.93246
+      ]
+    },
+    {
+      "name": "Rajula",
+      "coords": [
+        71.49934,
+        21.00997
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

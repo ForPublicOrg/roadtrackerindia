@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-106",
+  "ref": "MDR 106",
+  "name": "Thingal Nagar–Thammathukonam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12,
+  "route": {
+    "start": "Thingal Nagar, Tamil Nadu",
+    "end": "Thammathukonam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thingal Nagar",
+      "Peyode",
+      "Thammathukonam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thingal Nagar",
+      "coords": [
+        77.32408,
+        8.20571
+      ]
+    },
+    {
+      "name": "Peyode",
+      "coords": [
+        77.35244,
+        8.15825
+      ]
+    },
+    {
+      "name": "Thammathukonam",
+      "coords": [
+        77.37575,
+        8.11517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

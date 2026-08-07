@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-1008",
+  "ref": "MDR 1008",
+  "name": "Karaikal–Nannilam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.1,
+  "route": {
+    "start": "Karaikal, Tamil Nadu",
+    "end": "Nannilam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu",
+      "Puducherry"
+    ],
+    "majorCities": [
+      "Karaikal",
+      "Nannilam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaikal",
+      "coords": [
+        79.79133,
+        10.90491
+      ]
+    },
+    {
+      "name": "Nannilam",
+      "coords": [
+        79.65056,
+        10.93353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

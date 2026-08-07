@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-56",
+  "ref": "SH 56",
+  "name": "Kittur–Ron State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 116,
+  "route": {
+    "start": "Kittur, Karnataka",
+    "end": "Ron, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Kittur",
+      "Navalagunda",
+      "Ron"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kittur",
+      "coords": [
+        74.65203,
+        15.56386
+      ]
+    },
+    {
+      "name": "Navalagunda",
+      "coords": [
+        75.37196,
+        15.56279
+      ]
+    },
+    {
+      "name": "Ron",
+      "coords": [
+        75.57073,
+        15.66834
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

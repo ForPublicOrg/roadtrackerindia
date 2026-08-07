@@ -1,0 +1,79 @@
+{
+  "id": "nh-753l",
+  "ref": "NH 753L",
+  "name": "Soegaon–Khandwa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 175.2,
+  "route": {
+    "start": "Soegaon, Maharashtra",
+    "end": "Khandwa, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Soegaon",
+      "Jamner",
+      "Bodvad",
+      "Shapur",
+      "Burhanpur",
+      "Khandwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Soegaon",
+      "coords": [
+        75.6836,
+        20.70974
+      ]
+    },
+    {
+      "name": "Jamner",
+      "coords": [
+        75.77697,
+        20.80124
+      ]
+    },
+    {
+      "name": "Bodvad",
+      "coords": [
+        75.99291,
+        20.88184
+      ]
+    },
+    {
+      "name": "Shapur",
+      "coords": [
+        76.22327,
+        21.24056
+      ]
+    },
+    {
+      "name": "Burhanpur",
+      "coords": [
+        76.22627,
+        21.31366
+      ]
+    },
+    {
+      "name": "Khandwa",
+      "coords": [
+        76.17924,
+        21.90232
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

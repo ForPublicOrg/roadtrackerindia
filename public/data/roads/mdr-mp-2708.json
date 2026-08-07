@@ -1,0 +1,50 @@
+{
+  "id": "mdr-mp-2708",
+  "ref": "MDR 2708",
+  "name": "Kannod–Khategaon District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 55.9,
+  "route": {
+    "start": "Kannod, Madhya Pradesh",
+    "end": "Khategaon, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Kannod",
+      "Satwas",
+      "Khategaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannod",
+      "coords": [
+        76.56494,
+        22.70423
+      ]
+    },
+    {
+      "name": "Satwas",
+      "coords": [
+        76.68609,
+        22.53464
+      ]
+    },
+    {
+      "name": "Khategaon",
+      "coords": [
+        76.90876,
+        22.59489
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

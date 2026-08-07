@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-212",
+  "ref": "SH 212",
+  "name": "Murtijapur–Anjangaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54.4,
+  "route": {
+    "start": "Murtijapur, Maharashtra",
+    "end": "Anjangaon, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Murtijapur",
+      "Daryapur",
+      "Anjangaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Murtijapur",
+      "coords": [
+        77.36991,
+        20.72319
+      ]
+    },
+    {
+      "name": "Daryapur",
+      "coords": [
+        77.32702,
+        20.92152
+      ]
+    },
+    {
+      "name": "Anjangaon",
+      "coords": [
+        77.31641,
+        21.15874
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

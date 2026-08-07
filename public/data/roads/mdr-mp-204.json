@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-204",
+  "ref": "MDR 204",
+  "name": "Ambah–Porsa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.3,
+  "route": {
+    "start": "Ambah, Madhya Pradesh",
+    "end": "Porsa, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ambah",
+      "Porsa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambah",
+      "coords": [
+        78.26167,
+        26.57245
+      ]
+    },
+    {
+      "name": "Porsa",
+      "coords": [
+        78.36543,
+        26.67378
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

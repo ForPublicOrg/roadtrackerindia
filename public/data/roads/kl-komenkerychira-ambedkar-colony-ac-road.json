@@ -1,0 +1,42 @@
+{
+  "id": "kl-komenkerychira-ambedkar-colony-ac-road",
+  "ref": "MDR",
+  "name": "Komenkerychira - Ambedkar Colony - AC Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Vandipetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Vandipetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.53086,
+        9.39734
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.50872,
+        9.42447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

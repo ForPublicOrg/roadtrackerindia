@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-326",
+  "ref": "MDR 326",
+  "name": "Pannaikadu–Shenbaganoor District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Pannaikadu, Tamil Nadu",
+    "end": "Shenbaganoor, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pannaikadu",
+      "Shenbaganoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pannaikadu",
+      "coords": [
+        77.61508,
+        10.26778
+      ]
+    },
+    {
+      "name": "Shenbaganoor",
+      "coords": [
+        77.6304,
+        10.28379
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

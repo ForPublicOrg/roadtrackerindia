@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-4",
+  "ref": "SH 4",
+  "name": "Shahbad–Kala Amb State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 77.3,
+  "route": {
+    "start": "Shahbad, Haryana",
+    "end": "Kala Amb, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Shahbad",
+      "Barara",
+      "Sadhaura",
+      "Kala Amb"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahbad",
+      "coords": [
+        76.69738,
+        30.17691
+      ]
+    },
+    {
+      "name": "Barara",
+      "coords": [
+        77.04604,
+        30.20756
+      ]
+    },
+    {
+      "name": "Sadhaura",
+      "coords": [
+        77.21049,
+        30.3915
+      ]
+    },
+    {
+      "name": "Kala Amb",
+      "coords": [
+        77.21096,
+        30.49539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

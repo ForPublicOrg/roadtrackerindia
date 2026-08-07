@@ -1,0 +1,54 @@
+{
+  "id": "nh-143ag",
+  "ref": "NH 143AG",
+  "name": "Lohardaga–Bundu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 128.6,
+  "route": {
+    "start": "Lohardaga, Jharkhand",
+    "end": "Bundu, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Lohardaga",
+      "Khunti",
+      "Bundu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lohardaga",
+      "coords": [
+        84.68192,
+        23.42915
+      ]
+    },
+    {
+      "name": "Khunti",
+      "coords": [
+        85.27873,
+        23.07553
+      ]
+    },
+    {
+      "name": "Bundu",
+      "coords": [
+        85.65688,
+        23.06426
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

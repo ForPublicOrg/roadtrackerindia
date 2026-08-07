@@ -1,0 +1,88 @@
+{
+  "id": "sh-wb-5",
+  "ref": "SH 5",
+  "name": "Contai–Sitarampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 393.5,
+  "route": {
+    "start": "Contai, West Bengal",
+    "end": "Sitarampur, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Contai",
+      "Kharagpur",
+      "Medinipur",
+      "Purulia",
+      "Raghunathpur",
+      "Sitarampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Contai",
+      "coords": [
+        87.81175,
+        21.72484
+      ]
+    },
+    {
+      "name": "Belda",
+      "coords": [
+        87.33936,
+        22.06916
+      ]
+    },
+    {
+      "name": "Kharagpur",
+      "coords": [
+        87.30233,
+        22.34046
+      ]
+    },
+    {
+      "name": "Medinipur",
+      "coords": [
+        87.27905,
+        22.35361
+      ]
+    },
+    {
+      "name": "Jhargram",
+      "coords": [
+        86.99717,
+        22.44977
+      ]
+    },
+    {
+      "name": "Purulia",
+      "coords": [
+        86.37181,
+        23.34076
+      ]
+    },
+    {
+      "name": "Raghunathpur",
+      "coords": [
+        86.66975,
+        23.53976
+      ]
+    },
+    {
+      "name": "Sitarampur",
+      "coords": [
+        86.87569,
+        23.72521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

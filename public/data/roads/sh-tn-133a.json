@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-133a",
+  "ref": "SH 133A",
+  "name": "Chetpet–Tiruvannamalai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 22.4,
+  "route": {
+    "start": "Chetpet, Tamil Nadu",
+    "end": "Tiruvannamalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chetpet",
+      "Tiruvannamalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chetpet",
+      "coords": [
+        79.24396,
+        12.34146
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.07468,
+        12.24412
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

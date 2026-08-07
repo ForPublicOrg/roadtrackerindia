@@ -1,0 +1,51 @@
+{
+  "id": "sh-kl-27",
+  "ref": "SH 27",
+  "name": "Palakkad–Anaimalai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.6,
+  "route": {
+    "start": "Palakkad, Kerala",
+    "end": "Anaimalai, Tamil Nadu",
+    "states": [
+      "Kerala",
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palakkad",
+      "Chittur-Thathamangalam",
+      "Anaimalai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palakkad",
+      "coords": [
+        76.65484,
+        10.76176
+      ]
+    },
+    {
+      "name": "Chittur-Thathamangalam",
+      "coords": [
+        76.71369,
+        10.68173
+      ]
+    },
+    {
+      "name": "Anaimalai",
+      "coords": [
+        76.8758,
+        10.6301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

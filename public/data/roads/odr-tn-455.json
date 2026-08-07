@@ -1,0 +1,57 @@
+{
+  "id": "odr-tn-455",
+  "ref": "ODR 455",
+  "name": "Dwaraka Nagar–Red Hills District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Dwaraka Nagar, Tamil Nadu",
+    "end": "Red Hills, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Dwaraka Nagar",
+      "Mathur",
+      "Red Hills"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dwaraka Nagar",
+      "coords": [
+        80.26984,
+        13.19207
+      ]
+    },
+    {
+      "name": "Kadapakkam",
+      "coords": [
+        80.26109,
+        13.1926
+      ]
+    },
+    {
+      "name": "Mathur",
+      "coords": [
+        80.24931,
+        13.19009
+      ]
+    },
+    {
+      "name": "Red Hills",
+      "coords": [
+        80.21944,
+        13.20132
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

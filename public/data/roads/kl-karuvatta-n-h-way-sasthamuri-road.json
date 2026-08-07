@@ -1,0 +1,42 @@
+{
+  "id": "kl-karuvatta-n-h-way-sasthamuri-road",
+  "ref": "MDR",
+  "name": "Karuvatta N H Way - Sasthamuri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.45581,
+        9.30134
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.43199,
+        9.30695
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

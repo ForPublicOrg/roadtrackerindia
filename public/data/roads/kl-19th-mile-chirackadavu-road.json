@@ -1,0 +1,43 @@
+{
+  "id": "kl-19th-mile-chirackadavu-road",
+  "ref": "MDR",
+  "name": "19th Mile - Chirackadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Kanjirappalli",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.76348,
+        9.54639
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.73578,
+        9.56406
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

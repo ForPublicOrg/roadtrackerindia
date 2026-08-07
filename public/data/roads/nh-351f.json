@@ -1,0 +1,46 @@
+{
+  "id": "nh-351f",
+  "ref": "NH 351F",
+  "name": "Amreli–Lathi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 46.9,
+  "route": {
+    "start": "Amreli, Gujarat",
+    "end": "Lathi, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Amreli",
+      "Lathi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amreli",
+      "coords": [
+        71.21432,
+        21.58197
+      ]
+    },
+    {
+      "name": "Lathi",
+      "coords": [
+        71.38328,
+        21.72406
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

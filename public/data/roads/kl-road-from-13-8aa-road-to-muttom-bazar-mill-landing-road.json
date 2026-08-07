@@ -1,0 +1,42 @@
+{
+  "id": "kl-road-from-13-8aa-road-to-muttom-bazar-mill-landing-road",
+  "ref": "MDR",
+  "name": "Road from 13/8AA road to Muttom bazar mill Landing road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.34286,
+        9.69614
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.33727,
+        9.6921
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

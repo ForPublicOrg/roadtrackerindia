@@ -1,0 +1,74 @@
+{
+  "id": "sh-mp-63",
+  "ref": "SH 63",
+  "name": "Sagar–Umaria State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 286.6,
+  "route": {
+    "start": "Sagar, Madhya Pradesh",
+    "end": "Umaria, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sagar",
+      "Garhakota",
+      "Damoh",
+      "Katni",
+      "Barhi",
+      "Umaria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sagar",
+      "coords": [
+        78.81933,
+        23.88453
+      ]
+    },
+    {
+      "name": "Garhakota",
+      "coords": [
+        79.14359,
+        23.78209
+      ]
+    },
+    {
+      "name": "Damoh",
+      "coords": [
+        79.44497,
+        23.8366
+      ]
+    },
+    {
+      "name": "Katni",
+      "coords": [
+        80.39323,
+        23.837
+      ]
+    },
+    {
+      "name": "Barhi",
+      "coords": [
+        80.81242,
+        23.90333
+      ]
+    },
+    {
+      "name": "Umaria",
+      "coords": [
+        81.02004,
+        23.72225
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

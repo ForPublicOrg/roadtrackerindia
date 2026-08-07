@@ -1,0 +1,42 @@
+{
+  "id": "kl-moothedathukavu-road",
+  "ref": "MDR",
+  "name": "Moothedathukavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.40017,
+        9.70706
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.39615,
+        9.74101
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

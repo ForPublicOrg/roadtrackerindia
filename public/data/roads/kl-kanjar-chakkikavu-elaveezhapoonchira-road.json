@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjar-chakkikavu-elaveezhapoonchira-road",
+  "ref": "MDR",
+  "name": "Kanjar - Chakkikavu - Elaveezhapoonchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Mechal, Kerala",
+    "end": "Muttam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mechal",
+      "Muttam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mechal",
+      "coords": [
+        76.8158,
+        9.80302
+      ]
+    },
+    {
+      "name": "Muttam",
+      "coords": [
+        76.78844,
+        9.80224
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

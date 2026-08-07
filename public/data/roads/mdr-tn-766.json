@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-766",
+  "ref": "MDR 766",
+  "name": "Kongu Nagar–Aravakurichi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "route": {
+    "start": "Kongu Nagar, Tamil Nadu",
+    "end": "Aravakurichi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kongu Nagar",
+      "Chinna Dharapuram",
+      "Aravakurichi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongu Nagar",
+      "coords": [
+        77.82941,
+        10.83483
+      ]
+    },
+    {
+      "name": "Aravakurichi",
+      "coords": [
+        77.89353,
+        10.78037
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

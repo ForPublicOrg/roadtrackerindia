@@ -1,0 +1,46 @@
+{
+  "id": "nh-354b",
+  "ref": "NH 354B",
+  "name": "Dera Baba Nanak–Narowal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Dera Baba Nanak, Punjab",
+    "end": "Narowal, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Dera Baba Nanak",
+      "Narowal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dera Baba Nanak",
+      "coords": [
+        75.02639,
+        32.04859
+      ]
+    },
+    {
+      "name": "Narowal",
+      "coords": [
+        75.04539,
+        32.02169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

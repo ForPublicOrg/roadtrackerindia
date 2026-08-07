@@ -1,0 +1,51 @@
+{
+  "id": "kl-arupuzha-parochal-road",
+  "ref": "MDR",
+  "name": "Arupuzha - Parochal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Illikkal, Kerala",
+    "end": "Kottayam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Illikkal",
+      "Nattakom",
+      "Thiruvarppu",
+      "Kottayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.49842,
+        9.57179
+      ]
+    },
+    {
+      "name": "Thiruvarppu",
+      "coords": [
+        76.49904,
+        9.58342
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.49829,
+        9.5903
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1013",
+  "ref": "MDR 1013",
+  "name": "Kallakuruchi–Chinnasalem District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.4,
+  "route": {
+    "start": "Kallakuruchi, Tamil Nadu",
+    "end": "Chinnasalem, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kallakuruchi",
+      "Chinnasalem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallakuruchi",
+      "coords": [
+        78.8678,
+        11.76491
+      ]
+    },
+    {
+      "name": "Chinnasalem",
+      "coords": [
+        78.89955,
+        11.65907
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

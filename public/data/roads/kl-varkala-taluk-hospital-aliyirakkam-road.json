@@ -1,0 +1,42 @@
+{
+  "id": "kl-varkala-taluk-hospital-aliyirakkam-road",
+  "ref": "MDR",
+  "name": "Varkala Taluk Hospital - Aliyirakkam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.71529,
+        8.72184
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.72054,
+        8.73287
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

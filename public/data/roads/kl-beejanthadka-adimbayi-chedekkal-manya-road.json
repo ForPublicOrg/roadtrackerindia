@@ -1,0 +1,42 @@
+{
+  "id": "kl-beejanthadka-adimbayi-chedekkal-manya-road",
+  "ref": "MDR",
+  "name": "Beejanthadka - Adimbayi - Chedekkal - Manya Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Chengala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Chengala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.0733,
+        12.57295
+      ]
+    },
+    {
+      "name": "Chengala",
+      "coords": [
+        75.051,
+        12.56879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

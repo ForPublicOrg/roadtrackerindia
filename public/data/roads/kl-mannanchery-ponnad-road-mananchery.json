@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannanchery-ponnad-road-mananchery",
+  "ref": "MDR",
+  "name": "Mannanchery - Ponnad Road\tMananchery",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Cherthala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Cherthala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34889,
+        9.5765
+      ]
+    },
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.35794,
+        9.60139
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

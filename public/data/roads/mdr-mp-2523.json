@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2523",
+  "ref": "MDR 2523",
+  "name": "Jaora–Khachrod District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20,
+  "route": {
+    "start": "Jaora, Madhya Pradesh",
+    "end": "Khachrod, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jaora",
+      "Khachrod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jaora",
+      "coords": [
+        75.1553,
+        23.60036
+      ]
+    },
+    {
+      "name": "Khachrod",
+      "coords": [
+        75.13646,
+        23.50936
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

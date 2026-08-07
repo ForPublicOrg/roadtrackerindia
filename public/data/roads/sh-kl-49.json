@@ -1,0 +1,49 @@
+{
+  "id": "sh-kl-49",
+  "ref": "SH 49",
+  "name": "Kunnamkulam–Guruvayur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Kunnamkulam, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kunnamkulam",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunnamkulam",
+      "coords": [
+        76.09295,
+        10.62667
+      ]
+    },
+    {
+      "name": "Chunkam",
+      "coords": [
+        76.05588,
+        10.59997
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.04576,
+        10.59475
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

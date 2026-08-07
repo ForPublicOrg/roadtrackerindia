@@ -1,0 +1,42 @@
+{
+  "id": "kl-udiyankulangara-kulathur-chavadi-road",
+  "ref": "MDR",
+  "name": "Udiyankulangara - Kulathur - Chavadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Poovar, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poovar",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poovar",
+      "coords": [
+        77.10593,
+        8.31174
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.11925,
+        8.37539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

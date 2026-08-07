@@ -1,0 +1,46 @@
+{
+  "id": "nh-139w",
+  "ref": "NH 139W",
+  "name": "Taraiya–Bettiah National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 99.7,
+  "route": {
+    "start": "Taraiya, Bihar",
+    "end": "Bettiah, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Taraiya",
+      "Bettiah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Taraiya",
+      "coords": [
+        85.00784,
+        26.17149
+      ]
+    },
+    {
+      "name": "Bettiah",
+      "coords": [
+        84.50372,
+        26.80015
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

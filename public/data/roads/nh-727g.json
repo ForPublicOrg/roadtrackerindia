@@ -1,0 +1,46 @@
+{
+  "id": "nh-727g",
+  "ref": "NH 727G",
+  "name": "Basti–Gonda National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 68.2,
+  "route": {
+    "start": "Basti, Uttar Pradesh",
+    "end": "Gonda, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Basti",
+      "Gonda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Basti",
+      "coords": [
+        82.47386,
+        26.79152
+      ]
+    },
+    {
+      "name": "Gonda",
+      "coords": [
+        82.04103,
+        27.07082
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

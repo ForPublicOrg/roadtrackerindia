@@ -1,0 +1,57 @@
+{
+  "id": "kl-chala-vidyanagar-road",
+  "ref": "MDR",
+  "name": "Chala - Vidyanagar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Anebagilu, Kerala",
+    "end": "Kasaragod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anebagilu",
+      "Karandakkad",
+      "Kasaragod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anebagilu",
+      "coords": [
+        75.01721,
+        12.51748
+      ]
+    },
+    {
+      "name": "Karandakkad",
+      "coords": [
+        75.01657,
+        12.5133
+      ]
+    },
+    {
+      "name": "Chengala",
+      "coords": [
+        75.01772,
+        12.50907
+      ]
+    },
+    {
+      "name": "Kasaragod",
+      "coords": [
+        75.0178,
+        12.50741
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

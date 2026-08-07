@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-242",
+  "ref": "SH 242",
+  "name": "Ranipet–Navalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Ranipet, Tamil Nadu",
+    "end": "Navalpur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ranipet",
+      "Navalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ranipet",
+      "coords": [
+        79.33375,
+        12.92511
+      ]
+    },
+    {
+      "name": "Navalpur",
+      "coords": [
+        79.32664,
+        12.93415
+      ]
+    },
+    {
+      "name": "Karai",
+      "coords": [
+        79.32559,
+        12.93606
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

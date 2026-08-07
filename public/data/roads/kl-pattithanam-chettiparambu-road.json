@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattithanam-chettiparambu-road",
+  "ref": "MDR",
+  "name": "Pattithanam - Chettiparambu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kanakkarry, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanakkarry",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.55686,
+        9.70289
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.56592,
+        9.70708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

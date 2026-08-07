@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-883",
+  "ref": "MDR 883",
+  "name": "Koduvai–Kundadam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Koduvai, Tamil Nadu",
+    "end": "Kundadam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Koduvai",
+      "Kundadam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koduvai",
+      "coords": [
+        77.36941,
+        10.96894
+      ]
+    },
+    {
+      "name": "Kundadam",
+      "coords": [
+        77.38773,
+        10.87612
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

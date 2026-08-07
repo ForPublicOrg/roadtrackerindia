@@ -1,0 +1,43 @@
+{
+  "id": "kl-thrikkur-manali-road",
+  "ref": "MDR",
+  "name": "Thrikkur - Manali Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Puthukkad",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.2623,
+        10.44254
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.2665,
+        10.46227
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

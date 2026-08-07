@@ -1,0 +1,50 @@
+{
+  "id": "kl-munnar-lakshmi-mankulam-road",
+  "ref": "MDR",
+  "name": "Munnar - Lakshmi - Mankulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.8,
+  "route": {
+    "start": "Old Munnar, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Old Munnar",
+      "Munnar",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Old Munnar",
+      "coords": [
+        77.06207,
+        10.07378
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.03419,
+        10.05853
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.95038,
+        10.08594
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

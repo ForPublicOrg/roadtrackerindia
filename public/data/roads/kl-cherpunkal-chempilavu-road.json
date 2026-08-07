@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherpunkal-chempilavu-road",
+  "ref": "MDR",
+  "name": "Cherpunkal - Chempilavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.62817,
+        9.68154
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.6414,
+        9.68566
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

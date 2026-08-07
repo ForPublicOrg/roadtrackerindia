@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-1",
+  "ref": "MDR 1",
+  "name": "Lohardaga–Khunti District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 83.4,
+  "route": {
+    "start": "Lohardaga, Jharkhand",
+    "end": "Khunti, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Lohardaga",
+      "Khunti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lohardaga",
+      "coords": [
+        84.68192,
+        23.42915
+      ]
+    },
+    {
+      "name": "Khunti",
+      "coords": [
+        85.27873,
+        23.07553
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-698",
+  "ref": "MDR 698",
+  "name": "Pudupalayam–Rajapalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.5,
+  "route": {
+    "start": "Pudupalayam, Tamil Nadu",
+    "end": "Rajapalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pudupalayam",
+      "Rajapalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pudupalayam",
+      "coords": [
+        77.51345,
+        9.42483
+      ]
+    },
+    {
+      "name": "Rajapalayam",
+      "coords": [
+        77.5617,
+        9.37414
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

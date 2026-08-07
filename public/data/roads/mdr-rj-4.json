@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-4",
+  "ref": "MDR 4",
+  "name": "Khanpur–Atru District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.3,
+  "route": {
+    "start": "Khanpur, Rajasthan",
+    "end": "Atru, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Khanpur",
+      "Atru"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khanpur",
+      "coords": [
+        76.39647,
+        24.73371
+      ]
+    },
+    {
+      "name": "Atru",
+      "coords": [
+        76.6643,
+        24.86871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

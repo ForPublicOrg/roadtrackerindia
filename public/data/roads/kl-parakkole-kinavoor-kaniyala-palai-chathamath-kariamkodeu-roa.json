@@ -1,0 +1,66 @@
+{
+  "id": "kl-parakkole-kinavoor-kaniyala-palai-chathamath-kariamkodeu-roa",
+  "ref": "MDR",
+  "name": "Parakkole - Kinavoor - Kaniyala - Palai - Chathamath - Kariamkodeu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.9,
+  "route": {
+    "start": "Nileshwaram, Kerala",
+    "end": "Choyamkode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nileshwaram",
+      "Cheruvathur",
+      "Chayoth",
+      "Kayyur",
+      "Choyamkode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nileshwaram",
+      "coords": [
+        75.1493,
+        12.2411
+      ]
+    },
+    {
+      "name": "Cheruvathur",
+      "coords": [
+        75.15403,
+        12.24161
+      ]
+    },
+    {
+      "name": "Chayoth",
+      "coords": [
+        75.17916,
+        12.27832
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.1876,
+        12.27572
+      ]
+    },
+    {
+      "name": "Choyamkode",
+      "coords": [
+        75.21817,
+        12.27774
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

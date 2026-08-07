@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-379",
+  "ref": "MDR 379",
+  "name": "Ponneri–Arani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Ponneri, Tamil Nadu",
+    "end": "Arani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ponneri",
+      "Arani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponneri",
+      "coords": [
+        80.19527,
+        13.34531
+      ]
+    },
+    {
+      "name": "Arani",
+      "coords": [
+        80.14348,
+        13.33772
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

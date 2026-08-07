@@ -1,0 +1,42 @@
+{
+  "id": "kl-pothukam-ponkunnam-road",
+  "ref": "MDR",
+  "name": "Pothukam-Ponkunnam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Kanjirappalli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Kanjirappalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.75076,
+        9.57125
+      ]
+    },
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.74853,
+        9.61238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sh-wb-13",
+  "ref": "SH 13",
+  "name": "Dankuni–Memari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83,
+  "route": {
+    "start": "Dankuni, West Bengal",
+    "end": "Memari, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Dankuni",
+      "Bally",
+      "Bhatpara",
+      "Kalyani",
+      "Pandua",
+      "Memari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dankuni",
+      "coords": [
+        88.30023,
+        22.67451
+      ]
+    },
+    {
+      "name": "Palta",
+      "coords": [
+        88.31332,
+        22.76979
+      ]
+    },
+    {
+      "name": "Bhatpara",
+      "coords": [
+        88.32282,
+        22.85798
+      ]
+    },
+    {
+      "name": "Kalyani",
+      "coords": [
+        88.37363,
+        22.98037
+      ]
+    },
+    {
+      "name": "Pandua",
+      "coords": [
+        88.27963,
+        23.07419
+      ]
+    },
+    {
+      "name": "Memari",
+      "coords": [
+        88.08996,
+        23.17807
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

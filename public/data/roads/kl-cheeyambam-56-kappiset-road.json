@@ -1,0 +1,42 @@
+{
+  "id": "kl-cheeyambam-56-kappiset-road",
+  "ref": "MDR",
+  "name": "Cheeyambam - 56 - Kappiset Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Perikkalloor, Kerala",
+    "end": "Sultan Bathery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perikkalloor",
+      "Sultan Bathery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.19756,
+        11.76847
+      ]
+    },
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.21644,
+        11.81665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

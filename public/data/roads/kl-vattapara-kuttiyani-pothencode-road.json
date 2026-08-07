@@ -1,0 +1,42 @@
+{
+  "id": "kl-vattapara-kuttiyani-pothencode-road",
+  "ref": "MDR",
+  "name": "Vattapara - Kuttiyani - Pothencode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Pothencode, Kerala",
+    "end": "Kudappanakunnu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pothencode",
+      "Kudappanakunnu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.91346,
+        8.6053
+      ]
+    },
+    {
+      "name": "Kudappanakunnu",
+      "coords": [
+        76.94999,
+        8.58852
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

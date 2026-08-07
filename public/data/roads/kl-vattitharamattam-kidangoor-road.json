@@ -1,0 +1,42 @@
+{
+  "id": "kl-vattitharamattam-kidangoor-road",
+  "ref": "MDR",
+  "name": "Vattitharamattam - Kidangoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.59814,
+        9.64391
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.60888,
+        9.66594
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

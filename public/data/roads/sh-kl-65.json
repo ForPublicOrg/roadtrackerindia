@@ -1,0 +1,58 @@
+{
+  "id": "sh-kl-65",
+  "ref": "SH 65",
+  "name": "Areekode–Parappanangadi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 42,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Parappanangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Kondotty",
+      "Tirurangadi",
+      "Parappanangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.05449,
+        11.22932
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.96339,
+        11.14383
+      ]
+    },
+    {
+      "name": "Tirurangadi",
+      "coords": [
+        75.92728,
+        11.04299
+      ]
+    },
+    {
+      "name": "Parappanangadi",
+      "coords": [
+        75.85981,
+        11.04874
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

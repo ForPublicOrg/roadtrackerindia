@@ -1,0 +1,42 @@
+{
+  "id": "kl-tholikode-thuruthi-bhadramvachapara-road",
+  "ref": "MDR",
+  "name": "Tholikode - Thuruthi Bhadramvachapara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Nedumangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Nedumangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.04189,
+        8.68898
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.05511,
+        8.64525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

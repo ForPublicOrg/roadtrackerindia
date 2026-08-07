@@ -1,0 +1,87 @@
+{
+  "id": "hyderabad-raipur-expressway",
+  "ref": "NH",
+  "name": "Hyderabad - Raipur Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 273.5,
+  "route": {
+    "start": "Kaghaznagar, Telangana",
+    "end": "Durg, Chhattisgarh",
+    "states": [
+      "Telangana",
+      "Maharashtra",
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Kaghaznagar",
+      "Sirpur",
+      "Gondpipri",
+      "Gadchiroli",
+      "Basantpur",
+      "Durg"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaghaznagar",
+      "coords": [
+        79.56048,
+        19.39268
+      ]
+    },
+    {
+      "name": "Sirpur",
+      "coords": [
+        79.55464,
+        19.47782
+      ]
+    },
+    {
+      "name": "Gondpipri",
+      "coords": [
+        79.68761,
+        19.71342
+      ]
+    },
+    {
+      "name": "Saoli",
+      "coords": [
+        79.8334,
+        20.08198
+      ]
+    },
+    {
+      "name": "Gadchiroli",
+      "coords": [
+        79.94187,
+        20.17646
+      ]
+    },
+    {
+      "name": "Basantpur",
+      "coords": [
+        81.03852,
+        21.02963
+      ]
+    },
+    {
+      "name": "Durg",
+      "coords": [
+        81.21201,
+        21.08503
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kattampally-kannadiparamba-munderi-road",
+  "ref": "MDR",
+  "name": "Kattampally - Kannadiparamba - Munderi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Puthiyatheru, Kerala",
+    "end": "Karinkalkuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyatheru",
+      "Karinkalkuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyatheru",
+      "coords": [
+        75.38088,
+        11.94271
+      ]
+    },
+    {
+      "name": "Karinkalkuzhi",
+      "coords": [
+        75.43848,
+        11.93396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-kl-16",
+  "ref": "SH 16",
+  "name": "Aluva–Kothamangalam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.3,
+  "route": {
+    "start": "Aluva, Kerala",
+    "end": "Kothamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aluva",
+      "Perumbavoor",
+      "Kothamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aluva",
+      "coords": [
+        76.35724,
+        10.10769
+      ]
+    },
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.47864,
+        10.11464
+      ]
+    },
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.61814,
+        10.06587
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kainakari-panchayath-office-road",
+  "ref": "MDR",
+  "name": "Kainakari Panchayath Office Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Mullakkal, Kerala",
+    "end": "Vellakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mullakkal",
+      "Vellakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.3698,
+        9.46063
+      ]
+    },
+    {
+      "name": "Vellakinar",
+      "coords": [
+        76.38462,
+        9.47955
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-perakamanna-kuzhiyamparamba-road",
+  "ref": "MDR",
+  "name": "Perakamanna - Kuzhiyamparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Areekode, Kerala",
+    "end": "Kaloth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Areekode",
+      "Kaloth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Areekode",
+      "coords": [
+        76.09401,
+        11.20984
+      ]
+    },
+    {
+      "name": "Kaloth",
+      "coords": [
+        76.01898,
+        11.1708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-adukalghatta-sulyame-road",
+  "ref": "MDR",
+  "name": "Adukalghatta - Sulyame Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Manjeshwar, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeshwar",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.96378,
+        12.75798
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.9732,
+        12.77828
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

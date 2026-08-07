@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-137",
+  "ref": "MDR 137",
+  "name": "Galiakot–Dhariawad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 94,
+  "route": {
+    "start": "Galiakot, Rajasthan",
+    "end": "Dhariawad, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Galiakot",
+      "Sagwara",
+      "Dhariawad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Galiakot",
+      "coords": [
+        74.04085,
+        23.49989
+      ]
+    },
+    {
+      "name": "Sagwara",
+      "coords": [
+        74.0236,
+        23.68698
+      ]
+    },
+    {
+      "name": "Dhariawad",
+      "coords": [
+        74.43339,
+        24.06925
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

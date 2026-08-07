@@ -1,0 +1,42 @@
+{
+  "id": "kl-polikkodu-thadikkadu-road",
+  "ref": "MDR",
+  "name": "Polikkodu - Thadikkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Valakom, Kerala",
+    "end": "Ayoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valakom",
+      "Ayoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valakom",
+      "coords": [
+        76.87528,
+        8.95634
+      ]
+    },
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.84997,
+        8.93846
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mdr-mp-3118",
+  "ref": "MDR 3118",
+  "name": "Hoshangabad Road–Ibrahimpura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Hoshangabad Road, Madhya Pradesh",
+    "end": "Ibrahimpura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Hoshangabad Road",
+      "Ibrahimpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hoshangabad Road",
+      "coords": [
+        77.43644,
+        23.21189
+      ]
+    },
+    {
+      "name": "Kolar",
+      "coords": [
+        77.42628,
+        23.21144
+      ]
+    },
+    {
+      "name": "Ibrahimpura",
+      "coords": [
+        77.40521,
+        23.22158
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuniji-kooppukavala-road",
+  "ref": "MDR",
+  "name": "Kuniji - Kooppukavala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Thodupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Thodupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.65015,
+        9.84614
+      ]
+    },
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.64375,
+        9.86202
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

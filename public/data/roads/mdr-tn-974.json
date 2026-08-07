@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-974",
+  "ref": "MDR 974",
+  "name": "Muthupattinam–Sekkalai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Muthupattinam, Tamil Nadu",
+    "end": "Sekkalai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Muthupattinam",
+      "Karaikudi",
+      "Sekkalai",
+      "Kottayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muthupattinam",
+      "coords": [
+        78.76355,
+        10.06898
+      ]
+    },
+    {
+      "name": "Karaikudi",
+      "coords": [
+        78.7636,
+        10.07427
+      ]
+    },
+    {
+      "name": "Sekkalai",
+      "coords": [
+        78.76691,
+        10.08338
+      ]
+    },
+    {
+      "name": "Kottayur",
+      "coords": [
+        78.76176,
+        10.11009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

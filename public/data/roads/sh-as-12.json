@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-12",
+  "ref": "SH 12",
+  "name": "Lakhipur–Goalpara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.7,
+  "route": {
+    "start": "Lakhipur, Assam",
+    "end": "Goalpara, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Lakhipur",
+      "Goalpara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lakhipur",
+      "coords": [
+        90.30481,
+        26.02689
+      ]
+    },
+    {
+      "name": "Goalpara",
+      "coords": [
+        90.56107,
+        26.0864
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-karyavattam-alamallur-road",
+  "ref": "MDR",
+  "name": "Karyavattam Alamallur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Kumaramputhur, Kerala",
+    "end": "Melattur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaramputhur",
+      "Melattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.34769,
+        11.00977
+      ]
+    },
+    {
+      "name": "Melattur",
+      "coords": [
+        76.24965,
+        11.02092
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

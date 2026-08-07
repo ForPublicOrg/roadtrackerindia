@@ -1,0 +1,42 @@
+{
+  "id": "kl-punaloor-chaliyakkara-road",
+  "ref": "MDR",
+  "name": "Punaloor - Chaliyakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Punalur, Kerala",
+    "end": "Central Junction, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Punalur",
+      "Central Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Punalur",
+      "coords": [
+        76.92603,
+        9.0265
+      ]
+    },
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.96981,
+        9.03783
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

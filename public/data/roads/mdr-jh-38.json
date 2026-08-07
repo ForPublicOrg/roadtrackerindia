@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-38",
+  "ref": "MDR 38",
+  "name": "Gadri–Torpa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 57.2,
+  "route": {
+    "start": "Gadri, Jharkhand",
+    "end": "Torpa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Gadri",
+      "Torpa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gadri",
+      "coords": [
+        84.974,
+        23.28235
+      ]
+    },
+    {
+      "name": "Torpa",
+      "coords": [
+        84.91839,
+        22.92642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

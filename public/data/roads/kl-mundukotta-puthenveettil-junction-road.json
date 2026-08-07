@@ -1,0 +1,42 @@
+{
+  "id": "kl-mundukotta-puthenveettil-junction-road",
+  "ref": "MDR",
+  "name": "Mundukotta - Puthenveettil Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.49946,
+        9.15667
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.50741,
+        9.13349
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

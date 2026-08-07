@@ -1,0 +1,59 @@
+{
+  "id": "sh-or-24",
+  "ref": "SH 24",
+  "name": "Kansabel–Jharsuguda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 146.6,
+  "route": {
+    "start": "Kansabel, Chhattisgarh",
+    "end": "Jharsuguda, Odisha",
+    "states": [
+      "Chhattisgarh",
+      "Odisha"
+    ],
+    "majorCities": [
+      "Kansabel",
+      "Subdega",
+      "Sundargarh",
+      "Jharsuguda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kansabel",
+      "coords": [
+        83.95683,
+        22.55862
+      ]
+    },
+    {
+      "name": "Subdega",
+      "coords": [
+        84.10556,
+        22.29346
+      ]
+    },
+    {
+      "name": "Sundargarh",
+      "coords": [
+        84.03613,
+        22.07373
+      ]
+    },
+    {
+      "name": "Jharsuguda",
+      "coords": [
+        84.35345,
+        21.77766
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-801",
+  "ref": "MDR 801",
+  "name": "Polur–Kalambur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.4,
+  "route": {
+    "start": "Polur, Tamil Nadu",
+    "end": "Kalambur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Polur",
+      "Kalambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Polur",
+      "coords": [
+        79.17476,
+        12.50546
+      ]
+    },
+    {
+      "name": "Kalambur",
+      "coords": [
+        79.16664,
+        12.59504
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

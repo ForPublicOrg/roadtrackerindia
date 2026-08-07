@@ -1,0 +1,66 @@
+{
+  "id": "mdr-kl-17",
+  "ref": "MDR 17",
+  "name": "Thalassery–Perumba District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 69.2,
+  "route": {
+    "start": "Thalassery, Kerala",
+    "end": "Perumba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalassery",
+      "Mattannur",
+      "Irikkoor",
+      "Kothaymukku",
+      "Perumba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.47855,
+        11.76641
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.50656,
+        11.84508
+      ]
+    },
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.51901,
+        11.95451
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.54407,
+        11.99005
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.21868,
+        12.11205
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

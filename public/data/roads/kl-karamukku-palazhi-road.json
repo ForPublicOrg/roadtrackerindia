@@ -1,0 +1,42 @@
+{
+  "id": "kl-karamukku-palazhi-road",
+  "ref": "MDR",
+  "name": "Karamukku Palazhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.8,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.09069,
+        10.50288
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.10269,
+        10.47294
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

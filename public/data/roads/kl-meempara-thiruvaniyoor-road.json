@@ -1,0 +1,42 @@
+{
+  "id": "kl-meempara-thiruvaniyoor-road",
+  "ref": "MDR",
+  "name": "Meempara - Thiruvaniyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Puthencruz, Kerala",
+    "end": "Chottanikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthencruz",
+      "Chottanikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthencruz",
+      "coords": [
+        76.44294,
+        9.95828
+      ]
+    },
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.42538,
+        9.93402
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

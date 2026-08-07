@@ -1,0 +1,42 @@
+{
+  "id": "kl-uppada-chembankolli-pallippadi-road",
+  "ref": "MDR",
+  "name": "Uppada - Chembankolli - Pallippadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Pandalur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Pandalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.29518,
+        11.37933
+      ]
+    },
+    {
+      "name": "Pandalur",
+      "coords": [
+        76.2665,
+        11.38616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

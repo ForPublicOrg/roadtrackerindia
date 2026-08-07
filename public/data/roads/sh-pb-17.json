@@ -1,0 +1,51 @@
+{
+  "id": "sh-pb-17",
+  "ref": "SH 17",
+  "name": "Kot Fatta–Sardulgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53,
+  "route": {
+    "start": "Kot Fatta, Punjab",
+    "end": "Sardulgarh, Punjab",
+    "states": [
+      "Punjab",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Kot Fatta",
+      "Talwandi Sabo",
+      "Sardulgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kot Fatta",
+      "coords": [
+        75.00467,
+        30.11484
+      ]
+    },
+    {
+      "name": "Talwandi Sabo",
+      "coords": [
+        75.08336,
+        29.99225
+      ]
+    },
+    {
+      "name": "Sardulgarh",
+      "coords": [
+        75.24875,
+        29.71993
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

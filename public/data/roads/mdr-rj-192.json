@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-192",
+  "ref": "MDR 192",
+  "name": "Nawa–Ramgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36,
+  "route": {
+    "start": "Nawa, Rajasthan",
+    "end": "Ramgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Nawa",
+      "Ramgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nawa",
+      "coords": [
+        75.00336,
+        27.03259
+      ]
+    },
+    {
+      "name": "Ramgarh",
+      "coords": [
+        75.17692,
+        27.26212
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

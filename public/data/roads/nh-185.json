@@ -1,0 +1,85 @@
+{
+  "id": "nh-185",
+  "ref": "NH 185",
+  "name": "Kumily–Adimali National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 85.4,
+  "route": {
+    "start": "Kumily, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumily",
+      "Vandiperiyar",
+      "Kattappana",
+      "Thankamani",
+      "Painavu",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumily",
+      "coords": [
+        77.16929,
+        9.60875
+      ]
+    },
+    {
+      "name": "Vandiperiyar",
+      "coords": [
+        77.12106,
+        9.62259
+      ]
+    },
+    {
+      "name": "Kattappana",
+      "coords": [
+        77.11527,
+        9.75627
+      ]
+    },
+    {
+      "name": "Thankamani",
+      "coords": [
+        77.02247,
+        9.82085
+      ]
+    },
+    {
+      "name": "Painavu",
+      "coords": [
+        76.96184,
+        9.85861
+      ]
+    },
+    {
+      "name": "Murickassery",
+      "coords": [
+        76.97228,
+        9.89794
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.9554,
+        10.01423
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

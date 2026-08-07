@@ -1,0 +1,43 @@
+{
+  "id": "kl-mundakayam-koruthodu-mookkenpetty-pampavalley-road",
+  "ref": "MDR",
+  "name": "Mundakayam - Koruthodu - Mookkenpetty - Pampavalley Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.4,
+  "route": {
+    "start": "Chittar, Kerala",
+    "end": "Puthenchantha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittar",
+      "Mundakkayam",
+      "Puthenchantha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittar",
+      "coords": [
+        76.9347,
+        9.42165
+      ]
+    },
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.8861,
+        9.53114
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

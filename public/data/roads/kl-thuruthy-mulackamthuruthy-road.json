@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuruthy-mulackamthuruthy-road",
+  "ref": "MDR",
+  "name": "Thuruthy Mulackamthuruthy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Mathumoola, Kerala",
+    "end": "Vadakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mathumoola",
+      "Vadakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.50609,
+        9.47501
+      ]
+    },
+    {
+      "name": "Vadakkekara",
+      "coords": [
+        76.52563,
+        9.48312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

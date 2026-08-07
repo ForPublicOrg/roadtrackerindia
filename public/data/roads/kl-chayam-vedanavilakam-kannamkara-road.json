@@ -1,0 +1,42 @@
+{
+  "id": "kl-chayam-vedanavilakam-kannamkara-road",
+  "ref": "MDR",
+  "name": "Chayam - Vedanavilakam - Kannamkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.06124,
+        8.66842
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.07412,
+        8.66822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

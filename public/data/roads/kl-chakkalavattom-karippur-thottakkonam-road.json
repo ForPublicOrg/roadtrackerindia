@@ -1,0 +1,42 @@
+{
+  "id": "kl-chakkalavattom-karippur-thottakkonam-road",
+  "ref": "MDR",
+  "name": "Chakkalavattom - Karippur - Thottakkonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.66037,
+        9.23003
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.65262,
+        9.23063
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

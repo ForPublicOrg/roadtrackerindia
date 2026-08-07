@@ -1,0 +1,43 @@
+{
+  "id": "kl-chengannur-mannar-road",
+  "ref": "MDR",
+  "name": "Chengannur - Mannar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Mundancavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Chengannur",
+      "Mundancavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.5558,
+        9.33129
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.6086,
+        9.3262
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

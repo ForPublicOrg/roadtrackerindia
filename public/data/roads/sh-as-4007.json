@@ -1,0 +1,57 @@
+{
+  "id": "sh-as-4007",
+  "ref": "SH 4007",
+  "name": "MOINAPARA–ALUPATTY State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "MOINAPARA, Assam",
+    "end": "ALUPATTY, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "MOINAPARA",
+      "Golaghat",
+      "ALUPATTY"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "MOINAPARA",
+      "coords": [
+        93.91834,
+        26.50323
+      ]
+    },
+    {
+      "name": "BAGCHUNG — NORAGAON REGION",
+      "coords": [
+        93.94957,
+        26.50183
+      ]
+    },
+    {
+      "name": "MARUWARIPATTY",
+      "coords": [
+        93.95722,
+        26.50832
+      ]
+    },
+    {
+      "name": "Golaghat",
+      "coords": [
+        93.96768,
+        26.51059
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

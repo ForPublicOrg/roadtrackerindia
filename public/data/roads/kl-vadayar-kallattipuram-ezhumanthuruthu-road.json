@@ -1,0 +1,49 @@
+{
+  "id": "kl-vadayar-kallattipuram-ezhumanthuruthu-road",
+  "ref": "MDR",
+  "name": "Vadayar - Kallattipuram - Ezhumanthuruthu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.42886,
+        9.77444
+      ]
+    },
+    {
+      "name": "Arattukulangara",
+      "coords": [
+        76.43235,
+        9.76806
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.47306,
+        9.75266
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

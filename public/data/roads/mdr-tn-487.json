@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-487",
+  "ref": "MDR 487",
+  "name": "V.S.Nagar–Thottiyam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.8,
+  "route": {
+    "start": "V.S.Nagar, Tamil Nadu",
+    "end": "Thottiyam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "V.S.Nagar",
+      "Thottiyam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "V.S.Nagar",
+      "coords": [
+        78.22422,
+        10.99392
+      ]
+    },
+    {
+      "name": "Thottiyam",
+      "coords": [
+        78.33202,
+        10.98908
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1704",
+  "ref": "MDR 1704",
+  "name": "Niwari–Babina District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.6,
+  "route": {
+    "start": "Niwari, Madhya Pradesh",
+    "end": "Babina, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Niwari",
+      "Babina"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Niwari",
+      "coords": [
+        78.74936,
+        25.20769
+      ]
+    },
+    {
+      "name": "Babina",
+      "coords": [
+        78.66782,
+        25.07131
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

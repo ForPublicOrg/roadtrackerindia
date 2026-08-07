@@ -1,0 +1,42 @@
+{
+  "id": "kl-chennalod-mundakutty-cheriamkolly-road",
+  "ref": "MDR",
+  "name": "Chennalod - Mundakutty - Cheriamkolly Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.01991,
+        11.72166
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        75.98738,
+        11.66618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

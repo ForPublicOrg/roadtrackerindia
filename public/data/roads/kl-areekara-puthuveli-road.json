@@ -1,0 +1,42 @@
+{
+  "id": "kl-areekara-puthuveli-road",
+  "ref": "MDR",
+  "name": "Areekara - Puthuveli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Koothattukulam, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothattukulam",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.61258,
+        9.81258
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.59614,
+        9.82231
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

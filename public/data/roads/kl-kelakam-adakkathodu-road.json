@@ -1,0 +1,42 @@
+{
+  "id": "kl-kelakam-adakkathodu-road",
+  "ref": "MDR",
+  "name": "Kelakam - Adakkathodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Peravoor, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peravoor",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peravoor",
+      "coords": [
+        75.80983,
+        11.89595
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.85408,
+        11.92581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

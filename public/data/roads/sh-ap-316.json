@@ -1,0 +1,57 @@
+{
+  "id": "sh-ap-316",
+  "ref": "SH 316",
+  "name": "Tenali–Mangalagiri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.5,
+  "route": {
+    "start": "Tenali, Andhra Pradesh",
+    "end": "Mangalagiri, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Tenali",
+      "Duggirala",
+      "Mangalagiri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tenali",
+      "coords": [
+        80.64447,
+        16.23797
+      ]
+    },
+    {
+      "name": "Duggirala",
+      "coords": [
+        80.63101,
+        16.33179
+      ]
+    },
+    {
+      "name": "Vaddeswaram",
+      "coords": [
+        80.59835,
+        16.41399
+      ]
+    },
+    {
+      "name": "Mangalagiri",
+      "coords": [
+        80.56873,
+        16.42897
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

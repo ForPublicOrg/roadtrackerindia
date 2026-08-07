@@ -1,0 +1,42 @@
+{
+  "id": "kl-konni-kalleli-road",
+  "ref": "MDR",
+  "name": "Konni - Kalleli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.89312,
+        9.20041
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.85128,
+        9.21594
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

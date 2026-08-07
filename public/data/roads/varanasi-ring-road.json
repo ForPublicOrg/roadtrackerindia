@@ -1,0 +1,54 @@
+{
+  "id": "varanasi-ring-road",
+  "ref": "NH",
+  "name": "Varanasi Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 57.4,
+  "route": {
+    "start": "Mughalsarai, Uttar Pradesh",
+    "end": "Kachhwa, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mughalsarai",
+      "Varanasi",
+      "Kachhwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mughalsarai",
+      "coords": [
+        83.17009,
+        25.26626
+      ]
+    },
+    {
+      "name": "Varanasi",
+      "coords": [
+        83.00471,
+        25.38573
+      ]
+    },
+    {
+      "name": "Kachhwa",
+      "coords": [
+        82.8255,
+        25.27196
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vazhani-road",
+  "ref": "MDR",
+  "name": "Vazhani Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.9,
+  "route": {
+    "start": "Wadakkancherry, Kerala",
+    "end": "Ottupara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Wadakkancherry",
+      "Ottupara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wadakkancherry",
+      "coords": [
+        76.30549,
+        10.63771
+      ]
+    },
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.24924,
+        10.66441
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

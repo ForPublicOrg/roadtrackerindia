@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthiyakavu-konattussery-road",
+  "ref": "MDR",
+  "name": "Puthiyakavu - Konattussery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.31757,
+        9.71721
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.30163,
+        9.71811
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-marayoor-kovilkadavu-road",
+  "ref": "MDR",
+  "name": "Marayoor - Kovilkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Marayoor, Kerala",
+    "end": "Amaravathi Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Marayoor",
+      "Amaravathi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Marayoor",
+      "coords": [
+        77.16803,
+        10.25961
+      ]
+    },
+    {
+      "name": "Amaravathi Nagar",
+      "coords": [
+        77.1607,
+        10.27491
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

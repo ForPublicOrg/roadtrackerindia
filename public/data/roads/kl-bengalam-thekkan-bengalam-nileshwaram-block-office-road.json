@@ -1,0 +1,51 @@
+{
+  "id": "kl-bengalam-thekkan-bengalam-nileshwaram-block-office-road",
+  "ref": "MDR",
+  "name": "Bengalam - Thekkan Bengalam - Nileshwaram Block Office Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Chirupuram, Kerala",
+    "end": "Chayoth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chirupuram",
+      "Nileshwaram",
+      "Kayyur",
+      "Chayoth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirupuram",
+      "coords": [
+        75.14705,
+        12.28289
+      ]
+    },
+    {
+      "name": "Nileshwaram",
+      "coords": [
+        75.14899,
+        12.27741
+      ]
+    },
+    {
+      "name": "Kayyur",
+      "coords": [
+        75.16026,
+        12.26968
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

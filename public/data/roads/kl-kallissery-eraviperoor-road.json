@@ -1,0 +1,51 @@
+{
+  "id": "kl-kallissery-eraviperoor-road",
+  "ref": "MDR",
+  "name": "Kallissery - Eraviperoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Mundancavu, Kerala",
+    "end": "Thottabhagam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundancavu",
+      "Chengannur",
+      "Kumbanad",
+      "Thottabhagam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.61722,
+        9.33786
+      ]
+    },
+    {
+      "name": "Thottabhagam",
+      "coords": [
+        76.6294,
+        9.373
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.63357,
+        9.38158
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

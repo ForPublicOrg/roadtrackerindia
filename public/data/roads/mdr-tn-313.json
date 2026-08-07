@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-313",
+  "ref": "MDR 313",
+  "name": "Dheena Nagar Naval Nagar–Velliyanai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Dheena Nagar Naval Nagar, Tamil Nadu",
+    "end": "Velliyanai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Dheena Nagar Naval Nagar",
+      "Velliyanai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dheena Nagar Naval Nagar",
+      "coords": [
+        78.13447,
+        10.72786
+      ]
+    },
+    {
+      "name": "Velliyanai",
+      "coords": [
+        78.10866,
+        10.73914
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

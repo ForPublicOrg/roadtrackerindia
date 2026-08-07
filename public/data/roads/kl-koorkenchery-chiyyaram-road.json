@@ -1,0 +1,43 @@
+{
+  "id": "kl-koorkenchery-chiyyaram-road",
+  "ref": "MDR",
+  "name": "Koorkenchery - Chiyyaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Cheerachi, Kerala",
+    "end": "Kuriyachira, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheerachi",
+      "Thrissur",
+      "Kuriyachira"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheerachi",
+      "coords": [
+        76.23062,
+        10.49552
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.21199,
+        10.50207
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

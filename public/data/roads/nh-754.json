@@ -1,0 +1,56 @@
+{
+  "id": "nh-754",
+  "ref": "NH 754",
+  "name": "Jalalabad–Janta Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 79.8,
+  "route": {
+    "start": "Jalalabad, Punjab",
+    "end": "Janta Nagar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Jalalabad",
+      "Sri Muktsar Sahib",
+      "Rupana",
+      "Bathinda",
+      "Janta Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jalalabad",
+      "coords": [
+        74.25067,
+        30.60486
+      ]
+    },
+    {
+      "name": "Sri Muktsar Sahib",
+      "coords": [
+        74.52301,
+        30.4691
+      ]
+    },
+    {
+      "name": "Bathinda",
+      "coords": [
+        74.93271,
+        30.23713
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

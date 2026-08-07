@@ -1,0 +1,42 @@
+{
+  "id": "kl-anakkallu-ammadam-peringottukara-road",
+  "ref": "MDR",
+  "name": "Anakkallu - Ammadam - Peringottukara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.1,
+  "route": {
+    "start": "Ollur, Kerala",
+    "end": "Thriprayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ollur",
+      "Thriprayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ollur",
+      "coords": [
+        76.23003,
+        10.46988
+      ]
+    },
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.13013,
+        10.42858
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

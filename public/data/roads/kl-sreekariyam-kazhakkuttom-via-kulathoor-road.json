@@ -1,0 +1,64 @@
+{
+  "id": "kl-sreekariyam-kazhakkuttom-via-kulathoor-road",
+  "ref": "MDR",
+  "name": "Sreekariyam - Kazhakkuttom (Via Kulathoor) Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Kazhakkoottam, Kerala",
+    "end": "Sreekariyam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kazhakkoottam",
+      "Kulathoor",
+      "Sreekariyam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kazhakkoottam",
+      "coords": [
+        76.87327,
+        8.56641
+      ]
+    },
+    {
+      "name": "Kulathoor",
+      "coords": [
+        76.88222,
+        8.54121
+      ]
+    },
+    {
+      "name": "Manvila",
+      "coords": [
+        76.89158,
+        8.54316
+      ]
+    },
+    {
+      "name": "Akkulam",
+      "coords": [
+        76.90323,
+        8.5462
+      ]
+    },
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.91104,
+        8.55081
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

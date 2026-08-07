@@ -1,0 +1,43 @@
+{
+  "id": "sh-gj-2a",
+  "ref": "SH 2A",
+  "name": "Santrampur–Simalwara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35,
+  "route": {
+    "start": "Santrampur, Gujarat",
+    "end": "Simalwara, Rajasthan",
+    "states": [
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Santrampur",
+      "Simalwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Santrampur",
+      "coords": [
+        73.8702,
+        23.19922
+      ]
+    },
+    {
+      "name": "Simalwara",
+      "coords": [
+        73.80532,
+        23.43797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

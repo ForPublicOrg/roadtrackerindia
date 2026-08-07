@@ -1,0 +1,42 @@
+{
+  "id": "kl-jai-hind-puthuval-church-road",
+  "ref": "MDR",
+  "name": "Jai Hind - Puthuval - Church Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Thekkinezhath, Kerala",
+    "end": "Maniyan thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thekkinezhath",
+      "Maniyan thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thekkinezhath",
+      "coords": [
+        76.20332,
+        10.05245
+      ]
+    },
+    {
+      "name": "Maniyan thuruth",
+      "coords": [
+        76.21727,
+        10.04722
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

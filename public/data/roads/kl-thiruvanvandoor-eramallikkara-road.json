@@ -1,0 +1,49 @@
+{
+  "id": "kl-thiruvanvandoor-eramallikkara-road",
+  "ref": "MDR",
+  "name": "Thiruvanvandoor - Eramallikkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Thirumoolapuram, Kerala",
+    "end": "Kavumbhagom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thirumoolapuram",
+      "Kavumbhagom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thirumoolapuram",
+      "coords": [
+        76.59322,
+        9.34934
+      ]
+    },
+    {
+      "name": "Thukalassery",
+      "coords": [
+        76.58565,
+        9.34719
+      ]
+    },
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.55218,
+        9.34933
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

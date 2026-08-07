@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-127w",
+  "ref": "SH 127W",
+  "name": "Kheragarh–Maniyan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 20.9,
+  "route": {
+    "start": "Kheragarh, Uttar Pradesh",
+    "end": "Maniyan, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kheragarh",
+      "Maniyan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kheragarh",
+      "coords": [
+        77.85043,
+        27.02409
+      ]
+    },
+    {
+      "name": "Maniyan",
+      "coords": [
+        77.93467,
+        26.94599
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

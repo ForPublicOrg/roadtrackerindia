@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-214",
+  "ref": "MDR 214",
+  "name": "Bhawani Mandi–Sunel District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 48.8,
+  "route": {
+    "start": "Bhawani Mandi, Madhya Pradesh",
+    "end": "Sunel, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhawani Mandi",
+      "Sunel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhawani Mandi",
+      "coords": [
+        75.75469,
+        24.41208
+      ]
+    },
+    {
+      "name": "Sunel",
+      "coords": [
+        75.95727,
+        24.34179
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

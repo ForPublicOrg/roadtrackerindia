@@ -1,0 +1,63 @@
+{
+  "id": "nh-547",
+  "ref": "NH 547",
+  "name": "Saoner–Narsinghpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 211.3,
+  "route": {
+    "start": "Saoner, Maharashtra",
+    "end": "Narsinghpur, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Saoner",
+      "Sausar",
+      "Chhindwara",
+      "Narsinghpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saoner",
+      "coords": [
+        78.9129,
+        21.40079
+      ]
+    },
+    {
+      "name": "Sausar",
+      "coords": [
+        78.7969,
+        21.65053
+      ]
+    },
+    {
+      "name": "Chhindwara",
+      "coords": [
+        78.99299,
+        22.04806
+      ]
+    },
+    {
+      "name": "Narsinghpur",
+      "coords": [
+        79.19634,
+        22.9325
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

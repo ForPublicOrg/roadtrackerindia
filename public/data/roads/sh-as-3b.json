@@ -1,0 +1,42 @@
+{
+  "id": "sh-as-3b",
+  "ref": "SH 3B",
+  "name": "Sonapur–Mangaldoi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.4,
+  "route": {
+    "start": "Sonapur, Assam",
+    "end": "Mangaldoi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sonapur",
+      "Mangaldoi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonapur",
+      "coords": [
+        92.00139,
+        26.1199
+      ]
+    },
+    {
+      "name": "Mangaldoi",
+      "coords": [
+        92.03769,
+        26.25971
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

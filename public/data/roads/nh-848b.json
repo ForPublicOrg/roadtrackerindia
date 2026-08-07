@@ -1,0 +1,62 @@
+{
+  "id": "nh-848b",
+  "ref": "NH 848B",
+  "name": "Vapi–Udvada National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 27.2,
+  "route": {
+    "start": "Vapi, Gujarat",
+    "end": "Udvada, Gujarat",
+    "states": [
+      "Gujarat",
+      "Dadra and Nagar Haveli and Daman and Diu"
+    ],
+    "majorCities": [
+      "Vapi",
+      "Daman",
+      "Udvada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vapi",
+      "coords": [
+        72.90193,
+        20.32431
+      ]
+    },
+    {
+      "name": "Dholar",
+      "coords": [
+        72.8336,
+        20.39187
+      ]
+    },
+    {
+      "name": "Daman",
+      "coords": [
+        72.83847,
+        20.41724
+      ]
+    },
+    {
+      "name": "Udvada",
+      "coords": [
+        72.88839,
+        20.46788
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

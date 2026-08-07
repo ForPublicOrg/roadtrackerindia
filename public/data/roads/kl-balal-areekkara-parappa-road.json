@@ -1,0 +1,42 @@
+{
+  "id": "kl-balal-areekkara-parappa-road",
+  "ref": "MDR",
+  "name": "Balal - Areekkara - Parappa Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Odayamchal, Kerala",
+    "end": "Panathur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Odayamchal",
+      "Panathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.27317,
+        12.38418
+      ]
+    },
+    {
+      "name": "Panathur",
+      "coords": [
+        75.28147,
+        12.38678
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

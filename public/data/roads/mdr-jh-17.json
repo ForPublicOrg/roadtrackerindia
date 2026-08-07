@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-17",
+  "ref": "MDR 17",
+  "name": "Chutia–Doronda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Chutia, Jharkhand",
+    "end": "Doronda, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chutia",
+      "Ranchi",
+      "Doronda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chutia",
+      "coords": [
+        85.33368,
+        23.34752
+      ]
+    },
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.32771,
+        23.34854
+      ]
+    },
+    {
+      "name": "Doronda",
+      "coords": [
+        85.32622,
+        23.34485
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kl-ayikkarakunnu-ottakappilumavu-road",
+  "ref": "MDR",
+  "name": "Ayikkarakunnu - Ottakappilumavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Athirampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Ettumanoor",
+      "Athirampuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.53331,
+        9.65094
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.54035,
+        9.66496
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.53974,
+        9.66646
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

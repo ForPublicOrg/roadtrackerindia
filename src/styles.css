@@ -18,12 +18,14 @@
   --c-exp: #3b5bdb;
   --c-nh: #d9480f;
   --c-sh: #2f9e44;
+  --c-district: #9c6f19;
   --c-local: #78838f;
 
   /* darker "text on tint" companions — AA contrast on badge/pill backgrounds */
   --c-exp-deep: #2c3f9e;
   --c-nh-deep: #9d3407;
   --c-sh-deep: #1e7a33;
+  --c-district-deep: #7a5410;
   --c-local-deep: #49565f;
   --warn-deep: #7a5200;
 
@@ -61,11 +63,13 @@
   --c-exp: #8da2fb;
   --c-nh: #f4915a;
   --c-sh: #6ecb7c;
+  --c-district: #d4a24c;
   --c-local: #93a0af;
 
   --c-exp-deep: #a7b6fc;
   --c-nh-deep: #f8a878;
   --c-sh-deep: #8bd898;
+  --c-district-deep: #e8bf78;
   --c-local-deep: #aeb9c6;
   --warn-deep: #f0c34e;
 
@@ -222,6 +226,7 @@ a { color: var(--accent); }
 .sr-badge.cat-expressway, .rd-ref.cat-expressway { background: color-mix(in srgb, var(--c-exp) 16%, var(--surface)); color: var(--c-exp-deep); }
 .sr-badge.cat-nh, .rd-ref.cat-nh { background: color-mix(in srgb, var(--c-nh) 16%, var(--surface)); color: var(--c-nh-deep); }
 .sr-badge.cat-sh, .rd-ref.cat-sh { background: color-mix(in srgb, var(--c-sh) 16%, var(--surface)); color: var(--c-sh-deep); }
+.sr-badge.cat-district, .rd-ref.cat-district { background: color-mix(in srgb, var(--c-district) 16%, var(--surface)); color: var(--c-district-deep); }
 .sr-badge.cat-local, .rd-ref.cat-local { background: color-mix(in srgb, var(--c-local) 18%, var(--surface)); color: var(--c-local-deep); }
 .sr-main { min-width: 0; flex: 1; }
 .sr-title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -461,6 +466,8 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
   color: var(--accent); width: fit-content;
 }
 .rd-sources a:hover { text-decoration: underline; }
+.rd-provenance { margin: 10px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--ink-2); }
+.rd-provenance a { color: inherit; text-decoration: underline; }
 .rd-sources svg { width: 12px; height: 12px; flex: none; }
 
 .rd-sparse {
@@ -511,6 +518,77 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 .rel-chip:hover { background: var(--surface-2); }
 .rel-chip:active { transform: scale(0.985); }
 .rel-chip .rc-name { font-weight: 550; font-size: 13.5px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* who's behind the road — authority, builders, operator */
+.og-row { display: grid; grid-template-columns: 108px 1fr; gap: 8px 12px; align-items: start; }
+.og-row + .og-row { margin-top: 12px; }
+.og-label { color: var(--ink-2); font-size: 13.5px; padding-top: 7px; }
+.og-chips { display: flex; flex-wrap: wrap; gap: 7px; }
+.og-chip {
+  display: grid; gap: 1px; text-align: left;
+  border: 1px solid var(--line); border-radius: var(--radius-s);
+  padding: 7px 11px; background: var(--surface); font: inherit;
+  transition: background 0.14s ease, border-color 0.14s ease, transform 0.18s var(--ease-spring);
+}
+button.og-chip { cursor: pointer; }
+button.og-chip:hover { background: var(--surface-2); border-color: var(--ink-2); }
+button.og-chip:active { transform: scale(0.97); }
+.og-chip.is-plain { background: transparent; border-style: dashed; }
+.og-chip .og-name { font-weight: 650; font-size: 13.5px; color: var(--accent); }
+.og-chip.is-plain .og-name, .og-chip.is-plain { color: var(--ink); font-weight: 550; font-size: 13.5px; }
+.og-chip .og-note { color: var(--ink-2); font-size: 12px; line-height: 1.4; }
+
+/* toll charges */
+.toll-block + .toll-block { margin-top: 16px; }
+.toll-block h4 { margin: 0 0 6px; font-size: 13.5px; font-weight: 650; }
+.toll-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.toll-table th, .toll-table td { padding: 7px 0; border-bottom: 1px solid var(--line); text-align: left; }
+.toll-table th { font-weight: 500; color: var(--ink-2); }
+.toll-table td { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+.toll-table tr:last-child th, .toll-table tr:last-child td { border-bottom: 0; }
+.toll-note { font-size: 13px; color: var(--ink-2); line-height: 1.55; margin: 8px 0 0; }
+.toll-passes { margin-top: 10px; }
+.toll-free {
+  font-size: 14px; line-height: 1.6; margin: 0; padding: 11px 13px;
+  border-radius: var(--radius-s); background: color-mix(in srgb, var(--ok) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--ok) 30%, var(--line));
+}
+
+/* emergency and complaint numbers */
+.hl-head { margin: 16px 0 8px; font-size: 13px; font-weight: 650; color: var(--ink-2); }
+.hl-group { display: grid; gap: 6px; }
+.hl-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 10px 12px; border-radius: var(--radius-s);
+  border: 1px solid var(--line); background: var(--surface);
+  text-decoration: none; color: inherit;
+  transition: background 0.14s ease, border-color 0.14s ease, transform 0.18s var(--ease-spring);
+}
+.hl-row:hover { background: var(--surface-2); border-color: var(--ink-2); }
+.hl-row:active { transform: scale(0.985); }
+.hl-row.hl-emergency { border-left: 3px solid var(--danger); }
+.hl-row.hl-control-room { border-left: 3px solid var(--warn); }
+.hl-main { display: grid; gap: 2px; min-width: 0; }
+.hl-label { font-size: 13.5px; font-weight: 550; line-height: 1.35; }
+.hl-note { font-size: 12px; color: var(--ink-2); }
+.hl-number {
+  flex: none; font: 750 16px var(--font-ui); color: var(--accent);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.01em;
+}
+
+/* company profile */
+.og-type { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--line); }
+.og-summary { font-size: 14.5px; line-height: 1.6; margin: 12px 0 0; }
+.og-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.og-stat {
+  display: grid; gap: 1px; flex: 1 1 auto; min-width: 96px;
+  padding: 10px 12px; border-radius: var(--radius-s);
+  background: var(--surface-2); border: 1px solid var(--line);
+}
+.og-stat b { font: 750 19px var(--font-ui); font-variant-numeric: tabular-nums; }
+.og-stat span { font-size: 12px; color: var(--ink-2); line-height: 1.3; }
+.og-spend { font-size: 13px; color: var(--ink-2); line-height: 1.55; margin: 12px 0 0; }
+.og-spend b { color: var(--ink); font-weight: 750; }
 
 /* news list */
 .news-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }

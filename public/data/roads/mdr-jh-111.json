@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-111",
+  "ref": "MDR 111",
+  "name": "Domchanch–Kodarma District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "Domchanch, Jharkhand",
+    "end": "Kodarma, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Domchanch",
+      "Kodarma"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Domchanch",
+      "coords": [
+        85.66874,
+        24.57966
+      ]
+    },
+    {
+      "name": "Kodarma",
+      "coords": [
+        85.65586,
+        24.47791
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

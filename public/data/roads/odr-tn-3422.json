@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-3422",
+  "ref": "ODR 3422",
+  "name": "Tiruttani–Podaturpet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Tiruttani, Tamil Nadu",
+    "end": "Podaturpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruttani",
+      "Podaturpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruttani",
+      "coords": [
+        79.56689,
+        13.23895
+      ]
+    },
+    {
+      "name": "Podaturpet",
+      "coords": [
+        79.55214,
+        13.23636
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

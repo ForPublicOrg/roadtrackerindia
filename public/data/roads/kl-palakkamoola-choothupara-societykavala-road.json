@@ -1,0 +1,42 @@
+{
+  "id": "kl-palakkamoola-choothupara-societykavala-road",
+  "ref": "MDR",
+  "name": "Palakkamoola - Choothupara - Societykavala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.7,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Sultan Bathery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Sultan Bathery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.14387,
+        11.67453
+      ]
+    },
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.17426,
+        11.71011
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

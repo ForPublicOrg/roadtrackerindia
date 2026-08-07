@@ -1,0 +1,42 @@
+{
+  "id": "kl-aroor-kumbalangi-road",
+  "ref": "MDR",
+  "name": "Aroor - Kumbalangi road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.30549,
+        9.86553
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.29656,
+        9.8627
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

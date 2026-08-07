@@ -1,0 +1,42 @@
+{
+  "id": "kl-valapttanam-azheekkal-road",
+  "ref": "MDR",
+  "name": "Valapttanam Azheekkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Pappinisseri, Kerala",
+    "end": "Kannapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pappinisseri",
+      "Kannapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pappinisseri",
+      "coords": [
+        75.34534,
+        11.92781
+      ]
+    },
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.30358,
+        11.94665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

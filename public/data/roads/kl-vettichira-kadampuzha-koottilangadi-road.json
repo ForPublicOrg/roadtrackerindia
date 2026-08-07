@@ -1,0 +1,65 @@
+{
+  "id": "kl-vettichira-kadampuzha-koottilangadi-road",
+  "ref": "MDR",
+  "name": "Vettichira - Kadampuzha - Koottilangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.9,
+  "route": {
+    "start": "Vettichira, Kerala",
+    "end": "Thamarakuzhi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vettichira",
+      "Kadampuzha",
+      "Malappuram",
+      "Thamarakuzhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vettichira",
+      "coords": [
+        76.02327,
+        10.92864
+      ]
+    },
+    {
+      "name": "Kadampuzha",
+      "coords": [
+        76.04297,
+        10.94122
+      ]
+    },
+    {
+      "name": "Padapparamba",
+      "coords": [
+        76.10265,
+        10.99153
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "coords": [
+        76.10663,
+        11.02638
+      ]
+    },
+    {
+      "name": "Thamarakuzhi",
+      "coords": [
+        76.1075,
+        11.02763
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

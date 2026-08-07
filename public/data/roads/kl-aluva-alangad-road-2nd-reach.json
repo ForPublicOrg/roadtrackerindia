@@ -1,0 +1,43 @@
+{
+  "id": "kl-aluva-alangad-road-2nd-reach",
+  "ref": "MDR",
+  "name": "Aluva - Alangad Road (2nd Reach)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Thottakkattukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Aluva",
+      "Thottakkattukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.30152,
+        10.12233
+      ]
+    },
+    {
+      "name": "Aluva",
+      "coords": [
+        76.32611,
+        10.11537
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

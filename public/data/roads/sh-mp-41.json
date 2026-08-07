@@ -1,0 +1,59 @@
+{
+  "id": "sh-mp-41",
+  "ref": "SH 41",
+  "name": "Narsinghpur–Chikhaldara State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 309.9,
+  "route": {
+    "start": "Narsinghpur, Madhya Pradesh",
+    "end": "Chikhaldara, Maharashtra",
+    "states": [
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Narsinghpur",
+      "Junnardeo",
+      "Multai",
+      "Chikhaldara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narsinghpur",
+      "coords": [
+        79.21899,
+        22.61289
+      ]
+    },
+    {
+      "name": "Junnardeo",
+      "coords": [
+        78.59227,
+        22.19416
+      ]
+    },
+    {
+      "name": "Multai",
+      "coords": [
+        78.26243,
+        21.77973
+      ]
+    },
+    {
+      "name": "Chikhaldara",
+      "coords": [
+        77.44067,
+        21.47172
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

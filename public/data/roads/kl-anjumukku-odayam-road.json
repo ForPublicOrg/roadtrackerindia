@@ -1,0 +1,42 @@
+{
+  "id": "kl-anjumukku-odayam-road",
+  "ref": "MDR",
+  "name": "Anjumukku - Odayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.69702,
+        8.75034
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.71028,
+        8.75135
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

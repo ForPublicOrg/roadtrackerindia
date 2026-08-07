@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-29c",
+  "ref": "SH 29C",
+  "name": "Budhni–Badi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58.4,
+  "route": {
+    "start": "Budhni, Madhya Pradesh",
+    "end": "Badi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Budhni",
+      "Narmadapuram",
+      "Badi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Budhni",
+      "coords": [
+        77.70132,
+        22.80108
+      ]
+    },
+    {
+      "name": "Narmadapuram",
+      "coords": [
+        77.72067,
+        22.77491
+      ]
+    },
+    {
+      "name": "Badi",
+      "coords": [
+        78.07725,
+        23.02632
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

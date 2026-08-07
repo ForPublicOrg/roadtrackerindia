@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallara-junction-kanjiramvila-junction-road",
+  "ref": "MDR",
+  "name": "Kallara Junction - Kanjiramvila Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Puthoor, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthoor",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.71273,
+        9.04809
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.72872,
+        9.05379
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

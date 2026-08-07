@@ -1,0 +1,42 @@
+{
+  "id": "mdr-pb-18",
+  "ref": "MDR 18",
+  "name": "Tohana–Moonak District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.3,
+  "route": {
+    "start": "Tohana, Haryana",
+    "end": "Moonak, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Tohana",
+      "Moonak"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tohana",
+      "coords": [
+        75.90312,
+        29.7527
+      ]
+    },
+    {
+      "name": "Moonak",
+      "coords": [
+        75.89511,
+        29.82577
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

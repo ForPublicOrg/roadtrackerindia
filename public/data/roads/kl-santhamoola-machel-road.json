@@ -1,0 +1,50 @@
+{
+  "id": "kl-santhamoola-machel-road",
+  "ref": "MDR",
+  "name": "Santhamoola - Machel Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Malayinkeezhu, Kerala",
+    "end": "Pallichal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Malayinkeezhu",
+      "Balaramapuram",
+      "Pallichal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.03543,
+        8.48628
+      ]
+    },
+    {
+      "name": "Russelpuram",
+      "coords": [
+        77.03211,
+        8.45449
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.02882,
+        8.45112
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

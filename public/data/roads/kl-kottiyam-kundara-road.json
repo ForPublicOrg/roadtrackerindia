@@ -1,0 +1,56 @@
+{
+  "id": "kl-kottiyam-kundara-road",
+  "ref": "MDR",
+  "name": "Kottiyam - Kundara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Kottiyam, Kerala",
+    "end": "Kundara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottiyam",
+      "Kundara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.67094,
+        8.86642
+      ]
+    },
+    {
+      "name": "Kannanalloor",
+      "coords": [
+        76.68095,
+        8.89231
+      ]
+    },
+    {
+      "name": "Keralapuram",
+      "coords": [
+        76.67911,
+        8.94663
+      ]
+    },
+    {
+      "name": "Kundara",
+      "coords": [
+        76.68211,
+        8.96119
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

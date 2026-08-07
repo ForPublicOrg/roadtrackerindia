@@ -1,0 +1,51 @@
+{
+  "id": "mdr-up-30b",
+  "ref": "MDR 30B",
+  "name": "Tikamgarh–Lalitpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.9,
+  "route": {
+    "start": "Tikamgarh, Madhya Pradesh",
+    "end": "Lalitpur, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Tikamgarh",
+      "Mahrauni",
+      "Lalitpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tikamgarh",
+      "coords": [
+        78.82521,
+        24.73165
+      ]
+    },
+    {
+      "name": "Mahrauni",
+      "coords": [
+        78.72766,
+        24.58349
+      ]
+    },
+    {
+      "name": "Lalitpur",
+      "coords": [
+        78.45384,
+        24.6568
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-palakkad-chittur-road",
+  "ref": "MDR",
+  "name": "Palakkad Chittur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Chandranagar, Kerala",
+    "end": "Kunnathurmedu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chandranagar",
+      "Palakkad",
+      "Kunnathurmedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chandranagar",
+      "coords": [
+        76.69366,
+        10.74252
+      ]
+    },
+    {
+      "name": "Palakkad",
+      "coords": [
+        76.65924,
+        10.76552
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

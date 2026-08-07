@@ -1,0 +1,42 @@
+{
+  "id": "kl-kummannoor-koodalloor-road",
+  "ref": "MDR",
+  "name": "Kummannoor - Koodalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Kanakkarry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Kanakkarry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.6232,
+        9.68939
+      ]
+    },
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.59343,
+        9.70515
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

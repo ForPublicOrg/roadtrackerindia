@@ -1,0 +1,62 @@
+{
+  "id": "nh-351g",
+  "ref": "NH 351G",
+  "name": "Sayla–Jafarabad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 207.6,
+  "route": {
+    "start": "Sayla, Gujarat",
+    "end": "Jafarabad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Sayla",
+      "Chital",
+      "Amreli",
+      "Jafarabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sayla",
+      "coords": [
+        71.1963,
+        22.41968
+      ]
+    },
+    {
+      "name": "Chital",
+      "coords": [
+        71.2092,
+        21.73484
+      ]
+    },
+    {
+      "name": "Amreli",
+      "coords": [
+        71.21288,
+        21.60358
+      ]
+    },
+    {
+      "name": "Jafarabad",
+      "coords": [
+        71.34441,
+        20.92747
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

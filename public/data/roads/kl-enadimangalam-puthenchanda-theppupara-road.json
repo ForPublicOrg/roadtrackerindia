@@ -1,0 +1,42 @@
+{
+  "id": "kl-enadimangalam-puthenchanda-theppupara-road",
+  "ref": "MDR",
+  "name": "Enadimangalam - Puthenchanda - Theppupara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Parakode, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parakode",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parakode",
+      "coords": [
+        76.80212,
+        9.1581
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.81617,
+        9.13641
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

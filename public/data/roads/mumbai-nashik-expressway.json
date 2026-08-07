@@ -1,0 +1,115 @@
+{
+  "id": "mumbai-nashik-expressway",
+  "ref": "NH",
+  "name": "Mumbai Nashik Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 168.2,
+  "route": {
+    "start": "Panchavati, Maharashtra",
+    "end": "Naupada, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Panchavati",
+      "Nashik",
+      "Ghoti",
+      "Igatpuri",
+      "Kasara",
+      "Shahapur",
+      "Thane",
+      "Naupada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panchavati",
+      "coords": [
+        73.81485,
+        20.01277
+      ]
+    },
+    {
+      "name": "Nashik",
+      "coords": [
+        73.80357,
+        20.00602
+      ]
+    },
+    {
+      "name": "Ambad",
+      "coords": [
+        73.74875,
+        19.94809
+      ]
+    },
+    {
+      "name": "Ghoti",
+      "coords": [
+        73.62503,
+        19.71841
+      ]
+    },
+    {
+      "name": "Igatpuri",
+      "coords": [
+        73.56452,
+        19.68686
+      ]
+    },
+    {
+      "name": "Kasara",
+      "coords": [
+        73.48343,
+        19.64183
+      ]
+    },
+    {
+      "name": "Shahapur",
+      "coords": [
+        73.3286,
+        19.44687
+      ]
+    },
+    {
+      "name": "Kalyan-Dombivli",
+      "coords": [
+        73.10525,
+        19.28362
+      ]
+    },
+    {
+      "name": "Bhiwandi",
+      "coords": [
+        73.08057,
+        19.26771
+      ]
+    },
+    {
+      "name": "Thane",
+      "coords": [
+        72.96309,
+        19.19117
+      ]
+    },
+    {
+      "name": "Naupada",
+      "coords": [
+        72.96461,
+        19.18526
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

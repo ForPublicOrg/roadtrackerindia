@@ -1,0 +1,43 @@
+{
+  "id": "ap-mandapeta-kapileswarapuram-road",
+  "ref": "SH",
+  "name": "Mandapeta - Kapileswarapuram Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 16.5,
+  "route": {
+    "start": "Kapileswarapuram, Andhra Pradesh",
+    "end": "Mandapeta, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kapileswarapuram",
+      "Kothapeta",
+      "Mandapeta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kapileswarapuram",
+      "coords": [
+        81.91935,
+        16.73774
+      ]
+    },
+    {
+      "name": "Mandapeta",
+      "coords": [
+        81.93225,
+        16.86162
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-65",
+  "ref": "MDR 65",
+  "name": "Nohar–Pephana District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 21.4,
+  "route": {
+    "start": "Nohar, Rajasthan",
+    "end": "Pephana, Haryana",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Nohar",
+      "Pephana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nohar",
+      "coords": [
+        74.80475,
+        29.22704
+      ]
+    },
+    {
+      "name": "Pephana",
+      "coords": [
+        74.89605,
+        29.33353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

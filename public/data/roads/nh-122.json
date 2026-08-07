@@ -1,0 +1,69 @@
+{
+  "id": "nh-122",
+  "ref": "NH 122",
+  "name": "Barauni–Muzaffarpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 101.8,
+  "route": {
+    "start": "Barauni, Bihar",
+    "end": "Muzaffarpur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Barauni",
+      "Teghra",
+      "Mansurchak",
+      "Muzaffarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barauni",
+      "coords": [
+        86.02773,
+        25.44703
+      ]
+    },
+    {
+      "name": "Teghra",
+      "coords": [
+        85.94354,
+        25.49758
+      ]
+    },
+    {
+      "name": "Mansurchak",
+      "coords": [
+        85.87715,
+        25.58909
+      ]
+    },
+    {
+      "name": "Dalsinghsarai",
+      "coords": [
+        85.83401,
+        25.66126
+      ]
+    },
+    {
+      "name": "Muzaffarpur",
+      "coords": [
+        85.38129,
+        26.09356
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

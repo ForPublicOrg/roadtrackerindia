@@ -1,0 +1,42 @@
+{
+  "id": "kl-kellur-cheriamkolly-kazhukalody-vilambukandam-kambalakad-roa",
+  "ref": "MDR",
+  "name": "Kellur - Cheriamkolly - Kazhukalody - Vilambukandam - Kambalakad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.3,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.07609,
+        11.6745
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.01762,
+        11.74947
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

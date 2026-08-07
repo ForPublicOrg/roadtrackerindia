@@ -1,0 +1,42 @@
+{
+  "id": "kl-chelur-aripalam-road",
+  "ref": "MDR",
+  "name": "Chelur Aripalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.19149,
+        10.29962
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.19738,
+        10.33513
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

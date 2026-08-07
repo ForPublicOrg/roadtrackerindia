@@ -1,0 +1,42 @@
+{
+  "id": "kl-inchimala-palace-square-eruvely-vattakunne-road",
+  "ref": "MDR",
+  "name": "Inchimala - Palace square - Eruvely Vattakunne Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Chottanikkara, Kerala",
+    "end": "Thrippunithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chottanikkara",
+      "Thrippunithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.39583,
+        9.90619
+      ]
+    },
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.3913,
+        9.91982
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

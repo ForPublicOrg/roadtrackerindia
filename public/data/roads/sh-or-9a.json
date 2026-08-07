@@ -1,0 +1,51 @@
+{
+  "id": "sh-or-9a",
+  "ref": "SH 9A",
+  "name": "Jagatpur–Pattamundai State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 100.6,
+  "route": {
+    "start": "Jagatpur, Odisha",
+    "end": "Pattamundai, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Jagatpur",
+      "Cuttack",
+      "Kendrapara",
+      "Pattamundai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jagatpur",
+      "coords": [
+        85.92256,
+        20.49555
+      ]
+    },
+    {
+      "name": "Kendrapara",
+      "coords": [
+        86.41608,
+        20.51952
+      ]
+    },
+    {
+      "name": "Pattamundai",
+      "coords": [
+        86.5604,
+        20.58534
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

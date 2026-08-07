@@ -1,0 +1,42 @@
+{
+  "id": "kl-kariyam-pothencode-road",
+  "ref": "MDR",
+  "name": "Kariyam - Pothencode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Pothencode, Kerala",
+    "end": "Sreekariyam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pothencode",
+      "Sreekariyam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.90057,
+        8.61964
+      ]
+    },
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.91694,
+        8.55326
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

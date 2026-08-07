@@ -1,0 +1,42 @@
+{
+  "id": "kl-thiruvallur-kunnelpally-panayiulam-road",
+  "ref": "MDR",
+  "name": "Thiruvallur Kunnelpally Panayiulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Pathalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Pathalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.30681,
+        10.12032
+      ]
+    },
+    {
+      "name": "Pathalam",
+      "coords": [
+        76.30342,
+        10.10572
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

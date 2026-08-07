@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-406",
+  "ref": "MDR 406",
+  "name": "Tindivanam–Vikravandi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Tindivanam, Tamil Nadu",
+    "end": "Vikravandi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tindivanam",
+      "Vikravandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tindivanam",
+      "coords": [
+        79.64859,
+        12.23696
+      ]
+    },
+    {
+      "name": "Vikravandi",
+      "coords": [
+        79.66501,
+        12.24238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

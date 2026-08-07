@@ -1,0 +1,55 @@
+{
+  "id": "nh-168a",
+  "ref": "NH 168A",
+  "name": "Deesa–Sanchore National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 67.4,
+  "route": {
+    "start": "Deesa, Gujarat",
+    "end": "Sanchore, Rajasthan",
+    "states": [
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Deesa",
+      "Dhanera",
+      "Sanchore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Deesa",
+      "coords": [
+        72.1545,
+        24.2845
+      ]
+    },
+    {
+      "name": "Dhanera",
+      "coords": [
+        72.02041,
+        24.50497
+      ]
+    },
+    {
+      "name": "Sanchore",
+      "coords": [
+        71.775,
+        24.72857
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

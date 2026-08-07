@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-64",
+  "ref": "SH 64",
+  "name": "Basti–BANKATI State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Basti, Uttar Pradesh",
+    "end": "BANKATI, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Basti",
+      "BANKATI"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Basti",
+      "coords": [
+        82.77872,
+        26.82611
+      ]
+    },
+    {
+      "name": "BANKATI",
+      "coords": [
+        82.7633,
+        26.81762
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

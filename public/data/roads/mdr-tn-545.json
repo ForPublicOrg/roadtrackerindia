@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-545",
+  "ref": "MDR 545",
+  "name": "Kodumudi–Pugalur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.7,
+  "route": {
+    "start": "Kodumudi, Tamil Nadu",
+    "end": "Pugalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kodumudi",
+      "Pugalur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodumudi",
+      "coords": [
+        77.92436,
+        11.05174
+      ]
+    },
+    {
+      "name": "TNPL Pugalur",
+      "coords": [
+        77.98933,
+        11.07539
+      ]
+    },
+    {
+      "name": "Pugalur",
+      "coords": [
+        78.00332,
+        11.07446
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

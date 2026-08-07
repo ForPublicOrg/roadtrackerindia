@@ -1,0 +1,42 @@
+{
+  "id": "kl-pullut-puthenchira-road",
+  "ref": "MDR",
+  "name": "Pullut - Puthenchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Thiruvanchikulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Thiruvanchikulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.20854,
+        10.2401
+      ]
+    },
+    {
+      "name": "Thiruvanchikulam",
+      "coords": [
+        76.23297,
+        10.24301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

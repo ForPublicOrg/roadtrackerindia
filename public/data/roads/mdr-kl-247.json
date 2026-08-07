@@ -1,0 +1,50 @@
+{
+  "id": "mdr-kl-247",
+  "ref": "MDR 247",
+  "name": "Panoor–Chokli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Panoor, Kerala",
+    "end": "Chokli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panoor",
+      "Peringatoor",
+      "Chokli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panoor",
+      "coords": [
+        75.62906,
+        11.74979
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.58617,
+        11.729
+      ]
+    },
+    {
+      "name": "Chokli",
+      "coords": [
+        75.57584,
+        11.72926
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

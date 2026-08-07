@@ -1,0 +1,49 @@
+{
+  "id": "kl-kongorppilly-olanad-road",
+  "ref": "MDR",
+  "name": "Kongorppilly - Olanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Kongorpilly, Kerala",
+    "end": "Varappuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kongorpilly",
+      "Varappuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongorpilly",
+      "coords": [
+        76.27766,
+        10.10066
+      ]
+    },
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.27543,
+        10.09568
+      ]
+    },
+    {
+      "name": "Varappuzha",
+      "coords": [
+        76.27246,
+        10.08257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

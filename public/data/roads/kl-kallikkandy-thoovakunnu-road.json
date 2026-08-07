@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallikkandy-thoovakunnu-road",
+  "ref": "MDR",
+  "name": "Kallikkandy - Thoovakunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Panoor, Kerala",
+    "end": "Peringatoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panoor",
+      "Peringatoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panoor",
+      "coords": [
+        75.62906,
+        11.74979
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.63771,
+        11.76022
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "kl-payyambalam-beach-road",
+  "ref": "MDR",
+  "name": "Payyambalam Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Talap, Kerala",
+    "end": "Thavakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Talap",
+      "Puthiyatheru",
+      "Kannur",
+      "Thavakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Talap",
+      "coords": [
+        75.33901,
+        11.88804
+      ]
+    },
+    {
+      "name": "Kannur",
+      "coords": [
+        75.35215,
+        11.87136
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "sh-tn-272",
+  "ref": "SH 272",
+  "name": "RS Puram–Karunya Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 22.3,
+  "route": {
+    "start": "RS Puram, Tamil Nadu",
+    "end": "Karunya Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "RS Puram",
+      "Coimbatore",
+      "Onappalayam",
+      "Karunya Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "RS Puram",
+      "coords": [
+        76.94644,
+        11.00464
+      ]
+    },
+    {
+      "name": "Perur",
+      "coords": [
+        76.90533,
+        11.00056
+      ]
+    },
+    {
+      "name": "Vedapatti",
+      "coords": [
+        76.8899,
+        11.00161
+      ]
+    },
+    {
+      "name": "Onappalayam",
+      "coords": [
+        76.86719,
+        11.00751
+      ]
+    },
+    {
+      "name": "Thondamuthur",
+      "coords": [
+        76.84485,
+        10.99405
+      ]
+    },
+    {
+      "name": "Karunya Nagar",
+      "coords": [
+        76.77294,
+        10.98996
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

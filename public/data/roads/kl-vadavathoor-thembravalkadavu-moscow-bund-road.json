@@ -1,0 +1,49 @@
+{
+  "id": "kl-vadavathoor-thembravalkadavu-moscow-bund-road",
+  "ref": "MDR",
+  "name": "Vadavathoor - Thembravalkadavu Moscow Bund Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kumaranalloor, Kerala",
+    "end": "Manarcadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaranalloor",
+      "Manarcadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.56001,
+        9.61323
+      ]
+    },
+    {
+      "name": "Manarcadu",
+      "coords": [
+        76.5704,
+        9.59173
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.56783,
+        9.58963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

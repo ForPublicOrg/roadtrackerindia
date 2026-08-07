@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-30c",
+  "ref": "MDR 30C",
+  "name": "Sidhauli–Mahmudabad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 30.1,
+  "route": {
+    "start": "Sidhauli, Uttar Pradesh",
+    "end": "Mahmudabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sidhauli",
+      "Mahmudabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sidhauli",
+      "coords": [
+        80.82243,
+        27.27344
+      ]
+    },
+    {
+      "name": "Mahmudabad",
+      "coords": [
+        81.12193,
+        27.30029
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

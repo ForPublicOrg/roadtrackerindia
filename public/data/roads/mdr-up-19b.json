@@ -1,0 +1,42 @@
+{
+  "id": "mdr-up-19b",
+  "ref": "MDR 19B",
+  "name": "Rath–Kalpi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 52.8,
+  "route": {
+    "start": "Rath, Uttar Pradesh",
+    "end": "Kalpi, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Rath",
+      "Kalpi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rath",
+      "coords": [
+        79.54325,
+        25.6884
+      ]
+    },
+    {
+      "name": "Kalpi",
+      "coords": [
+        79.71203,
+        26.09126
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

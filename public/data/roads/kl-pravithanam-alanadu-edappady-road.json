@@ -1,0 +1,42 @@
+{
+  "id": "kl-pravithanam-alanadu-edappady-road",
+  "ref": "MDR",
+  "name": "Pravithanam - Alanadu - Edappady Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Pala, Kerala",
+    "end": "Kottaramattom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pala",
+      "Kottaramattom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pala",
+      "coords": [
+        76.70357,
+        9.74367
+      ]
+    },
+    {
+      "name": "Kottaramattom",
+      "coords": [
+        76.71196,
+        9.70926
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

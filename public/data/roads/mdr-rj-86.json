@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-86",
+  "ref": "MDR 86",
+  "name": "Nadbai–Kherli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Nadbai, Rajasthan",
+    "end": "Kherli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Nadbai",
+      "Kherli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadbai",
+      "coords": [
+        77.27198,
+        27.14987
+      ]
+    },
+    {
+      "name": "Kherli",
+      "coords": [
+        77.20378,
+        27.21274
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

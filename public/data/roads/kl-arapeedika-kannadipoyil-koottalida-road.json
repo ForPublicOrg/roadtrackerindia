@@ -1,0 +1,43 @@
+{
+  "id": "kl-arapeedika-kannadipoyil-koottalida-road",
+  "ref": "MDR",
+  "name": "Arapeedika - Kannadipoyil - Koottalida Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Kootalida, Kerala",
+    "end": "Arapeedika, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kootalida",
+      "Balusseri",
+      "Arapeedika"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kootalida",
+      "coords": [
+        75.81442,
+        11.49689
+      ]
+    },
+    {
+      "name": "Balusseri",
+      "coords": [
+        75.84517,
+        11.47734
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

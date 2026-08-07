@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherunniyoor-kadavu-road",
+  "ref": "MDR",
+  "name": "Cherunniyoor - Kadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Varkala, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Varkala",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Varkala",
+      "coords": [
+        76.72514,
+        8.75966
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.75515,
+        8.72565
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kootickal-kavalai-cholathadom-road",
+  "ref": "MDR",
+  "name": "Kootickal - Kavalai - Cholathadom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Mundakkayam, Kerala",
+    "end": "Poonjar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundakkayam",
+      "Poonjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.88534,
+        9.58382
+      ]
+    },
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.85166,
+        9.60702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

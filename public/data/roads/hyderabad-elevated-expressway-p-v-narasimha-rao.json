@@ -1,0 +1,91 @@
+{
+  "id": "hyderabad-elevated-expressway-p-v-narasimha-rao",
+  "ref": "NH",
+  "name": "Hyderabad Elevated Expressway \"P.V. Narasimha Rao\"",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Mailardevpally, Telangana",
+    "end": "Masab Tank, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Mailardevpally",
+      "Budvel",
+      "Attapur",
+      "Mehdipatnam",
+      "Masab Tank"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mailardevpally",
+      "coords": [
+        78.42909,
+        17.31998
+      ]
+    },
+    {
+      "name": "Nawab Saheb Kunta",
+      "coords": [
+        78.42608,
+        17.33734
+      ]
+    },
+    {
+      "name": "Budvel",
+      "coords": [
+        78.41751,
+        17.34329
+      ]
+    },
+    {
+      "name": "Upperpally",
+      "coords": [
+        78.4175,
+        17.35109
+      ]
+    },
+    {
+      "name": "Attapur",
+      "coords": [
+        78.42917,
+        17.36893
+      ]
+    },
+    {
+      "name": "Gudimalkapur",
+      "coords": [
+        78.43075,
+        17.39153
+      ]
+    },
+    {
+      "name": "Mehdipatnam",
+      "coords": [
+        78.4336,
+        17.39524
+      ]
+    },
+    {
+      "name": "Masab Tank",
+      "coords": [
+        78.44365,
+        17.39834
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

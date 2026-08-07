@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-17",
+  "ref": "MDR 17",
+  "name": "Jat Colony–Sanchore District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 196.6,
+  "route": {
+    "start": "Jat Colony, Rajasthan",
+    "end": "Sanchore, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jat Colony",
+      "Chohtan",
+      "Sanchore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jat Colony",
+      "coords": [
+        71.39706,
+        25.67823
+      ]
+    },
+    {
+      "name": "Chohtan",
+      "coords": [
+        71.07708,
+        25.46692
+      ]
+    },
+    {
+      "name": "Sanchore",
+      "coords": [
+        71.77328,
+        24.75237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pallathumpara-nellithattu-kadumana-road",
+  "ref": "MDR",
+  "name": "Pallathumpara - Nellithattu - Kadumana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Mulleria, Kerala",
+    "end": "Odayamchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mulleria",
+      "Odayamchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.21168,
+        12.53418
+      ]
+    },
+    {
+      "name": "Odayamchal",
+      "coords": [
+        75.23692,
+        12.51188
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

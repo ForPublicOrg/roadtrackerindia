@@ -1,0 +1,73 @@
+{
+  "id": "sh-ka-4",
+  "ref": "SH 4",
+  "name": "Goranalli–Udgir State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.9,
+  "route": {
+    "start": "Goranalli, Karnataka",
+    "end": "Udgir, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Goranalli",
+      "Bidar",
+      "Chondi",
+      "Bhalki",
+      "Udgir"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Goranalli",
+      "coords": [
+        77.56823,
+        17.86026
+      ]
+    },
+    {
+      "name": "Old City",
+      "coords": [
+        77.52807,
+        17.90727
+      ]
+    },
+    {
+      "name": "Bidar",
+      "coords": [
+        77.51708,
+        17.91632
+      ]
+    },
+    {
+      "name": "Chondi",
+      "coords": [
+        77.43967,
+        17.9355
+      ]
+    },
+    {
+      "name": "Bhalki",
+      "coords": [
+        77.2631,
+        18.07074
+      ]
+    },
+    {
+      "name": "Udgir",
+      "coords": [
+        77.17178,
+        18.24802
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

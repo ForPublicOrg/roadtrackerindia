@@ -1,0 +1,42 @@
+{
+  "id": "kl-irikkur-blathur-road",
+  "ref": "MDR",
+  "name": "Irikkur - Blathur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.57685,
+        12.02072
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.54959,
+        11.98672
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

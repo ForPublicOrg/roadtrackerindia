@@ -1,0 +1,42 @@
+{
+  "id": "kl-ambalappuzha-karoor-road",
+  "ref": "MDR",
+  "name": "Ambalappuzha - Karoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.36024,
+        9.36997
+      ]
+    },
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.36771,
+        9.37927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

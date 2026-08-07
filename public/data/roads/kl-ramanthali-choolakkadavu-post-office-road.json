@@ -1,0 +1,43 @@
+{
+  "id": "kl-ramanthali-choolakkadavu-post-office-road",
+  "ref": "MDR",
+  "name": "Ramanthali Choolakkadavu Post Office Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Kunhimangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Payyanur",
+      "Kunhimangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.19206,
+        12.07411
+      ]
+    },
+    {
+      "name": "Kunhimangalam",
+      "coords": [
+        75.19014,
+        12.06057
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

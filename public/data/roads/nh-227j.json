@@ -1,0 +1,54 @@
+{
+  "id": "nh-227j",
+  "ref": "NH 227J",
+  "name": "Rahika–Mukhiyapatti Bazar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.6,
+  "route": {
+    "start": "Rahika, Bihar",
+    "end": "Mukhiyapatti Bazar, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Rahika",
+      "Benipatti",
+      "Mukhiyapatti Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rahika",
+      "coords": [
+        86.01521,
+        26.38354
+      ]
+    },
+    {
+      "name": "Benipatti",
+      "coords": [
+        85.89807,
+        26.44198
+      ]
+    },
+    {
+      "name": "Mukhiyapatti Bazar",
+      "coords": [
+        85.85813,
+        26.54276
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

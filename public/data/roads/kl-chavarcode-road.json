@@ -1,0 +1,49 @@
+{
+  "id": "kl-chavarcode-road",
+  "ref": "MDR",
+  "name": "Chavarcode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Chavarcode, Kerala",
+    "end": "Paripally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavarcode",
+      "Paripally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.73822,
+        8.78834
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.74574,
+        8.79477
+      ]
+    },
+    {
+      "name": "Chavarcode",
+      "coords": [
+        76.74928,
+        8.79192
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

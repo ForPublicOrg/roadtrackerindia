@@ -1,0 +1,101 @@
+{
+  "id": "nh-765",
+  "ref": "NH 765",
+  "name": "Purani Haveli–Peda Araveedu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 259.6,
+  "route": {
+    "start": "Purani Haveli, Telangana",
+    "end": "Peda Araveedu, Andhra Pradesh",
+    "states": [
+      "Telangana",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Purani Haveli",
+      "Hyderabad",
+      "Kadthal",
+      "Kalwakurthy",
+      "Srisailam",
+      "Doranala",
+      "Peda Araveedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Purani Haveli",
+      "coords": [
+        78.47619,
+        17.36866
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "coords": [
+        78.47421,
+        17.35978
+      ]
+    },
+    {
+      "name": "Kadthal",
+      "coords": [
+        78.50162,
+        16.98532
+      ]
+    },
+    {
+      "name": "Amangal",
+      "coords": [
+        78.53092,
+        16.85441
+      ]
+    },
+    {
+      "name": "Kalwakurthy",
+      "coords": [
+        78.51396,
+        16.70254
+      ]
+    },
+    {
+      "name": "Domalapenta",
+      "coords": [
+        78.89806,
+        16.10383
+      ]
+    },
+    {
+      "name": "Srisailam",
+      "coords": [
+        78.89485,
+        16.0904
+      ]
+    },
+    {
+      "name": "Doranala",
+      "coords": [
+        79.09787,
+        15.91673
+      ]
+    },
+    {
+      "name": "Peda Araveedu",
+      "coords": [
+        79.20192,
+        15.90147
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

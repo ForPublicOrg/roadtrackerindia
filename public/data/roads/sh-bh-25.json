@@ -1,0 +1,50 @@
+{
+  "id": "sh-bh-25",
+  "ref": "SH 25",
+  "name": "Banka–Bhagalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 44,
+  "route": {
+    "start": "Banka, Bihar",
+    "end": "Bhagalpur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Banka",
+      "Amarpur",
+      "Bhagalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Banka",
+      "coords": [
+        86.9236,
+        24.88538
+      ]
+    },
+    {
+      "name": "Amarpur",
+      "coords": [
+        86.90563,
+        25.04223
+      ]
+    },
+    {
+      "name": "Bhagalpur",
+      "coords": [
+        86.96104,
+        25.23728
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

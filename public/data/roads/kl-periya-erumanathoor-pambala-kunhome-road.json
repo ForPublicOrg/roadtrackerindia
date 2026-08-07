@@ -1,0 +1,42 @@
+{
+  "id": "kl-periya-erumanathoor-pambala-kunhome-road",
+  "ref": "MDR",
+  "name": "Periya - Erumanathoor - Pambala - Kunhome Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Kunithalamukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Kunithalamukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.84741,
+        11.77606
+      ]
+    },
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.85578,
+        11.82866
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

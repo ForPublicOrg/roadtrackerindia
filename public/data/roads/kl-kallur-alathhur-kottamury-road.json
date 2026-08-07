@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallur-alathhur-kottamury-road",
+  "ref": "MDR",
+  "name": "Kallur - Alathhur - Kottamury Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.27899,
+        10.24024
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.3201,
+        10.24756
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

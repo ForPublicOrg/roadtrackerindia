@@ -1,0 +1,42 @@
+{
+  "id": "kl-vaduthala-kumbickal-kidangoor-kummannoor-maridom-road",
+  "ref": "MDR",
+  "name": "Vaduthala - Kumbickal - Kidangoor - Kummannoor - Maridom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.61507,
+        9.68645
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.6094,
+        9.69198
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

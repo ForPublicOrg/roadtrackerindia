@@ -1,0 +1,50 @@
+{
+  "id": "kl-neyyatinkara-moolakonam-road",
+  "ref": "MDR",
+  "name": "Neyyatinkara - Moolakonam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Russelpuram, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Russelpuram",
+      "Balaramapuram",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Russelpuram",
+      "coords": [
+        77.07031,
+        8.46605
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.07572,
+        8.43047
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.08505,
+        8.40822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-arunasserry-kattambak-road",
+  "ref": "MDR",
+  "name": "Arunasserry - Kattambak Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Kaduthuruthy, Kerala",
+    "end": "Kuruppanthara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaduthuruthy",
+      "Kuruppanthara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.51805,
+        9.77763
+      ]
+    },
+    {
+      "name": "Kuruppanthara",
+      "coords": [
+        76.51528,
+        9.7708
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

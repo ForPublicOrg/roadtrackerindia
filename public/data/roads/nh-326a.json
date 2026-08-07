@@ -1,0 +1,62 @@
+{
+  "id": "nh-326a",
+  "ref": "NH 326A",
+  "name": "Badagarh–Narasannapeta National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 148.4,
+  "route": {
+    "start": "Badagarh, Odisha",
+    "end": "Narasannapeta, Andhra Pradesh",
+    "states": [
+      "Odisha",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Badagarh",
+      "Pathapatnam",
+      "Narasannapeta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badagarh",
+      "coords": [
+        84.27024,
+        19.4351
+      ]
+    },
+    {
+      "name": "Pathapatnam",
+      "coords": [
+        84.08758,
+        18.74648
+      ]
+    },
+    {
+      "name": "Saravakota",
+      "coords": [
+        84.05015,
+        18.59001
+      ]
+    },
+    {
+      "name": "Narasannapeta",
+      "coords": [
+        84.05383,
+        18.42573
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

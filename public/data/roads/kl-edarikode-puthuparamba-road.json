@@ -1,0 +1,58 @@
+{
+  "id": "kl-edarikode-puthuparamba-road",
+  "ref": "MDR",
+  "name": "Edarikode Puthuparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "College Padi, Kerala",
+    "end": "Edarikkod, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "College Padi",
+      "Kottakkal",
+      "Vengara",
+      "Edarikkod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "College Padi",
+      "coords": [
+        75.98683,
+        10.99716
+      ]
+    },
+    {
+      "name": "Edarikkod",
+      "coords": [
+        75.98047,
+        11.00143
+      ]
+    },
+    {
+      "name": "Vengara",
+      "coords": [
+        75.97385,
+        11.02042
+      ]
+    },
+    {
+      "name": "Edarikkod",
+      "coords": [
+        75.96777,
+        11.02331
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

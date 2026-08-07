@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-106e",
+  "ref": "SH 106E",
+  "name": "Mau–Deva State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28.3,
+  "route": {
+    "start": "Mau, Uttar Pradesh",
+    "end": "Deva, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Mau",
+      "Deva"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mau",
+      "coords": [
+        83.66949,
+        25.79616
+      ]
+    },
+    {
+      "name": "Deva",
+      "coords": [
+        83.41166,
+        25.81429
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherupuzha-muthuvam-road",
+  "ref": "MDR",
+  "name": "Cherupuzha - Muthuvam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Vazhakundam, Kerala",
+    "end": "Cherupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhakundam",
+      "Cherupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.42695,
+        12.23922
+      ]
+    },
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.37356,
+        12.25517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

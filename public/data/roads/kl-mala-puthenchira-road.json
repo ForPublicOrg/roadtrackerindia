@@ -1,0 +1,42 @@
+{
+  "id": "kl-mala-puthenchira-road",
+  "ref": "MDR",
+  "name": "Mala - Puthenchira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.26254,
+        10.24442
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.24678,
+        10.27339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

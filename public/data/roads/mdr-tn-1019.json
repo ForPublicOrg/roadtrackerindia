@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-1019",
+  "ref": "MDR 1019",
+  "name": "Kolathur–Kathirvedu District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kolathur, Tamil Nadu",
+    "end": "Kathirvedu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kolathur",
+      "Madhavaram",
+      "Puthagaram",
+      "Kathirvedu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolathur",
+      "coords": [
+        80.2131,
+        13.13056
+      ]
+    },
+    {
+      "name": "Puthagaram",
+      "coords": [
+        80.20574,
+        13.14016
+      ]
+    },
+    {
+      "name": "Kathirvedu",
+      "coords": [
+        80.20418,
+        13.14635
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

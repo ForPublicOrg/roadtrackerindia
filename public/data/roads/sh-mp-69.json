@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-69",
+  "ref": "SH 69",
+  "name": "Barwani–Alirajpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.3,
+  "route": {
+    "start": "Barwani, Madhya Pradesh",
+    "end": "Alirajpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Barwani",
+      "Kukshi",
+      "Alirajpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barwani",
+      "coords": [
+        74.92318,
+        22.02959
+      ]
+    },
+    {
+      "name": "Kukshi",
+      "coords": [
+        74.75618,
+        22.20567
+      ]
+    },
+    {
+      "name": "Alirajpur",
+      "coords": [
+        74.3606,
+        22.30526
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

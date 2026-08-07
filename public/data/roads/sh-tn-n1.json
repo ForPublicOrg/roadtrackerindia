@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-n1",
+  "ref": "SH-N 1",
+  "name": "Cheran Nagar–Chinniyampalayam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15.1,
+  "route": {
+    "start": "Cheran Nagar, Tamil Nadu",
+    "end": "Chinniyampalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Cheran Nagar",
+      "Chinniyampalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheran Nagar",
+      "coords": [
+        77.01654,
+        10.70714
+      ]
+    },
+    {
+      "name": "Chinniyampalayam",
+      "coords": [
+        77.07202,
+        10.66679
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

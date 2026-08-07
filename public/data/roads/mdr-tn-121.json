@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-121",
+  "ref": "MDR 121",
+  "name": "Harur–Uthangarai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Harur, Tamil Nadu",
+    "end": "Uthangarai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Harur",
+      "Uthangarai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Harur",
+      "coords": [
+        78.478,
+        12.06024
+      ]
+    },
+    {
+      "name": "Uthangarai",
+      "coords": [
+        78.48381,
+        12.04462
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-147",
+  "ref": "SH 147",
+  "name": "Pathardi–Beed State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 60.9,
+  "route": {
+    "start": "Pathardi, Maharashtra",
+    "end": "Beed, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pathardi",
+      "Shirur Kasar",
+      "Beed"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pathardi",
+      "coords": [
+        75.17393,
+        19.17278
+      ]
+    },
+    {
+      "name": "Shirur Kasar",
+      "coords": [
+        75.42731,
+        19.0589
+      ]
+    },
+    {
+      "name": "Beed",
+      "coords": [
+        75.63421,
+        18.98839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

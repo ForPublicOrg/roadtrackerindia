@@ -1,0 +1,42 @@
+{
+  "id": "kl-match-factory-cheliya-kanhilassery-road",
+  "ref": "MDR",
+  "name": "Match Factory - Cheliya - Kanhilassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Koyilandy, Kerala",
+    "end": "Atholi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koyilandy",
+      "Atholi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koyilandy",
+      "coords": [
+        75.72192,
+        11.44449
+      ]
+    },
+    {
+      "name": "Atholi",
+      "coords": [
+        75.73428,
+        11.4068
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

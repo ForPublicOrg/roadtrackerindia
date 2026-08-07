@@ -1,0 +1,49 @@
+{
+  "id": "sh-gj-75",
+  "ref": "SH 75",
+  "name": "Anand–Kanjari State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 10.3,
+  "route": {
+    "start": "Anand, Gujarat",
+    "end": "Kanjari, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Anand",
+      "Kanjari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anand",
+      "coords": [
+        72.95811,
+        22.54451
+      ]
+    },
+    {
+      "name": "Boriavi",
+      "coords": [
+        72.93082,
+        22.60396
+      ]
+    },
+    {
+      "name": "Kanjari",
+      "coords": [
+        72.92471,
+        22.61289
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-360",
+  "ref": "SH 360",
+  "name": "Pauni–Tirora State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87.6,
+  "route": {
+    "start": "Pauni, Maharashtra",
+    "end": "Tirora, Madhya Pradesh",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pauni",
+      "Lakhani",
+      "Tirora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pauni",
+      "coords": [
+        79.70464,
+        20.93731
+      ]
+    },
+    {
+      "name": "Lakhani",
+      "coords": [
+        79.83218,
+        21.06884
+      ]
+    },
+    {
+      "name": "Tirora",
+      "coords": [
+        79.93265,
+        21.40775
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-hp-39",
+  "ref": "SH 39",
+  "name": "Palampur–Anu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58.3,
+  "route": {
+    "start": "Palampur, Himachal Pradesh",
+    "end": "Anu, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Palampur",
+      "Tira Sujanpur",
+      "Hamirpur",
+      "Anu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palampur",
+      "coords": [
+        76.51062,
+        32.08303
+      ]
+    },
+    {
+      "name": "Tira Sujanpur",
+      "coords": [
+        76.50413,
+        31.83729
+      ]
+    },
+    {
+      "name": "Hamirpur",
+      "coords": [
+        76.52017,
+        31.69966
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

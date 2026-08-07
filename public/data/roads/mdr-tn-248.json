@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-248",
+  "ref": "MDR 248",
+  "name": "Karambakudi–Mannargudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 38.9,
+  "route": {
+    "start": "Karambakudi, Tamil Nadu",
+    "end": "Mannargudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karambakudi",
+      "Orathanadu",
+      "Mannargudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karambakudi",
+      "coords": [
+        79.16077,
+        10.50525
+      ]
+    },
+    {
+      "name": "Orathanadu",
+      "coords": [
+        79.2527,
+        10.62658
+      ]
+    },
+    {
+      "name": "Mannargudi",
+      "coords": [
+        79.41445,
+        10.6622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

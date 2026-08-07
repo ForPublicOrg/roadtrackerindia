@@ -1,0 +1,55 @@
+{
+  "id": "nh-218",
+  "ref": "NH 218",
+  "name": "Dhanbad–Purulia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 61.9,
+  "route": {
+    "start": "Dhanbad, Jharkhand",
+    "end": "Purulia, West Bengal",
+    "states": [
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Dhanbad",
+      "Pathardih",
+      "Purulia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanbad",
+      "coords": [
+        86.41902,
+        23.78829
+      ]
+    },
+    {
+      "name": "Jealgora",
+      "coords": [
+        86.41506,
+        23.70807
+      ]
+    },
+    {
+      "name": "Purulia",
+      "coords": [
+        86.35387,
+        23.3375
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

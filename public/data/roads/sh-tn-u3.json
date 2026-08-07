@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-u3",
+  "ref": "SH-U 3",
+  "name": "Poonamallee–Kanchipuram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 62.1,
+  "route": {
+    "start": "Poonamallee, Tamil Nadu",
+    "end": "Kanchipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Poonamallee",
+      "Sriperumbudur",
+      "Kanchipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poonamallee",
+      "coords": [
+        80.11177,
+        13.04628
+      ]
+    },
+    {
+      "name": "Sriperumbudur",
+      "coords": [
+        79.94545,
+        12.9669
+      ]
+    },
+    {
+      "name": "Kanchipuram",
+      "coords": [
+        79.58933,
+        12.89257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

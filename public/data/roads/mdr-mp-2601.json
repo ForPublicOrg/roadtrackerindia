@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2601",
+  "ref": "MDR 2601",
+  "name": "Nagda–Jharda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 71.5,
+  "route": {
+    "start": "Nagda, Madhya Pradesh",
+    "end": "Jharda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Nagda",
+      "Jharda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagda",
+      "coords": [
+        75.50169,
+        23.57457
+      ]
+    },
+    {
+      "name": "Jharda",
+      "coords": [
+        75.65736,
+        23.59521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

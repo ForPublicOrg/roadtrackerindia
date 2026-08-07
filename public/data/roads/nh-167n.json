@@ -1,0 +1,63 @@
+{
+  "id": "nh-167n",
+  "ref": "NH 167N",
+  "name": "Mahbubnagar–Kamatana National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 139.5,
+  "route": {
+    "start": "Mahbubnagar, Telangana",
+    "end": "Kamatana, Karnataka",
+    "states": [
+      "Telangana",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Mahbubnagar",
+      "Tanduru",
+      "Chincholi",
+      "Kamatana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahbubnagar",
+      "coords": [
+        77.98792,
+        16.74618
+      ]
+    },
+    {
+      "name": "Tanduru",
+      "coords": [
+        77.5882,
+        17.25646
+      ]
+    },
+    {
+      "name": "Chincholi",
+      "coords": [
+        77.42042,
+        17.46154
+      ]
+    },
+    {
+      "name": "Kamatana",
+      "coords": [
+        77.38315,
+        17.71948
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

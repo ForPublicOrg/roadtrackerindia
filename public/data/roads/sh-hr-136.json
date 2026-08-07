@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-136",
+  "ref": "SH 136",
+  "name": "Farrukhnagar–Bahadurgarh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39.1,
+  "route": {
+    "start": "Farrukhnagar, Haryana",
+    "end": "Bahadurgarh, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Farrukhnagar",
+      "Sector 99A",
+      "Bahadurgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Farrukhnagar",
+      "coords": [
+        76.87706,
+        28.50113
+      ]
+    },
+    {
+      "name": "Sector 99A",
+      "coords": [
+        76.92202,
+        28.47328
+      ]
+    },
+    {
+      "name": "Bahadurgarh",
+      "coords": [
+        76.92578,
+        28.68687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

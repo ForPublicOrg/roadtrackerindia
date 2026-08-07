@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2645",
+  "ref": "ODR 2645",
+  "name": "Ponneri–Minjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Ponneri, Tamil Nadu",
+    "end": "Minjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ponneri",
+      "Minjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponneri",
+      "coords": [
+        80.20181,
+        13.32057
+      ]
+    },
+    {
+      "name": "Minjur",
+      "coords": [
+        80.22726,
+        13.32517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-paipra-nirappu-road",
+  "ref": "MDR",
+  "name": "Paipra - Nirappu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Vazhappilly, Kerala",
+    "end": "Velloorkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhappilly",
+      "Velloorkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.56346,
+        10.02015
+      ]
+    },
+    {
+      "name": "Velloorkunnam",
+      "coords": [
+        76.57825,
+        10.02763
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

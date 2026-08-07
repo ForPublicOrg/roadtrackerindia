@@ -1,0 +1,42 @@
+{
+  "id": "kl-thodiyoor-patharam-road",
+  "ref": "MDR",
+  "name": "Thodiyoor - Patharam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Nooranad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Nooranad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.60087,
+        9.08922
+      ]
+    },
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.60205,
+        9.07416
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

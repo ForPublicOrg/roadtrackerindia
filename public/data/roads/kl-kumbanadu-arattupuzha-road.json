@@ -1,0 +1,43 @@
+{
+  "id": "kl-kumbanadu-arattupuzha-road",
+  "ref": "MDR",
+  "name": "Kumbanadu - Arattupuzha road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Chengannur",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.64477,
+        9.32861
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.65679,
+        9.36839
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

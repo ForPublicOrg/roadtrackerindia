@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-113",
+  "ref": "MDR 113",
+  "name": "Jasol–Balotra District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.8,
+  "route": {
+    "start": "Jasol, Rajasthan",
+    "end": "Balotra, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jasol",
+      "Balotra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jasol",
+      "coords": [
+        72.20833,
+        25.8208
+      ]
+    },
+    {
+      "name": "Balotra",
+      "coords": [
+        72.0478,
+        25.79146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

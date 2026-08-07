@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-u15",
+  "ref": "SH-U 15",
+  "name": "Red Hills–Sholavaram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Red Hills, Tamil Nadu",
+    "end": "Sholavaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Red Hills",
+      "Sholavaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Red Hills",
+      "coords": [
+        80.19206,
+        13.18424
+      ]
+    },
+    {
+      "name": "Sholavaram",
+      "coords": [
+        80.16153,
+        13.2374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

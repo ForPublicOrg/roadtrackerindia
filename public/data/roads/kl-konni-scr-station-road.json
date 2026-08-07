@@ -1,0 +1,42 @@
+{
+  "id": "kl-konni-scr-station-road",
+  "ref": "MDR",
+  "name": "Konni - SCR Station Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Konni, Kerala",
+    "end": "Kumbazha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Konni",
+      "Kumbazha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konni",
+      "coords": [
+        76.85414,
+        9.23426
+      ]
+    },
+    {
+      "name": "Kumbazha",
+      "coords": [
+        76.86877,
+        9.23724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

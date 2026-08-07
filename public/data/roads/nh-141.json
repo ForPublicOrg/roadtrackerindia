@@ -1,0 +1,46 @@
+{
+  "id": "nh-141",
+  "ref": "NH 141",
+  "name": "Kandla Port–Gandhidham National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 14.7,
+  "route": {
+    "start": "Kandla Port, Gujarat",
+    "end": "Gandhidham, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Kandla Port",
+      "Gandhidham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kandla Port",
+      "coords": [
+        70.21759,
+        23.00687
+      ]
+    },
+    {
+      "name": "Gandhidham",
+      "coords": [
+        70.14538,
+        23.08279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

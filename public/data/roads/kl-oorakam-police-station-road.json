@@ -1,0 +1,42 @@
+{
+  "id": "kl-oorakam-police-station-road",
+  "ref": "MDR",
+  "name": "Oorakam Police Station Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.20995,
+        10.43584
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.21667,
+        10.43191
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-parakkadavu-puliyavu-jalheyeri-road",
+  "ref": "MDR",
+  "name": "Parakkadavu Puliyavu Jalheyeri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Peringatoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Peringatoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.66608,
+        11.70478
+      ]
+    },
+    {
+      "name": "Peringatoor",
+      "coords": [
+        75.63834,
+        11.72712
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

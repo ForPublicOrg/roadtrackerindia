@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-126w",
+  "ref": "SH 126W",
+  "name": "Shikohabad–Bewar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.7,
+  "route": {
+    "start": "Shikohabad, Uttar Pradesh",
+    "end": "Bewar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Shikohabad",
+      "Karhal",
+      "Bewar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shikohabad",
+      "coords": [
+        78.66726,
+        27.06692
+      ]
+    },
+    {
+      "name": "Karhal",
+      "coords": [
+        78.94234,
+        27.00385
+      ]
+    },
+    {
+      "name": "Bewar",
+      "coords": [
+        79.25033,
+        27.01035
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

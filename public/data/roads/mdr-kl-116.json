@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-116",
+  "ref": "MDR 116",
+  "name": "Perinthalmanna–Melattur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.1,
+  "route": {
+    "start": "Perinthalmanna, Kerala",
+    "end": "Melattur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perinthalmanna",
+      "Melattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perinthalmanna",
+      "coords": [
+        76.17596,
+        11.01885
+      ]
+    },
+    {
+      "name": "Melattur",
+      "coords": [
+        76.23128,
+        11.02102
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

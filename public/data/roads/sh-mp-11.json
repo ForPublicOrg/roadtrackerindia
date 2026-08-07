@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-11",
+  "ref": "SH 11",
+  "name": "Bina Etawa–Ashoknagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 85,
+  "route": {
+    "start": "Bina Etawa, Madhya Pradesh",
+    "end": "Ashoknagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bina Etawa",
+      "Mungaoli",
+      "Ashoknagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bina Etawa",
+      "coords": [
+        78.20754,
+        24.18728
+      ]
+    },
+    {
+      "name": "Mungaoli",
+      "coords": [
+        78.09798,
+        24.41466
+      ]
+    },
+    {
+      "name": "Ashoknagar",
+      "coords": [
+        77.74019,
+        24.57652
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

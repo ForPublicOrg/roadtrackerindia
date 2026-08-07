@@ -1,0 +1,42 @@
+{
+  "id": "ap-peapully-pattikonda-road",
+  "ref": "SH",
+  "name": "Peapully - Pattikonda Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 32,
+  "route": {
+    "start": "Pattikonda, Andhra Pradesh",
+    "end": "Peapully, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Pattikonda",
+      "Peapully"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattikonda",
+      "coords": [
+        77.50831,
+        15.39128
+      ]
+    },
+    {
+      "name": "Peapully",
+      "coords": [
+        77.73052,
+        15.23704
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

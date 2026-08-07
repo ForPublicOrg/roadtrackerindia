@@ -1,0 +1,57 @@
+{
+  "id": "odr-tn-8787",
+  "ref": "ODR 8787",
+  "name": "Alapakkam–Mahindra World City District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Alapakkam, Tamil Nadu",
+    "end": "Mahindra World City, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Alapakkam",
+      "Chengalpattu",
+      "Mahindra World City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alapakkam",
+      "coords": [
+        80.00701,
+        12.67805
+      ]
+    },
+    {
+      "name": "Chengalpattu",
+      "coords": [
+        80.00461,
+        12.68418
+      ]
+    },
+    {
+      "name": "Gokulapuram",
+      "coords": [
+        80.00372,
+        12.69162
+      ]
+    },
+    {
+      "name": "Mahindra World City",
+      "coords": [
+        80.02394,
+        12.7309
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

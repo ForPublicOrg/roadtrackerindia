@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilakkupara-thadikkadu-road",
+  "ref": "MDR",
+  "name": "Vilakkupara - Thadikkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.8,
+  "route": {
+    "start": "Kulathupuzha, Kerala",
+    "end": "Anchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kulathupuzha",
+      "Anchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kulathupuzha",
+      "coords": [
+        76.98748,
+        8.95602
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.91594,
+        8.95871
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sh-as-17",
+  "ref": "SH 17",
+  "name": "Missa Cantonment–MOINAPARA State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 315.5,
+  "route": {
+    "start": "Missa Cantonment, Assam",
+    "end": "MOINAPARA, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Missa Cantonment",
+      "Raha",
+      "Hamren",
+      "Hojai",
+      "Golaghat",
+      "MOINAPARA"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Missa Cantonment",
+      "coords": [
+        92.91962,
+        26.45863
+      ]
+    },
+    {
+      "name": "Raha",
+      "coords": [
+        92.5101,
+        26.22289
+      ]
+    },
+    {
+      "name": "Hamren",
+      "coords": [
+        92.57191,
+        25.84444
+      ]
+    },
+    {
+      "name": "Hojai",
+      "coords": [
+        92.84729,
+        26.00165
+      ]
+    },
+    {
+      "name": "Daboka",
+      "coords": [
+        92.89945,
+        26.06442
+      ]
+    },
+    {
+      "name": "Golaghat",
+      "coords": [
+        93.92493,
+        26.45796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

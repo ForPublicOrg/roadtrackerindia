@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-34a",
+  "ref": "SH 34A",
+  "name": "Uniara–Hindoli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 68.6,
+  "route": {
+    "start": "Uniara, Rajasthan",
+    "end": "Hindoli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Uniara",
+      "Nagar Fort",
+      "Dooni",
+      "Hindoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uniara",
+      "coords": [
+        75.94018,
+        25.86985
+      ]
+    },
+    {
+      "name": "Nagar Fort",
+      "coords": [
+        75.82776,
+        25.90052
+      ]
+    },
+    {
+      "name": "Dooni",
+      "coords": [
+        75.59775,
+        25.87013
+      ]
+    },
+    {
+      "name": "Hindoli",
+      "coords": [
+        75.61206,
+        25.69674
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-arpookara-ammenchery-road",
+  "ref": "MDR",
+  "name": "Arpookara Ammenchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Kumaranalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Kumaranalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.53205,
+        9.6406
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.52012,
+        9.63069
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

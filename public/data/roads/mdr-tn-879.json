@@ -1,0 +1,64 @@
+{
+  "id": "mdr-tn-879",
+  "ref": "MDR 879",
+  "name": "Chinniampalayam–Somanur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.4,
+  "route": {
+    "start": "Chinniampalayam, Tamil Nadu",
+    "end": "Somanur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Chinniampalayam",
+      "Sulur",
+      "Somanur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chinniampalayam",
+      "coords": [
+        77.06555,
+        11.05527
+      ]
+    },
+    {
+      "name": "Irugur",
+      "coords": [
+        77.07862,
+        11.03498
+      ]
+    },
+    {
+      "name": "Sulur",
+      "coords": [
+        77.1131,
+        11.0336
+      ]
+    },
+    {
+      "name": "Sangothipalayam",
+      "coords": [
+        77.14789,
+        11.06647
+      ]
+    },
+    {
+      "name": "Somanur",
+      "coords": [
+        77.18869,
+        11.08354
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

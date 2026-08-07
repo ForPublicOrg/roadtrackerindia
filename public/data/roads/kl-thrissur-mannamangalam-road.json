@@ -1,0 +1,43 @@
+{
+  "id": "kl-thrissur-mannamangalam-road",
+  "ref": "MDR",
+  "name": "Thrissur - Mannamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "Nadathara, Kerala",
+    "end": "Chelakkottukara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadathara",
+      "Thrissur",
+      "Chelakkottukara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.34049,
+        10.49559
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.23412,
+        10.51667
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

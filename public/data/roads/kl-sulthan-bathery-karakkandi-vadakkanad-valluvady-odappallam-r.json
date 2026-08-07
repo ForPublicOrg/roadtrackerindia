@@ -1,0 +1,42 @@
+{
+  "id": "kl-sulthan-bathery-karakkandi-vadakkanad-valluvady-odappallam-r",
+  "ref": "MDR",
+  "name": "Sulthan Bathery - Karakkandi - Vadakkanad - Valluvady - Odappallam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.26917,
+        11.68318
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.28603,
+        11.69491
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

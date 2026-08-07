@@ -1,0 +1,42 @@
+{
+  "id": "kl-nayabazar-pratap-nagar-road",
+  "ref": "MDR",
+  "name": "Nayabazar - Pratap Nagar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.92184,
+        12.66118
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.93536,
+        12.66241
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

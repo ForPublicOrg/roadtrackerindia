@@ -1,0 +1,42 @@
+{
+  "id": "kl-manchavilakam-road",
+  "ref": "MDR",
+  "name": "Manchavilakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Parassala, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Parassala",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Parassala",
+      "coords": [
+        77.16154,
+        8.39008
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.10539,
+        8.40247
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

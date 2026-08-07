@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-61",
+  "ref": "MDR 61",
+  "name": "Dhanbad–Kasturba Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Dhanbad, Jharkhand",
+    "end": "Kasturba Nagar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dhanbad",
+      "New Delhi Colony",
+      "Kasturba Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanbad",
+      "coords": [
+        86.42738,
+        23.78623
+      ]
+    },
+    {
+      "name": "Kasturba Nagar",
+      "coords": [
+        86.44019,
+        23.7998
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "nh-919",
+  "ref": "NH 919",
+  "name": "Rewari–Palwal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75.9,
+  "route": {
+    "start": "Rewari, Haryana",
+    "end": "Palwal, Haryana",
+    "states": [
+      "Haryana",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rewari",
+      "Bhiwadi",
+      "Tauru",
+      "Sohna",
+      "Palwal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewari",
+      "coords": [
+        76.63715,
+        28.19948
+      ]
+    },
+    {
+      "name": "Dharuhera",
+      "coords": [
+        76.79144,
+        28.20563
+      ]
+    },
+    {
+      "name": "Bhiwadi",
+      "coords": [
+        76.83172,
+        28.21055
+      ]
+    },
+    {
+      "name": "Tauru",
+      "coords": [
+        76.95569,
+        28.20293
+      ]
+    },
+    {
+      "name": "Sohna",
+      "coords": [
+        77.06558,
+        28.24415
+      ]
+    },
+    {
+      "name": "Palwal",
+      "coords": [
+        77.3289,
+        28.1366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "kl-pachalloor-venganoor-road",
+  "ref": "MDR",
+  "name": "Pachalloor - Venganoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.9,
+  "route": {
+    "start": "Venganoor, Kerala",
+    "end": "Thiruvallam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venganoor",
+      "Kalliyoor",
+      "Thiruvallam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.00341,
+        8.39643
+      ]
+    },
+    {
+      "name": "Kovalam",
+      "coords": [
+        76.99495,
+        8.40187
+      ]
+    },
+    {
+      "name": "Kalliyoor",
+      "coords": [
+        76.98645,
+        8.41717
+      ]
+    },
+    {
+      "name": "Vellayani",
+      "coords": [
+        76.97207,
+        8.42755
+      ]
+    },
+    {
+      "name": "Thiruvallam",
+      "coords": [
+        76.96603,
+        8.4313
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

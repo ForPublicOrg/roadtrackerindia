@@ -1,0 +1,42 @@
+{
+  "id": "kl-mannoor-ponjassery-road",
+  "ref": "MDR",
+  "name": "Mannoor - Ponjassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.5,
+  "route": {
+    "start": "Vazhappilly, Kerala",
+    "end": "Perumbavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhappilly",
+      "Perumbavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.53359,
+        10.04532
+      ]
+    },
+    {
+      "name": "Perumbavoor",
+      "coords": [
+        76.46041,
+        10.08694
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

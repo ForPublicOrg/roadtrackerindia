@@ -1,0 +1,42 @@
+{
+  "id": "kl-anaviratty-mankadavu-1000-acre-road",
+  "ref": "MDR",
+  "name": "Anaviratty - Mankadavu - 1000 Acre Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Adimali, Kerala",
+    "end": "Anachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Adimali",
+      "Anachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Adimali",
+      "coords": [
+        76.99495,
+        9.9923
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.00971,
+        10.00357
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

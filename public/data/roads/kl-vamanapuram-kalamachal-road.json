@@ -1,0 +1,42 @@
+{
+  "id": "kl-vamanapuram-kalamachal-road",
+  "ref": "MDR",
+  "name": "Vamanapuram - Kalamachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Attingal, Kerala",
+    "end": "Venjaramoodu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Attingal",
+      "Venjaramoodu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Attingal",
+      "coords": [
+        76.85175,
+        8.69096
+      ]
+    },
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.89862,
+        8.72098
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

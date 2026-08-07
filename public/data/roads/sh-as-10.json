@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-10",
+  "ref": "SH 10",
+  "name": "Udalguri–Barama State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 99.5,
+  "route": {
+    "start": "Udalguri, Assam",
+    "end": "Barama, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Udalguri",
+      "Tamulpur",
+      "Barama"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Udalguri",
+      "coords": [
+        92.12754,
+        26.75502
+      ]
+    },
+    {
+      "name": "Tamulpur",
+      "coords": [
+        91.57213,
+        26.62029
+      ]
+    },
+    {
+      "name": "Barama",
+      "coords": [
+        91.35463,
+        26.52455
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

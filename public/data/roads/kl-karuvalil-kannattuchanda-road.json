@@ -1,0 +1,42 @@
+{
+  "id": "kl-karuvalil-kannattuchanda-road",
+  "ref": "MDR",
+  "name": "Karuvalil - Kannattuchanda Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.5714,
+        9.23009
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.57777,
+        9.24959
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

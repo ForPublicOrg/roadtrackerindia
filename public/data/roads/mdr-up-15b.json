@@ -1,0 +1,50 @@
+{
+  "id": "mdr-up-15b",
+  "ref": "MDR 15B",
+  "name": "Rath–Mahoba District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50.7,
+  "route": {
+    "start": "Rath, Uttar Pradesh",
+    "end": "Mahoba, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Rath",
+      "Charkhari",
+      "Mahoba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rath",
+      "coords": [
+        79.79741,
+        25.66235
+      ]
+    },
+    {
+      "name": "Charkhari",
+      "coords": [
+        79.74346,
+        25.39836
+      ]
+    },
+    {
+      "name": "Mahoba",
+      "coords": [
+        79.86886,
+        25.29148
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

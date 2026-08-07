@@ -1,0 +1,42 @@
+{
+  "id": "kl-azhikode-chamakkala-road",
+  "ref": "MDR",
+  "name": "Azhikode Chamakkala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.8,
+  "route": {
+    "start": "Valiyapanikkan Thuruth, Kerala",
+    "end": "Thriprayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyapanikkan Thuruth",
+      "Thriprayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.1738,
+        10.18893
+      ]
+    },
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.11263,
+        10.35222
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

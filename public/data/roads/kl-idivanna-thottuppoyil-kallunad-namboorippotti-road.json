@@ -1,0 +1,42 @@
+{
+  "id": "kl-idivanna-thottuppoyil-kallunad-namboorippotti-road",
+  "ref": "MDR",
+  "name": "Idivanna - Thottuppoyil - Kallunad - Namboorippotti Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Nilambur, Kerala",
+    "end": "Wandoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nilambur",
+      "Wandoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.2143,
+        11.33031
+      ]
+    },
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.19321,
+        11.32614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

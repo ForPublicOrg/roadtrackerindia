@@ -1,0 +1,43 @@
+{
+  "id": "kl-chengannur-kidangannoor-road",
+  "ref": "MDR",
+  "name": "Chengannur - Kidangannoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Angadikkal, Kerala",
+    "end": "Kozhencherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angadikkal",
+      "Chengannur",
+      "Kozhencherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.62256,
+        9.31168
+      ]
+    },
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.67622,
+        9.29349
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

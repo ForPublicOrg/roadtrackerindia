@@ -1,0 +1,77 @@
+{
+  "id": "nh-340c",
+  "ref": "NH 340C",
+  "name": "Ram Nagar–Doranala National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 132.1,
+  "route": {
+    "start": "Ram Nagar, Andhra Pradesh",
+    "end": "Doranala, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Ram Nagar",
+      "Kurnool",
+      "Nandikotkur",
+      "Atmakuru ( K )",
+      "Doranala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ram Nagar",
+      "coords": [
+        78.05193,
+        15.79792
+      ]
+    },
+    {
+      "name": "Nandikotkur",
+      "coords": [
+        78.28299,
+        15.85309
+      ]
+    },
+    {
+      "name": "Jupadu Bungalow",
+      "coords": [
+        78.37999,
+        15.86625
+      ]
+    },
+    {
+      "name": "Pamulapadu",
+      "coords": [
+        78.49261,
+        15.84093
+      ]
+    },
+    {
+      "name": "Atmakuru ( K )",
+      "coords": [
+        78.58408,
+        15.87909
+      ]
+    },
+    {
+      "name": "Doranala",
+      "coords": [
+        79.09095,
+        15.90749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

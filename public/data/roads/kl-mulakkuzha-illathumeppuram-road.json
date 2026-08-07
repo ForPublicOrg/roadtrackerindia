@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulakkuzha-illathumeppuram-road",
+  "ref": "MDR",
+  "name": "Mulakkuzha - Illathumeppuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Angadikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Angadikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.6291,
+        9.24403
+      ]
+    },
+    {
+      "name": "Angadikkal",
+      "coords": [
+        76.64424,
+        9.2905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

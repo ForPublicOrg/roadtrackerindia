@@ -1,0 +1,70 @@
+{
+  "id": "nh-179a",
+  "ref": "NH 179A",
+  "name": "Kamarajar Nagar Colony–Vaniyambadi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 133.2,
+  "route": {
+    "start": "Kamarajar Nagar Colony, Tamil Nadu",
+    "end": "Vaniyambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kamarajar Nagar Colony",
+      "Salem",
+      "Harur",
+      "Uthangarai",
+      "Vaniyambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kamarajar Nagar Colony",
+      "coords": [
+        78.20255,
+        11.65674
+      ]
+    },
+    {
+      "name": "Harur",
+      "coords": [
+        78.47683,
+        12.05527
+      ]
+    },
+    {
+      "name": "Uthangarai",
+      "coords": [
+        78.53492,
+        12.26303
+      ]
+    },
+    {
+      "name": "Tirupattur",
+      "coords": [
+        78.56448,
+        12.48952
+      ]
+    },
+    {
+      "name": "Vaniyambadi",
+      "coords": [
+        78.6087,
+        12.65947
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

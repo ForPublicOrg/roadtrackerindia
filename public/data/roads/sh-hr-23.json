@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-23",
+  "ref": "SH 23",
+  "name": "Ellenabad–Sirsa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58,
+  "route": {
+    "start": "Ellenabad, Haryana",
+    "end": "Sirsa, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Ellenabad",
+      "Sirsa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ellenabad",
+      "coords": [
+        74.61042,
+        29.51132
+      ]
+    },
+    {
+      "name": "Sirsa",
+      "coords": [
+        75.03619,
+        29.53295
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

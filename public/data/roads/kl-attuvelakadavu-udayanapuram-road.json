@@ -1,0 +1,43 @@
+{
+  "id": "kl-attuvelakadavu-udayanapuram-road",
+  "ref": "MDR",
+  "name": "Attuvelakadavu-Udayanapuram road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Arattukulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Vaikom",
+      "Arattukulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.41912,
+        9.78238
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.40231,
+        9.78132
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

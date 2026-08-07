@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-148",
+  "ref": "MDR 148",
+  "name": "Sekkalai–Kottayur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Sekkalai, Tamil Nadu",
+    "end": "Kottayur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sekkalai",
+      "Karaikudi",
+      "Alagappapuram",
+      "Kottayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sekkalai",
+      "coords": [
+        78.77783,
+        10.07908
+      ]
+    },
+    {
+      "name": "Alagappapuram",
+      "coords": [
+        78.7938,
+        10.07873
+      ]
+    },
+    {
+      "name": "Kottayur",
+      "coords": [
+        78.7917,
+        10.10043
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

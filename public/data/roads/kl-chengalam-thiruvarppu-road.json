@@ -1,0 +1,50 @@
+{
+  "id": "kl-chengalam-thiruvarppu-road",
+  "ref": "MDR",
+  "name": "Chengalam - Thiruvarppu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Thiruvarppu, Kerala",
+    "end": "Illikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvarppu",
+      "Illikkal",
+      "Parippu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvarppu",
+      "coords": [
+        76.47423,
+        9.58116
+      ]
+    },
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.4728,
+        9.58821
+      ]
+    },
+    {
+      "name": "Parippu",
+      "coords": [
+        76.47355,
+        9.59328
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

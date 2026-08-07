@@ -1,0 +1,51 @@
+{
+  "id": "sh-gj-19",
+  "ref": "SH 19",
+  "name": "Surendranagar–Nagalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 142,
+  "route": {
+    "start": "Surendranagar, Gujarat",
+    "end": "Nagalpur, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Surendranagar",
+      "Patdi",
+      "Mahesana",
+      "Nagalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Surendranagar",
+      "coords": [
+        71.61973,
+        22.75586
+      ]
+    },
+    {
+      "name": "Patdi",
+      "coords": [
+        71.79355,
+        23.18783
+      ]
+    },
+    {
+      "name": "Mahesana",
+      "coords": [
+        72.37002,
+        23.57041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

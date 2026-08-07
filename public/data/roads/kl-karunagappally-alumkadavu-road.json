@@ -1,0 +1,42 @@
+{
+  "id": "kl-karunagappally-alumkadavu-road",
+  "ref": "MDR",
+  "name": "Karunagappally - Alumkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Karunagapally, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karunagapally",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karunagapally",
+      "coords": [
+        76.50445,
+        9.05726
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.53562,
+        9.05945
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

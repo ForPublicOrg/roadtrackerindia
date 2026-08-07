@@ -1,0 +1,62 @@
+{
+  "id": "nh-751d",
+  "ref": "NH 751D",
+  "name": "Borsad–Dholka National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 59.2,
+  "route": {
+    "start": "Borsad, Gujarat",
+    "end": "Dholka, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Borsad",
+      "Petlad",
+      "Tarapur",
+      "Dholka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Borsad",
+      "coords": [
+        72.93281,
+        22.4114
+      ]
+    },
+    {
+      "name": "Petlad",
+      "coords": [
+        72.77202,
+        22.42447
+      ]
+    },
+    {
+      "name": "Tarapur",
+      "coords": [
+        72.65869,
+        22.49327
+      ]
+    },
+    {
+      "name": "Dholka",
+      "coords": [
+        72.40963,
+        22.51823
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

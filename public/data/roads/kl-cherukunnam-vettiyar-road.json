@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherukunnam-vettiyar-road",
+  "ref": "MDR",
+  "name": "Cherukunnam - Vettiyar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.55351,
+        9.24099
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.59122,
+        9.22625
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

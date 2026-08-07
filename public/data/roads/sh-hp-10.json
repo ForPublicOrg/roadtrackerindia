@@ -1,0 +1,42 @@
+{
+  "id": "sh-hp-10",
+  "ref": "SH 10",
+  "name": "Rohru–Sawra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 11,
+  "route": {
+    "start": "Rohru, Himachal Pradesh",
+    "end": "Sawra, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Rohru",
+      "Sawra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rohru",
+      "coords": [
+        77.74996,
+        31.20296
+      ]
+    },
+    {
+      "name": "Sawra",
+      "coords": [
+        77.7426,
+        31.12998
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

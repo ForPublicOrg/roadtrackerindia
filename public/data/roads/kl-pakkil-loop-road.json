@@ -1,0 +1,42 @@
+{
+  "id": "kl-pakkil-loop-road",
+  "ref": "MDR",
+  "name": "Pakkil Loop Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Chingavanam, Kerala",
+    "end": "Nattakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chingavanam",
+      "Nattakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chingavanam",
+      "coords": [
+        76.51913,
+        9.52804
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.51408,
+        9.5454
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

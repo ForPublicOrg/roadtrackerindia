@@ -1,0 +1,42 @@
+{
+  "id": "kl-tarurpalli-kuttankode-nechur-road",
+  "ref": "MDR",
+  "name": "Tarurpalli - Kuttankode - Nechur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "edathil colony, Kerala",
+    "end": "Vadakkenchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "edathil colony",
+      "Vadakkenchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "edathil colony",
+      "coords": [
+        76.46123,
+        10.68209
+      ]
+    },
+    {
+      "name": "Vadakkenchery",
+      "coords": [
+        76.48723,
+        10.70168
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

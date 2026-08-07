@@ -1,0 +1,42 @@
+{
+  "id": "kl-pinnakkanad-paika-road",
+  "ref": "MDR",
+  "name": "Pinnakkanad - Paika Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Poonjar, Kerala",
+    "end": "Erattupetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poonjar",
+      "Erattupetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poonjar",
+      "coords": [
+        76.7753,
+        9.62829
+      ]
+    },
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.72826,
+        9.65687
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

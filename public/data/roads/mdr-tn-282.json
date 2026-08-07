@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-282",
+  "ref": "MDR 282",
+  "name": "Yercaud–Bommiampatty District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Yercaud, Tamil Nadu",
+    "end": "Bommiampatty, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Yercaud",
+      "Bommiampatty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Yercaud",
+      "coords": [
+        78.21371,
+        11.83797
+      ]
+    },
+    {
+      "name": "Bommiampatty",
+      "coords": [
+        78.20193,
+        11.85493
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

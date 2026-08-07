@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-17b",
+  "ref": "SH 17B",
+  "name": "Anekal–Hosur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58,
+  "route": {
+    "start": "Anekal, Tamil Nadu",
+    "end": "Hosur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Anekal",
+      "Denkanikottai",
+      "Hosur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anekal",
+      "coords": [
+        77.65445,
+        12.58519
+      ]
+    },
+    {
+      "name": "Denkanikottai",
+      "coords": [
+        77.78845,
+        12.53222
+      ]
+    },
+    {
+      "name": "Hosur",
+      "coords": [
+        77.82514,
+        12.7309
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

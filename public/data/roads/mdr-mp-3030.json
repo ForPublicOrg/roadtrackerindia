@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3030",
+  "ref": "MDR 3030",
+  "name": "Baraily–Badi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.2,
+  "route": {
+    "start": "Baraily, Madhya Pradesh",
+    "end": "Badi, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Baraily",
+      "Badi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baraily",
+      "coords": [
+        78.22654,
+        22.9895
+      ]
+    },
+    {
+      "name": "Badi",
+      "coords": [
+        78.21229,
+        22.90326
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

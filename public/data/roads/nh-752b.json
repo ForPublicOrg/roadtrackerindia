@@ -1,0 +1,77 @@
+{
+  "id": "nh-752b",
+  "ref": "NH 752B",
+  "name": "Susner–Sironj National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 193.7,
+  "route": {
+    "start": "Susner, Rajasthan",
+    "end": "Sironj, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Susner",
+      "Jirapur",
+      "Rajgarh",
+      "Biaora",
+      "Sironj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Susner",
+      "coords": [
+        75.98371,
+        23.95025
+      ]
+    },
+    {
+      "name": "Jirapur",
+      "coords": [
+        76.37602,
+        24.01883
+      ]
+    },
+    {
+      "name": "Khilchipur",
+      "coords": [
+        76.5791,
+        24.02929
+      ]
+    },
+    {
+      "name": "Rajgarh",
+      "coords": [
+        76.72975,
+        23.99973
+      ]
+    },
+    {
+      "name": "Biaora",
+      "coords": [
+        76.91272,
+        23.92441
+      ]
+    },
+    {
+      "name": "Sironj",
+      "coords": [
+        77.67295,
+        24.09497
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

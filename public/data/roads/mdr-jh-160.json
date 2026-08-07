@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-160",
+  "ref": "MDR 160",
+  "name": "Saraikela–Sini District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17,
+  "route": {
+    "start": "Saraikela, Jharkhand",
+    "end": "Sini, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Saraikela",
+      "Sini"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saraikela",
+      "coords": [
+        86.01734,
+        22.62191
+      ]
+    },
+    {
+      "name": "Sini",
+      "coords": [
+        85.9318,
+        22.70225
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

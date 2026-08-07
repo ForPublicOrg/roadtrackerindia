@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-1",
+  "ref": "MDR 1",
+  "name": "Melapalayam–Vannarpettai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Melapalayam, Tamil Nadu",
+    "end": "Vannarpettai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapalayam",
+      "Tirunelveli",
+      "Vannarpettai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapalayam",
+      "coords": [
+        77.71144,
+        8.69628
+      ]
+    },
+    {
+      "name": "Tirunelveli Town",
+      "coords": [
+        77.70958,
+        8.70576
+      ]
+    },
+    {
+      "name": "Tirunelveli",
+      "coords": [
+        77.71277,
+        8.70724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

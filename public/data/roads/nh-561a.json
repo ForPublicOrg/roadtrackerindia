@@ -1,0 +1,71 @@
+{
+  "id": "nh-561a",
+  "ref": "NH 561A",
+  "name": "Vijayapura–Ahilyanagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 291.5,
+  "route": {
+    "start": "Vijayapura, Karnataka",
+    "end": "Ahilyanagar, Maharashtra",
+    "states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Vijayapura",
+      "Mangalwedha",
+      "Pandharpur",
+      "Karmala",
+      "Ahilyanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vijayapura",
+      "coords": [
+        75.72096,
+        16.8761
+      ]
+    },
+    {
+      "name": "Mangalwedha",
+      "coords": [
+        75.45377,
+        17.52239
+      ]
+    },
+    {
+      "name": "Pandharpur",
+      "coords": [
+        75.33471,
+        17.67407
+      ]
+    },
+    {
+      "name": "Karmala",
+      "coords": [
+        75.19622,
+        18.41604
+      ]
+    },
+    {
+      "name": "Ahilyanagar",
+      "coords": [
+        74.74686,
+        19.09258
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

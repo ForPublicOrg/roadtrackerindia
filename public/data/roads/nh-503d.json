@@ -1,0 +1,69 @@
+{
+  "id": "nh-503d",
+  "ref": "NH 503D",
+  "name": "Beas–Dera Baba Nanak National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 64.5,
+  "route": {
+    "start": "Beas, Punjab",
+    "end": "Dera Baba Nanak, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Beas",
+      "Mehta Chowk",
+      "Batala",
+      "Dera Baba Nanak"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Beas",
+      "coords": [
+        75.25782,
+        31.532
+      ]
+    },
+    {
+      "name": "Mehta Chowk",
+      "coords": [
+        75.25676,
+        31.67106
+      ]
+    },
+    {
+      "name": "Kalian",
+      "coords": [
+        75.21981,
+        31.79626
+      ]
+    },
+    {
+      "name": "Batala",
+      "coords": [
+        75.19251,
+        31.80034
+      ]
+    },
+    {
+      "name": "Dera Baba Nanak",
+      "coords": [
+        75.04158,
+        32.01804
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

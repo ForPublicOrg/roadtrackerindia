@@ -1,0 +1,99 @@
+{
+  "id": "delhi-gurgaon-expressway",
+  "ref": "NH",
+  "name": "Delhi-Gurgaon Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 28.8,
+  "route": {
+    "start": "Dhaula Kuan, Delhi",
+    "end": "Sector 83, Haryana",
+    "states": [
+      "Delhi",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Dhaula Kuan",
+      "Samalkha",
+      "Sector 30",
+      "Gurgaon",
+      "Sector 83"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhaula Kuan",
+      "coords": [
+        77.14834,
+        28.58667
+      ]
+    },
+    {
+      "name": "Vasant Kunj",
+      "coords": [
+        77.131,
+        28.55221
+      ]
+    },
+    {
+      "name": "Sector 20",
+      "coords": [
+        77.09279,
+        28.51185
+      ]
+    },
+    {
+      "name": "Sector 25A",
+      "coords": [
+        77.09145,
+        28.50096
+      ]
+    },
+    {
+      "name": "Sector 30",
+      "coords": [
+        77.05437,
+        28.46475
+      ]
+    },
+    {
+      "name": "Gurgaon",
+      "coords": [
+        77.02266,
+        28.44825
+      ]
+    },
+    {
+      "name": "Sector 35",
+      "coords": [
+        77.00036,
+        28.42412
+      ]
+    },
+    {
+      "name": "Sector 75A",
+      "coords": [
+        76.98849,
+        28.40247
+      ]
+    },
+    {
+      "name": "Sector 83",
+      "coords": [
+        76.98205,
+        28.39543
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

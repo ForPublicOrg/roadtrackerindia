@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-70",
+  "ref": "SH 70",
+  "name": "Gaya–Akbarpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 57.9,
+  "route": {
+    "start": "Gaya, Bihar",
+    "end": "Akbarpur, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Gaya",
+      "Akbarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gaya",
+      "coords": [
+        85.01871,
+        24.78285
+      ]
+    },
+    {
+      "name": "Akbarpur",
+      "coords": [
+        85.4919,
+        24.64308
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

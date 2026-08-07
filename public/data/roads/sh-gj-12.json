@@ -1,0 +1,65 @@
+{
+  "id": "sh-gj-12",
+  "ref": "SH 12",
+  "name": "Nadiad–Devgadh Baria State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 125.1,
+  "route": {
+    "start": "Nadiad, Gujarat",
+    "end": "Devgadh Baria, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Nadiad",
+      "Dakor",
+      "Godhra",
+      "Devgadh Baria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadiad",
+      "coords": [
+        72.87125,
+        22.6904
+      ]
+    },
+    {
+      "name": "Umreth",
+      "coords": [
+        73.11191,
+        22.70161
+      ]
+    },
+    {
+      "name": "Dakor",
+      "coords": [
+        73.15662,
+        22.7488
+      ]
+    },
+    {
+      "name": "Godhra",
+      "coords": [
+        73.62356,
+        22.77445
+      ]
+    },
+    {
+      "name": "Devgadh Baria",
+      "coords": [
+        74.00596,
+        22.83663
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

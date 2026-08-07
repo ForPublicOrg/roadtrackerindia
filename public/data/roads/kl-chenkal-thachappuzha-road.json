@@ -1,0 +1,42 @@
+{
+  "id": "kl-chenkal-thachappuzha-road",
+  "ref": "MDR",
+  "name": "Chenkal - Thachappuzha road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.72971,
+        9.56572
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.72885,
+        9.5791
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

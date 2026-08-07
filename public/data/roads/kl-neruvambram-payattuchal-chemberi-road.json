@@ -1,0 +1,42 @@
+{
+  "id": "kl-neruvambram-payattuchal-chemberi-road",
+  "ref": "MDR",
+  "name": "Neruvambram Payattuchal Chemberi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Chemperi, Kerala",
+    "end": "Sreekandapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chemperi",
+      "Sreekandapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.5469,
+        12.09582
+      ]
+    },
+    {
+      "name": "Sreekandapuram",
+      "coords": [
+        75.50967,
+        12.05401
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

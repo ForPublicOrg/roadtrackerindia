@@ -1,0 +1,58 @@
+{
+  "id": "mdr-rj-63",
+  "ref": "MDR 63",
+  "name": "Dausa–Mahwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 80.4,
+  "route": {
+    "start": "Dausa, Rajasthan",
+    "end": "Mahwa, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dausa",
+      "Sakrai",
+      "Todabhim",
+      "Mahwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dausa",
+      "coords": [
+        76.33614,
+        26.8281
+      ]
+    },
+    {
+      "name": "Sakrai",
+      "coords": [
+        76.66504,
+        26.87453
+      ]
+    },
+    {
+      "name": "Todabhim",
+      "coords": [
+        76.81375,
+        26.91683
+      ]
+    },
+    {
+      "name": "Mahwa",
+      "coords": [
+        76.94425,
+        26.97336
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

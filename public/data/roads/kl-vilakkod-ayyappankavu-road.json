@@ -1,0 +1,42 @@
+{
+  "id": "kl-vilakkod-ayyappankavu-road",
+  "ref": "MDR",
+  "name": "Vilakkod - Ayyappankavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kakkayangad, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayangad",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.70009,
+        11.95695
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.71206,
+        11.95946
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pannikunnu-shiribagilu-road",
+  "ref": "MDR",
+  "name": "Pannikunnu - Shiribagilu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Siraj Nagar, Kerala",
+    "end": "Adkathbail, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Siraj Nagar",
+      "Adkathbail"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.97476,
+        12.55807
+      ]
+    },
+    {
+      "name": "Adkathbail",
+      "coords": [
+        74.96075,
+        12.54814
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

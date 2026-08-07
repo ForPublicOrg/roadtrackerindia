@@ -1,0 +1,42 @@
+{
+  "id": "kl-marady-link-road",
+  "ref": "MDR",
+  "name": "Marady Link Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Muvattupuzha, Kerala",
+    "end": "Kizhakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muvattupuzha",
+      "Kizhakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muvattupuzha",
+      "coords": [
+        76.56026,
+        9.95591
+      ]
+    },
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.5751,
+        9.95635
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

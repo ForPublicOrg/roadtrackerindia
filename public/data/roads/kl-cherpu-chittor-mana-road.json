@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherpu-chittor-mana-road",
+  "ref": "MDR",
+  "name": "Cherpu Chittor Mana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Thalore, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalore",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalore",
+      "coords": [
+        76.19854,
+        10.42973
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.20992,
+        10.43714
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

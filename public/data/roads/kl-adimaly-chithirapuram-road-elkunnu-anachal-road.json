@@ -1,0 +1,42 @@
+{
+  "id": "kl-adimaly-chithirapuram-road-elkunnu-anachal-road",
+  "ref": "MDR",
+  "name": "Adimaly - Chithirapuram Road;Elkunnu - Anachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Rajakkaad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Rajakkaad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.03754,
+        10.02351
+      ]
+    },
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.04336,
+        9.99308
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

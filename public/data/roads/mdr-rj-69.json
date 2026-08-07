@@ -1,0 +1,43 @@
+{
+  "id": "mdr-rj-69",
+  "ref": "MDR 69",
+  "name": "Veer Teja Colony–Jasrasar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 59.8,
+  "route": {
+    "start": "Veer Teja Colony, Rajasthan",
+    "end": "Jasrasar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Veer Teja Colony",
+      "Nagaur",
+      "Jasrasar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Veer Teja Colony",
+      "coords": [
+        73.74403,
+        27.22531
+      ]
+    },
+    {
+      "name": "Jasrasar",
+      "coords": [
+        73.92775,
+        27.69244
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

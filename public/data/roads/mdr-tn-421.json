@@ -1,0 +1,72 @@
+{
+  "id": "mdr-tn-421",
+  "ref": "MDR 421",
+  "name": "Elampillai–Shevapet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.4,
+  "route": {
+    "start": "Elampillai, Tamil Nadu",
+    "end": "Shevapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Elampillai",
+      "Thirumalaigiri",
+      "Salem",
+      "Shevapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Elampillai",
+      "coords": [
+        78.00371,
+        11.60768
+      ]
+    },
+    {
+      "name": "Mohan Nagar",
+      "coords": [
+        78.06139,
+        11.65005
+      ]
+    },
+    {
+      "name": "Thirumalaigiri",
+      "coords": [
+        78.06878,
+        11.65214
+      ]
+    },
+    {
+      "name": "Sivathapuram",
+      "coords": [
+        78.1039,
+        11.65221
+      ]
+    },
+    {
+      "name": "Kandhampatty",
+      "coords": [
+        78.123,
+        11.65112
+      ]
+    },
+    {
+      "name": "Salem",
+      "coords": [
+        78.14162,
+        11.65202
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-neelimangalam-peroor-road",
+  "ref": "MDR",
+  "name": "Neelimangalam Peroor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Kumaranalloor, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumaranalloor",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.53972,
+        9.62508
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.56498,
+        9.63235
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

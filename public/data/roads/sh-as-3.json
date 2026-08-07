@@ -1,0 +1,74 @@
+{
+  "id": "sh-as-3",
+  "ref": "SH 3",
+  "name": "Missa Cantonment–Narengi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 142.8,
+  "route": {
+    "start": "Missa Cantonment, Assam",
+    "end": "Narengi, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Missa Cantonment",
+      "Nagaon",
+      "Marigaon",
+      "Nakhola",
+      "Dispur",
+      "Narengi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Missa Cantonment",
+      "coords": [
+        92.89129,
+        26.55035
+      ]
+    },
+    {
+      "name": "Nagaon",
+      "coords": [
+        92.67965,
+        26.35584
+      ]
+    },
+    {
+      "name": "Barapujia",
+      "coords": [
+        92.49651,
+        26.27441
+      ]
+    },
+    {
+      "name": "Marigaon",
+      "coords": [
+        92.34583,
+        26.25288
+      ]
+    },
+    {
+      "name": "Nakhola",
+      "coords": [
+        92.21766,
+        26.17953
+      ]
+    },
+    {
+      "name": "Dispur",
+      "coords": [
+        91.82929,
+        26.17859
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

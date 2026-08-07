@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-191",
+  "ref": "MDR 191",
+  "name": "Jarmundi–Asanbani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 66,
+  "route": {
+    "start": "Jarmundi, Jharkhand",
+    "end": "Asanbani, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jarmundi",
+      "Godda",
+      "Asanbani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jarmundi",
+      "coords": [
+        87.2959,
+        24.33863
+      ]
+    },
+    {
+      "name": "Godda",
+      "coords": [
+        87.21031,
+        24.80005
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

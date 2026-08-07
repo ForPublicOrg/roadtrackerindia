@@ -1,0 +1,43 @@
+{
+  "id": "mdr-mp-2201",
+  "ref": "MDR 2201",
+  "name": "Bhawani Mandi–Ramganj Mandi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 20.6,
+  "route": {
+    "start": "Bhawani Mandi, Rajasthan",
+    "end": "Ramganj Mandi, Rajasthan",
+    "states": [
+      "Rajasthan",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Bhawani Mandi",
+      "Ramganj Mandi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhawani Mandi",
+      "coords": [
+        75.83075,
+        24.41881
+      ]
+    },
+    {
+      "name": "Ramganj Mandi",
+      "coords": [
+        75.88405,
+        24.58323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

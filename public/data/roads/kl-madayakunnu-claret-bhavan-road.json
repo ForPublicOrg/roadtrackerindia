@@ -1,0 +1,42 @@
+{
+  "id": "kl-madayakunnu-claret-bhavan-road",
+  "ref": "MDR",
+  "name": "Madayakunnu - Claret Bhavan Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kuravilangad, Kerala",
+    "end": "Kozha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuravilangad",
+      "Kozha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.56071,
+        9.74761
+      ]
+    },
+    {
+      "name": "Kozha",
+      "coords": [
+        76.57443,
+        9.73575
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

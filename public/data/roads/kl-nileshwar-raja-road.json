@@ -1,0 +1,49 @@
+{
+  "id": "kl-nileshwar-raja-road",
+  "ref": "MDR",
+  "name": "Nileshwar - Raja Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Chirupuram, Kerala",
+    "end": "Nileshwaram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chirupuram",
+      "Nileshwaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chirupuram",
+      "coords": [
+        75.13348,
+        12.25785
+      ]
+    },
+    {
+      "name": "Padannakkad",
+      "coords": [
+        75.12728,
+        12.25236
+      ]
+    },
+    {
+      "name": "Nileshwaram",
+      "coords": [
+        75.12817,
+        12.24996
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-17th-mile-tq-road-to-join-3rd-mile-vejaramoodu-attingal",
+  "ref": "MDR",
+  "name": "17th Mile TQ Road to Join 3rd Mile Vejaramoodu - Attingal",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Mangalapuram, Kerala",
+    "end": "Venjaramoodu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mangalapuram",
+      "Venjaramoodu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.84209,
+        8.64789
+      ]
+    },
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.8627,
+        8.68589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

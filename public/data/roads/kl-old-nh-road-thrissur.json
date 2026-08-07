@@ -1,0 +1,65 @@
+{
+  "id": "kl-old-nh-road-thrissur",
+  "ref": "SH",
+  "name": "Old NH Road Thrissur",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 51.8,
+  "route": {
+    "start": "Vellanikkara, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellanikkara",
+      "Thrissur",
+      "Puthukkad",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.34065,
+        10.55882
+      ]
+    },
+    {
+      "name": "Chelakkottukara",
+      "coords": [
+        76.23451,
+        10.51935
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.21563,
+        10.52741
+      ]
+    },
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.25639,
+        10.45295
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33727,
+        10.30183
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

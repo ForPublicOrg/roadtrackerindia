@@ -1,0 +1,42 @@
+{
+  "id": "kl-mullampara-konikkallu-irumpuzhi-road",
+  "ref": "MDR",
+  "name": "Mullampara - Konikkallu - Irumpuzhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Uphill, Kerala",
+    "end": "Manjeri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uphill",
+      "Manjeri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uphill",
+      "coords": [
+        76.10296,
+        11.07689
+      ]
+    },
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.10011,
+        11.10346
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

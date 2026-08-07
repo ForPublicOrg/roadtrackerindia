@@ -1,0 +1,50 @@
+{
+  "id": "kl-kumbanad-puramattam-puthussery-road",
+  "ref": "MDR",
+  "name": "Kumbanad - Puramattam - Puthussery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Thottabhagam",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.64159,
+        9.4218
+      ]
+    },
+    {
+      "name": "Thottabhagam",
+      "coords": [
+        76.65017,
+        9.3936
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.65414,
+        9.36964
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

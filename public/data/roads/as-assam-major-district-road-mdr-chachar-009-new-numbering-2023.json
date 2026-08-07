@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-009-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 009 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 32.9,
+  "route": {
+    "start": "Vairengte, Assam",
+    "end": "Lala, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Vairengte",
+      "Lala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vairengte",
+      "coords": [
+        92.68143,
+        24.39011
+      ]
+    },
+    {
+      "name": "Lala",
+      "coords": [
+        92.70864,
+        24.63153
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

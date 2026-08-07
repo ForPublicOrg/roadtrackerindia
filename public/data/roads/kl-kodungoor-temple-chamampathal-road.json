@@ -1,0 +1,42 @@
+{
+  "id": "kl-kodungoor-temple-chamampathal-road",
+  "ref": "MDR",
+  "name": "Kodungoor Temple - Chamampathal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.70583,
+        9.56626
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.71653,
+        9.53984
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

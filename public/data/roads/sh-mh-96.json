@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-96",
+  "ref": "SH 96",
+  "name": "Mahad–Dabhol State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 82.3,
+  "route": {
+    "start": "Mahad, Maharashtra",
+    "end": "Dabhol, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mahad",
+      "Dapoli",
+      "Dabhol"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mahad",
+      "coords": [
+        73.4187,
+        18.09203
+      ]
+    },
+    {
+      "name": "Dapoli",
+      "coords": [
+        73.1877,
+        17.75759
+      ]
+    },
+    {
+      "name": "Dabhol",
+      "coords": [
+        73.17237,
+        17.60938
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

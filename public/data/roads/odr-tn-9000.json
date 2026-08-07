@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-9000",
+  "ref": "ODR 9000",
+  "name": "Navalur–Siruseri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Navalur, Tamil Nadu",
+    "end": "Siruseri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Navalur",
+      "Siruseri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navalur",
+      "coords": [
+        80.22362,
+        12.83885
+      ]
+    },
+    {
+      "name": "Siruseri",
+      "coords": [
+        80.21161,
+        12.84808
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

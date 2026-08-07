@@ -1,0 +1,50 @@
+{
+  "id": "kl-vazhoor-puliyannoor-road",
+  "ref": "MDR",
+  "name": "Vazhoor - Puliyannoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 19.1,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Puliyannoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Pala",
+      "Puliyannoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.70599,
+        9.56639
+      ]
+    },
+    {
+      "name": "Pala",
+      "coords": [
+        76.65852,
+        9.69603
+      ]
+    },
+    {
+      "name": "Puliyannoor",
+      "coords": [
+        76.65491,
+        9.70072
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

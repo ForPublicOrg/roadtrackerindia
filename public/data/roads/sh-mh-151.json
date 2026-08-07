@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-151",
+  "ref": "SH 151",
+  "name": "Solapur–Barshi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 65.2,
+  "route": {
+    "start": "Solapur, Maharashtra",
+    "end": "Barshi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Solapur",
+      "Vairag",
+      "Barshi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Solapur",
+      "coords": [
+        75.87713,
+        17.69469
+      ]
+    },
+    {
+      "name": "Vairag",
+      "coords": [
+        75.80082,
+        18.05916
+      ]
+    },
+    {
+      "name": "Barshi",
+      "coords": [
+        75.69414,
+        18.23341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "mdr-rj-180",
+  "ref": "MDR 180",
+  "name": "Nimbi Jodhan–Mukandgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 108.9,
+  "route": {
+    "start": "Nimbi Jodhan, Rajasthan",
+    "end": "Mukandgarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Nimbi Jodhan",
+      "Mukandgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nimbi Jodhan",
+      "coords": [
+        74.34761,
+        27.53106
+      ]
+    },
+    {
+      "name": "Jaswant Garh",
+      "coords": [
+        74.49797,
+        27.60135
+      ]
+    },
+    {
+      "name": "Mukandgarh",
+      "coords": [
+        75.22908,
+        27.93778
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

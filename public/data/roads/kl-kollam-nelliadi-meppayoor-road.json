@@ -1,0 +1,42 @@
+{
+  "id": "kl-kollam-nelliadi-meppayoor-road",
+  "ref": "MDR",
+  "name": "Kollam - Nelliadi - Meppayoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "route": {
+    "start": "Koyilandy, Kerala",
+    "end": "Perambra, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koyilandy",
+      "Perambra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koyilandy",
+      "coords": [
+        75.68306,
+        11.45612
+      ]
+    },
+    {
+      "name": "Perambra",
+      "coords": [
+        75.71163,
+        11.53149
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

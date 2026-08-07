@@ -1,0 +1,42 @@
+{
+  "id": "kl-ahammadunni-road",
+  "ref": "MDR",
+  "name": "Ahammadunni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Thottakkattukara, Kerala",
+    "end": "Aluva, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottakkattukara",
+      "Aluva"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottakkattukara",
+      "coords": [
+        76.3089,
+        10.12753
+      ]
+    },
+    {
+      "name": "Aluva",
+      "coords": [
+        76.32128,
+        10.14792
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

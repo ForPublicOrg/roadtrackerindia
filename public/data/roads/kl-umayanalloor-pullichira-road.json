@@ -1,0 +1,50 @@
+{
+  "id": "kl-umayanalloor-pullichira-road",
+  "ref": "MDR",
+  "name": "Umayanalloor - Pullichira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Mevaram, Kerala",
+    "end": "Kottiyam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mevaram",
+      "Mayyanad",
+      "Kottiyam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mevaram",
+      "coords": [
+        76.65471,
+        8.86484
+      ]
+    },
+    {
+      "name": "Mayyanad",
+      "coords": [
+        76.65541,
+        8.85961
+      ]
+    },
+    {
+      "name": "Kottiyam",
+      "coords": [
+        76.66837,
+        8.8603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

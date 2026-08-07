@@ -1,0 +1,59 @@
+{
+  "id": "sh-hp-13",
+  "ref": "SH 13",
+  "name": "BBMB Colony–Sanjauli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 159.7,
+  "route": {
+    "start": "BBMB Colony, Himachal Pradesh",
+    "end": "Sanjauli, Himachal Pradesh",
+    "states": [
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "BBMB Colony",
+      "Sundarnagar",
+      "Tattapani",
+      "Shimla",
+      "Sanjauli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "BBMB Colony",
+      "coords": [
+        76.89945,
+        31.55121
+      ]
+    },
+    {
+      "name": "Sundarnagar",
+      "coords": [
+        76.91552,
+        31.52749
+      ]
+    },
+    {
+      "name": "Tattapani",
+      "coords": [
+        77.08683,
+        31.24663
+      ]
+    },
+    {
+      "name": "Shimla",
+      "coords": [
+        77.21649,
+        31.10991
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

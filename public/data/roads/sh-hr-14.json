@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-14",
+  "ref": "SH 14",
+  "name": "Jind–Panipat State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 67.8,
+  "route": {
+    "start": "Jind, Haryana",
+    "end": "Panipat, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Jind",
+      "Safidon",
+      "Panipat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jind",
+      "coords": [
+        76.32001,
+        29.31391
+      ]
+    },
+    {
+      "name": "Safidon",
+      "coords": [
+        76.66451,
+        29.41734
+      ]
+    },
+    {
+      "name": "Panipat",
+      "coords": [
+        76.96569,
+        29.39475
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

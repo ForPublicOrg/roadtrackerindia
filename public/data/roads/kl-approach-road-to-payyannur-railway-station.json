@@ -1,0 +1,51 @@
+{
+  "id": "kl-approach-road-to-payyannur-railway-station",
+  "ref": "MDR",
+  "name": "Approach Road to Payyannur Railway Station",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Perumba, Kerala",
+    "end": "Kotti, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Perumba",
+      "Kothaymukku",
+      "Payyanur",
+      "Kotti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perumba",
+      "coords": [
+        75.22026,
+        12.11009
+      ]
+    },
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.20476,
+        12.10568
+      ]
+    },
+    {
+      "name": "Kotti",
+      "coords": [
+        75.1948,
+        12.0912
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

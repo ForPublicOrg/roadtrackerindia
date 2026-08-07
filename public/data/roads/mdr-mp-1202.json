@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1202",
+  "ref": "MDR 1202",
+  "name": "Ghorawal–Shahganj District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.5,
+  "route": {
+    "start": "Ghorawal, Madhya Pradesh",
+    "end": "Shahganj, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Ghorawal",
+      "Shahganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ghorawal",
+      "coords": [
+        82.68761,
+        24.61696
+      ]
+    },
+    {
+      "name": "Shahganj",
+      "coords": [
+        82.73759,
+        24.64252
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

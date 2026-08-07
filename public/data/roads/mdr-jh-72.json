@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-72",
+  "ref": "MDR 72",
+  "name": "Keredari–Chatra District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.5,
+  "route": {
+    "start": "Keredari, Jharkhand",
+    "end": "Chatra, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Keredari",
+      "Chatra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Keredari",
+      "coords": [
+        85.02329,
+        23.86143
+      ]
+    },
+    {
+      "name": "Chatra",
+      "coords": [
+        84.93708,
+        24.06132
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

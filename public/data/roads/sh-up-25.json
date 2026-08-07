@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-25",
+  "ref": "SH 25",
+  "name": "Sadat Ganj–Chowk State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Sadat Ganj, Uttar Pradesh",
+    "end": "Chowk, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sadat Ganj",
+      "Rajaji Puram",
+      "Lucknow",
+      "Chowk"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sadat Ganj",
+      "coords": [
+        80.8646,
+        26.87456
+      ]
+    },
+    {
+      "name": "Rajaji Puram",
+      "coords": [
+        80.87129,
+        26.87321
+      ]
+    },
+    {
+      "name": "Sadat Ganj",
+      "coords": [
+        80.89446,
+        26.87289
+      ]
+    },
+    {
+      "name": "Lucknow",
+      "coords": [
+        80.909,
+        26.8658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

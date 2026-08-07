@@ -1,0 +1,42 @@
+{
+  "id": "kl-kareelakulangara-back-water-road",
+  "ref": "MDR",
+  "name": "Kareelakulangara Back Water Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.44743,
+        9.19499
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.48444,
+        9.20025
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

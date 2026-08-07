@@ -1,0 +1,49 @@
+{
+  "id": "odr-tn-6934",
+  "ref": "ODR 6934",
+  "name": "Latteri–Vanjur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Latteri, Tamil Nadu",
+    "end": "Vanjur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Latteri",
+      "Vanjur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Latteri",
+      "coords": [
+        79.06797,
+        12.97048
+      ]
+    },
+    {
+      "name": "Mottur",
+      "coords": [
+        79.07768,
+        12.9434
+      ]
+    },
+    {
+      "name": "Vanjur",
+      "coords": [
+        79.08575,
+        12.94362
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

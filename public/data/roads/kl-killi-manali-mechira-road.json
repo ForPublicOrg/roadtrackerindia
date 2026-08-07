@@ -1,0 +1,42 @@
+{
+  "id": "kl-killi-manali-mechira-road",
+  "ref": "MDR",
+  "name": "Killi - Manali - Mechira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Malayinkeezhu, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Malayinkeezhu",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malayinkeezhu",
+      "coords": [
+        77.04383,
+        8.50243
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.06572,
+        8.49946
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

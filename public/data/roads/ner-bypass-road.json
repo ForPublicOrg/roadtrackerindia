@@ -1,0 +1,46 @@
+{
+  "id": "ner-bypass-road",
+  "ref": "NH",
+  "name": "ner bypass road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Ner, Maharashtra",
+    "end": "Nandgaon Khandeshwar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Ner",
+      "Nandgaon Khandeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ner",
+      "coords": [
+        77.78587,
+        20.4982
+      ]
+    },
+    {
+      "name": "Nandgaon Khandeshwar",
+      "coords": [
+        77.86505,
+        20.48796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

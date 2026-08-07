@@ -1,0 +1,72 @@
+{
+  "id": "sh-tn-u100",
+  "ref": "SH-U 100",
+  "name": "Samayanallur–Palanganatham State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 13.4,
+  "route": {
+    "start": "Samayanallur, Tamil Nadu",
+    "end": "Palanganatham, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Samayanallur",
+      "Vilangudi",
+      "Madurai",
+      "Palanganatham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samayanallur",
+      "coords": [
+        78.03005,
+        9.9834
+      ]
+    },
+    {
+      "name": "Thuvariman",
+      "coords": [
+        78.06005,
+        9.96738
+      ]
+    },
+    {
+      "name": "Vilangudi",
+      "coords": [
+        78.09379,
+        9.95168
+      ]
+    },
+    {
+      "name": "Viswanathapuram",
+      "coords": [
+        78.0992,
+        9.94595
+      ]
+    },
+    {
+      "name": "Madurai",
+      "coords": [
+        78.09628,
+        9.93156
+      ]
+    },
+    {
+      "name": "Palanganatham",
+      "coords": [
+        78.09832,
+        9.90725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

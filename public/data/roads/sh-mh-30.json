@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-30",
+  "ref": "SH 30",
+  "name": "Panchavati–Yeola State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 78.9,
+  "route": {
+    "start": "Panchavati, Maharashtra",
+    "end": "Yeola, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Panchavati",
+      "Nashik",
+      "Niphad",
+      "Yeola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panchavati",
+      "coords": [
+        73.81021,
+        20.01079
+      ]
+    },
+    {
+      "name": "Niphad",
+      "coords": [
+        74.10885,
+        20.07347
+      ]
+    },
+    {
+      "name": "Yeola",
+      "coords": [
+        74.48405,
+        20.04313
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

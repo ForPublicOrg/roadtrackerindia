@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattikkad-peechi-road",
+  "ref": "MDR",
+  "name": "Pattikkad Peechi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Vellanikkara, Kerala",
+    "end": "Nadathara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellanikkara",
+      "Nadathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellanikkara",
+      "coords": [
+        76.32359,
+        10.55629
+      ]
+    },
+    {
+      "name": "Nadathara",
+      "coords": [
+        76.36652,
+        10.52796
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "sh-up-51",
+  "ref": "SH 51",
+  "name": "Budaun–Bijnor State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 211.9,
+  "route": {
+    "start": "Budaun, Uttar Pradesh",
+    "end": "Bijnor, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Budaun",
+      "Sambhal",
+      "Hasanpur",
+      "Chandpur",
+      "Bijnor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Budaun",
+      "coords": [
+        79.1055,
+        28.02665
+      ]
+    },
+    {
+      "name": "Bilsi",
+      "coords": [
+        78.90741,
+        28.13012
+      ]
+    },
+    {
+      "name": "Sambhal",
+      "coords": [
+        78.56006,
+        28.57978
+      ]
+    },
+    {
+      "name": "Hasanpur",
+      "coords": [
+        78.29089,
+        28.71999
+      ]
+    },
+    {
+      "name": "Gajraula",
+      "coords": [
+        78.24238,
+        28.83804
+      ]
+    },
+    {
+      "name": "Chandpur",
+      "coords": [
+        78.27574,
+        29.13597
+      ]
+    },
+    {
+      "name": "Bijnor",
+      "coords": [
+        78.14115,
+        29.36626
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

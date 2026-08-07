@@ -1,0 +1,50 @@
+{
+  "id": "kl-chithrappuzha-road",
+  "ref": "MDR",
+  "name": "Chithrappuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Thrippunithura, Kerala",
+    "end": "Irumpanam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrippunithura",
+      "Eroor",
+      "Irumpanam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.36146,
+        9.95185
+      ]
+    },
+    {
+      "name": "Eroor",
+      "coords": [
+        76.36354,
+        9.9555
+      ]
+    },
+    {
+      "name": "Irumpanam",
+      "coords": [
+        76.36695,
+        9.95907
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-65",
+  "ref": "SH 65",
+  "name": "Naugachia–Purnia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.4,
+  "route": {
+    "start": "Naugachia, Bihar",
+    "end": "Purnia, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Naugachia",
+      "Purnia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Naugachia",
+      "coords": [
+        87.24637,
+        25.50696
+      ]
+    },
+    {
+      "name": "Purnia",
+      "coords": [
+        87.42571,
+        25.79521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

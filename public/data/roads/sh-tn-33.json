@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-33",
+  "ref": "SH 33",
+  "name": "Tiruppuvanam–Anna Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.6,
+  "route": {
+    "start": "Tiruppuvanam, Tamil Nadu",
+    "end": "Anna Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruppuvanam",
+      "Madurai",
+      "Anna Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruppuvanam",
+      "coords": [
+        78.27805,
+        9.85807
+      ]
+    },
+    {
+      "name": "Karuppayurani",
+      "coords": [
+        78.18075,
+        9.93199
+      ]
+    },
+    {
+      "name": "Madurai",
+      "coords": [
+        78.14901,
+        9.927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "mdr-up-17b",
+  "ref": "MDR 17B",
+  "name": "Nowgaon–Kulpahar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.5,
+  "route": {
+    "start": "Nowgaon, Madhya Pradesh",
+    "end": "Kulpahar, Uttar Pradesh",
+    "states": [
+      "Madhya Pradesh",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nowgaon",
+      "Kulpahar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nowgaon",
+      "coords": [
+        79.43422,
+        25.07221
+      ]
+    },
+    {
+      "name": "Kulpahar",
+      "coords": [
+        79.64434,
+        25.31939
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

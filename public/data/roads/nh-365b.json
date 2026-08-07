@@ -1,0 +1,62 @@
+{
+  "id": "nh-365b",
+  "ref": "NH 365B",
+  "name": "Suryapet–Sircilla National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 191.7,
+  "route": {
+    "start": "Suryapet, Telangana",
+    "end": "Sircilla, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Suryapet",
+      "Jangaon",
+      "Siddipet",
+      "Sircilla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Suryapet",
+      "coords": [
+        79.60569,
+        17.15021
+      ]
+    },
+    {
+      "name": "Jangaon",
+      "coords": [
+        79.155,
+        17.72046
+      ]
+    },
+    {
+      "name": "Siddipet",
+      "coords": [
+        78.84649,
+        18.08665
+      ]
+    },
+    {
+      "name": "Sircilla",
+      "coords": [
+        78.82036,
+        18.38324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

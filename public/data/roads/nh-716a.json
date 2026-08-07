@@ -1,0 +1,78 @@
+{
+  "id": "nh-716a",
+  "ref": "NH 716A",
+  "name": "Sholavaram–Puttur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 72.5,
+  "route": {
+    "start": "Sholavaram, Tamil Nadu",
+    "end": "Puttur, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Sholavaram",
+      "Arani",
+      "Uthukottai",
+      "Nagalapuram",
+      "Puttur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholavaram",
+      "coords": [
+        80.15517,
+        13.26234
+      ]
+    },
+    {
+      "name": "Arani",
+      "coords": [
+        80.04628,
+        13.30563
+      ]
+    },
+    {
+      "name": "Uthukottai",
+      "coords": [
+        79.89444,
+        13.33413
+      ]
+    },
+    {
+      "name": "Nagalapuram",
+      "coords": [
+        79.79268,
+        13.38372
+      ]
+    },
+    {
+      "name": "Pichchatur",
+      "coords": [
+        79.74361,
+        13.3962
+      ]
+    },
+    {
+      "name": "Puttur",
+      "coords": [
+        79.56105,
+        13.42962
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

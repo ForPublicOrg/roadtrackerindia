@@ -1,0 +1,42 @@
+{
+  "id": "kl-mambra-koottalapadam-road",
+  "ref": "MDR",
+  "name": "Mambra - Koottalapadam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Valiyaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Valiyaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.35842,
+        10.25818
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.33781,
+        10.23325
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

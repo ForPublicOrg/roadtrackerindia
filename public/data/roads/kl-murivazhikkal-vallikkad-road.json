@@ -1,0 +1,42 @@
+{
+  "id": "kl-murivazhikkal-vallikkad-road",
+  "ref": "MDR",
+  "name": "Murivazhikkal - Vallikkad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Ramanattukara, Kerala",
+    "end": "Omanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ramanattukara",
+      "Omanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramanattukara",
+      "coords": [
+        75.89598,
+        11.19899
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.91693,
+        11.19581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

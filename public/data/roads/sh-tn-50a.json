@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-50a",
+  "ref": "SH 50A",
+  "name": "Veppambaattu–Arani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28.3,
+  "route": {
+    "start": "Veppambaattu, Tamil Nadu",
+    "end": "Arani, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Veppambaattu",
+      "Nemilicheri",
+      "Arani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Veppambaattu",
+      "coords": [
+        80.00621,
+        13.09255
+      ]
+    },
+    {
+      "name": "Nemilicheri",
+      "coords": [
+        80.03568,
+        13.13051
+      ]
+    },
+    {
+      "name": "Arani",
+      "coords": [
+        80.04861,
+        13.29907
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

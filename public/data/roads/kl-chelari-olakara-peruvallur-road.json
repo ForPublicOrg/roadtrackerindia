@@ -1,0 +1,42 @@
+{
+  "id": "kl-chelari-olakara-peruvallur-road",
+  "ref": "MDR",
+  "name": "Chelari - Olakara - Peruvallur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Kodakkad, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodakkad",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodakkad",
+      "coords": [
+        75.89736,
+        11.0977
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.95678,
+        11.11462
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

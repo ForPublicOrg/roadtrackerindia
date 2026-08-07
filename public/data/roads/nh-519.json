@@ -1,0 +1,46 @@
+{
+  "id": "nh-519",
+  "ref": "NH 519",
+  "name": "Auraiya–Pukhrayan National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 27.9,
+  "route": {
+    "start": "Auraiya, Uttar Pradesh",
+    "end": "Pukhrayan, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Auraiya",
+      "Pukhrayan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Auraiya",
+      "coords": [
+        79.61909,
+        26.3779
+      ]
+    },
+    {
+      "name": "Pukhrayan",
+      "coords": [
+        79.81198,
+        26.20134
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

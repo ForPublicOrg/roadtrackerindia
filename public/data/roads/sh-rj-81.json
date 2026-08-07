@@ -1,0 +1,51 @@
+{
+  "id": "sh-rj-81",
+  "ref": "SH 81",
+  "name": "Mandsaur–Dhariawad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 63.2,
+  "route": {
+    "start": "Mandsaur, Madhya Pradesh",
+    "end": "Dhariawad, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mandsaur",
+      "Pratapgarh",
+      "Dhariawad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandsaur",
+      "coords": [
+        74.98867,
+        24.03448
+      ]
+    },
+    {
+      "name": "Pratapgarh",
+      "coords": [
+        74.77365,
+        24.04034
+      ]
+    },
+    {
+      "name": "Dhariawad",
+      "coords": [
+        74.44328,
+        24.10049
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

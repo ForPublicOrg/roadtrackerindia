@@ -1,0 +1,43 @@
+{
+  "id": "kl-njarakkal-hospital-road",
+  "ref": "MDR",
+  "name": "Njarakkal Hospital Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Thekkinezhath, Kerala",
+    "end": "Maniyan thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thekkinezhath",
+      "Mulavukadu",
+      "Maniyan thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thekkinezhath",
+      "coords": [
+        76.22441,
+        10.03789
+      ]
+    },
+    {
+      "name": "Maniyan thuruth",
+      "coords": [
+        76.21886,
+        10.04143
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2212",
+  "ref": "MDR 2212",
+  "name": "Mandsaur–Rampura District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.2,
+  "route": {
+    "start": "Mandsaur, Madhya Pradesh",
+    "end": "Rampura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Mandsaur",
+      "Rampura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandsaur",
+      "coords": [
+        75.06021,
+        24.0766
+      ]
+    },
+    {
+      "name": "Rampura",
+      "coords": [
+        75.28777,
+        24.28489
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nh-652",
+  "ref": "NH 652",
+  "name": "Tuljapur–Akkalkot National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 68.3,
+  "route": {
+    "start": "Tuljapur, Maharashtra",
+    "end": "Akkalkot, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Tuljapur",
+      "Naldurg",
+      "Akkalkot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tuljapur",
+      "coords": [
+        76.09143,
+        17.98778
+      ]
+    },
+    {
+      "name": "Naldurg",
+      "coords": [
+        76.27467,
+        17.81526
+      ]
+    },
+    {
+      "name": "Akkalkot",
+      "coords": [
+        76.20345,
+        17.52772
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

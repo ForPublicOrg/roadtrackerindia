@@ -1,0 +1,49 @@
+{
+  "id": "kl-arattuvazhi-road",
+  "ref": "MDR",
+  "name": "Arattuvazhi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Kazhakkoottam, Kerala",
+    "end": "Menamkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kazhakkoottam",
+      "Menamkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kazhakkoottam",
+      "coords": [
+        76.87107,
+        8.56855
+      ]
+    },
+    {
+      "name": "Kaniyapuram",
+      "coords": [
+        76.86609,
+        8.56751
+      ]
+    },
+    {
+      "name": "Menamkulam",
+      "coords": [
+        76.86075,
+        8.56425
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-ashtamichira-annamanada-road",
+  "ref": "MDR",
+  "name": "Ashtamichira - Annamanada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Valiyaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Valiyaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.28204,
+        10.27123
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.32677,
+        10.23854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "odr-tn-2500",
+  "ref": "ODR 2500",
+  "name": "Sipcot–Karai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Sipcot, Tamil Nadu",
+    "end": "Karai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sipcot",
+      "Lalapet",
+      "Karai",
+      "Melvisharam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sipcot",
+      "coords": [
+        79.29938,
+        12.9599
+      ]
+    },
+    {
+      "name": "Karai",
+      "coords": [
+        79.29194,
+        12.9502
+      ]
+    },
+    {
+      "name": "Melvisharam",
+      "coords": [
+        79.28776,
+        12.94357
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

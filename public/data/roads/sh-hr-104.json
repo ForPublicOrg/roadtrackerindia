@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-104",
+  "ref": "SH 104",
+  "name": "Sirsa–Bhadra State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 34.1,
+  "route": {
+    "start": "Sirsa, Haryana",
+    "end": "Bhadra, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sirsa",
+      "Bhadra"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sirsa",
+      "coords": [
+        75.0353,
+        29.53276
+      ]
+    },
+    {
+      "name": "Bhadra",
+      "coords": [
+        75.17019,
+        29.25914
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

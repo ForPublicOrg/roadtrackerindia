@@ -1,0 +1,64 @@
+{
+  "id": "kl-othukkungal-vengara-road",
+  "ref": "MDR",
+  "name": "Othukkungal - Vengara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Vengara, Kerala",
+    "end": "Othukungal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vengara",
+      "Kottakkal",
+      "Othukungal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vengara",
+      "coords": [
+        75.98816,
+        11.05125
+      ]
+    },
+    {
+      "name": "Changuvetty",
+      "coords": [
+        76.00037,
+        11.02412
+      ]
+    },
+    {
+      "name": "Kottakkal",
+      "coords": [
+        76.00562,
+        11.0234
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.01587,
+        11.02483
+      ]
+    },
+    {
+      "name": "Othukungal",
+      "coords": [
+        76.02581,
+        11.02483
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

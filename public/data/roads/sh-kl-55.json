@@ -1,0 +1,59 @@
+{
+  "id": "sh-kl-55",
+  "ref": "SH 55",
+  "name": "Cherkala–Sulya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.5,
+  "route": {
+    "start": "Cherkala, Kerala",
+    "end": "Sulya, Karnataka",
+    "states": [
+      "Kerala",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Cherkala",
+      "Bovikkanam",
+      "Mulleria",
+      "Sulya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.06051,
+        12.51011
+      ]
+    },
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.09547,
+        12.50703
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.16531,
+        12.54932
+      ]
+    },
+    {
+      "name": "Sulya",
+      "coords": [
+        75.32799,
+        12.58395
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

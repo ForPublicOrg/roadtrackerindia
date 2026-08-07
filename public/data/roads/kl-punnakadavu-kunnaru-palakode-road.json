@@ -1,0 +1,58 @@
+{
+  "id": "kl-punnakadavu-kunnaru-palakode-road",
+  "ref": "MDR",
+  "name": "Punnakadavu - Kunnaru - Palakode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.1,
+  "route": {
+    "start": "Kotti, Kerala",
+    "end": "Puthiyangadi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kotti",
+      "Payyanur",
+      "Kunhimangalam",
+      "Puthiyangadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kotti",
+      "coords": [
+        75.1908,
+        12.07082
+      ]
+    },
+    {
+      "name": "Payyanur",
+      "coords": [
+        75.20371,
+        12.07041
+      ]
+    },
+    {
+      "name": "Kunhimangalam",
+      "coords": [
+        75.21544,
+        12.06021
+      ]
+    },
+    {
+      "name": "Puthiyangadi",
+      "coords": [
+        75.22569,
+        12.02805
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

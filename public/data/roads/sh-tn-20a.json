@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-20a",
+  "ref": "SH 20A",
+  "name": "Mettur–Kolathur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.2,
+  "route": {
+    "start": "Mettur, Tamil Nadu",
+    "end": "Kolathur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mettur",
+      "Kolathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mettur",
+      "coords": [
+        77.80227,
+        11.79797
+      ]
+    },
+    {
+      "name": "Kolathur",
+      "coords": [
+        77.74611,
+        11.84663
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

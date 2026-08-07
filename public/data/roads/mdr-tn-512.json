@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-512",
+  "ref": "MDR 512",
+  "name": "Bodipatti–Amaravathi Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14,
+  "route": {
+    "start": "Bodipatti, Tamil Nadu",
+    "end": "Amaravathi Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Bodipatti",
+      "Amaravathi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bodipatti",
+      "coords": [
+        77.21997,
+        10.53094
+      ]
+    },
+    {
+      "name": "Amaravathi Nagar",
+      "coords": [
+        77.16087,
+        10.45772
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

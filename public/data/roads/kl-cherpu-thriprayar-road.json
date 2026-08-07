@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherpu-thriprayar-road",
+  "ref": "MDR",
+  "name": "Cherpu Thriprayar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.2,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.10802,
+        10.41292
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.2101,
+        10.44651
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

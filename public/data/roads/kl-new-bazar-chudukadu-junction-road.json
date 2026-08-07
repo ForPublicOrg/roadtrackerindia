@@ -1,0 +1,43 @@
+{
+  "id": "kl-new-bazar-chudukadu-junction-road",
+  "ref": "MDR",
+  "name": "New Bazar - Chudukadu Junction Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Vellakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Alappuzha",
+      "Vellakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.33751,
+        9.47746
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33373,
+        9.49479
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

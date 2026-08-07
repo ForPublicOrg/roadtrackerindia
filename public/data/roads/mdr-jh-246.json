@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-246",
+  "ref": "MDR 246",
+  "name": "Dobhi–Kasmar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 67.7,
+  "route": {
+    "start": "Dobhi, Jharkhand",
+    "end": "Kasmar, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Dobhi",
+      "Babhne",
+      "Kasmar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dobhi",
+      "coords": [
+        84.80614,
+        24.42358
+      ]
+    },
+    {
+      "name": "Babhne",
+      "coords": [
+        84.63192,
+        24.29457
+      ]
+    },
+    {
+      "name": "Kasmar",
+      "coords": [
+        84.63704,
+        24.29682
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

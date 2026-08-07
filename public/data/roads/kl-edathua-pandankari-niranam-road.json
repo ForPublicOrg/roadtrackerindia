@@ -1,0 +1,42 @@
+{
+  "id": "kl-edathua-pandankari-niranam-road",
+  "ref": "MDR",
+  "name": "Edathua - Pandankari - Niranam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Kurattikkadu, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kurattikkadu",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.47651,
+        9.36344
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.48236,
+        9.34435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

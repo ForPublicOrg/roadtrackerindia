@@ -1,0 +1,46 @@
+{
+  "id": "nh-309b",
+  "ref": "NH 309B",
+  "name": "Almora–Pithoragarh National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 75.6,
+  "route": {
+    "start": "Almora, Uttarakhand",
+    "end": "Pithoragarh, Uttarakhand",
+    "states": [
+      "Uttarakhand"
+    ],
+    "majorCities": [
+      "Almora",
+      "Pithoragarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Almora",
+      "coords": [
+        79.67403,
+        29.61422
+      ]
+    },
+    {
+      "name": "Pithoragarh",
+      "coords": [
+        80.07654,
+        29.52041
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

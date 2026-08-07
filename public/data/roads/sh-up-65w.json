@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-65w",
+  "ref": "SH 65W",
+  "name": "Moradabad–Patti Kalan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 33,
+  "route": {
+    "start": "Moradabad, Uttar Pradesh",
+    "end": "Patti Kalan, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Moradabad",
+      "Tanda",
+      "Patti Kalan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Moradabad",
+      "coords": [
+        78.84114,
+        28.90325
+      ]
+    },
+    {
+      "name": "Tanda",
+      "coords": [
+        78.93596,
+        28.96701
+      ]
+    },
+    {
+      "name": "Patti Kalan",
+      "coords": [
+        79.08473,
+        29.10589
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -7,8 +7,15 @@
   "lengthKm": 173,
   "lanes": "6 lanes, access-controlled",
   "agency": "MSRDC (Maharashtra State Road Development Corporation)",
+  "authority": "msrdc",
   "cost": "₹42,711 crore (approx., including land)",
   "contractor": "Built in twelve packages; the winning bidders include Megha Engineering (MEIL), Navayuga, GR Infraprojects and PNC Infratech",
+  "builtBy": [
+    { "org": "meil", "note": "one of twelve packages" },
+    { "org": "navayuga", "note": "one of twelve packages" },
+    { "org": "gr-infraprojects", "note": "one of twelve packages" },
+    { "org": "pnc-infratech", "note": "one of twelve packages" }
+  ],
   "route": {
     "start": "Urse (Mumbai–Pune Expressway junction), Pune district, Maharashtra",
     "end": "Urse (the ring closes back on itself), Pune district, Maharashtra",

@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-62",
+  "ref": "MDR 62",
+  "name": "Verappampalayam–Periyasemur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.7,
+  "route": {
+    "start": "Verappampalayam, Tamil Nadu",
+    "end": "Periyasemur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Verappampalayam",
+      "Erode",
+      "Nasiyanur",
+      "Periyasemur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Verappampalayam",
+      "coords": [
+        77.6918,
+        11.32989
+      ]
+    },
+    {
+      "name": "Nasiyanur",
+      "coords": [
+        77.66753,
+        11.35198
+      ]
+    },
+    {
+      "name": "Periyasemur",
+      "coords": [
+        77.69612,
+        11.36574
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sh-up-2c",
+  "ref": "SH 2C",
+  "name": "Nighasan–Puranpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 103.4,
+  "route": {
+    "start": "Nighasan, Uttar Pradesh",
+    "end": "Puranpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nighasan",
+      "Palia Kalan",
+      "Laksmipur",
+      "Puranpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nighasan",
+      "coords": [
+        80.86151,
+        28.23247
+      ]
+    },
+    {
+      "name": "Palia Kalan",
+      "coords": [
+        80.57622,
+        28.43041
+      ]
+    },
+    {
+      "name": "Laksmipur",
+      "coords": [
+        80.38319,
+        28.61718
+      ]
+    },
+    {
+      "name": "Puranpur",
+      "coords": [
+        80.13861,
+        28.51524
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-128c",
+  "ref": "NH 128C",
+  "name": "Azamgarh–Dohrighat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 40.8,
+  "route": {
+    "start": "Azamgarh, Uttar Pradesh",
+    "end": "Dohrighat, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Azamgarh",
+      "Dohrighat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Azamgarh",
+      "coords": [
+        83.1654,
+        26.09411
+      ]
+    },
+    {
+      "name": "Dohrighat",
+      "coords": [
+        83.47701,
+        26.25171
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

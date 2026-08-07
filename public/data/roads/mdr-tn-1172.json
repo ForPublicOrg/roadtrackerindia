@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1172",
+  "ref": "MDR 1172",
+  "name": "Vadalur–Neyveli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Vadalur, Tamil Nadu",
+    "end": "Neyveli, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadalur",
+      "Neyveli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadalur",
+      "coords": [
+        79.55774,
+        11.53446
+      ]
+    },
+    {
+      "name": "Neyveli",
+      "coords": [
+        79.52532,
+        11.54713
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "mysuru-kushalnagar-expressway",
+  "ref": "NH",
+  "name": "Mysuru-Kushalnagar Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 91.8,
+  "route": {
+    "start": "Baichanahalli, Karnataka",
+    "end": "Srirangapatna, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Baichanahalli",
+      "Kushalanagara",
+      "Periyapatna",
+      "Hunsur",
+      "Krishnarajanagara",
+      "Srirangapatna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baichanahalli",
+      "coords": [
+        75.91004,
+        12.43994
+      ]
+    },
+    {
+      "name": "Kushalanagara",
+      "coords": [
+        75.94843,
+        12.43182
+      ]
+    },
+    {
+      "name": "Periyapatna",
+      "coords": [
+        76.11515,
+        12.3488
+      ]
+    },
+    {
+      "name": "Hunsur",
+      "coords": [
+        76.26131,
+        12.32182
+      ]
+    },
+    {
+      "name": "Shabir Nagar",
+      "coords": [
+        76.31276,
+        12.34488
+      ]
+    },
+    {
+      "name": "Krishnarajanagara",
+      "coords": [
+        76.38019,
+        12.37961
+      ]
+    },
+    {
+      "name": "Kurgalli",
+      "coords": [
+        76.5687,
+        12.38502
+      ]
+    },
+    {
+      "name": "Srirangapatna",
+      "coords": [
+        76.67532,
+        12.41086
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

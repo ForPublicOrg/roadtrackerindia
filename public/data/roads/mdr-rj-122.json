@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-122",
+  "ref": "MDR 122",
+  "name": "Samdari–Pali District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 65.6,
+  "route": {
+    "start": "Samdari, Rajasthan",
+    "end": "Pali, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Samdari",
+      "Pali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Samdari",
+      "coords": [
+        72.5872,
+        25.78379
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        73.17785,
+        25.75714
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

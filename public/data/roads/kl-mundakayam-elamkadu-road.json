@@ -1,0 +1,42 @@
+{
+  "id": "kl-mundakayam-elamkadu-road",
+  "ref": "MDR",
+  "name": "Mundakayam - Elamkadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.4,
+  "route": {
+    "start": "Mundakkayam, Kerala",
+    "end": "Vagamon, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundakkayam",
+      "Vagamon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundakkayam",
+      "coords": [
+        76.88507,
+        9.53787
+      ]
+    },
+    {
+      "name": "Vagamon",
+      "coords": [
+        76.89541,
+        9.63374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

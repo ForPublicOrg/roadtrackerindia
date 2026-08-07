@@ -1,0 +1,46 @@
+{
+  "id": "nh-465",
+  "ref": "NH 465",
+  "name": "Mohol–Naldurg National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 106.5,
+  "route": {
+    "start": "Mohol, Maharashtra",
+    "end": "Naldurg, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Mohol",
+      "Naldurg"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohol",
+      "coords": [
+        75.63976,
+        17.80818
+      ]
+    },
+    {
+      "name": "Naldurg",
+      "coords": [
+        76.08804,
+        17.75929
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

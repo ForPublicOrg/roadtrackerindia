@@ -1,0 +1,49 @@
+{
+  "id": "mdr-tn-1252",
+  "ref": "MDR 1252",
+  "name": "Anna Nagar–Vavipalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Anna Nagar, Tamil Nadu",
+    "end": "Vavipalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Anna Nagar",
+      "Vavipalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anna Nagar",
+      "coords": [
+        77.36533,
+        11.20774
+      ]
+    },
+    {
+      "name": "Puluvapatti",
+      "coords": [
+        77.37397,
+        11.17247
+      ]
+    },
+    {
+      "name": "Vavipalayam",
+      "coords": [
+        77.38248,
+        11.16085
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

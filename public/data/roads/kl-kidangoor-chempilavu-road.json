@@ -1,0 +1,43 @@
+{
+  "id": "kl-kidangoor-chempilavu-road",
+  "ref": "MDR",
+  "name": "Kidangoor - Chempilavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kidangoor, Kerala",
+    "end": "Ettumanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kidangoor",
+      "Puliyannoor",
+      "Ettumanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kidangoor",
+      "coords": [
+        76.62817,
+        9.68154
+      ]
+    },
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.61042,
+        9.67411
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

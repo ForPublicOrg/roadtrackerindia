@@ -1,0 +1,62 @@
+{
+  "id": "nh-166h",
+  "ref": "NH 166H",
+  "name": "Miraj–Ishwarpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 52.7,
+  "route": {
+    "start": "Miraj, Maharashtra",
+    "end": "Ishwarpur, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Miraj",
+      "Sangli",
+      "Ashta",
+      "Ishwarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Miraj",
+      "coords": [
+        74.64504,
+        16.83097
+      ]
+    },
+    {
+      "name": "Sangli",
+      "coords": [
+        74.587,
+        16.85173
+      ]
+    },
+    {
+      "name": "Ashta",
+      "coords": [
+        74.40626,
+        16.94546
+      ]
+    },
+    {
+      "name": "Ishwarpur",
+      "coords": [
+        74.26893,
+        17.04474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vattiyamthodu-manikkadavu-road",
+  "ref": "MDR",
+  "name": "Vattiyamthodu - Manikkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Payyavoor, Kerala",
+    "end": "Chemperi, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Payyavoor",
+      "Chemperi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.66229,
+        12.07705
+      ]
+    },
+    {
+      "name": "Chemperi",
+      "coords": [
+        75.65498,
+        12.09338
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

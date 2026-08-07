@@ -1,0 +1,69 @@
+{
+  "id": "nh-130",
+  "ref": "NH 130",
+  "name": "Simga–Ambikapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 292.2,
+  "route": {
+    "start": "Simga, Chhattisgarh",
+    "end": "Ambikapur, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Simga",
+      "Pali",
+      "Katghora",
+      "Ambikapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Simga",
+      "coords": [
+        81.70411,
+        21.6168
+      ]
+    },
+    {
+      "name": "Ratanpur",
+      "coords": [
+        82.17925,
+        22.2689
+      ]
+    },
+    {
+      "name": "Pali",
+      "coords": [
+        82.33561,
+        22.37252
+      ]
+    },
+    {
+      "name": "Katghora",
+      "coords": [
+        82.53919,
+        22.5142
+      ]
+    },
+    {
+      "name": "Ambikapur",
+      "coords": [
+        83.1899,
+        23.10438
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

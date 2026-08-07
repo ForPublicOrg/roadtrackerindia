@@ -1,0 +1,51 @@
+{
+  "id": "kl-kavumbhagam-muthoor-road",
+  "ref": "MDR",
+  "name": "Kavumbhagam - Muthoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kizhakken Muthoor, Kerala",
+    "end": "Kavumbhagom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kizhakken Muthoor",
+      "Thiruvalla",
+      "Muthoor",
+      "Kavumbhagom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kizhakken Muthoor",
+      "coords": [
+        76.57919,
+        9.39813
+      ]
+    },
+    {
+      "name": "Muthoor",
+      "coords": [
+        76.56682,
+        9.39748
+      ]
+    },
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.55779,
+        9.3773
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

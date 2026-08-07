@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-99",
+  "ref": "MDR 99",
+  "name": "Chatra–Kadma Khurd District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.8,
+  "route": {
+    "start": "Chatra, Jharkhand",
+    "end": "Kadma Khurd, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chatra",
+      "Kadma Khurd"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chatra",
+      "coords": [
+        84.96898,
+        24.05847
+      ]
+    },
+    {
+      "name": "Kadma Khurd",
+      "coords": [
+        85.15232,
+        24.14513
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

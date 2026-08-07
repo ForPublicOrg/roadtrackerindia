@@ -1,0 +1,42 @@
+{
+  "id": "kl-thuravoor-thykkattussery-road",
+  "ref": "MDR",
+  "name": "Thuravoor - Thykkattussery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Cherthala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Cherthala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.33329,
+        9.77518
+      ]
+    },
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.3186,
+        9.76854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

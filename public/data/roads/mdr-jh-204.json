@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-204",
+  "ref": "MDR 204",
+  "name": "Mandro–Mahagama District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.5,
+  "route": {
+    "start": "Mandro, Jharkhand",
+    "end": "Mahagama, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Mandro",
+      "Mahagama"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandro",
+      "coords": [
+        87.36776,
+        25.20037
+      ]
+    },
+    {
+      "name": "Mahagama",
+      "coords": [
+        87.45178,
+        25.11011
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

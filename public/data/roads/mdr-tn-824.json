@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-824",
+  "ref": "MDR 824",
+  "name": "HAPP Colony–Thiruverumbur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.5,
+  "route": {
+    "start": "HAPP Colony, Tamil Nadu",
+    "end": "Thiruverumbur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "HAPP Colony",
+      "Thuvakudi",
+      "Thiruverumbur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "HAPP Colony",
+      "coords": [
+        78.78829,
+        10.66283
+      ]
+    },
+    {
+      "name": "Thuvakudi",
+      "coords": [
+        78.79121,
+        10.73186
+      ]
+    },
+    {
+      "name": "Thiruverumbur",
+      "coords": [
+        78.77564,
+        10.78623
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

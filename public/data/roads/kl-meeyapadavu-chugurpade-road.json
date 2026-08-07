@@ -1,0 +1,42 @@
+{
+  "id": "kl-meeyapadavu-chugurpade-road",
+  "ref": "MDR",
+  "name": "Meeyapadavu - Chugurpade Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.94777,
+        12.70444
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.95296,
+        12.71379
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

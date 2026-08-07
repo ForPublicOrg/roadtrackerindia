@@ -1,0 +1,42 @@
+{
+  "id": "mz-lunglei-thenzawl-road",
+  "ref": "SH",
+  "name": "Lunglei-Thenzawl road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 78.1,
+  "route": {
+    "start": "Lunglei, Mizoram",
+    "end": "Thenzawl, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Lunglei",
+      "Thenzawl"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lunglei",
+      "coords": [
+        92.76095,
+        22.86841
+      ]
+    },
+    {
+      "name": "Thenzawl",
+      "coords": [
+        92.77534,
+        23.28129
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

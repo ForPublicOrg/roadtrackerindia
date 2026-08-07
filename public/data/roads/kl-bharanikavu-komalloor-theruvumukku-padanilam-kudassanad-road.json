@@ -1,0 +1,42 @@
+{
+  "id": "kl-bharanikavu-komalloor-theruvumukku-padanilam-kudassanad-road",
+  "ref": "MDR",
+  "name": "Bharanikavu - Komalloor - Theruvumukku - Padanilam - Kudassanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.9,
+  "route": {
+    "start": "Nooranad, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nooranad",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nooranad",
+      "coords": [
+        76.66369,
+        9.16703
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.56245,
+        9.19204
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

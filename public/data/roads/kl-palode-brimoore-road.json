@@ -1,0 +1,42 @@
+{
+  "id": "kl-palode-brimoore-road",
+  "ref": "MDR",
+  "name": "Palode - Brimoore Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.3,
+  "route": {
+    "start": "Vithura, Kerala",
+    "end": "Pazhakutty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vithura",
+      "Pazhakutty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vithura",
+      "coords": [
+        77.09797,
+        8.76541
+      ]
+    },
+    {
+      "name": "Pazhakutty",
+      "coords": [
+        77.02886,
+        8.72268
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

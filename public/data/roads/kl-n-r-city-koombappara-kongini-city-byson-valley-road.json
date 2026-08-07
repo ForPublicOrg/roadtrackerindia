@@ -1,0 +1,42 @@
+{
+  "id": "kl-n-r-city-koombappara-kongini-city-byson-valley-road",
+  "ref": "MDR",
+  "name": "N.R.City - Koombappara - Kongini City - Byson Valley Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Anachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Anachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.13777,
+        9.98584
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.11378,
+        9.96916
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

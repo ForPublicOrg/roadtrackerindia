@@ -1,0 +1,58 @@
+{
+  "id": "sh-mp-42",
+  "ref": "SH 42",
+  "name": "Katangi–Nainpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 147,
+  "route": {
+    "start": "Katangi, Maharashtra",
+    "end": "Nainpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Katangi",
+      "Seoni",
+      "Keolari",
+      "Nainpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Katangi",
+      "coords": [
+        79.75645,
+        21.59704
+      ]
+    },
+    {
+      "name": "Seoni",
+      "coords": [
+        79.55065,
+        22.08829
+      ]
+    },
+    {
+      "name": "Keolari",
+      "coords": [
+        79.90857,
+        22.37191
+      ]
+    },
+    {
+      "name": "Nainpur",
+      "coords": [
+        80.09514,
+        22.42409
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

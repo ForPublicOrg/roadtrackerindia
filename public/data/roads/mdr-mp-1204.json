@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1204",
+  "ref": "MDR 1204",
+  "name": "Singrauli–Ghorawal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 51.2,
+  "route": {
+    "start": "Singrauli, Madhya Pradesh",
+    "end": "Ghorawal, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Singrauli",
+      "Ghorawal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Singrauli",
+      "coords": [
+        82.3439,
+        24.42303
+      ]
+    },
+    {
+      "name": "Ghorawal",
+      "coords": [
+        82.64804,
+        24.5195
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

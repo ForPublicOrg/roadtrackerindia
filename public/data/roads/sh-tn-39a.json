@@ -1,0 +1,49 @@
+{
+  "id": "sh-tn-39a",
+  "ref": "SH 39A",
+  "name": "Shencottai–Pavoorchatram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.2,
+  "route": {
+    "start": "Shencottai, Tamil Nadu",
+    "end": "Pavoorchatram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Shencottai",
+      "Pavoorchatram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shencottai",
+      "coords": [
+        77.25636,
+        8.97451
+      ]
+    },
+    {
+      "name": "Surandai",
+      "coords": [
+        77.41887,
+        8.97529
+      ]
+    },
+    {
+      "name": "Pavoorchatram",
+      "coords": [
+        77.38086,
+        8.91625
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

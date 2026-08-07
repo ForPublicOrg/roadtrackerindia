@@ -1,0 +1,84 @@
+{
+  "id": "nh-148a",
+  "ref": "NH 148A",
+  "name": "IFFCO Chowk–Lado Sarai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 14.2,
+  "route": {
+    "start": "IFFCO Chowk, Haryana",
+    "end": "Lado Sarai, Delhi",
+    "states": [
+      "Haryana",
+      "Delhi"
+    ],
+    "majorCities": [
+      "IFFCO Chowk",
+      "Sector 26",
+      "Chattarpur Farms",
+      "Lado Sarai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "IFFCO Chowk",
+      "coords": [
+        77.06902,
+        28.47766
+      ]
+    },
+    {
+      "name": "Sector 25",
+      "coords": [
+        77.08352,
+        28.48022
+      ]
+    },
+    {
+      "name": "Sector 26",
+      "coords": [
+        77.10044,
+        28.48193
+      ]
+    },
+    {
+      "name": "Sector 42",
+      "coords": [
+        77.12144,
+        28.47884
+      ]
+    },
+    {
+      "name": "Chattarpur Farms",
+      "coords": [
+        77.15034,
+        28.49434
+      ]
+    },
+    {
+      "name": "Chhattarpur",
+      "coords": [
+        77.17681,
+        28.50771
+      ]
+    },
+    {
+      "name": "Lado Sarai",
+      "coords": [
+        77.18986,
+        28.5229
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

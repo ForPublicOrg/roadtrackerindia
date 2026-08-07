@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-29",
+  "ref": "MDR 29",
+  "name": "Rahe–Sisipidih District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.3,
+  "route": {
+    "start": "Rahe, Jharkhand",
+    "end": "Sisipidih, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Rahe",
+      "Sisipidih"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rahe",
+      "coords": [
+        85.65092,
+        23.26714
+      ]
+    },
+    {
+      "name": "Sisipidih",
+      "coords": [
+        85.66054,
+        23.34135
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

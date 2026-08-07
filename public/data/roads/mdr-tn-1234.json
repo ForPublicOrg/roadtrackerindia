@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1234",
+  "ref": "MDR 1234",
+  "name": "Paramathi Velur–Paramathi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.8,
+  "route": {
+    "start": "Paramathi Velur, Tamil Nadu",
+    "end": "Paramathi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Paramathi Velur",
+      "Paramathi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paramathi Velur",
+      "coords": [
+        77.96496,
+        11.10486
+      ]
+    },
+    {
+      "name": "Paramathi",
+      "coords": [
+        77.95157,
+        11.25567
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

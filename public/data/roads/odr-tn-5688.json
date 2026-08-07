@@ -1,0 +1,43 @@
+{
+  "id": "odr-tn-5688",
+  "ref": "ODR 5688",
+  "name": "Podaturpet–Palasamudram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Podaturpet, Tamil Nadu",
+    "end": "Palasamudram, Andhra Pradesh",
+    "states": [
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Podaturpet",
+      "Palasamudram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Podaturpet",
+      "coords": [
+        79.43524,
+        13.25341
+      ]
+    },
+    {
+      "name": "Palasamudram",
+      "coords": [
+        79.41686,
+        13.2517
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-7",
+  "ref": "ODR 7",
+  "name": "Minjur–Kadapakkam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Minjur, Tamil Nadu",
+    "end": "Kadapakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Minjur",
+      "Kadapakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Minjur",
+      "coords": [
+        80.22931,
+        13.23582
+      ]
+    },
+    {
+      "name": "Kadapakkam",
+      "coords": [
+        80.2367,
+        13.23293
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kalarikkal-junction-manivelikadavu-road",
+  "ref": "MDR",
+  "name": "Kalarikkal Junction - Manivelikadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Nangiarkulangara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Nangiarkulangara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.46744,
+        9.15259
+      ]
+    },
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.46779,
+        9.17471
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

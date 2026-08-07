@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2222",
+  "ref": "ODR 2222",
+  "name": "Thakkolam–Kanchipuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Thakkolam, Tamil Nadu",
+    "end": "Kanchipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thakkolam",
+      "Kanchipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.67522,
+        13.00057
+      ]
+    },
+    {
+      "name": "Kanchipuram",
+      "coords": [
+        79.62601,
+        12.95013
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-1022",
+  "ref": "MDR 1022",
+  "name": "Tiruvottiyur–Kargil Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Tiruvottiyur, Tamil Nadu",
+    "end": "Kargil Nagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvottiyur",
+      "New Washermanpet",
+      "Kargil Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvottiyur",
+      "coords": [
+        80.28868,
+        13.15278
+      ]
+    },
+    {
+      "name": "Kargil Nagar",
+      "coords": [
+        80.2971,
+        13.15718
+      ]
+    },
+    {
+      "name": "Tiruvottiyur",
+      "coords": [
+        80.30172,
+        13.15803
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "nh-543k",
+  "ref": "NH 543K",
+  "name": "Police Line–Balaghat National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 108.1,
+  "route": {
+    "start": "Police Line, Maharashtra",
+    "end": "Balaghat, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Police Line",
+      "Bhandara",
+      "Tumsar",
+      "Waraseoni",
+      "Balaghat"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Police Line",
+      "coords": [
+        79.66405,
+        21.15472
+      ]
+    },
+    {
+      "name": "Bhandara",
+      "coords": [
+        79.67498,
+        21.17001
+      ]
+    },
+    {
+      "name": "Mohadi",
+      "coords": [
+        79.67562,
+        21.31117
+      ]
+    },
+    {
+      "name": "Tumsar",
+      "coords": [
+        79.74947,
+        21.38252
+      ]
+    },
+    {
+      "name": "Waraseoni",
+      "coords": [
+        80.05709,
+        21.76744
+      ]
+    },
+    {
+      "name": "Balaghat",
+      "coords": [
+        80.18469,
+        21.81776
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

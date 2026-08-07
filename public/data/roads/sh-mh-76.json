@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-76",
+  "ref": "SH 76",
+  "name": "Patan–Pandharpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 154.5,
+  "route": {
+    "start": "Patan, Maharashtra",
+    "end": "Pandharpur, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Patan",
+      "Mayani",
+      "Pandharpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patan",
+      "coords": [
+        74.0242,
+        17.34799
+      ]
+    },
+    {
+      "name": "Mayani",
+      "coords": [
+        74.54585,
+        17.44322
+      ]
+    },
+    {
+      "name": "Pandharpur",
+      "coords": [
+        75.33124,
+        17.67642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

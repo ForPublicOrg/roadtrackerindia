@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-173",
+  "ref": "MDR 173",
+  "name": "Thriprayar–Irinjalakuda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.11639,
+        10.39488
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.09903,
+        10.38668
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

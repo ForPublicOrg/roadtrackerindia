@@ -1,0 +1,72 @@
+{
+  "id": "sh-tn-113a",
+  "ref": "SH 113A",
+  "name": "Mangadu–Pallavaram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 12.5,
+  "route": {
+    "start": "Mangadu, Tamil Nadu",
+    "end": "Pallavaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mangadu",
+      "Poonamallee",
+      "Kundrathur",
+      "Pallavaram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangadu",
+      "coords": [
+        80.11574,
+        13.045
+      ]
+    },
+    {
+      "name": "Gerugambakkam",
+      "coords": [
+        80.11127,
+        13.02778
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.0976,
+        12.99811
+      ]
+    },
+    {
+      "name": "Kovur",
+      "coords": [
+        80.11034,
+        12.99581
+      ]
+    },
+    {
+      "name": "Anakaputhur",
+      "coords": [
+        80.13051,
+        12.97802
+      ]
+    },
+    {
+      "name": "Pallavaram",
+      "coords": [
+        80.14504,
+        12.97064
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

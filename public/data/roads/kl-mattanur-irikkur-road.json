@@ -1,0 +1,42 @@
+{
+  "id": "kl-mattanur-irikkur-road",
+  "ref": "MDR",
+  "name": "Mattanur - Irikkur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Irikkoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Irikkoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.57141,
+        11.93151
+      ]
+    },
+    {
+      "name": "Irikkoor",
+      "coords": [
+        75.55717,
+        11.9765
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

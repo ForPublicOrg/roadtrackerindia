@@ -1,0 +1,83 @@
+{
+  "id": "nh-309",
+  "ref": "NH 309",
+  "name": "Rudrapur–Srinagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 329.4,
+  "route": {
+    "start": "Rudrapur, Uttarakhand",
+    "end": "Srinagar, Uttarakhand",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Rudrapur",
+      "Thakurdwara",
+      "Srinagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rudrapur",
+      "coords": [
+        79.3972,
+        28.9709
+      ]
+    },
+    {
+      "name": "Bajpur",
+      "coords": [
+        79.12438,
+        29.13833
+      ]
+    },
+    {
+      "name": "Sultanpur",
+      "coords": [
+        79.06064,
+        29.149
+      ]
+    },
+    {
+      "name": "Thakurdwara",
+      "coords": [
+        78.93075,
+        29.20538
+      ]
+    },
+    {
+      "name": "Rāmnagar",
+      "coords": [
+        79.12659,
+        29.39474
+      ]
+    },
+    {
+      "name": "Pauri",
+      "coords": [
+        78.77725,
+        30.14604
+      ]
+    },
+    {
+      "name": "Srinagar",
+      "coords": [
+        78.77766,
+        30.22223
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

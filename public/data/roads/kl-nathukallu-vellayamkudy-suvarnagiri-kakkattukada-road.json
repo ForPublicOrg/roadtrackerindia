@@ -1,0 +1,57 @@
+{
+  "id": "kl-nathukallu-vellayamkudy-suvarnagiri-kakkattukada-road",
+  "ref": "MDR",
+  "name": "Nathukallu - Vellayamkudy - Suvarnagiri - Kakkattukada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "School Kavala, Kerala",
+    "end": "Erattayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "School Kavala",
+      "Kattappana",
+      "Erattayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "School Kavala",
+      "coords": [
+        77.08717,
+        9.74993
+      ]
+    },
+    {
+      "name": "Kattappana",
+      "coords": [
+        77.10165,
+        9.7604
+      ]
+    },
+    {
+      "name": "Pezhumkavala",
+      "coords": [
+        77.10288,
+        9.76855
+      ]
+    },
+    {
+      "name": "Erattayar",
+      "coords": [
+        77.10793,
+        9.78616
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

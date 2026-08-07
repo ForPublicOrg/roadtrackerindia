@@ -1,0 +1,46 @@
+{
+  "id": "nh-102c",
+  "ref": "NH 102C",
+  "name": "Palel–Chandel National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 15.6,
+  "route": {
+    "start": "Palel, Manipur",
+    "end": "Chandel, Manipur",
+    "states": [
+      "Manipur"
+    ],
+    "majorCities": [
+      "Palel",
+      "Chandel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palel",
+      "coords": [
+        94.0248,
+        24.45027
+      ]
+    },
+    {
+      "name": "Chandel",
+      "coords": [
+        94.0008,
+        24.33203
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

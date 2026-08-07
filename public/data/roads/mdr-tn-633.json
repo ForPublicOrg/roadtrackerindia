@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-633",
+  "ref": "MDR 633",
+  "name": "Medavakkam–Thiruporur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.6,
+  "route": {
+    "start": "Medavakkam, Tamil Nadu",
+    "end": "Thiruporur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Medavakkam",
+      "Sithalapakkam",
+      "Thiruporur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Medavakkam",
+      "coords": [
+        80.1922,
+        12.91565
+      ]
+    },
+    {
+      "name": "Sithalapakkam",
+      "coords": [
+        80.17998,
+        12.89348
+      ]
+    },
+    {
+      "name": "Madambakkam",
+      "coords": [
+        80.17461,
+        12.89048
+      ]
+    },
+    {
+      "name": "Thiruporur",
+      "coords": [
+        80.13774,
+        12.71154
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "nh-166s",
+  "ref": "NH 166S",
+  "name": "Colvale–Pernem National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 7.8,
+  "route": {
+    "start": "Colvale, Goa",
+    "end": "Pernem, Goa",
+    "states": [
+      "Goa"
+    ],
+    "majorCities": [
+      "Colvale",
+      "Pernem"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Colvale",
+      "coords": [
+        73.83672,
+        15.67762
+      ]
+    },
+    {
+      "name": "Pernem",
+      "coords": [
+        73.87123,
+        15.72521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-panamaram-nelliyambam-road",
+  "ref": "MDR",
+  "name": "Panamaram - Nelliyambam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.07875,
+        11.74234
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.09691,
+        11.74098
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

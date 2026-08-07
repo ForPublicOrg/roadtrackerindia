@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjirapuzha-palakkayam-injikunnu-road",
+  "ref": "MDR",
+  "name": "Kanjirapuzha - Palakkayam - Injikunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Mannarkkad, Kerala",
+    "end": "Kumaramputhur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannarkkad",
+      "Kumaramputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannarkkad",
+      "coords": [
+        76.53418,
+        10.98938
+      ]
+    },
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.58125,
+        10.98249
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3025",
+  "ref": "MDR 3025",
+  "name": "Indus Town–Mandideep District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.2,
+  "route": {
+    "start": "Indus Town, Madhya Pradesh",
+    "end": "Mandideep, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Indus Town",
+      "Mandideep"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Indus Town",
+      "coords": [
+        77.53278,
+        23.13398
+      ]
+    },
+    {
+      "name": "Mandideep",
+      "coords": [
+        77.58014,
+        23.09711
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "sh-br-75",
+  "ref": "SH 75",
+  "name": "Darbhanga–Matihani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 57.7,
+  "route": {
+    "start": "Darbhanga, Bihar",
+    "end": "Matihani, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Darbhanga",
+      "Jalwara",
+      "Jaleshwar",
+      "Matihani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Darbhanga",
+      "coords": [
+        85.90288,
+        26.16939
+      ]
+    },
+    {
+      "name": "Jalwara",
+      "coords": [
+        85.85004,
+        26.2679
+      ]
+    },
+    {
+      "name": "Jaleshwar",
+      "coords": [
+        85.84507,
+        26.60955
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-201",
+  "ref": "SH 201",
+  "name": "Pati–Chandur Bazar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 97.9,
+  "route": {
+    "start": "Pati, Maharashtra",
+    "end": "Chandur Bazar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Pati",
+      "Daryapur",
+      "Chandur Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pati",
+      "coords": [
+        77.00078,
+        20.8848
+      ]
+    },
+    {
+      "name": "Daryapur",
+      "coords": [
+        77.324,
+        20.92442
+      ]
+    },
+    {
+      "name": "Chandur Bazar",
+      "coords": [
+        77.70154,
+        21.23173
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vendoor-vattanathara-pookkode-varakkara-pally-road",
+  "ref": "MDR",
+  "name": "Vendoor - Vattanathara - Pookkode - Varakkara Pally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.27946,
+        10.43149
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.31694,
+        10.43848
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

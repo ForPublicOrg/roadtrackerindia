@@ -1,0 +1,65 @@
+{
+  "id": "kl-old-nh-road-alappuzha",
+  "ref": "SH",
+  "name": "Old NH Road Alappuzha",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 6.5,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Shava kotta palam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Mullakkal",
+      "Alappuzha",
+      "Shava kotta palam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.3389,
+        9.46744
+      ]
+    },
+    {
+      "name": "Vellakinar",
+      "coords": [
+        76.3386,
+        9.49055
+      ]
+    },
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.33767,
+        9.49807
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.3286,
+        9.49771
+      ]
+    },
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.32781,
+        9.51662
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

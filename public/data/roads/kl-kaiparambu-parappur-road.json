@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaiparambu-parappur-road",
+  "ref": "MDR",
+  "name": "Kaiparambu - Parappur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Puzhakkal, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puzhakkal",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.1384,
+        10.60854
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.12435,
+        10.56452
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

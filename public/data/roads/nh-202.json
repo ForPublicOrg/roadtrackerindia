@@ -1,0 +1,103 @@
+{
+  "id": "nh-202",
+  "ref": "NH 202",
+  "name": "Mokokchung–New Lambulane National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 527.8,
+  "route": {
+    "start": "Mokokchung, Nagaland",
+    "end": "New Lambulane, Manipur",
+    "states": [
+      "Nagaland",
+      "Manipur"
+    ],
+    "majorCities": [
+      "Mokokchung",
+      "Tuensang",
+      "Shamator Town",
+      "Kiphire",
+      "Meluri",
+      "Poi",
+      "Ukhrul",
+      "Imphal",
+      "New Lambulane"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mokokchung",
+      "coords": [
+        94.50875,
+        26.30898
+      ]
+    },
+    {
+      "name": "Tuensang",
+      "coords": [
+        94.81057,
+        26.23285
+      ]
+    },
+    {
+      "name": "Shamator Town",
+      "coords": [
+        94.87692,
+        26.07588
+      ]
+    },
+    {
+      "name": "Kiphire",
+      "coords": [
+        94.78518,
+        25.88435
+      ]
+    },
+    {
+      "name": "Meluri",
+      "coords": [
+        94.62706,
+        25.683
+      ]
+    },
+    {
+      "name": "Jessami",
+      "coords": [
+        94.53829,
+        25.6124
+      ]
+    },
+    {
+      "name": "Poi",
+      "coords": [
+        94.46678,
+        25.28274
+      ]
+    },
+    {
+      "name": "Ukhrul",
+      "coords": [
+        94.36752,
+        25.09235
+      ]
+    },
+    {
+      "name": "Imphal",
+      "coords": [
+        93.94415,
+        24.81477
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

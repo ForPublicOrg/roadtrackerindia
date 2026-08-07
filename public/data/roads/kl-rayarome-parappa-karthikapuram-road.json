@@ -1,0 +1,42 @@
+{
+  "id": "kl-rayarome-parappa-karthikapuram-road",
+  "ref": "MDR",
+  "name": "Rayarome - Parappa - Karthikapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Alakode, Kerala",
+    "end": "Karuvanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Alakode",
+      "Karuvanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alakode",
+      "coords": [
+        75.44037,
+        12.21053
+      ]
+    },
+    {
+      "name": "Karuvanchal",
+      "coords": [
+        75.48092,
+        12.23125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

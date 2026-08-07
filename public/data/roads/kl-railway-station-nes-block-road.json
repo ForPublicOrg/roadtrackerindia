@@ -1,0 +1,42 @@
+{
+  "id": "kl-railway-station-nes-block-road",
+  "ref": "MDR",
+  "name": "Railway Station NES Block Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Puthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Puthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.76422,
+        8.99693
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.76445,
+        8.98801
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

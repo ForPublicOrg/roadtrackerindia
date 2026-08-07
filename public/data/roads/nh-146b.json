@@ -1,0 +1,77 @@
+{
+  "id": "nh-146b",
+  "ref": "NH 146B",
+  "name": "Badi–Khategaon National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 150.6,
+  "route": {
+    "start": "Badi, Madhya Pradesh",
+    "end": "Khategaon, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Badi",
+      "Narmadapuram",
+      "Rehti",
+      "Nasrullahganj",
+      "Khategaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badi",
+      "coords": [
+        78.07725,
+        23.02632
+      ]
+    },
+    {
+      "name": "Narmadapuram",
+      "coords": [
+        77.72067,
+        22.77491
+      ]
+    },
+    {
+      "name": "Budhni",
+      "coords": [
+        77.6833,
+        22.79048
+      ]
+    },
+    {
+      "name": "Rehti",
+      "coords": [
+        77.43329,
+        22.73466
+      ]
+    },
+    {
+      "name": "Nasrullahganj",
+      "coords": [
+        77.27038,
+        22.68474
+      ]
+    },
+    {
+      "name": "Khategaon",
+      "coords": [
+        76.96129,
+        22.56596
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

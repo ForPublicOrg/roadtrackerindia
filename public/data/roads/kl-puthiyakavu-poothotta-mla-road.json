@@ -1,0 +1,42 @@
+{
+  "id": "kl-puthiyakavu-poothotta-mla-road",
+  "ref": "MDR",
+  "name": "Puthiyakavu Poothotta MLA Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.1,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Thrippunithura, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Thrippunithura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.3855,
+        9.84598
+      ]
+    },
+    {
+      "name": "Thrippunithura",
+      "coords": [
+        76.35709,
+        9.92368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

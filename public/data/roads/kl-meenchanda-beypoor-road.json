@@ -1,0 +1,50 @@
+{
+  "id": "kl-meenchanda-beypoor-road",
+  "ref": "MDR",
+  "name": "Meenchanda Beypoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Beypore, Kerala",
+    "end": "Vattakinar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Beypore",
+      "Kozhikode",
+      "Vattakinar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Beypore",
+      "coords": [
+        75.80287,
+        11.16305
+      ]
+    },
+    {
+      "name": "Modern Bazar",
+      "coords": [
+        75.80223,
+        11.20132
+      ]
+    },
+    {
+      "name": "Kozhikode",
+      "coords": [
+        75.79664,
+        11.21581
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nh-130c",
+  "ref": "NH 130C",
+  "name": "Junagarh–Nava Raipur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 218.9,
+  "route": {
+    "start": "Junagarh, Odisha",
+    "end": "Nava Raipur, Chhattisgarh",
+    "states": [
+      "Odisha",
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Junagarh",
+      "Gariaband",
+      "Rajim",
+      "Nava Raipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Junagarh",
+      "coords": [
+        82.90719,
+        19.84375
+      ]
+    },
+    {
+      "name": "Gariaband",
+      "coords": [
+        82.0604,
+        20.63568
+      ]
+    },
+    {
+      "name": "Rajim",
+      "coords": [
+        81.8799,
+        20.96997
+      ]
+    },
+    {
+      "name": "Nava Raipur",
+      "coords": [
+        81.7477,
+        21.05495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

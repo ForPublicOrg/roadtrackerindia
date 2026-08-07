@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-18",
+  "ref": "MDR 18",
+  "name": "Ambur–Vaniyambadi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Ambur, Tamil Nadu",
+    "end": "Vaniyambadi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Ambur",
+      "Vaniyambadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambur",
+      "coords": [
+        78.71855,
+        12.78268
+      ]
+    },
+    {
+      "name": "Vaniyambadi",
+      "coords": [
+        78.71067,
+        12.78829
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

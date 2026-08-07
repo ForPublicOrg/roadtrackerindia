@@ -1,0 +1,90 @@
+{
+  "id": "western-freeway",
+  "ref": "NH",
+  "name": "Western Freeway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 29.2,
+  "route": {
+    "start": "Versova, Maharashtra",
+    "end": "Kalbadevi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Versova",
+      "Bandra West",
+      "Girgaon",
+      "Kalbadevi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Versova",
+      "coords": [
+        72.81951,
+        19.1229
+      ]
+    },
+    {
+      "name": "Santacruz West",
+      "coords": [
+        72.82205,
+        19.08367
+      ]
+    },
+    {
+      "name": "Bandra West",
+      "coords": [
+        72.82208,
+        19.06119
+      ]
+    },
+    {
+      "name": "Mahim",
+      "coords": [
+        72.8248,
+        19.0438
+      ]
+    },
+    {
+      "name": "Worli",
+      "coords": [
+        72.81371,
+        19.01353
+      ]
+    },
+    {
+      "name": "Cumballa Hill",
+      "coords": [
+        72.80172,
+        18.97137
+      ]
+    },
+    {
+      "name": "Girgaon",
+      "coords": [
+        72.81838,
+        18.95007
+      ]
+    },
+    {
+      "name": "Kalbadevi",
+      "coords": [
+        72.82325,
+        18.94287
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

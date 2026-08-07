@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-14",
+  "ref": "SH 14",
+  "name": "Mohania–Chausa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48.7,
+  "route": {
+    "start": "Mohania, Bihar",
+    "end": "Chausa, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Mohania",
+      "Dewal",
+      "Chausa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mohania",
+      "coords": [
+        83.62454,
+        25.1659
+      ]
+    },
+    {
+      "name": "Dewal",
+      "coords": [
+        83.78313,
+        25.38751
+      ]
+    },
+    {
+      "name": "Chausa",
+      "coords": [
+        83.88777,
+        25.48746
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

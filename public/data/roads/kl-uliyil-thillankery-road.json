@@ -1,0 +1,42 @@
+{
+  "id": "kl-uliyil-thillankery-road",
+  "ref": "MDR",
+  "name": "Uliyil - Thillankery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Kakkayangad, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayangad",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.66603,
+        11.9283
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.6431,
+        11.95322
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

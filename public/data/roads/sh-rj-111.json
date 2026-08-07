@@ -1,0 +1,43 @@
+{
+  "id": "sh-rj-111",
+  "ref": "SH 111",
+  "name": "Behror–Neemrana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 41.4,
+  "route": {
+    "start": "Behror, Rajasthan",
+    "end": "Neemrana, Haryana",
+    "states": [
+      "Rajasthan",
+      "Haryana"
+    ],
+    "majorCities": [
+      "Behror",
+      "Neemrana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Behror",
+      "coords": [
+        76.19984,
+        27.8571
+      ]
+    },
+    {
+      "name": "Neemrana",
+      "coords": [
+        76.38489,
+        28.14963
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

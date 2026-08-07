@@ -1,0 +1,51 @@
+{
+  "id": "sh-rj-2c",
+  "ref": "SH 2C",
+  "name": "Vidyadhar Nagar–Nawa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 93.1,
+  "route": {
+    "start": "Vidyadhar Nagar, Rajasthan",
+    "end": "Nawa, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Vidyadhar Nagar",
+      "Jaipur",
+      "Jobner",
+      "Nawa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vidyadhar Nagar",
+      "coords": [
+        75.77002,
+        26.94107
+      ]
+    },
+    {
+      "name": "Jobner",
+      "coords": [
+        75.39111,
+        26.98744
+      ]
+    },
+    {
+      "name": "Nawa",
+      "coords": [
+        74.99953,
+        27.01969
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

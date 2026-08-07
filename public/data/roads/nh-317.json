@@ -1,0 +1,62 @@
+{
+  "id": "nh-317",
+  "ref": "NH 317",
+  "name": "Birpara–Alipurduar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 66.8,
+  "route": {
+    "start": "Birpara, West Bengal",
+    "end": "Alipurduar, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Birpara",
+      "Madarihat",
+      "Hamiltonganj",
+      "Alipurduar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Birpara",
+      "coords": [
+        89.1451,
+        26.70358
+      ]
+    },
+    {
+      "name": "Madarihat",
+      "coords": [
+        89.2819,
+        26.69328
+      ]
+    },
+    {
+      "name": "Hamiltonganj",
+      "coords": [
+        89.37648,
+        26.66142
+      ]
+    },
+    {
+      "name": "Alipurduar",
+      "coords": [
+        89.58972,
+        26.49795
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

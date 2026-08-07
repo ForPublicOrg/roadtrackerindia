@@ -1,0 +1,43 @@
+{
+  "id": "kl-cheruvannur-kolathara-road",
+  "ref": "MDR",
+  "name": "Cheruvannur - Kolathara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Cheruvannur, Kerala",
+    "end": "Feroke, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheruvannur",
+      "Modern Bazar",
+      "Feroke"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheruvannur",
+      "coords": [
+        75.83209,
+        11.20372
+      ]
+    },
+    {
+      "name": "Feroke",
+      "coords": [
+        75.82991,
+        11.19126
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

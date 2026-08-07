@@ -1,0 +1,65 @@
+{
+  "id": "mdr-rj-25b",
+  "ref": "MDR 25B",
+  "name": "Udaipurwati–Mandawa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 52.7,
+  "route": {
+    "start": "Udaipurwati, Rajasthan",
+    "end": "Mandawa, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Udaipurwati",
+      "Nawalgarh",
+      "Mukandgarh",
+      "Mandawa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Udaipurwati",
+      "coords": [
+        75.38759,
+        27.69987
+      ]
+    },
+    {
+      "name": "Nawalgarh",
+      "coords": [
+        75.27212,
+        27.84059
+      ]
+    },
+    {
+      "name": "Dundlod",
+      "coords": [
+        75.23039,
+        27.90587
+      ]
+    },
+    {
+      "name": "Mukandgarh",
+      "coords": [
+        75.2307,
+        27.94904
+      ]
+    },
+    {
+      "name": "Mandawa",
+      "coords": [
+        75.15051,
+        28.05571
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

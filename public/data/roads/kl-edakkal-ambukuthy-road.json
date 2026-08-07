@@ -1,0 +1,42 @@
+{
+  "id": "kl-edakkal-ambukuthy-road",
+  "ref": "MDR",
+  "name": "Edakkal Ambukuthy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Sultan Bathery, Kerala",
+    "end": "Muttil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sultan Bathery",
+      "Muttil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sultan Bathery",
+      "coords": [
+        76.22905,
+        11.61778
+      ]
+    },
+    {
+      "name": "Muttil",
+      "coords": [
+        76.22556,
+        11.62883
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

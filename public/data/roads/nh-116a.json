@@ -1,0 +1,77 @@
+{
+  "id": "nh-116a",
+  "ref": "NH 116A",
+  "name": "Medinipur–Sagardighi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 258.5,
+  "route": {
+    "start": "Medinipur, West Bengal",
+    "end": "Sagardighi, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Medinipur",
+      "Chandrakona",
+      "Arambagh",
+      "Bardhaman",
+      "Sagardighi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Medinipur",
+      "coords": [
+        87.33866,
+        22.42543
+      ]
+    },
+    {
+      "name": "Chandrakona",
+      "coords": [
+        87.51114,
+        22.72652
+      ]
+    },
+    {
+      "name": "Arambagh",
+      "coords": [
+        87.77987,
+        22.88967
+      ]
+    },
+    {
+      "name": "Sadarghat",
+      "coords": [
+        87.84573,
+        23.20537
+      ]
+    },
+    {
+      "name": "Bardhaman",
+      "coords": [
+        87.86841,
+        23.25095
+      ]
+    },
+    {
+      "name": "Sagardighi",
+      "coords": [
+        88.01017,
+        24.28978
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

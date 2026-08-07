@@ -1,0 +1,42 @@
+{
+  "id": "kl-austin-road-keezhvaipur-kottenkudy-road",
+  "ref": "MDR",
+  "name": "Austin Road (Keezhvaipur - Kottenkudy Road)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Mallappally, Kerala",
+    "end": "Kumbanad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mallappally",
+      "Kumbanad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mallappally",
+      "coords": [
+        76.69378,
+        9.43123
+      ]
+    },
+    {
+      "name": "Kumbanad",
+      "coords": [
+        76.67261,
+        9.43087
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

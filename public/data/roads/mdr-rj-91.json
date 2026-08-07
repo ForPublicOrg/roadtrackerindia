@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-91",
+  "ref": "MDR 91",
+  "name": "Bilara–Marwar Junction District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 64.8,
+  "route": {
+    "start": "Bilara, Rajasthan",
+    "end": "Marwar Junction, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bilara",
+      "Sojat",
+      "Marwar Junction"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bilara",
+      "coords": [
+        73.70585,
+        26.17611
+      ]
+    },
+    {
+      "name": "Sojat",
+      "coords": [
+        73.65882,
+        25.9244
+      ]
+    },
+    {
+      "name": "Marwar Junction",
+      "coords": [
+        73.61519,
+        25.72701
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-369",
+  "ref": "MDR 369",
+  "name": "Mangadu–Kundrathur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Mangadu, Tamil Nadu",
+    "end": "Kundrathur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mangadu",
+      "Poonamallee",
+      "Gerugambakkam",
+      "Kundrathur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mangadu",
+      "coords": [
+        80.11574,
+        13.045
+      ]
+    },
+    {
+      "name": "Gerugambakkam",
+      "coords": [
+        80.11127,
+        13.02778
+      ]
+    },
+    {
+      "name": "Kovur",
+      "coords": [
+        80.10169,
+        13.00942
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.09944,
+        13.00353
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

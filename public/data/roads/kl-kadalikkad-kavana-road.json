@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadalikkad-kavana-road",
+  "ref": "MDR",
+  "name": "Kadalikkad - Kavana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Thodupuzha, Kerala",
+    "end": "Kizhakkekara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thodupuzha",
+      "Kizhakkekara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.6716,
+        9.9226
+      ]
+    },
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.63278,
+        9.92625
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

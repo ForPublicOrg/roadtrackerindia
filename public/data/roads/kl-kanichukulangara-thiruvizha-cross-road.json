@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanichukulangara-thiruvizha-cross-road",
+  "ref": "MDR",
+  "name": "Kanichukulangara-Thiruvizha cross road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.31456,
+        9.63486
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.32461,
+        9.6407
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

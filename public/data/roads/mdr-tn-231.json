@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-231",
+  "ref": "MDR 231",
+  "name": "Kalaiyarkovil–Devakottai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kalaiyarkovil, Tamil Nadu",
+    "end": "Devakottai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kalaiyarkovil",
+      "Devakottai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalaiyarkovil",
+      "coords": [
+        78.75057,
+        9.84109
+      ]
+    },
+    {
+      "name": "Devakottai",
+      "coords": [
+        78.73758,
+        9.84614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

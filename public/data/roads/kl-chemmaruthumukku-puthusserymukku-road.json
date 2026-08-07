@@ -1,0 +1,42 @@
+{
+  "id": "kl-chemmaruthumukku-puthusserymukku-road",
+  "ref": "MDR",
+  "name": "Chemmaruthumukku - Puthusserymukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Kallambalam, Kerala",
+    "end": "Kilimanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallambalam",
+      "Kilimanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.80948,
+        8.7667
+      ]
+    },
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.85859,
+        8.75521
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

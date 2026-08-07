@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-4461",
+  "ref": "ODR 4461",
+  "name": "Saligramam–Nerkundram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Saligramam, Tamil Nadu",
+    "end": "Nerkundram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Saligramam",
+      "Nerkundram",
+      "Mogappair East"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Saligramam",
+      "coords": [
+        80.19104,
+        13.06292
+      ]
+    },
+    {
+      "name": "Nerkundram",
+      "coords": [
+        80.18572,
+        13.06691
+      ]
+    },
+    {
+      "name": "Mogappair East",
+      "coords": [
+        80.18619,
+        13.07148
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

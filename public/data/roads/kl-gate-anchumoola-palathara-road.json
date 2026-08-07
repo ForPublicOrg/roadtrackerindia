@@ -1,0 +1,42 @@
+{
+  "id": "kl-gate-anchumoola-palathara-road",
+  "ref": "MDR",
+  "name": "Gate Anchumoola - Palathara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Pattambi, Kerala",
+    "end": "Valanchery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pattambi",
+      "Valanchery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pattambi",
+      "coords": [
+        76.12729,
+        10.83141
+      ]
+    },
+    {
+      "name": "Valanchery",
+      "coords": [
+        76.11783,
+        10.84237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "jh-puliyanam-mambra-karukutty-road",
+  "ref": "MDR",
+  "name": "Puliyanam - Mambra - Karukutty Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Angamaly, Kerala",
+    "end": "Valiyaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Angamaly",
+      "Valiyaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Angamaly",
+      "coords": [
+        76.37389,
+        10.23018
+      ]
+    },
+    {
+      "name": "Valiyaparambu",
+      "coords": [
+        76.3504,
+        10.21735
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

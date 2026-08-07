@@ -1,0 +1,42 @@
+{
+  "id": "kl-pookatta-baikatta-anakkettu-road",
+  "ref": "MDR",
+  "name": "Pookatta - Baikatta Anakkettu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Kumbala, Kerala",
+    "end": "Uppala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbala",
+      "Uppala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.96389,
+        12.62402
+      ]
+    },
+    {
+      "name": "Uppala",
+      "coords": [
+        74.94904,
+        12.6327
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

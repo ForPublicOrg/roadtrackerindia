@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-30",
+  "ref": "MDR 30",
+  "name": "Torpa–Gumla District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 43.4,
+  "route": {
+    "start": "Torpa, Jharkhand",
+    "end": "Gumla, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Torpa",
+      "Gumla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Torpa",
+      "coords": [
+        85.16423,
+        23.00843
+      ]
+    },
+    {
+      "name": "Gumla",
+      "coords": [
+        84.80995,
+        23.17749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "nh-927",
+  "ref": "NH 927",
+  "name": "Barabanki–Rupadiya National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 154.3,
+  "route": {
+    "start": "Barabanki, Uttar Pradesh",
+    "end": "Rupadiya, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Barabanki",
+      "Ramnagar",
+      "Bahraich",
+      "Nanpara",
+      "Nepalgunj",
+      "Rupadiya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barabanki",
+      "coords": [
+        81.23676,
+        26.92712
+      ]
+    },
+    {
+      "name": "Ramnagar",
+      "coords": [
+        81.40258,
+        27.09215
+      ]
+    },
+    {
+      "name": "Bahraich",
+      "coords": [
+        81.58333,
+        27.58281
+      ]
+    },
+    {
+      "name": "Nanpara",
+      "coords": [
+        81.4926,
+        27.86125
+      ]
+    },
+    {
+      "name": "Nepalgunj",
+      "coords": [
+        81.60046,
+        28.01896
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

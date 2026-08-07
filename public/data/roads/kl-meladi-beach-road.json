@@ -1,0 +1,42 @@
+{
+  "id": "kl-meladi-beach-road",
+  "ref": "MDR",
+  "name": "Meladi Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Vadakara, Kerala",
+    "end": "Koyilandy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vadakara",
+      "Koyilandy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadakara",
+      "coords": [
+        75.61124,
+        11.51219
+      ]
+    },
+    {
+      "name": "Koyilandy",
+      "coords": [
+        75.62028,
+        11.51559
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

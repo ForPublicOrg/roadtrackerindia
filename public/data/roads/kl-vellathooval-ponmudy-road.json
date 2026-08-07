@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellathooval-ponmudy-road",
+  "ref": "MDR",
+  "name": "Vellathooval - Ponmudy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Rajakkaad, Kerala",
+    "end": "Anachal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Rajakkaad",
+      "Anachal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.05801,
+        9.97629
+      ]
+    },
+    {
+      "name": "Anachal",
+      "coords": [
+        77.02916,
+        9.9753
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-26",
+  "ref": "SH 26",
+  "name": "Rewari–Bawal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Rewari, Haryana",
+    "end": "Bawal, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Rewari",
+      "Bawal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rewari",
+      "coords": [
+        76.63067,
+        28.22728
+      ]
+    },
+    {
+      "name": "Bawal",
+      "coords": [
+        76.59583,
+        28.19433
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

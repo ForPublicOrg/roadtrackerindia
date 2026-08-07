@@ -1,0 +1,42 @@
+{
+  "id": "kl-hidayath-nagar-pachilampara-uppala-bhagavathi-temple-road",
+  "ref": "MDR",
+  "name": "Hidayath Nagar - Pachilampara - Uppala Bhagavathi Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.90453,
+        12.68807
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.90713,
+        12.67785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

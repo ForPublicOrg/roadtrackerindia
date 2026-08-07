@@ -1,0 +1,78 @@
+{
+  "id": "nh-352",
+  "ref": "NH 352",
+  "name": "Narwana–Rewari National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 187.2,
+  "route": {
+    "start": "Narwana, Haryana",
+    "end": "Rewari, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Narwana",
+      "Jind",
+      "Julana",
+      "Rohtak",
+      "Jhajjar",
+      "Rewari"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narwana",
+      "coords": [
+        76.13705,
+        29.57516
+      ]
+    },
+    {
+      "name": "Jind",
+      "coords": [
+        76.32479,
+        29.34191
+      ]
+    },
+    {
+      "name": "Julana",
+      "coords": [
+        76.41722,
+        29.12493
+      ]
+    },
+    {
+      "name": "Rohtak",
+      "coords": [
+        76.57808,
+        28.89718
+      ]
+    },
+    {
+      "name": "Jhajjar",
+      "coords": [
+        76.67377,
+        28.61928
+      ]
+    },
+    {
+      "name": "Rewari",
+      "coords": [
+        76.64893,
+        28.21524
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

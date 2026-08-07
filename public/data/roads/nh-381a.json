@@ -1,0 +1,70 @@
+{
+  "id": "nh-381a",
+  "ref": "NH 381A",
+  "name": "Sankagiri–Vellakovil National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 67.1,
+  "route": {
+    "start": "Sankagiri, Tamil Nadu",
+    "end": "Vellakovil, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sankagiri",
+      "Veppadai",
+      "Erode",
+      "Muthur",
+      "Vellakovil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sankagiri",
+      "coords": [
+        77.84857,
+        11.46311
+      ]
+    },
+    {
+      "name": "Veppadai",
+      "coords": [
+        77.79034,
+        11.4072
+      ]
+    },
+    {
+      "name": "Erode",
+      "coords": [
+        77.73228,
+        11.33545
+      ]
+    },
+    {
+      "name": "Muthur",
+      "coords": [
+        77.73637,
+        11.04058
+      ]
+    },
+    {
+      "name": "Vellakovil",
+      "coords": [
+        77.71301,
+        10.94886
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

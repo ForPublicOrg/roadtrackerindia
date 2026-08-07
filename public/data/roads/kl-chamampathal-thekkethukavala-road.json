@@ -1,0 +1,42 @@
+{
+  "id": "kl-chamampathal-thekkethukavala-road",
+  "ref": "MDR",
+  "name": "Chamampathal - Thekkethukavala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Ponkunnam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Ponkunnam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.72104,
+        9.53755
+      ]
+    },
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.75064,
+        9.5372
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

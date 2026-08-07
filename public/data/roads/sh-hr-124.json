@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-124",
+  "ref": "SH 124",
+  "name": "Narnaul–Meham State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 92.3,
+  "route": {
+    "start": "Narnaul, Haryana",
+    "end": "Meham, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Narnaul",
+      "Kanina Khas",
+      "Charkhi Dadri",
+      "Meham"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Narnaul",
+      "coords": [
+        76.24771,
+        28.10236
+      ]
+    },
+    {
+      "name": "Kanina Khas",
+      "coords": [
+        76.30261,
+        28.33436
+      ]
+    },
+    {
+      "name": "Charkhi Dadri",
+      "coords": [
+        76.27404,
+        28.59717
+      ]
+    },
+    {
+      "name": "Meham",
+      "coords": [
+        76.3509,
+        28.8271
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vettichira-kattilangadi-road",
+  "ref": "MDR",
+  "name": "Vettichira - Kattilangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Vettichira, Kerala",
+    "end": "Kadampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vettichira",
+      "Kadampuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vettichira",
+      "coords": [
+        76.0119,
+        10.89606
+      ]
+    },
+    {
+      "name": "Kadampuzha",
+      "coords": [
+        76.02102,
+        10.92897
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

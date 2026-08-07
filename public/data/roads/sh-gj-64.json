@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-64",
+  "ref": "SH 64",
+  "name": "Bharuch–Rajpipla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 90.3,
+  "route": {
+    "start": "Bharuch, Gujarat",
+    "end": "Rajpipla, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Bharuch",
+      "Ankleshwar",
+      "Rajpipla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bharuch",
+      "coords": [
+        72.92957,
+        21.83245
+      ]
+    },
+    {
+      "name": "Ankleshwar",
+      "coords": [
+        73.00479,
+        21.63375
+      ]
+    },
+    {
+      "name": "Rajpipla",
+      "coords": [
+        73.50771,
+        21.87027
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

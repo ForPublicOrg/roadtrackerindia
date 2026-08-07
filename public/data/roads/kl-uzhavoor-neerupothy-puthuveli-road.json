@@ -1,0 +1,42 @@
+{
+  "id": "kl-uzhavoor-neerupothy-puthuveli-road",
+  "ref": "MDR",
+  "name": "Uzhavoor - Neerupothy - Puthuveli Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Koothattukulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Koothattukulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.61132,
+        9.79361
+      ]
+    },
+    {
+      "name": "Koothattukulam",
+      "coords": [
+        76.59614,
+        9.82231
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

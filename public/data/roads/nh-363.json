@@ -1,0 +1,61 @@
+{
+  "id": "nh-363",
+  "ref": "NH 363",
+  "name": "Mancherial–Rajura National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 113.1,
+  "route": {
+    "start": "Mancherial, Telangana",
+    "end": "Rajura, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Mancherial",
+      "Asifabad",
+      "Rajura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mancherial",
+      "coords": [
+        79.4443,
+        18.87157
+      ]
+    },
+    {
+      "name": "Bellampalli",
+      "coords": [
+        79.47775,
+        19.06217
+      ]
+    },
+    {
+      "name": "Asifabad",
+      "coords": [
+        79.30381,
+        19.36091
+      ]
+    },
+    {
+      "name": "Rajura",
+      "coords": [
+        79.34539,
+        19.57619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

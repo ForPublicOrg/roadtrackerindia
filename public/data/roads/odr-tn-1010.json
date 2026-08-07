@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-1010",
+  "ref": "ODR 1010",
+  "name": "Sholinghur–Lalapet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Sholinghur, Tamil Nadu",
+    "end": "Lalapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sholinghur",
+      "Lalapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sholinghur",
+      "coords": [
+        79.32566,
+        13.10516
+      ]
+    },
+    {
+      "name": "Lalapet",
+      "coords": [
+        79.33439,
+        13.08088
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

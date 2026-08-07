@@ -1,0 +1,56 @@
+{
+  "id": "kl-eruthupuzha-kothala-road",
+  "ref": "MDR",
+  "name": "Eruthupuzha - Kothala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.66534,
+        9.56458
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.66621,
+        9.56898
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.65983,
+        9.5792
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.65378,
+        9.60474
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

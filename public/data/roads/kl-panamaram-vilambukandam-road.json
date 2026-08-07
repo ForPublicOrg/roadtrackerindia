@@ -1,0 +1,42 @@
+{
+  "id": "kl-panamaram-vilambukandam-road",
+  "ref": "MDR",
+  "name": "Panamaram - Vilambukandam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.05777,
+        11.72408
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.03853,
+        11.71233
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

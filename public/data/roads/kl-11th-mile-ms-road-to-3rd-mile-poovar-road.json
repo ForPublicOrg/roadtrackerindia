@@ -1,0 +1,42 @@
+{
+  "id": "kl-11th-mile-ms-road-to-3rd-mile-poovar-road",
+  "ref": "MDR",
+  "name": "11th Mile MS Road to 3rd Mile Poovar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Neyyatinkara, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neyyatinkara",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.082,
+        8.37332
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.07366,
+        8.40889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

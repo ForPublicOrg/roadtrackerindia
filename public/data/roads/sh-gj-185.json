@@ -1,0 +1,58 @@
+{
+  "id": "sh-gj-185",
+  "ref": "SH 185",
+  "name": "Daman–Silvassa State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.6,
+  "route": {
+    "start": "Daman, Dadra and Nagar Haveli and Daman and Diu",
+    "end": "Silvassa, Dadra and Nagar Haveli and Daman and Diu",
+    "states": [
+      "Dadra and Nagar Haveli and Daman and Diu",
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Daman",
+      "Vapi",
+      "Silvassa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Daman",
+      "coords": [
+        72.84095,
+        20.42152
+      ]
+    },
+    {
+      "name": "Vapi",
+      "coords": [
+        72.91945,
+        20.36841
+      ]
+    },
+    {
+      "name": "Dadra",
+      "coords": [
+        72.96598,
+        20.32117
+      ]
+    },
+    {
+      "name": "Silvassa",
+      "coords": [
+        73.00401,
+        20.27131
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

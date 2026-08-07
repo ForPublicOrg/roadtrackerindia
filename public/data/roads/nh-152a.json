@@ -1,0 +1,47 @@
+{
+  "id": "nh-152a",
+  "ref": "NH 152A",
+  "name": "Kaithal–Khanauri National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 41.8,
+  "route": {
+    "start": "Kaithal, Haryana",
+    "end": "Khanauri, Punjab",
+    "states": [
+      "Haryana",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Kaithal",
+      "Khanauri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaithal",
+      "coords": [
+        76.45058,
+        29.85282
+      ]
+    },
+    {
+      "name": "Khanauri",
+      "coords": [
+        76.11214,
+        29.8323
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

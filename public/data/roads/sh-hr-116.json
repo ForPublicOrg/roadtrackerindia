@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-116",
+  "ref": "SH 116",
+  "name": "Thanesar–Shahbad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 24.3,
+  "route": {
+    "start": "Thanesar, Haryana",
+    "end": "Shahbad, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Thanesar",
+      "Kurukshetra",
+      "Shahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thanesar",
+      "coords": [
+        76.81997,
+        29.96577
+      ]
+    },
+    {
+      "name": "Kurukshetra",
+      "coords": [
+        76.82744,
+        29.9729
+      ]
+    },
+    {
+      "name": "Shahbad",
+      "coords": [
+        76.72708,
+        30.14852
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

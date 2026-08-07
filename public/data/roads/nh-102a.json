@@ -1,0 +1,76 @@
+{
+  "id": "nh-102a",
+  "ref": "NH 102A",
+  "name": "Palel–Pfutsero Town National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 354.4,
+  "route": {
+    "start": "Palel, Manipur",
+    "end": "Pfutsero Town, Manipur",
+    "states": [
+      "Manipur"
+    ],
+    "majorCities": [
+      "Palel",
+      "Heirok",
+      "Ukhrul",
+      "Pfutsero Town"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palel",
+      "coords": [
+        94.14034,
+        24.38914
+      ]
+    },
+    {
+      "name": "Heirok",
+      "coords": [
+        94.16614,
+        24.57855
+      ]
+    },
+    {
+      "name": "Hungpung",
+      "coords": [
+        94.34591,
+        25.06519
+      ]
+    },
+    {
+      "name": "Ukhrul",
+      "coords": [
+        94.3608,
+        25.09502
+      ]
+    },
+    {
+      "name": "Tuinem",
+      "coords": [
+        94.30969,
+        25.14689
+      ]
+    },
+    {
+      "name": "Pfutsero Town",
+      "coords": [
+        94.28298,
+        25.49805
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

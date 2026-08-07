@@ -1,0 +1,54 @@
+{
+  "id": "nh-148m",
+  "ref": "NH 148M",
+  "name": "Bhayli–Borsad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 51.3,
+  "route": {
+    "start": "Bhayli, Gujarat",
+    "end": "Borsad, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Bhayli",
+      "Padra",
+      "Borsad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhayli",
+      "coords": [
+        73.13268,
+        22.26649
+      ]
+    },
+    {
+      "name": "Padra",
+      "coords": [
+        73.08354,
+        22.24429
+      ]
+    },
+    {
+      "name": "Borsad",
+      "coords": [
+        72.90568,
+        22.40366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulangu-road",
+  "ref": "MDR",
+  "name": "Mulangu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Thalore, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Thalore"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.23858,
+        10.41495
+      ]
+    },
+    {
+      "name": "Thalore",
+      "coords": [
+        76.22966,
+        10.4158
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

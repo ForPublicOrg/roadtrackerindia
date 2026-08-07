@@ -1,0 +1,55 @@
+{
+  "id": "nh-132b",
+  "ref": "NH 132B",
+  "name": "Natham–Kanchipuram National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 40.9,
+  "route": {
+    "start": "Natham, Tamil Nadu",
+    "end": "Kanchipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Natham",
+      "Chengalpattu",
+      "Wallajahbad",
+      "Kanchipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Natham",
+      "coords": [
+        79.96801,
+        12.6998
+      ]
+    },
+    {
+      "name": "Wallajahbad",
+      "coords": [
+        79.81767,
+        12.79106
+      ]
+    },
+    {
+      "name": "Kanchipuram",
+      "coords": [
+        79.70412,
+        12.83724
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

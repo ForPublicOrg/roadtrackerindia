@@ -1,0 +1,42 @@
+{
+  "id": "kl-mangalam-murukkumpetta-road",
+  "ref": "MDR",
+  "name": "Mangalam - Murukkumpetta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Ottapalam, Kerala",
+    "end": "Sreekrishnapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottapalam",
+      "Sreekrishnapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottapalam",
+      "coords": [
+        76.40499,
+        10.802
+      ]
+    },
+    {
+      "name": "Sreekrishnapuram",
+      "coords": [
+        76.43792,
+        10.77841
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

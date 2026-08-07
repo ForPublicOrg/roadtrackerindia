@@ -1,0 +1,46 @@
+{
+  "id": "nh-108a",
+  "ref": "NH 108A",
+  "name": "Baikhora–Belonia National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 21.1,
+  "route": {
+    "start": "Baikhora, Tripura",
+    "end": "Belonia, Tripura",
+    "states": [
+      "Tripura"
+    ],
+    "majorCities": [
+      "Baikhora",
+      "Belonia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Baikhora",
+      "coords": [
+        91.61355,
+        23.21249
+      ]
+    },
+    {
+      "name": "Belonia",
+      "coords": [
+        91.45068,
+        23.24661
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

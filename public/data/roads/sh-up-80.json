@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-80",
+  "ref": "SH 80",
+  "name": "Aligarh–Raya State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39.4,
+  "route": {
+    "start": "Aligarh, Uttar Pradesh",
+    "end": "Raya, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Aligarh",
+      "Raya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aligarh",
+      "coords": [
+        78.07004,
+        27.86696
+      ]
+    },
+    {
+      "name": "Raya",
+      "coords": [
+        77.84696,
+        27.57697
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

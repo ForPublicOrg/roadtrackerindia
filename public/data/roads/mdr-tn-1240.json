@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1240",
+  "ref": "MDR 1240",
+  "name": "Palacode–Kariamangalam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.7,
+  "route": {
+    "start": "Palacode, Tamil Nadu",
+    "end": "Kariamangalam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Palacode",
+      "Kariamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palacode",
+      "coords": [
+        78.07349,
+        12.30642
+      ]
+    },
+    {
+      "name": "Kariamangalam",
+      "coords": [
+        78.19693,
+        12.26185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

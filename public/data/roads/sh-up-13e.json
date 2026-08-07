@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-13e",
+  "ref": "SH 13E",
+  "name": "Khadda–Siswa Bazar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 12.1,
+  "route": {
+    "start": "Khadda, Uttar Pradesh",
+    "end": "Siswa Bazar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Khadda",
+      "Siswa Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khadda",
+      "coords": [
+        83.89429,
+        27.07303
+      ]
+    },
+    {
+      "name": "Siswa Bazar",
+      "coords": [
+        83.86803,
+        27.17278
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

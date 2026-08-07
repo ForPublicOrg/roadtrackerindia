@@ -1,0 +1,65 @@
+{
+  "id": "sh-ka-21",
+  "ref": "SH 21",
+  "name": "Periyapatna–Belur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 123.4,
+  "route": {
+    "start": "Periyapatna, Karnataka",
+    "end": "Belur, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Periyapatna",
+      "Arkalgud",
+      "Hassan",
+      "Belur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Periyapatna",
+      "coords": [
+        76.06004,
+        12.24809
+      ]
+    },
+    {
+      "name": "Arkalgud",
+      "coords": [
+        76.06075,
+        12.76288
+      ]
+    },
+    {
+      "name": "Santhe Pete",
+      "coords": [
+        76.09423,
+        13.00027
+      ]
+    },
+    {
+      "name": "Hassan",
+      "coords": [
+        76.09859,
+        13.00796
+      ]
+    },
+    {
+      "name": "Belur",
+      "coords": [
+        75.99276,
+        13.21723
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

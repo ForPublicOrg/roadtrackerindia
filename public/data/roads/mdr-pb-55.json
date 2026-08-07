@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-55",
+  "ref": "MDR 55",
+  "name": "Rupnagar–Garhshankar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 62.9,
+  "route": {
+    "start": "Rupnagar, Punjab",
+    "end": "Garhshankar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Rupnagar",
+      "Bharatgarh",
+      "Garhshankar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rupnagar",
+      "coords": [
+        76.5148,
+        30.99179
+      ]
+    },
+    {
+      "name": "Bharatgarh",
+      "coords": [
+        76.55337,
+        31.08926
+      ]
+    },
+    {
+      "name": "Garhshankar",
+      "coords": [
+        76.14681,
+        31.21402
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

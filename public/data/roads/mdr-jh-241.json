@@ -1,0 +1,49 @@
+{
+  "id": "mdr-jh-241",
+  "ref": "MDR 241",
+  "name": "Pakaur–Gobindpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Pakaur, Jharkhand",
+    "end": "Gobindpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Pakaur",
+      "Gobindpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pakaur",
+      "coords": [
+        87.84703,
+        24.63733
+      ]
+    },
+    {
+      "name": "Harindanga",
+      "coords": [
+        87.85171,
+        24.63129
+      ]
+    },
+    {
+      "name": "Gobindpur",
+      "coords": [
+        87.83388,
+        24.60144
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

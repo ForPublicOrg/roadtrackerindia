@@ -1,0 +1,42 @@
+{
+  "id": "kl-parolickal-cheruvandoor-road",
+  "ref": "MDR",
+  "name": "Parolickal - Cheruvandoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Ettumanoor, Kerala",
+    "end": "Athirampuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ettumanoor",
+      "Athirampuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ettumanoor",
+      "coords": [
+        76.56188,
+        9.65761
+      ]
+    },
+    {
+      "name": "Athirampuzha",
+      "coords": [
+        76.55176,
+        9.65735
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

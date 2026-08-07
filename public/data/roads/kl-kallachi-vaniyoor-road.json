@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallachi-vaniyoor-road",
+  "ref": "MDR",
+  "name": "Kallachi - Vaniyoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Nadapuram, Kerala",
+    "end": "Kalleri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nadapuram",
+      "Kalleri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.66787,
+        11.68877
+      ]
+    },
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.66786,
+        11.68037
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

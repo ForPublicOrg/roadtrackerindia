@@ -1,0 +1,42 @@
+{
+  "id": "kl-eduthilavalappu-chennadukkam-mangod-road",
+  "ref": "MDR",
+  "name": "Eduthilavalappu - Chennadukkam - Mangod Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Cheemeni, Kerala",
+    "end": "Cherupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cheemeni",
+      "Cherupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.28276,
+        12.29528
+      ]
+    },
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.30047,
+        12.324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

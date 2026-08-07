@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-124",
+  "ref": "MDR 124",
+  "name": "Nagwa–Chhatarpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.8,
+  "route": {
+    "start": "Nagwa, Jharkhand",
+    "end": "Chhatarpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Nagwa",
+      "Chhatarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagwa",
+      "coords": [
+        83.92818,
+        24.25086
+      ]
+    },
+    {
+      "name": "Chhatarpur",
+      "coords": [
+        84.09684,
+        24.26677
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

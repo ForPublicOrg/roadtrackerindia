@@ -1,0 +1,59 @@
+{
+  "id": "mdr-pb-64",
+  "ref": "MDR 64",
+  "name": "Dera Baba Nanak–Joshi Nagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 48.2,
+  "route": {
+    "start": "Dera Baba Nanak, Punjab",
+    "end": "Joshi Nagar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Dera Baba Nanak",
+      "Churian",
+      "Majitha",
+      "Amritsar",
+      "Joshi Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dera Baba Nanak",
+      "coords": [
+        75.02268,
+        32.02702
+      ]
+    },
+    {
+      "name": "Churian",
+      "coords": [
+        74.96054,
+        31.86339
+      ]
+    },
+    {
+      "name": "Majitha",
+      "coords": [
+        74.95448,
+        31.75798
+      ]
+    },
+    {
+      "name": "Amritsar",
+      "coords": [
+        74.8833,
+        31.64019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

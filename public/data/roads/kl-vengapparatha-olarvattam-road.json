@@ -1,0 +1,42 @@
+{
+  "id": "kl-vengapparatha-olarvattam-road",
+  "ref": "MDR",
+  "name": "Vengapparatha - Olarvattam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.6,
+  "route": {
+    "start": "Kalikavu, Kerala",
+    "end": "Nilambur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalikavu",
+      "Nilambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalikavu",
+      "coords": [
+        76.35009,
+        11.26502
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.34984,
+        11.24417
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

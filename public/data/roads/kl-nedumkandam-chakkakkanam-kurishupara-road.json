@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumkandam-chakkakkanam-kurishupara-road",
+  "ref": "MDR",
+  "name": "Nedumkandam Chakkakkanam Kurishupara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Nedumkandam, Kerala",
+    "end": "Thookkupalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nedumkandam",
+      "Thookkupalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nedumkandam",
+      "coords": [
+        77.1289,
+        9.84301
+      ]
+    },
+    {
+      "name": "Thookkupalam",
+      "coords": [
+        77.15162,
+        9.84114
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

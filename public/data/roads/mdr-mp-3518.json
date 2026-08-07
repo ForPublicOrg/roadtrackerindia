@@ -1,0 +1,43 @@
+{
+  "id": "mdr-mp-3518",
+  "ref": "MDR 3518",
+  "name": "Paratwada–Chandur Bazar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Paratwada, Madhya Pradesh",
+    "end": "Chandur Bazar, Maharashtra",
+    "states": [
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Paratwada",
+      "Chandur Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Paratwada",
+      "coords": [
+        77.64014,
+        21.40008
+      ]
+    },
+    {
+      "name": "Chandur Bazar",
+      "coords": [
+        77.6572,
+        21.38732
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

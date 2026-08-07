@@ -1,0 +1,42 @@
+{
+  "id": "kl-chittar-angamoozhy-road",
+  "ref": "MDR",
+  "name": "Chittar - Angamoozhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.8,
+  "route": {
+    "start": "Chittar, Kerala",
+    "end": "Konni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chittar",
+      "Konni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittar",
+      "coords": [
+        76.98803,
+        9.35848
+      ]
+    },
+    {
+      "name": "Konni",
+      "coords": [
+        76.93278,
+        9.33352
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

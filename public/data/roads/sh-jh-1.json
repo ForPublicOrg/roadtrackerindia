@@ -1,0 +1,51 @@
+{
+  "id": "sh-jh-1",
+  "ref": "SH 1",
+  "name": "Muri–Tokitoli State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 68.4,
+  "route": {
+    "start": "Muri, West Bengal",
+    "end": "Tokitoli, Jharkhand",
+    "states": [
+      "West Bengal",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Muri",
+      "Ranchi",
+      "Tokitoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muri",
+      "coords": [
+        85.96706,
+        23.36497
+      ]
+    },
+    {
+      "name": "Khiratoli",
+      "coords": [
+        85.46528,
+        23.38955
+      ]
+    },
+    {
+      "name": "Ranchi",
+      "coords": [
+        85.36486,
+        23.3535
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-oninmoodu-mylavila-road",
+  "ref": "MDR",
+  "name": "Oninmoodu - Mylavila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Kalluvathukkal, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalluvathukkal",
+      "Paripally",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalluvathukkal",
+      "coords": [
+        76.71912,
+        8.80199
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.73857,
+        8.79767
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

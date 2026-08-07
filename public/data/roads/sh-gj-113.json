@@ -1,0 +1,50 @@
+{
+  "id": "sh-gj-113",
+  "ref": "SH 113",
+  "name": "Navagam–Sayla State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 96.9,
+  "route": {
+    "start": "Navagam, Gujarat",
+    "end": "Sayla, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Navagam",
+      "Wankaner",
+      "Sayla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Navagam",
+      "coords": [
+        70.93856,
+        22.35743
+      ]
+    },
+    {
+      "name": "Wankaner",
+      "coords": [
+        70.95109,
+        22.6087
+      ]
+    },
+    {
+      "name": "Sayla",
+      "coords": [
+        71.4523,
+        22.64217
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

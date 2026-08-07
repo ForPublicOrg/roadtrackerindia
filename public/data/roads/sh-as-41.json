@@ -1,0 +1,50 @@
+{
+  "id": "sh-as-41",
+  "ref": "SH 41",
+  "name": "Hajo–Amingaon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 14.9,
+  "route": {
+    "start": "Hajo, Assam",
+    "end": "Amingaon, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Hajo",
+      "Sualkuchi",
+      "Amingaon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hajo",
+      "coords": [
+        91.53062,
+        26.2516
+      ]
+    },
+    {
+      "name": "Sualkuchi",
+      "coords": [
+        91.57332,
+        26.19993
+      ]
+    },
+    {
+      "name": "Amingaon",
+      "coords": [
+        91.62408,
+        26.22062
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

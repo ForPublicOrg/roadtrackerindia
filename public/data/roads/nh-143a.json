@@ -1,0 +1,54 @@
+{
+  "id": "nh-143a",
+  "ref": "NH 143A",
+  "name": "Taliatanr–Gumla National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 70.3,
+  "route": {
+    "start": "Taliatanr, Jharkhand",
+    "end": "Gumla, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Taliatanr",
+      "Lohardaga",
+      "Gumla"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Taliatanr",
+      "coords": [
+        84.82116,
+        23.53798
+      ]
+    },
+    {
+      "name": "Lohardaga",
+      "coords": [
+        84.68296,
+        23.4298
+      ]
+    },
+    {
+      "name": "Gumla",
+      "coords": [
+        84.54071,
+        23.04185
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

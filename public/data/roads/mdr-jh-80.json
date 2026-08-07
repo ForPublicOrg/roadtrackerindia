@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-80",
+  "ref": "MDR 80",
+  "name": "Mansa Nagar–Kathara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Mansa Nagar, Jharkhand",
+    "end": "Kathara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Mansa Nagar",
+      "Kathara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mansa Nagar",
+      "coords": [
+        86.0003,
+        23.76557
+      ]
+    },
+    {
+      "name": "Kathara",
+      "coords": [
+        85.97222,
+        23.76987
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

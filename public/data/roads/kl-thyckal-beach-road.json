@@ -1,0 +1,42 @@
+{
+  "id": "kl-thyckal-beach-road",
+  "ref": "MDR",
+  "name": "Thyckal Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.29104,
+        9.68594
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.3023,
+        9.68536
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

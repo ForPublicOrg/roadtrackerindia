@@ -1,0 +1,42 @@
+{
+  "id": "kl-nedumpal-pazhai-road",
+  "ref": "MDR",
+  "name": "Nedumpal Pazhai Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Puthukkad, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthukkad",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthukkad",
+      "coords": [
+        76.24951,
+        10.41556
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.24483,
+        10.39387
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

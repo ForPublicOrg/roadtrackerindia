@@ -1,0 +1,42 @@
+{
+  "id": "kl-anchamkallu-mullasserry-road",
+  "ref": "MDR",
+  "name": "Anchamkallu - Mullasserry Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Chavakkad, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chavakkad",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chavakkad",
+      "coords": [
+        76.05397,
+        10.51682
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.08625,
+        10.53213
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-chembanoda-kattikulam-alampara-road",
+  "ref": "MDR",
+  "name": "Chembanoda - Kattikulam - Alampara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Thottilpalam, Kerala",
+    "end": "Chakkittapara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thottilpalam",
+      "Chakkittapara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.82459,
+        11.63626
+      ]
+    },
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.84277,
+        11.63316
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

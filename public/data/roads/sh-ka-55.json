@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-55",
+  "ref": "SH 55",
+  "name": "Kolahara–Muragoda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 110.3,
+  "route": {
+    "start": "Kolahara, Karnataka",
+    "end": "Muragoda, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Kolahara",
+      "Mudhol",
+      "Muragoda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kolahara",
+      "coords": [
+        75.5751,
+        16.64299
+      ]
+    },
+    {
+      "name": "Mudhol",
+      "coords": [
+        75.28261,
+        16.33801
+      ]
+    },
+    {
+      "name": "Muragoda",
+      "coords": [
+        75.02481,
+        15.97203
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

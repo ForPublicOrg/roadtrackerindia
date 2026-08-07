@@ -1,0 +1,47 @@
+{
+  "id": "nh-134a",
+  "ref": "NH 134A",
+  "name": "Gangotri–Sarang National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 61.9,
+  "route": {
+    "start": "Gangotri, Uttarakhand",
+    "end": "Sarang, Uttarakhand",
+    "states": [
+      "Uttarakhand",
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Gangotri",
+      "Sarang"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gangotri",
+      "coords": [
+        78.86869,
+        31.02476
+      ]
+    },
+    {
+      "name": "Sarang",
+      "coords": [
+        79.13246,
+        31.36453
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-275",
+  "ref": "SH 275",
+  "name": "Desaiganj–Sadak-Arjuni State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.1,
+  "route": {
+    "start": "Desaiganj, Maharashtra",
+    "end": "Sadak-Arjuni, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Desaiganj",
+      "Arjuni Morgaon",
+      "Sadak-Arjuni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Desaiganj",
+      "coords": [
+        79.9782,
+        20.62886
+      ]
+    },
+    {
+      "name": "Arjuni Morgaon",
+      "coords": [
+        80.03101,
+        20.81597
+      ]
+    },
+    {
+      "name": "Sadak-Arjuni",
+      "coords": [
+        80.14761,
+        21.08007
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

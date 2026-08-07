@@ -1,0 +1,65 @@
+{
+  "id": "sh-jh-13",
+  "ref": "SH 13",
+  "name": "Kodarma–Gobindpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 155.6,
+  "route": {
+    "start": "Kodarma, Jharkhand",
+    "end": "Gobindpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Kodarma",
+      "Danwar",
+      "Giridih",
+      "Gobindpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodarma",
+      "coords": [
+        85.59223,
+        24.4648
+      ]
+    },
+    {
+      "name": "Domchanch",
+      "coords": [
+        85.69519,
+        24.47122
+      ]
+    },
+    {
+      "name": "Danwar",
+      "coords": [
+        85.98594,
+        24.45485
+      ]
+    },
+    {
+      "name": "Giridih",
+      "coords": [
+        86.30779,
+        24.18581
+      ]
+    },
+    {
+      "name": "Gobindpur",
+      "coords": [
+        86.5203,
+        23.83258
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

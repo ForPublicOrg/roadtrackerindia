@@ -1,0 +1,49 @@
+{
+  "id": "kl-balaramapuram-vizhinjam-road",
+  "ref": "MDR",
+  "name": "Balaramapuram - Vizhinjam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.1,
+  "route": {
+    "start": "Vizhinjam, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vizhinjam",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vizhinjam",
+      "coords": [
+        76.99426,
+        8.37758
+      ]
+    },
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.01366,
+        8.38938
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.04561,
+        8.42525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

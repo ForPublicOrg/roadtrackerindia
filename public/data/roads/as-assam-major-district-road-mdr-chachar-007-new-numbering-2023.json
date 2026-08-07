@@ -1,0 +1,42 @@
+{
+  "id": "as-assam-major-district-road-mdr-chachar-007-new-numbering-2023",
+  "ref": "MDR",
+  "name": "Assam Major District Road (MDR) Chachar 007 (new numbering 2023)",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Sonai, Assam",
+    "end": "Tarapur, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Sonai",
+      "Tarapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonai",
+      "coords": [
+        92.82873,
+        24.72452
+      ]
+    },
+    {
+      "name": "Tarapur",
+      "coords": [
+        92.79491,
+        24.66446
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

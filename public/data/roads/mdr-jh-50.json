@@ -1,0 +1,58 @@
+{
+  "id": "mdr-jh-50",
+  "ref": "MDR 50",
+  "name": "Sonardih–Karkend District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.6,
+  "route": {
+    "start": "Sonardih, Jharkhand",
+    "end": "Karkend, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Sonardih",
+      "Katras",
+      "Loyabad",
+      "Karkend"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sonardih",
+      "coords": [
+        86.2777,
+        23.80301
+      ]
+    },
+    {
+      "name": "Katras",
+      "coords": [
+        86.29295,
+        23.79858
+      ]
+    },
+    {
+      "name": "Loyabad",
+      "coords": [
+        86.3518,
+        23.78543
+      ]
+    },
+    {
+      "name": "Karkend",
+      "coords": [
+        86.37339,
+        23.77501
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

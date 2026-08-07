@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1145",
+  "ref": "MDR 1145",
+  "name": "Min Arasu Nagar–Andipatti Jakkampatty District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13.4,
+  "route": {
+    "start": "Min Arasu Nagar, Tamil Nadu",
+    "end": "Andipatti Jakkampatty, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Min Arasu Nagar",
+      "Andipatti Jakkampatty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Min Arasu Nagar",
+      "coords": [
+        77.52225,
+        9.92263
+      ]
+    },
+    {
+      "name": "Andipatti Jakkampatty",
+      "coords": [
+        77.60071,
+        9.96727
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

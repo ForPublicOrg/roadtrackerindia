@@ -1,0 +1,54 @@
+{
+  "id": "nh-102b",
+  "ref": "NH 102B",
+  "name": "Churachandpur–Khawzawl National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 260.2,
+  "route": {
+    "start": "Churachandpur, Manipur",
+    "end": "Khawzawl, Mizoram",
+    "states": [
+      "Manipur",
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Churachandpur",
+      "Khawzawl"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Churachandpur",
+      "coords": [
+        93.69995,
+        24.34602
+      ]
+    },
+    {
+      "name": "Singngat",
+      "coords": [
+        93.59058,
+        24.14493
+      ]
+    },
+    {
+      "name": "Khawzawl",
+      "coords": [
+        93.08104,
+        23.60949
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

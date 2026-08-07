@@ -1,0 +1,42 @@
+{
+  "id": "sh-wb-4a",
+  "ref": "SH 4A",
+  "name": "Purulia–Muri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.2,
+  "route": {
+    "start": "Purulia, West Bengal",
+    "end": "Muri, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Purulia",
+      "Muri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Purulia",
+      "coords": [
+        86.22643,
+        23.40998
+      ]
+    },
+    {
+      "name": "Muri",
+      "coords": [
+        85.96706,
+        23.36497
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

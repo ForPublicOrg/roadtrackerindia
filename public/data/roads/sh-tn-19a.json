@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-19a",
+  "ref": "SH 19A",
+  "name": "Vijayamangalam–Odakkadu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.2,
+  "route": {
+    "start": "Vijayamangalam, Tamil Nadu",
+    "end": "Odakkadu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vijayamangalam",
+      "Tiruppur",
+      "Odakkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vijayamangalam",
+      "coords": [
+        77.50286,
+        11.24187
+      ]
+    },
+    {
+      "name": "Mannarai",
+      "coords": [
+        77.37343,
+        11.11692
+      ]
+    },
+    {
+      "name": "Tiruppur",
+      "coords": [
+        77.34067,
+        11.10797
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

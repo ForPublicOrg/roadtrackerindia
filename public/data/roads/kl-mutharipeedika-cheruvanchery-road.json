@@ -1,0 +1,42 @@
+{
+  "id": "kl-mutharipeedika-cheruvanchery-road",
+  "ref": "MDR",
+  "name": "Mutharipeedika - Cheruvanchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Panoor, Kerala",
+    "end": "Koothuparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panoor",
+      "Koothuparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panoor",
+      "coords": [
+        75.62432,
+        11.7917
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.57756,
+        11.78009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

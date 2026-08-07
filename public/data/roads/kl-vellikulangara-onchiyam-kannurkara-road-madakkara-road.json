@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellikulangara-onchiyam-kannurkara-road-madakkara-road",
+  "ref": "MDR",
+  "name": "Vellikulangara Onchiyam Kannurkara Road Madakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Orkkatteri, Kerala",
+    "end": "Mahe, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Orkkatteri",
+      "Mahe"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Orkkatteri",
+      "coords": [
+        75.58874,
+        11.64513
+      ]
+    },
+    {
+      "name": "Mahe",
+      "coords": [
+        75.55725,
+        11.65333
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

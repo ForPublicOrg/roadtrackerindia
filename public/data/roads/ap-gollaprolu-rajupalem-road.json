@@ -1,0 +1,42 @@
+{
+  "id": "ap-gollaprolu-rajupalem-road",
+  "ref": "SH",
+  "name": "Gollaprolu - Rajupalem Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 16.1,
+  "route": {
+    "start": "Kirlampudi, Andhra Pradesh",
+    "end": "Gollaprolu, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Kirlampudi",
+      "Gollaprolu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kirlampudi",
+      "coords": [
+        82.16856,
+        17.17264
+      ]
+    },
+    {
+      "name": "Gollaprolu",
+      "coords": [
+        82.2863,
+        17.15325
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

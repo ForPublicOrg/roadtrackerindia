@@ -1,0 +1,42 @@
+{
+  "id": "kl-pampady-nedumkunnam-road",
+  "ref": "MDR",
+  "name": "Pampady - Nedumkunnam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Karukachal, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karukachal",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karukachal",
+      "coords": [
+        76.66437,
+        9.5093
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.64522,
+        9.56351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

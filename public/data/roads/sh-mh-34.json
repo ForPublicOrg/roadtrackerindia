@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-34",
+  "ref": "SH 34",
+  "name": "Palghar–Khodala State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94.1,
+  "route": {
+    "start": "Palghar, Maharashtra",
+    "end": "Khodala, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Palghar",
+      "Wada",
+      "Khodala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Palghar",
+      "coords": [
+        72.7623,
+        19.69883
+      ]
+    },
+    {
+      "name": "Wada",
+      "coords": [
+        73.14209,
+        19.6525
+      ]
+    },
+    {
+      "name": "Khodala",
+      "coords": [
+        73.40374,
+        19.7913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kombathukadavu-road",
+  "ref": "MDR",
+  "name": "Kombathukadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Thachudaparambu, Kerala",
+    "end": "Kodungallur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thachudaparambu",
+      "Kodungallur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.27766,
+        10.28993
+      ]
+    },
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.23297,
+        10.24301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

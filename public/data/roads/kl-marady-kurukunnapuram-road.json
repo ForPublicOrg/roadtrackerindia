@@ -1,0 +1,42 @@
+{
+  "id": "kl-marady-kurukunnapuram-road",
+  "ref": "MDR",
+  "name": "Marady - Kurukunnapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kizhakkekara, Kerala",
+    "end": "Muvattupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kizhakkekara",
+      "Muvattupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.57272,
+        9.94411
+      ]
+    },
+    {
+      "name": "Muvattupuzha",
+      "coords": [
+        76.56822,
+        9.95384
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

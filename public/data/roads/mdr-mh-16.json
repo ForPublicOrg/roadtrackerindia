@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mh-16",
+  "ref": "MDR 16",
+  "name": "Police Line–Mendha District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.7,
+  "route": {
+    "start": "Police Line, Maharashtra",
+    "end": "Mendha, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Police Line",
+      "Mendha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Police Line",
+      "coords": [
+        79.68645,
+        21.13848
+      ]
+    },
+    {
+      "name": "Mendha",
+      "coords": [
+        79.78053,
+        21.2263
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

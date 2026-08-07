@@ -1,0 +1,42 @@
+{
+  "id": "or-biju-expressway",
+  "ref": "SH",
+  "name": "Biju Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 75.3,
+  "route": {
+    "start": "Kongra, Odisha",
+    "end": "Bangomunda, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Kongra",
+      "Bangomunda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kongra",
+      "coords": [
+        82.62226,
+        19.57335
+      ]
+    },
+    {
+      "name": "Bangomunda",
+      "coords": [
+        82.73237,
+        20.10004
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

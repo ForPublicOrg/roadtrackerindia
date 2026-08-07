@@ -1,0 +1,42 @@
+{
+  "id": "kl-mylom-kura-kizhakketheruvu-road",
+  "ref": "MDR",
+  "name": "Mylom Kura Kizhakketheruvu road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.2,
+  "route": {
+    "start": "Kottarakkara, Kerala",
+    "end": "Puthoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottarakkara",
+      "Puthoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.81961,
+        9.03533
+      ]
+    },
+    {
+      "name": "Puthoor",
+      "coords": [
+        76.79155,
+        9.03338
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

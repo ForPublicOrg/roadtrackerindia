@@ -1,0 +1,54 @@
+{
+  "id": "nh-753m",
+  "ref": "NH 753M",
+  "name": "Chikhli–Jalna National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 113.9,
+  "route": {
+    "start": "Chikhli, Maharashtra",
+    "end": "Jalna, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Chikhli",
+      "Bhokardan",
+      "Jalna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chikhli",
+      "coords": [
+        76.23824,
+        20.3669
+      ]
+    },
+    {
+      "name": "Bhokardan",
+      "coords": [
+        75.77406,
+        20.25373
+      ]
+    },
+    {
+      "name": "Jalna",
+      "coords": [
+        75.69047,
+        19.86987
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

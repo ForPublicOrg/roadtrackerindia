@@ -1,0 +1,53 @@
+{
+  "id": "nh-317a",
+  "ref": "NH 317A",
+  "name": "Madarihat–Phuntsholing National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 17.9,
+  "route": {
+    "start": "Madarihat, West Bengal",
+    "end": "Phuntsholing, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Madarihat",
+      "Phuntsholing"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Madarihat",
+      "coords": [
+        89.33341,
+        26.72856
+      ]
+    },
+    {
+      "name": "Raigaon",
+      "coords": [
+        89.3857,
+        26.84209
+      ]
+    },
+    {
+      "name": "Phuntsholing",
+      "coords": [
+        89.38048,
+        26.86118
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

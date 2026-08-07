@@ -1,0 +1,58 @@
+{
+  "id": "sh-mh-190",
+  "ref": "SH 190",
+  "name": "Malkapur–Nashirabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 64.3,
+  "route": {
+    "start": "Malkapur, Maharashtra",
+    "end": "Nashirabad, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Malkapur",
+      "Bodvad",
+      "Bhusawal",
+      "Nashirabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Malkapur",
+      "coords": [
+        76.20209,
+        20.8672
+      ]
+    },
+    {
+      "name": "Bodvad",
+      "coords": [
+        75.98951,
+        20.88141
+      ]
+    },
+    {
+      "name": "Bhusawal",
+      "coords": [
+        75.74909,
+        20.99024
+      ]
+    },
+    {
+      "name": "Nashirabad",
+      "coords": [
+        75.65783,
+        21.0077
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-53",
+  "ref": "SH 53",
+  "name": "Neral–Ozhar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 91.2,
+  "route": {
+    "start": "Neral, Maharashtra",
+    "end": "Ozhar, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Neral",
+      "Manchar",
+      "Ozhar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neral",
+      "coords": [
+        73.53511,
+        19.07625
+      ]
+    },
+    {
+      "name": "Manchar",
+      "coords": [
+        73.94675,
+        19.00471
+      ]
+    },
+    {
+      "name": "Ozhar",
+      "coords": [
+        74.17398,
+        19.11012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

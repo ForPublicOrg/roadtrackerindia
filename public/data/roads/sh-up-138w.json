@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-138w",
+  "ref": "SH 138W",
+  "name": "Etawah–Bah State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 34.5,
+  "route": {
+    "start": "Etawah, Uttar Pradesh",
+    "end": "Bah, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Etawah",
+      "Bah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Etawah",
+      "coords": [
+        78.95669,
+        26.71825
+      ]
+    },
+    {
+      "name": "Bah",
+      "coords": [
+        78.64664,
+        26.85165
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

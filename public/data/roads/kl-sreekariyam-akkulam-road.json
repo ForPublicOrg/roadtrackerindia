@@ -1,0 +1,71 @@
+{
+  "id": "kl-sreekariyam-akkulam-road",
+  "ref": "MDR",
+  "name": "Sreekariyam - Akkulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Sreekariyam, Kerala",
+    "end": "Akkulam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekariyam",
+      "Ulloor",
+      "Akkulam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.91729,
+        8.54885
+      ]
+    },
+    {
+      "name": "Manvila",
+      "coords": [
+        76.91266,
+        8.54153
+      ]
+    },
+    {
+      "name": "Kulathoor",
+      "coords": [
+        76.91237,
+        8.53602
+      ]
+    },
+    {
+      "name": "Ulloor",
+      "coords": [
+        76.91214,
+        8.53097
+      ]
+    },
+    {
+      "name": "Karimanal",
+      "coords": [
+        76.91107,
+        8.52579
+      ]
+    },
+    {
+      "name": "Akkulam",
+      "coords": [
+        76.913,
+        8.52257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

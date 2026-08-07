@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1215",
+  "ref": "MDR 1215",
+  "name": "Rihand–Vindhyanagar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.8,
+  "route": {
+    "start": "Rihand, Madhya Pradesh",
+    "end": "Vindhyanagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Rihand",
+      "Vindhyanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rihand",
+      "coords": [
+        82.65095,
+        23.889
+      ]
+    },
+    {
+      "name": "Vindhyanagar",
+      "coords": [
+        82.58089,
+        24.07733
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

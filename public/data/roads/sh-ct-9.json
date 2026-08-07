@@ -1,0 +1,42 @@
+{
+  "id": "sh-ct-9",
+  "ref": "SH 9",
+  "name": "Seorinarayan–Janjgir State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49,
+  "route": {
+    "start": "Seorinarayan, Chhattisgarh",
+    "end": "Janjgir, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Seorinarayan",
+      "Janjgir"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Seorinarayan",
+      "coords": [
+        82.59619,
+        21.72281
+      ]
+    },
+    {
+      "name": "Janjgir",
+      "coords": [
+        82.57798,
+        22.00753
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

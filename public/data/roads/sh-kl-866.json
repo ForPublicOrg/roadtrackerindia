@@ -1,0 +1,50 @@
+{
+  "id": "sh-kl-866",
+  "ref": "SH 866",
+  "name": "Thamarakuzhi–Malappuram State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 3.1,
+  "route": {
+    "start": "Thamarakuzhi, Kerala",
+    "end": "Malappuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thamarakuzhi",
+      "Malappuram",
+      "Downhill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thamarakuzhi",
+      "coords": [
+        76.09726,
+        11.03521
+      ]
+    },
+    {
+      "name": "Malappuram",
+      "coords": [
+        76.09064,
+        11.04637
+      ]
+    },
+    {
+      "name": "Downhill",
+      "coords": [
+        76.08319,
+        11.05717
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerchal-kilingar-saimandiram-mugu-road",
+  "ref": "MDR",
+  "name": "Neerchal - Kilingar - Saimandiram - Mugu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.0369,
+        12.58515
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        75.00828,
+        12.60451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

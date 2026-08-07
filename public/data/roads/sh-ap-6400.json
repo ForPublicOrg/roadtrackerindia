@@ -1,0 +1,42 @@
+{
+  "id": "sh-ap-6400",
+  "ref": "SH 6400",
+  "name": "Arakkonam–Walajapet State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Arakkonam, Tamil Nadu",
+    "end": "Walajapet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Arakkonam",
+      "Walajapet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Arakkonam",
+      "coords": [
+        79.54864,
+        12.99077
+      ]
+    },
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.5322,
+        12.96382
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

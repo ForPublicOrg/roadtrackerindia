@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-26a",
+  "ref": "MDR 26A",
+  "name": "Bhinmal–Raniwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Bhinmal, Rajasthan",
+    "end": "Raniwar, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhinmal",
+      "Raniwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhinmal",
+      "coords": [
+        72.34057,
+        24.85926
+      ]
+    },
+    {
+      "name": "Raniwar",
+      "coords": [
+        72.35435,
+        24.84365
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

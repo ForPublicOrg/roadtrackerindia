@@ -1,0 +1,50 @@
+{
+  "id": "sh-hr-16a",
+  "ref": "SH 16A",
+  "name": "Gohana–Bhiwani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 69.6,
+  "route": {
+    "start": "Gohana, Haryana",
+    "end": "Bhiwani, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Gohana",
+      "Meham",
+      "Bhiwani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gohana",
+      "coords": [
+        76.7027,
+        29.13596
+      ]
+    },
+    {
+      "name": "Meham",
+      "coords": [
+        76.29991,
+        28.96401
+      ]
+    },
+    {
+      "name": "Bhiwani",
+      "coords": [
+        76.14435,
+        28.79843
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

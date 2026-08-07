@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-160e",
+  "ref": "SH 160E",
+  "name": "Robertsganj–Bhabua State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 48,
+  "route": {
+    "start": "Robertsganj, Uttar Pradesh",
+    "end": "Bhabua, Bihar",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Robertsganj",
+      "Bhabua"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Robertsganj",
+      "coords": [
+        83.0612,
+        24.6916
+      ]
+    },
+    {
+      "name": "Bhabua",
+      "coords": [
+        83.48853,
+        24.72531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

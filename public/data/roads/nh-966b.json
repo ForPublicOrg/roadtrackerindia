@@ -1,0 +1,84 @@
+{
+  "id": "nh-966b",
+  "ref": "NH 966B",
+  "name": "Maradu–Mattancherry National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 9.4,
+  "route": {
+    "start": "Maradu, Kerala",
+    "end": "Mattancherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Maradu",
+      "Thrippunithura",
+      "Chullickal",
+      "Kochi",
+      "Mattancherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maradu",
+      "coords": [
+        76.31551,
+        9.93674
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.28728,
+        9.9283
+      ]
+    },
+    {
+      "name": "Palluruthy",
+      "coords": [
+        76.28008,
+        9.93063
+      ]
+    },
+    {
+      "name": "Thoppumpady",
+      "coords": [
+        76.26951,
+        9.93859
+      ]
+    },
+    {
+      "name": "Chullickal",
+      "coords": [
+        76.26834,
+        9.94388
+      ]
+    },
+    {
+      "name": "Koovapadam",
+      "coords": [
+        76.26843,
+        9.95622
+      ]
+    },
+    {
+      "name": "Kochi",
+      "coords": [
+        76.25935,
+        9.96922
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-77",
+  "ref": "SH 77",
+  "name": "Forbesganj–Naugachia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 101.5,
+  "route": {
+    "start": "Forbesganj, Bihar",
+    "end": "Naugachia, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Forbesganj",
+      "Raniganj",
+      "Naugachia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Forbesganj",
+      "coords": [
+        87.24527,
+        26.29918
+      ]
+    },
+    {
+      "name": "Raniganj",
+      "coords": [
+        87.23429,
+        26.08614
+      ]
+    },
+    {
+      "name": "Naugachia",
+      "coords": [
+        87.2541,
+        25.45146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

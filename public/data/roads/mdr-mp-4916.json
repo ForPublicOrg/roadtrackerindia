@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-4916",
+  "ref": "MDR 4916",
+  "name": "Nhavi–Khargone District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 50,
+  "route": {
+    "start": "Nhavi, Madhya Pradesh",
+    "end": "Khargone, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Nhavi",
+      "Khargone"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nhavi",
+      "coords": [
+        75.72403,
+        21.38685
+      ]
+    },
+    {
+      "name": "Khargone",
+      "coords": [
+        75.66859,
+        21.70116
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

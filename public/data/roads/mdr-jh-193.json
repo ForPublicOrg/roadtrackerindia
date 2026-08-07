@@ -1,0 +1,50 @@
+{
+  "id": "mdr-jh-193",
+  "ref": "MDR 193",
+  "name": "Chittaranjan–Jarmundi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 61.7,
+  "route": {
+    "start": "Chittaranjan, Jharkhand",
+    "end": "Jarmundi, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chittaranjan",
+      "Kundahit",
+      "Jarmundi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chittaranjan",
+      "coords": [
+        87.00395,
+        23.85677
+      ]
+    },
+    {
+      "name": "Kundahit",
+      "coords": [
+        87.14893,
+        23.97916
+      ]
+    },
+    {
+      "name": "Jarmundi",
+      "coords": [
+        87.19944,
+        24.28247
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

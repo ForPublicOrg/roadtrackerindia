@@ -1,0 +1,46 @@
+{
+  "id": "nh-730s",
+  "ref": "NH 730S",
+  "name": "Maharajganj–Nichlaul National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 39.2,
+  "route": {
+    "start": "Maharajganj, Uttar Pradesh",
+    "end": "Nichlaul, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Maharajganj",
+      "Nichlaul"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maharajganj",
+      "coords": [
+        83.56239,
+        27.14445
+      ]
+    },
+    {
+      "name": "Nichlaul",
+      "coords": [
+        83.72203,
+        27.31619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

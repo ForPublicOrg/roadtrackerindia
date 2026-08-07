@@ -1,0 +1,51 @@
+{
+  "id": "kl-kaithamukku-pettah-road",
+  "ref": "MDR",
+  "name": "Kaithamukku - Pettah Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Eanchakkal, Kerala",
+    "end": "Pettah, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Eanchakkal",
+      "Thiruvananthapuram",
+      "Pattoor",
+      "Pettah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Eanchakkal",
+      "coords": [
+        76.93553,
+        8.48824
+      ]
+    },
+    {
+      "name": "Pattoor",
+      "coords": [
+        76.93223,
+        8.4924
+      ]
+    },
+    {
+      "name": "Pettah",
+      "coords": [
+        76.92939,
+        8.49502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

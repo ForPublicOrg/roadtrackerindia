@@ -1,0 +1,42 @@
+{
+  "id": "kl-karalam-t-d-temple-road",
+  "ref": "MDR",
+  "name": "Karalam - T.D.Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Vaikom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Vaikom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.30615,
+        9.74951
+      ]
+    },
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.30693,
+        9.76324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

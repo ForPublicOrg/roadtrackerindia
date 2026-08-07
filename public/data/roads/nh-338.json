@@ -1,0 +1,46 @@
+{
+  "id": "nh-338",
+  "ref": "NH 338",
+  "name": "Melur–Tiruppattur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 30.3,
+  "route": {
+    "start": "Melur, Tamil Nadu",
+    "end": "Tiruppattur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melur",
+      "Tiruppattur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melur",
+      "coords": [
+        78.34864,
+        10.04375
+      ]
+    },
+    {
+      "name": "Tiruppattur",
+      "coords": [
+        78.58079,
+        10.0969
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

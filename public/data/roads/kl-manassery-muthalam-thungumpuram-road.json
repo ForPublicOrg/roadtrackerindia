@@ -1,0 +1,42 @@
+{
+  "id": "kl-manassery-muthalam-thungumpuram-road",
+  "ref": "MDR",
+  "name": "Manassery - Muthalam - Thungumpuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Mukkam, Kerala",
+    "end": "Omassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mukkam",
+      "Omassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mukkam",
+      "coords": [
+        75.9675,
+        11.32087
+      ]
+    },
+    {
+      "name": "Omassery",
+      "coords": [
+        75.96398,
+        11.34261
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

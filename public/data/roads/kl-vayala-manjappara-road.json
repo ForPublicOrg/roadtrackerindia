@@ -1,0 +1,43 @@
+{
+  "id": "kl-vayala-manjappara-road",
+  "ref": "MDR",
+  "name": "Vayala - Manjappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Chadayamangalam, Kerala",
+    "end": "Anchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chadayamangalam",
+      "Ayoor",
+      "Anchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chadayamangalam",
+      "coords": [
+        76.88716,
+        8.88646
+      ]
+    },
+    {
+      "name": "Anchal",
+      "coords": [
+        76.89988,
+        8.89726
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

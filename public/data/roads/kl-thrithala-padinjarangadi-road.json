@@ -1,0 +1,42 @@
+{
+  "id": "kl-thrithala-padinjarangadi-road",
+  "ref": "MDR",
+  "name": "Thrithala - Padinjarangadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.4,
+  "route": {
+    "start": "Koottanad, Kerala",
+    "end": "Kuttippuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koottanad",
+      "Kuttippuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koottanad",
+      "coords": [
+        76.12871,
+        10.80346
+      ]
+    },
+    {
+      "name": "Kuttippuram",
+      "coords": [
+        76.06685,
+        10.78619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

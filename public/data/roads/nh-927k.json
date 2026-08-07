@@ -1,0 +1,54 @@
+{
+  "id": "nh-927k",
+  "ref": "NH 927K",
+  "name": "Khambhaliya–Ranavav National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 72.3,
+  "route": {
+    "start": "Khambhaliya, Gujarat",
+    "end": "Ranavav, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Khambhaliya",
+      "Bhanvad",
+      "Ranavav"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khambhaliya",
+      "coords": [
+        69.63151,
+        22.21243
+      ]
+    },
+    {
+      "name": "Bhanvad",
+      "coords": [
+        69.77672,
+        21.9276
+      ]
+    },
+    {
+      "name": "Ranavav",
+      "coords": [
+        69.75633,
+        21.67995
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

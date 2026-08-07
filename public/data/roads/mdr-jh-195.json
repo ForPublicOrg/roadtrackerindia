@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-195",
+  "ref": "MDR 195",
+  "name": "Jarmundi–Kundahit District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Jarmundi, Jharkhand",
+    "end": "Kundahit, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Jarmundi",
+      "Kundahit"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jarmundi",
+      "coords": [
+        87.26847,
+        24.23248
+      ]
+    },
+    {
+      "name": "Kundahit",
+      "coords": [
+        87.25101,
+        24.25995
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

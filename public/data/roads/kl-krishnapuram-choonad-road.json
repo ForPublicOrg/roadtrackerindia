@@ -1,0 +1,42 @@
+{
+  "id": "kl-krishnapuram-choonad-road",
+  "ref": "MDR",
+  "name": "Krishnapuram - Choonad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Kayamkulam, Kerala",
+    "end": "Amritapuri, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kayamkulam",
+      "Amritapuri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kayamkulam",
+      "coords": [
+        76.54527,
+        9.13754
+      ]
+    },
+    {
+      "name": "Amritapuri",
+      "coords": [
+        76.51709,
+        9.15259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

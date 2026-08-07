@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttil-meppadi-road",
+  "ref": "MDR",
+  "name": "Muttil - Meppadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.11062,
+        11.64186
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.14225,
+        11.55643
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

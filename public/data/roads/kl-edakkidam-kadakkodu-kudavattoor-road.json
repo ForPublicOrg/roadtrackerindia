@@ -1,0 +1,42 @@
+{
+  "id": "kl-edakkidam-kadakkodu-kudavattoor-road",
+  "ref": "MDR",
+  "name": "Edakkidam - Kadakkodu Kudavattoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5,
+  "route": {
+    "start": "Kundara, Kerala",
+    "end": "Kottarakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kundara",
+      "Kottarakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kundara",
+      "coords": [
+        76.74878,
+        8.94238
+      ]
+    },
+    {
+      "name": "Kottarakkara",
+      "coords": [
+        76.72554,
+        8.9655
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

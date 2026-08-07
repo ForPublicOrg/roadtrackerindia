@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1200",
+  "ref": "MDR 1200",
+  "name": "Tiruvannamalai–Chengam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Tiruvannamalai, Tamil Nadu",
+    "end": "Chengam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvannamalai",
+      "Chengam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.051,
+        12.22434
+      ]
+    },
+    {
+      "name": "Chengam",
+      "coords": [
+        79.0027,
+        12.21959
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

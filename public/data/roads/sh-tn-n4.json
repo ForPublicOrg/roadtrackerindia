@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-n4",
+  "ref": "SH-N 4",
+  "name": "Tiruvannamalai–Polur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.2,
+  "route": {
+    "start": "Tiruvannamalai, Tamil Nadu",
+    "end": "Polur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Tiruvannamalai",
+      "Polur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.0827,
+        12.20466
+      ]
+    },
+    {
+      "name": "Polur",
+      "coords": [
+        79.10075,
+        12.23744
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

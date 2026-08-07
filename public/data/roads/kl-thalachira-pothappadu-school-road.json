@@ -1,0 +1,42 @@
+{
+  "id": "kl-thalachira-pothappadu-school-road",
+  "ref": "MDR",
+  "name": "Thalachira - Pothappadu School Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Mylapra, Kerala",
+    "end": "Thazhevettipuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mylapra",
+      "Thazhevettipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mylapra",
+      "coords": [
+        76.82477,
+        9.30473
+      ]
+    },
+    {
+      "name": "Thazhevettipuram",
+      "coords": [
+        76.82842,
+        9.31219
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

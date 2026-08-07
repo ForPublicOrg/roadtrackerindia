@@ -1,0 +1,42 @@
+{
+  "id": "mdr-rj-204",
+  "ref": "MDR 204",
+  "name": "Talera–Keshoraipatan District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.4,
+  "route": {
+    "start": "Talera, Rajasthan",
+    "end": "Keshoraipatan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Talera",
+      "Keshoraipatan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Talera",
+      "coords": [
+        75.71967,
+        25.32625
+      ]
+    },
+    {
+      "name": "Keshoraipatan",
+      "coords": [
+        75.93869,
+        25.29415
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

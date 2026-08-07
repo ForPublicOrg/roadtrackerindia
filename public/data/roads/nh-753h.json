@@ -1,0 +1,70 @@
+{
+  "id": "nh-753h",
+  "ref": "NH 753H",
+  "name": "Georai–Sillod National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 116.1,
+  "route": {
+    "start": "Georai, Maharashtra",
+    "end": "Sillod, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Georai",
+      "Ambad",
+      "Jalna",
+      "Bhokardan",
+      "Sillod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Georai",
+      "coords": [
+        75.71471,
+        19.44078
+      ]
+    },
+    {
+      "name": "Ambad",
+      "coords": [
+        75.7962,
+        19.61424
+      ]
+    },
+    {
+      "name": "Jalna",
+      "coords": [
+        75.87085,
+        19.84247
+      ]
+    },
+    {
+      "name": "Bhokardan",
+      "coords": [
+        75.77061,
+        20.25532
+      ]
+    },
+    {
+      "name": "Sillod",
+      "coords": [
+        75.65875,
+        20.29619
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

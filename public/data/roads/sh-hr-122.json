@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-122",
+  "ref": "SH 122",
+  "name": "Chhara–Rohtak State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 36.3,
+  "route": {
+    "start": "Chhara, Haryana",
+    "end": "Rohtak, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Chhara",
+      "Rohtak"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhara",
+      "coords": [
+        76.71406,
+        28.6971
+      ]
+    },
+    {
+      "name": "Rohtak",
+      "coords": [
+        76.42257,
+        28.84073
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-mukkada-edamon-athikayam-road",
+  "ref": "MDR",
+  "name": "Mukkada - Edamon - Athikayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Karinkallummoozhi, Kerala",
+    "end": "Ranni, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkallummoozhi",
+      "Ranni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.79989,
+        9.46095
+      ]
+    },
+    {
+      "name": "Ranni",
+      "coords": [
+        76.83928,
+        9.39554
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

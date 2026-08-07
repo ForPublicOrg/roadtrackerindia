@@ -1,0 +1,62 @@
+{
+  "id": "nh-365",
+  "ref": "NH 365",
+  "name": "Mulugu–Nakrekal National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 181.1,
+  "route": {
+    "start": "Mulugu, Telangana",
+    "end": "Nakrekal, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Mulugu",
+      "Narsampet",
+      "Mahabubabad",
+      "Nakrekal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mulugu",
+      "coords": [
+        79.85128,
+        18.11355
+      ]
+    },
+    {
+      "name": "Narsampet",
+      "coords": [
+        79.89373,
+        17.93052
+      ]
+    },
+    {
+      "name": "Mahabubabad",
+      "coords": [
+        80.00162,
+        17.59778
+      ]
+    },
+    {
+      "name": "Nakrekal",
+      "coords": [
+        79.41435,
+        17.18273
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

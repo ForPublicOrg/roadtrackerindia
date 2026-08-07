@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-20b",
+  "ref": "SH 20B",
+  "name": "Napasar–Ladnu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 107.7,
+  "route": {
+    "start": "Napasar, Rajasthan",
+    "end": "Ladnu, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Napasar",
+      "Jasrasar",
+      "Ladnu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Napasar",
+      "coords": [
+        73.56894,
+        27.96599
+      ]
+    },
+    {
+      "name": "Jasrasar",
+      "coords": [
+        73.80785,
+        27.70915
+      ]
+    },
+    {
+      "name": "Ladnu",
+      "coords": [
+        74.38791,
+        27.64088
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

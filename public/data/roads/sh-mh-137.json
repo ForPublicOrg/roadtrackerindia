@@ -1,0 +1,43 @@
+{
+  "id": "sh-mh-137",
+  "ref": "SH 137",
+  "name": "Miraj–Kurundwad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 25.8,
+  "route": {
+    "start": "Miraj, Maharashtra",
+    "end": "Kurundwad, Karnataka",
+    "states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Miraj",
+      "Kurundwad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Miraj",
+      "coords": [
+        74.6479,
+        16.81344
+      ]
+    },
+    {
+      "name": "Kurundwad",
+      "coords": [
+        74.59058,
+        16.67893
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

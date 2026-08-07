@@ -1,0 +1,62 @@
+{
+  "id": "nh-730a",
+  "ref": "NH 730A",
+  "name": "Misrikh–Puranpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 104.9,
+  "route": {
+    "start": "Misrikh, Uttar Pradesh",
+    "end": "Puranpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Misrikh",
+      "Powayan",
+      "Banda",
+      "Puranpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Misrikh",
+      "coords": [
+        80.34244,
+        27.7172
+      ]
+    },
+    {
+      "name": "Powayan",
+      "coords": [
+        80.09445,
+        28.06412
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        80.10871,
+        28.24267
+      ]
+    },
+    {
+      "name": "Puranpur",
+      "coords": [
+        80.1405,
+        28.50471
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

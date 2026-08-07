@@ -1,0 +1,65 @@
+{
+  "id": "sh-jh-5",
+  "ref": "SH 5",
+  "name": "Chaibasa–Bhetia State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58.4,
+  "route": {
+    "start": "Chaibasa, Jharkhand",
+    "end": "Bhetia, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Chaibasa",
+      "Saraikela",
+      "Gamharia",
+      "Bhetia"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chaibasa",
+      "coords": [
+        85.79604,
+        22.56327
+      ]
+    },
+    {
+      "name": "Saraikela",
+      "coords": [
+        85.9318,
+        22.70225
+      ]
+    },
+    {
+      "name": "Sini",
+      "coords": [
+        85.96424,
+        22.75919
+      ]
+    },
+    {
+      "name": "Gamharia",
+      "coords": [
+        86.10748,
+        22.8119
+      ]
+    },
+    {
+      "name": "Bhetia",
+      "coords": [
+        86.1349,
+        22.79622
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-112",
+  "ref": "MDR 112",
+  "name": "Valiyoor–Panagudi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Valiyoor, Tamil Nadu",
+    "end": "Panagudi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Valiyoor",
+      "Panagudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Valiyoor",
+      "coords": [
+        77.60568,
+        8.43642
+      ]
+    },
+    {
+      "name": "Panagudi",
+      "coords": [
+        77.56186,
+        8.43114
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-uzhavoor-chettukulam-road",
+  "ref": "MDR",
+  "name": "Uzhavoor - Chettukulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Kozha, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozha",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozha",
+      "coords": [
+        76.6106,
+        9.7918
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.59064,
+        9.79673
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

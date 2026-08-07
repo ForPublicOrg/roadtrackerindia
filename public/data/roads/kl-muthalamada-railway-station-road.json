@@ -1,0 +1,42 @@
+{
+  "id": "kl-muthalamada-railway-station-road",
+  "ref": "MDR",
+  "name": "Muthalamada Railway Station Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kollengode, Kerala",
+    "end": "Chittur-Thathamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kollengode",
+      "Chittur-Thathamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kollengode",
+      "coords": [
+        76.77533,
+        10.62967
+      ]
+    },
+    {
+      "name": "Chittur-Thathamangalam",
+      "coords": [
+        76.75277,
+        10.60825
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

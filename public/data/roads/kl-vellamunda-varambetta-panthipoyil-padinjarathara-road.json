@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellamunda-varambetta-panthipoyil-padinjarathara-road",
+  "ref": "MDR",
+  "name": "Vellamunda - Varambetta - Panthipoyil - Padinjarathara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.2,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        75.97022,
+        11.67314
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        75.95617,
+        11.73403
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "kl-ezhikkara-kaitharam-byepass-road",
+  "ref": "MDR",
+  "name": "Ezhikkara - Kaitharam Byepass Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.3,
+  "route": {
+    "start": "Thrikkapuram, Kerala",
+    "end": "Cheriyappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thrikkapuram",
+      "Kalikulangara",
+      "North Paravur",
+      "Cheriyappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.22839,
+        10.11243
+      ]
+    },
+    {
+      "name": "Kalikulangara",
+      "coords": [
+        76.23401,
+        10.11401
+      ]
+    },
+    {
+      "name": "North Paravur",
+      "coords": [
+        76.23843,
+        10.116
+      ]
+    },
+    {
+      "name": "Cheriyappilly",
+      "coords": [
+        76.24453,
+        10.11709
+      ]
+    },
+    {
+      "name": "Thrikkapuram",
+      "coords": [
+        76.24719,
+        10.11719
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

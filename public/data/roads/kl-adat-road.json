@@ -1,0 +1,42 @@
+{
+  "id": "kl-adat-road",
+  "ref": "MDR",
+  "name": "Adat Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Puzhakkal, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puzhakkal",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.17416,
+        10.55212
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.1432,
+        10.54224
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

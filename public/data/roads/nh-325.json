@@ -1,0 +1,85 @@
+{
+  "id": "nh-325",
+  "ref": "NH 325",
+  "name": "Balotra–Falna National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 152.6,
+  "route": {
+    "start": "Balotra, Rajasthan",
+    "end": "Falna, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Balotra",
+      "Siwana",
+      "Jalore",
+      "Ahore",
+      "Takhatgarh",
+      "Falna"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Balotra",
+      "coords": [
+        72.24808,
+        25.86962
+      ]
+    },
+    {
+      "name": "Jasol",
+      "coords": [
+        72.23581,
+        25.79079
+      ]
+    },
+    {
+      "name": "Siwana",
+      "coords": [
+        72.42366,
+        25.64721
+      ]
+    },
+    {
+      "name": "Jalore",
+      "coords": [
+        72.62544,
+        25.34455
+      ]
+    },
+    {
+      "name": "Ahore",
+      "coords": [
+        72.78492,
+        25.37099
+      ]
+    },
+    {
+      "name": "Takhatgarh",
+      "coords": [
+        73.00588,
+        25.31168
+      ]
+    },
+    {
+      "name": "Falna",
+      "coords": [
+        73.16096,
+        25.29324
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

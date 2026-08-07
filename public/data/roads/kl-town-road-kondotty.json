@@ -1,0 +1,42 @@
+{
+  "id": "kl-town-road-kondotty",
+  "ref": "SH",
+  "name": "Town Road Kondotty",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kaloth, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaloth",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaloth",
+      "coords": [
+        75.9715,
+        11.14238
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.96753,
+        11.1447
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

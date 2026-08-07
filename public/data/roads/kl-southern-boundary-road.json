@@ -1,0 +1,51 @@
+{
+  "id": "kl-southern-boundary-road",
+  "ref": "MDR",
+  "name": "Southern Boundary Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Vattappally, Kerala",
+    "end": "Zakariya Bazar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vattappally",
+      "Vazhicherry",
+      "Alappuzha",
+      "Zakariya Bazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.339,
+        9.46619
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33278,
+        9.46572
+      ]
+    },
+    {
+      "name": "Zakariya Bazar",
+      "coords": [
+        76.32711,
+        9.46386
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-50",
+  "ref": "SH 50",
+  "name": "Sabalgarh–Mohana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 101.3,
+  "route": {
+    "start": "Sabalgarh, Madhya Pradesh",
+    "end": "Mohana, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Sabalgarh",
+      "Bijeypur",
+      "Mohana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sabalgarh",
+      "coords": [
+        77.38562,
+        26.24596
+      ]
+    },
+    {
+      "name": "Bijeypur",
+      "coords": [
+        77.36625,
+        26.05568
+      ]
+    },
+    {
+      "name": "Mohana",
+      "coords": [
+        77.76688,
+        25.87544
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-chavadichantha-pallithodu-road",
+  "ref": "MDR",
+  "name": "Chavadichantha Pallithodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Vaikom, Kerala",
+    "end": "Aroor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vaikom",
+      "Aroor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vaikom",
+      "coords": [
+        76.30557,
+        9.77377
+      ]
+    },
+    {
+      "name": "Aroor",
+      "coords": [
+        76.28047,
+        9.77576
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

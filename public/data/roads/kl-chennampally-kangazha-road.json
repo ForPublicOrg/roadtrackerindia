@@ -1,0 +1,42 @@
+{
+  "id": "kl-chennampally-kangazha-road",
+  "ref": "MDR",
+  "name": "Chennampally Kangazha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Vazhoor, Kerala",
+    "end": "Pampady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vazhoor",
+      "Pampady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.67088,
+        9.53619
+      ]
+    },
+    {
+      "name": "Pampady",
+      "coords": [
+        76.65461,
+        9.56277
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

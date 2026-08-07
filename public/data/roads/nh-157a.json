@@ -1,0 +1,46 @@
+{
+  "id": "nh-157a",
+  "ref": "NH 157A",
+  "name": "Phulbani–Athmallik National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 36,
+  "route": {
+    "start": "Phulbani, Odisha",
+    "end": "Athmallik, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Phulbani",
+      "Athmallik"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Phulbani",
+      "coords": [
+        84.24194,
+        20.48238
+      ]
+    },
+    {
+      "name": "Athmallik",
+      "coords": [
+        84.50596,
+        20.44911
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

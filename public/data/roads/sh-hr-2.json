@@ -1,0 +1,66 @@
+{
+  "id": "sh-hr-2",
+  "ref": "SH 2",
+  "name": "Hodal–Badarpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 76.1,
+  "route": {
+    "start": "Hodal, Haryana",
+    "end": "Badarpur, Delhi",
+    "states": [
+      "Haryana",
+      "Delhi"
+    ],
+    "majorCities": [
+      "Hodal",
+      "Palwal",
+      "Faridabad",
+      "Badarpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Hodal",
+      "coords": [
+        77.39277,
+        27.87002
+      ]
+    },
+    {
+      "name": "Palwal",
+      "coords": [
+        77.32954,
+        28.13481
+      ]
+    },
+    {
+      "name": "Ballabgarh",
+      "coords": [
+        77.31453,
+        28.33079
+      ]
+    },
+    {
+      "name": "Faridabad",
+      "coords": [
+        77.31634,
+        28.34773
+      ]
+    },
+    {
+      "name": "Badarpur",
+      "coords": [
+        77.30244,
+        28.49665
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

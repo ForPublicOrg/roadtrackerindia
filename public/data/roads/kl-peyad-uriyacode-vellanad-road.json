@@ -1,0 +1,42 @@
+{
+  "id": "kl-peyad-uriyacode-vellanad-road",
+  "ref": "MDR",
+  "name": "Peyad - Uriyacode - Vellanad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.2,
+  "route": {
+    "start": "Peyad, Kerala",
+    "end": "Kattakada, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Peyad",
+      "Kattakada"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Peyad",
+      "coords": [
+        77.01979,
+        8.51433
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.06679,
+        8.55096
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

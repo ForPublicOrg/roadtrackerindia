@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-56",
+  "ref": "SH 56",
+  "name": "Bhim–Rajsamand State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.3,
+  "route": {
+    "start": "Bhim, Rajasthan",
+    "end": "Rajsamand, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhim",
+      "Deogarh",
+      "Amet",
+      "Rajsamand"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhim",
+      "coords": [
+        74.04019,
+        25.67981
+      ]
+    },
+    {
+      "name": "Deogarh",
+      "coords": [
+        73.90625,
+        25.53122
+      ]
+    },
+    {
+      "name": "Amet",
+      "coords": [
+        73.92079,
+        25.3004
+      ]
+    },
+    {
+      "name": "Rajsamand",
+      "coords": [
+        73.96116,
+        25.10512
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

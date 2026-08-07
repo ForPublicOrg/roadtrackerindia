@@ -1,0 +1,66 @@
+{
+  "id": "sh-pb-10",
+  "ref": "SH 10",
+  "name": "Patiala–Bareta State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 93.4,
+  "route": {
+    "start": "Patiala, Punjab",
+    "end": "Bareta, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Patiala",
+      "Malkana",
+      "Patran",
+      "Moonak",
+      "Bareta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Patiala",
+      "coords": [
+        76.33203,
+        30.30905
+      ]
+    },
+    {
+      "name": "Malkana",
+      "coords": [
+        76.20617,
+        30.15401
+      ]
+    },
+    {
+      "name": "Patran",
+      "coords": [
+        76.05318,
+        29.95295
+      ]
+    },
+    {
+      "name": "Moonak",
+      "coords": [
+        75.89511,
+        29.82577
+      ]
+    },
+    {
+      "name": "Bareta",
+      "coords": [
+        75.68082,
+        29.87948
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

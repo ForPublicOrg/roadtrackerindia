@@ -1,0 +1,42 @@
+{
+  "id": "kl-a-c-colony-vezhapra-church-road",
+  "ref": "MDR",
+  "name": "A.C Colony - Vezhapra Church Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Vandipetta, Kerala",
+    "end": "Mathumoola, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vandipetta",
+      "Mathumoola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.45633,
+        9.42564
+      ]
+    },
+    {
+      "name": "Mathumoola",
+      "coords": [
+        76.45691,
+        9.41785
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

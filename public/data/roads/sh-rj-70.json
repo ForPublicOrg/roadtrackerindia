@@ -1,0 +1,58 @@
+{
+  "id": "sh-rj-70",
+  "ref": "SH 70",
+  "name": "Itawa–Kaithoon State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.6,
+  "route": {
+    "start": "Itawa, Madhya Pradesh",
+    "end": "Kaithoon, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Itawa",
+      "Sultanpur",
+      "Digod",
+      "Kaithoon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Itawa",
+      "coords": [
+        76.487,
+        25.68236
+      ]
+    },
+    {
+      "name": "Sultanpur",
+      "coords": [
+        76.18014,
+        25.28979
+      ]
+    },
+    {
+      "name": "Digod",
+      "coords": [
+        76.0772,
+        25.22195
+      ]
+    },
+    {
+      "name": "Kaithoon",
+      "coords": [
+        75.97807,
+        25.18905
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

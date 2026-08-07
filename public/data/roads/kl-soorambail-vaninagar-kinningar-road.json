@@ -1,0 +1,42 @@
+{
+  "id": "kl-soorambail-vaninagar-kinningar-road",
+  "ref": "MDR",
+  "name": "Soorambail - Vaninagar - Kinningar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Badiadka, Kerala",
+    "end": "Mulleria, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Badiadka",
+      "Mulleria"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Badiadka",
+      "coords": [
+        75.13978,
+        12.6367
+      ]
+    },
+    {
+      "name": "Mulleria",
+      "coords": [
+        75.16296,
+        12.60829
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

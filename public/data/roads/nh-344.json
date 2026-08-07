@@ -1,0 +1,103 @@
+{
+  "id": "nh-344",
+  "ref": "NH 344",
+  "name": "Manglaur–Shahzadpur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 211.5,
+  "route": {
+    "start": "Manglaur, Uttarakhand",
+    "end": "Shahzadpur, Haryana",
+    "states": [
+      "Uttarakhand",
+      "Uttar Pradesh",
+      "Haryana",
+      "Punjab"
+    ],
+    "majorCities": [
+      "Manglaur",
+      "Roorkee",
+      "Sarsawa",
+      "Yamunanagar",
+      "Barara",
+      "Ambala",
+      "Shahzadpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manglaur",
+      "coords": [
+        77.87878,
+        29.81155
+      ]
+    },
+    {
+      "name": "Roorkee",
+      "coords": [
+        77.85086,
+        29.8628
+      ]
+    },
+    {
+      "name": "Chhutmalpur",
+      "coords": [
+        77.75925,
+        30.01588
+      ]
+    },
+    {
+      "name": "Sarsawa",
+      "coords": [
+        77.39394,
+        30.02449
+      ]
+    },
+    {
+      "name": "Yamunanagar",
+      "coords": [
+        77.28057,
+        30.08403
+      ]
+    },
+    {
+      "name": "Jagadhari",
+      "coords": [
+        77.23484,
+        30.18475
+      ]
+    },
+    {
+      "name": "Barara",
+      "coords": [
+        77.07023,
+        30.2603
+      ]
+    },
+    {
+      "name": "Ambala",
+      "coords": [
+        76.79201,
+        30.38842
+      ]
+    },
+    {
+      "name": "Shahzadpur",
+      "coords": [
+        77.04006,
+        30.44174
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

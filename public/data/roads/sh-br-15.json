@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-15",
+  "ref": "SH 15",
+  "name": "Suryapura–Dehri State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 59.3,
+  "route": {
+    "start": "Suryapura, Bihar",
+    "end": "Dehri, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Suryapura",
+      "Bikramganj",
+      "Dehri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Suryapura",
+      "coords": [
+        84.08134,
+        25.24416
+      ]
+    },
+    {
+      "name": "Bikramganj",
+      "coords": [
+        84.2543,
+        25.21342
+      ]
+    },
+    {
+      "name": "Dehri",
+      "coords": [
+        84.1919,
+        24.90704
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

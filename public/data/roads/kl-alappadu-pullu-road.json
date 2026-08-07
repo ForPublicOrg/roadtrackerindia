@@ -1,0 +1,42 @@
+{
+  "id": "kl-alappadu-pullu-road",
+  "ref": "MDR",
+  "name": "Alappadu - Pullu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Ollur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Ollur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.1547,
+        10.45692
+      ]
+    },
+    {
+      "name": "Ollur",
+      "coords": [
+        76.16021,
+        10.44451
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

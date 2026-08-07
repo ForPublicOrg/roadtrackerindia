@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-911",
+  "ref": "MDR 911",
+  "name": "Uchahera–Nagod District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 42.6,
+  "route": {
+    "start": "Uchahera, Madhya Pradesh",
+    "end": "Nagod, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Uchahera",
+      "Nagod"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uchahera",
+      "coords": [
+        80.78399,
+        24.37631
+      ]
+    },
+    {
+      "name": "Nagod",
+      "coords": [
+        80.46072,
+        24.44899
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

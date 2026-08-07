@@ -1,0 +1,57 @@
+{
+  "id": "mdr-tn-986",
+  "ref": "MDR 986",
+  "name": "Singanallur–Uppilipalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Singanallur, Tamil Nadu",
+    "end": "Uppilipalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Singanallur",
+      "Uppilipalayam",
+      "Civil Aerodrome"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Singanallur",
+      "coords": [
+        77.02874,
+        11.00207
+      ]
+    },
+    {
+      "name": "Uppilipalayam",
+      "coords": [
+        77.02462,
+        11.01061
+      ]
+    },
+    {
+      "name": "Udayampalayam",
+      "coords": [
+        77.02336,
+        11.01711
+      ]
+    },
+    {
+      "name": "Civil Aerodrome",
+      "coords": [
+        77.02094,
+        11.02618
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

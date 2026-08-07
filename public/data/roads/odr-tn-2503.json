@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-2503",
+  "ref": "ODR 2503",
+  "name": "Melapattai–Fort District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Melapattai, Tamil Nadu",
+    "end": "Fort, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Melapattai",
+      "Fort"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melapattai",
+      "coords": [
+        79.31907,
+        12.78793
+      ]
+    },
+    {
+      "name": "Fort",
+      "coords": [
+        79.32239,
+        12.776
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

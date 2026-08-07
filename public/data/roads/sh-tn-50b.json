@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-50b",
+  "ref": "SH 50B",
+  "name": "Thirumazhisai–Thakkolam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39,
+  "route": {
+    "start": "Thirumazhisai, Tamil Nadu",
+    "end": "Thakkolam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Thirumazhisai",
+      "Thakkolam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thirumazhisai",
+      "coords": [
+        80.01062,
+        13.01838
+      ]
+    },
+    {
+      "name": "Thakkolam",
+      "coords": [
+        79.73452,
+        13.0154
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

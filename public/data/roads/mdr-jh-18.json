@@ -1,0 +1,79 @@
+{
+  "id": "mdr-jh-18",
+  "ref": "MDR 18",
+  "name": "Argora–Gutuwa District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Argora, Jharkhand",
+    "end": "Gutuwa, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Argora",
+      "Ranchi",
+      "Dugdugiatoli",
+      "Gutuwa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Argora",
+      "coords": [
+        85.29801,
+        23.35018
+      ]
+    },
+    {
+      "name": "Chaputoli",
+      "coords": [
+        85.28559,
+        23.35404
+      ]
+    },
+    {
+      "name": "Dugdugiatoli",
+      "coords": [
+        85.27786,
+        23.35647
+      ]
+    },
+    {
+      "name": "Pundag",
+      "coords": [
+        85.26858,
+        23.35695
+      ]
+    },
+    {
+      "name": "Tundhul",
+      "coords": [
+        85.26196,
+        23.35693
+      ]
+    },
+    {
+      "name": "Mahuatoli",
+      "coords": [
+        85.2573,
+        23.3595
+      ]
+    },
+    {
+      "name": "Gutuwa",
+      "coords": [
+        85.25112,
+        23.36334
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

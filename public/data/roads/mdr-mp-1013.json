@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-1013",
+  "ref": "MDR 1013",
+  "name": "Gurh–Mauganj District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 55,
+  "route": {
+    "start": "Gurh, Madhya Pradesh",
+    "end": "Mauganj, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gurh",
+      "Mauganj"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gurh",
+      "coords": [
+        81.41744,
+        24.56828
+      ]
+    },
+    {
+      "name": "Mauganj",
+      "coords": [
+        81.80986,
+        24.67461
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

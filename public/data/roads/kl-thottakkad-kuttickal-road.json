@@ -1,0 +1,42 @@
+{
+  "id": "kl-thottakkad-kuttickal-road",
+  "ref": "MDR",
+  "name": "Thottakkad - Kuttickal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Pampady, Kerala",
+    "end": "Puthuppally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pampady",
+      "Puthuppally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pampady",
+      "coords": [
+        76.64501,
+        9.54166
+      ]
+    },
+    {
+      "name": "Puthuppally",
+      "coords": [
+        76.60116,
+        9.53442
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

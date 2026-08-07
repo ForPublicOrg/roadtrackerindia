@@ -1,0 +1,42 @@
+{
+  "id": "kl-uliyil-sivapuram-road",
+  "ref": "MDR",
+  "name": "Uliyil - Sivapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.1,
+  "route": {
+    "start": "Mattannur, Kerala",
+    "end": "Koothuparamba, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mattannur",
+      "Koothuparamba"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mattannur",
+      "coords": [
+        75.62524,
+        11.94697
+      ]
+    },
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.60849,
+        11.90969
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

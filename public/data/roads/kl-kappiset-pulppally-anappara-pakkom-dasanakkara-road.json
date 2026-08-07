@@ -1,0 +1,42 @@
+{
+  "id": "kl-kappiset-pulppally-anappara-pakkom-dasanakkara-road",
+  "ref": "MDR",
+  "name": "Kappiset-Pulppally-Anappara-Pakkom-Dasanakkara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 16.2,
+  "route": {
+    "start": "Panamaram, Kerala",
+    "end": "Perikkalloor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panamaram",
+      "Perikkalloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panamaram",
+      "coords": [
+        76.08115,
+        11.79647
+      ]
+    },
+    {
+      "name": "Perikkalloor",
+      "coords": [
+        76.20582,
+        11.80286
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

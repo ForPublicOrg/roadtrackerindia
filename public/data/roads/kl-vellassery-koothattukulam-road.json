@@ -1,0 +1,42 @@
+{
+  "id": "kl-vellassery-koothattukulam-road",
+  "ref": "MDR",
+  "name": "Vellassery - Koothattukulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.5,
+  "route": {
+    "start": "Kaduthuruthy, Kerala",
+    "end": "Thalayolaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kaduthuruthy",
+      "Thalayolaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.49212,
+        9.77433
+      ]
+    },
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.48081,
+        9.80229
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

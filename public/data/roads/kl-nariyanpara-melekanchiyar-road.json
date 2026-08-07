@@ -1,0 +1,43 @@
+{
+  "id": "kl-nariyanpara-melekanchiyar-road",
+  "ref": "MDR",
+  "name": "Nariyanpara - Melekanchiyar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "School Kavala, Kerala",
+    "end": "Ambalakkavala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "School Kavala",
+      "Kattappana",
+      "Ambalakkavala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "School Kavala",
+      "coords": [
+        77.09094,
+        9.74145
+      ]
+    },
+    {
+      "name": "Ambalakkavala",
+      "coords": [
+        77.08557,
+        9.72893
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

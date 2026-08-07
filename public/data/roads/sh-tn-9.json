@@ -1,0 +1,65 @@
+{
+  "id": "sh-tn-9",
+  "ref": "SH 9",
+  "name": "Cuddalore–Polur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 142.7,
+  "route": {
+    "start": "Cuddalore, Tamil Nadu",
+    "end": "Polur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Cuddalore",
+      "Tirukkovilur",
+      "Tiruvannamalai",
+      "Polur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cuddalore",
+      "coords": [
+        79.76328,
+        11.75688
+      ]
+    },
+    {
+      "name": "Panruti",
+      "coords": [
+        79.55161,
+        11.77276
+      ]
+    },
+    {
+      "name": "Tirukkovilur",
+      "coords": [
+        79.21127,
+        11.9697
+      ]
+    },
+    {
+      "name": "Tiruvannamalai",
+      "coords": [
+        79.07235,
+        12.23818
+      ]
+    },
+    {
+      "name": "Polur",
+      "coords": [
+        79.12778,
+        12.513
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

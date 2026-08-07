@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-257",
+  "ref": "SH 257",
+  "name": "Kinwat–Wardha State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 146.8,
+  "route": {
+    "start": "Kinwat, Maharashtra",
+    "end": "Wardha, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kinwat",
+      "Ghatanji",
+      "Wardha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kinwat",
+      "coords": [
+        78.22042,
+        19.84493
+      ]
+    },
+    {
+      "name": "Ghatanji",
+      "coords": [
+        78.3125,
+        20.1417
+      ]
+    },
+    {
+      "name": "Wardha",
+      "coords": [
+        78.60156,
+        20.74374
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

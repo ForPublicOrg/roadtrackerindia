@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-109",
+  "ref": "MDR 109",
+  "name": "Konra–Chandwara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.1,
+  "route": {
+    "start": "Konra, Jharkhand",
+    "end": "Chandwara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Konra",
+      "Chandwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Konra",
+      "coords": [
+        85.36908,
+        24.33618
+      ]
+    },
+    {
+      "name": "Chandwara",
+      "coords": [
+        85.48418,
+        24.38896
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

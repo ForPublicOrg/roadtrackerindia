@@ -1,0 +1,66 @@
+{
+  "id": "mdr-jh-89",
+  "ref": "MDR 89",
+  "name": "Makatpur–Jamtara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 70.6,
+  "route": {
+    "start": "Makatpur, Jharkhand",
+    "end": "Jamtara, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Makatpur",
+      "Giridih",
+      "Gande",
+      "Narayanpur",
+      "Jamtara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Makatpur",
+      "coords": [
+        86.31127,
+        24.20218
+      ]
+    },
+    {
+      "name": "Giridih",
+      "coords": [
+        86.31614,
+        24.19995
+      ]
+    },
+    {
+      "name": "Gande",
+      "coords": [
+        86.44945,
+        24.1782
+      ]
+    },
+    {
+      "name": "Narayanpur",
+      "coords": [
+        86.61974,
+        24.04244
+      ]
+    },
+    {
+      "name": "Jamtara",
+      "coords": [
+        86.80254,
+        23.95841
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

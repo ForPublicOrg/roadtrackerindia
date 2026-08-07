@@ -1,0 +1,42 @@
+{
+  "id": "kl-thenari-cochin-frontier-road",
+  "ref": "MDR",
+  "name": "Thenari - Cochin Frontier Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.2,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Chittur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Chittur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.75379,
+        10.75814
+      ]
+    },
+    {
+      "name": "Chittur",
+      "coords": [
+        76.76624,
+        10.72371
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

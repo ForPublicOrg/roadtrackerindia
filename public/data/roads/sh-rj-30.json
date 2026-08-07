@@ -1,0 +1,73 @@
+{
+  "id": "sh-rj-30",
+  "ref": "SH 30",
+  "name": "Morena–Sawai Madhopur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 273.5,
+  "route": {
+    "start": "Morena, Madhya Pradesh",
+    "end": "Sawai Madhopur, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Morena",
+      "Kailaras",
+      "Sheopur",
+      "Sawai Madhopur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Morena",
+      "coords": [
+        77.97796,
+        26.48758
+      ]
+    },
+    {
+      "name": "Joura",
+      "coords": [
+        77.80319,
+        26.34409
+      ]
+    },
+    {
+      "name": "Kailaras",
+      "coords": [
+        77.61262,
+        26.30123
+      ]
+    },
+    {
+      "name": "Sabalgarh",
+      "coords": [
+        77.40755,
+        26.24989
+      ]
+    },
+    {
+      "name": "Sheopur",
+      "coords": [
+        76.70583,
+        25.6789
+      ]
+    },
+    {
+      "name": "Sawai Madhopur",
+      "coords": [
+        76.35638,
+        26.01211
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

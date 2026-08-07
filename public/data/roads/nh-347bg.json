@@ -1,0 +1,70 @@
+{
+  "id": "nh-347bg",
+  "ref": "NH 347BG",
+  "name": "Khandwa–Vaishali Nagar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 98.4,
+  "route": {
+    "start": "Khandwa, Madhya Pradesh",
+    "end": "Vaishali Nagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Khandwa",
+      "Sanawad",
+      "Barwaha",
+      "Simrol",
+      "Vaishali Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khandwa",
+      "coords": [
+        76.17748,
+        21.89587
+      ]
+    },
+    {
+      "name": "Sanawad",
+      "coords": [
+        76.07269,
+        22.16964
+      ]
+    },
+    {
+      "name": "Barwaha",
+      "coords": [
+        76.03768,
+        22.25344
+      ]
+    },
+    {
+      "name": "Simrol",
+      "coords": [
+        75.9118,
+        22.5421
+      ]
+    },
+    {
+      "name": "Vaishali Nagar",
+      "coords": [
+        75.88825,
+        22.63835
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

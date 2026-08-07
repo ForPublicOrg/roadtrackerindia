@@ -1,0 +1,58 @@
+{
+  "id": "sh-bh-72",
+  "ref": "SH 72",
+  "name": "Jamui–Railway Colony State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 58.9,
+  "route": {
+    "start": "Jamui, Bihar",
+    "end": "Railway Colony, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Jamui",
+      "Lakshimpur",
+      "Kharagpur",
+      "Railway Colony"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jamui",
+      "coords": [
+        86.23961,
+        24.96478
+      ]
+    },
+    {
+      "name": "Lakshimpur",
+      "coords": [
+        86.39485,
+        25.0034
+      ]
+    },
+    {
+      "name": "Kharagpur",
+      "coords": [
+        86.55062,
+        25.12594
+      ]
+    },
+    {
+      "name": "Railway Colony",
+      "coords": [
+        86.57614,
+        25.28279
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-attupuram-missionkunnu-azhanthakuzhy-road",
+  "ref": "MDR",
+  "name": "Attupuram - Missionkunnu - Azhanthakuzhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Nilamel, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Nilamel"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.9091,
+        8.8273
+      ]
+    },
+    {
+      "name": "Nilamel",
+      "coords": [
+        76.89351,
+        8.82093
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

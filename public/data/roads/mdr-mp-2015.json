@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2015",
+  "ref": "MDR 2015",
+  "name": "Barman–Chhota Chhindwara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.9,
+  "route": {
+    "start": "Barman, Madhya Pradesh",
+    "end": "Chhota Chhindwara, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Barman",
+      "Chhota Chhindwara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barman",
+      "coords": [
+        79.20059,
+        23.2822
+      ]
+    },
+    {
+      "name": "Chhota Chhindwara",
+      "coords": [
+        79.35047,
+        23.2909
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

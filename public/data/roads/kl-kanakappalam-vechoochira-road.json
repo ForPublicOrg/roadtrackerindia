@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanakappalam-vechoochira-road",
+  "ref": "MDR",
+  "name": "Kanakappalam - Vechoochira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Karinkallummoozhi, Kerala",
+    "end": "Erumely, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Karinkallummoozhi",
+      "Erumely"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karinkallummoozhi",
+      "coords": [
+        76.85173,
+        9.43144
+      ]
+    },
+    {
+      "name": "Erumely",
+      "coords": [
+        76.83502,
+        9.46367
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

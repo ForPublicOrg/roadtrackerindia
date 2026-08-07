@@ -1,0 +1,50 @@
+{
+  "id": "mdr-pb-29",
+  "ref": "MDR 29",
+  "name": "Boha–Bhikhi District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 34.7,
+  "route": {
+    "start": "Boha, Haryana",
+    "end": "Bhikhi, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Boha",
+      "Budhlada",
+      "Bhikhi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Boha",
+      "coords": [
+        75.54595,
+        29.7639
+      ]
+    },
+    {
+      "name": "Budhlada",
+      "coords": [
+        75.54531,
+        29.92477
+      ]
+    },
+    {
+      "name": "Bhikhi",
+      "coords": [
+        75.52574,
+        30.06335
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

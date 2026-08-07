@@ -1,0 +1,43 @@
+{
+  "id": "kl-tramway-road",
+  "ref": "MDR",
+  "name": "Tramway Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Chalakudy, Kerala",
+    "end": "Thachudaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chalakudy",
+      "Thachudaparambu",
+      "Potta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.33058,
+        10.30555
+      ]
+    },
+    {
+      "name": "Potta",
+      "coords": [
+        76.33651,
+        10.31192
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

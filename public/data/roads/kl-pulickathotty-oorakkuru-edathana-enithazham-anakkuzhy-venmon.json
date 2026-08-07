@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulickathotty-oorakkuru-edathana-enithazham-anakkuzhy-venmon",
+  "ref": "MDR",
+  "name": "Pulickathotty - Oorakkuru - Edathana - Enithazham - Anakkuzhy - Venmony Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Koickakudy, Kerala",
+    "end": "Adimali, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koickakudy",
+      "Adimali"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koickakudy",
+      "coords": [
+        76.85221,
+        9.99383
+      ]
+    },
+    {
+      "name": "Adimali",
+      "coords": [
+        76.87209,
+        9.97564
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

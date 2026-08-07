@@ -1,0 +1,61 @@
+{
+  "id": "nh-501",
+  "ref": "NH 501",
+  "name": "Anantnag–Pahalgam National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 57,
+  "route": {
+    "start": "Anantnag, Jammu and Kashmir",
+    "end": "Pahalgam, Jammu and Kashmir",
+    "states": [
+      "Jammu and Kashmir"
+    ],
+    "majorCities": [
+      "Anantnag",
+      "Seer Hamdan",
+      "Pahalgam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anantnag",
+      "coords": [
+        75.13594,
+        33.73894
+      ]
+    },
+    {
+      "name": "Mattan",
+      "coords": [
+        75.20476,
+        33.75876
+      ]
+    },
+    {
+      "name": "Aishmuquam",
+      "coords": [
+        75.2792,
+        33.8656
+      ]
+    },
+    {
+      "name": "Pahalgam",
+      "coords": [
+        75.32323,
+        34.03269
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

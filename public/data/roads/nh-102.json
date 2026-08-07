@@ -1,0 +1,85 @@
+{
+  "id": "nh-102",
+  "ref": "NH 102",
+  "name": "Namphalong Bazar–Babupara National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 105.4,
+  "route": {
+    "start": "Namphalong Bazar, Manipur",
+    "end": "Babupara, Manipur",
+    "states": [
+      "Manipur"
+    ],
+    "majorCities": [
+      "Namphalong Bazar",
+      "Moreh",
+      "Palel",
+      "Thoubal",
+      "Imphal",
+      "Babupara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Namphalong Bazar",
+      "coords": [
+        94.30801,
+        24.2468
+      ]
+    },
+    {
+      "name": "Moreh",
+      "coords": [
+        94.30055,
+        24.25052
+      ]
+    },
+    {
+      "name": "Palel",
+      "coords": [
+        94.02693,
+        24.44903
+      ]
+    },
+    {
+      "name": "Heirok",
+      "coords": [
+        94.03726,
+        24.59634
+      ]
+    },
+    {
+      "name": "Thoubal",
+      "coords": [
+        94.00115,
+        24.63924
+      ]
+    },
+    {
+      "name": "Imphal",
+      "coords": [
+        93.94037,
+        24.79609
+      ]
+    },
+    {
+      "name": "Babupara",
+      "coords": [
+        93.94097,
+        24.80253
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

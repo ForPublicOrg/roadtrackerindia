@@ -1,0 +1,43 @@
+{
+  "id": "kl-njekkadu-panayara-asan-mukku-road",
+  "ref": "MDR",
+  "name": "Njekkadu Panayara Asan Mukku Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Kallambalam, Kerala",
+    "end": "Chavarcode, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallambalam",
+      "Paripally",
+      "Chavarcode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.76585,
+        8.75537
+      ]
+    },
+    {
+      "name": "Paripally",
+      "coords": [
+        76.75508,
+        8.78509
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

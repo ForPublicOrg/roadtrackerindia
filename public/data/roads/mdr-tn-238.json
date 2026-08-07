@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-238",
+  "ref": "MDR 238",
+  "name": "Mecheri–Salem Camp District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Mecheri, Tamil Nadu",
+    "end": "Salem Camp, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Mecheri",
+      "Salem Camp"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mecheri",
+      "coords": [
+        77.88127,
+        11.89692
+      ]
+    },
+    {
+      "name": "Salem Camp",
+      "coords": [
+        77.9257,
+        11.86669
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

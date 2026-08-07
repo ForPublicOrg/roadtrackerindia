@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaithathodu-mithrakari-mampazhakari-road",
+  "ref": "MDR",
+  "name": "Kaithathodu - Mithrakari - Mampazhakari Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.4,
+  "route": {
+    "start": "Kavumbhagom, Kerala",
+    "end": "Vandipetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kavumbhagom",
+      "Vandipetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kavumbhagom",
+      "coords": [
+        76.51021,
+        9.3836
+      ]
+    },
+    {
+      "name": "Vandipetta",
+      "coords": [
+        76.46521,
+        9.41372
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

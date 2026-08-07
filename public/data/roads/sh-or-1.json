@@ -1,0 +1,42 @@
+{
+  "id": "sh-or-1",
+  "ref": "SH 1",
+  "name": "Daringbadi–Phulbani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 56,
+  "route": {
+    "start": "Daringbadi, Odisha",
+    "end": "Phulbani, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Daringbadi",
+      "Phulbani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Daringbadi",
+      "coords": [
+        83.98386,
+        20.13668
+      ]
+    },
+    {
+      "name": "Phulbani",
+      "coords": [
+        84.22617,
+        20.41865
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

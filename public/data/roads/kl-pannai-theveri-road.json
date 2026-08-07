@@ -1,0 +1,42 @@
+{
+  "id": "kl-pannai-theveri-road",
+  "ref": "MDR",
+  "name": "Pannai - Theveri Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.6,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.48498,
+        9.33095
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.5323,
+        9.33207
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

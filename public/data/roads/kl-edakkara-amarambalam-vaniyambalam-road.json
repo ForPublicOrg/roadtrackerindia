@@ -1,0 +1,42 @@
+{
+  "id": "kl-edakkara-amarambalam-vaniyambalam-road",
+  "ref": "MDR",
+  "name": "Edakkara - Amarambalam - Vaniyambalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27.2,
+  "route": {
+    "start": "Wandoor, Kerala",
+    "end": "Nilambur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Wandoor",
+      "Nilambur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wandoor",
+      "coords": [
+        76.26125,
+        11.18981
+      ]
+    },
+    {
+      "name": "Nilambur",
+      "coords": [
+        76.3107,
+        11.36058
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "kl-road-around-university",
+  "ref": "MDR",
+  "name": "Road around University",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.5,
+  "route": {
+    "start": "Kalamassery, Kerala",
+    "end": "Thrikkakkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalamassery",
+      "Pathadipalam",
+      "Thrikkakkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalamassery",
+      "coords": [
+        76.32328,
+        10.04593
+      ]
+    },
+    {
+      "name": "Pathadipalam",
+      "coords": [
+        76.32438,
+        10.04162
+      ]
+    },
+    {
+      "name": "Thrikkakkara",
+      "coords": [
+        76.32596,
+        10.03943
+      ]
+    },
+    {
+      "name": "Kangarappady",
+      "coords": [
+        76.32789,
+        10.03898
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

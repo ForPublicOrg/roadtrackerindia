@@ -1,0 +1,57 @@
+{
+  "id": "sh-br-12",
+  "ref": "SH 12",
+  "name": "Sasaram–Arrah State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94.5,
+  "route": {
+    "start": "Sasaram, Bihar",
+    "end": "Arrah, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Sasaram",
+      "Bikramganj",
+      "Arrah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sasaram",
+      "coords": [
+        84.0147,
+        24.95491
+      ]
+    },
+    {
+      "name": "Bikramganj",
+      "coords": [
+        84.25962,
+        25.21886
+      ]
+    },
+    {
+      "name": "Garahni",
+      "coords": [
+        84.55795,
+        25.40789
+      ]
+    },
+    {
+      "name": "Arrah",
+      "coords": [
+        84.645,
+        25.53209
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

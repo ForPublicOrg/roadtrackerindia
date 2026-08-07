@@ -1,0 +1,51 @@
+{
+  "id": "kl-thiruvambadi-beach-road",
+  "ref": "MDR",
+  "name": "Thiruvambadi - Beach Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.7,
+  "route": {
+    "start": "Vellakinar, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vellakinar",
+      "Vazhicherry",
+      "Alappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vellakinar",
+      "coords": [
+        76.33718,
+        9.48182
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.3257,
+        9.48223
+      ]
+    },
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.32188,
+        9.48099
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

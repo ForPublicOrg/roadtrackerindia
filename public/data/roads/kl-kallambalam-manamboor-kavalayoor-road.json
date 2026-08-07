@@ -1,0 +1,42 @@
+{
+  "id": "kl-kallambalam-manamboor-kavalayoor-road",
+  "ref": "MDR",
+  "name": "Kallambalam - Manamboor - Kavalayoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Kallambalam, Kerala",
+    "end": "Kadakkavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallambalam",
+      "Kadakkavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.79653,
+        8.75088
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.77834,
+        8.71694
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

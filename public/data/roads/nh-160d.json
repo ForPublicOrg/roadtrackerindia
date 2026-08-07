@@ -1,0 +1,46 @@
+{
+  "id": "nh-160d",
+  "ref": "NH 160D",
+  "name": "Loni–Ghulewadi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 47.4,
+  "route": {
+    "start": "Loni, Maharashtra",
+    "end": "Ghulewadi, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Loni",
+      "Ghulewadi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Loni",
+      "coords": [
+        74.53279,
+        19.54186
+      ]
+    },
+    {
+      "name": "Ghulewadi",
+      "coords": [
+        74.14339,
+        19.71775
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

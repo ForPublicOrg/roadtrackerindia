@@ -1,0 +1,43 @@
+{
+  "id": "kl-chittanda-thalassery-road",
+  "ref": "MDR",
+  "name": "Chittanda Thalassery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.5,
+  "route": {
+    "start": "Ottupara, Kerala",
+    "end": "Shoranur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ottupara",
+      "Wadakkancherry",
+      "Shoranur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ottupara",
+      "coords": [
+        76.21784,
+        10.67669
+      ]
+    },
+    {
+      "name": "Shoranur",
+      "coords": [
+        76.21639,
+        10.74415
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

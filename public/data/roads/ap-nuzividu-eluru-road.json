@@ -1,0 +1,58 @@
+{
+  "id": "ap-nuzividu-eluru-road",
+  "ref": "SH",
+  "name": "Nuzividu - Eluru Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 35.7,
+  "route": {
+    "start": "Sainagar, Andhra Pradesh",
+    "end": "Dandamudi, Andhra Pradesh",
+    "states": [
+      "Andhra Pradesh"
+    ],
+    "majorCities": [
+      "Sainagar",
+      "Eluru",
+      "Nuzvid",
+      "Dandamudi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sainagar",
+      "coords": [
+        81.07875,
+        16.70465
+      ]
+    },
+    {
+      "name": "Eluru",
+      "coords": [
+        81.08835,
+        16.71946
+      ]
+    },
+    {
+      "name": "Musunuru",
+      "coords": [
+        80.92424,
+        16.81894
+      ]
+    },
+    {
+      "name": "Nuzvid",
+      "coords": [
+        80.85761,
+        16.78614
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

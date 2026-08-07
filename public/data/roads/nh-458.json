@@ -1,0 +1,85 @@
+{
+  "id": "nh-458",
+  "ref": "NH 458",
+  "name": "Bhim–Ladnu National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 265.6,
+  "route": {
+    "start": "Bhim, Rajasthan",
+    "end": "Ladnu, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhim",
+      "Raipur",
+      "Jaitaran",
+      "Merta City",
+      "Degana",
+      "Ladnu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhim",
+      "coords": [
+        74.0878,
+        25.83358
+      ]
+    },
+    {
+      "name": "Raipur",
+      "coords": [
+        74.02217,
+        26.04218
+      ]
+    },
+    {
+      "name": "Jaitaran",
+      "coords": [
+        73.9303,
+        26.21927
+      ]
+    },
+    {
+      "name": "Merta City",
+      "coords": [
+        74.05215,
+        26.6613
+      ]
+    },
+    {
+      "name": "Degana",
+      "coords": [
+        74.32308,
+        26.89959
+      ]
+    },
+    {
+      "name": "Didwana",
+      "coords": [
+        74.54674,
+        27.42436
+      ]
+    },
+    {
+      "name": "Ladnu",
+      "coords": [
+        74.39669,
+        27.62603
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

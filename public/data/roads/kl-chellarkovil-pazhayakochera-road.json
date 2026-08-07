@@ -1,0 +1,42 @@
+{
+  "id": "kl-chellarkovil-pazhayakochera-road",
+  "ref": "MDR",
+  "name": "Chellarkovil - Pazhayakochera Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.8,
+  "route": {
+    "start": "Anakkara, Kerala",
+    "end": "Parakadavu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anakkara",
+      "Parakadavu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anakkara",
+      "coords": [
+        77.18322,
+        9.66926
+      ]
+    },
+    {
+      "name": "Parakadavu",
+      "coords": [
+        77.19612,
+        9.72854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mdr-tn-678",
+  "ref": "MDR 678",
+  "name": "Sarvanampatti–Sangothipalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.1,
+  "route": {
+    "start": "Sarvanampatti, Tamil Nadu",
+    "end": "Sangothipalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sarvanampatti",
+      "Villangkurichi",
+      "Mylampatti",
+      "Sangothipalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sarvanampatti",
+      "coords": [
+        77.0031,
+        11.07494
+      ]
+    },
+    {
+      "name": "Villangkurichi",
+      "coords": [
+        77.01729,
+        11.07276
+      ]
+    },
+    {
+      "name": "Kalapatti",
+      "coords": [
+        77.03894,
+        11.07859
+      ]
+    },
+    {
+      "name": "Mylampatti",
+      "coords": [
+        77.0582,
+        11.07654
+      ]
+    },
+    {
+      "name": "Sangothipalayam",
+      "coords": [
+        77.12166,
+        11.0822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

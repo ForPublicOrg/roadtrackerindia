@@ -1,0 +1,58 @@
+{
+  "id": "mdr-tn-169",
+  "ref": "MDR 169",
+  "name": "Kovaipudur–Perur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.6,
+  "route": {
+    "start": "Kovaipudur, Tamil Nadu",
+    "end": "Perur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kovaipudur",
+      "Madukkarai",
+      "Sundakkamuthur",
+      "Perur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kovaipudur",
+      "coords": [
+        76.95117,
+        10.93664
+      ]
+    },
+    {
+      "name": "Kuniamuthur",
+      "coords": [
+        76.93286,
+        10.95164
+      ]
+    },
+    {
+      "name": "Sundakkamuthur",
+      "coords": [
+        76.92464,
+        10.95738
+      ]
+    },
+    {
+      "name": "Perur",
+      "coords": [
+        76.91102,
+        10.97078
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

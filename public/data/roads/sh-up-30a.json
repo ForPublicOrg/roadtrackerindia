@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-30a",
+  "ref": "SH 30A",
+  "name": "Kaniganj–Tanda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 31.2,
+  "route": {
+    "start": "Kaniganj, Uttar Pradesh",
+    "end": "Tanda, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kaniganj",
+      "Tanda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kaniganj",
+      "coords": [
+        82.33488,
+        26.6415
+      ]
+    },
+    {
+      "name": "Tanda",
+      "coords": [
+        82.6219,
+        26.56927
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

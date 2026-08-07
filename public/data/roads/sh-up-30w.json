@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-30w",
+  "ref": "SH 30W",
+  "name": "Noorpur–Hastinapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.1,
+  "route": {
+    "start": "Noorpur, Uttar Pradesh",
+    "end": "Hastinapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Noorpur",
+      "Chandpur",
+      "Hastinapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Noorpur",
+      "coords": [
+        78.39009,
+        29.13133
+      ]
+    },
+    {
+      "name": "Chandpur",
+      "coords": [
+        78.27732,
+        29.1365
+      ]
+    },
+    {
+      "name": "Hastinapur",
+      "coords": [
+        78.12323,
+        29.123
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-valayamkode-manchod-edappuzha-pallippalam-valathod-road",
+  "ref": "MDR",
+  "name": "Valayamkode - Manchod - Edappuzha - Pallippalam - Valathod Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.3,
+  "route": {
+    "start": "Kakkayangad, Kerala",
+    "end": "Iritty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kakkayangad",
+      "Iritty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.75455,
+        11.99001
+      ]
+    },
+    {
+      "name": "Iritty",
+      "coords": [
+        75.78309,
+        12.0001
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

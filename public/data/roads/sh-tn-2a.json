@@ -1,0 +1,66 @@
+{
+  "id": "sh-tn-2a",
+  "ref": "SH 2A",
+  "name": "St. Thomas Mount Cantonment–Puzhuthivakkam State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "St. Thomas Mount Cantonment, Tamil Nadu",
+    "end": "Puzhuthivakkam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "St. Thomas Mount Cantonment",
+      "Pazhavanthangal",
+      "Adambakkam",
+      "Perungudi",
+      "Puzhuthivakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "St. Thomas Mount Cantonment",
+      "coords": [
+        80.19224,
+        12.99838
+      ]
+    },
+    {
+      "name": "Pazhavanthangal",
+      "coords": [
+        80.19442,
+        12.99122
+      ]
+    },
+    {
+      "name": "Ullagaram",
+      "coords": [
+        80.19648,
+        12.98307
+      ]
+    },
+    {
+      "name": "Adambakkam",
+      "coords": [
+        80.20439,
+        12.978
+      ]
+    },
+    {
+      "name": "Perungudi",
+      "coords": [
+        80.21713,
+        12.96755
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

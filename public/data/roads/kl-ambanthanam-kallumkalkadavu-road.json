@@ -1,0 +1,42 @@
+{
+  "id": "kl-ambanthanam-kallumkalkadavu-road",
+  "ref": "MDR",
+  "name": "Ambanthanam - Kallumkalkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.6,
+  "route": {
+    "start": "Thalayolaparambu, Kerala",
+    "end": "Kaduthuruthy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thalayolaparambu",
+      "Kaduthuruthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.46278,
+        9.80523
+      ]
+    },
+    {
+      "name": "Kaduthuruthy",
+      "coords": [
+        76.47216,
+        9.79721
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

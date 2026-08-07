@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-4236",
+  "ref": "ODR 4236",
+  "name": "Pallipattu–Podaturpet District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Pallipattu, Andhra Pradesh",
+    "end": "Podaturpet, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pallipattu",
+      "Podaturpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pallipattu",
+      "coords": [
+        79.50058,
+        13.3406
+      ]
+    },
+    {
+      "name": "Podaturpet",
+      "coords": [
+        79.49094,
+        13.33542
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

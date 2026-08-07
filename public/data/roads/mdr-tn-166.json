@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-166",
+  "ref": "MDR 166",
+  "name": "Cheran Nagar–Kozhinjampara District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.2,
+  "route": {
+    "start": "Cheran Nagar, Tamil Nadu",
+    "end": "Kozhinjampara, Kerala",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Cheran Nagar",
+      "Pollachi",
+      "Kozhinjampara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cheran Nagar",
+      "coords": [
+        77.00507,
+        10.68342
+      ]
+    },
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.89041,
+        10.72497
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

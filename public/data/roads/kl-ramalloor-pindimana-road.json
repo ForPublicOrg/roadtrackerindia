@@ -1,0 +1,42 @@
+{
+  "id": "kl-ramalloor-pindimana-road",
+  "ref": "MDR",
+  "name": "Ramalloor - Pindimana Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Kothamangalam, Kerala",
+    "end": "Vazhappilly, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kothamangalam",
+      "Vazhappilly"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kothamangalam",
+      "coords": [
+        76.62423,
+        10.10336
+      ]
+    },
+    {
+      "name": "Vazhappilly",
+      "coords": [
+        76.62945,
+        10.07671
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

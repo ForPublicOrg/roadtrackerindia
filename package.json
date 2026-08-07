@@ -10,7 +10,8 @@
     "dev": "npm run data && vite",
     "build": "npm run data && node scripts/fetch-news.mjs && vite build && node scripts/gen-pages.mjs",
     "preview": "vite preview --port 4173 --strictPort",
-    "fetch-geometry": "node scripts/fetch-osm-geometry.mjs"
+    "fetch-geometry": "node scripts/fetch-osm-geometry.mjs",
+    "tolls": "node scripts/fetch-toll-rates.mjs"
   },
   "devDependencies": {
     "typescript": "^5.6.3",

@@ -1,0 +1,42 @@
+{
+  "id": "kl-meenangadi-kallupadi-road",
+  "ref": "MDR",
+  "name": "Meenangadi - Kallupadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.7,
+  "route": {
+    "start": "Muttil, Kerala",
+    "end": "Kalpetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Muttil",
+      "Kalpetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muttil",
+      "coords": [
+        76.14983,
+        11.63569
+      ]
+    },
+    {
+      "name": "Kalpetta",
+      "coords": [
+        76.15951,
+        11.65321
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

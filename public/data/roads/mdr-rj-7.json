@@ -1,0 +1,58 @@
+{
+  "id": "mdr-rj-7",
+  "ref": "MDR 7",
+  "name": "Bigod–Deoli District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 75.6,
+  "route": {
+    "start": "Bigod, Rajasthan",
+    "end": "Deoli, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bigod",
+      "Mandalgarh",
+      "Jahazpur",
+      "Deoli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bigod",
+      "coords": [
+        75.03871,
+        25.24367
+      ]
+    },
+    {
+      "name": "Mandalgarh",
+      "coords": [
+        75.04703,
+        25.24776
+      ]
+    },
+    {
+      "name": "Jahazpur",
+      "coords": [
+        75.28155,
+        25.62176
+      ]
+    },
+    {
+      "name": "Deoli",
+      "coords": [
+        75.37355,
+        25.76016
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

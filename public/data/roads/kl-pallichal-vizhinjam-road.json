@@ -1,0 +1,58 @@
+{
+  "id": "kl-pallichal-vizhinjam-road",
+  "ref": "MDR",
+  "name": "Pallichal - Vizhinjam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9,
+  "route": {
+    "start": "Vizhinjam, Kerala",
+    "end": "Pallichal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vizhinjam",
+      "Venganoor",
+      "Balaramapuram",
+      "Pallichal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vizhinjam",
+      "coords": [
+        76.98965,
+        8.37863
+      ]
+    },
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.00596,
+        8.3966
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.0242,
+        8.43143
+      ]
+    },
+    {
+      "name": "Pallichal",
+      "coords": [
+        77.01809,
+        8.44169
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

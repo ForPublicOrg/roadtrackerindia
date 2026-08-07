@@ -1,0 +1,42 @@
+{
+  "id": "kl-chevar-paivilike-road",
+  "ref": "MDR",
+  "name": "Chevar - Paivilike Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.4,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Kumbala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Kumbala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.98734,
+        12.68726
+      ]
+    },
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.99806,
+        12.66657
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

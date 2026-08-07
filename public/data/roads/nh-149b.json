@@ -1,0 +1,54 @@
+{
+  "id": "nh-149b",
+  "ref": "NH 149B",
+  "name": "Korba–Champa National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 109.9,
+  "route": {
+    "start": "Korba, Chhattisgarh",
+    "end": "Champa, Chhattisgarh",
+    "states": [
+      "Chhattisgarh"
+    ],
+    "majorCities": [
+      "Korba",
+      "Katghora",
+      "Champa"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Korba",
+      "coords": [
+        82.70234,
+        22.35081
+      ]
+    },
+    {
+      "name": "Katghora",
+      "coords": [
+        82.55168,
+        22.50819
+      ]
+    },
+    {
+      "name": "Champa",
+      "coords": [
+        82.69939,
+        22.04735
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

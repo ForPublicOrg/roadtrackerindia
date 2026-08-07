@@ -1,0 +1,43 @@
+{
+  "id": "kl-kolathum-padom-road",
+  "ref": "MDR",
+  "name": "Kolathum Padom Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1,
+  "route": {
+    "start": "Chembukkavu, Kerala",
+    "end": "Thrissur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chembukkavu",
+      "Puzhakkal",
+      "Thrissur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chembukkavu",
+      "coords": [
+        76.21319,
+        10.54339
+      ]
+    },
+    {
+      "name": "Thrissur",
+      "coords": [
+        76.21516,
+        10.53551
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

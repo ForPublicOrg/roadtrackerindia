@@ -1,0 +1,42 @@
+{
+  "id": "kl-iritty-ulikkal-mattara-kalanki-road",
+  "ref": "MDR",
+  "name": "Iritty - Ulikkal - Mattara - Kalanki Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.2,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Payyavoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Payyavoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.6691,
+        11.99396
+      ]
+    },
+    {
+      "name": "Payyavoor",
+      "coords": [
+        75.70113,
+        12.10801
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

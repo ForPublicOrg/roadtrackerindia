@@ -1,0 +1,43 @@
+{
+  "id": "kl-nettirachira-vellanad-poovachal-road",
+  "ref": "MDR",
+  "name": "Nettirachira - Vellanad - Poovachal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 11.7,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Mancha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Nedumangad",
+      "Mancha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.08674,
+        8.53729
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        77.01739,
+        8.59822
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

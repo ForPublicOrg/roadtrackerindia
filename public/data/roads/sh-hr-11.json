@@ -1,0 +1,65 @@
+{
+  "id": "sh-hr-11",
+  "ref": "SH 11",
+  "name": "Gohana–Cheeka State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 121.5,
+  "route": {
+    "start": "Gohana, Haryana",
+    "end": "Cheeka, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Gohana",
+      "Safidon",
+      "Kaithal",
+      "Cheeka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gohana",
+      "coords": [
+        76.67166,
+        29.15815
+      ]
+    },
+    {
+      "name": "Safidon",
+      "coords": [
+        76.66744,
+        29.41387
+      ]
+    },
+    {
+      "name": "Asandh",
+      "coords": [
+        76.60248,
+        29.51688
+      ]
+    },
+    {
+      "name": "Kaithal",
+      "coords": [
+        76.38951,
+        29.81191
+      ]
+    },
+    {
+      "name": "Cheeka",
+      "coords": [
+        76.32831,
+        30.07873
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

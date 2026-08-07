@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-19",
+  "ref": "SH 19",
+  "name": "Loharu–Siwani State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 49.4,
+  "route": {
+    "start": "Loharu, Haryana",
+    "end": "Siwani, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Loharu",
+      "Siwani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Loharu",
+      "coords": [
+        75.79873,
+        28.52732
+      ]
+    },
+    {
+      "name": "Siwani",
+      "coords": [
+        75.61444,
+        28.9044
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

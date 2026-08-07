@@ -1,0 +1,42 @@
+{
+  "id": "kl-nakramchira-nediyavila-road",
+  "ref": "MDR",
+  "name": "Nakramchira - Nediyavila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.8,
+  "route": {
+    "start": "Kattakada, Kerala",
+    "end": "Peyad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kattakada",
+      "Peyad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.08526,
+        8.51973
+      ]
+    },
+    {
+      "name": "Peyad",
+      "coords": [
+        77.0615,
+        8.54515
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

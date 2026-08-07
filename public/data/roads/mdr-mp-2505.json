@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-2505",
+  "ref": "MDR 2505",
+  "name": "Jaora–Piploda District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.9,
+  "route": {
+    "start": "Jaora, Madhya Pradesh",
+    "end": "Piploda, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Jaora",
+      "Piploda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jaora",
+      "coords": [
+        75.03927,
+        23.72441
+      ]
+    },
+    {
+      "name": "Piploda",
+      "coords": [
+        75.11881,
+        23.64634
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

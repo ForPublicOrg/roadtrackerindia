@@ -1,0 +1,42 @@
+{
+  "id": "kl-karanachira-bund-road",
+  "ref": "MDR",
+  "name": "Karanachira Bund Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Irinjalakuda, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Irinjalakuda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.15824,
+        10.41312
+      ]
+    },
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.15219,
+        10.40372
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

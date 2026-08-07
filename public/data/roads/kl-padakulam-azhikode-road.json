@@ -1,0 +1,42 @@
+{
+  "id": "kl-padakulam-azhikode-road",
+  "ref": "MDR",
+  "name": "Padakulam - Azhikode Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4,
+  "route": {
+    "start": "Kodungallur, Kerala",
+    "end": "Valiyapanikkan Thuruth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kodungallur",
+      "Valiyapanikkan Thuruth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodungallur",
+      "coords": [
+        76.19609,
+        10.2207
+      ]
+    },
+    {
+      "name": "Valiyapanikkan Thuruth",
+      "coords": [
+        76.16272,
+        10.21092
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

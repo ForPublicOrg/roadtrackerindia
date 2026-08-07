@@ -1,0 +1,57 @@
+{
+  "id": "sh-tn-169",
+  "ref": "SH 169",
+  "name": "Somanur–Tiruppur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.6,
+  "route": {
+    "start": "Somanur, Tamil Nadu",
+    "end": "Tiruppur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Somanur",
+      "Mangalam",
+      "Tiruppur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Somanur",
+      "coords": [
+        77.19266,
+        11.0739
+      ]
+    },
+    {
+      "name": "Mangalam",
+      "coords": [
+        77.27233,
+        11.10257
+      ]
+    },
+    {
+      "name": "Andipalayam",
+      "coords": [
+        77.31993,
+        11.09893
+      ]
+    },
+    {
+      "name": "Tiruppur",
+      "coords": [
+        77.34531,
+        11.09989
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

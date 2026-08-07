@@ -1,0 +1,42 @@
+{
+  "id": "kl-ayirakkuzhi-anchal-road",
+  "ref": "MDR",
+  "name": "Ayirakkuzhi - Anchal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.9,
+  "route": {
+    "start": "Anchal, Kerala",
+    "end": "Kadakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anchal",
+      "Kadakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anchal",
+      "coords": [
+        76.93321,
+        8.90334
+      ]
+    },
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.95001,
+        8.83739
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

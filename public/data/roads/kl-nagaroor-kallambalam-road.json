@@ -1,0 +1,42 @@
+{
+  "id": "kl-nagaroor-kallambalam-road",
+  "ref": "MDR",
+  "name": "Nagaroor - Kallambalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Kallambalam, Kerala",
+    "end": "Kilimanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kallambalam",
+      "Kilimanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.79134,
+        8.76312
+      ]
+    },
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.84899,
+        8.73412
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

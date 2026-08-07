@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-2b",
+  "ref": "SH 2B",
+  "name": "Lahar–Maharajpura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 9.9,
+  "route": {
+    "start": "Lahar, Uttar Pradesh",
+    "end": "Maharajpura, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Lahar",
+      "Maharajpura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Lahar",
+      "coords": [
+        79.05723,
+        26.2522
+      ]
+    },
+    {
+      "name": "Maharajpura",
+      "coords": [
+        78.98244,
+        26.29338
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

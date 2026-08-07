@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-2b",
+  "ref": "SH 2B",
+  "name": "Jayal–Kuchaman State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 61.1,
+  "route": {
+    "start": "Jayal, Rajasthan",
+    "end": "Kuchaman, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Jayal",
+      "Makrana",
+      "Kuchaman"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jayal",
+      "coords": [
+        74.33787,
+        27.14778
+      ]
+    },
+    {
+      "name": "Makrana",
+      "coords": [
+        74.73437,
+        27.03702
+      ]
+    },
+    {
+      "name": "Kuchaman",
+      "coords": [
+        74.85315,
+        27.0593
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

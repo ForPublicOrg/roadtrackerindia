@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3505",
+  "ref": "MDR 3505",
+  "name": "Betul–Shahpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 23.5,
+  "route": {
+    "start": "Betul, Madhya Pradesh",
+    "end": "Shahpur, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Betul",
+      "Shahpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Betul",
+      "coords": [
+        77.87467,
+        21.92448
+      ]
+    },
+    {
+      "name": "Shahpur",
+      "coords": [
+        77.69827,
+        21.97749
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

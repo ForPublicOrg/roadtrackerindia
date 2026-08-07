@@ -1,0 +1,50 @@
+{
+  "id": "kl-tirunavaya-kalpakanchery-road",
+  "ref": "MDR",
+  "name": "Tirunavaya - Kalpakanchery Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Vettichira, Kerala",
+    "end": "Kuttippuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Vettichira",
+      "Kadungathukundu",
+      "Kuttippuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vettichira",
+      "coords": [
+        76.0015,
+        10.93404
+      ]
+    },
+    {
+      "name": "Kadungathukundu",
+      "coords": [
+        75.9978,
+        10.92882
+      ]
+    },
+    {
+      "name": "Kuttippuram",
+      "coords": [
+        75.98412,
+        10.86582
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

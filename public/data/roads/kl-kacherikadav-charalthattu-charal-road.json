@@ -1,0 +1,42 @@
+{
+  "id": "kl-kacherikadav-charalthattu-charal-road",
+  "ref": "MDR",
+  "name": "Kacherikadav - Charalthattu - Charal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Virajpet, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Virajpet"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.73913,
+        12.05597
+      ]
+    },
+    {
+      "name": "Virajpet",
+      "coords": [
+        75.7395,
+        12.07721
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

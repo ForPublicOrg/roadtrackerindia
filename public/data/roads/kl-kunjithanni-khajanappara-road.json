@@ -1,0 +1,42 @@
+{
+  "id": "kl-kunjithanni-khajanappara-road",
+  "ref": "MDR",
+  "name": "Kunjithanni - Khajanappara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 14.5,
+  "route": {
+    "start": "Anachal, Kerala",
+    "end": "Rajakkaad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Anachal",
+      "Rajakkaad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Anachal",
+      "coords": [
+        77.06423,
+        10.01435
+      ]
+    },
+    {
+      "name": "Rajakkaad",
+      "coords": [
+        77.14516,
+        9.99102
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

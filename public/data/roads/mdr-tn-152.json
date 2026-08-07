@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-152",
+  "ref": "MDR 152",
+  "name": "Srivaikuntam–Nanguneri District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.9,
+  "route": {
+    "start": "Srivaikuntam, Tamil Nadu",
+    "end": "Nanguneri, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Srivaikuntam",
+      "Nanguneri"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Srivaikuntam",
+      "coords": [
+        77.85564,
+        8.6478
+      ]
+    },
+    {
+      "name": "Nanguneri",
+      "coords": [
+        77.77119,
+        8.56048
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

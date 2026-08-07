@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-150",
+  "ref": "SH 150",
+  "name": "Kurduvadi–Dharashiv State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.8,
+  "route": {
+    "start": "Kurduvadi, Maharashtra",
+    "end": "Dharashiv, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Kurduvadi",
+      "Vairag",
+      "Dharashiv"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurduvadi",
+      "coords": [
+        75.51814,
+        18.03259
+      ]
+    },
+    {
+      "name": "Vairag",
+      "coords": [
+        75.80013,
+        18.05969
+      ]
+    },
+    {
+      "name": "Dharashiv",
+      "coords": [
+        76.04331,
+        18.17761
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

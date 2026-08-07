@@ -1,0 +1,51 @@
+{
+  "id": "sh-mp-49",
+  "ref": "SH 49",
+  "name": "Shahi Qila–Dharni State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 66.9,
+  "route": {
+    "start": "Shahi Qila, Madhya Pradesh",
+    "end": "Dharni, Maharashtra",
+    "states": [
+      "Madhya Pradesh",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Shahi Qila",
+      "Burhanpur",
+      "Dharni"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahi Qila",
+      "coords": [
+        76.23428,
+        21.28488
+      ]
+    },
+    {
+      "name": "Burhanpur",
+      "coords": [
+        76.24806,
+        21.2968
+      ]
+    },
+    {
+      "name": "Dharni",
+      "coords": [
+        76.78344,
+        21.50934
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

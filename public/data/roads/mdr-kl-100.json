@@ -1,0 +1,49 @@
+{
+  "id": "mdr-kl-100",
+  "ref": "MDR 100",
+  "name": "Melparamba–Chattanchal District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8,
+  "route": {
+    "start": "Melparamba, Kerala",
+    "end": "Chattanchal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Melparamba",
+      "Chattanchal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Melparamba",
+      "coords": [
+        74.99618,
+        12.46332
+      ]
+    },
+    {
+      "name": "Chengala",
+      "coords": [
+        75.04377,
+        12.4818
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.05719,
+        12.48258
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

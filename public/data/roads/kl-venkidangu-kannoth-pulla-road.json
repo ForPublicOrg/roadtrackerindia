@@ -1,0 +1,42 @@
+{
+  "id": "kl-venkidangu-kannoth-pulla-road",
+  "ref": "MDR",
+  "name": "Venkidangu Kannoth - Pulla Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Puzhakkal, Kerala",
+    "end": "Guruvayur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puzhakkal",
+      "Guruvayur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puzhakkal",
+      "coords": [
+        76.13059,
+        10.52699
+      ]
+    },
+    {
+      "name": "Guruvayur",
+      "coords": [
+        76.09019,
+        10.52435
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

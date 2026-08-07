@@ -1,0 +1,62 @@
+{
+  "id": "nh-169a",
+  "ref": "NH 169A",
+  "name": "Tirthahalli–Adi Udupi National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 86.5,
+  "route": {
+    "start": "Tirthahalli, Karnataka",
+    "end": "Adi Udupi, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Tirthahalli",
+      "Hebri",
+      "Udupi",
+      "Adi Udupi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Tirthahalli",
+      "coords": [
+        75.24648,
+        13.69068
+      ]
+    },
+    {
+      "name": "Hebri",
+      "coords": [
+        74.99335,
+        13.45873
+      ]
+    },
+    {
+      "name": "Udupi",
+      "coords": [
+        74.74483,
+        13.34367
+      ]
+    },
+    {
+      "name": "Adi Udupi",
+      "coords": [
+        74.73803,
+        13.35164
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

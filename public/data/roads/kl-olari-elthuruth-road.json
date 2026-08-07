@@ -1,0 +1,50 @@
+{
+  "id": "kl-olari-elthuruth-road",
+  "ref": "MDR",
+  "name": "Olari - Elthuruth Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.3,
+  "route": {
+    "start": "West Fort, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "West Fort",
+      "Poothole",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "West Fort",
+      "coords": [
+        76.17925,
+        10.50432
+      ]
+    },
+    {
+      "name": "Poothole",
+      "coords": [
+        76.17854,
+        10.50897
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.17654,
+        10.51502
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

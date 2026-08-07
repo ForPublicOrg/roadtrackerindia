@@ -1,0 +1,42 @@
+{
+  "id": "kl-kumbala-kanjikkatta-kottekkar-naikkappu-road",
+  "ref": "MDR",
+  "name": "Kumbala - Kanjikkatta - Kottekkar - Naikkappu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kumbala, Kerala",
+    "end": "Siraj Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kumbala",
+      "Siraj Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kumbala",
+      "coords": [
+        74.9504,
+        12.59972
+      ]
+    },
+    {
+      "name": "Siraj Nagar",
+      "coords": [
+        74.97752,
+        12.59779
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

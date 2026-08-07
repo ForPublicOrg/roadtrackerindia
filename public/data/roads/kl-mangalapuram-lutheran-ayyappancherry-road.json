@@ -1,0 +1,42 @@
+{
+  "id": "kl-mangalapuram-lutheran-ayyappancherry-road",
+  "ref": "MDR",
+  "name": "Mangalapuram Lutheran Ayyappancherry road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.8,
+  "route": {
+    "start": "Cherthala, Kerala",
+    "end": "Mullakkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherthala",
+      "Mullakkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherthala",
+      "coords": [
+        76.35874,
+        9.6566
+      ]
+    },
+    {
+      "name": "Mullakkal",
+      "coords": [
+        76.34675,
+        9.60755
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

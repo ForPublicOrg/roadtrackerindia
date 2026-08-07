@@ -1,0 +1,59 @@
+{
+  "id": "sh-mh-247",
+  "ref": "SH 247",
+  "name": "Wardha–Narkhed State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 83.6,
+  "route": {
+    "start": "Wardha, Maharashtra",
+    "end": "Narkhed, Madhya Pradesh",
+    "states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Wardha",
+      "Kondhali",
+      "Katol",
+      "Narkhed"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Wardha",
+      "coords": [
+        78.4686,
+        20.91392
+      ]
+    },
+    {
+      "name": "Kondhali",
+      "coords": [
+        78.63769,
+        21.1346
+      ]
+    },
+    {
+      "name": "Katol",
+      "coords": [
+        78.58524,
+        21.27329
+      ]
+    },
+    {
+      "name": "Narkhed",
+      "coords": [
+        78.69661,
+        21.49908
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

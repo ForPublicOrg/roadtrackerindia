@@ -1,0 +1,63 @@
+{
+  "id": "agra-ring-road",
+  "ref": "NH",
+  "name": "Agra Ring Road",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 57.4,
+  "route": {
+    "start": "Etmadpur, Uttar Pradesh",
+    "end": "Farah, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Etmadpur",
+      "Taj Ganj",
+      "Kiraoli",
+      "Achhnera",
+      "Farah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Etmadpur",
+      "coords": [
+        78.12046,
+        27.22391
+      ]
+    },
+    {
+      "name": "Taj Ganj",
+      "coords": [
+        78.09383,
+        27.13648
+      ]
+    },
+    {
+      "name": "Kiraoli",
+      "coords": [
+        77.82141,
+        27.14894
+      ]
+    },
+    {
+      "name": "Farah",
+      "coords": [
+        77.81306,
+        27.2583
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadumeni-parakkadavu-cherupuzha-road",
+  "ref": "MDR",
+  "name": "Kadumeni - Parakkadavu - Cherupuzha Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.7,
+  "route": {
+    "start": "Cherupuzha, Kerala",
+    "end": "Vazhakundam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Cherupuzha",
+      "Vazhakundam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.34186,
+        12.29061
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.36684,
+        12.28173
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

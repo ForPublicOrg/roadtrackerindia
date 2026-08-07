@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-152e",
+  "ref": "SH 152E",
+  "name": "Kanchanpur–Rudrapur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 54,
+  "route": {
+    "start": "Kanchanpur, Uttar Pradesh",
+    "end": "Rudrapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kanchanpur",
+      "Deoria",
+      "Rudrapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanchanpur",
+      "coords": [
+        83.88185,
+        26.60136
+      ]
+    },
+    {
+      "name": "Deoria",
+      "coords": [
+        83.77908,
+        26.50239
+      ]
+    },
+    {
+      "name": "Rudrapur",
+      "coords": [
+        83.60854,
+        26.44658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

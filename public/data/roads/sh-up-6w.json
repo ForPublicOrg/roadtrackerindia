@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-6w",
+  "ref": "SH 6W",
+  "name": "Purkaji–Laksar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15,
+  "route": {
+    "start": "Purkaji, Uttar Pradesh",
+    "end": "Laksar, Uttarakhand",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Purkaji",
+      "Laksar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Purkaji",
+      "coords": [
+        77.84396,
+        29.65814
+      ]
+    },
+    {
+      "name": "Laksar",
+      "coords": [
+        77.98295,
+        29.63691
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-inthumkari-upippumkutty-ezhamkadavu-road",
+  "ref": "MDR",
+  "name": "Inthumkari - Upippumkutty - Ezhamkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Iritty, Kerala",
+    "end": "Kakkayangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Iritty",
+      "Kakkayangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Iritty",
+      "coords": [
+        75.76233,
+        12.02686
+      ]
+    },
+    {
+      "name": "Kakkayangad",
+      "coords": [
+        75.77981,
+        12.03123
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

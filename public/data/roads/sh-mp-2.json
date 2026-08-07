@@ -1,0 +1,50 @@
+{
+  "id": "sh-mp-2",
+  "ref": "SH 2",
+  "name": "Dabra–Samthar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 53.4,
+  "route": {
+    "start": "Dabra, Madhya Pradesh",
+    "end": "Samthar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dabra",
+      "Indergarh",
+      "Samthar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dabra",
+      "coords": [
+        78.33169,
+        25.90246
+      ]
+    },
+    {
+      "name": "Indergarh",
+      "coords": [
+        78.5623,
+        25.9082
+      ]
+    },
+    {
+      "name": "Samthar",
+      "coords": [
+        78.79443,
+        25.89498
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

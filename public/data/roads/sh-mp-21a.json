@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-21a",
+  "ref": "SH 21A",
+  "name": "Dhanvantri Nagar–Vijay Nagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 15.4,
+  "route": {
+    "start": "Dhanvantri Nagar, Madhya Pradesh",
+    "end": "Vijay Nagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Dhanvantri Nagar",
+      "Vijay Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dhanvantri Nagar",
+      "coords": [
+        79.68315,
+        23.14624
+      ]
+    },
+    {
+      "name": "Vijay Nagar",
+      "coords": [
+        79.69892,
+        23.28266
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

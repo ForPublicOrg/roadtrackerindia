@@ -1,0 +1,46 @@
+{
+  "id": "nh-444a",
+  "ref": "NH 444A",
+  "name": "Sadar Bazaar–Shahbad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 31.9,
+  "route": {
+    "start": "Sadar Bazaar, Haryana",
+    "end": "Shahbad, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Sadar Bazaar",
+      "Shahbad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sadar Bazaar",
+      "coords": [
+        76.8303,
+        30.33847
+      ]
+    },
+    {
+      "name": "Shahbad",
+      "coords": [
+        76.85891,
+        30.19131
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

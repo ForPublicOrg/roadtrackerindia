@@ -1,0 +1,66 @@
+{
+  "id": "sh-mp-20",
+  "ref": "SH 20",
+  "name": "Gadarwara–Sagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 148.7,
+  "route": {
+    "start": "Gadarwara, Madhya Pradesh",
+    "end": "Sagar, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Gadarwara",
+      "Udaipura",
+      "Silwani",
+      "Jaisinghnagar",
+      "Sagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gadarwara",
+      "coords": [
+        78.78751,
+        22.92985
+      ]
+    },
+    {
+      "name": "Udaipura",
+      "coords": [
+        78.51134,
+        23.06809
+      ]
+    },
+    {
+      "name": "Silwani",
+      "coords": [
+        78.44315,
+        23.2993
+      ]
+    },
+    {
+      "name": "Jaisinghnagar",
+      "coords": [
+        78.57661,
+        23.62246
+      ]
+    },
+    {
+      "name": "Sagar",
+      "coords": [
+        78.75156,
+        23.81019
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

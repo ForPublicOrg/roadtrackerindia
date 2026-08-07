@@ -1,0 +1,62 @@
+{
+  "id": "nh-347",
+  "ref": "NH 347",
+  "name": "Seoni–Multai National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 157.6,
+  "route": {
+    "start": "Seoni, Madhya Pradesh",
+    "end": "Multai, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Seoni",
+      "Chaurai",
+      "Chhindwara",
+      "Multai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Seoni",
+      "coords": [
+        79.5284,
+        22.07398
+      ]
+    },
+    {
+      "name": "Chaurai",
+      "coords": [
+        79.25093,
+        22.04403
+      ]
+    },
+    {
+      "name": "Chhindwara",
+      "coords": [
+        78.9931,
+        22.04945
+      ]
+    },
+    {
+      "name": "Multai",
+      "coords": [
+        78.27468,
+        21.77302
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

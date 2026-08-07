@@ -1,0 +1,76 @@
+{
+  "id": "nh-715a",
+  "ref": "NH 715A",
+  "name": "Jomotsangkha–Nakhola National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 108.2,
+  "route": {
+    "start": "Jomotsangkha, Assam",
+    "end": "Nakhola, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Jomotsangkha",
+      "Kharupetia",
+      "Bhuragaon",
+      "Nakhola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jomotsangkha",
+      "coords": [
+        92.11338,
+        26.89148
+      ]
+    },
+    {
+      "name": "Udalguri",
+      "coords": [
+        92.12754,
+        26.75502
+      ]
+    },
+    {
+      "name": "Kharupetia",
+      "coords": [
+        92.14729,
+        26.51718
+      ]
+    },
+    {
+      "name": "Bhuragaon",
+      "coords": [
+        92.23407,
+        26.40422
+      ]
+    },
+    {
+      "name": "Marigaon",
+      "coords": [
+        92.3129,
+        26.24553
+      ]
+    },
+    {
+      "name": "Nakhola",
+      "coords": [
+        92.19761,
+        26.12
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

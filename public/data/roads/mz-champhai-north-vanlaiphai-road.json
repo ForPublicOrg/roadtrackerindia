@@ -1,0 +1,42 @@
+{
+  "id": "mz-champhai-north-vanlaiphai-road",
+  "ref": "SH",
+  "name": "Champhai - North Vanlaiphai Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 101.4,
+  "route": {
+    "start": "Khawbung, Mizoram",
+    "end": "Khawzawl, Mizoram",
+    "states": [
+      "Mizoram"
+    ],
+    "majorCities": [
+      "Khawbung",
+      "Khawzawl"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khawbung",
+      "coords": [
+        93.06377,
+        23.12878
+      ]
+    },
+    {
+      "name": "Khawzawl",
+      "coords": [
+        93.2012,
+        23.49487
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

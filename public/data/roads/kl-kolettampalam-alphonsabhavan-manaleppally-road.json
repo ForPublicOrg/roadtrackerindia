@@ -1,0 +1,49 @@
+{
+  "id": "kl-kolettampalam-alphonsabhavan-manaleppally-road",
+  "ref": "MDR",
+  "name": "Kolettampalam - Alphonsabhavan - Manaleppally Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Mannanam, Kerala",
+    "end": "Parippu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mannanam",
+      "Parippu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mannanam",
+      "coords": [
+        76.50923,
+        9.6306
+      ]
+    },
+    {
+      "name": "Kumaranalloor",
+      "coords": [
+        76.50804,
+        9.62593
+      ]
+    },
+    {
+      "name": "Parippu",
+      "coords": [
+        76.49391,
+        9.62606
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-majerpalla-kottathaje-road",
+  "ref": "MDR",
+  "name": "Majerpalla -  Kottathaje Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.1,
+  "route": {
+    "start": "Manjeshwar, Kerala",
+    "end": "Padil, Karnataka",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeshwar",
+      "Padil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.95172,
+        12.7512
+      ]
+    },
+    {
+      "name": "Padil",
+      "coords": [
+        74.95786,
+        12.78495
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

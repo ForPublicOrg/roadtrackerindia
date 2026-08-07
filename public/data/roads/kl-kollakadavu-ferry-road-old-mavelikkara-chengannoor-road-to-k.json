@@ -1,0 +1,42 @@
+{
+  "id": "kl-kollakadavu-ferry-road-old-mavelikkara-chengannoor-road-to-k",
+  "ref": "MDR",
+  "name": "Kollakadavu Ferry Road;Old Mavelikkara - Chengannoor Road to Kollakadavu Fery",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.4,
+  "route": {
+    "start": "Puthiyacavu, Kerala",
+    "end": "Mavelikkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Puthiyacavu",
+      "Mavelikkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Puthiyacavu",
+      "coords": [
+        76.56595,
+        9.25541
+      ]
+    },
+    {
+      "name": "Mavelikkara",
+      "coords": [
+        76.58554,
+        9.25229
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

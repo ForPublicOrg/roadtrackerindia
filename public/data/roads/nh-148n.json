@@ -1,0 +1,53 @@
+{
+  "id": "nh-148n",
+  "ref": "NH 148N",
+  "name": "Sawai Madhopur–Lalsot National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 64.1,
+  "route": {
+    "start": "Sawai Madhopur, Rajasthan",
+    "end": "Lalsot, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Sawai Madhopur",
+      "Lalsot"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sawai Madhopur",
+      "coords": [
+        76.35142,
+        26.01655
+      ]
+    },
+    {
+      "name": "Mandawari",
+      "coords": [
+        76.3752,
+        26.48458
+      ]
+    },
+    {
+      "name": "Lalsot",
+      "coords": [
+        76.33701,
+        26.5505
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-rj-64",
+  "ref": "MDR 64",
+  "name": "Buhana–Pilani District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 46,
+  "route": {
+    "start": "Buhana, Rajasthan",
+    "end": "Pilani, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Buhana",
+      "Surajgarh",
+      "Pilani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Buhana",
+      "coords": [
+        75.94874,
+        28.1361
+      ]
+    },
+    {
+      "name": "Surajgarh",
+      "coords": [
+        75.73147,
+        28.30552
+      ]
+    },
+    {
+      "name": "Pilani",
+      "coords": [
+        75.60543,
+        28.36108
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

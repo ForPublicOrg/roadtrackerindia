@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-3310",
+  "ref": "MDR 3310",
+  "name": "Babai–Semri Harchand District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 15.3,
+  "route": {
+    "start": "Babai, Madhya Pradesh",
+    "end": "Semri Harchand, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Babai",
+      "Semri Harchand"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Babai",
+      "coords": [
+        77.9348,
+        22.70403
+      ]
+    },
+    {
+      "name": "Semri Harchand",
+      "coords": [
+        77.97862,
+        22.82344
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

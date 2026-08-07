@@ -1,0 +1,50 @@
+{
+  "id": "mdr-up-77c",
+  "ref": "MDR 77C",
+  "name": "Qaisarbagh–Mahmudabad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 54,
+  "route": {
+    "start": "Qaisarbagh, Uttar Pradesh",
+    "end": "Mahmudabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Qaisarbagh",
+      "Lucknow",
+      "Mahmudabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Qaisarbagh",
+      "coords": [
+        80.93674,
+        26.85967
+      ]
+    },
+    {
+      "name": "Jankipuram",
+      "coords": [
+        80.96504,
+        26.9196
+      ]
+    },
+    {
+      "name": "Mahmudabad",
+      "coords": [
+        81.126,
+        27.30049
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

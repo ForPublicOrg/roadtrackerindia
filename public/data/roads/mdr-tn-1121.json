@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-1121",
+  "ref": "MDR 1121",
+  "name": "Labbaikudikadu–Sendurai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 36.2,
+  "route": {
+    "start": "Labbaikudikadu, Tamil Nadu",
+    "end": "Sendurai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Labbaikudikadu",
+      "Tittakudi",
+      "Sendurai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Labbaikudikadu",
+      "coords": [
+        78.99535,
+        11.39834
+      ]
+    },
+    {
+      "name": "Tittakudi",
+      "coords": [
+        79.1177,
+        11.39575
+      ]
+    },
+    {
+      "name": "Sendurai",
+      "coords": [
+        79.17926,
+        11.25547
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

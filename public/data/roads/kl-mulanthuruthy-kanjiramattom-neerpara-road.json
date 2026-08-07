@@ -1,0 +1,42 @@
+{
+  "id": "kl-mulanthuruthy-kanjiramattom-neerpara-road",
+  "ref": "MDR",
+  "name": "Mulanthuruthy - Kanjiramattom Neerpara Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.8,
+  "route": {
+    "start": "Chottanikkara, Kerala",
+    "end": "Thalayolaparambu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chottanikkara",
+      "Thalayolaparambu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chottanikkara",
+      "coords": [
+        76.38441,
+        9.90023
+      ]
+    },
+    {
+      "name": "Thalayolaparambu",
+      "coords": [
+        76.42964,
+        9.82459
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

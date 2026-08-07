@@ -1,0 +1,42 @@
+{
+  "id": "sh-gj-320",
+  "ref": "SH 320",
+  "name": "Chital–Gondal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.5,
+  "route": {
+    "start": "Chital, Gujarat",
+    "end": "Gondal, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Chital",
+      "Gondal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chital",
+      "coords": [
+        71.15182,
+        22.00537
+      ]
+    },
+    {
+      "name": "Gondal",
+      "coords": [
+        71.0255,
+        21.82295
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kappadu-elikulam-road",
+  "ref": "MDR",
+  "name": "Kappadu - Elikulam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.3,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Erattupetta, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Erattupetta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.77716,
+        9.60611
+      ]
+    },
+    {
+      "name": "Erattupetta",
+      "coords": [
+        76.73136,
+        9.63602
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

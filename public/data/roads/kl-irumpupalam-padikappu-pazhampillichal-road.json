@@ -1,0 +1,42 @@
+{
+  "id": "kl-irumpupalam-padikappu-pazhampillichal-road",
+  "ref": "MDR",
+  "name": "Irumpupalam - Padikappu - Pazhampillichal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Neriamangalam, Kerala",
+    "end": "Koickakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Neriamangalam",
+      "Koickakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Neriamangalam",
+      "coords": [
+        76.82543,
+        10.06242
+      ]
+    },
+    {
+      "name": "Koickakudy",
+      "coords": [
+        76.87853,
+        10.0301
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-koduvally-high-school-azad-road",
+  "ref": "MDR",
+  "name": "Koduvally High School Azad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Koduvally, Kerala",
+    "end": "East Kizhakkoth, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koduvally",
+      "East Kizhakkoth"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koduvally",
+      "coords": [
+        75.9129,
+        11.35836
+      ]
+    },
+    {
+      "name": "East Kizhakkoth",
+      "coords": [
+        75.92213,
+        11.33642
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

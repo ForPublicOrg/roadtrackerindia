@@ -1,0 +1,42 @@
+{
+  "id": "kl-thoppilppady-thachapuzha-thannimoodu-road",
+  "ref": "MDR",
+  "name": "Thoppilppady - Thachapuzha - Thannimoodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Vazhoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Vazhoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.74326,
+        9.57999
+      ]
+    },
+    {
+      "name": "Vazhoor",
+      "coords": [
+        76.69788,
+        9.58212
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

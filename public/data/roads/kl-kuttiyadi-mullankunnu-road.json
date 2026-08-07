@@ -1,0 +1,42 @@
+{
+  "id": "kl-kuttiyadi-mullankunnu-road",
+  "ref": "MDR",
+  "name": "Kuttiyadi - Mullankunnu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.8,
+  "route": {
+    "start": "Kuttiadi, Kerala",
+    "end": "Thottilpalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuttiadi",
+      "Thottilpalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.7568,
+        11.65278
+      ]
+    },
+    {
+      "name": "Thottilpalam",
+      "coords": [
+        75.7705,
+        11.64974
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

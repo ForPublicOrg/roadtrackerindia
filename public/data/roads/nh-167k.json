@@ -1,0 +1,61 @@
+{
+  "id": "nh-167k",
+  "ref": "NH 167K",
+  "name": "Kollapur–Kalwakurthy National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 76.9,
+  "route": {
+    "start": "Kollapur, Telangana",
+    "end": "Kalwakurthy, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Kollapur",
+      "Nagarkurnool",
+      "Kalwakurthy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kollapur",
+      "coords": [
+        78.3137,
+        16.10758
+      ]
+    },
+    {
+      "name": "Nagarkurnool",
+      "coords": [
+        78.31717,
+        16.48547
+      ]
+    },
+    {
+      "name": "Tadoor",
+      "coords": [
+        78.36115,
+        16.52097
+      ]
+    },
+    {
+      "name": "Kalwakurthy",
+      "coords": [
+        78.48807,
+        16.67213
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

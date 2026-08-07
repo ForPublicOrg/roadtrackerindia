@@ -1,0 +1,43 @@
+{
+  "id": "mdr-jh-121",
+  "ref": "MDR 121",
+  "name": "Shahpur–Chamartola District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.2,
+  "route": {
+    "start": "Shahpur, Jharkhand",
+    "end": "Chamartola, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Shahpur",
+      "Medininagar",
+      "Chamartola"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shahpur",
+      "coords": [
+        84.05193,
+        24.02679
+      ]
+    },
+    {
+      "name": "Chamartola",
+      "coords": [
+        83.9788,
+        23.99125
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sh-up-85w",
+  "ref": "SH 85W",
+  "name": "Nagina–Dhampur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 12.5,
+  "route": {
+    "start": "Nagina, Uttar Pradesh",
+    "end": "Dhampur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Nagina",
+      "Dhampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagina",
+      "coords": [
+        78.35703,
+        29.43106
+      ]
+    },
+    {
+      "name": "Dhampur",
+      "coords": [
+        78.37627,
+        29.32236
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

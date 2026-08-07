@@ -1,0 +1,56 @@
+{
+  "id": "kl-alamcode-meerankadavu-anjengo-road",
+  "ref": "MDR",
+  "name": "Alamcode - Meerankadavu - Anjengo Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Kadakkavoor, Kerala",
+    "end": "Attingal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkavoor",
+      "Attingal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.75664,
+        8.67219
+      ]
+    },
+    {
+      "name": "Chirayinkeezhu",
+      "coords": [
+        76.7669,
+        8.67282
+      ]
+    },
+    {
+      "name": "Kadakkavoor",
+      "coords": [
+        76.77109,
+        8.6832
+      ]
+    },
+    {
+      "name": "Attingal",
+      "coords": [
+        76.8065,
+        8.7186
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sh-hp-27",
+  "ref": "SH 27",
+  "name": "Talwara–Jassur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 55.2,
+  "route": {
+    "start": "Talwara, Punjab",
+    "end": "Jassur, Himachal Pradesh",
+    "states": [
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "majorCities": [
+      "Talwara",
+      "Nurpur",
+      "Jassur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Talwara",
+      "coords": [
+        75.8908,
+        31.94055
+      ]
+    },
+    {
+      "name": "Nurpur",
+      "coords": [
+        75.8519,
+        32.28287
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

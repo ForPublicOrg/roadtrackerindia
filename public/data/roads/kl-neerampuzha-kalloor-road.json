@@ -1,0 +1,42 @@
+{
+  "id": "kl-neerampuzha-kalloor-road",
+  "ref": "MDR",
+  "name": "Neerampuzha - Kalloor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.1,
+  "route": {
+    "start": "Kizhakkekara, Kerala",
+    "end": "Thodupuzha, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kizhakkekara",
+      "Thodupuzha"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kizhakkekara",
+      "coords": [
+        76.65694,
+        9.96446
+      ]
+    },
+    {
+      "name": "Thodupuzha",
+      "coords": [
+        76.67094,
+        9.96946
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

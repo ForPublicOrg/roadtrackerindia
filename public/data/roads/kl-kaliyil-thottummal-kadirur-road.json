@@ -1,0 +1,42 @@
+{
+  "id": "kl-kaliyil-thottummal-kadirur-road",
+  "ref": "MDR",
+  "name": "Kaliyil - Thottummal - Kadirur Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.9,
+  "route": {
+    "start": "Koothuparamba, Kerala",
+    "end": "Thalassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Koothuparamba",
+      "Thalassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Koothuparamba",
+      "coords": [
+        75.53059,
+        11.78947
+      ]
+    },
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.49088,
+        11.78953
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

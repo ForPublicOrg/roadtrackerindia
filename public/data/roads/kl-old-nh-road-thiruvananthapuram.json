@@ -1,0 +1,93 @@
+{
+  "id": "kl-old-nh-road-thiruvananthapuram",
+  "ref": "SH",
+  "name": "Old NH Road Thiruvananthapuram",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28,
+  "route": {
+    "start": "Kazhakkoottam, Kerala",
+    "end": "Balaramapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kazhakkoottam",
+      "Kesavadasapuram",
+      "Thiruvananthapuram",
+      "Balaramapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kazhakkoottam",
+      "coords": [
+        76.87804,
+        8.56507
+      ]
+    },
+    {
+      "name": "Karyavattom",
+      "coords": [
+        76.88876,
+        8.56662
+      ]
+    },
+    {
+      "name": "Sreekariyam",
+      "coords": [
+        76.91887,
+        8.54827
+      ]
+    },
+    {
+      "name": "Kesavadasapuram",
+      "coords": [
+        76.93854,
+        8.52921
+      ]
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "coords": [
+        76.94721,
+        8.4914
+      ]
+    },
+    {
+      "name": "Thampanoor",
+      "coords": [
+        76.95265,
+        8.48731
+      ]
+    },
+    {
+      "name": "Pappanamcode",
+      "coords": [
+        76.98157,
+        8.46973
+      ]
+    },
+    {
+      "name": "Nemom",
+      "coords": [
+        76.99976,
+        8.45755
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.04561,
+        8.42525
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

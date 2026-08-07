@@ -1,0 +1,42 @@
+{
+  "id": "kl-thirupurathur-pulluvila-road",
+  "ref": "MDR",
+  "name": "Thirupurathur - Pulluvila Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.7,
+  "route": {
+    "start": "Poovar, Kerala",
+    "end": "Neyyatinkara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Poovar",
+      "Neyyatinkara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Poovar",
+      "coords": [
+        77.03691,
+        8.34417
+      ]
+    },
+    {
+      "name": "Neyyatinkara",
+      "coords": [
+        77.079,
+        8.36107
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

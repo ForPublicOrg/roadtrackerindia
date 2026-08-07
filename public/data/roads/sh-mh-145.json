@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-145",
+  "ref": "SH 145",
+  "name": "Maliwada Ganpati–MIDC State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 37.9,
+  "route": {
+    "start": "Maliwada Ganpati, Maharashtra",
+    "end": "MIDC, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Maliwada Ganpati",
+      "Ahilyanagar",
+      "MIDC"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maliwada Ganpati",
+      "coords": [
+        74.72985,
+        19.09578
+      ]
+    },
+    {
+      "name": "Ahilyanagar",
+      "coords": [
+        74.73247,
+        19.09951
+      ]
+    },
+    {
+      "name": "MIDC",
+      "coords": [
+        74.70658,
+        19.1539
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

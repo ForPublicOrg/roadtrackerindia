@@ -1,0 +1,42 @@
+{
+  "id": "mdr-as-4",
+  "ref": "MDR 4",
+  "name": "Barlekha–Beanibazar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.7,
+  "route": {
+    "start": "Barlekha, Assam",
+    "end": "Beanibazar, Assam",
+    "states": [
+      "Assam"
+    ],
+    "majorCities": [
+      "Barlekha",
+      "Beanibazar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barlekha",
+      "coords": [
+        92.32409,
+        24.64279
+      ]
+    },
+    {
+      "name": "Beanibazar",
+      "coords": [
+        92.29391,
+        24.70389
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

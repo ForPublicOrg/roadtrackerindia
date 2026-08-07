@@ -1,0 +1,61 @@
+{
+  "id": "nh-365a",
+  "ref": "NH 365A",
+  "name": "Kodada–Mahabubabad National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 93.1,
+  "route": {
+    "start": "Kodada, Telangana",
+    "end": "Mahabubabad, Telangana",
+    "states": [
+      "Telangana"
+    ],
+    "majorCities": [
+      "Kodada",
+      "Khammam",
+      "Mahabubabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kodada",
+      "coords": [
+        79.96669,
+        16.98454
+      ]
+    },
+    {
+      "name": "Venkatagiri Colony",
+      "coords": [
+        80.11275,
+        17.21228
+      ]
+    },
+    {
+      "name": "Khammam",
+      "coords": [
+        80.11738,
+        17.25694
+      ]
+    },
+    {
+      "name": "Mahabubabad",
+      "coords": [
+        80.01252,
+        17.59284
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

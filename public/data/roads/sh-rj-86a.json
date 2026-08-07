@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-86a",
+  "ref": "SH 86A",
+  "name": "Bhopalgarh–Gothan State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 47.9,
+  "route": {
+    "start": "Bhopalgarh, Rajasthan",
+    "end": "Gothan, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bhopalgarh",
+      "Asop",
+      "Gothan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bhopalgarh",
+      "coords": [
+        73.33456,
+        26.74635
+      ]
+    },
+    {
+      "name": "Asop",
+      "coords": [
+        73.57783,
+        26.78889
+      ]
+    },
+    {
+      "name": "Gothan",
+      "coords": [
+        73.73869,
+        26.65404
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

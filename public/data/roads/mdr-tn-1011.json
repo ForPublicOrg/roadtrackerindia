@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1011",
+  "ref": "MDR 1011",
+  "name": "Velankanni–Nagapattinam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Velankanni, Tamil Nadu",
+    "end": "Nagapattinam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Velankanni",
+      "Nagapattinam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Velankanni",
+      "coords": [
+        79.834,
+        10.68454
+      ]
+    },
+    {
+      "name": "Nagapattinam",
+      "coords": [
+        79.85032,
+        10.6807
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

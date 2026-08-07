@@ -1,0 +1,42 @@
+{
+  "id": "kl-kandakkadavu-kumbalangi-road",
+  "ref": "MDR",
+  "name": "Kandakkadavu Kumbalangi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Aroor, Kerala",
+    "end": "Perumpadappu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Aroor",
+      "Perumpadappu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Aroor",
+      "coords": [
+        76.27012,
+        9.85601
+      ]
+    },
+    {
+      "name": "Perumpadappu",
+      "coords": [
+        76.29217,
+        9.86162
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

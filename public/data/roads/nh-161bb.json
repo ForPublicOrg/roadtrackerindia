@@ -1,0 +1,62 @@
+{
+  "id": "nh-161bb",
+  "ref": "NH 161BB",
+  "name": "Bodhan–Degloor National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 44.3,
+  "route": {
+    "start": "Bodhan, Telangana",
+    "end": "Degloor, Telangana",
+    "states": [
+      "Telangana",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Bodhan",
+      "Rudrur",
+      "Degloor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bodhan",
+      "coords": [
+        77.8748,
+        18.66189
+      ]
+    },
+    {
+      "name": "Rudrur",
+      "coords": [
+        77.87587,
+        18.58359
+      ]
+    },
+    {
+      "name": "Kotagiri",
+      "coords": [
+        77.82206,
+        18.57555
+      ]
+    },
+    {
+      "name": "Degloor",
+      "coords": [
+        77.63179,
+        18.51003
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

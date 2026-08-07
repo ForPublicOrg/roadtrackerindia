@@ -1,0 +1,42 @@
+{
+  "id": "kl-muttom-pallippad-road",
+  "ref": "MDR",
+  "name": "Muttom - Pallippad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Nangiarkulangara, Kerala",
+    "end": "Haripad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nangiarkulangara",
+      "Haripad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nangiarkulangara",
+      "coords": [
+        76.47987,
+        9.25452
+      ]
+    },
+    {
+      "name": "Haripad",
+      "coords": [
+        76.48165,
+        9.27725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

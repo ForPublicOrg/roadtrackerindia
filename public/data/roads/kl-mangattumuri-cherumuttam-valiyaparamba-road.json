@@ -1,0 +1,42 @@
+{
+  "id": "kl-mangattumuri-cherumuttam-valiyaparamba-road",
+  "ref": "MDR",
+  "name": "Mangattumuri - Cherumuttam - Valiyaparamba Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.3,
+  "route": {
+    "start": "Omanoor, Kerala",
+    "end": "Kondotty, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Omanoor",
+      "Kondotty"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.94855,
+        11.20417
+      ]
+    },
+    {
+      "name": "Kondotty",
+      "coords": [
+        75.94585,
+        11.17889
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

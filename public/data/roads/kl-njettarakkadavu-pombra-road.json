@@ -1,0 +1,42 @@
+{
+  "id": "kl-njettarakkadavu-pombra-road",
+  "ref": "MDR",
+  "name": "Njettarakkadavu - Pombra Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Sreekrishnapuram, Kerala",
+    "end": "Kumaramputhur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Sreekrishnapuram",
+      "Kumaramputhur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sreekrishnapuram",
+      "coords": [
+        76.44826,
+        10.93271
+      ]
+    },
+    {
+      "name": "Kumaramputhur",
+      "coords": [
+        76.4325,
+        10.9522
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "odr-tn-3374",
+  "ref": "ODR 3374",
+  "name": "Sipcot–Muthukadai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.4,
+  "route": {
+    "start": "Sipcot, Tamil Nadu",
+    "end": "Muthukadai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sipcot",
+      "Lalapet",
+      "Ranipet",
+      "Walajapet",
+      "Muthukadai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sipcot",
+      "coords": [
+        79.30991,
+        12.97295
+      ]
+    },
+    {
+      "name": "Karai",
+      "coords": [
+        79.32045,
+        12.97153
+      ]
+    },
+    {
+      "name": "Ranipet",
+      "coords": [
+        79.33969,
+        12.96422
+      ]
+    },
+    {
+      "name": "Walajapet",
+      "coords": [
+        79.35643,
+        12.95854
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-thumpamon-pariyaram-road",
+  "ref": "MDR",
+  "name": "Thumpamon - Pariyaram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.9,
+  "route": {
+    "start": "Kozhencherry, Kerala",
+    "end": "Chennampallil, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kozhencherry",
+      "Chennampallil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kozhencherry",
+      "coords": [
+        76.72119,
+        9.28816
+      ]
+    },
+    {
+      "name": "Chennampallil",
+      "coords": [
+        76.71358,
+        9.2213
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

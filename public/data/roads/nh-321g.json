@@ -1,0 +1,46 @@
+{
+  "id": "nh-321g",
+  "ref": "NH 321G",
+  "name": "Barhan–Etah National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 44.2,
+  "route": {
+    "start": "Barhan, Uttar Pradesh",
+    "end": "Etah, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Barhan",
+      "Etah"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Barhan",
+      "coords": [
+        78.31983,
+        27.47347
+      ]
+    },
+    {
+      "name": "Etah",
+      "coords": [
+        78.65444,
+        27.56201
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

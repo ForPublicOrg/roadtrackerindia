@@ -1,0 +1,43 @@
+{
+  "id": "kl-mc-road-cement-kavala-thiruvathukkal-road",
+  "ref": "MDR",
+  "name": "MC Road Cement Kavala - Thiruvathukkal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Nattakom, Kerala",
+    "end": "Illikkal, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Nattakom",
+      "Kottayam",
+      "Illikkal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.51599,
+        9.56258
+      ]
+    },
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.5017,
+        9.5716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-pulikkal-chavittanikunnu-vettukad-road",
+  "ref": "MDR",
+  "name": "Pulikkal - Chavittanikunnu - Vettukad Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.8,
+  "route": {
+    "start": "Thenhipalam, Kerala",
+    "end": "Omanoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thenhipalam",
+      "Omanoor"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thenhipalam",
+      "coords": [
+        75.9221,
+        11.17152
+      ]
+    },
+    {
+      "name": "Omanoor",
+      "coords": [
+        75.9635,
+        11.19477
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "sh-up-46",
+  "ref": "SH 46",
+  "name": "Pukhrayan–Fatehpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 82.2,
+  "route": {
+    "start": "Pukhrayan, Uttar Pradesh",
+    "end": "Fatehpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Pukhrayan",
+      "Ghatampur",
+      "Fatehpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pukhrayan",
+      "coords": [
+        79.81375,
+        26.20283
+      ]
+    },
+    {
+      "name": "Ghatampur",
+      "coords": [
+        80.16402,
+        26.15021
+      ]
+    },
+    {
+      "name": "Lakhan Khera",
+      "coords": [
+        80.24845,
+        26.12675
+      ]
+    },
+    {
+      "name": "Fatehpur",
+      "coords": [
+        80.58755,
+        26.12467
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

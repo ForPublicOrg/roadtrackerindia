@@ -1,0 +1,42 @@
+{
+  "id": "kl-cherukunnuthara-keezhara-vellikkeelkadavu-road",
+  "ref": "MDR",
+  "name": "Cherukunnuthara - Keezhara - Vellikkeelkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Kannapuram, Kerala",
+    "end": "Dharmasala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kannapuram",
+      "Dharmasala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannapuram",
+      "coords": [
+        75.30809,
+        11.99046
+      ]
+    },
+    {
+      "name": "Dharmasala",
+      "coords": [
+        75.33759,
+        12.00136
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

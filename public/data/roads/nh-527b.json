@@ -1,0 +1,61 @@
+{
+  "id": "nh-527b",
+  "ref": "NH 527B",
+  "name": "Jainagar–Darbhanga National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 55.5,
+  "route": {
+    "start": "Jainagar, Bihar",
+    "end": "Darbhanga, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Jainagar",
+      "Madhubani",
+      "Darbhanga"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jainagar",
+      "coords": [
+        86.13955,
+        26.59839
+      ]
+    },
+    {
+      "name": "Madhubani",
+      "coords": [
+        86.0161,
+        26.37655
+      ]
+    },
+    {
+      "name": "Jalwara",
+      "coords": [
+        85.91059,
+        26.2506
+      ]
+    },
+    {
+      "name": "Darbhanga",
+      "coords": [
+        85.90169,
+        26.18666
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

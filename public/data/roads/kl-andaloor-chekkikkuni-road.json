@@ -1,0 +1,42 @@
+{
+  "id": "kl-andaloor-chekkikkuni-road",
+  "ref": "MDR",
+  "name": "Andaloor - Chekkikkuni Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Kadachira, Kerala",
+    "end": "Thalassery, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadachira",
+      "Thalassery"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadachira",
+      "coords": [
+        75.47602,
+        11.79474
+      ]
+    },
+    {
+      "name": "Thalassery",
+      "coords": [
+        75.4841,
+        11.80327
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mdr-tn-271",
+  "ref": "MDR 271",
+  "name": "Harur–Palacode District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 54.7,
+  "route": {
+    "start": "Harur, Tamil Nadu",
+    "end": "Palacode, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Harur",
+      "Kariamangalam",
+      "Palacode"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Harur",
+      "coords": [
+        78.39359,
+        12.12898
+      ]
+    },
+    {
+      "name": "Kariamangalam",
+      "coords": [
+        78.20266,
+        12.30675
+      ]
+    },
+    {
+      "name": "Palacode",
+      "coords": [
+        78.10383,
+        12.341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

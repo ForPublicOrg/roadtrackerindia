@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1255",
+  "ref": "MDR 1255",
+  "name": "Perundurai–Sanitorium District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.2,
+  "route": {
+    "start": "Perundurai, Tamil Nadu",
+    "end": "Sanitorium, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Perundurai",
+      "Sanitorium"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Perundurai",
+      "coords": [
+        77.57975,
+        11.27979
+      ]
+    },
+    {
+      "name": "Sanitorium",
+      "coords": [
+        77.57771,
+        11.29009
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-chingeli-chadayamangalam-road",
+  "ref": "MDR",
+  "name": "Chingeli - Chadayamangalam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 9.3,
+  "route": {
+    "start": "Kadakkal, Kerala",
+    "end": "Chadayamangalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kadakkal",
+      "Ayoor",
+      "Chadayamangalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kadakkal",
+      "coords": [
+        76.93152,
+        8.82704
+      ]
+    },
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.87074,
+        8.87012
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

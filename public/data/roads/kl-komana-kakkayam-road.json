@@ -1,0 +1,42 @@
+{
+  "id": "kl-komana-kakkayam-road",
+  "ref": "MDR",
+  "name": "Komana - Kakkayam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Ambalappuzha, Kerala",
+    "end": "Vattappally, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ambalappuzha",
+      "Vattappally"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ambalappuzha",
+      "coords": [
+        76.36108,
+        9.38951
+      ]
+    },
+    {
+      "name": "Vattappally",
+      "coords": [
+        76.35305,
+        9.39243
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

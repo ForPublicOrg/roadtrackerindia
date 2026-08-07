@@ -1,0 +1,42 @@
+{
+  "id": "kl-vizhinjam-poovar-road",
+  "ref": "MDR",
+  "name": "Vizhinjam - Poovar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 12.3,
+  "route": {
+    "start": "Venganoor, Kerala",
+    "end": "Poovar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Venganoor",
+      "Poovar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.00548,
+        8.38355
+      ]
+    },
+    {
+      "name": "Poovar",
+      "coords": [
+        77.07066,
+        8.31831
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

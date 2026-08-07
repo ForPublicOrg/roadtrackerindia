@@ -1,0 +1,61 @@
+{
+  "id": "nh-234",
+  "ref": "NH 234",
+  "name": "Kannauj–Bewar National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 156.7,
+  "route": {
+    "start": "Kannauj, Uttar Pradesh",
+    "end": "Bewar, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kannauj",
+      "Etawah",
+      "Bewar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannauj",
+      "coords": [
+        79.89979,
+        27.02217
+      ]
+    },
+    {
+      "name": "Tirwaganj",
+      "coords": [
+        79.78797,
+        26.95731
+      ]
+    },
+    {
+      "name": "Etawah",
+      "coords": [
+        79.03641,
+        26.78894
+      ]
+    },
+    {
+      "name": "Bewar",
+      "coords": [
+        79.29986,
+        27.22042
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

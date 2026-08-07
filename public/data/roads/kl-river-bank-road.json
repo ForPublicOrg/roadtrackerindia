@@ -1,0 +1,50 @@
+{
+  "id": "kl-river-bank-road",
+  "ref": "MDR",
+  "name": "River Bank Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Kottayam, Kerala",
+    "end": "Thiruvarppu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kottayam",
+      "Illikkal",
+      "Thiruvarppu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kottayam",
+      "coords": [
+        76.50822,
+        9.59923
+      ]
+    },
+    {
+      "name": "Illikkal",
+      "coords": [
+        76.48825,
+        9.58776
+      ]
+    },
+    {
+      "name": "Thiruvarppu",
+      "coords": [
+        76.47717,
+        9.5816
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

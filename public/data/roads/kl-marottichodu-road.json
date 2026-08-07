@@ -1,0 +1,50 @@
+{
+  "id": "kl-marottichodu-road",
+  "ref": "MDR",
+  "name": "Marottichodu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Edappally, Kerala",
+    "end": "Sonia Nagar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Edappally",
+      "Kalamassery",
+      "Sonia Nagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Edappally",
+      "coords": [
+        76.31248,
+        10.02609
+      ]
+    },
+    {
+      "name": "Padivattom",
+      "coords": [
+        76.30792,
+        10.02199
+      ]
+    },
+    {
+      "name": "Sonia Nagar",
+      "coords": [
+        76.30597,
+        10.02093
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

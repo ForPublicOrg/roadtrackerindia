@@ -1,0 +1,42 @@
+{
+  "id": "sh-tn-255",
+  "ref": "SH 255",
+  "name": "Sendurai–Annanagar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 6,
+  "route": {
+    "start": "Sendurai, Tamil Nadu",
+    "end": "Annanagar, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Sendurai",
+      "Annanagar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sendurai",
+      "coords": [
+        79.17187,
+        11.26523
+      ]
+    },
+    {
+      "name": "Annanagar",
+      "coords": [
+        79.12736,
+        11.26702
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

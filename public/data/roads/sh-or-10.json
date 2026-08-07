@@ -1,0 +1,82 @@
+{
+  "id": "sh-or-10",
+  "ref": "SH 10",
+  "name": "Chhend–Sambalpur State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 170.4,
+  "route": {
+    "start": "Chhend, Odisha",
+    "end": "Sambalpur, Odisha",
+    "states": [
+      "Odisha"
+    ],
+    "majorCities": [
+      "Chhend",
+      "Rajgangpur",
+      "Bargaon",
+      "Sundargarh",
+      "Jharsuguda",
+      "Rengali",
+      "Sambalpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chhend",
+      "coords": [
+        84.78564,
+        22.23035
+      ]
+    },
+    {
+      "name": "Rajgangpur",
+      "coords": [
+        84.58986,
+        22.21164
+      ]
+    },
+    {
+      "name": "Bargaon",
+      "coords": [
+        84.29425,
+        22.16736
+      ]
+    },
+    {
+      "name": "Sundargarh",
+      "coords": [
+        84.05426,
+        22.11274
+      ]
+    },
+    {
+      "name": "Jharsuguda",
+      "coords": [
+        83.99816,
+        21.85536
+      ]
+    },
+    {
+      "name": "Rengali",
+      "coords": [
+        84.04426,
+        21.62394
+      ]
+    },
+    {
+      "name": "Sambalpur",
+      "coords": [
+        83.97671,
+        21.47091
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

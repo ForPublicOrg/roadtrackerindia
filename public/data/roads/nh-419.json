@@ -1,0 +1,63 @@
+{
+  "id": "nh-419",
+  "ref": "NH 419",
+  "name": "Gobindpur–Sitarampur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 68.9,
+  "route": {
+    "start": "Gobindpur, Jharkhand",
+    "end": "Sitarampur, West Bengal",
+    "states": [
+      "Jharkhand",
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Gobindpur",
+      "Jamtara",
+      "Mihijam",
+      "Sitarampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gobindpur",
+      "coords": [
+        86.5203,
+        23.83258
+      ]
+    },
+    {
+      "name": "Jamtara",
+      "coords": [
+        86.8023,
+        23.95848
+      ]
+    },
+    {
+      "name": "Mihijam",
+      "coords": [
+        86.88177,
+        23.85374
+      ]
+    },
+    {
+      "name": "Sitarampur",
+      "coords": [
+        86.8834,
+        23.7464
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

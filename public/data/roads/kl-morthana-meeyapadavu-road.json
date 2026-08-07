@@ -1,0 +1,42 @@
+{
+  "id": "kl-morthana-meeyapadavu-road",
+  "ref": "MDR",
+  "name": "Morthana - Meeyapadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.5,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.94908,
+        12.71762
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.93031,
+        12.7372
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

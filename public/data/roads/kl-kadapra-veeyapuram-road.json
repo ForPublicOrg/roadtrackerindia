@@ -1,0 +1,42 @@
+{
+  "id": "kl-kadapra-veeyapuram-road",
+  "ref": "MDR",
+  "name": "Kadapra - Veeyapuram Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 8.6,
+  "route": {
+    "start": "Haripad, Kerala",
+    "end": "Kurattikkadu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Haripad",
+      "Kurattikkadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Haripad",
+      "coords": [
+        76.46719,
+        9.32961
+      ]
+    },
+    {
+      "name": "Kurattikkadu",
+      "coords": [
+        76.53373,
+        9.34063
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

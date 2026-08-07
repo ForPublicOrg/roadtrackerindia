@@ -1,0 +1,43 @@
+{
+  "id": "mdr-mp-2214",
+  "ref": "MDR 2214",
+  "name": "Suwasra–Shamgarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 18.2,
+  "route": {
+    "start": "Suwasra, Madhya Pradesh",
+    "end": "Shamgarh, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Suwasra",
+      "Shamgarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Suwasra",
+      "coords": [
+        75.64252,
+        24.07636
+      ]
+    },
+    {
+      "name": "Shamgarh",
+      "coords": [
+        75.78215,
+        24.1163
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

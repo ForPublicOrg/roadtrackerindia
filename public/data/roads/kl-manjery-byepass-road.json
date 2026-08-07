@@ -1,0 +1,42 @@
+{
+  "id": "kl-manjery-byepass-road",
+  "ref": "SH",
+  "name": "Manjery Byepass Road",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 7.7,
+  "route": {
+    "start": "Manjeri, Kerala",
+    "end": "Uphill, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Manjeri",
+      "Uphill"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Manjeri",
+      "coords": [
+        76.12434,
+        11.12115
+      ]
+    },
+    {
+      "name": "Uphill",
+      "coords": [
+        76.13964,
+        11.1202
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

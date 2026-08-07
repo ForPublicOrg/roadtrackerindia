@@ -20,6 +20,7 @@ const NEWS_DIR = join(ROOT, 'public', 'data', 'news')
 mkdirSync(NEWS_DIR, { recursive: true })
 
 const FORCE = process.argv.includes('--force')
+const ALL = process.argv.includes('--all')
 const onlyArg = process.argv.find((a) => a.startsWith('--only'))
 const ONLY = onlyArg
   ? (onlyArg.includes('=') ? onlyArg.split('=')[1] : process.argv[process.argv.indexOf(onlyArg) + 1])
@@ -87,10 +88,26 @@ async function fetchNews(query) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-const roads = readdirSync(ROADS_DIR)
+/**
+ * Which roads are worth a news query. A search for "SH 12 India highway"
+ * returns noise, and 8,000 RSS calls would take an hour and get rate-limited —
+ * so the automatic pass covers hand-written roads and the major national
+ * routes. `--all` overrides.
+ */
+function worthFetching(road) {
+  if (ALL || road.newsQuery) return true
+  if (road.provenance !== 'osm') return true
+  return (road.category === 'nh' || road.category === 'expressway') && road.lengthKm >= 200
+}
+
+const allRoads = readdirSync(ROADS_DIR)
   .filter((f) => f.endsWith('.json'))
   .map((f) => JSON.parse(readFileSync(join(ROADS_DIR, f), 'utf8')))
   .filter((r) => (ONLY ? ONLY.includes(r.id) : true))
+const roads = ONLY ? allRoads : allRoads.filter(worthFetching)
+if (allRoads.length !== roads.length) {
+  console.log(`news: ${roads.length} of ${allRoads.length} roads are in scope (pass --all for every road)`)
+}
 
 let ok = 0
 let fresh = 0

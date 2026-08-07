@@ -1,0 +1,42 @@
+{
+  "id": "kl-pattazhy-edakkadavu-road",
+  "ref": "MDR",
+  "name": "Pattazhy - Edakkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Central Junction, Kerala",
+    "end": "Pathanapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Central Junction",
+      "Pathanapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Central Junction",
+      "coords": [
+        76.80003,
+        9.09393
+      ]
+    },
+    {
+      "name": "Pathanapuram",
+      "coords": [
+        76.79746,
+        9.0848
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

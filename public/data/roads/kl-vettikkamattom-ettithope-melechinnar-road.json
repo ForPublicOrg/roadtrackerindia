@@ -1,0 +1,42 @@
+{
+  "id": "kl-vettikkamattom-ettithope-melechinnar-road",
+  "ref": "MDR",
+  "name": "Vettikkamattom - Ettithope - Melechinnar Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 7.5,
+  "route": {
+    "start": "Erattayar, Kerala",
+    "end": "Thankamani, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Erattayar",
+      "Thankamani"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Erattayar",
+      "coords": [
+        77.10507,
+        9.81957
+      ]
+    },
+    {
+      "name": "Thankamani",
+      "coords": [
+        77.09024,
+        9.87366
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

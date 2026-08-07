@@ -1,0 +1,50 @@
+{
+  "id": "sh-wb-7",
+  "ref": "SH 7",
+  "name": "Medinipur–Arambagh State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 92.3,
+  "route": {
+    "start": "Medinipur, West Bengal",
+    "end": "Arambagh, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Medinipur",
+      "Chandrakona",
+      "Arambagh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Medinipur",
+      "coords": [
+        87.33866,
+        22.42543
+      ]
+    },
+    {
+      "name": "Chandrakona",
+      "coords": [
+        87.51114,
+        22.72652
+      ]
+    },
+    {
+      "name": "Arambagh",
+      "coords": [
+        87.78039,
+        22.88913
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

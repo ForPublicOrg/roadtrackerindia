@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-758",
+  "ref": "MDR 758",
+  "name": "Pettavaithalai–Keelaveliyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 25.8,
+  "route": {
+    "start": "Pettavaithalai, Tamil Nadu",
+    "end": "Keelaveliyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pettavaithalai",
+      "Keelaveliyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pettavaithalai",
+      "coords": [
+        78.48245,
+        10.89974
+      ]
+    },
+    {
+      "name": "Keelaveliyur",
+      "coords": [
+        78.5102,
+        10.74587
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kl-kuppam-parammelkadavu-muthukuda-kavungal-road",
+  "ref": "MDR",
+  "name": "Kuppam Parammelkadavu Muthukuda Kavungal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Chiravakku, Kerala",
+    "end": "Kappalam, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chiravakku",
+      "Taliparamba",
+      "Kappalam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chiravakku",
+      "coords": [
+        75.32234,
+        12.02875
+      ]
+    },
+    {
+      "name": "Taliparamba",
+      "coords": [
+        75.34642,
+        12.04879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-vadasserikkavu-vanmazhy-road",
+  "ref": "MDR",
+  "name": "Vadasserikkavu - Vanmazhy Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2,
+  "route": {
+    "start": "Mundancavu, Kerala",
+    "end": "Chengannur, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Mundancavu",
+      "Chengannur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mundancavu",
+      "coords": [
+        76.59371,
+        9.32489
+      ]
+    },
+    {
+      "name": "Chengannur",
+      "coords": [
+        76.60567,
+        9.33087
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

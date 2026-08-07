@@ -1,0 +1,69 @@
+{
+  "id": "nh-330d",
+  "ref": "NH 330D",
+  "name": "Kannauj–Sitapur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 135,
+  "route": {
+    "start": "Kannauj, Uttar Pradesh",
+    "end": "Sitapur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kannauj",
+      "Bilgram",
+      "Hardoi",
+      "Sitapur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kannauj",
+      "coords": [
+        79.94994,
+        27.00496
+      ]
+    },
+    {
+      "name": "Bilgram",
+      "coords": [
+        80.03294,
+        27.16899
+      ]
+    },
+    {
+      "name": "Hardoi",
+      "coords": [
+        80.13465,
+        27.38776
+      ]
+    },
+    {
+      "name": "Misrikh",
+      "coords": [
+        80.53187,
+        27.43929
+      ]
+    },
+    {
+      "name": "Sitapur",
+      "coords": [
+        80.65421,
+        27.56879
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

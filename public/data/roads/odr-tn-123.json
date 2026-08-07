@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-123",
+  "ref": "ODR 123",
+  "name": "Alangulam–Keela Surandai District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 10.4,
+  "route": {
+    "start": "Alangulam, Tamil Nadu",
+    "end": "Keela Surandai, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Alangulam",
+      "Keela Surandai"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Alangulam",
+      "coords": [
+        77.50262,
+        8.86528
+      ]
+    },
+    {
+      "name": "Keela Surandai",
+      "coords": [
+        77.53596,
+        8.93264
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

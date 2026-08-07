@@ -1,0 +1,42 @@
+{
+  "id": "kl-menonpara-chullimada-road",
+  "ref": "MDR",
+  "name": "Menonpara - Chullimada Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.6,
+  "route": {
+    "start": "Kanjikode, Kerala",
+    "end": "Kozhinjampara, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanjikode",
+      "Kozhinjampara"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanjikode",
+      "coords": [
+        76.78541,
+        10.78949
+      ]
+    },
+    {
+      "name": "Kozhinjampara",
+      "coords": [
+        76.8212,
+        10.77607
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

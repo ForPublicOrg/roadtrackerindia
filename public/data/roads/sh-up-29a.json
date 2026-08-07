@@ -1,0 +1,57 @@
+{
+  "id": "sh-up-29a",
+  "ref": "SH 29A",
+  "name": "Gursahaiganj–Hardoi State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 87.5,
+  "route": {
+    "start": "Gursahaiganj, Uttar Pradesh",
+    "end": "Hardoi, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Gursahaiganj",
+      "Farrukhabad",
+      "Hardoi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Gursahaiganj",
+      "coords": [
+        79.72992,
+        27.11695
+      ]
+    },
+    {
+      "name": "Fatehgarh",
+      "coords": [
+        79.62988,
+        27.36223
+      ]
+    },
+    {
+      "name": "Farrukhabad",
+      "coords": [
+        79.61693,
+        27.37975
+      ]
+    },
+    {
+      "name": "Hardoi",
+      "coords": [
+        80.12499,
+        27.39658
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

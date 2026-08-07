@@ -1,0 +1,65 @@
+{
+  "id": "sh-br-71",
+  "ref": "SH 71",
+  "name": "Warisaliganj–Jehanabad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 91.2,
+  "route": {
+    "start": "Warisaliganj, Bihar",
+    "end": "Jehanabad, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Warisaliganj",
+      "Rajgir",
+      "Islampur",
+      "Jehanabad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Warisaliganj",
+      "coords": [
+        85.67854,
+        25.09017
+      ]
+    },
+    {
+      "name": "Giriak",
+      "coords": [
+        85.52837,
+        25.03162
+      ]
+    },
+    {
+      "name": "Rajgir",
+      "coords": [
+        85.42061,
+        25.02615
+      ]
+    },
+    {
+      "name": "Islampur",
+      "coords": [
+        85.20848,
+        25.13884
+      ]
+    },
+    {
+      "name": "Jehanabad",
+      "coords": [
+        84.9868,
+        25.20396
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

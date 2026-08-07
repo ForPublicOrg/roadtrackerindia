@@ -1,0 +1,42 @@
+{
+  "id": "mdr-jh-122",
+  "ref": "MDR 122",
+  "name": "Ramanuj Ganj–Shahpur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 26.5,
+  "route": {
+    "start": "Ramanuj Ganj, Jharkhand",
+    "end": "Shahpur, Jharkhand",
+    "states": [
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Ramanuj Ganj",
+      "Shahpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ramanuj Ganj",
+      "coords": [
+        83.87484,
+        23.86467
+      ]
+    },
+    {
+      "name": "Shahpur",
+      "coords": [
+        84.01933,
+        24.01238
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

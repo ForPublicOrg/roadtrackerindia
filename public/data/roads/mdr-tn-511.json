@@ -1,0 +1,43 @@
+{
+  "id": "mdr-tn-511",
+  "ref": "MDR 511",
+  "name": "Kinathukadavu–Eripalayam District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 28.4,
+  "route": {
+    "start": "Kinathukadavu, Tamil Nadu",
+    "end": "Eripalayam, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Kinathukadavu",
+      "Udumalaipettai",
+      "Eripalayam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kinathukadavu",
+      "coords": [
+        77.19406,
+        10.8307
+      ]
+    },
+    {
+      "name": "Udumalaipettai",
+      "coords": [
+        77.24541,
+        10.5955
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

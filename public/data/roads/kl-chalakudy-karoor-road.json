@@ -1,0 +1,42 @@
+{
+  "id": "kl-chalakudy-karoor-road",
+  "ref": "MDR",
+  "name": "Chalakudy - Karoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.5,
+  "route": {
+    "start": "Thachudaparambu, Kerala",
+    "end": "Chalakudy, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thachudaparambu",
+      "Chalakudy"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thachudaparambu",
+      "coords": [
+        76.27722,
+        10.3099
+      ]
+    },
+    {
+      "name": "Chalakudy",
+      "coords": [
+        76.31891,
+        10.30133
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

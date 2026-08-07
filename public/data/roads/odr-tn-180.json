@@ -1,0 +1,42 @@
+{
+  "id": "odr-tn-180",
+  "ref": "ODR 180",
+  "name": "Karaikkadu–Thiruvandhipuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 13,
+  "route": {
+    "start": "Karaikkadu, Tamil Nadu",
+    "end": "Thiruvandhipuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Karaikkadu",
+      "Thiruvandhipuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Karaikkadu",
+      "coords": [
+        79.65897,
+        11.62896
+      ]
+    },
+    {
+      "name": "Thiruvandhipuram",
+      "coords": [
+        79.68328,
+        11.70104
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

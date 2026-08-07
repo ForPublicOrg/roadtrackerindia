@@ -1,0 +1,66 @@
+{
+  "id": "sh-gj-88",
+  "ref": "SH 88",
+  "name": "Ukai–Bilimora State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 116.2,
+  "route": {
+    "start": "Ukai, Gujarat",
+    "end": "Bilimora, Gujarat",
+    "states": [
+      "Gujarat"
+    ],
+    "majorCities": [
+      "Ukai",
+      "Mandvi",
+      "Bardoli",
+      "Navsari",
+      "Bilimora"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ukai",
+      "coords": [
+        73.57297,
+        21.26714
+      ]
+    },
+    {
+      "name": "Mandvi",
+      "coords": [
+        73.28998,
+        21.24424
+      ]
+    },
+    {
+      "name": "Bardoli",
+      "coords": [
+        73.11831,
+        21.11984
+      ]
+    },
+    {
+      "name": "Navsari",
+      "coords": [
+        72.937,
+        20.95125
+      ]
+    },
+    {
+      "name": "Bilimora",
+      "coords": [
+        72.97032,
+        20.76727
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

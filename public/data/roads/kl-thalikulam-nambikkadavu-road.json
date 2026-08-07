@@ -1,0 +1,42 @@
+{
+  "id": "kl-thalikulam-nambikkadavu-road",
+  "ref": "MDR",
+  "name": "Thalikulam - Nambikkadavu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Thriprayar, Kerala",
+    "end": "Ayyanthole, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thriprayar",
+      "Ayyanthole"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.09482,
+        10.44045
+      ]
+    },
+    {
+      "name": "Ayyanthole",
+      "coords": [
+        76.0819,
+        10.43237
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

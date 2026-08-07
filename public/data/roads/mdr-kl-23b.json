@@ -1,0 +1,56 @@
+{
+  "id": "mdr-kl-23b",
+  "ref": "MDR 23B",
+  "name": "Bovikkanam–Cherkala District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.3,
+  "route": {
+    "start": "Bovikkanam, Kerala",
+    "end": "Cherkala, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Bovikkanam",
+      "Cherkala"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bovikkanam",
+      "coords": [
+        75.09046,
+        12.50646
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.06484,
+        12.49978
+      ]
+    },
+    {
+      "name": "Chattanchal",
+      "coords": [
+        75.05967,
+        12.49519
+      ]
+    },
+    {
+      "name": "Cherkala",
+      "coords": [
+        75.05675,
+        12.49531
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

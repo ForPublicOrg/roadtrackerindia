@@ -1,0 +1,42 @@
+{
+  "id": "kl-vattoli-pathirapatta-road",
+  "ref": "MDR",
+  "name": "Vattoli - Pathirapatta Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.4,
+  "route": {
+    "start": "Kuttiadi, Kerala",
+    "end": "Nadapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kuttiadi",
+      "Nadapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kuttiadi",
+      "coords": [
+        75.71343,
+        11.67544
+      ]
+    },
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.71374,
+        11.68716
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

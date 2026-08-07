@@ -1,0 +1,79 @@
+{
+  "id": "nh-552g",
+  "ref": "NH 552G",
+  "name": "Freeganj–Jhalrapatan National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 179.3,
+  "route": {
+    "start": "Freeganj, Madhya Pradesh",
+    "end": "Jhalrapatan, Rajasthan",
+    "states": [
+      "Madhya Pradesh",
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Freeganj",
+      "Ujjain",
+      "Agar",
+      "Susner",
+      "Jhalawar",
+      "Jhalrapatan"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Freeganj",
+      "coords": [
+        75.77788,
+        23.15501
+      ]
+    },
+    {
+      "name": "Ujjain",
+      "coords": [
+        75.74341,
+        23.2007
+      ]
+    },
+    {
+      "name": "Agar",
+      "coords": [
+        76.00725,
+        23.71563
+      ]
+    },
+    {
+      "name": "Susner",
+      "coords": [
+        76.10085,
+        23.94326
+      ]
+    },
+    {
+      "name": "Jhalawar",
+      "coords": [
+        76.18533,
+        24.53563
+      ]
+    },
+    {
+      "name": "Jhalrapatan",
+      "coords": [
+        76.18985,
+        24.53368
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

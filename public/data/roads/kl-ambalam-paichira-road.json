@@ -1,0 +1,57 @@
+{
+  "id": "kl-ambalam-paichira-road",
+  "ref": "MDR",
+  "name": "Ambalam - Paichira Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.4,
+  "route": {
+    "start": "Pothencode, Kerala",
+    "end": "Kaniyapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Pothencode",
+      "Chanthavila",
+      "Kaniyapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.88117,
+        8.62743
+      ]
+    },
+    {
+      "name": "Mangalapuram",
+      "coords": [
+        76.87041,
+        8.61117
+      ]
+    },
+    {
+      "name": "Chanthavila",
+      "coords": [
+        76.86836,
+        8.60574
+      ]
+    },
+    {
+      "name": "Kaniyapuram",
+      "coords": [
+        76.86118,
+        8.59588
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

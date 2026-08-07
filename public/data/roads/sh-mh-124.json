@@ -1,0 +1,51 @@
+{
+  "id": "sh-mh-124",
+  "ref": "SH 124",
+  "name": "Sankhali–Banda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 38.8,
+  "route": {
+    "start": "Sankhali, Goa",
+    "end": "Banda, Maharashtra",
+    "states": [
+      "Goa",
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Sankhali",
+      "Dodamarg",
+      "Banda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sankhali",
+      "coords": [
+        74.02725,
+        15.58918
+      ]
+    },
+    {
+      "name": "Dodamarg",
+      "coords": [
+        73.96866,
+        15.68013
+      ]
+    },
+    {
+      "name": "Banda",
+      "coords": [
+        73.865,
+        15.81725
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

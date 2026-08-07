@@ -1,0 +1,50 @@
+{
+  "id": "kl-keralapuram-ayoor-road",
+  "ref": "MDR",
+  "name": "Keralapuram - Ayoor Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 17.4,
+  "route": {
+    "start": "Ayoor, Kerala",
+    "end": "Keralapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ayoor",
+      "Kundara",
+      "Keralapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ayoor",
+      "coords": [
+        76.79086,
+        8.90268
+      ]
+    },
+    {
+      "name": "Kundara",
+      "coords": [
+        76.68539,
+        8.93904
+      ]
+    },
+    {
+      "name": "Keralapuram",
+      "coords": [
+        76.65872,
+        8.94259
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

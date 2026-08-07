@@ -1,0 +1,42 @@
+{
+  "id": "kl-mananthavady-vimalanagar-kulathada-valad-hs-periya-road",
+  "ref": "MDR",
+  "name": "Mananthavady - Vimalanagar - Kulathada - Valad HS - Periya Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 27,
+  "route": {
+    "start": "Kunithalamukku, Kerala",
+    "end": "Mananthavady, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kunithalamukku",
+      "Mananthavady"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kunithalamukku",
+      "coords": [
+        75.85237,
+        11.8317
+      ]
+    },
+    {
+      "name": "Mananthavady",
+      "coords": [
+        76.00307,
+        11.8024
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

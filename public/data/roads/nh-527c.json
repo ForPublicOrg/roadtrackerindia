@@ -1,0 +1,54 @@
+{
+  "id": "nh-527c",
+  "ref": "NH 527C",
+  "name": "Muzaffarpur–Musarmiya National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 66.5,
+  "route": {
+    "start": "Muzaffarpur, Bihar",
+    "end": "Musarmiya, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Muzaffarpur",
+      "Pupri",
+      "Musarmiya"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Muzaffarpur",
+      "coords": [
+        85.49469,
+        26.15672
+      ]
+    },
+    {
+      "name": "Pupri",
+      "coords": [
+        85.70412,
+        26.47104
+      ]
+    },
+    {
+      "name": "Musarmiya",
+      "coords": [
+        85.7959,
+        26.54026
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

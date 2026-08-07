@@ -1,0 +1,43 @@
+{
+  "id": "kl-vazhichery-kommadi-road",
+  "ref": "MDR",
+  "name": "Vazhichery - Kommadi Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.9,
+  "route": {
+    "start": "Shava kotta palam, Kerala",
+    "end": "Vazhicherry, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Shava kotta palam",
+      "Alappuzha",
+      "Vazhicherry"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shava kotta palam",
+      "coords": [
+        76.33391,
+        9.51687
+      ]
+    },
+    {
+      "name": "Alappuzha",
+      "coords": [
+        76.33279,
+        9.50091
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

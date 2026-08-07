@@ -1,0 +1,42 @@
+{
+  "id": "mdr-kl-20",
+  "ref": "MDR 20",
+  "name": "Uppala–Manjeshwar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.9,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.90729,
+        12.70672
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.94777,
+        12.70444
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

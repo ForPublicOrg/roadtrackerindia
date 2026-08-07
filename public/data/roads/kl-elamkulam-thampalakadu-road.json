@@ -1,0 +1,42 @@
+{
+  "id": "kl-elamkulam-thampalakadu-road",
+  "ref": "MDR",
+  "name": "Elamkulam - Thampalakadu Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.9,
+  "route": {
+    "start": "Ponkunnam, Kerala",
+    "end": "Kanjirappalli, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Ponkunnam",
+      "Kanjirappalli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Ponkunnam",
+      "coords": [
+        76.73744,
+        9.59193
+      ]
+    },
+    {
+      "name": "Kanjirappalli",
+      "coords": [
+        76.75687,
+        9.59752
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

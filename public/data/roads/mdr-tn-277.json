@@ -1,0 +1,51 @@
+{
+  "id": "mdr-tn-277",
+  "ref": "MDR 277",
+  "name": "Musiri–Thuraiyur District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 41.6,
+  "route": {
+    "start": "Musiri, Tamil Nadu",
+    "end": "Thuraiyur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Musiri",
+      "Kulithalai",
+      "Thathaiyangarpet",
+      "Thuraiyur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Musiri",
+      "coords": [
+        78.44196,
+        10.95155
+      ]
+    },
+    {
+      "name": "Thathaiyangarpet",
+      "coords": [
+        78.44882,
+        11.11927
+      ]
+    },
+    {
+      "name": "Thuraiyur",
+      "coords": [
+        78.57778,
+        11.17949
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

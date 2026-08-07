@@ -1,0 +1,42 @@
+{
+  "id": "mdr-pb-39",
+  "ref": "MDR 39",
+  "name": "Mandi Dabwali–Abohar District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 53.2,
+  "route": {
+    "start": "Mandi Dabwali, Punjab",
+    "end": "Abohar, Punjab",
+    "states": [
+      "Punjab"
+    ],
+    "majorCities": [
+      "Mandi Dabwali",
+      "Abohar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandi Dabwali",
+      "coords": [
+        74.6822,
+        29.98551
+      ]
+    },
+    {
+      "name": "Abohar",
+      "coords": [
+        74.20311,
+        30.15001
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

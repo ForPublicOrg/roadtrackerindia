@@ -1,0 +1,42 @@
+{
+  "id": "sh-mp-16",
+  "ref": "SH 16",
+  "name": "Nagda–Dewas State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 158.7,
+  "route": {
+    "start": "Nagda, Madhya Pradesh",
+    "end": "Dewas, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Nagda",
+      "Dewas"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nagda",
+      "coords": [
+        75.41436,
+        23.7324
+      ]
+    },
+    {
+      "name": "Dewas",
+      "coords": [
+        76.06929,
+        23.00146
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

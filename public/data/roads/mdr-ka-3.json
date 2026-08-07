@@ -1,0 +1,42 @@
+{
+  "id": "mdr-ka-3",
+  "ref": "MDR 3",
+  "name": "Jakkur–Yelahanka District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.7,
+  "route": {
+    "start": "Jakkur, Karnataka",
+    "end": "Yelahanka, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Jakkur",
+      "Yelahanka"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jakkur",
+      "coords": [
+        77.63351,
+        13.102
+      ]
+    },
+    {
+      "name": "Yelahanka",
+      "coords": [
+        77.60062,
+        13.10351
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

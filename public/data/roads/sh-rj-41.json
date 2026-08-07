@@ -1,0 +1,50 @@
+{
+  "id": "sh-rj-41",
+  "ref": "SH 41",
+  "name": "Rajgarh–Jhunjhunu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 65.4,
+  "route": {
+    "start": "Rajgarh, Rajasthan",
+    "end": "Jhunjhunu, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Rajgarh",
+      "Malsisar",
+      "Jhunjhunu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rajgarh",
+      "coords": [
+        75.38033,
+        28.62649
+      ]
+    },
+    {
+      "name": "Malsisar",
+      "coords": [
+        75.29866,
+        28.36014
+      ]
+    },
+    {
+      "name": "Jhunjhunu",
+      "coords": [
+        75.39083,
+        28.13784
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

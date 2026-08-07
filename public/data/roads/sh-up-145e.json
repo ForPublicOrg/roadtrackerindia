@@ -1,0 +1,57 @@
+{
+  "id": "sh-up-145e",
+  "ref": "SH 145E",
+  "name": "Sirathu–Sarai Aquil State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 39.7,
+  "route": {
+    "start": "Sirathu, Uttar Pradesh",
+    "end": "Sarai Aquil, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Sirathu",
+      "Karari",
+      "Sarai Aquil"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sirathu",
+      "coords": [
+        81.3176,
+        25.64961
+      ]
+    },
+    {
+      "name": "Manjhanpur",
+      "coords": [
+        81.3811,
+        25.53241
+      ]
+    },
+    {
+      "name": "Karari",
+      "coords": [
+        81.42529,
+        25.4584
+      ]
+    },
+    {
+      "name": "Sarai Aquil",
+      "coords": [
+        81.51387,
+        25.4059
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

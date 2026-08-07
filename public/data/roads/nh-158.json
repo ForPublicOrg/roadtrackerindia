@@ -1,0 +1,62 @@
+{
+  "id": "nh-158",
+  "ref": "NH 158",
+  "name": "Mandal–Merta City National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 186.9,
+  "route": {
+    "start": "Mandal, Rajasthan",
+    "end": "Merta City, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Mandal",
+      "Asind",
+      "Beawar",
+      "Merta City"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Mandal",
+      "coords": [
+        74.60292,
+        25.4349
+      ]
+    },
+    {
+      "name": "Asind",
+      "coords": [
+        74.33611,
+        25.73443
+      ]
+    },
+    {
+      "name": "Beawar",
+      "coords": [
+        74.31194,
+        26.10213
+      ]
+    },
+    {
+      "name": "Merta City",
+      "coords": [
+        74.05144,
+        26.62903
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

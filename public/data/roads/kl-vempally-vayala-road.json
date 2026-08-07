@@ -1,0 +1,42 @@
+{
+  "id": "kl-vempally-vayala-road",
+  "ref": "MDR",
+  "name": "Vempally - Vayala Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 2.5,
+  "route": {
+    "start": "Kanakkarry, Kerala",
+    "end": "Kuravilangad, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kanakkarry",
+      "Kuravilangad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kanakkarry",
+      "coords": [
+        76.58004,
+        9.71515
+      ]
+    },
+    {
+      "name": "Kuravilangad",
+      "coords": [
+        76.55917,
+        9.71548
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

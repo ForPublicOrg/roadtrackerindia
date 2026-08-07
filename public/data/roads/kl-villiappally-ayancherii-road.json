@@ -1,0 +1,42 @@
+{
+  "id": "kl-villiappally-ayancherii-road",
+  "ref": "MDR",
+  "name": "Villiappally Ayancherii Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 5.2,
+  "route": {
+    "start": "Kalleri, Kerala",
+    "end": "Nadapuram, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Kalleri",
+      "Nadapuram"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kalleri",
+      "coords": [
+        75.6295,
+        11.62677
+      ]
+    },
+    {
+      "name": "Nadapuram",
+      "coords": [
+        75.67044,
+        11.62538
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

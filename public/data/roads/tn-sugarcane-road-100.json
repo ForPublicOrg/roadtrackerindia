@@ -1,0 +1,42 @@
+{
+  "id": "tn-sugarcane-road-100",
+  "ref": "ODR",
+  "name": "Sugarcane Road 100",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 4.1,
+  "route": {
+    "start": "Maduranthakam, Tamil Nadu",
+    "end": "Vandavasi, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Maduranthakam",
+      "Vandavasi"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Maduranthakam",
+      "coords": [
+        79.77127,
+        12.50927
+      ]
+    },
+    {
+      "name": "Vandavasi",
+      "coords": [
+        79.79763,
+        12.51686
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kl-kakkathuruthi-mathilakam-road",
+  "ref": "MDR",
+  "name": "Kakkathuruthi Mathilakam Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Irinjalakuda, Kerala",
+    "end": "Thriprayar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Irinjalakuda",
+      "Thriprayar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Irinjalakuda",
+      "coords": [
+        76.18195,
+        10.29955
+      ]
+    },
+    {
+      "name": "Thriprayar",
+      "coords": [
+        76.17758,
+        10.3339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-mh-17",
+  "ref": "SH 17",
+  "name": "Nashik–Satana State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 94,
+  "route": {
+    "start": "Nashik, Maharashtra",
+    "end": "Satana, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Nashik",
+      "Dindori",
+      "Satana"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nashik",
+      "coords": [
+        73.79545,
+        20.01132
+      ]
+    },
+    {
+      "name": "Dindori",
+      "coords": [
+        73.8316,
+        20.20538
+      ]
+    },
+    {
+      "name": "Satana",
+      "coords": [
+        74.19959,
+        20.58571
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

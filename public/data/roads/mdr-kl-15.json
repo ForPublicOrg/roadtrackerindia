@@ -1,0 +1,65 @@
+{
+  "id": "mdr-kl-15",
+  "ref": "MDR 15",
+  "name": "Panathur–Kothaymukku District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 75.4,
+  "route": {
+    "start": "Panathur, Kerala",
+    "end": "Kothaymukku, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Panathur",
+      "Vazhakundam",
+      "Cherupuzha",
+      "Kothaymukku"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Panathur",
+      "coords": [
+        75.26766,
+        12.5016
+      ]
+    },
+    {
+      "name": "Vazhakundam",
+      "coords": [
+        75.40494,
+        12.28876
+      ]
+    },
+    {
+      "name": "Cherupuzha",
+      "coords": [
+        75.36076,
+        12.27154
+      ]
+    },
+    {
+      "name": "Cheemeni",
+      "coords": [
+        75.26255,
+        12.19584
+      ]
+    },
+    {
+      "name": "Kothaymukku",
+      "coords": [
+        75.21655,
+        12.13216
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-u115",
+  "ref": "SH-U 115",
+  "name": "Vadivel Nagar–Sipcot Industrial Estate State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 10,
+  "route": {
+    "start": "Vadivel Nagar, Tamil Nadu",
+    "end": "Sipcot Industrial Estate, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Vadivel Nagar",
+      "Karur",
+      "Sipcot Industrial Estate"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Vadivel Nagar",
+      "coords": [
+        78.06126,
+        10.96271
+      ]
+    },
+    {
+      "name": "Karur",
+      "coords": [
+        78.07581,
+        10.95916
+      ]
+    },
+    {
+      "name": "Sipcot Industrial Estate",
+      "coords": [
+        78.11127,
+        10.95748
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sh-ka-125",
+  "ref": "SH 125",
+  "name": "Jevaragi–Kamalapura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 105,
+  "route": {
+    "start": "Jevaragi, Karnataka",
+    "end": "Kamalapura, Karnataka",
+    "states": [
+      "Karnataka"
+    ],
+    "majorCities": [
+      "Jevaragi",
+      "Shahabad",
+      "Kamalapura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Jevaragi",
+      "coords": [
+        76.81513,
+        17.0782
+      ]
+    },
+    {
+      "name": "Shahabad",
+      "coords": [
+        76.93475,
+        17.13099
+      ]
+    },
+    {
+      "name": "Kamalapura",
+      "coords": [
+        76.99167,
+        17.57778
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

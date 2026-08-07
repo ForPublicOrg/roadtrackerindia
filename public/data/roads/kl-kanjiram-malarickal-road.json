@@ -1,0 +1,42 @@
+{
+  "id": "kl-kanjiram-malarickal-road",
+  "ref": "MDR",
+  "name": "Kanjiram - Malarickal Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.2,
+  "route": {
+    "start": "Thiruvarppu, Kerala",
+    "end": "Nattakom, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Thiruvarppu",
+      "Nattakom"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Thiruvarppu",
+      "coords": [
+        76.48828,
+        9.56825
+      ]
+    },
+    {
+      "name": "Nattakom",
+      "coords": [
+        76.49238,
+        9.55886
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

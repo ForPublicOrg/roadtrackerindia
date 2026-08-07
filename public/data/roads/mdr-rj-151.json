@@ -1,0 +1,66 @@
+{
+  "id": "mdr-rj-151",
+  "ref": "MDR 151",
+  "name": "Dausa–Lachhmangarh District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 97.4,
+  "route": {
+    "start": "Dausa, Rajasthan",
+    "end": "Lachhmangarh, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Dausa",
+      "Bandikui",
+      "Reni",
+      "Rajgarh",
+      "Lachhmangarh"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dausa",
+      "coords": [
+        76.30428,
+        26.94057
+      ]
+    },
+    {
+      "name": "Bandikui",
+      "coords": [
+        76.59053,
+        27.00274
+      ]
+    },
+    {
+      "name": "Reni",
+      "coords": [
+        76.73863,
+        27.16828
+      ]
+    },
+    {
+      "name": "Rajgarh",
+      "coords": [
+        76.66568,
+        27.25808
+      ]
+    },
+    {
+      "name": "Lachhmangarh",
+      "coords": [
+        76.73909,
+        27.36015
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

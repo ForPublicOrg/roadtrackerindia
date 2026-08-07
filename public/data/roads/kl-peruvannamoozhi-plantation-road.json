@@ -1,0 +1,42 @@
+{
+  "id": "kl-peruvannamoozhi-plantation-road",
+  "ref": "MDR",
+  "name": "Peruvannamoozhi - Plantation Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.6,
+  "route": {
+    "start": "Chakkittapara, Kerala",
+    "end": "Koorachundu, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Chakkittapara",
+      "Koorachundu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Chakkittapara",
+      "coords": [
+        75.82446,
+        11.59905
+      ]
+    },
+    {
+      "name": "Koorachundu",
+      "coords": [
+        75.85054,
+        11.60378
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

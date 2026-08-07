@@ -1,0 +1,42 @@
+{
+  "id": "mdr-mp-203",
+  "ref": "MDR 203",
+  "name": "Porsa–Gohad District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 6.3,
+  "route": {
+    "start": "Porsa, Madhya Pradesh",
+    "end": "Gohad, Madhya Pradesh",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "majorCities": [
+      "Porsa",
+      "Gohad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Porsa",
+      "coords": [
+        78.33377,
+        26.60179
+      ]
+    },
+    {
+      "name": "Gohad",
+      "coords": [
+        78.38849,
+        26.58256
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

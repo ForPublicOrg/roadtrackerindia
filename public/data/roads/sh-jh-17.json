@@ -1,0 +1,43 @@
+{
+  "id": "sh-jh-17",
+  "ref": "SH 17",
+  "name": "Rampurhat–Gangta State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 115.4,
+  "route": {
+    "start": "Rampurhat, West Bengal",
+    "end": "Gangta, Jharkhand",
+    "states": [
+      "West Bengal",
+      "Jharkhand"
+    ],
+    "majorCities": [
+      "Rampurhat",
+      "Gangta"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Rampurhat",
+      "coords": [
+        87.79211,
+        24.18149
+      ]
+    },
+    {
+      "name": "Gangta",
+      "coords": [
+        87.05986,
+        24.68078
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

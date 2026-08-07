@@ -1,0 +1,55 @@
+{
+  "id": "nh-530",
+  "ref": "NH 530",
+  "name": "Izatnagar–Rampur National Highway",
+  "category": "nh",
+  "status": "operational",
+  "lengthKm": 70.4,
+  "route": {
+    "start": "Izatnagar, Uttar Pradesh",
+    "end": "Rampur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Izatnagar",
+      "Shahi",
+      "Meerganj",
+      "Rampur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Izatnagar",
+      "coords": [
+        79.48296,
+        28.43043
+      ]
+    },
+    {
+      "name": "Meerganj",
+      "coords": [
+        79.2085,
+        28.54707
+      ]
+    },
+    {
+      "name": "Rampur",
+      "coords": [
+        78.99224,
+        28.78499
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

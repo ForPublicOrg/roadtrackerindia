@@ -1,0 +1,50 @@
+{
+  "id": "sh-up-157w",
+  "ref": "SH 157W",
+  "name": "Amroha–Sambhal State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 29.1,
+  "route": {
+    "start": "Amroha, Uttar Pradesh",
+    "end": "Sambhal, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Amroha",
+      "Asmoli",
+      "Sambhal"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Amroha",
+      "coords": [
+        78.48622,
+        28.8331
+      ]
+    },
+    {
+      "name": "Asmoli",
+      "coords": [
+        78.53587,
+        28.69767
+      ]
+    },
+    {
+      "name": "Sambhal",
+      "coords": [
+        78.56573,
+        28.58731
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

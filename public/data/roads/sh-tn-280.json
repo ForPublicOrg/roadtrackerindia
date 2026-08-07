@@ -1,0 +1,50 @@
+{
+  "id": "sh-tn-280",
+  "ref": "SH 280",
+  "name": "Akkur–Koranadu State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 18.6,
+  "route": {
+    "start": "Akkur, Tamil Nadu",
+    "end": "Koranadu, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Akkur",
+      "Mayiladuthurai",
+      "Koranadu"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Akkur",
+      "coords": [
+        79.79963,
+        11.09938
+      ]
+    },
+    {
+      "name": "Mayiladuthurai",
+      "coords": [
+        79.65285,
+        11.09562
+      ]
+    },
+    {
+      "name": "Koranadu",
+      "coords": [
+        79.64031,
+        11.09564
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

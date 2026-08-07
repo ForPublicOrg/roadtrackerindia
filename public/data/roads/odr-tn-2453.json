@@ -1,0 +1,50 @@
+{
+  "id": "odr-tn-2453",
+  "ref": "ODR 2453",
+  "name": "Nesapakkam–Ramapuram District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Nesapakkam, Tamil Nadu",
+    "end": "Ramapuram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Nesapakkam",
+      "Ramapuram",
+      "Valasaravakkam"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Nesapakkam",
+      "coords": [
+        80.18382,
+        13.03177
+      ]
+    },
+    {
+      "name": "Ramapuram",
+      "coords": [
+        80.17829,
+        13.03178
+      ]
+    },
+    {
+      "name": "Valasaravakkam",
+      "coords": [
+        80.1739,
+        13.03341
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

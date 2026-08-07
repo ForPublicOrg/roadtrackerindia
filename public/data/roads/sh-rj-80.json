@@ -1,0 +1,42 @@
+{
+  "id": "sh-rj-80",
+  "ref": "SH 80",
+  "name": "Bari Sadri–Dhariawad State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 27.1,
+  "route": {
+    "start": "Bari Sadri, Rajasthan",
+    "end": "Dhariawad, Rajasthan",
+    "states": [
+      "Rajasthan"
+    ],
+    "majorCities": [
+      "Bari Sadri",
+      "Dhariawad"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bari Sadri",
+      "coords": [
+        74.38792,
+        24.32759
+      ]
+    },
+    {
+      "name": "Dhariawad",
+      "coords": [
+        74.44271,
+        24.10303
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

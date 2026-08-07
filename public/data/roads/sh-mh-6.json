@@ -1,0 +1,65 @@
+{
+  "id": "sh-mh-6",
+  "ref": "SH 6",
+  "name": "Dharangaon–Shindkheda State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 102,
+  "route": {
+    "start": "Dharangaon, Maharashtra",
+    "end": "Shindkheda, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Dharangaon",
+      "Erandol",
+      "Amalner",
+      "Shindkheda"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dharangaon",
+      "coords": [
+        75.27828,
+        21.00308
+      ]
+    },
+    {
+      "name": "Erandol",
+      "coords": [
+        75.30328,
+        20.95973
+      ]
+    },
+    {
+      "name": "Dharangaon",
+      "coords": [
+        75.27452,
+        21.00714
+      ]
+    },
+    {
+      "name": "Amalner",
+      "coords": [
+        75.06997,
+        21.04141
+      ]
+    },
+    {
+      "name": "Shindkheda",
+      "coords": [
+        74.7474,
+        21.27434
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

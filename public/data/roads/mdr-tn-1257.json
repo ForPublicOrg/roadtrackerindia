@@ -1,0 +1,42 @@
+{
+  "id": "mdr-tn-1257",
+  "ref": "MDR 1257",
+  "name": "Pettavaithalai–Adavathur East District road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 3.9,
+  "route": {
+    "start": "Pettavaithalai, Tamil Nadu",
+    "end": "Adavathur East, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Pettavaithalai",
+      "Adavathur East"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Pettavaithalai",
+      "coords": [
+        78.54491,
+        10.84715
+      ]
+    },
+    {
+      "name": "Adavathur East",
+      "coords": [
+        78.57976,
+        10.84393
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

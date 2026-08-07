@@ -1,0 +1,42 @@
+{
+  "id": "kl-uppala-school-mulincha-temple-road",
+  "ref": "MDR",
+  "name": "Uppala School - Mulincha Temple Road",
+  "category": "district",
+  "status": "operational",
+  "lengthKm": 1.1,
+  "route": {
+    "start": "Uppala, Kerala",
+    "end": "Manjeshwar, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Uppala",
+      "Manjeshwar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Uppala",
+      "coords": [
+        74.9044,
+        12.68053
+      ]
+    },
+    {
+      "name": "Manjeshwar",
+      "coords": [
+        74.91418,
+        12.68312
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}
