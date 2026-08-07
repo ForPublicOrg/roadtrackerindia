@@ -71,9 +71,27 @@ export async function initMap(): Promise<maplibregl.Map> {
 
   map.fitBounds(INDIA_BOUNDS, { padding: fitPaddingHome(), duration: 0 })
 
+  // Only a sustained burst of failures while offline earns the scary banner —
+  // single aborted tiles (camera jumps, wifi flickers) are normal noise.
+  let netErrors = 0
+  let netErrorWindowStart = 0
   map.on('error', (e) => {
     const msg = (e as { error?: { message?: string } }).error?.message ?? ''
-    if (/fetch|network|Failed/i.test(msg) && !navigator.onLine) showNetBanner()
+    if (!/fetch|network|Failed/i.test(msg)) return
+    const now = Date.now()
+    if (now - netErrorWindowStart > 5000) {
+      netErrorWindowStart = now
+      netErrors = 0
+    }
+    if (++netErrors >= 6 && !navigator.onLine) showNetBanner()
+  })
+  // a wifi blip can raise the banner — clear it once the map settles again,
+  // and climb out of the offline fallback style as soon as we're back online
+  map.on('idle', () => {
+    if (!usingFallbackStyle) hideNetBanner()
+  })
+  window.addEventListener('online', () => {
+    if (usingFallbackStyle) void retryStyle()
   })
 
   // Never block the app on tile loading (patchy networks are the norm):

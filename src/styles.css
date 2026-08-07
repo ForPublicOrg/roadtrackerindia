@@ -659,6 +659,7 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
   width: max-content; max-width: 92vw;
 }
 .net-banner button { background: rgba(255, 255, 255, 0.2); border-radius: 8px; padding: 5px 10px; color: #fff; font-weight: 700; }
+.net-banner[hidden] { display: none; } /* display:flex above would defeat the hidden attribute */
 
 .noscript {
   position: fixed; inset: 0; z-index: 100; background: var(--bg);
