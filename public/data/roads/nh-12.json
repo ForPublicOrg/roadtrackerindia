@@ -9,6 +9,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 612,
+  "lanes": "Mostly 2 lanes, with 4-lane sections; widening is being done in stages",
+  "agency": "NHAI",
   "route": {
     "start": "Dalkhola, West Bengal",
     "end": "Bakkhali, West Bengal",
@@ -26,15 +28,41 @@
   },
   "timeline": [
     { "year": "1975", "event": "Farakka Barrage, which carries the road across the Ganga, opens" },
-    { "year": "2010", "event": "Old NH 34 and NH 117 merged into the new NH 12 in the renumbering" }
+    { "year": "2010", "event": "Old NH 34 and NH 117 merged into the new NH 12 in the renumbering" },
+    { "year": "2020s", "event": "Four-laning and town bypasses continue in stages between Krishnanagar, Berhampore and Farakka" }
   ],
-  "history": "NH 12 is the main north–south road of central West Bengal. It follows the route of the famous old NH 34 from Dalkhola down through Malda, Berhampore and Krishnanagar to Kolkata, and then continues along the old NH 117 to the seaside village of Bakkhali. For decades this corridor has been the main road link between Kolkata and north Bengal.",
+  "history": "NH 12 is the main north–south road of central West Bengal. It follows the route of the famous old NH 34 from Dalkhola down through Malda, Berhampore and Krishnanagar to Kolkata, and then continues along the old NH 117 to the seaside village of Bakkhali. For decades this corridor has been the main road link between Kolkata and north Bengal, and almost every lorry heading for Siliguri, Sikkim and the Northeast uses part of it. The tightest squeeze on the whole route is the Farakka Barrage, where the highway crosses the Ganga on a narrow road built on top of a 1970s dam. Widening the old NH 34 to four lanes has been going on for years and has often been held up by land problems, so the road still switches between two and four lanes along the way.",
   "facts": [
     "Lies entirely within West Bengal, running about 612 km from Dalkhola to the sea at Bakkhali.",
     "The Dalkhola–Kolkata stretch was the old NH 34, long the busiest road between Kolkata and north Bengal.",
-    "Crosses the river Ganga over the Farakka Barrage.",
-    "South of Kolkata it follows the old NH 117 through Diamond Harbour to Bakkhali beach."
+    "Crosses the river Ganga over the Farakka Barrage, a 1970s structure more than 2 km long that carries both the road and a railway line.",
+    "South of Kolkata it follows the old NH 117 through Diamond Harbour to Bakkhali beach.",
+    "Starts at Dalkhola, where it meets NH 27 — the highway towards Siliguri and the Northeast.",
+    "NH 14 branches off at Morgram, letting north Bengal traffic reach Kharagpur and Odisha without entering Kolkata.",
+    "Bakkhali, the southern end, is a quiet beach on the Bay of Bengal at the edge of the Sundarbans."
   ],
+  "significance": "For anyone travelling between Kolkata and north Bengal, Sikkim or the Northeast, NH 12 is the road. Lorries carrying food, cement and fuel run along it day and night, and for the districts of Malda, Murshidabad and Nadia it is the main street of the whole region. Its southern half is the everyday route to the Sundarbans edge and the Bakkhali coast.",
+  "engineering": [
+    { "name": "Farakka Barrage", "note": "the highway crosses the Ganga on top of this 1970s barrage, more than 2 km long — famous as a bottleneck because the road on it is narrow" }
+  ],
+  "interchanges": [
+    { "name": "Dalkhola", "note": "northern end, on NH 27 towards Siliguri and the Northeast" },
+    { "name": "Farakka", "note": "the Ganga crossing, and the eastern end of NH 33 coming in from Bihar" },
+    { "name": "Morgram", "note": "NH 14 branches off south-west towards Kharagpur" },
+    { "name": "Barasat", "note": "where the highway meets Kolkata's northern suburbs" },
+    { "name": "Kolkata", "note": "meets NH 16, the east-coast highway to Chennai" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met at Dalkhola — together they form the Kolkata–Siliguri–Northeast route" },
+    { "id": "nh-33", "label": "Comes across from Bihar and ends at Farakka" },
+    { "id": "nh-14", "label": "Branches off at Morgram and heads for Kharagpur, skipping Kolkata" },
+    { "id": "nh-16", "label": "The east-coast highway that NH 12 meets in Kolkata" }
+  ],
+  "travelNotes": "Kolkata to Siliguri along NH 12 is roughly 570 km and usually takes 11–13 hours, because the road runs straight through one town after another and traffic backs up at the Farakka Barrage. Thick fog in December and January can slow the Murshidabad and Nadia stretches to a crawl. The southern leg from Kolkata to Bakkhali is a popular 130 km weekend drive, busiest on Saturday mornings and during the winter holidays.",
+  "futureUpgrades": [
+    "Four-laning of the remaining stretches between Krishnanagar, Berhampore and Farakka is going ahead in phases, with bypasses around the bigger towns."
+  ],
+  "newsQuery": "\"NH 12\" West Bengal highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

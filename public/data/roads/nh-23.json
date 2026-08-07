@@ -5,19 +5,37 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 228,
+  "agency": "NHAI",
   "route": {
     "start": "Kothun, Rajasthan",
     "end": "Dholpur, Rajasthan",
     "states": ["Rajasthan"],
     "majorCities": ["Lalsot", "Karauli", "Bari", "Dholpur"]
   },
-  "history": "NH 23 is an east–west highway that lies entirely inside Rajasthan. It begins at Kothun, a junction on the Jaipur–Tonk highway south of Jaipur, and runs east through Lalsot, Karauli and Bari to end at Dholpur on NH 44 near the Chambal river. It gives the towns of eastern Rajasthan a direct link between the Jaipur region and the main Delhi–Gwalior corridor.",
+  "history": "NH 23 is an east–west highway that lies entirely inside Rajasthan. It begins at Kothun, a junction on the Jaipur–Tonk highway south of Jaipur, and runs east through Lalsot, Karauli and Bari to end at Dholpur on NH 44 near the Chambal river. It gives the towns of eastern Rajasthan a direct link between the Jaipur region and the main Delhi–Gwalior corridor. Without it, traffic from the Jaipur side has to make a long detour north through Bharatpur or south through Sawai Madhopur. The middle of the route crosses the Dang country, a belt of rocky ravines and scrub-covered low hills where villages are small and far apart.",
   "facts": [
     "About 228 km long, entirely within Rajasthan.",
     "Connects NH 52 at Kothun with NH 44 at Dholpur.",
     "Karauli, on the route, is known for the Kaila Devi temple.",
-    "Dholpur, at the eastern end, is famous for its red sandstone.",
-    "An extension westward to Ajmer has been proposed."
+    "Dholpur, at the eastern end, is famous for its red sandstone, used in landmark buildings in Delhi and Agra.",
+    "An extension westward to Ajmer has been proposed.",
+    "The middle stretch crosses the Dang belt of ravines and low hills in eastern Rajasthan."
+  ],
+  "significance": "NH 23 is eastern Rajasthan's east–west shortcut. It saves long detours for anyone travelling between the Jaipur region and the Agra–Gwalior corridor, and it is the main road for the lakhs of pilgrims who visit the Kaila Devi temple near Karauli. For the small towns of Lalsot, Karauli and Bari it is the only good road to the outside world.",
+  "interchanges": [
+    { "name": "Kothun", "note": "western end, on NH 52 south of Jaipur" },
+    { "name": "Lalsot", "note": "market-town junction; the Delhi–Mumbai Expressway's first section runs to this area" },
+    { "name": "Karauli", "note": "turn-off for the Kaila Devi temple" },
+    { "name": "Dholpur", "note": "eastern end, on NH 44 close to the Chambal river" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Meets NH 23 at its western end near Kothun" },
+    { "id": "nh-44", "label": "The Delhi–Agra–Gwalior spine, reached at Dholpur" },
+    { "id": "delhi-mumbai-expressway", "label": "Its Delhi–Dausa–Lalsot section ends close to NH 23's Lalsot stretch" }
+  ],
+  "travelNotes": "This is a quiet country highway — small towns, farm trucks and few large fuel stations, so fill up at Lalsot, Karauli or Dholpur. It gets very crowded around the Kaila Devi fair near Karauli in March–April, when huge numbers of pilgrims walk and drive to the temple. Most of it is unlit and stray cattle are common, so local drivers avoid it after dark. October to March is the comfortable season; May and June are punishingly hot.",
+  "futureUpgrades": [
+    "A westward extension of about 200 km toward Ajmer, via Phagi, Dudu and Nasirabad, is planned."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

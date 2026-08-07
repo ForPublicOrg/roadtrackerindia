@@ -8,19 +8,50 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 954,
+  "lanes": "4–6 lanes across the plains, up to about 14 lanes on the Delhi–Dasna stretch, 2 lanes in the hills",
+  "agency": "NHAI",
   "route": {
     "start": "Fazilka, Punjab",
     "end": "Askot (Pithoragarh district), Uttarakhand",
     "states": ["Punjab", "Haryana", "Delhi", "Uttar Pradesh", "Uttarakhand"],
     "majorCities": ["Malout", "Sirsa", "Hisar", "Rohtak", "Delhi", "Ghaziabad", "Moradabad", "Rampur", "Rudrapur", "Tanakpur", "Champawat", "Pithoragarh"]
   },
-  "history": "NH 9 crosses north India from Fazilka near the Pakistan border to Askot high in the Kumaon hills near Nepal. It was created in the 2010 renumbering by joining parts of five older highways, including the old NH 10 (Delhi–Hisar–Sirsa) and the old NH 24 (Delhi–Moradabad). West of Delhi it runs through the farm towns of Haryana; east of Delhi it crosses the Ganga plains, and after Tanakpur it climbs through Champawat and Pithoragarh into the mountains.",
+  "timeline": [
+    { "year": "2010", "event": "Created in the national highway renumbering by joining parts of five older highways" },
+    { "year": "2021", "event": "The last stretch of the rebuilt Delhi–Dasna corridor opens, completing the road of up to about 14 lanes shared with the Delhi–Meerut Expressway" }
+  ],
+  "history": "NH 9 crosses north India from Fazilka near the Pakistan border to Askot high in the Kumaon hills near Nepal. It was created in the 2010 renumbering by joining parts of five older highways, including the old NH 10 (Delhi–Hisar–Sirsa) and the old NH 24 (Delhi–Moradabad). West of Delhi it runs through the farm towns of Haryana; east of Delhi it crosses the Ganga plains, and after Tanakpur it climbs through Champawat and Pithoragarh into the mountains. The old NH 24 out of Delhi was one of the most jammed roads in the country, so between 2015 and 2021 the Delhi–Dasna part was completely rebuilt alongside the new Delhi–Meerut Expressway, ending up as India's widest road corridor. The result is a highway of three very different characters: a wide plains highway in Haryana, a giant urban corridor through Ghaziabad, and a narrow mountain road once it leaves Tanakpur.",
   "facts": [
     "Runs from near India's border with Pakistan (Fazilka) to the hills close to its border with Nepal (Askot).",
     "Its Delhi–Ghaziabad stretch is shared with the Delhi–Meerut Expressway and is one of India's widest roads, up to about 14 lanes.",
     "Crosses the river Ganga at Garhmukteshwar.",
     "The Tanakpur–Pithoragarh hill section lies on the traditional pilgrim route towards Kailash–Mansarovar.",
-    "Five old highway numbers (NH 10, 24, 87, 74 and 125) were stitched together to form it."
+    "Five old highway numbers (NH 10, 24, 87, 74 and 125) were stitched together to form it.",
+    "It shares its western start at Fazilka with NH 7, which heads off in a completely different direction.",
+    "Garhmukteshwar on the route is a busy Ganga bathing town, packed with pilgrims on Kartik Purnima.",
+    "Askot, its eastern end, sits in a wildlife sanctuary famous for musk deer."
+  ],
+  "significance": "NH 9 is the main road out of Delhi towards the east and north-east of Uttar Pradesh and the Kumaon hills — the road lakhs of people take for Nainital, Jim Corbett and the Kumaon pilgrimage towns. Its Haryana half moves grain and cotton from Sirsa and Hisar into the capital, and its far eastern end is a strategic border road serving army posts near Nepal and Tibet.",
+  "engineering": [
+    { "name": "Delhi–Dasna corridor", "note": "up to about 14 lanes wide, with the Delhi–Meerut Expressway running down the middle and NH 9 lanes on either side — the widest highway corridor in India" },
+    { "name": "Ganga bridge at Garhmukteshwar", "note": "carries the highway over the Ganga where thousands come to bathe during festivals" },
+    { "name": "Tanakpur–Champawat hill climb", "note": "the road leaves the plains and switchbacks up into the Kumaon Himalaya, gaining well over a kilometre in height" }
+  ],
+  "interchanges": [
+    { "name": "Bahadurgarh, Haryana", "note": "the highway enters Delhi here as the Rohtak Road" },
+    { "name": "Dasna, Ghaziabad", "note": "the Delhi–Meerut Expressway peels away toward Meerut and the Eastern Peripheral Expressway crosses close by" },
+    { "name": "Garhmukteshwar", "note": "the Ganga crossing between the Delhi region and western Uttar Pradesh" },
+    { "name": "Rudrapur, Uttarakhand", "note": "industrial town where roads branch off into the Kumaon hills toward Nainital" },
+    { "name": "Tanakpur, Uttarakhand", "note": "the last town on the plains; from here NH 9 becomes a mountain road" }
+  ],
+  "relatedRoads": [
+    { "id": "delhi-meerut-expressway", "label": "Shares the rebuilt Delhi–Dasna corridor before splitting off toward Meerut" },
+    { "id": "eastern-peripheral-expressway", "label": "The orbital that lets through-traffic skip Delhi, crossing near Dasna" },
+    { "id": "nh-7", "label": "Also begins at Fazilka, then heads for the Uttarakhand hills by a different route" }
+  ],
+  "travelNotes": "The Delhi–Ghaziabad section is busiest on weekday mornings and evenings and again on Friday and Sunday evenings, when hill-bound holiday traffic piles on. Delhi to Nainital or Corbett via this road is a 6–8 hour drive. Thick December–January fog slows the Haryana and western Uttar Pradesh stretches badly, and the Tanakpur–Pithoragarh mountain leg is narrow, slow and prone to landslides in the July–September monsoon — plan it in daylight and check road conditions first.",
+  "futureUpgrades": [
+    "The Tanakpur–Pithoragarh hill section is being widened under the Char Dham all-weather road programme."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

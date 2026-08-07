@@ -5,7 +5,7 @@
   "category": "expressway",
   "status": "under-construction",
   "lengthKm": 133,
-  "lanes": "6 lanes, access-controlled",
+  "lanes": "6 lanes, access-controlled, with two-lane service roads on each side",
   "agency": "Tamil Nadu Road Development Company (TNRDC), Government of Tamil Nadu",
   "cost": "₹16,502 crore (approx.)",
   "route": {
@@ -22,13 +22,35 @@
       "Mamallapuram"
     ]
   },
-  "history": "The Chennai Peripheral Ring Road is a big arc being built around the outside of Chennai, from Ennore Port in the north to the coast near Mamallapuram in the south. Its main job is to let port trucks and long-distance traffic swing around the city instead of driving through it, connecting all the major highways that fan out from Chennai. It is being built in sections by the Tamil Nadu government, and different sections are at different stages of construction and tendering.",
+  "history": "The Chennai Peripheral Ring Road is a big arc being built around the outside of Chennai, from Ennore Port in the north to the coast near Mamallapuram in the south. Its main job is to let port trucks and long-distance traffic swing around the city instead of driving through it, connecting all the major highways that fan out from Chennai. Chennai already has an Outer Ring Road, but that one is now inside the built-up area, so this second, wider ring was planned much further out. It is being built in phases by the Tamil Nadu government, with the first stretch from Ennore Port to Thatchur paid for partly by a loan from Japan's aid agency, JICA. Different sections are at different stages — some are being built, some are still being tendered — and the state is aiming to open the corridor in stages rather than all at once.",
   "facts": [
     "About 133 km long, wrapping around Chennai from Ennore Port to near Mamallapuram.",
     "Connects the big highways out of Chennai, including the Kolkata, Bengaluru and Tiruchirappalli routes and the East Coast Road.",
-    "Being built as a six-lane road with two-lane service roads on both sides.",
-    "Being built by the Tamil Nadu government rather than the central highways authority."
+    "Being built as a six-lane road with two-lane service roads on both sides — ten lanes of tarmac in all.",
+    "Being built by the Tamil Nadu government rather than the central highways authority.",
+    "The first stretch, from Ennore Port to Thatchur, is funded with a loan from Japan's JICA.",
+    "It is Chennai's second ring road — the older Outer Ring Road runs in a smaller arc closer to the city.",
+    "Its northern end sits next to the Ennore and Kattupalli ports, so container lorries can reach the highways without entering the city."
   ],
+  "significance": "Chennai is a port and factory city, and thousands of container lorries a day have to get from Ennore and Kattupalli ports to factories at Sriperumbudur, Oragadam and Maraimalai Nagar. Today much of that traffic squeezes through city roads; the peripheral ring road is meant to take it right around the outside instead. It also stitches together the industrial belts west and south of Chennai, which is why so much new factory and housing development is being planned along it.",
+  "interchanges": [
+    { "name": "Ennore Port", "note": "northern end, next to the Ennore and Kattupalli port area" },
+    { "name": "Thatchur", "note": "meets NH 16, the highway to Nellore and Kolkata" },
+    { "name": "Thamaraipakkam", "note": "on the north-western arc, where the ring bypasses Tiruvallur town" },
+    { "name": "Sriperumbudur", "note": "meets NH 48, the Bengaluru highway, beside the big car and phone factories" },
+    { "name": "Singaperumal Koil", "note": "meets the GST Road heading south out of Chennai" },
+    { "name": "Thiruporur", "note": "crosses the Old Mahabalipuram Road, Chennai's IT corridor" },
+    { "name": "Poonjeri (Mamallapuram)", "note": "southern end, joining the East Coast Road at the sea" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-16", "label": "The Chennai–Kolkata highway, met at the Thatchur end" },
+    { "id": "nh-48", "label": "The Chennai–Bengaluru highway, crossed at Sriperumbudur" },
+    { "id": "nh-32", "label": "The GST Road heading south from Chennai, crossed at Singaperumal Koil" },
+    { "id": "east-coast-road", "label": "The coastal road to Puducherry, met at the southern end near Mamallapuram" },
+    { "id": "chennai-bengaluru-expressway", "label": "The new expressway to Bengaluru, which ends near Sriperumbudur on this ring" }
+  ],
+  "travelNotes": "The ring is not open end to end yet, so for now traffic between Chennai's ports and the western industrial towns still uses the older Outer Ring Road and city roads. When it opens, the natural use is as a bypass: lorries and long-distance cars can skip Chennai completely, and weekend traffic heading to Mamallapuram gets a fast way in from the western suburbs.",
+  "newsQuery": "\"Chennai Peripheral Ring Road\"",
   "sources": [
     { "title": "Chennai Peripheral Ring Road Project — Government of Tamil Nadu", "url": "https://www.cprr.tn.gov.in/" },
     { "title": "Government of Tamil Nadu", "url": "https://www.tn.gov.in/" }

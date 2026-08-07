@@ -168,6 +168,12 @@ async function boot(): Promise<void> {
     flyHome()
   })
 
+  // "Connected roads" chips in the panel select without tight coupling
+  document.addEventListener('rti:select-road', (e) => {
+    const id = (e as CustomEvent<{ id?: string }>).detail?.id
+    if (id) void select(id)
+  })
+
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape' || e.defaultPrevented) return // report mode/dialog consumed it
     const searchOpen = !document.getElementById('search-list')?.hidden

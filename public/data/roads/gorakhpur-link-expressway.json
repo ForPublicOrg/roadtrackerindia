@@ -16,17 +16,40 @@
   },
   "timeline": [
     { "year": "2020", "event": "Construction begins" },
-    { "year": "2025", "event": "Opened to traffic on 20 June" }
+    { "year": "2025", "event": "Opened to traffic on 20 June" },
+    { "year": "2025", "event": "Toll collection starts on 1 August" }
   ],
-  "history": "The Gorakhpur Link Expressway connects the city of Gorakhpur in northeastern Uttar Pradesh to the Purvanchal Expressway at Salarpur in Azamgarh district. That link lets traffic from Gorakhpur reach Lucknow almost entirely by expressway. It was built by UPEIDA and opened to traffic in June 2025.",
+  "history": "The Gorakhpur Link Expressway connects the city of Gorakhpur in northeastern Uttar Pradesh to the Purvanchal Expressway at Salarpur in Azamgarh district. Gorakhpur is a big city and a major pilgrimage and railway centre, but it sat off to one side of the state's new expressway network, so a link road was planned to plug it in. Work started in 2020 and the road was built across four districts, crossing the wide Ghaghara river on a long new bridge. UPEIDA opened it to traffic on 20 June 2025, and toll collection began on 1 August that year. With it, traffic from Gorakhpur can now reach Lucknow almost entirely by expressway.",
   "facts": [
     "Links Gorakhpur to the Purvanchal Expressway, cutting the drive to Lucknow by more than an hour.",
     "Passes through four districts: Gorakhpur, Sant Kabir Nagar, Ambedkar Nagar and Azamgarh.",
     "Starts at Jaitpur on NH 27, on the edge of Gorakhpur.",
-    "Opened to traffic on 20 June 2025."
+    "Opened to traffic on 20 June 2025.",
+    "Crosses the Ghaghara (Saryu) river, one of the widest rivers in Uttar Pradesh, on a long bridge.",
+    "Has seven major bridges and seven flyovers packed into just 91 km.",
+    "Built with four lanes but with the land and structures ready for six."
+  ],
+  "significance": "This short expressway does a big job: it plugs Gorakhpur, one of eastern Uttar Pradesh's largest cities, into the state's expressway network. Traders, hospital patients and pilgrims heading for Lucknow or Delhi now get a fast run instead of a slow crawl on crowded two-lane roads, and the districts it crosses — among the state's poorest — get their first modern highway.",
+  "engineering": [
+    { "name": "Ghaghara (Saryu) river bridge", "note": "the biggest structure on the road, carrying it across one of the widest rivers in Uttar Pradesh" }
+  ],
+  "interchanges": [
+    { "name": "Jaitpur (Gorakhpur)", "note": "northern end, on NH 27 at the edge of Gorakhpur" },
+    { "name": "Salarpur (Azamgarh)", "note": "southern end, joining the Purvanchal Expressway toward Lucknow one way and Ghazipur the other" }
+  ],
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "The expressway this road feeds into at Salarpur" },
+    { "id": "nh-27", "label": "The east–west national highway the expressway starts from at Gorakhpur" },
+    { "id": "agra-lucknow-expressway", "label": "Continues the expressway run west from Lucknow toward Agra" }
+  ],
+  "travelNotes": "The full 91 km takes a little under an hour. It is four lanes rather than six, so it feels tighter than the Purvanchal Expressway it joins. Fuel pumps and food stops along it are still few, so it is best to fill up in Gorakhpur or on the Purvanchal Expressway. Winter fog is common in this part of the state.",
+  "futureUpgrades": [
+    "The expressway is designed to be widened from four lanes to six when traffic grows.",
+    "Industrial clusters are planned alongside the route by UPEIDA."
   ],
   "sources": [
-    { "title": "UPEIDA — Gorakhpur Link Expressway", "url": "https://upeida.up.gov.in/en/page/gorakhpur-link-expressway" }
+    { "title": "UPEIDA — Gorakhpur Link Expressway", "url": "https://upeida.up.gov.in/en/page/gorakhpur-link-expressway" },
+    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" }
   ],
   "waypoints": [
     { "name": "Jaitpur (Gorakhpur)", "coords": [83.36, 26.695] },

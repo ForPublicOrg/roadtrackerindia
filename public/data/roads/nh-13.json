@@ -9,6 +9,7 @@
   "status": "operational",
   "lengthKm": 1559,
   "lanes": "Mostly 2 lanes",
+  "agency": "NHIDCL (some mountain sections built by the Border Roads Organisation)",
   "route": {
     "start": "Tawang, Arunachal Pradesh",
     "end": "Wakro, Arunachal Pradesh",
@@ -30,13 +31,31 @@
     { "year": "2018", "event": "The 6.2 km Dibang River Bridge completes the last gap in the route" },
     { "year": "2024", "event": "Sela Tunnel opens on the Tawang stretch" }
   ],
-  "history": "NH 13 is better known as the Trans-Arunachal Highway. It sweeps across almost the whole of Arunachal Pradesh, from the monastery town of Tawang in the west, over the high Sela Pass, through hill towns like Ziro, Daporijo, Aalo and Pasighat, to Wakro in the east. The full route only came together in 2018, when a 6.2 km bridge over the Dibang river closed the final gap.",
+  "history": "NH 13 is better known as the Trans-Arunachal Highway. It sweeps across almost the whole of Arunachal Pradesh, from the monastery town of Tawang in the west, over the high Sela Pass, through hill towns like Ziro, Daporijo, Aalo and Pasighat, to Wakro in the east. The project was announced in 2008 to give the state a road of its own along the hills, because until then people often had to drop down into the Assam plains and come back up again just to reach the next district. The full route only came together in 2018, when a 6.2 km bridge over the Dibang river closed the final gap. In March 2024 the Sela Tunnel opened near the top of the Sela Pass, so the road to Tawang now stays open even when the pass itself is buried in snow.",
   "facts": [
     "About 1,559 km long, yet it lies within a single state — Arunachal Pradesh.",
     "Crosses the Sela Pass at about 4,170 m; the Sela Tunnel (opened 2024) lets traffic avoid the snowbound top.",
     "The 6.2 km Dibang River Bridge, one of the longest road bridges in India, completed the route in 2018.",
-    "Was numbered NH 229 before the highway renumbering."
+    "Was numbered NH 229 before the highway renumbering.",
+    "The Sela Tunnel was dug by the Border Roads Organisation at about 4,000 m above sea level — one of the highest road tunnels anywhere.",
+    "The Dibang bridge replaced a journey between Roing and Dambuk that used to mean crossing river channels by boat.",
+    "Almost the whole highway is a two-lane mountain road, and it is being rebuilt stretch by stretch."
   ],
+  "significance": "Before this road existed, people in Arunachal Pradesh often had to travel down into Assam and back up again to reach the next district in their own state. NH 13 links the hill district towns directly, cutting hours off those journeys and giving remote valleys a year-round road. It matters just as much to the army, because the highway runs not far behind India's borders with China, Bhutan and Myanmar.",
+  "engineering": [
+    { "name": "Sela Tunnel", "note": "opened in March 2024 below the Sela Pass; built by the Border Roads Organisation at nearly 4,000 m, it keeps the Tawang road open through the winter" },
+    { "name": "Dibang River Bridge", "note": "6.2 km long, between Bomjir and Malek — one of India's longest river bridges; finishing it in 2018 completed the highway" },
+    { "name": "Sela Pass", "note": "at about 4,170 m, the highest point on the route and often snowbound before the tunnel opened" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-2", "label": "The other long highway of the Northeast, running from Dibrugarh in the Assam plains down to Mizoram" }
+  ],
+  "travelNotes": "This is not a road to hurry along. It is mostly a narrow two-lane mountain road full of hairpin bends, and driving the whole 1,500 km takes at least a week. Landslides are common during the June–September monsoon, so October to April is the better season. Indian visitors from other states need an Inner Line Permit to enter Arunachal Pradesh, and fuel pumps and repair shops are far apart, so drivers fill the tank in every town they pass.",
+  "futureUpgrades": [
+    "The highway is being rebuilt package by package to two lanes with paved shoulders.",
+    "A separate Frontier Highway (NH 913) has been approved along the northern edge of Arunachal Pradesh, running closer to the border than NH 13."
+  ],
+  "newsQuery": "\"Trans-Arunachal Highway\"",
   "sources": [
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

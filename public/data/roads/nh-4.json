@@ -2,10 +2,11 @@
   "id": "nh-4",
   "ref": "NH 4",
   "name": "Great Andaman Trunk Road",
-  "aka": ["National Highway 223 (old numbering)", "Andaman Trunk Road"],
+  "aka": ["National Highway 223 (old numbering)", "Andaman Trunk Road", "ATR"],
   "category": "nh",
   "status": "operational",
-  "lengthKm": 231,
+  "lengthKm": 330,
+  "agency": "NHIDCL",
   "route": {
     "start": "Chidiya Tapu, South Andaman",
     "end": "Diglipur, North Andaman",
@@ -19,17 +20,32 @@
       "Diglipur"
     ]
   },
-  "history": "NH 4 is the road lifeline of the Andaman Islands, running from Chidiya Tapu near the southern tip of South Andaman, through the capital Port Blair, all the way north to Diglipur. Vehicles cross the sea channels between the islands on ferries, and part of the road passes through the buffer zone of the Jarawa tribal reserve, where traffic moves in guarded convoys at fixed times. Before the road existed, reaching the northern islands from Port Blair took days by boat; now the trip can be done in about 10 to 12 hours.",
+  "history": "NH 4 is the road lifeline of the Andaman Islands, running from Chidiya Tapu near the southern tip of South Andaman, through the capital Port Blair, all the way north to Diglipur. It was built between the 1970s and the early 1990s; before it existed, reaching the northern islands from Port Blair took several days by boat, and now the trip takes about 10 to 12 hours. Part of the road crosses the buffer zone of the Jarawa tribal reserve, where vehicles may travel only in convoys with armed escorts at fixed times, and stopping, photography and any contact with the Jarawa are forbidden. Where the islands are separated by sea channels, vehicles used to be carried across on ferries — a long bridge over Humphrey Strait has now replaced one of those crossings, and a second bridge is being built across Middle Strait. The whole road is being widened and rebuilt in stages by NHIDCL.",
   "facts": [
     "The only national highway in the Andaman and Nicobar Islands.",
     "Known locally as the Andaman Trunk Road, or simply the ATR.",
     "Was numbered NH 223 before being renumbered NH 4.",
-    "Ferries carry vehicles across the sea channels between islands along the route.",
-    "Passes near Baratang island's limestone caves and mud volcanoes."
+    "Vehicles still cross Middle Strait on a ferry, and travel through the Jarawa reserve only in escorted convoys.",
+    "Passes near Baratang island's limestone caves and mud volcanoes.",
+    "A new bridge over Humphrey Strait creek, named Azad Hind Fauj Setu, has replaced one of the road's vehicle ferries.",
+    "The road and its two big bridges are being upgraded by NHIDCL in a project worth about ₹1,511 crore.",
+    "The old NH 4 number belonged to the famous Mumbai–Pune–Bengaluru–Chennai highway, which is now part of NH 48."
   ],
+  "significance": "For the roughly four lakh people of the Andamans this single road is almost the whole land transport network. Rice, cooking gas, medicines, cement and school children all move along it, and for the villages of Middle and North Andaman it is the only alternative to a long boat journey to Port Blair.",
+  "engineering": [
+    { "name": "Humphrey Strait Creek bridge (Azad Hind Fauj Setu)", "note": "a major bridge on the trunk road, listed as complete by NHIDCL, that removed one of the road's water crossings" },
+    { "name": "Middle Strait crossing", "note": "vehicles are still carried across this channel between South Andaman and Baratang on a ferry; a bridge is being built to replace it" }
+  ],
+  "travelNotes": "Port Blair to Diglipur takes about 10 to 12 hours, and most travellers break the journey at Rangat or Mayabunder. The convoy through the Jarawa reserve forms at the Jirkatang checkpost and runs only at set times each day, so people start very early; inside the reserve you must not stop, film or photograph. Allow extra time for the Middle Strait ferry. The rains are heavy from May to September, so November to March is the easiest season.",
+  "futureUpgrades": [
+    "A bridge is under construction across Middle Strait, to replace the last vehicle ferry between South Andaman and Baratang.",
+    "NHIDCL is widening and rebuilding the Andaman Trunk Road in stages."
+  ],
+  "newsQuery": "\"Andaman Trunk Road\"",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
-    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" }
+    { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" },
+    { "title": "NHIDCL — Humphrey Strait Creek bridge (Azad Hind Fauj Setu)", "url": "https://www.nhidcl.com/en/andaman-nicobar/Project/humphrey-strait-creek-azad-hind-fauj-setu" }
   ],
   "waypoints": [
     { "name": "Chidiya Tapu", "coords": [92.71, 11.49] },

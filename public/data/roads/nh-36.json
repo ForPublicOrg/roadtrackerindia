@@ -8,6 +8,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 334,
+  "lanes": "Being widened to four lanes between Vikravandi and Thanjavur; two lanes south of Thanjavur",
+  "agency": "NHAI",
   "route": {
     "start": "Vikravandi, Tamil Nadu",
     "end": "Manamadurai, Tamil Nadu",
@@ -22,13 +24,37 @@
       "Manamadurai"
     ]
   },
-  "history": "NH 36 runs across the middle of Tamil Nadu, from Vikravandi on the Chennai–Trichy highway down to Manamadurai near Madurai. It was formed by joining two older highways, NH 45C and NH 226, into one number. On the way it crosses the green Cauvery delta and links the famous temple towns of Kumbakonam and Thanjavur.",
+  "timeline": [
+    { "year": "2010", "event": "Numbered NH 36 in the national highway renumbering, joining the old NH 45C and NH 226" },
+    { "year": "2025", "event": "The four-laned Thanjavur–Cholapuram section is dedicated on 6 April" }
+  ],
+  "history": "NH 36 runs across the middle of Tamil Nadu, from Vikravandi on the main Chennai–Tiruchirappalli road down to Manamadurai near Madurai. It was formed in the 2010 renumbering by joining two older highways, NH 45C and NH 226, into one number. On the way it crosses the green Cauvery delta and links the famous temple towns of Kumbakonam and Thanjavur. This is old Chola country, and the road runs past thousand-year-old temples and a web of irrigation canals dug centuries ago. Because the delta is criss-crossed by rivers and canals, the highway is carried over a long string of bridges rather than running dead straight. The 164 km northern half, from Vikravandi through Kumbakonam to Thanjavur, is being rebuilt as a four-lane road in three phases, and the Thanjavur–Cholapuram section was dedicated in April 2025.",
   "facts": [
     "Formed by joining the old NH 45C (Vikravandi–Thanjavur) and NH 226 (Thanjavur–Manamadurai).",
     "Passes through the Cauvery delta, often called Tamil Nadu's rice bowl.",
     "Thanjavur's Brihadisvara Temple, just off this road, is a UNESCO World Heritage Site.",
-    "About 334 km long, entirely inside Tamil Nadu."
+    "About 334 km long, entirely inside Tamil Nadu.",
+    "Kumbakonam on the route is famous for its temples and for the Mahamaham festival, held once every 12 years.",
+    "Four-laning is expected to cut the Kumbakonam–Thanjavur drive from about 75–90 minutes to roughly 30.",
+    "It ends at Manamadurai on the Madurai–Rameswaram road, so it is a handy link for pilgrims heading to Rameswaram.",
+    "Panruti, near the northern end, is known across Tamil Nadu for its jackfruit."
   ],
+  "significance": "This is the main road across the Cauvery delta, Tamil Nadu's rice bowl. It carries paddy, sugarcane and delta produce out to markets, and it strings together some of the state's greatest temple towns — Kumbakonam, Thanjavur and Sivaganga — so it is busy with pilgrim buses as well as lorries.",
+  "engineering": [
+    { "name": "Cauvery delta river crossings", "note": "the road crosses the Kollidam (Coleroon) at Anaikkarai and the Cauvery near Kumbakonam, along with a web of irrigation canals" },
+    { "name": "Vikravandi–Kumbakonam–Thanjavur four-lane corridor", "note": "the 164 km northern half is being rebuilt as a four-lane road in three phases" }
+  ],
+  "interchanges": [
+    { "name": "Vikravandi", "note": "north end — the highway starts on the busy Chennai–Tiruchirappalli corridor" },
+    { "name": "Thanjavur", "note": "the delta's biggest junction town, crossing NH 83; here the old NH 45C ended and the old NH 226 began" },
+    { "name": "Sivaganga", "note": "meets NH 85, the road running west toward Madurai" },
+    { "name": "Manamadurai", "note": "south end, on NH 87 — the road pilgrims take to Rameswaram" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-38", "label": "The other big inland highway down Tamil Nadu, running roughly parallel to the west" },
+    { "id": "nh-32", "label": "The coastal Chennai–Kanyakumari highway, running parallel nearer the sea" }
+  ],
+  "travelNotes": "End to end is about seven to eight hours. The four-laned parts of the Vikravandi–Thanjavur half are quick; south of Thanjavur the road is two lanes and slower. The delta country is flat and green and looks its best from November to February, though those months also bring the north-east monsoon, which can flood low-lying stretches. Kumbakonam and Thanjavur are the natural meal stops, and roadside shops sell delta rice, bananas and filter coffee.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

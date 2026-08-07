@@ -6,19 +6,48 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 338,
+  "lanes": "Mostly 2 lanes; the Dimapur–Kohima stretch is being rebuilt as a 4-lane road",
+  "agency": "NHIDCL",
   "route": {
     "start": "Doboka, Assam",
     "end": "Jessami, Manipur",
     "states": ["Assam", "Nagaland", "Manipur"],
     "majorCities": ["Doboka", "Dimapur", "Kohima", "Jessami"]
   },
-  "history": "NH 29 is the main highway of Nagaland. It begins at Doboka in central Assam, crosses the Karbi Anglong hills to reach the plains city of Dimapur, then climbs to Kohima, the state capital, and continues through the hills of Phek district to Jessami on the Manipur border. It was created in the 2010 renumbering from parts of the old NH 36, NH 39 and NH 150.",
+  "timeline": [
+    { "year": "2010", "event": "Created in the national highway renumbering from parts of the old NH 36, NH 39 and NH 150" },
+    { "year": "2015", "event": "Work begins on widening the Dimapur–Kohima stretch to four lanes" },
+    { "year": "2027", "event": "Latest official target announced for finishing the Dimapur–Kohima four-lane road" }
+  ],
+  "history": "NH 29 is the main highway of Nagaland. It begins at Doboka in central Assam, where it leaves NH 27, crosses the Karbi Anglong hills, and reaches the plains city of Dimapur. From there it climbs steeply into the mountains to Kohima, the state capital, and then runs on through the hills of Phek district to Jessami on the Manipur border. It was created in the 2010 renumbering from parts of the old NH 36, NH 39 and NH 150. The Dimapur–Kohima section has been under reconstruction as a four-lane road for years, and the repeated delays to that work are one of the most talked-about public issues in Nagaland.",
   "facts": [
     "About 338 km long, crossing Assam, Nagaland and the edge of Manipur.",
     "The Dimapur–Kohima stretch is part of Asian Highway 1 and is being widened to four lanes.",
     "Kohima, on the route, was the site of a famous World War II battle in 1944.",
-    "Dimapur, the largest city on the highway, is Nagaland's gateway and railhead."
+    "Dimapur, the largest city on the highway, is Nagaland's gateway and railhead.",
+    "It starts at Doboka on NH 27 in Assam and meets NH 2, the road to Imphal, near Kohima.",
+    "Between Dimapur and Kohima the road climbs more than 1,300 metres in roughly 70 km.",
+    "The four-lane project between Dimapur and Kohima was first promised in 2003 and is still not finished.",
+    "Almost everything Nagaland buys or sells travels up and down this one road."
   ],
+  "significance": "NH 29 is Nagaland's lifeline. Food, fuel, cement and everyday goods for the whole state come up it from the Assam plains and the railhead at Dimapur, and it is how most people reach the capital, Kohima. Because it carries on toward Manipur, a landslide or a blockade on this single road is felt across two states at once.",
+  "engineering": [
+    { "name": "Dimapur–Kohima hill climb", "note": "in about 70 km the road rises from the plains at Dimapur to Kohima, more than 1,300 m higher, in a long chain of hairpin bends" }
+  ],
+  "interchanges": [
+    { "name": "Doboka (Assam)", "note": "the western end, on NH 27 — the East–West Corridor" },
+    { "name": "Dimapur", "note": "Nagaland's railhead and airport city, where the road leaves the plains" },
+    { "name": "Kohima", "note": "meets NH 2, the highway that carries on south to Imphal and down the length of Mizoram" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor, where NH 29 begins at Doboka in Assam" },
+    { "id": "nh-2", "label": "The Dibrugarh–Imphal–Mizoram highway, met near Kohima" }
+  ],
+  "travelNotes": "Dimapur to Kohima is only about 70 km but usually takes two to three hours because of the climb, the traffic and the long-running road works. Heavy rain from June to September brings landslides that can shut the road for hours, so October to April is the easier season. Kohima fills up in early December for the Hornbill Festival, and both rooms and road space get tight then.",
+  "futureUpgrades": [
+    "The government has said the four-lane Dimapur–Kohima road should be finished by 2027."
+  ],
+  "newsQuery": "\"NH 29\" Nagaland",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" }

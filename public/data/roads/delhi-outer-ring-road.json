@@ -2,6 +2,7 @@
   "id": "delhi-outer-ring-road",
   "ref": "Outer Ring Road",
   "name": "Delhi Outer Ring Road",
+  "aka": ["ORR (Delhi)"],
   "category": "local",
   "status": "operational",
   "lengthKm": 47.5,
@@ -9,7 +10,7 @@
   "agency": "Delhi PWD",
   "route": {
     "start": "Wazirabad Bridge, Delhi",
-    "end": "Wazirabad Bridge, Delhi",
+    "end": "Kalindi Kunj, Delhi",
     "states": ["Delhi"],
     "majorCities": [
       "Rohini",
@@ -22,13 +23,43 @@
       "Okhla"
     ]
   },
-  "history": "The Outer Ring Road is one of Delhi's two great ring roads. It sweeps in a wide arc from the Wazirabad Bridge in the north, around the west and south of the city, to Kalindi Kunj in the south-east, with the Yamuna river closing the circle. Along the way it links big neighbourhoods like Rohini, Janakpuri, Vasant Vihar and Nehru Place. Over the years many flyovers and underpasses have been added so that traffic can keep moving.",
+  "history": "The Outer Ring Road is one of Delhi's two great ring roads. It sweeps in a wide arc from the Wazirabad Bridge in the north, around the west and south of the city, to Kalindi Kunj in the south-east, with the Yamuna river closing the circle. It was built in stages and was in place by the mid-1980s, when it really was on the outer edge of Delhi; the city has since grown far past it, so today it is a busy inner artery rather than a bypass. Along the way it links big neighbourhoods like Rohini, Janakpuri, Vasant Vihar and Nehru Place, and it passes IIT Delhi, JNU and the Nehru Place business hub. Over the years Delhi's PWD has added more than a dozen flyovers and underpasses so traffic can keep moving, including a long signal-free run on the north-western arc between Vikaspuri and Wazirabad.",
   "facts": [
     "About 47.5 km around, with six lanes of traffic.",
     "Both ends of the road arc touch the Yamuna — at Wazirabad in the north and Kalindi Kunj in the south-east.",
     "Has more than a dozen major junctions, including Mukarba Chowk, Peeragarhi and Chirag Delhi.",
-    "Passes major landmarks such as IIT Delhi and the Nehru Place business hub."
+    "Passes major landmarks such as IIT Delhi and the Nehru Place business hub.",
+    "It was built as Delhi's outer bypass; the city has since spread well beyond it.",
+    "The Vikaspuri–Wazirabad stretch was made signal-free with a chain of flyovers and underpasses.",
+    "The cable-stayed Signature Bridge carries traffic across the Yamuna at the Wazirabad end.",
+    "Delhi Metro lines run alongside or above parts of the road."
   ],
+  "significance": "The Outer Ring Road is the main way to get across Delhi without going through the middle of it, and almost every big road out of the capital — the Karnal, Rohtak, Gurugram and Mathura roads — meets it somewhere. For millions of Delhiites it is the daily route to work, and for buses and goods vehicles it is the spine that ties the city's western and southern districts together.",
+  "engineering": [
+    { "name": "Signature Bridge (Wazirabad)", "note": "Delhi's cable-stayed landmark bridge over the Yamuna, with a tall angled tower, opened in 2018" },
+    { "name": "Rao Tula Ram (RTR) flyover", "note": "carries the ring road over the Delhi–Gurugram highway near Munirka — one of the busiest flyovers in the country" },
+    { "name": "Chirag Delhi flyover", "note": "a long flyover over one of south Delhi's most crowded crossings" },
+    { "name": "Vikaspuri–Wazirabad signal-free corridor", "note": "a chain of flyovers and underpasses on the north-western arc so traffic does not have to stop at lights" }
+  ],
+  "interchanges": [
+    { "name": "Wazirabad", "note": "northern point, where the Signature Bridge crosses the Yamuna to east Delhi" },
+    { "name": "Mukarba Chowk", "note": "meets GT Karnal Road (NH 44) heading north to Panipat and Chandigarh" },
+    { "name": "Peeragarhi Chowk", "note": "meets Rohtak Road (NH 9) heading west into Haryana" },
+    { "name": "Janakpuri / Dabri Mor", "note": "the main west Delhi crossing, close to the airport road" },
+    { "name": "Rao Tula Ram junction (Munirka)", "note": "meets NH 48, the highway to Gurugram and Jaipur" },
+    { "name": "Chirag Delhi", "note": "meets the road from south-central Delhi toward Greater Kailash and Saket" },
+    { "name": "Modi Mill / Nehru Place", "note": "gateway to the Nehru Place and Okhla business areas" },
+    { "name": "Kalindi Kunj", "note": "south-eastern point, with the Yamuna bridge across to Noida" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Leaves the ring at Mukarba Chowk as GT Karnal Road toward Panipat" },
+    { "id": "nh-9", "label": "Leaves the ring at Peeragarhi as Rohtak Road toward Haryana" },
+    { "id": "nh-48", "label": "Crosses at the Rao Tula Ram flyover on its way to Gurugram" },
+    { "id": "urban-extension-road-2", "label": "Delhi's new outer bypass, built to take through-traffic off this ring road" },
+    { "id": "dnd-flyway", "label": "Feeds Noida traffic onto Delhi's ring roads near the south-eastern end" }
+  ],
+  "travelNotes": "Traffic is heaviest on weekday mornings and evenings, especially around Rao Tula Ram, Chirag Delhi, Nehru Place and Mukarba Chowk. A full loop takes well over an hour in rush hour but under an hour late at night. Winter fog in December and January cuts visibility badly on the northern arc, and the underpasses on the western stretch can flood during heavy monsoon rain.",
+  "newsQuery": "\"Outer Ring Road\" Delhi",
   "sources": [
     { "title": "Public Works Department, Govt. of NCT of Delhi", "url": "https://pwd.delhi.gov.in/" },
     { "title": "Government of NCT of Delhi", "url": "https://delhi.gov.in/" }
@@ -49,7 +80,6 @@
     { "name": "Chirag Delhi", "coords": [77.229, 28.536] },
     { "name": "Nehru Place", "coords": [77.252, 28.549] },
     { "name": "Okhla", "coords": [77.272, 28.542] },
-    { "name": "Kalindi Kunj", "coords": [77.310, 28.542] },
-    { "name": "Wazirabad Bridge", "coords": [77.232, 28.707] }
+    { "name": "Kalindi Kunj", "coords": [77.310, 28.542] }
   ]
 }

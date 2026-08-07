@@ -7,19 +7,36 @@
   "status": "operational",
   "lengthKm": 483,
   "lanes": "Mostly 4 lanes between Barmer, Jodhpur and Beawar",
+  "agency": "NHAI",
   "route": {
     "start": "Munabao (India–Pakistan border), Rajasthan",
     "end": "Beawar, Rajasthan",
     "states": ["Rajasthan"],
     "majorCities": ["Barmer", "Balotra", "Jodhpur", "Bilara", "Beawar"]
   },
-  "history": "NH 25 is a desert highway that lies entirely inside Rajasthan. It starts at Munabao, a small border village facing Pakistan, and runs east across the Thar desert through Barmer's oil country and the blue city of Jodhpur before ending at Beawar. Most of the route between Barmer and Beawar was the old NH 112 before highways were renumbered in 2010.",
+  "history": "NH 25 is a desert highway that lies entirely inside Rajasthan. It starts at Munabao, a small border village facing Pakistan, and runs east across the Thar desert through Barmer's oil country and the blue city of Jodhpur before ending at Beawar. Most of the route between Barmer and Beawar was the old NH 112 before highways were renumbered in 2010. The western half is thinly settled — long, straight stretches of sand, scrub and wind farms with very few towns — while the eastern half through Jodhpur and Bilara is busy, four-lane and lined with dhabas. The road took on new importance once oil was found around Barmer and a large refinery was begun at Pachpadra near Balotra, right beside the highway.",
   "facts": [
     "About 483 km long, entirely within Rajasthan.",
     "Munabao, at its western end, is one of the last Indian villages before the Pakistan border and a famous railway border post.",
     "The Barmer region along the route holds some of India's largest onshore oil fields.",
-    "A major oil refinery is coming up at Pachpadra near Balotra, close to the highway."
+    "A major oil refinery is coming up at Pachpadra near Balotra, close to the highway.",
+    "Jodhpur, the 'Blue City', is the biggest city on the route and its main junction.",
+    "The Thar Express, the train that once crossed the border at Munabao, has been suspended since 2019.",
+    "The western half runs through open Thar desert, with long gaps between towns and fuel pumps."
   ],
+  "significance": "NH 25 is the road that ties India's western border to the rest of Rajasthan. It carries army and border-force convoys toward the frontier, crude oil and heavy equipment in and out of the Barmer oil fields, and everyday traffic into Jodhpur, the biggest city of western Rajasthan. In a district where settlements are scattered across hundreds of kilometres of desert, it is the single dependable road.",
+  "interchanges": [
+    { "name": "Munabao", "note": "western end, at the India–Pakistan border" },
+    { "name": "Barmer", "note": "the oil-field town and main junction of the desert half" },
+    { "name": "Balotra / Pachpadra", "note": "exit for the Pachpadra refinery site" },
+    { "name": "Jodhpur", "note": "crosses NH 62, the Abohar–Bikaner–Jodhpur–Pindwara highway" },
+    { "name": "Beawar", "note": "eastern end, a busy junction town on the Ajmer–Udaipur side of Rajasthan" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-62", "label": "The Abohar–Bikaner–Jodhpur–Pindwara highway, crossed at Jodhpur" },
+    { "id": "nh-48", "label": "The Delhi–Jaipur–Ahmedabad highway, which passes through Beawar near NH 25's eastern end" }
+  ],
+  "travelNotes": "Expect a hot, dry and very open drive. Fill fuel and carry water at Beawar, Jodhpur, Balotra and Barmer, because stops thin out sharply west of Barmer. Summer temperatures often cross 45°C, so early morning and evening driving is far more comfortable; October to March is the pleasant season. The last stretch to Munabao runs right up to the international border, so carry identity documents and expect security checks.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

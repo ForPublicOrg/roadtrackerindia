@@ -2,10 +2,11 @@
   "id": "eastern-express-highway",
   "ref": "Eastern Express Highway",
   "name": "Eastern Express Highway",
-  "aka": ["City stretch of the old NH 3 (Mumbai–Agra Road)"],
+  "aka": ["EEH", "City stretch of the old NH 3 (Mumbai–Agra Road)"],
   "category": "local",
   "status": "operational",
   "lengthKm": 23.5,
+  "lanes": "Mostly 6 lanes (3 each way), with more than a dozen flyovers and grade separators",
   "agency": "Brihanmumbai Municipal Corporation (BMC)",
   "route": {
     "start": "Sion, Mumbai",
@@ -13,13 +14,40 @@
     "states": ["Maharashtra"],
     "majorCities": ["Sion", "Ghatkopar", "Vikhroli", "Bhandup", "Mulund", "Thane"]
   },
-  "history": "The Eastern Express Highway connects Sion in Mumbai with the city of Thane, running through the eastern suburbs. It was built as the city end of the old Mumbai–Agra national highway, NH 3. Today it is a wide, mostly signal-free arterial road, and at Ghatkopar it meets the Eastern Freeway, which gives the eastern suburbs a fast run into south Mumbai.",
+  "timeline": [
+    { "year": "2014", "event": "The Eastern Freeway is completed and drops onto the highway at Chheda Nagar, Ghatkopar" },
+    { "year": "2022", "event": "MMRDA hands the highway to the BMC for upkeep (3 October)" },
+    { "year": "2024", "event": "Maharashtra scraps the entry toll for cars at Mumbai's five booths, including the one at Mulund on this road" }
+  ],
+  "history": "The Eastern Express Highway connects Sion in Mumbai with the city of Thane, running through the eastern suburbs. It was built as the city end of the old Mumbai–Agra national highway, NH 3, at a time when factories were spreading fast through Thane and Bhiwandi and the old roads could not cope. Over the years it was widened to six lanes and given more than a dozen flyovers, so traffic can run for long stretches without meeting a signal. At Chheda Nagar in Ghatkopar it meets the Eastern Freeway, which gives the eastern suburbs a fast, toll-free run into south Mumbai. In October 2022 the MMRDA handed the road over to the city's municipal corporation, the BMC, to look after. Since October 2024 cars and other light vehicles no longer pay the old entry toll at the Mulund booth on this highway.",
   "facts": [
     "About 23.5 km long, from Sion to Thane.",
     "Was historically the starting stretch of NH 3, the Mumbai–Agra Road.",
     "Meets the Eastern Freeway at Chheda Nagar, Ghatkopar.",
-    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022."
+    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022.",
+    "Six lanes wide for most of its length, with over a dozen flyovers so through-traffic can skip the junctions.",
+    "One of Mumbai's five old entry toll booths sat on this road at Mulund; cars stopped paying there in October 2024.",
+    "At Mulund it links to the Airoli creek bridge, the shortest hop from the eastern suburbs to Navi Mumbai."
   ],
+  "significance": "This is the main road spine of Mumbai's eastern suburbs and the road by which much of the traffic from Nashik and northern Maharashtra reaches the city. Lakhs of commuters, buses and trucks use it every day, and it is the road that ties Thane — a city of its own — into Mumbai.",
+  "interchanges": [
+    { "name": "Sion", "note": "southern end, where the highway meets the city streets toward Dadar and south Mumbai" },
+    { "name": "Chheda Nagar, Ghatkopar", "note": "the Eastern Freeway joins here, giving a signal-free run to south Mumbai" },
+    { "name": "Mulund", "note": "link to the Airoli creek bridge and Navi Mumbai; site of the old Mumbai entry toll booth" },
+    { "name": "Teen Hath Naka, Thane", "note": "the big junction at the Thane end, where the highway meets LBS Marg" }
+  ],
+  "relatedRoads": [
+    { "id": "mumbai-eastern-freeway", "label": "Joins this highway at Chheda Nagar and carries traffic on to south Mumbai" },
+    { "id": "western-express-highway", "label": "The matching arterial road on the western side of Mumbai" },
+    { "id": "atal-setu", "label": "Reached from here through the Eastern Freeway, for the sea crossing to Navi Mumbai" },
+    { "id": "samruddhi-mahamarg", "label": "The Nagpur expressway, whose Mumbai end is reached past Thane" }
+  ],
+  "travelNotes": "Sion to Thane is only 23 km but can take anywhere from 40 minutes to well over an hour and a half in peak traffic. The worst crawls are at Sion, Vikhroli, the Mulund check naka and the approach to Thane. Heavy rain floods low points near Sion and Vikhroli during the monsoon, and metro construction work along the route narrows the road in places.",
+  "futureUpgrades": [
+    "Mumbai Metro Line 4 (Wadala–Kasarvadavali) is being built on pillars along much of the highway corridor.",
+    "The BMC has taken up resurfacing and bridge repairs along the highway since taking it over."
+  ],
+  "newsQuery": "\"Eastern Express Highway\" Mumbai",
   "sources": [
     { "title": "Brihanmumbai Municipal Corporation (BMC)", "url": "https://portal.mcgm.gov.in/" },
     { "title": "MMRDA — Mumbai Metropolitan Region Development Authority", "url": "https://mmrda.maharashtra.gov.in/" }

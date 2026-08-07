@@ -16,25 +16,46 @@
     "majorCities": ["Lucknow", "Nawabganj", "Unnao", "Kanpur"]
   },
   "timeline": [
-    { "year": "2023", "event": "Main construction in progress" },
-    { "year": "2026", "event": "Opened to traffic in July" }
+    { "year": "2023", "event": "Main construction in progress on both the elevated and greenfield sections" },
+    { "year": "2026", "event": "Inaugurated on 13 July and opened to traffic" }
   ],
-  "history": "The Lucknow–Kanpur Expressway, also called the Awadh Expressway, is a 63 km road built by NHAI to replace one of Uttar Pradesh's busiest and slowest drives. Part of it runs on tall pillars above the old Lucknow–Kanpur road, and the rest is a new road through the countryside of Unnao district. It opened in July 2026, cutting the trip between the two cities to under an hour.",
+  "history": "Lucknow and Kanpur sit only about 80 km apart and are two of Uttar Pradesh's biggest cities, but the old highway between them ran through village after village and the drive often took two to three hours. NHAI's answer was the Lucknow–Kanpur Expressway, a 63 km six-lane road officially numbered National Expressway 6 and also called the Awadh Expressway. It is built in two very different halves: the first stretch out of Lucknow is a long elevated road on pillars directly above the old highway, because there was no room on the ground; after that it becomes a brand-new road cutting across open country in Unnao district. The project cost about ₹4,700 crore and was inaugurated on 13 July 2026. It brought the Lucknow–Kanpur drive down to roughly 40 minutes.",
   "facts": [
-    "Cuts the Lucknow–Kanpur drive from about 2.5 hours to roughly 45 minutes.",
-    "Begins with a long elevated stretch built above the old Lucknow–Kanpur highway near Lucknow.",
+    "Cuts the Lucknow–Kanpur drive from about two to three hours down to roughly 40 minutes.",
+    "Begins with a long elevated stretch built on pillars above the old Lucknow–Kanpur highway, so the old road below keeps working.",
+    "The rest is a greenfield road, meaning it was cut across fresh countryside rather than following an old alignment.",
     "Officially numbered National Expressway 6 (NE-6).",
-    "Opened to traffic in July 2026."
+    "Built by NHAI at a cost of about ₹4,700 crore.",
+    "Inaugurated on 13 July 2026 by the Union road transport minister and the Uttar Pradesh chief minister.",
+    "At its Lucknow end it meets Shaheed Path, the city's ring road, which links straight on to the Agra–Lucknow and Purvanchal expressways."
   ],
+  "significance": "Lucknow is Uttar Pradesh's capital and Kanpur is its biggest industrial city, so the two are joined at the hip — people commute, factories ship goods, and lorries run between them all day. The old road had become one of the state's worst bottlenecks. By joining Shaheed Path at one end, the expressway also plugs Kanpur straight into the network of expressways that already runs from Agra through Lucknow to Ghazipur, so a lorry can now leave Kanpur and stay on expressways almost all the way across the state.",
+  "engineering": [
+    { "name": "Elevated section out of Lucknow", "note": "a long viaduct built on pillars directly over the existing highway, because there was no room to widen on the ground" },
+    { "name": "Greenfield section through Unnao", "note": "new road cut across farmland, with flyovers and underpasses so village roads pass over or under rather than crossing it" }
+  ],
+  "interchanges": [
+    { "name": "Shaheed Path, Lucknow", "note": "northern end, on Lucknow's ring road — the link to the Agra–Lucknow and Purvanchal expressways" },
+    { "name": "Unnao district", "note": "mid-way point, where the expressway crosses the Meerut–Prayagraj Ganga Expressway" },
+    { "name": "Azad Chauraha, Kanpur", "note": "southern end, rejoining NH 27 and feeding into Kanpur city" }
+  ],
+  "relatedRoads": [
+    { "id": "agra-lucknow-expressway", "label": "Reached from the same Shaheed Path junction in Lucknow, carrying traffic on to Agra" },
+    { "id": "purvanchal-expressway", "label": "Starts near Lucknow and continues the expressway chain east to Ghazipur" },
+    { "id": "nh-27", "label": "The old Lucknow–Kanpur highway that this expressway was built to relieve" },
+    { "id": "ganga-expressway", "label": "The Meerut–Prayagraj expressway, which this road crosses in Unnao district" }
+  ],
+  "travelNotes": "Allow about 45 minutes end to end. It is a toll road, and most drivers pay with FASTag. The busiest times are the weekday morning and evening commutes at both ends. Dense fog is common on this part of the Ganga plain in December and January, when speeds drop sharply. Fuel and food are easier to find at the Lucknow and Kanpur ends than in the middle.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "Press Information Bureau", "url": "https://pib.gov.in/" }
   ],
   "waypoints": [
     { "name": "Lucknow (Shaheed Path)", "coords": [80.905, 26.785] },
     { "name": "Banthara", "coords": [80.81, 26.72] },
     { "name": "Nawabganj (Unnao)", "coords": [80.645, 26.625] },
     { "name": "Unnao", "coords": [80.505, 26.56] },
-    { "name": "Kanpur (near Ganga Barrage)", "coords": [80.31, 26.505] }
+    { "name": "Kanpur", "coords": [80.31, 26.505] }
   ]
 }

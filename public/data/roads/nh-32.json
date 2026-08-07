@@ -10,6 +10,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 657,
+  "lanes": "4 lanes from Chennai to Tindivanam; mostly 2 lanes along the coast",
+  "agency": "NHAI",
   "route": {
     "start": "Chennai, Tamil Nadu",
     "end": "Kanyakumari (Anjugramam), Tamil Nadu",
@@ -30,16 +32,39 @@
     ]
   },
   "timeline": [
+    { "year": "2010", "event": "Created in the renumbering, taking in the Chennai–Tindivanam GST Road and the old coastal NH 45A" },
     { "year": "2017", "event": "Coastal highway extended south to Thoothukudi" },
     { "year": "2022", "event": "Extended further to end near Kanyakumari, meeting NH 44" }
   ],
-  "history": "NH 32 runs from Chennai to India's southern tip near Kanyakumari. It leaves Chennai on the busy GST Road through Tambaram, Chengalpattu and Tindivanam, reaches the sea at the former French town of Puducherry, and then follows the coast through fishing harbours and temple towns for the rest of the way. It became one long national highway in stages, reaching Thoothukudi in 2017 and Kanyakumari in 2022.",
+  "history": "NH 32 runs from Chennai to India's southern tip near Kanyakumari. It leaves Chennai on the busy Grand Southern Trunk (GST) Road through Tambaram, Chengalpattu and Tindivanam — the route traffic has taken south out of the city for centuries. At Tindivanam it turns east, reaches the sea at the old French town of Puducherry, and from there follows the coast through fishing harbours, delta villages and temple towns for the rest of the way. It became one long national highway in stages: the old NH 45 and NH 45A were folded in during the 2010 renumbering, the road was pushed south to Thoothukudi in 2017, and finally to Kanyakumari in July 2022. Along the way it strings together some of the most visited places in Tamil Nadu, from the Chennai airport to the basilica at Velankanni and the seaside temple at Tiruchendur.",
   "facts": [
     "South of Puducherry it forms the longest part of the East Coast Road, staying close to the Bay of Bengal.",
     "The famous beach drive from Chennai past Mamallapuram to Puducherry is a separate coastal road — NH 32 itself runs a little inland on that stretch.",
+    "Its first stretch out of Chennai is the Grand Southern Trunk Road, one of the oldest highways in south India, and it passes Chennai airport.",
+    "It touches both of the Puducherry union territory's districts on this coast — Puducherry town and Karaikal.",
     "Connects the basilica town of Velankanni and the seaside temple town of Tiruchendur.",
+    "The Nagapattinam coast it follows was the part of India worst hit by the 2004 Indian Ocean tsunami.",
+    "It serves Thoothukudi, one of Tamil Nadu's major ports.",
     "Ends near Anjugramam, where it meets NH 44, the Srinagar–Kanyakumari highway."
   ],
+  "significance": "NH 32 is the road that keeps Tamil Nadu's eastern shore joined up. Fishing harbours, salt pans, the rice country of the Cauvery delta and the port at Thoothukudi all move their goods on it, and it carries a steady stream of pilgrims and tourists to Velankanni, Tiruchendur and Kanyakumari. When a cyclone crosses this coast it also becomes the main route for rescue and relief teams.",
+  "engineering": [
+    { "name": "Kathipara junction, Chennai", "note": "the huge cloverleaf flyover at the Chennai end of the road, opened in 2008" }
+  ],
+  "interchanges": [
+    { "name": "Chennai (Kathipara)", "note": "the northern end, where the road leaves NH 48" },
+    { "name": "Tindivanam", "note": "the highway turns east here toward the sea, leaving the inland GST route" },
+    { "name": "Puducherry", "note": "the coastal East Coast Road from Chennai comes back to the highway here" },
+    { "name": "Anjugramam, near Kanyakumari", "note": "the southern end, on NH 44" }
+  ],
+  "relatedRoads": [
+    { "id": "east-coast-road", "label": "The famous Chennai–Mamallapuram–Puducherry beach road that shadows this highway's northern half" },
+    { "id": "nh-48", "label": "The Delhi–Chennai highway, which NH 32 branches from in Chennai" },
+    { "id": "nh-44", "label": "India's longest highway, met at the southern end near Kanyakumari" },
+    { "id": "chennai-peripheral-ring-road", "label": "The new outer ring being built around Chennai, which will cross this road south of the city" }
+  ],
+  "travelNotes": "Chennai to Puducherry takes about three hours, though drivers doing it for pleasure usually take the coastal East Coast Road instead. South of Nagapattinam the highway narrows and fills with village traffic, so allow a long day — roughly twelve hours — for the whole Chennai–Kanyakumari run. Velankanni is packed around its church festival in late August and early September. October to December is cyclone season on this coast, when heavy rain and flooding can shut sections at short notice.",
+  "newsQuery": "\"NH 32\" Tamil Nadu",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

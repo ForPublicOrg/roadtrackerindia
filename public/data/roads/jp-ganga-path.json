@@ -2,7 +2,7 @@
   "id": "jp-ganga-path",
   "ref": "JP Ganga Path",
   "name": "Loknayak Ganga Path",
-  "aka": ["JP Ganga Path", "Patna Marine Drive"],
+  "aka": ["JP Ganga Path", "Patna Marine Drive", "Ganga Path"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 20.5,
@@ -16,17 +16,43 @@
     "majorCities": ["Digha", "Gandhi Maidan area", "Patna City", "Didarganj"]
   },
   "timeline": [
-    { "year": "2013", "event": "Foundation stone laid" },
-    { "year": "2022", "event": "First stretch, Digha to PMCH, opens" },
-    { "year": "2024", "event": "Open up to Kangan Ghat in Patna City" },
-    { "year": "2025", "event": "Full 20.5 km Digha–Didarganj road inaugurated in April" }
+    { "year": "2013", "event": "Foundation stone laid by the Bihar government" },
+    { "year": "2022", "event": "Phase 1, Digha to PMCH (about 6.5 km), opens on 24 June" },
+    { "year": "2023", "event": "Phase 2 extends the road from PMCH to Gaighat on 14 August" },
+    { "year": "2024", "event": "The Gaighat to Kangan Ghat section opens on 11 July" },
+    { "year": "2025", "event": "Final phase to Didarganj opens on 10 April, completing the full 20.5 km road" }
   ],
-  "history": "The Loknayak Ganga Path, better known as the JP Ganga Path, is a riverfront expressway that runs along the Ganga in Patna, from Digha in the west to Didarganj in the east. Much of it stands on stilts above the riverbank, which is why locals call it Patna's Marine Drive. It was opened piece by piece from 2022, and the full 20.5 km road was inaugurated in April 2025. It gives Patna a fast east–west route and easy river-side access to places like PMCH hospital and the old Patna City area.",
+  "history": "The Loknayak Ganga Path, better known as the JP Ganga Path, is a riverfront expressway that runs along the Ganga in Patna, from Digha in the west to Didarganj in the east. Patna had grown as a long, thin city squeezed between the river and the railway, and its one main east–west street, Ashok Rajpath, was jammed for most of the day. The state government's answer was to build a brand-new road on the riverbank itself, much of it standing on concrete stilts so that the Ganga's floodwater can still spread underneath. Work started after the foundation stone was laid in 2013, and the road opened piece by piece — first to PMCH in 2022, then to Gaighat, then to Kangan Ghat, and finally all the way to Didarganj on 10 April 2025. The finished 20.5 km road cost about ₹3,831 crore and gave Patna its first fast, signal-light-free crossing of the city. Because of the long open views over the water, people quickly nicknamed it the Marine Drive of Patna.",
   "facts": [
     "Named after Loknayak Jayaprakash Narayan, the freedom fighter popularly called JP.",
     "Nicknamed the Marine Drive of Patna for its long riverside views.",
-    "A large part of the road is elevated above the banks of the Ganga.",
-    "Opened in phases between 2022 and 2025, built by the Bihar government."
+    "A large part of the road stands on pillars above the bank of the Ganga, so floodwater can pass underneath.",
+    "Opened in stages between 2022 and 2025 by the Bihar government, at a cost of about ₹3,831 crore.",
+    "Cuts the Digha–Didarganj trip across Patna from over an hour in traffic to roughly 20–25 minutes.",
+    "Its western end at Digha sits beside the JP Setu, the road-and-rail bridge over the Ganga to Sonepur.",
+    "A ramp drops straight down to PMCH, Bihar's biggest government hospital, which speeds up ambulances.",
+    "It takes pressure off Ashok Rajpath, the crowded old street that used to be Patna's only east–west route."
+  ],
+  "significance": "This is the road that finally let traffic cross Patna quickly. Before it, everything moving between the western suburbs and old Patna City had to squeeze along Ashok Rajpath past hospitals, colleges and markets. The Ganga Path also opened up the riverfront itself — a stretch of the city most people never used to see — and it is the first piece of a longer riverside corridor Bihar wants to extend further west from Digha and further east from Didarganj.",
+  "engineering": [
+    { "name": "Riverbank stilt viaduct", "note": "about 14 km of the road is carried on pillars along the Ganga's edge, so the river can still flood the bank below without damaging it; the remaining 6.5 km runs at ground level" },
+    { "name": "Krishna Ghat link road", "note": "a spur that drops from the expressway down into the Gandhi Maidan area" }
+  ],
+  "interchanges": [
+    { "name": "Digha", "note": "western end, next to the JP Setu bridge across the Ganga toward Sonepur and Chhapra" },
+    { "name": "Krishna Ghat / Gandhi Maidan", "note": "link road into the heart of the city" },
+    { "name": "PMCH", "note": "ramp down to Patna Medical College Hospital and Ashok Rajpath" },
+    { "name": "Gaighat", "note": "access to the northern edge of old Patna" },
+    { "name": "Didarganj", "note": "eastern end, joining the road toward Fatuha and Bakhtiyarpur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-31", "label": "The Patna–Mokama–Begusarai highway that the Ganga Path feeds at its eastern end" },
+    { "id": "nh-22", "label": "The Patna–Gaya–Bodh Gaya highway heading south from the city" }
+  ],
+  "travelNotes": "End to end takes about 20–25 minutes, against an hour or more on the old city roads. It is busiest during morning and evening office hours near the Gandhi Maidan and PMCH ramps. Evenings are popular with people who drive out just for the view of the river. Thick fog in December and January can slow things down, and the ghat-side ramps get crowded during big river festivals such as Chhath.",
+  "futureUpgrades": [
+    "A westward extension from Digha to Sherpur, on the road out of Patna toward Bihta and the Koilwar bridge, has been announced.",
+    "An eastward extension from Didarganj to Bakhtiyarpur has been announced."
   ],
   "sources": [
     { "title": "Government of Bihar — State Portal", "url": "https://state.bihar.gov.in/" }

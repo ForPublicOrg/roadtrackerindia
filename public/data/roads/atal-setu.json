@@ -9,6 +9,7 @@
   "lanes": "6 lanes (3 each way), sea bridge with viaduct approaches",
   "agency": "MMRDA (Mumbai Metropolitan Region Development Authority)",
   "cost": "About ₹17,840 crore",
+  "newsQuery": "\"Atal Setu\" Mumbai",
   "route": {
     "start": "Sewri, Mumbai, Maharashtra",
     "end": "Chirle (near Nhava Sheva), Navi Mumbai, Maharashtra",
@@ -19,13 +20,36 @@
     { "year": "2018", "event": "Main construction work begins" },
     { "year": "2024", "event": "Inaugurated on 12 January and opened to traffic" }
   ],
-  "history": "Atal Setu is a giant bridge across Mumbai's harbour, connecting Sewri in the island city with Chirle on the Navi Mumbai side. Planned for decades as the Mumbai Trans Harbour Link, it was finally built by MMRDA and opened in January 2024. It is India's longest bridge, and it shortens the trip between Mumbai and Navi Mumbai to around 20 minutes, giving quicker access to the Jawaharlal Nehru Port, the Mumbai–Pune Expressway and the new Navi Mumbai airport area.",
+  "history": "Atal Setu is a giant bridge across Mumbai's harbour, connecting Sewri in the island city with Chirle on the Navi Mumbai side. The idea is very old — a harbour crossing was first proposed in the 1960s — but the cost and the difficulty of building across open sea and mudflats stopped it again and again. It was finally taken up by MMRDA with a large loan from Japan's JICA, main construction began in 2018, and the bridge opened in January 2024. It is India's longest bridge, and it shortens the trip between Mumbai and Navi Mumbai from about 90 minutes to around 20, giving quicker access to the Jawaharlal Nehru Port, the Mumbai–Pune Expressway and the new Navi Mumbai airport. Because the Sewri end sits beside mudflats where thousands of flamingos feed each winter, the bridge was built with sound barriers and special lighting so the birds are not disturbed.",
   "facts": [
     "India's longest bridge, and its longest sea bridge, at about 21.8 km.",
     "About 16.5 km of the bridge runs over the sea.",
     "Cuts the Sewri–Chirle crossing to roughly 20 minutes.",
     "One of the first roads in India to use open-road tolling, so vehicles don't stop at a toll gate.",
-    "Uses long steel deck spans so ships can pass safely beneath."
+    "Long steel deck spans carry it over the shipping channels; the longest, at 180 m, is the longest orthotropic steel deck span used on an Indian road bridge.",
+    "Much of the money came as a low-interest loan from Japan's JICA.",
+    "Noise barriers and shielded lights protect the flamingos that feed on the Sewri mudflats.",
+    "Two-wheelers, auto-rickshaws and tractors are not allowed on it."
+  ],
+  "significance": "Mumbai is squeezed onto a narrow peninsula, and everything the city wants to grow into — Navi Mumbai, the new airport, the port, the road to Pune — sits on the far side of the harbour. Atal Setu is the shortcut across that water. It saves a long detour through Thane for lakhs of people and for the container trucks serving Jawaharlal Nehru Port, and it is the reason the whole Navi Mumbai side is now being planned as Mumbai's next growth zone.",
+  "engineering": [
+    { "name": "Orthotropic steel deck spans", "note": "70 steel deck sections, from 65 m to 180 m long, carry the bridge over the deep water and shipping channels so fewer pillars stand in the way of ships" },
+    { "name": "Sewri mudflat viaduct", "note": "the Mumbai approach crosses protected flamingo feeding grounds, so it was built with sound barriers and lights angled away from the birds" },
+    { "name": "Shivaji Nagar interchange (Ulwe)", "note": "a mid-route interchange that drops traffic into Ulwe in Navi Mumbai and on toward the new airport and the Jawaharlal Nehru Port" }
+  ],
+  "interchanges": [
+    { "name": "Sewri (Mumbai)", "note": "the Mumbai end, connecting to the Eastern Freeway and the city's eastern road network" },
+    { "name": "Shivaji Nagar (Ulwe)", "note": "midway exit for Ulwe and Navi Mumbai International Airport" },
+    { "name": "Chirle (NH 348)", "note": "the Navi Mumbai end — the link toward the Mumbai–Pune Expressway, Panvel and JNPT port" }
+  ],
+  "relatedRoads": [
+    { "id": "mumbai-eastern-freeway", "label": "The elevated road it joins at the Sewri end, carrying traffic on into south Mumbai" },
+    { "id": "mumbai-pune-expressway", "label": "Reached from the Chirle end — the bridge is now the fastest way out of Mumbai toward Pune" },
+    { "id": "mumbai-coastal-road", "label": "Mumbai's other mega road project, to be linked to this bridge by the planned Sewri–Worli connector" }
+  ],
+  "travelNotes": "The crossing takes about 20 minutes. Cars pay a toll of a few hundred rupees each way, revised from time to time, and it is collected electronically, so you don't stop. The car speed limit is 100 km/h on the main span but drops on the climbs and descents at each end. Two-wheelers, three-wheelers and tractors are banned. Stopping on the bridge for photos is not allowed, and in winter the Sewri approach is worth a look for the pink flamingo flocks on the mudflats below.",
+  "futureUpgrades": [
+    "A Sewri–Worli elevated connector is being built to link the bridge directly to the Mumbai Coastal Road."
   ],
   "sources": [
     { "title": "MMRDA — Mumbai Metropolitan Region Development Authority", "url": "https://mmrda.maharashtra.gov.in/" },

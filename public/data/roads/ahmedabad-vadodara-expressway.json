@@ -6,6 +6,7 @@
   "category": "expressway",
   "status": "operational",
   "lengthKm": 93.1,
+  "lanes": "4 lanes (2 each way), access-controlled",
   "agency": "NHAI",
   "route": {
     "start": "Ahmedabad, Gujarat",
@@ -16,13 +17,33 @@
   "timeline": [
     { "year": "2004", "event": "Fully opened to traffic" }
   ],
-  "history": "The Ahmedabad–Vadodara Expressway, officially the Mahatma Gandhi Expressway, was one of India's first access-controlled expressways when it fully opened in 2004. Numbered National Expressway 1 (NE-1), it runs beside the older Ahmedabad–Vadodara highway but with no crossings or slow traffic, cutting the trip between the two cities to about an hour. It passes through the Kheda and Anand districts, the heart of Gujarat's dairy country, and today it also links up with the new Delhi–Mumbai Expressway corridor near Vadodara.",
+  "history": "The Ahmedabad–Vadodara Expressway, officially the Mahatma Gandhi Expressway, was one of India's first access-controlled expressways when it fully opened in 2004. It was planned as a demonstration project: a road with no crossroads, no traffic lights, no bullock carts and no villages spilling onto it, to show what Indian highways could become. Numbered National Expressway 1 (NE-1), it runs beside the older Ahmedabad–Vadodara highway and cut the trip between the two cities to about an hour. It passes through the Kheda and Anand districts, the heart of Gujarat's dairy country, crossing the Mahi River on the way. Today it is no longer a curiosity but a busy commuter and freight route, and near Vadodara it feeds straight into the new Delhi–Mumbai Expressway.",
   "facts": [
     "India's first road to carry the 'National Expressway' number: NE-1.",
     "Cut the Ahmedabad–Vadodara drive to about an hour.",
     "Passes through the Anand district, famous as the home of Amul dairy.",
-    "Opened in 2004, two years after the Mumbai–Pune Expressway."
+    "Opened in 2004, two years after the Mumbai–Pune Expressway.",
+    "Crosses the Mahi River near Vasad on the run into Vadodara.",
+    "It now works as a feeder into the Delhi–Mumbai Expressway at the Vadodara end.",
+    "One of the shortest expressways in India at just over 93 km."
   ],
+  "significance": "Ahmedabad and Vadodara are two of Gujarat's biggest industrial cities, and this expressway effectively welded them into a single economic belt where people commute daily between them. It also proved the idea of an access-controlled toll expressway in India early on, and the lessons from it fed into every expressway built since.",
+  "engineering": [
+    { "name": "Mahi River bridge", "note": "the biggest structure on the route, carrying the expressway over the Mahi near Vasad" }
+  ],
+  "interchanges": [
+    { "name": "Ahmedabad", "note": "the western end, joining Ahmedabad's ring road and city roads" },
+    { "name": "Nadiad", "note": "exit for Nadiad and the Kheda district towns" },
+    { "name": "Anand", "note": "exit for Anand and Vallabh Vidyanagar, India's dairy capital" },
+    { "name": "Vadodara", "note": "the eastern end — connects to NH 48 and to the Delhi–Mumbai Expressway" }
+  ],
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "India's longest expressway, which this road now feeds into near Vadodara" },
+    { "id": "nh-48", "label": "The older Delhi–Mumbai national highway running alongside on the same corridor" },
+    { "id": "ahmedabad-dholera-expressway", "label": "Gujarat's newest expressway, heading south from Ahmedabad" },
+    { "id": "mumbai-pune-expressway", "label": "India's first modern access-controlled expressway, opened two years before this one" }
+  ],
+  "travelNotes": "The full run takes about an hour. It is a toll road and the toll for a car is around ₹125 for the whole length, revised from time to time. Traffic is heaviest on weekday mornings and evenings with commuters, and on weekends with Ahmedabad families heading out. There are fuel pumps and food plazas along the way, and this being Gujarat, the roadside farsan and dairy stops near Anand and Nadiad are a small attraction of their own.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

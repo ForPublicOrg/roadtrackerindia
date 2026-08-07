@@ -17,16 +17,43 @@
   },
   "timeline": [
     { "year": "2015", "event": "Prime Minister lays the foundation stone (5 November)" },
-    { "year": "2018", "event": "Inaugurated and opened to traffic (27 May)" }
+    { "year": "2018", "event": "Inaugurated and opened to traffic (27 May), built in about 500 days" },
+    { "year": "2026", "event": "The Delhi–Dehradun Expressway opens and meets the ring at its Khekra (Baghpat) interchange" }
   ],
-  "history": "The Eastern Peripheral Expressway was built so that trucks crossing the Delhi region no longer need to drive through the crowded capital. The Supreme Court had pushed for such a bypass to help clean Delhi's air. The road loops around the east side of Delhi from Kundli to Palwal, crossing the Yamuna river twice, and opened in May 2018. Together with the KMP Expressway on the west side it forms a complete expressway ring around Delhi.",
+  "history": "The Eastern Peripheral Expressway was built so that trucks crossing the Delhi region no longer need to drive through the crowded capital. The Supreme Court had pushed for such a bypass for years to help clean Delhi's air, and after long delays the work was finally pushed through at speed. The road loops around the east side of Delhi from Kundli to Palwal, crossing the Yamuna river twice, and opened in May 2018 after roughly 500 days of construction. Together with the KMP Expressway on the west side it forms a complete expressway ring around Delhi. It was also built as a showpiece: solar panels light it, rainwater pits line it, and small replicas of famous Indian monuments stand along the verge.",
   "facts": [
     "Forms the eastern half of a roughly 270 km expressway ring around Delhi, with the Western Peripheral (KMP) Expressway as the other half.",
-    "India's first expressway lit by solar power, with solar plants along its length.",
+    "India's first expressway lit by solar power, with about 4 MW of solar plants along its length.",
     "Uses a closed tolling system — you pay only for the distance you actually travel.",
     "Built mainly to let long-distance trucks bypass Delhi and cut the city's air pollution.",
-    "Never enters Delhi itself — it runs entirely through Haryana and Uttar Pradesh."
+    "Never enters Delhi itself — it runs entirely through Haryana and Uttar Pradesh.",
+    "Finished in about 500 days, which is very fast for a road this size.",
+    "Decorated with 36 small replicas of famous Indian monuments and 40 fountains along the way.",
+    "Has rainwater harvesting pits every 500 m and about 2.5 lakh trees alongside, watered by drip irrigation."
   ],
+  "significance": "This is the road that keeps thousands of heavy trucks a day out of Delhi's streets. Before it opened, lorries heading from Punjab and Haryana to Uttar Pradesh, Rajasthan or beyond had to grind through the capital, adding to its famous smog. The expressway also stitched together the fast-growing towns on Delhi's eastern edge — Sonipat, Baghpat, Ghaziabad, Greater Noida and Faridabad — into one quick loop.",
+  "engineering": [
+    { "name": "Yamuna river bridges", "note": "the expressway crosses the Yamuna twice — once in the north near Baghpat and again in the south near Palwal" },
+    { "name": "Underpasses", "note": "about 70 vehicle underpasses and 150 pedestrian underpasses let village traffic cross without ever stopping expressway traffic" },
+    { "name": "Solar power plants", "note": "eight plants along the road, together about 4 MW, light the expressway at night" }
+  ],
+  "interchanges": [
+    { "name": "Kundli (NH 44)", "note": "northern end, on the Delhi–Sonipat–Panipat highway; the Western Peripheral Expressway also starts here" },
+    { "name": "Khekra (Baghpat)", "note": "the Delhi–Dehradun Expressway meets the ring here" },
+    { "name": "Duhai (Ghaziabad)", "note": "exit toward Meerut and northern Ghaziabad" },
+    { "name": "Dasna", "note": "meets NH 9 and the Delhi–Meerut Expressway" },
+    { "name": "Sirsa (Greater Noida)", "note": "exit for Greater Noida" },
+    { "name": "Jaganpur", "note": "the Yamuna Expressway to Agra crosses here; a link between the two roads is being built" },
+    { "name": "Palwal (NH 44)", "note": "southern end, on the Delhi–Mathura–Agra highway, where the Western Peripheral Expressway comes back in" }
+  ],
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "The other half of the ring, looping around the west side of Delhi" },
+    { "id": "delhi-meerut-expressway", "label": "Crosses at Dasna, the fast road between Delhi and Meerut" },
+    { "id": "yamuna-expressway", "label": "Crosses near Jaganpur on its way from Greater Noida to Agra" },
+    { "id": "delhi-dehradun-expressway", "label": "Meets the ring at the Khekra interchange near Baghpat" },
+    { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway, met at both ends of the ring — at Kundli in the north and Palwal in the south" }
+  ],
+  "travelNotes": "Driving the whole 135 km takes about two hours at the 120 km/h limit. Tolling is closed, so your FASTag is read where you enter and again where you leave. There are long gaps between fuel pumps and food stops, so fill up before you get on. Trucks dominate at night, and thick fog can slow the road badly in December and January.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }

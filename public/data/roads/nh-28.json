@@ -6,6 +6,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 305,
+  "agency": "NHAI",
   "route": {
     "start": "Kakrahwa (India–Nepal border), Uttar Pradesh",
     "end": "Varanasi, Uttar Pradesh",
@@ -19,13 +20,36 @@
       "Varanasi"
     ]
   },
-  "history": "NH 28 runs entirely inside Uttar Pradesh, from the India–Nepal border post at Kakrahwa down to the holy city of Varanasi on the Ganga. The border end lies close to Lumbini and Kapilvastu, places linked to the life of the Buddha, so the road is an important route for pilgrims. Before the 2010 renumbering most of this corridor was known as NH 233; the name NH 28 earlier belonged to the Lucknow–Barauni highway.",
+  "history": "NH 28 runs entirely inside Uttar Pradesh, from the India–Nepal border post at Kakrahwa down to the holy city of Varanasi on the Ganga. The border end lies close to Lumbini and Kapilvastu, places linked to the life of the Buddha, so the road is an important route for pilgrims. Before the 2010 renumbering most of this corridor was known as NH 233; the number NH 28 earlier belonged to the old Lucknow–Gorakhpur–Muzaffarpur highway, most of which is now part of NH 27. Along the way it crosses NH 27 at Basti, runs over the Ghaghara near Tanda and passes through Azamgarh before reaching the Varanasi ring road. It is a modest two-lane road for much of its length, but it is the shortest link between the north-eastern corner of Uttar Pradesh and the state's biggest pilgrim city.",
   "facts": [
     "About 305 km long, entirely within Uttar Pradesh.",
     "Links the Nepal border near Lumbini, the Buddha's birthplace, with Varanasi.",
     "Passes close to Piprahwa in Siddharthnagar district, a famous Buddhist stupa site identified by many with ancient Kapilavastu.",
-    "Crosses the Ghaghara river near Tanda on its way south."
+    "Crosses the Ghaghara river near Tanda on its way south.",
+    "Crosses NH 27, the Porbandar–Silchar East–West Corridor, at Basti.",
+    "The number NH 28 once belonged to the old Lucknow–Gorakhpur–Muzaffarpur highway, most of which is now part of NH 27.",
+    "Varanasi, at its southern end, is one of the world's oldest continuously inhabited cities.",
+    "Mubarakpur in Azamgarh district, near the route, is a long-established silk-weaving town."
   ],
+  "significance": "NH 28 is the shortest road link between the Nepal-border districts of north-eastern Uttar Pradesh and Varanasi. Pilgrims following the Buddhist circuit — Lumbini, Kapilvastu, Sarnath and on to Bodh Gaya — use it, and so do traders moving goods through the Kakrahwa border post into Nepal. For farmers in Siddharthnagar, Basti and Azamgarh it is the main road to a big city, its markets and its hospitals.",
+  "engineering": [
+    { "name": "Ghaghara river bridge at Tanda", "note": "carries the highway over one of the Ganga's largest tributaries" },
+    { "name": "Varanasi Ring Road", "note": "the highway feeds into the city's ring road so through-traffic can skip central Varanasi" }
+  ],
+  "interchanges": [
+    { "name": "Kakrahwa", "note": "northern end, at the India–Nepal border checkpost on the road toward Lumbini" },
+    { "name": "Basti", "note": "crosses NH 27, the Porbandar–Silchar East–West Corridor" },
+    { "name": "Azamgarh", "note": "district hub; the Purvanchal Expressway runs across this district" },
+    { "name": "Varanasi", "note": "southern end, joining the Varanasi Ring Road and the highways toward Prayagraj and Kolkata" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor, crossed at Basti" },
+    { "id": "purvanchal-expressway", "label": "The Lucknow–Ghazipur expressway, which runs across Azamgarh district beside this road" },
+    { "id": "nh-19", "label": "The Grand Trunk corridor through Varanasi at the southern end" },
+    { "id": "varanasi-kolkata-expressway", "label": "The new expressway being built east from the Varanasi area toward Kolkata" }
+  ],
+  "travelNotes": "Kakrahwa to Varanasi is about 300 km and takes six to seven hours, because the road is mostly two lanes and passes through many small towns. Pilgrim traffic is heaviest from October to March and again around Buddha Purnima. Dense fog in December and January makes early-morning driving risky, and the low-lying stretch near the Ghaghara can be affected by flooding during a strong monsoon. Fuel and dhabas are easy to find near Basti, Azamgarh and Varanasi, sparser in between.",
+  "newsQuery": "\"NH 28\" Uttar Pradesh",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

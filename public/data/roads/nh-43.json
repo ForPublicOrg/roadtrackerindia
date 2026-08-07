@@ -21,13 +21,31 @@
       "Chaibasa"
     ]
   },
-  "history": "NH 43 winds across the mineral-rich heart of eastern-central India. It begins at Gulganj in the Bundelkhand region of Madhya Pradesh, passes the marble and limestone town of Katni, crosses the coal belts around Shahdol and Ambikapur, and climbs the forested plateaus of Chhattisgarh and Jharkhand to reach Ranchi. It ends at Chaibasa, the centre of a big iron-ore mining district. The route was stitched together in the 2010 renumbering from parts of the old NH 78, NH 23 and NH 33.",
+  "history": "NH 43 winds across the mineral-rich heart of eastern-central India. It begins at Gulganj in the Bundelkhand region of Madhya Pradesh, passes the marble and limestone town of Katni, crosses the coal belts around Shahdol and Ambikapur, and climbs the forested plateaus of Chhattisgarh and Jharkhand to reach Ranchi. It ends at Chaibasa, the centre of a big iron-ore mining district. The route was stitched together in the 2010 renumbering from parts of the old NH 78, NH 23 and NH 33. Before that, the same roads were mostly narrow single- and two-lane links between mining towns, used far more by loaded trucks than by cars. Because it joins a string of coalfields, cement plants and ore mines rather than big cities, NH 43 is one of India's busiest freight highways that most travellers have never heard of.",
   "facts": [
     "Runs for more than 1,000 km across Madhya Pradesh, Chhattisgarh and Jharkhand.",
     "Passes through Umaria district, the gateway to Bandhavgarh National Park.",
     "Serves some of India's biggest coal and iron-ore mining areas.",
-    "Ranchi, the capital of Jharkhand, is the largest city on the route."
+    "Ranchi, the capital of Jharkhand, is the largest city on the route.",
+    "It starts where it meets NH 34 near Gulganj and ends where it meets NH 20 near Chaibasa.",
+    "Katni, on the route, is one of central India's main limestone and cement towns.",
+    "Large parts of the road run through sal forest and hill country rather than farmland."
   ],
+  "significance": "NH 43 is a working highway for India's mines and power stations. It threads together the coalfields of Shahdol, Anuppur and Korea, the bauxite and iron country of Jashpur, Gumla and West Singhbhum, and the steel and cement plants that use them, so a big share of its traffic is loaded trucks rather than cars. For the tribal districts it crosses, it is also often the only good road to a district town, a hospital or a market.",
+  "interchanges": [
+    { "name": "Gulganj (Chhatarpur district)", "note": "western end, at the junction with NH 34" },
+    { "name": "Katni", "note": "crosses NH 30, the Sitarganj–Vijayawada highway" },
+    { "name": "Ranchi", "note": "the biggest city on the route; NH 39 from Jhansi ends here and NH 20 also runs through the city" },
+    { "name": "Chaibasa", "note": "eastern end, at the junction with NH 20" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Meets NH 43 at its western end near Gulganj" },
+    { "id": "nh-30", "label": "Crosses NH 43 at Katni in Madhya Pradesh" },
+    { "id": "nh-39", "label": "The Jhansi–Ranchi highway, which ends at Ranchi, the biggest city on NH 43" },
+    { "id": "nh-20", "label": "Meets NH 43 at its eastern end near Chaibasa and carries on into Odisha" }
+  ],
+  "travelNotes": "This is a long, quiet, mostly two-lane road with far more trucks than cars, so plan short days rather than one big drive. Ranchi is the only large city on the whole route and the best place to stop for a night, fuel and a proper meal; between towns, petrol pumps and food stalls can be a long way apart, so top up whenever you pass one. The forest and hill stretches in Chhattisgarh and Jharkhand are best driven in daylight, and the monsoon months of July to September bring slippery, broken surfaces where mining trucks have chewed up the road.",
+  "newsQuery": "\"NH 43\" Jharkhand highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

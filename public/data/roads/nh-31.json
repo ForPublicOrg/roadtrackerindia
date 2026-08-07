@@ -8,6 +8,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 990,
+  "lanes": "Mix of 2-lane and 4-lane sections; 6 lanes on the new Ganga bridge at Mokama",
+  "agency": "NHAI",
   "route": {
     "start": "Unnao, Uttar Pradesh",
     "end": "Gazole (Kodubari Morh), West Bengal",
@@ -27,16 +29,51 @@
       "Katihar"
     ]
   },
-  "history": "NH 31 links central Uttar Pradesh with northern West Bengal, staying close to the river Ganga for much of the way. It was created after the 2010 renumbering by joining several older highways into one route, including the old Ghazipur–Patna road that was once NH 19. The highway crosses the Ganga twice, at Patna and near Mokama, before ending at Kodubari Morh near Gazole in Malda district, where it meets NH 12.",
+  "timeline": [
+    { "year": "1959", "event": "Rajendra Setu, the road-and-rail bridge over the Ganga at Mokama, opens" },
+    { "year": "1982", "event": "The 5.75 km Mahatma Gandhi Setu opens between Hajipur and Patna" },
+    { "year": "2021", "event": "The Purvanchal Expressway from Lucknow opens, ending on this highway at Haidaria in Ghazipur district" },
+    { "year": "2025", "event": "A six-lane Ganga bridge from Aunta (Mokama) to Simaria (Begusarai) opens beside Rajendra Setu" }
+  ],
+  "history": "NH 31 links central Uttar Pradesh with northern West Bengal, staying close to the river Ganga for much of the way. It was created after the 2010 renumbering by joining several older highways into one route, including the old Ghazipur–Patna road that was once NH 19. From Unnao it runs south-east through Raebareli, Jaunpur and Varanasi, then follows the river across Bihar through Patna, Begusarai and Khagaria to Katihar. It crosses the Ganga twice — on the Mahatma Gandhi Setu between Hajipur and Patna, and again at Mokama — which makes it one of the busiest links between north and south Bihar. In 2021 the Purvanchal Expressway was opened and now ends on this highway at Haidaria in Ghazipur district. The road finishes at Kodubari Morh near Gazole in Malda district.",
   "facts": [
     "About 990 km long, from Unnao in Uttar Pradesh to Gazole in West Bengal.",
-    "Crosses the Ganga twice — on the 5.7 km Mahatma Gandhi Setu between Hajipur and Patna, and on the Rajendra Setu near Mokama.",
+    "Crosses the Ganga twice — on the 5.75 km Mahatma Gandhi Setu between Hajipur and Patna, and at Mokama.",
+    "The Mahatma Gandhi Setu is one of the longest river bridges in India.",
     "Passes through the holy city of Varanasi and the ancient city of Patna.",
+    "A new six-lane Ganga bridge between Aunta (Mokama) and Simaria (Begusarai) opened in 2025 beside the 1959 Rajendra Setu.",
+    "The Purvanchal Expressway from Lucknow ends on this highway at Haidaria, near Ghazipur.",
+    "Rajendra Setu at Mokama, opened in 1959, was the first bridge built across the Ganga in independent India.",
     "A different road from the famous old NH 31 to Assam — most of that older route is now numbered NH 27."
   ],
+  "significance": "This is the main road along the Ganga through Bihar, and for millions of people it is the way to Patna — for work, for hospitals and for trains. It carries pilgrims to Varanasi and to Patna Sahib, and it moves grain, maize and vegetables out of one of the most densely populated farming belts on earth. It is also the one continuous road line joining eastern Uttar Pradesh, Bihar and north Bengal.",
+  "engineering": [
+    { "name": "Mahatma Gandhi Setu", "note": "5.75 km across the Ganga between Hajipur and Patna, opened in 1982; its worn concrete deck was rebuilt in steel, finished in 2022" },
+    { "name": "Rajendra Setu, Mokama", "note": "a 2 km road-and-rail bridge over the Ganga opened in 1959 — the first bridge built across the Ganga in independent India" },
+    { "name": "Aunta–Simaria Ganga bridge", "note": "a 1.865 km six-lane bridge opened in August 2025 next to Rajendra Setu, built at about ₹1,870 crore" }
+  ],
+  "interchanges": [
+    { "name": "Unnao", "note": "the western end, on NH 27 between Kanpur and Lucknow" },
+    { "name": "Varanasi", "note": "crosses NH 19 and meets NH 35, which comes in from Prayagraj" },
+    { "name": "Haidaria (Ghazipur)", "note": "the eastern end of the Purvanchal Expressway joins the highway here" },
+    { "name": "Hajipur–Patna", "note": "the Mahatma Gandhi Setu carries the road across the Ganga into Patna" },
+    { "name": "Mokama", "note": "meets NH 33, which heads east along the Ganga's south bank" },
+    { "name": "Gazole (Kodubari Morh)", "note": "the eastern end of the highway, in Malda district" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor, where NH 31 begins near Unnao" },
+    { "id": "nh-19", "label": "The Delhi–Kolkata highway, crossed at Varanasi" },
+    { "id": "nh-35", "label": "Comes up from Chitrakoot and Prayagraj to meet this road at Varanasi" },
+    { "id": "nh-33", "label": "The south-bank twin of this highway, met at Mokama" },
+    { "id": "nh-12", "label": "The Kolkata–Dalkhola highway, which also runs through Gazole where NH 31 ends" },
+    { "id": "purvanchal-expressway", "label": "The Lucknow expressway that ends on NH 31 at Haidaria in Ghazipur district" }
+  ],
+  "travelNotes": "The Mahatma Gandhi Setu into Patna is the choke point — it can crawl at rush hour and around festivals, and the new Mokama bridge is now the quicker way across for traffic heading to Begusarai and north Bihar. Thick fog slows the whole Uttar Pradesh and Bihar stretch through December and January. Around Chhath Puja and Diwali the road fills with people travelling home, and even the four-lane sections are shared with a lot of slow local traffic, so average speeds stay low.",
+  "newsQuery": "\"NH 31\" Bihar",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }
   ],
   "waypoints": [
     { "name": "Unnao", "coords": [80.49, 26.55] },

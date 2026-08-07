@@ -17,16 +17,45 @@
   },
   "timeline": [
     { "year": "2018", "event": "Construction begins" },
-    { "year": "2024", "event": "First stretch opens in March; both directions open in stages through the year" },
-    { "year": "2025", "event": "Fully open round-the-clock, with the new seaside promenade inaugurated in August" }
+    { "year": "2022", "event": "Both tunnels under Malabar Hill are holed through by the tunnel boring machine" },
+    { "year": "2024", "event": "Southbound carriageway opens in March; the northbound side opens in stages later in the year" },
+    { "year": "2025", "event": "Fully open round-the-clock; the 7.5 km seaside promenade opens in August" }
   ],
-  "history": "Mumbai's Coastal Road is a new expressway built along the city's western shoreline, partly on land reclaimed from the sea and partly through tunnels under Malabar Hill. Built by the city's municipal corporation (BMC), its first phase runs from Marine Drive to Worli, where it joins the Bandra–Worli Sea Link. It opened in stages during 2024 and became fully operational in 2025, cutting a trip that could take close to an hour in traffic down to about ten minutes, and adding a long public promenade beside the sea.",
+  "history": "South Mumbai is a narrow finger of land with only two roads running up it, so for decades a trip from Marine Drive to Worli in the evening rush could take the best part of an hour. Mumbai's Coastal Road is the city's answer: a new expressway along the western shoreline, built partly on land reclaimed from the sea and partly in twin tunnels bored under Malabar Hill. It was built by the city's own municipal corporation, the BMC, rather than by a state or national agency, which is unusual for a project this size. Construction started in 2018; the southbound side opened in March 2024, the northbound side later that year, and the whole road was running round the clock by 2025. At the Worli end it joins the Bandra–Worli Sea Link, so traffic can carry straight on toward the western suburbs. Just as importantly, the reclaimed land was not all given to cars — a long public promenade, parks and open space were built beside the road and opened in 2025.",
   "facts": [
-    "Its twin tunnels pass beneath Girgaum Chowpatty — often described as India's first undersea road tunnels.",
-    "The tunnels were dug by 'Mavala', one of the largest tunnel boring machines ever used in India.",
+    "Its twin tunnels pass beneath Girgaum Chowpatty and Malabar Hill — often described as India's first undersea road tunnels.",
+    "Each tunnel is about 2.07 km long; they were dug by 'Mavala', one of the largest tunnel boring machines ever used in India.",
     "The road is toll-free.",
-    "Cuts the Marine Drive–Worli drive to around 10 minutes.",
-    "Comes with a new public promenade and green space built along the reclaimed shoreline."
+    "Cuts the Marine Drive–Worli drive to around 10 minutes, from close to an hour in the evening rush.",
+    "Comes with a new public promenade, parks and green space built along the reclaimed shoreline.",
+    "Interchanges at Amarsons Garden, Breach Candy, Haji Ali and Worli let drivers join and leave the road.",
+    "Underground car parks built beneath the new open spaces hold roughly 1,850 vehicles in total.",
+    "It was built by the BMC, the city's municipal corporation — one of the biggest road projects any Indian city government has built on its own."
+  ],
+  "significance": "The Coastal Road is the first genuinely new north–south route south Mumbai has had in generations, and it takes thousands of cars a day off Marine Drive, Peddar Road and the Worli seaface. It also changed what Mumbaikars expect from a big road project: instead of only lanes, it delivered a wide public promenade, cycle track and gardens on reclaimed land, which is now the template for the northern phase. Together with the Atal Setu and the Eastern Freeway, it is part of the ring of fast roads the city is knitting around its harbour and coastline.",
+  "engineering": [
+    { "name": "Twin tunnels under Malabar Hill", "note": "about 2.07 km each, running below Girgaum Chowpatty and Malabar Hill; bored by the giant 'Mavala' machine and widely called India's first undersea road tunnels" },
+    { "name": "Sea reclamation", "note": "much of the road sits on land newly made from the sea and protected by tetrapod sea walls; most of the reclaimed surface became parks and promenade rather than road" },
+    { "name": "Worli connector to the Bandra–Worli Sea Link", "note": "a bridge across Worli bay whose central span is a steel bow-string arch girder about 120 m long, floated in by barge and lifted into place in one piece; the design was changed to use fewer pillars after protests by local fishermen" },
+    { "name": "Haji Ali interchange", "note": "a multi-level junction with feeder roads from every direction, built right beside the causeway to the Haji Ali dargah" }
+  ],
+  "interchanges": [
+    { "name": "Marine Drive (Princess Street flyover)", "note": "southern end, where the road starts from the old Marine Drive seafront" },
+    { "name": "Amarsons Garden", "note": "the first exit north of the tunnels, with an underground car park below the garden" },
+    { "name": "Breach Candy", "note": "ramps serving the Breach Candy seafront" },
+    { "name": "Haji Ali", "note": "multi-level interchange linking to Lala Lajpatrai Marg and the road inland" },
+    { "name": "Worli", "note": "northern end, joining the Bandra–Worli Sea Link" }
+  ],
+  "relatedRoads": [
+    { "id": "mumbai-eastern-freeway", "label": "The matching signal-free road on Mumbai's eastern side; twin tunnels are being dug to join the two" },
+    { "id": "western-express-highway", "label": "Traffic leaving the Bandra–Worli Sea Link joins it for the western suburbs" },
+    { "id": "atal-setu", "label": "The other big new sea crossing reshaping how traffic moves around Mumbai" }
+  ],
+  "travelNotes": "Marine Drive to Worli takes roughly 10 to 12 minutes, and there is no toll. The busiest flows are northbound in the evening and southbound in the morning, when office traffic reverses. The tunnels are the quickest bit but also where breakdowns cause the worst jams, so keep your distance. The promenade alongside is a favourite evening walk and gets crowded at sunset and on weekends, so expect people and parked cars near the access points.",
+  "futureUpgrades": [
+    "A northern extension along the coast, from Versova through Dahisar to Bhayandar, is being built by the BMC.",
+    "MMRDA is boring twin tunnels from Orange Gate on the Eastern Freeway to Marine Drive, due around 2028, which will connect the Coastal Road directly to Mumbai's eastern side.",
+    "A long sea-facing promenade is planned along the northern phase, extending the one already open in the south."
   ],
   "sources": [
     { "title": "Brihanmumbai Municipal Corporation", "url": "https://portal.mcgm.gov.in/" },

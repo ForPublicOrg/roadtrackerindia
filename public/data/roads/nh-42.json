@@ -12,12 +12,31 @@
     "states": ["Karnataka", "Andhra Pradesh", "Tamil Nadu"],
     "majorCities": ["Anantapur", "Kadiri", "Madanapalle", "Palamaner", "Kuppam", "Krishnagiri"]
   },
-  "history": "NH 42 crosses the dry, hilly Rayalaseema region of southern Andhra Pradesh. It starts at Joladarasi on NH 67, east of Ballari near the Karnataka–Andhra Pradesh border, passes the towns of Anantapur, Kadiri and Madanapalle, and ends near Krishnagiri in Tamil Nadu, where it meets NH 48, the Bengaluru–Chennai highway. It was stitched together in the renumbering era from parts of the older NH 205 and NH 219.",
+  "history": "NH 42 crosses the dry, hilly Rayalaseema region of southern Andhra Pradesh. It starts at Joladarasi on NH 67, east of Ballari near the Karnataka–Andhra Pradesh border, passes the towns of Anantapur, Kadiri and Madanapalle, and ends near Krishnagiri in Tamil Nadu, where it meets NH 48, the Bengaluru–Chennai highway. It was stitched together in the renumbering era from parts of the older NH 205 and NH 219. Although it touches three states, almost the whole road — 378 of its 401 km — lies in Andhra Pradesh. For the towns of the Anantapur and Chittoor uplands it is the quickest way toward Bengaluru and Chennai, and lorries carrying the region's tomatoes, groundnut and mangoes are a common sight on it.",
   "facts": [
     "Only about 4 km of the highway is in Karnataka — most of it (378 km) runs across Andhra Pradesh.",
     "Ends at a junction with NH 48, the Bengaluru–Chennai highway, near Krishnagiri.",
-    "Madanapalle, on the route, is the gateway to the Horsley Hills."
+    "Madanapalle, on the route, is the gateway to the Horsley Hills.",
+    "It crosses NH 44, India's longest highway, at Anantapur.",
+    "Madanapalle also has one of India's biggest tomato markets.",
+    "Anantapur is one of the driest districts in India, and the road runs through open, rocky country for much of its length.",
+    "Kuppam, near the southern end, sits close to where Andhra Pradesh, Karnataka and Tamil Nadu meet.",
+    "The philosopher Jiddu Krishnamurti was born in Madanapalle, on this route."
   ],
+  "significance": "NH 42 is the short cut across Rayalaseema. It links the interior towns of Anantapur, Kadiri and Madanapalle to the Bengaluru–Chennai corridor, giving farmers in one of India's driest regions a fast route to take tomatoes, groundnut and mangoes to big city markets.",
+  "interchanges": [
+    { "name": "Joladarasi", "note": "north end — the highway starts on NH 67, east of Ballari" },
+    { "name": "Anantapur", "note": "crosses NH 44, the Srinagar–Kanyakumari highway" },
+    { "name": "Madanapalle", "note": "meets NH 71 and the hill road up to the Horsley Hills" },
+    { "name": "Krishnagiri", "note": "south end — joins NH 48, the Bengaluru–Chennai highway, in a town NH 44 also passes through" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, crossed at Anantapur and passing close again at Krishnagiri" },
+    { "id": "nh-48", "label": "The Bengaluru–Chennai highway, where this road ends" },
+    { "id": "nh-40", "label": "The other main Rayalaseema highway, running roughly parallel to the north-east through Nandyal and Kadapa" }
+  ],
+  "travelNotes": "The full run takes about eight hours. Much of the road is two lanes, with long, straight, empty stretches between towns. This is hot, dry country, so people travel early or late in summer; November to February is the pleasant season. Anantapur, Kadiri and Madanapalle are the main places to stop for fuel and food.",
+  "newsQuery": "\"NH 42\" Andhra Pradesh",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

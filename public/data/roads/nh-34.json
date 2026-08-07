@@ -9,6 +9,7 @@
   "status": "operational",
   "lengthKm": 1426,
   "lanes": "Mostly 2 lanes",
+  "agency": "NHAI; Border Roads Organisation on the Himalayan section",
   "route": {
     "start": "Gangotri Dham, Uttarakhand",
     "end": "Lakhnadon, Madhya Pradesh",
@@ -29,19 +30,50 @@
     ]
   },
   "timeline": [
-    { "year": "2016", "event": "Char Dham road project launched, widening the Rishikesh–Gangotri stretch of the highway" }
+    { "year": "2016", "event": "Char Dham road project launched, widening the Rishikesh–Gangotri stretch of the highway" },
+    { "year": "2020", "event": "The 440 m Chamba tunnel, dug by the Border Roads Organisation under Chamba town, is holed through and completed" }
   ],
-  "history": "NH 34 starts high in the Himalayas at Gangotri Dham, one of the four Char Dham pilgrimage shrines, and follows the Bhagirathi (Ganga) valley down to Rishikesh and Haridwar. It then crosses the plains of western Uttar Pradesh through Meerut, Aligarh and Kanpur, and climbs into the Bundelkhand hills and central Madhya Pradesh. The route was pieced together in the 2010s renumbering by joining several older highways, and it ends at Lakhnadon, where it meets NH 44.",
+  "history": "NH 34 starts high in the Himalayas at Gangotri Dham, one of the four Char Dham pilgrimage shrines, and follows the Bhagirathi — the young Ganga — down through Uttarkashi to Rishikesh and Haridwar. It then crosses the plains of western Uttar Pradesh through Meerut, Aligarh and Kanpur, drops into the dry Bundelkhand country around Hamirpur and Mahoba, and climbs into central Madhya Pradesh past Chhatarpur, Damoh and Jabalpur. The route was pieced together in the 2010s renumbering by joining several older highways, among them the old NH 108, NH 94, NH 58, NH 119, NH 91 and NH 86. Its mountain section is one of the roads being widened under the Char Dham Pariyojana, launched in 2016 to give the four shrines all-weather access, and in 2020 the Border Roads Organisation completed a 440 m tunnel beneath the crowded hill town of Chamba to clear a long-standing bottleneck. The highway finally ends at Lakhnadon in Madhya Pradesh, where it joins NH 44.",
   "facts": [
     "At about 1,426 km, it links a Himalayan shrine with the centre of India.",
     "Its mountain stretch from Rishikesh up to Gangotri is part of the Char Dham pilgrimage road network.",
+    "Gangotri, where it begins, sits high in the Himalayas and is cut off by snow for roughly half the year.",
     "Haridwar, one of the holiest cities on the Ganga, sits on its route.",
+    "The 440 m Chamba tunnel, completed in 2020, runs right underneath a hill town on the pilgrim road.",
+    "It meets NH 35 at Kabrai in Bundelkhand, a town known for its stone quarries.",
     "It ends at Lakhnadon on NH 44, India's longest national highway.",
     "Most of the highway is a two-lane road."
   ],
+  "significance": "For half the year the top of NH 34 is a pilgrim road: it is how most people reach Gangotri, one of the four Char Dham shrines, and how food and building materials reach the villages of the upper Bhagirathi valley. Lower down it is a plain, hard-working highway tying western Uttar Pradesh, Kanpur, Bundelkhand and central Madhya Pradesh together — a north–south line well away from the big expressway corridors.",
+  "engineering": [
+    { "name": "Chamba tunnel", "note": "440 m long, dug by the Border Roads Organisation right under the hill town of Chamba and completed in 2020 as part of the Char Dham project; it cuts the crawl through the town from about half an hour to ten minutes" },
+    { "name": "Bhagirathi valley road above Uttarkashi", "note": "cut into steep, loose slopes above the river; landslides can shut it for hours during the monsoon" }
+  ],
+  "interchanges": [
+    { "name": "Rishikesh", "note": "the mountain road reaches the plains and meets the Haridwar–Badrinath pilgrim route here" },
+    { "name": "Meerut", "note": "the Delhi–Meerut Expressway ends on the edge of the city" },
+    { "name": "Kanpur", "note": "crosses NH 19, the Delhi–Kolkata highway" },
+    { "name": "Kabrai (near Mahoba)", "note": "meets NH 35, which runs east to Prayagraj and Varanasi" },
+    { "name": "Jabalpur", "note": "meets NH 30, the Sitarganj–Vijayawada highway" },
+    { "name": "Lakhnadon", "note": "the southern end, on NH 44" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, which NH 34 ends on at Lakhnadon" },
+    { "id": "nh-19", "label": "The Delhi–Kolkata highway, crossed at Kanpur" },
+    { "id": "nh-30", "label": "The Sitarganj–Vijayawada highway, met at Jabalpur" },
+    { "id": "nh-35", "label": "Branches away east at Kabrai toward Chitrakoot, Prayagraj and Varanasi" },
+    { "id": "delhi-meerut-expressway", "label": "The fast road from Delhi that ends at Meerut on this route" },
+    { "id": "ganga-expressway", "label": "The new Meerut–Prayagraj expressway, which starts on the edge of Meerut" }
+  ],
+  "travelNotes": "The Gangotri road is open only from about late April, when the shrine opens, until Diwali time in October or November; snow shuts it for the rest of the year, and pilgrims are asked to register before travelling. Between July and September landslides in the Bhagirathi valley can hold traffic for hours. The plains stretch through Meerut, Aligarh and Kanpur is slow and crowded, with thick fog in December and January. Hardly anyone drives the whole route — it is used in sections.",
+  "futureUpgrades": [
+    "The Rishikesh–Gangotri mountain stretch is still being widened and made all-weather under the Char Dham Pariyojana."
+  ],
+  "newsQuery": "\"NH 34\" Uttarakhand",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }
   ],
   "waypoints": [
     { "name": "Gangotri", "coords": [78.941, 30.994] },

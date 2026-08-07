@@ -2,12 +2,13 @@
   "id": "amritsar-katra-expressway",
   "ref": "NE 5",
   "name": "Delhi–Amritsar–Katra Expressway",
-  "aka": ["Delhi–Katra Expressway"],
+  "aka": ["Delhi–Katra Expressway", "NE-5A (the Nakodar–Amritsar spur)"],
   "category": "expressway",
   "status": "under-construction",
   "lengthKm": 669,
   "lanes": "4 lanes (expandable), access-controlled",
   "agency": "NHAI",
+  "newsQuery": "\"Delhi Amritsar Katra Expressway\"",
   "route": {
     "start": "Jasaur Kheri (KMP Expressway), Jhajjar district, Haryana",
     "end": "Katra, Jammu & Kashmir",
@@ -15,16 +16,43 @@
     "majorCities": ["Rohtak", "Jind", "Kaithal", "Sangrur", "Ludhiana", "Nakodar", "Amritsar", "Gurdaspur", "Pathankot", "Katra"]
   },
   "timeline": [
+    { "year": "2022", "event": "Prime Minister lays the foundation stone on 5 January and construction gets under way" },
     { "year": "2024", "event": "The roughly 135 km Haryana stretch, from the KMP Expressway to the Punjab border near Kaithal, opens to traffic" },
-    { "year": "2026", "event": "Prime Minister inaugurates about 188 km — the Haryana packages and a 31 km stretch near Jalandhar (17 July)" }
+    { "year": "2026", "event": "Prime Minister formally inaugurates the first phase on 17 July — the already-open Haryana stretch plus a newly built 31 km section near Jalandhar" }
   ],
-  "history": "This expressway is being built so that people can drive from Delhi to Amritsar in about four hours and to Katra — the base town for the Vaishno Devi shrine — in about six. It starts from the KMP Expressway near Delhi and runs as a brand-new road across Haryana and Punjab, with a branch near Nakodar that goes to Amritsar. The Haryana part is already open to traffic, while much of the Punjab and Jammu section is still being built.",
+  "history": "This expressway is being built so that people can drive from Delhi to Amritsar in about four hours and to Katra — the base town for the Vaishno Devi shrine — in about six, instead of the eleven or twelve hours the old NH 44 route takes. It starts from the KMP Expressway near Delhi and runs as a brand-new road across Haryana and Punjab, deliberately skirting the big cities so it never gets tangled in their traffic. A separate branch of about 99 km leaves the main road near Nakodar and heads to Amritsar, passing several important Sikh pilgrimage towns including Sultanpur Lodhi, Goindwal Sahib, Khadoor Sahib and Tarn Taran. The Haryana part opened in 2024 and a Jalandhar-area stretch followed in July 2026, while much of the Punjab and Jammu section is still being built. Officials have targeted 2027 for the whole route.",
   "facts": [
     "Planned total length is about 669 km, making it one of India's longest expressway projects.",
     "A roughly 99 km branch leaves the main road near Nakodar and heads to Amritsar.",
     "The 135 km Haryana stretch opened to traffic in 2024.",
     "Being built by NHAI under the Bharatmala programme.",
-    "Will end at Katra, the gateway town to the Vaishno Devi shrine."
+    "Will end at Katra, the gateway town to the Vaishno Devi shrine.",
+    "The Amritsar branch links four major Sikh pilgrimage towns on one road.",
+    "Should cut Delhi–Katra driving time from about 12 hours to roughly 6.",
+    "Carries the national expressway number NE-5, with the Amritsar branch as NE-5A."
+  ],
+  "significance": "This is India's big pilgrimage highway. Vaishno Devi near Katra draws crores of visitors a year, the Golden Temple at Amritsar draws crores more, and the Amritsar branch strings together several of Sikhism's most visited shrines — all on one fast road from the capital. It also matters for defence and trade: it is a second, faster route toward Jammu and the border areas, taking pressure off NH 44.",
+  "engineering": [
+    { "name": "Beas River bridge", "note": "a long cable-stayed bridge of about 1.3 km, the biggest structure on the route" }
+  ],
+  "interchanges": [
+    { "name": "Jasaur Kheri (Jhajjar)", "note": "the southern end, where the expressway meets the KMP / Western Peripheral Expressway ring around Delhi" },
+    { "name": "Jind", "note": "the main Haryana interchange, on the first stretch to open" },
+    { "name": "Kaithal", "note": "last Haryana exit before the Punjab border" },
+    { "name": "Nakodar", "note": "where the 99 km branch to Amritsar splits from the main route to Katra" },
+    { "name": "Gurdaspur", "note": "exit for Gurdaspur and Batala in northern Punjab" },
+    { "name": "Katra", "note": "the northern end, at the base town for the Vaishno Devi shrine" }
+  ],
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "The KMP ring road west of Delhi, where this expressway begins" },
+    { "id": "nh-44", "label": "The old Delhi–Jammu–Srinagar highway that this expressway is built to relieve" },
+    { "id": "trans-haryana-expressway", "label": "Another new greenfield Haryana expressway crossing the same districts" },
+    { "id": "eastern-peripheral-expressway", "label": "The other half of the Delhi ring, linking traffic from the east onto this corridor" }
+  ],
+  "travelNotes": "Only parts of the route are open, so a Delhi–Katra trip today still means joining and leaving the old NH 44 in places — check which sections are running before you plan. The finished Haryana stretch is fast and very empty, but it runs through open farmland with few fuel pumps and food stops so far, so fill up before you get on. Pilgrim traffic peaks sharply around Navratri and the summer holidays, and winter fog can be thick across Haryana and Punjab in December and January.",
+  "futureUpgrades": [
+    "The full Delhi–Amritsar–Katra route is targeted for completion by 2027.",
+    "The Jammu & Kashmir packages between Hiranagar, Samba and Jammu are in the final stages of construction."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

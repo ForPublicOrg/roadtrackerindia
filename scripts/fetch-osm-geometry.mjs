@@ -216,8 +216,10 @@ for (const road of roads) {
       const line = stitch(segs)
       const km = lineLen(line)
       const ratio = km / road.lengthKm
-      if (ratio < 0.55 || ratio > 1.8) {
-        console.log(`  ~ ${road.id}: OSM match is ${Math.round(km)} km vs official ${road.lengthKm} km — skipping`)
+      // partial matches are worse than full-length waypoint lines — they
+      // truncate the road on the map, so demand near-complete coverage
+      if (ratio < 0.8 || ratio > 1.5) {
+        console.log(`  ~ ${road.id}: OSM match is ${Math.round(km)} km vs official ${road.lengthKm} km — skipping (partial/contaminated)`)
         continue
       }
       const coords = simplify(line, 0.03).map(([x, y]) => [

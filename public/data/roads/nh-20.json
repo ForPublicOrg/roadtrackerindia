@@ -6,6 +6,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 729,
+  "lanes": "Four lanes between Barhi, Hazaribagh, Ramgarh and Ranchi; two lanes on several other stretches",
+  "agency": "NHAI",
   "route": {
     "start": "Bakhtiyarpur, Bihar",
     "end": "Panikoili, Odisha",
@@ -21,13 +23,41 @@
       "Panikoili"
     ]
   },
-  "history": "NH 20 runs from Bakhtiyarpur on the Ganga in Bihar down to Panikoili in Odisha, crossing the hills and forests of the Chota Nagpur plateau on the way. It was created in the 2010 renumbering of national highways by joining older roads, including parts of the old NH 31, NH 33 and NH 215. The highway passes mining country around Koderma and Hazaribagh, the Jharkhand capital Ranchi, and the iron-ore district of Kendujhar before ending on the Kolkata–Chennai highway.",
+  "timeline": [
+    { "year": "2010", "event": "Given the number NH 20 in the national highway renumbering, joining parts of the old NH 31, NH 33 and NH 215" },
+    { "year": "2012", "event": "The four-lane Hazaribagh–Ramgarh–Ranchi section, often called the Ranchi–Hazaribagh Expressway, is completed" }
+  ],
+  "history": "NH 20 runs from Bakhtiyarpur on the Ganga in Bihar down to Panikoili in Odisha, crossing the hills and forests of the Chota Nagpur plateau on the way. It was created in the 2010 renumbering of national highways by joining older roads, including parts of the old NH 31, NH 33 and NH 215. South of Nawada the road leaves the flat Ganga plains and climbs the Rajauli ghat onto the plateau, entering mining country around Koderma and Hazaribagh. The busiest and best-built part is the four-lane stretch from Barhi through Hazaribagh and Ramgarh to Ranchi, finished in 2012 with a bypass at Hazaribagh town. Beyond Ranchi the highway threads through Chandil, Chaibasa and the iron-ore hills of Kendujhar before ending on NH 16, the Kolkata–Chennai coastal highway.",
   "facts": [
     "About 729 km long, crossing Bihar, Jharkhand and Odisha.",
     "Meets the historic Grand Trunk Road corridor at Barhi in Jharkhand.",
     "Ranchi, the capital of Jharkhand, is the biggest city on the route.",
     "Passes the famous Maa Tarini temple at Ghatagaon in Odisha.",
-    "Ends at Panikoili on NH 16, the Kolkata–Chennai coastal highway."
+    "Ends at Panikoili on NH 16, the Kolkata–Chennai coastal highway.",
+    "The Barhi–Hazaribagh–Ramgarh–Ranchi stretch is a four-lane road widely known as the Ranchi–Hazaribagh Expressway.",
+    "It runs through two famous mineral belts — the mica mines around Koderma and the iron-ore hills of Kendujhar.",
+    "The Rajauli ghat, south of Nawada, is where the road climbs off the Ganga plains onto the Chota Nagpur plateau."
+  ],
+  "significance": "NH 20 is the main road link between the crowded Ganga plains of Bihar and the mineral belt of Jharkhand and Odisha. Trucks carrying iron ore, coal and mica use it every day, and it gives central Bihar its most direct road to Ranchi and onward to the Odisha coast. For the many small hill and forest towns along the way it is the only proper all-weather road they have.",
+  "engineering": [
+    { "name": "Rajauli ghat", "note": "the winding climb south of Nawada where the highway leaves the plains and rises onto the Chota Nagpur plateau" },
+    { "name": "Hazaribagh–Ranchi four-lane section", "note": "built between 2009 and 2012, with a four-lane bypass around Hazaribagh town" }
+  ],
+  "interchanges": [
+    { "name": "Barhi", "note": "junction with NH 19, the Grand Trunk Road between Delhi and Kolkata" },
+    { "name": "Ranchi", "note": "Jharkhand's capital and the biggest city on the route; the four-lane road from Hazaribagh ends here" },
+    { "name": "Chandil", "note": "junction where the road toward Jamshedpur branches off" },
+    { "name": "Panikoili", "note": "southern end, on NH 16 — the Kolkata–Chennai coastal highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-19", "label": "The Grand Trunk Road, crossed at Barhi in Jharkhand" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway, where NH 20 ends at Panikoili" },
+    { "id": "nh-22", "label": "The other main Bihar-to-Jharkhand highway, running down the western side through Patna and Gaya" }
+  ],
+  "travelNotes": "End to end is a long 14–16 hour drive, so most people break the journey at Ranchi, which sits roughly halfway. The plateau stretches through Koderma, Chandil and Kendujhar are hilly, forested and thinly settled, and local drivers prefer to cover them in daylight. Truck traffic from the mines is heaviest between Kendujhar and Panikoili. The monsoon, from June to September, brings mist and slippery ghat bends; October to February is the pleasant season.",
+  "futureUpgrades": [
+    "The Bakhtiyarpur–Rajauli stretch in Bihar is being four-laned by NHAI in several packages.",
+    "The Kendujhar–Panikoili stretch in Odisha is also being four-laned."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

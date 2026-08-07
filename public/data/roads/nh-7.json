@@ -8,6 +8,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 845,
+  "lanes": "Mostly 2–4 lanes; the Uttarakhand hill section is being widened to a double lane with paved shoulders",
   "route": {
     "start": "Fazilka, Punjab",
     "end": "Mana, Uttarakhand",
@@ -18,13 +19,39 @@
     { "year": "2010", "event": "New NH 7 created in the national highway renumbering, joining several older highways" },
     { "year": "2016", "event": "Char Dham all-weather road project launched, covering the Rishikesh–Mana hill stretch" }
   ],
-  "history": "NH 7 stretches from Fazilka on the India–Pakistan border all the way to Mana near the India–Tibet border. It first crosses the flat cotton and wheat country of Punjab through Bathinda and Patiala, touches the edge of the Shivalik hills, and passes Paonta Sahib to reach Dehradun and Rishikesh. From Rishikesh it climbs the valley of the Alaknanda river, past a chain of sacred river meeting points, up to the temple town of Badrinath and the village of Mana.",
+  "history": "NH 7 stretches from Fazilka on the India–Pakistan border all the way to Mana near the India–Tibet border. It first crosses the flat cotton and wheat country of Punjab through Bathinda and Patiala, touches the edge of the Shivalik hills, and passes Paonta Sahib to reach Dehradun and Rishikesh. From Rishikesh it climbs the valley of the Alaknanda river, past a chain of sacred river meeting points, up to the temple town of Badrinath and the village of Mana. The number is new but the road is old: the mountain part follows a pilgrim path that people have walked to Badrinath for centuries, and the plains part was stitched together in 2010 from the former NH 64, NH 72 and NH 58. Since 2016 the hill stretch has been rebuilt under the Char Dham all-weather road project, which widens the carriageway and adds bridges, bypasses and slope protection so the shrines can be reached in every season. The work has been slow and argued over in court, because cutting into these young, crumbly Himalayan slopes can trigger landslides.",
   "facts": [
     "Ends at Mana, often called India's 'first village', close to the Tibet border.",
     "Passes Devprayag, where the Alaknanda and Bhagirathi rivers join and take the name Ganga.",
     "The hill stretch passes all five sacred river confluences of the Alaknanda, known as the Panch Prayag.",
     "Leads to Badrinath, one of the four Char Dham pilgrimage shrines.",
-    "Both its ends are near international borders: Pakistan in the west and Tibet (China) in the east."
+    "Both its ends are near international borders: Pakistan in the west and Tibet (China) in the east.",
+    "It climbs from flat Punjab farmland barely 200 m above the sea to over 3,000 m at Mana.",
+    "The stretch above Joshimath usually closes for winter, when the Badrinath temple shuts for about six months.",
+    "It is one of the highways being rebuilt under the Char Dham all-weather road project."
+  ],
+  "significance": "NH 7 is one of India's great pilgrimage roads: every summer lakhs of people travel its upper half to Badrinath, and the towns along the Alaknanda live off that traffic. It is also a strategic road — beyond Joshimath it heads toward the Tibet border, so the army depends on it — and for the villages of Garhwal it is the only link to hospitals, schools and markets down in the valley.",
+  "engineering": [
+    { "name": "Rishikesh–Mana mountain section", "note": "about 300 km of hill road along the Alaknanda, being widened under the Char Dham all-weather road project with new bridges, bypasses and slope protection" },
+    { "name": "Devprayag cliff section", "note": "the road clings to a rock face high above the point where the Bhagirathi and Alaknanda meet and become the Ganga" }
+  ],
+  "interchanges": [
+    { "name": "Rajpura, Punjab", "note": "crosses NH 44, the Delhi–Ambala–Ludhiana trunk route" },
+    { "name": "Zirakpur, Punjab", "note": "meets NH 5 heading up to Shimla, on the edge of Chandigarh" },
+    { "name": "Dehradun, Uttarakhand", "note": "the Delhi–Dehradun Expressway ends here and feeds traffic onto NH 7" },
+    { "name": "Rishikesh, Uttarakhand", "note": "the gateway town where the Char Dham roads separate; NH 7 takes the Badrinath arm up the Alaknanda" },
+    { "name": "Rudraprayag, Uttarakhand", "note": "the road to Kedarnath branches off here up the Mandakini valley" },
+    { "name": "Joshimath, Uttarakhand", "note": "last big town before Badrinath; a separate hill road climbs from here toward the Niti valley" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Starts from the same border town of Fazilka and also ends in the Uttarakhand hills" },
+    { "id": "delhi-dehradun-expressway", "label": "Feeds Delhi traffic straight into NH 7 at Dehradun" },
+    { "id": "nh-44", "label": "Crossed at Rajpura in Punjab" },
+    { "id": "nh-5", "label": "Met near Zirakpur, heading the other way into Himachal Pradesh" }
+  ],
+  "travelNotes": "The mountain half is the part most people drive: Rishikesh to Badrinath is about 300 km but takes 10–12 hours because of hairpins, narrow bits and traffic. The pilgrim season runs roughly May to October, when the Badrinath temple is open; May–June and September are busiest. Avoid the July–August monsoon, when landslides and rockfall can shut the road for hours or days, and do not plan night driving in the hills. Fuel and food stops cluster at Srinagar, Rudraprayag, Chamoli and Joshimath, so fill up in the towns rather than between them.",
+  "futureUpgrades": [
+    "The Char Dham all-weather road project continues to widen and stabilise the Rishikesh–Mana stretch in phases."
   ],
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },

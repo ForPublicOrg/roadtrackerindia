@@ -8,6 +8,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 462,
+  "agency": "NHAI",
   "route": {
     "start": "Harpalpur, Madhya Pradesh",
     "end": "Varanasi, Uttar Pradesh",
@@ -21,13 +22,40 @@
       "Varanasi"
     ]
   },
-  "history": "NH 35 connects the Bundelkhand region with the holy cities of Prayagraj and Varanasi. Starting at Harpalpur in Madhya Pradesh, it passes Mahoba, Banda and the pilgrimage town of Chitrakoot, then crosses the Yamuna into Prayagraj and continues past Mirzapur to Varanasi. Parts of it were counted in the old NH 76 and the old NH 7 before the highways were renumbered.",
+  "timeline": [
+    { "year": "2010", "event": "Formed in the national highway renumbering from parts of the old NH 76 and NH 7" },
+    { "year": "2022", "event": "The Bundelkhand Expressway opens, starting from this highway near Bharatkoop in Chitrakoot district" }
+  ],
+  "history": "NH 35 connects the Bundelkhand region with the holy cities of Prayagraj and Varanasi. Starting at Harpalpur in Madhya Pradesh, it runs east past Mahoba and Kabrai — where it meets NH 34 — and on through Banda and the pilgrimage town of Chitrakoot. Beyond Chitrakoot it crosses the Yamuna to reach Prayagraj, then keeps to the higher, southern side of the Ganga through Mirzapur before ending at Varanasi on NH 19. Parts of it were counted in the old NH 76 and the old NH 7 before the highways were renumbered in 2010. Since 2022 the highway has also been the starting point of the 296 km Bundelkhand Expressway, which leaves it near Bharatkoop in Chitrakoot district and runs north-west to Etawah.",
   "facts": [
     "Connects three famous pilgrimage places: Chitrakoot, Prayagraj and Varanasi.",
     "About 462 km long, running mostly inside Uttar Pradesh.",
     "The Varanasi–Mirzapur stretch was the first leg of the old NH 7, once India's longest highway.",
-    "An extension west towards Khajuraho in Madhya Pradesh has been proposed."
+    "The Bundelkhand Expressway begins on this highway near Bharatkoop in Chitrakoot district.",
+    "Its western half meets NH 34 at Kabrai; its eastern end meets NH 19 in Varanasi.",
+    "Mirzapur, on the route, is known for hand-knotted carpets and for the Vindhyachal temple.",
+    "Kabrai, in Mahoba district, is a busy stone-quarrying town whose granite moves out along this road.",
+    "Prayagraj on the route holds the Magh Mela every year and the Kumbh Mela every twelve years."
   ],
+  "significance": "NH 35 is Bundelkhand's road to the Ganga. It carries pilgrims to Chitrakoot, Prayagraj, Vindhyachal and Varanasi, and it carries stone and granite out of the quarries around Mahoba and Kabrai. For a dry, poor region with few big roads, it is the main link to the cities of eastern Uttar Pradesh.",
+  "interchanges": [
+    { "name": "Kabrai (near Mahoba)", "note": "meets NH 34, the Gangotri–Lakhnadon highway" },
+    { "name": "Bharatkoop, Chitrakoot", "note": "the Bundelkhand Expressway starts from the highway here" },
+    { "name": "Prayagraj", "note": "meets NH 19 and NH 30 at the city where the Ganga and Yamuna join" },
+    { "name": "Varanasi", "note": "the eastern end, on NH 19" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-34", "label": "The Gangotri–Lakhnadon highway, met at Kabrai near Mahoba" },
+    { "id": "nh-19", "label": "The Delhi–Kolkata highway, which NH 35 ends on at Varanasi" },
+    { "id": "nh-30", "label": "The Sitarganj–Vijayawada highway, met at Prayagraj" },
+    { "id": "bundelkhand-expressway", "label": "The expressway to Etawah, which begins on this road near Bharatkoop" },
+    { "id": "ganga-expressway", "label": "The new Meerut–Prayagraj expressway, which comes to an end at Prayagraj" }
+  ],
+  "travelNotes": "Prayagraj is the thing to plan around: the Magh Mela in January and February, and the Kumbh every twelve years, bring huge crowds and traffic restrictions for weeks. Chitrakoot gets very busy on new-moon days, when pilgrims come to walk around the Kamadgiri hill. Bundelkhand is punishingly hot from April to June, so early-morning driving is far easier, and the road is at its best from October to March.",
+  "futureUpgrades": [
+    "The highway is being extended west from Harpalpur towards Khajuraho in Madhya Pradesh."
+  ],
+  "newsQuery": "\"NH 35\" Uttar Pradesh",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

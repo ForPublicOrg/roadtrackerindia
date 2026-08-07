@@ -7,6 +7,7 @@
   "status": "operational",
   "lengthKm": 502,
   "lanes": "4 lanes between Jaipur and Agra; narrower beyond Agra",
+  "agency": "NHAI",
   "route": {
     "start": "Jaipur, Rajasthan",
     "end": "Bareilly, Uttar Pradesh",
@@ -21,13 +22,37 @@
       "Bareilly"
     ]
   },
-  "history": "NH 21 connects Jaipur, the capital of Rajasthan, with Bareilly in Uttar Pradesh, passing through Agra on the way. Its busy western half between Jaipur and Agra was the famous old NH 11, and the 2010 renumbering joined it with the road onward through Kasganj and Budaun. The highway links three very well-known tourist cities: Jaipur, Bharatpur and Agra.",
+  "history": "NH 21 connects Jaipur, the capital of Rajasthan, with Bareilly in Uttar Pradesh, passing through Agra on the way. Its busy western half between Jaipur and Agra was the famous old NH 11, and the 2010 renumbering joined it with the road onward through Kasganj and Budaun. That western half is the road most visitors take on the Golden Triangle circuit, linking three well-known tourist cities — Jaipur, Bharatpur and Agra. East of Agra the character changes completely: the highway narrows, crosses the Ganga at Kachhla and runs through sugarcane and wheat country to Bareilly. Because it meets NH 44, NH 19 and the Yamuna Expressway at Agra, it is also a useful feeder between Rajasthan and the expressway network around Delhi.",
   "facts": [
     "About 502 km long, from Jaipur to Bareilly via Agra.",
     "Passes close to Keoladeo National Park, the famous bird sanctuary at Bharatpur.",
     "Connects two heritage cities, Jaipur and Agra, home of the Taj Mahal.",
-    "Crosses the Ganga between Kasganj and Budaun."
+    "Crosses the Ganga on the Kachhla bridge between Kasganj and Budaun.",
+    "The Jaipur–Agra half was the old NH 11 and is one of Rajasthan's busiest tourist routes.",
+    "At Agra it meets NH 44 and NH 19 and the southern end of the Yamuna Expressway.",
+    "Bareilly, at the eastern end, is the main road hub of the Rohilkhand region of Uttar Pradesh."
   ],
+  "significance": "NH 21 is the road version of the Golden Triangle's Jaipur–Agra leg, carrying tourist buses, taxis and freight between Rajasthan's capital and the city of the Taj Mahal. East of Agra it turns into a working farm-country road, moving sugarcane, grain and milk from the Ganga plains toward Bareilly. It also stitches Rajasthan into the expressway network around Delhi, because everything it meets at Agra leads somewhere big.",
+  "engineering": [
+    { "name": "Kachhla bridge", "note": "carries the highway over the Ganga between Kasganj and Budaun" }
+  ],
+  "interchanges": [
+    { "name": "Jaipur", "note": "western end, on NH 48 — the Delhi–Jaipur–Ahmedabad–Mumbai highway" },
+    { "name": "Dausa", "note": "the Delhi–Mumbai Expressway's first section runs to this area" },
+    { "name": "Bharatpur", "note": "town junction and the road to Keoladeo National Park" },
+    { "name": "Agra", "note": "crosses NH 44 and NH 19 and meets the southern end of the Yamuna Expressway" },
+    { "name": "Bareilly", "note": "eastern end, meeting NH 30, the Bareilly–Lucknow–Prayagraj highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Delhi–Jaipur–Mumbai highway, met at Jaipur" },
+    { "id": "delhi-mumbai-expressway", "label": "Its first section runs from Delhi to the Dausa–Lalsot area, beside NH 21's Dausa stretch" },
+    { "id": "nh-44", "label": "India's longest highway, crossed at Agra" },
+    { "id": "nh-19", "label": "The Agra–Kanpur–Kolkata highway, met at Agra" },
+    { "id": "yamuna-expressway", "label": "The Delhi–Agra expressway, whose southern end is at Agra" },
+    { "id": "ganga-expressway", "label": "The new Meerut–Prayagraj expressway, which crosses this part of Uttar Pradesh through Budaun district" },
+    { "id": "nh-30", "label": "The Bareilly–Lucknow–Prayagraj highway, met at NH 21's eastern end in Bareilly" }
+  ],
+  "travelNotes": "Jaipur to Agra is about 240 km and takes four to five hours on a mostly four-lane road — the classic Golden Triangle drive, busiest at weekends and in the October–March tourist season. East of Agra the highway narrows and passes through many small towns, so allow more time than the distance suggests. Thick fog in December and January can cut visibility badly on the Uttar Pradesh stretch. Dhabas and fuel are plentiful between Jaipur and Agra, much thinner between Kasganj and Budaun.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

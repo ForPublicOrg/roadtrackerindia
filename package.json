@@ -6,8 +6,9 @@
   "description": "RoadTracker India — a map-first encyclopedia of Indian roads",
   "scripts": {
     "data": "node scripts/build-data.mjs",
+    "news": "node scripts/fetch-news.mjs",
     "dev": "npm run data && vite",
-    "build": "npm run data && vite build && node scripts/gen-pages.mjs",
+    "build": "npm run data && node scripts/fetch-news.mjs && vite build && node scripts/gen-pages.mjs",
     "preview": "vite preview --port 4173 --strictPort",
     "fetch-geometry": "node scripts/fetch-osm-geometry.mjs"
   },

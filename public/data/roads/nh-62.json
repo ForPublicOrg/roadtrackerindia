@@ -6,18 +6,39 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 748,
+  "lanes": "Mix of 2-lane and 4-lane sections",
   "route": {
     "start": "Abohar, Punjab",
     "end": "Pindwara, Rajasthan",
     "states": ["Punjab", "Rajasthan"],
     "majorCities": ["Abohar", "Sri Ganganagar", "Bikaner", "Nagaur", "Jodhpur", "Pali", "Sirohi"]
   },
-  "history": "NH 62 runs down western Rajasthan from the Punjab border to the edge of the Aravalli hills. Starting at Abohar in Punjab, it passes through the canal country of Sri Ganganagar, the desert city of Bikaner, the fort city of Jodhpur and the trading town of Pali before ending at Pindwara on NH 27. For towns along the edge of the Thar desert it is the main road link to the rest of India.",
+  "history": "NH 62 runs down western Rajasthan from the Punjab border to the edge of the Aravalli hills. Starting at Abohar in Punjab, it passes through the canal country of Sri Ganganagar, the desert city of Bikaner, the fort city of Jodhpur and the trading town of Pali before ending at Pindwara on NH 27. For towns along the edge of the Thar desert it is the main road link to the rest of India. Its northern half was part of the old NH 15, the long border highway that once ran from Pathankot all the way to Kandla, before the renumbering broke that route into pieces. The landscape changes steadily as you go south — irrigated fields fed by canals near Sri Ganganagar, open sand and scrub around Bikaner and Nagaur, then rocky Aravalli country by the time the road reaches Sirohi and Pindwara.",
   "facts": [
     "At about 748 km, it is one of the longest highways lying almost entirely in Rajasthan.",
     "Passes Deshnoke, home of the Karni Mata temple, famous for its sacred rats.",
     "Links the desert cities of Sri Ganganagar, Bikaner, Nagaur and Jodhpur in a single line.",
-    "Starts on NH 7 at Abohar and ends on the east–west NH 27 at Pindwara."
+    "Starts on NH 7 at Abohar and ends on the east–west NH 27 at Pindwara.",
+    "Runs along the eastern edge of the Thar desert for much of its length.",
+    "The Sri Ganganagar area it crosses is canal-irrigated farmland, in sharp contrast to the sand dunes further south.",
+    "Ends near the Aravalli hills at Pindwara, the usual road turn-off for Mount Abu."
+  ],
+  "significance": "NH 62 is the main north–south road of western Rajasthan and the one line that ties the desert districts together. It carries guar, mustard, cotton and Kinnow oranges from the canal belt, marble and sandstone from around Jodhpur and Pali, and cement from Rajasthan's many desert plants. It also matters to the army and the Border Security Force, because it feeds the roads running west towards the India–Pakistan border.",
+  "interchanges": [
+    { "name": "Abohar", "note": "the northern end, on NH 7 in Punjab" },
+    { "name": "Sri Ganganagar", "note": "the main town of Rajasthan's canal country, with roads west towards the border" },
+    { "name": "Bikaner", "note": "a big desert crossroads, with highways heading off to Jaisalmer, Jaipur and Jodhpur" },
+    { "name": "Jodhpur", "note": "western Rajasthan's largest city; roads branch here for Jaipur, Barmer and Jaisalmer" },
+    { "name": "Pindwara", "note": "the southern end, on NH 27, close to the road up to Mount Abu" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-7", "label": "The Punjab highway NH 62 starts from, at Abohar" },
+    { "id": "nh-54", "label": "The Pathankot–Hanumangarh highway, which ends on NH 62 at Kenchiya" },
+    { "id": "nh-27", "label": "The Porbandar–Silchar East–West Corridor, which NH 62 ends on at Pindwara" }
+  ],
+  "travelNotes": "This is classic desert driving — long, straight, empty roads where you can cover ground quickly, but with fuel pumps and dhabas spaced far apart, so fill up in the bigger towns. Carry plenty of water: temperatures regularly pass 45°C in May and June, and the best months to drive are October to March. Watch for camel carts, cattle and goat herds crossing without warning, and for blown sand on the road after windy days. Bikaner is the usual overnight stop if you are splitting the run into two days.",
+  "futureUpgrades": [
+    "Four-laning of the Bikaner–Nagaur section has been approved by the Ministry of Road Transport & Highways."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

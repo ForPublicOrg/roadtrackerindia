@@ -10,6 +10,7 @@
   "status": "operational",
   "lengthKm": 1781,
   "lanes": "Mostly 4 lanes, with some narrower stretches",
+  "agency": "NHAI",
   "route": {
     "start": "Hajira (Surat), Gujarat",
     "end": "Paradip, Odisha",
@@ -36,14 +37,33 @@
   "timeline": [
     { "year": "2010s", "event": "Created in the national highway renumbering, mainly from the old NH 6 plus stretches of NH 200 and NH 5A" }
   ],
-  "history": "NH 53 is a true coast-to-coast highway: it starts at Hajira port near Surat on the Arabian Sea and ends at Paradip port on the Bay of Bengal. Most of it was the old NH 6, the classic Surat–Nagpur–Kolkata road, but the new number turns east of Sambalpur towards Talcher and Paradip instead of heading to Kolkata. On the way it crosses the cotton and orange country of Vidarbha, the steel city of Bhilai-Durg and the coalfields around Talcher.",
+  "history": "NH 53 is a true coast-to-coast highway: it starts at Hajira port near Surat on the Arabian Sea and ends at Paradip port on the Bay of Bengal. Most of it was the old NH 6, the classic Surat–Nagpur–Kolkata road, but the new number turns east of Sambalpur towards Talcher and Paradip instead of heading to Kolkata. On the way it crosses the cotton and orange country of Vidarbha, the steel city of Bhilai-Durg and the coalfields around Talcher. Because it joins a port at each end and passes through India's mineral and steel belt, it is one of the country's heaviest freight roads, and the Gujarat, Maharashtra and Chhattisgarh sections were four-laned early. The Odisha hill portion between Deogarh and Talcher is the narrowest and quietest part of the whole route.",
   "facts": [
     "Connects two major ports on opposite coasts of India — Hajira on the Arabian Sea and Paradip on the Bay of Bengal.",
     "About 1,781 km long, crossing Gujarat, Maharashtra, Chhattisgarh and Odisha.",
     "Passes through Nagpur, whose Zero Mile marker was long treated as the centre of India.",
     "Serves the Bhilai steel plant near Durg and the Talcher coalfields in Odisha.",
-    "Mostly follows the route of the famous old NH 6."
+    "Mostly follows the route of the famous old NH 6.",
+    "Its western end at Hajira sits inside one of India's biggest industrial port areas, with steel, gas and petrochemical plants.",
+    "Akola, Amravati and Nagpur along the route are the heart of Vidarbha's cotton and orange country."
   ],
+  "significance": "NH 53 is the freight spine of central India. Coal from Talcher and Korba, steel from Bhilai and Rourkela, cement, cotton and containers all move along it between the eastern mineral belt and the industrial ports of Gujarat, which is why it is one of the busiest truck routes in the country. It also gives landlocked Chhattisgarh and inland Maharashtra a direct road to the sea in both directions.",
+  "interchanges": [
+    { "name": "Surat", "note": "crosses NH 48, the Mumbai–Ahmedabad Golden Quadrilateral arm" },
+    { "name": "Dhule", "note": "crosses NH 52, the Sangrur–Ankola highway" },
+    { "name": "Nagpur", "note": "crosses NH 44, India's longest highway, at the country's traditional midpoint" },
+    { "name": "Raipur", "note": "crosses NH 30, the long north–south highway through Chhattisgarh" },
+    { "name": "Chandikhol", "note": "meets NH 16, the Kolkata–Chennai coastal highway, before the final run to Paradip port" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Mumbai–Ahmedabad corridor, crossed at Surat" },
+    { "id": "nh-52", "label": "The Sangrur–Ankola highway, crossed at Dhule" },
+    { "id": "nh-44", "label": "India's longest highway, crossed at Nagpur" },
+    { "id": "nh-30", "label": "Chhattisgarh's north–south highway, crossed at Raipur" },
+    { "id": "nh-16", "label": "The east coast highway, joined at Chandikhol near the Odisha end" },
+    { "id": "raipur-visakhapatnam-expressway", "label": "The new expressway that will give Raipur a second, southward road to a port" }
+  ],
+  "travelNotes": "End to end is roughly a three-day drive, and it feels like a truck road for most of that — expect long convoys of loaded trucks, especially between Nagpur and Raipur. The Gujarat and Maharashtra sections are the fastest; the Odisha hill stretch from Deogarh to Talcher is two-lane, thinly populated and best done in daylight. Dhabas are plentiful all along the Maharashtra and Chhattisgarh sections. Heavy monsoon rain from June to September can slow the Odisha and Vidarbha stretches.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

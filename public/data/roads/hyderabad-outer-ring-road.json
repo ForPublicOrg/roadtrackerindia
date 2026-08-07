@@ -2,7 +2,7 @@
   "id": "hyderabad-outer-ring-road",
   "ref": "Nehru Outer Ring Road",
   "name": "Hyderabad Outer Ring Road",
-  "aka": ["Nehru ORR", "Jawaharlal Nehru Outer Ring Road"],
+  "aka": ["Nehru ORR", "Jawaharlal Nehru Outer Ring Road", "ORR"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 158,
@@ -26,16 +26,40 @@
   "timeline": [
     { "year": "2006", "event": "Construction begins" },
     { "year": "2008", "event": "First stretch (Gachibowli–Shamshabad, about 22 km) opens" },
+    { "year": "2012", "event": "About 124 km of the ring is in use, including the airport and IT corridor sections" },
     { "year": "2018", "event": "The full 158 km ring becomes operational" },
     { "year": "2023", "event": "IRB Infrastructure takes over tolling and upkeep on a 30-year concession" }
   ],
-  "history": "The Nehru Outer Ring Road is a giant expressway circle around Hyderabad, built so that traffic can go around the city instead of through it. Work started in 2006, the first piece opened in 2008, and the whole 158 km loop was finished by 2018. It links the airport at Shamshabad with the IT hub at Gachibowli and the highways heading out of the city in every direction, and fast-growing suburbs have sprung up all along it.",
+  "history": "The Nehru Outer Ring Road is a giant expressway circle around Hyderabad, built so that traffic can go around the city instead of through it. Work started in 2006, the first piece opened in 2008, and about 124 km were in use by the end of 2012, but land problems held up the last gaps until the whole 158 km loop was finished in 2018. It links the airport at Shamshabad with the IT hub at Gachibowli and with the highways heading out of the city in every direction. Because it was built well outside the built-up area, whole new suburbs, factories and warehouses have grown up along it. In 2023 the state handed the tolling and upkeep to IRB Infrastructure for 30 years in one of India's biggest road deals.",
   "facts": [
     "One of India's largest completed ring expressways, at 158 km around.",
-    "8 lanes wide and fully access-controlled, with a design speed of 120 km/h.",
+    "8 lanes wide and fully access-controlled, with a design speed raised from 100 to 120 km/h.",
     "Connects Rajiv Gandhi International Airport at Shamshabad to the rest of the city.",
     "In 2023 the toll rights were handed to IRB Infrastructure for 30 years for about ₹7,380 crore — one of India's biggest road tolling deals.",
-    "Built by the Hyderabad Growth Corridor Ltd, a company set up by the city's development authority HMDA."
+    "Built by the Hyderabad Growth Corridor Ltd, a company set up by the city's development authority HMDA.",
+    "Toll is collected at the interchanges around the ring and charged by the distance you travel.",
+    "A 23 km cycling track called the Healthway runs beside part of the ring, roofed with solar panels — the first of its kind in India."
+  ],
+  "significance": "The ORR is the backbone of modern Hyderabad. It lets long-distance traffic skirt the city, gets people from anywhere in Hyderabad to the airport quickly, and gave the city a ready-made frame along which its IT offices, pharma plants and new townships have spread. Land beside it is some of the most sought-after in Telangana.",
+  "engineering": [
+    { "name": "Healthway solar cycling track", "note": "a 23 km cycle track alongside the ring near Nanakramguda, Narsingi and Kollur, covered by a roof of solar panels" },
+    { "name": "Grade-separated interchanges", "note": "every road that meets the ring crosses it on a flyover or underpass, so ring traffic never stops at a signal" }
+  ],
+  "interchanges": [
+    { "name": "Nanakramguda (Gachibowli)", "note": "gateway to the Financial District and the IT corridor" },
+    { "name": "Shamshabad", "note": "the Rajiv Gandhi International Airport exit, also reached from the city on the elevated PVNR Expressway" },
+    { "name": "Ghatkesar", "note": "the Warangal highway leaves the city here" },
+    { "name": "Kandlakoya (near Medchal)", "note": "junction with NH 44 heading north toward Nagpur and Delhi" },
+    { "name": "Patancheru", "note": "junction with NH 65, the road west toward Solapur, Pune and Mumbai" }
+  ],
+  "relatedRoads": [
+    { "id": "hyderabad-regional-ring-road", "label": "The much bigger second ring being built further out from the city" },
+    { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway, met on the ring's north and south sides" },
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, met on the ring's west and east sides" }
+  ],
+  "travelNotes": "Driving the full loop is about 158 km and takes roughly two hours, but almost nobody does the whole circle — most people use a slice of it to reach the airport or to skip across town. Tolling is by distance, so keep a working FASTag. The speed limit is high and the road is open, but service roads and slip lanes can be busy with local traffic, and winter mornings on the outer stretches can be foggy.",
+  "futureUpgrades": [
+    "New radial roads are planned to link the Outer Ring Road with the bigger Regional Ring Road being built further out."
   ],
   "sources": [
     { "title": "HMDA — Hyderabad Metropolitan Development Authority", "url": "https://www.hmda.gov.in/" },

@@ -3,11 +3,13 @@
   "ref": "NH 37",
   "name": "Badarpur–Imphal Highway",
   "aka": [
-    "National Highway 53 (old numbering)"
+    "National Highway 53 (old numbering)",
+    "Imphal–Jiribam Road"
   ],
   "category": "nh",
   "status": "operational",
   "lengthKm": 356,
+  "agency": "NHIDCL",
   "route": {
     "start": "Badarpur, Assam",
     "end": "Imphal, Manipur",
@@ -20,13 +22,36 @@
       "Imphal"
     ]
   },
-  "history": "NH 37 is one of Manipur's two road lifelines. It starts at Badarpur in Assam's Barak valley, passes the city of Silchar, and then climbs through the steep, forested hills of Manipur via Jiribam and Noney to reach Imphal. Before the highways were renumbered it was called NH 53, and it becomes the main supply route whenever the other road to Imphal, through Kohima, is blocked.",
+  "history": "NH 37 is one of Manipur's two road lifelines. It starts at Badarpur in Assam's Barak valley, passes the city of Silchar, and then climbs through the steep, forested hills of Manipur via Jiribam and Noney to reach Imphal. Before the highways were renumbered it was called NH 53, and it becomes the main supply route whenever the other road to Imphal, through Kohima, is blocked. For most of its life it was a narrow, rough hill road where a single landslide could cut Manipur off for days. In recent years the central government has been rebuilding the Imphal–Jiribam stretch into a wider all-weather highway, work being carried out by NHIDCL in several packages.",
   "facts": [
     "One of only two highway lifelines into Manipur's Imphal valley — the other is NH 2 through Kohima.",
     "Was NH 53 before the 2010 renumbering.",
     "Climbs from the flat Barak valley into steep hills, so the roughly 356 km journey is full of bends.",
-    "Runs broadly alongside the new Jiribam–Imphal railway, whose bridge near Noney has the world's tallest railway pier."
+    "Runs broadly alongside the new Jiribam–Imphal railway, whose bridge near Noney has the world's tallest railway pier.",
+    "The number NH 37 used to belong to a completely different road — the long highway along the Brahmaputra in Assam, which is now NH 715.",
+    "The 224 km Imphal–Jiribam stretch is being rebuilt by NHIDCL as a wider all-weather road, in several packages.",
+    "Landslides in the Nungba and Noney hills regularly block the road during the monsoon."
   ],
+  "significance": "Manipur is landlocked and mountainous, so almost everything the state uses — rice, cooking gas, medicines, cement — has to arrive by road. NH 37 is one of only two highways that can bring those trucks into the Imphal valley, and whenever the Kohima route is blocked it becomes the state's single lifeline.",
+  "engineering": [
+    { "name": "Barak valley to Imphal hill climb", "note": "the road leaves flat paddy country near Silchar and winds up through the Manipur hills, with long ghat sections around Nungba and Noney" },
+    { "name": "Jiri river crossing at Jiribam", "note": "the bridge here marks the Assam–Manipur border and the start of the hill section" }
+  ],
+  "interchanges": [
+    { "name": "Badarpur / Panchgram", "note": "west end — the highway runs with and leaves NH 6, the Jorabat–Shillong–Silchar–Aizawl highway, in this stretch" },
+    { "name": "Silchar", "note": "the eastern end of NH 27, the Porbandar–Silchar East–West Corridor, so goods from the rest of India are trans-shipped here" },
+    { "name": "Imphal", "note": "east end — meets NH 2, the highway on to Kohima and Dimapur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-2", "label": "The other lifeline into Imphal, coming from Dimapur through Kohima" },
+    { "id": "nh-27", "label": "The East–West Corridor, whose eastern end at Silchar feeds this highway" },
+    { "id": "nh-6", "label": "The Shillong–Silchar–Aizawl highway, met at Badarpur" }
+  ],
+  "travelNotes": "The Silchar–Imphal run is short on the map but rarely takes less than six hours, and in the monsoon landslides and slush can stretch it to eight or more. November to March is the good season; June to September is landslide season. Fuel, food and mobile signal all get thin between Jiribam and Imphal, so most drivers fill up before starting the hill climb and try to finish the mountain leg in daylight.",
+  "futureUpgrades": [
+    "NHIDCL is widening and rebuilding the Imphal–Jiribam section as an all-weather highway, package by package."
+  ],
+  "newsQuery": "\"NH 37\" Manipur",
   "sources": [
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

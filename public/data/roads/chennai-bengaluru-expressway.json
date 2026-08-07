@@ -8,6 +8,7 @@
   "lengthKm": 262,
   "lanes": "4 lanes, access-controlled (built for expansion later)",
   "agency": "NHAI",
+  "cost": "₹17,930 crore (approx.)",
   "route": {
     "start": "Hoskote, Karnataka",
     "end": "Sriperumbudur, Tamil Nadu",
@@ -24,18 +25,40 @@
   },
   "timeline": [
     { "year": "2021", "event": "Construction begins in packages across three states" },
-    { "year": "2024", "event": "The 71 km Karnataka stretch is completed and starts carrying traffic" },
+    { "year": "2024", "event": "The 71 km Karnataka stretch is completed in December and starts carrying traffic" },
     { "year": "2026", "event": "A 25 km stretch opens in Andhra Pradesh, taking the open length to about 100 km" },
     { "year": "2027", "event": "Full route targeted to open end to end" }
   ],
-  "history": "This is a brand-new expressway being built on a fresh path between Hoskote near Bengaluru and Sriperumbudur near Chennai, instead of widening the old highway. It crosses Karnataka, Andhra Pradesh and Tamil Nadu, and is designed so cars can travel fast without any crossings on the road. The Karnataka stretch opened first, but a delayed section in Tamil Nadu has pushed the full end-to-end opening to around 2027.",
+  "history": "This is a brand-new expressway being built on a fresh path between Hoskote near Bengaluru and Sriperumbudur near Chennai, instead of widening the old highway. Planners picked a completely new route because the old Bengaluru–Chennai highway, NH 48, threads through one town after another and can never be made free of crossings and traffic lights. The new road crosses Karnataka, Andhra Pradesh and Tamil Nadu, and is fenced so that vehicles can only get on or off at proper interchanges. The 71 km Karnataka stretch was finished first and opened in December 2024, followed by a stretch in Andhra Pradesh. Land purchase, forest clearances and a contract dispute on the Tamil Nadu packages have pushed the full end-to-end opening to around 2027.",
   "facts": [
     "Expected to cut the Bengaluru–Chennai drive to roughly 3 hours.",
     "A greenfield expressway — built on an entirely new alignment, not on top of the old road.",
     "Designed for speeds of up to 120 km/h.",
     "The 71 km Karnataka section was the first stretch to open to traffic.",
-    "Runs south of the old Bengaluru–Chennai highway through Kolar and Chittoor districts."
+    "Runs south of the old Bengaluru–Chennai highway through Kolar and Chittoor districts.",
+    "Built under the central government's Bharatmala road-building programme.",
+    "You can only join or leave at a handful of interchanges — there are no village crossings or U-turns in between.",
+    "Roughly 71 km of the route is in Karnataka, about 85 km in Andhra Pradesh and about 106 km in Tamil Nadu."
   ],
+  "significance": "This is the first proper expressway between two of south India's biggest cities — Bengaluru, India's technology capital, and Chennai, a huge port and car-making centre. Factories along the corridor at Hoskote, Chittoor and Sriperumbudur move parts and finished vehicles between the two cities every day, and a three-hour road link makes that far easier. It also gives the towns of Kolar and Chittoor districts, which today depend on the slow, congested old highway, a fast way into both metros.",
+  "interchanges": [
+    { "name": "Hoskote (Karnataka)", "note": "the Bengaluru end, where the expressway meets the highways out of the city and the Satellite Town Ring Road" },
+    { "name": "Bangarpet / Kolar Gold Fields", "note": "main exit for the Kolar district towns" },
+    { "name": "Chittoor (Andhra Pradesh)", "note": "the expressway's main access point in Andhra Pradesh" },
+    { "name": "Sriperumbudur (Tamil Nadu)", "note": "eastern end, joining NH 48 toward Chennai" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The old Bengaluru–Chennai highway that this expressway is meant to relieve" },
+    { "id": "chennai-peripheral-ring-road", "label": "Chennai's outer ring, which meets the expressway's eastern end near Sriperumbudur" },
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Bengaluru's outer orbital road, which passes the Hoskote end" },
+    { "id": "bangalore-mysore-expressway", "label": "The other big expressway out of Bengaluru, heading south-west to Mysuru" }
+  ],
+  "travelNotes": "Until the whole road opens, most drivers still use the old NH 48, which takes five to six hours. The finished Karnataka stretch from Hoskote toward the Kolar Gold Fields area has been free to use so far and is a quick way out of east Bengaluru. Like most new expressways, it has very few fuel pumps and food stops so far, so fill up and eat before you get on, and remember there are no U-turns between interchanges.",
+  "futureUpgrades": [
+    "The four-lane carriageway sits on land wide enough to add more lanes as traffic grows.",
+    "A six-lane elevated corridor is planned from Sriperumbudur to Maduravoyal on the edge of Chennai, so expressway traffic can reach the city and the port; the first stretch, Maduravoyal to Poonamallee, has been put out to tender."
+  ],
+  "newsQuery": "\"Bengaluru-Chennai Expressway\"",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

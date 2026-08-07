@@ -2,11 +2,14 @@
   "id": "agra-lucknow-expressway",
   "ref": "Agra–Lucknow Expressway",
   "name": "Agra–Lucknow Expressway",
+  "aka": ["Lucknow–Agra Expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 302,
   "lanes": "6 lanes, access-controlled (expandable to 8)",
   "agency": "UPEIDA",
+  "cost": "₹11,527 crore (excluding the cost of land)",
+  "contractor": "Built in five packages by contractors including Larsen & Toubro, Afcons Infrastructure, PNC Infratech and Nagarjuna Construction Company",
   "route": {
     "start": "Agra (Inner Ring Road), Uttar Pradesh",
     "end": "Lucknow, Uttar Pradesh",
@@ -14,20 +17,51 @@
     "majorCities": ["Agra", "Firozabad", "Etawah", "Kannauj", "Bangarmau", "Lucknow"]
   },
   "timeline": [
-    { "year": "2014", "event": "Construction begins" },
-    { "year": "2016", "event": "Inaugurated in November; air force fighter jets land on the expressway's airstrip" },
-    { "year": "2017", "event": "Fully opened to the public" }
+    { "year": "2014", "event": "Foundation stone laid on 23 November" },
+    { "year": "2015", "event": "Construction begins in the January–March quarter" },
+    { "year": "2016", "event": "Inaugurated on 21 November; air force fighter jets land on the expressway's airstrip" },
+    { "year": "2017", "event": "Fully opened to the public" },
+    { "year": "2022", "event": "The Bundelkhand Expressway opens and joins it near Etawah" }
   ],
-  "history": "The Agra–Lucknow Expressway was built by UPEIDA to give Uttar Pradesh's capital, Lucknow, a fast link to Agra and onward to Delhi. Work started in 2014 and the road was ready in about two years, which was very fast for a project of this size. It was inaugurated in November 2016, when air force fighter jets landed on a special straight stretch of the road, and it fully opened to the public in 2017.",
+  "history": "The Agra–Lucknow Expressway was built by UPEIDA to give Uttar Pradesh's capital, Lucknow, a fast link to Agra and onward to Delhi. Before it existed, the drive meant crawling through dozens of towns on the old highway and took the better part of a day. The foundation stone was laid in November 2014, building started early in 2015 and the road was ready in about two years, which was very fast for a project of this size, and it was paid for by the state rather than by a private toll company. It was inaugurated on 21 November 2016, when air force fighter jets landed on a special straight stretch of the road, and it fully opened to the public in 2017. Because it is built six lanes wide with every bridge and underpass already sized for eight, the state can widen it later without rebuilding the structures. It quickly became the spine of a growing expressway network in Uttar Pradesh, with the Bundelkhand Expressway joining it near Etawah in 2022.",
   "facts": [
     "At 302 km, it was India's longest expressway when it opened.",
     "Built in about 23 months — one of the fastest expressway builds in India.",
-    "Has a 3.3 km airstrip stretch near Bangarmau in Unnao district, used by air force fighter jets for practice landings.",
-    "Meets the Yamuna Expressway at Agra, so you can drive from Greater Noida to Lucknow entirely on expressways.",
-    "The Bundelkhand Expressway joins it near Etawah."
+    "Has an airstrip stretch of about 3 km near Bangarmau in Unnao district, used by air force fighter jets for emergency and practice landings.",
+    "Links to the Yamuna Expressway through the Agra Inner Ring Road, so you can drive from Greater Noida to Lucknow almost entirely on expressways.",
+    "The Bundelkhand Expressway joins it near Etawah, and the Ganga Expressway meets it at Bangarmau.",
+    "Every bridge and underpass was built wide enough for eight lanes from day one.",
+    "Emergency call boxes are placed roughly every 4 km along the route.",
+    "It has four wayside amenity complexes with fuel, food and toilets."
+  ],
+  "significance": "This is the road that pulled central Uttar Pradesh into a day-trip distance of Delhi. Farmers, factories and traders in Etawah, Kannauj and Unnao can now reach Delhi's markets and airports in a single drive, and it is the backbone that every newer UP expressway — Bundelkhand, Purvanchal and Ganga — plugs into.",
+  "engineering": [
+    { "name": "Bangarmau airstrip", "note": "a dead-straight, extra-strong stretch of about 3 km in Unnao district where air force fighter jets can land in an emergency" }
+  ],
+  "interchanges": [
+    { "name": "Agra (Inner Ring Road)", "note": "the western end — the Inner Ring Road carries traffic on to the Yamuna Expressway for Greater Noida and Delhi, and to NH 19" },
+    { "name": "Kudrail (near Etawah)", "note": "the Bundelkhand Expressway starts here and heads south to Chitrakoot" },
+    { "name": "Kannauj", "note": "exit for the perfume city and for Kanpur" },
+    { "name": "Bangarmau (Unnao)", "note": "the interchange where the new Ganga Expressway meets this road" },
+    { "name": "Lucknow (near Kakori)", "note": "the eastern end — joins Lucknow's outer ring road, which carries traffic on to the Purvanchal Expressway" }
+  ],
+  "relatedRoads": [
+    { "id": "yamuna-expressway", "label": "Joined to this road by the Agra Inner Ring Road — together they make a near-continuous expressway run from Greater Noida to Lucknow" },
+    { "id": "bundelkhand-expressway", "label": "Branches south from this road near Etawah toward Chitrakoot" },
+    { "id": "ganga-expressway", "label": "Meets this road at Bangarmau in Unnao district" },
+    { "id": "purvanchal-expressway", "label": "Carries on from the Lucknow area eastward to Ghazipur" },
+    { "id": "lucknow-kanpur-expressway", "label": "The short new expressway from Lucknow to Kanpur, also known as the Awadh Expressway" },
+    { "id": "nh-19", "label": "The old Delhi–Agra–Kanpur highway that this expressway replaced for long-distance traffic" }
+  ],
+  "travelNotes": "The full run takes a little over three hours at the 100 km/h car speed limit. It is a toll road — a car pays roughly ₹650 end to end, and rates are revised from time to time. Fuel and food are only at the four amenity complexes, so top up before you start rather than hoping for a pump. Winter fog between December and February is the main hazard and can badly cut visibility in the early morning; the road is otherwise fine year round.",
+  "futureUpgrades": [
+    "UPEIDA has approved widening the whole 302 km from 6 lanes to 8 lanes.",
+    "A new six-lane link expressway of about 50 km is planned to connect this road directly with the Purvanchal Expressway.",
+    "More cameras and speed-monitoring equipment are being added after a rise in crashes."
   ],
   "sources": [
-    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" }
+    { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" },
+    { "title": "UPEIDA — Agra–Lucknow Expressway project page", "url": "https://upeida.up.gov.in/en/page/agra-lucknow-expressway" }
   ],
   "waypoints": [
     { "name": "Agra (Inner Ring Road)", "coords": [78.115, 27.205] },

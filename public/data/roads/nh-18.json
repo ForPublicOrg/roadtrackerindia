@@ -23,13 +23,31 @@
       "Balasore"
     ]
   },
-  "history": "NH 18 is the highway of India's coal and steel country. From Koderma in Jharkhand it passes Giridih, the coal capital Dhanbad, the steel cities of Bokaro and Jamshedpur, and the hills of Purulia in West Bengal, before dropping down through Baripada to Balasore near the Odisha coast. Most of it was made up of the old NH 32, NH 33 and NH 5 before the highways were renumbered.",
+  "history": "NH 18 is the highway of India's coal and steel country. From Koderma in Jharkhand, where it leaves NH 20, it passes Giridih, the coal capital Dhanbad, the steel cities of Bokaro and Jamshedpur, and the hills of Purulia in West Bengal, before dropping down through Baripada to Balasore near the Odisha coast. Most of it was made up of the old NH 32, NH 33 and NH 5 before the highways were renumbered. On the way it crosses the Grand Trunk Road at Govindpur near Dhanbad and meets NH 49 at Baharagora, and it finishes on NH 16, the big east-coast highway. Because it is the shortest road route from Jharkhand's mines and steel plants to the Odisha coast, it is busy with heavy lorries all day and most of the night.",
   "facts": [
     "Serves India's coal and steel heartland: Dhanbad, Bokaro and Jamshedpur all lie on it.",
     "Made from the old NH 32 plus parts of the old NH 33 and NH 5.",
     "Crosses from Jharkhand into West Bengal's Purulia district and back into Jharkhand before ending in Odisha.",
-    "Ends near Balasore, close to Chandipur beach, where the sea goes out several kilometres at low tide."
+    "Ends near Balasore, close to Chandipur beach, where the sea goes out several kilometres at low tide.",
+    "Begins at Koderma, a town long famous for its mica mines.",
+    "Crosses the Grand Trunk Road (NH 19) at Govindpur, just outside Dhanbad.",
+    "Passes Baripada, the gateway town for Simlipal, one of India's biggest tiger reserves."
   ],
+  "significance": "NH 18 is a mineral road. Coal from Dhanbad, steel from Bokaro and Jamshedpur and ore from the surrounding hills all travel along it, and it gives landlocked Jharkhand its shortest run down to the Odisha coast. For the smaller towns of Purulia and Mayurbhanj it is also the main road to the nearest big cities, colleges and hospitals.",
+  "interchanges": [
+    { "name": "Koderma", "note": "northern end, on NH 20" },
+    { "name": "Govindpur (near Dhanbad)", "note": "crosses NH 19, the Grand Trunk Road" },
+    { "name": "Baharagora", "note": "meets NH 49, which runs east from here to Kharagpur" },
+    { "name": "Balasore", "note": "southern end, on NH 16 near Chandipur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-20", "label": "The highway NH 18 starts from at Koderma" },
+    { "id": "nh-19", "label": "The Grand Trunk Road, crossed at Govindpur near Dhanbad" },
+    { "id": "nh-49", "label": "Met at Baharagora, heading east to Kharagpur" },
+    { "id": "nh-16", "label": "The east-coast highway that NH 18 ends on near Balasore" }
+  ],
+  "travelNotes": "Driving the full 594 km takes about twelve hours, because the road is mostly two lanes and winds through hills and forest. Heavy coal and steel lorries dominate the Dhanbad–Bokaro–Jamshedpur stretches, and the quieter forest section near Baripada is best driven in daylight. Many travellers use it as the direct route from Jharkhand to the Odisha beaches at Chandipur and Puri, and it is busiest around the Durga Puja holidays.",
+  "newsQuery": "\"NH 18\" Jharkhand Odisha highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

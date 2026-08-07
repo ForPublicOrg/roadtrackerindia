@@ -6,19 +6,42 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 1065,
+  "lanes": "Mostly 2 lanes, with 4-lane stretches near the bigger towns",
   "route": {
     "start": "Daund, Maharashtra",
     "end": "Koraput, Odisha",
     "states": ["Maharashtra", "Telangana", "Chhattisgarh", "Odisha"],
     "majorCities": ["Daund", "Barshi", "Latur", "Udgir", "Nizamabad", "Jagtial", "Mancherial", "Jagdalpur", "Koraput"]
   },
-  "history": "NH 63 is one of the long east–west roads of central India. From Daund, a railway town in Pune district, it crosses the Marathwada plain through Barshi, Latur and Udgir, runs across northern Telangana through Nizamabad, Jagtial and Mancherial, and then winds through the forests of Bastar in Chhattisgarh before ending at Koraput in the hills of Odisha. Much of its middle portion carried the number NH 16 before the highways were renumbered.",
+  "history": "NH 63 is one of the long east–west roads of central India. From Daund, a railway town in Pune district, it crosses the Marathwada plain through Barshi, Latur and Udgir, runs across northern Telangana through Nizamabad, Jagtial and Mancherial, and then winds through the forests of Bastar in Chhattisgarh before ending at Koraput in the hills of Odisha. Much of its middle portion carried the number NH 16 before the highways were renumbered. For years the route was broken by rivers that had no bridge, and traffic had to make long detours; new bridges over the Pranahita near Sironcha and the Indravati near Bhopalpatnam finally joined the pieces together. It remains one of the quietest long national highways in the country, because it deliberately links inland districts that the big corridors skip.",
   "facts": [
     "About 1,065 km long, crossing Maharashtra, Telangana, Chhattisgarh and Odisha.",
     "Crosses three big rivers on its way: the Godavari, the Pranahita and the Indravati.",
     "Passes through Jagdalpur, the main town of the forested Bastar region.",
-    "Its Nizamabad–Jagdalpur portion was the old NH 16."
+    "Its Nizamabad–Jagdalpur portion was the old NH 16.",
+    "New bridges over the Pranahita near Sironcha and the Indravati near Bhopalpatnam completed the link between Telangana, Maharashtra and Chhattisgarh.",
+    "Latur, on the Maharashtra section, was the town worst hit by the 1993 earthquake.",
+    "Nizamabad and Jagtial along the route sit in one of India's biggest turmeric-growing belts."
   ],
+  "significance": "NH 63 is the only continuous road across the middle of the Deccan that ties Marathwada, north Telangana, Bastar and the hills of southern Odisha together. Because these are inland districts that the big national corridors bypass, this highway is how their farm produce, coal, timber and minerals reach markets — and how people from remote tribal blocks reach the nearest hospitals and colleges. It also gives central India a direct road link towards the Eastern Ghats and the Odisha coast.",
+  "engineering": [
+    { "name": "Godavari bridge at the Maharashtra–Telangana border", "note": "carries the highway over one of peninsular India's biggest rivers, just before it reaches Bodhan in Telangana" },
+    { "name": "Pranahita bridge near Sironcha", "note": "links Telangana with Maharashtra's Gadchiroli district; before it opened, traffic had to detour a long way round" },
+    { "name": "Indravati bridge near Bhopalpatnam", "note": "carries the road across the Maharashtra–Chhattisgarh border into the Bastar forests" }
+  ],
+  "interchanges": [
+    { "name": "Daund", "note": "the western end, where the highway leaves the Pune–Solapur corridor" },
+    { "name": "Latur", "note": "the main town of eastern Marathwada, with roads north to Chhatrapati Sambhajinagar and south to Solapur" },
+    { "name": "Nizamabad", "note": "north Telangana's biggest town on the route, and the start of the old NH 16 section" },
+    { "name": "Jagdalpur", "note": "meets NH 30, the long north–south highway from Raipur through Bastar" },
+    { "name": "Koraput", "note": "the eastern end, high in the Eastern Ghats of southern Odisha" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, which NH 63 leaves near Daund" },
+    { "id": "nh-30", "label": "Chhattisgarh's north–south highway, met at Jagdalpur" },
+    { "id": "raipur-visakhapatnam-expressway", "label": "The new expressway through Bastar towards the Visakhapatnam port" }
+  ],
+  "travelNotes": "This is a slow highway: mostly two lanes, and the full run takes two to three days. The Maharashtra and Telangana halves are ordinary plains driving, but from Sironcha eastwards the road enters long stretches of thick forest with very few fuel pumps, few places to eat and patchy mobile signal — fill the tank at Mancherial or Jagdalpur and avoid driving that section after dark. The Bastar and Koraput hills are beautiful in the cool months from November to February; the monsoon between June and September brings mud, fallen trees and slow going.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

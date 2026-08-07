@@ -2,10 +2,15 @@
   "id": "nh-40",
   "ref": "NH 40",
   "name": "Kurnool–Ranipet Highway",
-  "aka": ["Formed from the former NH 18 and part of the former NH 4"],
+  "aka": [
+    "Formed from the former NH 18 and part of the former NH 4",
+    "Rayalaseema Express Highway"
+  ],
   "category": "nh",
   "status": "operational",
   "lengthKm": 411,
+  "lanes": "Four lanes from Kurnool to Kadapa and from Rayachoti to Ranipet; two lanes in between",
+  "agency": "NHAI",
   "route": {
     "start": "Kurnool, Andhra Pradesh",
     "end": "Ranipet, Tamil Nadu",
@@ -19,12 +24,32 @@
       "Ranipet"
     ]
   },
-  "history": "NH 40 runs through Rayalaseema, the dry southern part of Andhra Pradesh, connecting Kurnool, Nandyal and Kadapa with Chittoor near the Tamil Nadu border. It ends at Ranipet, an industrial town where it meets NH 48, the big Chennai–Bengaluru highway. Before the 2010 renumbering, most of this road was known as NH 18.",
+  "history": "NH 40 runs through Rayalaseema, the dry southern part of Andhra Pradesh, connecting Kurnool, Nandyal and Kadapa with Chittoor near the Tamil Nadu border. It ends at Ranipet, an industrial town where it meets NH 48, the big Chennai–Bengaluru highway. Before the 2010 renumbering, most of this road was known as NH 18, while the last stretch from Chittoor to Ranipet was part of the old NH 4. It is often called the Rayalaseema Express Highway, because it is by far the fastest way across a region of thorn scrub, rocky hills and reservoirs that has few other good roads. The Kurnool–Kadapa section has been rebuilt as a four-lane highway, and the Rayachoti–Ranipet end is four-lane as well.",
   "facts": [
     "Begins at a junction with NH 44 at Kurnool and ends at NH 48 at Ranipet.",
-    "About 381 km of its length lies in Andhra Pradesh; only the last short stretch is in Tamil Nadu.",
-    "One of the main highways of the Rayalaseema region."
+    "About 381 km of its length lies in Andhra Pradesh; only the last 30 km or so is in Tamil Nadu.",
+    "One of the main highways of the Rayalaseema region.",
+    "Also called the Rayalaseema Express Highway.",
+    "The stretch from Kurnool to Kadapa has been widened to four lanes, as has the stretch from Rayachoti to Ranipet.",
+    "Nandyal, on the route, is a common starting point for visitors heading to the Ahobilam temples in the Nallamala hills.",
+    "The road crosses the Penna river valley near Kadapa, roughly halfway along.",
+    "Rayalaseema is one of India's driest regions, so for long stretches the highway runs through thorn scrub and bare rocky hills."
   ],
+  "significance": "This is the main east–west road across Rayalaseema, tying the region's big towns — Kurnool, Nandyal, Kadapa and Chittoor — to India's longest highway at one end and to the Chennai–Bengaluru corridor at the other. Without it, traffic from interior Andhra Pradesh heading for Chennai would have to make a long detour.",
+  "interchanges": [
+    { "name": "Kurnool", "note": "north end — the highway starts on NH 44, the Srinagar–Kanyakumari highway" },
+    { "name": "Kadapa", "note": "the biggest town on the route, and a junction with NH 716" },
+    { "name": "Chittoor", "note": "junction town near the Tamil Nadu border, meeting NH 69 and NH 140" },
+    { "name": "Ranipet", "note": "south end — joins NH 48, the Chennai–Bengaluru highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, which this road starts from at Kurnool" },
+    { "id": "nh-48", "label": "The Delhi–Chennai highway, which this road ends on at Ranipet" },
+    { "id": "nh-42", "label": "The other main Rayalaseema highway, running parallel further west through Anantapur" },
+    { "id": "chennai-bengaluru-expressway", "label": "The new Bengaluru–Chennai Expressway, which runs through the same Chittoor area" }
+  ],
+  "travelNotes": "Kurnool to Ranipet takes about eight hours, and is quicker on the four-lane stretches at either end. This is hot, dry country where summer temperatures often top 40°C, so most drivers set out early or late in the day; November to February is the pleasant season. Nandyal, Kadapa and Chittoor are the main places for fuel and a meal.",
+  "newsQuery": "\"NH 40\" Andhra Pradesh",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

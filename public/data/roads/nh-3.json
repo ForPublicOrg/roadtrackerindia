@@ -9,6 +9,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 883,
+  "lanes": "4 lanes across the Punjab plains; mostly 2 lanes in the mountains",
+  "agency": "NHAI in the plains; Border Roads Organisation on the Manali–Leh mountain section",
   "route": {
     "start": "Atari (India–Pakistan border), Punjab",
     "end": "Leh, Ladakh",
@@ -16,17 +18,45 @@
     "majorCities": ["Amritsar", "Jalandhar", "Hoshiarpur", "Hamirpur", "Mandi", "Kullu", "Manali", "Keylong", "Leh"]
   },
   "timeline": [
+    { "year": "1989", "event": "The Manali–Leh mountain road is opened to ordinary travellers, having been built as a military supply route" },
     { "year": "2010", "event": "New NH 3 created in the national highway renumbering, joining parts of the old NH 1, NH 70 and NH 21" },
     { "year": "2020", "event": "The 9.02 km Atal Tunnel under the Rohtang Pass opens, bypassing the snowbound pass" }
   ],
-  "history": "NH 3 begins at Atari on the India–Pakistan border near Amritsar and crosses the Punjab plains before climbing through the Himachal hills to Mandi, Kullu and Manali. From Manali it becomes the famous Manali–Leh highway, passing through the Atal Tunnel and then over some of the highest road passes in the world to reach Leh in Ladakh. The high section is built and cared for largely by the Border Roads Organisation and stays open only in the warmer months.",
+  "history": "NH 3 begins at Atari on the India–Pakistan border near Amritsar and crosses the Punjab plains before climbing through the Himachal hills to Mandi, Kullu and Manali. From Manali it becomes the famous Manali–Leh highway, passing through the Atal Tunnel and then over some of the highest road passes in the world to reach Leh in Ladakh. The mountain half was cut by the Border Roads Organisation as an army supply route and was opened to ordinary travellers in 1989; the BRO still rebuilds it every spring. It was given the number NH 3 in the 2010 renumbering, when stretches of the old NH 1, NH 70 and NH 21 were joined into one road. Heavy snow closes the high section for much of the year, and until the Atal Tunnel opened in 2020 even the first pass out of Manali could cut the Lahaul valley off for months at a time.",
   "facts": [
     "Starts at Atari, close to the site of the famous Attari–Wagah border ceremony.",
     "The 9.02 km Atal Tunnel under the Rohtang Pass, opened in 2020, was the world's longest highway tunnel above 10,000 feet when it opened.",
     "The Manali–Leh section crosses passes above 5,000 metres, including Tanglang La at about 5,328 m.",
     "Heavy snow closes the Manali–Leh section for much of the winter; it usually opens from around May–June to October–November.",
-    "One of only two main road routes into Ladakh — the other is the Srinagar–Leh highway (NH 1)."
+    "One of only two main road routes into Ladakh — the other is the Srinagar–Leh highway (NH 1).",
+    "At Tandi, near Keylong, a well-known sign warns drivers that the next fuel pump is about 365 km away.",
+    "The Gata Loops, a set of 21 hairpin bends, lift the road several hundred metres in just a few kilometres.",
+    "After the Atal Tunnel the road stays above 3,000 m for almost the whole 400 km run to Leh."
   ],
+  "significance": "For most of the year this is one of only two roads into Ladakh, so it matters enormously to the army, to Ladakhi villages that depend on supplies trucked in over the passes, and to the region's tourist economy. In summer it is also one of the world's most famous road trips, drawing thousands of motorcyclists and cyclists every season. Its lower half is an ordinary busy highway serving Amritsar, the Kullu valley and Manali.",
+  "engineering": [
+    { "name": "Atal Tunnel", "note": "9.02 km under the Rohtang Pass at about 3,000 m, opened in 2020; it keeps the Lahaul valley connected right through winter" },
+    { "name": "Gata Loops", "note": "21 stacked hairpin bends that climb toward Nakee La, one of the most photographed pieces of road in India" },
+    { "name": "Baralacha La", "note": "a pass at about 4,890 m, usually the last part of the road to clear of snow each spring" },
+    { "name": "More Plains", "note": "a flat, treeless high plateau about 40 km long at roughly 4,700 m, between Pang and Debring" },
+    { "name": "Tanglang La", "note": "about 5,328 m — one of the highest passes any ordinary vehicle can cross in India" }
+  ],
+  "interchanges": [
+    { "name": "Jalandhar", "note": "crosses NH 44, India's longest national highway" },
+    { "name": "Manali", "note": "the last big town before the mountains; the Leh run starts here" },
+    { "name": "Darcha", "note": "the turn-off for the new Nimmu–Padam–Darcha road toward Zanskar" },
+    { "name": "Leh", "note": "the end of the road, where NH 1 arrives from Srinagar and Kargil" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, crossed at Jalandhar in Punjab" },
+    { "id": "nh-1", "label": "The Srinagar–Kargil–Leh highway — the other way into Ladakh; both roads end at Leh" },
+    { "id": "amritsar-katra-expressway", "label": "The new expressway across Punjab, near this road's Amritsar end" }
+  ],
+  "travelNotes": "The Manali–Leh half is about 475 km and almost everyone splits it over two days, sleeping at Jispa, Keylong or Sarchu to get used to the height. The road usually opens in late May or June and closes again in October or November, and the Border Roads Organisation announces the dates each year. Fuel needs planning: after the pump at Tandi near Keylong there is nothing until Karu, roughly 365 km on. Altitude sickness is common above Baralacha La, so a slow first day, plenty of water and a night spent low down matter more than making good time.",
+  "futureUpgrades": [
+    "Tunnels under Baralacha La (about 13.7 km) and Lachung La (about 14.7 km) are being planned so the Manali–Leh road can stay open through the winter; both are still at the project-report stage."
+  ],
+  "newsQuery": "\"Manali-Leh highway\"",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

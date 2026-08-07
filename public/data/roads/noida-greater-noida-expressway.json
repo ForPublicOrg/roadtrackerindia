@@ -2,6 +2,7 @@
   "id": "noida-greater-noida-expressway",
   "ref": "Noida–Greater Noida Expressway",
   "name": "Noida–Greater Noida Expressway",
+  "aka": ["Noida Expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 24.5,
@@ -16,13 +17,32 @@
   "timeline": [
     { "year": "2002", "event": "Opened to traffic" }
   ],
-  "history": "The Noida–Greater Noida Expressway was one of the first modern expressways in the Delhi region, built by the Noida Authority to connect the brand-new town of Greater Noida with Noida and Delhi. It runs along the east side of the Yamuna past offices, colleges and apartment blocks. At the Pari Chowk end it links into the Yamuna Expressway, which continues all the way to Agra.",
+  "history": "The Noida–Greater Noida Expressway was one of the first modern expressways in the Delhi region, built by the Noida Authority to connect the brand-new town of Greater Noida with Noida and Delhi. It opened in 2002, at a time when most of the land beside it was still farmland and the new town at the far end was nearly empty. Having a fast, free, six-lane road changed that quickly: office towers, colleges, hospitals and huge housing societies filled in along both sides, and the sectors facing the expressway became some of the most expensive addresses in the National Capital Region. It runs along the east side of the Yamuna, and since 2019 the Noida Metro's Aqua Line has run beside it, giving the same corridor a rail option. At the Pari Chowk end it links into the Yamuna Expressway, which continues all the way to Agra, so it is now the first leg of the main road route from Delhi to the Taj Mahal and the new Jewar airport.",
   "facts": [
     "Toll-free for its entire length.",
     "The Aqua Line metro runs alongside much of the expressway.",
     "Connects to the DND Flyway towards Delhi at one end and to the Yamuna Expressway towards Agra at the other.",
-    "Opened in 2002, making it one of the oldest expressways in the National Capital Region."
+    "Opened in 2002, making it one of the oldest expressways in the National Capital Region.",
+    "It was built by the local Noida and Greater Noida city development authorities rather than by NHAI.",
+    "The land on either side has turned into one of India's biggest office and apartment corridors.",
+    "It is the first stretch of the road route from Delhi to the new Noida International Airport at Jewar."
   ],
+  "significance": "This short road is the spine of Noida and Greater Noida. Lakhs of people use it every day to reach offices, universities and the metro, and it is the road that made Greater Noida — planned in the 1990s as an empty grid of sectors — actually work as a city. It is also the free, fast link that stitches the DND Flyway into Delhi at one end to the Yamuna Expressway toward Agra at the other.",
+  "engineering": [
+    { "name": "Mahamaya Flyover", "note": "the big multi-level junction at the Noida end that ties the expressway to the DND Flyway and the roads into Delhi" },
+    { "name": "Aqua Line metro viaduct", "note": "the Noida Metro runs on pillars along the corridor, opened in 2019" }
+  ],
+  "interchanges": [
+    { "name": "Mahamaya Flyover, Noida", "note": "northern end; connects to the DND Flyway toward Delhi" },
+    { "name": "Sector 128 / Sector 132", "note": "exits for the office and hospital cluster on the Noida side" },
+    { "name": "Sector 142", "note": "midway exit for the Sector 142 office belt and its Aqua Line metro station" },
+    { "name": "Pari Chowk, Greater Noida", "note": "southern end; just beyond it the Yamuna Expressway begins toward Agra and Jewar airport" }
+  ],
+  "relatedRoads": [
+    { "id": "dnd-flyway", "label": "The tolled link that carries this traffic across the Yamuna into Delhi" },
+    { "id": "yamuna-expressway", "label": "Picks up at the Greater Noida end and runs on to Agra" }
+  ],
+  "travelNotes": "End to end takes about 25–30 minutes when the road is clear. Rush hour runs toward Noida and Delhi in the morning and back toward Greater Noida in the evening, and the Mahamaya Flyover end is where jams start. Thick winter fog in December and January makes this corridor dangerous — pile-ups are common, so slow right down. There are few stops on the road itself, but the sector exits have plenty of fuel pumps and food.",
   "sources": [
     { "title": "Noida Authority", "url": "https://noidaauthorityonline.in/" },
     { "title": "Government of Uttar Pradesh", "url": "https://up.gov.in/" }

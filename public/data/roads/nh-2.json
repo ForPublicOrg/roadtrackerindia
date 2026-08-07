@@ -8,20 +8,46 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 1326,
+  "lanes": "Mostly 2 lanes",
+  "agency": "NHIDCL",
   "route": {
     "start": "Dibrugarh, Assam",
     "end": "Tuipang, Mizoram",
     "states": ["Assam", "Nagaland", "Manipur", "Mizoram"],
     "majorCities": ["Dibrugarh", "Sivasagar", "Mokokchung", "Kohima", "Imphal", "Churachandpur", "Serchhip", "Lawngtlai", "Siaha"]
   },
-  "history": "NH 2 is the long north–south road spine of Northeast India. It begins in the tea country of Dibrugarh in Assam, climbs into the Naga hills through Mokokchung and Kohima, crosses Manipur through Imphal and Churachandpur, and then winds down the length of Mizoram to end at Tuipang in the far south. It was created in the 2010 renumbering by joining parts of five older highways. Much of it is a winding mountain road, and it is a lifeline for the hill towns along the way.",
+  "timeline": [
+    { "year": "1944", "event": "The Battle of Kohima is fought along what is now the Kohima–Imphal section" },
+    { "year": "2010", "event": "Created in the renumbering from parts of the old NH 37, 61, 39, 150 and 54" }
+  ],
+  "history": "NH 2 is the long north–south road spine of Northeast India. It begins in the tea country of Dibrugarh in Assam, climbs into the Naga hills through Mokokchung and Kohima, crosses Manipur through Imphal and Churachandpur, and then winds down the length of Mizoram to end at Tuipang in the far south. It was created in the 2010 renumbering by joining parts of five older highways. Only about 110 km of it is in the Assam plains — the rest climbs and twists through the hills of Nagaland, Manipur and Mizoram, with Mizoram alone holding some 480 km of it. Much of the route is a winding two-lane road, and for the hill towns along the way it is the lifeline that everything arrives on.",
   "facts": [
     "About 1,326 km long, connecting four northeastern states: Assam, Nagaland, Manipur and Mizoram.",
     "Passes through two state capitals, Kohima and Imphal.",
     "The Kohima–Imphal stretch follows the old NH 39, where the Battle of Kohima was fought in World War II (1944).",
     "Ends at Tuipang in southern Mizoram, one of the remotest highway endpoints in India.",
-    "Most of the route is a twisting two-lane road through steep hills."
+    "Most of the route is a twisting two-lane road through steep hills.",
+    "Its longest share is in Mizoram (about 480 km); Manipur has about 460 km, Nagaland about 270 km and Assam about 110 km.",
+    "Meets NH 6 at Seling in Mizoram, the junction town for Aizawl.",
+    "The Kohima–Imphal section is the main supply road into Manipur — most goods sold in Imphal arrive by lorry along it."
   ],
+  "significance": "For the hill states it crosses, NH 2 is not just a road but the supply line. Almost everything sold in Imphal and in Mizoram's small towns arrives by lorry along parts of it, and when landslides close a stretch, those towns can run short of fuel and vegetables within days. It is also the road the army and border agencies depend on in a region that touches Myanmar along much of its eastern side.",
+  "interchanges": [
+    { "name": "Dibrugarh", "note": "northern end, where the highway leaves NH 15 in the Assam plains" },
+    { "name": "Kohima", "note": "meets NH 29, the road down to the Dimapur railhead" },
+    { "name": "Imphal", "note": "meets NH 37, the highway west to Silchar" },
+    { "name": "Seling", "note": "meets NH 6, the Aizawl–Champhai road in Mizoram" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-29", "label": "The Dimapur–Kohima road, which brings goods up from the railhead to meet NH 2" },
+    { "id": "nh-37", "label": "The Silchar–Imphal highway, Manipur's other road link with the plains" },
+    { "id": "nh-6", "label": "Crosses in Mizoram at Seling, on its way from Assam to the Myanmar border" }
+  ],
+  "travelNotes": "Very few people drive the whole 1,326 km; it is normally travelled in sections. Expect a narrow, twisting two-lane road where 30–40 km/h is a normal average in the hills, and landslides during the June–September monsoon. Indian visitors from other states need an Inner Line Permit for Nagaland, Manipur and Mizoram, and it is wise to check local road and travel conditions before setting out.",
+  "futureUpgrades": [
+    "The Kohima–Mao–Imphal stretch is being rebuilt and widened in phases by NHIDCL."
+  ],
+  "newsQuery": "\"NH 2\" Northeast India highway",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" }

@@ -61,11 +61,28 @@ You never edit the derived files. **The road JSON is the single source of truth.
     { "year": "2001", "event": "Construction begins" },
     { "year": "2012", "event": "Opened to traffic" }
   ],
-  "history": "One short paragraph (2–4 sentences) of history and context, plain language.",
-  "facts": [                             // 2–6 crisp, interesting, verifiable facts
+  "history": "One paragraph (3–6 sentences) of history and context, plain language.",
+  "facts": [                             // 4–8 crisp, interesting, verifiable facts
     "India's longest national highway.",
     "Part of the North–South Corridor of the NHDP."
-  ]
+  ],
+
+  // ── OPTIONAL richness fields (v1.1) — omit anything not confidently known ──
+  "significance": "1–3 sentences on why this road matters: economy, defence, pilgrimage, daily life.",
+  "engineering": [                       // notable structures: tunnels, big bridges, ghat sections
+    { "name": "Chenani–Nashri Tunnel", "note": "9.28 km — India's longest road tunnel when it opened in 2017" }
+  ],
+  "interchanges": [                      // well-known junctions/interchanges, in route order
+    { "name": "Kherki Daula (Gurugram)", "note": "junction for the Dwarka Expressway" }
+  ],
+  "relatedRoads": [                      // links to OTHER roads in this catalogue — id must be an existing file
+    { "id": "delhi-mumbai-expressway", "label": "The new expressway alternative for Delhi–Mumbai traffic" }
+  ],
+  "travelNotes": "Practical driver info: typical end-to-end driving time, when it gets crowded, food/fuel stop culture, best season. Only widely known facts.",
+  "futureUpgrades": [                    // officially announced plans only
+    "Widening to 8 lanes announced for the Hyderabad–Bengaluru section."
+  ],
+  "newsQuery": "\"Yamuna Expressway\""   // override for the news fetcher when ref+name alone would be ambiguous
 }
 ```
 

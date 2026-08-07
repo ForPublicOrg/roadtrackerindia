@@ -8,6 +8,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 667,
+  "lanes": "Mostly 2 lanes through the hills, with wider four-lane stretches near the Jorabat end",
+  "agency": "NHIDCL",
   "route": {
     "start": "Jorabat, near Guwahati (Assam–Meghalaya border)",
     "end": "Zokhawthar, Mizoram (India–Myanmar border)",
@@ -21,17 +23,45 @@
       "Champhai"
     ]
   },
-  "history": "NH 6 is the main hill highway of the eastern side of Northeast India. It starts at Jorabat near Guwahati, climbs to Shillong, the capital of Meghalaya, drops into the Barak Valley of Assam, and then winds through the mountains of Mizoram past Aizawl all the way to Zokhawthar on the Myanmar border. It was created in the 2010 renumbering by joining several older highways, including the old NH 40 and NH 44.",
+  "timeline": [
+    { "year": "2010", "event": "Notified as NH 6 in the national highway renumbering, then ending at Seling in Mizoram" },
+    { "year": "2010s", "event": "Extended east through Champhai to Zokhawthar on the Myanmar border" }
+  ],
+  "history": "NH 6 is the main hill highway of the eastern side of Northeast India. It starts at Jorabat near Guwahati, climbs to Shillong, the capital of Meghalaya, drops into the Barak Valley of Assam, and then winds through the mountains of Mizoram past Aizawl all the way to Zokhawthar on the Myanmar border. It was created in the 2010 renumbering by joining several older highways, including the old NH 40 and NH 44. Almost the whole route is mountain road — steep climbs, tight hairpin bends and cuttings through soft rock that slip in the rains. Because there is no easy alternative, it doubles as the main goods route into Meghalaya's Jaintia Hills, the Barak Valley and the whole of Mizoram, and it is one of the most landslide-prone national highways in the country.",
   "facts": [
     "Runs through three states: Meghalaya, Assam and Mizoram.",
     "The Jorabat–Shillong stretch is part of the international Asian Highway routes AH1 and AH2.",
     "When first notified in 2010 it ended at Seling; it was later extended through Champhai to Zokhawthar on the Myanmar border.",
     "One of the main road routes between the rest of India and Aizawl, the capital of Mizoram.",
-    "Was formed from the old NH 40, NH 44, NH 154 and NH 54."
+    "Was formed from the old NH 40, NH 44, NH 154 and NH 54.",
+    "Just before Shillong the road runs along Umiam Lake, better known locally as Barapani.",
+    "Zokhawthar, at the far end, faces Rihkhawdar in Myanmar and is a recognised border-trade point."
   ],
+  "significance": "For Meghalaya and Mizoram this road is the lifeline. Almost everything the two states buy — fuel, cement, rice, medicines — arrives by truck on NH 6 from Guwahati, and it is also the road students, patients and traders take to reach the nearest big city. At its eastern end it is India's road towards Myanmar, so it matters for border trade and for the security forces posted along that frontier.",
+  "engineering": [
+    { "name": "Sonapur tunnel (Meghalaya)", "note": "a short road tunnel about 120 m long, built in 2008 in the Jaintia Hills inside the Narpuh sanctuary; the slopes around it are famous for landslides" },
+    { "name": "Vairengte–Kolasib–Aizawl hill section", "note": "a near-continuous chain of hairpin bends climbing through the Mizo hills, with steep drops and very few straight stretches" },
+    { "name": "Umiam (Barapani) lakeside stretch", "note": "the road hugs the shore of the reservoir on the last climb into Shillong — the best-known view on the whole highway" }
+  ],
+  "interchanges": [
+    { "name": "Jorabat", "note": "the western end, where NH 6 splits from NH 27 just outside Guwahati" },
+    { "name": "Shillong", "note": "Meghalaya's capital; roads branch here towards Cherrapunji and the Bangladesh border" },
+    { "name": "Badarpur", "note": "the gateway to Assam's Barak Valley, with roads to Silchar and southern Assam" },
+    { "name": "Seling", "note": "a hill junction east of Aizawl where the highway towards Manipur branches off; NH 6 originally ended here" },
+    { "name": "Zokhawthar", "note": "the eastern end at the India–Myanmar border, opposite Rihkhawdar" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor through Guwahati, which NH 6 branches from at Jorabat" }
+  ],
+  "travelNotes": "Guwahati to Shillong is about 100 km and takes roughly three hours — it is one of the busiest tourist drives in the Northeast and gets crowded on weekends. Beyond Shillong the road slows sharply: Shillong to Aizawl is a full two-day journey for most drivers, and the Mizoram hairpins are hard on anyone prone to motion sickness. The monsoon from June to September brings landslides and long unplanned halts, so the dry months from November to March are far easier. Fuel pumps and eating places are far apart in the Mizoram hills, and Indian visitors from outside Mizoram need an Inner Line Permit to enter the state.",
+  "futureUpgrades": [
+    "The Union Cabinet has approved a 166.8 km four-lane greenfield high-speed corridor on NH 6 from Mawlyngkhung near Shillong to Panchgram near Silchar, at a cost of about ₹22,864 crore."
+  ],
+  "newsQuery": "\"NH 6\" Meghalaya Mizoram highway",
   "sources": [
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "PIB — Press Information Bureau (Cabinet approvals on national highways)", "url": "https://pib.gov.in/" }
   ],
   "waypoints": [
     { "name": "Jorabat", "coords": [91.878, 26.104] },

@@ -26,13 +26,32 @@
     { "year": "1998", "event": "Naranarayan Setu across the Brahmaputra opens at Jogighopa" },
     { "year": "2010", "event": "The corridor gets the number NH 17 in the national renumbering" }
   ],
-  "history": "NH 17 connects North Bengal with Guwahati by a southern route through the Dooars — the tea-garden country at the foot of the Himalayas. From Sevoke on the Teesta river it runs east past Cooch Behar into Assam, crosses the mighty Brahmaputra at Jogighopa, and then follows the river's south bank through Goalpara to Guwahati. It gives travellers an alternative to the busier NH 27.",
+  "history": "NH 17 connects North Bengal with Guwahati by a southern route through the Dooars — the tea-garden country at the foot of the Himalayas. It starts at Sevoke, where it leaves NH 10 (the road up to Gangtok) beside the Teesta river, and runs east past Cooch Behar into Assam. There it crosses the mighty Brahmaputra at Jogighopa on the Naranarayan Setu, then follows the river's south bank through Goalpara to Guwahati. The route was stitched together in the 2010 renumbering out of pieces of five older highways — the old NH 31, 31B, 31C, 31D and 37. It gives travellers a quieter alternative to the busier NH 27 and is the shortest road link between the Dooars and lower Assam.",
   "facts": [
     "Runs through the Dooars, the tea-garden belt at the foot of the eastern Himalayas.",
-    "Crosses the Brahmaputra river on the Naranarayan Setu bridge at Jogighopa.",
+    "Crosses the Brahmaputra on the 2.28 km Naranarayan Setu at Jogighopa, a double-deck bridge with trains below and the road on top.",
     "Offers a southern alternative to NH 27 between North Bengal and Guwahati.",
-    "Starts near the Teesta river at Sevoke, close to the famous Coronation Bridge."
+    "Starts near the Teesta river at Sevoke, close to the famous Coronation Bridge.",
+    "Begins where it meets NH 10, the highway to Gangtok, and ends on NH 27 near Guwahati.",
+    "Was put together from parts of five old highways: NH 31, 31B, 31C, 31D and 37.",
+    "Several stretches run past forest and tea estates where wild elephants cross the road."
   ],
+  "significance": "This is the everyday road of the Dooars, carrying tea, timber, building material and tourists between the hill-foot towns of North Bengal and lower Assam. Because the whole Northeast is reached through the narrow strip of land near Siliguri, having a second usable highway alongside NH 27 also matters a great deal whenever floods or landslides close one of them.",
+  "engineering": [
+    { "name": "Naranarayan Setu", "note": "2.28 km double-deck bridge over the Brahmaputra at Jogighopa, opened in 1998 — a railway runs on the lower deck and the highway on the upper deck" }
+  ],
+  "interchanges": [
+    { "name": "Sevoke", "note": "western end, leaving NH 10 (the Siliguri–Gangtok road) near the Coronation Bridge" },
+    { "name": "Falakata", "note": "crosses NH 27, the long Porbandar–Silchar highway, in the Dooars" },
+    { "name": "Jogighopa", "note": "the Brahmaputra crossing on the Naranarayan Setu" },
+    { "name": "Guwahati", "note": "eastern end, joining NH 27 on the western side of the city" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The main Siliguri–Guwahati highway that NH 17 runs parallel to and finally joins" },
+    { "id": "nh-6", "label": "Starts at Jorabat just outside Guwahati and heads on into Meghalaya and Mizoram" }
+  ],
+  "travelNotes": "Sevoke to Guwahati takes about ten to twelve hours. The road is mostly two lanes and very scenic, running through tea gardens and forest patches in the Dooars where signboards warn drivers to slow down for elephants — driving that stretch after dark is best avoided. The monsoon between June and September brings floods and landslips to the Dooars, so October to April is the comfortable season.",
+  "newsQuery": "\"NH 17\" Assam West Bengal highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

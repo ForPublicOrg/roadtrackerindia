@@ -15,18 +15,49 @@
     "states": ["Uttar Pradesh"],
     "majorCities": ["Meerut", "Budaun", "Shahjahanpur", "Hardoi", "Unnao", "Rae Bareli", "Pratapgarh", "Prayagraj"]
   },
+  "tolls": [
+    { "name": "Meerut toll plaza", "note": "main plaza at the western end" },
+    { "name": "Prayagraj toll plaza", "note": "main plaza at the eastern end" }
+  ],
   "timeline": [
     { "year": "2021", "event": "Foundation stone laid by the Prime Minister in December" },
     { "year": "2025", "event": "Air force jets practise landings on the Shahjahanpur airstrip" },
     { "year": "2026", "event": "Inaugurated and opened to traffic in April" }
   ],
-  "history": "The Ganga Expressway is Uttar Pradesh's longest expressway, running 594 km from Bijauli near Meerut to Judapur Dandu near Prayagraj, roughly following the valley of the Ganga river. Prime Minister Narendra Modi laid its foundation stone in December 2021, and the finished road was opened by him in April 2026. It cuts the Meerut–Prayagraj drive from around twelve hours to roughly six.",
+  "history": "The Ganga Expressway is Uttar Pradesh's longest expressway, running 594 km from Bijauli near Meerut to Judapur Dandu near Prayagraj, roughly following the valley of the Ganga river. Uttar Pradesh has been building a web of expressways for two decades, and this one was meant to be the spine that ties the western and eastern halves of the state together. Prime Minister Narendra Modi laid its foundation stone in December 2021, and the finished road was opened by him in April 2026. It crosses twelve districts, the Ganga itself on a bridge nearly a kilometre long, and the Ramganga on another. It cuts the Meerut–Prayagraj drive from around ten to twelve hours to roughly six, and because its western end feeds into the Delhi–Meerut Expressway, you can now drive expressway all the way from Delhi to Prayagraj.",
   "facts": [
     "Uttar Pradesh's longest expressway at 594 km, and one of the longest in India.",
     "Passes through 12 districts between Meerut and Prayagraj.",
     "Has a 3.5 km emergency airstrip near Shahjahanpur where air force jets have practised day and night landings.",
     "Together with the Delhi–Meerut Expressway, it creates an expressway route from Delhi all the way to Prayagraj.",
-    "Planned extensions would stretch it toward Haridwar and Ballia."
+    "Planned extensions would stretch it toward Haridwar and Ballia.",
+    "Crosses the Ganga on a bridge about 960 m long and the Ramganga on one about 720 m long.",
+    "Traffic may run at up to 120 km/h.",
+    "There are two big toll plazas, at the Meerut and Prayagraj ends, plus 19 smaller ones on the entry and exit ramps."
+  ],
+  "significance": "This is the road that finally links prosperous western Uttar Pradesh with the poorer, more crowded east in a single fast run. It puts Prayagraj — where tens of millions of pilgrims gather for the Magh Mela and the Kumbh — within about six hours of Meerut and Delhi's edge, and it opens up a long line of farming districts along the Ganga to factories, cold stores and markets.",
+  "engineering": [
+    { "name": "Ganga river bridge", "note": "about 960 m long, on the stretch between Meerut and Budaun" },
+    { "name": "Ramganga river bridge", "note": "about 720 m long, between Budaun and Hardoi" },
+    { "name": "Shahjahanpur airstrip", "note": "a 3.5 km dead-straight, extra-strong stretch near Jalalabad that air force aircraft can land on in an emergency" },
+    { "name": "Unnao interchange", "note": "a large multi-level junction built where the Agra–Lucknow Expressway crosses" }
+  ],
+  "interchanges": [
+    { "name": "Bijauli (Meerut)", "note": "western end, linked through the Meerut bypass to the Delhi–Meerut Expressway" },
+    { "name": "Unnao district", "note": "big interchange with the Agra–Lucknow Expressway" },
+    { "name": "Judapur Dandu (Prayagraj)", "note": "eastern end, joining the Prayagraj bypass toward Varanasi and Kanpur" }
+  ],
+  "relatedRoads": [
+    { "id": "delhi-meerut-expressway", "label": "Feeds the Ganga Expressway at its Meerut end, making a Delhi–Prayagraj expressway run" },
+    { "id": "agra-lucknow-expressway", "label": "Crossed by a large interchange in Unnao district" },
+    { "id": "purvanchal-expressway", "label": "The other big east–west expressway of Uttar Pradesh, running Lucknow to Ghazipur" },
+    { "id": "nh-19", "label": "The old Agra–Kanpur–Prayagraj–Kolkata highway that the expressway relieves" }
+  ],
+  "travelNotes": "Meerut to Prayagraj takes about six hours at the 120 km/h limit, against ten or more on the old highways. Fuel pumps, food courts and rest stops are still being added along the route, so it is wise to fill the tank before joining. December and January bring dense fog to this part of the Ganga plain, and the road gets very busy around the big Prayagraj festivals.",
+  "futureUpgrades": [
+    "An extension from Meerut toward Haridwar has been announced.",
+    "An extension east from Prayagraj toward Ballia has been announced.",
+    "The six-lane road is built so it can be widened to eight lanes when traffic grows."
   ],
   "sources": [
     { "title": "UPEIDA — Uttar Pradesh Expressways Industrial Development Authority", "url": "https://upeida.up.gov.in/" },

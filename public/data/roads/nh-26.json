@@ -6,6 +6,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 555,
+  "agency": "NHAI",
   "route": {
     "start": "Bargarh, Odisha",
     "end": "Rajapulova (near Vizianagaram), Andhra Pradesh",
@@ -21,13 +22,31 @@
       "Vizianagaram"
     ]
   },
-  "history": "NH 26 links the farming plains of western Odisha with the coastal belt of Andhra Pradesh. From Bargarh it runs south through Balangir, Bhawanipatna and the tribal districts of Nabarangpur and Koraput, then climbs over the Eastern Ghats to come down near Vizianagaram. It was created in the 2010 renumbering, mainly from the old NH 201 and the northern part of the old NH 43.",
+  "history": "NH 26 links the farming plains of western Odisha with the coastal belt of Andhra Pradesh. From Bargarh it runs south through Balangir, Bhawanipatna and the tribal districts of Nabarangpur and Koraput, then climbs over the Eastern Ghats to come down near Vizianagaram. It was created in the 2010 renumbering, mainly from the old NH 201 and the northern part of the old NH 43. The northern half crosses the dry Kalahandi–Balangir farm belt, while the southern half winds through forested highlands that hold some of India's biggest bauxite deposits. For most of its length it is the only national highway serving districts that were, for a long time, among the hardest places in India to reach by road.",
   "facts": [
     "About 555 km long, ending on NH 16, the Kolkata–Chennai coastal highway.",
     "Crosses the Eastern Ghats between Koraput and Salur.",
-    "Official figures also count a stretch of the route in Chhattisgarh, between the Odisha sections.",
-    "Serves Koraput and Jeypore, gateway towns of Odisha's scenic tribal highlands."
+    "Serves Koraput and Jeypore, gateway towns of Odisha's scenic tribal highlands.",
+    "It begins where it meets NH 53 at Bargarh in western Odisha.",
+    "Koraput district, on the route, is one of India's biggest sources of bauxite, the ore used to make aluminium.",
+    "Balangir and Bhawanipatna sit in the Kalahandi–Balangir belt, one of Odisha's driest farming regions."
   ],
+  "significance": "NH 26 is the main road out of western and southern Odisha's hill districts toward the coast and the port city of Visakhapatnam. It carries rice from the Balangir plains, bauxite and aluminium from Koraput, and forest produce from the tribal highlands. Just as important, it is the road that connects thinly-served districts to the hospitals, colleges and markets of the coastal plain.",
+  "engineering": [
+    { "name": "Eastern Ghats ghat section", "note": "the winding climb and descent between Koraput and Salur, where the road drops from the highlands to the Andhra plains" }
+  ],
+  "interchanges": [
+    { "name": "Bargarh", "note": "northern end, on NH 53 — the Raipur–Sambalpur–Paradip corridor" },
+    { "name": "Balangir", "note": "the biggest town of western Odisha's dry farming belt" },
+    { "name": "Jeypore", "note": "main market town of southern Odisha's tribal highlands" },
+    { "name": "Rajapulova, near Vizianagaram", "note": "southern end, on NH 16 — the Kolkata–Chennai coastal highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-53", "label": "The Surat–Nagpur–Raipur–Paradip highway, met at Bargarh" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway, where NH 26 ends near Vizianagaram" },
+    { "id": "raipur-visakhapatnam-expressway", "label": "The new fast corridor between Raipur and Visakhapatnam, crossing the same hill country" }
+  ],
+  "travelNotes": "The full run takes roughly 12–14 hours, and most drivers split it at Bhawanipatna or Jeypore. The ghat stretch between Koraput and Salur is beautiful but slow, with hairpin bends, mist and heavy truck traffic — cover it in daylight. The monsoon from June to September brings landslips and poor visibility in the hills, so October to February is the best season. Fuel and food stops are spaced far apart between Bhawanipatna and Nabarangpur.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

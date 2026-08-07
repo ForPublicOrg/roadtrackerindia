@@ -8,7 +8,9 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 371,
+  "lanes": "Mostly 2 lanes, with wider stretches around Agartala",
   "agency": "NHIDCL",
+  "newsQuery": "\"NH 8\" Tripura highway",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Sabroom, Tripura",
@@ -28,12 +30,34 @@
     { "year": "2010", "event": "Created in the national highway renumbering from part of the old NH 44" },
     { "year": "2021", "event": "Maitri Setu bridge over the Feni river to Bangladesh inaugurated at Sabroom" }
   ],
-  "history": "NH 8 is Tripura's road lifeline. Almost everything that reaches the state by road — food, fuel and goods — travels along this highway from Karimganj in Assam, through the hills of north Tripura, to the capital Agartala and on to Sabroom at the state's southern tip. Before the 2010 renumbering this road was part of the old NH 44. At Sabroom, the Maitri Setu bridge now connects it onward to Bangladesh.",
+  "history": "NH 8 is Tripura's road lifeline. Almost everything that reaches the state by road — food, fuel and goods — travels along this highway from Karimganj in Assam, through the hills of north Tripura, to the capital Agartala and on to Sabroom at the state's southern tip. Before the 2010 renumbering this road was part of the old NH 44, a number now used by the Srinagar–Kanyakumari highway on the other side of the country. Tripura is almost surrounded by Bangladesh, so goods coming overland have to take a long loop through Assam and down this single road, which made it famous for shortages whenever landslides or blockades cut it. Crossing three forested hill ranges — Atharamura, Longtharai and Baramura — the road is steep, twisty and easily damaged by monsoon rain. At Sabroom, the Maitri Setu bridge opened in 2021 now carries it across the Feni river into Bangladesh, and a much bigger four-lane rebuild of the northern half is being planned.",
   "facts": [
     "The main road lifeline of Tripura, carrying most goods that enter the state.",
     "Was part of the old NH 44 before the 2010 renumbering.",
     "At Sabroom, the Maitri Setu bridge over the Feni river (opened 2021) links India with Bangladesh.",
-    "Sabroom is only about 80 km from Chittagong port in Bangladesh, giving Tripura a short route to the sea."
+    "Sabroom is only about 80 km from Chittagong port in Bangladesh, giving Tripura a short route to the sea.",
+    "It crosses three forested hill ranges in Tripura — Atharamura, Longtharai and Baramura.",
+    "Because Tripura is almost ringed by Bangladesh, road freight has to loop through Assam and squeeze onto this one highway.",
+    "It is looked after by NHIDCL, the agency set up specially to build highways in the north-east and border areas."
+  ],
+  "significance": "For Tripura's roughly 40 lakh people this is the road that everything depends on — rice, cooking gas, medicines and building material all arrive on it. When landslides or unrest have blocked it in the past, prices in Agartala shot up within days. The Maitri Setu at its southern end could change that story, because it puts Tripura within about 80 km of a seaport in Bangladesh instead of over a thousand kilometres from an Indian one.",
+  "engineering": [
+    { "name": "Maitri Setu", "note": "bridge over the Feni river at Sabroom, opened in 2021, linking India to Ramgarh in Bangladesh" },
+    { "name": "Atharamura hill crossing", "note": "a long, twisting climb through forested hills between Ambassa and Teliamura — the slowest part of the drive" },
+    { "name": "Baramura hill crossing", "note": "the last range before the road drops into the Agartala plain" }
+  ],
+  "interchanges": [
+    { "name": "Karimganj, Assam", "note": "the northern start, where NH 8 leaves NH 37" },
+    { "name": "Churaibari", "note": "the Assam–Tripura border post, where trucks entering the state are checked" },
+    { "name": "Agartala", "note": "the state capital, midway along the route, and the busiest section of the highway" },
+    { "name": "Sabroom", "note": "the southern end at the Maitri Setu crossing into Bangladesh" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-37", "label": "The Assam highway NH 8 branches from, near Karimganj and Badarpur" }
+  ],
+  "travelNotes": "Karimganj to Agartala is roughly 250 km but takes most of a day, because the hill crossings are slow and full of trucks. The heavy monsoon from May to September brings landslides and washouts, so October to March is the comfortable season. Fuel and food stops are spread out — Dharmanagar, Kumarghat, Ambassa and Teliamura are the reliable ones — and it is best not to drive the hill sections after dark.",
+  "futureUpgrades": [
+    "A four-lane rebuild of the roughly 130 km Churaibari–Champaknagar stretch has been approved, running alongside the railway with tunnels through the Atharamura and Longtharai hills."
   ],
   "sources": [
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },

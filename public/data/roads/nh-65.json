@@ -2,7 +2,10 @@
   "id": "nh-65",
   "ref": "NH 65",
   "name": "Pune–Machilipatnam Highway",
-  "aka": ["National Highway 9 (old numbering)"],
+  "aka": [
+    "National Highway 9 (old numbering)",
+    "Vijayawada Highway (the Hyderabad section)"
+  ],
   "category": "nh",
   "status": "operational",
   "lengthKm": 841,
@@ -24,15 +27,40 @@
     ]
   },
   "timeline": [
-    { "year": "2010", "event": "Renumbered from NH 9 to NH 65 in the national highway renumbering" }
+    { "year": "2010", "event": "Renumbered from NH 9 to NH 65 in the national highway renumbering" },
+    { "year": "2012", "event": "The tolled four-lane Hyderabad–Vijayawada section is completed and opens to traffic in October" }
   ],
-  "history": "NH 65 crosses the Deccan plateau from Pune to the east coast of India at Machilipatnam, an old port town on the Bay of Bengal. Before the 2010 renumbering it was known as NH 9. It is the main road link between Pune, Solapur and Hyderabad, and its busy Hyderabad–Vijayawada stretch carries heavy traffic between Telangana and coastal Andhra Pradesh.",
+  "history": "NH 65 crosses the Deccan plateau from Pune to the east coast of India at Machilipatnam, an old port town on the Bay of Bengal. Before the 2010 renumbering it was known as NH 9. It is the main road link between Pune, Solapur and Hyderabad, and its busy Hyderabad–Vijayawada stretch carries heavy traffic between Telangana and coastal Andhra Pradesh. That eastern stretch was rebuilt as a tolled four-lane highway in a public-private project and opened fully in 2012, cutting the Hyderabad–Vijayawada run to about four hours. West of Hyderabad the road crosses dry, rolling country through Zahirabad, Omerga and Solapur, then drops into the sugarcane belt of western Maharashtra before reaching Pune.",
   "facts": [
     "Was National Highway 9 before the 2010 renumbering.",
     "Passes through four states: Maharashtra, Karnataka, Telangana and Andhra Pradesh.",
     "Only a short stretch of about 75 km lies in Karnataka, in the Bidar region.",
-    "Connects three big cities — Pune, Hyderabad and Vijayawada — before ending at the sea at Machilipatnam."
+    "Connects three big cities — Pune, Hyderabad and Vijayawada — before ending at the sea at Machilipatnam.",
+    "In Hyderabad everyone simply calls it the Vijayawada Highway.",
+    "Near Bhigwan the road runs beside the Ujani backwaters, a well-known winter spot for flamingos.",
+    "Naldurg, on the Maharashtra section, has one of the largest land forts in the state.",
+    "Machilipatnam at the eastern end was a busy trading port for the Dutch and the British in the 1600s."
   ],
+  "significance": "NH 65 is the main road bridge between western and southern India's two big economies — the Pune–Mumbai industrial belt and Hyderabad — and then on to the rice bowl of the Krishna delta. It moves engineering goods and sugar west to east, and rice, chillies and aquaculture produce from coastal Andhra back the other way. The Hyderabad–Vijayawada portion is among the busiest intercity highways in south India, and it is the route lakhs of families take home for Sankranti each January.",
+  "interchanges": [
+    { "name": "Pune", "note": "the western end, close to NH 48, the Mumbai–Bengaluru corridor" },
+    { "name": "Solapur", "note": "crosses NH 52, the Sangrur–Ankola highway" },
+    { "name": "Hyderabad", "note": "meets NH 44, India's longest highway, and crosses the city's Outer Ring Road at Pedda Amberpet" },
+    { "name": "Choutuppal", "note": "on the tolled Hyderabad–Vijayawada stretch, near the Panthangi toll plaza, and the eastern end of Hyderabad's planned Regional Ring Road" },
+    { "name": "Vijayawada", "note": "meets NH 16, the Kolkata–Chennai east coast highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Mumbai–Bengaluru corridor, close to the Pune end" },
+    { "id": "nh-52", "label": "The Sangrur–Ankola highway, crossed at Solapur" },
+    { "id": "nh-44", "label": "India's longest highway, met at Hyderabad" },
+    { "id": "hyderabad-outer-ring-road", "label": "The ring road NH 65 crosses on the eastern side of Hyderabad" },
+    { "id": "hyderabad-regional-ring-road", "label": "The planned outer ring that will cross this corridor east of Hyderabad" },
+    { "id": "nh-16", "label": "The east coast highway, joined at Vijayawada" }
+  ],
+  "tolls": [
+    { "name": "Panthangi toll plaza", "note": "near Choutuppal on the Hyderabad–Vijayawada stretch; famous for very long queues in the days before Sankranti" }
+  ],
+  "travelNotes": "Hyderabad to Vijayawada is about 270 km and takes four to five hours on the tolled four-lane section — one of the easiest long drives in south India, with plenty of good highway restaurants around Choutuppal and Suryapet. Pune to Hyderabad is a longer day, roughly nine hours. The eastern half is jammed for two or three days before Sankranti in mid-January, when Hyderabad empties towards the coastal districts, and again on the return. Summer heat between April and June is fierce on the open Telangana stretch, and cyclone rain can affect the Vijayawada–Machilipatnam end between October and December.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

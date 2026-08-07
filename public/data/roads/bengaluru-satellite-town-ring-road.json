@@ -11,6 +11,7 @@
   "lengthKm": 288,
   "lanes": "4–6 lanes, access-controlled",
   "agency": "NHAI",
+  "newsQuery": "\"Satellite Town Ring Road\" Bengaluru",
   "route": {
     "start": "Dobbaspet, Karnataka",
     "end": "Dobbaspet, Karnataka — full circle",
@@ -37,16 +38,41 @@
     },
     {
       "year": "2024",
-      "event": "Prime Minister inaugurates the first 80 km, from Dobbaspet to Hoskote, in March"
+      "event": "Prime Minister inaugurates the first 80 km, from Dobbaspet to Hoskote, on 11 March"
     }
   ],
-  "history": "The Satellite Town Ring Road is a large ring being built well outside Bengaluru, connecting the towns that circle the city — places like Doddaballapur, Devanahalli, Hoskote, Kanakapura and Ramanagara — without going anywhere near the crowded city centre. A part of the ring dips into Tamil Nadu near Hosur. The first 80 km, from Dobbaspet to Hoskote, opened in March 2024, and the remaining sections are being built in stages.",
+  "history": "The Satellite Town Ring Road is a large ring being built well outside Bengaluru, connecting the towns that circle the city — places like Doddaballapur, Devanahalli, Hoskote, Kanakapura and Ramanagara — without going anywhere near the crowded city centre. The idea is simple: a truck travelling from Pune to Chennai has no business driving through Bengaluru at all, so give it a wide loop instead. A part of the ring dips into Tamil Nadu near Hosur. The first 80 km, from Dobbaspet to Hoskote, opened in March 2024, and the Hoskote–Hosur stretch toward the Tamil Nadu border has been the next section under construction. The southern arc near Bannerghatta National Park has been the hardest part, because it passes through an eco-sensitive zone and needs special clearances.",
   "facts": [
     "A ring of about 288 km around Bengaluru, running well outside the city.",
-    "Carries the national highway number NH 948A.",
+    "Carries the national highway numbers NH 948A and NH 648.",
     "The 80 km Dobbaspet–Hoskote stretch was inaugurated in March 2024.",
     "Links about a dozen satellite towns, including Hosur across the border in Tamil Nadu.",
-    "Being built by NHAI under the Bharatmala highway programme."
+    "Being built by NHAI under the Bharatmala highway programme.",
+    "It is more than four times as long as Bengaluru's 60 km Outer Ring Road.",
+    "The southern section near Bannerghatta National Park is held up because it crosses an eco-sensitive zone.",
+    "It is meant mainly to keep long-distance trucks out of the city."
+  ],
+  "significance": "Bengaluru sits at the meeting point of highways from Pune, Hyderabad, Chennai, Mysuru and Mangaluru, and today far too much of that through traffic ends up crawling along city roads. The STRR is the bypass that lets it go around instead. It also opens up land and industry in the ring of satellite towns, and gives the airport at Devanahalli a fast connection from every direction without entering Bengaluru.",
+  "interchanges": [
+    { "name": "Dobbaspet", "note": "meets NH 48, the highway toward Tumakuru, Hubballi and Pune" },
+    { "name": "Devanahalli", "note": "the northern arc, close to Kempegowda International Airport and NH 44 toward Hyderabad" },
+    { "name": "Hoskote", "note": "meets NH 75, the Old Madras Road running east to Kolar, and is the starting point of the new Bengaluru–Chennai Expressway" },
+    { "name": "Attibele / Hosur", "note": "meets NH 44 heading south toward Krishnagiri and Salem" },
+    { "name": "Kanakapura", "note": "the southern arc, on the road toward Malavalli and Mysuru district" },
+    { "name": "Ramanagara", "note": "crosses the Bengaluru–Mysuru Expressway (NH 275)" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met at Dobbaspet, the highway toward Tumakuru and Pune" },
+    { "id": "nh-44", "label": "Met twice — near Devanahalli in the north and at Hosur in the south" },
+    { "id": "bangalore-mysore-expressway", "label": "Crossed near Ramanagara on the western arc" },
+    { "id": "chennai-bengaluru-expressway", "label": "Starts at Hoskote on this ring and runs east to Chennai" },
+    { "id": "nice-road", "label": "Bengaluru's inner private toll ring, far inside this much bigger loop" }
+  ],
+  "travelNotes": "Only parts of the ring are open, so treat it as a set of useful shortcuts rather than a full loop for now. The finished Dobbaspet–Hoskote stretch is the handy one — it saves northern and eastern traffic a long crawl through Bengaluru, and it is tolled. Because it runs through open country, fuel pumps and food stops are still sparse on the new sections. Check which stretches are running before relying on the ring for a long trip.",
+  "futureUpgrades": [
+    "A stretch of about 21 km from Hoskote toward the Tamil Nadu border is almost finished — it was targeted to open in 2026 and would take the open length of the ring to roughly 100 km.",
+    "The southern arc past Bannerghatta National Park is awaiting environmental clearances before it can be built.",
+    "The remaining western sections through Kanakapura, Ramanagara and Magadi are planned in later stages."
   ],
   "sources": [
     {

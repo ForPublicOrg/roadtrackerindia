@@ -6,6 +6,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 416,
+  "lanes": "Four lanes between Patna, Gaya and Dobhi; two to four lanes north of Patna",
+  "agency": "NHAI",
   "route": {
     "start": "Sonbarsa (India–Nepal border), Bihar",
     "end": "Chandwa, Jharkhand",
@@ -21,13 +23,41 @@
       "Chatra"
     ]
   },
-  "history": "NH 22 starts at Sonbarsa on the India–Nepal border and runs south through the middle of Bihar to Chandwa in Jharkhand. It crosses the Ganga at Patna and links some of Bihar's most important cities, including Muzaffarpur, Patna and Gaya. The highway was put together in the 2010 renumbering from parts of the old NH 77, NH 83 and NH 99.",
+  "timeline": [
+    { "year": "2010", "event": "Given the number NH 22 in the renumbering, from parts of the old NH 77, NH 83 and NH 99" },
+    { "year": "2025", "event": "The four-laned 127 km Patna–Gaya–Dobhi section is opened" }
+  ],
+  "history": "NH 22 starts at Sonbarsa on the India–Nepal border and runs south through the middle of Bihar to Chandwa in Jharkhand. It crosses the Ganga at Patna and links some of Bihar's most important cities, including Muzaffarpur, Patna and Gaya. The highway was put together in the 2010 renumbering from parts of the old NH 77, NH 83 and NH 99. Its southern half, the Patna–Gaya–Dobhi corridor, was rebuilt as a four-lane road with town bypasses, flyovers and underpasses and opened in 2025, roughly halving the driving time. South of Dobhi the road leaves Bihar and climbs into the forested Chota Nagpur plateau to finish at Chandwa in Jharkhand.",
   "facts": [
     "About 416 km long, running from the Nepal border through Patna to Jharkhand.",
     "Crosses the Ganga on the Mahatma Gandhi Setu between Hajipur and Patna, one of India's longest river bridges.",
     "Passes Bodh Gaya, where the Buddha attained enlightenment; its Mahabodhi Temple is a UNESCO World Heritage Site.",
-    "Sitamarhi, near the start of the highway, is linked by tradition to the birthplace of the goddess Sita."
+    "Sitamarhi, near the start of the highway, is linked by tradition to the birthplace of the goddess Sita.",
+    "The 127 km Patna–Gaya–Dobhi four-lane road, opened in 2025, cut that drive from about three and a half hours to under two.",
+    "That upgrade cost roughly ₹5,520 crore and was funded partly by a Japanese government loan through JICA.",
+    "Muzaffarpur, on the northern half, is one of Bihar's busiest road junctions and the home of the famous Shahi litchi.",
+    "It ends at Chandwa in Jharkhand, in the forest and coal country of the Chota Nagpur plateau."
   ],
+  "significance": "NH 22 is Bihar's main north–south road spine, linking the Nepal border and the northern districts with Patna, Gaya and the plateau beyond. It is the road most Buddhist pilgrims take between Patna airport and Bodh Gaya, and the route by which grain, cement and fuel move between the state capital and southern Bihar. For the flood-prone districts north of the Ganga it is also the fastest way to reach Patna's hospitals and offices.",
+  "engineering": [
+    { "name": "Mahatma Gandhi Setu", "note": "5.75 km bridge over the Ganga between Hajipur and Patna; its worn concrete deck was replaced with a new steel one in a major rebuild" },
+    { "name": "Patna–Gaya–Dobhi four-lane corridor", "note": "127 km rebuilt with town bypasses, flyovers, underpasses and service roads, opened in 2025" }
+  ],
+  "interchanges": [
+    { "name": "Muzaffarpur", "note": "crosses NH 27, the Porbandar–Silchar East–West Corridor" },
+    { "name": "Hajipur", "note": "northern approach to the Mahatma Gandhi Setu across the Ganga" },
+    { "name": "Patna", "note": "the state capital, where the highway meets Bihar's main road network" },
+    { "name": "Bodh Gaya", "note": "exit for the Mahabodhi Temple and the Buddhist monasteries" },
+    { "name": "Dobhi", "note": "junction with NH 19, the Grand Trunk Road" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor, crossed at Muzaffarpur" },
+    { "id": "nh-19", "label": "The Grand Trunk Road, joined at Dobhi south of Gaya" },
+    { "id": "jp-ganga-path", "label": "Patna's riverside road along the Ganga, in the city this highway passes through" },
+    { "id": "nh-20", "label": "The other main Bihar-to-Jharkhand highway, running down the eastern side through Nawada and Ranchi" }
+  ],
+  "travelNotes": "Patna to Bodh Gaya is about 115 km and now takes roughly two hours on the new four-lane road. Bodh Gaya is busiest in the pilgrim season from November to February, when visitors from Sri Lanka, Thailand, Myanmar and Japan fill the town. North of Patna the road is narrower and slower, and crossing the Mahatma Gandhi Setu into the city can still be slow at rush hour. Winter fog in December and January is the main hazard on the Bihar plains.",
+  "newsQuery": "\"NH 22\" Bihar",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

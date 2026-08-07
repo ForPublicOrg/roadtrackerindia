@@ -2,7 +2,7 @@
   "id": "east-coast-road",
   "ref": "SH 49",
   "name": "East Coast Road",
-  "aka": ["ECR"],
+  "aka": ["ECR", "Chennai–Puducherry coastal road"],
   "category": "sh",
   "status": "operational",
   "lengthKm": 135,
@@ -15,21 +15,47 @@
     "majorCities": ["Chennai", "Kovalam", "Mahabalipuram", "Kalpakkam", "Marakkanam", "Puducherry"]
   },
   "tolls": [
-    { "name": "Uthandi toll plaza", "note": "southern edge of Chennai" }
+    { "name": "Uthandi toll plaza", "note": "southern edge of Chennai — the tolled stretch begins here" }
   ],
   "timeline": [
     { "year": "2002", "event": "Reopens as an improved toll road managed by TNRDC" },
-    { "year": "2020s", "event": "Widening of the busiest stretches to four lanes taken up" }
+    { "year": "2004", "event": "The Boxing Day tsunami batters this coast; the road becomes the main route for rescue and relief" },
+    { "year": "2020s", "event": "Widening of the busiest stretches to four lanes taken up" },
+    { "year": "2025", "event": "Tamil Nadu announces a 14 km elevated road above the ECR from Thiruvanmiyur to Uthandi" }
   ],
-  "history": "The East Coast Road is a scenic highway that runs beside the Bay of Bengal from Chennai to Puducherry. It passes beaches, fishing villages and the ancient stone temples of Mahabalipuram. In 2002 it was improved and reopened as one of India's early state toll roads, looked after by the Tamil Nadu Road Development Company. Today it is one of the most popular drives in South India.",
+  "history": "The East Coast Road is a scenic highway that runs beside the Bay of Bengal from Chennai to Puducherry. It was widened and straightened through the 1990s to open up a shoreline that had until then been reached mostly by narrow village roads. It passes beaches, fishing hamlets, salt pans, backwaters and the ancient stone temples of Mahabalipuram. In 2002 it was improved again and reopened as one of India's early state toll roads, looked after by the Tamil Nadu Road Development Company. When the 2004 tsunami struck this coast, the ECR became the lifeline along which rescue teams and relief supplies moved. Today it is one of the most popular drives in South India, and its first 14 km out of Chennai are so busy that an elevated road is being built above them.",
   "facts": [
     "Runs close to the sea for most of its length, with beach views at many points.",
     "Passes the UNESCO World Heritage monuments at Mahabalipuram.",
     "One of the first state highways in India to be improved and run as a maintained toll road, from 2002.",
-    "The coastal route continues beyond Puducherry, but the Chennai–Puducherry stretch is the best known and busiest part."
+    "The coastal route continues beyond Puducherry, but the Chennai–Puducherry stretch is the best known and busiest part.",
+    "The part inside Chennai is a free city road; toll is charged only from Uthandi southwards.",
+    "A crocodile park, an artists' village, boat houses and dozens of beach resorts line the first 40 km out of Chennai.",
+    "It runs past Kalpakkam, where one of India's atomic power stations sits right beside the sea."
   ],
+  "significance": "The ECR is the main road down Tamil Nadu's northern coast and the state's favourite weekend drive. It carries tourists to Mahabalipuram and Puducherry, workers to the Kalpakkam atomic power station and the resorts and film locations along the shore, and fresh fish from the coastal villages into Chennai's markets every morning.",
+  "engineering": [
+    { "name": "Muttukadu bridge", "note": "carries the road across the Muttukadu backwaters, a favourite spot for boating just south of Chennai" }
+  ],
+  "interchanges": [
+    { "name": "Thiruvanmiyur (Chennai)", "note": "northern end, where the ECR leaves the city streets close to the OMR IT corridor" },
+    { "name": "Uthandi", "note": "the toll plaza and the city limit — the open coastal run starts here" },
+    { "name": "Mahabalipuram (Mamallapuram)", "note": "roads turn inland to Chengalpattu here, and the Chennai Peripheral Ring Road is to end nearby at Poonjeri" },
+    { "name": "Kottakuppam (Puducherry)", "note": "southern end, where the road meets NH 32 coming down from Tindivanam" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-32", "label": "The inland Chennai–Kanyakumari highway, which the ECR rejoins at Puducherry" },
+    { "id": "chennai-peripheral-ring-road", "label": "The new ring road that will end on the ECR near Mahabalipuram" }
+  ],
+  "travelNotes": "Chennai to Puducherry takes about three to three and a half hours. Weekends and holidays are busy, and the Thiruvanmiyur–Mahabalipuram stretch can crawl on Sunday evenings. Most of the road is still two lanes with villages on both sides, so night driving needs care. November to February is the pleasant season; October to December is cyclone time, when the sea side of the road can flood.",
+  "futureUpgrades": [
+    "A 14.2 km four-lane elevated corridor above the ECR from Thiruvanmiyur to Uthandi, announced in the 2025–26 Tamil Nadu budget at about ₹2,100 crore.",
+    "Remaining two-lane stretches are being widened to four lanes in phases."
+  ],
+  "newsQuery": "\"East Coast Road\" Chennai",
   "sources": [
     { "title": "Tamil Nadu Road Development Company (TNRDC)", "url": "https://www.tnrdc.com/" },
+    { "title": "TNRDC — East Coast Road project page", "url": "https://tnrdc.com/ecr/" },
     { "title": "Government of Tamil Nadu", "url": "https://www.tn.gov.in/" }
   ],
   "waypoints": [

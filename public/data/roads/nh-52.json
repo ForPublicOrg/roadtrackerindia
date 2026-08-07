@@ -38,14 +38,41 @@
   "timeline": [
     { "year": "2010s", "event": "Assembled from stretches of several older highways during the national highway renumbering" }
   ],
-  "history": "NH 52 is a long north–south route that starts at Sangrur in Punjab's farm belt and ends at Ankola on the Karnataka coast, where it meets the coastal highway NH 66. It was pieced together in the renumbering of national highways from stretches of several older roads, including the Jaipur–Sikar road and the historic Agra–Bombay Road between Biaora and Dhule. On its way it crosses the Shekhawati region of Rajasthan, the Malwa plateau around Indore, and the Deccan through Solapur and Vijayapura before dropping through the Western Ghats to the sea.",
+  "history": "NH 52 is a long north–south route that starts at Sangrur in Punjab's farm belt and ends at Ankola on the Karnataka coast, where it meets the coastal highway NH 66. It was pieced together in the renumbering of national highways from stretches of several older roads, including the Jaipur–Sikar road and the historic Agra–Bombay Road between Biaora and Dhule. On its way it crosses the Shekhawati region of Rajasthan, the Malwa plateau around Indore, and the Deccan through Solapur and Vijayapura before dropping through the Western Ghats to the sea. Because it is stitched together from so many older roads, its character keeps changing: wide four-lane running near Jaipur, Indore and Hubballi, and narrow two-lane stretches through Marathwada and the forested Ghats. It is one of the few long highways that links the wheat country of the north with the coconut coast of Karnataka without ever touching Delhi or Mumbai.",
   "facts": [
     "About 2,317 km long, crossing six states from Punjab to coastal Karnataka.",
+    "The fourth longest national highway in India.",
     "Begins at a junction with NH 7 near Sangrur and ends at a junction with NH 66 near Ankola.",
     "Between Biaora and Dhule it follows the historic Agra–Bombay (AB) Road, once the main route between north India and Mumbai.",
     "Serves the pilgrimage town of Tuljapur in Maharashtra.",
-    "Its last leg drops from Yellapur through the forests of the Western Ghats to the Arabian Sea coast."
+    "Its last leg drops from Yellapur through the forests of the Western Ghats to the Arabian Sea coast.",
+    "It touches four completely different landscapes — the edge of the Thar desert, the Malwa plateau, the Marathwada plain and the Western Ghats."
   ],
+  "significance": "NH 52 is the main inland north–south alternative to the busy coastal and Golden Quadrilateral routes. It carries wheat, cotton, cement, stone and machinery between Punjab, Rajasthan, Madhya Pradesh, Maharashtra and north Karnataka, and gives central India a short road link to the small ports around Karwar and Ankola. For dozens of mid-sized towns like Sikar, Jhalawar, Beed and Bagalkot it is the main highway to the rest of the country.",
+  "engineering": [
+    { "name": "Arbail Ghat (Ankola–Yellapur)", "note": "the highway's western end climbs from sea level through thick Western Ghats forest in a long series of bends" },
+    { "name": "Satpura descent below Sendhwa (Madhya Pradesh–Maharashtra border)", "note": "the road drops off the Satpura hills into the Tapi valley here — a long-standing slow spot for loaded trucks on the old Agra–Bombay Road" },
+    { "name": "Autram Ghat (Chalisgaon–Kannad)", "note": "a twisting climb over the Ajanta hills between the Tapi valley and Marathwada" }
+  ],
+  "interchanges": [
+    { "name": "Sangrur", "note": "the northern end, on NH 7 in Punjab" },
+    { "name": "Jaipur", "note": "crosses NH 48, the Delhi–Jaipur–Ahmedabad corridor, and the Jaipur Ring Road" },
+    { "name": "Kota", "note": "crosses NH 27, the East–West Corridor" },
+    { "name": "Dhule", "note": "crosses NH 53, the Hajira–Paradip coast-to-coast highway" },
+    { "name": "Solapur", "note": "crosses NH 65, the Pune–Hyderabad–Vijayawada highway" },
+    { "name": "Hubballi", "note": "meets NH 48 again, the Pune–Bengaluru corridor" },
+    { "name": "Ankola", "note": "the southern end, on the coastal NH 66" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-7", "label": "The Punjab highway NH 52 starts from, at Sangrur" },
+    { "id": "jaipur-ring-road", "label": "Lets through-traffic skip Jaipur city" },
+    { "id": "nh-27", "label": "The East–West Corridor, crossed at Kota" },
+    { "id": "nh-53", "label": "The Hajira–Paradip highway, crossed at Dhule" },
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, crossed at Solapur" },
+    { "id": "nh-48", "label": "Met at Jaipur in the north and again at Hubballi in the south" },
+    { "id": "nh-66", "label": "The west coast highway NH 52 ends on, at Ankola" }
+  ],
+  "travelNotes": "This is a slow highway by Indian standards — driving the whole thing takes four to five days because so much of it is two-lane. The Jaipur–Kota and Indore–Dhule stretches move fastest; Marathwada and the Ghats are the slowest. The Ankola–Yellapur ghat is narrow, shaded and gets landslides and heavy rain from June to September, so daylight driving is much safer there. Tuljapur is packed with pilgrims during Navratri, and December–January fog slows the Punjab, Haryana and Rajasthan sections in the early morning.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

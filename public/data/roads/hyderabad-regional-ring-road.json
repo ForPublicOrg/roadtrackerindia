@@ -2,9 +2,9 @@
   "id": "hyderabad-regional-ring-road",
   "ref": "Regional Ring Road",
   "name": "Hyderabad Regional Ring Road",
-  "aka": ["RRR"],
+  "aka": ["RRR", "NH 161AA (northern section)"],
   "category": "expressway",
-  "status": "under-construction",
+  "status": "planned",
   "lengthKm": 161.5,
   "lanes": "6 lanes, access-controlled (as planned)",
   "agency": "NHAI",
@@ -23,16 +23,36 @@
   },
   "timeline": [
     { "year": "2021", "event": "Northern half approved as a national highway project" },
-    { "year": "2025", "event": "Construction tenders invited for the northern section as land acquisition nears completion" },
-    { "year": "2026", "event": "Contracts awarded and construction begins on the northern section" }
+    { "year": "2025", "event": "Land acquisition nears completion and the northern section is redesigned as a six-lane expressway" },
+    { "year": "2026", "event": "The Centre clears the revised northern section and NHAI invites fresh construction bids" }
   ],
-  "history": "The Regional Ring Road is planned as a second, much bigger circle around Hyderabad, far outside the existing 158 km Outer Ring Road. The full loop of roughly 340 km would tie together the towns and highways all around the city. Only the northern half — about 161 km from Girmapur near Sangareddy to Choutuppal — has been approved and is being built by NHAI, while the southern half is still waiting for final approval. The map here shows the northern section.",
+  "history": "The Regional Ring Road is planned as a second, much bigger circle around Hyderabad, far outside the existing 158 km Outer Ring Road. The full loop of roughly 350 km would tie together the towns and highways all around the city, giving long-distance traffic a way past Hyderabad without coming anywhere near it. Only the northern half — about 161 km from Girmapur near Sangareddy to Choutuppal — has been approved; NHAI will build it as national highway 161AA, and construction bids were invited in 2026. The plan was upgraded from a four-lane road to a six-lane access-controlled expressway before any construction began, which pushed the cost up sharply. The southern half is still waiting for final approval. The map here shows the northern section.",
   "facts": [
-    "Planned as a roughly 340 km ring around Hyderabad — more than twice the length of the existing Outer Ring Road.",
+    "Planned as a roughly 350 km ring around Hyderabad — more than twice the length of the existing Outer Ring Road.",
     "The northern section (about 161 km) runs from Girmapur near Sangareddy to Choutuppal via Narsapur, Toopran, Gajwel and Bhuvanagiri.",
     "Links the big highways out of Hyderabad, including the Mumbai, Nagpur, Warangal and Vijayawada routes.",
-    "The southern half of the ring is still at the planning and approval stage."
+    "The southern half of the ring is still at the planning and approval stage.",
+    "The northern section carries the national highway number NH 161AA.",
+    "It was redesigned from four lanes to six before construction, which roughly doubled the estimated cost.",
+    "It is being built as a greenfield road — a brand new alignment through farmland rather than a widening of any existing road."
   ],
+  "significance": "Hyderabad has outgrown its Outer Ring Road: the ring that was once countryside is now city. The Regional Ring Road is meant to draw the next line, far enough out that lorries from Mumbai, Nagpur, Warangal and Vijayawada can cross the region without touching the city, and close enough that the towns around Hyderabad get pulled into its economy. Telangana expects new industrial parks and townships to follow the road, just as they followed the Outer Ring Road.",
+  "interchanges": [
+    { "name": "Girmapur, near Sangareddy", "note": "western end, on NH 65, the highway toward Zahirabad, Solapur and Pune" },
+    { "name": "Toopran", "note": "crosses NH 44, the Hyderabad–Nagpur–Delhi highway" },
+    { "name": "Bhuvanagiri", "note": "crosses the Hyderabad–Warangal highway" },
+    { "name": "Choutuppal", "note": "eastern end, on NH 65, the Hyderabad–Vijayawada highway" }
+  ],
+  "relatedRoads": [
+    { "id": "hyderabad-outer-ring-road", "label": "The existing ring, built much closer in to the city" },
+    { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway, crossed near Toopran" },
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, met at both ends of the northern section" }
+  ],
+  "futureUpgrades": [
+    "The southern half of the ring, roughly 190 km from Choutuppal back to Sangareddy, is planned but not yet approved.",
+    "Radial roads are planned to connect the new ring with the existing Outer Ring Road."
+  ],
+  "newsQuery": "\"Regional Ring Road\" Hyderabad",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

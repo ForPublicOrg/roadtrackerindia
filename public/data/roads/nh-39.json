@@ -8,6 +8,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 869,
+  "agency": "NHAI",
   "route": {
     "start": "Jhansi, Uttar Pradesh",
     "end": "Ranchi, Jharkhand",
@@ -27,13 +28,40 @@
       "Ranchi"
     ]
   },
-  "history": "NH 39 crosses the middle of India from Jhansi to Ranchi, passing through Bundelkhand, the Rewa plateau, the Singrauli coal belt and the forests of western Jharkhand. Before 2010 this road was the eastern part of NH 75, which began at Gwalior. It is an important link between Uttar Pradesh, Madhya Pradesh and Jharkhand, serving industrial towns like Singrauli and Renukoot along the way.",
+  "timeline": [
+    { "year": "2010", "event": "Numbered NH 39 in the national highway renumbering; the road had been the eastern part of NH 75" },
+    { "year": "2022", "event": "The 2.28 km six-lane Mohania twin tunnel opens on the Rewa–Sidhi section" }
+  ],
+  "history": "NH 39 crosses the middle of India from Jhansi to Ranchi, passing through Bundelkhand, the Rewa plateau, the Singrauli coal belt and the forests of western Jharkhand. Before 2010 this road was the eastern part of NH 75, which began at Gwalior. It is an important link between Uttar Pradesh, Madhya Pradesh and Jharkhand, serving industrial towns like Singrauli and Renukoot along the way. For years much of it was a narrow, badly worn two-lane road with a poor reputation among lorry drivers, and long stretches are still two-lane today. The biggest recent improvement is the twin tunnel under Mohania hill between Rewa and Sidhi, opened in December 2022, which replaced a long climb full of hairpin bends.",
   "facts": [
     "Was the eastern part of the old NH 75, which ran from Gwalior to Ranchi.",
     "Passes close to Panna Tiger Reserve and Panna's famous diamond mines.",
     "Serves Singrauli, often called India's energy capital for its coal mines and power stations.",
-    "The number NH 39 earlier belonged to the highway from Assam through Kohima to the Myanmar border — a completely different road, now mostly part of NH 2."
+    "The number NH 39 earlier belonged to the highway from Assam through Kohima to the Myanmar border — a completely different road, now mostly part of NH 2.",
+    "The 2.28 km Mohania twin tunnel between Rewa and Sidhi is a six-lane road tunnel, opened in December 2022.",
+    "The tunnel turned a slow climb over Mohania ghat into a drive of a few minutes.",
+    "Renukoot, on the route, grew up around one of India's biggest aluminium plants."
   ],
+  "significance": "NH 39 is the road that carries central India's energy. It runs through the Singrauli coalfields, past giant power stations and the Renukoot aluminium works, and ties them to Bundelkhand in the west and to Ranchi in the east. For the towns of the Rewa plateau and western Jharkhand it is the main all-weather link to the rest of the country.",
+  "engineering": [
+    { "name": "Mohania twin tunnel", "note": "2.28 km six-lane twin tunnel bored under Mohania hill on the Rewa–Sidhi section, opened in December 2022; it replaced a steep ghat climb full of hairpin bends" }
+  ],
+  "interchanges": [
+    { "name": "Jhansi", "note": "west end — starts on NH 27, the Porbandar–Silchar East–West Corridor, in a city NH 44 also passes through" },
+    { "name": "Chhatarpur", "note": "crosses NH 34, the long highway from Gangotri down to Lakhnadon" },
+    { "name": "Rewa", "note": "crosses NH 30, the long Sitarganj–Vijayawada highway" },
+    { "name": "Chandwa", "note": "meets NH 22, the road back toward Gaya and Patna" },
+    { "name": "Ranchi", "note": "east end — joins NH 43" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The East–West Corridor, which this highway starts from at Jhansi" },
+    { "id": "nh-44", "label": "India's longest highway, which also passes through Jhansi" },
+    { "id": "nh-34", "label": "Crossed at Chhatarpur, on its way from the Himalaya to central India" },
+    { "id": "nh-30", "label": "Crossed at Rewa, running north–south through the heart of the country" },
+    { "id": "nh-43", "label": "Joined at Ranchi, the eastern end of this highway" }
+  ],
+  "travelNotes": "Jhansi to Ranchi is a two-day drive for most people. Long stretches are still two lanes and the surface can be rough, so average speeds stay low — plan on roughly 45–55 km an hour overall. The forest sections between Renukoot and Latehar are best driven in daylight. October to March is the comfortable season; summer on the Rewa plateau is fierce.",
+  "newsQuery": "\"NH 39\" Madhya Pradesh",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

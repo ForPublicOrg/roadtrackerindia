@@ -2,7 +2,10 @@
   "id": "nh-46",
   "ref": "NH 46",
   "name": "Gwalior–Betul Highway",
-  "aka": ["Formed from parts of the former NH 3, NH 12 and NH 69 (old numbering)"],
+  "aka": [
+    "Formed from parts of the former NH 3, NH 12 and NH 69 (old numbering)",
+    "AB Road (Agra–Bombay Road) — the Gwalior–Biaora section"
+  ],
   "category": "nh",
   "status": "operational",
   "lengthKm": 634,
@@ -12,13 +15,33 @@
     "states": ["Madhya Pradesh"],
     "majorCities": ["Gwalior", "Shivpuri", "Guna", "Biaora", "Bhopal", "Narmadapuram", "Itarsi", "Betul"]
   },
-  "history": "NH 46 runs from north to south through the middle of Madhya Pradesh. It starts at Gwalior, follows the historic Agra–Bombay Road through Shivpuri and Guna, passes the state capital Bhopal, crosses the Narmada river near Narmadapuram and ends at Betul, close to the Maharashtra border. It was created in the highway renumbering by joining parts of the old NH 3, NH 12 and NH 69.",
+  "history": "NH 46 runs from north to south through the middle of Madhya Pradesh. It starts at Gwalior, follows the historic Agra–Bombay Road through Shivpuri and Guna, passes the state capital Bhopal, crosses the Narmada river near Narmadapuram and ends at Betul, close to the Maharashtra border. It was created in the highway renumbering by joining parts of the old NH 3, NH 12 and NH 69. The northern half is one of the oldest long-distance roads in the region — the Agra–Bombay Road, or AB Road, was the main way between north India and Bombay long before the modern expressways existed. Today it is also part of Asian Highway 47, an international route number used across the continent.",
   "facts": [
     "Lies entirely within one state — about 634 km across Madhya Pradesh.",
     "The Gwalior–Biaora section follows the historic Agra–Bombay (AB) Road.",
     "Crosses the Narmada, central India's biggest river, near Narmadapuram (Hoshangabad).",
-    "Passes close to Madhav National Park at Shivpuri."
+    "Passes close to Madhav National Park at Shivpuri.",
+    "The Gwalior–Biaora stretch is also part of Asian Highway 47.",
+    "It links Madhya Pradesh's capital, Bhopal, with Gwalior, one of the state's biggest cities.",
+    "Along the way it meets NH 44 at Gwalior, NH 27 at Shivpuri, NH 52 at Biaora, NH 45 at Obaidullaganj and NH 47 at Betul."
   ],
+  "significance": "NH 46 is Madhya Pradesh's own north–south spine: it connects Gwalior, Shivpuri, Guna, Bhopal and Itarsi in one line, so most road journeys between the north of the state and the capital use some part of it. It also hands traffic on at both ends — to NH 44 for Delhi and Agra in the north, and to NH 47 for Nagpur in the south — which makes it a useful shortcut for long-distance traffic crossing central India.",
+  "interchanges": [
+    { "name": "Gwalior", "note": "northern end, at NH 44 — the Delhi–Agra–Nagpur trunk route" },
+    { "name": "Shivpuri", "note": "crosses NH 27, the Porbandar–Silchar East–West Corridor" },
+    { "name": "Biaora", "note": "crosses NH 52, the Sangrur–Ankola highway; Asian Highway 47 turns off here" },
+    { "name": "Obaidullaganj", "note": "junction with NH 45, the road east to Jabalpur and Bilaspur" },
+    { "name": "Betul", "note": "southern end, at NH 47 toward Nagpur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, met at Gwalior" },
+    { "id": "nh-27", "label": "The East–West Corridor, crossed at Shivpuri" },
+    { "id": "nh-52", "label": "The Sangrur–Ankola highway, crossed at Biaora" },
+    { "id": "nh-45", "label": "Branches east from Obaidullaganj toward Jabalpur and Bilaspur" },
+    { "id": "nh-47", "label": "Takes over at Betul and runs on to Nagpur" }
+  ],
+  "travelNotes": "Gwalior to Bhopal takes roughly seven to eight hours, and the AB Road part of it is a well-used route with dhabas every few kilometres — the truck stops around Shivpuri and Guna are a local institution. Traffic is heaviest close to Bhopal and around Itarsi, a big railway junction town. The nicest season is October to February; the Shivpuri stretch beside Madhav National Park is scenic but has wildlife crossings, so keep speeds down after dark.",
+  "newsQuery": "\"NH 46\" Madhya Pradesh highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

@@ -9,6 +9,7 @@
   "status": "operational",
   "lengthKm": 1984,
   "lanes": "Mix of 2-lane and 4-lane sections",
+  "agency": "NHAI",
   "route": {
     "start": "Sitarganj, Uttarakhand",
     "end": "Ibrahimpatnam (near Vijayawada), Andhra Pradesh",
@@ -36,16 +37,42 @@
     ]
   },
   "timeline": [
-    { "year": "2010s", "event": "Assembled from stretches of about eight older highways during the national highway renumbering" }
+    { "year": "2010s", "event": "Assembled from stretches of about eight older highways during the national highway renumbering" },
+    { "year": "2024", "event": "A second bridge over the Godavari opens at Bhadrachalam, beside the older single bridge" }
   ],
-  "history": "NH 30 begins at Sitarganj in the farm country below the Kumaon hills and travels almost the whole height of India to end near Vijayawada in Andhra Pradesh. It was pieced together in the renumbering of national highways from stretches of many older roads, including the Bareilly–Lucknow road, the Lucknow–Prayagraj road via Raebareli, and the old highway through Jabalpur to Raipur. Its southern part runs through the forested Bastar region of Chhattisgarh and the temple town of Bhadrachalam on the Godavari river.",
+  "history": "NH 30 begins at Sitarganj in the farm country below the Kumaon hills and travels almost the whole height of India to end near Vijayawada in Andhra Pradesh. It was pieced together in the renumbering of national highways from stretches of about eight older roads, including the Bareilly–Lucknow road, the Lucknow–Prayagraj road via Raebareli, and the old highway through Jabalpur to Raipur. In the north it crosses some of the most crowded farmland in India; in the middle it climbs through the Vindhya and Satpura hills around Rewa and Jabalpur. Its southern part runs through the forested Bastar region of Chhattisgarh, one of the hardest places in the country to build and keep a road open. Further south it reaches the temple town of Bhadrachalam on the Godavari, where a second bridge opened in 2024 to take pressure off the old one. It finishes at Ibrahimpatnam, just outside Vijayawada, where it meets NH 65.",
   "facts": [
     "About 1,984 km long, passing through six states from Uttarakhand to Andhra Pradesh.",
     "Starts at a junction with NH 9 at Sitarganj and ends at a junction with NH 65 at Ibrahimpatnam, near Vijayawada.",
+    "One of the ten longest national highways in India.",
     "Passes close to the Kanha Tiger Reserve on the stretch between Mandla and the Chhattisgarh border.",
     "Runs through Jagdalpur, the main town of the remote and forested Bastar region.",
-    "At Bhadrachalam it crosses the Godavari beside a famous temple of Lord Rama."
+    "The Keskal ghat, a twisting climb between Kanker and Kondagaon, lifts the highway onto the Bastar plateau.",
+    "At Bhadrachalam it crosses the Godavari beside a famous temple of Lord Rama.",
+    "A second Godavari bridge at Bhadrachalam opened in April 2024, doubling the crossing there."
   ],
+  "significance": "NH 30 is one of the few long highways that runs down the middle of India instead of along a coast or a famous corridor. It ties the Kumaon foothills, the Awadh plains, the Ganga cities, the coal-and-cement belt of Madhya Pradesh and Chhattisgarh and the Godavari valley into a single line. For remote districts such as Bastar it is often the only proper road to a hospital, a market or a railway station.",
+  "engineering": [
+    { "name": "Keskal Ghat", "note": "a steep, winding climb through the Bastar hills between Kanker and Kondagaon, notorious for slow truck traffic" },
+    { "name": "Second Godavari bridge, Bhadrachalam", "note": "opened in 2024 beside the older bridge at the temple town, giving the highway two crossings of the river" }
+  ],
+  "interchanges": [
+    { "name": "Sitarganj", "note": "the northern end, on NH 9" },
+    { "name": "Lucknow", "note": "crosses NH 27, the East–West Corridor" },
+    { "name": "Prayagraj", "note": "crosses NH 19, the Delhi–Kolkata highway" },
+    { "name": "Jabalpur", "note": "meets NH 34, which comes down from the Himalayas" },
+    { "name": "Raipur", "note": "crosses NH 53, the Gujarat–Odisha highway" },
+    { "name": "Ibrahimpatnam", "note": "the southern end, on NH 65 just outside Vijayawada" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-9", "label": "The highway NH 30 branches from at Sitarganj" },
+    { "id": "nh-19", "label": "The Delhi–Kolkata highway, crossed at Prayagraj" },
+    { "id": "nh-34", "label": "The Gangotri–Lakhnadon highway, met at Jabalpur" },
+    { "id": "nh-53", "label": "The Gujarat–Odisha highway, crossed at Raipur" },
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, where NH 30 ends at Ibrahimpatnam" },
+    { "id": "raipur-visakhapatnam-expressway", "label": "The new expressway running roughly alongside this road through Dhamtari, Kanker and Kondagaon" }
+  ],
+  "travelNotes": "Almost nobody drives the whole 1,984 km — the road is used in pieces. The Lucknow–Raebareli–Prayagraj leg is mostly four-lane and quick, while the Bastar stretch between Kanker and Konta is narrow, forested and best driven in daylight. Winter fog badly slows the Uttar Pradesh section in December and January, and heavy monsoon rain can flood low points near the Godavari.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

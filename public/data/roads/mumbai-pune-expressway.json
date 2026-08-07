@@ -2,6 +2,7 @@
   "id": "mumbai-pune-expressway",
   "ref": "Mumbai–Pune Expressway",
   "name": "Yashwantrao Chavan Mumbai–Pune Expressway",
+  "aka": ["Yashwantrao Chavan Expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 94.5,
@@ -15,19 +16,47 @@
     "majorCities": ["Navi Mumbai", "Khopoli", "Lonavala", "Talegaon", "Pune"]
   },
   "tolls": [
-    { "name": "Khalapur toll plaza", "note": "Raigad district" },
-    { "name": "Talegaon toll plaza", "note": "Pune district" }
+    { "name": "Khalapur toll plaza", "note": "Raigad district, on the Mumbai side of the ghats" },
+    { "name": "Talegaon toll plaza", "note": "Pune district, on the Pune side of the ghats" }
   ],
   "timeline": [
     { "year": "1997", "event": "Construction begins" },
-    { "year": "2002", "event": "Fully opened to traffic" }
+    { "year": "2002", "event": "Fully opened to traffic" },
+    { "year": "2019", "event": "Work begins in March on the 'Missing Link' bypass through the Sahyadri hills" },
+    { "year": "2026", "event": "The 13.3 km Missing Link, with its twin tunnels and tall cable-stayed bridge, opens on 1 May" }
   ],
-  "history": "India's first six-lane, fully access-controlled concrete expressway, built by the Maharashtra State Road Development Corporation. It climbs the Western Ghats through the scenic Khandala–Lonavala section and cut the Mumbai–Pune journey from four or five hours to about two. A 'Missing Link' project with long tunnels is being built to bypass the congested ghat stretch and shorten the route further.",
+  "history": "The Mumbai–Pune Expressway was India's first six-lane, fully access-controlled concrete expressway, and it changed what Indians expected a highway to be. Before it, the two cities were joined by a crowded two-lane road over the Bhor Ghat, and the trip took four or five hours. The Maharashtra State Road Development Corporation began building in 1997 and the full road was open by 2002, cutting the journey to about two hours. Its weak point was always the climb through the Western Ghats near Khandala, where the road doubles back on itself in tight curves and a single breakdown could jam it for hours. To fix that, MSRDC built a 13.3 km bypass known as the 'Missing Link', which drives straight through the mountains in enormous twin tunnels and crosses a valley on India's tallest road cable-stayed bridge. The Missing Link opened on 1 May 2026, taking about 6 km and 25–30 minutes off the drive and letting traffic skip the worst of the ghat entirely.",
   "facts": [
     "India's first fully access-controlled expressway, fully opened in 2002.",
-    "Crosses the Western Ghats through the Bhor Ghat near Khandala.",
-    "The under-construction 'Missing Link' includes some of India's widest road tunnels."
+    "Crosses the Western Ghats through the Bhor Ghat near Khandala and Lonavala.",
+    "The 13.3 km 'Missing Link' bypass opened on 1 May 2026 and includes what are described as the widest road tunnels in the world, about 23 metres across.",
+    "The Missing Link's cable-stayed bridge is 650 metres long and stands about 180 metres above the floor of the Tiger valley — India's tallest road cable-stayed bridge.",
+    "The bypass replaces a 19 km winding ghat road with a 13.3 km straight run, saving roughly 25 to 30 minutes.",
+    "Two-wheelers, three-wheelers and slow farm vehicles are not allowed on the expressway.",
+    "Toll is collected at two plazas, Khalapur on the Mumbai side and Talegaon on the Pune side.",
+    "It is named after Yashwantrao Chavan, the first chief minister of Maharashtra."
   ],
+  "significance": "This is the busiest intercity expressway in India and the artery between Maharashtra's financial capital and its biggest IT and manufacturing hub. Lakhs of people use it every week for work, college and weekend trips to Lonavala and Khandala, and it carries a huge share of the freight moving between Pune's factories and Mumbai's port. It also proved the model — six lanes, concrete, no crossings, tolled — that every Indian expressway built since has copied.",
+  "engineering": [
+    { "name": "Bhor Ghat climb", "note": "the original road climbs steeply out of the coastal plain at Khopoli into the Sahyadri hills at Khandala, with several short tunnels including the Adoshi and Bhatan tunnels" },
+    { "name": "Missing Link twin tunnels", "note": "one about 8.87 km long and one about 1.68 km, each roughly 23 m wide and carrying four lanes — reported as among the widest road tunnels in the world — driving straight under the mountains instead of winding over them" },
+    { "name": "Missing Link cable-stayed bridge", "note": "a 650 m cable-stayed viaduct across the Tiger valley between the two tunnels, standing about 180 m above the valley floor; India's tallest road cable-stayed bridge" }
+  ],
+  "interchanges": [
+    { "name": "Kalamboli (Navi Mumbai)", "note": "Mumbai end, linking to NH 48 and the Sion–Panvel highway" },
+    { "name": "Shedung (Kon)", "note": "entry and exit for Panvel and the Konkan side" },
+    { "name": "Khalapur", "note": "interchange beside the Khalapur toll plaza, with the expressway's best-known food plaza" },
+    { "name": "Khopoli (Chowk)", "note": "the last exit before the climb into the ghats" },
+    { "name": "Lonavala / Kusgaon", "note": "exit for the hill towns of Lonavala and Khandala" },
+    { "name": "Talegaon", "note": "exit for Talegaon and the industrial belt north of Pune" },
+    { "name": "Kiwale (Dehu Road)", "note": "Pune end, feeding into Pimpri-Chinchwad and Pune city" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The old Mumbai–Pune highway that runs alongside and still carries local and heavy traffic" },
+    { "id": "pune-ring-road", "label": "The ring road being built around Pune, planned to meet the expressway near Urse" },
+    { "id": "atal-setu", "label": "The sea bridge that gives Mumbai traffic a much faster run to the expressway's Navi Mumbai end" }
+  ],
+  "travelNotes": "Mumbai to Pune now takes around an hour and a half to two hours with the Missing Link open. Avoid Friday evenings and Sunday evenings, when weekend traffic to and from Lonavala fills the road. Monsoon months bring mist, heavy rain and occasional landslide warnings in the ghats, so speeds drop. Two-wheelers are banned outright. The food plazas at Khalapur and near Lonavala are the traditional halts, famous for vada pav and boxes of Lonavala chikki.",
   "sources": [
     { "title": "MSRDC — Maharashtra State Road Development Corporation", "url": "https://www.msrdc.org/" }
   ],

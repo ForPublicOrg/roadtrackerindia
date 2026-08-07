@@ -18,16 +18,42 @@
   },
   "timeline": [
     { "year": "1850", "event": "Work begins on the historic Hindustan–Tibet Road during Lord Dalhousie's time" },
-    { "year": "2010", "event": "The corridor gets its current number, NH 5, in the national highway renumbering" }
+    { "year": "2010", "event": "The corridor gets its current number, NH 5, in the national highway renumbering" },
+    { "year": "2010s", "event": "The 39 km Parwanoo–Solan hill section is widened to four lanes" }
   ],
-  "history": "NH 5 runs from Firozpur near the Pakistan border across the Punjab plains through Ludhiana, then climbs past Kalka and Solan to Shimla. From there it follows the deep valley of the Sutlej river through Kinnaur all the way to Shipki La, the mountain pass where the Sutlej enters India from Tibet. The hill section follows the famous Hindustan–Tibet Road, which the British began building in the 1850s.",
+  "history": "NH 5 runs from Firozpur near the Pakistan border across the Punjab plains through Ludhiana, then climbs past Kalka and Solan to Shimla. From there it follows the deep valley of the Sutlej river through Kinnaur all the way to Shipki La, the mountain pass where the Sutlej enters India from Tibet. The hill section follows the famous Hindustan–Tibet Road, which the British began building in the 1850s under Lord Dalhousie as a trade and military route toward Tibet. It took decades of hand-cut work to carve the road along the cliffs above the Sutlej, and parts of the alignment are still essentially the same today. Since the 2010s the lower hill section has been rebuilt as a four-lane highway with tunnels, while the upper Kinnaur section remains a narrow mountain road that landslides regularly close.",
+  "lanes": "Four lanes across Punjab and up the Parwanoo–Solan hill section; two lanes or less through most of Kinnaur",
   "facts": [
     "The hill section follows the historic Hindustan–Tibet Road, begun in the 1850s.",
     "From Rampur onwards the road runs through the gorge of the Sutlej river in Kinnaur.",
     "Some Kinnaur stretches are carved straight into cliff faces high above the river.",
     "Shipki La, the highway's end point, is the pass where the Sutlej river flows into India from Tibet.",
-    "The final stretch beyond Khab towards Shipki La lies in a restricted border zone."
+    "The final stretch beyond Khab towards Shipki La lies in a restricted border zone.",
+    "It is the main road to Shimla, and one of the busiest tourist highways in the Himalaya.",
+    "The 39 km Parwanoo–Solan climb has been rebuilt as a four-lane highway.",
+    "The Taranda 'dhank' in Kinnaur, where the road is cut into a vertical cliff above the Sutlej, is one of India's most photographed mountain roads."
   ],
+  "significance": "NH 5 is the lifeline of Himachal Pradesh's Sutlej valley. It is the only proper road to Shimla, to the big hydroelectric projects at Nathpa Jhakri and Karcham, and to the whole of Kinnaur district, so everything — food, fuel, building material, the famous Kinnaur apple crop and the tourists — travels on it. Because it ends at the Tibet border it is also a strategic road for the army and border police, which is why so much money goes into keeping it open through landslide season.",
+  "engineering": [
+    { "name": "Taranda Dhank, Kinnaur", "note": "the road is cut into a near-vertical cliff with a sheer drop to the Sutlej far below" },
+    { "name": "Parwanoo–Solan four-lane section", "note": "39 km of hill highway rebuilt with cuttings, retaining walls and viaducts to replace the old Kalka–Solan road" }
+  ],
+  "interchanges": [
+    { "name": "Doraha, near Ludhiana", "note": "crosses NH 44, the Srinagar–Kanyakumari trunk route" },
+    { "name": "Zirakpur, near Chandigarh", "note": "meets NH 7, the Fazilka–Mana highway, on the ring of roads around Chandigarh" },
+    { "name": "Parwanoo", "note": "the gateway into Himachal Pradesh, where the climb into the hills begins" },
+    { "name": "Shimla", "note": "the state capital and the biggest town on the hill section; beyond it the road continues east as the old Hindustan–Tibet Road" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, crossed at Ludhiana" },
+    { "id": "nh-7", "label": "The Fazilka–Mana highway, met around Zirakpur and Panchkula near Chandigarh" }
+  ],
+  "travelNotes": "Chandigarh to Shimla takes about three and a half hours and is busy every weekend and holiday, with long queues at Parwanoo and on the Solan climb. Beyond Shimla the road slows right down: Shimla to Reckong Peo is a full day's drive of eight to ten hours, and there is no fuel for long stretches, so fill up at Rampur. April to June and September to October are the best months; the monsoon from July to September brings frequent landslides in Kinnaur — the Nigulsari stretch is notorious — and heavy winter snow can shut the upper valley. Foreign visitors need an inner-line permit for the border stretch beyond Reckong Peo, and the last section up to Shipki La is closed to ordinary travellers.",
+  "futureUpgrades": [
+    "The 22.9 km Solan–Kaithlighat section is being widened to four lanes.",
+    "A four-lane Kaithlighat–Dhalli stretch of about 28 km, bypassing the worst of the approach to Shimla, has been sanctioned and is under construction."
+  ],
+  "newsQuery": "\"NH 5\" Himachal highway",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" }

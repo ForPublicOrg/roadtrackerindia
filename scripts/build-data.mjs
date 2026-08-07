@@ -27,6 +27,8 @@ const KNOWN_KEYS = new Set([
   'id', 'ref', 'name', 'category', 'status', 'lengthKm', 'route', 'waypoints', 'sources',
   'aka', 'completionPercent', 'lanes', 'agency', 'cost', 'contractor', 'tolls', 'timeline',
   'history', 'facts',
+  'significance', 'engineering', 'interchanges', 'relatedRoads', 'travelNotes',
+  'futureUpgrades', 'newsQuery',
 ])
 
 // ── geometry helpers ────────────────────────────────────────────────
@@ -194,6 +196,21 @@ function validateRoad(road, file) {
   if (road.timeline !== undefined && (!Array.isArray(road.timeline) || road.timeline.some((t) => !t || typeof t.year !== 'string' || typeof t.event !== 'string')))
     err(`"timeline" must be an array of { year, event } (both strings)`)
 
+  for (const key of ['significance', 'travelNotes', 'newsQuery']) {
+    if (road[key] !== undefined && (typeof road[key] !== 'string' || !road[key].trim()))
+      err(`"${key}" must be a non-empty string`)
+  }
+  if (road.futureUpgrades !== undefined && (!Array.isArray(road.futureUpgrades) || road.futureUpgrades.some((f) => typeof f !== 'string')))
+    err(`"futureUpgrades" must be an array of strings`)
+  for (const key of ['engineering', 'interchanges']) {
+    if (road[key] !== undefined && (!Array.isArray(road[key]) || road[key].some((t) => !t || typeof t.name !== 'string' || (t.note !== undefined && typeof t.note !== 'string'))))
+      err(`"${key}" must be an array of { name, note? }`)
+  }
+  if (road.relatedRoads !== undefined) {
+    if (!Array.isArray(road.relatedRoads) || road.relatedRoads.some((r) => !r || typeof r.id !== 'string'))
+      err(`"relatedRoads" must be an array of { id, label? }`)
+  }
+
   for (const key of Object.keys(road)) {
     if (!KNOWN_KEYS.has(key)) warn(`unknown key "${key}" (ignored)`)
   }
@@ -217,6 +234,7 @@ if (files.length === 0) {
 const allErrors = []
 const allWarnings = []
 const roads = []
+const allIds = new Set(files.map((f) => f.replace(/\.json$/, '')))
 
 for (const file of files) {
   let road
@@ -227,6 +245,10 @@ for (const file of files) {
     continue
   }
   const { errors, warnings } = validateRoad(road, file)
+  for (const rel of road?.relatedRoads ?? []) {
+    if (rel?.id && !allIds.has(rel.id))
+      warnings.push(`${file}: relatedRoads points at "${rel.id}" which is not in the catalogue`)
+  }
   allErrors.push(...errors)
   allWarnings.push(...warnings)
   if (errors.length === 0) roads.push(road)

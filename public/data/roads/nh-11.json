@@ -8,6 +8,9 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 848,
+  "lanes": "Mixed — 4 lanes on the busier stretches, 2 lanes across much of the desert",
+  "agency": "NHAI",
+  "newsQuery": "\"NH 11\" Rajasthan highway",
   "route": {
     "start": "Near Myajlar, Jaisalmer district, Rajasthan",
     "end": "Rewari, Haryana",
@@ -23,13 +26,34 @@
       "Rewari"
     ]
   },
-  "history": "NH 11 crosses Rajasthan from the Thar Desert near Jaisalmer to Rewari in Haryana. On the way it links the desert cities of Jaisalmer and Bikaner with the Shekhawati region, whose towns such as Fatehpur, Mandawa and Jhunjhunu are famous for beautifully painted old mansions called havelis. The highway was pieced together after the 2010 renumbering, mostly from parts of the old NH 15 and the old NH 11.",
+  "timeline": [
+    { "year": "2010", "event": "Created in the national highway renumbering, mostly from parts of the old NH 15 and old NH 11" }
+  ],
+  "history": "NH 11 crosses Rajasthan diagonally, from the sand dunes of the Thar Desert near Jaisalmer all the way to Rewari in Haryana on the edge of the Delhi region. It begins near Myajlar, in empty border country close to Pakistan, runs east through Jaisalmer, Pokaran, Phalodi and Bikaner, and then bends into the Shekhawati region, whose towns — Fatehpur, Mandawa, Jhunjhunu and Chirawa — are famous for beautifully painted old merchant mansions called havelis. From there it crosses into Haryana at Narnaul and finishes at Rewari. The highway was pieced together after the 2010 renumbering, mostly from parts of the old NH 15 and the old NH 11, which is why its two halves feel so different: a lonely desert road in the west, and a busy, town-to-town road in the east. For most of the year the western half is one of the emptiest long highways in India, with tens of kilometres of sand and scrub between one village and the next.",
   "facts": [
     "At about 848 km, it is one of the longest highways lying almost entirely in Rajasthan.",
     "Connects two famous desert tourist cities, Jaisalmer and Bikaner.",
     "Passes through the Shekhawati towns of Fatehpur, Mandawa and Jhunjhunu, known for their painted havelis.",
-    "Its western end near Myajlar is deep in the Thar Desert, close to the India–Pakistan border."
+    "Its western end near Myajlar is deep in the Thar Desert, close to the India–Pakistan border.",
+    "Pokaran, on this highway, is where India carried out its nuclear tests in 1974 and 1998.",
+    "It meets NH 62 at Bikaner and NH 52 at Fatehpur, and NH 125 down to Jodhpur at Pokaran.",
+    "Bikaner, the biggest city on the route, is known for its Junagarh Fort and for the crunchy snack named after it, bhujia.",
+    "It gives Delhi-side traffic one of the shortest road routes to Bikaner and Jaisalmer."
   ],
+  "significance": "This is the main road across Rajasthan's western desert, and for the towns strung along it there is often no other option — it is how grain, cement, fuel and cattle feed reach the border districts, and how people get to the nearest hospital or college. It matters to the armed forces too: Jaisalmer, Pokaran and Bikaner all host large army and air force stations near the western border, and this highway is a key supply line to them. It is also a tourism route, carrying visitors between the desert forts of Bikaner and Jaisalmer and the haveli towns of Shekhawati.",
+  "interchanges": [
+    { "name": "Pokaran", "note": "meets NH 125, the highway south to Jodhpur" },
+    { "name": "Bikaner", "note": "crosses NH 62, the Sri Ganganagar–Jodhpur highway" },
+    { "name": "Fatehpur", "note": "crosses NH 52, the Hisar–Churu–Sikar–Jaipur highway" },
+    { "name": "Narnaul", "note": "meets NH 148B; the Ambala–Narnaul (Trans-Haryana) Expressway also ends here" },
+    { "name": "Rewari", "note": "eastern terminus, and the junction point for traffic heading on to Delhi and Jaipur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-62", "label": "Crosses NH 11 at Bikaner, running north to Sri Ganganagar and south to Jodhpur" },
+    { "id": "nh-52", "label": "Crosses NH 11 at Fatehpur, on its way from Hisar to Sikar and Jaipur" },
+    { "id": "trans-haryana-expressway", "label": "The Ambala–Narnaul Expressway, which ends at Narnaul on this route" }
+  ],
+  "travelNotes": "Rewari to Jaisalmer is roughly 780 km and takes twelve to fourteen hours, so most people break the trip at Bikaner. Go in winter, between October and March; from April to June the desert regularly passes 45°C and the road surface shimmers. West of Bikaner the fuel pumps, dhabas and mobile signal all thin out, so fill the tank and carry water. Blowing sand can cover the road after a windy day, and cattle, camels and goat herds wander across it, especially at dusk. Winter mornings in the Shekhawati and Haryana stretches can be very foggy.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

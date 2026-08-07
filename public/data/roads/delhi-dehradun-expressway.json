@@ -14,15 +14,41 @@
     "majorCities": ["Delhi", "Baghpat", "Shamli", "Saharanpur", "Dehradun"]
   },
   "timeline": [
-    { "year": "2021", "event": "Construction begins" },
-    { "year": "2026", "event": "Full expressway inaugurated in April" }
+    { "year": "2021", "event": "Foundation stone laid and construction begins" },
+    { "year": "2025", "event": "The first 32 km, from Akshardham in Delhi to Khekra in Baghpat district, opens" },
+    { "year": "2026", "event": "Full expressway inaugurated on 14 April" }
   ],
-  "history": "The Delhi–Dehradun Expressway gives Delhi a much shorter and faster route to Dehradun, the capital of Uttarakhand, going via Baghpat, Shamli and Saharanpur instead of the older, longer road through Meerut. Construction started in 2021 and the full road was inaugurated in April 2026. Near Dehradun it runs on tall pillars through a forest, so elephants and other wild animals can pass safely underneath.",
+  "history": "The Delhi–Dehradun Expressway gives Delhi a much shorter and faster route to Dehradun, the capital of Uttarakhand, going via Baghpat, Shamli and Saharanpur instead of the older, longer road through Meerut and Muzaffarnagar. Work started in 2021 and the road was built in four phases, the trickiest being the last stretch through the forests at the foot of the Himalayas. The Delhi end begins at Akshardham and rides on a long elevated road above crowded east Delhi before reaching open country. Near Dehradun about 12 km of the expressway runs on tall pillars through the Rajaji National Park forest, so elephants and other wild animals can walk underneath undisturbed. A short tunnel near the Daat Kali temple then carries the road down into the Dehradun valley. The complete expressway was inaugurated on 14 April 2026.",
   "facts": [
     "Cuts the Delhi–Dehradun drive from around six hours to about three.",
     "Includes a roughly 12 km elevated stretch through the Rajaji National Park forest area — Asia's longest elevated wildlife corridor.",
     "Starts at Akshardham in Delhi and crosses Delhi, Uttar Pradesh and Uttarakhand.",
-    "A short tunnel near the Daat Kali temple carries the road into the Dehradun valley."
+    "A short tunnel near the Daat Kali temple carries the road into the Dehradun valley.",
+    "About 6.4 km of elevated road carries the expressway over east Delhi between Geeta Colony and Khajuri Khas.",
+    "A separate branch about 51 km long is being built to Haridwar: it leaves the mainline in Saharanpur district, bypasses Roorkee and ends on the Haridwar Ring Road.",
+    "It uses closed tolling: a camera notes where you get on and where you get off, and you pay for the distance in between."
+  ],
+  "significance": "Dehradun, Mussoorie, Haridwar and Rishikesh are among north India's most popular weekend and pilgrimage destinations, and until now the only road there crawled through Meerut and Muzaffarnagar. The expressway turns a whole-day journey into a morning drive, and once its Haridwar branch opens it will feed straight into the pilgrim routes used by lakhs of people every summer. It also gives the sugar-belt towns of Baghpat, Shamli and Saharanpur their first fast link to Delhi.",
+  "engineering": [
+    { "name": "Rajaji National Park elevated wildlife corridor", "note": "about 12 km of expressway on tall pillars near Dehradun so elephants and other animals can pass safely underneath — the longest such corridor in Asia" },
+    { "name": "Daat Kali tunnel", "note": "a 340 m tunnel beside the Daat Kali temple that carries the road into the Dehradun valley" },
+    { "name": "Geeta Colony–Khajuri Khas elevated road", "note": "about 6.4 km of expressway raised above the streets of east Delhi so through-traffic never stops" }
+  ],
+  "interchanges": [
+    { "name": "Akshardham (Delhi)", "note": "the Delhi start, next to the Delhi–Meerut Expressway and the city's Ring Road" },
+    { "name": "Eastern Peripheral Expressway (near Baghpat)", "note": "big interchange with the ring expressway around Delhi" },
+    { "name": "Saharanpur bypass", "note": "main access point for Saharanpur city" },
+    { "name": "Haridwar spur junction (Saharanpur district)", "note": "where the branch to Haridwar leaves the mainline and heads past Roorkee" },
+    { "name": "Ganeshpur", "note": "the gateway to the forest stretch and the climb toward Dehradun" }
+  ],
+  "relatedRoads": [
+    { "id": "eastern-peripheral-expressway", "label": "The ring expressway around Delhi, crossed near Baghpat" },
+    { "id": "delhi-meerut-expressway", "label": "The other big expressway out of east Delhi, starting near the same point" },
+    { "id": "nh-34", "label": "The older highway to Uttarakhand through Meerut and Haridwar" }
+  ],
+  "travelNotes": "Delhi to Dehradun now takes about two and a half to three hours without traffic. The first 18 km inside Delhi, from Akshardham to the Loni border, is toll-free so local commuters can use it; charging starts beyond that. Weekend mornings toward the hills and Sunday evenings back to Delhi are the busiest times, and the forest section near Dehradun has a lower speed limit and no stopping allowed — you are driving through a national park. Fuel and food stops are still thin on the Shamli–Saharanpur stretch, so top up before you leave Delhi.",
+  "futureUpgrades": [
+    "The 51 km Haridwar spur, which leaves the expressway in Saharanpur district and ends on the Haridwar Ring Road, is still under construction."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

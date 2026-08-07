@@ -14,13 +14,73 @@
     "states": ["Maharashtra"],
     "majorCities": ["Bandra", "Andheri", "Jogeshwari", "Goregaon", "Kandivali", "Borivali", "Dahisar"]
   },
-  "history": "The Western Express Highway is the main road artery of Mumbai's western suburbs. It begins near Bandra and runs north past the airport to Dahisar, from where the road continues towards Gujarat as a national highway. For decades it carried the famous NH 8 into the city. It is one of the busiest roads in India, and elevated metro trains now run alongside much of it.",
+  "history": "The Western Express Highway is the main road artery of Mumbai's western suburbs. It begins near Bandra and runs north past the airport to Dahisar, from where the road continues towards Gujarat as a national highway. For decades it carried the famous NH 8 into the city, which is why it was built wide and straight while the suburbs around it were still half empty — those suburbs then grew right up to its edge, and today Andheri, Goregaon and Borivali all hang off it. Over the years it has been widened again and again and given flyovers at almost every big junction, and Mumbai Metro's Line 7 now runs on pillars right above it from Andheri East to Dahisar East. In 2022 the state handed the highway over to the city's municipal corporation, BMC, for upkeep. It remains one of the busiest roads in India, carrying lakhs of vehicles a day including all the traffic to and from the airport.",
   "facts": [
     "About 25 km long, from Bandra to Dahisar.",
     "Was historically the city end of NH 8, the Mumbai–Ahmedabad–Delhi highway (now numbered NH 48 outside the city).",
     "Passes close to Mumbai's international airport.",
     "Mumbai Metro trains run on an elevated line along the highway.",
-    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022."
+    "Handed over to the city's municipal corporation (BMC) for upkeep in 2022.",
+    "It is Mumbai's main north–south road on the western side; the Eastern Express Highway does the same job on the east.",
+    "Nearly every major junction along it has a flyover so through-traffic does not have to stop.",
+    "At Kalanagar in Bandra it connects to the Bandra–Worli Sea Link, the fast way into south Mumbai."
+  ],
+  "significance": "Mumbai is a long, thin city, so almost everything has to move north–south — and on the western side that mostly means this highway. Office workers, airport passengers, goods trucks and long-distance buses to Gujarat all share it, which is why a single breakdown on it can jam half the city. It is also the road the suburbs were built around: the addresses people give, the malls, the office parks and the metro line all follow its line.",
+  "engineering": [
+    {
+      "name": "Kalanagar flyovers (Bandra)",
+      "note": "a set of ramps built by MMRDA that separate traffic between the highway, the Bandra–Worli Sea Link and the Bandra Kurla Complex at the highway's busiest knot"
+    },
+    {
+      "name": "Sahar Elevated Access Road",
+      "note": "a raised road that lifts airport traffic off the highway and drops it straight at Terminal 2"
+    },
+    {
+      "name": "Metro Line 7 viaduct",
+      "note": "the metro runs on pillars in the middle of the highway from Andheri East to Dahisar East, so trains and cars share the same corridor"
+    }
+  ],
+  "interchanges": [
+    {
+      "name": "Kalanagar, Bandra",
+      "note": "the southern end — connects to the Bandra–Worli Sea Link and the Bandra Kurla Complex"
+    },
+    {
+      "name": "Vakola, Santacruz",
+      "note": "junction with the Santacruz–Chembur Link Road towards the eastern suburbs"
+    },
+    {
+      "name": "Sahar / airport, Andheri East",
+      "note": "elevated road up to Mumbai airport's Terminal 2"
+    },
+    {
+      "name": "Jogeshwari–Vikhroli Link Road (JVLR)",
+      "note": "the main east–west crossing in the middle suburbs"
+    },
+    {
+      "name": "Dahisar check naka",
+      "note": "the northern end and the city boundary — the road carries on as NH 48 towards Gujarat"
+    }
+  ],
+  "relatedRoads": [
+    {
+      "id": "eastern-express-highway",
+      "label": "The matching highway on Mumbai's eastern side"
+    },
+    {
+      "id": "nh-48",
+      "label": "What this road becomes once it leaves the city at Dahisar, heading for Ahmedabad and Delhi"
+    },
+    {
+      "id": "mumbai-coastal-road",
+      "label": "The new sea-side route that takes some south Mumbai traffic off this highway"
+    }
+  ],
+  "travelNotes": "It is jammed at rush hour in both directions — roughly 8 to 11 in the morning heading south and 6 to 10 at night heading north — and the Kalanagar, Vakola and airport stretches are the usual choke points. Allow far more time than the distance suggests if you have a flight to catch. In heavy monsoon rain low spots near Vakola and Andheri can flood and bring traffic to a standstill, and travelling by Metro Line 7 above the highway is often faster than driving on it.",
+  "futureUpgrades": [
+    "BMC has proposed an elevated corridor of about 15 km above the highway, from Mahim towards Malad, to separate through-traffic from local traffic.",
+    "The Goregaon–Mulund Link Road, being built with twin tunnels under Sanjay Gandhi National Park, will join the highway at Goregaon and give a fast east–west crossing.",
+    "The coastal road being extended north from Bandra towards Dahisar is meant to give the western suburbs a parallel route to this highway."
   ],
   "sources": [
     { "title": "Brihanmumbai Municipal Corporation (BMC)", "url": "https://portal.mcgm.gov.in/" },

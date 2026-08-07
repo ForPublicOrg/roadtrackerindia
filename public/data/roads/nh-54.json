@@ -6,19 +6,41 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 396,
+  "lanes": "Mix of 2-lane and 4-lane sections",
   "route": {
     "start": "Pathankot, Punjab",
     "end": "Kenchiya (Hanumangarh district), Rajasthan",
     "states": ["Punjab", "Haryana", "Rajasthan"],
     "majorCities": ["Pathankot", "Gurdaspur", "Amritsar", "Tarn Taran", "Faridkot", "Bathinda", "Mandi Dabwali", "Hanumangarh"]
   },
-  "history": "NH 54 runs down the western side of Punjab, from Pathankot at the foot of the hills to the sandy plains of northern Rajasthan. It follows the old NH 15 route through Amritsar, Faridkot and Bathinda, briefly clips the corner of Haryana at Mandi Dabwali, and ends at Kenchiya near Hanumangarh, where it joins NH 62.",
+  "history": "NH 54 runs down the western side of Punjab, from Pathankot at the foot of the hills to the sandy plains of northern Rajasthan. It follows the old NH 15 route through Amritsar, Faridkot and Bathinda, briefly clips the corner of Haryana at Mandi Dabwali, and ends at Kenchiya near Hanumangarh, where it joins NH 62. The old NH 15 was built as the long border-country highway from Pathankot all the way to Kandla in Gujarat; in the renumbering it was split, and the Punjab part became NH 54. For most of its run it stays within a short drive of the India–Pakistan border, so it has always mattered to the army and the Border Security Force as much as to farmers. Today it links the Majha region around Amritsar with the cotton-and-wheat Malwa belt around Bathinda and the canal-fed farms of northern Rajasthan.",
   "facts": [
     "Starts on NH 44 at Pathankot and ends on NH 62 in Rajasthan.",
     "Crosses the Sutlej river near Harike, home of a famous bird-rich wetland.",
     "Passes through Amritsar, home of the Golden Temple.",
-    "Only a short stretch of about 38 km lies in Haryana, around Mandi Dabwali."
+    "Only a short stretch of about 38 km lies in Haryana, around Mandi Dabwali.",
+    "Stays fairly close to the India–Pakistan border across the whole Punjab section.",
+    "Bathinda, on the route, is a big railway junction and an oil-refining and thermal-power town.",
+    "Passes Mudki, where one of the battles of the First Anglo-Sikh War was fought in 1845."
   ],
+  "significance": "NH 54 is the main north–south road through western Punjab, well away from the busy Grand Trunk Road. It carries wheat, cotton, paddy and fertiliser between the Majha and Malwa farming belts and the mandis of Bathinda, Abohar and Hanumangarh, and it is an important military supply road because of how close it runs to the border. For pilgrims it is also a common approach to Amritsar from the Rajasthan side.",
+  "engineering": [
+    { "name": "Sutlej crossing near Harike", "note": "the road crosses the river beside the Harike wetland, one of northern India's largest wetlands and a winter home for thousands of migratory birds" }
+  ],
+  "interchanges": [
+    { "name": "Pathankot", "note": "the northern end, on NH 44 near the Jammu and Himachal borders" },
+    { "name": "Amritsar", "note": "meets the city's highways towards Jalandhar and the Attari–Wagah border" },
+    { "name": "Bathinda", "note": "a major road and rail crossroads of the Malwa region" },
+    { "name": "Mandi Dabwali", "note": "the short Haryana section, where roads split towards Sirsa and Sri Ganganagar" },
+    { "name": "Kenchiya", "note": "the southern end, joining NH 62 in Hanumangarh district" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-44", "label": "India's longest highway, which NH 54 branches from at Pathankot" },
+    { "id": "nh-62", "label": "The western Rajasthan highway NH 54 ends on, near Hanumangarh" },
+    { "id": "amritsar-katra-expressway", "label": "The new expressway that will speed up travel from Amritsar towards Jammu and Katra" }
+  ],
+  "travelNotes": "Pathankot to Hanumangarh is a comfortable one-day drive of about seven to eight hours. Punjab's roads here are generally well surfaced, but tractor-trolleys crowd them during the wheat harvest in April and the paddy harvest in October, and stubble smoke can cut visibility badly in late October and November. Thick winter fog between December and January is the biggest hazard — mornings can be near-zero visibility. Dhabas are frequent through Punjab and much thinner once you cross into Rajasthan.",
+  "newsQuery": "\"NH 54\" Punjab Bathinda highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

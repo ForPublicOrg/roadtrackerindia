@@ -8,6 +8,7 @@
   "lengthKm": 50,
   "lanes": "4 lanes, divided, tolled",
   "agency": "Nandi Infrastructure Corridor Enterprises (NICE)",
+  "newsQuery": "\"NICE Road\" Bengaluru",
   "route": {
     "start": "Tumakuru Road (NH 48), Madavara, Bengaluru",
     "end": "Hosur Road (NH 44), Electronic City, Bengaluru",
@@ -18,13 +19,35 @@
     { "year": "1997", "event": "Karnataka government signs the framework agreement for the BMIC project" },
     { "year": "2000s", "event": "Peripheral and link toll roads begin opening to traffic in stages" }
   ],
-  "history": "The NICE Road is a private toll road that curves around the west and south of Bengaluru. It was built as the first part of a much bigger plan, the Bengaluru–Mysuru Infrastructure Corridor, which was meant to include a full private expressway to Mysuru. The expressway was never completed, but the peripheral road and a link road into the city opened in stages from the mid-2000s onwards. Today thousands of vehicles use it every day to skip the city's traffic while moving between the big highways that leave Bengaluru.",
+  "history": "The NICE Road is a private toll road that curves around the west and south of Bengaluru. It was built as the first part of a much bigger plan, the Bengaluru–Mysuru Infrastructure Corridor, agreed with the Karnataka government in 1997, which was meant to include a full 111 km private expressway to Mysuru plus several new townships along the way. The expressway was never completed — the project became tangled in land disputes and court cases that ran for years — but the peripheral road and a link road into the city opened in stages from the mid-2000s onwards. Because it was designed as an expressway, it has no traffic signals and every crossing is a flyover, which makes it far faster than any city road. Today it is heavily used by drivers skipping Bengaluru's traffic while moving between the big highways that leave the city, and NHAI eventually built the separate Bengaluru–Mysuru Expressway (NH 275) on a different alignment instead.",
   "facts": [
     "A privately built and operated toll road, run by Nandi Infrastructure Corridor Enterprises (NICE).",
-    "Made up of a roughly 41 km peripheral road plus a link road of about 9 km towards the city.",
+    "Made up of a roughly 41 km peripheral road plus a link road of about 8 km towards the city.",
     "Connects the roads leaving Bengaluru towards Tumakuru, Magadi, Mysuru, Kanakapura, Bannerghatta and Hosur.",
-    "Was planned as the first step of a 111 km private expressway to Mysuru that was never completed."
+    "Was planned as the first step of a 111 km private expressway to Mysuru that was never completed.",
+    "It is one of only a handful of toll roads inside Bengaluru city limits.",
+    "There are no traffic signals anywhere on it — every crossing road passes over or under.",
+    "It is a semi-ring, not a full circle: it covers only the western and southern sides of the city."
   ],
+  "significance": "The NICE Road is Bengaluru's escape route. A truck or bus travelling between the Mumbai, Mysuru and Chennai highways can go around the city on it in under an hour instead of grinding for two or three hours through the middle. For people living in the fast-growing south-west of Bengaluru it has also become an everyday commuting road toward Electronic City and the Hosur industrial belt.",
+  "engineering": [
+    { "name": "Fully grade-separated crossings", "note": "at every radial highway the road passes over or under on a flyover, so it has no traffic signals along its whole length" }
+  ],
+  "interchanges": [
+    { "name": "Madavara (Tumakuru Road)", "note": "the northern end, joining NH 48 toward Tumakuru and Mumbai" },
+    { "name": "Magadi Road junction", "note": "exit for west Bengaluru and Magadi" },
+    { "name": "Kengeri (Mysuru Road)", "note": "the busiest junction, feeding the highway and expressway to Mysuru" },
+    { "name": "Talaghattapura (Kanakapura Road)", "note": "exit toward Kanakapura and the southern suburbs" },
+    { "name": "Gottigere (Bannerghatta Road)", "note": "exit for Bannerghatta National Park and south Bengaluru" },
+    { "name": "Electronic City (Hosur Road)", "note": "the southern end, joining NH 44 toward Hosur, Salem and Chennai" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Joined at the Tumakuru Road end, heading to Mumbai" },
+    { "id": "nh-44", "label": "Joined at the Hosur Road end, heading south to Salem" },
+    { "id": "bangalore-mysore-expressway", "label": "The NHAI-built expressway to Mysuru that replaced the private one NICE never finished" },
+    { "id": "bengaluru-satellite-town-ring-road", "label": "A much larger ring further out, meant to take the long-distance traffic NICE Road cannot" }
+  ],
+  "travelNotes": "End to end takes about 45 minutes to an hour, against two hours or more through the city, which is why it is worth the toll. You pay at the plaza where you join, and the price depends on how far you go. There are almost no fuel pumps or food stops on the road itself, so fill the tank before getting on. It is quiet at night but poorly lit in places, and speeding is common, so keep a safe distance.",
   "sources": [
     { "title": "Government of Karnataka", "url": "https://karnataka.gov.in/" }
   ],

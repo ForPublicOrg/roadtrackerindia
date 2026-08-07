@@ -15,18 +15,44 @@
     "states": ["Delhi", "Haryana"],
     "majorCities": ["Delhi", "Dwarka", "Gurugram"]
   },
+  "tolls": [
+    { "name": "Bijwasan toll plaza", "note": "on the Delhi section; toll collection on the expressway began in November 2025" }
+  ],
   "timeline": [
     { "year": "2024", "event": "19 km Haryana section inaugurated (11 March)" },
-    { "year": "2025", "event": "10 km Delhi section, including the airport tunnel, inaugurated (17 August), completing the expressway" }
+    { "year": "2025", "event": "10 km Delhi section, including the airport tunnel, inaugurated (17 August), completing the expressway" },
+    { "year": "2025", "event": "Toll collection starts in November" }
   ],
-  "history": "The Dwarka Expressway, also called the Northern Peripheral Road, gives Delhi and Gurugram a second fast link besides the always-crowded NH 48. Long stretches run high above the ground on a single row of pillars, and near the Delhi end the road dives into a tunnel that connects towards Indira Gandhi International Airport. The Haryana part opened in March 2024 and the Delhi part in August 2025.",
+  "history": "The Dwarka Expressway, also called the Northern Peripheral Road, gives Delhi and Gurugram a second fast link besides the always-crowded NH 48. It was first planned in the mid-2000s as a Haryana road to open up new Gurugram sectors, but land disputes and court cases stalled it for years until NHAI took the project over and rebuilt it as a national highway. Because there was no room for a wide road on the ground, long stretches run high above the traffic on a single row of pillars, and near the Delhi end the road dives into a tunnel that connects towards Indira Gandhi International Airport. The Haryana part opened in March 2024 and the Delhi part in August 2025, and tolling began later that year.",
   "facts": [
     "Officially numbered NH 248BB.",
     "Long stretches run on a wide elevated carriageway carried on a single row of pillars.",
-    "The Delhi end includes an 8-lane tunnel about 3.6 km long that links towards IGI Airport.",
+    "The Delhi end includes an 8-lane shallow tunnel about 3.6 km long, with a branch tunnel to Terminal 3 of IGI Airport.",
     "Passes Yashobhoomi, the big convention centre in Dwarka.",
-    "The 10 km Delhi section alone cost about ₹5,360 crore."
+    "The 10 km Delhi section alone cost about ₹5,360 crore.",
+    "It is described as India's first eight-lane elevated urban expressway.",
+    "The road has four levels in places — an underpass, the ground road, the elevated carriageway and a flyover above it.",
+    "It was originally a Haryana state project and sat unfinished for years before NHAI took it over."
   ],
+  "significance": "Almost everything moving between Delhi and Gurugram used to squeeze onto one road, NH 48, and its Kherki Daula and Rajokri stretches were among the worst jams in India. The Dwarka Expressway gives that traffic a second route and, just as importantly, opens up dozens of new Gurugram sectors along its length, which is why so much housing and office building has followed it. It also gives west Delhi and Dwarka a direct road to Gurugram and to the airport that does not touch NH 48 at all.",
+  "engineering": [
+    { "name": "Single-pier elevated viaduct", "note": "about 9 km of eight-lane road carried on one central row of pillars so it takes up very little ground space" },
+    { "name": "Shallow tunnel (Delhi section)", "note": "an eight-lane tunnel about 3.6 km long under the Dwarka area, with a separate four-lane tunnel branch running to Terminal 3 of IGI Airport" },
+    { "name": "Basai rail-over-bridge", "note": "a wide flyover carrying the expressway across the railway line in Gurugram" }
+  ],
+  "interchanges": [
+    { "name": "Shiv Murti, Mahipalpur (Delhi)", "note": "northern end, joining NH 48 near the airport" },
+    { "name": "Dwarka Sector 21 / Yashobhoomi", "note": "access to Dwarka and the convention centre" },
+    { "name": "Bajghera", "note": "the Delhi–Haryana border crossing point" },
+    { "name": "Gurugram Sector 88 / Basai", "note": "main entry for the new sectors along the expressway" },
+    { "name": "Kherki Daula (Gurugram)", "note": "southern end, rejoining NH 48 toward Manesar and Jaipur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Delhi–Gurugram–Jaipur highway that this expressway relieves, and which it joins at both ends" },
+    { "id": "urban-extension-road-2", "label": "Delhi's new outer road, which meets the expressway at its Delhi end" },
+    { "id": "delhi-outer-ring-road", "label": "The city ring road that feeds Delhi traffic toward this corridor" }
+  ],
+  "travelNotes": "End to end takes about 20–25 minutes when clear, against an hour or more on NH 48 in rush hour. Toll is collected by FASTag, and local commuters can buy a monthly pass. Two-wheelers and slow vehicles are not allowed on the elevated main carriageway, so use the service roads underneath, and be careful in the tunnel section where lane changes are restricted.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }

@@ -7,6 +7,8 @@
   "lengthKm": 173,
   "lanes": "6 lanes, access-controlled",
   "agency": "MSRDC (Maharashtra State Road Development Corporation)",
+  "cost": "₹42,711 crore (approx., including land)",
+  "contractor": "Built in twelve packages; the winning bidders include Megha Engineering (MEIL), Navayuga, GR Infraprojects and PNC Infratech",
   "route": {
     "start": "Urse (Mumbai–Pune Expressway junction), Pune district, Maharashtra",
     "end": "Urse (the ring closes back on itself), Pune district, Maharashtra",
@@ -16,12 +18,37 @@
   "timeline": [
     { "year": "2024", "event": "Construction begins in December after most land is acquired" }
   ],
-  "history": "The Pune Ring Road is a large orbital road being built by MSRDC in a circle around Pune and Pimpri-Chinchwad. Its job is to let long-distance traffic — for example trucks going between Mumbai, Bengaluru, Nashik and Solapur — pass around the city instead of squeezing through it. The route is being built in eastern and western halves, split into many construction packages, and connects the Mumbai–Pune Expressway with all the major highways that radiate out of Pune. Construction began in late 2024 and is under way as of mid-2026.",
+  "history": "The Pune Ring Road is a large orbital road being built by MSRDC in a circle around Pune and Pimpri-Chinchwad. Its job is to let long-distance traffic — for example trucks going between Mumbai, Bengaluru, Nashik and Solapur — pass around the city instead of squeezing through it. A ring road for Pune had been talked about since the 1990s, but the plan kept stalling because buying so much land near a fast-growing city is slow and expensive; the version now being built was finally approved in the 2020s after the state agreed to pay landowners well above the usual rate. The route is being built in eastern and western halves, split into twelve construction packages, and connects the Mumbai–Pune Expressway with all the major highways that radiate out of Pune. The western half is the hard part: it has to cross hilly country near Mulshi and Sinhagad, so the design includes a series of tunnels and long viaducts. Construction began in late 2024 and is under way as of mid-2026, with the full ring targeted to open around 2030.",
   "facts": [
     "Roughly 173 km long, circling both Pune and Pimpri-Chinchwad.",
     "Being built in two halves — an eastern section and a western section — by MSRDC.",
     "Will link the Mumbai–Pune Expressway with the Bengaluru, Solapur, Ahmednagar and Nashik highways.",
-    "Meant to pull long-distance truck traffic out of Pune's city roads."
+    "Meant to pull long-distance truck traffic out of Pune's city roads.",
+    "One of the most expensive road projects ever taken up by a state government in India, at over ₹42,000 crore.",
+    "The hilly western half needs around eight tunnels, together roughly 11 km long.",
+    "Almost all the land needed had been bought before construction started, which is unusual for a project this size."
+  ],
+  "significance": "Pune has grown into one of India's biggest industrial and IT cities, but every truck heading between Mumbai, Nashik, Ahmednagar, Solapur and Bengaluru still has to pass through or around its crowded streets. The ring road is meant to fix exactly that, taking heavy traffic out of the city and cutting hours off long journeys. It is also expected to open up land for factories and housing along its route, especially near Chakan and Wagholi.",
+  "engineering": [
+    { "name": "Western hill tunnels", "note": "about eight tunnels totalling roughly 11 km cut through the hills near Mulshi and Sinhagad, the longest of them several kilometres long" },
+    { "name": "Twelve construction packages", "note": "the ring is split into seven eastern and five western packages so different firms can build stretches at the same time" }
+  ],
+  "interchanges": [
+    { "name": "Urse", "note": "junction with the Mumbai–Pune Expressway and the old Mumbai–Pune highway" },
+    { "name": "Paud (Mulshi)", "note": "meets the road into the Mulshi hills west of Pune" },
+    { "name": "Khed Shivapur", "note": "junction with the Pune–Satara–Bengaluru highway (NH 48)" },
+    { "name": "Loni Kalbhor", "note": "junction with the Pune–Solapur highway (NH 65)" },
+    { "name": "Wagholi", "note": "junction with the Pune–Ahmednagar road" },
+    { "name": "Chakan", "note": "junction with the Pune–Nashik road, next to the big Chakan factory belt" }
+  ],
+  "relatedRoads": [
+    { "id": "mumbai-pune-expressway", "label": "Meets the ring at Urse, its busiest connection" },
+    { "id": "nh-48", "label": "The Pune–Satara–Bengaluru highway, met at Khed Shivapur" },
+    { "id": "nh-65", "label": "The Pune–Solapur–Hyderabad highway, met on the eastern side" }
+  ],
+  "travelNotes": "Nothing is open to traffic yet — as of 2026 the whole ring is a construction site, with earthmoving and tunnelling under way and diversions on the local roads it crosses. Until it opens, through-traffic still has to use the old Pune bypass and the city's inner roads, which are slow all day and worst on Friday and Sunday evenings.",
+  "futureUpgrades": [
+    "The full 173 km ring is targeted to open to traffic around 2030."
   ],
   "sources": [
     { "title": "MSRDC — Maharashtra State Road Development Corporation", "url": "https://www.msrdc.org/" }

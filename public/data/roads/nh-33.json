@@ -8,6 +8,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 462,
+  "agency": "NHAI",
   "route": {
     "start": "Arwal, Bihar",
     "end": "Farakka, West Bengal",
@@ -25,13 +26,38 @@
       "Rajmahal"
     ]
   },
-  "history": "NH 33 begins at Arwal in central Bihar and runs east through Jehanabad and Bihar Sharif to the Ganga at Mokama. From there it follows the river's south bank through Munger and Bhagalpur, crosses the Sahibganj corner of Jharkhand, and ends near the Farakka Barrage in West Bengal. Most of the riverside stretch was called NH 80 before India renumbered its highways in 2010.",
+  "timeline": [
+    { "year": "2010", "event": "Created in the national highway renumbering by joining the old NH 110, NH 82 and NH 80" },
+    { "year": "2022", "event": "The road deck of the Shri Krishna Setu opens at Munger, giving the highway a crossing to north Bihar" }
+  ],
+  "history": "NH 33 begins at Arwal in central Bihar and runs east through Jehanabad and Bihar Sharif to the Ganga at Mokama. From there it follows the river's south bank through Lakhisarai, Munger and Bhagalpur, clips the Sahibganj corner of Jharkhand, and ends near the Farakka Barrage in West Bengal. Most of the riverside stretch was called NH 80 before India renumbered its highways in 2010; the western half came from the old NH 110 and NH 82. It is in effect the twin of NH 31, which follows the same river but along the north bank after Mokama. The road passes some of the oldest places in the country — Nalanda, Vikramshila and the Rajmahal hills — and for the districts strung along it, it is the main link to Patna.",
   "facts": [
     "Follows the south bank of the Ganga for most of the way from Mokama to Farakka.",
     "The Mokama–Farakka stretch was NH 80 in the old numbering.",
+    "Bihar Sharif, on the route, is close to the ruins of Nalanda, one of the oldest universities in the world.",
     "Passes near the ruins of Vikramshila, an ancient Buddhist university, close to Kahalgaon.",
+    "The stretch between Sultanganj and Kahalgaon runs beside a Ganga sanctuary set up for the rare Gangetic river dolphin.",
+    "At Munger the Shri Krishna Setu, a road-and-rail bridge, branches off across the Ganga to north Bihar; its road deck opened in 2022.",
+    "Every July and August lakhs of pilgrims gather at Sultanganj, on this highway, to collect Ganga water before walking to Deoghar.",
     "Ends near the Farakka Barrage, where it meets NH 12 (the old NH 34)."
   ],
+  "significance": "NH 33 is the south-bank road of the Ganga in Bihar. It connects Patna's neighbouring districts to the silk city of Bhagalpur and onward to Bengal, and it is the everyday road for farmers, traders and students in a crowded but not very industrial belt. Because NH 31 crosses to the north bank at Mokama, this is the one continuous highway left on the southern side of the river.",
+  "engineering": [
+    { "name": "Shri Krishna Setu (Munger Ganga bridge)", "note": "a 3.75 km road-and-rail bridge that leaves the highway at Munger and crosses the Ganga toward Khagaria; the road deck opened in 2022" },
+    { "name": "Farakka Barrage", "note": "the barrage across the Ganga at the eastern end of the highway, about 2.3 km long; its roadway carries NH 12" }
+  ],
+  "interchanges": [
+    { "name": "Bihar Sharif", "note": "junction town for the roads to Nalanda and Rajgir" },
+    { "name": "Mokama", "note": "meets NH 31 and the Ganga bridges to north Bihar" },
+    { "name": "Munger", "note": "the Shri Krishna Setu branches off across the river here" },
+    { "name": "Farakka", "note": "the eastern end, meeting NH 12 beside the barrage" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-31", "label": "The north-bank twin of this highway, crossed at Mokama" },
+    { "id": "nh-12", "label": "The highway across the Farakka Barrage, where NH 33 ends" }
+  ],
+  "travelNotes": "Patna to Bhagalpur along this road takes about five to six hours; the stretch past Munger and Sultanganj is pretty but slow, with hills on one side and the river on the other. In July and August the Shravani Mela fills Sultanganj with pilgrims and slows traffic for weeks. Winter fog in December and January and monsoon flooding along the Ganga are the other two things most likely to hold you up.",
+  "newsQuery": "\"NH 33\" Bihar",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

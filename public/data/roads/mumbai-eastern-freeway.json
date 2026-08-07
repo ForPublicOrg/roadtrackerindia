@@ -5,7 +5,9 @@
   "category": "expressway",
   "status": "operational",
   "lengthKm": 16.8,
+  "lanes": "4 lanes, with no traffic signals; 8 lanes on the Anik–Panjarpol link",
   "agency": "MMRDA",
+  "newsQuery": "\"Eastern Freeway\" Mumbai",
   "route": {
     "start": "P D'Mello Road (Orange Gate), Mumbai",
     "end": "Chheda Nagar, Ghatkopar, Mumbai",
@@ -23,19 +25,49 @@
   "timeline": [
     {
       "year": "2013",
-      "event": "First phase, from P D'Mello Road to Panjarpol, opens to traffic"
+      "event": "First phase, from P D'Mello Road to Panjarpol, opens to traffic in June"
     },
     {
       "year": "2014",
       "event": "Full 16.8 km freeway up to Ghatkopar becomes operational"
+    },
+    {
+      "year": "2024",
+      "event": "Atal Setu opens at Sewri, funnelling Navi Mumbai traffic straight onto the freeway"
     }
   ],
-  "history": "The Eastern Freeway lets drivers move between south Mumbai and the eastern suburbs without a single traffic light. Built by the MMRDA, it runs mostly on long elevated viaducts past the old dock lands and even passes through twin tunnels cut into a hill near Panjarpol. It opened in stages in 2013 and 2014. Unusually for a big Mumbai road project, it is completely toll-free.",
+  "history": "For most of Mumbai's history, getting from the southern tip of the city to the eastern suburbs meant crawling through the docks and Byculla with a traffic light every few hundred metres. The Eastern Freeway, built by the MMRDA, removed all of that: 16.8 km with not a single signal. It runs on a long elevated viaduct over the old dock lands and mill lands, drops to ground level near Anik, passes through twin tunnels cut into a hillside at Panjarpol, and then rises again on a flyover to meet the Eastern Express Highway at Chheda Nagar. The first stretch opened in June 2013 and the rest in 2014. Unusually for a big Mumbai road project it is completely toll-free, and since the Atal Setu opened at Sewri in January 2024 it has also become the main way traffic from Navi Mumbai reaches south Mumbai.",
   "facts": [
     "16.8 km long with no traffic signals and no toll.",
-    "Includes twin road tunnels near the Anik–Panjarpol hills.",
-    "Much of the route is one of the longest elevated road stretches in Mumbai.",
-    "Connects to the Eastern Express Highway at Chheda Nagar, Ghatkopar."
+    "Includes twin road tunnels near the Anik–Panjarpol hills — about 505 m and 555 m long, and 18 m wide.",
+    "The 9.3 km viaduct from Orange Gate to Anik is one of the longest elevated road stretches in Mumbai.",
+    "Connects to the Eastern Express Highway at Chheda Nagar, Ghatkopar.",
+    "Since January 2024 it links at Sewri to the Atal Setu, giving a fast run to Navi Mumbai and the new airport.",
+    "Built in three parts — a long viaduct, a ground-level tunnel section, and a flyover at the Chembur end.",
+    "Riding above the old docks and mill lands, it gives one of the best road-level views of Mumbai harbour."
+  ],
+  "significance": "The Eastern Freeway turned a punishing hour-long crawl into a twenty-minute drive, and it did it on the side of the city that had always been ignored in favour of the western suburbs. It is the backbone of Mumbai's eastern corridor: the Atal Setu pours into it at Sewri, the Eastern Express Highway carries on from it at Ghatkopar, and a tunnel now being dug will tie it to the Coastal Road on the western shore. Because it is toll-free and signal-free, it is also the route ambulances and buses depend on to reach south Mumbai quickly.",
+  "engineering": [
+    { "name": "Anik–Panjarpol twin tunnels", "note": "505 m northbound and 555 m southbound, 18 m wide and 9 m high, cut through a hillside — Mumbai's first twin road tunnels" },
+    { "name": "Orange Gate–Anik viaduct", "note": "about 9.3 km of elevated road on pillars, threading over dock roads, railway lines and old mill land" },
+    { "name": "Panjarpol–Ghatkopar flyover", "note": "a 2.8 km four-lane flyover carrying the freeway over Chembur to reach Chheda Nagar" }
+  ],
+  "interchanges": [
+    { "name": "Orange Gate (P D'Mello Road)", "note": "southern end, near the docks and Mumbai CST" },
+    { "name": "Reay Road and Port Road", "note": "ramps down into the dock area of eastern south Mumbai" },
+    { "name": "Sewri", "note": "ramps to and from the Atal Setu across the harbour to Navi Mumbai" },
+    { "name": "Anik", "note": "where the long viaduct comes down to ground level" },
+    { "name": "Panjarpol", "note": "link toward Chembur, just past the twin tunnels" },
+    { "name": "Chheda Nagar, Ghatkopar", "note": "northern end, joining the Eastern Express Highway toward Thane" }
+  ],
+  "relatedRoads": [
+    { "id": "atal-setu", "label": "The sea bridge to Navi Mumbai that joins the freeway at Sewri" },
+    { "id": "eastern-express-highway", "label": "Carries on north from Chheda Nagar toward Thane" },
+    { "id": "mumbai-coastal-road", "label": "The freeway's opposite number on the western shore; twin tunnels are being dug to link the two" }
+  ],
+  "travelNotes": "End to end takes about 20 minutes, against an hour or more on the old surface roads. There is no toll and no signal anywhere on it. It is busiest heading south into the city in the morning and north in the evening, plus a burst of Atal Setu traffic at the Sewri ramps. There are no fuel pumps or food stops on the elevated section itself, so fill up before you get on.",
+  "futureUpgrades": [
+    "MMRDA is boring twin tunnels from Orange Gate to Marine Drive, due around 2028, which will link the Eastern Freeway directly to the Mumbai Coastal Road."
   ],
   "sources": [
     {

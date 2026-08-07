@@ -2,12 +2,13 @@
   "id": "mc-road",
   "ref": "SH 1",
   "name": "Main Central Road",
-  "aka": ["MC Road"],
+  "aka": ["MC Road", "Kerala State Highway 1"],
   "category": "sh",
   "status": "operational",
   "lengthKm": 241,
   "lanes": "Mostly 2 lanes, wider in towns",
   "agency": "Kerala Public Works Department (PWD)",
+  "newsQuery": "\"MC Road\" Kerala",
   "route": {
     "start": "Kesavadasapuram, Thiruvananthapuram, Kerala",
     "end": "Angamaly, Kerala",
@@ -28,16 +29,36 @@
   },
   "timeline": [
     { "year": "1700s", "event": "First laid out as a main road of the old Travancore kingdom" },
-    { "year": "2000s", "event": "Modernised and widened in stages by Kerala PWD" }
+    { "year": "2014–2018", "event": "The 47 km Chengannur–Ettumanoor stretch is rebuilt and widened by Kerala PWD" }
   ],
-  "history": "The Main Central Road, or MC Road, is one of Kerala's oldest and most important highways. It was first laid out more than two centuries ago, when the region was ruled by the kingdom of Travancore. The road links the capital Thiruvananthapuram with a chain of busy towns in central Kerala before ending at Angamaly near Kochi. Today it is Kerala State Highway 1 and works as the inland twin of the coastal national highway.",
+  "history": "The Main Central Road, or MC Road, is one of Kerala's oldest and most important highways. It was first laid out more than two centuries ago, when the region was ruled by the kingdom of Travancore, and it was literally the kingdom's central road — the spine that tied the capital to the inland towns. Kerala has two natural north–south corridors: a coastal one and an inland one just below the hills, and the MC Road is the inland one. It links Thiruvananthapuram with a chain of busy market towns — Kottarakkara, Adoor, Chengannur, Thiruvalla, Changanassery, Kottayam, Muvattupuzha and Perumbavoor — before ending at Angamaly near Kochi. Today it is numbered State Highway 1 and is maintained by the Kerala Public Works Department. Even though it is mostly a two-lane road, it carries a huge amount of traffic, because in this part of Kerala the towns almost run into one another.",
   "facts": [
-    "Kerala's State Highway 1.",
+    "Kerala's State Highway 1 — the number 1 marks it as the state's most important state highway.",
     "About 240 km long, from Kesavadasapuram in Thiruvananthapuram to Angamaly.",
     "Its starting point, Kesavadasapuram, is named after Raja Kesavadas, a famous Dewan (chief minister) of Travancore.",
     "Crosses six districts: Thiruvananthapuram, Kollam, Pathanamthitta, Alappuzha, Kottayam and Ernakulam.",
-    "Serves as the main inland alternative to the coastal NH 66 through central Kerala."
+    "Serves as the main inland alternative to the coastal NH 66 through central Kerala.",
+    "Kalady, near its northern end, is the birthplace of the philosopher Adi Shankaracharya.",
+    "It carries very heavy pilgrim traffic in the Sabarimala season from November to January, when buses pour through Chengannur and Kottayam.",
+    "Unlike most long Indian highways it has no ghat or mountain section — it stays in Kerala's gently rolling midland belt the whole way."
   ],
+  "significance": "For millions of people in central Kerala this is simply the road. It is how you get to the district hospital, the college, the market and the bus stand, and it is the route most inter-district buses take. It also matters far beyond Kerala during the Sabarimala pilgrimage season, when hundreds of thousands of pilgrims from across south India travel along it toward Chengannur and Erumeli. Because it runs inland, it is the state's fall-back north–south route whenever the coastal NH 66 is blocked or flooded.",
+  "engineering": [
+    { "name": "Periyar bridge at Kalady", "note": "carries the road over Kerala's longest river, right beside Adi Shankaracharya's birthplace" },
+    { "name": "Muvattupuzha river crossing", "note": "the road crosses the river at Muvattupuzha, the town named after the meeting of three rivers" }
+  ],
+  "interchanges": [
+    { "name": "Kesavadasapuram, Thiruvananthapuram", "note": "southern end, inside the capital city" },
+    { "name": "Kottarakkara", "note": "big junction with the Kollam–Punalur–Shencottah highway heading east into Tamil Nadu" },
+    { "name": "Chengannur", "note": "the usual turn-off for Pathanamthitta and the road toward Sabarimala" },
+    { "name": "Kottayam", "note": "junction for Alappuzha to the west and Kumily–Thekkady in the hills to the east" },
+    { "name": "Muvattupuzha", "note": "crosses the Kochi–Munnar highway" },
+    { "name": "Angamaly", "note": "northern end, meeting the Salem–Kochi national highway close to Kochi airport" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-66", "label": "The coastal highway that runs roughly parallel nearer the sea — the MC Road is its inland twin" }
+  ],
+  "travelNotes": "Do not judge this road by its length. Because it threads through town after town with shops opening straight onto it, the full 241 km usually takes six to seven hours, not three. Traffic is heaviest around Kottayam, Thiruvalla and Muvattupuzha, and during the Sabarimala season from November to January. There is no toll. The monsoon months of June to September bring heavy rain and occasional flooding around the Pamba and Periyar rivers; the driest and easiest months are December to March. Tea shops and toddy shops line the route, so food and fuel are never far away.",
   "sources": [
     { "title": "Kerala Public Works Department", "url": "https://www.keralapwd.gov.in/" },
     { "title": "Government of Kerala", "url": "https://kerala.gov.in/" }

@@ -1,6 +1,8 @@
 import type { RoadDetail, RoadSummary } from './types'
-import { esc, CATEGORY_LABEL, STATUS_LABEL, toast } from './ui'
+import { esc, CATEGORY_LABEL, STATUS_LABEL, toast, relTime } from './ui'
 import { formatKm } from './geo'
+import { state } from './state'
+import { loadNews } from './data'
 import { prefersReducedMotion, spring, type SpringHandle } from './animate'
 import { renderRatingRow } from './ratings'
 import { renderRoadReports } from './reports'
@@ -16,6 +18,7 @@ let onCloseCb: () => void = () => {}
 let sheetY = 0
 let sheetAnim: SpringHandle | null = null
 let sheetShown = false
+let sheetState: SheetState = 'peek'
 let pendingClose: (() => void) | null = null
 let lastFocus: HTMLElement | null = null
 const PEEK_VISIBLE = 196
@@ -102,7 +105,10 @@ function snapSheet(state: SheetState): void {
   const h = panel().getBoundingClientRect().height
   const target = state === 'full' ? 0 : Math.max(0, h - PEEK_VISIBLE)
   sheetAnim?.cancel()
+  sheetState = state
   content().style.overflowY = state === 'full' ? 'auto' : 'hidden'
+  // collapsed: keep the browser from claiming vertical pans so the whole card drags
+  content().style.touchAction = state === 'full' ? 'pan-y' : 'none'
   const from = sheetShown ? sheetY : h // first open animates up from off-screen
   sheetShown = true
   sheetAnim = spring(from, target, setSheetY)
@@ -115,25 +121,42 @@ export function expandSheet(): void {
 export function initSheetGestures(): void {
   const el = panel()
   const handle = document.getElementById('sheet-handle')!
+  const DRAG_THRESHOLD = 8 // px of movement before a touch counts as a drag, not a tap
   let startY = 0
   let startSheetY = 0
   let lastY = 0
   let lastT = 0
   let velocity = 0
+  let armed = false
   let dragging = false
+  let suppressClick = false
 
   const onDown = (e: PointerEvent) => {
-    if (!isMobile() || el.hidden) return
-    dragging = true
+    if (!isMobile() || el.hidden || !e.isPrimary) return
+    // expanded sheet: the content area scrolls, so only the handle starts a drag
+    if (sheetState === 'full' && !handle.contains(e.target as Node)) return
+    armed = true
+    dragging = false
+    suppressClick = false
     startY = lastY = e.clientY
     startSheetY = sheetY
     lastT = performance.now()
     velocity = 0
-    sheetAnim?.cancel()
-    handle.setPointerCapture(e.pointerId)
   }
   const onMove = (e: PointerEvent) => {
-    if (!dragging) return
+    if (!armed) return
+    if (!dragging) {
+      if (Math.abs(e.clientY - startY) < DRAG_THRESHOLD) return
+      dragging = true
+      startY = e.clientY
+      startSheetY = sheetY
+      sheetAnim?.cancel()
+      try {
+        el.setPointerCapture(e.pointerId)
+      } catch {
+        /* pointer already gone — bubbling listeners still track it */
+      }
+    }
     const now = performance.now()
     const dy = e.clientY - lastY
     const dt = Math.max(1, now - lastT)
@@ -143,8 +166,10 @@ export function initSheetGestures(): void {
     setSheetY(Math.max(0, startSheetY + (e.clientY - startY)))
   }
   const onUp = () => {
+    armed = false
     if (!dragging) return
     dragging = false
+    suppressClick = true
     const h = el.getBoundingClientRect().height
     const peekTarget = h - PEEK_VISIBLE
     if (velocity > 650 && sheetY > peekTarget * 0.55) {
@@ -161,14 +186,33 @@ export function initSheetGestures(): void {
     }
   }
 
-  handle.addEventListener('pointerdown', onDown)
-  handle.addEventListener('pointermove', onMove)
-  handle.addEventListener('pointerup', onUp)
-  handle.addEventListener('pointercancel', onUp)
-  handle.addEventListener('click', () => {
+  el.addEventListener('pointerdown', onDown)
+  el.addEventListener('pointermove', onMove)
+  el.addEventListener('pointerup', onUp)
+  el.addEventListener('pointercancel', onUp)
+  // capture phase so a drag's trailing click never reaches buttons underneath
+  el.addEventListener(
+    'click',
+    (e) => {
+      if (!suppressClick) return
+      suppressClick = false
+      e.preventDefault()
+      e.stopPropagation()
+    },
+    true,
+  )
+  el.addEventListener('click', (e) => {
     if (!isMobile()) return
-    const h = el.getBoundingClientRect().height
-    snapSheet(sheetY > (h - PEEK_VISIBLE) / 2 ? 'full' : 'peek')
+    const target = e.target as HTMLElement
+    if (handle.contains(target)) {
+      const h = el.getBoundingClientRect().height
+      snapSheet(sheetY > (h - PEEK_VISIBLE) / 2 ? 'full' : 'peek')
+      return
+    }
+    // collapsed card: tapping anywhere non-interactive pulls it up
+    if (sheetState === 'peek' && !target.closest('button, a, input, select, textarea, summary, label, [role="button"]')) {
+      snapSheet('full')
+    }
   })
 }
 
@@ -243,13 +287,47 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
         .join('')}</ol></div>`
     : ''
 
-  const hasMore = kv.length > 0 || tolls || timeline
+  const interchanges = d.interchanges?.length
+    ? `<div class="rd-section"><h3>Key junctions</h3><ul class="rd-list">${d.interchanges
+        .map((x) => `<li><b>${esc(x.name)}</b>${x.note ? ` <span style="color:var(--ink-2)">— ${esc(x.note)}</span>` : ''}</li>`)
+        .join('')}</ul></div>`
+    : ''
+
+  const hasMore = kv.length > 0 || tolls || timeline || interchanges
   const more = hasMore
     ? `<details class="rd-more" ${matchMedia('(min-width: 769px)').matches ? 'open' : ''}>
          <summary>More details</summary>
          ${kv.length ? `<dl class="kv">${kv.join('')}</dl>` : ''}
-         ${tolls}${timeline}
+         ${interchanges}${tolls}${timeline}
        </details>`
+    : ''
+
+  const significance = d.significance
+    ? `<div class="rd-section"><h3>Why it matters</h3><p class="rd-history">${esc(d.significance)}</p></div>`
+    : ''
+  const engineering = d.engineering?.length
+    ? `<div class="rd-section"><h3>Engineering highlights</h3><ul class="rd-list">${d.engineering
+        .map((x) => `<li><b>${esc(x.name)}</b>${x.note ? ` <span style="color:var(--ink-2)">— ${esc(x.note)}</span>` : ''}</li>`)
+        .join('')}</ul></div>`
+    : ''
+  const travel = d.travelNotes
+    ? `<div class="rd-section"><h3>On the road</h3><p class="rd-history">${esc(d.travelNotes)}</p></div>`
+    : ''
+  const future = d.futureUpgrades?.length
+    ? `<div class="rd-section"><h3>What's coming next</h3><ul class="rd-list">${d.futureUpgrades
+        .map((f) => `<li>${esc(f)}</li>`)
+        .join('')}</ul></div>`
+    : ''
+  const related = (d.relatedRoads ?? []).filter((r) => state.byId.has(r.id))
+  const relatedHtml = related.length
+    ? `<div class="rd-section"><h3>Connected roads</h3><div class="rel-chips">${related
+        .map((r) => {
+          const s = state.byId.get(r.id)!
+          return `<button class="rel-chip" data-road="${esc(r.id)}" title="${esc(r.label ?? s.name)}">
+            <span class="sr-badge cat-${s.category}">${esc(s.ref.length <= 9 ? s.ref : s.ref.split(/[\s–—]/)[0])}</span>
+            <span class="rc-name">${esc(s.name)}</span></button>`
+        })
+        .join('')}</div></div>`
     : ''
 
   const history = d.history
@@ -262,7 +340,7 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
     : ''
 
   const sparse =
-    !hasMore && !d.history && !d.facts?.length
+    !hasMore && !d.history && !d.facts?.length && !d.significance
       ? `<div class="rd-section"><div class="rd-sparse">We're still compiling detailed records for this road. The route on the map, its length and status are verified — richer history, toll and project details are on the way.</div></div>`
       : ''
 
@@ -290,10 +368,16 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       <p class="rd-meta-line"><b>Through:</b> ${esc(d.route.states.join(', '))}</p>
       <p class="rd-meta-line"><b>Main stops:</b> ${esc(cityLine)}</p>
     </div>
+    ${significance}
     ${more}
+    ${engineering}
     ${history}
     ${facts}
+    ${travel}
+    ${future}
+    ${relatedHtml}
     ${sparse}
+    <div class="rd-section" id="news-slot" hidden></div>
     <div class="rd-section" id="reports-slot"></div>
     ${sources}
     <div class="rd-section">
@@ -314,10 +398,42 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       .catch(() => toast(url, { duration: 8000 }))
   })
 
+  content()
+    .querySelectorAll<HTMLButtonElement>('.rel-chip')
+    .forEach((b) =>
+      b.addEventListener('click', () =>
+        document.dispatchEvent(new CustomEvent('rti:select-road', { detail: { id: b.dataset.road } })),
+      ),
+    )
+
   const ratingSlot = document.getElementById('rating-slot')!
   void renderRatingRow(ratingSlot, d.id)
   const reportsSlot = document.getElementById('reports-slot')!
   void renderRoadReports(reportsSlot, d.id, summary.ref)
+  void fillNews(d.id)
+}
+
+/** "In the news" — latest-first headlines snapshotted at build time. */
+async function fillNews(id: string): Promise<void> {
+  const slot = document.getElementById('news-slot')
+  if (!slot) return
+  try {
+    const snap = await loadNews(id)
+    if (state.selectedId !== id || !snap.items.length) return
+    slot.hidden = false
+    slot.innerHTML = `<h3>In the news</h3>
+      <ul class="news-list">${snap.items
+        .map(
+          (n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">
+            <span class="nw-title">${esc(n.title)}</span>
+            <span class="nw-meta">${esc(n.source || 'News')}${n.date ? ` · ${relTime(Date.parse(n.date))}` : ''}</span>
+          </a></li>`,
+        )
+        .join('')}</ul>
+      <p class="rating-note">Headlines auto-collected from Google News, newest first · snapshot ${relTime(Date.parse(snap.generated))}</p>`
+  } catch {
+    /* no news snapshot for this road — section stays hidden */
+  }
 }
 
 // ── browse mode uses the same shell ───────────────────────────────

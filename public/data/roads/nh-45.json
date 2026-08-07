@@ -22,13 +22,30 @@
   "timeline": [
     { "year": "2016", "event": "Route extended from Jabalpur to Bilaspur" }
   ],
-  "history": "NH 45 starts at Obaidullaganj, a town just south of Bhopal, and runs east across Madhya Pradesh to Jabalpur. From there it climbs through the forested Maikal hills past Dindori and drops into the plains of Chhattisgarh to end at Bilaspur. The road was extended from Jabalpur to Bilaspur in 2016, and its path was chosen to keep highway traffic away from the Achanakmar wildlife sanctuary and the Amarkantak hills.",
+  "history": "NH 45 starts at Obaidullaganj, a town just south of Bhopal, and runs east across Madhya Pradesh to Jabalpur. From there it climbs through the forested Maikal hills past Dindori and drops into the plains of Chhattisgarh to end at Bilaspur. The western half, from Obaidullaganj to Jabalpur, is an old and busy road — it used to be part of NH 12, the main Bhopal–Jabalpur link. The eastern half is much newer: the highway was extended from Jabalpur to Bilaspur in June 2016, giving Jabalpur its first direct national highway to Chhattisgarh. Its path through the hills was chosen carefully to keep highway traffic away from the Achanakmar wildlife sanctuary and the Amarkantak hills.",
   "facts": [
     "The Obaidullaganj–Jabalpur stretch was part of the old NH 12 from Bhopal.",
     "Extended from Jabalpur to Bilaspur in June 2016.",
     "Its alignment was shifted to avoid cutting through the Achanakmar wildlife sanctuary.",
-    "About 504 km lie in Madhya Pradesh and 148 km in Chhattisgarh."
+    "About 504 km lie in Madhya Pradesh and 148 km in Chhattisgarh.",
+    "It begins where it meets NH 46 at Obaidullaganj, on the road south from Bhopal.",
+    "Jabalpur, roughly the midpoint, is where NH 45 meets both NH 30 and NH 34.",
+    "Its route through the Maikal hills was deliberately kept clear of the Amarkantak hill range, where the Narmada rises."
   ],
+  "significance": "NH 45 is the short way between Bhopal and Jabalpur, Madhya Pradesh's two biggest urban centres in the middle of the state, and since 2016 it has also given central Madhya Pradesh a straight run into Chhattisgarh. For the tribal districts of Dindori, Mandla and Kabirdham it is the main road out to a city — for markets, colleges and hospitals — and it carries a steady flow of goods between the Bhopal–Jabalpur belt and the industrial towns around Bilaspur.",
+  "interchanges": [
+    { "name": "Obaidullaganj", "note": "western end, at the junction with NH 46 south of Bhopal" },
+    { "name": "Jabalpur", "note": "meets NH 30 and NH 34; the biggest city on the route" },
+    { "name": "Bilaspur", "note": "eastern end in Chhattisgarh; NH 49 also starts at Bilaspur and carries on east toward Odisha and Kharagpur" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-46", "label": "Meets NH 45 at Obaidullaganj and runs on to Bhopal and Gwalior" },
+    { "id": "nh-30", "label": "Crosses at Jabalpur on its way from Uttarakhand to Andhra Pradesh" },
+    { "id": "nh-34", "label": "Also meets NH 45 at Jabalpur, coming down from Gangotri in the Himalayas" },
+    { "id": "nh-49", "label": "Picks up at Bilaspur and continues east toward Kharagpur" }
+  ],
+  "travelNotes": "Bhopal to Jabalpur is a comfortable half-day drive of about six hours on the busier western half, with plenty of dhabas around Bareli and Tendukheda. The eastern half beyond Jabalpur is quieter and mostly two-lane, climbing through forest around Dindori where fuel pumps thin out — fill the tank in Jabalpur or Dindori before the hill stretch. Avoid driving that section after dark because of wildlife and village traffic, and expect slow going in the July–September monsoon.",
+  "newsQuery": "\"NH 45\" Madhya Pradesh highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

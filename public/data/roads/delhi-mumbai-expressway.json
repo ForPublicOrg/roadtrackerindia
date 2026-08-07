@@ -2,7 +2,7 @@
   "id": "delhi-mumbai-expressway",
   "ref": "Delhi–Mumbai Expressway",
   "name": "Delhi–Mumbai Expressway",
-  "aka": ["National Expressway 4 (NE-4)"],
+  "aka": ["National Expressway 4 (NE-4)", "NH 148N (Delhi–Vadodara section)"],
   "category": "expressway",
   "status": "under-construction",
   "lengthKm": 1386,
@@ -21,13 +21,42 @@
     { "year": "2024", "event": "More long stretches open in Rajasthan, Madhya Pradesh and Gujarat" },
     { "year": "2026", "event": "Around 930 km is open; the Delhi–Vadodara side nears completion while a few Gujarat–Maharashtra packages continue" }
   ],
-  "history": "The Delhi–Mumbai Expressway is India's biggest expressway project, linking the national capital with the country's financial capital. Its mainline officially begins at Sohna near the KMP ring road, with an under-construction connector spur linking it back to Delhi's DND Flyway via Faridabad. Instead of following the old highway, it takes a shorter new route through Haryana, Rajasthan, Madhya Pradesh and Gujarat, ending near Mumbai's Jawaharlal Nehru Port. The first stretch, from Sohna to Dausa, opened in February 2023, and by mid-2026 roughly 930 km of the corridor is open to traffic while the remaining sections are still being built.",
+  "history": "The Delhi–Mumbai Expressway is India's biggest expressway project, linking the national capital with the country's financial capital. Its mainline officially begins at Sohna near the KMP ring road, with an under-construction connector spur linking it back to Delhi's DND Flyway via Faridabad. Instead of following the old highway through Jaipur, Ahmedabad and Surat, it takes a shorter new route through Haryana, Rajasthan, Madhya Pradesh and Gujarat, ending near Mumbai's Jawaharlal Nehru Port. Because it is a greenfield road built mostly across farmland, NHAI could build it in dozens of packages at the same time, which is why so much of it opened within four years of the first sod being turned. The first stretch, from Sohna to Dausa, opened in February 2023, and by mid-2026 roughly 930 km of the corridor is open to traffic while the remaining sections are still being built.",
   "facts": [
     "Will be India's longest expressway at about 1,386 km when complete.",
     "Expected to cut the Delhi–Mumbai drive to around 12 hours.",
     "8 lanes wide, designed so it can be expanded to 12 lanes later.",
-    "Crosses six states and union territories: Delhi, Haryana, Rajasthan, Madhya Pradesh, Gujarat and Maharashtra.",
-    "Has dedicated animal overpasses near the Ranthambore and Mukundra tiger reserves — a first for an Indian expressway."
+    "Will cross six states and union territories once the Delhi connector spur opens — Delhi, Haryana, Rajasthan, Madhya Pradesh, Gujarat and Maharashtra.",
+    "Has dedicated animal overpasses near the Ranthambore and Mukundra tiger reserves — a first for an Indian expressway.",
+    "Includes one of India's very few 8-lane road tunnels, driven under the Mukundara Hills tiger reserve in Rajasthan.",
+    "Wayside stops along the route are planned with fuel pumps, food courts, rest rooms and even helipads for medical emergencies.",
+    "It is being built in more than 50 separate construction packages, which is how such a long road went up so fast."
+  ],
+  "significance": "Delhi and Mumbai are India's two biggest economic centres, and the freight between them — cars, cloth, chemicals, containers — is some of the busiest in the country. The expressway roughly halves that journey and connects it directly to Jawaharlal Nehru Port, India's largest container port, so goods move from north India to the sea far faster. It also drives new industry through some of India's poorer districts in eastern Rajasthan and western Madhya Pradesh, which had no fast road link before.",
+  "engineering": [
+    { "name": "Mukundara Hills tunnel (Rajasthan)", "note": "an 8-lane tunnel taking the road under the Mukundara Hills tiger reserve instead of cutting through it" },
+    { "name": "Wildlife overpasses in Rajasthan", "note": "five wide green bridges, about 2.5 km of them in all, let tigers and other animals cross above the traffic near the Sariska, Ranthambore, Ramgarh Vishdhari and Mukundara reserves" },
+    { "name": "Aravalli hills cutting near Sohna", "note": "deep rock cuttings and viaducts carry the expressway through the hills just south of Gurugram" }
+  ],
+  "interchanges": [
+    { "name": "Sohna (Haryana)", "note": "northern end of the mainline, next to the KMP ring expressway around Delhi" },
+    { "name": "Dausa–Lalsot (Rajasthan)", "note": "end of the first stretch to open, and the main exit for Jaipur" },
+    { "name": "Kota (Rajasthan)", "note": "access point for Kota and the Hadoti region" },
+    { "name": "Vadodara (Gujarat)", "note": "joins the Ahmedabad–Vadodara Expressway and the old Mumbai highway" },
+    { "name": "Jawaharlal Nehru Port (Nhava Sheva)", "note": "southern end at India's biggest container port, next to the Atal Setu sea link into Mumbai" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The old Delhi–Jaipur–Ahmedabad–Mumbai highway this expressway relieves" },
+    { "id": "western-peripheral-expressway", "label": "The KMP ring expressway around Delhi, met at the Sohna end" },
+    { "id": "ahmedabad-vadodara-expressway", "label": "Joins the corridor at Vadodara and carries traffic on to Ahmedabad" },
+    { "id": "dnd-flyway", "label": "The Delhi connector spur is being built to link the expressway back to the DND Flyway" },
+    { "id": "atal-setu", "label": "The sea link from Nhava Sheva that carries expressway traffic straight into Mumbai" }
+  ],
+  "travelNotes": "Where it is open, the expressway is fast and boring in the best way — long straight runs with no villages, no traffic lights and speed limits of 120 km/h for cars. Fuel pumps and food stops are still far apart on the newer sections, so fill up whenever you see one and carry water. Two-wheelers, three-wheelers and tractors are not allowed, tolling is by FASTag over the distance you travel, and in summer the Rajasthan and Madhya Pradesh stretches get very hot with almost no shade.",
+  "futureUpgrades": [
+    "The remaining Gujarat and Maharashtra packages, including the Vadodara–Mumbai section, are being completed to open the route end to end.",
+    "A connector spur from the DND Flyway through Faridabad to Sohna will give the expressway a direct start inside Delhi.",
+    "Spur expressways are planned or being built off the corridor: a 67 km branch from Bandikui to Jaipur, a 32 km link from Faridabad to Noida International Airport at Jewar, and a Kota–Indore route."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },

@@ -8,6 +8,7 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 306,
+  "lanes": "Mostly 2 lanes, with some 4-lane stretches",
   "route": {
     "start": "Morgram, Murshidabad district, West Bengal",
     "end": "Kharagpur, West Bengal",
@@ -23,13 +24,44 @@
       "Kharagpur"
     ]
   },
-  "history": "NH 14 runs down through the western side of West Bengal, from Morgram on NH 12 to the railway hub of Kharagpur on NH 16. Before the 2010 renumbering it was known as NH 60. Along the way it passes the stone and coal country of Birbhum, the Raniganj coalfield, and the old temple town of Bishnupur.",
+  "timeline": [
+    { "year": "2010", "event": "The old NH 60 is renumbered as NH 14" },
+    { "year": "2020s", "event": "Work begins on the parallel 231 km Kharagpur–Morgram Expressway" }
+  ],
+  "history": "NH 14 runs down the western side of West Bengal, from Morgram on NH 12 to the railway hub of Kharagpur on NH 16. Before the 2010 renumbering it was known as NH 60. Along the way it passes the stone and coal country of Birbhum, the Raniganj coalfield, and the old temple town of Bishnupur. Its real job is to let traffic from north Bengal and Murshidabad reach Kharagpur and Odisha without going anywhere near crowded Kolkata. Much of it is still a two-lane road threading through the middle of small towns, which is why a brand-new expressway has been approved along the same corridor.",
   "facts": [
     "Was known as NH 60 before the 2010 renumbering.",
     "Passes Bishnupur, famous for its terracotta temples.",
-    "Crosses the Mayurakshi river at the Tilpara Barrage near Suri.",
-    "Links NH 12 in Murshidabad with the big east-coast highway NH 16 at Kharagpur."
+    "Crosses the Mayurakshi river on the Tilpara Barrage near Suri.",
+    "Links NH 12 in Murshidabad with the big east-coast highway NH 16 at Kharagpur.",
+    "Crosses the Grand Trunk Road (NH 19) at Punjabi Morh in Raniganj.",
+    "Runs through the Raniganj coalfield, where coal mining in India began in the 1770s.",
+    "Lets lorries from north Bengal reach Kharagpur and Odisha while skipping Kolkata altogether."
   ],
+  "significance": "NH 14 is western Bengal's north–south shortcut. It carries coal, stone and cement out of the Birbhum and Raniganj mining belt, and it gives long-distance traffic between north Bengal and Odisha a way around Kolkata. For the district towns of Birbhum and Bankura it is also the main road to the nearest cities, colleges and hospitals.",
+  "engineering": [
+    { "name": "Tilpara Barrage, Suri", "note": "the highway crosses the Mayurakshi river on top of this barrage" },
+    { "name": "Damodar river bridge near Mejia", "note": "carries the road from the coalfield side of the river into Bankura district" }
+  ],
+  "interchanges": [
+    { "name": "Morgram", "note": "northern end, on NH 12 in Murshidabad district" },
+    { "name": "Suri", "note": "district town of Birbhum; the road to Bolpur and Santiniketan, about 30 km away, leaves the highway here" },
+    { "name": "Punjabi Morh, Raniganj", "note": "crosses NH 19, the Grand Trunk Road" },
+    { "name": "Bankura", "note": "junction town for the roads across southern Bengal" },
+    { "name": "Kharagpur", "note": "southern end, on NH 16 towards Kolkata and Odisha" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-12", "label": "The north–south highway of central Bengal that NH 14 starts from at Morgram" },
+    { "id": "nh-19", "label": "The Grand Trunk Road, crossed at Raniganj" },
+    { "id": "nh-16", "label": "The east-coast highway that NH 14 ends on at Kharagpur" },
+    { "id": "nh-49", "label": "Also meets the network at Kharagpur, heading west towards Chhattisgarh" }
+  ],
+  "travelNotes": "End to end takes about seven to eight hours. The road is mostly two lanes and runs straight through the middle of towns like Rampurhat, Suri and Bankura, so progress is slow behind lorries and tractors. It is a favourite route for travellers heading to Santiniketan and the Bishnupur temples. Overloaded coal and stone lorries leave the Birbhum and Raniganj stretches rough in places, and winter fog can be thick in December and January.",
+  "futureUpgrades": [
+    "A 231 km four-lane greenfield Kharagpur–Morgram Expressway, costing about ₹10,247 crore, is being built beside this corridor and will take the long-distance traffic off NH 14.",
+    "That expressway is the southern part of the planned Kharagpur–Siliguri economic corridor."
+  ],
+  "newsQuery": "\"NH 14\" West Bengal highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

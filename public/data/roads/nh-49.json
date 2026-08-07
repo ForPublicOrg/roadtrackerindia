@@ -20,13 +20,30 @@
       "Kharagpur"
     ]
   },
-  "history": "NH 49 links central India with the busy Kolkata–Chennai corridor. It starts at Bilaspur in Chhattisgarh, runs through the industrial towns of Raigarh and Jharsuguda, and crosses the hills and forests of northern Odisha past Keonjhar. It ends near Kharagpur in West Bengal, where it meets NH 16. The route was formed in the 2010 renumbering from the old NH 200 and part of the old NH 6.",
+  "history": "NH 49 links central India with the busy Kolkata–Chennai corridor. It starts at Bilaspur in Chhattisgarh, runs through the industrial towns of Raigarh and Jharsuguda, and crosses the hills and forests of northern Odisha past Keonjhar. It ends near Kharagpur in West Bengal, where it meets NH 16. The route was formed in the 2010 renumbering from the old NH 200 and part of the old NH 6. The old NH 6 section, from Baharagora eastwards, is one of the oldest trunk roads in eastern India — for decades it was the main Mumbai–Kolkata route. Almost the whole highway runs through mining and heavy-industry country, so its traffic is dominated by trucks carrying coal, iron ore, sponge iron and steel.",
   "facts": [
     "Joins NH 16, the Kolkata–Chennai highway, near Kharagpur.",
     "Passes through Keonjhar, one of India's biggest iron-ore mining districts.",
     "Jashipur on the route is a gateway to Simlipal National Park.",
-    "Crosses four states: Chhattisgarh, Odisha, Jharkhand and West Bengal."
+    "Crosses four states: Chhattisgarh, Odisha, Jharkhand and West Bengal.",
+    "The stretch from Baharagora eastwards was part of the old NH 6, the historic Mumbai–Kolkata road.",
+    "Raigarh and Jharsuguda, both on the route, are major coal, power and aluminium towns."
   ],
+  "significance": "NH 49 is a mineral highway. It runs straight through the coalfields of Chhattisgarh and Odisha, the aluminium belt around Jharsuguda and the iron-ore hills of Keonjhar, and carries their output east toward the ports and steel plants of Odisha, Jharkhand and West Bengal. For the forested districts of northern Odisha it is also the main connecting road, linking small district towns to Sambalpur, Jamshedpur and Kharagpur.",
+  "interchanges": [
+    { "name": "Bilaspur", "note": "western end in Chhattisgarh; NH 45 also ends here after its run from Jabalpur and Bhopal" },
+    { "name": "Kendujhar (Keonjhar)", "note": "the mining hub of northern Odisha and the busiest town on the route; NH 20 crosses here" },
+    { "name": "Baharagora", "note": "the Jharkhand junction town, on the old Mumbai–Kolkata road, where NH 18 passes through" },
+    { "name": "Kharagpur", "note": "eastern end, at NH 16, the Kolkata–Chennai highway" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Arrives at Bilaspur from Jabalpur, continuing the corridor westwards" },
+    { "id": "nh-20", "label": "The Bakhtiyarpur–Panikoili highway, crossed at Kendujhar in Odisha" },
+    { "id": "nh-18", "label": "The Koderma–Balasore highway, which passes through Baharagora on NH 49's Jharkhand stretch" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai highway, where NH 49 ends near Kharagpur" }
+  ],
+  "travelNotes": "Expect heavy, slow ore and coal trucks for most of the way, especially between Jharsuguda and Keonjhar — average speeds are low even where the road is good. The Odisha hill section through Deogarh, Pallahara and Jashipur is scenic but thinly populated, so fuel up in the bigger towns and try to finish it in daylight, watching for wildlife where the road skirts the Simlipal forests near Jashipur. October to February is the best season, and the July–September monsoon leaves potholes where the mining traffic is heaviest.",
+  "newsQuery": "\"NH 49\" Odisha highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

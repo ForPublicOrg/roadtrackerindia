@@ -1,4 +1,4 @@
-import type { NetworkFC, RoadDetail, RoadIndex, ShapeFeature } from './types'
+import type { NetworkFC, NewsSnapshot, RoadDetail, RoadIndex, ShapeFeature } from './types'
 
 const cache = new Map<string, unknown>()
 
@@ -15,3 +15,4 @@ export const loadIndex = () => getJSON<RoadIndex>('/data/index.json')
 export const loadNetwork = () => getJSON<NetworkFC>('/data/network-lite.geojson')
 export const loadDetail = (id: string) => getJSON<RoadDetail>(`/data/roads/${id}.json`)
 export const loadShape = (id: string) => getJSON<ShapeFeature>(`/data/shapes/${id}.json`)
+export const loadNews = (id: string) => getJSON<NewsSnapshot>(`/data/news/${id}.json`)
