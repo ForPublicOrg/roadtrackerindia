@@ -20,7 +20,7 @@ export async function buildStyle(theme: Theme): Promise<StyleSpec> {
   if (!lightStyle) {
     const res = await fetch(POSITRON_URL)
     if (!res.ok) throw new Error(`style fetch failed: HTTP ${res.status}`)
-    lightStyle = (await res.json()) as StyleSpec
+    lightStyle = applyIndianDepiction((await res.json()) as StyleSpec)
   }
   if (theme === 'light') return lightStyle
   if (!darkStyle) {
@@ -43,6 +43,74 @@ export function fallbackStyle(theme: Theme): StyleSpec {
       },
     ],
   }
+}
+
+// ── Indian boundary depiction ──────────────────────────────────────
+
+/**
+ * Align the base map's borders with the Indian legal depiction (as on Survey
+ * of India maps): India's external boundary — including the whole of Jammu &
+ * Kashmir, Gilgit-Baltistan, the Shaksgam valley and Aksai Chin — is drawn
+ * as one solid line, and the de-facto lines that contradict it (the Line of
+ * Control, the Line of Actual Control, claim dashes, the Pakistan–China line
+ * through the Shaksgam tract) are not drawn at all.
+ *
+ * The boundary itself ships as a static overlay,
+ * public/data/india-boundary.geojson, assembled from OSM boundary relations
+ * by scripts/fetch-india-boundary.mjs — the tiles don't carry enough tagging
+ * to restyle that line into existence. It is drawn slightly darker and
+ * heavier than other countries' borders so India's outline reads at a glance.
+ *
+ * Applied to the light style before caching, so the dark style (derived from
+ * it) inherits everything, including theme-correct overlay colours.
+ */
+function applyIndianDepiction(style: StyleSpec): StyleSpec {
+  // 1. Never draw the dashed "disputed" treatment (LoC, LAC, claim lines).
+  style.layers = (style.layers ?? []).filter((l) => l.id !== 'boundary_disputed')
+
+  // 2. International borders: undisputed, unclaimed lines only — and not the
+  //    de-facto Pakistan–China segment, which runs through territory India
+  //    claims (Shaksgam tract). India's own line comes from the overlay.
+  const intl = style.layers.find((l) => l.id === 'boundary_2')
+  if (intl) {
+    intl.filter = [
+      'all',
+      ['==', ['get', 'admin_level'], 2],
+      ['!=', ['get', 'maritime'], 1],
+      ['!=', ['get', 'disputed'], 1],
+      ['!', ['has', 'claimed_by']],
+      [
+        '!',
+        [
+          'all',
+          ['has', 'adm0_l'],
+          ['has', 'adm0_r'],
+          ['in', ['get', 'adm0_l'], ['literal', ['PAK', 'CHN']]],
+          ['in', ['get', 'adm0_r'], ['literal', ['PAK', 'CHN']]],
+        ],
+      ],
+    ]
+  }
+
+  // 3. India's full external land boundary, distinguishable from other
+  //    borders: a shade darker and a touch wider at every zoom.
+  const sources = style.sources as Record<string, unknown> | undefined
+  if (sources) {
+    sources['india-boundary'] = { type: 'geojson', data: '/data/india-boundary.geojson' }
+    const at = style.layers.findIndex((l) => l.id === 'boundary_2')
+    style.layers.splice(at >= 0 ? at + 1 : style.layers.length, 0, {
+      id: 'boundary_india',
+      type: 'line',
+      source: 'india-boundary',
+      layout: { 'line-cap': 'round', 'line-join': 'round' },
+      paint: {
+        'line-color': 'hsl(0,0%,38%)',
+        'line-opacity': ['interpolate', ['linear'], ['zoom'], 0, 0.7, 4, 1],
+        'line-width': ['interpolate', ['linear'], ['zoom'], 3, 1.8, 5, 2.4, 12, 4],
+      },
+    })
+  }
+  return style
 }
 
 // ── colour transformation ──────────────────────────────────────────

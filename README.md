@@ -79,6 +79,12 @@ npm run data
   JS for mid-range phones, full control over the animation loop
 - **OpenFreeMap** vector tiles (free, keyless, OSM-based); positron style for light mode,
   and the dark style is the same style transformed through an HSL inversion at runtime
+- **Indian border depiction**: the base style is restyled at runtime so India's external
+  boundary follows the Survey of India depiction — the whole of Jammu & Kashmir and
+  Aksai Chin inside one solid boundary, drawn slightly darker and heavier than other
+  countries' borders, with no LoC/LAC dashes. The boundary line itself is a committed
+  static asset (`public/data/india-boundary.geojson`) assembled from OSM boundary
+  relations by `scripts/fetch-india-boundary.mjs`
 - **Static pages for SEO**: `scripts/gen-pages.mjs` stamps `dist/road/<id>/index.html`
   per road (own title/description/OG/JSON-LD) + `sitemap.xml` + `404.html` SPA fallback
 - **Firestore adapter** is lazy-loaded only when configured, so the default bundle stays lean
@@ -95,13 +101,15 @@ src/
   locate.ts      GPS → nearest-road snapping with fallbacks
   reports.ts     community problem reports (pins, dialog, popups)
   ratings.ts     star ratings
-  storage.ts     LocalStore + adapter detection
+  storage.ts     Firestore connection + config detection (env var or local file)
   firestore.ts   CloudStore (lazy) — anonymous auth, reports, ratings, aggregates
   router.ts      /road/<id> deep links + meta/canonical/OG sync
 scripts/
-  build-data.mjs         validate + derive (also `--lint`)
-  gen-pages.mjs          per-road SEO pages + sitemap
-  fetch-osm-geometry.mjs real OSM alignments via Overpass
+  build-data.mjs           validate + derive (also `--lint`)
+  gen-pages.mjs            per-road SEO pages + sitemap
+  fetch-news.mjs           per-road news snapshots (Google News RSS, build time)
+  fetch-osm-geometry.mjs   real OSM alignments via Overpass
+  fetch-india-boundary.mjs India's external boundary (Survey of India depiction)
 ```
 
 ## Attribution
