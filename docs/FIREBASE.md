@@ -41,22 +41,31 @@ These rules enforce:
 
 ## 5. Add the config to the site
 
-Copy `public/firebase-config.example.json` to `public/firebase-config.json` and
-paste the values from step 1:
+**Recommended — environment variable (config never enters the repo):**
 
-```json
-{
-  "apiKey": "AIza...",
-  "authDomain": "roadtracker-india.firebaseapp.com",
-  "projectId": "roadtracker-india",
-  "storageBucket": "roadtracker-india.appspot.com",
-  "messagingSenderId": "1234567890",
-  "appId": "1:1234567890:web:abc123"
-}
+In your host's dashboard (Vercel / Netlify / Cloudflare Pages → project →
+Settings → Environment Variables), add one variable, marked secret/encrypted:
+
+- **Name:** `VITE_FIREBASE_CONFIG`
+- **Value:** the whole config object from step 1 on one line:
+
+```
+{"apiKey":"AIza...","authDomain":"roadtracker-india.firebaseapp.com","projectId":"roadtracker-india","storageBucket":"roadtracker-india.appspot.com","messagingSenderId":"1234567890","appId":"1:1234567890:web:abc123"}
 ```
 
-> The web `apiKey` is not a secret — it only identifies the project. Your data is
-> protected by the security rules, not by hiding the key.
+Redeploy — Vite injects it at build time and the app switches to shared mode.
+
+**Local testing alternative:** copy `public/firebase-config.example.json` to
+`public/firebase-config.json` and paste your values. That file is **gitignored**
+so it cannot be committed; don't remove it from `.gitignore`.
+
+> Honesty note: whatever the delivery mechanism, a browser app must hand the
+> config to the browser, so it is always discoverable in the shipped bundle.
+> That is by design and Google documents it as safe: the web `apiKey` only
+> *identifies* the project. What actually protects your data is the security
+> rules (step 4), the authorized-domains list (step 6), and App Check. The env
+> var's job is keeping the config out of your public git history — good hygiene,
+> not secrecy.
 
 ## 6. Restrict where it works (recommended)
 
@@ -66,12 +75,12 @@ use one). Requests from other origins will be refused.
 
 ## 7. Deploy
 
-Rebuild/redeploy the site. The app detects the config at load time:
+Rebuild/redeploy the site. The app detects the config automatically:
 
 - toast messages will say reports are "visible to everyone"
 - the rating row shows "Community: 4.2 ★ from 12 ratings"
 
-Remove `public/firebase-config.json` at any time to fall back to device-local mode.
+Remove the env var (and redeploy) at any time to fall back to device-local mode.
 
 ## Costs & abuse notes
 

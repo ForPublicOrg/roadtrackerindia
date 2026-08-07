@@ -19,8 +19,9 @@ the camera flies to it, the route draws itself, and an encyclopedia panel slides
   on a road and remove their own pins; others confirm "fixed" (3 confirmations hide a report)
 - ⭐ **Road ratings** — 1–5 stars per road with community averages
 - ☁️ **Firestore or device-local** — reports & ratings use Cloud Firestore (free tier,
-  anonymous auth) when `public/firebase-config.json` exists; otherwise they fall back to
-  device-local storage automatically. See [docs/FIREBASE.md](docs/FIREBASE.md)
+  anonymous auth) when a `VITE_FIREBASE_CONFIG` env var is set at build time (or a
+  gitignored `public/firebase-config.json` exists for local testing); otherwise they fall
+  back to device-local storage automatically. See [docs/FIREBASE.md](docs/FIREBASE.md)
 - 🌗 **Light & dark map styles** with a toggle (dark style is derived programmatically)
 - 🔗 **SEO & deep links** — every road gets a real static page at `/road/<id>` with its
   own meta tags + JSON-LD, plus sitemap.xml

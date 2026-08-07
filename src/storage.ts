@@ -100,17 +100,43 @@ export function getStore(): Promise<UserStore> {
   return storePromise
 }
 
-async function detect(): Promise<UserStore> {
+interface FirebaseCfg {
+  apiKey?: string
+  projectId?: string
+}
+
+/** Preferred source: VITE_FIREBASE_CONFIG env var, set in the host's dashboard
+ *  at build time — the config never lives in the repo. */
+function envConfig(): FirebaseCfg | null {
+  const raw = import.meta.env.VITE_FIREBASE_CONFIG as string | undefined
+  if (!raw) return null
+  try {
+    return JSON.parse(raw) as FirebaseCfg
+  } catch {
+    console.warn('[storage] VITE_FIREBASE_CONFIG is not valid JSON — ignoring.')
+    return null
+  }
+}
+
+/** Fallback source: /firebase-config.json (gitignored; for local testing). */
+async function fileConfig(): Promise<FirebaseCfg | null> {
   try {
     const res = await fetch('/firebase-config.json', { cache: 'no-store' })
-    if (res.ok) {
-      const cfg = (await res.json()) as { apiKey?: string; projectId?: string }
-      if (cfg.apiKey && cfg.projectId && !cfg.apiKey.startsWith('PASTE')) {
-        const { CloudStore } = await import('./firestore')
-        const store = new CloudStore()
-        await store.init(cfg as Record<string, string>)
-        return store
-      }
+    if (!res.ok) return null
+    return (await res.json()) as FirebaseCfg
+  } catch {
+    return null
+  }
+}
+
+async function detect(): Promise<UserStore> {
+  try {
+    const cfg = envConfig() ?? (await fileConfig())
+    if (cfg?.apiKey && cfg.projectId && !cfg.apiKey.startsWith('PASTE')) {
+      const { CloudStore } = await import('./firestore')
+      const store = new CloudStore()
+      await store.init(cfg as Record<string, string>)
+      return store
     }
   } catch (e) {
     console.warn('[storage] Firestore unavailable, using device-local storage.', e)

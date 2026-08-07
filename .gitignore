@@ -2,6 +2,10 @@ node_modules/
 dist/
 .DS_Store
 *.log
+# never commit a real Firebase config — use the VITE_FIREBASE_CONFIG env var (docs/FIREBASE.md)
+public/firebase-config.json
+.env
+.env.*
 public/data/index.json
 public/data/network-lite.geojson
 public/data/shapes/
