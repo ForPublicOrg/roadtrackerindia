@@ -1,9 +1,9 @@
-# Turning on shared reports & ratings (Firestore)
+# Setting up reports & ratings (Firestore)
 
-Out of the box, RoadTracker India stores community reports (potholes / damage /
-flooding) and star ratings **on each visitor's device only**. To make them shared
-between all visitors, connect a free Firebase project. The site stays 100% static —
-visitors talk to Firestore directly from the browser, no server needed.
+Community reports (potholes / damage / flooding) and star ratings are stored in
+Cloud Firestore — there is no local fallback. Until a working Firebase config is
+provided, those sections of the site show "unavailable right now". The site stays
+100% static — visitors talk to Firestore directly from the browser, no server needed.
 
 Takes about 10 minutes. The free (Spark) tier is far more than enough to start.
 
@@ -77,10 +77,9 @@ use one). Requests from other origins will be refused.
 
 Rebuild/redeploy the site. The app detects the config automatically:
 
-- toast messages will say reports are "visible to everyone"
-- the rating row shows "Community: 4.2 ★ from 12 ratings"
-
-Remove the env var (and redeploy) at any time to fall back to device-local mode.
+- the browser console logs `[storage] Firestore connected — project "…"`
+  (or a precise one-line reason when something is still missing)
+- the rating row shows "Be the first to rate this road" / "Community: 4.2 ★ from 12 ratings"
 
 ## Costs & abuse notes
 

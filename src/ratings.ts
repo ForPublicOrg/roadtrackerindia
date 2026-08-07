@@ -5,7 +5,13 @@ const STAR =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.95 5.98 6.6.96-4.78 4.66 1.13 6.58L12 17.57l-5.9 3.11 1.13-6.58L2.45 9.44l6.6-.96Z" fill="currentColor"/></svg>'
 
 export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<void> {
-  const store = await getStore()
+  let store
+  try {
+    store = await getStore()
+  } catch {
+    el.innerHTML = `<h3>Rate this road</h3><p class="rating-note">Ratings are unavailable right now — please try again later.</p>`
+    return
+  }
   let mine: number | null = null
   try {
     mine = await store.getMyRating(roadId)
@@ -37,16 +43,12 @@ export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<
   }
 
   const setSummaryText = async () => {
-    if (store.mode === 'cloud') {
-      const sum = await store.getRatingSummary(roadId).catch(() => null)
-      note.textContent = sum
-        ? `Community: ${sum.avg.toFixed(1)} ★ from ${sum.count} rating${sum.count > 1 ? 's' : ''}`
-        : mine !== null
-          ? 'Thanks for rating!'
-          : 'Be the first to rate this road'
-    } else {
-      note.textContent = mine !== null ? 'Your rating (saved on this device)' : 'How good is this road to drive on?'
-    }
+    const sum = await store.getRatingSummary(roadId).catch(() => null)
+    note.textContent = sum
+      ? `Community: ${sum.avg.toFixed(1)} ★ from ${sum.count} rating${sum.count > 1 ? 's' : ''}`
+      : mine !== null
+        ? 'Thanks for rating!'
+        : 'Be the first to rate this road'
   }
   void setSummaryText()
 

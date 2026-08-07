@@ -16,7 +16,6 @@ function toMillisSafe(ts: Timestamp | undefined): number {
 }
 
 export class CloudStore implements UserStore {
-  readonly mode = 'cloud' as const
   uid = ''
   private db!: Firestore
   private app!: FirebaseApp

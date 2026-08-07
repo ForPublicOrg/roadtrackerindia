@@ -47,11 +47,13 @@ export function initReports(): void {
       else exitReportMode()
     }
   })
-  // show the user's own pins from previous visits
-  void getStore().then(async (store) => {
-    const mine = await store.getMyReports()
-    mine.forEach(addMarker)
-  })
+  // show the user's own pins from previous visits (skip when Firestore is unavailable)
+  void getStore()
+    .then(async (store) => {
+      const mine = await store.getMyReports()
+      mine.forEach(addMarker)
+    })
+    .catch(() => {})
 }
 
 export function enterReportMode(): void {
@@ -135,14 +137,10 @@ function openDialog(lngLat: [number, number], roadId: string, roadRef: string): 
       const store = await getStore()
       const item = await store.addReport({ roadId, type, lng: lngLat[0], lat: lngLat[1], note })
       addMarker(item)
-      toast(
-        store.mode === 'cloud'
-          ? 'Thanks! Your report is now visible to everyone.'
-          : 'Report saved on this device. (Connect Firebase to share reports publicly.)',
-      )
+      toast('Thanks! Your report is now visible to everyone.')
       refreshPanelSlot(roadId)
     } catch {
-      toast("Couldn't save the report — please try again.")
+      toast("Couldn't save the report — community reports are unavailable right now.")
     }
     closeDialog()
     exitReportMode()
@@ -201,31 +199,33 @@ function showPopup(r: ReportItem): void {
     b.addEventListener('click', cb)
     actions.appendChild(b)
   }
-  void getStore().then((store) => {
-    if (r.mine) {
-      mkBtn('Remove report', async () => {
-        try {
-          await store.removeReport(r.id)
-          removeMarker(r.id)
-          popup?.remove()
-          toast('Report removed.')
-          refreshPanelSlot(r.roadId)
-        } catch {
-          toast("Couldn't remove it — try again.")
-        }
-      })
-    } else if (store.mode === 'cloud') {
-      mkBtn('✓ It’s fixed now', async () => {
-        try {
-          await store.markFixed(r.id)
-          popup?.remove()
-          toast('Thanks! With a few confirmations this report will disappear.')
-        } catch {
-          toast("Couldn't record that — try again.")
-        }
-      })
-    }
-  })
+  void getStore()
+    .then((store) => {
+      if (r.mine) {
+        mkBtn('Remove report', async () => {
+          try {
+            await store.removeReport(r.id)
+            removeMarker(r.id)
+            popup?.remove()
+            toast('Report removed.')
+            refreshPanelSlot(r.roadId)
+          } catch {
+            toast("Couldn't remove it — try again.")
+          }
+        })
+      } else {
+        mkBtn('✓ It’s fixed now', async () => {
+          try {
+            await store.markFixed(r.id)
+            popup?.remove()
+            toast('Thanks! With a few confirmations this report will disappear.')
+          } catch {
+            toast("Couldn't record that — try again.")
+          }
+        })
+      }
+    })
+    .catch(() => {})
   popup = new maplibregl.Popup({ offset: 20, maxWidth: '270px' })
     .setLngLat([r.lng, r.lat])
     .setDOMContent(div)
@@ -244,12 +244,18 @@ function refreshPanelSlot(roadId: string): void {
 
 export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef: string): Promise<void> {
   el.innerHTML = `<h3>Road problems</h3><div class="skel" style="height:44px"></div>`
-  const store = await getStore()
+  let store
+  try {
+    store = await getStore()
+  } catch {
+    el.innerHTML = `<h3>Road problems</h3><p class="rating-note">Community reports are unavailable right now — please try again later.</p>`
+    return
+  }
   let items: ReportItem[] = []
   try {
     items = await store.getReportsForRoad(roadId)
   } catch {
-    /* offline — show just the CTA */
+    /* transient read failure — show just the CTA */
   }
   if (state.selectedId !== roadId) return
   items.forEach(addMarker)
@@ -265,7 +271,7 @@ export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef
             <div class="ri-time">${r.mine ? 'You' : 'Someone'} reported this ${relTime(r.createdAt)}</div>
           </span>
           <span class="ri-actions">
-            ${r.mine ? `<button data-act="remove">Remove</button>` : store.mode === 'cloud' ? `<button data-act="fixed">Fixed?</button>` : ''}
+            ${r.mine ? `<button data-act="remove">Remove</button>` : `<button data-act="fixed">Fixed?</button>`}
           </span>
         </div>`,
         )
@@ -277,11 +283,7 @@ export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef
       <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       Report a pothole, damage or flooding
     </button>
-    <p class="rating-note" style="margin:8px 0 0">${
-      store.mode === 'cloud'
-        ? 'Reports are shared with all visitors. Three “fixed” confirmations hide a report.'
-        : 'Reports are saved on this device only.'
-    }</p>`
+    <p class="rating-note" style="margin:8px 0 0">Reports are shared with all visitors. Three “fixed” confirmations hide a report.</p>`
 
   el.querySelector('#report-cta')?.addEventListener('click', () => enterReportMode())
   el.querySelectorAll<HTMLButtonElement>('[data-act]').forEach((btn) => {

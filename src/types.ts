@@ -39,6 +39,26 @@ export interface RoadDetail {
   timeline?: { year: string; event: string }[]
   history?: string
   facts?: string[]
+  significance?: string
+  engineering?: { name: string; note?: string }[]
+  interchanges?: { name: string; note?: string }[]
+  relatedRoads?: { id: string; label?: string }[]
+  travelNotes?: string
+  futureUpgrades?: string[]
+  newsQuery?: string
+}
+
+export interface NewsItem {
+  title: string
+  url: string
+  source: string
+  date: string | null
+}
+
+export interface NewsSnapshot {
+  generated: string
+  query: string
+  items: NewsItem[]
 }
 
 export interface RoadIndex {
@@ -92,7 +112,6 @@ export interface RatingSummary {
 }
 
 export interface UserStore {
-  readonly mode: 'local' | 'cloud'
   readonly uid: string
   addReport(r: {
     roadId: string

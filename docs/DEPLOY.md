@@ -8,8 +8,9 @@ In every case:
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
 - **Node version:** 24 (set `NODE_VERSION=24` env var where relevant)
-- **If using Firestore:** add a `VITE_FIREBASE_CONFIG` environment variable in the
-  host dashboard (marked secret) — never commit the config to the repo. See
+- **Firestore (required for reports & ratings):** add a `VITE_FIREBASE_CONFIG`
+  environment variable in the host dashboard (marked secret) — never commit the
+  config to the repo. Without it those sections show "unavailable". See
   [docs/FIREBASE.md](FIREBASE.md) §5.
 
 Every road already has a real page at `dist/road/<id>/index.html`, so deep links

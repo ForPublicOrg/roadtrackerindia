@@ -18,10 +18,10 @@ the camera flies to it, the route draws itself, and an encyclopedia panel slides
 - 🕳 **Community reports** — anyone can pin potholes / damaged stretches / waterlogging
   on a road and remove their own pins; others confirm "fixed" (3 confirmations hide a report)
 - ⭐ **Road ratings** — 1–5 stars per road with community averages
-- ☁️ **Firestore or device-local** — reports & ratings use Cloud Firestore (free tier,
-  anonymous auth) when a `VITE_FIREBASE_CONFIG` env var is set at build time (or a
-  gitignored `public/firebase-config.json` exists for local testing); otherwise they fall
-  back to device-local storage automatically. See [docs/FIREBASE.md](docs/FIREBASE.md)
+- ☁️ **Firestore-backed** — reports & ratings live in Cloud Firestore (free tier,
+  anonymous auth), configured via a `VITE_FIREBASE_CONFIG` env var at build time (or a
+  gitignored `public/firebase-config.json` for local dev). Without a working config the
+  community sections show an "unavailable" state. See [docs/FIREBASE.md](docs/FIREBASE.md)
 - 🌗 **Light & dark map styles** with a toggle (dark style is derived programmatically)
 - 🔗 **SEO & deep links** — every road gets a real static page at `/road/<id>` with its
   own meta tags + JSON-LD, plus sitemap.xml
