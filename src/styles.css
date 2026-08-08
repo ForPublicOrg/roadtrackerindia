@@ -229,8 +229,11 @@ a { color: var(--accent); }
 .sr-badge.cat-district, .rd-ref.cat-district { background: color-mix(in srgb, var(--c-district) 16%, var(--surface)); color: var(--c-district-deep); }
 .sr-badge.cat-local, .rd-ref.cat-local { background: color-mix(in srgb, var(--c-local) 18%, var(--surface)); color: var(--c-local-deep); }
 .sr-main { min-width: 0; flex: 1; }
-.sr-title { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sr-sub { font-size: 12.5px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* Both must be blocks. text-overflow is ignored on an inline box, so as inlines
+   these spilled straight out of .sr-main and were sheared off mid-word by the
+   list's own clip — a long road name lost its tail with no ellipsis to show it. */
+.sr-title { display: block; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sr-sub { display: block; font-size: 12.5px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* topbar actions */
 .topbar-actions { display: flex; gap: 8px; }
@@ -354,6 +357,15 @@ a { color: var(--accent); }
   .chip-btn span { display: none; }
   .chip-btn { width: 48px; padding: 0; }
   .search-kbd { display: none; }
+  /* No "/" hint here, so stop reserving 44px of a ~160px field for it. */
+  .search input { padding-right: 14px; }
+  /* The brand and the two buttons leave the input under half the bar, which is
+     too narrow for a road name. Pin the suggestions to the bar's own edges. */
+  #search-list {
+    position: fixed;
+    left: 12px; right: 12px;
+    top: calc(max(10px, env(safe-area-inset-top)) + var(--topbar-h) + 8px);
+  }
   .fab-label { display: none; }
   .fab { width: 52px; padding: 0; justify-content: center; }
   .legend { max-width: 170px; }

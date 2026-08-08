@@ -49,6 +49,7 @@ export function initSearch(cb: {
   const input = document.getElementById('search-input') as HTMLInputElement
   const list = document.getElementById('search-list')!
 
+  usePlaceholderThatFits(input)
   input.addEventListener('input', () => update(input.value))
   input.addEventListener('focus', () => update(input.value))
   input.addEventListener('blur', () => setTimeout(hide, 150))
@@ -91,6 +92,23 @@ export function initSearch(cb: {
     input.focus()
     update(q)
   }
+}
+
+/**
+ * A phone header spends most of its width on the brand and the two buttons,
+ * leaving the field ~105px of text at 360px against the 256px the full hint
+ * needs. Swap in the short one rather than render "Search a r". The query must
+ * track the .search rules in styles.css.
+ */
+function usePlaceholderThatFits(input: HTMLInputElement): void {
+  const wide = input.placeholder
+  const narrow = input.dataset.placeholderNarrow ?? wide
+  const phone = window.matchMedia('(max-width: 768px)')
+  const apply = () => {
+    input.placeholder = phone.matches ? narrow : wide
+  }
+  apply()
+  phone.addEventListener('change', apply)
 }
 
 function update(raw: string): void {
