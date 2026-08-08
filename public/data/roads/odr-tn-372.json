@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kanchipuram, Tamil Nadu",
     "end": "Thakkolam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Thakkolam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-58", "label": "Met near Kanchipuram" },
+    { "id": "odr-tn-5413", "label": "Met near Kanchipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanchipuram",
@@ -30,12 +42,6 @@
         79.69623,
         12.92514
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 61.1,
+  "authority": "assam-pwd",
   "route": {
     "start": "Bohori, Assam",
     "end": "Hajo, Assam",
@@ -18,6 +19,16 @@
       "Hajo"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-427", "label": "Met near Hajo" },
+    { "id": "sh-as-9a", "label": "Met near Sarthebari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bohori",
@@ -46,12 +57,6 @@
         91.51233,
         26.27394
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

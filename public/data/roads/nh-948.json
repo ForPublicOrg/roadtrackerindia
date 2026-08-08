@@ -24,6 +24,23 @@
       "Anjanapura"
     ]
   },
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Harohalli" },
+    { "id": "nice-road", "label": "Met near Anjanapura" },
+    { "id": "nh-150a", "label": "Met near Chamarajanagara" },
+    { "id": "nh-83", "label": "Met near Madukkarai" },
+    { "id": "nh-544", "label": "Met near Madukkarai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Madukkarai",
@@ -122,16 +139,6 @@
         77.528,
         12.85835
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 147.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Rajkot, Gujarat",
     "end": "Khambhaliya, Gujarat",
@@ -18,6 +19,19 @@
       "Khambhaliya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-151a", "label": "Met near Khambhaliya" },
+    { "id": "nh-151k", "label": "Met near Kalavad" },
+    { "id": "nh-927d", "label": "Met near Kalavad" },
+    { "id": "sh-gj-26", "label": "Met near Kalavad" },
+    { "id": "sh-gj-94", "label": "Met near Kalavad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajkot",
@@ -46,12 +60,6 @@
         69.67419,
         22.22154
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

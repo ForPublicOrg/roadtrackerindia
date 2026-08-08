@@ -16,6 +16,23 @@
       "Naldurg"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Meets this road" },
+    { "id": "nh-52", "label": "Met near Ramlal Nagar" },
+    { "id": "nh-65", "label": "Met near Mohol" },
+    { "id": "nh-166", "label": "Meets this road" },
+    { "id": "nh-150", "label": "Met near Akkalkot" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mohol",
@@ -30,16 +47,6 @@
         76.08804,
         17.75929
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

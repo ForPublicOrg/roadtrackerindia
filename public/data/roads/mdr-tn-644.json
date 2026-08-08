@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thuvarankurichchi, Tamil Nadu",
     "end": "Natham, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Natham"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-785", "label": "Met near Natham" },
+    { "id": "sh-tn-284", "label": "Met near Natham" },
+    { "id": "mdr-tn-590", "label": "Met near Natham" },
+    { "id": "mdr-tn-898", "label": "Met near Thuvarankurichchi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thuvarankurichchi",
@@ -30,12 +44,6 @@
         78.2693,
         10.2896
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

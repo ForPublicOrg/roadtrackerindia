@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Khunti, Jharkhand",
     "end": "Murhu, Jharkhand",
@@ -16,6 +17,18 @@
       "Murhu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-143ag", "label": "Met near Khunti" },
+    { "id": "nh-143d", "label": "Met near Khunti" },
+    { "id": "mdr-jh-1", "label": "Met near Khunti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khunti",
@@ -30,12 +43,6 @@
         85.24836,
         23.0581
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

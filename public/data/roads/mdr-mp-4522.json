@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Lasudia Mori, Madhya Pradesh",
     "end": "Bagli, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Bagli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Meets this road" },
+    { "id": "mdr-mp-4521", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lasudia Mori",
@@ -30,12 +42,6 @@
         76.12224,
         22.64065
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

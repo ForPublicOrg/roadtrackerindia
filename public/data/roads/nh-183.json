@@ -23,6 +23,23 @@
       "Begambur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Dindigul" },
+    { "id": "nh-66", "label": "Met near Kollam" },
+    { "id": "nh-85", "label": "Met near Min Arasu Nagar" },
+    { "id": "nh-744", "label": "Met near Kundara" },
+    { "id": "nh-183a", "label": "Met near Karunagapally" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottayam",
@@ -142,16 +159,6 @@
         77.95075,
         10.34751
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

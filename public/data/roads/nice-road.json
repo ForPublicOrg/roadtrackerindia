@@ -8,15 +8,19 @@
   "lengthKm": 50,
   "lanes": "4 lanes, divided, tolled",
   "agency": "Nandi Infrastructure Corridor Enterprises (NICE)",
+  "authority": "nice",
   "operatedBy": [
     { "org": "nice" }
   ],
-  "newsQuery": "\"NICE Road\" Bengaluru",
   "route": {
     "start": "Tumakuru Road (NH 48), Madavara, Bengaluru",
     "end": "Hosur Road (NH 44), Electronic City, Bengaluru",
     "states": ["Karnataka"],
     "majorCities": ["Madavara", "Kengeri", "Gottigere", "Electronic City"]
+  },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled — this is a privately built and privately operated road, not a government one."
   },
   "timeline": [
     { "year": "1997", "event": "Karnataka government signs the framework agreement for the BMIC project" },
@@ -47,10 +51,20 @@
   "relatedRoads": [
     { "id": "nh-48", "label": "Joined at the Tumakuru Road end, heading to Mumbai" },
     { "id": "nh-44", "label": "Joined at the Hosur Road end, heading south to Salem" },
-    { "id": "bangalore-mysore-expressway", "label": "The NHAI-built expressway to Mysuru that replaced the private one NICE never finished" },
-    { "id": "bengaluru-satellite-town-ring-road", "label": "A much larger ring further out, meant to take the long-distance traffic NICE Road cannot" }
+    {
+      "id": "bangalore-mysore-expressway",
+      "label": "The NHAI-built expressway to Mysuru that replaced the private one NICE never finished"
+    },
+    {
+      "id": "bengaluru-satellite-town-ring-road",
+      "label": "A much larger ring further out, meant to take the long-distance traffic NICE Road cannot"
+    },
+    { "id": "electronic-city-elevated-expressway", "label": "Met near Electronic City" },
+    { "id": "nh-75", "label": "Met near Madhavara" },
+    { "id": "nh-275", "label": "Met near Challaghatta" }
   ],
   "travelNotes": "End to end takes about 45 minutes to an hour, against two hours or more through the city, which is why it is worth the toll. You pay at the plaza where you join, and the price depends on how far you go. There are almost no fuel pumps or food stops on the road itself, so fill the tank before getting on. It is quiet at night but poorly lit in places, and speeding is common, so keep a safe distance.",
+  "newsQuery": "\"NICE Road\" Bengaluru",
   "sources": [
     { "title": "Government of Karnataka", "url": "https://karnataka.gov.in/" }
   ],

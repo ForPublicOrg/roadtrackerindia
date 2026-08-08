@@ -19,6 +19,21 @@
       "Panisagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Aizawl" },
+    { "id": "nh-8", "label": "Met near Panisagar" },
+    { "id": "mdr-as-7", "label": "Met near Panisagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aizawl",
@@ -54,16 +69,6 @@
         92.15216,
         24.26521
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

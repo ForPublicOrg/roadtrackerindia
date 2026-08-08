@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 83.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sanganer, Rajasthan",
     "end": "Deoli, Rajasthan",
@@ -17,6 +18,20 @@
       "Deoli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148d", "label": "Met near Jahazpur" },
+    { "id": "nh-758", "label": "Met near Bhilwara" },
+    { "id": "sh-rj-26", "label": "Met near Deoli" },
+    { "id": "sh-rj-39a", "label": "Met near Kotri" },
+    { "id": "mdr-rj-154", "label": "Met near Deoli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sanganer",
@@ -38,12 +53,6 @@
         75.21678,
         25.76562
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

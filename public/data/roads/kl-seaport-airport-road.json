@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalamassery, Kerala",
     "end": "Irumpanam, Kerala",
@@ -18,6 +19,20 @@
       "Irumpanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Thrippunithura" },
+    { "id": "sh-kl-41", "label": "Met near Kakkanad" },
+    { "id": "kl-edappally-muvattupuzha-road", "label": "Met near Kalamassery" },
+    { "id": "kl-hmt-road", "label": "Met near Kalamassery" },
+    { "id": "kl-chithrappuzha-road", "label": "Met near Thrippunithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalamassery",
@@ -67,12 +82,6 @@
         76.35828,
         9.95891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

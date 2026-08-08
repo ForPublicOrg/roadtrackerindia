@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.1,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Palanpur, Gujarat",
     "end": "Kheralu, Gujarat",
@@ -16,6 +17,17 @@
       "Kheralu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Palanpur" },
+    { "id": "sh-gj-56", "label": "Met near Kheralu" },
+    { "id": "sh-gj-712", "label": "Met near Palanpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palanpur",
@@ -30,12 +42,6 @@
         72.61907,
         23.88825
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

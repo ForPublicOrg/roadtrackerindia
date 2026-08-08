@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Haripad, Kerala",
     "end": "Nangiarkulangara, Kerala",
@@ -16,6 +17,18 @@
       "Nangiarkulangara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Haripad" },
+    { "id": "kl-thottappally-thrikkunnapuzha-road", "label": "Met near Haripad" },
+    { "id": "kl-karuvatta-kumarakody-road", "label": "Met near Haripad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Haripad",
@@ -30,12 +43,6 @@
         76.43425,
         9.29502
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khimlasa, Madhya Pradesh",
     "end": "Khurai, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Khurai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "mdr-mp-1907", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khimlasa",
@@ -30,12 +42,6 @@
         78.57608,
         24.22408
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

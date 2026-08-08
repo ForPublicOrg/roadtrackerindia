@@ -8,14 +8,14 @@
   "lanes": "6 lanes, access-controlled",
   "agency": "MSRDC (Maharashtra State Road Development Corporation)",
   "authority": "msrdc",
-  "cost": "₹42,711 crore (approx., including land)",
-  "contractor": "Built in twelve packages; the winning bidders include Megha Engineering (MEIL), Navayuga, GR Infraprojects and PNC Infratech",
   "builtBy": [
     { "org": "meil", "note": "one of twelve packages" },
     { "org": "navayuga", "note": "one of twelve packages" },
     { "org": "gr-infraprojects", "note": "one of twelve packages" },
     { "org": "pnc-infratech", "note": "one of twelve packages" }
   ],
+  "cost": "₹42,711 crore (approx., including land)",
+  "contractor": "Built in twelve packages; the winning bidders include Megha Engineering (MEIL), Navayuga, GR Infraprojects and PNC Infratech",
   "route": {
     "start": "Urse (Mumbai–Pune Expressway junction), Pune district, Maharashtra",
     "end": "Urse (the ring closes back on itself), Pune district, Maharashtra",
@@ -51,7 +51,10 @@
   "relatedRoads": [
     { "id": "mumbai-pune-expressway", "label": "Meets the ring at Urse, its busiest connection" },
     { "id": "nh-48", "label": "The Pune–Satara–Bengaluru highway, met at Khed Shivapur" },
-    { "id": "nh-65", "label": "The Pune–Solapur–Hyderabad highway, met on the eastern side" }
+    { "id": "nh-65", "label": "The Pune–Solapur–Hyderabad highway, met on the eastern side" },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Bhor" },
+    { "id": "nh-753f", "label": "Met near Paud" },
+    { "id": "nh-60", "label": "Met near Pimpri-Chinchwad" }
   ],
   "travelNotes": "Nothing is open to traffic yet — as of 2026 the whole ring is a construction site, with earthmoving and tunnelling under way and diversions on the local roads it crosses. Until it opens, through-traffic still has to use the old Pune bypass and the city's inner roads, which are slow all day and worst on Friday and Sunday evenings.",
   "futureUpgrades": [

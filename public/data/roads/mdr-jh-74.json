@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bagodar, Jharkhand",
     "end": "Kathara, Jharkhand",
@@ -16,6 +17,19 @@
       "Kathara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-522", "label": "Met near Bagodar" },
+    { "id": "mdr-jh-93", "label": "Met near Bagodar" },
+    { "id": "mdr-jh-78", "label": "Met near Kathara" },
+    { "id": "mdr-jh-75", "label": "Met near Kathara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bagodar",
@@ -30,12 +44,6 @@
         85.82736,
         23.86356
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

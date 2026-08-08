@@ -1,10 +1,11 @@
 {
   "id": "nh-55",
   "ref": "NH 55",
-  "name": "Choudwar–Sambalpur National Highway",
+  "name": "Cuttack–Sambalpur Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 340.2,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Choudwar, Odisha",
     "end": "Sambalpur, Odisha",
@@ -20,6 +21,32 @@
       "Sambalpur"
     ]
   },
+  "history": "National Highway 55 runs west from Cuttack through Dhenkanal and Angul to Sambalpur, straight through the industrial heart of Odisha. Angul is aluminium and power country — the NALCO smelter and the Talcher coalfields are both on this road — and Sambalpur sits beside the Hirakud dam on the Mahanadi. It is one of the busiest freight roads in the state.",
+  "facts": [
+    "Runs through Angul and Talcher, Odisha's coal, power and aluminium belt.",
+    "Sambalpur, at its western end, sits beside the Hirakud dam, one of the longest earthen dams in the world.",
+    "It carries a very heavy load of coal and aluminium lorries.",
+    "Cuttack, at the eastern end, was the capital of Odisha until 1948."
+  ],
+  "significance": "Odisha's minerals leave the interior on roads like this one. It joins the coalfields and smelters of Angul to the coastal cities and ports.",
+  "relatedRoads": [
+    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway met at Cuttack" },
+    { "id": "nh-53", "label": "The east–west highway crossing Odisha towards Paradip" },
+    { "id": "nh-316a", "label": "Met near Cuttack" },
+    { "id": "nh-655", "label": "Met near Khuntuni" },
+    { "id": "nh-149", "label": "Met near Biswanathpur" }
+  ],
+  "travelNotes": "Constant heavy truck traffic, especially between Talcher and Cuttack. Overtaking is slow and the road surface takes a beating from coal lorries.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Choudwar",
@@ -83,16 +110,6 @@
         84.01353,
         21.45172
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 57.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nilambur, Kerala",
     "end": "Valanchery, Kerala",
@@ -19,6 +20,19 @@
       "Valanchery"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Valanchery" },
+    { "id": "nh-966", "label": "Met near Perinthalmanna" },
+    { "id": "sh-kl-39", "label": "Met near Perinthalmanna" },
+    { "id": "sh-kl-28", "label": "Met near Nilambur" },
+    { "id": "sh-kl-60", "label": "Met near Perinthalmanna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nilambur",
@@ -61,12 +75,6 @@
         76.07323,
         10.88776
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

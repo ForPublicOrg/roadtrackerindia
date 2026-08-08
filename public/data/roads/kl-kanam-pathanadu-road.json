@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vazhoor, Kerala",
     "end": "Manimala, Kerala",
@@ -16,6 +17,19 @@
       "Manimala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kanjirappara-konnakkal-idayarickappuzha-road", "label": "Met near Vazhoor" },
+    { "id": "kl-kanam-chamampathal-road", "label": "Met near Vazhoor" },
+    { "id": "kl-kanam-kappukadu-road", "label": "Met near Vazhoor" },
+    { "id": "kl-kanjirappara-kanam-road", "label": "Met near Vazhoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vazhoor",
@@ -30,12 +44,6 @@
         76.70059,
         9.52714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

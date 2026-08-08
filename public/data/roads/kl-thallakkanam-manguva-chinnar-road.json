@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Murickassery, Kerala",
     "end": "Cheruthoni, Kerala",
@@ -16,6 +17,16 @@
       "Cheruthoni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-185", "label": "Met near Murickassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Murickassery",
@@ -30,12 +41,6 @@
         77.01345,
         9.92416
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

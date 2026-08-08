@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Komarapalayam, Tamil Nadu",
     "end": "Bhavani, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Bhavani"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Komarapalayam" },
+    { "id": "nh-544h", "label": "Met near Bhavani" },
+    { "id": "sh-tn-198", "label": "Met near Komarapalayam" },
+    { "id": "sh-tn-221", "label": "Met near Komarapalayam" },
+    { "id": "mdr-tn-726", "label": "Met near Komarapalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Komarapalayam",
@@ -30,12 +44,6 @@
         77.68461,
         11.44122
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

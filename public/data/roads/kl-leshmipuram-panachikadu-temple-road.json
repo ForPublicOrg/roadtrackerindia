@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chingavanam, Kerala",
     "end": "Nattakom, Kerala",
@@ -17,6 +18,20 @@
       "Nattakom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Chingavanam" },
+    { "id": "mc-road", "label": "Met near Chingavanam" },
+    { "id": "sh-kl-1", "label": "Met near Chingavanam" },
+    { "id": "kl-pallom-thottakkad-road", "label": "Met near Chingavanam" },
+    { "id": "kl-pallom-loop-road", "label": "Met near Chingavanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chingavanam",
@@ -45,12 +60,6 @@
         76.52157,
         9.5211
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

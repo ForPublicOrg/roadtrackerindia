@@ -18,6 +18,23 @@
       "Bara Haflong"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Haflong" },
+    { "id": "sh-as-17", "label": "Met near Hamren" },
+    { "id": "sh-as-16", "label": "Met near Lanka" },
+    { "id": "sh-as-20", "label": "Met near Haflong" },
+    { "id": "sh-as-18", "label": "Met near Hamren" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Marigaon",
@@ -53,16 +70,6 @@
         93.02516,
         25.1265
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

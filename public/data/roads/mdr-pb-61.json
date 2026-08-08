@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 75.2,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Attari, Punjab",
     "end": "Goindval, Punjab",
@@ -17,6 +18,18 @@
       "Goindval"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Attari" },
+    { "id": "nh-354", "label": "Met near Tarn Taran Sahib" },
+    { "id": "nh-703aa", "label": "Met near Tarn Taran Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attari",
@@ -45,12 +58,6 @@
         75.13458,
         31.36594
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

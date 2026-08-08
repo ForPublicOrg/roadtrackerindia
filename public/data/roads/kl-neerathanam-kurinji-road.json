@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koothattukulam, Kerala",
     "end": "Muttam, Kerala",
@@ -16,6 +17,17 @@
       "Muttam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-ramapuram-kadampanattuvathil-kizhithiri-road", "label": "Met near Koothattukulam" },
+    { "id": "kl-ramapuram-kurinji-road", "label": "Met near Muttam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothattukulam",
@@ -30,12 +42,6 @@
         76.66969,
         9.82312
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

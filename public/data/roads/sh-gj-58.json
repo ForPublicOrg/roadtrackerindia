@@ -18,6 +18,20 @@
       "Jhalod"
     ]
   },
+  "significance": "SH 58, Alirajpur–Jhalod State Highway, crosses the border between Madhya Pradesh and Gujarat. A state road that runs through more than one state has no single owner — MP PWD and Gujarat R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Dahod" },
+    { "id": "nh-56", "label": "Met near Dahod" },
+    { "id": "nh-147d", "label": "Met near Jhalod" },
+    { "id": "sh-mp-36", "label": "Meets this road" },
+    { "id": "sh-gj-150", "label": "Met near Dahod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alirajpur",
@@ -39,12 +53,6 @@
         74.15683,
         23.09844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

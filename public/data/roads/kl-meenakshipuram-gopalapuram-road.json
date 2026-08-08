@@ -17,6 +17,21 @@
       "Kozhinjampara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Meenakshipuram - Gopalapuram Road, crosses the border between Tamil Nadu and Kerala. A state road that runs through more than one state has no single owner — TN Highways and Kerala PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-tn-19", "label": "Met near Anaimalai" },
+    { "id": "sh-kl-27", "label": "Met near Anaimalai" },
+    { "id": "sh-kl-52", "label": "Met near Kozhinjampara" },
+    { "id": "sh-tn-78a", "label": "Met near Kozhinjampara" },
+    { "id": "kl-ancham-mile-moolakada-nanjamthavalam-road", "label": "Met near Kozhinjampara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anaimalai",
@@ -31,12 +46,6 @@
         76.87081,
         10.69312
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.2,
+  "authority": "assam-pwd",
   "route": {
     "start": "CHANDAN NAGAR, Assam",
     "end": "Dohabora Chuk, Assam",
@@ -18,6 +19,19 @@
       "Dohabora Chuk"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-as-7", "label": "Met near Titabor" },
+    { "id": "sh-as-1", "label": "Met near Titabor" },
+    { "id": "sh-as-33", "label": "Met near Merapani" },
+    { "id": "sh-as-14", "label": "Met near Golaghat" },
+    { "id": "sh-as-34", "label": "Met near Golaghat" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "CHANDAN NAGAR",
@@ -39,12 +53,6 @@
         94.21198,
         26.75267
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

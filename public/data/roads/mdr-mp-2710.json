@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dewas, Madhya Pradesh",
     "end": "Hatpipliya, Madhya Pradesh",
@@ -16,6 +17,13 @@
       "Hatpipliya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dewas",
@@ -30,12 +38,6 @@
         76.24561,
         22.98266
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

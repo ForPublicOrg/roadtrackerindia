@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mechal, Kerala",
     "end": "Muttam, Kerala",
@@ -16,6 +17,18 @@
       "Muttam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-33", "label": "Met near Mechal" },
+    { "id": "kl-velliyamattom-arakkulam-road", "label": "Met near Muttam" },
+    { "id": "kl-kanjar-karukappilly-road", "label": "Met near Muttam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mechal",
@@ -30,12 +43,6 @@
         76.81698,
         9.84139
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

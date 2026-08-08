@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 83.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Barwani, Madhya Pradesh",
     "end": "Alirajpur, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Alirajpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-56", "label": "Met near Alirajpur" },
+    { "id": "nh-347b", "label": "Met near Barwani" },
+    { "id": "sh-mp-65", "label": "Met near Kukshi" },
+    { "id": "sh-mp-39", "label": "Met near Barwani" },
+    { "id": "sh-mp-39a", "label": "Met near Barwani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barwani",
@@ -38,12 +52,6 @@
         74.3606,
         22.30526
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,18 @@
       "Mandsaur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 2210, Jiran–Mandsaur District road, crosses the border between Rajasthan and Madhya Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-156", "label": "Met near Mandsaur" },
+    { "id": "mdr-rj-215", "label": "Met near Jiran" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jiran",
@@ -31,12 +43,6 @@
         75.00874,
         24.17803
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

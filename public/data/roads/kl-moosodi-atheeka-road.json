@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manjeshwar, Kerala",
     "end": "Uppala, Kerala",
@@ -16,6 +17,17 @@
       "Uppala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Uppala" },
+    { "id": "kl-hidayath-nagar-pachilampara-uppala-bhagavathi-temple-road", "label": "Met near Uppala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeshwar",
@@ -30,12 +42,6 @@
         74.89875,
         12.6888
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

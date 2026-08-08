@@ -19,6 +19,22 @@
       "Jogibera"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-143", "label": "Met near Rourkela" },
+    { "id": "nh-320g", "label": "Meets this road" },
+    { "id": "sh-or-10", "label": "Met near Rourkela" },
+    { "id": "mdr-jh-190", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhend",
@@ -40,16 +56,6 @@
         85.61398,
         22.68128
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

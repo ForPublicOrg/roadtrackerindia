@@ -23,6 +23,22 @@
       "Shaktinagara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-150c", "label": "A branch off this highway, running Akkalkot to Kallur" },
+    { "id": "surat-chennai-expressway", "label": "Met near Akkalkot" },
+    { "id": "nh-65", "label": "Met near Solapur" },
+    { "id": "nh-50", "label": "Met near Kalaburagi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Solapur",
@@ -93,16 +109,6 @@
         77.3655,
         16.40067
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

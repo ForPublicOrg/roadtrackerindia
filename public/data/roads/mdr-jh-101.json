@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chitarpur, Jharkhand",
     "end": "Peterwar, Jharkhand",
@@ -16,6 +17,20 @@
       "Peterwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-320", "label": "Met near Chitarpur" },
+    { "id": "nh-320b", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-24", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-105", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-102", "label": "Met near Chitarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chitarpur",
@@ -30,12 +45,6 @@
         85.72234,
         23.53501
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

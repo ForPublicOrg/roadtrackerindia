@@ -19,6 +19,23 @@
       "Nagrota Bagwan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Nadaun" },
+    { "id": "nh-154", "label": "Met near Nagrota Bagwan" },
+    { "id": "nh-503", "label": "Met near Bagalamukhi" },
+    { "id": "sh-hp-22", "label": "Met near Jwalamukhi" },
+    { "id": "sh-hp-23", "label": "Met near Bagalamukhi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadaun",
@@ -61,16 +78,6 @@
         76.34887,
         32.09199
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

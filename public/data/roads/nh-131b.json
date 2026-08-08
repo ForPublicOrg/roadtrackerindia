@@ -17,6 +17,21 @@
       "Naugachia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Naugachia" },
+    { "id": "nh-33", "label": "Met near Bhagalpur" },
+    { "id": "sh-br-58", "label": "Met near Naugachia" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kuppaghat",
@@ -31,16 +46,6 @@
         87.06329,
         25.37751
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

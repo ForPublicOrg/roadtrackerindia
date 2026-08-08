@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gadarwara, Madhya Pradesh",
     "end": "Barman, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Barman"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Barman" },
+    { "id": "sh-mp-67", "label": "Met near Gadarwara" },
+    { "id": "mdr-mp-3811", "label": "Met near Barman" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadarwara",
@@ -30,12 +43,6 @@
         79.0181,
         22.9782
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

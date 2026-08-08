@@ -18,6 +18,26 @@
       "Puranpur"
     ]
   },
+  "significance": "NH 730A is a branch of NH 730. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Misrikh to Puranpur, and it meets NH 730 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-730",
+      "label": "NH 730 — the highway this branch takes its number from, running Pilibhit to Tamkuhi Raj"
+    },
+    { "id": "nh-30", "label": "Meets this road" },
+    { "id": "nh-731", "label": "Met near Powayan" },
+    { "id": "sh-up-93", "label": "Met near Powayan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Misrikh",
@@ -46,16 +66,6 @@
         80.1405,
         28.50471
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

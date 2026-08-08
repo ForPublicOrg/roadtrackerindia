@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallivasal, Tamil Nadu",
     "end": "Tirumangalam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Tirumangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "madurai-ring-road", "label": "Met near Pallivasal" },
+    { "id": "sh-tn-32", "label": "Met near Pallivasal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallivasal",
@@ -30,12 +42,6 @@
         77.99752,
         9.82112
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

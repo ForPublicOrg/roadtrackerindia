@@ -18,6 +18,20 @@
       "Kawardha"
     ]
   },
+  "significance": "SH 47, Balaghat–Kawardha State Highway, crosses the border between Madhya Pradesh and Chhattisgarh. A state road that runs through more than one state has no single owner — MP PWD and Chhattisgarh PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Meets this road" },
+    { "id": "nh-543", "label": "Met near Balaghat" },
+    { "id": "nh-543k", "label": "Met near Balaghat" },
+    { "id": "sh-mp-48", "label": "Met near Baihar" },
+    { "id": "sh-mp-72", "label": "Met near Balaghat" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balaghat",
@@ -39,12 +53,6 @@
         81.05911,
         22.16558
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

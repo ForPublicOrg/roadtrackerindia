@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 33.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Seoni Malwa, Madhya Pradesh",
     "end": "Timarni, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Timarni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Seoni Malwa" },
+    { "id": "mdr-mp-3323", "label": "Met near Seoni Malwa" },
+    { "id": "mdr-mp-3324", "label": "Met near Seoni Malwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seoni Malwa",
@@ -30,12 +43,6 @@
         77.34648,
         22.41351
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

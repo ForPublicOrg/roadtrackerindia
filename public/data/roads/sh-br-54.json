@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 124,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Sheohar, Bihar",
     "end": "Bettiah, Bihar",
@@ -18,6 +19,19 @@
       "Bettiah"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-227", "label": "Met near Sheohar" },
+    { "id": "nh-727", "label": "Met near Bettiah" },
+    { "id": "nh-139w", "label": "Meets this road" },
+    { "id": "nh-527d", "label": "Met near Motihari" },
+    { "id": "nh-227f", "label": "Met near Dhaka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sheohar",
@@ -46,12 +60,6 @@
         84.50372,
         26.80015
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

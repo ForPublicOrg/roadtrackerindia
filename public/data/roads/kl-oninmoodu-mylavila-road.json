@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalluvathukkal, Kerala",
     "end": "Chavarcode, Kerala",
@@ -17,6 +18,16 @@
       "Chavarcode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-paravur-bhoothakulom-paripallly-road", "label": "Met near Paripally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalluvathukkal",
@@ -31,12 +42,6 @@
         76.73857,
         8.79767
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

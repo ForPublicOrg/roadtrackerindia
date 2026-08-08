@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Sarwan, Jharkhand",
     "end": "Jarmundi, Jharkhand",
@@ -16,6 +17,19 @@
       "Jarmundi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Sarwan" },
+    { "id": "sh-jh-14", "label": "Met near Sarwan" },
+    { "id": "sh-jh-15", "label": "Met near Jarmundi" },
+    { "id": "mdr-jh-224", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarwan",
@@ -30,12 +44,6 @@
         87.01187,
         24.23931
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -21,6 +21,23 @@
       "Soppinahatti"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Sira" },
+    { "id": "nh-44", "label": "Met near Chilamathur" },
+    { "id": "nh-69", "label": "Met near Sira" },
+    { "id": "nh-716g", "label": "Met near Hindupur" },
+    { "id": "sh-ka-3", "label": "Met near Madakasira" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chilamathur",
@@ -70,16 +87,6 @@
         76.89753,
         13.74583
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

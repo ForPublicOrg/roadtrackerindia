@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Himatnagar, Gujarat",
     "end": "Ambaji, Gujarat",
@@ -16,6 +17,19 @@
       "Ambaji"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Himatnagar" },
+    { "id": "nh-58", "label": "Met near Vadali" },
+    { "id": "nh-168g", "label": "Met near Idar" },
+    { "id": "sh-gj-10", "label": "Met near Idar" },
+    { "id": "sh-gj-54", "label": "Met near Ambaji" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Himatnagar",
@@ -30,12 +44,6 @@
         72.85092,
         24.3309
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

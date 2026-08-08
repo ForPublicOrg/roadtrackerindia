@@ -23,6 +23,23 @@
       "Bolla Palle"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Chilamathur" },
+    { "id": "nh-16", "label": "Met near Janakavaram panguluru" },
+    { "id": "nh-67", "label": "Met near Chapadu" },
+    { "id": "nh-565", "label": "Met near Kanigiri" },
+    { "id": "nh-40", "label": "Met near Mydukuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chilamathur",
@@ -121,16 +138,6 @@
         80.04786,
         15.83486
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

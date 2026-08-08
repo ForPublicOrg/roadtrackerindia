@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.7,
+  "authority": "himachal-pradesh-pwd",
   "route": {
     "start": "Nurpur, Himachal Pradesh",
     "end": "Bakloh, Himachal Pradesh",
@@ -16,6 +17,17 @@
       "Bakloh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-154", "label": "Met near Nurpur" },
+    { "id": "nh-154a", "label": "Met near Bakloh" },
+    { "id": "sh-hp-43", "label": "Met near Chowari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nurpur",
@@ -30,12 +42,6 @@
         75.9257,
         32.46119
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

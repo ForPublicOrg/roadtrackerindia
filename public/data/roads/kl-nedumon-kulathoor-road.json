@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manimala, Kerala",
     "end": "Karukachal, Kerala",
@@ -16,6 +17,17 @@
       "Karukachal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-karukachal-manimala-road", "label": "Met near Karukachal" },
+    { "id": "kl-punnaveli-kulathoor-road", "label": "Met near Manimala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manimala",
@@ -30,12 +42,6 @@
         76.68248,
         9.50353
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

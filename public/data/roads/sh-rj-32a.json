@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 99.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Rishabdeo, Rajasthan",
     "end": "Udaipur, Rajasthan",
@@ -17,6 +18,17 @@
       "Udaipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Rishabdeo" },
+    { "id": "udaipur-bypass", "label": "Met near Udaipur" },
+    { "id": "sh-rj-32", "label": "Met near Salumbar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rishabdeo",
@@ -45,12 +57,6 @@
         73.73674,
         24.55857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

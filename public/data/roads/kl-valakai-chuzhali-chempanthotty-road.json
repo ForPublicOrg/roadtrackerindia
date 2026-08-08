@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Sreekandapuram, Kerala",
     "end": "Naduvil, Kerala",
@@ -16,6 +17,19 @@
       "Naduvil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-36", "label": "Met near Sreekandapuram" },
+    { "id": "kl-sreekandapuram-chempanthotty-naduvil-road", "label": "Met near Naduvil" },
+    { "id": "kl-chempanthotty-puranjan-road", "label": "Met near Naduvil" },
+    { "id": "kl-valakai-koyyam-road", "label": "Met near Sreekandapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sreekandapuram",
@@ -30,12 +44,6 @@
         75.4837,
         12.08983
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

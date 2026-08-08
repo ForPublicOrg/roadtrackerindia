@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.5,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Lalganj, Uttar Pradesh",
     "end": "Rajesultanpur, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Rajesultanpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Meets this road" },
+    { "id": "nh-28", "label": "Met near Rajesultanpur" },
+    { "id": "nh-128a", "label": "Met near Lalganj" },
+    { "id": "sh-up-34", "label": "Met near Shahganj" },
+    { "id": "sh-up-158e", "label": "Met near Shahganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalganj",
@@ -30,12 +44,6 @@
         83.00696,
         26.27638
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

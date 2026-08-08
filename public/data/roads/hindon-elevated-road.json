@@ -1,0 +1,73 @@
+{
+  "id": "hindon-elevated-road",
+  "ref": "Hindon Elevated Road",
+  "name": "Hindon Elevated Road",
+  "aka": ["Ghaziabad Elevated Road"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 9.7,
+  "lanes": "6 lanes, fully elevated",
+  "route": {
+    "start": "Khora, Uttar Pradesh",
+    "end": "Ghaziabad, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Khora",
+      "Ghaziabad"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Hindon Elevated Road is a six-lane flyover through Ghaziabad, built along the Hindon river to carry traffic between the Delhi border at Khora and the north of the city without touching the streets below. When it opened it was among the longest elevated roads in the country, and it turned a journey that took the better part of an hour into about ten minutes.",
+  "facts": [
+    "Runs along the Hindon river through Ghaziabad, entirely on an elevated deck.",
+    "Was among the longest elevated roads in India when it opened.",
+    "It cuts a crosstown trip through Ghaziabad from around an hour to roughly ten minutes.",
+    "Built by the Ghaziabad development authority rather than the national highways authority."
+  ],
+  "significance": "Ghaziabad is one of the most densely built cities in the Delhi region and its street network could not be widened. Building above the river was the only way to add a fast road through it.",
+  "relatedRoads": [
+    { "id": "delhi-meerut-expressway", "label": "The expressway through Ghaziabad towards Meerut" },
+    { "id": "eastern-peripheral-expressway", "label": "The orbital expressway east of Delhi" },
+    { "id": "nh-9", "label": "The Delhi–Hapur–Moradabad highway through the same city" }
+  ],
+  "travelNotes": "The quick way across Ghaziabad. Two-wheelers are restricted on parts of the elevated deck.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Khora",
+      "coords": [
+        77.33635,
+        28.63274
+      ]
+    },
+    {
+      "name": "Vaishali",
+      "coords": [
+        77.34729,
+        28.64391
+      ]
+    },
+    {
+      "name": "Vasundhara",
+      "coords": [
+        77.3941,
+        28.66418
+      ]
+    },
+    {
+      "name": "Ghaziabad",
+      "coords": [
+        77.40109,
+        28.67625
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

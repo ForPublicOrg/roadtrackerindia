@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ariyathidal, Tamil Nadu",
     "end": "Matthi, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Matthi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-66", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-695", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-1010", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ariyathidal",
@@ -46,12 +59,6 @@
         79.37957,
         10.94968
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

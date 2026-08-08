@@ -16,6 +16,24 @@
       "Ukhimath"
     ]
   },
+  "significance": "NH 107A is a branch of NH 107. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Gopeshwar to Ukhimath, and it meets NH 107 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-107",
+      "label": "NH 107 — the highway this branch takes its number from, running Rudraprayag to Kedarnath"
+    },
+    { "id": "nh-7", "label": "Met near Gopeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gopeshwar",
@@ -30,16 +48,6 @@
         79.09502,
         30.51959
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

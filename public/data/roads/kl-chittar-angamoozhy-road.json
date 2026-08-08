@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chittar, Kerala",
     "end": "Konni, Kerala",
@@ -16,6 +17,20 @@
       "Konni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183a", "label": "Met near Chittar" },
+    { "id": "kl-vadasserikkara-chittar-road", "label": "Met near Chittar" },
+    { "id": "kl-chittar-pulayanpara-road", "label": "Met near Chittar" },
+    { "id": "kl-thannithodu-chittar-road", "label": "Met near Chittar" },
+    { "id": "kl-seethathodu-valupara-road", "label": "Met near Chittar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chittar",
@@ -30,12 +45,6 @@
         76.93278,
         9.33352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

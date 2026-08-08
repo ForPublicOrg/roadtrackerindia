@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nadapuram, Kerala",
     "end": "Kalleri, Kerala",
@@ -16,6 +17,20 @@
       "Kalleri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-38", "label": "Met near Nadapuram" },
+    { "id": "kl-vadakara-villiyappally-chelakkad-road", "label": "Met near Nadapuram" },
+    { "id": "kl-muttungal-nadapuram-pakramthalam-road", "label": "Met near Nadapuram" },
+    { "id": "kl-kakkamvelli-parkandymukku-arattukulam-road", "label": "Met near Nadapuram" },
+    { "id": "kl-pulikkol-kummankode-road", "label": "Met near Nadapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadapuram",
@@ -30,12 +45,6 @@
         75.6501,
         11.68064
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

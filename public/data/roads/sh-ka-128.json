@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 239.4,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Devadurga, Karnataka",
     "end": "Ballari, Karnataka",
@@ -20,6 +21,19 @@
       "Ballari"
     ]
   },
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Kavitala" },
+    { "id": "nh-67", "label": "Met near Ballari" },
+    { "id": "nh-150a", "label": "Met near Ballari" },
+    { "id": "nh-167", "label": "Met near Ballari" },
+    { "id": "sh-ka-20", "label": "Met near Kavitala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devadurga",
@@ -62,12 +76,6 @@
         76.92073,
         15.14312
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -24,6 +24,23 @@
       "Palia Kalan"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Haidargarh" },
+    { "id": "nh-27", "label": "Met near Ahmamau" },
+    { "id": "nh-30", "label": "Met near Ahmamau" },
+    { "id": "nh-31", "label": "Met near Saidpur" },
+    { "id": "nh-730", "label": "Met near Mailani" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saidpur",
@@ -136,16 +153,6 @@
         80.57878,
         28.42556
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

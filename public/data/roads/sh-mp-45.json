@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 123.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Betul, Madhya Pradesh",
     "end": "Parasia, Madhya Pradesh",
@@ -18,6 +19,17 @@
       "Parasia"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mp-62", "label": "Met near Parasia" },
+    { "id": "sh-mp-41", "label": "Met near Junnardeo" },
+    { "id": "mdr-mp-3502", "label": "Met near Bagdona" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Betul",
@@ -60,12 +72,6 @@
         78.7604,
         22.19187
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

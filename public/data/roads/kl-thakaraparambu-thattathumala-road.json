@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Navaikulam, Kerala",
     "end": "Nilamel, Kerala",
@@ -17,6 +18,17 @@
       "Nilamel"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Nilamel" },
+    { "id": "sh-kl-1", "label": "Met near Nilamel" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Navaikulam",
@@ -38,12 +50,6 @@
         76.87362,
         8.80348
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

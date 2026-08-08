@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anachal, Kerala",
     "end": "Adimali, Kerala",
@@ -16,6 +17,17 @@
       "Adimali"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-44", "label": "Met near Anachal" },
+    { "id": "kl-adimaly-chithirapuram-road-thottapura-vellathooval-road", "label": "Met near Anachal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anachal",
@@ -30,12 +42,6 @@
         77.0181,
         9.9968
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

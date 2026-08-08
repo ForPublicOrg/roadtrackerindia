@@ -18,6 +18,26 @@
       "Sanchore"
     ]
   },
+  "significance": "NH 168A is a branch of NH 168. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Deesa to Sanchore, and it meets NH 168 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-168",
+      "label": "NH 168 — the highway this branch takes its number from, running Tharad to Sirohi"
+    },
+    { "id": "nh-27", "label": "Met near Deesa" },
+    { "id": "nh-754k", "label": "Met near Sanchore" },
+    { "id": "nh-68", "label": "Met near Sanchore" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Deesa",
@@ -39,16 +59,6 @@
         71.775,
         24.72857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

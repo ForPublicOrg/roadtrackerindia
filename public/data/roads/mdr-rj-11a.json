@@ -17,6 +17,21 @@
       "Nimbahera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 11A, Doongla–Nimbahera District road, crosses the border between Rajasthan and Madhya Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-56", "label": "Met near Nimbahera" },
+    { "id": "nh-156", "label": "Met near Nimbahera" },
+    { "id": "sh-rj-15", "label": "Met near Doongla" },
+    { "id": "mdr-rj-20", "label": "Met near Nimbahera" },
+    { "id": "mdr-rj-196", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Doongla",
@@ -31,12 +46,6 @@
         74.68599,
         24.62102
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

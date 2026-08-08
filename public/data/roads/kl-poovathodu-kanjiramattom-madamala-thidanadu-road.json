@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Erattupetta, Kerala",
     "end": "Pala, Kerala",
@@ -16,6 +17,17 @@
       "Pala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-edamattom-thidanadu-road", "label": "Met near Erattupetta" },
+    { "id": "kl-vilakumadom-chathankulam-road", "label": "Met near Erattupetta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erattupetta",
@@ -30,12 +42,6 @@
         76.74298,
         9.68051
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

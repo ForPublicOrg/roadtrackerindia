@@ -16,6 +16,21 @@
       "Petlawad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Jhabua" },
+    { "id": "mdr-mp-4412", "label": "Met near Petlawad" },
+    { "id": "mdr-mp-4408", "label": "Met near Meghnagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhabua",
@@ -30,16 +45,6 @@
         74.8289,
         22.95761
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

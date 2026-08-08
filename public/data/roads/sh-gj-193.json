@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 22.7,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Godhra, Gujarat",
     "end": "Kalol, Gujarat",
@@ -16,6 +17,15 @@
       "Kalol"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-5", "label": "Met near Kalol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Godhra",
@@ -30,12 +40,6 @@
         73.46476,
         22.59446
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

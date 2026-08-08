@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kavanad, Kerala",
     "end": "Kureepuzha, Kerala",
@@ -16,6 +17,16 @@
       "Kureepuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kavanad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kavanad",
@@ -30,12 +41,6 @@
         76.53847,
         8.94221
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

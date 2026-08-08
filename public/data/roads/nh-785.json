@@ -18,6 +18,23 @@
       "Thuvarankurichchi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Thuvarankurichchi" },
+    { "id": "nh-383", "label": "Met near Natham" },
+    { "id": "nh-744a", "label": "Met near Oomachikulam" },
+    { "id": "madurai-north-ring-road", "label": "Met near Oomachikulam" },
+    { "id": "sh-tn-72a", "label": "Met near Madurai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagavakulam",
@@ -39,16 +56,6 @@
         78.38223,
         10.3705
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

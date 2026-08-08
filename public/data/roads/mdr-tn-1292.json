@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Puliyangudi, Tamil Nadu",
     "end": "Sankarankovil, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Sankarankovil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Puliyangudi" },
+    { "id": "sh-tn-41", "label": "Met near Sankarankovil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puliyangudi",
@@ -30,12 +42,6 @@
         77.5347,
         9.18885
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

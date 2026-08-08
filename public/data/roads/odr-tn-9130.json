@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adukkamparai, Tamil Nadu",
     "end": "Ariyur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Ariyur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-6789", "label": "Met near Adukkamparai" },
+    { "id": "odr-tn-4993", "label": "Met near Adukkamparai" },
+    { "id": "odr-tn-2734", "label": "Met near Adukkamparai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adukkamparai",
@@ -30,12 +43,6 @@
         79.11109,
         12.81771
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

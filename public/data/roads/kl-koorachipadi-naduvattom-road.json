@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vengad, Kerala",
     "end": "Pattambi, Kerala",
@@ -16,6 +17,17 @@
       "Pattambi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-vilayur-kaippuram-road", "label": "Met near Vengad" },
+    { "id": "kl-valanchery-koppam-road", "label": "Met near Vengad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vengad",
@@ -30,12 +42,6 @@
         76.16628,
         10.89324
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

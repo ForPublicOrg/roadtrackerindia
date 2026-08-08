@@ -16,6 +16,22 @@
       "Gonda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Meets this road" },
+    { "id": "nh-330", "label": "Met near Gonda" },
+    { "id": "sh-up-9", "label": "Meets this road" },
+    { "id": "sh-up-42e", "label": "Met near Gonda" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Basti",
@@ -30,16 +46,6 @@
         82.04103,
         27.07082
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kadungathukundu, Kerala",
     "end": "Edarikkod, Kerala",
@@ -17,6 +18,18 @@
       "Edarikkod"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kottakkal" },
+    { "id": "sh-kl-71", "label": "Met near Kottakkal" },
+    { "id": "kl-randathani-variyathpadi-kurukathani-road", "label": "Met near Kadungathukundu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadungathukundu",
@@ -38,12 +51,6 @@
         75.97634,
         10.98755
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

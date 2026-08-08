@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kotti, Kerala",
     "end": "Puthiyangadi, Kerala",
@@ -18,6 +19,20 @@
       "Puthiyangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-ezhimala-top-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-payyannur-south-bazar-kandankali-kurumkadavu-punnakkadavu-ro", "label": "Met near Payyanur" },
+    { "id": "kl-ettikulam-palacode-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-payyannur-railway-station-ramanthali-ettikulam-road", "label": "Met near Payyanur" },
+    { "id": "kl-ramanthali-high-school-kunnaru-road", "label": "Met near Payyanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kotti",
@@ -46,12 +61,6 @@
         75.22569,
         12.02805
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

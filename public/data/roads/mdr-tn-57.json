@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kalingarayanpalayam, Tamil Nadu",
     "end": "Chithode, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Chithode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Bhavani" },
+    { "id": "sh-tn-u22", "label": "Met near Bhavani" },
+    { "id": "mdr-tn-657", "label": "Met near Chithode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalingarayanpalayam",
@@ -31,12 +44,6 @@
         77.64881,
         11.42894
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

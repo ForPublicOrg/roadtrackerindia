@@ -21,6 +21,23 @@
       "Mirzapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Jalalpur" },
+    { "id": "nh-27", "label": "Met near Faizabad" },
+    { "id": "nh-19", "label": "Met near Khamaria" },
+    { "id": "nh-31", "label": "Met near Jaunpur" },
+    { "id": "nh-731", "label": "Met near Jaunpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ashapur",
@@ -70,16 +87,6 @@
         82.54431,
         25.14931
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

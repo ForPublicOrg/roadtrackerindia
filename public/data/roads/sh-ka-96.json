@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 83.1,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Bethamangala, Karnataka",
     "end": "Devanahalli, Karnataka",
@@ -17,6 +18,19 @@
       "Devanahalli"
     ]
   },
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Devanahalli" },
+    { "id": "nh-44", "label": "Met near Devanahalli" },
+    { "id": "nh-75", "label": "Met near Kolar" },
+    { "id": "satellite-town-ring-road", "label": "Met near Devanahalli" },
+    { "id": "nh-648", "label": "Met near Devanahalli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bethamangala",
@@ -45,12 +59,6 @@
         77.71739,
         13.25702
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

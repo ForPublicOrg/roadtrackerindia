@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-001-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 001 (new numbering 2023)",
+  "ref": "MDR Cachar 001",
+  "name": "Sonai–Pailapool district road",
+  "aka": ["Cachar Major District Road 001"],
   "category": "district",
   "status": "operational",
   "lengthKm": 42.6,
+  "authority": "assam-pwd",
   "route": {
     "start": "Sonai, Assam",
     "end": "Pailapool, Assam",
@@ -17,6 +19,21 @@
       "Pailapool"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Sonai and Pailapool. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-37", "label": "Met near Lakhipur" },
+    { "id": "nh-137g", "label": "Met near Pailapool" },
+    { "id": "sh-as-22", "label": "Met near Pailapool" },
+    { "id": "sh-as-37", "label": "Met near Pailapool" },
+    { "id": "as-assam-major-district-road-mdr-chachar-004-new-numbering-2023", "label": "Met near Sonai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonai",
@@ -38,12 +55,6 @@
         93.02296,
         24.82828
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

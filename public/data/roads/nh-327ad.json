@@ -16,6 +16,20 @@
       "Tribeniganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-131", "label": "Met near Tribeniganj" },
+    { "id": "nh-327a", "label": "Met near Nirmali" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nirmali",
@@ -30,16 +44,6 @@
         86.82252,
         26.26803
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

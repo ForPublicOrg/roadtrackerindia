@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.1,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Rohtak, Haryana",
     "end": "Bawana, Delhi",
@@ -17,6 +18,19 @@
       "Bawana"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Kharkhoda" },
+    { "id": "nh-709", "label": "Met near Rohtak" },
+    { "id": "nh-334b", "label": "Met near Kharkhoda" },
+    { "id": "nh-352", "label": "Met near Rohtak" },
+    { "id": "sh-hr-138", "label": "Met near Kharkhoda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rohtak",
@@ -38,12 +52,6 @@
         76.98645,
         28.82946
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

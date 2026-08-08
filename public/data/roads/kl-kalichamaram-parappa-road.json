@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Odayamchal, Kerala",
     "end": "Cheemeni, Kerala",
@@ -16,6 +17,18 @@
       "Cheemeni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-144", "label": "Met near Odayamchal" },
+    { "id": "mdr-kl-128", "label": "Met near Cheemeni" },
+    { "id": "mdr-kl-115", "label": "Met near Cheemeni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Odayamchal",
@@ -30,12 +43,6 @@
         75.25602,
         12.28342
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

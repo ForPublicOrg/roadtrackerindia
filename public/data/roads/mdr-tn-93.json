@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Devipattinam, Tamil Nadu",
     "end": "Paramakkudi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Paramakkudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Devipattinam" },
+    { "id": "nh-536", "label": "Met near Devipattinam" },
+    { "id": "sh-tn-200", "label": "Met near Devipattinam" },
+    { "id": "sh-tn-34", "label": "Met near Paramakkudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devipattinam",
@@ -30,12 +44,6 @@
         78.69416,
         9.54638
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -21,6 +21,23 @@
       "Holalkere"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-69", "label": "Met near Kaduru" },
+    { "id": "nh-73", "label": "Met near Mudigere" },
+    { "id": "nh-373", "label": "Met near Chikkamagaluru" },
+    { "id": "nh-369", "label": "Met near Holalkere" },
+    { "id": "sh-ka-27", "label": "Met near Chikkamagaluru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bapujinagara",
@@ -84,16 +101,6 @@
         76.18467,
         14.04278
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

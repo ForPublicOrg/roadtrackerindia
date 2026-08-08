@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.4,
+  "authority": "assam-pwd",
   "route": {
     "start": "Amguri, Assam",
     "end": "Macharhat, Assam",
@@ -16,6 +17,18 @@
       "Macharhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-715", "label": "Met near Jorhat" },
+    { "id": "nh-715k", "label": "Met near Jorhat" },
+    { "id": "sh-as-7", "label": "Met near Amguri" },
+    { "id": "sh-as-1", "label": "Met near Amguri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amguri",
@@ -30,12 +43,6 @@
         94.24387,
         26.83223
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

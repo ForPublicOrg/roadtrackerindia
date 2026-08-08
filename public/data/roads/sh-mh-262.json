@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Umred, Maharashtra",
     "end": "Hingna, Maharashtra",
@@ -16,6 +17,16 @@
       "Hingna"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Hingna" },
+    { "id": "nh-353d", "label": "Met near Umred" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Umred",
@@ -30,12 +41,6 @@
         78.9963,
         20.92007
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Buldhana, Maharashtra",
     "end": "Jafarabad, Maharashtra",
@@ -16,6 +17,17 @@
       "Jafarabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-753a", "label": "Met near Buldhana" },
+    { "id": "nh-753m", "label": "Meets this road" },
+    { "id": "nh-753e", "label": "Met near Buldhana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Buldhana",
@@ -30,12 +42,6 @@
         75.9956,
         20.3851
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

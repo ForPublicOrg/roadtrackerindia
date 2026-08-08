@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Barora, Jharkhand",
     "end": "Topchanchi, Jharkhand",
@@ -17,6 +18,18 @@
       "Topchanchi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-49", "label": "Met near Baghmara" },
+    { "id": "mdr-jh-52", "label": "Met near Baghmara" },
+    { "id": "mdr-jh-54", "label": "Met near Baghmara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barora",
@@ -45,12 +58,6 @@
         86.19352,
         23.90537
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

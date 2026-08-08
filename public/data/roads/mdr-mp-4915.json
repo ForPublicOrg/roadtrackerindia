@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khargone, Madhya Pradesh",
     "end": "Kasrawad, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Kasrawad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347c", "label": "Met near Khargone" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khargone",
@@ -30,12 +41,6 @@
         75.61691,
         21.81079
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

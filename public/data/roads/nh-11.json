@@ -11,7 +11,6 @@
   "lanes": "Mixed — 4 lanes on the busier stretches, 2 lanes across much of the desert",
   "agency": "NHAI",
   "authority": "nhai",
-  "newsQuery": "\"NH 11\" Rajasthan highway",
   "route": {
     "start": "Near Myajlar, Jaisalmer district, Rajasthan",
     "end": "Rewari, Haryana",
@@ -50,11 +49,21 @@
     { "name": "Rewari", "note": "eastern terminus, and the junction point for traffic heading on to Delhi and Jaipur" }
   ],
   "relatedRoads": [
-    { "id": "nh-62", "label": "Crosses NH 11 at Bikaner, running north to Sri Ganganagar and south to Jodhpur" },
+    {
+      "id": "nh-62",
+      "label": "Crosses NH 11 at Bikaner, running north to Sri Ganganagar and south to Jodhpur"
+    },
     { "id": "nh-52", "label": "Crosses NH 11 at Fatehpur, on its way from Hisar to Sikar and Jaipur" },
-    { "id": "trans-haryana-expressway", "label": "The Ambala–Narnaul Expressway, which ends at Narnaul on this route" }
+    {
+      "id": "trans-haryana-expressway",
+      "label": "The Ambala–Narnaul Expressway, which ends at Narnaul on this route"
+    },
+    { "id": "nh-754k", "label": "Met near Napasar" },
+    { "id": "nh-58", "label": "Met near Fatehpur Shekhawati" },
+    { "id": "nh-68", "label": "Met near Jaisalmer" }
   ],
   "travelNotes": "Rewari to Jaisalmer is roughly 780 km and takes twelve to fourteen hours, so most people break the trip at Bikaner. Go in winter, between October and March; from April to June the desert regularly passes 45°C and the road surface shimmers. West of Bikaner the fuel pumps, dhabas and mobile signal all thin out, so fill the tank and carry water. Blowing sand can cover the road after a windy day, and cattle, camels and goat herds wander across it, especially at dusk. Winter mornings in the Shekhawati and Haryana stretches can be very foggy.",
+  "newsQuery": "\"NH 11\" Rajasthan highway",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

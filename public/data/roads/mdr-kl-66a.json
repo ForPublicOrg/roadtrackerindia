@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mulleria, Kerala",
     "end": "Badiadka, Kerala",
@@ -16,6 +17,20 @@
       "Badiadka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-12", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-112", "label": "Met near Mulleria" },
+    { "id": "kl-pilankatta-agalpady-jayanagar-karuvathdka-kumbadaje-bolinja", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-74", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulleria",
@@ -30,12 +45,6 @@
         75.18069,
         12.60157
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

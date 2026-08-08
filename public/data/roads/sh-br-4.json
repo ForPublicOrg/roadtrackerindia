@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 78.7,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Manpur, Bihar",
     "end": "Karai Parsurai, Bihar",
@@ -20,6 +21,19 @@
       "Karai Parsurai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Ekangar Sarai" },
+    { "id": "nh-120", "label": "Met near Gaya" },
+    { "id": "nh-431", "label": "Met near Karai Parsurai" },
+    { "id": "sh-br-78", "label": "Met near Karai Parsurai" },
+    { "id": "sh-br-71", "label": "Met near Islampur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manpur",
@@ -55,12 +69,6 @@
         85.28347,
         25.3813
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

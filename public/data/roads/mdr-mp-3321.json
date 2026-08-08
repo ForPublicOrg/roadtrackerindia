@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Banapura, Madhya Pradesh",
     "end": "Rehti, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Rehti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Seoni Malwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banapura",
@@ -30,12 +41,6 @@
         77.48837,
         22.64119
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

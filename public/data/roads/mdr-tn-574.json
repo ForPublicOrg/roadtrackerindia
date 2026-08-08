@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Seethapatty newcolony Indira nagar, Tamil Nadu",
     "end": "Aravakurichi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Aravakurichi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Seethapatty newcolony Indira nagar" },
+    { "id": "mdr-tn-418", "label": "Met near Aravakurichi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seethapatty newcolony Indira nagar",
@@ -30,12 +42,6 @@
         77.96576,
         10.7639
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,24 @@
       "Khanauri"
     ]
   },
+  "significance": "NH 152A is a branch of NH 152. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Kaithal to Khanauri, and it meets NH 152 along the way.",
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Khanauri" },
+    { "id": "nh-52", "label": "Met near Khanauri" },
+    { "id": "nh-152", "label": "Met near Kaithal" },
+    { "id": "sh-hr-11", "label": "Met near Kaithal" },
+    { "id": "sh-hr-119", "label": "Met near Kaithal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaithal",
@@ -31,16 +49,6 @@
         76.11214,
         29.8323
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

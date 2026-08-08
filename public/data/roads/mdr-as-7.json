@@ -17,6 +17,21 @@
       "Panisagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 7, Dullabhcherra–Panisagar District road, crosses the border between Assam and Mizoram. A state road that runs through more than one state has no single owner — Assam PWD (Roads) and Mizoram PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-108", "label": "Met near Panisagar" },
+    {
+      "id": "as-assam-kj-m-7-karimganj-major-distric-road-7-new-numbering-20",
+      "label": "Met near Dullabhcherra"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dullabhcherra",
@@ -31,12 +46,6 @@
         92.29613,
         24.2379
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

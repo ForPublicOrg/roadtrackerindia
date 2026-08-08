@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kottayur, Tamil Nadu",
     "end": "Kundrakudi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kundrakudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-536", "label": "Met near Karaikudi" },
+    { "id": "sh-tn-u159", "label": "Met near Karaikudi" },
+    { "id": "sh-tn-191a", "label": "Met near Kundrakudi" },
+    { "id": "mdr-tn-73", "label": "Met near Karaikudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottayur",
@@ -30,12 +44,6 @@
         78.69838,
         10.11669
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

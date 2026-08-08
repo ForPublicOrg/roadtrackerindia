@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Villangkurichi, Tamil Nadu",
     "end": "Sivanandhapuram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Sivanandhapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-948", "label": "Met near Sivanandhapuram" },
+    { "id": "mdr-tn-678", "label": "Met near Villangkurichi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Villangkurichi",
@@ -30,12 +42,6 @@
         77.00124,
         11.05575
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

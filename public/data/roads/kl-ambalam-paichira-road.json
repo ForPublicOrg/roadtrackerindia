@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pothencode, Kerala",
     "end": "Kaniyapuram, Kerala",
@@ -17,6 +18,17 @@
       "Kaniyapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kaniyapuram" },
+    { "id": "kl-pothencode-murukkumpzha-road", "label": "Met near Pothencode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pothencode",
@@ -45,12 +57,6 @@
         76.86118,
         8.59588
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

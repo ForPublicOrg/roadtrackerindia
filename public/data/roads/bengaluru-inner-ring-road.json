@@ -1,0 +1,106 @@
+{
+  "id": "bengaluru-inner-ring-road",
+  "ref": "Inner Ring Road",
+  "name": "Bengaluru Inner Ring Road",
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 32.8,
+  "lanes": "4–6 lanes",
+  "authority": "bbmp",
+  "route": {
+    "start": "Bengaluru, Karnataka",
+    "end": "Bengaluru, Karnataka",
+    "states": ["Karnataka"],
+    "majorCities": [
+      "Bengaluru",
+      "Indiranagar",
+      "Koramangala",
+      "Rajarajeshwari Nagar",
+      "Vijaya Nagar",
+      "Mahalakshmi Layout",
+      "Sadashivanagar"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Inner Ring Road loops around central Bengaluru, linking Indiranagar, Domlur, Koramangala and the neighbourhoods west of the centre. It was built to let cross-city traffic avoid the old commercial core around Majestic and M. G. Road, and it is still the quickest way between the eastern and southern suburbs without going out to the Outer Ring Road.",
+  "facts": [
+    "Rings the central part of Bengaluru, well inside the Outer Ring Road.",
+    "Links Indiranagar, Domlur and Koramangala, three of the city's busiest neighbourhoods.",
+    "Built to keep cross-city traffic out of the old commercial centre.",
+    "Much of it runs beside the corridor of the city's eastern metro line."
+  ],
+  "significance": "It is the road that holds central Bengaluru together — the one most people use to get between the eastern and southern parts of the city without a long detour.",
+  "relatedRoads": [
+    {
+      "id": "bengaluru-outer-ring-road",
+      "label": "The bigger ring further out, around the technology corridor"
+    },
+    { "id": "nh-48", "label": "Met near Yeswanthpur" },
+    { "id": "sh-ka-85", "label": "Met near Bengaluru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Indiranagar",
+      "coords": [
+        77.64062,
+        12.98406
+      ]
+    },
+    {
+      "name": "Koramangala",
+      "coords": [
+        77.62407,
+        12.93497
+      ]
+    },
+    {
+      "name": "Bengaluru",
+      "coords": [
+        77.59304,
+        12.94862
+      ]
+    },
+    {
+      "name": "Basavanagudi",
+      "coords": [
+        77.58228,
+        12.94363
+      ]
+    },
+    {
+      "name": "Rajarajeshwari Nagar",
+      "coords": [
+        77.53868,
+        12.94354
+      ]
+    },
+    {
+      "name": "Vijaya Nagar",
+      "coords": [
+        77.53777,
+        12.97178
+      ]
+    },
+    {
+      "name": "Mahalakshmi Layout",
+      "coords": [
+        77.54887,
+        13.00894
+      ]
+    },
+    {
+      "name": "Sadashivanagar",
+      "coords": [
+        77.57661,
+        13.01485
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

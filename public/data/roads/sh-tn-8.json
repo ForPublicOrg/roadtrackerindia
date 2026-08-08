@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Brindavanam, Tamil Nadu",
     "end": "Chatamkaruppur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Chatamkaruppur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-36", "label": "Met near Kumbakonam" },
+    { "id": "nh-136", "label": "Met near Thanjavur" },
+    { "id": "nh-136b", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-22", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-66", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Brindavanam",
@@ -46,12 +60,6 @@
         79.38843,
         10.98181
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,26 @@
       "Rajura"
     ]
   },
+  "significance": "NH 930D is a branch of NH 930. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Chandrapur to Rajura, and it meets NH 930 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-930",
+      "label": "NH 930 — the highway this branch takes its number from, running Dhamtari to Pandharkawada"
+    },
+    { "id": "nh-353b", "label": "Met near Ballarpur" },
+    { "id": "nh-363", "label": "Meets this road" },
+    { "id": "sh-mh-236", "label": "Met near Rajura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chandrapur",
@@ -38,16 +58,6 @@
         79.3707,
         19.7856
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

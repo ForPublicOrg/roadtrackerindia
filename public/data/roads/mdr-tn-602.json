@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Panruti, Tamil Nadu",
     "end": "Ulundurpettai, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Ulundurpettai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Ulundurpettai" },
+    { "id": "nh-36", "label": "Met near Panruti" },
+    { "id": "sh-tn-254", "label": "Met near Ulundurpettai" },
+    { "id": "sh-tn-u146", "label": "Met near Ulundurpettai" },
+    { "id": "mdr-tn-1220", "label": "Met near Panruti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panruti",
@@ -30,12 +45,6 @@
         79.31718,
         11.6974
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

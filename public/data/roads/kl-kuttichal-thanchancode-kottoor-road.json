@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kattakada, Kerala",
     "end": "Mancha, Kerala",
@@ -16,6 +17,20 @@
       "Mancha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Kattakada" },
+    { "id": "sh-kl-3", "label": "Met near Kattakada" },
+    { "id": "kl-kattakkada-kottoor-road", "label": "Met near Kattakada" },
+    { "id": "kl-kottoor-chonampara-road", "label": "Met near Kattakada" },
+    { "id": "kl-paruthippalli-manthikkalam-kottoor-road", "label": "Met near Kattakada" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kattakada",
@@ -30,12 +45,6 @@
         77.10387,
         8.56888
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

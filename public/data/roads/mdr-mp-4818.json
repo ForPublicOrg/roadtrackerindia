@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Julwania, Madhya Pradesh",
     "end": "Sendhwa, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Sendhwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4819", "label": "Met near Julwania" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Julwania",
@@ -30,12 +41,6 @@
         75.28003,
         21.76154
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

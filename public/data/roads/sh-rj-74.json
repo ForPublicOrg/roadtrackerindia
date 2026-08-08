@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 87.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Modak, Rajasthan",
     "end": "Aklera, Rajasthan",
@@ -17,6 +18,19 @@
       "Aklera"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Modak" },
+    { "id": "sh-rj-1", "label": "Met near Khanpur" },
+    { "id": "sh-rj-89", "label": "Met near Khanpur" },
+    { "id": "sh-rj-74a", "label": "Met near Sangod" },
+    { "id": "mdr-rj-186", "label": "Met near Khanpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Modak",
@@ -38,12 +52,6 @@
         76.48466,
         24.41842
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

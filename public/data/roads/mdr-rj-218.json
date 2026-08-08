@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 103.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhandrej, Rajasthan",
     "end": "Hindaun, Rajasthan",
@@ -16,6 +17,20 @@
       "Hindaun"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Bhandrej" },
+    { "id": "nh-21", "label": "Met near Bhandrej" },
+    { "id": "sh-rj-1", "label": "Met near Hindaun" },
+    { "id": "sh-rj-25", "label": "Met near Nadoti" },
+    { "id": "sh-rj-22", "label": "Met near Hindaun" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhandrej",
@@ -30,12 +45,6 @@
         77.02997,
         26.73166
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

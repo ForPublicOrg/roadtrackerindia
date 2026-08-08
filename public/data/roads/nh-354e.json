@@ -16,6 +16,20 @@
       "Abohar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Mandi Dabwali" },
+    { "id": "mdr-pb-39", "label": "Met near Mandi Dabwali" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandi Dabwali",
@@ -30,16 +44,6 @@
         74.22116,
         30.13608
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

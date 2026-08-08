@@ -17,6 +17,23 @@
       "Bawana"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Sonipat" },
+    { "id": "urban-extension-road-2", "label": "Met near Bawana" },
+    { "id": "nh-334b", "label": "Met near Sonipat" },
+    { "id": "sh-hr-138", "label": "Met near Sonipat" },
+    { "id": "sh-hr-20", "label": "Met near Sonipat" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonipat",
@@ -31,16 +48,6 @@
         77.04219,
         28.80088
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

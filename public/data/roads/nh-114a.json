@@ -21,6 +21,23 @@
       "Rampurhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-14", "label": "Met near Rampurhat" },
+    { "id": "nh-333", "label": "Met near Deoghar" },
+    { "id": "nh-133", "label": "Met near Mohanpur" },
+    { "id": "sh-jh-13", "label": "Met near Giridih" },
+    { "id": "sh-jh-14", "label": "Met near Sarwan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dumri",
@@ -77,16 +94,6 @@
         87.78414,
         24.17616
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

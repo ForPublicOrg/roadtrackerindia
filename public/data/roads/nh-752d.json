@@ -19,6 +19,23 @@
       "Barnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Shamgarh" },
+    { "id": "kota-indore-expressway", "label": "Met near Ujjain" },
+    { "id": "nh-156", "label": "Met near Barnagar" },
+    { "id": "nh-552g", "label": "Met near Ujjain" },
+    { "id": "sh-mp-65", "label": "Met near Barnagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shamgarh",
@@ -54,16 +71,6 @@
         75.3834,
         23.07772
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

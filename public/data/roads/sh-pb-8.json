@@ -19,6 +19,20 @@
       "Fatehgarh Sahib"
     ]
   },
+  "significance": "SH 8, Pehowa–Fatehgarh Sahib State Highway, crosses the border between Haryana and Punjab. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and Punjab PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sirhind" },
+    { "id": "nh-7", "label": "Met near Patiala" },
+    { "id": "sh-pb-12a", "label": "Met near Fatehgarh Sahib" },
+    { "id": "sh-hr-9", "label": "Met near Pehowa" },
+    { "id": "mdr-pb-31", "label": "Met near Fatehgarh Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pehowa",
@@ -40,12 +54,6 @@
         76.40104,
         30.64291
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

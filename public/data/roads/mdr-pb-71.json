@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 53.4,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Sri Muktsar Sahib, Punjab",
     "end": "Firozpur Cantonment, Punjab",
@@ -17,6 +18,20 @@
       "Firozpur Cantonment"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Firozpur" },
+    { "id": "nh-354", "label": "Met near Sri Muktsar Sahib" },
+    { "id": "nh-754", "label": "Met near Sri Muktsar Sahib" },
+    { "id": "mdr-pb-41", "label": "Met near Sri Muktsar Sahib" },
+    { "id": "mdr-pb-46", "label": "Met near Guru Har Sahai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sri Muktsar Sahib",
@@ -31,12 +46,6 @@
         74.61333,
         30.92964
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

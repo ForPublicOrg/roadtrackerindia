@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manjeri, Kerala",
     "end": "Uphill, Kerala",
@@ -16,6 +17,17 @@
       "Uphill"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-71", "label": "Met near Manjeri" },
+    { "id": "kl-anakkayam-oravambram-road", "label": "Met near Manjeri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeri",
@@ -30,12 +42,6 @@
         76.11198,
         11.08558
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

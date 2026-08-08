@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melapalayam, Tamil Nadu",
     "end": "Thachanallur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Thachanallur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-40", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-508", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-178", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-198", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melapalayam",
@@ -39,12 +53,6 @@
         77.70466,
         8.75083
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

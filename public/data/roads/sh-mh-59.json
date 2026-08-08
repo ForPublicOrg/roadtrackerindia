@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Paud, Maharashtra",
     "end": "Warje, Maharashtra",
@@ -17,6 +18,17 @@
       "Warje"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-ring-road", "label": "Met near Paud" },
+    { "id": "nh-48", "label": "Met near Anandnagar" },
+    { "id": "sh-mh-57", "label": "Met near Paud" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paud",
@@ -31,12 +43,6 @@
         73.8099,
         18.48374
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thachanallur, Tamil Nadu",
     "end": "Tirunelveli Town, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Tirunelveli Town"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-41", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-75a", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-918", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thachanallur",
@@ -31,12 +45,6 @@
         77.69084,
         8.74159
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

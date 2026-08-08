@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nemilicheri, Tamil Nadu",
     "end": "Sholavaram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Sholavaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-1533", "label": "Met near Avadi" },
+    { "id": "odr-tn-3102", "label": "Met near Avadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nemilicheri",
@@ -30,12 +42,6 @@
         80.06953,
         13.23008
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

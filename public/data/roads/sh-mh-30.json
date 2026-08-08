@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 186.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Dahanu, Maharashtra",
     "end": "Paithan, Maharashtra",
@@ -20,6 +21,19 @@
       "Paithan"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Ojhar" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Nashik" },
+    { "id": "nh-48", "label": "Meets this road" },
+    { "id": "nh-52", "label": "Met near Waluj MIDC" },
+    { "id": "nh-753f", "label": "Met near Chhatrapati Sambhajinagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dahanu",
@@ -62,12 +76,6 @@
         75.3883,
         19.49054
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

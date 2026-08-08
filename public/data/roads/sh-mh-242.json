@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Badnera, Maharashtra",
     "end": "Vijay Colony, Maharashtra",
@@ -18,6 +19,17 @@
       "Vijay Colony"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Amravati" },
+    { "id": "sh-mh-200", "label": "Met near Amravati" },
+    { "id": "sh-mh-243", "label": "Met near Amravati" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badnera",
@@ -67,12 +79,6 @@
         77.74313,
         20.96773
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

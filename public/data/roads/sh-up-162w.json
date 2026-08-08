@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Gawan, Uttar Pradesh",
     "end": "Babrala, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Babrala"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-509", "label": "Met near Babrala" },
+    { "id": "sh-up-163w", "label": "Met near Gawan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gawan",
@@ -30,12 +41,6 @@
         78.41253,
         28.27941
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

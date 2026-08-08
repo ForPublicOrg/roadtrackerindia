@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panathur, Kerala",
     "end": "Kothaymukku, Kerala",
@@ -16,6 +17,20 @@
       "Kothaymukku"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kothaymukku" },
+    { "id": "sh-kl-59", "label": "Met near Panathur" },
+    { "id": "sh-kl-56", "label": "Met near Panathur" },
+    { "id": "mdr-kl-99", "label": "Met near Panathur" },
+    { "id": "mdr-kl-134", "label": "Met near Cherupuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panathur",
@@ -37,12 +52,6 @@
         75.21655,
         12.13216
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

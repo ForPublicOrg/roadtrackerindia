@@ -19,6 +19,20 @@
       "Narkhed"
     ]
   },
+  "significance": "SH 247, Wardha–Narkhed State Highway, crosses the border between Maharashtra and Madhya Pradesh. A state road that runs through more than one state has no single owner — Maharashtra PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Kondhali" },
+    { "id": "nh-47", "label": "Meets this road" },
+    { "id": "nh-353j", "label": "Met near Katol" },
+    { "id": "nh-647", "label": "Meets this road" },
+    { "id": "sh-mh-249", "label": "Met near Katol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wardha",
@@ -47,12 +61,6 @@
         78.69661,
         21.49908
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

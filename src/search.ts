@@ -1,7 +1,7 @@
 import { state } from './state'
 import type { RoadSummary } from './types'
 import { esc } from './ui'
-import { formatKm } from './geo'
+import { formatEnds, formatKm } from './geo'
 
 interface RoadResult {
   kind: 'road'
@@ -230,7 +230,7 @@ function render(): void {
             <span class="sr-badge cat-${esc(rd.category)}">${esc(shortRef(rd.ref))}</span>
             <span class="sr-main">
               <span class="sr-title">${esc(rd.name)}</span>
-              <span class="sr-sub">${formatKm(rd.lengthKm)}${scopeOf(rd)} · ${esc(rd.start.split(',')[0])} → ${esc(rd.end.split(',')[0])}</span>
+              <span class="sr-sub">${formatKm(rd.lengthKm)}${scopeOf(rd)} · ${esc(formatEnds(rd.start, rd.end))}</span>
             </span></li>`
         }
         const label = r.kind === 'city' ? r.city : r.state

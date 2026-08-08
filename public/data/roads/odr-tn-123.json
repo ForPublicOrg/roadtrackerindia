@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Alangulam, Tamil Nadu",
     "end": "Keela Surandai, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Keela Surandai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-39", "label": "Met near Alangulam" },
+    { "id": "sh-tn-40b", "label": "Met near Alangulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alangulam",
@@ -30,12 +42,6 @@
         77.53596,
         8.93264
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

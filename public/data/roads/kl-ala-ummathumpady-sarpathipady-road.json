@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chengannur, Kerala",
     "end": "Angadikkal, Kerala",
@@ -17,6 +18,18 @@
       "Angadikkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Chengannur" },
+    { "id": "kl-perissery-ala-cheriyanadu-road", "label": "Met near Chengannur" },
+    { "id": "kl-perumpuzhakkadavu-angadikkal-south-via-central-hatchery-ala", "label": "Met near Chengannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chengannur",
@@ -38,12 +51,6 @@
         76.60217,
         9.29685
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

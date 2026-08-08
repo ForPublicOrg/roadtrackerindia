@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruvannamalai, Tamil Nadu",
     "end": "Chengam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Chengam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-77", "label": "Met near Tiruvannamalai" },
+    { "id": "sh-tn-u161", "label": "Met near Tiruvannamalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruvannamalai",
@@ -30,12 +42,6 @@
         79.0027,
         12.21959
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

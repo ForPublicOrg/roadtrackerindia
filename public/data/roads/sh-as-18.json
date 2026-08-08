@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 105.2,
+  "authority": "assam-pwd",
   "route": {
     "start": "Hamren, Assam",
     "end": "Nagaon, Assam",
@@ -16,6 +17,19 @@
       "Nagaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Nagaon" },
+    { "id": "nh-627", "label": "Met near Hamren" },
+    { "id": "sh-as-17", "label": "Met near Raha" },
+    { "id": "sh-as-3", "label": "Met near Nagaon" },
+    { "id": "sh-as-19", "label": "Met near Hamren" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hamren",
@@ -30,12 +44,6 @@
         92.68384,
         26.34795
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

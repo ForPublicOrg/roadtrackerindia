@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 102.6,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dhubri, Assam",
     "end": "Dudhnai, Assam",
@@ -19,6 +20,18 @@
       "Dudhnai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-17", "label": "Met near Dudhnai" },
+    { "id": "nh-217", "label": "Met near Dudhnai" },
+    { "id": "sh-as-12", "label": "Met near Lakhipur" },
+    { "id": "sh-as-12a", "label": "Met near Goalpara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhubri",
@@ -54,12 +67,6 @@
         90.78228,
         25.98298
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

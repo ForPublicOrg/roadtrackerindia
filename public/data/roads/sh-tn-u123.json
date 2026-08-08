@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pillanallur, Tamil Nadu",
     "end": "Rasipuram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Rasipuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Pillanallur" },
+    { "id": "mdr-tn-1236", "label": "Met near Pillanallur" },
+    { "id": "mdr-tn-1177", "label": "Met near Pillanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pillanallur",
@@ -30,12 +42,6 @@
         78.16295,
         11.37411
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

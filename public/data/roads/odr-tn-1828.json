@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vandavasi, Tamil Nadu",
     "end": "Tiruvetipuram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Tiruvetipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-118", "label": "Met near Vandavasi" },
+    { "id": "odr-tn-5110", "label": "Meets this road" },
+    { "id": "tn-sugarcane-road-81", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandavasi",
@@ -30,12 +43,6 @@
         79.70952,
         12.62024
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

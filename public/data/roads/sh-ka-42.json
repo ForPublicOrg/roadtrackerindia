@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Tungabhadra Colony, Karnataka",
     "end": "Bandimot, Karnataka",
@@ -16,6 +17,19 @@
       "Bandimot"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Hosapete" },
+    { "id": "nh-67", "label": "Met near Hosapete" },
+    { "id": "nh-150a", "label": "Met near Ballari" },
+    { "id": "nh-167", "label": "Met near Ballari" },
+    { "id": "sh-ka-128", "label": "Met near Ballari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tungabhadra Colony",
@@ -30,12 +44,6 @@
         77.04967,
         15.15124
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

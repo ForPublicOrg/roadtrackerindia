@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tindivanam, Tamil Nadu",
     "end": "Vandavasi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Vandavasi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-4604", "label": "Met near Tindivanam" },
+    { "id": "odr-tn-4602", "label": "Met near Tindivanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tindivanam",
@@ -30,12 +42,6 @@
         79.69181,
         12.33178
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

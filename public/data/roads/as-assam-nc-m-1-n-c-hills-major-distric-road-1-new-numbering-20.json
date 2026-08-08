@@ -1,10 +1,12 @@
 {
   "id": "as-assam-nc-m-1-n-c-hills-major-distric-road-1-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Nc-M-1 (N.C. Hills Major Distric Road 1) (new Numbering 2024)",
+  "ref": "MDR NC-M-1",
+  "name": "Maibong–Langting district road",
+  "aka": ["Dima Hasao Major District Road NC-M-1"],
   "category": "district",
   "status": "operational",
   "lengthKm": 59.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Maibong, Assam",
     "end": "Langting, Assam",
@@ -16,6 +18,17 @@
       "Langting"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Dima Hasao district, Assam, running between Maibong and Langting. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Maibong" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maibong",
@@ -30,12 +43,6 @@
         93.39581,
         25.43172
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

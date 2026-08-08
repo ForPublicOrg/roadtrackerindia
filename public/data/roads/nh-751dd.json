@@ -17,6 +17,23 @@
       "Petlad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-751d", "label": "Met near Tarapur" },
+    { "id": "sh-gj-16", "label": "Met near Tarapur" },
+    { "id": "sh-gj-140", "label": "Met near Sojitra" },
+    { "id": "sh-gj-83", "label": "Met near Tarapur" },
+    { "id": "sh-gj-89", "label": "Met near Petlad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tarapur",
@@ -38,16 +55,6 @@
         72.8203,
         22.54063
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

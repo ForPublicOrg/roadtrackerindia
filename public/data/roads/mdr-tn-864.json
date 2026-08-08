@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "V.S.Nagar, Tamil Nadu",
     "end": "Karur, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Karur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-772", "label": "Met near Karur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "V.S.Nagar",
@@ -37,12 +48,6 @@
         78.09597,
         10.97773
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

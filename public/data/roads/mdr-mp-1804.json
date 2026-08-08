@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Panna, Madhya Pradesh",
     "end": "Ajaigarh, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Ajaigarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-1805", "label": "Met near Panna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panna",
@@ -30,12 +41,6 @@
         80.34327,
         24.85854
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 19.9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Visavadar, Gujarat",
     "end": "Bhavnath, Gujarat",
@@ -16,6 +17,17 @@
       "Bhavnath"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-96", "label": "Met near Visavadar" },
+    { "id": "sh-gj-111", "label": "Met near Visavadar" },
+    { "id": "sh-gj-30", "label": "Met near Junagadh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Visavadar",
@@ -30,12 +42,6 @@
         70.59325,
         21.44063
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 51.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vedasandur, Tamil Nadu",
     "end": "Karur, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Karur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Karur" },
+    { "id": "sh-tn-u41", "label": "Met near Karur" },
+    { "id": "sh-tn-u145", "label": "Met near Karur" },
+    { "id": "sh-tn-u115", "label": "Met near Karur" },
+    { "id": "mdr-tn-650", "label": "Met near Muthammal Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vedasandur",
@@ -60,12 +75,6 @@
         78.08366,
         10.95037
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

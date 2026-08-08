@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gulganj, Madhya Pradesh",
     "end": "Bijawar, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Bijawar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Gulganj" },
+    { "id": "nh-43", "label": "Met near Bijawar" },
+    { "id": "mdr-mp-1621", "label": "Met near Bijawar" },
+    { "id": "mdr-mp-1619", "label": "Met near Bijawar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gulganj",
@@ -30,12 +44,6 @@
         79.49503,
         24.63101
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

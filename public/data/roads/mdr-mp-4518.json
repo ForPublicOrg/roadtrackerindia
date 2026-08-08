@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Betma, Madhya Pradesh",
     "end": "Pithampur, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Pithampur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Betma" },
+    { "id": "mdr-mp-4509", "label": "Met near Betma" },
+    { "id": "mdr-mp-4517", "label": "Met near Betma" },
+    { "id": "mdr-mp-4516", "label": "Met near Betma" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Betma",
@@ -30,12 +44,6 @@
         75.62766,
         22.68538
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

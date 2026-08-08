@@ -20,6 +20,23 @@
       "Gumla"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Gumla" },
+    { "id": "nh-49", "label": "Met near PurunapaniRange" },
+    { "id": "nh-320g", "label": "Meets this road" },
+    { "id": "nh-320d", "label": "Met near Rourkela" },
+    { "id": "nh-520", "label": "Met near Banaigarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "PurunapaniRange",
@@ -62,16 +79,6 @@
         84.54442,
         23.04148
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

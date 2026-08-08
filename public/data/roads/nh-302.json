@@ -16,6 +16,21 @@
       "Barkal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Lunglei" },
+    { "id": "mz-lunglei-thenzawl-road", "label": "Met near Lunglei" },
+    { "id": "mz-tlabung-borapansury-road", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lunglei",
@@ -30,16 +45,6 @@
         92.47043,
         22.90663
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

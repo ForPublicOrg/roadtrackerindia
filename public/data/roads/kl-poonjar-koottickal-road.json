@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Poonjar, Kerala",
     "end": "Kanjirappalli, Kerala",
@@ -16,6 +17,20 @@
       "Kanjirappalli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-32", "label": "Met near Poonjar" },
+    { "id": "kl-poonjar-kaippally-yendayar-road", "label": "Met near Poonjar" },
+    { "id": "kl-anakuzhy-parathanam-road", "label": "Met near Poonjar" },
+    { "id": "kl-erattupetta-chennadu-road", "label": "Met near Poonjar" },
+    { "id": "kl-kootickal-kavalai-cholathadom-road", "label": "Met near Poonjar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Poonjar",
@@ -30,12 +45,6 @@
         76.85166,
         9.60702
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

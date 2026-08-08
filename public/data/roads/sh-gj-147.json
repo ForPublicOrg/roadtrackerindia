@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.4,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Kherwara, Rajasthan",
     "end": "Khedbrahma, Gujarat",
@@ -16,6 +17,16 @@
       "Khedbrahma"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Meets this road" },
+    { "id": "sh-gj-10", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kherwara",
@@ -30,12 +41,6 @@
         73.04841,
         24.03108
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

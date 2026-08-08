@@ -18,6 +18,23 @@
       "Gurh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Gurh" },
+    { "id": "nh-35", "label": "Met near Mirzapur" },
+    { "id": "nh-135c", "label": "Met near Koraon" },
+    { "id": "sh-mp-24", "label": "Met near Mauganj" },
+    { "id": "sh-up-5", "label": "Met near Mirzapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mirzapur",
@@ -39,16 +56,6 @@
         81.54679,
         24.65183
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

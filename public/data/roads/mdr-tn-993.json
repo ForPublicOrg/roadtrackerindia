@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Uthiyur, Tamil Nadu",
     "end": "Vellakovil, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Vellakovil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-83a", "label": "Met near Uthiyur" },
+    { "id": "sh-tn-197", "label": "Met near Vellakovil" },
+    { "id": "mdr-tn-1180", "label": "Met near Uthiyur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Uthiyur",
@@ -30,12 +43,6 @@
         77.67002,
         10.89445
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

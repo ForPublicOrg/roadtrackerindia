@@ -17,6 +17,22 @@
       "Basti"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-328a", "label": "A branch off this highway, running Mehdawal to Jalalpur" },
+    { "id": "nh-27", "label": "Met near Basti" },
+    { "id": "nh-730", "label": "Meets this road" },
+    { "id": "nh-24", "label": "Met near Anand Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maharajganj",
@@ -38,16 +54,6 @@
         82.78075,
         26.82747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

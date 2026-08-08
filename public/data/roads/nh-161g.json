@@ -19,6 +19,24 @@
       "Jalgaon Jamod"
     ]
   },
+  "significance": "NH 161G is a branch of NH 161. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Patur to Jalgaon Jamod, and it meets NH 161 along the way.",
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Balapur" },
+    { "id": "nh-548c", "label": "Met near Shegaon" },
+    { "id": "nh-161", "label": "Met near Patur" },
+    { "id": "nh-161h", "label": "Met near Jalgaon Jamod" },
+    { "id": "sh-mh-194", "label": "Met near Jalgaon Jamod" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patur",
@@ -54,16 +72,6 @@
         76.53134,
         21.04725
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

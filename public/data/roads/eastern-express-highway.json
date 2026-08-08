@@ -15,6 +15,7 @@
     "states": ["Maharashtra"],
     "majorCities": ["Sion", "Ghatkopar", "Vikhroli", "Bhandup", "Mulund", "Thane"]
   },
+  "tollInfo": { "tolled": false, "note": "Mumbai's express highways carry no toll." },
   "timeline": [
     { "year": "2014", "event": "The Eastern Freeway is completed and drops onto the highway at Chheda Nagar, Ghatkopar" },
     { "year": "2022", "event": "MMRDA hands the highway to the BMC for upkeep (3 October)" },
@@ -38,10 +39,19 @@
     { "name": "Teen Hath Naka, Thane", "note": "the big junction at the Thane end, where the highway meets LBS Marg" }
   ],
   "relatedRoads": [
-    { "id": "mumbai-eastern-freeway", "label": "Joins this highway at Chheda Nagar and carries traffic on to south Mumbai" },
+    {
+      "id": "mumbai-eastern-freeway",
+      "label": "Joins this highway at Chheda Nagar and carries traffic on to south Mumbai"
+    },
     { "id": "western-express-highway", "label": "The matching arterial road on the western side of Mumbai" },
-    { "id": "atal-setu", "label": "Reached from here through the Eastern Freeway, for the sea crossing to Navi Mumbai" },
-    { "id": "samruddhi-mahamarg", "label": "The Nagpur expressway, whose Mumbai end is reached past Thane" }
+    {
+      "id": "atal-setu",
+      "label": "Reached from here through the Eastern Freeway, for the sea crossing to Navi Mumbai"
+    },
+    { "id": "samruddhi-mahamarg", "label": "The Nagpur expressway, whose Mumbai end is reached past Thane" },
+    { "id": "nh-48", "label": "Met near Mumbai" },
+    { "id": "sion-panvel-highway", "label": "Met near Mumbai" },
+    { "id": "lbs-marg-mumbai", "label": "Met near Ghatkopar West" }
   ],
   "travelNotes": "Sion to Thane is only 23 km but can take anywhere from 40 minutes to well over an hour and a half in peak traffic. The worst crawls are at Sion, Vikhroli, the Mulund check naka and the approach to Thane. Heavy rain floods low points near Sion and Vikhroli during the monsoon, and metro construction work along the route narrows the road in places.",
   "futureUpgrades": [

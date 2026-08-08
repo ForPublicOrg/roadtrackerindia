@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 45.7,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Khem Karan, Punjab",
     "end": "Tarn Taran Sahib, Punjab",
@@ -17,6 +18,16 @@
       "Tarn Taran Sahib"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-703b", "label": "Met near Patti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khem Karan",
@@ -38,12 +49,6 @@
         74.94147,
         31.41773
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

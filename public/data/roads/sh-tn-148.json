@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 22.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nagore, Tamil Nadu",
     "end": "Thiruvarur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Thiruvarur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Nagore" },
+    { "id": "sh-tn-23", "label": "Met near Thiruvarur" },
+    { "id": "sh-tn-u136", "label": "Met near Nagore" },
+    { "id": "mdr-tn-1272", "label": "Met near Thiruvarur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagore",
@@ -30,12 +43,6 @@
         79.63651,
         10.82005
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

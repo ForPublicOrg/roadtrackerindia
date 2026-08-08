@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vandipetta, Kerala",
     "end": "Perunna, Kerala",
@@ -17,6 +18,20 @@
       "Perunna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Changanassery" },
+    { "id": "sh-kl-1", "label": "Met near Changanassery" },
+    { "id": "sh-kl-11", "label": "Met near Changanassery" },
+    { "id": "kl-changanacherry-byepass-road", "label": "Met near Changanassery" },
+    { "id": "kl-kunnamkary-kumaramkary-paral-changanacherry-road", "label": "Met near Changanassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandipetta",
@@ -38,12 +53,6 @@
         76.53911,
         9.43343
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

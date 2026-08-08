@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 42.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bakani, Rajasthan",
     "end": "Susner, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Susner"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-752b", "label": "Met near Susner" },
+    { "id": "nh-552g", "label": "Met near Bakani" },
+    { "id": "mdr-mp-2305", "label": "Met near Susner" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bakani",
@@ -30,12 +43,6 @@
         76.21628,
         23.84281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

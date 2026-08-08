@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Deoghar, Jharkhand",
     "end": "Jasidih, Jharkhand",
@@ -16,6 +17,18 @@
       "Jasidih"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-br-22", "label": "Met near Jasidih" },
+    { "id": "mdr-jh-228", "label": "Met near Deoghar" },
+    { "id": "mdr-jh-231", "label": "Met near Deoghar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Deoghar",
@@ -30,12 +43,6 @@
         86.6575,
         24.56881
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

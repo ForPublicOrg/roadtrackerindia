@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalore, Kerala",
     "end": "Puthukkad, Kerala",
@@ -16,6 +17,19 @@
       "Puthukkad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Puthukkad" },
+    { "id": "kl-palakkadavu-road", "label": "Met near Puthukkad" },
+    { "id": "kl-arattupuzha-temple-road", "label": "Met near Puthukkad" },
+    { "id": "kl-oorakam-police-station-road", "label": "Met near Puthukkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalore",
@@ -30,12 +44,6 @@
         76.22181,
         10.41746
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

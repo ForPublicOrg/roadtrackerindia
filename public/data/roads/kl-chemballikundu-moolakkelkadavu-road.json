@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyangadi, Kerala",
     "end": "Kunhimangalam, Kerala",
@@ -18,6 +19,16 @@
       "Kunhimangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-madayi-tb-muttam-palakode-road", "label": "Met near Pazhayangadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyangadi",
@@ -32,12 +43,6 @@
         75.24345,
         12.06189
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

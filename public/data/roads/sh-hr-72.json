@@ -20,6 +20,20 @@
       "Kala Amb"
     ]
   },
+  "significance": "SH 72, Sector 1–Kala Amb State Highway, crosses the border between Haryana and Punjab. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and Punjab PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Shahzadpur" },
+    { "id": "nh-5", "label": "Met near Panchkula" },
+    { "id": "nh-344", "label": "Met near Shahzadpur" },
+    { "id": "nh-152", "label": "Met near Dera Bassi" },
+    { "id": "sh-hr-4", "label": "Met near Kala Amb" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sector 1",
@@ -48,12 +62,6 @@
         77.21168,
         30.49765
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

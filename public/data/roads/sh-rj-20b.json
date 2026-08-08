@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 107.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Napasar, Rajasthan",
     "end": "Ladnu, Rajasthan",
@@ -17,6 +18,15 @@
       "Ladnu"
     ]
   },
+  "relatedRoads": [
+    { "id": "mdr-rj-69", "label": "Met near Jasrasar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Napasar",
@@ -38,12 +48,6 @@
         74.38791,
         27.64088
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

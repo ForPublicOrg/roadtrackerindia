@@ -17,6 +17,23 @@
       "Sorispuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vijayaraghava Muthaliyaar Chatram" },
+    { "id": "nh-32", "label": "Met near Sorispuram" },
+    { "id": "sh-tn-40", "label": "Met near Vijayaraghava Muthaliyaar Chatram" },
+    { "id": "sh-tn-288", "label": "Met near Sorispuram" },
+    { "id": "sh-tn-u46", "label": "Met near Sorispuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayaraghava Muthaliyaar Chatram",
@@ -31,16 +48,6 @@
         78.10539,
         8.78462
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

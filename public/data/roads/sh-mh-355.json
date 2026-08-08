@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 55.3,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Police Line, Maharashtra",
     "end": "Tirora, Maharashtra",
@@ -19,6 +20,19 @@
       "Tirora"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-753", "label": "Met near Tumsar" },
+    { "id": "nh-247", "label": "Met near Bhandara" },
+    { "id": "nh-543k", "label": "Met near Bhandara" },
+    { "id": "sh-mh-272", "label": "Met near Tumsar" },
+    { "id": "sh-mh-361", "label": "Met near Mohadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Police Line",
@@ -61,12 +75,6 @@
         79.90045,
         21.52236
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,23 @@
       "Darbhanga"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Darbhanga" },
+    { "id": "nh-227", "label": "Met near Jainagar" },
+    { "id": "nh-527a", "label": "Met near Rahika" },
+    { "id": "nh-227j", "label": "Met near Rahika" },
+    { "id": "nh-227l", "label": "Met near Rahika" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jainagar",
@@ -45,16 +62,6 @@
         85.90169,
         26.18666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

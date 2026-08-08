@@ -16,6 +16,23 @@
       "Jasai"
     ]
   },
+  "relatedRoads": [
+    { "id": "atal-setu", "label": "Met near Jasai" },
+    { "id": "nh-48", "label": "Met near Panvel" },
+    { "id": "nh-66", "label": "Met near Panvel" },
+    { "id": "nh-348b", "label": "Met near Ulwe" },
+    { "id": "nh-348a", "label": "Met near Jasai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panvel",
@@ -37,16 +54,6 @@
         73.03066,
         18.93223
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

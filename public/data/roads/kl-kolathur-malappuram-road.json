@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nooradi, Kerala",
     "end": "Vengad, Kerala",
@@ -18,6 +19,19 @@
       "Vengad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-73", "label": "Met near Vengad" },
+    { "id": "sh-kl-71", "label": "Met near Malappuram" },
+    { "id": "kl-vettichira-kadampuzha-koottilangadi-road", "label": "Met near Padapparamba" },
+    { "id": "kl-cheloor-chappangadi-road", "label": "Met near Malappuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nooradi",
@@ -39,12 +53,6 @@
         76.14423,
         10.94214
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thriprayar, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -16,6 +17,18 @@
       "Irinjalakuda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thriprayar" },
+    { "id": "kl-west-tippu-sulthan-road", "label": "Met near Thriprayar" },
+    { "id": "kl-edamuttam-edathiruthi-road", "label": "Met near Thriprayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thriprayar",
@@ -30,12 +43,6 @@
         76.1232,
         10.36687
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

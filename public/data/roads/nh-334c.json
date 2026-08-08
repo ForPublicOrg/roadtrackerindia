@@ -18,6 +18,24 @@
       "Gaur City 2"
     ]
   },
+  "significance": "NH 334C is a branch of NH 334. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Bulandshahr to Gaur City 2, and it meets NH 334 along the way.",
+  "relatedRoads": [
+    { "id": "eastern-peripheral-expressway", "label": "Met near Dadri" },
+    { "id": "delhi-meerut-expressway", "label": "Met near Ghaziabad" },
+    { "id": "nh-34", "label": "Met near Ghaziabad" },
+    { "id": "nh-334", "label": "Met near Bulandshahr" },
+    { "id": "sh-up-22", "label": "Met near Ghaziabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bulandshahr",
@@ -46,16 +64,6 @@
         77.46088,
         28.63638
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

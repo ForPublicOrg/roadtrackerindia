@@ -17,6 +17,23 @@
       "Tindivanam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Tindivanam" },
+    { "id": "nh-38", "label": "Met near Viluppuram" },
+    { "id": "nh-36", "label": "Met near Vikravandi" },
+    { "id": "sh-tn-4", "label": "Met near Viluppuram" },
+    { "id": "sh-tn-136", "label": "Met near Tindivanam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Viluppuram",
@@ -38,16 +55,6 @@
         79.6614,
         12.22054
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

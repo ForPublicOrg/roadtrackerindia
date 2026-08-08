@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ariyalur, Tamil Nadu",
     "end": "Jayankondam, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Jayankondam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-136", "label": "Met near Ariyalur" },
+    { "id": "sh-tn-140", "label": "Met near Jayankondam" },
+    { "id": "sh-tn-139", "label": "Met near Ariyalur" },
+    { "id": "sh-tn-27", "label": "Met near Ariyalur" },
+    { "id": "mdr-tn-684", "label": "Met near Sendurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ariyalur",
@@ -38,12 +52,6 @@
         79.35788,
         11.21337
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

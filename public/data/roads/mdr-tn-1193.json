@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melkottai, Tamil Nadu",
     "end": "Aniyantidal, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Aniyantidal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-26", "label": "Met near Aniyantidal" },
+    { "id": "mdr-tn-1194", "label": "Met near Melkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melkottai",
@@ -30,12 +42,6 @@
         79.08406,
         10.006
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

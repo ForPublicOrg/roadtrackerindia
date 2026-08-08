@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pachore, Madhya Pradesh",
     "end": "Rajgarh, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Rajgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Rajgarh" },
+    { "id": "nh-752b", "label": "Met near Rajgarh" },
+    { "id": "nh-752c", "label": "Met near Pachore" },
+    { "id": "mdr-mp-2801", "label": "Met near Rajgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pachore",
@@ -30,12 +44,6 @@
         76.71965,
         24.00503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

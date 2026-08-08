@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sironj, Madhya Pradesh",
     "end": "Aron, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Aron"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-752b", "label": "Meets this road" },
+    { "id": "sh-mp-10", "label": "Meets this road" },
+    { "id": "mdr-mp-2905", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sironj",
@@ -30,12 +43,6 @@
         77.49701,
         24.23685
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

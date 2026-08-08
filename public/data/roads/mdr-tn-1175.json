@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Karuppur, Tamil Nadu",
     "end": "Adivaaram, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Adivaaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Karuppur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karuppur",
@@ -30,12 +41,6 @@
         78.14038,
         11.74742
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

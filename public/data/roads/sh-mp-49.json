@@ -18,6 +18,20 @@
       "Dharni"
     ]
   },
+  "significance": "SH 49, Shahi Qila–Dharni State Highway, crosses the border between Madhya Pradesh and Maharashtra. A state road that runs through more than one state has no single owner — MP PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-753l", "label": "Met near Burhanpur" },
+    { "id": "sh-mp-70", "label": "Met near Dharni" },
+    { "id": "mdr-mp-5113", "label": "Met near Burhanpur" },
+    { "id": "mdr-mp-5108", "label": "Meets this road" },
+    { "id": "mdr-mp-5112", "label": "Met near Burhanpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahi Qila",
@@ -39,12 +53,6 @@
         76.78344,
         21.50934
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

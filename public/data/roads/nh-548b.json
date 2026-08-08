@@ -25,6 +25,23 @@
       "Shedabal"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Akkalkot" },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Athani" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Selu" },
+    { "id": "nh-52", "label": "Met near Vijayapura" },
+    { "id": "nh-63", "label": "Met near Latur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mantha",
@@ -123,16 +140,6 @@
         74.74641,
         16.70822
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pennagaram, Tamil Nadu",
     "end": "Denkanikottai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Denkanikottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-17a", "label": "Met near Denkanikottai" },
+    { "id": "mdr-tn-1251", "label": "Met near Denkanikottai" },
+    { "id": "mdr-tn-1250", "label": "Met near Denkanikottai" },
+    { "id": "mdr-tn-91", "label": "Met near Denkanikottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pennagaram",
@@ -30,12 +44,6 @@
         77.78989,
         12.52065
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

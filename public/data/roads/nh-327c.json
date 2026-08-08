@@ -16,6 +16,24 @@
       "Bagdogra"
     ]
   },
+  "significance": "NH 327C is a branch of NH 327. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Bhadrapur to Bagdogra, and it meets NH 327 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-327",
+      "label": "NH 327 — the highway this branch takes its number from, running Police Colony to Bhadrapur"
+    },
+    { "id": "nh-27", "label": "Met near Bagdogra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhadrapur",
@@ -30,16 +48,6 @@
         88.28763,
         26.5927
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

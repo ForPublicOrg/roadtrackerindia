@@ -1,10 +1,11 @@
 {
   "id": "nh-71",
   "ref": "NH 71",
-  "name": "Madanapalle–Nayudupeta National Highway",
+  "name": "Madanapalle–Naidupeta Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 175.6,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Madanapalle, Andhra Pradesh",
     "end": "Nayudupeta, Andhra Pradesh",
@@ -21,6 +22,32 @@
       "Nayudupeta"
     ]
   },
+  "history": "National Highway 71 runs east from Madanapalle through Pileru and down the ghats to Tirupati, then on past Srikalahasti to Naidupeta on the coastal highway. Its middle section is one of the busiest pilgrimage roads in India: Tirumala, above Tirupati, receives tens of thousands of visitors every day, and a large share of them arrive by road on this highway.",
+  "facts": [
+    "Serves Tirupati, the town below Tirumala — among the most visited pilgrimage sites in the world.",
+    "Also passes Srikalahasti, one of the five great Shiva temples of the elements.",
+    "It connects the Rayalaseema interior to the coastal highway at Naidupeta.",
+    "Traffic multiplies during Brahmotsavam and other Tirumala festival periods."
+  ],
+  "significance": "Tirumala draws pilgrims in numbers few places on earth match, and this highway is one of the main roads carrying them. Outside the pilgrimage traffic it is the link between the dry Rayalaseema districts and the coast.",
+  "relatedRoads": [
+    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway met at Naidupeta" },
+    { "id": "nh-40", "label": "The Kurnool–Ranipet highway serving the same region" },
+    { "id": "nh-565", "label": "Met near Yerpedu" },
+    { "id": "nh-42", "label": "Met near Madanapalle" },
+    { "id": "nh-716", "label": "Met near Renigunta" }
+  ],
+  "travelNotes": "Expect very heavy traffic around Tirupati, especially at weekends and during festivals. Book Tirumala darshan slots ahead — the ghat road up the hill is separate and controlled.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Madanapalle",
@@ -119,16 +146,6 @@
         79.90205,
         13.90579
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

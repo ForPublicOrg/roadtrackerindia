@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 44.7,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Shivaji Nagar, Haryana",
     "end": "Jhajjar, Haryana",
@@ -18,6 +19,19 @@
       "Jhajjar"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Farrukhnagar" },
+    { "id": "dwarka-expressway", "label": "Met near Gurgaon" },
+    { "id": "nh-248bb", "label": "Met near Sector 102" },
+    { "id": "sh-hr-136", "label": "Met near Sector 99A" },
+    { "id": "sh-hr-26", "label": "Met near Gurgaon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shivaji Nagar",
@@ -46,12 +60,6 @@
         76.65928,
         28.60257
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

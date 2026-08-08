@@ -16,6 +16,26 @@
       "Ghulewadi"
     ]
   },
+  "significance": "NH 160D is a branch of NH 160. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Loni to Ghulewadi, and it meets NH 160 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-160",
+      "label": "NH 160 — the highway this branch takes its number from, running Sankeshwara to Kopargaon"
+    },
+    { "id": "surat-chennai-expressway", "label": "Met near Loni" },
+    { "id": "nh-60", "label": "Met near Ghulewadi" },
+    { "id": "sh-mh-44", "label": "Met near Loni" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Loni",
@@ -30,16 +50,6 @@
         74.14339,
         19.71775
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

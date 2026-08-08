@@ -18,6 +18,20 @@
       "Madanapalle"
     ]
   },
+  "significance": "SH 82, Hoskote–Madanapalle State Highway, crosses the border between Karnataka and Andhra Pradesh. A state road that runs through more than one state has no single owner — Karnataka PWD and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hoskote" },
+    { "id": "nh-69", "label": "Met near Chintamani" },
+    { "id": "satellite-town-ring-road", "label": "Met near Hoskote" },
+    { "id": "nh-648", "label": "Met near Hoskote" },
+    { "id": "sh-ka-5", "label": "Met near Chintamani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hoskote",
@@ -39,12 +53,6 @@
         78.40393,
         13.54327
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

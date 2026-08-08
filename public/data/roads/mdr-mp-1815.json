@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 40.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Patera, Madhya Pradesh",
     "end": "Pawai, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Pawai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-23", "label": "Met near Patera" },
+    { "id": "mdr-mp-1814", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patera",
@@ -30,12 +42,6 @@
         79.95829,
         24.19055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

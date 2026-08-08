@@ -19,6 +19,26 @@
       "Udyambag"
     ]
   },
+  "significance": "NH 748AA is a branch of NH 748. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Corlim to Udyambag, and it meets NH 748 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-748",
+      "label": "NH 748 — the highway this branch takes its number from, running Patto to Mahantesh Nagar"
+    },
+    { "id": "sh-ka-31", "label": "Met near Valpoi" },
+    { "id": "sh-ka-54", "label": "Met near Belagavi" },
+    { "id": "sh-mh-124", "label": "Met near Sankhali" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Corlim",
@@ -47,16 +67,6 @@
         74.48364,
         15.8045
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

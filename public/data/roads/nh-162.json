@@ -21,6 +21,22 @@
       "Vallabhnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-162a", "label": "A branch off this highway, running Railmagara to Mavli" },
+    { "id": "nh-27", "label": "Met near Vallabhnagar" },
+    { "id": "nh-48", "label": "Met near Vallabhnagar" },
+    { "id": "nh-58", "label": "Met near Nathdwara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Raipur",
@@ -70,16 +86,6 @@
         74.00398,
         24.67335
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

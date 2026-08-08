@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottayam, Kerala",
     "end": "Nagampadam, Kerala",
@@ -18,6 +19,20 @@
       "Nagampadam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-1", "label": "Met near Kottayam" },
+    { "id": "kl-river-bank-road", "label": "Met near Kottayam" },
+    { "id": "kl-lower-bazaar-road", "label": "Met near Kottayam" },
+    { "id": "kl-thiruvatta-kallumada-road", "label": "Met near Kottayam" },
+    { "id": "kl-parallel-road-to-mc-road-from-chungam-to-medical-college", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottayam",
@@ -39,12 +54,6 @@
         76.51678,
         9.59541
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

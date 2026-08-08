@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 109.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khandwa, Madhya Pradesh",
     "end": "Harda, Madhya Pradesh",
@@ -18,6 +19,19 @@
       "Harda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-347b", "label": "Met near Chhanera" },
+    { "id": "sh-mp-67", "label": "Met near Harda" },
+    { "id": "sh-mp-70", "label": "Met near Khandwa" },
+    { "id": "mdr-mp-5010", "label": "Met near Chhanera" },
+    { "id": "mdr-mp-5008", "label": "Met near Chhanera" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khandwa",
@@ -46,12 +60,6 @@
         77.09056,
         22.33613
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

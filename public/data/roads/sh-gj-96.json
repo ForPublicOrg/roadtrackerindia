@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 288.6,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Palitana, Gujarat",
     "end": "Kutiyana, Gujarat",
@@ -21,6 +22,19 @@
       "Kutiyana"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Kutiyana" },
+    { "id": "nh-351g", "label": "Met near Savarkundla" },
+    { "id": "nh-351", "label": "Met near Savarkundla" },
+    { "id": "nh-151", "label": "Met near Keshod" },
+    { "id": "nh-351k", "label": "Met near Dhari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palitana",
@@ -70,12 +84,6 @@
         69.97138,
         21.62652
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

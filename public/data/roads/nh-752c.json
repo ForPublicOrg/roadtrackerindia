@@ -18,6 +18,23 @@
       "Jirapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Pachore" },
+    { "id": "nh-752b", "label": "Met near Jirapur" },
+    { "id": "sh-mp-70", "label": "Meets this road" },
+    { "id": "sh-mp-25", "label": "Met near Shujalpur" },
+    { "id": "sh-mp-17", "label": "Met near Jirapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ichhawar",
@@ -46,16 +63,6 @@
         76.37689,
         24.0165
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

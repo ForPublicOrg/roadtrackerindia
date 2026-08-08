@@ -17,6 +17,24 @@
       "Diphu"
     ]
   },
+  "significance": "NH 329A is a branch of NH 329. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Dimapur to Diphu, and it meets NH 329 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-329",
+      "label": "NH 329 — the highway this branch takes its number from, running Lumding to Manja"
+    },
+    { "id": "nh-129a", "label": "Met near Dimapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dimapur",
@@ -31,16 +49,6 @@
         93.43922,
         25.84449
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

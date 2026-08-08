@@ -17,6 +17,20 @@
       "Bharatpur"
     ]
   },
+  "significance": "SH 43, Bari–Bharatpur State Highway, crosses the border between Rajasthan and Uttar Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-21", "label": "Met near Bharatpur" },
+    { "id": "sh-rj-1", "label": "Met near Bharatpur" },
+    { "id": "sh-rj-14", "label": "Met near Bharatpur" },
+    { "id": "sh-rj-123", "label": "Met near Baseri" },
+    { "id": "sh-up-33", "label": "Met near Bharatpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bari",
@@ -38,12 +52,6 @@
         77.49261,
         27.22742
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

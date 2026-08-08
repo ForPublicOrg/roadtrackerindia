@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thalaiyuthu, Tamil Nadu",
     "end": "Kayathar, Tamil Nadu",
@@ -16,6 +17,15 @@
       "Kayathar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Thalaiyuthu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalaiyuthu",
@@ -30,12 +40,6 @@
         77.77989,
         8.86674
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

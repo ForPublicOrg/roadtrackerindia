@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 61.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mahewa, Uttar Pradesh",
     "end": "Mirzapur, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Mirzapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-35", "label": "Met near Mirzapur" },
+    { "id": "nh-135a", "label": "Met near Mirzapur" },
+    { "id": "nh-135c", "label": "Met near Karchana" },
+    { "id": "sh-up-102", "label": "Met near Gaipura" },
+    { "id": "sh-up-133e", "label": "Met near Karchana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahewa",
@@ -39,12 +53,6 @@
         82.54124,
         25.14405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

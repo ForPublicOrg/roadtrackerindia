@@ -18,6 +18,23 @@
       "Shahada"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Meets this road" },
+    { "id": "nh-60", "label": "Met near Malegaon" },
+    { "id": "nh-752g", "label": "Met near Manmad" },
+    { "id": "nh-753be", "label": "Met near Shahada" },
+    { "id": "nh-753j", "label": "Met near Manmad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manmad",
@@ -46,16 +63,6 @@
         74.47634,
         21.52894
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

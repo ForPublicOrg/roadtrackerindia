@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pati, Madhya Pradesh",
     "end": "Barwani, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Barwani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4814", "label": "Met near Pati" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pati",
@@ -30,12 +41,6 @@
         74.81153,
         21.8553
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

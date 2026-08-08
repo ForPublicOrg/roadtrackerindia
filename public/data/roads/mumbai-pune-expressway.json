@@ -20,6 +20,10 @@
     { "name": "Khalapur toll plaza", "note": "Raigad district, on the Mumbai side of the ghats" },
     { "name": "Talegaon toll plaza", "note": "Pune district, on the Pune side of the ghats" }
   ],
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled, and among the more expensive stretches per kilometre in India. Rates are revised every 1 April."
+  },
   "timeline": [
     { "year": "1997", "event": "Construction begins" },
     { "year": "2002", "event": "Fully opened to traffic" },
@@ -53,9 +57,21 @@
     { "name": "Kiwale (Dehu Road)", "note": "Pune end, feeding into Pimpri-Chinchwad and Pune city" }
   ],
   "relatedRoads": [
-    { "id": "nh-48", "label": "The old Mumbai–Pune highway that runs alongside and still carries local and heavy traffic" },
-    { "id": "pune-ring-road", "label": "The ring road being built around Pune, planned to meet the expressway near Urse" },
-    { "id": "atal-setu", "label": "The sea bridge that gives Mumbai traffic a much faster run to the expressway's Navi Mumbai end" }
+    {
+      "id": "nh-48",
+      "label": "The old Mumbai–Pune highway that runs alongside and still carries local and heavy traffic"
+    },
+    {
+      "id": "pune-ring-road",
+      "label": "The ring road being built around Pune, planned to meet the expressway near Urse"
+    },
+    {
+      "id": "atal-setu",
+      "label": "The sea bridge that gives Mumbai traffic a much faster run to the expressway's Navi Mumbai end"
+    },
+    { "id": "nh-548a", "label": "Met near Khopoli" },
+    { "id": "nh-166d", "label": "Met near Khopoli" },
+    { "id": "nh-548", "label": "Met near Panvel" }
   ],
   "travelNotes": "Mumbai to Pune now takes around an hour and a half to two hours with the Missing Link open. Avoid Friday evenings and Sunday evenings, when weekend traffic to and from Lonavala fills the road. Monsoon months bring mist, heavy rain and occasional landslide warnings in the ghats, so speeds drop. Two-wheelers are banned outright. The food plazas at Khalapur and near Lonavala are the traditional halts, famous for vada pav and boxes of Lonavala chikki.",
   "sources": [

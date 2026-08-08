@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kothamangalam, Kerala",
     "end": "Neriamangalam, Kerala",
@@ -16,6 +17,16 @@
       "Neriamangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-malippara-chenkara-punnekkad-road", "label": "Met near Kothamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kothamangalam",
@@ -30,12 +41,6 @@
         76.66735,
         10.14764
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

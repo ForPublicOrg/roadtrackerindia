@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pakshitīrtham, Tamil Nadu",
     "end": "Alapakkam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Alapakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-58", "label": "Met near Chengalpattu" },
+    { "id": "odr-tn-1512", "label": "Met near Thirukazhukundram" },
+    { "id": "odr-tn-6933", "label": "Met near Thirukazhukundram" },
+    { "id": "odr-tn-107", "label": "Met near Chengalpattu" },
+    { "id": "odr-tn-2617", "label": "Met near Thirukazhukundram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pakshitīrtham",
@@ -31,12 +46,6 @@
         80.00562,
         12.67352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

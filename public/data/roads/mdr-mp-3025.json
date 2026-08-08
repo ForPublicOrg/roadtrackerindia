@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Indus Town, Madhya Pradesh",
     "end": "Mandideep, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Mandideep"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3024", "label": "Met near Mandideep" },
+    { "id": "mdr-mp-3031", "label": "Met near Mandideep" },
+    { "id": "mdr-mp-3126", "label": "Met near Mandideep" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Indus Town",
@@ -30,12 +43,6 @@
         77.58014,
         23.09711
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

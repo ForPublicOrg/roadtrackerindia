@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Attingal, Kerala",
     "end": "Kilimanoor, Kerala",
@@ -16,6 +17,17 @@
       "Kilimanoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kollampuhza-avanavanchery-road", "label": "Met near Attingal" },
+    { "id": "kl-ayilam-kalamachal-road", "label": "Met near Attingal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attingal",
@@ -30,12 +42,6 @@
         76.8638,
         8.71538
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

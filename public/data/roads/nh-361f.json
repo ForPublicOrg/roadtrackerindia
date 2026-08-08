@@ -20,6 +20,26 @@
       "Loha"
     ]
   },
+  "significance": "NH 361F is a branch of NH 361. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Shirur Kasar to Loha, and it meets NH 361 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-361",
+      "label": "NH 361 — the highway this branch takes its number from, running Hingna to Tuljapur"
+    },
+    { "id": "nh-52", "label": "Met near Beed" },
+    { "id": "nh-548c", "label": "Met near Wadwani" },
+    { "id": "nh-50", "label": "Met near Loha" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shirur Kasar",
@@ -69,16 +89,6 @@
         77.12391,
         18.95499
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

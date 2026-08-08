@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Rajakkaad, Kerala",
     "end": "Murickassery, Kerala",
@@ -16,6 +17,19 @@
       "Murickassery"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kalkoonthal-mavadi-kailasam-mullarikkudi-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-ponnamala-perinjamkutty-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-melechinnar-perinjamkutty-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-perinjamkutty-karithodu-road", "label": "Met near Rajakkaad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajakkaad",
@@ -30,12 +44,6 @@
         77.06436,
         9.92472
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

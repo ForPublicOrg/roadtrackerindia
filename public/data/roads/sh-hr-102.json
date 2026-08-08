@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 64,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Jakhal, Haryana",
     "end": "Barwala, Haryana",
@@ -17,6 +18,18 @@
       "Barwala"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Jakhal" },
+    { "id": "sh-hr-10", "label": "Met near Barwala" },
+    { "id": "sh-hr-101", "label": "Met near Bhuna" },
+    { "id": "mdr-pb-18", "label": "Met near Jakhal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jakhal",
@@ -38,12 +51,6 @@
         75.83539,
         29.32493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

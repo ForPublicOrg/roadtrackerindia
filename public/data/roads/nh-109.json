@@ -20,6 +20,22 @@
       "Karnaprayag"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-109k", "label": "A branch off this highway, running Karnaprayag to Didihat" },
+    { "id": "nh-9", "label": "Met near Rudrapur" },
+    { "id": "nh-7", "label": "Met near Karnaprayag" },
+    { "id": "nh-309", "label": "Met near Rudrapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rudrapur",
@@ -83,16 +99,6 @@
         79.21715,
         30.25796
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

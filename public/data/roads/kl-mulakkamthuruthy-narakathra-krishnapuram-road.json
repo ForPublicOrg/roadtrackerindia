@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vandipetta, Kerala",
     "end": "Mathumoola, Kerala",
@@ -16,6 +17,23 @@
       "Mathumoola"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kunnamkary-kumaramkary-paral-changanacherry-road", "label": "Met near Changanassery" },
+    {
+      "id": "kl-narakathara-payattupakka-chakka-chambakka-akkanady-neelamper",
+      "label": "Met near Changanassery"
+    },
+    { "id": "kl-krishnapuram-kavalam-road", "label": "Met near Changanassery" },
+    { "id": "kl-thuruthy-mulackamthuruthy-road", "label": "Met near Changanassery" },
+    { "id": "kl-narakathra-nss-karayogam-kuttissery-junction-road", "label": "Met near Changanassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandipetta",
@@ -30,12 +48,6 @@
         76.50576,
         9.47503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

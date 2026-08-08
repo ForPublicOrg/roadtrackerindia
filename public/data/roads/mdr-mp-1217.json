@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Vindhyanagar, Madhya Pradesh",
     "end": "Sarai, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Sarai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-1212", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vindhyanagar",
@@ -30,12 +41,6 @@
         82.43169,
         23.82771
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

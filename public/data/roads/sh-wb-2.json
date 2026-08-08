@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 317.8,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Bankura, West Bengal",
     "end": "Barrackpore, West Bengal",
@@ -22,6 +23,19 @@
       "Barrackpore"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Bishnupur" },
+    { "id": "kalyani-expressway", "label": "Met near Barrackpore" },
+    { "id": "belghoria-expressway", "label": "Met near Baranagar" },
+    { "id": "nh-16", "label": "Met near Bally" },
+    { "id": "nh-12", "label": "Met near Baranagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bankura",
@@ -113,12 +127,6 @@
         88.37539,
         22.76501
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Satyavedu, Andhra Pradesh",
     "end": "Uthukottai, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Uthukottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-52", "label": "Met near Satyavedu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satyavedu",
@@ -30,12 +41,6 @@
         79.94404,
         13.4196
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

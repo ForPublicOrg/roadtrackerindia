@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Dhanbad, Jharkhand",
     "end": "Chas, Jharkhand",
@@ -18,6 +19,19 @@
       "Chas"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Chas" },
+    { "id": "nh-18", "label": "Met near Dhanbad" },
+    { "id": "nh-218", "label": "Met near Pathardih" },
+    { "id": "mdr-jh-48", "label": "Met near Dhanbad" },
+    { "id": "mdr-jh-251", "label": "Met near Pathardih" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanbad",
@@ -46,12 +60,6 @@
         86.16212,
         23.6376
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 86.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Banda, Uttar Pradesh",
     "end": "Rajapur, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Rajapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "bundelkhand-expressway", "label": "Met near Banda" },
+    { "id": "nh-35", "label": "Met near Banda" },
+    { "id": "nh-731a", "label": "Met near Rajapur" },
+    { "id": "nh-335", "label": "Met near Banda" },
+    { "id": "sh-up-71", "label": "Met near Baberu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banda",
@@ -38,12 +52,6 @@
         81.1428,
         25.3898
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

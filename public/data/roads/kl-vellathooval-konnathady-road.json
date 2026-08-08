@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anachal, Kerala",
     "end": "Murickassery, Kerala",
@@ -16,6 +17,17 @@
       "Murickassery"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-panickankudy-kombodinjal-ponmudi-road", "label": "Met near Murickassery" },
+    { "id": "kl-adimaly-chithirapuram-road-thottapura-vellathooval-road", "label": "Met near Anachal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anachal",
@@ -30,12 +42,6 @@
         77.02552,
         9.95992
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

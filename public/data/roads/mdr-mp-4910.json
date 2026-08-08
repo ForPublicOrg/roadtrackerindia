@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 69.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dharmapuri, Madhya Pradesh",
     "end": "Bhikangaon, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Bhikangaon"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347c", "label": "Met near Kasrawad" },
+    { "id": "mdr-mp-4914", "label": "Met near Bhikangaon" },
+    { "id": "mdr-mp-4913", "label": "Meets this road" },
+    { "id": "mdr-mp-4909", "label": "Meets this road" },
+    { "id": "mdr-mp-4801", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharmapuri",
@@ -30,12 +45,6 @@
         75.90914,
         22.00835
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

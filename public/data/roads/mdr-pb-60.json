@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 36.8,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Phagwara, Punjab",
     "end": "Hoshiarpur, Punjab",
@@ -16,6 +17,18 @@
       "Hoshiarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Phagwara" },
+    { "id": "nh-103a", "label": "Met near Hoshiarpur" },
+    { "id": "nh-344b", "label": "Met near Phagwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phagwara",
@@ -30,12 +43,6 @@
         75.90546,
         31.53231
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

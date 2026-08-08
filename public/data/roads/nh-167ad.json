@@ -18,6 +18,22 @@
       "Kola Satyanarayana Reddy Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-565", "label": "Met near Macherla" },
+    { "id": "nh-167a", "label": "Met near Dachepalli" },
+    { "id": "sh-ap-2", "label": "Met near Dachepalli" },
+    { "id": "sh-ap-89", "label": "Met near Macherla" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Macherla",
@@ -46,16 +62,6 @@
         79.7254,
         16.6011
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

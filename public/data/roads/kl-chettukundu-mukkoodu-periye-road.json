@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Athinhal, Kerala",
     "end": "Periya, Kerala",
@@ -16,6 +17,18 @@
       "Periya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-57", "label": "Met near Periya" },
+    { "id": "mdr-kl-17", "label": "Met near Periya" },
+    { "id": "kl-poochakkad-mosque-periya-road", "label": "Met near Periya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athinhal",
@@ -30,12 +43,6 @@
         75.06492,
         12.3786
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

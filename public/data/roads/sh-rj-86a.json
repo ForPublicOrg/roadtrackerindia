@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 47.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhopalgarh, Rajasthan",
     "end": "Gothan, Rajasthan",
@@ -17,6 +18,19 @@
       "Gothan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-62", "label": "Meets this road" },
+    { "id": "sh-rj-63", "label": "Met near Asop" },
+    { "id": "sh-rj-86c", "label": "Met near Asop" },
+    { "id": "sh-rj-86b", "label": "Met near Gothan" },
+    { "id": "sh-rj-86", "label": "Met near Gothan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhopalgarh",
@@ -38,12 +52,6 @@
         73.73869,
         26.65404
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

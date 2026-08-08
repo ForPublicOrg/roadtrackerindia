@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozha, Kerala",
     "end": "Koothattukulam, Kerala",
@@ -16,6 +17,20 @@
       "Koothattukulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Kuravilangad" },
+    { "id": "sh-kl-1", "label": "Met near Koothattukulam" },
+    { "id": "sh-kl-40", "label": "Met near Koothattukulam" },
+    { "id": "sh-kl-42", "label": "Met near Koothattukulam" },
+    { "id": "kl-uzhavoor-neerupothy-puthuveli-road", "label": "Met near Kuravilangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozha",
@@ -30,12 +45,6 @@
         76.54629,
         9.83051
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

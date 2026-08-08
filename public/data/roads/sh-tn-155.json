@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 18.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nilakkottai, Tamil Nadu",
     "end": "Batlagundu, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Batlagundu"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-154", "label": "Met near Batlagundu" },
+    { "id": "sh-tn-73", "label": "Met near Nilakkottai" },
+    { "id": "sh-tn-285", "label": "Met near Nilakkottai" },
+    { "id": "sh-tn-u165", "label": "Met near Nilakkottai" },
+    { "id": "mdr-tn-902", "label": "Met near Batlagundu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nilakkottai",
@@ -30,12 +44,6 @@
         77.75931,
         10.16339
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

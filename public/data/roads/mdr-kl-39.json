@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Bovikkanam, Kerala",
     "end": "Odayamchal, Kerala",
@@ -16,6 +17,19 @@
       "Odayamchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-99", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-129", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-24", "label": "Met near Mulleria" },
+    { "id": "kl-pandi-pallanji-bethurpara-road", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bovikkanam",
@@ -30,12 +44,6 @@
         75.21024,
         12.47668
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

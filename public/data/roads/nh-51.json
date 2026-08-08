@@ -1,10 +1,12 @@
 {
   "id": "nh-51",
   "ref": "NH 51",
-  "name": "Beyt–Dhrangadhra National Highway",
+  "name": "Bet Dwarka–Dhrangadhra Coastal Highway",
+  "aka": ["Saurashtra coastal highway"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 791.4,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Beyt, Gujarat",
     "end": "Dhrangadhra, Gujarat",
@@ -25,6 +27,33 @@
       "Dhrangadhra"
     ]
   },
+  "history": "National Highway 51 traces the southern coast of the Saurashtra peninsula, from Bet Dwarka at the far western tip through Porbandar, Somnath and Veraval, past the Alang shipbreaking yards to Bhavnagar, and then inland to Surendranagar and Dhrangadhra. It strings together most of Gujarat's coastal pilgrimage and fishing towns on one road, and it carries the traffic of one of the busiest working coastlines in India.",
+  "facts": [
+    "Links Dwarka and Somnath, two of the most visited temple towns in Gujarat.",
+    "Passes Porbandar, the birthplace of Mahatma Gandhi.",
+    "Runs beside Alang, the largest shipbreaking yard in the world.",
+    "Serves Veraval and the other fishing harbours of the Saurashtra coast.",
+    "The inland end at Dhrangadhra sits on the edge of the Little Rann of Kutch."
+  ],
+  "significance": "Saurashtra's coast is a chain of pilgrimage towns, fishing harbours and industrial ports, and this is the road that joins them. For pilgrims travelling the Dwarka–Somnath circuit it is the whole journey.",
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The Porbandar–Silchar highway that starts on the same coast" },
+    { "id": "nh-47", "label": "The Bamanbore–Nagpur highway crossing Gujarat inland" },
+    { "id": "nh-947", "label": "Met near Dhrangadhra" },
+    { "id": "nh-351", "label": "Met near Mahuva" },
+    { "id": "nh-751", "label": "Met near Bhavnagar" }
+  ],
+  "travelNotes": "A long coastal drive with plenty of towns to stop in. Traffic peaks sharply around Dwarka and Somnath on festival days, and around Alang with heavy scrap lorries.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Beyt",
@@ -144,16 +173,6 @@
         71.45749,
         23.01104
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

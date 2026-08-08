@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 61.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chittaranjan, West Bengal",
     "end": "Jarmundi, Jharkhand",
@@ -17,6 +18,18 @@
       "Jarmundi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-239", "label": "Met near Kundahit" },
+    { "id": "mdr-jh-238", "label": "Meets this road" },
+    { "id": "mdr-jh-199", "label": "Met near Kundahit" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chittaranjan",
@@ -38,12 +51,6 @@
         87.19944,
         24.28247
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

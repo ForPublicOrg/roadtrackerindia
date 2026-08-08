@@ -1,10 +1,11 @@
 {
   "id": "kona-expressway",
-  "ref": "NH",
+  "ref": "Kona Expressway",
   "name": "Kona Expressway",
   "category": "expressway",
   "status": "operational",
   "lengthKm": 11.5,
+  "lanes": "4 lanes",
   "route": {
     "start": "Watganj, West Bengal",
     "end": "Domjur, West Bengal",
@@ -18,6 +19,32 @@
       "Domjur"
     ]
   },
+  "history": "The Kona Expressway is a short, fast link across Howrah that connects the western end of the Vidyasagar Setu — the cable-stayed bridge into central Kolkata — with the national highway at Dhulagarh and Domjur. It was built so that traffic leaving Kolkata for the west would not have to crawl through Howrah's streets, and it is the road most long-distance buses and trucks use to leave the city.",
+  "facts": [
+    "Connects the Vidyasagar Setu approach to the national highway west of Howrah.",
+    "Named after Kona, the Howrah locality it runs through.",
+    "It is the standard route out of Kolkata towards Kharagpur, Odisha and Mumbai.",
+    "Only a few kilometres long, but it saves a long crawl through central Howrah."
+  ],
+  "significance": "Kolkata sits on the east bank of the Hooghly and almost all of its road freight leaves westward across it. This short expressway is the funnel that traffic passes through.",
+  "relatedRoads": [
+    { "id": "belghoria-expressway", "label": "The matching fast link on the northern, Kolkata side" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai highway this road feeds into" },
+    { "id": "nh-12", "label": "Met near Howrah" },
+    { "id": "kolkata-grand-trunk-road", "label": "Met near Howrah" },
+    { "id": "sh-wb-6", "label": "Met near Howrah" }
+  ],
+  "travelNotes": "Short and usually quick, but the Vidyasagar Setu toll plaza at the Kolkata end is the pinch point at rush hour.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Watganj",
@@ -53,16 +80,6 @@
         88.25943,
         22.6058
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

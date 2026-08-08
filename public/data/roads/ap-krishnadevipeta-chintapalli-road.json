@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 41.9,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Krishnadevipeta, Andhra Pradesh",
     "end": "Chintapalle, Andhra Pradesh",
@@ -16,6 +17,15 @@
       "Chintapalle"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-516e", "label": "Met near Krishnadevipeta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnadevipeta",
@@ -30,12 +40,6 @@
         82.3079,
         17.86157
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

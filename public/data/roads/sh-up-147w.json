@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 81.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Jalalabad, Uttar Pradesh",
     "end": "Gangoh, Uttar Pradesh",
@@ -19,6 +20,16 @@
       "Gangoh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-344", "label": "Met near Saharanpur" },
+    { "id": "nh-709b", "label": "Met near Jalalabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jalalabad",
@@ -54,12 +65,6 @@
         77.27068,
         29.78261
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

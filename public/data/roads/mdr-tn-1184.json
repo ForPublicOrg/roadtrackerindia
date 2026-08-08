@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 36.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Satyamangalam, Tamil Nadu",
     "end": "Kaikattipudur, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Kaikattipudur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Avinashi" },
+    { "id": "sh-tn-15", "label": "Met near Satyamangalam" },
+    { "id": "sh-tn-15a", "label": "Met near Nambiyur" },
+    { "id": "sh-tn-u155", "label": "Met near Avinashi" },
+    { "id": "mdr-tn-888a", "label": "Met near Nambiyur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satyamangalam",
@@ -39,12 +54,6 @@
         77.30299,
         11.19883
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

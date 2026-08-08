@@ -17,6 +17,20 @@
       "Singoli"
     ]
   },
+  "significance": "SH 53, Neemuch–Singoli State Highway, crosses the border between Madhya Pradesh and Rajasthan. A state road that runs through more than one state has no single owner — MP PWD and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-mp-7", "label": "Meets this road" },
+    { "id": "sh-rj-9a", "label": "Met near Singoli" },
+    { "id": "mdr-mp-2107", "label": "Meets this road" },
+    { "id": "mdr-mp-2103", "label": "Meets this road" },
+    { "id": "mdr-mp-2108", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neemuch",
@@ -31,12 +45,6 @@
         75.29177,
         24.96867
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

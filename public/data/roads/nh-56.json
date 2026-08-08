@@ -1,10 +1,11 @@
 {
   "id": "nh-56",
   "ref": "NH 56",
-  "name": "Somnagar–Vapi National Highway",
+  "name": "Chittorgarh–Vapi Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 736.7,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Somnagar, Rajasthan",
     "end": "Vapi, Gujarat",
@@ -26,6 +27,31 @@
       "Vapi"
     ]
   },
+  "history": "National Highway 56 runs south-west from the Chittorgarh area of Rajasthan through Pratapgarh and Banswara into the tribal districts of eastern Gujarat and western Madhya Pradesh — Dahod, Alirajpur, Chhota Udepur — then past Kevadiya and Rajpipla and down through the Dangs to the coast at Vapi. It is one of the few good roads through this hill country, which sits at the meeting point of three states and has historically been among the least connected parts of western India.",
+  "facts": [
+    "Passes Kevadiya, where the Statue of Unity stands beside the Sardar Sarovar dam.",
+    "Crosses the tribal belt where Rajasthan, Gujarat and Madhya Pradesh meet.",
+    "It links the Aravalli foothills to the industrial coast of south Gujarat at Vapi.",
+    "Banswara, on the route, is known as the city of a hundred islands for the lakes of the Mahi river."
+  ],
+  "significance": "It gives the tribal districts of the Rajasthan–Gujarat–Madhya Pradesh border a direct road to the industrial belt of south Gujarat, and it is the main approach to the Statue of Unity from the north.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Delhi–Mumbai highway met at the Vapi end" },
+    { "id": "delhi-mumbai-expressway", "label": "Met near Dahod" },
+    { "id": "surat-chennai-expressway", "label": "Meets this road" },
+    { "id": "nh-27", "label": "Met near Chittorgarh" }
+  ],
+  "travelNotes": "Hilly and winding in the middle sections through Alirajpur and Chhota Udepur. The Kevadiya stretch is busy with visitor traffic at weekends.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Somnagar",
@@ -145,16 +171,6 @@
         72.92212,
         20.36455
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhinmal, Rajasthan",
     "end": "Raniwar, Rajasthan",
@@ -16,6 +17,16 @@
       "Raniwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-16a", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhinmal",
@@ -30,12 +41,6 @@
         72.35435,
         24.84365
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

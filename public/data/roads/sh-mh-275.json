@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 59.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Desaiganj, Maharashtra",
     "end": "Sadak-Arjuni, Maharashtra",
@@ -17,6 +18,19 @@
       "Sadak-Arjuni"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Sadak-Arjuni" },
+    { "id": "nh-543", "label": "Met near Desaiganj" },
+    { "id": "nh-753", "label": "Met near Sadak-Arjuni" },
+    { "id": "sh-mh-233", "label": "Met near Desaiganj" },
+    { "id": "sh-mh-277", "label": "Met near Arjuni Morgaon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Desaiganj",
@@ -38,12 +52,6 @@
         80.14761,
         21.08007
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

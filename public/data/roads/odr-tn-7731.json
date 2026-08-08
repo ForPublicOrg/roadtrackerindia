@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thirumazhisai, Tamil Nadu",
     "end": "Pattabiram, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Pattabiram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-outer-ring-road", "label": "Met near Avadi" },
+    { "id": "sh-tn-234", "label": "Met near Avadi" },
+    { "id": "sh-tn-50", "label": "Met near Thirumazhisai" },
+    { "id": "sh-tn-206", "label": "Met near Avadi" },
+    { "id": "odr-tn-1021", "label": "Met near Thirumazhisai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thirumazhisai",
@@ -30,12 +45,6 @@
         80.05659,
         13.08945
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

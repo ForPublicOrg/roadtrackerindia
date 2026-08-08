@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherkala, Kerala",
     "end": "Chengala, Kerala",
@@ -17,6 +18,18 @@
       "Chengala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-31", "label": "Met near Cherkala" },
+    { "id": "mdr-kl-2", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-74", "label": "Met near Cherkala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherkala",
@@ -38,12 +51,6 @@
         75.07121,
         12.5261
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

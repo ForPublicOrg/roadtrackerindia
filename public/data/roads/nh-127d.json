@@ -17,6 +17,20 @@
       "Rangia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Rangia" },
+    { "id": "sh-as-10", "label": "Met near Tamulpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Samdrup Jongkhar",
@@ -38,16 +52,6 @@
         91.62094,
         26.44398
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

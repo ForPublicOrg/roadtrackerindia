@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 54.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Devadānappatti, Tamil Nadu",
     "end": "Kodaikanal, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Kodaikanal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Devadānappatti" },
+    { "id": "mdr-tn-170", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-171", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-902", "label": "Met near Devadānappatti" },
+    { "id": "mdr-tn-897", "label": "Met near Kodaikanal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devadānappatti",
@@ -45,12 +59,6 @@
         77.48914,
         10.23326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

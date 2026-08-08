@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Perungalathur, Tamil Nadu",
     "end": "Kolapakkam, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Kolapakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-bypass-expressway", "label": "Met near Tambaram" },
+    { "id": "nh-32", "label": "Met near Tambaram" },
+    { "id": "sh-tn-48", "label": "Met near Tambaram" },
+    { "id": "sh-tn-u88", "label": "Met near Tambaram" },
+    { "id": "sh-tn-121", "label": "Met near Kolapakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Perungalathur",
@@ -46,12 +61,6 @@
         80.10652,
         12.87051
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

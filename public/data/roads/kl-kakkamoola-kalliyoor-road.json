@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalliyoor, Kerala",
     "end": "Pallichal, Kerala",
@@ -18,6 +19,18 @@
       "Pallichal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pallichal-vizhinjam-road", "label": "Met near Balaramapuram" },
+    { "id": "kl-nemom-punnamoodu-road", "label": "Met near Balaramapuram" },
+    { "id": "kl-peringamala-kakkamoola-road", "label": "Met near Kalliyoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalliyoor",
@@ -39,12 +52,6 @@
         77.01669,
         8.43252
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

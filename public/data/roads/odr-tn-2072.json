@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mahabalipuram, Tamil Nadu",
     "end": "Pakshitīrtham, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Pakshitīrtham"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-49b", "label": "Met near Mahabalipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahabalipuram",
@@ -30,12 +41,6 @@
         80.13758,
         12.64535
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

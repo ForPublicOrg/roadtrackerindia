@@ -23,6 +23,23 @@
       "Vitla"
     ]
   },
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Ramanagara" },
+    { "id": "bangalore-mysore-expressway", "label": "Met near Kengeri" },
+    { "id": "mysuru-kushalnagar-expressway", "label": "Met near Kushalanagara" },
+    { "id": "nice-road", "label": "Met near Challaghatta" },
+    { "id": "nh-150a", "label": "Met near Mysuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jnana Bharathi",
@@ -121,16 +138,6 @@
         75.12094,
         12.83621
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

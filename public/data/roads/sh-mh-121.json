@@ -19,6 +19,20 @@
       "Vengurla"
     ]
   },
+  "significance": "SH 121, Hindalaga–Vengurla State Highway, crosses the border between Karnataka and Maharashtra. A state road that runs through more than one state has no single owner — Karnataka PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Sawantwadi" },
+    { "id": "nh-548h", "label": "Met near Sawantwadi" },
+    { "id": "sh-mh-4", "label": "Met near Vengurla" },
+    { "id": "sh-ka-20", "label": "Met near Belagavi" },
+    { "id": "sh-mh-130", "label": "Met near Chandgad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hindalaga",
@@ -47,12 +61,6 @@
         73.63197,
         15.8622
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

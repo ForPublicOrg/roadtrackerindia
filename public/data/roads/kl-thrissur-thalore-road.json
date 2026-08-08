@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalore, Kerala",
     "end": "Thrissur, Kerala",
@@ -18,6 +19,20 @@
       "Thrissur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Thalore" },
+    { "id": "sh-kl-69", "label": "Met near Thrissur" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Ollur" },
+    { "id": "kl-edakkunny-road", "label": "Met near Ollur" },
+    { "id": "kl-thrissur-mannuthy-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalore",
@@ -53,12 +68,6 @@
         76.21673,
         10.52267
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

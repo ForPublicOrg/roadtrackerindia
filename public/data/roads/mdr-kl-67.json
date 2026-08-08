@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Badiadka, Kerala",
     "end": "Kumbala, Kerala",
@@ -16,6 +17,20 @@
       "Kumbala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-95", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-103", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-108b", "label": "Met near Badiadka" },
+    { "id": "kl-mugu-ponnamkala-urumi-padladka-road", "label": "Met near Badiadka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badiadka",
@@ -30,12 +45,6 @@
         75.01117,
         12.6259
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

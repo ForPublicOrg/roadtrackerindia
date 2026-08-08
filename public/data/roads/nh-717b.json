@@ -19,6 +19,20 @@
       "Rhenock"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-717a", "label": "Met near Rhenock" },
+    { "id": "nh-310", "label": "Met near Xiayadong" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Xiayadong",
@@ -54,16 +68,6 @@
         88.64576,
         27.17328
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

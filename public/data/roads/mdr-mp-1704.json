@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Niwari, Madhya Pradesh",
     "end": "Babina, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Babina"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-539", "label": "Met near Niwari" },
+    { "id": "mdr-mp-1705", "label": "Meets this road" },
+    { "id": "mdr-mp-1703", "label": "Met near Niwari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Niwari",
@@ -30,12 +43,6 @@
         78.66782,
         25.07131
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Jakkur, Karnataka",
     "end": "Yelahanka, Karnataka",
@@ -16,6 +17,17 @@
       "Yelahanka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Yelahanka" },
+    { "id": "bengaluru-business-corridor", "label": "Met near Yelahanka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jakkur",
@@ -30,12 +42,6 @@
         77.60062,
         13.10351
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -23,6 +23,23 @@
       "Shamli"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Rameshwar Park" },
+    { "id": "eastern-peripheral-expressway", "label": "Met near Baghpat" },
+    { "id": "nh-9", "label": "Met near Loni" },
+    { "id": "nh-709a", "label": "Met near Shamli" },
+    { "id": "nh-334b", "label": "Met near Baghpat" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahdara",
@@ -93,16 +110,6 @@
         77.29412,
         29.43073
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

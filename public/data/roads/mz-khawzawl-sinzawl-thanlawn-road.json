@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 56.9,
+  "authority": "mizoram-pwd",
   "route": {
     "start": "Khawzawl, Mizoram",
     "end": "Champhai, Mizoram",
@@ -16,6 +17,16 @@
       "Champhai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Khawzawl" },
+    { "id": "nh-102b", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khawzawl",
@@ -30,12 +41,6 @@
         93.15765,
         23.79322
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

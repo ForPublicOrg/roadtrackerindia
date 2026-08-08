@@ -16,6 +16,22 @@
       "Jaunpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-731", "label": "Met near Jaunpur" },
+    { "id": "nh-28", "label": "Meets this road" },
+    { "id": "sh-up-97e", "label": "Met near Lalganj" },
+    { "id": "sh-up-153e", "label": "Met near Jaunpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalganj",
@@ -30,16 +46,6 @@
         82.72664,
         25.76087
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

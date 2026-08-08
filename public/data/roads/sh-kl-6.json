@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kayamkulam, Kerala",
     "end": "Thiruvalla, Kerala",
@@ -17,6 +18,19 @@
       "Thiruvalla"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Thiruvalla" },
+    { "id": "sh-kl-1", "label": "Met near Thiruvalla" },
+    { "id": "sh-kl-5", "label": "Met near Kayamkulam" },
+    { "id": "sh-kl-10", "label": "Met near Mavelikkara" },
+    { "id": "sh-kl-12", "label": "Met near Thiruvalla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kayamkulam",
@@ -52,12 +66,6 @@
         76.5741,
         9.38313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

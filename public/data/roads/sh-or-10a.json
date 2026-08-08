@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.6,
+  "authority": "odisha-works",
   "route": {
     "start": "Banaigarh, Odisha",
     "end": "PurunapaniRange, Odisha",
@@ -16,6 +17,16 @@
       "PurunapaniRange"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-49", "label": "Met near PurunapaniRange" },
+    { "id": "nh-520", "label": "Met near Banaigarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banaigarh",
@@ -30,12 +41,6 @@
         85.01999,
         21.53662
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

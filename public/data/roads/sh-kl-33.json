@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 71.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mechal, Kerala",
     "end": "Parakadavu, Kerala",
@@ -19,6 +20,19 @@
       "Parakadavu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-185", "label": "Met near Kattappana" },
+    { "id": "sh-kl-59", "label": "Met near Kattappana" },
+    { "id": "sh-kl-41", "label": "Met near Mechal" },
+    { "id": "sh-kl-43", "label": "Met near Kattappana" },
+    { "id": "sh-kl-19", "label": "Met near Kattappana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mechal",
@@ -68,12 +82,6 @@
         77.15173,
         9.75216
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

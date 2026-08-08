@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Salem, Tamil Nadu",
     "end": "Dadagapatti, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Dadagapatti"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Salem" },
+    { "id": "nh-79", "label": "Met near Salem" },
+    { "id": "sh-tn-u80", "label": "Met near Salem" },
+    { "id": "sh-tn-u54", "label": "Met near Salem" },
+    { "id": "sh-tn-218", "label": "Met near Salem" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Salem",
@@ -37,12 +51,6 @@
         78.14965,
         11.63376
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

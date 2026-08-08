@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Venganoor, Kerala",
     "end": "Thiruvallam, Kerala",
@@ -17,6 +18,17 @@
       "Thiruvallam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-trivandrum-vizhinjam-road", "label": "Met near Thiruvallam" },
+    { "id": "kl-pallichal-vizhinjam-road", "label": "Met near Venganoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Venganoor",
@@ -52,12 +64,6 @@
         76.96603,
         8.4313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

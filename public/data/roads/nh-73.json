@@ -1,10 +1,11 @@
 {
   "id": "nh-73",
   "ref": "NH 73",
-  "name": "Kyatasandra–Padil National Highway",
+  "name": "Tumakuru–Mangaluru Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 323.8,
+  "lanes": "2 lanes, widened in places; ghat section",
   "route": {
     "start": "Kyatasandra, Karnataka",
     "end": "Padil, Karnataka",
@@ -23,6 +24,33 @@
       "Padil"
     ]
   },
+  "history": "National Highway 73 runs west from Tumakuru through Tiptur and Arsikere to Belur, then climbs down the Western Ghats through the Charmadi Ghat to Belthangady and Mangaluru on the coast. The Charmadi is one of the three main ghat crossings between Bengaluru and coastal Karnataka, and it is the narrowest and most scenic of them.",
+  "facts": [
+    "Crosses the Western Ghats by the Charmadi Ghat, a tight, steeply banked mountain road.",
+    "Passes Belur, whose Hoysala temple was made a UNESCO World Heritage Site in 2023.",
+    "Tiptur, on the route, is one of the largest coconut markets in India.",
+    "It is one of only three main road crossings of the Ghats between Bengaluru and Mangaluru."
+  ],
+  "significance": "Coastal Karnataka trades with the interior over a handful of ghat roads. When the Shiradi Ghat closes for repair — which it often does — Charmadi carries the load.",
+  "relatedRoads": [
+    { "id": "nh-75", "label": "The Shiradi Ghat route, the other main road down to Mangaluru" },
+    { "id": "nh-66", "label": "The coastal highway met at Mangaluru" },
+    { "id": "nh-48", "label": "The Bengaluru–Pune highway met at Tumakuru" },
+    { "id": "nh-150a", "label": "Met near Chikkanayakanahalli" },
+    { "id": "nh-69", "label": "Met near Arasikere" },
+    { "id": "nh-169", "label": "Met near Mangaluru" }
+  ],
+  "travelNotes": "The Charmadi Ghat has tight hairpins and is not comfortable for large vehicles or nervous drivers. Landslides close it in heavy monsoon. Avoid it after dark in the rains.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kyatasandra",
@@ -107,16 +135,6 @@
         74.8826,
         12.87512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

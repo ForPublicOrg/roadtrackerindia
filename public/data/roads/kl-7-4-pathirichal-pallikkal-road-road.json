@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mananthavady, Kerala",
     "end": "Panamaram, Kerala",
@@ -16,6 +17,18 @@
       "Panamaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mananthavady-pakramthalam-road", "label": "Met near Mananthavady" },
+    { "id": "kl-mananthavady-kandothuvayal-road", "label": "Met near Mananthavady" },
+    { "id": "kl-thonichal-pallikkal-road", "label": "Met near Mananthavady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mananthavady",
@@ -30,12 +43,6 @@
         75.96965,
         11.73795
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

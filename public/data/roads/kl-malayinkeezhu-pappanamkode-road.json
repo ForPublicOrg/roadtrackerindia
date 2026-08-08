@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Malayinkeezhu, Kerala",
     "end": "Nemom, Kerala",
@@ -16,6 +17,16 @@
       "Nemom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-santhamoola-machel-road", "label": "Met near Malayinkeezhu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malayinkeezhu",
@@ -37,12 +48,6 @@
         77.00438,
         8.46946
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

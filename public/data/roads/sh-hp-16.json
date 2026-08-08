@@ -20,6 +20,19 @@
       "Prospect Hill"
     ]
   },
+  "significance": "SH 16, Bharatgarh–Prospect Hill State Highway, crosses the border between Punjab and Himachal Pradesh. A state road that runs through more than one state has no single owner — Punjab PWD (B&R) and HP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-205", "label": "Met near Shimla" },
+    { "id": "nh-105", "label": "Met near Nalagarh" },
+    { "id": "sh-hp-9", "label": "Met near Kunihar" },
+    { "id": "mdr-pb-59", "label": "Met near Bharatgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bharatgarh",
@@ -55,12 +68,6 @@
         77.12538,
         31.09104
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

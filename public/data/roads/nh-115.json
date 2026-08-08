@@ -19,6 +19,23 @@
       "Roing"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-13", "label": "Met near Roing" },
+    { "id": "nh-15", "label": "Met near Kakopathar" },
+    { "id": "nh-313", "label": "Met near Roing" },
+    { "id": "sh-as-1", "label": "Met near Kakopathar" },
+    { "id": "sh-as-48", "label": "Met near Chapakhowa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kakopathar",
@@ -47,16 +64,6 @@
         95.8201,
         28.1153
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

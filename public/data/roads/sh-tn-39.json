@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 57,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tirunelveli, Tamil Nadu",
     "end": "Shencottai, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Shencottai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Tenkasi" },
+    { "id": "sh-tn-40", "label": "Met near Tenkasi" },
+    { "id": "sh-tn-41", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-41a", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-39a", "label": "Met near Pavoorchatram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tirunelveli",
@@ -54,12 +68,6 @@
         77.27967,
         8.96395
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

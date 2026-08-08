@@ -103,6 +103,8 @@ export interface RoadIndex {
   generated: string
   count: number
   roads: RoadSummary[]
+  /** Old road id → the id it was merged into, so its links keep working. */
+  aliases?: Record<string, string>
 }
 
 // ── places: where a city or a state is on the ground ────────────────

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khitola, Madhya Pradesh",
     "end": "Panagar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Panagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Meets this road" },
+    { "id": "mdr-mp-3707", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khitola",
@@ -30,12 +42,6 @@
         80.34266,
         23.21805
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

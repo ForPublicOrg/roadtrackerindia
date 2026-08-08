@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khirkiya, Madhya Pradesh",
     "end": "Chhanera, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Chhanera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-71", "label": "Met near Khirkiya" },
+    { "id": "mdr-mp-3410", "label": "Met near Khirkiya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khirkiya",
@@ -30,12 +42,6 @@
         76.94179,
         22.00231
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

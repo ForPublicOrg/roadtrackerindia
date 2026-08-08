@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Shahpura, Madhya Pradesh",
     "end": "Panagar, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Panagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahpura",
@@ -30,12 +41,6 @@
         80.3544,
         23.21657
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

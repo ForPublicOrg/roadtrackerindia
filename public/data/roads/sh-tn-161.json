@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 45.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thathaiyangarpet, Tamil Nadu",
     "end": "Namakkal, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Namakkal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-381b", "label": "Met near Namakkal" },
+    { "id": "sh-tn-25", "label": "Met near Namakkal" },
+    { "id": "sh-tn-95", "label": "Met near Namakkal" },
+    { "id": "sh-tn-u121", "label": "Met near Namakkal" },
+    { "id": "mdr-tn-277", "label": "Met near Thathaiyangarpet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thathaiyangarpet",
@@ -38,12 +52,6 @@
         78.16919,
         11.21813
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

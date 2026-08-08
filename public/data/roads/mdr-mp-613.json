@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 62.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pohari, Madhya Pradesh",
     "end": "Shivpuri, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Shivpuri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-51a", "label": "Met near Pohari" },
+    { "id": "mdr-mp-612", "label": "Met near Shivpuri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pohari",
@@ -30,12 +42,6 @@
         77.58339,
         25.37748
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

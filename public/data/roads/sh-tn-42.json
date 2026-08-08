@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 109.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Manamadurai, Tamil Nadu",
     "end": "Srivilliputhur, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Srivilliputhur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Virudhunagar" },
+    { "id": "nh-744", "label": "Met near Srivilliputhur" },
+    { "id": "sh-tn-154", "label": "Met near Aruppukkottai" },
+    { "id": "sh-tn-38", "label": "Met near Aruppukkottai" },
+    { "id": "sh-tn-47", "label": "Met near Manamadurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manamadurai",
@@ -54,12 +68,6 @@
         77.63313,
         9.5122
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

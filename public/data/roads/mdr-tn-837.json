@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vedaranyam, Tamil Nadu",
     "end": "Thiruthuraipoondi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Thiruthuraipoondi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-63", "label": "Met near Vedaranyam" },
+    { "id": "mdr-tn-685", "label": "Met near Vedaranyam" },
+    { "id": "mdr-tn-1012", "label": "Met near Vedaranyam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vedaranyam",
@@ -30,12 +43,6 @@
         79.78214,
         10.35598
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

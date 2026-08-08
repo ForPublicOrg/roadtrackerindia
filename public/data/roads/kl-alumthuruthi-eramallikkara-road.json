@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kavumbhagom, Kerala",
     "end": "Kurattikkadu, Kerala",
@@ -16,6 +17,20 @@
       "Kurattikkadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Thiruvalla" },
+    { "id": "sh-kl-6", "label": "Met near Thiruvalla" },
+    { "id": "kl-niranam-alumthuruthy-kuthiyathodu-road", "label": "Met near Thiruvalla" },
+    { "id": "kl-thiruvanvandoor-eramallikkara-road", "label": "Met near Thiruvalla" },
+    { "id": "kl-alumthuruthy-chala-chakkulam-panachimood-thokkanady-road", "label": "Met near Thiruvalla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kavumbhagom",
@@ -30,12 +45,6 @@
         76.53933,
         9.34913
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vijayaraghava Muthaliyaar Chatram, Tamil Nadu",
     "end": "Srivaikuntam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Srivaikuntam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-138", "label": "Met near Vijayaraghava Muthaliyaar Chatram" },
+    { "id": "sh-tn-40", "label": "Met near Srivaikuntam" },
+    { "id": "mdr-tn-435", "label": "Met near Srivaikuntam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayaraghava Muthaliyaar Chatram",
@@ -30,12 +43,6 @@
         77.91374,
         8.63234
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

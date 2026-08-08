@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kadayanallur, Tamil Nadu",
     "end": "Sankarankovil, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Sankarankovil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-39b", "label": "Met near Kadayanallur" },
+    { "id": "mdr-tn-409", "label": "Met near Sankarankovil" },
+    { "id": "mdr-tn-132", "label": "Met near Kadayanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadayanallur",
@@ -30,12 +43,6 @@
         77.47515,
         9.0881
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

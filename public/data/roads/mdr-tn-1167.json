@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruverkadu, Tamil Nadu",
     "end": "Pattabiram, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Pattabiram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-55", "label": "Met near Avadi" },
+    { "id": "sh-tn-206", "label": "Met near Avadi" },
+    { "id": "odr-tn-3918", "label": "Met near Avadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruverkadu",
@@ -46,12 +59,6 @@
         80.0588,
         13.10439
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

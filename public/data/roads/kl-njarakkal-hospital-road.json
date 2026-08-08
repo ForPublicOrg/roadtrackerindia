@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thekkinezhath, Kerala",
     "end": "Maniyan thuruth, Kerala",
@@ -17,6 +18,17 @@
       "Maniyan thuruth"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-63", "label": "Met near Thekkinezhath" },
+    { "id": "kl-arattuvazhi-beach-road", "label": "Met near Thekkinezhath" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thekkinezhath",
@@ -31,12 +43,6 @@
         76.21886,
         10.04143
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

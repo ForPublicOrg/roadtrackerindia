@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Arachalur, Tamil Nadu",
     "end": "Vellakovil, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Vellakovil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Vellakovil" },
+    { "id": "sh-tn-83a", "label": "Met near Arachalur" },
+    { "id": "sh-tn-189", "label": "Met near Muthur" },
+    { "id": "sh-tn-197", "label": "Met near Vellakovil" },
+    { "id": "mdr-tn-688", "label": "Met near Arachalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arachalur",
@@ -30,12 +45,6 @@
         77.67318,
         10.9001
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

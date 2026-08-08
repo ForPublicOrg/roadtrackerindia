@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mundancavu, Kerala",
     "end": "Thottabhagam, Kerala",
@@ -18,6 +19,17 @@
       "Thottabhagam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-7", "label": "Met near Kumbanad" },
+    { "id": "kl-chengannur-byepass-road-first-reach", "label": "Met near Chengannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mundancavu",
@@ -39,12 +51,6 @@
         76.63357,
         9.38158
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

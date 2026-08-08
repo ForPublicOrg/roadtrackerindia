@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chhatarpur, Madhya Pradesh",
     "end": "Gulganj, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Gulganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Chhatarpur" },
+    { "id": "mdr-mp-1608", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhatarpur",
@@ -30,12 +42,6 @@
         79.38358,
         24.86074
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

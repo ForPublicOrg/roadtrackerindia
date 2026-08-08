@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 142.6,
+  "authority": "chhattisgarh-pwd",
   "route": {
     "start": "Kota, Chhattisgarh",
     "end": "Balodabazar, Chhattisgarh",
@@ -18,6 +19,19 @@
       "Balodabazar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-130", "label": "Met near Bhatapara" },
+    { "id": "nh-130a", "label": "Met near Mungeli" },
+    { "id": "nh-130b", "label": "Met near Balodabazar" },
+    { "id": "sh-ct-5", "label": "Meets this road" },
+    { "id": "sh-ct-7", "label": "Met near Mungeli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kota",
@@ -46,12 +60,6 @@
         82.1603,
         21.65703
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

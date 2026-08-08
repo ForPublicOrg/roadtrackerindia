@@ -18,6 +18,23 @@
       "Bhadravathi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Chitradurga" },
+    { "id": "nh-69", "label": "Met near Bhadravathi" },
+    { "id": "nh-173", "label": "Met near Holalkere" },
+    { "id": "sh-ka-65", "label": "Met near Channagiri" },
+    { "id": "sh-ka-48", "label": "Met near Chitradurga" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chitradurga",
@@ -46,16 +63,6 @@
         75.70517,
         13.85129
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

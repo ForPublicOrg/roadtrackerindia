@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Piploda, Madhya Pradesh",
     "end": "Sarwan, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Sarwan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2506", "label": "Met near Piploda" },
+    { "id": "mdr-mp-2509", "label": "Met near Piploda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Piploda",
@@ -30,12 +42,6 @@
         74.89598,
         23.61274
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

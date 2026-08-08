@@ -18,6 +18,21 @@
       "Panathur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 30, Kalanad–Panathur District road, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kalanad" },
+    { "id": "sh-kl-59", "label": "Met near Panathur" },
+    { "id": "sh-kl-56", "label": "Met near Panathur" },
+    { "id": "sh-kl-57", "label": "Met near Kalanad" },
+    { "id": "mdr-kl-15", "label": "Met near Panathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalanad",
@@ -39,12 +54,6 @@
         75.36626,
         12.45562
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

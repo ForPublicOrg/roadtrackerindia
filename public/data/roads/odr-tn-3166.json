@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nemilichery, Tamil Nadu",
     "end": "Nanmangalam, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Nanmangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-109", "label": "Met near Nemilichery" },
+    { "id": "sh-tn-48a", "label": "Met near Nanmangalam" },
+    { "id": "mdr-tn-635", "label": "Met near Nanmangalam" },
+    { "id": "odr-tn-9196", "label": "Met near Nanmangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nemilichery",
@@ -38,12 +52,6 @@
         80.18261,
         12.9396
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

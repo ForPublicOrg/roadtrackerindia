@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Konni, Kerala",
     "end": "Pathanapuram, Kerala",
@@ -16,6 +17,20 @@
       "Pathanapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Konni" },
+    { "id": "sh-kl-8", "label": "Met near Konni" },
+    { "id": "kl-athirunkal-kulathumon-kalleli-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-athirumkal-punnamoodu-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-aruvappulam-vakayar-road", "label": "Met near Konni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Konni",
@@ -30,12 +45,6 @@
         76.87309,
         9.164
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

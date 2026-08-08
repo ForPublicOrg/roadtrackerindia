@@ -17,6 +17,24 @@
       "Gumla"
     ]
   },
+  "significance": "NH 143A is a branch of NH 143. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Taliatanr to Gumla, and it meets NH 143 along the way.",
+  "relatedRoads": [
+    { "id": "nh-143", "label": "Met near Gumla" },
+    { "id": "nh-143ag", "label": "Met near Lohardaga" },
+    { "id": "sh-jh-9", "label": "Meets this road" },
+    { "id": "mdr-jh-1", "label": "Met near Lohardaga" },
+    { "id": "mdr-jh-247", "label": "Met near Lohardaga" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Taliatanr",
@@ -38,16 +56,6 @@
         84.54071,
         23.04185
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

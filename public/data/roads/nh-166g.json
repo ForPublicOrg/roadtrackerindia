@@ -17,6 +17,26 @@
       "Mangalwar Peth"
     ]
   },
+  "significance": "NH 166G is a branch of NH 166. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Kankavali to Mangalwar Peth, and it meets NH 166 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-166",
+      "label": "NH 166 — the highway this branch takes its number from, running Solapur to Pethkilla"
+    },
+    { "id": "nh-66", "label": "Meets this road" },
+    { "id": "sh-mh-117", "label": "Meets this road" },
+    { "id": "sh-mh-115", "label": "Met near Kolhapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kankavali",
@@ -38,16 +58,6 @@
         74.22633,
         16.70279
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 45.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mahabalipuram, Tamil Nadu",
     "end": "Thiruvanmiyur, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Thiruvanmiyur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-332a", "label": "Met near Mahabalipuram" },
+    { "id": "east-coast-road", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-49a", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-49b", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-109", "label": "Met near Neelankarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahabalipuram",
@@ -61,12 +75,6 @@
         80.25606,
         12.98766
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

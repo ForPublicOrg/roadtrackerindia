@@ -19,6 +19,21 @@
       "Ponda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Verna Industrial Estate" },
+    { "id": "nh-748", "label": "Met near Ponda" },
+    { "id": "nh-366", "label": "Met near Vasco da Gama" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baina",
@@ -61,16 +76,6 @@
         73.91837,
         15.389
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

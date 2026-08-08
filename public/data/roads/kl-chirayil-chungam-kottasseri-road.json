@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kaloth, Kerala",
     "end": "Kondotty, Kerala",
@@ -16,6 +17,16 @@
       "Kondotty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-65", "label": "Met near Kondotty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaloth",
@@ -30,12 +41,6 @@
         75.97695,
         11.12726
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

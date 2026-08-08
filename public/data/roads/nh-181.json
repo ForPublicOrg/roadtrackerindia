@@ -22,6 +22,23 @@
       "Gundlupet"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Irugur" },
+    { "id": "nh-948", "label": "Met near Coimbatore" },
+    { "id": "nh-81", "label": "Met near Irugur" },
+    { "id": "nh-766", "label": "Met near Gundlupet" },
+    { "id": "sh-tn-15", "label": "Met near Mettupalayam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Papampatti Pirivu",
@@ -92,16 +109,6 @@
         76.68795,
         11.80395
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

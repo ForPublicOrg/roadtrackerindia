@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Guljhiri, Madhya Pradesh",
     "end": "Dhamnod, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Dhamnod"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Guljhiri" },
+    { "id": "nh-347c", "label": "Met near Guljhiri" },
+    { "id": "sh-mp-36", "label": "Met near Dhamnod" },
+    { "id": "mdr-mp-4621", "label": "Met near Guljhiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Guljhiri",
@@ -30,12 +44,6 @@
         75.47375,
         22.21761
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

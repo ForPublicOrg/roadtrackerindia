@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 197.5,
+  "authority": "odisha-works",
   "route": {
     "start": "Joda, Odisha",
     "end": "Jharsuguda, Odisha",
@@ -22,6 +23,19 @@
       "Jharsuguda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Sambalpur" },
+    { "id": "nh-49", "label": "Met near Jharsuguda" },
+    { "id": "nh-143", "label": "Met near Rourkela" },
+    { "id": "nh-320g", "label": "Met near Gua" },
+    { "id": "nh-320d", "label": "Met near Rourkela" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Joda",
@@ -85,12 +99,6 @@
         84.03529,
         21.92938
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

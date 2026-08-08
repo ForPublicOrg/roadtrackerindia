@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Baldeogarh, Madhya Pradesh",
     "end": "Palera, Madhya Pradesh",
@@ -17,6 +18,16 @@
       "Palera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-54b", "label": "Met near Baldeogarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baldeogarh",
@@ -38,12 +49,6 @@
         79.22362,
         25.01844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Isri, Jharkhand",
     "end": "Topchanchi, Jharkhand",
@@ -16,6 +17,13 @@
       "Topchanchi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Isri",
@@ -30,12 +38,6 @@
         86.12327,
         23.97005
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,26 @@
       "Barapali"
     ]
   },
+  "significance": "NH 126A is a branch of NH 126. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Subarnapur to Barapali, and it meets NH 126 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-126",
+      "label": "NH 126 — the highway this branch takes its number from, running Barapali to Ambapali"
+    },
+    { "id": "nh-26", "label": "Met near Barapali" },
+    { "id": "nh-57", "label": "Met near Subarnapur" },
+    { "id": "sh-or-15", "label": "Met near Subarnapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Subarnapur",
@@ -38,16 +58,6 @@
         83.58995,
         21.19116
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

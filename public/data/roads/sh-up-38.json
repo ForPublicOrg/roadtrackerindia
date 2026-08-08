@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 134.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Bilgram, Uttar Pradesh",
     "end": "Unchahar, Uttar Pradesh",
@@ -20,6 +21,19 @@
       "Unchahar"
     ]
   },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Met near Bangarmau" },
+    { "id": "agra-lucknow-expressway", "label": "Met near Bangarmau" },
+    { "id": "lucknow-kanpur-expressway", "label": "Met near Unnao" },
+    { "id": "nh-27", "label": "Met near Unnao" },
+    { "id": "nh-30", "label": "Met near Unchahar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bilgram",
@@ -62,12 +76,6 @@
         81.29061,
         25.93204
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

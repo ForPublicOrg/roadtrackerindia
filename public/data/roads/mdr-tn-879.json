@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chinniampalayam, Tamil Nadu",
     "end": "Somanur, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Somanur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Chinniampalayam" },
+    { "id": "nh-81", "label": "Met near Sulur" },
+    { "id": "sh-tn-165", "label": "Met near Somanur" },
+    { "id": "sh-tn-u52", "label": "Met near Chinniampalayam" },
+    { "id": "mdr-tn-437", "label": "Met near Sulur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chinniampalayam",
@@ -52,12 +67,6 @@
         77.18869,
         11.08354
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

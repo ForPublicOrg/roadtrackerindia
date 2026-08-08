@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Payyanur, Kerala",
     "end": "Onakkunnu, Kerala",
@@ -19,6 +20,23 @@
       "Onakkunnu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Karivellur" },
+    { "id": "mdr-kl-17", "label": "Met near Perumba" },
+    { "id": "mdr-kl-126", "label": "Met near Kothaymukku" },
+    {
+      "id": "kl-swamimukku-puthur-kizhakkekara-padinjarekkara-peralam-vellur",
+      "label": "Met near Karivellur"
+    },
+    { "id": "kl-payyannur-south-bazar-kandankali-kurumkadavu-punnakkadavu-ro", "label": "Met near Payyanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Payyanur",
@@ -54,12 +72,6 @@
         75.20669,
         12.16103
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

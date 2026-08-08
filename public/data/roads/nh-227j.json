@@ -17,6 +17,26 @@
       "Mukhiyapatti Bazar"
     ]
   },
+  "significance": "NH 227J is a branch of NH 227. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Rahika to Mukhiyapatti Bazar, and it meets NH 227 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-227",
+      "label": "NH 227 — the highway this branch takes its number from, running Chakia to Nirmali"
+    },
+    { "id": "nh-527a", "label": "Met near Rahika" },
+    { "id": "nh-527b", "label": "Met near Rahika" },
+    { "id": "sh-br-75", "label": "Met near Benipatti" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rahika",
@@ -38,16 +58,6 @@
         85.85813,
         26.54276
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

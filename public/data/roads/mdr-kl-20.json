@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Uppala, Kerala",
     "end": "Manjeshwar, Kerala",
@@ -16,6 +17,20 @@
       "Manjeshwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-56", "label": "Met near Manjeshwar" },
+    { "id": "mdr-kl-36a", "label": "Met near Manjeshwar" },
+    { "id": "mdr-kl-105", "label": "Met near Uppala" },
+    { "id": "kl-kulur-chinale-madimogar-road", "label": "Met near Uppala" },
+    { "id": "mdr-kl-98", "label": "Met near Uppala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Uppala",
@@ -30,12 +45,6 @@
         74.94777,
         12.70444
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

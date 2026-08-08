@@ -20,6 +20,22 @@
       "Buxar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-24", "label": "Met near Ghazipur" },
+    { "id": "nh-922", "label": "Met near Buxar" },
+    { "id": "nh-319a", "label": "Met near Chausa" },
+    { "id": "sh-bh-13", "label": "Met near Chausa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ghazipur",
@@ -48,16 +64,6 @@
         83.97519,
         25.56771
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

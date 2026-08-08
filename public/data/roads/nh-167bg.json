@@ -19,6 +19,20 @@
       "Kavali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-565", "label": "Met near Duttaluru" },
+    { "id": "nh-167b", "label": "Met near Seetharamapuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seetharamapuram",
@@ -61,16 +75,6 @@
         79.99287,
         14.91322
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

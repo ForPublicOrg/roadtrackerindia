@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melmanavur, Tamil Nadu",
     "end": "Mottur, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Vanjur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vellore" },
+    { "id": "odr-tn-3198", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melmanavur",
@@ -38,12 +50,6 @@
         79.08457,
         12.93097
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

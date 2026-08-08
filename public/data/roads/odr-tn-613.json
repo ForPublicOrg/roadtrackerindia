@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mathur, Tamil Nadu",
     "end": "Kadapakkam, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Kadapakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Mathur" },
+    { "id": "sh-tn-2", "label": "Met near Mathur" },
+    { "id": "odr-tn-455", "label": "Met near Mathur" },
+    { "id": "mdr-tn-1018", "label": "Met near Mathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mathur",
@@ -31,12 +45,6 @@
         80.23847,
         13.19123
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

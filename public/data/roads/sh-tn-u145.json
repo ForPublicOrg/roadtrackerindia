@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "State Bank colony, Tamil Nadu",
     "end": "Sipcot Industrial Estate, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Sipcot Industrial Estate"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Karur" },
+    { "id": "nh-81", "label": "Met near Karur" },
+    { "id": "sh-tn-74", "label": "Met near Karur" },
+    { "id": "sh-tn-199", "label": "Met near Karur" },
+    { "id": "sh-tn-u41", "label": "Met near Karur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "State Bank colony",
@@ -52,12 +66,6 @@
         78.11398,
         10.94429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

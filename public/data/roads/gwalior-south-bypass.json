@@ -16,6 +16,21 @@
       "Morar Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Gwalior" },
+    { "id": "sh-mp-3", "label": "Met near Gwalior" },
+    { "id": "mdr-mp-323", "label": "Met near Gwalior" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gwalior",
@@ -30,16 +45,6 @@
         78.21512,
         26.12365
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

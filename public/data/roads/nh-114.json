@@ -20,6 +20,23 @@
       "Mallarpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-14", "label": "Met near Mallarpur" },
+    { "id": "sh-wb-6", "label": "Met near Labhpur" },
+    { "id": "sh-wb-14", "label": "Met near Guskara" },
+    { "id": "sh-wb-11", "label": "Met near Sainthia" },
+    { "id": "sh-wb-13", "label": "Met near Sainthia" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Renaissance Township",
@@ -62,16 +79,6 @@
         87.73035,
         24.07527
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

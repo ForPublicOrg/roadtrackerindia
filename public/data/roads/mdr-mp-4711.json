@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Alirajpur, Madhya Pradesh",
     "end": "Chhota Udepur, Gujarat",
@@ -16,6 +17,19 @@
       "Chhota Udepur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-69", "label": "Met near Alirajpur" },
+    { "id": "mdr-mp-4712", "label": "Met near Alirajpur" },
+    { "id": "mdr-mp-4709", "label": "Met near Alirajpur" },
+    { "id": "mdr-mp-4713", "label": "Met near Alirajpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alirajpur",
@@ -30,12 +44,6 @@
         74.28688,
         22.26687
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

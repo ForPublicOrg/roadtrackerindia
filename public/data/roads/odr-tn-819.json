@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Bagayam, Tamil Nadu",
     "end": "Allapuram, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Allapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Vellore" },
+    { "id": "mdr-tn-1205", "label": "Met near Vellore" },
+    { "id": "odr-tn-818", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bagayam",
@@ -39,12 +52,6 @@
         79.12274,
         12.88348
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

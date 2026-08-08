@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Arcot, Tamil Nadu",
     "end": "Walajapet, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Walajapet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-795", "label": "Met near Arcot" },
+    { "id": "odr-tn-6083", "label": "Met near Arcot" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arcot",
@@ -30,12 +42,6 @@
         79.37609,
         12.84785
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

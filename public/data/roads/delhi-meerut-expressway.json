@@ -19,6 +19,10 @@
     { "name": "Kashi toll plaza (Meerut)", "note": "the main plaza at the Meerut end, run as a fully digital FASTag-only plaza" },
     { "name": "Entry/exit points at Indirapuram, Dundahera, Dasna, Rasoolpur Sikrod and Bhojpur", "note": "cameras record where you join and leave, and you pay only for that distance" }
   ],
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled by distance and FASTag only — cameras record where you join and leave, and you pay for that stretch alone. Rates are revised every 1 April."
+  },
   "timeline": [
     { "year": "2015", "event": "Construction begins" },
     { "year": "2018", "event": "14-lane Delhi section opens" },
@@ -51,7 +55,10 @@
     { "id": "eastern-peripheral-expressway", "label": "The ring expressway around Delhi, met at Dasna" },
     { "id": "ganga-expressway", "label": "Starts near Meerut and carries the route onward across Uttar Pradesh to Prayagraj" },
     { "id": "nh-9", "label": "The older Delhi–Hapur–Moradabad highway that runs alongside the Delhi end" },
-    { "id": "delhi-dehradun-expressway", "label": "The other new expressway out of east Delhi, beginning nearby at Akshardham" }
+    { "id": "delhi-dehradun-expressway", "label": "The other new expressway out of east Delhi, beginning nearby at Akshardham" },
+    { "id": "nh-34", "label": "Met near Partapur" },
+    { "id": "nh-334", "label": "Met near Partapur" },
+    { "id": "nh-334c", "label": "Met near Ghaziabad" }
   ],
   "travelNotes": "Allow about an hour Delhi to Meerut outside rush hour. The heaviest jams are at the Delhi end around Sarai Kale Khan and UP Gate on weekday mornings and evenings, and near Partapur when you enter Meerut. Toll is collected only through FASTag, so make sure your tag has money on it before you join, and note that slow vehicles, two-wheelers and three-wheelers are not allowed on the fenced expressway lanes.",
   "sources": [

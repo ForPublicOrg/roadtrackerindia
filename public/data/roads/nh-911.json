@@ -20,6 +20,22 @@
       "Bap"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-911a", "label": "A branch off this highway, running Poogal to Khajuwala" },
+    { "id": "nh-62", "label": "Met near Sri Ganganagar" },
+    { "id": "sh-rj-3", "label": "Met near Raisinghnagar" },
+    { "id": "sh-rj-94", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sri Ganganagar",
@@ -76,16 +92,6 @@
         72.3516,
         27.38697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

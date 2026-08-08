@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kondotty, Kerala",
     "end": "Thenhipalam, Kerala",
@@ -16,6 +17,18 @@
       "Thenhipalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-65", "label": "Met near Kondotty" },
+    { "id": "kl-university-parambilpeedika-road", "label": "Met near Thenhipalam" },
+    { "id": "kl-karipur-kumminiparamba-road", "label": "Met near Kondotty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kondotty",
@@ -30,12 +43,6 @@
         75.90748,
         11.12453
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

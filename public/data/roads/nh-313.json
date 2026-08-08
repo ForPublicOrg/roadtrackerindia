@@ -16,6 +16,20 @@
       "Roing"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-13", "label": "Met near Roing" },
+    { "id": "nh-115", "label": "Met near Roing" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anini",
@@ -30,16 +44,6 @@
         95.84268,
         28.1352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

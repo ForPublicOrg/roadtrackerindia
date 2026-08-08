@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Coonoor, Tamil Nadu",
     "end": "Kundah, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kundah"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Coonoor" },
+    { "id": "mdr-tn-1071", "label": "Met near Kundah" },
+    { "id": "mdr-tn-1077", "label": "Met near Kundah" },
+    { "id": "mdr-tn-1142", "label": "Met near Coonoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Coonoor",
@@ -30,12 +44,6 @@
         76.6499,
         11.28168
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.2,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Desaiganj, Maharashtra",
     "end": "Armori, Maharashtra",
@@ -16,6 +17,16 @@
       "Armori"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-543", "label": "Meets this road" },
+    { "id": "sh-mh-269", "label": "Met near Armori" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Desaiganj",
@@ -30,12 +41,6 @@
         80.08389,
         20.43666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

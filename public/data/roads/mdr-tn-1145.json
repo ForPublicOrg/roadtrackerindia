@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Min Arasu Nagar, Tamil Nadu",
     "end": "Andipatti Jakkampatty, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Andipatti Jakkampatty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-101", "label": "Met near Theni" },
+    { "id": "mdr-tn-570", "label": "Met near Andipatti Jakkampatty" },
+    { "id": "mdr-tn-1144", "label": "Met near Theni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Min Arasu Nagar",
@@ -30,12 +43,6 @@
         77.60071,
         9.96727
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

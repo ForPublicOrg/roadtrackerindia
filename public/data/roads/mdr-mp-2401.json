@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mohan Badodiya, Madhya Pradesh",
     "end": "Sarangpur, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Sarangpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-25", "label": "Met near Mohan Badodiya" },
+    { "id": "mdr-mp-2402", "label": "Met near Mohan Badodiya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mohan Badodiya",
@@ -30,12 +42,6 @@
         76.44505,
         23.58226
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Yercaud, Tamil Nadu",
     "end": "Bommiampatty, Tamil Nadu",
@@ -16,6 +17,13 @@
       "Bommiampatty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Yercaud",
@@ -30,12 +38,6 @@
         78.20193,
         11.85493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

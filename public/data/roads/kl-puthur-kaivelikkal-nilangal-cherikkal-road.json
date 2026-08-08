@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panoor, Kerala",
     "end": "Peringatoor, Kerala",
@@ -16,6 +17,17 @@
       "Peringatoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mutharipeedika-cheruvanchery-road", "label": "Met near Panoor" },
+    { "id": "kl-panoor-kutteri-kalluvalapu-road", "label": "Met near Panoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panoor",
@@ -30,12 +42,6 @@
         75.60818,
         11.75692
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vaikom, Kerala",
     "end": "Arattukulangara, Kerala",
@@ -16,6 +17,18 @@
       "Arattukulangara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Vaikom" },
+    { "id": "sh-kl-15", "label": "Met near Vaikom" },
+    { "id": "kl-tv-puram-road-v-t-road", "label": "Met near Vaikom" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vaikom",
@@ -30,12 +43,6 @@
         76.38983,
         9.74955
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 79.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tirupattur, Tamil Nadu",
     "end": "Mottur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Mottur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Mottur" },
+    { "id": "sh-tn-215", "label": "Met near Alangayam" },
+    { "id": "sh-tn-18a", "label": "Met near Tirupattur" },
+    { "id": "sh-tn-240", "label": "Met near Pallikondai" },
+    { "id": "mdr-tn-1208", "label": "Met near Pallikondai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tirupattur",
@@ -46,12 +60,6 @@
         79.0663,
         12.9145
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

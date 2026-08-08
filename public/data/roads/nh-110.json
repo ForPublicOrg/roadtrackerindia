@@ -19,6 +19,21 @@
       "Matigara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-10", "label": "Met near Siliguri" },
+    { "id": "sh-wb-12a", "label": "Met near Siliguri" },
+    { "id": "sh-wb-12", "label": "Met near Darjeeling" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Darjeeling",
@@ -54,16 +69,6 @@
         88.40782,
         26.73326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.9,
+  "authority": "assam-pwd",
   "route": {
     "start": "Barpeta Road, Assam",
     "end": "Mushalpur, Assam",
@@ -16,6 +17,18 @@
       "Mushalpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Barpeta Road" },
+    { "id": "nh-127a", "label": "Met near Mushalpur" },
+    { "id": "nh-127e", "label": "Met near Mushalpur" },
+    { "id": "sh-as-10a", "label": "Met near Mushalpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barpeta Road",
@@ -30,12 +43,6 @@
         91.34048,
         26.66532
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

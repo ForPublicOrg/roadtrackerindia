@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 77.3,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Shahbad, Haryana",
     "end": "Kala Amb, Haryana",
@@ -18,6 +19,19 @@
       "Kala Amb"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Shahbad" },
+    { "id": "nh-7", "label": "Met near Kala Amb" },
+    { "id": "nh-344", "label": "Met near Barara" },
+    { "id": "nh-152", "label": "Met near Shahbad" },
+    { "id": "nh-152g", "label": "Met near Shahbad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahbad",
@@ -46,12 +60,6 @@
         77.21096,
         30.49539
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

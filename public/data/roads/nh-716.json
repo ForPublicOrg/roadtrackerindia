@@ -24,6 +24,23 @@
       "Yerraguntla"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Tiruvallur" },
+    { "id": "chennai-bypass-expressway", "label": "Met near Avadi" },
+    { "id": "nh-67", "label": "Met near Yerraguntla" },
+    { "id": "nh-40", "label": "Met near Kadapa" },
+    { "id": "nh-544g", "label": "Met near Yerraguntla" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Veppambaattu",
@@ -143,16 +160,6 @@
         78.54071,
         14.63746
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

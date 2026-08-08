@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Pakaur, Jharkhand",
     "end": "Gobindpur, Jharkhand",
@@ -16,6 +17,17 @@
       "Gobindpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-133a", "label": "Met near Pakaur" },
+    { "id": "mdr-jh-243", "label": "Met near Pakaur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pakaur",
@@ -37,12 +49,6 @@
         87.83388,
         24.60144
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

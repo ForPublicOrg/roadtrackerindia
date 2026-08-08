@@ -20,6 +20,23 @@
       "Sagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sagar" },
+    { "id": "nh-46", "label": "Met near Chhatrasal Nagar" },
+    { "id": "nh-934", "label": "Met near Sagar" },
+    { "id": "sh-mp-62", "label": "Met near Rahatgarh" },
+    { "id": "sh-mp-30", "label": "Met near Gyaraspur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhatrasal Nagar",
@@ -62,16 +79,6 @@
         78.73607,
         23.86963
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Valsad, Gujarat",
     "end": "Udvada, Gujarat",
@@ -16,6 +17,15 @@
       "Udvada"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-701", "label": "Met near Valsad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valsad",
@@ -30,12 +40,6 @@
         72.93469,
         20.61812
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

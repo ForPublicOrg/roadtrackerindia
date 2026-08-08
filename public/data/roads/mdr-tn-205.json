@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mooppakovil, Tamil Nadu",
     "end": "Santhanalpuram, Tamil Nadu",
@@ -17,6 +18,16 @@
       "Santhanalpuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-140", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mooppakovil",
@@ -31,12 +42,6 @@
         79.35937,
         11.05665
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kannapuram, Kerala",
     "end": "Puthiyangadi, Kerala",
@@ -17,6 +18,22 @@
       "Puthiyangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-valapttanam-azheekkal-road", "label": "Met near Kannapuram" },
+    { "id": "kl-irinavu-madakkara-road", "label": "Met near Kannapuram" },
+    { "id": "kl-pazhayangadi-puthiyangadi-road", "label": "Met near Pazhayangadi" },
+    {
+      "id": "kl-puthiyangadi-muttom-road-via-jamayath-high-school-ambedkar-c",
+      "label": "Met near Pazhayangadi"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannapuram",
@@ -45,12 +62,6 @@
         75.24892,
         12.01663
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 27.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Gudalur, Tamil Nadu",
     "end": "Pandalur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Pandalur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Gudalur" },
+    { "id": "sh-tn-12", "label": "Met near Gudalur" },
+    { "id": "kl-sulthan-bathery-noolpuzha-road", "label": "Met near Pandalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gudalur",
@@ -30,12 +42,6 @@
         76.35848,
         11.59262
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

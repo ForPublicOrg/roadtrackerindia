@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Danda, Jharkhand",
     "end": "Chaibasa, Jharkhand",
@@ -16,6 +17,16 @@
       "Chaibasa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Chaibasa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Danda",
@@ -30,12 +41,6 @@
         85.78995,
         22.56711
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 162.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bap, Rajasthan",
     "end": "Jaisalmer, Rajasthan",
@@ -16,6 +17,19 @@
       "Jaisalmer"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-911", "label": "Meets this road" },
+    { "id": "sh-rj-40", "label": "Meets this road" },
+    { "id": "sh-rj-94", "label": "Meets this road" },
+    { "id": "mdr-rj-19b", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bap",
@@ -30,12 +44,6 @@
         70.858,
         27.38684
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

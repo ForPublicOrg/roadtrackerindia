@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Neemuch, Madhya Pradesh",
     "end": "Nimbahera, Rajasthan",
@@ -16,6 +17,18 @@
       "Nimbahera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-156", "label": "Met near Neemuch" },
+    { "id": "mdr-mp-2107", "label": "Met near Neemuch" },
+    { "id": "mdr-mp-2104", "label": "Met near Neemuch" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neemuch",
@@ -30,12 +43,6 @@
         74.83672,
         24.51271
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

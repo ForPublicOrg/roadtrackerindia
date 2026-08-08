@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Attayampatti, Tamil Nadu",
     "end": "Elampillai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Elampillai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Elampillai" },
+    { "id": "sh-tn-86a", "label": "Met near Attayampatti" },
+    { "id": "mdr-tn-46", "label": "Met near Attayampatti" },
+    { "id": "mdr-tn-134", "label": "Met near Elampillai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attayampatti",
@@ -30,12 +44,6 @@
         78.0109,
         11.55705
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

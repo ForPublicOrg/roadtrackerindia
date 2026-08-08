@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-4-karimganj-major-distric-road-4-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Kj-M-4 (Karimganj Major Distric Road 4) (new Numbering 2023)",
+  "ref": "MDR KJ-M-4",
+  "name": "Barlekha–Beanibazar district road",
+  "aka": ["Karimganj Major District Road KJ-M-4"],
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Barlekha, Assam",
     "end": "Beanibazar, Assam",
@@ -16,6 +18,21 @@
       "Beanibazar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Barlekha and Beanibazar. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met near Barlekha" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Barlekha" },
+    { "id": "mdr-as-6", "label": "Met near Barlekha" },
+    { "id": "mdr-as-11", "label": "Met near Barlekha" },
+    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met near Barlekha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barlekha",
@@ -30,12 +47,6 @@
         92.29391,
         24.70389
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thottada, Kerala",
     "end": "Kadachira, Kerala",
@@ -16,6 +17,16 @@
       "Kadachira"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-thottada-keezhunnappara-therumandapam-ayyarath-road", "label": "Met near Thottada" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thottada",
@@ -30,12 +41,6 @@
         75.41837,
         11.83717
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

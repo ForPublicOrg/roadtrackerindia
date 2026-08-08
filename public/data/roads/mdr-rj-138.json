@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Shree Krishan Nagar, Rajasthan",
     "end": "Shahjahanpur, Rajasthan",
@@ -17,6 +18,18 @@
       "Shahjahanpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-14", "label": "Met near Shree Krishan Nagar" },
+    { "id": "sh-rj-52", "label": "Met near Mandawar" },
+    { "id": "sh-rj-108", "label": "Met near Mandawar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shree Krishan Nagar",
@@ -38,12 +51,6 @@
         76.53415,
         27.99085
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

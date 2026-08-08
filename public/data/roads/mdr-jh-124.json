@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.8,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Nagwa, Jharkhand",
     "end": "Chhatarpur, Jharkhand",
@@ -16,6 +17,17 @@
       "Chhatarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-139", "label": "Met near Chhatarpur" },
+    { "id": "mdr-jh-123", "label": "Met near Garhwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagwa",
@@ -30,12 +42,6 @@
         84.09684,
         24.26677
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

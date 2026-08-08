@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Manamadurai, Tamil Nadu",
     "end": "Paramakkudi, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Paramakkudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-87", "label": "Met near Manamadurai" },
+    { "id": "sh-tn-29", "label": "Met near Paramakkudi" },
+    { "id": "sh-tn-u218", "label": "Met near Manamadurai" },
+    { "id": "sh-tn-u25", "label": "Met near Manamadurai" },
+    { "id": "mdr-tn-1153", "label": "Met near Manamadurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manamadurai",
@@ -30,12 +45,6 @@
         78.59185,
         9.55436
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Silchar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Kolasib" },
+    { "id": "nh-37", "label": "Met near Silchar" },
+    { "id": "nh-306a", "label": "Met near Vairengte" },
+    { "id": "sh-as-39", "label": "Met near Silchar" },
+    { "id": "sh-as-40", "label": "Met near Vairengte" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kolasib",
@@ -39,16 +56,6 @@
         92.79989,
         24.828
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

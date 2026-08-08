@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Muttil, Kerala",
     "end": "Kalpetta, Kerala",
@@ -16,6 +17,19 @@
       "Kalpetta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Muttil" },
+    { "id": "sh-kl-29", "label": "Met near Kalpetta" },
+    { "id": "kl-thomattuchal-karingalode-puttad-nedumpala-meppadi-road", "label": "Met near Kalpetta" },
+    { "id": "kl-muttil-vivekananda-hospital-edapetty-road", "label": "Met near Muttil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muttil",
@@ -30,12 +44,6 @@
         76.14225,
         11.55643
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Sitapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Met near Bilgram" },
+    { "id": "nh-30", "label": "Met near Sitapur" },
+    { "id": "nh-34", "label": "Met near Kannauj" },
+    { "id": "nh-731", "label": "Met near Hardoi" },
+    { "id": "sh-up-38", "label": "Met near Bilgram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannauj",
@@ -53,16 +70,6 @@
         80.65421,
         27.56879
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

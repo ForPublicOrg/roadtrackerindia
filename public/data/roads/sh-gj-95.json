@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 72.7,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Porbandar, Gujarat",
     "end": "Khambhaliya, Gujarat",
@@ -17,6 +18,19 @@
       "Khambhaliya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Porbandar" },
+    { "id": "nh-151k", "label": "Met near Bhanvad" },
+    { "id": "nh-927k", "label": "Met near Khambhaliya" },
+    { "id": "nh-151ad", "label": "Met near Khambhaliya" },
+    { "id": "sh-gj-94", "label": "Met near Bhanvad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Porbandar",
@@ -38,12 +52,6 @@
         69.6351,
         22.18283
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

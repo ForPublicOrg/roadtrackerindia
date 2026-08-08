@@ -16,6 +16,26 @@
       "Ramnagar"
     ]
   },
+  "significance": "NH 330B is a branch of NH 330. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Gonda to Ramnagar, and it meets NH 330 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-330",
+      "label": "NH 330 — the highway this branch takes its number from, running Shantipuram to Balrampur"
+    },
+    { "id": "nh-927", "label": "Met near Ramnagar" },
+    { "id": "sh-up-1a", "label": "Met near Gonda" },
+    { "id": "sh-up-10e", "label": "Met near Gonda" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gonda",
@@ -30,16 +50,6 @@
         81.52734,
         27.11739
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

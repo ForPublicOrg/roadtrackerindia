@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 59.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Tontpur, Rajasthan",
     "end": "Hodal, Haryana",
@@ -17,6 +18,17 @@
       "Hodal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Hodal" },
+    { "id": "sh-up-33", "label": "Met near Bharatpur" },
+    { "id": "sh-up-94w", "label": "Met near Govardhan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tontpur",
@@ -38,12 +50,6 @@
         77.44331,
         27.78848
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Anaimalai, Tamil Nadu",
     "end": "Suleswaranpatti, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Suleswaranpatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-13", "label": "Met near Anaimalai" },
+    { "id": "kl-muthalamada-chemmanampathy-road", "label": "Met near Anaimalai" },
+    { "id": "kl-chemmanampathy-malayadivaaram-road", "label": "Met near Anaimalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anaimalai",
@@ -30,12 +43,6 @@
         76.9191,
         10.56384
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

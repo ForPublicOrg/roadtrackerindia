@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sipcot, Tamil Nadu",
     "end": "Navalpur, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Navalpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-242", "label": "Met near Ranipet" },
+    { "id": "odr-tn-3374", "label": "Met near Lalapet" },
+    { "id": "odr-tn-894", "label": "Met near Ranipet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sipcot",
@@ -32,12 +45,6 @@
         79.3272,
         12.93579
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

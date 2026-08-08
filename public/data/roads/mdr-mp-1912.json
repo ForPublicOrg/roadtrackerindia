@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khurai, Madhya Pradesh",
     "end": "Mandi Bamora, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Mandi Bamora"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-934", "label": "Met near Khurai" },
+    { "id": "mdr-mp-2909", "label": "Met near Mandi Bamora" },
+    { "id": "mdr-mp-2903", "label": "Met near Mandi Bamora" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khurai",
@@ -30,12 +43,6 @@
         78.08303,
         24.05224
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

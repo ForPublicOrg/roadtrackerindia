@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Raipur, Rajasthan",
     "end": "Asind, Rajasthan",
@@ -16,6 +17,16 @@
       "Asind"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-rj-61", "label": "Meets this road" },
+    { "id": "sh-rj-75", "label": "Met near Asind" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Raipur",
@@ -30,12 +41,6 @@
         74.25373,
         25.62351
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

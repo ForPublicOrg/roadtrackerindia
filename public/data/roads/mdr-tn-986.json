@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Singanallur, Tamil Nadu",
     "end": "Uppilipalayam, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Civil Aerodrome"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Singanallur" },
+    { "id": "sh-tn-u52", "label": "Met near Coimbatore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Singanallur",
@@ -45,12 +57,6 @@
         77.02094,
         11.02618
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

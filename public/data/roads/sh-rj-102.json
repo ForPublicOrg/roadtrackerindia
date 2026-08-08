@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 94.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Riyan Badi, Rajasthan",
     "end": "Peesangan, Rajasthan",
@@ -18,6 +19,19 @@
       "Nasirabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Riyan Badi" },
+    { "id": "nh-448", "label": "Met near Nasirabad" },
+    { "id": "sh-rj-59", "label": "Met near Govindgarh" },
+    { "id": "sh-rj-104", "label": "Met near Riyan Badi" },
+    { "id": "mdr-rj-79", "label": "Met near Nasirabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Riyan Badi",
@@ -53,12 +67,6 @@
         74.46505,
         26.28521
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

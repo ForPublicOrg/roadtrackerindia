@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Shahpura, Rajasthan",
     "end": "Kekri, Rajasthan",
@@ -16,6 +17,17 @@
       "Kekri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148d", "label": "Met near Shahpura" },
+    { "id": "mdr-rj-156", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahpura",
@@ -30,12 +42,6 @@
         74.98345,
         25.86394
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

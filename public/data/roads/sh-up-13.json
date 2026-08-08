@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 118.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Barabanki, Uttar Pradesh",
     "end": "Dalmau, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Dalmau"
     ]
   },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Met near Dalmau" },
+    { "id": "purvanchal-expressway", "label": "Met near Haidargarh" },
+    { "id": "nh-27", "label": "Met near Barabanki" },
+    { "id": "nh-30", "label": "Met near Bachhrawan" },
+    { "id": "nh-31", "label": "Met near Dalmau" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barabanki",
@@ -46,12 +60,6 @@
         80.96752,
         26.16186
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

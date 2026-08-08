@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Kundahit, Jharkhand",
     "end": "Siuri, West Bengal",
@@ -16,6 +17,18 @@
       "Siuri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Meets this road" },
+    { "id": "sh-jh-17", "label": "Meets this road" },
+    { "id": "mdr-jh-197", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kundahit",
@@ -30,12 +43,6 @@
         87.31168,
         24.10714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

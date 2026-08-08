@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sausar, Madhya Pradesh",
     "end": "Saoner, Maharashtra",
@@ -16,6 +17,17 @@
       "Saoner"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-547", "label": "Met near Sausar" },
+    { "id": "sh-mp-46", "label": "Met near Sausar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sausar",
@@ -30,12 +42,6 @@
         78.89552,
         21.60585
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

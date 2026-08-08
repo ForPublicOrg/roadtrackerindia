@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 58.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Bodvad, Maharashtra",
     "end": "Soegaon, Maharashtra",
@@ -16,6 +17,18 @@
       "Soegaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-753f", "label": "Met near Soegaon" },
+    { "id": "nh-753l", "label": "Met near Bodvad" },
+    { "id": "sh-mh-188", "label": "Meets this road" },
+    { "id": "sh-mh-190", "label": "Met near Bodvad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bodvad",
@@ -30,12 +43,6 @@
         75.71169,
         20.63452
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

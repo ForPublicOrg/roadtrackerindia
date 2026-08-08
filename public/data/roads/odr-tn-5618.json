@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruvallur, Tamil Nadu",
     "end": "Kadambattur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kadambattur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-50", "label": "Met near Tiruvallur" },
+    { "id": "odr-tn-5317", "label": "Met near Tiruvallur" },
+    { "id": "odr-tn-1245", "label": "Met near Tiruvallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruvallur",
@@ -30,12 +43,6 @@
         79.89046,
         13.20429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

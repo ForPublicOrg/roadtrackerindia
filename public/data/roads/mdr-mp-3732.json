@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bargi, Madhya Pradesh",
     "end": "Gwarighat, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Gwarighat"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3729", "label": "Met near Jabalpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bargi",
@@ -30,12 +41,6 @@
         79.85045,
         23.09074
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

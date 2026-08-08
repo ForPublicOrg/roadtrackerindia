@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 55.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Kacchi Basti, Rajasthan",
     "end": "Manasa, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Manasa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-7", "label": "Met near Neemuch" },
+    { "id": "mdr-rj-20", "label": "Met near Nimbahera" },
+    { "id": "mdr-mp-2107", "label": "Met near Neemuch" },
+    { "id": "mdr-mp-2104", "label": "Met near Neemuch" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kacchi Basti",
@@ -30,12 +44,6 @@
         75.06813,
         24.45428
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

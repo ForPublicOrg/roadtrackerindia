@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruverkadu, Tamil Nadu",
     "end": "Vanagaram, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Vanagaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vanagaram" },
+    { "id": "mdr-tn-1166", "label": "Met near Vanagaram" },
+    { "id": "odr-tn-4537", "label": "Met near Vanagaram" },
+    { "id": "odr-tn-6508", "label": "Met near Vanagaram" },
+    { "id": "odr-tn-4910", "label": "Met near Poonamallee" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruverkadu",
@@ -38,12 +53,6 @@
         80.13475,
         13.0604
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

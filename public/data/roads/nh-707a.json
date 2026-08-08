@@ -19,6 +19,26 @@
       "Tiuni"
     ]
   },
+  "significance": "NH 707A is a branch of NH 707. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Srinagar to Mussoorie, and it meets NH 707 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-707",
+      "label": "NH 707 — the highway this branch takes its number from, running Sawra to Paonta Sahib"
+    },
+    { "id": "nh-34", "label": "Met near New Tehri" },
+    { "id": "nh-7", "label": "Met near Srinagar" },
+    { "id": "nh-507", "label": "Met near Mussoorie" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Srinagar",
@@ -68,16 +88,6 @@
         77.99578,
         30.51245
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

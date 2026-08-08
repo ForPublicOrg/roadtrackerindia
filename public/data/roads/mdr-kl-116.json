@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Perinthalmanna, Kerala",
     "end": "Melattur, Kerala",
@@ -16,6 +17,18 @@
       "Melattur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-39", "label": "Met near Perinthalmanna" },
+    { "id": "sh-kl-73", "label": "Met near Perinthalmanna" },
+    { "id": "kl-makkaraparamba-mankada-road", "label": "Met near Perinthalmanna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Perinthalmanna",
@@ -30,12 +43,6 @@
         76.23128,
         11.02102
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

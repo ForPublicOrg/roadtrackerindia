@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dr. Ambedkar Nagar, Madhya Pradesh",
     "end": "Vaishali Nagar, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Vaishali Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Dr. Ambedkar Nagar" },
+    { "id": "sh-mp-38", "label": "Met near Dr. Ambedkar Nagar" },
+    { "id": "mdr-mp-4527", "label": "Met near Dr. Ambedkar Nagar" },
+    { "id": "mdr-mp-4526", "label": "Met near Dr. Ambedkar Nagar" },
+    { "id": "mdr-mp-4531", "label": "Met near Dr. Ambedkar Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dr. Ambedkar Nagar",
@@ -30,12 +44,6 @@
         75.79668,
         22.61169
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,19 @@
       "Katghora"
     ]
   },
+  "significance": "SH 4, Amarkantak–Katghora State Highway, crosses the border between Madhya Pradesh and Chhattisgarh. A state road that runs through more than one state has no single owner — MP PWD and Chhattisgarh PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-130", "label": "Met near Katghora" },
+    { "id": "nh-149b", "label": "Met near Katghora" },
+    { "id": "sh-ct-8", "label": "Met near Pendra" },
+    { "id": "sh-mp-34", "label": "Met near Amarkantak" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amarkantak",
@@ -39,12 +52,6 @@
         82.52965,
         22.48174
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

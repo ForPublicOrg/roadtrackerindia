@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "edathil colony, Kerala",
     "end": "Ottapalam, Kerala",
@@ -16,6 +17,17 @@
       "Ottapalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pambadi-peringottukurussi-road", "label": "Met near Ottapalam" },
+    { "id": "kl-malasamangalam-road", "label": "Met near Ottapalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "edathil colony",
@@ -30,12 +42,6 @@
         76.47788,
         10.74751
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

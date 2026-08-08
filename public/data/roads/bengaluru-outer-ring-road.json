@@ -1,0 +1,136 @@
+{
+  "id": "bengaluru-outer-ring-road",
+  "ref": "Outer Ring Road",
+  "name": "Bengaluru Outer Ring Road",
+  "aka": ["ORR", "Bengaluru ORR"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 60.2,
+  "lanes": "6–8 lanes with service roads, grade-separated at the main junctions",
+  "authority": "bbmp",
+  "route": {
+    "start": "Bengaluru, Karnataka",
+    "end": "Bengaluru, Karnataka",
+    "states": ["Karnataka"],
+    "majorCities": [
+      "Bengaluru",
+      "BTM Layout",
+      "Rajarajeshwari Nagar",
+      "Nagarabhavi",
+      "Nagavara",
+      "Banaswadi",
+      "Bellanduru"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Outer Ring Road was laid out in the 1990s as a bypass around what was then the edge of Bengaluru, and the city promptly grew straight past it. Within fifteen years the stretch between Hebbal, K. R. Puram, Marathahalli and Silk Board had become the address of choice for technology parks, and today more office workers travel this one road than any other in the city. Flyovers and underpasses were added at the worst junctions, and a metro line is being built along the eastern arc, but the road remains the definition of a Bengaluru traffic jam.",
+  "facts": [
+    "Built in the 1990s to bypass Bengaluru; the city grew past it within a decade.",
+    "The Hebbal–Marathahalli–Silk Board stretch carries a large share of the city's technology-park commute.",
+    "The companies along it formed their own association to lobby about the traffic on it.",
+    "A metro line is being built along part of the corridor to take pressure off it.",
+    "The Silk Board junction at its southern end is one of the most notorious road junctions in India."
+  ],
+  "significance": "Bengaluru's technology industry grew along this road rather than in the old city centre, so the ORR is where a very large share of the city's jobs are. What happens to traffic on it decides how long a million commutes take.",
+  "interchanges": [
+    { "name": "Hebbal", "note": "northern flyover, junction for the airport road" },
+    { "name": "K. R. Puram", "note": "eastern junction, and one of the worst bottlenecks on the ring" },
+    { "name": "Marathahalli", "note": "the heart of the technology-park stretch" },
+    { "name": "Central Silk Board", "note": "southern junction with Hosur Road, and a byword for gridlock" }
+  ],
+  "relatedRoads": [
+    { "id": "nice-road", "label": "The tolled peripheral road further out, on the western side" },
+    { "id": "bengaluru-inner-ring-road", "label": "The smaller ring closer to the city centre" },
+    {
+      "id": "bengaluru-satellite-town-ring-road",
+      "label": "The much larger ring being built around the wider region"
+    },
+    {
+      "id": "electronic-city-elevated-expressway",
+      "label": "Carries traffic on from the Silk Board end to Electronic City"
+    },
+    { "id": "nh-44", "label": "Met near BTM Layout" },
+    { "id": "nh-48", "label": "Met near BTM Layout" },
+    { "id": "nh-75", "label": "Met near Peenya" }
+  ],
+  "travelNotes": "Avoid the eastern arc between 8.30 and 11 in the morning and from 5 to 9 in the evening if you can. Service roads run alongside for most of the length and are often quicker for short hops.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "BTM Layout",
+      "coords": [
+        77.61518,
+        12.91632
+      ]
+    },
+    {
+      "name": "Bengaluru",
+      "coords": [
+        77.5969,
+        12.91686
+      ]
+    },
+    {
+      "name": "Rajarajeshwari Nagar",
+      "coords": [
+        77.53458,
+        12.93624
+      ]
+    },
+    {
+      "name": "Nagarabhavi",
+      "coords": [
+        77.51262,
+        12.96106
+      ]
+    },
+    {
+      "name": "Jalahalli",
+      "coords": [
+        77.5467,
+        13.04151
+      ]
+    },
+    {
+      "name": "Nagavara",
+      "coords": [
+        77.62264,
+        13.04107
+      ]
+    },
+    {
+      "name": "Banaswadi",
+      "coords": [
+        77.6618,
+        13.01631
+      ]
+    },
+    {
+      "name": "Mahadevapura",
+      "coords": [
+        77.68934,
+        12.98824
+      ]
+    },
+    {
+      "name": "Bellanduru",
+      "coords": [
+        77.68212,
+        12.92854
+      ]
+    },
+    {
+      "name": "BTM Layout",
+      "coords": [
+        77.62331,
+        12.91735
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

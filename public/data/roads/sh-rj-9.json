@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 84.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Vallabhnagar, Rajasthan",
     "end": "Shastri Nagar, Rajasthan",
@@ -20,6 +21,19 @@
       "Shastri Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Vallabhnagar" },
+    { "id": "nh-48", "label": "Met near Vallabhnagar" },
+    { "id": "nh-162", "label": "Met near Mavli" },
+    { "id": "nh-162a", "label": "Met near Mavli" },
+    { "id": "sh-rj-75", "label": "Met near Fatehnagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vallabhnagar",
@@ -69,12 +83,6 @@
         74.62133,
         24.91056
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

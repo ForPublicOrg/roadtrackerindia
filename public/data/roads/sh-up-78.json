@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 23.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Amroha, Uttar Pradesh",
     "end": "Moradabad, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Moradabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Moradabad" },
+    { "id": "sh-up-77", "label": "Met near Amroha" },
+    { "id": "sh-up-150w", "label": "Met near Amroha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amroha",
@@ -30,12 +42,6 @@
         78.67498,
         28.82272
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

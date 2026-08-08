@@ -21,6 +21,24 @@
       "Oulgaret"
     ]
   },
+  "significance": "NH 332A is a branch of NH 332. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Mahabalipuram to Oulgaret, and it meets NH 332 along the way.",
+  "relatedRoads": [
+    { "id": "east-coast-road", "label": "Met near Puducherry" },
+    { "id": "sh-tn-58", "label": "Met near Kalpakkam" },
+    { "id": "sh-tn-49a", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-49", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-1117", "label": "Met near Marakkanam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahabalipuram",
@@ -63,16 +81,6 @@
         79.8083,
         11.94166
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

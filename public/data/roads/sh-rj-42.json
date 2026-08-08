@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kheragarh, Uttar Pradesh",
     "end": "Bari, Rajasthan",
@@ -17,6 +18,15 @@
       "Bari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-123", "label": "Met near Sepau" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kheragarh",
@@ -38,12 +48,6 @@
         77.61747,
         26.64996
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

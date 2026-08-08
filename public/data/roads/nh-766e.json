@@ -18,6 +18,23 @@
       "Haveri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kumta" },
+    { "id": "sh-ka-2", "label": "Met near Sirsi" },
+    { "id": "sh-ka-76", "label": "Met near Hanagal" },
+    { "id": "sh-ka-93", "label": "Met near Sirsi" },
+    { "id": "sh-ka-137", "label": "Met near Hosahalli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumta",
@@ -46,16 +63,6 @@
         75.38515,
         14.78504
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

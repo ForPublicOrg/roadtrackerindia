@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Brindavanam, Tamil Nadu",
     "end": "Annalagraharam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Annalagraharam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-36", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-8", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-753", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-407", "label": "Met near Papanasam" },
+    { "id": "mdr-tn-1269", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Brindavanam",
@@ -31,12 +46,6 @@
         79.356,
         10.9503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

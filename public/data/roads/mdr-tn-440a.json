@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mela Kadayanallur, Tamil Nadu",
     "end": "Sivagurunatha Puram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Sivagurunatha Puram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Kadayanallur" },
+    { "id": "sh-tn-39b", "label": "Met near Surandai" },
+    { "id": "mdr-tn-1294", "label": "Met near Kadayanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mela Kadayanallur",
@@ -30,12 +43,6 @@
         77.43693,
         9.0641
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

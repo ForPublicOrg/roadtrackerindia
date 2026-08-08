@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 103.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Mahad, Maharashtra",
     "end": "Satara Road, Maharashtra",
@@ -19,6 +20,19 @@
       "Satara Road"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Wai" },
+    { "id": "nh-66", "label": "Met near Mahad" },
+    { "id": "nh-965d", "label": "Met near Satara Road" },
+    { "id": "sh-mh-73", "label": "Met near Mahabaleshwar" },
+    { "id": "sh-mh-63", "label": "Met near Wai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahad",
@@ -54,12 +68,6 @@
         74.14013,
         17.88633
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 39.2,
+  "authority": "odisha-works",
   "route": {
     "start": "Palur, Odisha",
     "end": "Hinjilicut, Odisha",
@@ -17,6 +18,18 @@
       "Hinjilicut"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Palur" },
+    { "id": "nh-516a", "label": "Met near Palur" },
+    { "id": "sh-or-30", "label": "Met near Asika" },
+    { "id": "sh-or-32", "label": "Met near Purushotampur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palur",
@@ -38,12 +51,6 @@
         84.77172,
         19.57629
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

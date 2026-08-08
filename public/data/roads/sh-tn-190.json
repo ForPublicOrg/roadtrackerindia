@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kodumudi, Tamil Nadu",
     "end": "Solar, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Solar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-84", "label": "Met near Kodumudi" },
+    { "id": "sh-tn-189", "label": "Met near Kodumudi" },
+    { "id": "mdr-tn-1138", "label": "Met near Kodumudi" },
+    { "id": "mdr-tn-30", "label": "Met near Kodumudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodumudi",
@@ -30,12 +43,6 @@
         77.84294,
         11.20358
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,22 @@
       "Chagalamarri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-67", "label": "Met near Yerraguntla" },
+    { "id": "nh-40", "label": "Met near Chagalamarri" },
+    { "id": "nh-544g", "label": "Met near Virapunayunipalle" },
+    { "id": "nh-716", "label": "Met near Yerraguntla" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rayachoty",
@@ -69,16 +85,6 @@
         78.58386,
         14.96001
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

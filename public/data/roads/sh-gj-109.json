@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 22.9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Dhoraji, Gujarat",
     "end": "Upleta, Gujarat",
@@ -16,6 +17,16 @@
       "Upleta"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-26", "label": "Met near Dhoraji" },
+    { "id": "sh-gj-97", "label": "Met near Upleta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhoraji",
@@ -30,12 +41,6 @@
         70.26435,
         21.64335
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

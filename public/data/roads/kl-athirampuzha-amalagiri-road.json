@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Athirampuzha, Kerala",
     "end": "Mannanam, Kerala",
@@ -18,6 +19,20 @@
       "Mannanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-athirampuzha-lizue-kaipuzha-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-arpookara-ammenchery-road", "label": "Met near Kottayam" },
+    { "id": "kl-ayikkarakunnu-ottakappilumavu-road", "label": "Met near Mannanam" },
+    { "id": "kl-babu-chazhikkadan-road", "label": "Met near Kottayam" },
+    { "id": "kl-caritas-ammanchery-road", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athirampuzha",
@@ -39,12 +54,6 @@
         76.53379,
         9.64411
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

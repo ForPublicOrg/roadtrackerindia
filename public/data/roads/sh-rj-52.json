@@ -21,6 +21,20 @@
       "Shahjahanpur"
     ]
   },
+  "significance": "SH 52, Achrol–Shahjahanpur State Highway, crosses the border between Rajasthan and Haryana. A state road that runs through more than one state has no single owner — Rajasthan PWD and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Bansur" },
+    { "id": "nh-248a", "label": "Met near Viratnagar" },
+    { "id": "nh-148", "label": "Met near Manoharpur" },
+    { "id": "nh-248", "label": "Met near Achrol" },
+    { "id": "sh-rj-14", "label": "Met near Bardod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Achrol",
@@ -63,12 +77,6 @@
         76.55116,
         27.96697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

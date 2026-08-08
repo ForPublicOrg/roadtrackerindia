@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozhencherry, Kerala",
     "end": "Kumbanad, Kerala",
@@ -16,6 +17,20 @@
       "Kumbanad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-vennikulam-ranni-road", "label": "Met near Kozhencherry" },
+    { "id": "kl-valankara-ayroor-road", "label": "Met near Kumbanad" },
+    { "id": "kl-thadiyoor-kurudamannilkadavu-peroochal-road", "label": "Met near Kozhencherry" },
+    { "id": "kl-thundyil-kadavu-ezhumattur-road", "label": "Met near Kozhencherry" },
+    { "id": "kl-vennikulam-thelliyoor-road", "label": "Met near Kumbanad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozhencherry",
@@ -30,12 +45,6 @@
         76.69429,
         9.40106
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

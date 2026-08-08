@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 27.5,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Gannaur, Haryana",
     "end": "Israna, Haryana",
@@ -16,6 +17,16 @@
       "Israna"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Gannaur" },
+    { "id": "nh-709", "label": "Met near Israna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gannaur",
@@ -30,12 +41,6 @@
         76.81127,
         29.24281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

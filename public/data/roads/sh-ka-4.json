@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.9,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Goranalli, Karnataka",
     "end": "Udgir, Maharashtra",
@@ -19,6 +20,19 @@
       "Udgir"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Bidar" },
+    { "id": "nh-752k", "label": "Met near Bhalki" },
+    { "id": "sh-ka-34", "label": "Met near Bhalki" },
+    { "id": "sh-ka-15", "label": "Met near Bidar" },
+    { "id": "sh-mh-217", "label": "Met near Udgir" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Goranalli",
@@ -61,12 +75,6 @@
         77.17178,
         18.24802
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

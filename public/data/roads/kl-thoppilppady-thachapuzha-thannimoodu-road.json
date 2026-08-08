@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ponkunnam, Kerala",
     "end": "Vazhoor, Kerala",
@@ -16,6 +17,20 @@
       "Vazhoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-8", "label": "Met near Ponkunnam" },
+    { "id": "kl-vazhoor-puliyannoor-road", "label": "Met near Vazhoor" },
+    { "id": "kl-17th-mile-kk-road-chengalam-road", "label": "Met near Vazhoor" },
+    { "id": "kl-chenkal-thachappuzha-road", "label": "Met near Ponkunnam" },
+    { "id": "kl-1st-mile-thachappuzha-road", "label": "Met near Ponkunnam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ponkunnam",
@@ -30,12 +45,6 @@
         76.69788,
         9.58212
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

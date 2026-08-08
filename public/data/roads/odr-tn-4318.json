@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pazhavanthangal, Tamil Nadu",
     "end": "Ullagaram, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Ullagaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Ullagaram" },
+    { "id": "sh-tn-u88", "label": "Met near Meenambakkam" },
+    { "id": "sh-tn-48a", "label": "Met near Ullagaram" },
+    { "id": "sh-tn-2a", "label": "Met near Ullagaram" },
+    { "id": "mdr-tn-635", "label": "Met near Ullagaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pazhavanthangal",
@@ -38,12 +53,6 @@
         80.19523,
         12.98148
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kappalam, Kerala",
     "end": "Karuvanchal, Kerala",
@@ -17,6 +18,19 @@
       "Karuvanchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-36", "label": "Met near Kappalam" },
+    { "id": "kl-taliparamba-coorg-border-road", "label": "Met near Naduvil" },
+    { "id": "mdr-kl-17", "label": "Met near Kappalam" },
+    { "id": "kl-vilakkannur-kanikkathodu-padappayangadu-road", "label": "Met near Naduvil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kappalam",
@@ -31,12 +45,6 @@
         75.42402,
         12.12474
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

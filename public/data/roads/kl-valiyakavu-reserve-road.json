@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ranni, Kerala",
     "end": "Manimala, Kerala",
@@ -16,6 +17,19 @@
       "Manimala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Ranni" },
+    { "id": "sh-kl-8", "label": "Met near Manimala" },
+    { "id": "kl-ranny-puthukudi-madathumchal-road", "label": "Met near Ranni" },
+    { "id": "kl-ponthenpuzha-alpara-road", "label": "Met near Manimala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ranni",
@@ -30,12 +44,6 @@
         76.78425,
         9.46061
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

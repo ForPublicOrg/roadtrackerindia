@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 25.2,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Gharaunda, Haryana",
     "end": "Karnal, Haryana",
@@ -16,6 +17,16 @@
       "Karnal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-709a", "label": "Met near Karnal" },
+    { "id": "sh-hr-8", "label": "Met near Karnal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gharaunda",
@@ -30,12 +41,6 @@
         76.97415,
         29.68603
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

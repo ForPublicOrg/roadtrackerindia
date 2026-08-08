@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "V.S.Nagar, Tamil Nadu",
     "end": "Dheena Nagar Naval Nagar, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Dheena Nagar Naval Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near V.S.Nagar" },
+    { "id": "mdr-tn-625", "label": "Met near Velliyanai" },
+    { "id": "mdr-tn-865", "label": "Met near Velliyanai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "V.S.Nagar",
@@ -30,12 +43,6 @@
         78.27384,
         10.83206
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

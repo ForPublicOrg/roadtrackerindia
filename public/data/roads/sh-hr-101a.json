@@ -18,6 +18,19 @@
       "Sardulgarh"
     ]
   },
+  "significance": "SH 101A, Mandi Dabwali–Sardulgarh State Highway, crosses the border between Haryana and Punjab. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and Punjab PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Mandi Dabwali" },
+    { "id": "nh-9", "label": "Met near Mandi Dabwali" },
+    { "id": "nh-54", "label": "Met near Mandi Dabwali" },
+    { "id": "sh-pb-17", "label": "Met near Sardulgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandi Dabwali",
@@ -39,12 +52,6 @@
         75.21875,
         29.73348
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 103.3,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Ambajogai, Maharashtra",
     "end": "Gadhi, Maharashtra",
@@ -18,6 +19,19 @@
       "Gadhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Gadhi" },
+    { "id": "nh-548c", "label": "Met near Dharur" },
+    { "id": "nh-61", "label": "Met near Gadhi" },
+    { "id": "nh-548b", "label": "Met near Ambajogai" },
+    { "id": "nh-548d", "label": "Met near Ambajogai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambajogai",
@@ -46,12 +60,6 @@
         75.75592,
         19.15573
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

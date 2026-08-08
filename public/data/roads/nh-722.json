@@ -17,6 +17,22 @@
       "Chhapra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Chhapra" },
+    { "id": "nh-22", "label": "Met near Muzaffarpur" },
+    { "id": "sh-br-74", "label": "Met near Maker" },
+    { "id": "sh-br-73", "label": "Met near Maker" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muzaffarpur",
@@ -38,16 +54,6 @@
         84.75438,
         25.78125
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

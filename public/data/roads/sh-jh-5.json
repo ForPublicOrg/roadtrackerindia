@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 58.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chaibasa, Jharkhand",
     "end": "Bhetia, Jharkhand",
@@ -18,6 +19,19 @@
       "Bhetia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Saraikela" },
+    { "id": "nh-20", "label": "Met near Chaibasa" },
+    { "id": "nh-118", "label": "Met near Gamharia" },
+    { "id": "mdr-jh-160", "label": "Met near Saraikela" },
+    { "id": "mdr-jh-144", "label": "Met near Saraikela" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chaibasa",
@@ -53,12 +67,6 @@
         86.1349,
         22.79622
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

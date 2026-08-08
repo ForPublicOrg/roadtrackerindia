@@ -1,10 +1,14 @@
 {
   "id": "ne-4c",
   "ref": "NE 4C",
-  "name": "Sikandra–Ramganj Expressway",
+  "name": "Delhi–Mumbai Expressway Jaipur Spur",
+  "aka": ["NE-4 Jaipur link"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 66.8,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Sikandra, Rajasthan",
     "end": "Ramganj, Rajasthan",
@@ -16,6 +20,31 @@
       "Ramganj"
     ]
   },
+  "history": "The Delhi–Mumbai Expressway runs south of Jaipur rather than through it, so a set of numbered spurs was built to connect the cities it passes. This one is the Rajasthan link between the main expressway and the Jaipur area, letting traffic from the city join the expressway without doubling back.",
+  "facts": [
+    "A spur of NE-4, the Delhi–Mumbai Expressway — the letter in the number marks it as a branch.",
+    "Connects the Jaipur area to the main expressway alignment across Rajasthan.",
+    "Spurs like this are how the Delhi–Mumbai Expressway serves cities it deliberately bypasses."
+  ],
+  "significance": "The Delhi–Mumbai Expressway is built to stay clear of cities, which makes it fast but useless to those cities unless something links them to it. That is what this spur does for Jaipur.",
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "The main expressway this branch connects to" },
+    { "id": "jaipur-ring-road", "label": "The Jaipur ring road at the city end" },
+    { "id": "nh-48", "label": "The older Delhi–Jaipur–Mumbai highway running through the same country" },
+    { "id": "nh-21", "label": "Met near Jaipur" },
+    { "id": "nh-148", "label": "Met near Dausa" },
+    { "id": "jaipur-ring-road-southern-corridor", "label": "Met near Jaipur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sikandra",
@@ -30,16 +59,6 @@
         75.92746,
         26.87851
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

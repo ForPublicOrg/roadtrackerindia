@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ullur, Tamil Nadu",
     "end": "Natchiarkoil, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Natchiarkoil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-136b", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-64", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-147", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-65", "label": "Met near Natchiarkoil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ullur",
@@ -30,12 +44,6 @@
         79.44357,
         10.91913
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

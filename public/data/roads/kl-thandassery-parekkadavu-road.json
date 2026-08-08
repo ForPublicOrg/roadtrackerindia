@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ettumanoor, Kerala",
     "end": "Manarcadu, Kerala",
@@ -16,6 +17,18 @@
       "Manarcadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-shutterkavala-pallikkunnu-kandanchira-aruvakurinji-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-arumanoor-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-ayarkkunnam-thiruvanchoor-road", "label": "Met near Manarcadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ettumanoor",
@@ -30,12 +43,6 @@
         76.58361,
         9.62231
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

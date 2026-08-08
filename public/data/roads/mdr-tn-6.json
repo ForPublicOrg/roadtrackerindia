@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mela Kadayanallur, Tamil Nadu",
     "end": "Tenkasi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Tenkasi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Tenkasi" },
+    { "id": "sh-tn-39a", "label": "Met near Tenkasi" },
+    { "id": "mdr-tn-923", "label": "Met near Tenkasi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mela Kadayanallur",
@@ -30,12 +43,6 @@
         77.34255,
         9.001
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

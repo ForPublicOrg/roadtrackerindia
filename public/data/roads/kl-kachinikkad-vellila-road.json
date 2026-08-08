@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thamarakuzhi, Kerala",
     "end": "Uphill, Kerala",
@@ -16,6 +17,18 @@
       "Uphill"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-966", "label": "Met near Malappuram" },
+    { "id": "kl-panambattachala-vennakkode-vellila-road", "label": "Met near Malappuram" },
+    { "id": "kl-makkaraparamba-mankada-road", "label": "Met near Malappuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thamarakuzhi",
@@ -30,12 +43,6 @@
         76.15065,
         11.04877
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

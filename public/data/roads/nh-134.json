@@ -17,6 +17,20 @@
       "Gangori"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Chinyalisaur" },
+    { "id": "nh-507", "label": "Met near Barkot" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chinyalisaur",
@@ -38,16 +52,6 @@
         78.43888,
         30.97619
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

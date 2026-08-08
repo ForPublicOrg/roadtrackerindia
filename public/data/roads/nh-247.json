@@ -21,6 +21,23 @@
       "Ramtek"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Kanhan" },
+    { "id": "nh-53", "label": "Met near Mauda" },
+    { "id": "nh-353d", "label": "Met near Umred" },
+    { "id": "sh-mh-360", "label": "Met near Pauni" },
+    { "id": "sh-mh-254", "label": "Met near Kuhi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parshivni",
@@ -84,16 +101,6 @@
         79.41623,
         21.37289
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

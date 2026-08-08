@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.8,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Batala, Punjab",
     "end": "Beas, Punjab",
@@ -17,6 +18,19 @@
       "Beas"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Beas" },
+    { "id": "nh-503a", "label": "Met near Mehta Chowk" },
+    { "id": "nh-503d", "label": "Met near Batala" },
+    { "id": "mdr-pb-63", "label": "Met near Batala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Batala",
@@ -38,12 +52,6 @@
         75.25782,
         31.532
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

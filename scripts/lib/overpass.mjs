@@ -105,6 +105,54 @@ export function haversineKm(a, b) {
 export const lineLengthKm = (coords) =>
   coords.slice(1).reduce((sum, p, i) => sum + haversineKm(coords[i], p), 0)
 
+/**
+ * One road is described by many overlapping relations (per state, per stretch,
+ * plus a whole-route one) and divided highways are mapped as two parallel
+ * carriageways. Both inflate a naive merge — stitching a dual carriageway end
+ * to end reports a road at twice its real length — so ways whose path is
+ * already covered by a longer way already taken are dropped.
+ */
+const CELL = 0.0025 // ~275 m — wider than any carriageway separation
+
+export function cellsOf(coords) {
+  const cells = new Set()
+  const add = (x, y) => cells.add(`${Math.floor(x / CELL)}:${Math.floor(y / CELL)}`)
+  for (let i = 0; i < coords.length; i++) {
+    const [x, y] = coords[i]
+    add(x, y)
+    if (i === 0) continue
+    const [px, py] = coords[i - 1]
+    const steps = Math.ceil(Math.max(Math.abs(x - px), Math.abs(y - py)) / CELL)
+    for (let k = 1; k < steps; k++) add(px + ((x - px) * k) / steps, py + ((y - py) * k) / steps)
+  }
+  return cells
+}
+
+/** Drop ways whose path is already covered — duplicates and opposite carriageways. */
+export function dedupeWays(input) {
+  const ways = [...input].sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
+
+  const covered = new Set()
+  const kept = []
+  for (const way of ways) {
+    const cells = cellsOf(way)
+    let hits = 0
+    for (const c of cells) {
+      const [cx, cy] = c.split(':').map(Number)
+      // a one-cell halo absorbs carriageways that straddle a cell boundary
+      if (
+        covered.has(c) ||
+        covered.has(`${cx + 1}:${cy}`) || covered.has(`${cx - 1}:${cy}`) ||
+        covered.has(`${cx}:${cy + 1}`) || covered.has(`${cx}:${cy - 1}`)
+      ) hits++
+    }
+    if (cells.size && hits / cells.size >= 0.75) continue // already on the map
+    for (const c of cells) covered.add(c)
+    kept.push(way)
+  }
+  return kept
+}
+
 /** Douglas–Peucker; tolerance in km. */
 export function simplify(coords, tolKm) {
   if (coords.length < 3) return coords

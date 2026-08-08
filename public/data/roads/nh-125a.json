@@ -16,6 +16,26 @@
       "Saran Nagar"
     ]
   },
+  "significance": "NH 125A is a branch of NH 125. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jwala Vihar to Saran Nagar, and it meets NH 125 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-125",
+      "label": "NH 125 — the highway this branch takes its number from, running Pokaran to Paota"
+    },
+    { "id": "nh-62", "label": "Met near Saran Nagar" },
+    { "id": "nh-25", "label": "Met near Saran Nagar" },
+    { "id": "sh-rj-61", "label": "Met near Jodhpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jwala Vihar",
@@ -30,16 +50,6 @@
         73.23872,
         26.26814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sevvapet, Tamil Nadu",
     "end": "Veppambaattu, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Veppambaattu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-57", "label": "Met near Tiruvallur" },
+    { "id": "tn-sugarcane-road-413", "label": "Met near Tiruvallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sevvapet",
@@ -30,12 +42,6 @@
         79.9752,
         13.16786
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

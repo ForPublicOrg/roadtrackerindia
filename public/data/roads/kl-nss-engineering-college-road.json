@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthuppariyaram, Kerala",
     "end": "Akathethara, Kerala",
@@ -16,6 +17,16 @@
       "Akathethara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-olavakkode-malampuzha-road", "label": "Met near Palakkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthuppariyaram",
@@ -30,12 +41,6 @@
         76.64788,
         10.81086
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthenpeedika, Kerala",
     "end": "Azhoor, Kerala",
@@ -16,6 +17,18 @@
       "Azhoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183a", "label": "Met near Pathanamthitta" },
+    { "id": "kl-ezhamkulam-kaippattoor-road", "label": "Met near Pathanamthitta" },
+    { "id": "kl-vakayar-vallikkode-road", "label": "Met near Pathanamthitta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthenpeedika",
@@ -30,12 +43,6 @@
         76.777,
         9.21821
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

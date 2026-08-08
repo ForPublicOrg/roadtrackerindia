@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 70.1,
+  "authority": "odisha-works",
   "route": {
     "start": "Athmallik, Odisha",
     "end": "Boudh, Odisha",
@@ -16,6 +17,16 @@
       "Boudh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-55", "label": "Meets this road" },
+    { "id": "nh-153b", "label": "Met near Boudh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athmallik",
@@ -30,12 +41,6 @@
         84.32214,
         20.86365
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

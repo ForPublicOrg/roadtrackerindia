@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20.7,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Laveru, Andhra Pradesh",
     "end": "Chipurupalle, Andhra Pradesh",
@@ -16,6 +17,15 @@
       "Chipurupalle"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Laveru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Laveru",
@@ -30,12 +40,6 @@
         83.56698,
         18.31038
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

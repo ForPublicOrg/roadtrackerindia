@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Min Arasu Nagar, Tamil Nadu",
     "end": "Palanichettypatty, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Palanichettypatty"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Min Arasu Nagar" },
+    { "id": "sh-tn-229", "label": "Met near Min Arasu Nagar" },
+    { "id": "sh-tn-n12", "label": "Met near Min Arasu Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Min Arasu Nagar",
@@ -30,12 +42,6 @@
         77.42972,
         9.95603
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

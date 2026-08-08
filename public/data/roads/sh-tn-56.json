@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 27.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruvottiyur, Tamil Nadu",
     "end": "Ponneri, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Ponneri"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Minjur" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Minjur" },
+    { "id": "chennai-inner-ring-road", "label": "Met near Dwaraka Nagar" },
+    { "id": "sh-tn-2", "label": "Met near Dwaraka Nagar" },
+    { "id": "sh-tn-104", "label": "Met near Ponneri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruvottiyur",
@@ -67,12 +81,6 @@
         80.19438,
         13.33398
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

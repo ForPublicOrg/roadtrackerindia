@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 39.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Basmat, Maharashtra",
     "end": "Kalamnuri, Maharashtra",
@@ -16,6 +17,15 @@
       "Kalamnuri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-161", "label": "Met near Kalamnuri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Basmat",
@@ -30,12 +40,6 @@
         77.26301,
         19.69207
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

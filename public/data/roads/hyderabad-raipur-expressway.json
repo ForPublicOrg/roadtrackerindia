@@ -1,10 +1,14 @@
 {
   "id": "hyderabad-raipur-expressway",
-  "ref": "NH",
-  "name": "Hyderabad - Raipur Expressway",
+  "ref": "Hyderabad–Raipur Expressway",
+  "name": "Hyderabad–Raipur Expressway",
+  "aka": ["Raipur–Hyderabad Economic Corridor"],
   "category": "expressway",
-  "status": "operational",
-  "lengthKm": 273.5,
+  "status": "planned",
+  "lengthKm": 530,
+  "lanes": "4 lanes, access-controlled, planned for 6",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Kaghaznagar, Telangana",
     "end": "Durg, Chhattisgarh",
@@ -22,6 +26,40 @@
       "Durg"
     ]
   },
+  "history": "The road between Hyderabad and Raipur runs through some of the least developed and most heavily forested country in central India, across the Godavari valley and the districts of eastern Maharashtra and southern Chhattisgarh. The existing route is slow and winding. This planned expressway takes a much more direct line, and it is intended as much to open up that interior as to shorten the drive between the two state capitals.",
+  "facts": [
+    "Would link the capitals of Telangana and Chhattisgarh directly for the first time.",
+    "Crosses the forested districts of eastern Maharashtra and southern Chhattisgarh.",
+    "Aims to cut a journey of more than eleven hours to around seven.",
+    "It would connect the Hyderabad industrial region to the Chhattisgarh steel and coal belt.",
+    "Part of the Bharatmala programme of new national corridors."
+  ],
+  "significance": "Central India's mineral belt and the industry around Hyderabad trade heavily with each other, but the roads between them still wind through hill and forest. A direct corridor would also give some of the country's remotest districts their first fast road.",
+  "relatedRoads": [
+    {
+      "id": "raipur-visakhapatnam-expressway",
+      "label": "The other new expressway out of Raipur, running to the coast"
+    },
+    {
+      "id": "durg-raipur-arang-expressway",
+      "label": "The Chhattisgarh expressway this corridor would meet near Raipur"
+    },
+    { "id": "hyderabad-outer-ring-road", "label": "The Hyderabad ring road at the southern end" },
+    { "id": "nh-353c", "label": "Met near Gadchiroli" },
+    { "id": "nh-930", "label": "Met near Saoli" },
+    { "id": "nh-353b", "label": "Met near Gondpipri" }
+  ],
+  "travelNotes": "Not built. The drive today goes by way of Nagpur or the older highways through Jagdalpur, and takes most of a day.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaghaznagar",
@@ -71,16 +109,6 @@
         81.21201,
         21.08503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

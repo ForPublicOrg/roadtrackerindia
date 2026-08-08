@@ -1,0 +1,112 @@
+{
+  "id": "sion-panvel-highway",
+  "ref": "Sion–Panvel Highway",
+  "name": "Sion–Panvel Highway",
+  "aka": ["SPH", "Sion–Panvel Expressway"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 33.2,
+  "lanes": "8–10 lanes",
+  "authority": "msrdc",
+  "route": {
+    "start": "Sion, Mumbai",
+    "end": "Kalamboli (Panvel), Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Kalamboli", "Belapur East", "Sanpada", "Vashi", "Mankhurd", "Mumbai", "Sion East"]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Sion–Panvel Highway is the road that made Navi Mumbai possible. It runs from Sion, at the northern edge of Mumbai island, across the creek and through Vashi, Nerul, Belapur and Kalamboli to Panvel, and it has been widened repeatedly — most recently to eight and ten lanes — as the satellite city along it filled up. It is also the road every vehicle takes between Mumbai and Pune, Goa or the Konkan, so its traffic is a mix of daily commuters and long-distance freight.",
+  "facts": [
+    "The main road between Mumbai island and Navi Mumbai.",
+    "Widened to eight and ten lanes as Navi Mumbai grew along it.",
+    "Every vehicle heading from Mumbai to Pune, Goa or the Konkan passes along it.",
+    "It connects to the Atal Setu sea bridge, which now offers a much shorter crossing from south Mumbai.",
+    "Kalamboli, at its southern end, holds one of the largest steel markets in Asia."
+  ],
+  "significance": "Navi Mumbai was built as a planned overflow city for Mumbai, and this highway is its spine. It is also the funnel through which almost all road traffic leaves Mumbai to the south and east.",
+  "relatedRoads": [
+    { "id": "atal-setu", "label": "The sea bridge that now offers a shorter crossing to Navi Mumbai" },
+    { "id": "mumbai-pune-expressway", "label": "The expressway to Pune, which begins beyond Panvel" },
+    {
+      "id": "eastern-express-highway",
+      "label": "The other main road out of Mumbai, running north through Thane"
+    },
+    { "id": "nh-66", "label": "The Konkan coastal highway, which starts at Panvel" },
+    { "id": "mumbai-eastern-freeway", "label": "Met near Mumbai" },
+    { "id": "nh-48", "label": "Met near Mumbai" },
+    { "id": "nh-348a", "label": "Met near Navi Mumbai" }
+  ],
+  "travelNotes": "Heavy in both directions at commuting hours and very heavy on Friday evenings with weekend traffic towards Pune and the Konkan.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Kalamboli",
+      "coords": [
+        73.10601,
+        19.01807
+      ]
+    },
+    {
+      "name": "Belapur East",
+      "coords": [
+        73.04034,
+        19.02366
+      ]
+    },
+    {
+      "name": "Navi Mumbai",
+      "coords": [
+        73.03349,
+        19.02987
+      ]
+    },
+    {
+      "name": "Sanpada",
+      "coords": [
+        73.0193,
+        19.06316
+      ]
+    },
+    {
+      "name": "Vashi",
+      "coords": [
+        72.98693,
+        19.06949
+      ]
+    },
+    {
+      "name": "Mankhurd",
+      "coords": [
+        72.93375,
+        19.05017
+      ]
+    },
+    {
+      "name": "Deonar",
+      "coords": [
+        72.90868,
+        19.04621
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "coords": [
+        72.86806,
+        19.04837
+      ]
+    },
+    {
+      "name": "Sion East",
+      "coords": [
+        72.86385,
+        19.04294
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

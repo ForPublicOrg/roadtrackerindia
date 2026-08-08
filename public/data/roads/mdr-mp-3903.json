@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dindori, Madhya Pradesh",
     "end": "Gada Sarai, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Gada Sarai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Met near Dindori" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dindori",
@@ -30,12 +41,6 @@
         81.19038,
         22.96975
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

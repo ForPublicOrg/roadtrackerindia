@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Odayamchal, Kerala",
     "end": "Cherupuzha, Kerala",
@@ -16,6 +17,20 @@
       "Cherupuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Cherupuzha" },
+    { "id": "sh-kl-56", "label": "Met near Odayamchal" },
+    { "id": "mdr-kl-134", "label": "Met near Cherupuzha" },
+    { "id": "mdr-kl-142", "label": "Met near Odayamchal" },
+    { "id": "mdr-kl-151", "label": "Met near Odayamchal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Odayamchal",
@@ -30,12 +45,6 @@
         75.3596,
         12.32338
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

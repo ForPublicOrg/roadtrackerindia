@@ -20,6 +20,22 @@
       "Najibabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Najibabad" },
+    { "id": "nh-309", "label": "Met near Pauri" },
+    { "id": "nh-119", "label": "Met near Najibabad" },
+    { "id": "nh-734", "label": "Met near Najibabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pauri",
@@ -55,16 +71,6 @@
         78.34994,
         29.60865
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vavipalayam, Tamil Nadu",
     "end": "Kulathupalayam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kulathupalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-81", "label": "Met near Vavipalayam" },
+    { "id": "sh-tn-19a", "label": "Met near Vavipalayam" },
+    { "id": "mdr-tn-71", "label": "Met near Vijayamangalam" },
+    { "id": "mdr-tn-1102", "label": "Met near Vavipalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vavipalayam",
@@ -30,12 +44,6 @@
         77.45509,
         11.17096
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 10,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Park Town, Tamil Nadu",
     "end": "Madhavaram, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Madhavaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Madhavaram" },
+    { "id": "sh-tn-u88", "label": "Met near Chennai" },
+    { "id": "sh-tn-2", "label": "Met near Madhavaram" },
+    { "id": "sh-tn-u86", "label": "Met near Chennai" },
+    { "id": "sh-tn-111", "label": "Met near Kodungaiyur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Park Town",
@@ -67,12 +81,6 @@
         80.22128,
         13.14363
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

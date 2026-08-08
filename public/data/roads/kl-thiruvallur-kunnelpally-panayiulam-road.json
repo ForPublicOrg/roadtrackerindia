@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kongorpilly, Kerala",
     "end": "Pathalam, Kerala",
@@ -16,6 +17,19 @@
       "Pathalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kottapuram-koonammavu-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-aluva-alangad-road-2nd-reach", "label": "Met near Kongorpilly" },
+    { "id": "kl-puthiya-road-puthiya-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-kadungalloor-karumalloor-road", "label": "Met near Kongorpilly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kongorpilly",
@@ -30,12 +44,6 @@
         76.30342,
         10.10572
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

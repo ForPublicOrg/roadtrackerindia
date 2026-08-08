@@ -16,6 +16,20 @@
       "Samakhiali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Meets this road" },
+    { "id": "sh-gj-51", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rapar",
@@ -30,16 +44,6 @@
         70.66922,
         23.40493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

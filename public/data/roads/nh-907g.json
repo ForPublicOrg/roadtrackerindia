@@ -16,6 +16,24 @@
       "Bilaspur"
     ]
   },
+  "significance": "NH 907G is a branch of NH 907. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jagadhari to Bilaspur, and it meets NH 907 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-907",
+      "label": "NH 907 — the highway this branch takes its number from, running Paonta Sahib to Pansara"
+    },
+    { "id": "sh-hr-1", "label": "Met near Bilaspur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagadhari",
@@ -30,16 +48,6 @@
         77.3022,
         30.29819
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

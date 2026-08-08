@@ -19,6 +19,23 @@
       "Bhongir"
     ]
   },
+  "relatedRoads": [
+    { "id": "warangal-khammam-expressway", "label": "Met near Mahabubabad" },
+    { "id": "hyderabad-regional-ring-road", "label": "Met near Bhongir" },
+    { "id": "nh-30", "label": "Met near Kothagudem" },
+    { "id": "nh-563", "label": "Met near Thorrur" },
+    { "id": "nh-365b", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kothagudem",
@@ -68,16 +85,6 @@
         78.93765,
         17.42982
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

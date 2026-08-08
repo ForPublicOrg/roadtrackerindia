@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 86.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sirohi, Rajasthan",
     "end": "Jalore, Rajasthan",
@@ -17,6 +18,17 @@
       "Jalore"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-168", "label": "Met near Sirohi" },
+    { "id": "nh-325", "label": "Met near Jalore" },
+    { "id": "sh-rj-31", "label": "Met near Jalore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sirohi",
@@ -45,12 +57,6 @@
         72.62416,
         25.34179
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,22 @@
       "Rupnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Phagwara" },
+    { "id": "nh-205", "label": "Met near Rupnagar" },
+    { "id": "nh-103a", "label": "Met near Nawanshahr" },
+    { "id": "mdr-pb-56", "label": "Met near Phagwara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phagwara",
@@ -54,16 +70,6 @@
         76.50711,
         30.96245
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

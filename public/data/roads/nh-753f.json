@@ -24,6 +24,23 @@
       "Jalgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Ahilyanagar" },
+    { "id": "samruddhi-mahamarg", "label": "Met near Chhatrapati Sambhajinagar" },
+    { "id": "pune-ring-road", "label": "Met near Paud" },
+    { "id": "nh-48", "label": "Met near Bavdhan" },
+    { "id": "nh-52", "label": "Met near Chhatrapati Sambhajinagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Murud",
@@ -122,16 +139,6 @@
         75.5776,
         21.00242
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

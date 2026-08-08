@@ -16,6 +16,25 @@
       "Kurduvadi"
     ]
   },
+  "significance": "NH 965C is a branch of NH 965. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Pandharpur to Kurduvadi, and it meets NH 965 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-965",
+      "label": "NH 965 — the highway this branch takes its number from, running Akluj to Gopalpatti"
+    },
+    { "id": "nh-65", "label": "Meets this road" },
+    { "id": "nh-548c", "label": "Met near Kurduvadi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pandharpur",
@@ -30,16 +49,6 @@
         75.40996,
         18.08444
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

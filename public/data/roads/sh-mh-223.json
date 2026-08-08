@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 109.7,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Bodhan, Telangana",
     "end": "Loha, Maharashtra",
@@ -19,6 +20,19 @@
       "Loha"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-63", "label": "Met near Degloor" },
+    { "id": "nh-50", "label": "Met near Loha" },
+    { "id": "nh-161a", "label": "Met near Mukhed" },
+    { "id": "nh-361", "label": "Met near Loha" },
+    { "id": "nh-161", "label": "Met near Degloor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bodhan",
@@ -54,12 +68,6 @@
         77.12401,
         18.95476
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

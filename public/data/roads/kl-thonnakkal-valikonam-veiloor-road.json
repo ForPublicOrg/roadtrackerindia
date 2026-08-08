@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mangalapuram, Kerala",
     "end": "Azhoor, Kerala",
@@ -16,6 +17,19 @@
       "Azhoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Mangalapuram" },
+    { "id": "kl-chirayinkil-kaniyapuram-road", "label": "Met near Mangalapuram" },
+    { "id": "kl-kaniyapuram-chirayinkeezhu-road", "label": "Met near Mangalapuram" },
+    { "id": "kl-azhoor-sasthavattom-road", "label": "Met near Mangalapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangalapuram",
@@ -30,12 +44,6 @@
         76.83678,
         8.63952
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

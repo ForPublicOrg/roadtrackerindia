@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Paramathi, Tamil Nadu",
     "end": "Poonga Nagar, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Poonga Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-86", "label": "Met near Paramathi" },
+    { "id": "mdr-tn-1233", "label": "Met near Paramathi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paramathi",
@@ -30,12 +42,6 @@
         78.019,
         11.27937
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

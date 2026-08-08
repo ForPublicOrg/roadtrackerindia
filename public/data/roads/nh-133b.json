@@ -18,6 +18,20 @@
       "Manihari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Sahibganj" },
+    { "id": "nh-131a", "label": "Met near Manihari" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tarbana",
@@ -39,16 +53,6 @@
         87.65525,
         25.3533
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

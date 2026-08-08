@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Urapakkam, Tamil Nadu",
     "end": "Vandalur, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Vandalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Vandalur" },
+    { "id": "sh-tn-121", "label": "Met near Vandalur" },
+    { "id": "mdr-tn-597", "label": "Met near Urapakkam" },
+    { "id": "odr-tn-5871", "label": "Met near Vandalur" },
+    { "id": "odr-tn-2706", "label": "Met near Vandalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Urapakkam",
@@ -45,12 +60,6 @@
         80.07512,
         12.86676
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

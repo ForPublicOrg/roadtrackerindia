@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.8,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bhetia, Jharkhand",
     "end": "Adityapur, Jharkhand",
@@ -16,6 +17,13 @@
       "Adityapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhetia",
@@ -30,12 +38,6 @@
         86.11692,
         22.62536
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

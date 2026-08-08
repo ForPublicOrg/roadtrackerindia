@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Erattayar, Kerala",
     "end": "Cheruthoni, Kerala",
@@ -17,6 +18,20 @@
       "Cheruthoni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-185", "label": "Met near Cheruthoni" },
+    { "id": "sh-kl-42", "label": "Met near Thankamani" },
+    { "id": "sh-kl-43", "label": "Met near Erattayar" },
+    { "id": "kl-thadiyampadu-kuthirakkallu-mariyapuram-road", "label": "Met near Cheruthoni" },
+    { "id": "kl-thadiyampadu-narakakkanam-road", "label": "Met near Cheruthoni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erattayar",
@@ -38,12 +53,6 @@
         76.97313,
         9.88106
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -16,6 +16,20 @@
       "Dhupguri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Dhupguri" },
+    { "id": "nh-17", "label": "Met near Binnaguri Cantonment" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Binnaguri Cantonment",
@@ -30,16 +44,6 @@
         89.00722,
         26.58956
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

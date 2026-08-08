@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Sardulgarh, Punjab",
     "end": "Moonak, Punjab",
@@ -16,6 +17,20 @@
       "Moonak"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Tohana" },
+    { "id": "nh-703", "label": "Met near Sardulgarh" },
+    { "id": "sh-pb-10", "label": "Met near Moonak" },
+    { "id": "sh-hr-21", "label": "Met near Ratia" },
+    { "id": "sh-hr-102", "label": "Met near Jakhal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sardulgarh",
@@ -30,12 +45,6 @@
         75.89511,
         29.82577
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

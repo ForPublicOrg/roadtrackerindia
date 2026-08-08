@@ -15,6 +15,10 @@
     "states": ["Maharashtra"],
     "majorCities": ["Bandra", "Andheri", "Jogeshwari", "Goregaon", "Kandivali", "Borivali", "Dahisar"]
   },
+  "tollInfo": {
+    "tolled": false,
+    "note": "Mumbai's express highways carry no toll, though the sea link and coastal road they connect to are charged separately."
+  },
   "history": "The Western Express Highway is the main road artery of Mumbai's western suburbs. It begins near Bandra and runs north past the airport to Dahisar, from where the road continues towards Gujarat as a national highway. For decades it carried the famous NH 8 into the city, which is why it was built wide and straight while the suburbs around it were still half empty — those suburbs then grew right up to its edge, and today Andheri, Goregaon and Borivali all hang off it. Over the years it has been widened again and again and given flyovers at almost every big junction, and Mumbai Metro's Line 7 now runs on pillars right above it from Andheri East to Dahisar East. In 2022 the state handed the highway over to the city's municipal corporation, BMC, for upkeep. It remains one of the busiest roads in India, carrying lakhs of vehicles a day including all the traffic to and from the airport.",
   "facts": [
     "About 25 km long, from Bandra to Dahisar.",
@@ -64,10 +68,7 @@
     }
   ],
   "relatedRoads": [
-    {
-      "id": "eastern-express-highway",
-      "label": "The matching highway on Mumbai's eastern side"
-    },
+    { "id": "eastern-express-highway", "label": "The matching highway on Mumbai's eastern side" },
     {
       "id": "nh-48",
       "label": "What this road becomes once it leaves the city at Dahisar, heading for Ahmedabad and Delhi"
@@ -75,7 +76,8 @@
     {
       "id": "mumbai-coastal-road",
       "label": "The new sea-side route that takes some south Mumbai traffic off this highway"
-    }
+    },
+    { "id": "western-freeway", "label": "Met near Mumbai" }
   ],
   "travelNotes": "It is jammed at rush hour in both directions — roughly 8 to 11 in the morning heading south and 6 to 10 at night heading north — and the Kalanagar, Vakola and airport stretches are the usual choke points. Allow far more time than the distance suggests if you have a flight to catch. In heavy monsoon rain low spots near Vakola and Andheri can flood and bring traffic to a standstill, and travelling by Metro Line 7 above the highway is often faster than driving on it.",
   "futureUpgrades": [

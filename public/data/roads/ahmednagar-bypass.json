@@ -16,6 +16,23 @@
       "Ahilyanagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Ahilyanagar" },
+    { "id": "nh-61", "label": "Met near Ahilyanagar" },
+    { "id": "nh-753f", "label": "Met near Kedgaon" },
+    { "id": "nh-160", "label": "Met near Ahilyanagar" },
+    { "id": "nh-561a", "label": "Met near Ahilyanagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kedgaon",
@@ -30,16 +47,6 @@
         74.84106,
         19.08864
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

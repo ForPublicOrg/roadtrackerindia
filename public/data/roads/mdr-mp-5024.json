@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khandwa, Madhya Pradesh",
     "end": "Nepanagar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Nepanagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-753l", "label": "Meets this road" },
+    { "id": "mdr-mp-5023", "label": "Meets this road" },
+    { "id": "mdr-mp-5022", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khandwa",
@@ -30,12 +43,6 @@
         76.32456,
         21.62077
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

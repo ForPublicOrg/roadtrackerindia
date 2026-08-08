@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Andipatti Jakkampatty, Tamil Nadu",
     "end": "Varusanadu, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Varusanadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Andipatti Jakkampatty" },
+    { "id": "mdr-tn-1145", "label": "Met near Andipatti Jakkampatty" },
+    { "id": "mdr-tn-763", "label": "Met near Andipatti Jakkampatty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Andipatti Jakkampatty",
@@ -30,12 +43,6 @@
         77.60036,
         9.85573
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

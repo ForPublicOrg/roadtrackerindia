@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ponneri, Tamil Nadu",
     "end": "Gummidipoondi, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Gummidipoondi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-104", "label": "Met near Ponneri" },
+    { "id": "sh-tn-u17", "label": "Met near Gummidipoondi" },
+    { "id": "odr-tn-3969", "label": "Met near Gummidipoondi" },
+    { "id": "odr-tn-5677", "label": "Met near Gummidipoondi" },
+    { "id": "odr-tn-1464", "label": "Met near Gummidipoondi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ponneri",
@@ -30,12 +45,6 @@
         80.12691,
         13.41296
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

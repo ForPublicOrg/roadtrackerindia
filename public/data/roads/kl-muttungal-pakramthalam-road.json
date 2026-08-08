@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thottilpalam, Kerala",
     "end": "Kuttiadi, Kerala",
@@ -16,6 +17,16 @@
       "Kuttiadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Thottilpalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thottilpalam",
@@ -30,12 +41,6 @@
         75.81275,
         11.73037
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

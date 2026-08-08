@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Neemuch, Madhya Pradesh",
     "end": "Jiran, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Jiran"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-15", "label": "Met near Neemuch" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neemuch",
@@ -30,12 +41,6 @@
         74.87111,
         24.45433
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

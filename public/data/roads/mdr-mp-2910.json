@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 41.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Basoda, Madhya Pradesh",
     "end": "Sironj, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Sironj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-10", "label": "Met near Sironj" },
+    { "id": "sh-mp-61", "label": "Met near Sironj" },
+    { "id": "mdr-mp-2918", "label": "Met near Basoda" },
+    { "id": "mdr-mp-2911", "label": "Met near Basoda" },
+    { "id": "mdr-mp-2912", "label": "Met near Basoda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Basoda",
@@ -30,12 +45,6 @@
         77.69631,
         24.0962
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,23 @@
       "Benapole"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Barasat" },
+    { "id": "nh-312", "label": "Met near Bangaon" },
+    { "id": "sh-wb-2", "label": "Met near Barasat" },
+    { "id": "sh-wb-3", "label": "Met near Gobardanga" },
+    { "id": "sh-wb-1", "label": "Met near Bangaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barasat",
@@ -76,16 +93,6 @@
         88.88283,
         23.03869
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

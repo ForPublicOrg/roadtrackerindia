@@ -18,6 +18,26 @@
       "Jafarabad"
     ]
   },
+  "significance": "NH 351G is a branch of NH 351. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Sayla to Jafarabad, and it meets NH 351 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-351",
+      "label": "NH 351 — the highway this branch takes its number from, running Mahuva to Jetpur"
+    },
+    { "id": "sh-gj-96", "label": "Met near Savarkundla" },
+    { "id": "sh-gj-31", "label": "Met near Lathi" },
+    { "id": "sh-gj-1", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sayla",
@@ -46,16 +66,6 @@
         71.34441,
         20.92747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

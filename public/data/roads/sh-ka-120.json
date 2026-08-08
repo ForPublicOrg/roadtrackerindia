@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.4,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Krishnarajanagara, Karnataka",
     "end": "Saligrama, Karnataka",
@@ -16,6 +17,16 @@
       "Saligrama"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-373", "label": "Met near Krishnarajanagara" },
+    { "id": "sh-ka-85", "label": "Met near Saligrama" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnarajanagara",
@@ -30,12 +41,6 @@
         76.27179,
         12.56168
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

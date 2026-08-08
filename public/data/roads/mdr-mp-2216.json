@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Daloda, Madhya Pradesh",
     "end": "Mandsaur, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Mandsaur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2219", "label": "Met near Daloda" },
+    { "id": "mdr-mp-2220", "label": "Met near Daloda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Daloda",
@@ -30,12 +42,6 @@
         75.15295,
         24.04482
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

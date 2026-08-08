@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalliyoor, Kerala",
     "end": "Nemom, Kerala",
@@ -17,6 +18,18 @@
       "Nemom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-old-nh-road-thiruvananthapuram", "label": "Met near Vellayani" },
+    { "id": "kl-pallichal-vizhinjam-road", "label": "Met near Balaramapuram" },
+    { "id": "kl-kakkamoola-kalliyoor-road", "label": "Met near Balaramapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalliyoor",
@@ -38,12 +51,6 @@
         77.00001,
         8.45733
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

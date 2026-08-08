@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Varappuzha, Kerala",
     "end": "Kongorpilly, Kerala",
@@ -17,6 +18,17 @@
       "Kongorpilly"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Varappuzha" },
+    { "id": "kl-kongorppilly-olanad-road", "label": "Met near Varappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Varappuzha",
@@ -31,12 +43,6 @@
         76.26656,
         10.09211
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,20 @@
       "Gohpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-15", "label": "Met near Doimukh" },
+    { "id": "nh-713a", "label": "Met near Naharlagun" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nirjuli",
@@ -55,16 +69,6 @@
         93.62584,
         26.8857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 21.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palacode, Tamil Nadu",
     "end": "Pennagaram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Pennagaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-844", "label": "Met near Palacode" },
+    { "id": "sh-tn-60", "label": "Met near Pennagaram" },
+    { "id": "sh-tn-262", "label": "Met near Palacode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palacode",
@@ -30,12 +42,6 @@
         77.99059,
         12.13583
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 113.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Rawatbhata, Rajasthan",
     "end": "Lakheri, Rajasthan",
@@ -18,6 +19,19 @@
       "Lakheri"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Lakheri" },
+    { "id": "nh-27", "label": "Met near Kota" },
+    { "id": "nh-52", "label": "Met near Kota" },
+    { "id": "sh-rj-1", "label": "Met near Lakheri" },
+    { "id": "sh-rj-37a", "label": "Met near Kapren" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rawatbhata",
@@ -53,12 +67,6 @@
         76.20938,
         25.57375
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

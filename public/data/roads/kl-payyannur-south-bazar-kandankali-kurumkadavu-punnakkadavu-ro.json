@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Payyanur, Kerala",
     "end": "Kotti, Kerala",
@@ -17,6 +18,20 @@
       "Kotti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-punnakadavu-kunnaru-palakode-road", "label": "Met near Payyanur" },
+    { "id": "kl-payyannur-annur-vellur-road", "label": "Met near Payyanur" },
+    { "id": "kl-payyannur-railway-station-ramanthali-ettikulam-road", "label": "Met near Payyanur" },
+    { "id": "kl-ramanthali-high-school-kunnaru-road", "label": "Met near Payyanur" },
+    { "id": "kl-approach-road-to-payyannur-railway-station", "label": "Met near Payyanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Payyanur",
@@ -45,12 +60,6 @@
         75.19459,
         12.0753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

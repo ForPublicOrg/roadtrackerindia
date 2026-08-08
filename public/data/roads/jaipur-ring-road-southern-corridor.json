@@ -17,6 +17,23 @@
       "Ramganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "jaipur-kishangarh-expressway", "label": "Met near Lalarpura" },
+    { "id": "ne-4c", "label": "Met near Jaipur" },
+    { "id": "jaipur-ring-road", "label": "Met near Lalarpura" },
+    { "id": "nh-48", "label": "Met near Lalarpura" },
+    { "id": "nh-52", "label": "Met near Prahladpura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalarpura",
@@ -38,16 +55,6 @@
         75.9241,
         26.87884
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

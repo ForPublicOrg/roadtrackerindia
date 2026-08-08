@@ -22,6 +22,22 @@
       "Gajula Rega"
     ]
   },
+  "relatedRoads": [
+    { "id": "raipur-visakhapatnam-expressway", "label": "Met near Gantyada" },
+    { "id": "nh-130cd", "label": "Met near Gantyada" },
+    { "id": "nh-516b", "label": "Met near Srungavarapukota" },
+    { "id": "ap-krishnadevipeta-chintapalli-road", "label": "Met near Krishnadevipeta" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnadevipeta",
@@ -106,16 +122,6 @@
         83.38759,
         18.11876
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

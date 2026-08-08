@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mandla, Madhya Pradesh",
     "end": "Dindori, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Dindori"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4011", "label": "Meets this road" },
+    { "id": "mdr-mp-4013", "label": "Meets this road" },
+    { "id": "mdr-mp-4009", "label": "Meets this road" },
+    { "id": "mdr-mp-4015", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandla",
@@ -30,12 +44,6 @@
         80.81159,
         22.70589
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

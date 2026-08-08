@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nanmangalam, Tamil Nadu",
     "end": "Medavakkam, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Medavakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-48a", "label": "Met near Nanmangalam" },
+    { "id": "mdr-tn-635", "label": "Met near Nanmangalam" },
+    { "id": "odr-tn-3166", "label": "Met near Nanmangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nanmangalam",
@@ -38,12 +51,6 @@
         80.18736,
         12.92924
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

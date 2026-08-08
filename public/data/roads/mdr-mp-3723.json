@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dhanvantri Nagar, Madhya Pradesh",
     "end": "Chhota Chhindwara, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Chhota Chhindwara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Meets this road" },
+    { "id": "nh-45", "label": "Met near Chhota Chhindwara" },
+    { "id": "sh-mp-21a", "label": "Meets this road" },
+    { "id": "mdr-mp-3713", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanvantri Nagar",
@@ -30,12 +44,6 @@
         79.52605,
         23.17983
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

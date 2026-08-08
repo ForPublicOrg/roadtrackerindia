@@ -63,3 +63,12 @@ export function formatKm(km: number): string {
   if (km < 20) return `${km.toFixed(1)} km`
   return `${Math.round(km).toLocaleString('en-IN')} km`
 }
+
+/**
+ * Where a road runs, for a one-line list row. A ring road ends where it starts,
+ * and "Bengaluru → Bengaluru" reads as a bug rather than as a loop.
+ */
+export function formatEnds(start: string, end: string): string {
+  const from = start.split(',')[0]
+  return start === end ? `around ${from}` : `${from} → ${end.split(',')[0]}`
+}

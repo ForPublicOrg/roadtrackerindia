@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 56.4,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dudpatil, Assam",
     "end": "Bara Haflong, Assam",
@@ -17,6 +18,17 @@
       "Bara Haflong"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Haflong" },
+    { "id": "sh-as-22", "label": "Met near Silchar" },
+    { "id": "sh-as-37", "label": "Met near Silchar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dudpatil",
@@ -31,12 +43,6 @@
         92.99278,
         25.10825
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

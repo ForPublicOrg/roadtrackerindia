@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Uchahera, Madhya Pradesh",
     "end": "Satna, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Satna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-13a", "label": "Met near Satna" },
+    { "id": "mdr-mp-909", "label": "Met near Uchahera" },
+    { "id": "mdr-mp-911", "label": "Met near Uchahera" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Uchahera",
@@ -30,12 +43,6 @@
         80.75022,
         24.48323
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

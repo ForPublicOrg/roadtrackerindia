@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adavathur East, Tamil Nadu",
     "end": "Natchikurichy, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Natchikurichy"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "tiruchirappalli-ring-road", "label": "Met near Adavathur East" },
+    { "id": "mdr-tn-461", "label": "Met near Adavathur East" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adavathur East",
@@ -45,12 +57,6 @@
         78.64323,
         10.81447
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,23 @@
       "Buxar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Buxar" },
+    { "id": "nh-139", "label": "Met near Patna" },
+    { "id": "nh-120", "label": "Met near Dumraon" },
+    { "id": "nh-124c", "label": "Met near Buxar" },
+    { "id": "sh-br-81", "label": "Met near Koliwar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patna",
@@ -69,16 +86,6 @@
         83.99409,
         25.58021
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

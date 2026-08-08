@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thampuran Padi, Kerala",
     "end": "Puthanpally, Kerala",
@@ -16,6 +17,18 @@
       "Puthanpally"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Chavakkad" },
+    { "id": "kl-mallad-thekkiniyedathupady-road", "label": "Met near Thampuran Padi" },
+    { "id": "mdr-kl-156", "label": "Met near Puthanpally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thampuran Padi",
@@ -30,12 +43,6 @@
         75.97062,
         10.68984
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

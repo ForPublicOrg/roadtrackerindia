@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozhencherry, Kerala",
     "end": "Puthenpeedika, Kerala",
@@ -17,6 +18,19 @@
       "Puthenpeedika"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183a", "label": "Met near Pathanamthitta" },
+    { "id": "sh-kl-7", "label": "Met near Kozhencherry" },
+    { "id": "kl-thumpamon-pariyaram-road", "label": "Met near Kozhencherry" },
+    { "id": "kl-cheekkanal-oonnukal-road", "label": "Met near Pathanamthitta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozhencherry",
@@ -31,12 +45,6 @@
         76.75852,
         9.25071
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallikondai, Tamil Nadu",
     "end": "Gudiyatham, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Gudiyatham"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Gudiyatham" },
+    { "id": "sh-tn-122", "label": "Met near Pallikondai" },
+    { "id": "mdr-tn-1110", "label": "Met near Gudiyatham" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallikondai",
@@ -30,12 +43,6 @@
         78.84818,
         12.87075
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Neyveli, Tamil Nadu",
     "end": "Virudhachalam, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Virudhachalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-532", "label": "Met near Virudhachalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neyveli",
@@ -30,12 +41,6 @@
         79.39027,
         11.52494
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

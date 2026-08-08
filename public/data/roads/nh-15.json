@@ -1,10 +1,12 @@
 {
   "id": "nh-15",
   "ref": "NH 15",
-  "name": "Tezu–Baihata National Highway",
+  "name": "Baihata–Tezu Highway (Assam north bank)",
+  "aka": ["National Highway 52 (old numbering)", "North Bank Highway"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 646.2,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Tezu, Arunachal Pradesh",
     "end": "Baihata, Assam",
@@ -26,6 +28,40 @@
       "Baihata"
     ]
   },
+  "history": "National Highway 15 is the main road along the north bank of the Brahmaputra, running from near Guwahati at Baihata Chariali east through Tezpur, North Lakhimpur and Dhemaji, crossing the river at Bogibeel and continuing through Dibrugarh and Tinsukia to Tezu in Arunachal Pradesh. For most of Assam's history the north bank was the poor relation: the railways and the main highway ran along the south bank, and reaching the north bank meant a ferry. The Bogibeel Bridge, opened in 2018, changed that — it is India's longest rail-and-road bridge and it stitched the two banks of upper Assam together.",
+  "facts": [
+    "Runs along the north bank of the Brahmaputra, the side of Assam that was hardest to reach.",
+    "Crosses the river on the Bogibeel Bridge, at 4.94 km India's longest combined rail and road bridge.",
+    "Used to be numbered NH 52 before the 2010 renumbering.",
+    "It is the road to Kaziranga's northern approaches and to the Arunachal foothills.",
+    "At Tezu it reaches the far east of Arunachal Pradesh, close to the Lohit valley.",
+    "It carries most of the army traffic supplying the eastern stretch of the border with China."
+  ],
+  "significance": "The north bank of the Brahmaputra holds several million people and was for decades cut off by the river itself. This highway, with the Bogibeel Bridge in the middle of it, is what connects them — and it is a strategic route to the eastern border.",
+  "engineering": [
+    {
+      "name": "Bogibeel Bridge",
+      "note": "4.94 km across the Brahmaputra near Dibrugarh — India's longest rail-cum-road bridge, opened in 2018"
+    }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The south-bank highway running the other side of the Brahmaputra" },
+    { "id": "nh-2", "label": "The highway through Nagaland and Manipur, met in upper Assam" },
+    { "id": "nh-13", "label": "Meets this road" },
+    { "id": "nh-215", "label": "Met near Namsai" },
+    { "id": "nh-715", "label": "Met near Tezpur" }
+  ],
+  "travelNotes": "A long drive with few big towns. The Brahmaputra floods every monsoon and low-lying sections near Dhemaji and Lakhimpur can go under water. Fuel and food stops are sparse east of North Lakhimpur.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tezu",
@@ -145,16 +181,6 @@
         91.72303,
         26.33747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thookkupalam, Kerala",
     "end": "Nedumkandam, Kerala",
@@ -16,6 +17,18 @@
       "Nedumkandam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Nedumkandam" },
+    { "id": "sh-kl-42", "label": "Met near Nedumkandam" },
+    { "id": "kl-rajakkadu-chakkulathimedu-road", "label": "Met near Thookkupalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thookkupalam",
@@ -30,12 +43,6 @@
         77.17114,
         9.83033
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

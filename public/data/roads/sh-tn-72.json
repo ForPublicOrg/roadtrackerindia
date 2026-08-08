@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "KK Nagar, Tamil Nadu",
     "end": "Oomachikulam, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Oomachikulam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-785", "label": "Met near Oomachikulam" },
+    { "id": "nh-744a", "label": "Met near Oomachikulam" },
+    { "id": "madurai-north-ring-road", "label": "Met near Oomachikulam" },
+    { "id": "madurai-ring-road", "label": "Met near Madurai" },
+    { "id": "sh-tn-72a", "label": "Met near Madurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "KK Nagar",
@@ -46,12 +60,6 @@
         78.15709,
         10.02644
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

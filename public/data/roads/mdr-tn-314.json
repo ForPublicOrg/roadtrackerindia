@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palayamkottai, Tamil Nadu",
     "end": "Shanti Nagar, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Shanti Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-75", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u95", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palayamkottai",
@@ -39,12 +52,6 @@
         77.80011,
         8.76146
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

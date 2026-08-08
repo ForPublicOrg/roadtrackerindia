@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Venjaramoodu, Kerala",
     "end": "Pazhakutty, Kerala",
@@ -17,6 +18,20 @@
       "Pazhakutty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Venjaramoodu" },
+    { "id": "mc-road", "label": "Met near Venjaramoodu" },
+    { "id": "sh-kl-1", "label": "Met near Venjaramoodu" },
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-47", "label": "Met near Venjaramoodu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Venjaramoodu",
@@ -31,12 +46,6 @@
         77.00125,
         8.62868
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

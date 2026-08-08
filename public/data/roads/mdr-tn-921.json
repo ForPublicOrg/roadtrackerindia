@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Suthamalli Vilakku, Tamil Nadu",
     "end": "Narasinganallur, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Narasinganallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-41a", "label": "Met near Suthamalli Vilakku" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Suthamalli Vilakku",
@@ -30,12 +41,6 @@
         77.64312,
         8.70716
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

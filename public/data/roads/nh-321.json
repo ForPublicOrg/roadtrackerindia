@@ -16,6 +16,21 @@
       "Kheragarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-21", "label": "Met near Kiraoli" },
+    { "id": "sh-up-39", "label": "Met near Kheragarh" },
+    { "id": "sh-up-127w", "label": "Met near Kheragarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kiraoli",
@@ -30,16 +45,6 @@
         77.85043,
         27.02409
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

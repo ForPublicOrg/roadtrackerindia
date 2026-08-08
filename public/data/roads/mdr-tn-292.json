@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nanguneri, Tamil Nadu",
     "end": "Vasantha Nagar, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Vasantha Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-89", "label": "Met near Nanguneri" },
+    { "id": "mdr-tn-403", "label": "Met near Nanguneri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nanguneri",
@@ -30,12 +42,6 @@
         77.7676,
         8.54292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

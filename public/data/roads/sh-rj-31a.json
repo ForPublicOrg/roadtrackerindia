@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 52.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhinmal, Rajasthan",
     "end": "Padroo, Rajasthan",
@@ -16,6 +17,18 @@
       "Padroo"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-rj-16", "label": "Met near Padroo" },
+    { "id": "sh-rj-16a", "label": "Met near Bhinmal" },
+    { "id": "sh-rj-31", "label": "Met near Bhinmal" },
+    { "id": "sh-rj-16b", "label": "Met near Sayla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhinmal",
@@ -30,12 +43,6 @@
         72.15862,
         25.37161
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

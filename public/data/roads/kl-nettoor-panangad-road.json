@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thykoodam, Kerala",
     "end": "Aroor, Kerala",
@@ -18,6 +19,20 @@
       "Aroor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thrippunithura" },
+    { "id": "nh-966b", "label": "Met near Ernakulam" },
+    { "id": "kl-old-nh-sh-road-eranakulam", "label": "Met near Aroor" },
+    { "id": "kl-kumbalam-road", "label": "Met near Thrippunithura" },
+    { "id": "kl-udayathumvathil-road", "label": "Met near Thrippunithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thykoodam",
@@ -46,12 +61,6 @@
         76.3268,
         9.89071
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 10.6,
+  "authority": "odisha-works",
   "route": {
     "start": "Pipili, Odisha",
     "end": "Jatani, Odisha",
@@ -16,6 +17,12 @@
       "Jatani"
     ]
   },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pipili",
@@ -30,12 +37,6 @@
         85.7398,
         20.14842
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

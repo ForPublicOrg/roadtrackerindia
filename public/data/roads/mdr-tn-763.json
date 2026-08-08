@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Andipatti Jakkampatty, Tamil Nadu",
     "end": "Periyakulam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Periyakulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Andipatti Jakkampatty" },
+    { "id": "sh-tn-101", "label": "Met near Andipatti Jakkampatty" },
+    { "id": "mdr-tn-570", "label": "Met near Andipatti Jakkampatty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Andipatti Jakkampatty",
@@ -30,12 +43,6 @@
         77.59201,
         10.04868
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

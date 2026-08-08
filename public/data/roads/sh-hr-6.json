@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 99.9,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Cheeka, Haryana",
     "end": "Yamunanagar, Haryana",
@@ -19,6 +20,19 @@
       "Yamunanagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "trans-haryana-expressway", "label": "Met near Pehowa" },
+    { "id": "nh-44", "label": "Met near Kurukshetra" },
+    { "id": "nh-152d", "label": "Met near Pehowa" },
+    { "id": "nh-344", "label": "Met near Yamunanagar" },
+    { "id": "nh-152", "label": "Met near Pehowa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheeka",
@@ -61,12 +75,6 @@
         77.26505,
         30.11892
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

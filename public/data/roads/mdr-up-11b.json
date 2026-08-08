@@ -18,6 +18,21 @@
       "Banda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 11B, Nagod–Banda District road, crosses the border between Madhya Pradesh and Uttar Pradesh. A state road that runs through more than one state has no single owner — MP PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-35", "label": "Met near Banda" },
+    { "id": "sh-up-71", "label": "Met near Atarra Buzurg" },
+    { "id": "sh-up-92", "label": "Met near Banda" },
+    { "id": "sh-mp-13", "label": "Met near Nagod" },
+    { "id": "sh-mp-56", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagod",
@@ -39,12 +54,6 @@
         80.34601,
         25.46534
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

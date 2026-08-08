@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tirumalairayanpattinam, Puducherry",
     "end": "Karaikal Port, Puducherry",
@@ -16,6 +17,17 @@
       "Karaikal Port"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-67", "label": "Met near Tirumalairayanpattinam" },
+    { "id": "sh-tn-u136", "label": "Met near Tirumalairayanpattinam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tirumalairayanpattinam",
@@ -30,12 +42,6 @@
         79.79244,
         10.86886
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

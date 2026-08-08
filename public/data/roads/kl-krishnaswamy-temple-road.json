@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalayolaparambu, Kerala",
     "end": "Arattukulangara, Kerala",
@@ -16,6 +17,20 @@
       "Arattukulangara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Thalayolaparambu" },
+    { "id": "sh-kl-15", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-vadayar-kallattipuram-ezhumanthuruthu-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-chempu-palamkadavu-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-neerppara-thattavely-alinchuvadu-road", "label": "Met near Thalayolaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalayolaparambu",
@@ -30,12 +45,6 @@
         76.44314,
         9.76317
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Shamsabad, Uttar Pradesh",
     "end": "Agra Cantonment, Uttar Pradesh",
@@ -17,6 +18,17 @@
       "Agra Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Agra" },
+    { "id": "nh-21", "label": "Met near Agra" },
+    { "id": "sh-up-130w", "label": "Met near Shamsabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shamsabad",
@@ -31,12 +43,6 @@
         78.00908,
         27.16439
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthuppally, Kerala",
     "end": "Chingavanam, Kerala",
@@ -16,6 +17,17 @@
       "Chingavanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pallom-puthuppally-road", "label": "Met near Puthuppally" },
+    { "id": "kl-leshmipuram-panachikadu-temple-road", "label": "Met near Puthuppally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthuppally",
@@ -37,12 +49,6 @@
         76.54692,
         9.53627
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

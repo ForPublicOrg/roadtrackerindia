@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Erattayar, Kerala",
     "end": "Kattappana, Kerala",
@@ -16,6 +17,20 @@
       "Kattappana"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-185", "label": "Met near Kattappana" },
+    { "id": "sh-kl-59", "label": "Met near Kattappana" },
+    { "id": "sh-kl-43", "label": "Met near Erattayar" },
+    { "id": "sh-kl-33", "label": "Met near Kattappana" },
+    { "id": "kl-nathukallu-vellayamkudy-suvarnagiri-kakkattukada-road", "label": "Met near Erattayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erattayar",
@@ -37,12 +52,6 @@
         77.11542,
         9.75679
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

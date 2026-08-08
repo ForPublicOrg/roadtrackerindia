@@ -19,6 +19,20 @@
       "Badarpur"
     ]
   },
+  "significance": "SH 2, Hodal–Badarpur State Highway, crosses the border between Haryana and Delhi. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and Delhi PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "eastern-peripheral-expressway", "label": "Met near Palwal" },
+    { "id": "dnd-kmp-expressway", "label": "Met near Jhar Saitli" },
+    { "id": "nh-44", "label": "Met near Jhar Saitli" },
+    { "id": "nh-919", "label": "Met near Palwal" },
+    { "id": "nh-334d", "label": "Met near Palwal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hodal",
@@ -54,12 +68,6 @@
         77.30244,
         28.49665
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

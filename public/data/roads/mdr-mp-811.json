@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 35.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mungaoli, Madhya Pradesh",
     "end": "Ashoknagar, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Ashoknagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-346", "label": "Meets this road" },
+    { "id": "sh-mp-9", "label": "Met near Ashoknagar" },
+    { "id": "mdr-mp-813", "label": "Meets this road" },
+    { "id": "mdr-mp-812", "label": "Met near Ashoknagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mungaoli",
@@ -30,12 +44,6 @@
         77.73414,
         24.56922
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

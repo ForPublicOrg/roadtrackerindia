@@ -15,6 +15,10 @@
     "states": ["Uttar Pradesh"],
     "majorCities": ["Gorakhpur", "Sikriganj", "Azamgarh"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2020", "event": "Construction begins" },
     { "year": "2025", "event": "Opened to traffic on 20 June" },
@@ -41,7 +45,10 @@
   "relatedRoads": [
     { "id": "purvanchal-expressway", "label": "The expressway this road feeds into at Salarpur" },
     { "id": "nh-27", "label": "The east–west national highway the expressway starts from at Gorakhpur" },
-    { "id": "agra-lucknow-expressway", "label": "Continues the expressway run west from Lucknow toward Agra" }
+    { "id": "agra-lucknow-expressway", "label": "Continues the expressway run west from Lucknow toward Agra" },
+    { "id": "nh-24", "label": "Met near Gorakhpur" },
+    { "id": "nh-28", "label": "Met near Rajesultanpur" },
+    { "id": "nh-227a", "label": "Met near Sikariganj" }
   ],
   "travelNotes": "The full 91 km takes a little under an hour. It is four lanes rather than six, so it feels tighter than the Purvanchal Expressway it joins. Fuel pumps and food stops along it are still few, so it is best to fill up in Gorakhpur or on the Purvanchal Expressway. Winter fog is common in this part of the state.",
   "futureUpgrades": [

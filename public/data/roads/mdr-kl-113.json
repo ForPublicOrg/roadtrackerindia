@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Palakunnu, Kerala",
     "end": "Chattanchal, Kerala",
@@ -17,6 +18,20 @@
       "Chattanchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kalanad" },
+    { "id": "sh-kl-57", "label": "Met near Palakunnu" },
+    { "id": "mdr-kl-17", "label": "Met near Palakunnu" },
+    { "id": "mdr-kl-30", "label": "Met near Kalanad" },
+    { "id": "mdr-kl-137", "label": "Met near Palakunnu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palakunnu",
@@ -38,12 +53,6 @@
         75.06385,
         12.43871
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

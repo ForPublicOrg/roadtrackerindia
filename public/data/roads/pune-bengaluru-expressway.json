@@ -1,10 +1,13 @@
 {
   "id": "pune-bengaluru-expressway",
-  "ref": "NH",
-  "name": "Pune - Bengaluru Expressway",
+  "ref": "Pune–Bengaluru Expressway",
+  "name": "Pune–Bengaluru Greenfield Expressway",
   "category": "expressway",
-  "status": "operational",
-  "lengthKm": 695.5,
+  "status": "under-construction",
+  "lengthKm": 700,
+  "lanes": "6 lanes, access-controlled, planned for 8",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Bhor, Maharashtra",
     "end": "Dabaspete, Karnataka",
@@ -26,6 +29,41 @@
       "Dabaspete"
     ]
   },
+  "history": "Pune and Bengaluru are two of India's biggest technology and manufacturing cities, and the only road between them is the old NH 48 through Satara, Kolhapur and Hubballi — a long, crowded route that runs to well over 800 km. This expressway is a brand-new road cut across country on a straighter line, through Bhor, Vita, Athani, Bagalkot and Chitradurga district, joining the Bengaluru side near Dabaspete. Being greenfield, it avoids every town on the way, which is what lets it save both distance and time.",
+  "facts": [
+    "A greenfield road — built on a new alignment rather than by widening an old one.",
+    "Shortens the Pune–Bengaluru drive by well over a hundred kilometres compared with NH 48.",
+    "Aims to bring the journey down to roughly seven hours from about fifteen.",
+    "Runs through northern Karnataka districts that have never had a fast road to either city.",
+    "Part of the Bharatmala programme of new national corridors."
+  ],
+  "significance": "It links two of India's largest technology and industrial economies directly, and it opens up the dry interior districts of northern Karnataka, which today sit far from any expressway.",
+  "relatedRoads": [
+    {
+      "id": "nh-48",
+      "label": "The existing Pune–Bengaluru highway this expressway is being built to relieve"
+    },
+    { "id": "mumbai-pune-expressway", "label": "Connects the Pune end onward to Mumbai" },
+    { "id": "bangalore-mysore-expressway", "label": "Continues past Bengaluru towards Mysuru" },
+    {
+      "id": "chennai-bengaluru-expressway",
+      "label": "The matching new expressway on the far side of Bengaluru"
+    },
+    { "id": "pune-ring-road", "label": "Met near Bhor" },
+    { "id": "nh-52", "label": "Met near Keruru" },
+    { "id": "nh-548c", "label": "Met near Kuroli" }
+  ],
+  "travelNotes": "Not open yet. Until it is, the drive between the two cities runs on NH 48 through Kolhapur and Hubballi and takes the better part of a day.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhor",
@@ -131,16 +169,6 @@
         77.36356,
         13.27787
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

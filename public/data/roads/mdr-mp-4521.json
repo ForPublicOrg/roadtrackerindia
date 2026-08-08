@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 33.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Indore, Madhya Pradesh",
     "end": "Hatpipliya, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Hatpipliya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Meets this road" },
+    { "id": "mdr-mp-4524", "label": "Met near Simrol" },
+    { "id": "mdr-mp-2703", "label": "Meets this road" },
+    { "id": "mdr-mp-4522", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Indore",
@@ -30,12 +44,6 @@
         76.13459,
         22.70451
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

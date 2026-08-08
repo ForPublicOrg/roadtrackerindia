@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 133.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Jawhar, Maharashtra",
     "end": "Murbad, Maharashtra",
@@ -18,6 +19,19 @@
       "Murbad"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Kasara" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Kasara" },
+    { "id": "nh-61", "label": "Meets this road" },
+    { "id": "nh-848", "label": "Met near Jawhar" },
+    { "id": "nh-160a", "label": "Met near Jawhar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jawhar",
@@ -46,12 +60,6 @@
         73.44678,
         19.16741
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

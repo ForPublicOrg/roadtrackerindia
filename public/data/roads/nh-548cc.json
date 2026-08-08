@@ -17,6 +17,23 @@
       "Khamgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Mehkar" },
+    { "id": "nh-548c", "label": "Met near Mehkar" },
+    { "id": "nh-753a", "label": "Met near Chikhli" },
+    { "id": "nh-753e", "label": "Met near Khamgaon" },
+    { "id": "sh-mh-199", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mehkar",
@@ -38,16 +55,6 @@
         76.55433,
         20.68846
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

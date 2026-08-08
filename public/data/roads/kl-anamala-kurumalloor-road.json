@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Athirampuzha, Kerala",
     "end": "Neendoor, Kerala",
@@ -17,6 +18,18 @@
       "Neendoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-ettumanoor-vechoor-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-nambiakulam-vedagiri-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-nambiakulam-pareppally-road", "label": "Met near Kallara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athirampuzha",
@@ -38,12 +51,6 @@
         76.51943,
         9.6967
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

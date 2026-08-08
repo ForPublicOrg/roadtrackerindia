@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "odisha-works",
   "route": {
     "start": "Binka, Odisha",
     "end": "Barapali, Odisha",
@@ -16,6 +17,16 @@
       "Barapali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-126a", "label": "Met near Binka" },
+    { "id": "sh-or-54", "label": "Met near Binka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Binka",
@@ -30,12 +41,6 @@
         83.83544,
         21.09538
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vellanikkara, Kerala",
     "end": "Nadathara, Kerala",
@@ -16,6 +17,20 @@
       "Nadathara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Vellanikkara" },
+    { "id": "kl-pattikkad-peechi-road", "label": "Met near Vellanikkara" },
+    { "id": "kl-chavarampadam-murukkumpara-road", "label": "Met near Nadathara" },
+    { "id": "kl-valakkavu-thonippara-ambilikkunnu-nalukettu-road", "label": "Met near Nadathara" },
+    { "id": "kl-veembu-road", "label": "Met near Nadathara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vellanikkara",
@@ -30,12 +45,6 @@
         76.27831,
         10.50617
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

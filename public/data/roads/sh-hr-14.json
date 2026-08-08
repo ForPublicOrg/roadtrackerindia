@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 67.8,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Jind, Haryana",
     "end": "Panipat, Haryana",
@@ -17,6 +18,19 @@
       "Panipat"
     ]
   },
+  "relatedRoads": [
+    { "id": "trans-haryana-expressway", "label": "Met near Jind" },
+    { "id": "nh-44", "label": "Met near Panipat" },
+    { "id": "nh-152d", "label": "Met near Jind" },
+    { "id": "nh-352", "label": "Met near Jind" },
+    { "id": "nh-709ad", "label": "Met near Panipat" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jind",
@@ -38,12 +52,6 @@
         76.96569,
         29.39475
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

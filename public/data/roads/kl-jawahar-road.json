@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koovapadam, Kerala",
     "end": "Chullickal, Kerala",
@@ -17,6 +18,20 @@
       "Chullickal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-maulana-azad-road", "label": "Met near Kochi" },
+    { "id": "kl-k-j-hershal-road", "label": "Met near Kochi" },
+    { "id": "kl-amaravathy-road", "label": "Met near Kochi" },
+    { "id": "kl-kb-jacob-road", "label": "Met near Kochi" },
+    { "id": "kl-fr-mathew-kottakkathu-road", "label": "Met near Kochi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koovapadam",
@@ -31,12 +46,6 @@
         76.25559,
         9.952
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

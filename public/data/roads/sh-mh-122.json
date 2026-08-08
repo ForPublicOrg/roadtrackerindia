@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 19,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Vengurla, Maharashtra",
     "end": "Udhale Khurd, Maharashtra",
@@ -16,6 +17,17 @@
       "Udhale Khurd"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-4", "label": "Met near Vengurla" },
+    { "id": "sh-mh-121", "label": "Met near Vengurla" },
+    { "id": "sh-mh-123", "label": "Met near Sawantwadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vengurla",
@@ -30,12 +42,6 @@
         73.78193,
         15.87087
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

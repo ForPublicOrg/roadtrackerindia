@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Subir, Gujarat",
     "end": "Songadh, Gujarat",
@@ -16,6 +17,18 @@
       "Songadh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-953", "label": "Met near Songadh" },
+    { "id": "sh-gj-80", "label": "Met near Subir" },
+    { "id": "sh-gj-174", "label": "Met near Songadh" },
+    { "id": "sh-mh-13", "label": "Met near Subir" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Subir",
@@ -30,12 +43,6 @@
         73.5817,
         21.12304
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

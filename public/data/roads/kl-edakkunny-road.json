@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalore, Kerala",
     "end": "Vellanikkara, Kerala",
@@ -18,6 +19,20 @@
       "Vellanikkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Thrissur" },
+    { "id": "sh-kl-22", "label": "Met near Puthukkad" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Ollur" },
+    { "id": "kl-thrissur-mannamangalam-road", "label": "Met near Thrissur" },
+    { "id": "kl-anakkallu-ammadam-peringottukara-road", "label": "Met near Ollur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalore",
@@ -60,12 +75,6 @@
         76.26228,
         10.53368
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

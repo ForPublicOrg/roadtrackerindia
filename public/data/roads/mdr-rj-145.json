@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhandrej, Rajasthan",
     "end": "Lalsot, Rajasthan",
@@ -16,6 +17,18 @@
       "Lalsot"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Lalsot" },
+    { "id": "nh-148", "label": "Met near Lalsot" },
+    { "id": "mdr-rj-63", "label": "Met near Bhandrej" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhandrej",
@@ -30,12 +43,6 @@
         76.31992,
         26.68246
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

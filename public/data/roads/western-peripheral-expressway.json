@@ -15,6 +15,10 @@
     "states": ["Haryana"],
     "majorCities": ["Kundli", "Bahadurgarh", "Manesar", "Sohna", "Palwal"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2016", "event": "Manesar–Palwal section opens to traffic" },
     { "year": "2018", "event": "Kundli–Manesar section inaugurated (19 November), completing the expressway" }
@@ -66,18 +70,15 @@
       "id": "urban-extension-road-2",
       "label": "Delhi's new third ring road, linked to the KMP by the Sonipat spur"
     },
-    {
-      "id": "nh-48",
-      "label": "The Delhi–Jaipur highway, crossed at Manesar"
-    },
-    {
-      "id": "nh-44",
-      "label": "The Delhi–Chandigarh–Agra highway, met at both the Kundli and Palwal ends"
-    },
+    { "id": "nh-48", "label": "The Delhi–Jaipur highway, crossed at Manesar" },
+    { "id": "nh-44", "label": "The Delhi–Chandigarh–Agra highway, met at both the Kundli and Palwal ends" },
     {
       "id": "amritsar-katra-expressway",
       "label": "The Delhi–Amritsar–Katra Expressway, which starts from the KMP in Jhajjar district"
-    }
+    },
+    { "id": "dnd-kmp-expressway", "label": "Met near Sohna" },
+    { "id": "nh-9", "label": "Met near Bahadurgarh" },
+    { "id": "nh-248a", "label": "Met near Sohna" }
   ],
   "travelNotes": "End to end takes roughly two hours and the traffic is mostly trucks, so keep to the left unless overtaking. Fuel pumps, toilets and food places are thin on the ground compared with a national highway, and lighting is patchy at night, so fill up before you get on. Tolling is distance-based through FASTag, which means a short hop costs only a little. The Sohna–Palwal stretch, being the oldest, has the roughest surface.",
   "newsQuery": "\"KMP Expressway\" Haryana",

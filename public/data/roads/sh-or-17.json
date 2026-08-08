@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.5,
+  "authority": "odisha-works",
   "route": {
     "start": "Dharma Nagar, Odisha",
     "end": "Digapahandi, Odisha",
@@ -17,6 +18,18 @@
       "Digapahandi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-326", "label": "Met near Digapahandi" },
+    { "id": "nh-59", "label": "Met near Brahmapur" },
+    { "id": "sh-or-22", "label": "Met near Brahmapur" },
+    { "id": "sh-or-29", "label": "Met near Digapahandi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharma Nagar",
@@ -31,12 +44,6 @@
         84.56789,
         19.37827
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thachudaparambu, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -16,6 +17,20 @@
       "Irinjalakuda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Irinjalakuda" },
+    { "id": "sh-kl-51", "label": "Met near Chalakudy" },
+    { "id": "mdr-kl-187", "label": "Met near Irinjalakuda" },
+    { "id": "kl-andanikulam-puthenchira-road", "label": "Met near Irinjalakuda" },
+    { "id": "kl-vellangallur-mathilakam-road", "label": "Met near Irinjalakuda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thachudaparambu",
@@ -30,12 +45,6 @@
         76.21842,
         10.30496
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

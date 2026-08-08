@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 11.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Marudhamalai, Tamil Nadu",
     "end": "Vadakovai, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Vadakovai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Coimbatore" },
+    { "id": "sh-tn-164", "label": "Met near Coimbatore" },
+    { "id": "sh-tn-272", "label": "Met near Coimbatore" },
+    { "id": "mdr-tn-982", "label": "Met near Vadavalli" },
+    { "id": "mdr-tn-984", "label": "Met near Bommanampalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Marudhamalai",
@@ -67,12 +81,6 @@
         76.95447,
         11.01563
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

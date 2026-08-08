@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nanguneri, Tamil Nadu",
     "end": "Valiyoor, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Valiyoor"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Nanguneri" },
+    { "id": "sh-tn-92", "label": "Met near Nanguneri" },
+    { "id": "sh-tn-89", "label": "Met near Nanguneri" },
+    { "id": "mdr-tn-291", "label": "Met near Nanguneri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nanguneri",
@@ -30,12 +43,6 @@
         77.66207,
         8.48052
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

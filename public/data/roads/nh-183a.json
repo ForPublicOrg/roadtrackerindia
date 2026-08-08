@@ -19,6 +19,24 @@
       "Karunagapally"
     ]
   },
+  "significance": "NH 183A is a branch of NH 183. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Vandiperiyar to Karunagapally, and it meets NH 183 along the way.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Karunagapally" },
+    { "id": "nh-183", "label": "Met near Karunagapally" },
+    { "id": "sh-kl-59", "label": "Met near Mylapra" },
+    { "id": "mc-road", "label": "Met near Adoor" },
+    { "id": "sh-kl-1", "label": "Met near Adoor" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandiperiyar",
@@ -68,16 +86,6 @@
         76.53512,
         9.00111
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

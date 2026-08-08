@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Maradu, Kerala",
     "end": "Aroor, Kerala",
@@ -16,6 +17,19 @@
       "Aroor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thrippunithura" },
+    { "id": "kl-old-nh-sh-road-eranakulam", "label": "Met near Aroor" },
+    { "id": "kl-nettoor-panangad-road", "label": "Met near Thrippunithura" },
+    { "id": "kl-cheppanam-chathamma-road", "label": "Met near Thrippunithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maradu",
@@ -30,12 +44,6 @@
         76.32167,
         9.90161
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

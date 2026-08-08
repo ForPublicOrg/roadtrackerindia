@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 55.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ayodhiyapatinam, Tamil Nadu",
     "end": "Ethapur, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Ethapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-179b", "label": "Met near Ayodhiyapatinam" },
+    { "id": "nh-179a", "label": "Met near Ayodhiyapatinam" },
+    { "id": "mdr-tn-669", "label": "Met near Ethapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ayodhiyapatinam",
@@ -38,12 +51,6 @@
         78.62191,
         11.84402
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

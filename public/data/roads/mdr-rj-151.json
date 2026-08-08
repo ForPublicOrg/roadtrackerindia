@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 75.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Dausa, Rajasthan",
     "end": "Lachhmangarh, Rajasthan",
@@ -19,6 +20,20 @@
       "Lachhmangarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Sikandra" },
+    { "id": "ne-4c", "label": "Met near Dausa" },
+    { "id": "nh-148", "label": "Met near Dausa" },
+    { "id": "nh-921", "label": "Met near Rajgarh" },
+    { "id": "sh-rj-25", "label": "Met near Sikandra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dausa",
@@ -47,12 +62,6 @@
         76.73909,
         27.36015
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

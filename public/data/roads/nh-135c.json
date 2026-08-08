@@ -18,6 +18,24 @@
       "Karchana"
     ]
   },
+  "significance": "NH 135C is a branch of NH 135. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Vindhyanagar to Karchana, and it meets NH 135 along the way.",
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Vindhyanagar" },
+    { "id": "nh-35", "label": "Met near Karchana" },
+    { "id": "nh-135", "label": "Met near Koraon" },
+    { "id": "sh-up-102", "label": "Met near Koraon" },
+    { "id": "sh-up-44", "label": "Met near Karchana" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vindhyanagar",
@@ -46,16 +64,6 @@
         81.93655,
         25.28419
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

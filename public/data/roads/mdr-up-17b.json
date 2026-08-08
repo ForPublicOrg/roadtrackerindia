@@ -17,6 +17,18 @@
       "Kulpahar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 17B, Nowgaon–Kulpahar District road, crosses the border between Madhya Pradesh and Uttar Pradesh. A state road that runs through more than one state has no single owner — MP PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Nowgaon" },
+    { "id": "sh-mp-12", "label": "Met near Nowgaon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nowgaon",
@@ -31,12 +43,6 @@
         79.64434,
         25.31939
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

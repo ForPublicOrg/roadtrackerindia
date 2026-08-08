@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozha, Kerala",
     "end": "Kaduthuruthy, Kerala",
@@ -17,6 +18,20 @@
       "Kaduthuruthy"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-42", "label": "Met near Kuravilangad" },
+    { "id": "kl-arunassery-kuravilangad-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-kozha-njeezhoor-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-keezhoor-njeezhoor-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-kaliyarthottam-kattampack-road", "label": "Met near Kuravilangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozha",
@@ -31,12 +46,6 @@
         76.5274,
         9.79254
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

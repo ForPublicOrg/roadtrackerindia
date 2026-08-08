@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 57.8,
+  "authority": "odisha-works",
   "route": {
     "start": "Bhanjanagar, Odisha",
     "end": "Daringbadi, Odisha",
@@ -16,6 +17,16 @@
       "Daringbadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-157", "label": "Meets this road" },
+    { "id": "sh-or-1", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhanjanagar",
@@ -30,12 +41,6 @@
         84.04591,
         20.15023
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,25 @@
       "Thara Uparla"
     ]
   },
+  "significance": "NH 154A is a branch of NH 154. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs McLeod Ganj to Bakloh, and it meets NH 154 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-154",
+      "label": "NH 154 — the highway this branch takes its number from, running Pathankot to BBMB Colony"
+    },
+    { "id": "sh-hp-28", "label": "Met near Bakloh" },
+    { "id": "sh-hp-33", "label": "Met near Chamba" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "McLeod Ganj",
@@ -62,16 +81,6 @@
         75.92744,
         32.4993
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

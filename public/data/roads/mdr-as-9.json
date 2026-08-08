@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "assam-pwd",
   "route": {
     "start": "Ramkrishna Nagar, Assam",
     "end": "Lala, Assam",
@@ -16,6 +17,23 @@
       "Lala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    {
+      "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    },
+    {
+      "id": "as-assam-kj-m-9-karimganj-major-distric-road-9-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ramkrishna Nagar",
@@ -30,12 +48,6 @@
         92.50787,
         24.59614
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Merta City"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Mandal" },
+    { "id": "nh-58", "label": "Met near Beawar" },
+    { "id": "nh-25", "label": "Met near Beawar" },
+    { "id": "nh-148d", "label": "Met near Asind" },
+    { "id": "nh-458", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandal",
@@ -46,16 +63,6 @@
         74.05144,
         26.62903
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

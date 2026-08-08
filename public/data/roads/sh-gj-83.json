@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Dholka, Gujarat",
     "end": "Umreth, Gujarat",
@@ -19,6 +20,19 @@
       "Umreth"
     ]
   },
+  "relatedRoads": [
+    { "id": "ahmedabad-vadodara-expressway", "label": "Met near Anand" },
+    { "id": "nh-48", "label": "Met near Anand" },
+    { "id": "nh-64", "label": "Met near Anand" },
+    { "id": "nh-751d", "label": "Met near Tarapur" },
+    { "id": "nh-751dd", "label": "Met near Tarapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dholka",
@@ -54,12 +68,6 @@
         73.10912,
         22.69782
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,11 @@
 {
   "id": "nh-58",
   "ref": "NH 58",
-  "name": "Fatehpur Shekhawati–Palanpur National Highway",
+  "name": "Fatehpur Shekhawati–Palanpur Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 836.4,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Fatehpur Shekhawati, Rajasthan",
     "end": "Palanpur, Gujarat",
@@ -25,6 +26,37 @@
       "Palanpur"
     ]
   },
+  "history": "National Highway 58 runs the length of Rajasthan from the Shekhawati country in the north-east, through Nagaur, Merta and Ajmer, then down the eastern flank of the Aravallis past Rajsamand and Udaipur into Gujarat at Palanpur. It is one of the state's main north–south roads and it links a string of places people travel a long way to see — the Ajmer dargah, the marble country around Rajsamand, and the lakes of Udaipur. Note that the old NH 58 was the Delhi–Haridwar–Badrinath road; this number was reassigned in the 2010 renumbering.",
+  "facts": [
+    "Runs almost the full height of Rajasthan, from Shekhawati to the Gujarat border.",
+    "Serves Ajmer, whose dargah of Moinuddin Chishti draws pilgrims from across South Asia.",
+    "Rajsamand, on the route, is the centre of India's marble quarrying.",
+    "The old NH 58 was the Delhi–Badrinath road — an entirely different route. The number was reassigned in 2010.",
+    "It follows the eastern edge of the Aravalli range for much of its length."
+  ],
+  "significance": "Rajasthan's traffic mostly runs east–west along the Delhi–Jaipur–Ahmedabad axis. This is the road that runs the other way, tying the desert districts of Nagaur and Shekhawati to Ajmer, Udaipur and northern Gujarat.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Delhi–Jaipur–Ahmedabad highway crossed near Ajmer" },
+    { "id": "nh-27", "label": "The Porbandar–Silchar highway crossing Rajasthan east to west" },
+    {
+      "id": "jaipur-kishangarh-expressway",
+      "label": "The six-lane expressway on the Jaipur–Ajmer corridor nearby"
+    },
+    { "id": "nh-52", "label": "Met near Fatehpur Shekhawati" },
+    { "id": "nh-11", "label": "Met near Fatehpur Shekhawati" },
+    { "id": "nh-25", "label": "Met near Beawar" }
+  ],
+  "travelNotes": "Long, mostly open driving. Ajmer is heavily congested, especially during Urs. Marble lorries are frequent around Rajsamand and Kishangarh.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Fatehpur Shekhawati",
@@ -151,16 +183,6 @@
         72.4407,
         24.18825
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

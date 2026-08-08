@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 37.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Jashpur Nagar, Jharkhand",
     "end": "Gumla, Jharkhand",
@@ -16,6 +17,18 @@
       "Gumla"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-143b", "label": "Meets this road" },
+    { "id": "sh-jh-9", "label": "Meets this road" },
+    { "id": "mdr-jh-35", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jashpur Nagar",
@@ -30,12 +43,6 @@
         84.14762,
         23.3558
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

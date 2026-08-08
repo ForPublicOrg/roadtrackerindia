@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Torpa, Jharkhand",
     "end": "Gumla, Jharkhand",
@@ -16,6 +17,19 @@
       "Gumla"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Meets this road" },
+    { "id": "nh-143d", "label": "Met near Torpa" },
+    { "id": "mdr-jh-38", "label": "Meets this road" },
+    { "id": "mdr-jh-34", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Torpa",
@@ -30,12 +44,6 @@
         84.80995,
         23.17749
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

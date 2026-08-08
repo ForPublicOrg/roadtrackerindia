@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozhencherry, Kerala",
     "end": "Nannuvakadu, Kerala",
@@ -17,6 +18,17 @@
       "Nannuvakadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-7", "label": "Met near Kozhencherry" },
+    { "id": "kl-nellikala-naranganam-road", "label": "Met near Kozhencherry" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozhencherry",
@@ -31,12 +43,6 @@
         76.76564,
         9.28585
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

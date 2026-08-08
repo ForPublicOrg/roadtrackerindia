@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Domchanch, Jharkhand",
     "end": "Kodarma, Jharkhand",
@@ -16,6 +17,17 @@
       "Kodarma"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-13", "label": "Met near Domchanch" },
+    { "id": "mdr-jh-113", "label": "Met near Domchanch" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Domchanch",
@@ -30,12 +42,6 @@
         85.70592,
         24.46765
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

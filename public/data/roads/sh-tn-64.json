@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 53.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kumbakonam, Tamil Nadu",
     "end": "Sirkazhi, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Sirkazhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Sirkazhi" },
+    { "id": "nh-136b", "label": "Met near Sirkazhi" },
+    { "id": "sh-tn-22", "label": "Met near Mayiladuthurai" },
+    { "id": "sh-tn-66", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-23", "label": "Met near Mayiladuthurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumbakonam",
@@ -38,12 +52,6 @@
         79.73762,
         11.21762
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

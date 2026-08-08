@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherthala, Kerala",
     "end": "Vaikom, Kerala",
@@ -16,6 +17,20 @@
       "Vaikom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kuruppankulangara-kanichukulangara-road", "label": "Met near Cherthala" },
+    { "id": "kl-thiruvizha-temple-chennaveli-road", "label": "Met near Cherthala" },
+    { "id": "kl-kanichukulangara-road", "label": "Met near Cherthala" },
+    { "id": "kl-kanichukulangara-chethy-road", "label": "Met near Cherthala" },
+    { "id": "kl-thiruvizha-road", "label": "Met near Cherthala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherthala",
@@ -30,12 +45,6 @@
         76.32461,
         9.6407
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

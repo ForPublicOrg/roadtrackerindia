@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dindori, Madhya Pradesh",
     "end": "Shahpura, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Shahpura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-543", "label": "Meets this road" },
+    { "id": "mdr-mp-4009", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dindori",
@@ -30,12 +42,6 @@
         80.89432,
         22.90101
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

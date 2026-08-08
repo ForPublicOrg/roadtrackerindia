@@ -6,8 +6,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 396,
-  "authority": "nhai",
   "lanes": "Mix of 2-lane and 4-lane sections",
+  "authority": "nhai",
   "route": {
     "start": "Pathankot, Punjab",
     "end": "Kenchiya (Hanumangarh district), Rajasthan",
@@ -38,7 +38,13 @@
   "relatedRoads": [
     { "id": "nh-44", "label": "India's longest highway, which NH 54 branches from at Pathankot" },
     { "id": "nh-62", "label": "The western Rajasthan highway NH 54 ends on, near Hanumangarh" },
-    { "id": "amritsar-katra-expressway", "label": "The new expressway that will speed up travel from Amritsar towards Jammu and Katra" }
+    {
+      "id": "amritsar-katra-expressway",
+      "label": "The new expressway that will speed up travel from Amritsar towards Jammu and Katra"
+    },
+    { "id": "nh-754k", "label": "Met near Mandi Dabwali" },
+    { "id": "nh-7", "label": "Met near Bathinda" },
+    { "id": "nh-5", "label": "Met near Talwandi Bhai" }
   ],
   "travelNotes": "Pathankot to Hanumangarh is a comfortable one-day drive of about seven to eight hours. Punjab's roads here are generally well surfaced, but tractor-trolleys crowd them during the wheat harvest in April and the paddy harvest in October, and stubble smoke can cut visibility badly in late October and November. Thick winter fog between December and January is the biggest hazard — mornings can be near-zero visibility. Dhabas are frequent through Punjab and much thinner once you cross into Rajasthan.",
   "newsQuery": "\"NH 54\" Punjab Bathinda highway",

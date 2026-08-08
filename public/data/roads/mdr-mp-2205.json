@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 41.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mandsaur, Madhya Pradesh",
     "end": "Jiran, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Jiran"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-156", "label": "Met near Jiran" },
+    { "id": "mdr-mp-2111", "label": "Met near Jiran" },
+    { "id": "mdr-mp-2212", "label": "Meets this road" },
+    { "id": "mdr-mp-2208", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandsaur",
@@ -30,12 +44,6 @@
         74.9896,
         24.27959
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-13-karimganj-major-distric-road-13-new-numbering",
-  "ref": "MDR",
-  "name": "Assam Kj-M-13 (Karimganj Major Distric Road 13) (new Numbering 2024)",
+  "ref": "MDR KJ-M-13",
+  "name": "Badarpur–Panchgram district road",
+  "aka": ["Karimganj Major District Road KJ-M-13"],
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "assam-pwd",
   "route": {
     "start": "Badarpur, Assam",
     "end": "Panchgram, Assam",
@@ -16,6 +18,17 @@
       "Panchgram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Badarpur and Panchgram. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-37", "label": "Met near Badarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badarpur",
@@ -30,12 +43,6 @@
         92.52087,
         24.87927
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

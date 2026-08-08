@@ -20,6 +20,22 @@
       "Allapalli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-353c", "label": "Met near Allapalli" },
+    { "id": "sh-ct-5", "label": "Met near Gadh Bengal" },
+    { "id": "sh-mh-370", "label": "Met near Allapalli" },
+    { "id": "sh-mh-363", "label": "Met near Allapalli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kondagaon",
@@ -62,16 +78,6 @@
         80.05606,
         19.4256
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

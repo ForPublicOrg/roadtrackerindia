@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 15.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Cheran Nagar, Tamil Nadu",
     "end": "Chinniyampalayam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Chinniyampalayam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Pollachi" },
+    { "id": "sh-tn-21", "label": "Met near Chinniyampalayam" },
+    { "id": "sh-tn-19", "label": "Met near Pollachi" },
+    { "id": "mdr-tn-523", "label": "Met near Chinniyampalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheran Nagar",
@@ -30,12 +43,6 @@
         77.07202,
         10.66679
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

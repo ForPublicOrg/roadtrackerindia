@@ -24,6 +24,7 @@
       "Okhla"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "Delhi's ring roads carry no toll." },
   "history": "The Outer Ring Road is one of Delhi's two great ring roads. It sweeps in a wide arc from the Wazirabad Bridge in the north, around the west and south of the city, to Kalindi Kunj in the south-east, with the Yamuna river closing the circle. It was built in stages and was in place by the mid-1980s, when it really was on the outer edge of Delhi; the city has since grown far past it, so today it is a busy inner artery rather than a bypass. Along the way it links big neighbourhoods like Rohini, Janakpuri, Vasant Vihar and Nehru Place, and it passes IIT Delhi, JNU and the Nehru Place business hub. Over the years Delhi's PWD has added more than a dozen flyovers and underpasses so traffic can keep moving, including a long signal-free run on the north-western arc between Vikaspuri and Wazirabad.",
   "facts": [
     "About 47.5 km around, with six lanes of traffic.",
@@ -56,8 +57,12 @@
     { "id": "nh-44", "label": "Leaves the ring at Mukarba Chowk as GT Karnal Road toward Panipat" },
     { "id": "nh-9", "label": "Leaves the ring at Peeragarhi as Rohtak Road toward Haryana" },
     { "id": "nh-48", "label": "Crosses at the Rao Tula Ram flyover on its way to Gurugram" },
-    { "id": "urban-extension-road-2", "label": "Delhi's new outer bypass, built to take through-traffic off this ring road" },
-    { "id": "dnd-flyway", "label": "Feeds Noida traffic onto Delhi's ring roads near the south-eastern end" }
+    {
+      "id": "urban-extension-road-2",
+      "label": "Delhi's new outer bypass, built to take through-traffic off this ring road"
+    },
+    { "id": "dnd-flyway", "label": "Feeds Noida traffic onto Delhi's ring roads near the south-eastern end" },
+    { "id": "delhi-gurgaon-expressway", "label": "Met near Delhi Cantonment" }
   ],
   "travelNotes": "Traffic is heaviest on weekday mornings and evenings, especially around Rao Tula Ram, Chirag Delhi, Nehru Place and Mukarba Chowk. A full loop takes well over an hour in rush hour but under an hour late at night. Winter fog in December and January cuts visibility badly on the northern arc, and the underpasses on the western stretch can flood during heavy monsoon rain.",
   "newsQuery": "\"Outer Ring Road\" Delhi",

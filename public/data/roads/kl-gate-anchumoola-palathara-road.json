@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pattambi, Kerala",
     "end": "Valanchery, Kerala",
@@ -16,6 +17,17 @@
       "Valanchery"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-muthuthala-cherukudangadu-road", "label": "Met near Pattambi" },
+    { "id": "kl-thiruvegapura-pallipuram-road", "label": "Met near Valanchery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pattambi",
@@ -30,12 +42,6 @@
         76.11783,
         10.84237
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

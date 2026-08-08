@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Naduvil, Kerala",
     "end": "Karuvanchal, Kerala",
@@ -16,6 +17,18 @@
       "Karuvanchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Naduvil" },
+    { "id": "kl-oduvally-naduvil-kudiyanmala-road", "label": "Met near Naduvil" },
+    { "id": "kl-sreekandapuram-chempanthotty-naduvil-road", "label": "Met near Naduvil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Naduvil",
@@ -30,12 +43,6 @@
         75.47894,
         12.1238
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

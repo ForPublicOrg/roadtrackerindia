@@ -22,6 +22,26 @@
       "Kallur"
     ]
   },
+  "significance": "NH 150C is a branch of NH 150. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Akkalkot to Kallur, and it meets NH 150 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-150",
+      "label": "NH 150 — the highway this branch takes its number from, running Solapur to Shaktinagara"
+    },
+    { "id": "surat-chennai-expressway", "label": "Met near Akkalkot" },
+    { "id": "ne-10", "label": "Met near Raichur" },
+    { "id": "nh-44", "label": "Met near Kallur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akkalkot",
@@ -57,16 +77,6 @@
         78.01481,
         15.76591
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Devalokam, Kerala",
     "end": "Kanjikuzhi, Kerala",
@@ -18,6 +19,17 @@
       "Kanjikuzhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pallom-puthuppally-road", "label": "Met near Kottayam" },
+    { "id": "kl-moolavattom-kollad-road", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devalokam",
@@ -32,12 +44,6 @@
         76.54289,
         9.56098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

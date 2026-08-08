@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottiyam, Kerala",
     "end": "Kundara, Kerala",
@@ -16,6 +17,20 @@
       "Kundara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kottiyam" },
+    { "id": "nh-744", "label": "Met near Kundara" },
+    { "id": "kl-keralapuram-ayoor-road", "label": "Met near Kundara" },
+    { "id": "kl-palamukku-nallila-road", "label": "Met near Kannanalloor" },
+    { "id": "kl-mylakkadu-kannanalloor-road", "label": "Met near Kottiyam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottiyam",
@@ -44,12 +59,6 @@
         76.68207,
         8.96135
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

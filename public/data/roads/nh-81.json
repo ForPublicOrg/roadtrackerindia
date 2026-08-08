@@ -1,10 +1,11 @@
 {
   "id": "nh-81",
   "ref": "NH 81",
-  "name": "Papampatti Pirivu–Chidambaram National Highway",
+  "name": "Coimbatore–Chidambaram Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 317.6,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Papampatti Pirivu, Tamil Nadu",
     "end": "Chidambaram, Tamil Nadu",
@@ -22,6 +23,31 @@
       "Chidambaram"
     ]
   },
+  "history": "National Highway 81 crosses Tamil Nadu west to east from the Coimbatore outskirts through Palladam and Kangeyam to Karur, then across the Cauvery country through Kulithalai and Ariyalur to Chidambaram on the coast. Its western half runs through the Tiruppur knitwear belt, one of the densest industrial clusters in India, and its eastern half through the delta.",
+  "facts": [
+    "Runs through the Tiruppur–Palladam knitwear belt, which supplies a large share of India's cotton garment exports.",
+    "Karur, on the route, is a centre of home-textile weaving and bus-body building.",
+    "Ends at Chidambaram, home of the Nataraja temple.",
+    "Ariyalur, along the way, is Tamil Nadu's main cement-producing district."
+  ],
+  "significance": "It joins the industrial west of Tamil Nadu to the delta and the coast, and it is a working freight road for textiles, cement and farm produce.",
+  "relatedRoads": [
+    { "id": "nh-544", "label": "The Salem–Kochi highway met near Coimbatore" },
+    { "id": "nh-83", "label": "The other Coimbatore–delta highway, running further south" },
+    { "id": "nh-44", "label": "Met near Karur" },
+    { "id": "nh-32", "label": "Met near Chidambaram" },
+    { "id": "nh-38", "label": "Met near Samayapuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Papampatti Pirivu",
@@ -148,16 +174,6 @@
         79.68188,
         11.3852
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

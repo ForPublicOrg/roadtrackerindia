@@ -16,6 +16,26 @@
       "Saoner"
     ]
   },
+  "significance": "NH 547E is a branch of NH 547. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Kalmeshwar to Saoner, and it meets NH 547 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-547",
+      "label": "NH 547 — the highway this branch takes its number from, running Saoner to Narsinghpur"
+    },
+    { "id": "nh-53", "label": "Met near Kalmeshwar" },
+    { "id": "nh-353j", "label": "Met near Kalmeshwar" },
+    { "id": "sh-mh-250", "label": "Met near Saoner" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalmeshwar",
@@ -30,16 +50,6 @@
         78.91743,
         21.3753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

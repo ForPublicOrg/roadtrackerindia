@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kottakuppam, Tamil Nadu",
     "end": "Pattanur, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Pattanur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Auroville" },
+    { "id": "nh-332a", "label": "Met near Kottakuppam" },
+    { "id": "east-coast-road", "label": "Met near Kottakuppam" },
+    { "id": "sh-tn-u168", "label": "Met near Auroville" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottakuppam",
@@ -38,12 +52,6 @@
         79.79553,
         11.98452
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

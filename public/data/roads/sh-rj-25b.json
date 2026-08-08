@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 5.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Rajgarh, Rajasthan",
     "end": "Baswa, Rajasthan",
@@ -16,6 +17,17 @@
       "Baswa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-921", "label": "Met near Rajgarh" },
+    { "id": "sh-rj-25", "label": "Met near Rajgarh" },
+    { "id": "mdr-rj-151", "label": "Met near Rajgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajgarh",
@@ -30,12 +42,6 @@
         76.61726,
         27.28315
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

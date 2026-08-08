@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Barigarh, Madhya Pradesh",
     "end": "Banda, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Banda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-5", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barigarh",
@@ -30,12 +41,6 @@
         80.35469,
         25.27825
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

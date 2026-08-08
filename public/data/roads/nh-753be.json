@@ -19,6 +19,23 @@
       "Shahada"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Shirpur" },
+    { "id": "nh-347c", "label": "Met near Raver" },
+    { "id": "nh-160h", "label": "Met near Shahada" },
+    { "id": "sh-mh-1", "label": "Met near Shahada" },
+    { "id": "sh-mh-14", "label": "Met near Chopda" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Raver",
@@ -68,16 +85,6 @@
         74.49063,
         21.49052
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

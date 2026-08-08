@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozhinjampara, Kerala",
     "end": "Chandranagar, Kerala",
@@ -16,6 +17,19 @@
       "Chandranagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Palakkad" },
+    { "id": "sh-tn-78a", "label": "Met near Kozhinjampara" },
+    { "id": "sh-kl-26", "label": "Met near Kozhinjampara" },
+    { "id": "kl-kanjikode-para-kunnachi-kallukuttyal-road", "label": "Met near Kanjikode" },
+    { "id": "kl-meenakshipuram-gopalapuram-road", "label": "Met near Kozhinjampara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozhinjampara",
@@ -30,12 +44,6 @@
         76.69027,
         10.77144
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

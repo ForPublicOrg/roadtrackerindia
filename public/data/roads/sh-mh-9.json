@@ -18,6 +18,20 @@
       "Subir"
     ]
   },
+  "significance": "SH 9, Akkalkuva–Subir State Highway, crosses the border between Maharashtra and Gujarat. A state road that runs through more than one state has no single owner — Maharashtra PWD and Gujarat R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Navapur" },
+    { "id": "nh-752g", "label": "Meets this road" },
+    { "id": "sh-gj-80", "label": "Met near Subir" },
+    { "id": "sh-mh-6", "label": "Met near Akkalkuva" },
+    { "id": "sh-mh-13", "label": "Met near Navapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akkalkuva",
@@ -39,12 +53,6 @@
         73.80858,
         21.02009
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

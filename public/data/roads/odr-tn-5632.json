@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Lalapet, Tamil Nadu",
     "end": "Thiruvalam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Thiruvalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-54", "label": "Met near Lalapet" },
+    { "id": "sh-tn-124a", "label": "Met near Lalapet" },
+    { "id": "sh-tn-124", "label": "Met near Lalapet" },
+    { "id": "odr-tn-1362", "label": "Met near Lalapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalapet",
@@ -30,12 +44,6 @@
         79.27093,
         13.0949
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tirukkovilur, Tamil Nadu",
     "end": "Thiyagadurgam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Thiyagadurgam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-9", "label": "Met near Tirukkovilur" },
+    { "id": "sh-tn-68", "label": "Met near Tirukkovilur" },
+    { "id": "sh-tn-u47", "label": "Met near Tirukkovilur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tirukkovilur",
@@ -30,12 +43,6 @@
         79.21127,
         11.9697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Walajapet, Tamil Nadu",
     "end": "Muthukadai, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Muthukadai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-61", "label": "Met near Walajapet" },
+    { "id": "sh-tn-61a", "label": "Met near Walajapet" },
+    { "id": "odr-tn-3374", "label": "Met near Walajapet" },
+    { "id": "odr-tn-2496", "label": "Met near Walajapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Walajapet",
@@ -38,12 +52,6 @@
         79.35929,
         12.96297
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

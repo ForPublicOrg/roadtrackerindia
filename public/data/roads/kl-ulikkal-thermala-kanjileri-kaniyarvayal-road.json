@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Iritty, Kerala",
     "end": "Irikkoor, Kerala",
@@ -17,6 +18,20 @@
       "Irikkoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Iritty" },
+    { "id": "sh-kl-36", "label": "Met near Sreekandapuram" },
+    { "id": "kl-podikalam-madampam-parakkadavu-road", "label": "Met near Payyavoor" },
+    { "id": "kl-kaniyar-vayal-malapattam-munambukadavu-mayyil-road", "label": "Met near Sreekandapuram" },
+    { "id": "kl-kalliyad-oorathur-thermala-road", "label": "Met near Payyavoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Iritty",
@@ -38,12 +53,6 @@
         75.54012,
         12.02018
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

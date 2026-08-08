@@ -18,6 +18,26 @@
       "Sircilla"
     ]
   },
+  "significance": "NH 365B is a branch of NH 365. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Suryapet to Sircilla, and it meets NH 365 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-365",
+      "label": "NH 365 — the highway this branch takes its number from, running Mulugu to Nakrekal"
+    },
+    { "id": "nh-65", "label": "Met near Suryapet" },
+    { "id": "nh-163", "label": "Met near Jangaon" },
+    { "id": "nh-365bb", "label": "Met near Suryapet" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Suryapet",
@@ -46,16 +66,6 @@
         78.82036,
         18.38324
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

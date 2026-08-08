@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30.5,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Gariadhar, Gujarat",
     "end": "Songadh, Gujarat",
@@ -16,6 +17,17 @@
       "Songadh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Songadh" },
+    { "id": "sh-gj-21", "label": "Met near Gariadhar" },
+    { "id": "sh-gj-112", "label": "Met near Gariadhar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gariadhar",
@@ -30,12 +42,6 @@
         71.76179,
         21.7305
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

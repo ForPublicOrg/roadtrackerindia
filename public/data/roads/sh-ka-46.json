@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 136.7,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Mundgod, Karnataka",
     "end": "Joida, Karnataka",
@@ -18,6 +19,19 @@
       "Joida"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Kalaghatagi" },
+    { "id": "sh-ka-34", "label": "Meets this road" },
+    { "id": "sh-ka-6", "label": "Met near Mundgod" },
+    { "id": "sh-ka-93", "label": "Met near Haliyal" },
+    { "id": "sh-ka-28", "label": "Met near Haliyal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mundgod",
@@ -53,12 +67,6 @@
         74.53319,
         15.13643
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

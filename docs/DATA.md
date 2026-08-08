@@ -30,7 +30,17 @@ The generator **never overwrites a hand-authored file.** Enriching a generated
 road is simply a matter of adding the optional fields below and dropping the
 `provenance` key — from then on it is hand-authored and stays untouched.
 
-See [CORPUS.md](CORPUS.md) for the pipeline.
+See [CORPUS.md](CORPUS.md) for the pipeline, for how to add a road that has no
+highway number (a city's Outer Ring Road), and for what to do when two records
+turn out to be the same road.
+
+## Retired ids
+
+`data/merged-roads.json` maps an id that is no longer its own road to the one
+that absorbed it. Nothing else references it: the build ships the map inside
+`index.json`, the app follows it so `/road/ne-4/` still opens the Delhi–Mumbai
+Expressway, and the generator skips those ids so they cannot come back. Never
+delete a road file without adding it here — a live URL would start 404ing.
 
 ## The `id`
 

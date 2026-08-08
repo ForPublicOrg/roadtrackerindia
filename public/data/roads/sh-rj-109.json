@@ -17,6 +17,19 @@
       "Kotkasim"
     ]
   },
+  "significance": "SH 109, Kishangarh Bas–Kotkasim State Highway, crosses the border between Rajasthan and Haryana. A state road that runs through more than one state has no single owner — Rajasthan PWD and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-rj-25", "label": "Met near Kishangarh Bas" },
+    { "id": "sh-rj-108", "label": "Met near Kotkasim" },
+    { "id": "mdr-rj-200", "label": "Met near Kishangarh Bas" },
+    { "id": "mdr-rj-170", "label": "Met near Kotkasim" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kishangarh Bas",
@@ -31,12 +44,6 @@
         76.71896,
         28.03195
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

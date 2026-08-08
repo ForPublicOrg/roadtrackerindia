@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 42.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bamori, Madhya Pradesh",
     "end": "Chhabra, Rajasthan",
@@ -16,6 +17,17 @@
       "Chhabra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-54", "label": "Met near Bamori" },
+    { "id": "mdr-mp-702", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bamori",
@@ -30,12 +42,6 @@
         77.05995,
         24.74826
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

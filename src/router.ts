@@ -63,11 +63,21 @@ export function replaceHome(): void {
 }
 
 export function applyMeta(road: RoadSummary | null): void {
+  // a ring road ends where it starts, and "Bengaluru to Bengaluru" reads as a
+  // mistake rather than as a loop
+  const loops = road ? road.start === road.end : false
   const title = road
-    ? `${road.ref} — ${road.start.split(',')[0]} to ${road.end.split(',')[0]} | RoadTracker India`
+    ? loops
+      ? `${road.ref} — around ${road.start.split(',')[0]} | RoadTracker India`
+      : `${road.ref} — ${road.start.split(',')[0]} to ${road.end.split(',')[0]} | RoadTracker India`
     : DEFAULT_TITLE
+  const where = road
+    ? loops
+      ? `${Math.round(road.lengthKm).toLocaleString('en-IN')} km right around ${road.start}`
+      : `${Math.round(road.lengthKm).toLocaleString('en-IN')} km from ${road.start} to ${road.end}`
+    : ''
   const desc = road
-    ? `${road.ref} (${road.name}): ${Math.round(road.lengthKm).toLocaleString('en-IN')} km from ${road.start} to ${road.end}. Route map, status, toll charges, emergency numbers, history and facts.`
+    ? `${road.ref} (${road.name}): ${where}. Route map, status, toll charges, emergency numbers, history and facts.`
     : DEFAULT_DESC
   setAll(title, desc, road ? `${SITE}/road/${road.id}/` : `${SITE}/`)
 }

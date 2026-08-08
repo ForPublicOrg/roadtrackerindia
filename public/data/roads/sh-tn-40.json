@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 136.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Shencottai, Tamil Nadu",
     "end": "Tiruchendur, Tamil Nadu",
@@ -20,6 +21,19 @@
       "Tiruchendur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vijayaraghava Muthaliyaar Chatram" },
+    { "id": "nh-32", "label": "Met near Tiruchendur" },
+    { "id": "nh-744", "label": "Met near Shencottai" },
+    { "id": "nh-138", "label": "Met near Vijayaraghava Muthaliyaar Chatram" },
+    { "id": "sh-tn-176", "label": "Met near Tiruchendur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shencottai",
@@ -83,12 +97,6 @@
         78.11868,
         8.50016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

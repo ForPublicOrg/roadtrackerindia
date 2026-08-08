@@ -23,6 +23,20 @@
       "Kanakayyanahatti"
     ]
   },
+  "significance": "SH 2, Sirsi–Kanakayyanahatti State Highway, crosses the border between Karnataka and Andhra Pradesh. A state road that runs through more than one state has no single owner — Karnataka PWD and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Kudligi" },
+    { "id": "nh-50", "label": "Met near Kudligi" },
+    { "id": "nh-150a", "label": "Met near Molakalmuru" },
+    { "id": "nh-766e", "label": "Met near Sirsi" },
+    { "id": "nh-544dd", "label": "Met near Molakalmuru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sirsi",
@@ -72,12 +86,6 @@
         76.79648,
         14.70609
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

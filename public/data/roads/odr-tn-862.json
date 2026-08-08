@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kovur, Tamil Nadu",
     "end": "Mangadu, Tamil Nadu",
@@ -19,6 +20,17 @@
       "Mangadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-113", "label": "Met near Kovur" },
+    { "id": "odr-tn-3619", "label": "Met near Kovur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kovur",
@@ -40,12 +52,6 @@
         80.12137,
         13.02216
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

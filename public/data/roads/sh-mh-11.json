@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 74.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Sakri, Maharashtra",
     "end": "Aamoda, Maharashtra",
@@ -18,6 +19,19 @@
       "Aamoda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Shirpur" },
+    { "id": "nh-753b", "label": "Met near Sakri" },
+    { "id": "nh-160h", "label": "Met near Chimthane" },
+    { "id": "nh-753bb", "label": "Met near Shindkheda" },
+    { "id": "sh-mh-1", "label": "Met near Chimthane" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sakri",
@@ -46,12 +60,6 @@
         74.85524,
         21.28785
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

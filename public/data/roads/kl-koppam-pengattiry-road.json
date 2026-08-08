@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherpulassery, Kerala",
     "end": "Pattambi, Kerala",
@@ -16,6 +17,20 @@
       "Pattambi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-39", "label": "Met near Pattambi" },
+    { "id": "kl-pattambi-cherplassery-road", "label": "Met near Cherpulassery" },
+    { "id": "kl-valanchery-koppam-road", "label": "Met near Pattambi" },
+    { "id": "kl-vandumthara-kattuppara-road", "label": "Met near Pattambi" },
+    { "id": "kl-krishnapadi-kailiyad-road", "label": "Met near Cherpulassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherpulassery",
@@ -30,12 +45,6 @@
         76.18678,
         10.86514
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

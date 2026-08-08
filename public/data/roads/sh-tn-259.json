@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 8.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sendamangalam, Tamil Nadu",
     "end": "Swamy Nagar, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Swamy Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sendamangalam" },
+    { "id": "sh-tn-95", "label": "Met near Sendamangalam" },
+    { "id": "sh-tn-u124", "label": "Met near Sendamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sendamangalam",
@@ -30,12 +42,6 @@
         78.17227,
         11.32213
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

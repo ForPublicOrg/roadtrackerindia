@@ -18,6 +18,22 @@
       "Supaul"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Jhanjharpur" },
+    { "id": "nh-327", "label": "Met near Supaul" },
+    { "id": "nh-527b", "label": "Met near Rahika" },
+    { "id": "nh-227j", "label": "Met near Rahika" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rahika",
@@ -46,16 +62,6 @@
         86.56542,
         26.04216
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

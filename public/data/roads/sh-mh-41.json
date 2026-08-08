@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 6.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Vasai Road, Maharashtra",
     "end": "Waliv, Maharashtra",
@@ -16,6 +17,12 @@
       "Waliv"
     ]
   },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vasai Road",
@@ -30,12 +37,6 @@
         72.89424,
         19.36621
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

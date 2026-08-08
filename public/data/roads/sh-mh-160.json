@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 68.6,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Kalamb, Maharashtra",
     "end": "Latur, Maharashtra",
@@ -16,6 +17,19 @@
       "Latur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-63", "label": "Met near Latur" },
+    { "id": "nh-548c", "label": "Met near Kalamb" },
+    { "id": "nh-361", "label": "Met near Latur" },
+    { "id": "nh-548b", "label": "Met near Latur" },
+    { "id": "sh-mh-162", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalamb",
@@ -30,12 +44,6 @@
         76.55027,
         18.39045
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

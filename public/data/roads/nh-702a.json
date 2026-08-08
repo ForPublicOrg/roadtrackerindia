@@ -19,6 +19,20 @@
       "Alichen"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Alichen" },
+    { "id": "nh-202", "label": "Met near Meluri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Meluri",
@@ -47,16 +61,6 @@
         94.47567,
         26.28254
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

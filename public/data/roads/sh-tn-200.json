@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 331.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thalamuthu Nagar, Tamil Nadu",
     "end": "Nagapattinam, Tamil Nadu",
@@ -22,6 +23,19 @@
       "Nagapattinam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Velankanni" },
+    { "id": "nh-83", "label": "Met near Sikkal" },
+    { "id": "nh-85", "label": "Met near Thondi" },
+    { "id": "nh-87", "label": "Met near Ramanathapuram" },
+    { "id": "nh-536", "label": "Met near Devipattinam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalamuthu Nagar",
@@ -120,12 +134,6 @@
         79.8249,
         10.75644
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

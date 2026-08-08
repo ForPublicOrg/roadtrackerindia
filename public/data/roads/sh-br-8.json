@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 95,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Hisua, Bihar",
     "end": "Lakhisarai, Bihar",
@@ -18,6 +19,19 @@
       "Lakhisarai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Nawada" },
+    { "id": "nh-33", "label": "Met near Lakhisarai" },
+    { "id": "nh-120", "label": "Met near Hisua" },
+    { "id": "sh-br-82", "label": "Met near Nawada" },
+    { "id": "sh-br-18", "label": "Met near Lakhisarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hisua",
@@ -46,12 +60,6 @@
         86.08316,
         25.17643
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

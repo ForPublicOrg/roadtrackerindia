@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Katni, Madhya Pradesh",
     "end": "New Katni, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "New Katni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-63", "label": "Meets this road" },
+    { "id": "mdr-mp-3610", "label": "Meets this road" },
+    { "id": "mdr-mp-3612", "label": "Met near Katni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Katni",
@@ -30,12 +43,6 @@
         80.31587,
         23.77806
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

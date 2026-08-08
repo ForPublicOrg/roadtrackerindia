@@ -17,6 +17,23 @@
       "Kakarbitta"
     ]
   },
+  "significance": "NH 327B is a branch of NH 327. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Panitanki to Kakarbitta, and it meets NH 327 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-327",
+      "label": "NH 327 — the highway this branch takes its number from, running Police Colony to Bhadrapur"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panitanki",
@@ -31,16 +48,6 @@
         88.16082,
         26.64533
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

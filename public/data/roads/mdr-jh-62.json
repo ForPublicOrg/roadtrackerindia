@@ -18,6 +18,19 @@
       "Chirkunda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 62, Sitarampur–Chirkunda District road, crosses the border between West Bengal and Jharkhand. A state road that runs through more than one state has no single owner — West Bengal PWD and Jharkhand RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-wb-5", "label": "Met near Sitarampur" },
+    { "id": "mdr-jh-63", "label": "Met near Chirkunda" },
+    { "id": "mdr-jh-64", "label": "Met near Chirkunda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sitarampur",
@@ -46,12 +59,6 @@
         86.78271,
         23.74937
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

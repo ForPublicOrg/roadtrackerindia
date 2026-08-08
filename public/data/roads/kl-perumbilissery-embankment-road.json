@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ollur, Kerala",
     "end": "Cheerachi, Kerala",
@@ -16,6 +17,20 @@
       "Cheerachi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-cherpu-thriprayar-road", "label": "Met near Puthukkad" },
+    { "id": "kl-anakkallu-ammadam-peringottukara-road", "label": "Met near Thrissur" },
+    { "id": "kl-chenam-mullakkara-road", "label": "Met near Thrissur" },
+    { "id": "kl-kodannur-kundolikkadavu-road", "label": "Met near Thrissur" },
+    { "id": "kl-cherpu-chittor-mana-road", "label": "Met near Puthukkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ollur",
@@ -30,12 +45,6 @@
         76.19412,
         10.45898
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

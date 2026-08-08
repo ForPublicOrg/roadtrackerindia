@@ -18,6 +18,23 @@
       "Chanderi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-46", "label": "Meets this road" },
+    { "id": "sh-mp-10", "label": "Met near Berasia" },
+    { "id": "sh-mp-18", "label": "Met near Berasia" },
+    { "id": "sh-mp-61", "label": "Met near Kurwai" },
+    { "id": "sh-mp-11", "label": "Met near Mungaoli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kurawar",
@@ -53,16 +70,6 @@
         78.12439,
         24.70177
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

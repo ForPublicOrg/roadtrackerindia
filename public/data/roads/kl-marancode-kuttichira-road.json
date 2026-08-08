@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chalakudy, Kerala",
     "end": "Potta, Kerala",
@@ -16,6 +17,17 @@
       "Potta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-chalakudy-vellikulangara-road", "label": "Met near Chalakudy" },
+    { "id": "kl-mothirakanni-kuttichira-road", "label": "Met near Chalakudy" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chalakudy",
@@ -30,12 +42,6 @@
         76.42598,
         10.33208
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 75.8,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Kadi, Gujarat",
     "end": "Lakhtar, Gujarat",
@@ -18,6 +19,19 @@
       "Lakhtar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-947", "label": "Met near Sanand" },
+    { "id": "sh-gj-17", "label": "Met near Sanand" },
+    { "id": "sh-gj-144", "label": "Met near Sanand" },
+    { "id": "sh-gj-133", "label": "Met near Kadi" },
+    { "id": "sh-gj-138", "label": "Met near Kalol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadi",
@@ -46,12 +60,6 @@
         72.05792,
         22.82844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

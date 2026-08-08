@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 272.9,
+  "authority": "assam-pwd",
   "route": {
     "start": "Missa Cantonment, Assam",
     "end": "MOINAPARA, Assam",
@@ -19,6 +20,19 @@
       "MOINAPARA"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Daboka" },
+    { "id": "nh-29", "label": "Meets this road" },
+    { "id": "nh-627", "label": "Met near Hamren" },
+    { "id": "nh-129", "label": "Met near Golaghat" },
+    { "id": "nh-127", "label": "Met near Missa Cantonment" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Missa Cantonment",
@@ -54,12 +68,6 @@
         93.92493,
         26.45796
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

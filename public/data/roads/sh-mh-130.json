@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 201.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Mangalwar Peth, Maharashtra",
     "end": "Dodamarg, Maharashtra",
@@ -20,6 +21,19 @@
       "Dodamarg"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-548h", "label": "Met near Gadahinglaj" },
+    { "id": "sh-mh-116", "label": "Met near Gargoti" },
+    { "id": "sh-mh-121", "label": "Met near Chandgad" },
+    { "id": "sh-mh-124", "label": "Met near Dodamarg" },
+    { "id": "sh-mh-135", "label": "Met near Gadahinglaj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangalwar Peth",
@@ -55,12 +69,6 @@
         73.96866,
         15.68013
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

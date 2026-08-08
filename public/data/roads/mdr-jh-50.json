@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Sonardih, Jharkhand",
     "end": "Karkend, Jharkhand",
@@ -18,6 +19,17 @@
       "Karkend"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-49", "label": "Met near Sonardih" },
+    { "id": "mdr-jh-57", "label": "Met near Loyabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonardih",
@@ -46,12 +58,6 @@
         86.37339,
         23.77501
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

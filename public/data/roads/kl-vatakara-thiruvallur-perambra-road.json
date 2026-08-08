@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Perambra, Kerala",
     "end": "Vadakara, Kerala",
@@ -16,6 +17,19 @@
       "Vadakara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Vadakara" },
+    { "id": "kl-old-nh-road-vadakara", "label": "Met near Vadakara" },
+    { "id": "kl-vadakara-villiyappally-chelakkad-road", "label": "Met near Vadakara" },
+    { "id": "kl-perambra-cheruvannur-vadakara-road", "label": "Met near Perambra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Perambra",
@@ -30,12 +44,6 @@
         75.5948,
         11.59508
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,20 @@
       "Kalinjar"
     ]
   },
+  "significance": "SH 56, Nagod–Kalinjar State Highway, crosses the border between Madhya Pradesh and Uttar Pradesh. A state road that runs through more than one state has no single owner — MP PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Nagod" },
+    { "id": "nh-943", "label": "Met near Nagod" },
+    { "id": "sh-mp-13", "label": "Met near Nagod" },
+    { "id": "mdr-up-11b", "label": "Meets this road" },
+    { "id": "mdr-mp-1805", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagod",
@@ -31,12 +45,6 @@
         80.47158,
         25.0148
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

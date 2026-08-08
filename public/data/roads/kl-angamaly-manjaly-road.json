@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cheriyappilly, Kerala",
     "end": "Angamaly, Kerala",
@@ -16,6 +17,19 @@
       "Angamaly"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-panaithodu-parakkadavu-road", "label": "Met near Angamaly" },
+    { "id": "kl-aalamattam-kundoor-kochukadavu-road", "label": "Met near Valiyaparambu" },
+    { "id": "kl-parakkadavu-kochukadavu-road", "label": "Met near Valiyaparambu" },
+    { "id": "kl-pattam-manjali-road", "label": "Met near North Paravur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheriyappilly",
@@ -30,12 +44,6 @@
         76.3303,
         10.17883
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

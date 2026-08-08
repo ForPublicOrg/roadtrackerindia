@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Pahari, Rajasthan",
     "end": "Kaman, Rajasthan",
@@ -16,6 +17,20 @@
       "Kaman"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-22", "label": "Met near Pahari" },
+    { "id": "sh-rj-44", "label": "Met near Kaman" },
+    { "id": "mdr-rj-50", "label": "Met near Pahari" },
+    { "id": "mdr-rj-211", "label": "Met near Kaman" },
+    { "id": "mdr-rj-72", "label": "Met near Kaman" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pahari",
@@ -30,12 +45,6 @@
         77.27393,
         27.65363
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

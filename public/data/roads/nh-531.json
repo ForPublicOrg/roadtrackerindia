@@ -18,6 +18,22 @@
       "Chhapra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Gopalganj" },
+    { "id": "nh-31", "label": "Met near Chhapra" },
+    { "id": "nh-227a", "label": "Met near Siwan" },
+    { "id": "sh-br-73", "label": "Met near Siwan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gopalganj",
@@ -60,16 +76,6 @@
         84.52637,
         25.97458
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

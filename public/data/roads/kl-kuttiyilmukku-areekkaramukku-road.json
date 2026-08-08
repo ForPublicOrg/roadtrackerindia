@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kayamkulam, Kerala",
     "end": "Amritapuri, Kerala",
@@ -16,6 +17,18 @@
       "Amritapuri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kottapuzhakkal-thazhava-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-areekkaramukku-kannanakuzhy-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-pallickal-krishnapuram-road", "label": "Met near Kayamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kayamkulam",
@@ -30,12 +43,6 @@
         76.5398,
         9.15366
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

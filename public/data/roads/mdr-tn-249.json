@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Periyapudupattinam, Tamil Nadu",
     "end": "Korikulam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Korikulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Thanjavur" },
+    { "id": "sh-tn-u89", "label": "Met near Thanjavur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Periyapudupattinam",
@@ -30,12 +42,6 @@
         79.19822,
         10.77405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

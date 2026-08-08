@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 51.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kheenvsar, Rajasthan",
     "end": "Teja Colony, Rajasthan",
@@ -17,6 +18,17 @@
       "Teja Colony"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-62", "label": "Met near Teja Colony" },
+    { "id": "sh-rj-87", "label": "Met near Kheenvsar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kheenvsar",
@@ -38,12 +50,6 @@
         73.71724,
         27.19262
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

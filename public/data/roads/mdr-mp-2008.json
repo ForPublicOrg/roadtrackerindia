@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Damoh, Madhya Pradesh",
     "end": "Patera, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Patera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-63", "label": "Met near Damoh" },
+    { "id": "sh-mp-23", "label": "Met near Patera" },
+    { "id": "mdr-mp-2007", "label": "Met near Damoh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Damoh",
@@ -30,12 +43,6 @@
         79.68245,
         23.99637
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

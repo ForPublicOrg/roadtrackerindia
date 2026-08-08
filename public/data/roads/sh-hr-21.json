@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.2,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Bhadra, Rajasthan",
     "end": "Boha, Punjab",
@@ -18,6 +19,19 @@
       "Boha"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Fatehabad" },
+    { "id": "sh-hr-101", "label": "Met near Ratia" },
+    { "id": "sh-hr-103", "label": "Met near Fatehabad" },
+    { "id": "mdr-pb-29", "label": "Met near Ratia" },
+    { "id": "mdr-pb-18", "label": "Met near Ratia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhadra",
@@ -46,12 +60,6 @@
         75.54595,
         29.7639
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

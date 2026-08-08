@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Nagod, Madhya Pradesh",
     "end": "Satna, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Satna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Satna" },
+    { "id": "sh-mp-13", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagod",
@@ -30,12 +42,6 @@
         80.75599,
         24.58488
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

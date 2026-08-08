@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kadachira, Kerala",
     "end": "Thottada, Kerala",
@@ -16,6 +17,17 @@
       "Thottada"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thottada" },
+    { "id": "kl-kuruva-kadalayi-vattakulam-esi-hospital-road", "label": "Met near Thottada" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadachira",
@@ -30,12 +42,6 @@
         75.42015,
         11.84145
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

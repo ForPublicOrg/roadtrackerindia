@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 55.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Tundla, Uttar Pradesh",
     "end": "Etah, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Etah"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-19", "label": "Met near Tundla" },
+    { "id": "nh-321g", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tundla",
@@ -30,12 +41,6 @@
         78.65432,
         27.56196
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

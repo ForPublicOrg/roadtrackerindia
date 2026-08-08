@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Manamelkudi, Tamil Nadu",
     "end": "North Ammapattinam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "North Ammapattinam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Manamelkudi" },
+    { "id": "sh-tn-200", "label": "Met near Manamelkudi" },
+    { "id": "mdr-tn-1195", "label": "Met near Manamelkudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manamelkudi",
@@ -30,12 +43,6 @@
         79.23058,
         10.04081
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

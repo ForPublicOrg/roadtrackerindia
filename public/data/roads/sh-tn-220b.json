@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Edappadi, Tamil Nadu",
     "end": "Masaiyan Theru, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Masaiyan Theru"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Edappadi" },
+    { "id": "mdr-tn-1129a", "label": "Met near Edappadi" },
+    { "id": "mdr-tn-1129", "label": "Met near Edappadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Edappadi",
@@ -30,12 +42,6 @@
         77.7253,
         11.57832
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

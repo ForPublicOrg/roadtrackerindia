@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 152.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Dumri, Jharkhand",
     "end": "Deoghar, Jharkhand",
@@ -18,6 +19,19 @@
       "Deoghar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Sarwan" },
+    { "id": "nh-333", "label": "Met near Deoghar" },
+    { "id": "sh-jh-13", "label": "Met near Giridih" },
+    { "id": "sh-jh-15", "label": "Met near Deoghar" },
+    { "id": "mdr-jh-89", "label": "Met near Giridih" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dumri",
@@ -60,12 +74,6 @@
         86.69938,
         24.48571
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

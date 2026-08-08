@@ -1,10 +1,11 @@
 {
   "id": "nh-77",
   "ref": "NH 77",
-  "name": "Krishnagiri–Tindivanam National Highway",
+  "name": "Krishnagiri–Tindivanam Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 181.1,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Krishnagiri, Tamil Nadu",
     "end": "Tindivanam, Tamil Nadu",
@@ -20,6 +21,32 @@
       "Tindivanam"
     ]
   },
+  "history": "National Highway 77 runs south-east across northern Tamil Nadu from Krishnagiri through Chengam and Tiruvannamalai to Gingee and Tindivanam. Its middle is a temple road: Tiruvannamalai, at the foot of the hill Arunachala, draws enormous crowds every full moon for the Girivalam walk around the hill, and hundreds of thousands come at Karthigai Deepam.",
+  "facts": [
+    "Serves Tiruvannamalai, where pilgrims walk the fourteen-kilometre circuit around Arunachala hill every full moon.",
+    "Passes the Gingee Fort, a huge hill fortress held in turn by the Nayaks, Marathas, Mughals, French and British.",
+    "Connects the Bengaluru–Chennai corridor at Krishnagiri to the Chennai–Trichy highway at Tindivanam.",
+    "Karthigai Deepam at Tiruvannamalai brings traffic on this road to a standstill for days."
+  ],
+  "significance": "It is a useful diagonal across northern Tamil Nadu, and for millions of pilgrims a year it is the road to Tiruvannamalai.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Bengaluru–Chennai highway met at Krishnagiri" },
+    { "id": "nh-32", "label": "The Chennai–Kanyakumari highway met at Tindivanam" },
+    { "id": "nh-38", "label": "Met near Tiruvannamalai" },
+    { "id": "nh-179b", "label": "Met near Chengam" },
+    { "id": "nh-179a", "label": "Met near Uthangarai" }
+  ],
+  "travelNotes": "Plan around the full moon if you are passing Tiruvannamalai — the town closes to through traffic during Girivalam.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnagiri",
@@ -62,16 +89,6 @@
         79.66584,
         12.24717
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

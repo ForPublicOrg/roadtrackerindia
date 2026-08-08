@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cheerachi, Kerala",
     "end": "Kuriyachira, Kerala",
@@ -17,6 +18,18 @@
       "Kuriyachira"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Thrissur" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Thrissur" },
+    { "id": "kl-thrissur-thalore-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheerachi",
@@ -31,12 +44,6 @@
         76.21199,
         10.50207
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

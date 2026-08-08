@@ -18,6 +18,21 @@
       "Sabbavaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "raipur-visakhapatnam-expressway", "label": "Met near Mentada" },
+    { "id": "nh-516e", "label": "Met near Gantyada" },
+    { "id": "nh-516b", "label": "Met near Kothavalasa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mentada",
@@ -53,16 +68,6 @@
         83.14321,
         17.80581
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

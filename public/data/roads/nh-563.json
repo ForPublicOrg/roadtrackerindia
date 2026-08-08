@@ -22,6 +22,23 @@
       "Jagtial"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-63", "label": "Met near Jagtial" },
+    { "id": "nh-163", "label": "Met near Hasanparthy" },
+    { "id": "nh-930p", "label": "Met near Thorrur" },
+    { "id": "nh-365", "label": "Meets this road" },
+    { "id": "nh-765dg", "label": "Met near Hasanparthy" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Venkata Sudha Nagar",
@@ -78,16 +95,6 @@
         78.91374,
         18.7859
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

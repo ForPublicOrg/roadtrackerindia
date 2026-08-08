@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 143.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Jat Colony, Rajasthan",
     "end": "Sanchore, Rajasthan",
@@ -17,6 +18,19 @@
       "Sanchore"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Sanchore" },
+    { "id": "nh-68", "label": "Met near Jat Colony" },
+    { "id": "nh-925", "label": "Meets this road" },
+    { "id": "sh-rj-11", "label": "Met near Sanchore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jat Colony",
@@ -38,12 +52,6 @@
         71.77328,
         24.75237
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

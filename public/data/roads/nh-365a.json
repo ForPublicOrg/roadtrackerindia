@@ -17,6 +17,26 @@
       "Mahabubabad"
     ]
   },
+  "significance": "NH 365A is a branch of NH 365. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Kodada to Mahabubabad, and it meets NH 365 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-365",
+      "label": "NH 365 — the highway this branch takes its number from, running Mulugu to Nakrekal"
+    },
+    { "id": "warangal-khammam-expressway", "label": "Met near Mahabubabad" },
+    { "id": "nh-65", "label": "Met near Kodada" },
+    { "id": "nh-365bb", "label": "Met near Khammam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodada",
@@ -45,16 +65,6 @@
         80.01252,
         17.59284
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

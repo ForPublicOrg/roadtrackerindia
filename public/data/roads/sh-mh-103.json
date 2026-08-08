@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Dapoli, Maharashtra",
     "end": "Mandangad, Maharashtra",
@@ -16,6 +17,16 @@
       "Mandangad"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-4", "label": "Met near Dapoli" },
+    { "id": "sh-mh-102", "label": "Met near Mandangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dapoli",
@@ -30,12 +41,6 @@
         73.30358,
         17.91228
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

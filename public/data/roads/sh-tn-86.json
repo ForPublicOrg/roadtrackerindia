@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 81.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Paramathi, Tamil Nadu",
     "end": "Omalur, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Omalur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Omalur" },
+    { "id": "nh-544", "label": "Met near Sankagiri" },
+    { "id": "sh-tn-79", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-222", "label": "Met near Omalur" },
+    { "id": "sh-tn-221", "label": "Met near Edappadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paramathi",
@@ -61,12 +75,6 @@
         78.04741,
         11.74289
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

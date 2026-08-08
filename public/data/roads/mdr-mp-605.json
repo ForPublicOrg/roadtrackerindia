@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Narwar, Madhya Pradesh",
     "end": "Bhitarwar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Bhitarwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-606", "label": "Met near Narwar" },
+    { "id": "mdr-mp-327", "label": "Met near Narwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narwar",
@@ -30,12 +42,6 @@
         77.92173,
         25.75821
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

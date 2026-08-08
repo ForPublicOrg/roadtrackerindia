@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 54.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Rasipuram, Tamil Nadu",
     "end": "Mohanur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Mohanur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-381b", "label": "Met near Namakkal" },
+    { "id": "sh-tn-79", "label": "Met near Rasipuram" },
+    { "id": "sh-tn-25", "label": "Met near Namakkal" },
+    { "id": "sh-tn-161", "label": "Met near Namakkal" },
+    { "id": "sh-tn-260", "label": "Met near Sendamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rasipuram",
@@ -53,12 +67,6 @@
         78.13964,
         11.06306
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

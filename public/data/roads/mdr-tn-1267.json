@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "North Ammapattinam, Tamil Nadu",
     "end": "Aniyantidal, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Aniyantidal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Manamelkudi" },
+    { "id": "sh-tn-200", "label": "Met near Manamelkudi" },
+    { "id": "sh-tn-26", "label": "Met near Aniyantidal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "North Ammapattinam",
@@ -30,12 +43,6 @@
         79.06294,
         10.04709
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

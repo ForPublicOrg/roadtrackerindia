@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pattambi, Kerala",
     "end": "Koottanad, Kerala",
@@ -16,6 +17,17 @@
       "Koottanad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-muthuthala-cherukudangadu-road", "label": "Met near Pattambi" },
+    { "id": "kl-velliyankallu-thiruvegappura-road", "label": "Met near Pattambi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pattambi",
@@ -30,12 +42,6 @@
         76.12265,
         10.83011
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

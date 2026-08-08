@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jhabua, Madhya Pradesh",
     "end": "Meghnagar, Madhya Pradesh",
@@ -17,6 +18,20 @@
       "Meghnagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-26", "label": "Met near Ranapur" },
+    { "id": "mdr-mp-4704", "label": "Met near Ranapur" },
+    { "id": "mdr-mp-4411", "label": "Meets this road" },
+    { "id": "mdr-mp-4414", "label": "Met near Ranapur" },
+    { "id": "mdr-mp-4413", "label": "Met near Ranapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhabua",
@@ -38,12 +53,6 @@
         74.46469,
         22.78506
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 302.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Harda, Madhya Pradesh",
     "end": "Dhanvantri Nagar, Madhya Pradesh",
@@ -22,6 +23,19 @@
       "Dhanvantri Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Kareli" },
+    { "id": "nh-47", "label": "Met near Harda" },
+    { "id": "nh-45", "label": "Meets this road" },
+    { "id": "nh-46", "label": "Met near Narmadapuram" },
+    { "id": "nh-547", "label": "Met near Narsinghpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Harda",
@@ -120,12 +134,6 @@
         79.68616,
         23.14219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

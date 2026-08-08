@@ -23,6 +23,18 @@
       "Etcherla"
     ]
   },
+  "significance": "SH 4, Rayagada–Etcherla State Highway, crosses the border between Odisha and Andhra Pradesh. A state road that runs through more than one state has no single owner — Odisha Works Dept and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Etcherla" },
+    { "id": "nh-326", "label": "Met near Rayagada" },
+    { "id": "sh-ap-1", "label": "Met near Parvathipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rayagada",
@@ -107,12 +119,6 @@
         83.80374,
         18.27086
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

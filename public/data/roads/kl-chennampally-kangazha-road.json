@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vazhoor, Kerala",
     "end": "Pampady, Kerala",
@@ -16,6 +17,17 @@
       "Pampady"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Pampady" },
+    { "id": "kl-pampady-nedumkunnam-road", "label": "Met near Pampady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vazhoor",
@@ -30,12 +42,6 @@
         76.65461,
         9.56277
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 51.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Khadoli, Dadra and Nagar Haveli and Daman and Diu",
     "end": "Boisar, Maharashtra",
@@ -17,6 +18,18 @@
       "Boisar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Talasari" },
+    { "id": "sh-mh-4", "label": "Met near Boisar" },
+    { "id": "sh-mh-30", "label": "Met near Dahanu" },
+    { "id": "sh-mh-29", "label": "Met near Khadoli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khadoli",
@@ -38,12 +51,6 @@
         72.68918,
         19.87436
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

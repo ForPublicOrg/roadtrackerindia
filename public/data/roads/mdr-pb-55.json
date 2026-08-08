@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 62.9,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Rupnagar, Punjab",
     "end": "Garhshankar, Punjab",
@@ -17,6 +18,16 @@
       "Garhshankar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-pb-24", "label": "Met near Garhshankar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rupnagar",
@@ -38,12 +49,6 @@
         76.14681,
         31.21402
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

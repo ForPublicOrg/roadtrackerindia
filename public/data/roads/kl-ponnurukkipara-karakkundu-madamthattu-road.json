@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karuvanchal, Kerala",
     "end": "Pilathara, Kerala",
@@ -16,6 +17,17 @@
       "Pilathara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-methurumba-chapparappadavu-kuttoor-road", "label": "Met near Karuvanchal" },
+    { "id": "kl-panapuzha-kanaranvayal-road", "label": "Met near Karuvanchal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karuvanchal",
@@ -30,12 +42,6 @@
         75.31645,
         12.09483
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

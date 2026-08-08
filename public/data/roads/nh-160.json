@@ -25,6 +25,23 @@
       "Kopargaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Rahuri" },
+    { "id": "samruddhi-mahamarg", "label": "Met near Kopargaon" },
+    { "id": "nh-48", "label": "Met near Sankeshwara" },
+    { "id": "nh-65", "label": "Met near Daund" },
+    { "id": "nh-548c", "label": "Met near Vaduj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sankeshwara",
@@ -137,16 +154,6 @@
         74.48243,
         19.86451
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

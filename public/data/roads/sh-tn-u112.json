@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nasiyanur, Tamil Nadu",
     "end": "Villarasampatti, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Villarasampatti"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Nasiyanur" },
+    { "id": "sh-tn-173", "label": "Met near Nasiyanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nasiyanur",
@@ -30,12 +41,6 @@
         77.64051,
         11.34541
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

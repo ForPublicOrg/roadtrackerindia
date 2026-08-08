@@ -18,6 +18,20 @@
       "Pasighat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-13", "label": "Met near Pasighat" },
+    { "id": "nh-15", "label": "Met near Kulajan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kulajan",
@@ -39,16 +53,6 @@
         95.33188,
         28.05857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

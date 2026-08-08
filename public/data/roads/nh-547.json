@@ -19,6 +19,23 @@
       "Narsinghpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Narsinghpur" },
+    { "id": "nh-347", "label": "Met near Chhindwara" },
+    { "id": "sh-mp-41", "label": "Meets this road" },
+    { "id": "sh-mp-67", "label": "Met near Narsinghpur" },
+    { "id": "sh-mp-46", "label": "Met near Sausar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saoner",
@@ -47,16 +64,6 @@
         79.19634,
         22.9325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

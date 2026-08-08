@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panoor, Kerala",
     "end": "Koothuparamba, Kerala",
@@ -16,6 +17,17 @@
       "Koothuparamba"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-puthur-kaivelikkal-nilangal-cherikkal-road", "label": "Met near Panoor" },
+    { "id": "kl-mutharipeedika-cheruvanchery-road", "label": "Met near Panoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panoor",
@@ -30,12 +42,6 @@
         75.61764,
         11.78584
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chembukkavu, Kerala",
     "end": "Thrissur, Kerala",
@@ -17,6 +18,17 @@
       "Thrissur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-nellangara-mukkattukara-road", "label": "Met near Thrissur" },
+    { "id": "kl-bishop-palace-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chembukkavu",
@@ -31,12 +43,6 @@
         76.22622,
         10.53098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 54,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Qaisarbagh, Uttar Pradesh",
     "end": "Mahmudabad, Uttar Pradesh",
@@ -17,6 +18,20 @@
       "Mahmudabad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Aliganj" },
+    { "id": "nh-727h", "label": "Met near Mahmudabad" },
+    { "id": "lucknow-outer-ring-road", "label": "Met near Jankipuram" },
+    { "id": "mdr-up-79c", "label": "Met near Mahmudabad" },
+    { "id": "mdr-up-88c", "label": "Met near Jankipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Qaisarbagh",
@@ -38,12 +53,6 @@
         81.126,
         27.30049
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

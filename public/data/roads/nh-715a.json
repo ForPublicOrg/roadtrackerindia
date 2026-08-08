@@ -18,6 +18,23 @@
       "Nakhola"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Nakhola" },
+    { "id": "nh-15", "label": "Met near Udalguri" },
+    { "id": "sh-as-3", "label": "Met near Marigaon" },
+    { "id": "sh-as-10", "label": "Met near Udalguri" },
+    { "id": "sh-as-47", "label": "Met near Bhuragaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jomotsangkha",
@@ -60,16 +77,6 @@
         92.19761,
         26.12
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

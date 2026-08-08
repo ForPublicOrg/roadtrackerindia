@@ -1,10 +1,11 @@
 {
   "id": "nh-70",
   "ref": "NH 70",
-  "name": "Sadiqabad–Gadra Road National Highway",
+  "name": "Sadiqabad–Gadra Road Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 310.5,
+  "lanes": "2 lanes",
   "route": {
     "start": "Sadiqabad, Rajasthan",
     "end": "Gadra Road, Rajasthan",
@@ -16,6 +17,29 @@
       "Gadra Road"
     ]
   },
+  "history": "National Highway 70 runs through the western desert of Rajasthan towards Gadra Road, a small settlement in Barmer district close to the international border. It is a thinly trafficked road across open sand country, and its main users are the villages strung along it and the security forces who patrol the frontier.",
+  "facts": [
+    "Runs through the far western desert of Barmer district.",
+    "Gadra Road, at its end, sits close to the India–Pakistan border.",
+    "One of the emptiest national highways in the country — long stretches have no settlement at all.",
+    "It serves border villages that have very few other road links."
+  ],
+  "significance": "Roads in the border desert exist as much for security and for the isolated villages along them as for through traffic. This is one of those roads.",
+  "relatedRoads": [
+    { "id": "nh-68", "label": "Meets this road" },
+    { "id": "nh-25", "label": "Meets this road" }
+  ],
+  "travelNotes": "Remote. Fuel, water and mobile coverage are all unreliable. Some areas near the border need permits, so check locally before travelling.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sadiqabad",
@@ -30,16 +54,6 @@
         70.28849,
         25.754
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

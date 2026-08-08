@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manjeri, Kerala",
     "end": "Areekode, Kerala",
@@ -16,6 +17,16 @@
       "Areekode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-perakamanna-kuzhiyamparamba-road", "label": "Met near Areekode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeri",
@@ -30,12 +41,6 @@
         76.06923,
         11.19659
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

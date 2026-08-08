@@ -17,6 +17,26 @@
       "Kedgaon"
     ]
   },
+  "significance": "NH 965D is a branch of NH 965. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Satara to Kedgaon, and it meets NH 965 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-965",
+      "label": "NH 965 — the highway this branch takes its number from, running Akluj to Gopalpatti"
+    },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Lonand" },
+    { "id": "nh-48", "label": "Met near Satara" },
+    { "id": "nh-65", "label": "Met near Kedgaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satara",
@@ -45,16 +65,6 @@
         74.37855,
         18.45213
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

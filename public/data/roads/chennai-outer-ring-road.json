@@ -1,0 +1,109 @@
+{
+  "id": "chennai-outer-ring-road",
+  "ref": "Outer Ring Road",
+  "name": "Chennai Outer Ring Road",
+  "aka": ["Chennai ORR"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 61.8,
+  "lanes": "6 lanes with service roads, land reserved for more",
+  "authority": "tnrdc",
+  "route": {
+    "start": "Minjur, Tamil Nadu",
+    "end": "Vandalur, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Minjur",
+      "Ambattur",
+      "Avadi",
+      "Kundrathur",
+      "Tambaram",
+      "Vandalur"
+    ]
+  },
+  "history": "The Chennai Outer Ring Road runs in a long arc through the outer suburbs from Minjur in the north, past Avadi and Kundrathur, to Vandalur in the south. It was built by the state's road development company so that freight moving between the highways to Kolkata, Bengaluru and Tiruchirappalli, and the traffic to and from Chennai's ports, would not have to enter the city. It is a fully grade-separated road with service roads on both sides, and the land alongside it has been reserved for a future rail corridor.",
+  "facts": [
+    "Connects the Kolkata, Bengaluru and Tiruchirappalli highways around the edge of Chennai.",
+    "Built with service roads on both sides and land kept aside for a future rail line.",
+    "It carries port-bound freight around the city rather than through it.",
+    "Vandalur, at its southern end, is where the Chennai zoo is."
+  ],
+  "significance": "Chennai is a port city with three national highways converging on it. This ring is what keeps their freight out of the city's streets, and it has pulled a great deal of warehousing and industry out to the suburbs it passes.",
+  "relatedRoads": [
+    { "id": "chennai-bypass-expressway", "label": "The older, tighter bypass closer to the city" },
+    { "id": "chennai-peripheral-ring-road", "label": "The larger peripheral ring being built further out" },
+    { "id": "chennai-inner-ring-road", "label": "The inner ring, closer to the centre" },
+    { "id": "nh-16", "label": "The Kolkata highway met at the northern end" },
+    { "id": "nh-48", "label": "Met near Thirumazhisai" },
+    { "id": "nh-32", "label": "Met near Vandalur" },
+    { "id": "nh-179b", "label": "Met near Vandalur" }
+  ],
+  "travelNotes": "A fast way around Chennai. Heavy truck traffic near the northern end towards Ennore and the ports.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Minjur",
+      "coords": [
+        80.26323,
+        13.26929
+      ]
+    },
+    {
+      "name": "Red Hills",
+      "coords": [
+        80.17447,
+        13.21447
+      ]
+    },
+    {
+      "name": "Ambattur",
+      "coords": [
+        80.14141,
+        13.17811
+      ]
+    },
+    {
+      "name": "Avadi",
+      "coords": [
+        80.05171,
+        13.12003
+      ]
+    },
+    {
+      "name": "Poonamallee",
+      "coords": [
+        80.0851,
+        13.04576
+      ]
+    },
+    {
+      "name": "Kundrathur",
+      "coords": [
+        80.08889,
+        12.99167
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.07591,
+        12.91829
+      ]
+    },
+    {
+      "name": "Vandalur",
+      "coords": [
+        80.08359,
+        12.88814
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

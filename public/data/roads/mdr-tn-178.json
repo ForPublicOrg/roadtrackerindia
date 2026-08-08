@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vannarpettai, Tamil Nadu",
     "end": "Melapalayam, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Melapalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-39", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-75a", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-920", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-198", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vannarpettai",
@@ -39,12 +54,6 @@
         77.71472,
         8.69917
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

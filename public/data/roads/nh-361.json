@@ -24,6 +24,23 @@
       "Tuljapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Meets this road" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Nanded" },
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "nh-52", "label": "Met near Tuljapur" },
+    { "id": "nh-63", "label": "Met near Shirur Anantpal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hingna",
@@ -115,16 +132,6 @@
         76.08175,
         18.02631
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

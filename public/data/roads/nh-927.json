@@ -20,6 +20,23 @@
       "Rupadiya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Barabanki" },
+    { "id": "nh-730", "label": "Met near Nanpara" },
+    { "id": "nh-330b", "label": "Met near Ramnagar" },
+    { "id": "sh-up-1a", "label": "Met near Ramnagar" },
+    { "id": "sh-up-10e", "label": "Met near Ramnagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barabanki",
@@ -55,16 +72,6 @@
         81.60046,
         28.01896
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

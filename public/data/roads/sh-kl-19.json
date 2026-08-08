@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 103.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Munnar Bazaar, Kerala",
     "end": "Kumily, Kerala",
@@ -20,6 +21,19 @@
       "Kumily"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Rajakkaad" },
+    { "id": "nh-183", "label": "Met near Kumily" },
+    { "id": "nh-185", "label": "Met near Kumily" },
+    { "id": "sh-kl-59", "label": "Met near Nedumkandam" },
+    { "id": "sh-kl-40", "label": "Met near Nedumkandam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Munnar Bazaar",
@@ -55,12 +69,6 @@
         77.16803,
         9.60877
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

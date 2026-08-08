@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kannapuram, Kerala",
     "end": "Pappinisseri, Kerala",
@@ -16,6 +17,22 @@
       "Pappinisseri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-baliapattam-cheruthazham-road", "label": "Met near Kannapuram" },
+    { "id": "kl-madayi-mattool-road", "label": "Met near Kannapuram" },
+    {
+      "id": "kl-haji-road-iiiippuram-mungam-cherukunnu-temple-kovvapram-road",
+      "label": "Met near Kannapuram"
+    },
+    { "id": "kl-valapttanam-azheekkal-road", "label": "Met near Kannapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannapuram",
@@ -30,12 +47,6 @@
         75.3304,
         11.96304
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

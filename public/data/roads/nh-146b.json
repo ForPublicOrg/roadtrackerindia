@@ -19,6 +19,23 @@
       "Khategaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Khategaon" },
+    { "id": "nh-45", "label": "Met near Badi" },
+    { "id": "nh-46", "label": "Met near Narmadapuram" },
+    { "id": "sh-mp-66", "label": "Met near Khategaon" },
+    { "id": "sh-mp-29c", "label": "Met near Badi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badi",
@@ -61,16 +78,6 @@
         76.96129,
         22.56596
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

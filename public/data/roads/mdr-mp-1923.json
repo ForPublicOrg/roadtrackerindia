@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Kesli, Madhya Pradesh",
     "end": "Sagar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Sagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sagar" },
+    { "id": "sh-mp-30", "label": "Met near Kesli" },
+    { "id": "mdr-mp-3037", "label": "Met near Jaisinghnagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kesli",
@@ -30,12 +43,6 @@
         78.81162,
         23.70744
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

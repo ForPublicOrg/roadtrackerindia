@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kizhakkekara, Kerala",
     "end": "Muvattupuzha, Kerala",
@@ -16,6 +17,17 @@
       "Muvattupuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-1", "label": "Met near Muvattupuzha" },
+    { "id": "kl-marady-link-road", "label": "Met near Muvattupuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kizhakkekara",
@@ -30,12 +42,6 @@
         76.56822,
         9.95384
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

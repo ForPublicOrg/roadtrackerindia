@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.4,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Narnaul, Haryana",
     "end": "Nangal Chaudhri, Haryana",
@@ -16,6 +17,19 @@
       "Nangal Chaudhri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-11", "label": "Met near Narnaul" },
+    { "id": "nh-148b", "label": "Met near Narnaul" },
+    { "id": "sh-hr-129", "label": "Met near Narnaul" },
+    { "id": "sh-rj-13a", "label": "Met near Narnaul" },
+    { "id": "sh-hr-128", "label": "Met near Narnaul" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narnaul",
@@ -30,12 +44,6 @@
         76.10305,
         28.05484
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

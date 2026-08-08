@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kannivadi, Tamil Nadu",
     "end": "Ji nagar, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Ji nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-21", "label": "Met near Kannivadi" },
+    { "id": "sh-tn-193", "label": "Met near Annanagar" },
+    { "id": "mdr-tn-650", "label": "Met near Annanagar" },
+    { "id": "mdr-tn-887", "label": "Met near Kannivadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannivadi",
@@ -31,12 +45,6 @@
         77.88579,
         10.7226
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 116.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Ukai, Gujarat",
     "end": "Bilimora, Gujarat",
@@ -19,6 +20,19 @@
       "Bilimora"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Navsari" },
+    { "id": "nh-53", "label": "Met near Bardoli" },
+    { "id": "nh-56", "label": "Met near Mandvi" },
+    { "id": "nh-360", "label": "Met near Bilimora" },
+    { "id": "sh-gj-165", "label": "Met near Bardoli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ukai",
@@ -54,12 +68,6 @@
         72.97032,
         20.76727
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

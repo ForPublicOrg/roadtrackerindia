@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 60.9,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Jagraon, Punjab",
     "end": "Malerkotla, Punjab",
@@ -17,6 +18,19 @@
       "Malerkotla"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Jagraon" },
+    { "id": "sh-pb-11", "label": "Met near Malerkotla" },
+    { "id": "sh-pb-13", "label": "Met near Raikot" },
+    { "id": "mdr-pb-32", "label": "Met near Malerkotla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagraon",
@@ -38,12 +52,6 @@
         75.88785,
         30.53016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

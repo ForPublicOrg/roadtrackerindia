@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Udumalaipettai, Tamil Nadu",
     "end": "Dharapuram, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Dharapuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Udumalaipettai" },
+    { "id": "nh-381", "label": "Met near Dharapuram" },
+    { "id": "sh-tn-153", "label": "Met near Dharapuram" },
+    { "id": "mdr-tn-509", "label": "Met near Udumalaipettai" },
+    { "id": "mdr-tn-149", "label": "Met near Madathukulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Udumalaipettai",
@@ -30,12 +44,6 @@
         77.52186,
         10.72607
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

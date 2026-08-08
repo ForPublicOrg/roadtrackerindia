@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Balaramapuram, Kerala",
     "end": "Venganoor, Kerala",
@@ -17,6 +18,16 @@
       "Venganoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-balaramapuram-poovar-road", "label": "Met near Balaramapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balaramapuram",
@@ -31,12 +42,6 @@
         77.0423,
         8.39612
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Kanchipuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Kanchipuram" },
+    { "id": "nh-32", "label": "Met near Chengalpattu" },
+    { "id": "nh-179b", "label": "Met near Chengalpattu" },
+    { "id": "sh-tn-58", "label": "Met near Kanchipuram" },
+    { "id": "sh-tn-48", "label": "Met near Wallajahbad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Natham",
@@ -39,16 +56,6 @@
         79.70412,
         12.83724
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

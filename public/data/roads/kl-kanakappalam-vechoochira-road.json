@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karinkallummoozhi, Kerala",
     "end": "Erumely, Kerala",
@@ -16,6 +17,19 @@
       "Erumely"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Erumely" },
+    { "id": "kl-chethakkal-noorakadu-road", "label": "Met near Erumely" },
+    { "id": "kl-chethekkal-koothattukulam-road", "label": "Met near Erumely" },
+    { "id": "kl-athikkayam-madathamon-chempanoli-vechoochira-road", "label": "Met near Erumely" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karinkallummoozhi",
@@ -30,12 +44,6 @@
         76.83502,
         9.46367
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

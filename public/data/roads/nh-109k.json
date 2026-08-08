@@ -20,6 +20,25 @@
       "Didihat"
     ]
   },
+  "significance": "NH 109K is a branch of NH 109. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Karnaprayag to Didihat, and it meets NH 109 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-109",
+      "label": "NH 109 — the highway this branch takes its number from, running Rudrapur to Karnaprayag"
+    },
+    { "id": "nh-9", "label": "Met near Didihat" },
+    { "id": "nh-309a", "label": "Met near Bāgeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karnaprayag",
@@ -69,16 +88,6 @@
         80.36988,
         29.76037
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

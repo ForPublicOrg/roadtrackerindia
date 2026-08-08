@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Kareli, Madhya Pradesh",
     "end": "Narsinghpur, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Narsinghpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Narsinghpur" },
+    { "id": "nh-547", "label": "Met near Narsinghpur" },
+    { "id": "sh-mp-67", "label": "Met near Kareli" },
+    { "id": "mdr-mp-3812", "label": "Met near Kareli" },
+    { "id": "mdr-mp-3819", "label": "Met near Narsinghpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kareli",
@@ -30,12 +45,6 @@
         79.26631,
         22.90567
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

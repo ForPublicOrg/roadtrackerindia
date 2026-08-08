@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melapalayam, Tamil Nadu",
     "end": "Tirunelveli, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Tirunelveli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-39", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-178", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-1", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melapalayam",
@@ -45,12 +59,6 @@
         77.7095,
         8.7289
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

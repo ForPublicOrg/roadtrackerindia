@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 248.6,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Mantralayam, Andhra Pradesh",
     "end": "Managoli, Karnataka",
@@ -20,6 +21,19 @@
       "Managoli"
     ]
   },
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Siravara" },
+    { "id": "nh-50", "label": "Met near Managoli" },
+    { "id": "nh-150a", "label": "Met near Kakkera" },
+    { "id": "nh-167", "label": "Met near Mantralayam" },
+    { "id": "sh-ka-20", "label": "Met near Siravara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mantralayam",
@@ -69,12 +83,6 @@
         75.81013,
         16.65189
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

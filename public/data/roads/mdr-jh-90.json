@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 79.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bhandaridih, Jharkhand",
     "end": "Kodarma, Jharkhand",
@@ -16,6 +17,18 @@
       "Kodarma"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Kodarma" },
+    { "id": "sh-jh-13", "label": "Met near Giridih" },
+    { "id": "mdr-jh-115", "label": "Met near Danwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhandaridih",
@@ -30,12 +43,6 @@
         85.594,
         24.46743
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

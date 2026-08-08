@@ -12,7 +12,6 @@
   "lanes": "4–6 lanes, access-controlled",
   "agency": "NHAI",
   "authority": "nhai",
-  "newsQuery": "\"Satellite Town Ring Road\" Bengaluru",
   "route": {
     "start": "Dobbaspet, Karnataka",
     "end": "Dobbaspet, Karnataka — full circle",
@@ -66,8 +65,14 @@
     { "id": "nh-48", "label": "Met at Dobbaspet, the highway toward Tumakuru and Pune" },
     { "id": "nh-44", "label": "Met twice — near Devanahalli in the north and at Hosur in the south" },
     { "id": "bangalore-mysore-expressway", "label": "Crossed near Ramanagara on the western arc" },
-    { "id": "chennai-bengaluru-expressway", "label": "Starts at Hoskote on this ring and runs east to Chennai" },
-    { "id": "nice-road", "label": "Bengaluru's inner private toll ring, far inside this much bigger loop" }
+    {
+      "id": "chennai-bengaluru-expressway",
+      "label": "Starts at Hoskote on this ring and runs east to Chennai"
+    },
+    { "id": "nice-road", "label": "Bengaluru's inner private toll ring, far inside this much bigger loop" },
+    { "id": "nh-75", "label": "Met near Hoskote" },
+    { "id": "nh-275", "label": "Met near Ramanagara" },
+    { "id": "nh-948", "label": "Met near Harohalli" }
   ],
   "travelNotes": "Only parts of the ring are open, so treat it as a set of useful shortcuts rather than a full loop for now. The finished Dobbaspet–Hoskote stretch is the handy one — it saves northern and eastern traffic a long crawl through Bengaluru, and it is tolled. Because it runs through open country, fuel pumps and food stops are still sparse on the new sections. Check which stretches are running before relying on the ring for a long trip.",
   "futureUpgrades": [
@@ -75,6 +80,7 @@
     "The southern arc past Bannerghatta National Park is awaiting environmental clearances before it can be built.",
     "The remaining western sections through Kanakapura, Ramanagara and Magadi are planned in later stages."
   ],
+  "newsQuery": "\"Satellite Town Ring Road\" Bengaluru",
   "sources": [
     {
       "title": "NHAI — National Highways Authority of India",

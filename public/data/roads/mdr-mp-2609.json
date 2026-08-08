@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jharda, Madhya Pradesh",
     "end": "Maksi, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Maksi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Meets this road" },
+    { "id": "nh-752d", "label": "Meets this road" },
+    { "id": "nh-552g", "label": "Meets this road" },
+    { "id": "sh-mp-16", "label": "Met near Jharda" },
+    { "id": "mdr-mp-2601", "label": "Met near Jharda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jharda",
@@ -30,12 +45,6 @@
         75.96629,
         23.36747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

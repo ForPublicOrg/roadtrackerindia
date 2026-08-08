@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koothattukulam, Kerala",
     "end": "Kozha, Kerala",
@@ -16,6 +17,17 @@
       "Kozha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-puthuvely-veliyannoor-thamarakkad-road", "label": "Met near Koothattukulam" },
+    { "id": "kl-areekara-keeripaimala-road", "label": "Met near Koothattukulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothattukulam",
@@ -30,12 +42,6 @@
         76.61824,
         9.82789
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

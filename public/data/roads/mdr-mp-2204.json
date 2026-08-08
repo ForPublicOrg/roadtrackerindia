@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 47.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bhawani Mandi, Rajasthan",
     "end": "Rampura, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Rampura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Shamgarh" },
+    { "id": "nh-752d", "label": "Met near Shamgarh" },
+    { "id": "sh-mp-8", "label": "Met near Shamgarh" },
+    { "id": "mdr-mp-2203", "label": "Met near Shamgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhawani Mandi",
@@ -30,12 +44,6 @@
         75.37979,
         24.30423
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

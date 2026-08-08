@@ -21,6 +21,23 @@
       "Raipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Raipur" },
+    { "id": "nh-153", "label": "Met near Sarangarh" },
+    { "id": "sh-ct-10", "label": "Met near Balodabazar" },
+    { "id": "sh-ct-14", "label": "Met near Kasdol" },
+    { "id": "sh-ct-13", "label": "Met near Sarangarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarangarh",
@@ -77,16 +94,6 @@
         81.64179,
         21.24709
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

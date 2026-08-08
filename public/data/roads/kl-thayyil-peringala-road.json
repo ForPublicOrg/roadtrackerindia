@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kayamkulam, Kerala",
     "end": "Mavelikkara, Kerala",
@@ -16,6 +17,20 @@
       "Mavelikkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-5", "label": "Met near Kayamkulam" },
+    { "id": "sh-kl-6", "label": "Met near Kayamkulam" },
+    { "id": "kl-kayamkulam-muttom-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-peringala-kochickal-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-onnamkutty-kuttippuram-road", "label": "Met near Kayamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kayamkulam",
@@ -30,12 +45,6 @@
         76.51615,
         9.17863
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

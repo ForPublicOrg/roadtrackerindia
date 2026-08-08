@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28.5,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Bah, Uttar Pradesh",
     "end": "Shikohabad, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Shikohabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "agra-lucknow-expressway", "label": "Met near Shikohabad" },
+    { "id": "nh-19", "label": "Met near Shikohabad" },
+    { "id": "sh-up-62", "label": "Met near Bah" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bah",
@@ -30,12 +42,6 @@
         78.58075,
         27.10471
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Amanganj, Madhya Pradesh",
     "end": "Hatta, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Hatta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-55", "label": "Met near Hatta" },
+    { "id": "sh-mp-23", "label": "Met near Hatta" },
+    { "id": "mdr-mp-2004", "label": "Met near Hatta" },
+    { "id": "mdr-mp-1623", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amanganj",
@@ -30,12 +44,6 @@
         79.63567,
         24.15972
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

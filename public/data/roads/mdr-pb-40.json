@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.1,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Malout, Punjab",
     "end": "Fazilka, Punjab",
@@ -17,6 +18,17 @@
       "Fazilka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Malout" },
+    { "id": "sh-pb-20", "label": "Met near Fazilka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malout",
@@ -38,12 +50,6 @@
         74.03476,
         30.40882
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

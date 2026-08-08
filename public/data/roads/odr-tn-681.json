@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Red Hills, Tamil Nadu",
     "end": "Puzhal, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Puzhal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-7396", "label": "Met near Red Hills" },
+    { "id": "odr-tn-455", "label": "Met near Red Hills" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Red Hills",
@@ -30,12 +42,6 @@
         80.21756,
         13.20429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mandapam Camp, Tamil Nadu",
     "end": "Kilakkarai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kilakkarai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-87", "label": "Met near Mandapam" },
+    { "id": "mdr-tn-915a", "label": "Met near Kilakkarai" },
+    { "id": "mdr-tn-1155", "label": "Met near Ramanathapuram" },
+    { "id": "mdr-tn-915b", "label": "Met near Kilakkarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandapam Camp",
@@ -30,12 +44,6 @@
         78.82652,
         9.28319
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

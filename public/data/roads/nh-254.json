@@ -22,6 +22,23 @@
       "Pathrala"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Rampura Phul" },
+    { "id": "nh-54", "label": "Met near Mudki" },
+    { "id": "nh-148b", "label": "Met near Maur" },
+    { "id": "nh-105b", "label": "Met near Bagha Purana" },
+    { "id": "sh-pb-17", "label": "Met near Talwandi Sabo" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mudki",
@@ -92,16 +109,6 @@
         74.83178,
         30.05339
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

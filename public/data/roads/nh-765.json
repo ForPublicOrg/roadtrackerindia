@@ -23,6 +23,23 @@
       "Peda Araveedu"
     ]
   },
+  "relatedRoads": [
+    { "id": "hyderabad-outer-ring-road", "label": "Met near Pahadi Sharif" },
+    { "id": "nh-44", "label": "Met near Hyderabad" },
+    { "id": "nh-65", "label": "Met near Hyderabad" },
+    { "id": "nh-167", "label": "Met near Kalwakurthy" },
+    { "id": "nh-565", "label": "Met near Peda Araveedu" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Purani Haveli",
@@ -86,16 +103,6 @@
         79.29903,
         15.90171
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

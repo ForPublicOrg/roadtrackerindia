@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 108.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Didwana, Rajasthan",
     "end": "Udaipurwati, Rajasthan",
@@ -19,6 +20,19 @@
       "Udaipurwati"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Sikar" },
+    { "id": "sh-rj-7", "label": "Met near Losal" },
+    { "id": "sh-rj-2", "label": "Met near Losal" },
+    { "id": "sh-rj-87", "label": "Met near Losal" },
+    { "id": "sh-rj-24", "label": "Met near Didwana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Didwana",
@@ -54,12 +68,6 @@
         75.47033,
         27.72668
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 92.5,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Rajpipla, Gujarat",
     "end": "Padra, Gujarat",
@@ -18,6 +19,18 @@
       "Padra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Karjan" },
+    { "id": "nh-148m", "label": "Met near Padra" },
+    { "id": "sh-gj-161", "label": "Met near Karjan" },
+    { "id": "sh-gj-64", "label": "Met near Rajpipla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajpipla",
@@ -46,12 +59,6 @@
         73.0857,
         22.24104
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

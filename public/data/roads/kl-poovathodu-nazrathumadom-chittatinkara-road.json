@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Erattupetta, Kerala",
     "end": "Poonjar, Kerala",
@@ -16,6 +17,18 @@
       "Poonjar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-edamattom-thidanadu-road", "label": "Met near Erattupetta" },
+    { "id": "kl-aruvithura-bharananganam-road", "label": "Met near Erattupetta" },
+    { "id": "kl-thidanadu-pathazha-kondoor-aruvithura-road", "label": "Met near Erattupetta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erattupetta",
@@ -30,12 +43,6 @@
         76.75796,
         9.68345
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

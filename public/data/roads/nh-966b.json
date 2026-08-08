@@ -19,6 +19,22 @@
       "Mattancherry"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thrippunithura" },
+    { "id": "nh-85", "label": "Met near Thrippunithura" },
+    { "id": "kl-old-nh-sh-road-eranakulam", "label": "Met near Kochi" },
+    { "id": "kl-nettoor-panangad-road", "label": "Met near Ernakulam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maradu",
@@ -68,16 +84,6 @@
         76.25935,
         9.96922
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

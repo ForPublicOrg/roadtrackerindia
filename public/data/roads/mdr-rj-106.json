@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bali, Rajasthan",
     "end": "Falna, Rajasthan",
@@ -16,6 +17,16 @@
       "Falna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-16", "label": "Met near Bali" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bali",
@@ -30,12 +41,6 @@
         73.29751,
         25.09465
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

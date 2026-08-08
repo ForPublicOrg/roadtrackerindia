@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 12.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sirkazhi, Tamil Nadu",
     "end": "Kaverippattinam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kaverippattinam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Sirkazhi" },
+    { "id": "sh-tn-22", "label": "Met near Kaverippattinam" },
+    { "id": "sh-tn-210", "label": "Met near Sirkazhi" },
+    { "id": "mdr-tn-1282", "label": "Met near Sirkazhi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sirkazhi",
@@ -30,12 +43,6 @@
         79.81689,
         11.14889
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

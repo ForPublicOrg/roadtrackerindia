@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 118.3,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Bagasara, Gujarat",
     "end": "Palitana, Gujarat",
@@ -18,6 +19,19 @@
       "Palitana"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-351g", "label": "Met near Dhari" },
+    { "id": "nh-351", "label": "Met near Savarkundla" },
+    { "id": "nh-351k", "label": "Met near Bagasara" },
+    { "id": "sh-gj-96", "label": "Met near Savarkundla" },
+    { "id": "sh-gj-31", "label": "Met near Palitana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bagasara",
@@ -53,12 +67,6 @@
         71.82258,
         21.52782
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

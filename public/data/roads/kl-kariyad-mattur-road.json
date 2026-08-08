@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Angamaly, Kerala",
     "end": "Kalady, Kerala",
@@ -17,6 +18,19 @@
       "Kalady"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Angamaly" },
+    { "id": "mc-road", "label": "Met near Kalady" },
+    { "id": "sh-kl-1", "label": "Met near Angamaly" },
+    { "id": "kl-vengoor-nayathodu-road", "label": "Met near Angamaly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Angamaly",
@@ -38,12 +52,6 @@
         76.4294,
         10.17075
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

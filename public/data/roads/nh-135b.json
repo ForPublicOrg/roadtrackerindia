@@ -16,6 +16,23 @@
       "Manikpur Sarhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Rewa" },
+    { "id": "nh-135bd", "label": "Meets this road" },
+    { "id": "nh-135bb", "label": "Meets this road" },
+    { "id": "sh-mp-24", "label": "Met near Semariya" },
+    { "id": "sh-mp-14", "label": "Met near Rewa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rewa",
@@ -30,16 +47,6 @@
         81.30866,
         25.11351
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

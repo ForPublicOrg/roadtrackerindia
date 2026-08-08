@@ -9,7 +9,6 @@
   "lanes": "Mostly 2 lanes, wider in towns",
   "agency": "Kerala Public Works Department (PWD)",
   "authority": "kerala-pwd",
-  "newsQuery": "\"MC Road\" Kerala",
   "route": {
     "start": "Kesavadasapuram, Thiruvananthapuram, Kerala",
     "end": "Angamaly, Kerala",
@@ -57,9 +56,16 @@
     { "name": "Angamaly", "note": "northern end, meeting the Salem–Kochi national highway close to Kochi airport" }
   ],
   "relatedRoads": [
-    { "id": "nh-66", "label": "The coastal highway that runs roughly parallel nearer the sea — the MC Road is its inland twin" }
+    {
+      "id": "nh-66",
+      "label": "The coastal highway that runs roughly parallel nearer the sea — the MC Road is its inland twin"
+    },
+    { "id": "nh-85", "label": "Met near Muvattupuzha" },
+    { "id": "nh-183", "label": "Met near Changanassery" },
+    { "id": "nh-744", "label": "Met near Kottarakkara" }
   ],
   "travelNotes": "Do not judge this road by its length. Because it threads through town after town with shops opening straight onto it, the full 241 km usually takes six to seven hours, not three. Traffic is heaviest around Kottayam, Thiruvalla and Muvattupuzha, and during the Sabarimala season from November to January. There is no toll. The monsoon months of June to September bring heavy rain and occasional flooding around the Pamba and Periyar rivers; the driest and easiest months are December to March. Tea shops and toddy shops line the route, so food and fuel are never far away.",
+  "newsQuery": "\"MC Road\" Kerala",
   "sources": [
     { "title": "Kerala Public Works Department", "url": "https://www.keralapwd.gov.in/" },
     { "title": "Government of Kerala", "url": "https://kerala.gov.in/" }

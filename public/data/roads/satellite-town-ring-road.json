@@ -22,6 +22,23 @@
       "Doddaballapura"
     ]
   },
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Ramanagara" },
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Hoskote" },
+    { "id": "bangalore-mysore-expressway", "label": "Met near Ramanagara" },
+    { "id": "nh-44", "label": "Met near Devanahalli" },
+    { "id": "nh-48", "label": "Met near Hosur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devanahalli",
@@ -85,16 +102,6 @@
         77.71605,
         13.26697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

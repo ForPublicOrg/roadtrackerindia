@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruvarur, Tamil Nadu",
     "end": "Kilvelur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kilvelur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-23", "label": "Met near Thiruvarur" },
+    { "id": "sh-tn-279", "label": "Met near Kilvelur" },
+    { "id": "mdr-tn-609", "label": "Met near Thiruvarur" },
+    { "id": "mdr-tn-1276", "label": "Met near Kilvelur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruvarur",
@@ -30,12 +44,6 @@
         79.70745,
         10.66751
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

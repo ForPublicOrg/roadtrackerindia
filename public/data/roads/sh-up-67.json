@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 53.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Azamgarh, Uttar Pradesh",
     "end": "Ghazipur, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Ghazipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-24", "label": "Met near Dullahapur" },
+    { "id": "nh-128b", "label": "Met near Azamgarh" },
+    { "id": "nh-124d", "label": "Met near Deva" },
+    { "id": "sh-up-53e", "label": "Met near Deva" },
+    { "id": "sh-up-106e", "label": "Met near Deva" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Azamgarh",
@@ -38,12 +52,6 @@
         83.54012,
         25.70162
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

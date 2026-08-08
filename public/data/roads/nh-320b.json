@@ -16,6 +16,24 @@
       "Chitarpur"
     ]
   },
+  "significance": "NH 320B is a branch of NH 320. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Hesal to Chitarpur, and it meets NH 320 along the way.",
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Hesal" },
+    { "id": "nh-320", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-24", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-16", "label": "Met near Hesal" },
+    { "id": "mdr-jh-105", "label": "Met near Chitarpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hesal",
@@ -30,16 +48,6 @@
         85.72234,
         23.53501
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

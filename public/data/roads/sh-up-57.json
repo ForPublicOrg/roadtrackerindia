@@ -19,6 +19,17 @@
       "Paonta Sahib"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Paonta Sahib" },
+    { "id": "nh-507", "label": "Met near Paonta Sahib" },
+    { "id": "sh-up-121w", "label": "Met near Kalsia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saharanpur",
@@ -54,12 +65,6 @@
         77.72113,
         30.4097
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,16 @@
       "Nannilam"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-23", "label": "Met near Nannilam" },
+    { "id": "mdr-tn-370", "label": "Met near Nannilam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karaikal",
@@ -31,12 +41,6 @@
         79.65056,
         10.93353
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

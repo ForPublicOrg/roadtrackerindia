@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bhikangaon, Madhya Pradesh",
     "end": "Khandwa, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Khandwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-5022", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhikangaon",
@@ -30,12 +41,6 @@
         76.21935,
         21.69302
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

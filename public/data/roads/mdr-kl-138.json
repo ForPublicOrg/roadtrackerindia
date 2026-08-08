@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Periya, Kerala",
     "end": "Bovikkanam, Kerala",
@@ -16,6 +17,19 @@
       "Bovikkanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-99", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-2", "label": "Met near Periya" },
+    { "id": "mdr-kl-151", "label": "Met near Periya" },
+    { "id": "mdr-kl-30", "label": "Met near Periya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Periya",
@@ -30,12 +44,6 @@
         75.14539,
         12.45765
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

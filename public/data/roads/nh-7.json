@@ -8,8 +8,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 845,
-  "authority": "nhai",
   "lanes": "Mostly 2–4 lanes; the Uttarakhand hill section is being widened to a double lane with paved shoulders",
+  "authority": "nhai",
   "route": {
     "start": "Fazilka, Punjab",
     "end": "Mana, Uttarakhand",
@@ -45,10 +45,15 @@
     { "name": "Joshimath, Uttarakhand", "note": "last big town before Badrinath; a separate hill road climbs from here toward the Niti valley" }
   ],
   "relatedRoads": [
-    { "id": "nh-9", "label": "Starts from the same border town of Fazilka and also ends in the Uttarakhand hills" },
+    {
+      "id": "nh-9",
+      "label": "Starts from the same border town of Fazilka and also ends in the Uttarakhand hills"
+    },
     { "id": "delhi-dehradun-expressway", "label": "Feeds Delhi traffic straight into NH 7 at Dehradun" },
     { "id": "nh-44", "label": "Crossed at Rajpura in Punjab" },
-    { "id": "nh-5", "label": "Met near Zirakpur, heading the other way into Himachal Pradesh" }
+    { "id": "amritsar-katra-expressway", "label": "Met near Bhawanigarh" },
+    { "id": "nh-52", "label": "Met near Sangrur" },
+    { "id": "nh-34", "label": "Met near Virbhadra" }
   ],
   "travelNotes": "The mountain half is the part most people drive: Rishikesh to Badrinath is about 300 km but takes 10–12 hours because of hairpins, narrow bits and traffic. The pilgrim season runs roughly May to October, when the Badrinath temple is open; May–June and September are busiest. Avoid the July–August monsoon, when landslides and rockfall can shut the road for hours or days, and do not plan night driving in the hills. Fuel and food stops cluster at Srinagar, Rudraprayag, Chamoli and Joshimath, so fill up in the towns rather than between them.",
   "futureUpgrades": [

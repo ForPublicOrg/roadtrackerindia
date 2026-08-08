@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Rasipuram, Tamil Nadu",
     "end": "Attayampatti, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Attayampatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Rasipuram" },
+    { "id": "sh-tn-86a", "label": "Met near Attayampatti" },
+    { "id": "mdr-tn-133", "label": "Met near Attayampatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rasipuram",
@@ -30,12 +43,6 @@
         78.05083,
         11.53185
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

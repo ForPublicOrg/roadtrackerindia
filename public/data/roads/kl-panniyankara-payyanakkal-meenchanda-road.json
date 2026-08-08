@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Payyanakkal, Kerala",
     "end": "Meenchanda, Kerala",
@@ -18,6 +19,18 @@
       "Meenchanda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mini-byepass-road-calicut", "label": "Met near Kozhikode" },
+    { "id": "kl-meenchanda-beypoor-road", "label": "Met near Kozhikode" },
+    { "id": "kl-old-military-road-at-beypore", "label": "Met near Kozhikode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Payyanakkal",
@@ -32,12 +45,6 @@
         75.79791,
         11.21007
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

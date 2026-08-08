@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholavaram, Tamil Nadu",
     "end": "Red Hills, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Red Hills"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-57", "label": "Met near Avadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholavaram",
@@ -30,12 +41,6 @@
         80.11703,
         13.21262
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

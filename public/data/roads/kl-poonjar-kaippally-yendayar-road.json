@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vagamon, Kerala",
     "end": "Poonjar, Kerala",
@@ -16,6 +17,18 @@
       "Poonjar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mundakayam-elamkadu-road", "label": "Met near Vagamon" },
+    { "id": "kl-poonjar-koottickal-road", "label": "Met near Poonjar" },
+    { "id": "kl-poonjar-alumthura-road", "label": "Met near Poonjar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vagamon",
@@ -30,12 +43,6 @@
         76.81866,
         9.66783
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Raigarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Saraipali" },
+    { "id": "nh-49", "label": "Met near Raigarh" },
+    { "id": "nh-130b", "label": "Met near Sarangarh" },
+    { "id": "sh-ct-1", "label": "Met near Raigarh" },
+    { "id": "sh-ct-13", "label": "Met near Sarangarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saraipali",
@@ -46,16 +63,6 @@
         83.38532,
         21.87495
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

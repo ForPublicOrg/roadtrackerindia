@@ -22,6 +22,24 @@
       "Arani"
     ]
   },
+  "significance": "NH 716B is a branch of NH 716. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Yadamari to Arani, and it meets NH 716 along the way.",
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Yadamari" },
+    { "id": "nh-716", "label": "Met near Nagari" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Arani" },
+    { "id": "nh-716a", "label": "Met near Arani" },
+    { "id": "sh-tn-50", "label": "Met near Uthukottai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Yadamari",
@@ -85,16 +103,6 @@
         80.07035,
         13.28487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

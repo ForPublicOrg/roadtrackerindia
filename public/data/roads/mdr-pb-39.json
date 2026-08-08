@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 53.2,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Mandi Dabwali, Haryana",
     "end": "Abohar, Punjab",
@@ -16,6 +17,19 @@
       "Abohar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Mandi Dabwali" },
+    { "id": "nh-7", "label": "Met near Abohar" },
+    { "id": "nh-354e", "label": "Met near Mandi Dabwali" },
+    { "id": "sh-pb-14", "label": "Met near Abohar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandi Dabwali",
@@ -30,12 +44,6 @@
         74.20311,
         30.15001
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

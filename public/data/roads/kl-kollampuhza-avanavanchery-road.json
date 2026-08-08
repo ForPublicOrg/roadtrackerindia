@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Attingal, Kerala",
     "end": "Chirayinkeezhu, Kerala",
@@ -16,6 +17,18 @@
       "Chirayinkeezhu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Attingal" },
+    { "id": "sh-kl-47", "label": "Met near Attingal" },
+    { "id": "kl-e-h-s-kalamachal-road", "label": "Met near Attingal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attingal",
@@ -30,12 +43,6 @@
         76.81877,
         8.69517
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

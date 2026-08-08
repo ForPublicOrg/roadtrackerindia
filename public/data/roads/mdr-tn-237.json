@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Bommiampatty, Tamil Nadu",
     "end": "Dharmapuri, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Dharmapuri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-60a", "label": "Met near Dharmapuri" },
+    { "id": "mdr-tn-851", "label": "Met near Bommiampatty" },
+    { "id": "mdr-tn-777", "label": "Met near Dharmapuri" },
+    { "id": "mdr-tn-860", "label": "Met near Bommiampatty" },
+    { "id": "mdr-tn-328", "label": "Met near Bommiampatty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bommiampatty",
@@ -30,12 +45,6 @@
         78.28511,
         12.14075
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

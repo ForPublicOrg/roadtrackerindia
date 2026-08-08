@@ -21,6 +21,23 @@
       "Nimbahera"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Jaora" },
+    { "id": "nh-47", "label": "Met near Betma" },
+    { "id": "nh-56", "label": "Met near Nimbahera" },
+    { "id": "nh-927a", "label": "Met near Ratlam" },
+    { "id": "nh-752d", "label": "Met near Barnagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Betma",
@@ -70,16 +87,6 @@
         74.67152,
         24.59594
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

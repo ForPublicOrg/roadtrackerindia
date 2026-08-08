@@ -16,6 +16,23 @@
       "Singampunari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Melur" },
+    { "id": "nh-338", "label": "Met near Melur" },
+    { "id": "sh-tn-34", "label": "Met near Melur" },
+    { "id": "sh-tn-191", "label": "Met near Melur" },
+    { "id": "sh-tn-u104", "label": "Met near Melur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melur",
@@ -30,16 +47,6 @@
         78.34893,
         10.04916
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

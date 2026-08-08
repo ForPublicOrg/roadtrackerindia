@@ -16,6 +16,26 @@
       "Ulwe"
     ]
   },
+  "significance": "NH 348B is a branch of NH 348. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Rasayani to Ulwe, and it meets NH 348 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-348",
+      "label": "NH 348 — the highway this branch takes its number from, running Panvel to Jasai"
+    },
+    { "id": "nh-66", "label": "Met near Rasayani" },
+    { "id": "nh-348a", "label": "Met near Ulwe" },
+    { "id": "nh-348bb", "label": "Met near Jasai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rasayani",
@@ -37,16 +57,6 @@
         73.03654,
         18.95686
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

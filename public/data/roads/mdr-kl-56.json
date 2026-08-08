@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Uppala, Kerala",
     "end": "Vitla, Karnataka",
@@ -16,6 +17,20 @@
       "Vitla"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Manjeshwar" },
+    { "id": "sh-kl-59", "label": "Met near Manjeshwar" },
+    { "id": "sh-ka-100", "label": "Met near Uppala" },
+    { "id": "mdr-kl-36a", "label": "Met near Manjeshwar" },
+    { "id": "kl-sunkathakatta-nandarapadavu-road", "label": "Met near Manjeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Uppala",
@@ -30,12 +45,6 @@
         74.99473,
         12.75148
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

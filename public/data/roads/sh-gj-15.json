@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Bilimora, Gujarat",
     "end": "Chikhli, Gujarat",
@@ -16,6 +17,18 @@
       "Chikhli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Chikhli" },
+    { "id": "nh-360", "label": "Met near Chikhli" },
+    { "id": "sh-gj-88", "label": "Met near Bilimora" },
+    { "id": "sh-gj-181", "label": "Met near Chikhli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bilimora",
@@ -30,12 +43,6 @@
         73.05637,
         20.76019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

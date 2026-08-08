@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 91.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Musiri, Tamil Nadu",
     "end": "Attur, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Attur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-79", "label": "Met near Keeripatti" },
+    { "id": "sh-tn-25", "label": "Met near Musiri" },
+    { "id": "sh-tn-142", "label": "Met near Thuraiyur" },
+    { "id": "sh-tn-62", "label": "Met near Thuraiyur" },
+    { "id": "sh-tn-u55", "label": "Met near Attur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Musiri",
@@ -54,12 +68,6 @@
         78.58243,
         11.60133
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,20 @@
       "Danwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 88, Makatpur–Danwar District road, crosses the border between Jharkhand and Bihar. A state road that runs through more than one state has no single owner — Jharkhand RCD and Bihar RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Giridih" },
+    { "id": "sh-jh-14", "label": "Met near Giridih" },
+    { "id": "mdr-jh-92", "label": "Meets this road" },
+    { "id": "mdr-jh-83", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Makatpur",
@@ -31,12 +45,6 @@
         86.27907,
         24.47326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

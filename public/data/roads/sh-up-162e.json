@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Koraon, Uttar Pradesh",
     "end": "Meja Road, Uttar Pradesh",
@@ -16,6 +17,15 @@
       "Meja Road"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-up-102", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koraon",
@@ -30,12 +40,6 @@
         81.9538,
         25.11345
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

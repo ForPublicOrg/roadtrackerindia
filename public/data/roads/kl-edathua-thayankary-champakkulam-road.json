@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kavumbhagom, Kerala",
     "end": "Ambalappuzha, Kerala",
@@ -16,6 +17,23 @@
       "Ambalappuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-12", "label": "Met near Haripad" },
+    {
+      "id": "kl-nedumudy-karuvatta-road-nedumudy-padaharam-kunnumma-karuvatt",
+      "label": "Met near Ambalappuzha"
+    },
+    { "id": "kl-ramankary-kodupunna-thayankary-edathua-road", "label": "Met near Ambalappuzha" },
+    { "id": "kl-edathua-puthukary-mampuzhakkary-road", "label": "Met near Haripad" },
+    { "id": "kl-padipurakkal-kshethram-kandankarippally-thayankari-road", "label": "Met near Ambalappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kavumbhagom",
@@ -30,12 +48,6 @@
         76.41371,
         9.40652
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

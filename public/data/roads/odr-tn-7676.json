@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Indira Nagar, Tamil Nadu",
     "end": "Vadalur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Vadalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-36", "label": "Met near Indira Nagar" },
+    { "id": "sh-tn-252", "label": "Met near Indira Nagar" },
+    { "id": "mdr-tn-199", "label": "Met near Indira Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Indira Nagar",
@@ -30,12 +43,6 @@
         79.59993,
         11.63425
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

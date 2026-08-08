@@ -1,10 +1,11 @@
 {
   "id": "nh-83",
   "ref": "NH 83",
-  "name": "Madukkarai–Nagapattinam National Highway",
+  "name": "Coimbatore–Nagapattinam Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 413.2,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Madukkarai, Tamil Nadu",
     "end": "Nagapattinam, Tamil Nadu",
@@ -23,6 +24,33 @@
       "Nagapattinam"
     ]
   },
+  "history": "National Highway 83 runs from Madukkarai near Coimbatore through Pollachi, Palani and Dindigul, then east through Tiruchirappalli and Thanjavur to the coast at Nagapattinam. It is a road through the temple country of Tamil Nadu — Palani, Srirangam at Trichy, the Brihadeeswarar temple at Thanjavur — and through the rice fields of the Cauvery delta. The old NH 83 was the Patna–Dobhi road in Bihar; this number was reassigned in the 2010 renumbering.",
+  "facts": [
+    "Passes Palani, one of the six abodes of Lord Murugan and a major pilgrimage site.",
+    "Runs through Thanjavur, where the Brihadeeswarar temple is a UNESCO World Heritage Site.",
+    "Crosses the Cauvery delta, the rice bowl of Tamil Nadu.",
+    "Ends at Nagapattinam, an old port town on the Bay of Bengal.",
+    "The old NH 83 was the Patna–Gaya–Dobhi road in Bihar — a different route entirely."
+  ],
+  "significance": "This is the main east–west road across southern Tamil Nadu, tying the industrial west to the delta and the coast, and it links a string of the state's most important temple towns.",
+  "relatedRoads": [
+    { "id": "nh-81", "label": "The parallel Coimbatore–Chidambaram highway to the north" },
+    { "id": "nh-38", "label": "The Vellore–Thoothukudi highway crossing this route" },
+    { "id": "nh-44", "label": "Met near Dindigul" },
+    { "id": "nh-32", "label": "Met near Sikkal" },
+    { "id": "nh-36", "label": "Met near Thanjavur" }
+  ],
+  "travelNotes": "Very heavy pilgrim traffic around Palani during Thaipusam and Panguni Uthiram. The delta section floods in the north-east monsoon between October and December.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Madukkarai",
@@ -121,16 +149,6 @@
         79.82458,
         10.76099
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

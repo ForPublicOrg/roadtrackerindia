@@ -28,6 +28,10 @@
       "Narnaul"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     {
       "year": "2018",
@@ -89,10 +93,10 @@
       "id": "delhi-mumbai-expressway",
       "label": "Reached from the Narnaul end via NH 148B, giving a fast run on towards Mumbai"
     },
-    {
-      "id": "nh-9",
-      "label": "The Delhi–Rohtak–Hisar highway, crossed at Kharkara near Meham"
-    }
+    { "id": "nh-9", "label": "The Delhi–Rohtak–Hisar highway, crossed at Kharkara near Meham" },
+    { "id": "nh-709a", "label": "Met near Asandh" },
+    { "id": "nh-709", "label": "Met near Meham" },
+    { "id": "nh-152d", "label": "Met near Pehowa" }
   ],
   "travelNotes": "Ambala to Narnaul takes roughly three and a half to four hours with almost nothing to slow you down. The flip side of a greenfield road is that there is very little beside it — plan your fuel and food stops, because petrol pumps and dhabas are far apart and there is not much lighting at night. Thick fog in December and January can cut visibility badly on this open, flat stretch, so it is worth checking conditions before an early winter start.",
   "futureUpgrades": [

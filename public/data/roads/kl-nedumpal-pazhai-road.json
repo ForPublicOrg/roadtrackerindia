@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthukkad, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -16,6 +17,20 @@
       "Irinjalakuda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-68", "label": "Met near Puthukkad" },
+    { "id": "kl-kurumaly-thottipal-mulangu-road", "label": "Met near Puthukkad" },
+    { "id": "kl-palakkadavu-road", "label": "Met near Puthukkad" },
+    { "id": "kl-pudukad-cheruval-road", "label": "Met near Puthukkad" },
+    { "id": "kl-mulangu-road", "label": "Met near Puthukkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthukkad",
@@ -30,12 +45,6 @@
         76.24483,
         10.39387
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

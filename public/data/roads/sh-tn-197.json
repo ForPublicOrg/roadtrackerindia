@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mulanur, Tamil Nadu",
     "end": "Vellakovil, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Vellakovil"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Vellakovil" },
+    { "id": "nh-381a", "label": "Met near Vellakovil" },
+    { "id": "sh-tn-21", "label": "Met near Mulanur" },
+    { "id": "sh-tn-84a", "label": "Met near Vellakovil" },
+    { "id": "mdr-tn-896", "label": "Met near Mulanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulanur",
@@ -30,12 +44,6 @@
         77.71258,
         10.94599
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

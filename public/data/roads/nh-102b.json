@@ -17,6 +17,22 @@
       "Khawzawl"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Churachandpur" },
+    { "id": "nh-6", "label": "Met near Khawzawl" },
+    { "id": "mz-khawzawl-sinzawl-thanlawn-road", "label": "Meets this road" },
+    { "id": "mz-kawlkulh-ngopa-mimbung-road", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Churachandpur",
@@ -38,16 +54,6 @@
         93.08104,
         23.60949
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

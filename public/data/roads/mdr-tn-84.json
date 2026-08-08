@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Muttayapuram, Tamil Nadu",
     "end": "Ottavidu, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Ottavidu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Muttayapuram" },
+    { "id": "sh-tn-176", "label": "Met near Muttayapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muttayapuram",
@@ -30,12 +42,6 @@
         78.15047,
         8.74155
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

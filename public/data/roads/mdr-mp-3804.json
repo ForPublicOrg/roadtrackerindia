@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chhota Chhindwara, Madhya Pradesh",
     "end": "Bargi, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Bargi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Chhota Chhindwara" },
+    { "id": "mdr-mp-3809", "label": "Met near Chhota Chhindwara" },
+    { "id": "mdr-mp-4101", "label": "Met near Chhota Chhindwara" },
+    { "id": "mdr-mp-3802", "label": "Met near Chhota Chhindwara" },
+    { "id": "mdr-mp-3803", "label": "Met near Chhota Chhindwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhota Chhindwara",
@@ -30,12 +45,6 @@
         79.60521,
         22.95352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

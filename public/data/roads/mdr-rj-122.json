@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 65.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Samdari, Rajasthan",
     "end": "Pali, Rajasthan",
@@ -16,6 +17,18 @@
       "Pali"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-64a", "label": "Met near Pali" },
+    { "id": "sh-rj-66", "label": "Met near Samdari" },
+    { "id": "sh-rj-64", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Samdari",
@@ -30,12 +43,6 @@
         73.17785,
         25.75714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

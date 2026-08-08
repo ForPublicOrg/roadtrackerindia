@@ -23,6 +23,26 @@
       "Warora"
     ]
   },
+  "significance": "NH 347A is a branch of NH 347. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Multai to Warora, and it meets NH 347 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-347",
+      "label": "NH 347 — the highway this branch takes its number from, running Seoni to Multai"
+    },
+    { "id": "samruddhi-mahamarg", "label": "Met near Pulgaon" },
+    { "id": "nh-44", "label": "Met near Hinganghat" },
+    { "id": "nh-53", "label": "Met near Talegaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Multai",
@@ -79,16 +99,6 @@
         79.01634,
         20.25059
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

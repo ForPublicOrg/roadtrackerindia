@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 18,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mainpuri, Uttar Pradesh",
     "end": "Kuraoli, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Kuraoli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Kuraoli" },
+    { "id": "sh-up-84", "label": "Met near Mainpuri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mainpuri",
@@ -30,12 +41,6 @@
         78.98492,
         27.37784
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

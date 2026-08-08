@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 65.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Mandal, Rajasthan",
     "end": "Gangapur, Rajasthan",
@@ -16,6 +17,18 @@
       "Gangapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-758", "label": "Met near Gangapur" },
+    { "id": "sh-rj-12", "label": "Met near Gangapur" },
+    { "id": "mdr-rj-133", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandal",
@@ -30,12 +43,6 @@
         74.26544,
         25.21908
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

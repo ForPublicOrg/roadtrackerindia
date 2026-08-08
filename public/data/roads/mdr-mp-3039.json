@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Silwani, Madhya Pradesh",
     "end": "Gairatganj, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Gairatganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-62", "label": "Met near Silwani" },
+    { "id": "sh-mp-20", "label": "Met near Silwani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Silwani",
@@ -30,12 +42,6 @@
         78.38068,
         23.36269
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

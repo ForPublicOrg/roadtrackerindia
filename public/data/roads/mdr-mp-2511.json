@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 37.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sailana, Madhya Pradesh",
     "end": "Bajna, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Bajna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2510", "label": "Met near Sailana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sailana",
@@ -30,12 +41,6 @@
         74.61052,
         23.42558
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

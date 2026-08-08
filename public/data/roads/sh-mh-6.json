@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 115,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Dharangaon, Maharashtra",
     "end": "Akkalkuva, Maharashtra",
@@ -19,6 +20,19 @@
       "Akkalkuva"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Shindkheda" },
+    { "id": "nh-53", "label": "Met near Erandol" },
+    { "id": "nh-752g", "label": "Met near Nandurbar" },
+    { "id": "nh-753b", "label": "Met near Nandurbar" },
+    { "id": "nh-160h", "label": "Met near Dondaicha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharangaon",
@@ -61,12 +75,6 @@
         74.04182,
         21.44936
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

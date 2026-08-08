@@ -15,6 +15,10 @@
     "states": ["Uttar Pradesh"],
     "majorCities": ["Etawah", "Auraiya", "Orai", "Banda", "Chitrakoot"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2020", "event": "Foundation stone laid by the Prime Minister on 29 February" },
     { "year": "2022", "event": "Opened to traffic on 16 July, ahead of schedule" }
@@ -39,10 +43,25 @@
     { "name": "Gonda village (near Bharatkoop)", "note": "the southern end, close to Chitrakoot" }
   ],
   "relatedRoads": [
-    { "id": "agra-lucknow-expressway", "label": "Meets this road near Etawah — together they run from Chitrakoot to Agra and Lucknow" },
-    { "id": "yamuna-expressway", "label": "Reached via the Agra–Lucknow Expressway, completing the run to Greater Noida and Delhi" },
-    { "id": "ganga-expressway", "label": "UPEIDA's next mega expressway, ending at Prayagraj not far from this road's Chitrakoot end" },
-    { "id": "purvanchal-expressway", "label": "The other big UPEIDA expressway, running east from the Lucknow area" }
+    {
+      "id": "agra-lucknow-expressway",
+      "label": "Meets this road near Etawah — together they run from Chitrakoot to Agra and Lucknow"
+    },
+    {
+      "id": "yamuna-expressway",
+      "label": "Reached via the Agra–Lucknow Expressway, completing the run to Greater Noida and Delhi"
+    },
+    {
+      "id": "ganga-expressway",
+      "label": "UPEIDA's next mega expressway, ending at Prayagraj not far from this road's Chitrakoot end"
+    },
+    {
+      "id": "purvanchal-expressway",
+      "label": "The other big UPEIDA expressway, running east from the Lucknow area"
+    },
+    { "id": "nh-27", "label": "Met near Orai" },
+    { "id": "nh-34", "label": "Meets this road" },
+    { "id": "nh-19", "label": "Met near Auraiya" }
   ],
   "travelNotes": "The full 296 km takes about three and a half hours. It is a quiet road — traffic is much lighter than on the Agra–Lucknow Expressway — but that also means very few fuel pumps, food stalls or repair shops along the way, so fill up and carry water before you start. The landscape is open and rocky and gets extremely hot from April to June; the best months to drive it are October to March. It is tolled, and the car speed limit is 100 km/h.",
   "futureUpgrades": [

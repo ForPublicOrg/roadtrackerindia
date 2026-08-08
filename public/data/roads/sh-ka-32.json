@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 117.8,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Umarga, Maharashtra",
     "end": "Chincholi, Karnataka",
@@ -17,6 +18,19 @@
       "Chincholi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Kamalapura" },
+    { "id": "sh-ka-34", "label": "Met near Alanda" },
+    { "id": "sh-ka-15", "label": "Met near Chandapura" },
+    { "id": "sh-ka-124", "label": "Met near Umarga" },
+    { "id": "sh-ka-51", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Umarga",
@@ -38,12 +52,6 @@
         77.34145,
         17.40292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

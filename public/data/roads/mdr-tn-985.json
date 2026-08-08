@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Papampatti Pirivu, Tamil Nadu",
     "end": "Irugur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Irugur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Papampatti Pirivu" },
+    { "id": "sh-tn-163", "label": "Met near Sulur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Papampatti Pirivu",
@@ -30,12 +42,6 @@
         77.08005,
         11.01005
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

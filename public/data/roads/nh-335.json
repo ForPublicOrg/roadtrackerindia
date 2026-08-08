@@ -17,6 +17,23 @@
       "Banda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-19", "label": "Met near Fatehpur" },
+    { "id": "nh-31", "label": "Met near Dalmau" },
+    { "id": "nh-35", "label": "Met near Banda" },
+    { "id": "sh-up-38", "label": "Met near Dalmau" },
+    { "id": "sh-up-13", "label": "Met near Dalmau" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dalmau",
@@ -38,16 +55,6 @@
         80.34106,
         25.47748
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

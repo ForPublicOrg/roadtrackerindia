@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valanchery, Kerala",
     "end": "Vengad, Kerala",
@@ -16,6 +17,17 @@
       "Vengad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-valanchery-koppam-road", "label": "Met near Vengad" },
+    { "id": "kl-gate-anchumoola-palathara-road", "label": "Met near Valanchery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valanchery",
@@ -30,12 +42,6 @@
         76.11809,
         10.87732
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

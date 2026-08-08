@@ -20,6 +20,23 @@
       "Sector 75A"
     ]
   },
+  "relatedRoads": [
+    { "id": "urban-extension-road-2", "label": "Met near Kapashera" },
+    { "id": "dwarka-expressway", "label": "Met near Sector 111" },
+    { "id": "delhi-gurgaon-expressway", "label": "Met near Sector 74A" },
+    { "id": "nh-48", "label": "Met near Sector 74A" },
+    { "id": "nh-352w", "label": "Met near Sector 88A" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kapashera",
@@ -90,16 +107,6 @@
         76.9909,
         28.40561
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

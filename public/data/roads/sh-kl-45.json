@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pazhakutty, Kerala",
     "end": "Vithura, Kerala",
@@ -16,6 +17,19 @@
       "Vithura"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Vithura" },
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "kl-vithura-bonacaud-road", "label": "Met near Vithura" },
+    { "id": "kl-aryanad-palode-road", "label": "Met near Vithura" },
+    { "id": "kl-vithura-peppara-road", "label": "Met near Vithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pazhakutty",
@@ -30,12 +44,6 @@
         77.08376,
         8.66811
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

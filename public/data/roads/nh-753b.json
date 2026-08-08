@@ -21,6 +21,23 @@
       "Netrang"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Sakri" },
+    { "id": "nh-56", "label": "Met near Netrang" },
+    { "id": "nh-752g", "label": "Met near Sakri" },
+    { "id": "nh-753bb", "label": "Met near Nandurbar" },
+    { "id": "sh-mh-7", "label": "Met near Shahada" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sakri",
@@ -63,16 +80,6 @@
         73.36734,
         21.63835
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

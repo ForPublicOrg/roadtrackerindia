@@ -19,6 +19,20 @@
       "Sulya"
     ]
   },
+  "significance": "SH 55, Cherkala–Sulya State Highway, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Mulleria" },
+    { "id": "sh-ka-85", "label": "Met near Sulya" },
+    { "id": "sh-kl-31", "label": "Met near Cherkala" },
+    { "id": "mdr-kl-2", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-112", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherkala",
@@ -47,12 +61,6 @@
         75.32799,
         12.58395
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

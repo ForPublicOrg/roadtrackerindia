@@ -19,6 +19,23 @@
       "Namakkal"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-71", "label": "Met near Musiri" },
+    { "id": "sh-tn-25", "label": "Met near Musiri" },
+    { "id": "sh-tn-95", "label": "Met near Namakkal" },
+    { "id": "sh-tn-161", "label": "Met near Namakkal" },
+    { "id": "sh-tn-u121", "label": "Met near Namakkal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Musiri",
@@ -47,16 +64,6 @@
         78.1682,
         11.21916
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

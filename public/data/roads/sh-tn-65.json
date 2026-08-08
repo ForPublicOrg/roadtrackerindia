@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ambedkarnagar, Tamil Nadu",
     "end": "Thiruvarur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Thiruvarur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Thiruvarur" },
+    { "id": "sh-tn-66", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-202", "label": "Met near Thiruvarur" },
+    { "id": "sh-tn-67", "label": "Met near Natchiarkoil" },
+    { "id": "sh-tn-209", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambedkarnagar",
@@ -46,12 +60,6 @@
         79.62132,
         10.7771
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

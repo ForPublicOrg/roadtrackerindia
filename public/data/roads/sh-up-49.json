@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 71,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Moradabad, Uttar Pradesh",
     "end": "Dhampur, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Dhampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-509", "label": "Met near Moradabad" },
+    { "id": "nh-734", "label": "Met near Moradabad" },
+    { "id": "sh-up-76", "label": "Met near Umri Kalan" },
+    { "id": "sh-up-150w", "label": "Met near Kanth" },
+    { "id": "sh-up-26w", "label": "Met near Seohara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Moradabad",
@@ -60,12 +74,6 @@
         78.51584,
         29.30289
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

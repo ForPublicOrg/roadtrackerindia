@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30.8,
+  "authority": "assam-pwd",
   "route": {
     "start": "Sonari, Assam",
     "end": "Moranhat, Assam",
@@ -17,6 +18,19 @@
       "Moranhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Moran" },
+    { "id": "nh-215", "label": "Met near Moran" },
+    { "id": "nh-702", "label": "Met near Sonari" },
+    { "id": "nh-702c", "label": "Met near Sonari" },
+    { "id": "sh-as-7", "label": "Met near Sonari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonari",
@@ -31,12 +45,6 @@
         94.91321,
         27.18158
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

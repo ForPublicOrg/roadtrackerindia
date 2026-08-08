@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nilakkottai, Tamil Nadu",
     "end": "Chinnalapatti, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Chinnalapatti"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Nilakkottai" },
+    { "id": "sh-tn-155", "label": "Met near Nilakkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nilakkottai",
@@ -30,12 +41,6 @@
         77.91005,
         10.18825
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

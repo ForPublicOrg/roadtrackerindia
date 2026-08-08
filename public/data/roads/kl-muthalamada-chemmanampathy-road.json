@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kollengode, Kerala",
     "end": "Anaimalai, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Anaimalai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-1260", "label": "Met near Anaimalai" },
+    { "id": "kl-chulliyardam-vellaramkadavu-road", "label": "Met near Kollengode" },
+    { "id": "kl-chemmanampathy-malayadivaaram-road", "label": "Met near Anaimalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kollengode",
@@ -30,12 +43,6 @@
         76.83339,
         10.57447
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

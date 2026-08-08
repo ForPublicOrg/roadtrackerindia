@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bawāndīgha, Jharkhand",
     "end": "Madhupur, Jharkhand",
@@ -16,6 +17,19 @@
       "Madhupur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Madhupur" },
+    { "id": "sh-jh-14", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-225", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-226", "label": "Met near Madhupur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bawāndīgha",
@@ -30,12 +44,6 @@
         86.63169,
         24.27818
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

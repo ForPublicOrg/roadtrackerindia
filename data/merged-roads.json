@@ -1,0 +1,33 @@
+{
+  "_comment": [
+    "Roads that turned out to be the same tarmac under two names, and the id that won.",
+    "The corpus generator (scripts/generate-roads.mjs) skips every key here, so an",
+    "--overwrite run cannot resurrect a merged record. The build ships the map to",
+    "public/data/index.json, which is what lets /road/<old-id>/ still resolve.",
+    "Most entries are OSM's national-expressway numbering meeting the same road's",
+    "common name; the rest are short fragments OSM maps as separate relations.",
+    "Every pair below was confirmed by comparing the two real alignments, not by name."
+  ],
+  "aliases": {
+    "ne-1": "ahmedabad-vadodara-expressway",
+    "ne-2": "eastern-peripheral-expressway",
+    "ne-3": "delhi-meerut-expressway",
+    "ne-4": "delhi-mumbai-expressway",
+    "ne-5": "amritsar-katra-expressway",
+    "ne-6": "lucknow-kanpur-expressway",
+    "ne-7": "chennai-bengaluru-expressway",
+    "ne-8": "ahmedabad-dholera-expressway",
+    "ganga-expressway-2": "ganga-expressway",
+    "ganga-expressway-3": "ganga-expressway",
+    "ganga-expressway-4": "ganga-expressway",
+    "purvanchal-expressway-2": "purvanchal-expressway",
+    "purvanchal-expressway-3": "purvanchal-expressway",
+    "gorakhpur-link-expressway-2": "gorakhpur-link-expressway",
+    "mumbai-nagpur-expressway": "samruddhi-mahamarg",
+    "eastern-freeway": "mumbai-eastern-freeway",
+    "greater-noida-expressway": "noida-greater-noida-expressway",
+    "raipur-visakhapatnam-expressway-chhattisgarh": "raipur-visakhapatnam-expressway",
+    "raipur-visakhapatnam-expressway-odisha": "raipur-visakhapatnam-expressway",
+    "raipur-visakhapatnam-expressway-odisha-2": "raipur-visakhapatnam-expressway"
+  }
+}

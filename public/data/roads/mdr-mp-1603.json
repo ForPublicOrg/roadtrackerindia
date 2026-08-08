@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Lauri, Madhya Pradesh",
     "end": "Mahoba, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Mahoba"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-12", "label": "Met near Lauri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lauri",
@@ -30,12 +41,6 @@
         79.92192,
         25.23709
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

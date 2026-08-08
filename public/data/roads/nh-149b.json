@@ -17,6 +17,22 @@
       "Champa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-49", "label": "Met near Champa" },
+    { "id": "nh-130", "label": "Met near Katghora" },
+    { "id": "nh-130a", "label": "Met near Korba" },
+    { "id": "sh-ct-4", "label": "Met near Katghora" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Korba",
@@ -38,16 +54,6 @@
         82.69939,
         22.04735
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

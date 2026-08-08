@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.3,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Bahadurgarh, Haryana",
     "end": "Nangal Kalan, Haryana",
@@ -16,6 +17,19 @@
       "Nangal Kalan"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Nangal Kalan" },
+    { "id": "nh-44", "label": "Met near Nangal Kalan" },
+    { "id": "nh-344p", "label": "Met near Sonipat" },
+    { "id": "sh-hr-22", "label": "Met near Bahadurgarh" },
+    { "id": "sh-hr-18", "label": "Met near Kharkhoda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bahadurgarh",
@@ -30,12 +44,6 @@
         77.10308,
         28.92417
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

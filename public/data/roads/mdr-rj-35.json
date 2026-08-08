@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 96.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Panchoo, Rajasthan",
     "end": "Osiyan, Rajasthan",
@@ -16,6 +17,19 @@
       "Osiyan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Meets this road" },
+    { "id": "sh-rj-19", "label": "Meets this road" },
+    { "id": "sh-rj-87", "label": "Met near Osiyan" },
+    { "id": "sh-rj-87a", "label": "Met near Osiyan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panchoo",
@@ -30,12 +44,6 @@
         72.90425,
         26.75885
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

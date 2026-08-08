@@ -18,6 +18,26 @@
       "Senapati"
     ]
   },
+  "significance": "NH 129A is a branch of NH 129. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Dimapur to Senapati, and it meets NH 129 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-129",
+      "label": "NH 129 — the highway this branch takes its number from, running Dimapur to BOGORIJENG — NARAKANWAR REGION"
+    },
+    { "id": "nh-2", "label": "Met near Senapati" },
+    { "id": "nh-329a", "label": "Met near Dimapur" },
+    { "id": "nh-229", "label": "Met near Peren" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dimapur",
@@ -39,16 +59,6 @@
         94.09821,
         25.41376
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

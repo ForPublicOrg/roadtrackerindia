@@ -16,6 +16,23 @@
       "Parli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-548d", "label": "Met near Parli" },
+    { "id": "nh-361f", "label": "Met near Parli" },
+    { "id": "sh-mh-170", "label": "Met near Parli" },
+    { "id": "sh-mh-156", "label": "Meets this road" },
+    { "id": "sh-mh-168", "label": "Met near Latur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "MIDC",
@@ -30,16 +47,6 @@
         76.54563,
         18.86215
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -22,6 +22,23 @@
       "Rajgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-709a", "label": "A branch off this highway, running Garhmuktesar to Bhiwani" },
+    { "id": "nh-709ad", "label": "A branch off this highway, running Nagina to Bapoli" },
+    { "id": "trans-haryana-expressway", "label": "Met near Meham" },
+    { "id": "nh-44", "label": "Met near Panipat" },
+    { "id": "nh-9", "label": "Met near Rohtak" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panipat",
@@ -85,16 +102,6 @@
         75.3896,
         28.63676
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

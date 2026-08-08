@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vijayaraghava Muthaliyaar Chatram, Tamil Nadu",
     "end": "Vannarpettai, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Vannarpettai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Shanti Nagar" },
+    { "id": "sh-tn-75", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-314", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-297", "label": "Met near Tirunelveli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayaraghava Muthaliyaar Chatram",
@@ -47,12 +61,6 @@
         77.72991,
         8.72637
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

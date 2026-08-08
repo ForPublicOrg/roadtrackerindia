@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mangadu, Tamil Nadu",
     "end": "Kundrathur, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Kundrathur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Poonamallee" },
+    { "id": "chennai-outer-ring-road", "label": "Met near Kundrathur" },
+    { "id": "sh-tn-234", "label": "Met near Kundrathur" },
+    { "id": "sh-tn-113", "label": "Met near Kundrathur" },
+    { "id": "sh-tn-55", "label": "Met near Poonamallee" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangadu",
@@ -46,12 +61,6 @@
         80.09953,
         13.00359
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Shamsabad, Madhya Pradesh",
     "end": "Basoda, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Basoda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2917", "label": "Met near Shamsabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shamsabad",
@@ -30,12 +41,6 @@
         77.82425,
         23.82634
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

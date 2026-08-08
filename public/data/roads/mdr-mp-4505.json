@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Lasudia Mori, Madhya Pradesh",
     "end": "Dewas, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Dewas"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Lasudia Mori" },
+    { "id": "mdr-mp-4504", "label": "Met near Dewas" },
+    { "id": "mdr-mp-4511", "label": "Met near Lasudia Mori" },
+    { "id": "mdr-mp-4533", "label": "Met near Dewas" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lasudia Mori",
@@ -30,12 +44,6 @@
         76.0455,
         22.81973
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

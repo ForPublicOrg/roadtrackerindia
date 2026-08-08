@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bah, Uttar Pradesh",
     "end": "Bhind, Madhya Pradesh",
@@ -16,6 +17,15 @@
       "Bhind"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Bah" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bah",
@@ -30,12 +40,6 @@
         78.64818,
         26.76592
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

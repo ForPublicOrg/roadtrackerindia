@@ -17,6 +17,23 @@
       "Lalsot"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Lalsot" },
+    { "id": "ne-4c", "label": "Met near Dausa" },
+    { "id": "nh-48", "label": "Met near Manoharpur" },
+    { "id": "nh-21", "label": "Met near Dausa" },
+    { "id": "nh-23", "label": "Met near Lalsot" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manoharpur",
@@ -38,16 +55,6 @@
         76.32959,
         26.56126
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

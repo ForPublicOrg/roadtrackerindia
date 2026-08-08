@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 46.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Komarapalayam, Tamil Nadu",
     "end": "Elampillai, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Elampillai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Elampillai" },
+    { "id": "nh-544h", "label": "Met near Komarapalayam" },
+    { "id": "sh-tn-86", "label": "Met near Edappadi" },
+    { "id": "sh-tn-220", "label": "Met near Edappadi" },
+    { "id": "sh-tn-220a", "label": "Met near Edappadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Komarapalayam",
@@ -47,12 +61,6 @@
         77.98798,
         11.54864
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

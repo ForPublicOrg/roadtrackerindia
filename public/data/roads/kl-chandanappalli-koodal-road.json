@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pathanapuram, Kerala",
     "end": "Puthenpeedika, Kerala",
@@ -16,6 +17,19 @@
       "Puthenpeedika"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Konni" },
+    { "id": "sh-kl-8", "label": "Met near Konni" },
+    { "id": "kl-ezhamkulam-kaippattoor-road", "label": "Met near Pathanamthitta" },
+    { "id": "kl-edavummoodu-kochalumoodu-road", "label": "Met near Pathanamthitta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pathanapuram",
@@ -30,12 +44,6 @@
         76.76746,
         9.21123
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

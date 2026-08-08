@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 359,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Govindgarh, Rajasthan",
     "end": "Phalodi, Rajasthan",
@@ -20,6 +21,19 @@
       "Phalodi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Meets this road" },
+    { "id": "nh-11", "label": "Met near Phalodi" },
+    { "id": "nh-58", "label": "Met near Nagaur" },
+    { "id": "nh-62", "label": "Met near Teja Colony" },
+    { "id": "nh-458", "label": "Met near Jayal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Govindgarh",
@@ -69,12 +83,6 @@
         72.38498,
         27.12728
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

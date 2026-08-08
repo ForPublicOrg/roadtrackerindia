@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Shava kotta palam, Kerala",
     "end": "Mullakkal, Kerala",
@@ -16,6 +17,19 @@
       "Mullakkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "sh-kl-40", "label": "Met near Alappuzha" },
+    { "id": "kl-s-l-puram-road", "label": "Met near Alappuzha" },
+    { "id": "kl-pathirappally-komalapuraam-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shava kotta palam",
@@ -30,12 +44,6 @@
         76.34437,
         9.5595
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

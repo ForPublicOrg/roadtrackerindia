@@ -18,6 +18,21 @@
       "Kapurthala"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-703a", "label": "Met near Kapurthala" },
+    { "id": "mdr-pb-48", "label": "Met near Kapurthala" },
+    { "id": "mdr-pb-61", "label": "Met near Tarn Taran Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tarn Taran Sahib",
@@ -46,16 +61,6 @@
         75.37383,
         31.37932
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

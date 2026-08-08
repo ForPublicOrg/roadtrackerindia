@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Alagappapuram, Tamil Nadu",
     "end": "Soodamanipuram, Tamil Nadu",
@@ -17,6 +18,16 @@
       "Soodamanipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-148", "label": "Met near Karaikudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alagappapuram",
@@ -31,12 +42,6 @@
         78.792,
         10.06869
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

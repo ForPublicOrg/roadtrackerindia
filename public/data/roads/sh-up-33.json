@@ -18,6 +18,18 @@
       "Tontpur"
     ]
   },
+  "significance": "SH 33, Dholi Pyau–Tontpur State Highway, crosses the border between Uttar Pradesh and Rajasthan. A state road that runs through more than one state has no single owner — UP PWD and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Mathura" },
+    { "id": "sh-rj-43", "label": "Met near Bharatpur" },
+    { "id": "sh-up-143w", "label": "Met near Bharatpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dholi Pyau",
@@ -32,12 +44,6 @@
         77.4914,
         27.23463
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

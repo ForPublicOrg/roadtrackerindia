@@ -23,6 +23,23 @@
       "Suryapet"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Tiruvuru" },
+    { "id": "nh-16", "label": "Met near Kovvur" },
+    { "id": "nh-65", "label": "Met near Suryapet" },
+    { "id": "nh-365b", "label": "Met near Suryapet" },
+    { "id": "nh-365bg", "label": "Met near Khammam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kovvur",
@@ -100,16 +117,6 @@
         79.58758,
         17.18128
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

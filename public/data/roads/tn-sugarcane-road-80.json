@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Garden City, Tamil Nadu",
     "end": "Natham, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Natham"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "tn-sugarcane-road-176", "label": "Met near Garden City" },
+    { "id": "odr-tn-502", "label": "Met near Garden City" },
+    { "id": "odr-tn-3964", "label": "Met near Garden City" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Garden City",
@@ -30,12 +43,6 @@
         79.93027,
         12.71493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

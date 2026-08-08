@@ -16,6 +16,24 @@
       "Lalsot"
     ]
   },
+  "significance": "NH 148N is a branch of NH 148. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Sawai Madhopur to Lalsot, and it meets NH 148 along the way.",
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Sawai Madhopur" },
+    { "id": "nh-23", "label": "Met near Lalsot" },
+    { "id": "sh-rj-1", "label": "Met near Sawai Madhopur" },
+    { "id": "sh-rj-117", "label": "Met near Mandawari" },
+    { "id": "mdr-rj-1", "label": "Met near Mandawari" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sawai Madhopur",
@@ -37,16 +55,6 @@
         76.33701,
         26.5505
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Barwaha, Madhya Pradesh",
     "end": "Mandaleshwar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Mandaleshwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347bg", "label": "Met near Barwaha" },
+    { "id": "sh-mp-36", "label": "Met near Mandaleshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barwaha",
@@ -30,12 +42,6 @@
         75.79549,
         22.22322
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

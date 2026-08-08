@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sithayankottai, Tamil Nadu",
     "end": "Nilakkottai, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Nilakkottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Sithayankottai" },
+    { "id": "sh-tn-285", "label": "Met near Nilakkottai" },
+    { "id": "sh-tn-155", "label": "Met near Nilakkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sithayankottai",
@@ -30,12 +43,6 @@
         77.84927,
         10.16534
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

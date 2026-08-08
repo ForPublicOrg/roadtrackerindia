@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 70.3,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mughalsarai, Uttar Pradesh",
     "end": "Cantonment, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-19", "label": "Met near Kachhwa" },
+    { "id": "nh-31", "label": "Meets this road" },
+    { "id": "nh-28", "label": "Met near Varanasi" },
+    { "id": "nh-731b", "label": "Met near Kachhwa" },
+    { "id": "sh-up-87", "label": "Met near Kachhwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mughalsarai",
@@ -38,12 +52,6 @@
         82.85122,
         25.43848
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

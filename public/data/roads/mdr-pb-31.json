@@ -20,6 +20,21 @@
       "Baddi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 31, Fatehgarh Sahib–Baddi District road, crosses the border between Punjab and Haryana. A state road that runs through more than one state has no single owner — Punjab PWD (B&R) and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Morinda" },
+    { "id": "nh-205", "label": "Met near Kurali" },
+    { "id": "nh-105", "label": "Met near Baddi" },
+    { "id": "nh-21a", "label": "Met near Baddi" },
+    { "id": "sh-pb-12a", "label": "Met near Fatehgarh Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Fatehgarh Sahib",
@@ -55,12 +70,6 @@
         76.81074,
         30.91291
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

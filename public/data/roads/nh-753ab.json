@@ -16,6 +16,20 @@
       "Hanuman Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-752e", "label": "Met near Waluj" },
+    { "id": "sh-mh-30", "label": "Met near Waluj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gangapur",
@@ -30,16 +44,6 @@
         75.36408,
         19.72307
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

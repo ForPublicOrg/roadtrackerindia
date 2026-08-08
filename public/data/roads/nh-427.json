@@ -20,6 +20,22 @@
       "Howly"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Amingaon" },
+    { "id": "sh-as-2", "label": "Met near Barpeta" },
+    { "id": "sh-as-9", "label": "Met near Hajo" },
+    { "id": "sh-as-41", "label": "Met near Sualkuchi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amingaon",
@@ -62,16 +78,6 @@
         90.97187,
         26.4253
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

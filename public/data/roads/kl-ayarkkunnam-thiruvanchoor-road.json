@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kidangoor, Kerala",
     "end": "Manarcadu, Kerala",
@@ -16,6 +17,20 @@
       "Manarcadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-thiruvanchoor-chengalam-road", "label": "Met near Kidangoor" },
+    { "id": "kl-manarcadu-kidangoor-road", "label": "Met near Manarcadu" },
+    { "id": "kl-arumanoor-road", "label": "Met near Manarcadu" },
+    { "id": "kl-thandassery-parekkadavu-road", "label": "Met near Manarcadu" },
+    { "id": "kl-parekkadu-vazheppady-road", "label": "Met near Manarcadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kidangoor",
@@ -30,12 +45,6 @@
         76.5831,
         9.62224
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

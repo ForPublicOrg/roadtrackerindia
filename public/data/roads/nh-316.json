@@ -20,6 +20,21 @@
       "Konark"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-316a", "label": "A branch off this highway, running Pipili to New Digha" },
+    { "id": "nh-16", "label": "Met near Bhubaneshwar" },
+    { "id": "sh-or-60", "label": "Met near Puri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satya Nagar",
@@ -69,16 +84,6 @@
         86.09867,
         19.88414
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

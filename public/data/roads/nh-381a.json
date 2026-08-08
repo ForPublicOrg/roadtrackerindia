@@ -19,6 +19,23 @@
       "Vellakovil"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Vellakovil" },
+    { "id": "nh-544h", "label": "Met near Erode" },
+    { "id": "sh-tn-79", "label": "Met near Erode" },
+    { "id": "sh-tn-198", "label": "Met near Pallipalayam" },
+    { "id": "sh-tn-84a", "label": "Met near Erode" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sankagiri",
@@ -54,16 +71,6 @@
         77.71301,
         10.94886
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Shamsabad, Madhya Pradesh",
     "end": "Berasia, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Berasia"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2905", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shamsabad",
@@ -30,12 +41,6 @@
         77.32393,
         23.88984
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

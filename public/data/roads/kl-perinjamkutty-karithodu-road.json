@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Rajakkaad, Kerala",
     "end": "Nedumkandam, Kerala",
@@ -16,6 +17,19 @@
       "Nedumkandam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kalkoonthal-mavadi-kailasam-mullarikkudi-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-panickankudy-perinjamkutty-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-ponnamala-perinjamkutty-road", "label": "Met near Rajakkaad" },
+    { "id": "kl-melechinnar-perinjamkutty-road", "label": "Met near Rajakkaad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajakkaad",
@@ -30,12 +44,6 @@
         77.10161,
         9.89459
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

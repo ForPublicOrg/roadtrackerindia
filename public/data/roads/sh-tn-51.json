@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Arani, Tamil Nadu",
     "end": "Uthukottai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Uthukottai"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Arani" },
+    { "id": "nh-716b", "label": "Met near Arani" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Arani" },
+    { "id": "nh-716a", "label": "Met near Arani" },
+    { "id": "sh-tn-50", "label": "Met near Uthukottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arani",
@@ -30,12 +44,6 @@
         79.89444,
         13.33413
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anachal, Kerala",
     "end": "Rajakkaad, Kerala",
@@ -16,6 +17,17 @@
       "Rajakkaad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Anachal" },
+    { "id": "sh-kl-44", "label": "Met near Anachal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anachal",
@@ -30,12 +42,6 @@
         77.04336,
         9.99308
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

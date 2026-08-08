@@ -18,6 +18,23 @@
       "Srinagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Rudrapur" },
+    { "id": "nh-7", "label": "Met near Srinagar" },
+    { "id": "nh-109", "label": "Met near Rudrapur" },
+    { "id": "nh-734", "label": "Met near Kashipur" },
+    { "id": "nh-534", "label": "Met near Pauri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rudrapur",
@@ -67,16 +84,6 @@
         78.77766,
         30.22223
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

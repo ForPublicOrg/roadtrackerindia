@@ -19,6 +19,23 @@
       "Palwal"
     ]
   },
+  "relatedRoads": [
+    { "id": "yamuna-expressway", "label": "Met near Tappal" },
+    { "id": "eastern-peripheral-expressway", "label": "Met near Chandhat" },
+    { "id": "nh-44", "label": "Met near Palwal" },
+    { "id": "nh-34", "label": "Met near Aligarh" },
+    { "id": "nh-334dd", "label": "Met near Tappal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aligarh",
@@ -54,16 +71,6 @@
         77.33837,
         28.14347
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

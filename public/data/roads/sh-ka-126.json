@@ -20,6 +20,20 @@
       "Tripuranta"
     ]
   },
+  "significance": "SH 126, Chittapura–Tripuranta State Highway, crosses the border between Karnataka and Telangana. A state road that runs through more than one state has no single owner — Karnataka PWD and Telangana R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Kamalapura" },
+    { "id": "sh-ka-15", "label": "Meets this road" },
+    { "id": "sh-ka-51", "label": "Meets this road" },
+    { "id": "sh-ka-127", "label": "Met near Gurumathakal" },
+    { "id": "sh-ka-149", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chittapura",
@@ -62,12 +76,6 @@
         76.81221,
         17.7026
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

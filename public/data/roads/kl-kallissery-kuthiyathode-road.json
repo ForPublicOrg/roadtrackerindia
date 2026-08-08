@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mundancavu, Kerala",
     "end": "Thirumoolapuram, Kerala",
@@ -17,6 +18,20 @@
       "Thirumoolapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Thiruvalla" },
+    { "id": "mc-road", "label": "Met near Chengannur" },
+    { "id": "sh-kl-1", "label": "Met near Chengannur" },
+    { "id": "kl-chengannur-mannar-road", "label": "Met near Chengannur" },
+    { "id": "kl-niranam-alumthuruthy-kuthiyathodu-road", "label": "Met near Thiruvalla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mundancavu",
@@ -38,12 +53,6 @@
         76.5623,
         9.34055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

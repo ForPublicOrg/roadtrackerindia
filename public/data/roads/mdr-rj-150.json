@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 39,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhinder, Rajasthan",
     "end": "Vallabhnagar, Rajasthan",
@@ -16,6 +17,18 @@
       "Vallabhnagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Vallabhnagar" },
+    { "id": "nh-48", "label": "Met near Vallabhnagar" },
+    { "id": "mdr-rj-149", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhinder",
@@ -30,12 +43,6 @@
         73.95946,
         24.61965
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

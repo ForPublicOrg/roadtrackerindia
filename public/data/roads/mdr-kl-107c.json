@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anebagilu, Kerala",
     "end": "Kumbala, Kerala",
@@ -17,6 +18,20 @@
       "Kumbala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kasaragod" },
+    { "id": "mdr-kl-95", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-47b", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-94", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-49b", "label": "Met near Kasaragod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anebagilu",
@@ -38,12 +53,6 @@
         75.00202,
         12.5892
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

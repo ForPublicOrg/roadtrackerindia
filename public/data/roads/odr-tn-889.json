@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thirumazhisai, Tamil Nadu",
     "end": "Nazarathpet, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Nazarathpet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Thirumazhisai" },
+    { "id": "mdr-tn-1165", "label": "Met near Thirumazhisai" },
+    { "id": "odr-tn-4663", "label": "Met near Thirumazhisai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thirumazhisai",
@@ -30,12 +43,6 @@
         80.02331,
         13.02412
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

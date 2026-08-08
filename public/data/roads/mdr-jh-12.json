@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Ratu, Jharkhand",
     "end": "Gutuwa, Jharkhand",
@@ -17,6 +18,16 @@
       "Gutuwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-18", "label": "Met near Gutuwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ratu",
@@ -59,12 +70,6 @@
         85.24288,
         23.3656
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

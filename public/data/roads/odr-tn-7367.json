@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Maraimalai Nagar, Tamil Nadu",
     "end": "Maraimalai Nagar Industrial Area, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Maraimalai Nagar Industrial Area"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-57", "label": "Met near Maraimalai Nagar" },
+    { "id": "odr-tn-7269", "label": "Met near Maraimalai Nagar" },
+    { "id": "odr-tn-7366", "label": "Met near Maraimalai Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maraimalai Nagar",
@@ -30,12 +43,6 @@
         79.93956,
         12.80618
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

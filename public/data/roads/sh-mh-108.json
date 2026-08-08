@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 31.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Lanja, Maharashtra",
     "end": "Ratnagiri, Maharashtra",
@@ -16,6 +17,17 @@
       "Ratnagiri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Lanja" },
+    { "id": "nh-166", "label": "Met near Ratnagiri" },
+    { "id": "sh-mh-109", "label": "Met near Lanja" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lanja",
@@ -30,12 +42,6 @@
         73.31193,
         16.98992
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

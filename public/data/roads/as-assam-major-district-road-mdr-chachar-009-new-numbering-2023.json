@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-009-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 009 (new numbering 2023)",
+  "ref": "MDR Cachar 009",
+  "name": "Vairengte–Lala district road",
+  "aka": ["Cachar Major District Road 009"],
   "category": "district",
   "status": "operational",
   "lengthKm": 32.9,
+  "authority": "assam-pwd",
   "route": {
     "start": "Vairengte, Mizoram",
     "end": "Lala, Assam",
@@ -16,6 +18,18 @@
       "Lala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Vairengte and Lala. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "sh-as-39", "label": "Met near Lala" },
+    { "id": "as-assam-major-district-road-mdr-chachar-008-new-numbering-2023", "label": "Met near Lala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vairengte",
@@ -30,12 +44,6 @@
         92.70864,
         24.63153
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

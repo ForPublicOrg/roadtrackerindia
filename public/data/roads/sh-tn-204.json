@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ulundurpettai, Tamil Nadu",
     "end": "Kallakuruchi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kallakuruchi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Ulundurpettai" },
+    { "id": "nh-79", "label": "Met near Kallakuruchi" },
+    { "id": "mdr-tn-811", "label": "Met near Thiyagadurgam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ulundurpettai",
@@ -30,12 +42,6 @@
         78.99399,
         11.73759
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

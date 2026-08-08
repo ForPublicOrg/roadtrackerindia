@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 58.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Jhalrapatan, Rajasthan",
     "end": "Sunel, Rajasthan",
@@ -16,6 +17,20 @@
       "Sunel"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Jhalrapatan" },
+    { "id": "sh-rj-19a", "label": "Meets this road" },
+    { "id": "sh-rj-19d", "label": "Met near Sunel" },
+    { "id": "mdr-rj-214", "label": "Met near Sunel" },
+    { "id": "mdr-rj-213", "label": "Met near Sunel" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhalrapatan",
@@ -30,12 +45,6 @@
         75.95815,
         24.37621
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

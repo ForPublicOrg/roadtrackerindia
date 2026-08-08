@@ -1,10 +1,11 @@
 {
   "id": "nh-68",
   "ref": "NH 68",
-  "name": "Jaisalmer–Prantij National Highway",
+  "name": "Jaisalmer–Prantij Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 705.2,
+  "lanes": "2 lanes, widened in places",
   "route": {
     "start": "Jaisalmer, Rajasthan",
     "end": "Prantij, Gujarat",
@@ -23,78 +24,23 @@
       "Prantij"
     ]
   },
-  "waypoints": [
-    {
-      "name": "Jaisalmer",
-      "coords": [
-        70.35438,
-        27.79427
-      ]
-    },
-    {
-      "name": "Barmer",
-      "coords": [
-        71.40493,
-        25.73657
-      ]
-    },
-    {
-      "name": "Dhorimanna",
-      "coords": [
-        71.43399,
-        25.21854
-      ]
-    },
-    {
-      "name": "Sanchore",
-      "coords": [
-        71.78074,
-        24.74926
-      ]
-    },
-    {
-      "name": "Tharad",
-      "coords": [
-        71.6329,
-        24.38439
-      ]
-    },
-    {
-      "name": "Radhanpur",
-      "coords": [
-        71.6202,
-        23.83741
-      ]
-    },
-    {
-      "name": "Patan",
-      "coords": [
-        72.10536,
-        23.84839
-      ]
-    },
-    {
-      "name": "Mahesana",
-      "coords": [
-        72.38076,
-        23.60618
-      ]
-    },
-    {
-      "name": "Mansa",
-      "coords": [
-        72.70862,
-        23.45826
-      ]
-    },
-    {
-      "name": "Prantij",
-      "coords": [
-        72.84317,
-        23.44125
-      ]
-    }
+  "history": "National Highway 68 crosses the Thar desert from Jaisalmer south through Barmer and Sanchore, then over the Rann country into Gujarat at Radhanpur, and on through Patan and Mehsana to Prantij. It is a desert road — long, straight, thinly populated — and it carries the traffic of the western border districts, including a great deal of army and Border Security Force movement, as well as the oil and lignite output of the Barmer fields.",
+  "facts": [
+    "Crosses the Thar desert from Jaisalmer to the Gujarat border.",
+    "Serves Barmer, the centre of Rajasthan's oilfields.",
+    "Patan, on the Gujarat stretch, holds Rani ki Vav, a UNESCO World Heritage stepwell.",
+    "It is an important military supply road for the western border.",
+    "Long stretches have no settlement, fuel or phone signal."
   ],
+  "significance": "This road ties the thinly populated western border districts of Rajasthan to the industrial towns of northern Gujarat, and it is one of the few north–south routes across the desert.",
+  "relatedRoads": [
+    { "id": "nh-11", "label": "The Jaisalmer–Rewari highway running east across Rajasthan" },
+    { "id": "nh-27", "label": "The east–west national highway met further south in Gujarat" },
+    { "id": "nh-48", "label": "Met near Prantij" },
+    { "id": "nh-754k", "label": "Met near Sanchore" },
+    { "id": "nh-25", "label": "Met near Barmer" }
+  ],
+  "travelNotes": "Carry water and fuel — the gap between Jaisalmer and Barmer has almost nothing on it. Sandstorms reduce visibility in summer, and drifting sand can cover the carriageway.",
   "sources": [
     {
       "title": "NHAI — National Highways Authority of India",
@@ -103,6 +49,52 @@
     {
       "title": "Ministry of Road Transport & Highways",
       "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Jaisalmer",
+      "coords": [70.94659, 26.91927]
+    },
+    {
+      "name": "Barmer",
+      "coords": [71.40929, 25.79238]
+    },
+    {
+      "name": "Jat Colony",
+      "coords": [71.40533, 25.54404]
+    },
+    {
+      "name": "Dhorimanna",
+      "coords": [71.40713, 25.29646]
+    },
+    {
+      "name": "Sanchore",
+      "coords": [71.78259, 24.80949]
+    },
+    {
+      "name": "Tharad",
+      "coords": [71.70159, 24.56503]
+    },
+    {
+      "name": "Radhanpur",
+      "coords": [71.6202, 23.83741]
+    },
+    {
+      "name": "Patan",
+      "coords": [71.88222, 23.84477]
+    },
+    {
+      "name": "Mahesana",
+      "coords": [72.26574, 23.67354]
+    },
+    {
+      "name": "Charada",
+      "coords": [72.68595, 23.48679]
+    },
+    {
+      "name": "Prantij",
+      "coords": [72.84317, 23.44125]
     }
   ],
   "provenance": "osm"

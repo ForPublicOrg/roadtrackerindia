@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Karambakudi, Tamil Nadu",
     "end": "Akkachchippatti, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Akkachchippatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-99", "label": "Met near Gandarvakottai" },
+    { "id": "mdr-tn-705", "label": "Met near Karambakudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karambakudi",
@@ -31,12 +43,6 @@
         79.01727,
         10.5732
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 95.5,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Mandal, Gujarat",
     "end": "Gandhinagar, Gujarat",
@@ -18,6 +19,19 @@
       "Gandhinagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-7", "label": "Met near Mandal" },
+    { "id": "sh-gj-41", "label": "Met near Kalol" },
+    { "id": "sh-gj-18", "label": "Met near Mandal" },
+    { "id": "sh-gj-71", "label": "Met near Gandhinagar" },
+    { "id": "sh-gj-135", "label": "Met near Kadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandal",
@@ -46,12 +60,6 @@
         72.61977,
         23.22918
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

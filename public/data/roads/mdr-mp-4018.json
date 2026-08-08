@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pindrai, Madhya Pradesh",
     "end": "Nainpur, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Nainpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4017", "label": "Met near Pindrai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pindrai",
@@ -30,12 +41,6 @@
         80.00489,
         22.52851
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

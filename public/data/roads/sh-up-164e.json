@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Pratapgarh, Uttar Pradesh",
     "end": "Mungra Badshahpur, Uttar Pradesh",
@@ -16,6 +17,15 @@
       "Mungra Badshahpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-330", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pratapgarh",
@@ -30,12 +40,6 @@
         81.9589,
         25.74753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

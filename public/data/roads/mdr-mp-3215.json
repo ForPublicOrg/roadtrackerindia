@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rehti, Madhya Pradesh",
     "end": "Nasrullahganj, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Nasrullahganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-146b", "label": "Met near Rehti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rehti",
@@ -30,12 +41,6 @@
         77.36915,
         22.78866
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

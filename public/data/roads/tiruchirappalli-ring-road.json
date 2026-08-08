@@ -1,0 +1,107 @@
+{
+  "id": "tiruchirappalli-ring-road",
+  "ref": "Ring Road",
+  "name": "Tiruchirappalli Ring Road",
+  "aka": ["Trichy Semicircular Ring Road"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 44.8,
+  "lanes": "4 lanes",
+  "authority": "tamil-nadu-highways",
+  "route": {
+    "start": "Thuvakudi, Tamil Nadu",
+    "end": "Tiruchirappalli, Tamil Nadu",
+    "states": ["Tamil Nadu"],
+    "majorCities": [
+      "Thuvakudi",
+      "HAPP Colony",
+      "Mathur",
+      "Sattanur",
+      "Ramji Nagar",
+      "Adavathur East",
+      "Santhosh Nagar"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Tiruchirappalli ring road is a long semicircle around the north and east of the city, built to keep the traffic of four converging national highways out of a centre hemmed in by the Cauvery river and the Rockfort. Trichy is one of the busiest road junctions in Tamil Nadu, and the ring links the roads to Chennai, Madurai, Thanjavur and Coimbatore.",
+  "facts": [
+    "A semicircular ring around the north and east of Tiruchirappalli.",
+    "Links the highways to Chennai, Madurai, Thanjavur and Coimbatore.",
+    "Trichy's old centre is squeezed between the Cauvery river and the Rockfort.",
+    "Srirangam, on the island north of the city, is home to one of the largest Hindu temple complexes in the world."
+  ],
+  "significance": "Four national highways meet at Trichy. The ring keeps their traffic out of a city centre that has no room for it.",
+  "relatedRoads": [
+    { "id": "nh-83", "label": "The Coimbatore–Nagapattinam highway passing through Trichy" },
+    { "id": "nh-81", "label": "The highway towards Karur and Coimbatore" },
+    { "id": "nh-38", "label": "The Vellore–Thoothukudi highway crossing here" },
+    { "id": "nh-336", "label": "Met near Mathur" },
+    { "id": "sh-tn-26", "label": "Met near Mathur" },
+    { "id": "sh-tn-u153", "label": "Met near Santhosh Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Thuvakudi",
+      "coords": [
+        78.83023,
+        10.74867
+      ]
+    },
+    {
+      "name": "HAPP Colony",
+      "coords": [
+        78.80342,
+        10.70188
+      ]
+    },
+    {
+      "name": "Mathur",
+      "coords": [
+        78.72722,
+        10.70063
+      ]
+    },
+    {
+      "name": "Issikkaamalaippatti",
+      "coords": [
+        78.68603,
+        10.72587
+      ]
+    },
+    {
+      "name": "Sattanur",
+      "coords": [
+        78.67824,
+        10.74384
+      ]
+    },
+    {
+      "name": "Ramji Nagar",
+      "coords": [
+        78.63265,
+        10.76113
+      ]
+    },
+    {
+      "name": "Adavathur East",
+      "coords": [
+        78.61036,
+        10.80071
+      ]
+    },
+    {
+      "name": "Santhosh Nagar",
+      "coords": [
+        78.59447,
+        10.8772
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

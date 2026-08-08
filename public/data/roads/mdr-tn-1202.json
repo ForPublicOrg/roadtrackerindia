@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tirukkovilur, Tamil Nadu",
     "end": "Tiruvannamalai, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Tiruvannamalai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-9a", "label": "Met near Tiruvannamalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tirukkovilur",
@@ -30,12 +41,6 @@
         79.07716,
         12.14941
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

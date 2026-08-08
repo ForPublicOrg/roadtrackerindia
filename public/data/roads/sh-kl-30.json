@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 54,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalassery, Kerala",
     "end": "Iritty, Kerala",
@@ -18,6 +19,19 @@
       "Iritty"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thalassery" },
+    { "id": "sh-kl-59", "label": "Met near Iritty" },
+    { "id": "sh-kl-38", "label": "Met near Koothuparamba" },
+    { "id": "sh-ka-91", "label": "Met near Iritty" },
+    { "id": "mdr-kl-228", "label": "Met near Koothuparamba" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalassery",
@@ -67,12 +81,6 @@
         75.67695,
         11.98816
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

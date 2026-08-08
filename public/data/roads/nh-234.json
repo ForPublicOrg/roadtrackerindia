@@ -17,6 +17,23 @@
       "Bewar"
     ]
   },
+  "relatedRoads": [
+    { "id": "agra-lucknow-expressway", "label": "Meets this road" },
+    { "id": "bundelkhand-expressway", "label": "Meets this road" },
+    { "id": "nh-34", "label": "Met near Kannauj" },
+    { "id": "nh-19", "label": "Met near Etawah" },
+    { "id": "nh-730c", "label": "Met near Bewar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannauj",
@@ -45,16 +62,6 @@
         79.29986,
         27.22042
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

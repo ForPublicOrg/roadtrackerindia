@@ -18,6 +18,23 @@
       "Jagannathpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Jagannathpur" },
+    { "id": "nh-143", "label": "Meets this road" },
+    { "id": "nh-320d", "label": "Meets this road" },
+    { "id": "sh-or-10", "label": "Met near Gua" },
+    { "id": "mdr-jh-42", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Biramitrapur",
@@ -60,16 +77,6 @@
         85.63993,
         22.22066
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Barabanki"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Barabanki" },
+    { "id": "nh-730", "label": "Met near Lakhimpur" },
+    { "id": "sh-up-30b", "label": "Met near Biswan" },
+    { "id": "mdr-up-77c", "label": "Met near Mahmudabad" },
+    { "id": "mdr-up-79c", "label": "Met near Mahmudabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lakhimpur",
@@ -53,16 +70,6 @@
         81.18317,
         26.92797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

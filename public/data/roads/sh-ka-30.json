@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 316.3,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Sindhanur, Karnataka",
     "end": "Ramanagara, Karnataka",
@@ -21,6 +22,19 @@
       "Ramanagara"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Ron" },
+    { "id": "nh-48", "label": "Met near Kittur" },
+    { "id": "nh-52", "label": "Met near Nargund" },
+    { "id": "nh-50", "label": "Met near Kushtagi" },
+    { "id": "nh-748", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sindhanur",
@@ -84,12 +98,6 @@
         74.30351,
         15.43945
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

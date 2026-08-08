@@ -16,6 +16,20 @@
       "Aslamabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-103a", "label": "Met near Hoshiarpur" },
+    { "id": "mdr-pb-60", "label": "Met near Phagwara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phagwara",
@@ -30,16 +44,6 @@
         75.89023,
         31.49329
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

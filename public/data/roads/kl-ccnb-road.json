@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mullakkal, Kerala",
     "end": "Zakariya Bazar, Kerala",
@@ -18,6 +19,20 @@
       "Zakariya Bazar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "sh-kl-40", "label": "Met near Alappuzha" },
+    { "id": "kl-old-nh-road-alappuzha", "label": "Met near Alappuzha" },
+    { "id": "kl-wada-canal-south-bank-road-revi-karunakaran-road", "label": "Met near Alappuzha" },
+    { "id": "kl-ccsb-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mullakkal",
@@ -46,12 +61,6 @@
         76.32491,
         9.49457
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,25 @@
       "Pfutsero Town"
     ]
   },
+  "significance": "NH 102A is a branch of NH 102. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Palel to Pfutsero Town, and it meets NH 102 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-102",
+      "label": "NH 102 — the highway this branch takes its number from, running Namphalong Bazar to Babupara"
+    },
+    { "id": "nh-2", "label": "Meets this road" },
+    { "id": "nh-202", "label": "Met near Hungpung" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palel",
@@ -60,16 +79,6 @@
         94.28298,
         25.49805
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

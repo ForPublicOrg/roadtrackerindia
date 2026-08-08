@@ -17,6 +17,19 @@
       "Gada Sarai"
     ]
   },
+  "significance": "SH 44, Lormi–Gada Sarai State Highway, crosses the border between Chhattisgarh and Madhya Pradesh. A state road that runs through more than one state has no single owner — Chhattisgarh PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Met near Gada Sarai" },
+    { "id": "sh-ct-5", "label": "Meets this road" },
+    { "id": "mdr-mp-3910", "label": "Met near Gada Sarai" },
+    { "id": "mdr-mp-3908", "label": "Met near Gada Sarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lormi",
@@ -31,12 +44,6 @@
         81.32876,
         22.82233
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

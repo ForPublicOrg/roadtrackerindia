@@ -16,6 +16,26 @@
       "Lathi"
     ]
   },
+  "significance": "NH 351F is a branch of NH 351. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Amreli to Lathi, and it meets NH 351 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-351",
+      "label": "NH 351 — the highway this branch takes its number from, running Mahuva to Jetpur"
+    },
+    { "id": "nh-51", "label": "Met near Lathi" },
+    { "id": "sh-gj-21", "label": "Met near Lathi" },
+    { "id": "sh-gj-25", "label": "Met near Lathi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amreli",
@@ -30,16 +50,6 @@
         71.38328,
         21.72406
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Omkareshwar, Madhya Pradesh",
     "end": "Sanawad, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Sanawad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-36a", "label": "Met near Sanawad" },
+    { "id": "mdr-mp-5015", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Omkareshwar",
@@ -30,12 +42,6 @@
         76.1489,
         22.14237
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

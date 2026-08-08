@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kuchera, Rajasthan",
     "end": "Jayal, Rajasthan",
@@ -16,6 +17,17 @@
       "Jayal"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-rj-19", "label": "Met near Jayal" },
+    { "id": "sh-rj-87", "label": "Met near Kuchera" },
+    { "id": "sh-rj-90", "label": "Met near Jayal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kuchera",
@@ -30,12 +42,6 @@
         74.05536,
         27.13971
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

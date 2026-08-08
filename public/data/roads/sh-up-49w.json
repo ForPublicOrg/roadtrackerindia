@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Patti Kalan, Uttar Pradesh",
     "end": "Rampur, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Rampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Rampur" },
+    { "id": "sh-up-53w", "label": "Met near Rampur" },
+    { "id": "sh-up-65w", "label": "Met near Sultanpur" },
+    { "id": "sh-up-153w", "label": "Met near Tanda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patti Kalan",
@@ -30,12 +43,6 @@
         79.01355,
         28.80902
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

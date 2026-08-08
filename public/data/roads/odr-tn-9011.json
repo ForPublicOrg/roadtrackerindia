@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thakkolam, Tamil Nadu",
     "end": "Kanchipuram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kanchipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Kanchipuram" },
+    { "id": "odr-tn-3814", "label": "Met near Kanchipuram" },
+    { "id": "odr-tn-9010", "label": "Met near Kanchipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thakkolam",
@@ -30,12 +43,6 @@
         79.76457,
         12.93068
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vandavasi, Tamil Nadu",
     "end": "Bandypālaiyam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Bandypālaiyam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-179b", "label": "Met near Tiruvetipuram" },
+    { "id": "sh-tn-4", "label": "Met near Arani" },
+    { "id": "sh-tn-5", "label": "Met near Vandavasi" },
+    { "id": "sh-tn-u185", "label": "Met near Vandavasi" },
+    { "id": "mdr-tn-709", "label": "Met near Tiruvetipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandavasi",
@@ -31,12 +46,6 @@
         79.29121,
         12.66271
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

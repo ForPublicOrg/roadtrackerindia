@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 42.1,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Mandikhera, Haryana",
     "end": "Palwal, Haryana",
@@ -16,6 +17,19 @@
       "Palwal"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Palwal" },
+    { "id": "nh-248a", "label": "Met near Mandikhera" },
+    { "id": "nh-919", "label": "Met near Palwal" },
+    { "id": "sh-hr-132", "label": "Meets this road" },
+    { "id": "sh-hr-134", "label": "Met near Palwal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandikhera",
@@ -30,12 +44,6 @@
         77.31632,
         28.13742
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

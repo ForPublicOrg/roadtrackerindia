@@ -17,6 +17,21 @@
       "Danwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 83, Devipur–Danwar District road, crosses the border between Bihar and Jharkhand. A state road that runs through more than one state has no single owner — Bihar RCD and Jharkhand RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-333c", "label": "Meets this road" },
+    { "id": "sh-jh-13", "label": "Meets this road" },
+    { "id": "mdr-jh-84", "label": "Meets this road" },
+    { "id": "mdr-jh-92", "label": "Meets this road" },
+    { "id": "mdr-jh-88", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devipur",
@@ -31,12 +46,6 @@
         86.15087,
         24.36826
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

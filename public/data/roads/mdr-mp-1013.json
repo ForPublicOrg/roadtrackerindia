@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 55,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gurh, Madhya Pradesh",
     "end": "Mauganj, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Mauganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Rewa" },
+    { "id": "nh-135", "label": "Met near Mauganj" },
+    { "id": "mdr-mp-1016", "label": "Met near Mauganj" },
+    { "id": "mdr-mp-1009", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gurh",
@@ -30,12 +44,6 @@
         81.80986,
         24.67461
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

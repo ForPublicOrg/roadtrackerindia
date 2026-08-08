@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Varkala, Kerala",
     "end": "Kadakkavoor, Kerala",
@@ -16,6 +17,20 @@
       "Kadakkavoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-64", "label": "Met near Varkala" },
+    { "id": "kl-varkala-kallambalam-road", "label": "Met near Varkala" },
+    { "id": "kl-varkala-vettor-nedumkanda-road", "label": "Met near Varkala" },
+    { "id": "kl-sivagiri-road", "label": "Met near Varkala" },
+    { "id": "kl-reghunathapuram-ayurveda-hospital-road", "label": "Met near Varkala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Varkala",
@@ -30,12 +45,6 @@
         76.73359,
         8.72833
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

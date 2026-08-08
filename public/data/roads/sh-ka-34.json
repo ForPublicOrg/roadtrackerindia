@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 708.1,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kodibag, Karnataka",
     "end": "Aurad, Karnataka",
@@ -25,6 +26,19 @@
       "Aurad"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Mudhol" },
+    { "id": "ne-10", "label": "Met near Ramdurg" },
+    { "id": "nh-48", "label": "Met near Dharwad" },
+    { "id": "nh-52", "label": "Met near Vijayapura" },
+    { "id": "nh-66", "label": "Met near Karwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodibag",
@@ -137,12 +151,6 @@
         77.42472,
         18.25043
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

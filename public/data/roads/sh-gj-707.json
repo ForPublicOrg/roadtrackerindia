@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Amadpore, Gujarat",
     "end": "Kabilpore, Gujarat",
@@ -16,6 +17,15 @@
       "Kabilpore"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Amadpore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amadpore",
@@ -30,12 +40,6 @@
         72.9765,
         21.04433
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

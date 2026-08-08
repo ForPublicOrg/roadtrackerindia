@@ -21,6 +21,19 @@
       "Valpoi"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Athani" },
+    { "id": "ne-10", "label": "Met near Bailhongal" },
+    { "id": "nh-48", "label": "Met near Vadgaon" },
+    { "id": "nh-548b", "label": "Met near Athani" },
+    { "id": "nh-748", "label": "Met near Khanapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jath",
@@ -77,12 +90,6 @@
         74.12623,
         15.6511
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,19 @@
       "Govardhan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 70, Deeg–Govardhan District road, crosses the border between Rajasthan and Uttar Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-rj-14", "label": "Met near Deeg" },
+    { "id": "sh-rj-44", "label": "Met near Deeg" },
+    { "id": "sh-up-94w", "label": "Met near Govardhan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Deeg",
@@ -31,12 +44,6 @@
         77.41221,
         27.48251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

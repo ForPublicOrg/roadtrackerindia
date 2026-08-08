@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.2,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Shrirampur, Maharashtra",
     "end": "Vaijapur, Maharashtra",
@@ -16,6 +17,18 @@
       "Vaijapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Vaijapur" },
+    { "id": "nh-752i", "label": "Met near Vaijapur" },
+    { "id": "nh-752h", "label": "Met near Vaijapur" },
+    { "id": "sh-mh-44", "label": "Met near Shrirampur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shrirampur",
@@ -30,12 +43,6 @@
         74.72675,
         19.92483
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

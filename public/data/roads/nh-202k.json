@@ -16,6 +16,23 @@
       "Lay Shi"
     ]
   },
+  "significance": "NH 202K is a branch of NH 202. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Meluri to Lay Shi, and it meets NH 202 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-202",
+      "label": "NH 202 — the highway this branch takes its number from, running Mokokchung to New Lambulane"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Meluri",
@@ -30,16 +47,6 @@
         94.8817,
         25.56373
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

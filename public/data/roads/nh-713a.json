@@ -17,6 +17,20 @@
       "Doimukh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-13", "label": "Met near Doimukh" },
+    { "id": "nh-415", "label": "Met near Naharlagun" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pappu Nallah",
@@ -45,16 +59,6 @@
         93.74867,
         27.16077
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

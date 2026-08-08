@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 158.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Nagda, Madhya Pradesh",
     "end": "Dewas, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Dewas"
     ]
   },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Jharda" },
+    { "id": "nh-752d", "label": "Met near Jharda" },
+    { "id": "nh-552g", "label": "Meets this road" },
+    { "id": "sh-mp-25", "label": "Meets this road" },
+    { "id": "mdr-mp-2601", "label": "Met near Nagda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagda",
@@ -30,12 +44,6 @@
         76.06929,
         23.00146
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

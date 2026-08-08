@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mattannur, Kerala",
     "end": "Irikkoor, Kerala",
@@ -16,6 +17,18 @@
       "Irikkoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-17", "label": "Met near Mattannur" },
+    { "id": "kl-kannur-mattanur-road", "label": "Met near Mattannur" },
+    { "id": "kl-edayannur-kanad-tharammal-keezhallur-road", "label": "Met near Mattannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mattannur",
@@ -30,12 +43,6 @@
         75.51325,
         11.92855
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

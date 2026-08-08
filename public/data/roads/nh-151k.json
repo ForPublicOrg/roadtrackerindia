@@ -17,6 +17,23 @@
       "Porbandar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Porbandar" },
+    { "id": "nh-927d", "label": "Met near Kalavad" },
+    { "id": "nh-927k", "label": "Met near Bhanvad" },
+    { "id": "sh-gj-26", "label": "Met near Kalavad" },
+    { "id": "sh-gj-23", "label": "Met near Kalavad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalavad",
@@ -38,16 +55,6 @@
         69.63741,
         21.68266
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

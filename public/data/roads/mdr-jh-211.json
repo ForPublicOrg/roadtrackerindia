@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.9,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Barharwa, Jharkhand",
     "end": "Barhait, Jharkhand",
@@ -16,6 +17,18 @@
       "Barhait"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-133a", "label": "Met near Barharwa" },
+    { "id": "sh-jh-18", "label": "Met near Barhait" },
+    { "id": "mdr-jh-215", "label": "Met near Barharwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barharwa",
@@ -30,12 +43,6 @@
         87.60866,
         24.88571
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

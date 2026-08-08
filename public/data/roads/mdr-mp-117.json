@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mau, Madhya Pradesh",
     "end": "Seondha, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Seondha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-1", "label": "Met near Mau" },
+    { "id": "mdr-mp-310", "label": "Met near Mau" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mau",
@@ -30,12 +42,6 @@
         78.58349,
         26.19578
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

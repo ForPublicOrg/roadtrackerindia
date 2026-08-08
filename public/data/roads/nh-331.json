@@ -16,6 +16,22 @@
       "Barharia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Meets this road" },
+    { "id": "nh-31", "label": "Met near Chhapra" },
+    { "id": "sh-br-73", "label": "Met near Masrakh" },
+    { "id": "sh-bh-90", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhapra",
@@ -30,16 +46,6 @@
         84.69916,
         26.35258
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

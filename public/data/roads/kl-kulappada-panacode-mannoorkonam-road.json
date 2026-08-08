@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mancha, Kerala",
     "end": "Vithura, Kerala",
@@ -16,6 +17,19 @@
       "Vithura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-3", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-45", "label": "Met near Nedumangad" },
+    { "id": "kl-charumoodu-ayyappankuzhy-road", "label": "Met near Nedumangad" },
+    { "id": "kl-karanad-kuriyathi-road", "label": "Met near Nedumangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mancha",
@@ -30,12 +44,6 @@
         77.04412,
         8.63915
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

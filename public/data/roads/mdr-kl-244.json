@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valiyaparambu, Kerala",
     "end": "Kodungallur, Kerala",
@@ -16,6 +17,17 @@
       "Kodungallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kombathukadavu-road", "label": "Met near Kodungallur" },
+    { "id": "kl-mala-puthenchira-road", "label": "Met near Valiyaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valiyaparambu",
@@ -30,12 +42,6 @@
         76.22732,
         10.25685
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pindrai, Madhya Pradesh",
     "end": "Maharajpur, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Maharajpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-543", "label": "Met near Mandla" },
+    { "id": "mdr-mp-4018", "label": "Met near Pindrai" },
+    { "id": "mdr-mp-4021", "label": "Met near Nainpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pindrai",
@@ -30,12 +43,6 @@
         80.34038,
         22.55259
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

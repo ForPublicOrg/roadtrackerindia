@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 73.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Shivaji Nagar, Maharashtra",
     "end": "Pulgaon, Maharashtra",
@@ -17,6 +18,19 @@
       "Pulgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-353i", "label": "Met near Hingna" },
+    { "id": "nagpur-outer-ring-road", "label": "Met near Hingna" },
+    { "id": "nh-647", "label": "Met near Wardha" },
+    { "id": "sh-mh-250", "label": "Met near Hingna" },
+    { "id": "sh-mh-265", "label": "Met near Hingna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shivaji Nagar",
@@ -38,12 +52,6 @@
         78.40946,
         20.82616
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

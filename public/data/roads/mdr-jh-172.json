@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Govindpur, Jharkhand",
     "end": "Ghatsila, Jharkhand",
@@ -17,6 +18,17 @@
       "Ghatsila"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-220", "label": "Met near Govindpur" },
+    { "id": "sh-jh-6", "label": "Met near Govindpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Govindpur",
@@ -38,12 +50,6 @@
         86.458,
         22.51193
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

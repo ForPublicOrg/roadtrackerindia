@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruttani, Tamil Nadu",
     "end": "Nagari, Andhra Pradesh",
@@ -16,6 +17,19 @@
       "Nagari"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716", "label": "Met near Tiruttani" },
+    { "id": "odr-tn-375", "label": "Met near Tiruttani" },
+    { "id": "odr-tn-3421", "label": "Met near Tiruttani" },
+    { "id": "odr-tn-3422", "label": "Met near Tiruttani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruttani",
@@ -30,12 +44,6 @@
         79.58815,
         13.24194
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 72,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thampanoor, Kerala",
     "end": "Kulathupuzha, Kerala",
@@ -18,6 +19,19 @@
       "Kulathupuzha"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Kulathupuzha" },
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-59", "label": "Met near Kulathupuzha" },
+    { "id": "sh-kl-64", "label": "Met near Kadakkal" },
+    { "id": "sh-kl-3", "label": "Met near Nedumangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thampanoor",
@@ -46,12 +60,6 @@
         77.05733,
         8.90622
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

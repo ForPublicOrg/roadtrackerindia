@@ -13,8 +13,8 @@
  */
 import { existsSync, readdirSync } from 'node:fs'
 import {
-  BBOX, cachePath, haversineKm, lineLengthKm, overpass, readCache, round5, simplify, sleep,
-  writeCache,
+  BBOX, cachePath, dedupeWays, haversineKm, lineLengthKm, overpass, readCache, round5, simplify,
+  sleep, writeCache,
 } from './lib/overpass.mjs'
 
 const LIST_ONLY = process.argv.includes('--list')
@@ -391,28 +391,10 @@ function assembleRoad(road, ways) {
 }
 
 /**
- * One road is described by many overlapping relations (per state, per stretch,
- * plus a whole-route one) and divided highways are mapped as two parallel
- * carriageways. Both inflate a naive merge, so ways are deduplicated twice:
- * by OSM way id, then geometrically — a way whose path is already covered by
- * longer ways already taken is a duplicate or the opposite carriageway.
+ * Ways are deduplicated twice: by OSM way id here, then geometrically by
+ * `dedupeWays` — see the note on it in lib/overpass.mjs, which the standalone
+ * geometry fetcher shares.
  */
-const CELL = 0.0025 // ~275 m — wider than any carriageway separation
-
-function cellsOf(coords) {
-  const cells = new Set()
-  const add = (x, y) => cells.add(`${Math.floor(x / CELL)}:${Math.floor(y / CELL)}`)
-  for (let i = 0; i < coords.length; i++) {
-    const [x, y] = coords[i]
-    add(x, y)
-    if (i === 0) continue
-    const [px, py] = coords[i - 1]
-    const steps = Math.ceil(Math.max(Math.abs(x - px), Math.abs(y - py)) / CELL)
-    for (let k = 1; k < steps; k++) add(px + ((x - px) * k) / steps, py + ((y - py) * k) / steps)
-  }
-  return cells
-}
-
 function collectWays(rels) {
   const byWay = new Map()
   for (const rel of rels) {
@@ -422,31 +404,6 @@ function collectWays(rels) {
     }
   }
   return dedupeWays([...byWay.values()])
-}
-
-/** Drop ways whose path is already covered — duplicates and opposite carriageways. */
-function dedupeWays(input) {
-  const ways = [...input].sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
-
-  const covered = new Set()
-  const kept = []
-  for (const way of ways) {
-    const cells = cellsOf(way)
-    let hits = 0
-    for (const c of cells) {
-      const [cx, cy] = c.split(':').map(Number)
-      // a one-cell halo absorbs carriageways that straddle a cell boundary
-      if (
-        covered.has(c) ||
-        covered.has(`${cx + 1}:${cy}`) || covered.has(`${cx - 1}:${cy}`) ||
-        covered.has(`${cx}:${cy + 1}`) || covered.has(`${cx}:${cy - 1}`)
-      ) hits++
-    }
-    if (cells.size && hits / cells.size >= 0.75) continue // already on the map
-    for (const c of cells) covered.add(c)
-    kept.push(way)
-  }
-  return kept
 }
 
 // ── bulk mode ────────────────────────────────────────────────────────

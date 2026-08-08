@@ -16,6 +16,22 @@
       "Semariya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Meets this road" },
+    { "id": "nh-135b", "label": "Meets this road" },
+    { "id": "mdr-mp-1008", "label": "Meets this road" },
+    { "id": "mdr-mp-1007", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mauganj",
@@ -30,16 +46,6 @@
         81.36573,
         24.83674
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

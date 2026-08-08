@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.6,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Bhanvad, Gujarat",
     "end": "Ranavav, Gujarat",
@@ -16,6 +17,18 @@
       "Ranavav"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-151k", "label": "Met near Bhanvad" },
+    { "id": "nh-927k", "label": "Met near Bhanvad" },
+    { "id": "sh-gj-94", "label": "Met near Bhanvad" },
+    { "id": "sh-gj-27", "label": "Met near Bhanvad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhanvad",
@@ -30,12 +43,6 @@
         69.80088,
         21.86789
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

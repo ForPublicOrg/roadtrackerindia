@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Laxmangarh, Rajasthan",
     "end": "Milan Marriage Garden And Party Lawn, Rajasthan",
@@ -16,6 +17,17 @@
       "Milan Marriage Garden And Party Lawn"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Laxmangarh" },
+    { "id": "sh-rj-8", "label": "Met near Jat Colony" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Laxmangarh",
@@ -30,12 +42,6 @@
         75.21657,
         27.72511
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

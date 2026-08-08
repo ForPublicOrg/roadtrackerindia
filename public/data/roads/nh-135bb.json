@@ -17,6 +17,20 @@
       "Shankargarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-35", "label": "Meets this road" },
+    { "id": "nh-135b", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manikpur Sarhat",
@@ -31,16 +45,6 @@
         81.43948,
         25.18357
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

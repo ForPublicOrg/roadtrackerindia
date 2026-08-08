@@ -16,6 +16,23 @@
       "Etah"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Etah" },
+    { "id": "nh-21", "label": "Meets this road" },
+    { "id": "sh-up-98w", "label": "Met near Etah" },
+    { "id": "sh-up-31", "label": "Meets this road" },
+    { "id": "sh-up-85", "label": "Met near Etah" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barhan",
@@ -30,16 +47,6 @@
         78.65444,
         27.56201
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

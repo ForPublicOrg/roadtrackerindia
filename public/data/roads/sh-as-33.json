@@ -18,6 +18,17 @@
       "Dohabora Chuk"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-as-7", "label": "Met near Golaghat" },
+    { "id": "sh-as-1", "label": "Met near Golaghat" },
+    { "id": "sh-as-32", "label": "Met near Merapani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Merapani",
@@ -32,12 +43,6 @@
         94.21175,
         26.75392
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

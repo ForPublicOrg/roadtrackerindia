@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kizhakkekara, Kerala",
     "end": "Kothamangalam, Kerala",
@@ -16,6 +17,19 @@
       "Kothamangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-8", "label": "Met near Muvattupuzha" },
+    { "id": "sh-kl-43", "label": "Met near Muvattupuzha" },
+    { "id": "kl-chathamattom-ooramkuzhy-road", "label": "Met near Kothamangalam" },
+    { "id": "kl-neerampuzha-kalloor-road", "label": "Met near Thodupuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kizhakkekara",
@@ -30,12 +44,6 @@
         76.63648,
         10.05162
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

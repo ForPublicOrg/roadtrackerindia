@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mauganj, Madhya Pradesh",
     "end": "Koraon, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Koraon"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Meets this road" },
+    { "id": "sh-mp-24", "label": "Met near Mauganj" },
+    { "id": "mdr-mp-1010", "label": "Met near Mauganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mauganj",
@@ -30,12 +43,6 @@
         81.80062,
         24.78352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

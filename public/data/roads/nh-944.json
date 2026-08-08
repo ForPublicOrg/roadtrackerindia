@@ -17,6 +17,23 @@
       "Aralvaimozhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Aralvaimozhi" },
+    { "id": "nh-66", "label": "Met near Nagercoil" },
+    { "id": "sh-tn-194", "label": "Met near Nagercoil" },
+    { "id": "sh-tn-u51", "label": "Met near Nagercoil" },
+    { "id": "mdr-tn-113", "label": "Met near Nagercoil" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parvathipuram",
@@ -38,16 +55,6 @@
         77.52445,
         8.24376
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

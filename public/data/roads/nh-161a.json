@@ -25,6 +25,24 @@
       "Akot"
     ]
   },
+  "significance": "NH 161A is a branch of NH 161. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Aurad to Akot, and it meets NH 161 along the way.",
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Mangrul Pir" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Waghala" },
+    { "id": "nh-53", "label": "Met near Akola" },
+    { "id": "nh-63", "label": "Meets this road" },
+    { "id": "nh-548c", "label": "Met near Akot" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aurad",
@@ -130,16 +148,6 @@
         77.02938,
         20.99624
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

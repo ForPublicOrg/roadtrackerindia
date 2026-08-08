@@ -19,6 +19,23 @@
       "Mandro"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Meets this road" },
+    { "id": "nh-333a", "label": "Met near Godda" },
+    { "id": "nh-114a", "label": "Met near Mohanpur" },
+    { "id": "sh-jh-15", "label": "Met near Mohanpur" },
+    { "id": "sh-jh-17", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mohanpur",
@@ -47,16 +64,6 @@
         87.41866,
         25.2894
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

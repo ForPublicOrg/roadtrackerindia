@@ -18,6 +18,23 @@
       "Tamkuhi Raj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Tamkuhi Raj" },
+    { "id": "nh-31", "label": "Met near Ballia" },
+    { "id": "nh-730", "label": "Met near Tamkuhi Raj" },
+    { "id": "nh-227a", "label": "Met near Salempur" },
+    { "id": "nh-727a", "label": "Met near Salempur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ballia",
@@ -46,16 +63,6 @@
         84.17962,
         26.68859
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

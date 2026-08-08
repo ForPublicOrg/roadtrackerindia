@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherpulassery, Kerala",
     "end": "Perinthalmanna, Kerala",
@@ -16,6 +17,16 @@
       "Perinthalmanna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pattambi-cherplassery-road", "label": "Met near Cherpulassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherpulassery",
@@ -30,12 +41,6 @@
         76.24656,
         10.88149
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

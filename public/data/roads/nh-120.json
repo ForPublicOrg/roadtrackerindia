@@ -19,6 +19,23 @@
       "Dumraon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Bihar Sharif" },
+    { "id": "nh-22", "label": "Met near Gaya" },
+    { "id": "nh-139", "label": "Meets this road" },
+    { "id": "nh-922", "label": "Met near Dumraon" },
+    { "id": "nh-319", "label": "Met near Suryapura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bihar Sharif",
@@ -89,16 +106,6 @@
         84.14647,
         25.55767
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

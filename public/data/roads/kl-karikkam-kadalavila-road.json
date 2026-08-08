@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottarakkara, Kerala",
     "end": "Valakom, Kerala",
@@ -16,6 +17,18 @@
       "Valakom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Kottarakkara" },
+    { "id": "sh-kl-1", "label": "Met near Kottarakkara" },
+    { "id": "kl-thrikkannamangal-sadanandapuram-road", "label": "Met near Kottarakkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottarakkara",
@@ -30,12 +43,6 @@
         76.80249,
         8.9852
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ambalappuzha, Kerala",
     "end": "Vandipetta, Kerala",
@@ -16,6 +17,21 @@
       "Vandipetta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    {
+      "id": "kl-nedumudy-karuvatta-road-nedumudy-padaharam-kunnumma-karuvatt",
+      "label": "Met near Ambalappuzha"
+    },
+    { "id": "kl-edathua-thayankary-champakkulam-road", "label": "Met near Ambalappuzha" },
+    { "id": "kl-ramankary-kodupunna-thayankary-edathua-road", "label": "Met near Ambalappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambalappuzha",
@@ -30,12 +46,6 @@
         76.45072,
         9.38946
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

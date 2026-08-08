@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering",
-  "ref": "MDR",
-  "name": "Assam Kj-M-11 (Karimganj Major Distric Road 11) (new Numbering 2023)",
+  "ref": "MDR KJ-M-11",
+  "name": "Karimganj–Ramkrishna Nagar district road",
+  "aka": ["Karimganj Major District Road KJ-M-11"],
   "category": "district",
   "status": "operational",
   "lengthKm": 22.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Ramkrishna Nagar, Assam",
@@ -16,6 +18,21 @@
       "Ramkrishna Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Karimganj and Ramkrishna Nagar. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "mdr-as-3", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Barlekha" },
+    { "id": "mdr-as-6", "label": "Met near Barlekha" },
+    { "id": "mdr-as-11", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-3-karimganj-major-distric-road-3-new-numbering-20", "label": "Met near Karimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karimganj",
@@ -30,12 +47,6 @@
         92.3154,
         24.60649
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

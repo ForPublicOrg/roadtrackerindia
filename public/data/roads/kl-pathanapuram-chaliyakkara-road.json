@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Central Junction, Kerala",
     "end": "Punalur, Kerala",
@@ -17,6 +18,19 @@
       "Punalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Pathanapuram" },
+    { "id": "sh-kl-8", "label": "Met near Pathanapuram" },
+    { "id": "kl-nadukkunu-punalur-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-punaloor-chaliyakkara-road", "label": "Met near Punalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Central Junction",
@@ -31,12 +45,6 @@
         76.96087,
         9.04306
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

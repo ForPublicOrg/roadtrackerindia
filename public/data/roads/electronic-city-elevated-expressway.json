@@ -1,10 +1,14 @@
 {
   "id": "electronic-city-elevated-expressway",
-  "ref": "NH",
+  "ref": "Electronic City Elevated Expressway",
   "name": "Electronic City Elevated Expressway",
+  "aka": ["Hosur Road elevated expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 8.3,
+  "lanes": "4 lanes, fully elevated",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Electronic City, Karnataka",
     "end": "HSR Layout, Karnataka",
@@ -17,6 +21,36 @@
       "HSR Layout"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled. Two-wheelers are not allowed on the elevated lanes and use the free road underneath."
+  },
+  "history": "Electronic City is Bengaluru's oldest technology park, and for years the only way in was Hosur Road, which jammed solid twice a day. This nine-kilometre elevated road was built directly above it, opened in 2010, so that traffic bound for the tech parks could fly over the local shops, junctions and bus stops below. It was among the first big elevated toll roads inside an Indian city.",
+  "facts": [
+    "Built directly above Hosur Road, one of Bengaluru's most congested corridors.",
+    "Opened in 2010 to serve Electronic City, the city's first big technology park.",
+    "One of the earliest tolled elevated roads inside an Indian city.",
+    "The elevated lanes carry through traffic while local traffic uses the road underneath.",
+    "A Namma Metro line has since been built along the same corridor."
+  ],
+  "significance": "Tens of thousands of software workers commute to Electronic City every day. This road, and the metro line beside it, are what keeps that commute to something under an hour.",
+  "relatedRoads": [
+    { "id": "nice-road", "label": "Bengaluru's peripheral toll road, which this corridor connects to" },
+    { "id": "nh-44", "label": "The Hosur Road corridor continues south as NH 44 towards Salem" },
+    { "id": "nh-48", "label": "Met near Electronic City" },
+    { "id": "bengaluru-business-corridor", "label": "Met near Electronic City" }
+  ],
+  "travelNotes": "Tolled, and worth it in rush hour. Two-wheelers are not allowed on the elevated lanes and use the road below.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Electronic City",
@@ -45,16 +79,6 @@
         77.62834,
         12.9079
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

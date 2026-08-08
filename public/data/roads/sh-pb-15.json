@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30.1,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Faridkot, Punjab",
     "end": "Firozpur Cantonment, Punjab",
@@ -16,6 +17,16 @@
       "Firozpur Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Firozpur" },
+    { "id": "mdr-pb-46", "label": "Met near Faridkot" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Faridkot",
@@ -30,12 +41,6 @@
         74.63697,
         30.92485
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

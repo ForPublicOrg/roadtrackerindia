@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 48.8,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chatra, Jharkhand",
     "end": "Konra, Jharkhand",
@@ -16,6 +17,17 @@
       "Konra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Chatra" },
+    { "id": "nh-22", "label": "Met near Chatra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chatra",
@@ -30,12 +42,6 @@
         85.25323,
         24.38775
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

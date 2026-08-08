@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adirampattinam, Tamil Nadu",
     "end": "Peravurani, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Peravurani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-29", "label": "Met near Peravurani" },
+    { "id": "sh-tn-146", "label": "Met near Adirampattinam" },
+    { "id": "mdr-tn-653", "label": "Met near Peravurani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adirampattinam",
@@ -30,12 +43,6 @@
         79.20662,
         10.37042
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

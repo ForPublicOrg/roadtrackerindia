@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kayamkulam, Kerala",
     "end": "Nangiarkulangara, Kerala",
@@ -16,6 +17,20 @@
       "Nangiarkulangara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kayamkulam" },
+    { "id": "sh-kl-6", "label": "Met near Kayamkulam" },
+    { "id": "kl-kayamkulam-muttom-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-panachamoodu-vadakkethundam-pathiyoor-road", "label": "Met near Kayamkulam" },
+    { "id": "kl-bhagavathipadi-olaketty-road", "label": "Met near Kayamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kayamkulam",
@@ -30,12 +45,6 @@
         76.48653,
         9.20456
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

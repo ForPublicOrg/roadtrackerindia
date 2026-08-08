@@ -544,7 +544,10 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 }
 .rel-chip:hover { background: var(--surface-2); }
 .rel-chip:active { transform: scale(0.985); }
+.rel-chip .rc-main { display: grid; gap: 1px; min-width: 0; }
 .rel-chip .rc-name { font-weight: 550; font-size: 13.5px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* where the two roads actually meet — the one thing the badge and name can't say */
+.rel-chip .rc-where { color: var(--ink-2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
 /* who's behind the road — authority, builders, operator */
 .og-row { display: grid; grid-template-columns: 108px 1fr; gap: 8px 12px; align-items: start; }

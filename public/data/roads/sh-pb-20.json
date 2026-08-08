@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 150.7,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Firozpur Cantonment, Punjab",
     "end": "Fazilka, Punjab",
@@ -20,6 +21,19 @@
       "Fazilka"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Fazilka" },
+    { "id": "nh-5", "label": "Met near Firozpur" },
+    { "id": "nh-54", "label": "Met near Zira" },
+    { "id": "nh-354", "label": "Met near Firozpur" },
+    { "id": "nh-703b", "label": "Met near Kot Ise Khan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Firozpur Cantonment",
@@ -62,12 +76,6 @@
         74.03213,
         30.39487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 25.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vijayamangalam, Tamil Nadu",
     "end": "Odakkadu, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Odakkadu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Vijayamangalam" },
+    { "id": "nh-381", "label": "Met near Tiruppur" },
+    { "id": "sh-tn-81", "label": "Met near Vavipalayam" },
+    { "id": "sh-tn-196", "label": "Met near Tiruppur" },
+    { "id": "sh-tn-n2", "label": "Met near Tiruppur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayamangalam",
@@ -38,12 +52,6 @@
         77.34067,
         11.10797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

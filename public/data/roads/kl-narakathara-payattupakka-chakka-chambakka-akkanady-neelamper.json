@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mathumoola, Kerala",
     "end": "Chingavanam, Kerala",
@@ -16,6 +17,20 @@
       "Chingavanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pallikoottumma-neelamperoor-road", "label": "Met near Chingavanam" },
+    { "id": "kl-kunnamkary-kumaramkary-paral-changanacherry-road", "label": "Met near Changanassery" },
+    { "id": "kl-mulakkamthuruthy-narakathra-krishnapuram-road", "label": "Met near Changanassery" },
+    { "id": "kl-kurichy-karunattuvala-road", "label": "Met near Chingavanam" },
+    { "id": "kl-pallikkerichira-akkanady-jetty-road", "label": "Met near Chingavanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mathumoola",
@@ -30,12 +45,6 @@
         76.50586,
         9.50326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

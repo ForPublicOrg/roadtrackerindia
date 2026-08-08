@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 35.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruvarur, Tamil Nadu",
     "end": "Kodavasal, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Kodavasal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Koradacheri" },
+    { "id": "sh-tn-23", "label": "Met near Thiruvarur" },
+    { "id": "sh-tn-202", "label": "Met near Kuttanallur" },
+    { "id": "sh-tn-65", "label": "Met near Kodavasal" },
+    { "id": "sh-tn-u89", "label": "Met near Koradacheri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruvarur",
@@ -53,12 +68,6 @@
         79.47901,
         10.85097
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

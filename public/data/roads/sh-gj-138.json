@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 70.7,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Talod, Gujarat",
     "end": "Kadi, Gujarat",
@@ -20,6 +21,19 @@
       "Kadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Prantij" },
+    { "id": "nh-68", "label": "Met near Mansa" },
+    { "id": "sh-gj-41", "label": "Met near Kalol" },
+    { "id": "sh-gj-130", "label": "Met near Charada" },
+    { "id": "sh-gj-133", "label": "Met near Kalol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Talod",
@@ -62,12 +76,6 @@
         72.36659,
         23.19956
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

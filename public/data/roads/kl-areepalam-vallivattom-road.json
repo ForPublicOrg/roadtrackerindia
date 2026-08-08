@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kodungallur, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -16,6 +17,16 @@
       "Irinjalakuda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-konathkunnu-poovtham-kadavu-road", "label": "Met near Kodungallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodungallur",
@@ -30,12 +41,6 @@
         76.18265,
         10.29222
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

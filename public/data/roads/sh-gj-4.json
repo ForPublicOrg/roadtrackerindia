@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 59.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Dholka, Gujarat",
     "end": "Sarkhej, Gujarat",
@@ -16,6 +17,19 @@
       "Sarkhej"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-751", "label": "Met near Sarkhej" },
+    { "id": "nh-751d", "label": "Meets this road" },
+    { "id": "nh-147", "label": "Met near Sarkhej" },
+    { "id": "sh-gj-17", "label": "Met near Sarkhej" },
+    { "id": "sh-gj-16", "label": "Met near Dholka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dholka",
@@ -30,12 +44,6 @@
         72.49825,
         22.98439
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

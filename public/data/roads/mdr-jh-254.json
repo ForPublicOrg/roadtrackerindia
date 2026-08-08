@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Sini, Jharkhand",
     "end": "Saraikela, Jharkhand",
@@ -16,6 +17,17 @@
       "Saraikela"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-158", "label": "Met near Sini" },
+    { "id": "mdr-jh-161", "label": "Met near Sini" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sini",
@@ -30,12 +42,6 @@
         85.94689,
         22.78813
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

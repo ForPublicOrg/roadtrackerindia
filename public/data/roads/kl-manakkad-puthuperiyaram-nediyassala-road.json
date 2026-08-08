@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thodupuzha, Kerala",
     "end": "Muttam, Kerala",
@@ -16,6 +17,19 @@
       "Muttam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Thodupuzha" },
+    { "id": "sh-kl-41", "label": "Met near Thodupuzha" },
+    { "id": "kl-manakkad-nediyassala-road", "label": "Met near Thodupuzha" },
+    { "id": "kl-purappuzha-vazhithala-road", "label": "Met near Thodupuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thodupuzha",
@@ -30,12 +44,6 @@
         76.68917,
         9.90291
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

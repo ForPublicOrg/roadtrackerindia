@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bhind, Madhya Pradesh",
     "end": "Mahgawan, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Mahgawan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Bhind" },
+    { "id": "sh-mp-1", "label": "Met near Mahgawan" },
+    { "id": "sh-mp-50a", "label": "Met near Bhind" },
+    { "id": "mdr-mp-107", "label": "Met near Bhind" },
+    { "id": "mdr-mp-106", "label": "Met near Bhind" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhind",
@@ -30,12 +45,6 @@
         78.61813,
         26.4934
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

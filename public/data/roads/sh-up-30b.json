@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 88.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Khairabad, Uttar Pradesh",
     "end": "Bahraich, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Bahraich"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Khairabad" },
+    { "id": "nh-927", "label": "Met near Bahraich" },
+    { "id": "nh-727h", "label": "Met near Biswan" },
+    { "id": "mdr-up-79c", "label": "Meets this road" },
+    { "id": "mdr-up-19c", "label": "Met near Biswan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khairabad",
@@ -39,12 +53,6 @@
         81.57115,
         27.53734
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

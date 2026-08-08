@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anachal, Kerala",
     "end": "Adimali, Kerala",
@@ -16,6 +17,19 @@
       "Adimali"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Adimali" },
+    { "id": "kl-anaviratty-mankadavu-1000-acre-road", "label": "Met near Anachal" },
+    { "id": "kl-koompanpara-adakkacity-narikkunnu-kallar-road", "label": "Met near Adimali" },
+    { "id": "kl-mankadavu-kallarkutty-road", "label": "Met near Anachal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anachal",
@@ -30,12 +44,6 @@
         76.98074,
         10.01113
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

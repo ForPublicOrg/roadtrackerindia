@@ -16,6 +16,22 @@
       "Gangta"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Bhagalpur" },
+    { "id": "nh-333a", "label": "Met near Banka" },
+    { "id": "sh-jh-17", "label": "Meets this road" },
+    { "id": "sh-br-19", "label": "Met near Bhagalpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhagalpur",
@@ -30,16 +46,6 @@
         87.05986,
         24.68078
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

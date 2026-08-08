@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Goharganj, Madhya Pradesh",
     "end": "Obaidullaganj, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Obaidullaganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3031", "label": "Met near Goharganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Goharganj",
@@ -30,12 +41,6 @@
         77.67772,
         23.02643
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -3,6 +3,8 @@ import type { NetworkFC, RoadSummary } from './types'
 export const state = {
   roads: [] as RoadSummary[],
   byId: new Map<string, RoadSummary>(),
+  /** Retired road ids → the road that absorbed them. Keeps old links alive. */
+  aliases: {} as Record<string, string>,
   network: null as NetworkFC | null,
   /** The state/district tier, once the map has zoomed in far enough to want it. */
   networkDetail: null as NetworkFC | null,

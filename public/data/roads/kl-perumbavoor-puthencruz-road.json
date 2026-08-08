@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthencruz, Kerala",
     "end": "Perumbavoor, Kerala",
@@ -16,6 +17,20 @@
       "Perumbavoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Kolenchery" },
+    { "id": "mc-road", "label": "Met near Perumbavoor" },
+    { "id": "sh-kl-1", "label": "Met near Perumbavoor" },
+    { "id": "sh-kl-41", "label": "Met near Kolenchery" },
+    { "id": "sh-kl-16", "label": "Met near Perumbavoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthencruz",
@@ -30,12 +45,6 @@
         76.47554,
         10.11321
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,21 @@
       "Dharampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Nahan" },
+    { "id": "nh-5", "label": "Met near Solan" },
+    { "id": "sh-hp-6", "label": "Met near Solan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nahan",
@@ -31,16 +46,6 @@
         77.06029,
         30.88922
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

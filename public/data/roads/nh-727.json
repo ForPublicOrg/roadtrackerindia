@@ -20,6 +20,23 @@
       "Sagauli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Kushinagar" },
+    { "id": "nh-730", "label": "Met near Padrauna" },
+    { "id": "nh-139w", "label": "Met near Bettiah" },
+    { "id": "nh-527d", "label": "Met near Sagauli" },
+    { "id": "sh-br-54", "label": "Met near Bettiah" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kushinagar",
@@ -55,16 +72,6 @@
         84.72478,
         26.74381
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

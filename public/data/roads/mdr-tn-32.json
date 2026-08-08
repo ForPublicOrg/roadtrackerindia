@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kanakammachathram, Tamil Nadu",
     "end": "Arakkonam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Arakkonam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716", "label": "Met near Kanakammachathram" },
+    { "id": "sh-tn-58", "label": "Met near Arakkonam" },
+    { "id": "sh-tn-61", "label": "Met near Arakkonam" },
+    { "id": "sh-tn-126", "label": "Met near Arakkonam" },
+    { "id": "sh-tn-u91", "label": "Met near Kanakammachathram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanakammachathram",
@@ -30,12 +45,6 @@
         79.67039,
         13.08412
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

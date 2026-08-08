@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mangalapuram, Kerala",
     "end": "Venjaramoodu, Kerala",
@@ -16,6 +17,19 @@
       "Venjaramoodu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Mangalapuram" },
+    { "id": "sh-kl-47", "label": "Met near Attingal" },
+    { "id": "kl-vamanapuram-kalamachal-road", "label": "Met near Attingal" },
+    { "id": "kl-17th-mile-tq-road-to-join-3rd-mile-vejaramoodu-attingal", "label": "Met near Mangalapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangalapuram",
@@ -30,12 +44,6 @@
         76.8627,
         8.68589
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

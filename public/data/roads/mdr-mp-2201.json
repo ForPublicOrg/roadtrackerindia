@@ -17,6 +17,19 @@
       "Ramganj Mandi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 2201, Bhawani Mandi–Ramganj Mandi District road, crosses the border between Rajasthan and Madhya Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-mp-7", "label": "Met near Bhawani Mandi" },
+    { "id": "sh-rj-9a", "label": "Met near Ramganj Mandi" },
+    { "id": "mdr-mp-2202", "label": "Met near Bhawani Mandi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhawani Mandi",
@@ -31,12 +44,6 @@
         75.88405,
         24.58323
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 70.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Sitapur, Uttar Pradesh",
     "end": "Sidhauli, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Sidhauli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Sidhauli" },
+    { "id": "nh-330d", "label": "Met near Misrikh" },
+    { "id": "mdr-up-30c", "label": "Met near Sidhauli" },
+    { "id": "mdr-up-23c", "label": "Met near Sidhauli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sitapur",
@@ -38,12 +52,6 @@
         80.83593,
         27.29046
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

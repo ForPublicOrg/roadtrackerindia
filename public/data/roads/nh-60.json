@@ -1,10 +1,12 @@
 {
   "id": "nh-60",
   "ref": "NH 60",
-  "name": "Dhule–Ozhar National Highway",
+  "name": "Pune–Nashik–Dhule Highway",
+  "aka": ["National Highway 50 (old numbering, Pune–Nashik section)"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 448.4,
+  "lanes": "4 lanes, six in parts",
   "route": {
     "start": "Dhule, Maharashtra",
     "end": "Ozhar, Maharashtra",
@@ -23,6 +25,34 @@
       "Khed"
     ]
   },
+  "history": "National Highway 60 runs north from Pune through Chakan and Sangamner to Nashik, then on through Malegaon to Dhule. The Pune–Nashik half is one of the most heavily industrialised corridors in Maharashtra — the Chakan and Ranjangaon belts along it hold car, tractor and engineering plants — and it carries an enormous amount of factory freight as well as the daily traffic between two large cities.",
+  "facts": [
+    "Runs through the Chakan industrial belt, one of India's biggest vehicle-manufacturing clusters.",
+    "Connects Pune and Nashik, two of Maharashtra's largest cities, in about four hours.",
+    "It is a main route for pilgrims heading from Pune to Shirdi and Trimbakeshwar.",
+    "Nashik's vineyards and Malegaon's powerloom industry both send goods down this road.",
+    "A separate Pune–Nashik industrial expressway has been proposed along the same corridor."
+  ],
+  "significance": "Pune and Nashik are the two poles of Maharashtra's manufacturing away from Mumbai, and this is the road between them. Almost every component and finished vehicle moving between the two travels on it.",
+  "relatedRoads": [
+    { "id": "mumbai-nashik-expressway", "label": "The Mumbai road met at Nashik" },
+    { "id": "samruddhi-mahamarg", "label": "The Mumbai–Nagpur expressway crossing this corridor near Nashik" },
+    { "id": "nh-48", "label": "The Mumbai–Pune–Bengaluru highway met at Pune" },
+    { "id": "pune-ring-road", "label": "Met near Pimpri-Chinchwad" },
+    { "id": "nh-52", "label": "Met near Dhule" },
+    { "id": "nh-53", "label": "Met near Dhule" }
+  ],
+  "travelNotes": "Heavy truck traffic around Chakan at all hours. The Sangamner stretch is the slowest part. Weekend traffic to Shirdi adds to the load.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhule",
@@ -135,16 +165,6 @@
         74.0995,
         19.18525
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

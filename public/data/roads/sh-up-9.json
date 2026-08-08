@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 57.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Nawabganj, Uttar Pradesh",
     "end": "Utraula, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Utraula"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-330", "label": "Met near Nawabganj" },
+    { "id": "nh-727g", "label": "Meets this road" },
+    { "id": "sh-up-26", "label": "Met near Utraula" },
+    { "id": "sh-up-30", "label": "Met near Nawabganj" },
+    { "id": "sh-up-42e", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nawabganj",
@@ -30,12 +44,6 @@
         82.41359,
         27.31001
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

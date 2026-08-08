@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thuvakudi, Tamil Nadu",
     "end": "Jabamalaipuram, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Jabamalaipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-99", "label": "Met near Vallam" },
+    { "id": "sh-tn-u61", "label": "Met near Thanjavur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thuvakudi",
@@ -31,12 +43,6 @@
         79.12597,
         10.79714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

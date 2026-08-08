@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dharmapuri, Madhya Pradesh",
     "end": "Guljhiri, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Guljhiri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-36", "label": "Met near Dharmapuri" },
+    { "id": "mdr-mp-4622", "label": "Met near Guljhiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharmapuri",
@@ -30,12 +42,6 @@
         75.37011,
         22.23577
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,22 @@
       "Arang"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Arang" },
+    { "id": "nh-59", "label": "Met near Bangomunda" },
+    { "id": "sh-or-3", "label": "Met near Nuapada" },
+    { "id": "sh-or-16", "label": "Met near Bangomunda" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bangomunda",
@@ -62,16 +78,6 @@
         82.0285,
         21.16321
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

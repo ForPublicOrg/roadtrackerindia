@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 37.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Majhagawan, Madhya Pradesh",
     "end": "Atarra Buzurg, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Atarra Buzurg"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-901", "label": "Met near Kalinjar" },
+    { "id": "mdr-mp-902", "label": "Met near Majhagawan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Majhagawan",
@@ -30,12 +42,6 @@
         80.60653,
         25.13641
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

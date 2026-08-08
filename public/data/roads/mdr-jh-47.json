@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Jharia, Jharkhand",
     "end": "Baliapur, Jharkhand",
@@ -16,6 +17,20 @@
       "Baliapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-218", "label": "Met near Jharia" },
+    { "id": "sh-jh-12", "label": "Met near Jharia" },
+    { "id": "mdr-jh-65", "label": "Met near Baliapur" },
+    { "id": "mdr-jh-66", "label": "Met near Baliapur" },
+    { "id": "mdr-jh-58", "label": "Met near Jharia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jharia",
@@ -37,12 +52,6 @@
         86.52511,
         23.71997
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

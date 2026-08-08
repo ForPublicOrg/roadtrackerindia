@@ -18,6 +18,22 @@
       "Muzaffarpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-122b", "label": "A branch off this highway, running Hajipur to Mansurchak" },
+    { "id": "nh-31", "label": "Met near Barauni" },
+    { "id": "nh-22", "label": "Met near Muzaffarpur" },
+    { "id": "nh-322", "label": "Met near Samastipur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barauni",
@@ -53,16 +69,6 @@
         85.38129,
         26.09356
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

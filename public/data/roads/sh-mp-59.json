@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Indore, Madhya Pradesh",
     "end": "Ujjain, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Ujjain"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-752d", "label": "Met near Ujjain" },
+    { "id": "nh-552g", "label": "Met near Ujjain" },
+    { "id": "sh-mp-64", "label": "Met near Freeganj" },
+    { "id": "mdr-mp-4513", "label": "Met near Indore" },
+    { "id": "mdr-mp-4502", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Indore",
@@ -30,12 +44,6 @@
         75.78174,
         23.18051
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

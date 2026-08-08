@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Shoolagiri, Tamil Nadu",
     "end": "Hosur, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Hosur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Shoolagiri" },
+    { "id": "nh-48", "label": "Met near Shoolagiri" },
+    { "id": "sh-tn-226", "label": "Met near Hosur" },
+    { "id": "sh-tn-17c", "label": "Met near Hosur" },
+    { "id": "sh-tn-u57", "label": "Met near Shoolagiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shoolagiri",
@@ -30,12 +45,6 @@
         77.97362,
         12.80525
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

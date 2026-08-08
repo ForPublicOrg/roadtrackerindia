@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 63.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chaibasa, Jharkhand",
     "end": "Adityapur, Jharkhand",
@@ -17,6 +18,19 @@
       "Adityapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Chaibasa" },
+    { "id": "nh-220", "label": "Met near Saraikela" },
+    { "id": "mdr-jh-172", "label": "Met near Govindpur" },
+    { "id": "mdr-jh-175", "label": "Met near Chaibasa" },
+    { "id": "mdr-jh-160", "label": "Met near Saraikela" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chaibasa",
@@ -38,12 +52,6 @@
         86.17713,
         22.7858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

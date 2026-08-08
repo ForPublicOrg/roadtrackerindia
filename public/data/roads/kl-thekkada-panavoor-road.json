@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pazhakutty, Kerala",
     "end": "Netta, Kerala",
@@ -16,6 +17,19 @@
       "Netta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-47", "label": "Met near Nedumangad" },
+    { "id": "kl-puthenpalam-venjaramood-road", "label": "Met near Nedumangad" },
+    { "id": "kl-chirathalakkal-madapuram-moonnanakuzhi-road", "label": "Met near Venjaramoodu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pazhakutty",
@@ -30,12 +44,6 @@
         76.98298,
         8.66482
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

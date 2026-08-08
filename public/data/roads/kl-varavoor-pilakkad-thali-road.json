@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ottupara, Kerala",
     "end": "Pattambi, Kerala",
@@ -16,6 +17,17 @@
       "Pattambi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-chittanda-thalassery-road", "label": "Met near Shoranur" },
+    { "id": "kl-arangottukara-thali-thichur-road", "label": "Met near Pattambi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ottupara",
@@ -30,12 +42,6 @@
         76.19662,
         10.73524
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

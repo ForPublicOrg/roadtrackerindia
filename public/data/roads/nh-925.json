@@ -16,6 +16,21 @@
       "Gadra Road"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-925a", "label": "A branch off this highway, running Chitalwana to Dhorimanna" },
+    { "id": "nh-25", "label": "Met near Gadra Road" },
+    { "id": "mdr-rj-17", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chitalwana",
@@ -30,16 +45,6 @@
         70.78576,
         25.71627
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

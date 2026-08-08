@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vaniyambadi, Tamil Nadu",
     "end": "Solaiyūr, Tamil Nadu",
@@ -16,6 +17,13 @@
       "Solaiyūr"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vaniyambadi",
@@ -30,12 +38,6 @@
         78.546,
         12.68997
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,18 @@
       "Kurundwad"
     ]
   },
+  "significance": "SH 137, Miraj–Kurundwad State Highway, crosses the border between Maharashtra and Karnataka. A state road that runs through more than one state has no single owner — Maharashtra PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-166", "label": "Met near Miraj" },
+    { "id": "sh-mh-129", "label": "Met near Kurundwad" },
+    { "id": "sh-ka-98", "label": "Met near Kurundwad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Miraj",
@@ -31,12 +43,6 @@
         74.59058,
         16.67893
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

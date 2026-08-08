@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koothuparamba, Kerala",
     "end": "Thalassery, Kerala",
@@ -16,6 +17,19 @@
       "Thalassery"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-30", "label": "Met near Koothuparamba" },
+    { "id": "mdr-kl-17", "label": "Met near Thalassery" },
+    { "id": "kl-kolassery-kayalode-road", "label": "Met near Thalassery" },
+    { "id": "kl-kappummal-kadirur-road", "label": "Met near Koothuparamba" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothuparamba",
@@ -30,12 +44,6 @@
         75.49088,
         11.78953
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,22 @@
       "Anantapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Anantapur" },
+    { "id": "nh-150a", "label": "Met near Molakalmuru" },
+    { "id": "sh-ka-65", "label": "Met near Molakalmuru" },
+    { "id": "sh-ka-2", "label": "Met near Molakalmuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devareddihalli",
@@ -62,16 +78,6 @@
         77.58749,
         14.68398
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

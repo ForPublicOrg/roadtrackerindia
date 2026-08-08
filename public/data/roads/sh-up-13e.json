@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 12.1,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Khadda, Uttar Pradesh",
     "end": "Siswa Bazar, Uttar Pradesh",
@@ -16,6 +17,15 @@
       "Siswa Bazar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-727", "label": "Met near Khadda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khadda",
@@ -30,12 +40,6 @@
         83.86803,
         27.17278
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

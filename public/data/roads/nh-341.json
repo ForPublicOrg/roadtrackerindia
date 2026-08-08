@@ -18,6 +18,21 @@
       "Bhuj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-41", "label": "Met near Gandhidham" },
+    { "id": "sh-gj-46", "label": "Met near Anjar" },
+    { "id": "sh-gj-451", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gandhidham",
@@ -39,16 +54,6 @@
         69.67873,
         23.25377
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

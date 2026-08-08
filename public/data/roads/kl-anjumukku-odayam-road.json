@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Varkala, Kerala",
     "end": "Chavarcode, Kerala",
@@ -16,6 +17,18 @@
       "Chavarcode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-varkala-edava-kappil-bridge-approach-road", "label": "Met near Varkala" },
+    { "id": "kl-venkulam-guest-house-road", "label": "Met near Varkala" },
+    { "id": "kl-punnamoodu-kurakanni-road", "label": "Met near Varkala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Varkala",
@@ -30,12 +43,6 @@
         76.71028,
         8.75135
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

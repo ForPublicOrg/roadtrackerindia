@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 77.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Jhunjhunu, Rajasthan",
     "end": "Taranagar, Rajasthan",
@@ -17,6 +18,19 @@
       "Taranagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Rajgarh" },
+    { "id": "nh-11", "label": "Met near Jhunjhunu" },
+    { "id": "sh-rj-6", "label": "Met near Taranagar" },
+    { "id": "sh-rj-41", "label": "Met near Rajgarh" },
+    { "id": "mdr-rj-82", "label": "Met near Mandrella" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhunjhunu",
@@ -38,12 +52,6 @@
         75.14909,
         28.66542
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

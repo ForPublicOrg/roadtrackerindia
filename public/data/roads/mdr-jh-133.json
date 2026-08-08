@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.9,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Dhekuriatola, Jharkhand",
     "end": "Bhawnathpur, Jharkhand",
@@ -16,6 +17,17 @@
       "Bhawnathpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-134", "label": "Met near Bhawnathpur" },
+    { "id": "mdr-jh-138", "label": "Met near Bhawnathpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhekuriatola",
@@ -30,12 +42,6 @@
         83.42937,
         24.42209
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 10.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kilimanoor, Kerala",
     "end": "Attingal, Kerala",
@@ -16,6 +17,19 @@
       "Attingal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Attingal" },
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Kilimanoor" },
+    { "id": "mc-road", "label": "Met near Kilimanoor" },
+    { "id": "sh-kl-1", "label": "Met near Kilimanoor" },
+    { "id": "kl-nagaroor-kallambalam-road", "label": "Met near Kilimanoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kilimanoor",
@@ -30,12 +44,6 @@
         76.81277,
         8.72112
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

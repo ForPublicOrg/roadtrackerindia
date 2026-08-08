@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mecheri, Tamil Nadu",
     "end": "Salem Camp, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Salem Camp"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-222", "label": "Met near Mecheri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mecheri",
@@ -30,12 +41,6 @@
         77.9257,
         11.86669
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

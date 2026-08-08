@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thirukazhukundram, Tamil Nadu",
     "end": "Pakshitīrtham, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Pakshitīrtham"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-3628", "label": "Met near Thirukazhukundram" },
+    { "id": "odr-tn-2792", "label": "Met near Thirukazhukundram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thirukazhukundram",
@@ -30,12 +42,6 @@
         80.11547,
         12.58155
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

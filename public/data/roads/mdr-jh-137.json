@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bishnupur, Jharkhand",
     "end": "Garhwa, Jharkhand",
@@ -16,6 +17,13 @@
       "Garhwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bishnupur",
@@ -30,12 +38,6 @@
         83.80418,
         24.15907
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

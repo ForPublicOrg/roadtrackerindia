@@ -18,6 +18,18 @@
       "Nanauta"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Nanauta" },
+    { "id": "nh-709b", "label": "Met near Nanauta" },
+    { "id": "nh-344g", "label": "Met near Nanauta" },
+    { "id": "sh-up-59", "label": "Met near Deoband" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Purkaji",
@@ -39,12 +51,6 @@
         77.42585,
         29.71428
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

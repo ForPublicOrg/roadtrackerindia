@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Narayanpur, Jharkhand",
     "end": "Madhupur, Jharkhand",
@@ -16,6 +17,20 @@
       "Madhupur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Madhupur" },
+    { "id": "sh-jh-14", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-237", "label": "Met near Narayanpur" },
+    { "id": "mdr-jh-226", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-227", "label": "Met near Madhupur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narayanpur",
@@ -30,12 +45,6 @@
         86.6447,
         24.26714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

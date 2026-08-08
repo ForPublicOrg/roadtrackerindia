@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Koduvai, Tamil Nadu",
     "end": "Kovil Vazhi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kovil Vazhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Koduvai" },
+    { "id": "nh-381", "label": "Met near Kovil Vazhi" },
+    { "id": "mdr-tn-611", "label": "Met near Kovil Vazhi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koduvai",
@@ -30,12 +42,6 @@
         77.38912,
         11.05895
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

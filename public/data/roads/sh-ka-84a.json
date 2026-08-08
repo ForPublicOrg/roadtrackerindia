@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16.8,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Alanahalli, Karnataka",
     "end": "Tirumakudalu Narasipura, Karnataka",
@@ -16,6 +17,17 @@
       "Tirumakudalu Narasipura"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Mysuru" },
+    { "id": "sh-ka-84", "label": "Met near Tirumakudalu Narasipura" },
+    { "id": "sh-ka-84b", "label": "Met near Nanjanagudu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alanahalli",
@@ -30,12 +42,6 @@
         76.8012,
         12.15267
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

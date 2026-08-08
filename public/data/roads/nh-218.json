@@ -18,6 +18,23 @@
       "Purulia"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Purulia" },
+    { "id": "nh-18", "label": "Met near Dhanbad" },
+    { "id": "nh-314", "label": "Met near Purulia" },
+    { "id": "sh-wb-5", "label": "Met near Purulia" },
+    { "id": "sh-jh-12", "label": "Met near Pathardih" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanbad",
@@ -39,16 +56,6 @@
         86.35387,
         23.3375
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pettavaithalai, Tamil Nadu",
     "end": "Keelaveliyur, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Keelaveliyur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Pettavaithalai" },
+    { "id": "mdr-tn-12", "label": "Met near Keelaveliyur" },
+    { "id": "mdr-tn-1258", "label": "Met near Keelaveliyur" },
+    { "id": "mdr-tn-1257", "label": "Met near Pettavaithalai" },
+    { "id": "mdr-tn-866", "label": "Met near Pettavaithalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pettavaithalai",
@@ -30,12 +45,6 @@
         78.5102,
         10.74587
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 96.4,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Haileymandi, Haryana",
     "end": "Hodal, Haryana",
@@ -19,6 +20,19 @@
       "Hodal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Hodal" },
+    { "id": "nh-48", "label": "Met near Bhiwadi" },
+    { "id": "nh-248a", "label": "Met near Nuh" },
+    { "id": "nh-352", "label": "Met near Haileymandi" },
+    { "id": "nh-919", "label": "Met near Tauru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Haileymandi",
@@ -54,12 +68,6 @@
         77.36241,
         27.90393
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

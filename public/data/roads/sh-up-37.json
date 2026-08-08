@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 56.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kichha, Uttarakhand",
     "end": "Izatnagar, Uttar Pradesh",
@@ -18,6 +19,16 @@
       "Izatnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Kichha" },
+    { "id": "nh-530", "label": "Met near Bareilly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kichha",
@@ -39,12 +50,6 @@
         79.42059,
         28.38787
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

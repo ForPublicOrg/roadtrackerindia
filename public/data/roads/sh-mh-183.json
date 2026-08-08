@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 207.6,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Kinwat, Maharashtra",
     "end": "Deulgaon Raja, Maharashtra",
@@ -19,6 +20,19 @@
       "Deulgaon Raja"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Sindkhed Raja" },
+    { "id": "nh-548c", "label": "Met near Lonar" },
+    { "id": "nh-161a", "label": "Meets this road" },
+    { "id": "nh-361", "label": "Meets this road" },
+    { "id": "nh-161", "label": "Met near Washim" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kinwat",
@@ -54,12 +68,6 @@
         76.02973,
         20.00509
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

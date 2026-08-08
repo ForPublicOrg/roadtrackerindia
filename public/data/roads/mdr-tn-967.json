@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Begambur, Tamil Nadu",
     "end": "Attur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Attur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Dindigul" },
+    { "id": "nh-381", "label": "Met near Attur" },
+    { "id": "mdr-tn-904", "label": "Met near Attur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Begambur",
@@ -30,12 +43,6 @@
         77.85109,
         10.35424
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

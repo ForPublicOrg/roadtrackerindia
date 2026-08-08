@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 62.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Solar, Tamil Nadu",
     "end": "Mulanur, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Mulanur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Vellakovil" },
+    { "id": "nh-381a", "label": "Met near Erode" },
+    { "id": "sh-tn-21", "label": "Met near Mulanur" },
+    { "id": "sh-tn-84", "label": "Met near Erode" },
+    { "id": "sh-tn-189", "label": "Met near Muthur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Solar",
@@ -47,12 +61,6 @@
         77.7107,
         10.79518
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

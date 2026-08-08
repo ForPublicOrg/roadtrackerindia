@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Jalakandapuram, Tamil Nadu",
     "end": "Taramangalam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Taramangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-86", "label": "Met near Taramangalam" },
+    { "id": "sh-tn-220", "label": "Met near Jalakandapuram" },
+    { "id": "sh-tn-219a", "label": "Met near Jalakandapuram" },
+    { "id": "mdr-tn-1128", "label": "Met near Jalakandapuram" },
+    { "id": "mdr-tn-1130", "label": "Met near Jalakandapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jalakandapuram",
@@ -30,12 +45,6 @@
         77.95014,
         11.6456
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

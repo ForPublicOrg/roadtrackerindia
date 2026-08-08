@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 107.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Velloorkunnam, Kerala",
     "end": "Thookkupalam, Kerala",
@@ -20,6 +21,19 @@
       "Thookkupalam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Muvattupuzha" },
+    { "id": "nh-185", "label": "Met near Kattappana" },
+    { "id": "sh-kl-59", "label": "Met near Kattappana" },
+    { "id": "sh-kl-40", "label": "Met near Thookkupalam" },
+    { "id": "sh-kl-44", "label": "Met near Thodupuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Velloorkunnam",
@@ -62,12 +76,6 @@
         77.2064,
         9.77884
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

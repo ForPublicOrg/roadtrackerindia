@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 224.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Gangapur City, Rajasthan",
     "end": "Dharuhera, Haryana",
@@ -22,6 +23,19 @@
       "Dharuhera"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Bandikui" },
+    { "id": "nh-21", "label": "Met near Sikandra" },
+    { "id": "nh-23", "label": "Met near Gangapur City" },
+    { "id": "nh-248a", "label": "Met near Alwar" },
+    { "id": "nh-919", "label": "Met near Bhiwadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gangapur City",
@@ -92,12 +106,6 @@
         76.80718,
         28.20829
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

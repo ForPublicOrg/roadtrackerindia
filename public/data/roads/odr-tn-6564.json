@@ -17,6 +17,17 @@
       "Pazhaverkadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "ODR 6564, Gummidipoondi–Pazhaverkadu District road, crosses the border between Tamil Nadu and Andhra Pradesh. A state road that runs through more than one state has no single owner — TN Highways and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "odr-tn-2517", "label": "Met near Gummidipoondi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gummidipoondi",
@@ -31,12 +42,6 @@
         80.21755,
         13.48503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chetpet, Tamil Nadu",
     "end": "Giingee, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Giingee"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-4", "label": "Met near Giingee" },
+    { "id": "sh-tn-4a", "label": "Meets this road" },
+    { "id": "sh-tn-133a", "label": "Meets this road" },
+    { "id": "mdr-tn-730a", "label": "Met near Giingee" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chetpet",
@@ -30,12 +43,6 @@
         79.37839,
         12.34702
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

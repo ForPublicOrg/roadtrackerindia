@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruvattar, Tamil Nadu",
     "end": "Thuckalay, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Thuckalay"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thiruvattar" },
+    { "id": "sh-tn-180", "label": "Met near Thiruvattar" },
+    { "id": "mdr-tn-488", "label": "Met near Thiruvattar" },
+    { "id": "mdr-tn-269", "label": "Met near Thiruvattar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruvattar",
@@ -30,12 +44,6 @@
         77.31753,
         8.30691
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gaurjhamar, Madhya Pradesh",
     "end": "Kesli, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Kesli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Gaurjhamar" },
+    { "id": "mdr-mp-1925", "label": "Met near Gaurjhamar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gaurjhamar",
@@ -30,12 +42,6 @@
         78.91133,
         23.53714
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

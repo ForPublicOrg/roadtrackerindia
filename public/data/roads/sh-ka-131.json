@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 202.1,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kamalapura, Karnataka",
     "end": "Hagaribommanahalli, Karnataka",
@@ -18,6 +19,19 @@
       "Hagaribommanahalli"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Hagaribommanahalli" },
+    { "id": "nh-50", "label": "Meets this road" },
+    { "id": "nh-67", "label": "Met near Kamalapura" },
+    { "id": "nh-150a", "label": "Met near Ramapura" },
+    { "id": "sh-ka-45", "label": "Met near Kotturu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kamalapura",
@@ -46,12 +60,6 @@
         76.21343,
         15.04844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

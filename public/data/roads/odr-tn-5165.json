@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pattunool Chataram, Tamil Nadu",
     "end": "SIPCOT Vallam Vadagal, Tamil Nadu",
@@ -17,6 +18,13 @@
       "SIPCOT Vallam Vadagal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pattunool Chataram",
@@ -31,12 +39,6 @@
         79.95245,
         12.92325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

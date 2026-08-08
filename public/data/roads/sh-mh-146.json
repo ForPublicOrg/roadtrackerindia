@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 62.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Ahilyanagar, Maharashtra",
     "end": "Kedgaon, Maharashtra",
@@ -17,6 +18,19 @@
       "Kedgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Ahilyanagar" },
+    { "id": "nh-61", "label": "Met near Ahilyanagar" },
+    { "id": "nh-753f", "label": "Met near Kedgaon" },
+    { "id": "nh-160", "label": "Met near MIDC" },
+    { "id": "ahmednagar-bypass", "label": "Met near Ahilyanagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ahilyanagar",
@@ -38,12 +52,6 @@
         74.65606,
         19.06912
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

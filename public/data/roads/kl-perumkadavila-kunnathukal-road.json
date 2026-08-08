@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Parassala, Kerala",
     "end": "Neyyatinkara, Kerala",
@@ -16,6 +17,20 @@
       "Neyyatinkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-amaravila-ottasekharamangalam-road", "label": "Met near Neyyatinkara" },
+    { "id": "kl-manchavilakam-road", "label": "Met near Parassala" },
+    { "id": "kl-amaravila-karakonam-road", "label": "Met near Parassala" },
+    { "id": "kl-chulliyoor-chadachimarthandam-road", "label": "Met near Neyyatinkara" },
+    { "id": "kl-mylachal-koranamcode-road", "label": "Met near Neyyatinkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parassala",
@@ -30,12 +45,6 @@
         77.10989,
         8.44093
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

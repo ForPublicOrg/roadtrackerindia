@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thachudaparambu, Kerala",
     "end": "Potta, Kerala",
@@ -16,6 +17,18 @@
       "Potta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-51", "label": "Met near Chalakudy" },
+    { "id": "mdr-kl-187", "label": "Met near Chalakudy" },
+    { "id": "mdr-kl-109", "label": "Met near Chalakudy" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thachudaparambu",
@@ -30,12 +43,6 @@
         76.27797,
         10.29743
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 117.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Satai, Madhya Pradesh",
     "end": "Banda, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Banda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Satai" },
+    { "id": "nh-39", "label": "Met near Bamitha" },
+    { "id": "nh-339b", "label": "Met near Bamitha" },
+    { "id": "sh-mp-12", "label": "Meets this road" },
+    { "id": "mdr-mp-1611", "label": "Met near Bamitha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satai",
@@ -30,12 +44,6 @@
         80.18673,
         25.37167
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

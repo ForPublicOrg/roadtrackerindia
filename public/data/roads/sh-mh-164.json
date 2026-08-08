@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Umarga, Maharashtra",
     "end": "Alanda, Karnataka",
@@ -16,6 +17,18 @@
       "Alanda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Umarga" },
+    { "id": "nh-548b", "label": "Met near Umarga" },
+    { "id": "sh-ka-124", "label": "Met near Umarga" },
+    { "id": "sh-ka-32", "label": "Met near Umarga" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Umarga",
@@ -30,12 +43,6 @@
         76.58768,
         17.84847
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

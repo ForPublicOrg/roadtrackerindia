@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruvetipuram, Tamil Nadu",
     "end": "Vandavasi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Vandavasi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-179b", "label": "Met near Tiruvetipuram" },
+    { "id": "sh-tn-118", "label": "Met near Tiruvetipuram" },
+    { "id": "odr-tn-6730", "label": "Met near Tiruvetipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruvetipuram",
@@ -30,12 +43,6 @@
         79.67926,
         12.62591
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

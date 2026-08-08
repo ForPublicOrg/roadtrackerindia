@@ -1,10 +1,11 @@
 {
   "id": "nh-59",
   "ref": "NH 59",
-  "name": "Gopalpur–Bangomunda National Highway",
+  "name": "Gopalpur–Bangomunda Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 359.5,
+  "lanes": "2 lanes",
   "route": {
     "start": "Gopalpur, Odisha",
     "end": "Bangomunda, Odisha",
@@ -20,6 +21,32 @@
       "Bangomunda"
     ]
   },
+  "history": "National Highway 59 starts at the beach town of Gopalpur on the Odisha coast and climbs inland through Berhampur and the Kandhamal hills at Daringbadi, then on through Titlagarh to Bangomunda in Balangir district. It is the road that links the southern coast of Odisha to its western interior, over some of the most forested and hilly country in the state.",
+  "facts": [
+    "Begins at Gopalpur, a small port and beach town on the Bay of Bengal.",
+    "Climbs through Daringbadi, a hill town so cool in winter that Odisha calls it its Kashmir.",
+    "Crosses the Kandhamal hills, one of the most heavily forested parts of the state.",
+    "The old NH 59 was the Ahmedabad–Indore road — a different route entirely."
+  ],
+  "significance": "It is the main road between the southern Odisha coast and the western districts, and one of the few good roads through the Kandhamal hills.",
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Brahmapur" },
+    { "id": "nh-26", "label": "Met near Kesinga" },
+    { "id": "nh-326", "label": "Met near Asika" },
+    { "id": "nh-157", "label": "Met near Asika" },
+    { "id": "nh-353", "label": "Met near Bangomunda" }
+  ],
+  "travelNotes": "Winding and slow through the hills around Daringbadi, and beautiful. Forest stretches have little traffic and few services after dark.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gopalpur",
@@ -76,16 +103,6 @@
         82.9077,
         20.34056
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

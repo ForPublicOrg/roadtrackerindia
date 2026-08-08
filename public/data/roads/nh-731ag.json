@@ -16,6 +16,21 @@
       "Manikpur Sarhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-35", "label": "Met near Rajapur" },
+    { "id": "nh-731a", "label": "Met near Rajapur" },
+    { "id": "mdr-up-26b", "label": "Met near Rajapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajapur",
@@ -30,16 +45,6 @@
         81.12395,
         25.23183
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

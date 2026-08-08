@@ -16,6 +16,10 @@
     "states": ["Haryana", "Uttar Pradesh"],
     "majorCities": ["Kundli", "Baghpat", "Ghaziabad", "Greater Noida", "Palwal"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled by distance and FASTag only. Commercial vehicles merely passing Delhi are meant to use this road rather than enter the city. Rates are revised every 1 April."
+  },
   "timeline": [
     { "year": "2015", "event": "Prime Minister lays the foundation stone (5 November)" },
     { "year": "2018", "event": "Inaugurated and opened to traffic (27 May), built in about 500 days" },
@@ -48,11 +52,20 @@
     { "name": "Palwal (NH 44)", "note": "southern end, on the Delhi–Mathura–Agra highway, where the Western Peripheral Expressway comes back in" }
   ],
   "relatedRoads": [
-    { "id": "western-peripheral-expressway", "label": "The other half of the ring, looping around the west side of Delhi" },
+    {
+      "id": "western-peripheral-expressway",
+      "label": "The other half of the ring, looping around the west side of Delhi"
+    },
     { "id": "delhi-meerut-expressway", "label": "Crosses at Dasna, the fast road between Delhi and Meerut" },
     { "id": "yamuna-expressway", "label": "Crosses near Jaganpur on its way from Greater Noida to Agra" },
     { "id": "delhi-dehradun-expressway", "label": "Meets the ring at the Khekra interchange near Baghpat" },
-    { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway, met at both ends of the ring — at Kundli in the north and Palwal in the south" }
+    {
+      "id": "nh-44",
+      "label": "The Srinagar–Kanyakumari highway, met at both ends of the ring — at Kundli in the north and Palwal in the south"
+    },
+    { "id": "nh-34", "label": "Met near Muradnagar" },
+    { "id": "nh-9", "label": "Met near Ghaziabad" },
+    { "id": "nh-709b", "label": "Met near Baghpat" }
   ],
   "travelNotes": "Driving the whole 135 km takes about two hours at the 120 km/h limit. Tolling is closed, so your FASTag is read where you enter and again where you leave. There are long gaps between fuel pumps and food stops, so fill up before you get on. Trucks dominate at night, and thick fog can slow the road badly in December and January.",
   "sources": [

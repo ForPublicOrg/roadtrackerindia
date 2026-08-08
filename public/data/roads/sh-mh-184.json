@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 72.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Sillod, Maharashtra",
     "end": "Pachora, Maharashtra",
@@ -16,6 +17,19 @@
       "Pachora"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-753f", "label": "Met near Sillod" },
+    { "id": "nh-753j", "label": "Met near Pachora" },
+    { "id": "sh-mh-19", "label": "Met near Pachora" },
+    { "id": "sh-mh-24", "label": "Met near Pachora" },
+    { "id": "sh-mh-178", "label": "Met near Sillod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sillod",
@@ -30,12 +44,6 @@
         75.36415,
         20.66586
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

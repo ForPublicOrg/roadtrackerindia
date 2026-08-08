@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palani, Tamil Nadu",
     "end": "Adivaram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Adivaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-153", "label": "Met near Palani" },
+    { "id": "sh-tn-83", "label": "Met near Palani" },
+    { "id": "mdr-tn-901", "label": "Met near Palani" },
+    { "id": "mdr-tn-310", "label": "Met near Palani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palani",
@@ -30,12 +43,6 @@
         77.51969,
         10.4487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

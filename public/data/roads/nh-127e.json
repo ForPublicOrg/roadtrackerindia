@@ -16,6 +16,22 @@
       "Barama"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Barama" },
+    { "id": "sh-as-10", "label": "Met near Barama" },
+    { "id": "sh-as-6", "label": "Met near Mushalpur" },
+    { "id": "sh-as-10a", "label": "Met near Barama" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Samdrup Jongkhar",
@@ -30,16 +46,6 @@
         91.35046,
         26.52495
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

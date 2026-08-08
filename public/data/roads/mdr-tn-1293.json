@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pudupalayam, Tamil Nadu",
     "end": "Sankarankovil, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Sankarankovil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Rajapalayam" },
+    { "id": "sh-tn-44", "label": "Met near Sankarankovil" },
+    { "id": "sh-tn-41", "label": "Met near Sankarankovil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pudupalayam",
@@ -30,12 +43,6 @@
         77.54736,
         9.30006
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Solar, Tamil Nadu",
     "end": "Tiruchengodu, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tiruchengodu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-86", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-198", "label": "Met near Erode" },
+    { "id": "sh-tn-261", "label": "Met near Erode" },
+    { "id": "mdr-tn-592", "label": "Met near Tiruchengodu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Solar",
@@ -30,12 +44,6 @@
         77.88875,
         11.36606
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

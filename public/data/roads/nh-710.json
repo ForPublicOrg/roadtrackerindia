@@ -19,6 +19,20 @@
       "Ravangla"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-10", "label": "Met near Kalimpong" },
+    { "id": "nh-510", "label": "Met near Namchi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Namchi",
@@ -54,16 +68,6 @@
         88.39123,
         27.22963
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Cheran Nagar, Tamil Nadu",
     "end": "Kozhinjampara, Kerala",
@@ -17,6 +18,16 @@
       "Kozhinjampara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Pollachi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheran Nagar",
@@ -31,12 +42,6 @@
         76.89041,
         10.72497
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

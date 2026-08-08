@@ -17,6 +17,22 @@
       "Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Attari" },
+    { "id": "nh-354", "label": "Met near Green Acres" },
+    { "id": "nh-503a", "label": "Met near Verka" },
+    { "id": "mdr-pb-65", "label": "Met near Amritsar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Green Acres",
@@ -45,16 +61,6 @@
         74.75613,
         31.71109
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

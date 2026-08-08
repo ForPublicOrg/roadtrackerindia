@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dharmapuri, Madhya Pradesh",
     "end": "Julwania, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Julwania"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Julwania" },
+    { "id": "nh-347b", "label": "Met near Julwania" },
+    { "id": "mdr-mp-4801", "label": "Met near Dharmapuri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharmapuri",
@@ -30,12 +43,6 @@
         75.30253,
         21.9852
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

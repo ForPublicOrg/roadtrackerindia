@@ -18,6 +18,23 @@
       "Modasa"
     ]
   },
+  "relatedRoads": [
+    { "id": "ahmedabad-vadodara-expressway", "label": "Met near Nadiad" },
+    { "id": "nh-48", "label": "Meets this road" },
+    { "id": "nh-64", "label": "Met near Nadiad" },
+    { "id": "nh-168g", "label": "Meets this road" },
+    { "id": "sh-gj-5", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadiad",
@@ -53,16 +70,6 @@
         73.31371,
         23.46566
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

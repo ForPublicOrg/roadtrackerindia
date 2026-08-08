@@ -24,6 +24,23 @@
       "Tonk"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Sawai Madhopur" },
+    { "id": "nh-44", "label": "Met near Morena" },
+    { "id": "nh-27", "label": "Met near Chirgaon" },
+    { "id": "nh-52", "label": "Met near Tonk" },
+    { "id": "nh-148d", "label": "Met near Uniara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chirgaon",
@@ -108,16 +125,6 @@
         75.79231,
         26.15019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

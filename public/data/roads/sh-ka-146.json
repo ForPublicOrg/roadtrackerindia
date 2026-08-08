@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 58.9,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Sanguem, Goa",
     "end": "Joida, Karnataka",
@@ -16,6 +17,16 @@
       "Joida"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-ka-34", "label": "Met near Joida" },
+    { "id": "sh-ka-46", "label": "Met near Joida" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sanguem",
@@ -30,12 +41,6 @@
         74.50924,
         15.00561
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

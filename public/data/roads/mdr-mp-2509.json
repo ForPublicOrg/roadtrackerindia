@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sailana, Madhya Pradesh",
     "end": "Piploda, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Piploda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-927a", "label": "Met near Sailana" },
+    { "id": "mdr-mp-2510", "label": "Met near Sailana" },
+    { "id": "mdr-mp-2508", "label": "Met near Piploda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sailana",
@@ -30,12 +43,6 @@
         74.93977,
         23.59701
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 77.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bagoda, Rajasthan",
     "end": "Chitalwana, Rajasthan",
@@ -16,6 +17,19 @@
       "Chitalwana"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Chitalwana" },
+    { "id": "nh-68", "label": "Met near Chitalwana" },
+    { "id": "sh-rj-16a", "label": "Met near Bagoda" },
+    { "id": "mdr-rj-174", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bagoda",
@@ -30,12 +44,6 @@
         71.65876,
         24.90977
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

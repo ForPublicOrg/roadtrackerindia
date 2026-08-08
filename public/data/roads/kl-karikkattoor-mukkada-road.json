@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manimala, Kerala",
     "end": "Karinkallummoozhi, Kerala",
@@ -16,6 +17,13 @@
       "Karinkallummoozhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manimala",
@@ -30,12 +38,6 @@
         76.79426,
         9.47029
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

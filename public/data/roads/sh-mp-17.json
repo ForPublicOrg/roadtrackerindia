@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 175,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Hatpipliya, Madhya Pradesh",
     "end": "Jirapur, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Jirapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Shajapur" },
+    { "id": "nh-752b", "label": "Met near Jirapur" },
+    { "id": "nh-752c", "label": "Met near Jirapur" },
+    { "id": "sh-mp-25", "label": "Met near Mohan Badodiya" },
+    { "id": "mdr-mp-2603", "label": "Met near Shajapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hatpipliya",
@@ -38,12 +52,6 @@
         76.45149,
         24.02046
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

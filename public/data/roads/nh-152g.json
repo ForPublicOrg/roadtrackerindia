@@ -16,6 +16,25 @@
       "Sadar Bazaar"
     ]
   },
+  "significance": "NH 152G is a branch of NH 152. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Shahbad to Sadar Bazaar, and it meets NH 152 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-152",
+      "label": "NH 152 — the highway this branch takes its number from, running Zirakpur to Narwana"
+    },
+    { "id": "nh-44", "label": "Met near Shahbad" },
+    { "id": "sh-hr-4", "label": "Met near Shahbad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahbad",
@@ -30,16 +49,6 @@
         76.69738,
         30.17691
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

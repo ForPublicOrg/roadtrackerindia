@@ -26,6 +26,23 @@
       "Panagal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Panagal" },
+    { "id": "nh-67", "label": "Met near Marripadu" },
+    { "id": "nh-167", "label": "Meets this road" },
+    { "id": "nh-544d", "label": "Met near Peda Araveedu" },
+    { "id": "nh-544g", "label": "Met near Kanigiri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Yerpedu",
@@ -145,16 +162,6 @@
         79.30839,
         17.15776
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 367,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kumta, Karnataka",
     "end": "Roddam, Andhra Pradesh",
@@ -22,6 +23,19 @@
       "Roddam"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Challakere" },
+    { "id": "nh-48", "label": "Met near Chitradurga" },
+    { "id": "nh-66", "label": "Met near Kumta" },
+    { "id": "nh-150a", "label": "Met near Challakere" },
+    { "id": "nh-369", "label": "Met near Chitradurga" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumta",
@@ -113,12 +127,6 @@
         77.36705,
         14.09668
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,0 +1,123 @@
+{
+  "id": "lbs-marg-mumbai",
+  "ref": "LBS Marg",
+  "name": "Lal Bahadur Shastri Marg",
+  "aka": ["LBS Road", "Agra Road (old name)"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 24.1,
+  "lanes": "4–6 lanes, with a metro line overhead for much of its length",
+  "authority": "bmc",
+  "route": {
+    "start": "Majiwada, Maharashtra",
+    "end": "Sion East, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Majiwada",
+      "Thane",
+      "Bhandup West",
+      "Mumbai",
+      "Sion East"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Lal Bahadur Shastri Marg runs the length of Mumbai's central suburbs, from Sion up through Kurla, Bhandup and Mulund to Thane. It is the old Agra Road — the land route out of Bombay long before the express highways were built — and it still passes through the industrial belt that grew along it: Kurla's mills, Vikhroli's factories, Bhandup's chemical works. Today it is one of the city's three north–south spines, with a metro line running above much of it.",
+  "facts": [
+    "Follows the alignment of the old Agra Road, Bombay's original land route inland.",
+    "Named after Lal Bahadur Shastri, Prime Minister of India from 1964 to 1966.",
+    "One of Mumbai's three main north–south roads, alongside the Western and Eastern Express Highways.",
+    "A metro line runs on an elevated deck above much of the road.",
+    "It passes through Kurla, Vikhroli and Bhandup — the old industrial belt of the central suburbs."
+  ],
+  "significance": "Mumbai is a long, narrow city and everything moves north–south. LBS Marg is the middle one of the three roads that do that, serving the central suburbs that the two express highways miss.",
+  "relatedRoads": [
+    { "id": "eastern-express-highway", "label": "The parallel express highway to the east" },
+    { "id": "western-express-highway", "label": "The parallel express highway on the western side" },
+    { "id": "mumbai-eastern-freeway", "label": "The fast road along the harbour, further east" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Thane" },
+    { "id": "nh-48", "label": "Met near Thane" },
+    { "id": "nh-848", "label": "Met near Thane" }
+  ],
+  "travelNotes": "Slow at almost all hours — it is a working street with shops, junctions and bus stops, not a bypass. Use one of the express highways for a longer trip.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Majiwada",
+      "coords": [
+        72.97732,
+        19.21174
+      ]
+    },
+    {
+      "name": "Thane",
+      "coords": [
+        72.96784,
+        19.19133
+      ]
+    },
+    {
+      "name": "Shree Nagar",
+      "coords": [
+        72.94672,
+        19.18172
+      ]
+    },
+    {
+      "name": "Mulund Colony",
+      "coords": [
+        72.94156,
+        19.17404
+      ]
+    },
+    {
+      "name": "Bhandup West",
+      "coords": [
+        72.93533,
+        19.14533
+      ]
+    },
+    {
+      "name": "Vikhroli West",
+      "coords": [
+        72.92622,
+        19.11646
+      ]
+    },
+    {
+      "name": "Ghatkopar West",
+      "coords": [
+        72.90418,
+        19.0878
+      ]
+    },
+    {
+      "name": "Kurla West",
+      "coords": [
+        72.87548,
+        19.07072
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "coords": [
+        72.86885,
+        19.05487
+      ]
+    },
+    {
+      "name": "Sion East",
+      "coords": [
+        72.86281,
+        19.0466
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

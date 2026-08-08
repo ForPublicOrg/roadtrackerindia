@@ -17,6 +17,20 @@
       "Nowgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Nowgaon" },
+    { "id": "sh-mp-12", "label": "Met near Nowgaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maharajpur",
@@ -31,16 +45,6 @@
         79.44471,
         25.05692
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

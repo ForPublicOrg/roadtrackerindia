@@ -20,6 +20,19 @@
       "Tattapani"
     ]
   },
+  "significance": "SH 9, Baddi–Tattapani State Highway, crosses the border between Haryana and Himachal Pradesh. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and HP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-205", "label": "Met near Tattapani" },
+    { "id": "nh-105", "label": "Met near Baddi" },
+    { "id": "nh-21a", "label": "Met near Baddi" },
+    { "id": "sh-hp-16", "label": "Met near Kunihar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baddi",
@@ -55,12 +68,6 @@
         76.98559,
         31.18941
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

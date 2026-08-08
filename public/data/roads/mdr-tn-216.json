@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thengapattinam, Tamil Nadu",
     "end": "Kuzhithura, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Kuzhithura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kuzhithura" },
+    { "id": "sh-tn-179", "label": "Met near Thengapattinam" },
+    { "id": "sh-tn-91", "label": "Met near Pudukadai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thengapattinam",
@@ -38,12 +51,6 @@
         77.21175,
         8.31044
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

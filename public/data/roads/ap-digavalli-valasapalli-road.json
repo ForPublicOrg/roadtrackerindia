@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Vissannapeta, Andhra Pradesh",
     "end": "Musunuru, Andhra Pradesh",
@@ -16,6 +17,15 @@
       "Musunuru"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-216h", "label": "Met near Nuzvid" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vissannapeta",
@@ -30,12 +40,6 @@
         80.99245,
         16.8708
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

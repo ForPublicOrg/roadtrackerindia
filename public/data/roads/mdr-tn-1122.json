@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 24.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Papanasam, Tamil Nadu",
     "end": "Thiruvaiyaru, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Thiruvaiyaru"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-136", "label": "Met near Thiruvaiyaru" },
+    { "id": "sh-tn-27", "label": "Met near Thiruvaiyaru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Papanasam",
@@ -30,12 +42,6 @@
         79.09073,
         10.95641
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

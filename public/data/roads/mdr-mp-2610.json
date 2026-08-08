@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ujjain, Madhya Pradesh",
     "end": "Jharda, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Jharda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Ujjain" },
+    { "id": "nh-752d", "label": "Met near Ujjain" },
+    { "id": "nh-552g", "label": "Met near Ujjain" },
+    { "id": "sh-mp-16", "label": "Met near Jharda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ujjain",
@@ -30,12 +44,6 @@
         75.65543,
         23.48385
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -21,6 +21,23 @@
       "Gopalganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "gorakhpur-link-expressway", "label": "Met near Sikariganj" },
+    { "id": "nh-27", "label": "Met near Ayodhya" },
+    { "id": "nh-24", "label": "Met near Barhalganj" },
+    { "id": "nh-28", "label": "Met near Tanda" },
+    { "id": "nh-727b", "label": "Met near Salempur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "New Colony",
@@ -70,16 +87,6 @@
         84.60823,
         26.40927
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

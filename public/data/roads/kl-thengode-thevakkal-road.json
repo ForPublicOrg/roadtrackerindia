@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kangarappady, Kerala",
     "end": "Thengode, Kerala",
@@ -17,6 +18,18 @@
       "Thengode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-41", "label": "Met near Thengode" },
+    { "id": "kl-edappally-muvattupuzha-road", "label": "Met near Kangarappady" },
+    { "id": "kl-thevakkal-manalimukku-road", "label": "Met near Kangarappady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kangarappady",
@@ -38,12 +51,6 @@
         76.37165,
         10.03378
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

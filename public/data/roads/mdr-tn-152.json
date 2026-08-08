@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Srivaikuntam, Tamil Nadu",
     "end": "Nanguneri, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Nanguneri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-40", "label": "Met near Srivaikuntam" },
+    { "id": "mdr-tn-403", "label": "Met near Nanguneri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Srivaikuntam",
@@ -30,12 +42,6 @@
         77.77119,
         8.56048
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,20 @@
       "Talasari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Talasari" },
+    { "id": "sh-gj-185", "label": "Met near Silvassa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhilad",
@@ -48,16 +62,6 @@
         72.91764,
         20.13699
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

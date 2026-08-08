@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 41.3,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Faridkot, Punjab",
     "end": "Guru Har Sahai, Punjab",
@@ -16,6 +17,18 @@
       "Guru Har Sahai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-354", "label": "Met near Guru Har Sahai" },
+    { "id": "sh-pb-15", "label": "Met near Faridkot" },
+    { "id": "mdr-pb-71", "label": "Met near Guru Har Sahai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Faridkot",
@@ -30,12 +43,6 @@
         74.40091,
         30.71407
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

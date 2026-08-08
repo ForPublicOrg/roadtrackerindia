@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyangadi, Kerala",
     "end": "Pazhayangadi, Kerala",
@@ -16,6 +17,18 @@
       "Pazhayangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-madayi-mattool-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-madayi-tb-muttam-palakode-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-pazhayangadi-puthiyangadi-road", "label": "Met near Pazhayangadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyangadi",
@@ -37,12 +50,6 @@
         75.24551,
         12.02101
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

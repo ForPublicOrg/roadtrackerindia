@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karinkallummoozhi, Kerala",
     "end": "Ranni, Kerala",
@@ -16,6 +17,20 @@
       "Ranni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183a", "label": "Met near Ranni" },
+    { "id": "kl-jandayickal-athikayam-road", "label": "Met near Ranni" },
+    { "id": "kl-eruvattuppuzha-mampara-maniyar-road", "label": "Met near Ranni" },
+    { "id": "kl-athikkayam-kakkudumon-mandhamaruthy-road", "label": "Met near Ranni" },
+    { "id": "kl-koonamkara-thonikadavu-road", "label": "Met near Ranni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karinkallummoozhi",
@@ -30,12 +45,6 @@
         76.84943,
         9.36745
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

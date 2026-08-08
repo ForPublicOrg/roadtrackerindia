@@ -18,6 +18,22 @@
       "Arrah"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-319a", "label": "A branch off this highway, running Mohania to Chausa" },
+    { "id": "nh-120", "label": "Met near Suryapura" },
+    { "id": "sh-br-17", "label": "Met near Kochas" },
+    { "id": "sh-br-15", "label": "Met near Suryapura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mohania",
@@ -53,16 +69,6 @@
         84.65297,
         25.54055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

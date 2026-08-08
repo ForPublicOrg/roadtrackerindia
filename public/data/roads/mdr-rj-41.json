@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 51.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bijolia, Rajasthan",
     "end": "Jahazpur, Rajasthan",
@@ -16,6 +17,18 @@
       "Jahazpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148d", "label": "Meets this road" },
+    { "id": "sh-rj-29", "label": "Met near Bijolia" },
+    { "id": "mdr-rj-7", "label": "Met near Jahazpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bijolia",
@@ -30,12 +43,6 @@
         75.28739,
         25.57858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

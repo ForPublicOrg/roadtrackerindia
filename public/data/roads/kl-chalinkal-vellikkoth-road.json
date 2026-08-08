@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Athinhal, Kerala",
     "end": "Periya, Kerala",
@@ -17,6 +18,17 @@
       "Periya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kanhangad" },
+    { "id": "mdr-kl-17", "label": "Met near Kanhangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athinhal",
@@ -31,12 +43,6 @@
         75.09944,
         12.37779
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

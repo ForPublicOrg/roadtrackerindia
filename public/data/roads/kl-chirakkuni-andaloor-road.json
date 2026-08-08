@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalassery, Kerala",
     "end": "Kadachira, Kerala",
@@ -16,6 +17,18 @@
       "Kadachira"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kadachira" },
+    { "id": "kl-dharmadam-melur-road", "label": "Met near Kadachira" },
+    { "id": "kl-andaloor-chekkikkuni-road", "label": "Met near Thalassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalassery",
@@ -30,12 +43,6 @@
         75.47602,
         11.79474
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

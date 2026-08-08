@@ -1,10 +1,12 @@
 {
   "id": "nh-109d",
   "ref": "NH 109D",
-  "name": "Tanakpur–Bhimdatta National Highway",
+  "name": "Tanakpur–Nepal Border Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 5.7,
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Tanakpur, Uttarakhand",
     "end": "Bhimdatta, Uttarakhand",
@@ -16,6 +18,24 @@
       "Bhimdatta"
     ]
   },
+  "facts": [
+    "Runs from Tanakpur, in the Kumaon foothills, to the Nepal border.",
+    "Bhimdatta, on the Nepalese side, is also known as Mahendranagar.",
+    "It is one of the main road crossings into far-western Nepal.",
+    "The Sharda river, which the road follows, forms part of the India–Nepal boundary here."
+  ],
+  "significance": "A short national highway link running from Tanakpur in Uttarakhand to the Nepal border at Bhimdatta (Mahendranagar). It is one of the crossings between the Kumaon foothills and far-western Nepal, and it carries the cross-border trade and traffic of that corner of the frontier.",
+  "travelNotes": "A short road, but the border crossing at the end has customs and immigration formalities — allow time for them.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tanakpur",
@@ -30,16 +50,6 @@
         80.12164,
         28.99169
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

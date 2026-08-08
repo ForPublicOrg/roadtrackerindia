@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Gudiyatham, Tamil Nadu",
     "end": "Yadamari, Andhra Pradesh",
@@ -16,6 +17,16 @@
       "Yadamari"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-127", "label": "Met near Gudiyatham" },
+    { "id": "sh-tn-125", "label": "Met near Yadamari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gudiyatham",
@@ -30,12 +41,6 @@
         78.98473,
         13.08516
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,23 @@
       "Limbdi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Dhrangadhra" },
+    { "id": "nh-947", "label": "Met near Dhrangadhra" },
+    { "id": "sh-gj-19", "label": "Met near Surendranagar" },
+    { "id": "sh-gj-17", "label": "Met near Surendranagar" },
+    { "id": "sh-gj-20", "label": "Met near Dhrangadhra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhrangadhra",
@@ -45,16 +62,6 @@
         71.80818,
         22.57493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

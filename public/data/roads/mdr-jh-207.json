@@ -17,6 +17,19 @@
       "Tarbana"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 207, Mandro–Tarbana District road, crosses the border between Jharkhand and Bihar. A state road that runs through more than one state has no single owner — Jharkhand RCD and Bihar RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Mandro" },
+    { "id": "mdr-jh-208", "label": "Met near Mandro" },
+    { "id": "mdr-jh-218", "label": "Met near Mandro" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandro",
@@ -31,12 +44,6 @@
         87.49601,
         25.25847
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

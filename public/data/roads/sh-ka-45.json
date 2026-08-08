@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 324.3,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Venkateshwara Nagara, Karnataka",
     "end": "Ghataprabha, Karnataka",
@@ -23,6 +24,19 @@
       "Ghataprabha"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Challakere" },
+    { "id": "nh-52", "label": "Met near Nargund" },
+    { "id": "nh-50", "label": "Met near Jagaluru" },
+    { "id": "nh-67", "label": "Met near Gadag-Betageri" },
+    { "id": "nh-150a", "label": "Met near Challakere" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Venkateshwara Nagara",
@@ -93,12 +107,6 @@
         74.81121,
         16.22649
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

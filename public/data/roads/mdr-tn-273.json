@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kamuthi, Tamil Nadu",
     "end": "Sayalgudi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Sayalgudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-29", "label": "Met near Kamuthi" },
+    { "id": "sh-tn-47", "label": "Met near Kamuthi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kamuthi",
@@ -30,12 +42,6 @@
         78.51295,
         9.34452
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

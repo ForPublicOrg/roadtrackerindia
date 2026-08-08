@@ -16,6 +16,26 @@
       "Bahadurgarh"
     ]
   },
+  "significance": "NH 352R is a branch of NH 352. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jhajjar to Bahadurgarh, and it meets NH 352 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-352",
+      "label": "NH 352 — the highway this branch takes its number from, running Rohtak to Rewari"
+    },
+    { "id": "western-peripheral-expressway", "label": "Met near Bahadurgarh" },
+    { "id": "sh-hr-22", "label": "Met near Jhajjar" },
+    { "id": "sh-hr-136", "label": "Met near Bahadurgarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhajjar",
@@ -30,16 +50,6 @@
         76.92486,
         28.68613
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

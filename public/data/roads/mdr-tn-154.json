@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Shencottai, Tamil Nadu",
     "end": "Tenkasi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Tenkasi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Tenkasi" },
+    { "id": "sh-tn-40", "label": "Met near Shencottai" },
+    { "id": "sh-tn-39", "label": "Met near Tenkasi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shencottai",
@@ -30,12 +43,6 @@
         77.27967,
         8.96395
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

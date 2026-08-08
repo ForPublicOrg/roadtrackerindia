@@ -17,6 +17,23 @@
       "Jhusi"
     ]
   },
+  "relatedRoads": [
+    { "id": "prayagraj-bypass-expressway", "label": "Met near Jhusi" },
+    { "id": "nh-19", "label": "Met near Jhusi" },
+    { "id": "nh-31", "label": "Met near Mungra Badshahpur" },
+    { "id": "nh-731", "label": "Meets this road" },
+    { "id": "nh-135a", "label": "Met near Shahganj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahganj",
@@ -38,16 +55,6 @@
         81.935,
         25.42797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

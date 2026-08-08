@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 81.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Jhirpani, Odisha",
     "end": "Biramitrapur, Odisha",
@@ -16,6 +17,18 @@
       "Biramitrapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-143", "label": "Meets this road" },
+    { "id": "nh-320g", "label": "Meets this road" },
+    { "id": "mdr-jh-45", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhirpani",
@@ -30,12 +43,6 @@
         84.50286,
         22.62146
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

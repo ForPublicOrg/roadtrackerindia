@@ -17,6 +17,19 @@
       "Srirangarajapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "ODR 7688, Pallipattu–Srirangarajapuram District road, crosses the border between Tamil Nadu and Andhra Pradesh. A state road that runs through more than one state has no single owner — TN Highways and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "ap-chittoor-puttur-road", "label": "Met near Srirangarajapuram" },
+    { "id": "odr-tn-5689", "label": "Met near Pallipattu" },
+    { "id": "odr-tn-5690", "label": "Met near Pallipattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallipattu",
@@ -31,12 +44,6 @@
         79.42038,
         13.32663
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

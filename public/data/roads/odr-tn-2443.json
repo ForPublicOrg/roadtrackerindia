@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vanjur, Tamil Nadu",
     "end": "Sholinghur, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Sholinghur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Sholinghur" },
+    { "id": "nh-75", "label": "Met near Vellore" },
+    { "id": "sh-tn-9", "label": "Met near Vellore" },
+    { "id": "sh-tn-59", "label": "Met near Puttuthakku" },
+    { "id": "sh-tn-61", "label": "Met near Lalapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vanjur",
@@ -60,12 +75,6 @@
         79.48656,
         13.05873
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

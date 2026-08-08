@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sentharapatti, Tamil Nadu",
     "end": "Keeripatti, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Keeripatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-30", "label": "Met near Sentharapatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sentharapatti",
@@ -30,12 +41,6 @@
         78.40094,
         11.45601
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

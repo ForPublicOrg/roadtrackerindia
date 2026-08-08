@@ -20,6 +20,24 @@
       "Puttur"
     ]
   },
+  "significance": "NH 716A is a branch of NH 716. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Sholavaram to Puttur, and it meets NH 716 along the way.",
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Arani" },
+    { "id": "nh-16", "label": "Met near Sholavaram" },
+    { "id": "nh-716", "label": "Met near Puttur" },
+    { "id": "nh-716b", "label": "Met near Arani" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Arani" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholavaram",
@@ -62,16 +80,6 @@
         79.56105,
         13.42962
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

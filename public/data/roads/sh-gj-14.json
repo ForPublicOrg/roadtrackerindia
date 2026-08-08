@@ -17,6 +17,20 @@
       "Ahwa"
     ]
   },
+  "significance": "SH 14, Subir–Ahwa State Highway, crosses the border between Maharashtra and Gujarat. A state road that runs through more than one state has no single owner — Maharashtra PWD and Gujarat R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-360", "label": "Meets this road" },
+    { "id": "nh-953", "label": "Met near Ahwa" },
+    { "id": "sh-mh-16", "label": "Meets this road" },
+    { "id": "sh-gj-80", "label": "Met near Ahwa" },
+    { "id": "sh-gj-174", "label": "Met near Ahwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Subir",
@@ -31,12 +45,6 @@
         73.69731,
         20.76071
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

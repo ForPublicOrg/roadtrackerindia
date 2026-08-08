@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sidhi, Madhya Pradesh",
     "end": "Mauganj, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Mauganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Meets this road" },
+    { "id": "mdr-mp-1108", "label": "Meets this road" },
+    { "id": "mdr-mp-1104", "label": "Meets this road" },
+    { "id": "mdr-mp-1012", "label": "Meets this road" },
+    { "id": "mdr-mp-1112", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sidhi",
@@ -30,12 +45,6 @@
         82.0862,
         24.59721
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

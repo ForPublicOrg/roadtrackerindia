@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kunda, Uttar Pradesh",
     "end": "Pratapgarh, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Pratapgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Meets this road" },
+    { "id": "nh-30", "label": "Met near Kunda" },
+    { "id": "nh-31", "label": "Met near Pratapgarh" },
+    { "id": "nh-731a", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kunda",
@@ -30,12 +43,6 @@
         81.8992,
         25.89058
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

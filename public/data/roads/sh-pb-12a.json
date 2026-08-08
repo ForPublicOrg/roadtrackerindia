@@ -24,6 +24,19 @@
       "Sirhind"
     ]
   },
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Bhawanigarh" },
+    { "id": "nh-44", "label": "Met near Sirhind" },
+    { "id": "nh-52", "label": "Met near Sunam" },
+    { "id": "nh-7", "label": "Met near Bhawanigarh" },
+    { "id": "nh-5", "label": "Met near Chandigarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhikhi",
@@ -108,12 +121,6 @@
         76.39252,
         30.60445
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

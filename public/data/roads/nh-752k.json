@@ -21,6 +21,23 @@
       "Bhalki"
     ]
   },
+  "relatedRoads": [
+    { "id": "jalna-nanded-expressway", "label": "Met near Parbhani" },
+    { "id": "nh-63", "label": "Met near Shirur Anantpal" },
+    { "id": "nh-50", "label": "Met near Bhalki" },
+    { "id": "nh-61", "label": "Met near Parbhani" },
+    { "id": "nh-361", "label": "Met near Shirur Anantpal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jintur",
@@ -70,16 +87,6 @@
         77.21996,
         18.05905
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

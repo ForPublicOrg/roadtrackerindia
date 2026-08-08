@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.3,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Sultanganj, Bihar",
     "end": "Amarpur, Bihar",
@@ -16,6 +17,15 @@
       "Amarpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Sultanganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sultanganj",
@@ -30,12 +40,6 @@
         86.90316,
         25.03867
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

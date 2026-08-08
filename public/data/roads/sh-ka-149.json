@@ -21,6 +21,20 @@
       "Halisagara"
     ]
   },
+  "significance": "SH 149, Kohir–Halisagara State Highway, crosses the border between Telangana and Karnataka. A state road that runs through more than one state has no single owner — Telangana R&B and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Kohir" },
+    { "id": "nh-50", "label": "Met near Kalaburagi" },
+    { "id": "nh-150c", "label": "Met near Shahapura" },
+    { "id": "nh-150", "label": "Met near Kalaburagi" },
+    { "id": "sh-ka-15", "label": "Met near Nidagunda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kohir",
@@ -70,12 +84,6 @@
         76.85777,
         16.71019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 176.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Gadhi, Maharashtra",
     "end": "Sangrampur, Maharashtra",
@@ -17,6 +18,19 @@
       "Sangrampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Meets this road" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Partur" },
+    { "id": "nh-53", "label": "Met near Khamgaon" },
+    { "id": "nh-548c", "label": "Met near Khamgaon" },
+    { "id": "nh-61", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadhi",
@@ -38,12 +52,6 @@
         76.69421,
         21.10962
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

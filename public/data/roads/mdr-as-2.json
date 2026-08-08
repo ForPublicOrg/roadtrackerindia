@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 50.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Bijni, Assam",
     "end": "Gelephu, Assam",
@@ -16,6 +17,13 @@
       "Gelephu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bijni",
@@ -30,12 +38,6 @@
         90.52444,
         26.83169
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

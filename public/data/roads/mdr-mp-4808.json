@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Anjad, Madhya Pradesh",
     "end": "Barwani, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Barwani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347b", "label": "Met near Anjad" },
+    { "id": "sh-mp-39a", "label": "Met near Barwani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anjad",
@@ -30,12 +42,6 @@
         74.96996,
         21.95665
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

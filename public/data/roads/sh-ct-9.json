@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49,
+  "authority": "chhattisgarh-pwd",
   "route": {
     "start": "Seorinarayan, Chhattisgarh",
     "end": "Janjgir, Chhattisgarh",
@@ -16,6 +17,15 @@
       "Janjgir"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-49", "label": "Met near Janjgir" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seorinarayan",
@@ -30,12 +40,6 @@
         82.57798,
         22.00753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

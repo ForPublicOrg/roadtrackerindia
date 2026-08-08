@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Attingal, Kerala",
     "end": "Venjaramoodu, Kerala",
@@ -16,6 +17,20 @@
       "Venjaramoodu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Venjaramoodu" },
+    { "id": "sh-kl-1", "label": "Met near Venjaramoodu" },
+    { "id": "sh-kl-47", "label": "Met near Attingal" },
+    { "id": "kl-17th-mile-tq-road-to-join-3rd-mile-vejaramoodu-attingal", "label": "Met near Attingal" },
+    { "id": "kl-chembakamangalam-valakkad-road", "label": "Met near Attingal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attingal",
@@ -30,12 +45,6 @@
         76.89862,
         8.72098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

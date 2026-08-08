@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Muri, Jharkhand",
     "end": "Chitarpur, Jharkhand",
@@ -16,6 +17,20 @@
       "Chitarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-320", "label": "Met near Chitarpur" },
+    { "id": "nh-320b", "label": "Met near Chitarpur" },
+    { "id": "sh-jh-1", "label": "Met near Muri" },
+    { "id": "mdr-jh-20", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-101", "label": "Met near Chitarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muri",
@@ -30,12 +45,6 @@
         85.72234,
         23.53501
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

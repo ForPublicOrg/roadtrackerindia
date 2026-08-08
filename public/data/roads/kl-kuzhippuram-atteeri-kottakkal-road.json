@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthoor, Kerala",
     "end": "Kottakkal, Kerala",
@@ -17,6 +18,18 @@
       "Kottakkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-71", "label": "Met near Othukungal" },
+    { "id": "kl-othukkungal-vengara-road", "label": "Met near Othukungal" },
+    { "id": "kl-kottakkal-vengara-road", "label": "Met near Kottakkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthoor",
@@ -31,12 +44,6 @@
         76.00583,
         11.00356
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

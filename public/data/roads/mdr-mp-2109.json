@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Manasa, Madhya Pradesh",
     "end": "Jiran, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Jiran"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-7", "label": "Met near Manasa" },
+    { "id": "mdr-mp-2110", "label": "Met near Manasa" },
+    { "id": "mdr-mp-2208", "label": "Met near Manasa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manasa",
@@ -30,12 +43,6 @@
         75.11513,
         24.35032
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

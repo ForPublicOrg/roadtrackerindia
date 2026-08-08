@@ -1,10 +1,12 @@
 {
   "id": "nh-85",
   "ref": "NH 85",
-  "name": "Maradu–Thondi National Highway",
+  "name": "Kochi–Munnar–Madurai Highway",
+  "aka": ["National Highway 49 (old numbering)"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 378.8,
+  "lanes": "2 lanes, ghat section throughout the middle",
   "route": {
     "start": "Maradu, Kerala",
     "end": "Thondi, Tamil Nadu",
@@ -24,6 +26,34 @@
       "Thondi"
     ]
   },
+  "history": "National Highway 85 runs from Kochi on the Kerala coast up through Kothamangalam and Adimali to the tea country at Munnar, over the Western Ghats into Tamil Nadu at Bodinayakkanur, and on through Theni to Madurai and the coast at Thondi. It is the classic Kerala–Tamil Nadu hill crossing: rubber and spice plantations on the way up, tea estates at the top, and the dry Vaigai plain on the far side.",
+  "facts": [
+    "Climbs from sea level at Kochi to Munnar, at about 1,600 metres, in under 130 km.",
+    "Munnar's tea estates were laid out by British planters in the 1870s and 1880s.",
+    "It crosses the Western Ghats at one of their narrowest points between Kerala and Tamil Nadu.",
+    "Used to be numbered NH 49 before the 2010 renumbering.",
+    "Madurai, on the Tamil Nadu side, is home to the Meenakshi Amman temple."
+  ],
+  "significance": "Kerala and Tamil Nadu are separated by the Ghats and only a few roads cross them. This one carries the tea and spices of the high range down to Kochi's port, and it is the main tourist route to Munnar.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "The Kerala coastal highway met at Kochi" },
+    { "id": "nh-44", "label": "The north–south highway met at Madurai" },
+    { "id": "nh-544", "label": "The other main Kerala–Tamil Nadu crossing, through the Palakkad gap" },
+    { "id": "nh-32", "label": "Met near Thondi" },
+    { "id": "nh-38", "label": "Met near Viraganur" },
+    { "id": "nh-183", "label": "Met near Min Arasu Nagar" }
+  ],
+  "travelNotes": "The climb from Adimali to Munnar is steep, narrow and slow, with heavy weekend tourist traffic. Fog is common in the evenings at the top. Landslides can close the ghat in the monsoon.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maradu",
@@ -150,16 +180,6 @@
         79.01342,
         9.74162
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

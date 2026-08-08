@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Silwani, Madhya Pradesh",
     "end": "Udaipura, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Udaipura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-62", "label": "Met near Silwani" },
+    { "id": "sh-mp-22", "label": "Met near Udaipura" },
+    { "id": "sh-mp-20", "label": "Met near Silwani" },
+    { "id": "mdr-mp-3012", "label": "Met near Silwani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Silwani",
@@ -30,12 +44,6 @@
         78.5219,
         23.1818
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

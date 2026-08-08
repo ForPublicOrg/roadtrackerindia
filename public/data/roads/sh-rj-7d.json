@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kuchaman, Rajasthan",
     "end": "Didwana, Rajasthan",
@@ -16,6 +17,19 @@
       "Didwana"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-rj-7", "label": "Met near Kuchaman" },
+    { "id": "sh-rj-87", "label": "Meets this road" },
+    { "id": "sh-rj-24", "label": "Met near Didwana" },
+    { "id": "sh-rj-60", "label": "Met near Didwana" },
+    { "id": "sh-rj-84", "label": "Met near Didwana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kuchaman",
@@ -30,12 +44,6 @@
         74.58317,
         27.40092
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

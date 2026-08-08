@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rahatgarh, Madhya Pradesh",
     "end": "Begamganj, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Begamganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-146", "label": "Met near Rahatgarh" },
+    { "id": "sh-mp-62", "label": "Met near Begamganj" },
+    { "id": "sh-mp-30", "label": "Met near Begamganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rahatgarh",
@@ -30,12 +43,6 @@
         78.329,
         23.61056
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

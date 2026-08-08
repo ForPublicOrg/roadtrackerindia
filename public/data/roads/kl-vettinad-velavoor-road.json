@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Venjaramoodu, Kerala",
     "end": "Pothencode, Kerala",
@@ -16,6 +17,18 @@
       "Pothencode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Pothencode" },
+    { "id": "sh-kl-1", "label": "Met near Venjaramoodu" },
+    { "id": "kl-vembayam-pallippuram-road", "label": "Met near Pothencode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Venjaramoodu",
@@ -30,12 +43,6 @@
         76.92051,
         8.63247
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

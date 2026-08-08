@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 56.3,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Malerkotla, Punjab",
     "end": "Patiala, Punjab",
@@ -18,6 +19,19 @@
       "Patiala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Malerkotla" },
+    { "id": "sh-pb-12a", "label": "Met near Nabha" },
+    { "id": "sh-pb-11", "label": "Met near Malerkotla" },
+    { "id": "mdr-pb-51", "label": "Met near Malerkotla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malerkotla",
@@ -46,12 +60,6 @@
         76.37379,
         30.35046
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

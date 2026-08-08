@@ -22,6 +22,23 @@
       "Raghunathganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Raghunathganj" },
+    { "id": "nh-112", "label": "Met near Bangaon" },
+    { "id": "sh-wb-8", "label": "Met near Krishnanagar" },
+    { "id": "sh-wb-14", "label": "Met near Tehatta" },
+    { "id": "sh-wb-1", "label": "Met near Bangaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Basirhat",
@@ -134,16 +151,6 @@
         88.03736,
         24.45124
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

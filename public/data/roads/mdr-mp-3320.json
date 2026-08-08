@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Banapura, Madhya Pradesh",
     "end": "Itarsi, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Itarsi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Seoni Malwa" },
+    { "id": "mdr-mp-3319", "label": "Met near Itarsi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banapura",
@@ -30,12 +42,6 @@
         77.77392,
         22.60112
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

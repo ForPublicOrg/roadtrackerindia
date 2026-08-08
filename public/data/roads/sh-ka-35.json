@@ -20,6 +20,20 @@
       "Anekal"
     ]
   },
+  "significance": "SH 35, Sidlaghatta–Anekal State Highway, crosses the border between Karnataka and Tamil Nadu. A state road that runs through more than one state has no single owner — Karnataka PWD and TN Highways each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hoskote" },
+    { "id": "nh-44", "label": "Met near Attibele" },
+    { "id": "nh-48", "label": "Met near Attibele" },
+    { "id": "nh-69", "label": "Met near Sidlaghatta" },
+    { "id": "nh-75", "label": "Met near Hoskote" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sidlaghatta",
@@ -62,12 +76,6 @@
         77.69949,
         12.71124
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

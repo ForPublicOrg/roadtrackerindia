@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kuttiadi, Kerala",
     "end": "Perambra, Kerala",
@@ -16,6 +17,17 @@
       "Perambra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-38", "label": "Met near Kuttiadi" },
+    { "id": "kl-kuttiyadi-vellakkettu-kaipramkadavu-road", "label": "Met near Kuttiadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kuttiadi",
@@ -30,12 +42,6 @@
         75.74412,
         11.60814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ariyanur, Tamil Nadu",
     "end": "Komarapalayam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Komarapalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Komarapalayam" },
+    { "id": "sh-tn-86a", "label": "Met near Attayampatti" },
+    { "id": "sh-tn-u119", "label": "Met near Komarapalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ariyanur",
@@ -30,12 +43,6 @@
         78.13607,
         11.54449
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

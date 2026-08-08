@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manjeri, Kerala",
     "end": "Valiyangadi, Kerala",
@@ -16,6 +17,20 @@
       "Valiyangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-966", "label": "Met near Malappuram" },
+    { "id": "sh-kl-28", "label": "Met near Manjeri" },
+    { "id": "sh-kl-71", "label": "Met near Manjeri" },
+    { "id": "kl-manjery-byepass-road", "label": "Met near Manjeri" },
+    { "id": "kl-manjeri-olipuzha-road", "label": "Met near Manjeri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeri",
@@ -30,12 +45,6 @@
         76.06458,
         11.0967
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

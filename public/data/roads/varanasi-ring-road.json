@@ -1,10 +1,13 @@
 {
   "id": "varanasi-ring-road",
-  "ref": "NH",
+  "ref": "Ring Road",
   "name": "Varanasi Ring Road",
   "category": "nh",
   "status": "operational",
   "lengthKm": 57.4,
+  "lanes": "4–6 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Mughalsarai, Uttar Pradesh",
     "end": "Kachhwa, Uttar Pradesh",
@@ -17,6 +20,33 @@
       "Kachhwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Varanasi is one of the oldest continuously lived-in cities in the world, and its streets were never built for through traffic. The Ring Road was built by the national highways authority to carry the Grand Trunk Road and the highways from Gorakhpur, Prayagraj and Chandauli around the city instead of into it, crossing the Ganga and the Varuna on new bridges. It also gives pilgrims and visitors a quicker route between the airport and the ghats.",
+  "facts": [
+    "Built to keep Grand Trunk Road traffic out of one of the world's oldest living cities.",
+    "Links the highways from Prayagraj, Gorakhpur, Chandauli and Lucknow around the city.",
+    "It carries new bridges over the Ganga and the Varuna.",
+    "It is the quick route between Varanasi airport and the eastern side of the city."
+  ],
+  "significance": "Varanasi receives millions of pilgrims a year in a street plan that predates motor traffic entirely. The ring road is what lets national highway freight pass by without adding to that.",
+  "relatedRoads": [
+    { "id": "nh-19", "label": "The Grand Trunk Road, carried around the city by this ring" },
+    { "id": "purvanchal-expressway", "label": "The expressway west to Lucknow, which ends near here" },
+    { "id": "varanasi-kolkata-expressway", "label": "The new expressway east towards Kolkata" },
+    { "id": "nh-31", "label": "Met near Varanasi" },
+    { "id": "nh-28", "label": "Met near Varanasi" },
+    { "id": "nh-731b", "label": "Met near Varanasi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mughalsarai",
@@ -38,16 +68,6 @@
         82.8255,
         25.27196
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

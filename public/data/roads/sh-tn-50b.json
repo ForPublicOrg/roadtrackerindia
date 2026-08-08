@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 39,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thirumazhisai, Tamil Nadu",
     "end": "Thakkolam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Thakkolam"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Sriperumbudur" },
+    { "id": "nh-48", "label": "Met near Thirumazhisai" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Sriperumbudur" },
+    { "id": "sh-tn-58", "label": "Met near Thakkolam" },
+    { "id": "sh-tn-57", "label": "Met near Sriperumbudur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thirumazhisai",
@@ -30,12 +44,6 @@
         79.73452,
         13.0154
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

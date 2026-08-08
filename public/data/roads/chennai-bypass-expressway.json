@@ -1,10 +1,14 @@
 {
   "id": "chennai-bypass-expressway",
-  "ref": "NH",
+  "ref": "Chennai Bypass",
   "name": "Chennai Bypass Expressway",
+  "aka": ["Chennai Inner Bypass"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 33,
+  "lanes": "4–6 lanes, elevated in parts",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Irumbuliyur, Tamil Nadu",
     "end": "Kathirvedu, Tamil Nadu",
@@ -19,6 +23,35 @@
       "Kathirvedu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "The bypass carries no toll of its own." },
+  "history": "The Chennai Bypass was built so that traffic between the highways to Bengaluru, Tiruchirappalli and Kolkata would not have to drive through the middle of Chennai. It runs in an arc through the western suburbs from Tambaram in the south to Madhavaram in the north, linking the three big national highways that meet at the city. Long elevated sections carry it over the suburbs it passes.",
+  "facts": [
+    "Links the Chennai–Bengaluru, Chennai–Tiruchirappalli and Chennai–Kolkata highways without entering the city.",
+    "Long stretches are elevated over the crowded western suburbs.",
+    "It removed a large share of heavy truck traffic from Chennai's inner roads.",
+    "A much bigger outer ring, the Chennai Peripheral Ring Road, is being built further out to do the same job again."
+  ],
+  "significance": "Three national highways converge on Chennai, and before this road their freight met in the city centre. The bypass is the reason that traffic now stays on the edge of the city.",
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "The larger outer ring being built further from the city" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai highway, met at the northern end" },
+    { "id": "nh-48", "label": "The highway towards Bengaluru, met on the western side" },
+    { "id": "chennai-bengaluru-expressway", "label": "The new expressway to Bengaluru that will feed into this ring" },
+    { "id": "nh-32", "label": "Met near Tambaram" },
+    { "id": "nh-716", "label": "Met near Avadi" },
+    { "id": "sh-tn-48", "label": "Met near Tambaram" }
+  ],
+  "travelNotes": "The quickest way around Chennai rather than through it. Traffic thickens near Poonamallee and Maduravoyal at rush hour.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Irumbuliyur",
@@ -89,16 +122,6 @@
         80.21009,
         13.15242
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

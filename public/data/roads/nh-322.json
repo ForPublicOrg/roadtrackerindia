@@ -17,6 +17,23 @@
       "Hajipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Darbhanga" },
+    { "id": "nh-31", "label": "Met near Hajipur" },
+    { "id": "nh-22", "label": "Met near Hajipur" },
+    { "id": "nh-122", "label": "Met near Samastipur" },
+    { "id": "nh-527e", "label": "Met near Darbhanga" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Darbhanga",
@@ -45,16 +62,6 @@
         85.22735,
         25.69437
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,20 @@
       "Gurumathakal"
     ]
   },
+  "significance": "SH 16, Sindagi–Gurumathakal State Highway, crosses the border between Karnataka and Telangana. A state road that runs through more than one state has no single owner — Karnataka PWD and Telangana R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Met near Sindagi" },
+    { "id": "nh-150a", "label": "Met near Shahapura" },
+    { "id": "nh-163", "label": "Meets this road" },
+    { "id": "nh-150", "label": "Met near Yadgiri" },
+    { "id": "sh-ka-15", "label": "Met near Yadgiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sindagi",
@@ -55,12 +69,6 @@
         77.38937,
         16.87361
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Srivilliputhur, Tamil Nadu",
     "end": "Sattur, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Sattur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sattur" },
+    { "id": "sh-tn-187", "label": "Met near Sivakasi" },
+    { "id": "sh-tn-183", "label": "Met near Sivakasi" },
+    { "id": "sh-tn-u32", "label": "Met near Sattur" },
+    { "id": "mdr-tn-682", "label": "Met near Sattur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Srivilliputhur",
@@ -30,12 +45,6 @@
         77.91555,
         9.35793
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

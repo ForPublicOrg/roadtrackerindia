@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 59.5,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Belthangadi, Karnataka",
     "end": "Mulki, Karnataka",
@@ -17,6 +18,18 @@
       "Mulki"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Mulki" },
+    { "id": "nh-169", "label": "Met near Moodabidri" },
+    { "id": "sh-ka-37", "label": "Met near Belthangadi" },
+    { "id": "sh-ka-67", "label": "Met near Kinnigoli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Belthangadi",
@@ -45,12 +58,6 @@
         74.7892,
         13.08873
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

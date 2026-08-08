@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.1,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Lakhan Khera, Uttar Pradesh",
     "end": "Fatehpur, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Fatehpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-up-46", "label": "Met near Lakhan Khera" },
+    { "id": "mdr-up-15c", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lakhan Khera",
@@ -30,12 +42,6 @@
         80.59924,
         25.94179
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

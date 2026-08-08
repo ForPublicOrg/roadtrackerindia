@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 109.9,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Haveri, Karnataka",
     "end": "Sagara, Karnataka",
@@ -17,6 +18,19 @@
       "Sagara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Haveri" },
+    { "id": "nh-69", "label": "Met near Sagara" },
+    { "id": "nh-369e", "label": "Met near Sagara" },
+    { "id": "sh-ka-48", "label": "Met near Siralkoppa" },
+    { "id": "sh-ka-2", "label": "Met near Haveri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Haveri",
@@ -38,12 +52,6 @@
         75.02997,
         14.16756
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panathur, Kerala",
     "end": "Mulleria, Kerala",
@@ -16,6 +17,19 @@
       "Mulleria"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Panathur" },
+    { "id": "mdr-kl-15", "label": "Met near Panathur" },
+    { "id": "mdr-kl-99", "label": "Met near Panathur" },
+    { "id": "kl-adoor-chamakkochi-road", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panathur",
@@ -30,12 +44,6 @@
         75.24937,
         12.51817
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

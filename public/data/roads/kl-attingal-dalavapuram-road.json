@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Varkala, Kerala",
     "end": "Attingal, Kerala",
@@ -16,6 +17,20 @@
       "Attingal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-alamcode-meerankadavu-anjengo-road", "label": "Met near Attingal" },
+    { "id": "kl-cherunniyoor-kadavu-road", "label": "Met near Varkala" },
+    { "id": "kl-kallambalam-manamboor-kavalayoor-road", "label": "Met near Attingal" },
+    { "id": "kl-kunnuvaram-road", "label": "Met near Attingal" },
+    { "id": "kl-attingal-tottavaram-road", "label": "Met near Attingal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Varkala",
@@ -37,12 +52,6 @@
         76.79769,
         8.6882
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

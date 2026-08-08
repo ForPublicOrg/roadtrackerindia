@@ -18,6 +18,23 @@
       "Bisalpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Tilhar" },
+    { "id": "nh-234", "label": "Met near Bewar" },
+    { "id": "nh-730b", "label": "Met near Bisalpur" },
+    { "id": "sh-up-43", "label": "Met near Farrukhabad" },
+    { "id": "sh-up-29a", "label": "Met near Farrukhabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bewar",
@@ -53,16 +70,6 @@
         79.78317,
         28.26014
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

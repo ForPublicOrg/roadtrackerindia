@@ -20,6 +20,23 @@
       "Adilabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "hyderabad-raipur-expressway", "label": "Met near Gondpipri" },
+    { "id": "nh-44", "label": "Met near Adilabad" },
+    { "id": "nh-353c", "label": "Met near Gondpipri" },
+    { "id": "nh-930d", "label": "Met near Ballarpur" },
+    { "id": "sh-mh-236", "label": "Met near Gadchandur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gondpipri",
@@ -62,16 +79,6 @@
         78.5469,
         19.73888
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

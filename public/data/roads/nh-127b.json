@@ -20,6 +20,21 @@
       "Nongstoin"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Laskarpara" },
+    { "id": "nh-17", "label": "Met near Gauripur" },
+    { "id": "nh-217", "label": "Met near Tura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhubri",
@@ -76,16 +91,6 @@
         91.26693,
         25.51965
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

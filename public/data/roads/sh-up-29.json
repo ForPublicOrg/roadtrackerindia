@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 34.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Shahabad, Uttar Pradesh",
     "end": "Shahjahanpur, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Shahjahanpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Meets this road" },
+    { "id": "nh-30", "label": "Met near Shahjahanpur" },
+    { "id": "nh-731", "label": "Met near Shahjahanpur" },
+    { "id": "nh-730c", "label": "Meets this road" },
+    { "id": "nh-731k", "label": "Met near Shahjahanpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahabad",
@@ -30,12 +44,6 @@
         79.90954,
         27.88398
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

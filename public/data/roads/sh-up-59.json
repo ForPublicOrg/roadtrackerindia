@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 63.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Chhutmalpur, Uttar Pradesh",
     "end": "Muzaffarnagar, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Muzaffarnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Saharanpur" },
+    { "id": "nh-334", "label": "Met near Muzaffarnagar" },
+    { "id": "nh-344", "label": "Met near Saharanpur" },
+    { "id": "nh-709ad", "label": "Met near Muzaffarnagar" },
+    { "id": "sh-up-2w", "label": "Met near Deoband" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhutmalpur",
@@ -46,12 +60,6 @@
         77.69607,
         29.46669
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -24,6 +24,23 @@
       "Kandhampatty"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Salem" },
+    { "id": "nh-66", "label": "Met near Kalamassery" },
+    { "id": "nh-83", "label": "Met near Madukkarai" },
+    { "id": "nh-179b", "label": "Met near Ariyanur" },
+    { "id": "nh-948", "label": "Met near Madukkarai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Edappally",
@@ -143,16 +160,6 @@
         78.12032,
         11.64509
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

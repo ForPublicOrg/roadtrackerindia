@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mechal, Kerala",
     "end": "Vagamon, Kerala",
@@ -16,6 +17,19 @@
       "Vagamon"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-41", "label": "Met near Mechal" },
+    { "id": "kl-kanjar-moonnumkavayal-manappady-road", "label": "Met near Mechal" },
+    { "id": "kl-kanjar-chakkikavu-elaveezhapoonchira-road", "label": "Met near Mechal" },
+    { "id": "kl-kanjar-karukappilly-road", "label": "Met near Mechal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mechal",
@@ -30,12 +44,6 @@
         76.86732,
         9.73311
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

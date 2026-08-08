@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Gajelnaickenpati, Tamil Nadu",
     "end": "Karipatti, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Karipatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Gajelnaickenpati" },
+    { "id": "sh-tn-u55", "label": "Met near Vazhapadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gajelnaickenpati",
@@ -38,12 +50,6 @@
         78.3362,
         11.65774
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

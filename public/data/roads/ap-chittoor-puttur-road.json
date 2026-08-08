@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 64.2,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Chittoor, Andhra Pradesh",
     "end": "Puttur, Andhra Pradesh",
@@ -18,6 +19,17 @@
       "Puttur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-53", "label": "Met near Pallipattu" },
+    { "id": "odr-tn-7688", "label": "Met near Srirangarajapuram" },
+    { "id": "odr-tn-5689", "label": "Met near Pallipattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chittoor",
@@ -60,12 +72,6 @@
         79.55221,
         13.43814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

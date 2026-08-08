@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mavelikkara, Kerala",
     "end": "Nangiarkulangara, Kerala",
@@ -16,6 +17,16 @@
       "Nangiarkulangara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-elanjimel-harippad-road", "label": "Met near Mavelikkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mavelikkara",
@@ -30,12 +41,6 @@
         76.50004,
         9.27747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

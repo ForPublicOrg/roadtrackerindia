@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Angamaly, Kerala",
     "end": "Valiyaparambu, Kerala",
@@ -16,6 +17,19 @@
       "Valiyaparambu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-athani-elavoor-road", "label": "Met near Angamaly" },
+    { "id": "kl-annamanada-moozhikulam-road", "label": "Met near Valiyaparambu" },
+    { "id": "kl-karukutty-elavoor-road", "label": "Met near Angamaly" },
+    { "id": "kl-mambra-koottalapadam-road", "label": "Met near Valiyaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Angamaly",
@@ -30,12 +44,6 @@
         76.33781,
         10.23325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

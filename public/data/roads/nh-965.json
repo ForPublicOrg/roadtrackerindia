@@ -20,6 +20,25 @@
       "Gopalpatti"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-965g", "label": "A branch off this highway, running Jath to Kedgaon" },
+    { "id": "nh-965dd", "label": "A branch off this highway, running Lonand to Mandangad" },
+    { "id": "nh-965d", "label": "A branch off this highway, running Satara to Kedgaon" },
+    { "id": "nh-965c", "label": "A branch off this highway, running Pandharpur to Kurduvadi" },
+    { "id": "nh-65", "label": "Met near Mohol" },
+    { "id": "nh-548c", "label": "Met near Akluj" },
+    { "id": "nh-160", "label": "Met near Phaltan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akluj",
@@ -69,16 +88,6 @@
         73.93669,
         18.50113
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

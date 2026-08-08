@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valiyapanikkan Thuruth, Kerala",
     "end": "Thriprayar, Kerala",
@@ -16,6 +17,20 @@
       "Thriprayar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-west-tippu-sulthan-road", "label": "Met near Thriprayar" },
+    { "id": "kl-arakulam-azhikodu-road", "label": "Met near Kodungallur" },
+    { "id": "kl-kothaparambu-kara-road", "label": "Met near Kodungallur" },
+    { "id": "kl-sn-puram-p-vemballore-road", "label": "Met near Kodungallur" },
+    { "id": "kl-padakulam-azhikode-road", "label": "Met near Kodungallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valiyapanikkan Thuruth",
@@ -30,12 +45,6 @@
         76.11263,
         10.35222
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

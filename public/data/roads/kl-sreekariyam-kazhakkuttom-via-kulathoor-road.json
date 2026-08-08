@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kazhakkoottam, Kerala",
     "end": "Sreekariyam, Kerala",
@@ -17,6 +18,19 @@
       "Sreekariyam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kazhakkoottam" },
+    { "id": "kl-old-nh-road-thiruvananthapuram", "label": "Met near Sreekariyam" },
+    { "id": "kl-arattuvazhi-road", "label": "Met near Kazhakkoottam" },
+    { "id": "kl-karyavattom-thrippadapuram-road", "label": "Met near Kulathoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kazhakkoottam",
@@ -52,12 +66,6 @@
         76.91104,
         8.55081
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

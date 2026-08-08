@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kallikkad, Kerala",
     "end": "Kallekkad, Kerala",
@@ -17,6 +18,16 @@
       "Kallekkad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kuzhalmannam-mankara-road", "label": "Met near Kallekkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kallikkad",
@@ -31,12 +42,6 @@
         76.59903,
         10.77102
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

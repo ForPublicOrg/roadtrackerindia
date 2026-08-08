@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Hoshangabad Road, Madhya Pradesh",
     "end": "Ibrahimpura, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Ibrahimpura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3123", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3124", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3110", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3115", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3119", "label": "Met near Bhopal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hoshangabad Road",
@@ -37,12 +52,6 @@
         77.40521,
         23.22158
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

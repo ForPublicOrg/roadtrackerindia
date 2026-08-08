@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 98.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Vindhyanagar, Madhya Pradesh",
     "end": "Sidhi, Madhya Pradesh",
@@ -17,6 +18,20 @@
       "Sidhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Vindhyanagar" },
+    { "id": "mdr-mp-1216", "label": "Met near Sarai" },
+    { "id": "mdr-mp-1206", "label": "Met near Sarai" },
+    { "id": "mdr-mp-1110", "label": "Meets this road" },
+    { "id": "mdr-mp-1217", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vindhyanagar",
@@ -38,12 +53,6 @@
         81.86052,
         24.16461
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

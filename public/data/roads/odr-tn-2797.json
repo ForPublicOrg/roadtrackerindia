@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chidambaram, Tamil Nadu",
     "end": "Lalpet, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Lalpet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-383", "label": "Met near Chidambaram" },
+    { "id": "odr-tn-5281", "label": "Met near Chidambaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chidambaram",
@@ -30,12 +42,6 @@
         79.62089,
         11.35666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

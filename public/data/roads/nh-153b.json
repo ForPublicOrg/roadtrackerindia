@@ -17,6 +17,22 @@
       "Boudh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Meets this road" },
+    { "id": "nh-55", "label": "Met near Rairakhol" },
+    { "id": "nh-57", "label": "Met near Boudh" },
+    { "id": "sh-or-62", "label": "Met near Boudh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Deogarh",
@@ -38,16 +54,6 @@
         84.30663,
         20.85083
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

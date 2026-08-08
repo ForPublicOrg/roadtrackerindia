@@ -16,6 +16,25 @@
       "Ghodegaon"
     ]
   },
+  "significance": "NH 160C is a branch of NH 160. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Rahuri to Ghodegaon, and it meets NH 160 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-160",
+      "label": "NH 160 — the highway this branch takes its number from, running Sankeshwara to Kopargaon"
+    },
+    { "id": "nh-753f", "label": "Met near Ghodegaon" },
+    { "id": "sh-mh-49", "label": "Met near Rahuri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rahuri",
@@ -30,16 +49,6 @@
         74.88577,
         19.37601
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

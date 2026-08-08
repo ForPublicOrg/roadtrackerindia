@@ -18,6 +18,23 @@
       "Bainduru"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Bainduru" },
+    { "id": "nh-69", "label": "Meets this road" },
+    { "id": "nh-369e", "label": "Meets this road" },
+    { "id": "sh-ka-27", "label": "Met near Bainduru" },
+    { "id": "sh-ka-76", "label": "Met near Ranebennur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ranebennur",
@@ -53,16 +70,6 @@
         74.62967,
         13.85612
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

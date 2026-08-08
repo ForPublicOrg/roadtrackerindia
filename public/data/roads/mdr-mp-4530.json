@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pithampur, Madhya Pradesh",
     "end": "Dr. Ambedkar Nagar, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Dr. Ambedkar Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pithampur",
@@ -30,12 +41,6 @@
         75.67498,
         22.37832
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

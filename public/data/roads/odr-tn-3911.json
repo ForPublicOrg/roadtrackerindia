@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Latteri, Tamil Nadu",
     "end": "Pallikondai, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Pallikondai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-75", "label": "Met near Latteri" },
+    { "id": "sh-tn-59", "label": "Met near Latteri" },
+    { "id": "odr-tn-2397", "label": "Met near Latteri" },
+    { "id": "mdr-tn-1030", "label": "Met near Latteri" },
+    { "id": "tn-sugarcane-road-151", "label": "Met near Pallikondai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Latteri",
@@ -30,12 +45,6 @@
         78.97566,
         13.01412
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

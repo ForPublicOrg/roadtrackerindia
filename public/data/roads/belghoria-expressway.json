@@ -1,10 +1,12 @@
 {
   "id": "belghoria-expressway",
-  "ref": "NH",
+  "ref": "Belghoria Expressway",
   "name": "Belghoria Expressway",
+  "aka": ["Kalyani Expressway link", "Dakshineswar–Dankuni Expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 13.5,
+  "lanes": "4 lanes, elevated in parts",
   "route": {
     "start": "Dum Dum, West Bengal",
     "end": "Uttarpara Kotrung, West Bengal",
@@ -19,6 +21,33 @@
       "Uttarpara Kotrung"
     ]
   },
+  "history": "The Belghoria Expressway was built to let traffic from the north of Kolkata reach the Vivekananda and Nivedita bridges over the Hooghly without grinding through Baranagar and Dum Dum. It connects the airport side of the city to the Delhi Road and the national highway west of the river, and it is the road most people use between Kolkata airport and Howrah or Durgapur.",
+  "facts": [
+    "Links Kolkata airport and the northern suburbs to the bridges across the Hooghly.",
+    "Carries most traffic between the airport and Howrah, Dankuni and the road west to Durgapur.",
+    "Runs beside the Nivedita Setu, the newer of the two road bridges at Dakshineswar.",
+    "It lets long-distance traffic bypass the crowded streets of Baranagar and Bally."
+  ],
+  "significance": "North Kolkata is dense old city, and before this road every vehicle heading for the Hooghly bridges had to pick its way through it. The expressway is now the standard route from the airport to anywhere west of the river.",
+  "relatedRoads": [
+    { "id": "kalyani-expressway", "label": "Runs north from the same corridor towards Kalyani" },
+    { "id": "kona-expressway", "label": "The matching fast link on the Howrah side of the river" },
+    { "id": "nh-12", "label": "The national highway this feeds, running north through Bengal" },
+    { "id": "nh-16", "label": "Met near Bally" },
+    { "id": "kolkata-grand-trunk-road", "label": "Met near Bally" },
+    { "id": "sh-wb-2", "label": "Met near Baranagar" }
+  ],
+  "travelNotes": "The usual airport-to-Howrah route. It backs up around the Dakshineswar temple approach, especially on weekends and Bengali festival days.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dum Dum",
@@ -68,16 +97,6 @@
         88.31378,
         22.65768
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

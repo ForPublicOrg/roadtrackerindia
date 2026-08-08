@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Udumalaipettai, Tamil Nadu",
     "end": "Komaralingam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Komaralingam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Udumalaipettai" },
+    { "id": "mdr-tn-149", "label": "Met near Komaralingam" },
+    { "id": "mdr-tn-901", "label": "Met near Komaralingam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Udumalaipettai",
@@ -30,12 +43,6 @@
         77.3544,
         10.48848
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

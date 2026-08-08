@@ -1,10 +1,14 @@
 {
   "id": "jaipur-kishangarh-expressway",
-  "ref": "NH",
-  "name": "Jaipur Kishangarh Expressway",
+  "ref": "Jaipur–Kishangarh Expressway",
+  "name": "Jaipur–Kishangarh Expressway",
+  "aka": ["NH 48 (Jaipur–Kishangarh section)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 93.2,
+  "lanes": "6 lanes with service roads",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "RICCO Industrial Area, Rajasthan",
     "end": "Badrawas, Rajasthan",
@@ -18,6 +22,37 @@
       "Badrawas"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
+  "history": "The Jaipur–Kishangarh stretch of the Delhi–Ahmedabad highway was one of the first six-lane tolled roads built in Rajasthan under a private concession, opening in 2005. It runs across flat, dry country from Jaipur towards Ajmer, and it set the pattern for the six-laning of the rest of NH 48.",
+  "facts": [
+    "One of the earliest six-lane tolled highway sections in Rajasthan.",
+    "Part of NH 48, the Delhi–Jaipur–Ahmedabad–Mumbai route and one of India's busiest freight corridors.",
+    "Kishangarh, at its western end, is the centre of India's marble trade.",
+    "It carries most road traffic between Jaipur and Ajmer, including pilgrims to the Ajmer Sharif dargah and Pushkar."
+  ],
+  "significance": "This is a link in the road chain between Delhi and Mumbai, and the main route from Jaipur towards Ajmer, Pushkar and Udaipur. Marble lorries from Kishangarh and freight from Gujarat run on it day and night.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The Delhi–Mumbai national highway this section belongs to" },
+    { "id": "jaipur-ring-road", "label": "The ring road that lets traffic skip Jaipur city" },
+    { "id": "delhi-mumbai-expressway", "label": "The new expressway taking long-distance Delhi–Mumbai traffic off this route" },
+    { "id": "nh-52", "label": "Met near Badrawas" },
+    { "id": "nh-448", "label": "Met near RICCO Industrial Area" },
+    { "id": "jaipur-ring-road-southern-corridor", "label": "Met near Lalarpura" }
+  ],
+  "travelNotes": "A fast, straightforward drive of about ninety minutes. Tolled, with service roads through the towns along the way.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "RICCO Industrial Area",
@@ -46,16 +81,6 @@
         75.73611,
         26.88843
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

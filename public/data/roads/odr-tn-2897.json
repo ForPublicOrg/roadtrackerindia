@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Walajapet, Tamil Nadu",
     "end": "Lalapet, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Lalapet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-61", "label": "Met near Lalapet" },
+    { "id": "sh-tn-61a", "label": "Met near Lalapet" },
+    { "id": "odr-tn-2443", "label": "Met near Lalapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Walajapet",
@@ -30,12 +43,6 @@
         79.38899,
         13.00529
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

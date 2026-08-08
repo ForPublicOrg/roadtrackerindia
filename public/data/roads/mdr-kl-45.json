@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kaikunje, Karnataka",
     "end": "Manjeshwar, Kerala",
@@ -16,6 +17,18 @@
       "Manjeshwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-ka-100", "label": "Met near Uppala" },
+    { "id": "mdr-kl-56", "label": "Met near Uppala" },
+    { "id": "kl-panamangalore-pathur-road", "label": "Met near Vitla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaikunje",
@@ -30,12 +43,6 @@
         74.98744,
         12.75336
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

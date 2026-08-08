@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "MRP Nagar, Tamil Nadu",
     "end": "Vedasandur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Vedasandur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-74", "label": "Met near MRP Nagar" },
+    { "id": "sh-tn-152", "label": "Met near Vedasandur" },
+    { "id": "sh-tn-u164", "label": "Met near Vedasandur" },
+    { "id": "mdr-tn-606", "label": "Met near Vedasandur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "MRP Nagar",
@@ -30,12 +44,6 @@
         77.94752,
         10.5309
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

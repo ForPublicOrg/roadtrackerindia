@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-10-karimganj-major-distric-road-10-new-numbering",
-  "ref": "MDR",
-  "name": "Assam Kj-M-10 (Karimganj Major Distric Road 10) (new Numbering 2024)",
+  "ref": "MDR KJ-M-10",
+  "name": "Karimganj–Panchgram district road",
+  "aka": ["Karimganj Major District Road KJ-M-10"],
   "category": "district",
   "status": "operational",
   "lengthKm": 27.5,
+  "authority": "assam-pwd",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Panchgram, Assam",
@@ -17,6 +19,20 @@
       "Panchgram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Karimganj and Panchgram. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Badarpur" },
+    { "id": "nh-37", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met near Badarpur" },
+    { "id": "mdr-as-10", "label": "Met near Karimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karimganj",
@@ -38,12 +54,6 @@
         92.58271,
         24.87281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

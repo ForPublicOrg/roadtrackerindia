@@ -17,6 +17,21 @@
       "Nangal Chaudhri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 221, Kotputli–Nangal Chaudhri District road, crosses the border between Rajasthan and Haryana. A state road that runs through more than one state has no single owner — Rajasthan PWD and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Kotputli" },
+    { "id": "nh-148b", "label": "Met near Nangal Chaudhri" },
+    { "id": "sh-rj-37b", "label": "Met near Kotputli" },
+    { "id": "sh-hr-129", "label": "Met near Nangal Chaudhri" },
+    { "id": "mdr-rj-175", "label": "Met near Kotputli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kotputli",
@@ -31,12 +46,6 @@
         76.11912,
         27.86313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.3,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Shahabad, Uttar Pradesh",
     "end": "Tilhar, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Tilhar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Tilhar" },
+    { "id": "nh-730c", "label": "Met near Tilhar" },
+    { "id": "sh-up-29", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahabad",
@@ -30,12 +42,6 @@
         79.66688,
         28.02415
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

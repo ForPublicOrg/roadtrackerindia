@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 158.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sri Dungargarh, Rajasthan",
     "end": "Rajgarh, Rajasthan",
@@ -18,6 +19,19 @@
       "Rajgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Rajgarh" },
+    { "id": "nh-11", "label": "Met near Sri Dungargarh" },
+    { "id": "nh-703", "label": "Met near Taranagar" },
+    { "id": "sh-rj-7", "label": "Met near Sardarshahar" },
+    { "id": "sh-rj-36", "label": "Met near Taranagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sri Dungargarh",
@@ -46,12 +60,6 @@
         75.37133,
         28.64204
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

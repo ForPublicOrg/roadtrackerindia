@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallipattu, Tamil Nadu",
     "end": "Podaturpet, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Podaturpet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-108", "label": "Met near Pallipattu" },
+    { "id": "sh-tn-53", "label": "Met near Pallipattu" },
+    { "id": "odr-tn-5689", "label": "Met near Pallipattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallipattu",
@@ -30,12 +43,6 @@
         79.4479,
         13.33737
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

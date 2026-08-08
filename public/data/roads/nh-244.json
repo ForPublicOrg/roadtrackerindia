@@ -20,6 +20,20 @@
       "Lal Chowk"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Chenani" },
+    { "id": "nh-501", "label": "Met near Anantnag" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chenani",
@@ -83,16 +97,6 @@
         75.10671,
         33.71251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

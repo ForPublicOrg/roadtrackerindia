@@ -27,6 +27,23 @@
       "Lalgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Meets this road" },
+    { "id": "nh-11", "label": "Met near Napasar" },
+    { "id": "nh-62", "label": "Meets this road" },
+    { "id": "nh-68", "label": "Met near Sanchore" },
+    { "id": "nh-25", "label": "Met near Pachpadra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tharad",
@@ -139,16 +156,6 @@
         73.3762,
         28.14032
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,0 +1,122 @@
+{
+  "id": "thiruvananthapuram-outer-ring-road",
+  "ref": "Outer Ring Road",
+  "name": "Thiruvananthapuram Outer Ring Road",
+  "category": "local",
+  "status": "under-construction",
+  "lengthKm": 65.1,
+  "lanes": "4–6 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
+  "route": {
+    "start": "Navaikulam, Kerala",
+    "end": "Venganoor, Kerala",
+    "states": [
+      "Kerala"
+    ],
+    "majorCities": [
+      "Navaikulam",
+      "Kallambalam",
+      "Venjaramoodu",
+      "Nedumangad",
+      "Kattakada",
+      "Balaramapuram",
+      "Venganoor"
+    ]
+  },
+  "history": "The Thiruvananthapuram Outer Ring Road is being built in an arc around the Kerala capital, from Navaikulam in the north through Nedumangad and Kattakada to Venganoor near the coast. Its main purpose is the Vizhinjam deep-water port south of the city: container traffic from the new port needs a way to reach the national highway network without driving through Thiruvananthapuram, which is built along a narrow coastal strip with no room to widen anything.",
+  "facts": [
+    "Built primarily to connect the Vizhinjam deep-water port to the highway network.",
+    "Runs inland of Thiruvananthapuram, through Nedumangad and Kattakada.",
+    "Kerala's coastal strip is densely built, so a bypass has to swing well inland.",
+    "It is being built as a national highway project under the Bharatmala programme."
+  ],
+  "significance": "Vizhinjam is India's first deep-water transhipment port, and it needs road access that does not run through the middle of a state capital. This ring is that access.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "The Kerala coastal highway the ring connects to at both ends" },
+    { "id": "mc-road", "label": "The inland Main Central Road running north from Thiruvananthapuram" },
+    { "id": "sh-kl-1", "label": "Met near Kilimanoor" },
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "kl-old-nh-road-thiruvananthapuram", "label": "Met near Balaramapuram" }
+  ],
+  "travelNotes": "Under construction and opening in sections.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Navaikulam",
+      "coords": [
+        76.7869,
+        8.7738
+      ]
+    },
+    {
+      "name": "Kallambalam",
+      "coords": [
+        76.78531,
+        8.77222
+      ]
+    },
+    {
+      "name": "Kilimanoor",
+      "coords": [
+        76.87958,
+        8.75302
+      ]
+    },
+    {
+      "name": "Venjaramoodu",
+      "coords": [
+        76.9346,
+        8.69743
+      ]
+    },
+    {
+      "name": "Pothencode",
+      "coords": [
+        76.95089,
+        8.64353
+      ]
+    },
+    {
+      "name": "Nedumangad",
+      "coords": [
+        76.99255,
+        8.58811
+      ]
+    },
+    {
+      "name": "Kattakada",
+      "coords": [
+        77.05862,
+        8.49927
+      ]
+    },
+    {
+      "name": "Russelpuram",
+      "coords": [
+        77.04874,
+        8.44087
+      ]
+    },
+    {
+      "name": "Balaramapuram",
+      "coords": [
+        77.04254,
+        8.43202
+      ]
+    },
+    {
+      "name": "Venganoor",
+      "coords": [
+        77.01435,
+        8.37887
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

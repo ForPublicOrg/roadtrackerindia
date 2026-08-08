@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kattakada, Kerala",
     "end": "Parassala, Kerala",
@@ -16,6 +17,18 @@
       "Parassala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Kattakada" },
+    { "id": "sh-kl-3", "label": "Met near Kattakada" },
+    { "id": "kl-parassala-panachamoodu-road", "label": "Met near Parassala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kattakada",
@@ -30,12 +43,6 @@
         77.19577,
         8.43892
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

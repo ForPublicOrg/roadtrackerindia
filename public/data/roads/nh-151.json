@@ -19,6 +19,23 @@
       "Jetpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Jetpur" },
+    { "id": "nh-51", "label": "Met near Gadu" },
+    { "id": "nh-351", "label": "Met near Jetpur" },
+    { "id": "sh-gj-96", "label": "Met near Keshod" },
+    { "id": "sh-gj-31", "label": "Met near Maliya" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadu",
@@ -54,16 +71,6 @@
         70.59391,
         21.75354
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthanpally, Kerala",
     "end": "Eramangalam, Kerala",
@@ -16,6 +17,17 @@
       "Eramangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-62", "label": "Met near Puthanpally" },
+    { "id": "kl-changaramkulam-cheravallur-road", "label": "Met near Puthanpally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthanpally",
@@ -30,12 +42,6 @@
         76.00355,
         10.69089
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 11.7,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Chhaprabhatha, Gujarat",
     "end": "Amroli, Gujarat",
@@ -16,6 +17,12 @@
       "Amroli"
     ]
   },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhaprabhatha",
@@ -30,12 +37,6 @@
         72.75052,
         21.33616
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

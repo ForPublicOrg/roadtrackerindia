@@ -21,6 +21,23 @@
       "Kotdwar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Meerut" },
+    { "id": "nh-709a", "label": "Met near Meerut" },
+    { "id": "nh-709ad", "label": "Met near Bijnor" },
+    { "id": "nh-734", "label": "Met near Najibabad" },
+    { "id": "nh-534", "label": "Met near Najibabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Meerut",
@@ -77,16 +94,6 @@
         78.51962,
         29.74509
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

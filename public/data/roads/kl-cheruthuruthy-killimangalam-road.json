@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Shoranur, Kerala",
     "end": "Ottupara, Kerala",
@@ -16,6 +17,17 @@
       "Ottupara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Shoranur" },
+    { "id": "sh-kl-74", "label": "Met near Shoranur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shoranur",
@@ -30,12 +42,6 @@
         76.27465,
         10.7484
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

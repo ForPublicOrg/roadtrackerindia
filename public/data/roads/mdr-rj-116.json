@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Karanpur, Rajasthan",
     "end": "Padampur, Rajasthan",
@@ -16,6 +17,18 @@
       "Padampur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-911", "label": "Met near Padampur" },
+    { "id": "sh-rj-3", "label": "Met near Padampur" },
+    { "id": "sh-rj-7b", "label": "Met near Karanpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karanpur",
@@ -30,12 +43,6 @@
         73.61793,
         29.70824
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

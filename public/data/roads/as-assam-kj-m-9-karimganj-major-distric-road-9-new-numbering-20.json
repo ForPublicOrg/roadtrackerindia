@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-9-karimganj-major-distric-road-9-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Kj-M-9 (Karimganj Major Distric Road 9) (new Numbering 2024)",
+  "ref": "MDR KJ-M-9",
+  "name": "Ramkrishna Nagar–Lala district road",
+  "aka": ["Karimganj Major District Road KJ-M-9"],
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "assam-pwd",
   "route": {
     "start": "Ramkrishna Nagar, Assam",
     "end": "Lala, Assam",
@@ -16,6 +18,21 @@
       "Lala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Ramkrishna Nagar and Lala. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    {
+      "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    },
+    { "id": "mdr-as-9", "label": "Met near Ramkrishna Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ramkrishna Nagar",
@@ -30,12 +47,6 @@
         92.50787,
         24.59614
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thanikkudam, Kerala",
     "end": "Chembukkavu, Kerala",
@@ -16,6 +17,18 @@
       "Chembukkavu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Thrissur" },
+    { "id": "kl-seminary-chottupara-road", "label": "Met near Thrissur" },
+    { "id": "kl-attore-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thanikkudam",
@@ -30,12 +43,6 @@
         76.22186,
         10.59406
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

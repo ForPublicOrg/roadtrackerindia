@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 36.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kappalam, Kerala",
     "end": "Alakode, Kerala",
@@ -18,6 +19,23 @@
       "Alakode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Karuvanchal" },
+    { "id": "sh-kl-36", "label": "Met near Taliparamba" },
+    { "id": "mdr-kl-17", "label": "Met near Kappalam" },
+    {
+      "id": "kl-chundaparamba-pooparamba-nellikutty-areekkamala-vellad-karuv",
+      "label": "Met near Karuvanchal"
+    },
+    { "id": "kl-methurumba-chapparappadavu-kuttoor-road", "label": "Met near Naduvil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kappalam",
@@ -39,12 +57,6 @@
         75.46302,
         12.19918
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 13.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Kudal MIDC, Maharashtra",
     "end": "Vengurla, Maharashtra",
@@ -17,6 +18,16 @@
       "Vengurla"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-4", "label": "Met near Kudal MIDC" },
+    { "id": "sh-mh-120", "label": "Met near Kudal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kudal MIDC",
@@ -31,12 +42,6 @@
         73.57373,
         15.96491
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

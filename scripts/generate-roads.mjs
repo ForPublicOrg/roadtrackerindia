@@ -29,6 +29,18 @@ const GEOM_DIR = join(ROOT, 'data', 'geometry')
 const LEGACY_GEOM_DIR = join(ROOT, 'public', 'data', 'geometry')
 mkdirSync(GEOM_DIR, { recursive: true })
 
+/**
+ * Roads already found to be the same tarmac as another record (data/merged-roads.json).
+ * OSM still carries both — the expressway numbering and the common name are
+ * separate relations — so without this a regeneration run would hand the
+ * catalogue back its duplicates.
+ */
+const MERGED = (() => {
+  const p = join(ROOT, 'data', 'merged-roads.json')
+  if (!existsSync(p)) return new Map()
+  return new Map(Object.entries(JSON.parse(readFileSync(p, 'utf8')).aliases ?? {}))
+})()
+
 // ── reference layers ─────────────────────────────────────────────────
 
 const states = readCache('states.json') ?? []
@@ -351,6 +363,7 @@ console.log(`${authored.size} hand-authored or enriched roads will be preserved.
 
 const stats = {
   written: 0, geometry: 0, skippedAuthored: 0, tooShort: 0, empty: 0, noPlace: 0, unreadable: 0,
+  merged: 0,
 }
 
 let pointTotal = 0
@@ -375,20 +388,34 @@ for (const file of routeFiles) {
     continue
   }
 
+  // A merged road is not a road — it is another name for one already in the
+  // catalogue. Its alignment is still worth keeping, but under the id that won.
+  const merged = MERGED.get(route.id)
+  const geomId = merged ?? route.id
+
   // The alignment is written even for hand-authored roads — a real OSM shape
   // beats a waypoint polyline for them too — but never over a curated one in
   // the legacy directory, which build-data reads first for exactly that reason.
-  if (!existsSync(join(LEGACY_GEOM_DIR, `${route.id}.json`))) {
+  if (
+    !existsSync(join(LEGACY_GEOM_DIR, `${geomId}.json`)) &&
+    // the surviving road usually has its own, better-matching shape already
+    !(merged && existsSync(join(GEOM_DIR, `${geomId}.json`)))
+  ) {
     // the display alignment: ~30 m fidelity is far more than the map can show
     const line = simplify(route.coords, 0.03)
     pointTotal += line.length
     if (!DRY) {
       writeFileSync(
-        join(GEOM_DIR, `${route.id}.json`),
+        join(GEOM_DIR, `${geomId}.json`),
         JSON.stringify({ type: 'Polyline', precision: 5, lengthKm: route.lengthKm, data: encodePolyline(line) }),
       )
     }
     stats.geometry++
+  }
+
+  if (merged) {
+    stats.merged++
+    continue
   }
 
   const target = join(ROADS_DIR, `${route.id}.json`)
@@ -400,6 +427,9 @@ for (const file of routeFiles) {
 
   const road = build(route)
   if (!road) {
+    // naming the road matters: "6 with no nearby place" is not something anyone
+    // can act on, and these are usually roads worth adding by hand
+    console.log(`  ? ${route.id}: no place near either end — not written`)
     stats.noPlace++
     continue
   }
@@ -412,6 +442,7 @@ console.log(
   `\n${DRY ? '(dry run) ' : ''}✓ ${stats.written} road files, ${stats.geometry} alignments ` +
     `(${(pointTotal / 1e6).toFixed(2)}M points)\n` +
     `  preserved ${stats.skippedAuthored} hand-authored · skipped ${stats.empty} empty, ` +
-    `${stats.tooShort} under 1 km, ${stats.noPlace} with no nearby place`,
+    `${stats.tooShort} under 1 km, ${stats.noPlace} with no nearby place, ` +
+    `${stats.merged} already merged into another road`,
 )
 console.log(`  legacy geometry dir still read from: ${LEGACY_GEOM_DIR}`)

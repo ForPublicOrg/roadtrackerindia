@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 21.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Virudhachalam, Tamil Nadu",
     "end": "Ulundurpettai, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Ulundurpettai"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-69", "label": "Met near Virudhachalam" },
+    { "id": "mdr-tn-602", "label": "Met near Ulundurpettai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Virudhachalam",
@@ -30,12 +41,6 @@
         79.38557,
         11.70065
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -15,7 +15,6 @@
   "builtBy": [
     { "org": "nhidcl", "note": "the big tunnels" }
   ],
-  "newsQuery": "\"NH 1\" Srinagar Leh highway",
   "route": {
     "start": "Uri, Jammu & Kashmir",
     "end": "Leh, Ladakh",
@@ -55,14 +54,24 @@
     { "name": "Leh", "note": "meets NH 3 from Manali, plus the roads to Khardung La, Nubra and Pangong" }
   ],
   "relatedRoads": [
-    { "id": "nh-44", "label": "The Jammu–Srinagar highway that feeds NH 1 with traffic from the rest of India" },
-    { "id": "nh-3", "label": "The Manali–Leh highway, the only other road route into Ladakh; the two meet at Leh" }
+    {
+      "id": "nh-44",
+      "label": "The Jammu–Srinagar highway that feeds NH 1 with traffic from the rest of India"
+    },
+    {
+      "id": "nh-3",
+      "label": "The Manali–Leh highway, the only other road route into Ladakh; the two meet at Leh"
+    },
+    { "id": "nh-301", "label": "Met near Kargil" },
+    { "id": "nh-701", "label": "Met near Baramulla" },
+    { "id": "nh-444", "label": "Met near Srinagar" }
   ],
   "travelNotes": "Srinagar to Leh is about 430 km and is normally driven in two days with a night halt at Kargil — doing it in one day is hard on both driver and passengers because of the altitude. The high section usually opens around April or May once the army clears the snow, and closes again around November or December. Leh sits at 3,500 m, so give yourself a day to acclimatise and take altitude sickness seriously. Fuel pumps are far apart between Sonamarg and Kargil, mobile signal is patchy, and army convoys have priority on narrow stretches. Check the road status before you set out — landslides and snow can shut it at short notice.",
   "futureUpgrades": [
     "The Zoji La tunnel, holed through in June 2026, is targeted for completion around 2028 and will make the highway all-weather.",
     "Widening and improvement of the Srinagar–Kargil–Leh sections is continuing alongside the tunnel work."
   ],
+  "newsQuery": "\"NH 1\" Srinagar Leh highway",
   "sources": [
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://www.nhidcl.com/" },

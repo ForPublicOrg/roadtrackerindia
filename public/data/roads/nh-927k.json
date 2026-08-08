@@ -17,6 +17,23 @@
       "Ranavav"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Ranavav" },
+    { "id": "nh-151a", "label": "Met near Khambhaliya" },
+    { "id": "nh-151k", "label": "Met near Bhanvad" },
+    { "id": "nh-151ad", "label": "Met near Khambhaliya" },
+    { "id": "sh-gj-94", "label": "Met near Bhanvad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khambhaliya",
@@ -38,16 +55,6 @@
         69.75633,
         21.67995
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

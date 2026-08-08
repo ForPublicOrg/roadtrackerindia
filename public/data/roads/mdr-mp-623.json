@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pichore, Madhya Pradesh",
     "end": "Isagarh, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Isagarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-618", "label": "Meets this road" },
+    { "id": "mdr-mp-619", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pichore",
@@ -30,12 +42,6 @@
         78.11111,
         25.03109
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

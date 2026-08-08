@@ -9,12 +9,15 @@
   "lanes": "4 lanes (expandable), access-controlled",
   "agency": "NHAI",
   "authority": "nhai",
-  "newsQuery": "\"Delhi Amritsar Katra Expressway\"",
   "route": {
     "start": "Jasaur Kheri (KMP Expressway), Jhajjar district, Haryana",
     "end": "Katra, Jammu & Kashmir",
     "states": ["Haryana", "Punjab", "Jammu and Kashmir"],
     "majorCities": ["Rohtak", "Jind", "Kaithal", "Sangrur", "Ludhiana", "Nakodar", "Amritsar", "Gurdaspur", "Pathankot", "Katra"]
+  },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
   },
   "timeline": [
     { "year": "2022", "event": "Prime Minister lays the foundation stone on 5 January and construction gets under way" },
@@ -45,16 +48,32 @@
     { "name": "Katra", "note": "the northern end, at the base town for the Vaishno Devi shrine" }
   ],
   "relatedRoads": [
-    { "id": "western-peripheral-expressway", "label": "The KMP ring road west of Delhi, where this expressway begins" },
-    { "id": "nh-44", "label": "The old Delhi–Jammu–Srinagar highway that this expressway is built to relieve" },
-    { "id": "trans-haryana-expressway", "label": "Another new greenfield Haryana expressway crossing the same districts" },
-    { "id": "eastern-peripheral-expressway", "label": "The other half of the Delhi ring, linking traffic from the east onto this corridor" }
+    {
+      "id": "western-peripheral-expressway",
+      "label": "The KMP ring road west of Delhi, where this expressway begins"
+    },
+    {
+      "id": "nh-44",
+      "label": "The old Delhi–Jammu–Srinagar highway that this expressway is built to relieve"
+    },
+    {
+      "id": "trans-haryana-expressway",
+      "label": "Another new greenfield Haryana expressway crossing the same districts"
+    },
+    {
+      "id": "eastern-peripheral-expressway",
+      "label": "The other half of the Delhi ring, linking traffic from the east onto this corridor"
+    },
+    { "id": "ne-5a", "label": "Met near Nakodar" },
+    { "id": "nh-3", "label": "Met near Kartarpur" },
+    { "id": "nh-7", "label": "Met near Bhawanigarh" }
   ],
   "travelNotes": "Only parts of the route are open, so a Delhi–Katra trip today still means joining and leaving the old NH 44 in places — check which sections are running before you plan. The finished Haryana stretch is fast and very empty, but it runs through open farmland with few fuel pumps and food stops so far, so fill up before you get on. Pilgrim traffic peaks sharply around Navratri and the summer holidays, and winter fog can be thick across Haryana and Punjab in December and January.",
   "futureUpgrades": [
     "The full Delhi–Amritsar–Katra route is targeted for completion by 2027.",
     "The Jammu & Kashmir packages between Hiranagar, Samba and Jammu are in the final stages of construction."
   ],
+  "newsQuery": "\"Delhi Amritsar Katra Expressway\"",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Press Information Bureau, Government of India", "url": "https://www.pib.gov.in/" }

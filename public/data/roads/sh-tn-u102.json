@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 5.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vadipatti, Tamil Nadu",
     "end": "Sholavandan, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Sholavandan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vadipatti" },
+    { "id": "nh-744a", "label": "Met near Vadipatti" },
+    { "id": "madurai-north-ring-road", "label": "Met near Vadipatti" },
+    { "id": "mdr-tn-568", "label": "Met near Vadipatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vadipatti",
@@ -30,12 +43,6 @@
         77.94715,
         10.10324
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

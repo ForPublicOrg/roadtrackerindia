@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chirayinkeezhu, Kerala",
     "end": "Mangalapuram, Kerala",
@@ -17,6 +18,18 @@
       "Mangalapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kaniyapuram-chirayinkeezhu-road", "label": "Met near Mangalapuram" },
+    { "id": "kl-azhoor-sasthavattom-road", "label": "Met near Azhoor" },
+    { "id": "kl-thonnakkal-valikonam-veiloor-road", "label": "Met near Mangalapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chirayinkeezhu",
@@ -45,12 +58,6 @@
         76.82718,
         8.63028
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

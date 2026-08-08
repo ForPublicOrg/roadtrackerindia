@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bhandaridih, Jharkhand",
     "end": "Danwar, Jharkhand",
@@ -16,6 +17,17 @@
       "Danwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-13", "label": "Meets this road" },
+    { "id": "mdr-jh-83", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhandaridih",
@@ -30,12 +42,6 @@
         86.15082,
         24.36805
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

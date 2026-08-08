@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.7,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Boha, Punjab",
     "end": "Bhikhi, Punjab",
@@ -17,6 +18,18 @@
       "Bhikhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Budhlada" },
+    { "id": "sh-pb-12a", "label": "Met near Bhikhi" },
+    { "id": "sh-hr-21", "label": "Met near Ratia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Boha",
@@ -38,12 +51,6 @@
         75.52574,
         30.06335
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

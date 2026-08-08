@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jhabua, Madhya Pradesh",
     "end": "Meghnagar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Meghnagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Jhabua" },
+    { "id": "sh-mp-26", "label": "Met near Jhabua" },
+    { "id": "mdr-mp-4413", "label": "Met near Jhabua" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhabua",
@@ -30,12 +43,6 @@
         74.6477,
         22.77917
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

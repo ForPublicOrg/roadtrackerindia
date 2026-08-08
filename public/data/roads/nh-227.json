@@ -23,6 +23,23 @@
       "Nirmali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-227j", "label": "A branch off this highway, running Rahika to Mukhiyapatti Bazar" },
+    { "id": "nh-227l", "label": "A branch off this highway, running Nagarain to Rahika" },
+    { "id": "nh-27", "label": "Met near Nirmali" },
+    { "id": "nh-22", "label": "Met near Sitamarhi" },
+    { "id": "nh-527c", "label": "Met near Matihani" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chakia",
@@ -100,16 +117,6 @@
         86.49276,
         26.35798
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyatheru, Kerala",
     "end": "Kannur, Kerala",
@@ -16,6 +17,17 @@
       "Kannur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kannur-mattanur-road", "label": "Met near Kannur" },
+    { "id": "kl-kannadipparamba-varamkadavu-road", "label": "Met near Kannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyatheru",
@@ -30,12 +42,6 @@
         75.41387,
         11.89879
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,20 @@
       "Hakimpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Gazole" },
+    { "id": "sh-wb-10a", "label": "Met near Gangarampur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gazole",
@@ -53,16 +67,6 @@
         89.0067,
         25.28118
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,21 @@
       "Borsad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-64", "label": "Met near Padra" },
+    { "id": "sh-gj-11", "label": "Met near Borsad" },
+    { "id": "sh-gj-160", "label": "Met near Padra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhayli",
@@ -38,16 +53,6 @@
         72.90568,
         22.40366
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

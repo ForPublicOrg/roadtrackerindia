@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palavanthankattalai, Tamil Nadu",
     "end": "Kumbakonam, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Kumbakonam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-22", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-66", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-64", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-8", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palavanthankattalai",
@@ -53,12 +67,6 @@
         79.37849,
         10.96758
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

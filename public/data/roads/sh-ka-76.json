@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 215.7,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Hosahalli, Karnataka",
     "end": "Biruru, Karnataka",
@@ -21,6 +22,19 @@
       "Biruru"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Davanagere" },
+    { "id": "nh-69", "label": "Met near Biruru" },
+    { "id": "nh-766c", "label": "Met near Ranebennur" },
+    { "id": "nh-766e", "label": "Met near Hanagal" },
+    { "id": "nh-369", "label": "Met near Channagiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hosahalli",
@@ -77,12 +91,6 @@
         75.9735,
         13.59824
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

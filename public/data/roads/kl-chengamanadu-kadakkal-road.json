@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottarakkara, Kerala",
     "end": "Kadakkal, Kerala",
@@ -18,6 +19,20 @@
       "Kadakkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Anchal" },
+    { "id": "sh-kl-64", "label": "Met near Kadakkal" },
+    { "id": "sh-kl-48", "label": "Met near Anchal" },
+    { "id": "kl-vilakkupara-thadikkadu-road", "label": "Met near Anchal" },
+    { "id": "kl-chingeli-chadayamangalam-road", "label": "Met near Kadakkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottarakkara",
@@ -46,12 +61,6 @@
         76.91769,
         8.82636
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

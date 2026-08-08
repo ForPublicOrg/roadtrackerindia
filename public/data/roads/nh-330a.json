@@ -18,6 +18,26 @@
       "Lalbagh"
     ]
   },
+  "significance": "NH 330A is a branch of NH 330. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jagdishpur to Lalbagh, and it meets NH 330 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-330",
+      "label": "NH 330 — the highway this branch takes its number from, running Shantipuram to Balrampur"
+    },
+    { "id": "purvanchal-expressway", "label": "Met near Musarfirkhana" },
+    { "id": "nh-27", "label": "Met near Faizabad" },
+    { "id": "nh-30", "label": "Met near Raebareli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagdishpur",
@@ -46,16 +66,6 @@
         82.13589,
         26.75628
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

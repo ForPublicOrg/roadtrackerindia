@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ji nagar, Tamil Nadu",
     "end": "Oddanchatram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Oddanchatram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-192", "label": "Met near Ji nagar" },
+    { "id": "sh-tn-152", "label": "Met near Oddanchatram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ji nagar",
@@ -30,12 +42,6 @@
         77.7887,
         10.5013
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

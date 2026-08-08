@@ -16,6 +16,10 @@
     "states": ["Uttar Pradesh"],
     "majorCities": ["Lucknow", "Nawabganj", "Unnao", "Kanpur"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2023", "event": "Main construction in progress on both the elevated and greenfield sections" },
     { "year": "2026", "event": "Inaugurated on 13 July and opened to traffic" }
@@ -44,7 +48,10 @@
     { "id": "agra-lucknow-expressway", "label": "Reached from the same Shaheed Path junction in Lucknow, carrying traffic on to Agra" },
     { "id": "purvanchal-expressway", "label": "Starts near Lucknow and continues the expressway chain east to Ghazipur" },
     { "id": "nh-27", "label": "The old Lucknow–Kanpur highway that this expressway was built to relieve" },
-    { "id": "ganga-expressway", "label": "The Meerut–Prayagraj expressway, which this road crosses in Unnao district" }
+    { "id": "ganga-expressway", "label": "The Meerut–Prayagraj expressway, which this road crosses in Unnao district" },
+    { "id": "nh-31", "label": "Met near Unnao" },
+    { "id": "nh-230", "label": "Met near Alambagh" },
+    { "id": "sh-up-38", "label": "Met near Unnao" }
   ],
   "travelNotes": "Allow about 45 minutes end to end. It is a toll road, and most drivers pay with FASTag. The busiest times are the weekday morning and evening commutes at both ends. Dense fog is common on this part of the Ganga plain in December and January, when speeds drop sharply. Fuel and food are easier to find at the Lucknow and Kanpur ends than in the middle.",
   "sources": [

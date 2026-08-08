@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nannilam, Tamil Nadu",
     "end": "Thiruvarur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Thiruvarur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-23", "label": "Met near Nannilam" },
+    { "id": "sh-tn-67", "label": "Met near Nannilam" },
+    { "id": "mdr-tn-1268", "label": "Met near Nannilam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nannilam",
@@ -30,12 +43,6 @@
         79.64261,
         10.85766
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

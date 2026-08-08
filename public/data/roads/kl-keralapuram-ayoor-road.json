@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ayoor, Kerala",
     "end": "Keralapuram, Kerala",
@@ -17,6 +18,20 @@
       "Keralapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Keralapuram" },
+    { "id": "mc-road", "label": "Met near Ayoor" },
+    { "id": "kl-kottiyam-kundara-road", "label": "Met near Kundara" },
+    { "id": "kl-ezhukone-nedumonkavu-road", "label": "Met near Chathannoor" },
+    { "id": "kl-oyoor-vappala-road", "label": "Met near Ayoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ayoor",
@@ -38,12 +53,6 @@
         76.65872,
         8.94259
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

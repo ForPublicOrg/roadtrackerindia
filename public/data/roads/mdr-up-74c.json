@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Gulariya, Uttar Pradesh",
     "end": "Nighasan, Uttar Pradesh",
@@ -16,6 +17,13 @@
       "Nighasan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gulariya",
@@ -30,12 +38,6 @@
         80.98788,
         28.17256
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

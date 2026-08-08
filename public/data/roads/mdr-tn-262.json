@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Checkanurani, Tamil Nadu",
     "end": "Nilakkottai, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Nilakkottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-73", "label": "Met near Checkanurani" },
+    { "id": "sh-tn-285", "label": "Met near Nilakkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Checkanurani",
@@ -38,12 +50,6 @@
         77.85277,
         10.09136
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

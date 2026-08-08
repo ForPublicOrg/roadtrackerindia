@@ -21,6 +21,23 @@
       "Balrampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-330a", "label": "A branch off this highway, running Jagdishpur to Lalbagh" },
+    { "id": "nh-330b", "label": "A branch off this highway, running Gonda to Ramnagar" },
+    { "id": "purvanchal-expressway", "label": "Met near Kurebhar" },
+    { "id": "prayagraj-bypass-expressway", "label": "Met near Phaphamau" },
+    { "id": "nh-27", "label": "Met near Faizabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shantipuram",
@@ -84,16 +101,6 @@
         82.18061,
         27.43077
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

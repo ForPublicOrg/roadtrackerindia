@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thudiyalur, Tamil Nadu",
     "end": "Bommanampalayam, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Bommanampalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Thudiyalur" },
+    { "id": "sh-tn-164", "label": "Met near Kanuvai" },
+    { "id": "sh-tn-167", "label": "Met near Bommanampalayam" },
+    { "id": "mdr-tn-489", "label": "Met near Thudiyalur" },
+    { "id": "mdr-tn-978", "label": "Met near Thudiyalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thudiyalur",
@@ -67,12 +82,6 @@
         76.89118,
         11.03047
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

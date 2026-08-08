@@ -25,6 +25,23 @@
       "Shahzadpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Saharanpur" },
+    { "id": "nh-44", "label": "Met near Ambala" },
+    { "id": "nh-7", "label": "Met near Shahzadpur" },
+    { "id": "nh-334", "label": "Met near Manglaur" },
+    { "id": "nh-709b", "label": "Met near Saharanpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manglaur",
@@ -88,16 +105,6 @@
         77.02138,
         30.46314
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

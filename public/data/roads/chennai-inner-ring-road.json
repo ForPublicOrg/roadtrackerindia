@@ -1,0 +1,118 @@
+{
+  "id": "chennai-inner-ring-road",
+  "ref": "Inner Ring Road",
+  "name": "Chennai Inner Ring Road",
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 36.3,
+  "lanes": "4–6 lanes, elevated in parts",
+  "authority": "tamil-nadu-highways",
+  "route": {
+    "start": "Madhavaram, Chennai",
+    "end": "Kottivakkam, Chennai",
+    "states": ["Tamil Nadu"],
+    "majorCities": [
+      "Madhavaram",
+      "Dwaraka Nagar",
+      "Padi",
+      "Ashok Nagar",
+      "Ekkattuthangal",
+      "Taramani",
+      "Kottivakkam"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Inner Ring Road curves through Chennai's inner suburbs from Madhavaram in the north, through Ekkattuthangal and Guindy, to the coast near Kottivakkam. It links the northern industrial areas to the southern IT corridor without going through the old city, and its middle section carries the traffic between the airport, Guindy's offices and the arterial roads south.",
+  "facts": [
+    "Runs from Madhavaram in the north to the coast in the south, inside the Outer Ring Road.",
+    "Passes Guindy, one of Chennai's oldest industrial and office districts.",
+    "It is the main road link between north Chennai's industry and the southern IT corridor.",
+    "Parts of it are elevated over the busiest junctions."
+  ],
+  "significance": "It is the working cross-city road of Chennai — the route between the port and industrial north and the software offices of the south.",
+  "relatedRoads": [
+    { "id": "chennai-outer-ring-road", "label": "The bigger ring through the outer suburbs" },
+    { "id": "nh-16", "label": "Met near Madhavaram" },
+    { "id": "nh-716", "label": "Met near Padi" },
+    { "id": "chennai-200-feet-radial-road", "label": "Met near Adambakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Dwaraka Nagar",
+      "coords": [
+        80.27004,
+        13.18169
+      ]
+    },
+    {
+      "name": "Mathur",
+      "coords": [
+        80.23619,
+        13.1731
+      ]
+    },
+    {
+      "name": "Madhavaram",
+      "coords": [
+        80.21858,
+        13.14075
+      ]
+    },
+    {
+      "name": "Padi",
+      "coords": [
+        80.19464,
+        13.10468
+      ]
+    },
+    {
+      "name": "Arumbakkam",
+      "coords": [
+        80.20561,
+        13.06932
+      ]
+    },
+    {
+      "name": "Ashok Nagar",
+      "coords": [
+        80.21244,
+        13.03746
+      ]
+    },
+    {
+      "name": "Ekkattuthangal",
+      "coords": [
+        80.20712,
+        13.02558
+      ]
+    },
+    {
+      "name": "Puzhuthivakkam",
+      "coords": [
+        80.20888,
+        12.97478
+      ]
+    },
+    {
+      "name": "Taramani",
+      "coords": [
+        80.2444,
+        12.98129
+      ]
+    },
+    {
+      "name": "Kottivakkam",
+      "coords": [
+        80.25261,
+        12.9799
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

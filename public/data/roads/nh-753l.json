@@ -21,6 +21,23 @@
       "Khandwa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Varangaon" },
+    { "id": "nh-753f", "label": "Met near Soegaon" },
+    { "id": "nh-347b", "label": "Met near Khandwa" },
+    { "id": "nh-347c", "label": "Met near Burhanpur" },
+    { "id": "nh-347bg", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Soegaon",
@@ -63,16 +80,6 @@
         76.17924,
         21.90232
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

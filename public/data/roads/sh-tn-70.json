@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Parangipettai, Tamil Nadu",
     "end": "Virudhachalam, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Virudhachalam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Parangipettai" },
+    { "id": "nh-36", "label": "Met near Sethiathoppu" },
+    { "id": "nh-532", "label": "Met near Virudhachalam" },
+    { "id": "sh-tn-141", "label": "Met near Virudhachalam" },
+    { "id": "sh-tn-251", "label": "Met near Chidambaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parangipettai",
@@ -38,12 +52,6 @@
         79.33125,
         11.51594
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

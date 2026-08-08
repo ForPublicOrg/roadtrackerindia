@@ -1,10 +1,14 @@
 {
   "id": "jalna-nanded-expressway",
-  "ref": "NH",
-  "name": "Jalna-Nanded Expressway",
+  "ref": "Jalna–Nanded Expressway",
+  "name": "Jalna–Nanded Expressway",
+  "aka": ["Samruddhi Mahamarg Nanded link"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 184.8,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "MSRDC",
+  "authority": "msrdc",
   "route": {
     "start": "Jalna, Maharashtra",
     "end": "Waghala, Maharashtra",
@@ -21,6 +25,31 @@
       "Waghala"
     ]
   },
+  "history": "This expressway is a branch off the Samruddhi Mahamarg. The main Mumbai–Nagpur expressway passes through Jalna, and this link runs south-east from there through Parbhani to Nanded, bringing the Marathwada districts onto the same fast road. Nanded is a major pilgrimage city — the Hazur Sahib gurdwara draws visitors from across the country — and the link cuts hours off the drive from Mumbai.",
+  "facts": [
+    "A branch of the Samruddhi Mahamarg, joining it at Jalna.",
+    "Brings Nanded and Parbhani within a fast road journey of both Mumbai and Nagpur.",
+    "Nanded is home to Hazur Sahib, one of the five takhts of Sikhism.",
+    "Built by the Maharashtra State Road Development Corporation, the same agency as the Samruddhi Mahamarg."
+  ],
+  "significance": "Marathwada is one of Maharashtra's poorer regions and has long been the part of the state furthest from a good road. This link puts it on the expressway network.",
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "The Mumbai–Nagpur expressway this branch joins at Jalna" },
+    { "id": "nh-548c", "label": "Met near Partur" },
+    { "id": "nh-50", "label": "Met near Nanded" },
+    { "id": "nh-61", "label": "Met near Parbhani" }
+  ],
+  "travelNotes": "Opening in stages as sections are finished. Until then the drive to Nanded uses the older state highways through Parbhani.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jalna",
@@ -70,16 +99,6 @@
         77.32096,
         19.08652
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

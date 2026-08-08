@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vadasery, Tamil Nadu",
     "end": "Aralvaimozhi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Aralvaimozhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-944", "label": "Met near Nagercoil" },
+    { "id": "sh-tn-45", "label": "Met near Aralvaimozhi" },
+    { "id": "mdr-tn-927", "label": "Met near Nagercoil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vadasery",
@@ -30,12 +43,6 @@
         77.49064,
         8.25133
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

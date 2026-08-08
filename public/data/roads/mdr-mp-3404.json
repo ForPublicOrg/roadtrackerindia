@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Nasrullahganj, Madhya Pradesh",
     "end": "Harda, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Harda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Harda" },
+    { "id": "mdr-mp-3403", "label": "Met near Timarni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nasrullahganj",
@@ -30,12 +42,6 @@
         77.08899,
         22.34666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nallur, Tamil Nadu",
     "end": "Suleswaranpatti, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Suleswaranpatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-19", "label": "Met near Pollachi" },
+    { "id": "sh-tn-78a", "label": "Met near Nallur" },
+    { "id": "mdr-tn-1259", "label": "Met near Pollachi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nallur",
@@ -31,12 +44,6 @@
         76.97987,
         10.64874
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

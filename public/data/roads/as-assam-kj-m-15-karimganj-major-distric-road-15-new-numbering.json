@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-15-karimganj-major-distric-road-15-new-numbering",
-  "ref": "MDR",
-  "name": "Assam Kj-M-15 (Karimganj Major Distric Road 15) (new Numbering 2024)",
+  "ref": "MDR KJ-M-15",
+  "name": "Dullabhcherra–Katlicherra district road",
+  "aka": ["Karimganj Major District Road KJ-M-15"],
   "category": "district",
   "status": "operational",
   "lengthKm": 12,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dullabhcherra, Assam",
     "end": "Katlicherra, Assam",
@@ -16,6 +18,22 @@
       "Katlicherra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Dullabhcherra and Katlicherra. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    {
+      "id": "as-assam-kj-m-5-karimganj-major-distric-road-5-new-numbering-20",
+      "label": "Met near Dullabhcherra"
+    },
+    { "id": "mdr-as-5", "label": "Met near Dullabhcherra" },
+    { "id": "mdr-as-15", "label": "Met near Dullabhcherra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dullabhcherra",
@@ -30,12 +48,6 @@
         92.50781,
         24.45953
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

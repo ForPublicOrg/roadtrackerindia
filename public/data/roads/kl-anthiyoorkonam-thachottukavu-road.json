@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Malayinkeezhu, Kerala",
     "end": "Peyad, Kerala",
@@ -17,6 +18,17 @@
       "Peyad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-killi-manali-mechira-road", "label": "Met near Kattakada" },
+    { "id": "kl-kattuvila-cherukodu-mukkampalamoodu-road", "label": "Met near Malayinkeezhu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malayinkeezhu",
@@ -45,12 +57,6 @@
         77.02626,
         8.50808
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

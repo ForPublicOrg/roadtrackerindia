@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.3,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Nira, Maharashtra",
     "end": "Indapur, Maharashtra",
@@ -17,6 +18,19 @@
       "Indapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Indapur" },
+    { "id": "nh-160", "label": "Met near Baramati" },
+    { "id": "nh-965g", "label": "Met near Indapur" },
+    { "id": "nh-965d", "label": "Met near Nira" },
+    { "id": "sh-mh-68", "label": "Met near Baramati" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nira",
@@ -38,12 +52,6 @@
         75.02627,
         18.11697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

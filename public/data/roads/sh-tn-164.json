@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Marudhamalai, Tamil Nadu",
     "end": "Town Hall, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Town Hall"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Coimbatore" },
+    { "id": "sh-tn-272", "label": "Met near Coimbatore" },
+    { "id": "sh-tn-167", "label": "Met near Coimbatore" },
+    { "id": "mp-mannarkkad-chinnathadakam-road", "label": "Met near Marudhamalai" },
+    { "id": "kl-anakatty-sholayur-road", "label": "Met near Marudhamalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Marudhamalai",
@@ -45,12 +59,6 @@
         76.95002,
         10.99983
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

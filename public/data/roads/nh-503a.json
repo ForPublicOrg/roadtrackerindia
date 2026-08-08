@@ -24,6 +24,24 @@
       "Bhotta"
     ]
   },
+  "significance": "NH 503A is a branch of NH 503. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Golden Avenue to Bhotta, and it meets NH 503 along the way.",
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Sri Hargobindpur" },
+    { "id": "nh-44", "label": "Met near Tanda" },
+    { "id": "nh-3", "label": "Met near Hoshiarpur" },
+    { "id": "nh-503", "label": "Met near Una" },
+    { "id": "amritsar-ring-road", "label": "Met near Verka" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Golden Avenue",
@@ -101,16 +119,6 @@
         76.56343,
         31.60713
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

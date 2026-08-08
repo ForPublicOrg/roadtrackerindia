@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vazhapadi, Tamil Nadu",
     "end": "Keeripatti, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Keeripatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-79", "label": "Met near Vazhapadi" },
+    { "id": "sh-tn-79", "label": "Met near Keeripatti" },
+    { "id": "sh-tn-232", "label": "Met near Vazhapadi" },
+    { "id": "sh-tn-u55", "label": "Met near Vazhapadi" },
+    { "id": "mdr-tn-844", "label": "Met near Vazhapadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vazhapadi",
@@ -30,12 +45,6 @@
         78.44392,
         11.58326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 81.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Hurda Seja, Rajasthan",
     "end": "Kotri, Rajasthan",
@@ -18,6 +19,18 @@
       "Kotri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-148d", "label": "Met near Hurda Seja" },
+    { "id": "sh-rj-12", "label": "Met near Banera" },
+    { "id": "mdr-rj-56", "label": "Met near Kotri" },
+    { "id": "mdr-rj-165", "label": "Met near Banera" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hurda Seja",
@@ -39,12 +52,6 @@
         74.89222,
         25.40284
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

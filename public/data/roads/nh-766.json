@@ -23,6 +23,23 @@
       "Kollegal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kozhikode" },
+    { "id": "nh-150a", "label": "Met near Nanjanagudu" },
+    { "id": "nh-948", "label": "Met near Kollegal" },
+    { "id": "nh-181", "label": "Met near Gundlupet" },
+    { "id": "nh-275k", "label": "Met near Mysuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Civil Station",
@@ -107,16 +124,6 @@
         77.07391,
         12.1404
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vazhoor, Kerala",
     "end": "Puliyannoor, Kerala",
@@ -17,6 +18,20 @@
       "Puliyannoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Vazhoor" },
+    { "id": "sh-kl-32", "label": "Met near Puliyannoor" },
+    { "id": "kl-thiruvanchoor-chengalam-road", "label": "Met near Vazhoor" },
+    { "id": "kl-oravakkal-koorali-road", "label": "Met near Vazhoor" },
+    { "id": "kl-pampady-anickadu-road", "label": "Met near Vazhoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vazhoor",
@@ -38,12 +53,6 @@
         76.65491,
         9.70072
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

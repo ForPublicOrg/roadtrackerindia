@@ -18,6 +18,17 @@
       "Banda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Banda" },
+    { "id": "nh-748aa", "label": "Met near Sankhali" },
+    { "id": "sh-mh-130", "label": "Met near Dodamarg" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sankhali",
@@ -39,12 +50,6 @@
         73.865,
         15.81725
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

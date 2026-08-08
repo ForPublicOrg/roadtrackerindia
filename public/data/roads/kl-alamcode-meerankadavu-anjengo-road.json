@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kadakkavoor, Kerala",
     "end": "Attingal, Kerala",
@@ -16,6 +17,20 @@
       "Attingal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Attingal" },
+    { "id": "sh-kl-46", "label": "Met near Attingal" },
+    { "id": "kl-attingal-dalavapuram-road", "label": "Met near Attingal" },
+    { "id": "kl-angengo-muthalapozhi-road", "label": "Met near Kadakkavoor" },
+    { "id": "kl-perumkulam-kavalayoor-road", "label": "Met near Attingal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadakkavoor",
@@ -44,12 +59,6 @@
         76.8065,
         8.7186
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,19 @@
       "Tohana"
     ]
   },
+  "significance": "SH 101, Sardulgarh–Tohana State Highway, crosses the border between Punjab and Haryana. A state road that runs through more than one state has no single owner — Punjab PWD (B&R) and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Tohana" },
+    { "id": "sh-hr-21", "label": "Met near Ratia" },
+    { "id": "sh-hr-102", "label": "Met near Bhuna" },
+    { "id": "mdr-pb-18", "label": "Met near Sardulgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sardulgarh",
@@ -39,12 +52,6 @@
         75.90056,
         29.70883
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sathankulam, Tamil Nadu",
     "end": "Srivaikuntam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Srivaikuntam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-403", "label": "Met near Sathankulam" },
+    { "id": "mdr-tn-261", "label": "Met near Sathankulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sathankulam",
@@ -30,12 +42,6 @@
         77.81917,
         8.51836
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sathuvachari, Tamil Nadu",
     "end": "Katpadi, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Katpadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-59", "label": "Met near Katpadi" },
+    { "id": "odr-tn-2486", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sathuvachari",
@@ -38,12 +50,6 @@
         79.14783,
         12.96824
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mathur, Tamil Nadu",
     "end": "Manali, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Manali"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Mathur" },
+    { "id": "sh-tn-56", "label": "Met near Manali" },
+    { "id": "sh-tn-2", "label": "Met near Mathur" },
+    { "id": "sh-tn-111", "label": "Met near Madhavaram Milk Colony" },
+    { "id": "odr-tn-613", "label": "Met near Mathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mathur",
@@ -59,12 +74,6 @@
         80.26892,
         13.16136
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

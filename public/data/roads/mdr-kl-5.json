@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Badiadka, Kerala",
     "end": "Puttur, Karnataka",
@@ -16,6 +17,16 @@
       "Puttur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-6", "label": "Met near Vitla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badiadka",
@@ -30,12 +41,6 @@
         75.15895,
         12.66662
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.8,
+  "authority": "assam-pwd",
   "route": {
     "start": "Moranhat, Assam",
     "end": "Naharkatia, Assam",
@@ -16,6 +17,19 @@
       "Naharkatia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-215", "label": "Met near Moran" },
+    { "id": "nh-315a", "label": "Met near Naharkatia" },
+    { "id": "sh-as-7", "label": "Met near Naharkatia" },
+    { "id": "sh-as-13", "label": "Met near Naharkatia" },
+    { "id": "sh-as-2007", "label": "Met near Moran" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Moranhat",
@@ -30,12 +44,6 @@
         95.3258,
         27.28624
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

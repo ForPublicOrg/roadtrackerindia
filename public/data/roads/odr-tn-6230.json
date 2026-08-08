@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Latteri, Tamil Nadu",
     "end": "Vanjur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Vanjur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-125", "label": "Met near Latteri" },
+    { "id": "odr-tn-2767", "label": "Met near Latteri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Latteri",
@@ -30,12 +42,6 @@
         79.0559,
         12.98459
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

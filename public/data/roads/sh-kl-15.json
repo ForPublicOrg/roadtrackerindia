@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 54,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vyttila, Kerala",
     "end": "Ettumanoor, Kerala",
@@ -19,6 +20,19 @@
       "Ettumanoor"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Ernakulam" },
+    { "id": "nh-85", "label": "Met near Thrippunithura" },
+    { "id": "mc-road", "label": "Met near Ettumanoor" },
+    { "id": "sh-kl-1", "label": "Met near Ettumanoor" },
+    { "id": "sh-kl-40", "label": "Met near Vaikom" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vyttila",
@@ -61,12 +75,6 @@
         76.55669,
         9.68565
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

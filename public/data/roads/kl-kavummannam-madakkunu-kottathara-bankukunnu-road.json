@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalpetta, Kerala",
     "end": "Panamaram, Kerala",
@@ -16,6 +17,20 @@
       "Panamaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-54", "label": "Met near Kalpetta" },
+    { "id": "kl-chennalodu-oottupara-road", "label": "Met near Kalpetta" },
+    { "id": "kl-chennalod-mundakutty-cheriamkolly-road", "label": "Met near Panamaram" },
+    { "id": "kl-venniyodu-mechana-arampattakkunnu-padinjarathara-road", "label": "Met near Kalpetta" },
+    { "id": "kl-puthusserikadavu-bankkunnu-road", "label": "Met near Panamaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalpetta",
@@ -30,12 +45,6 @@
         76.01059,
         11.6977
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

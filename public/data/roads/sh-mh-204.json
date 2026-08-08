@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 80.6,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Akola, Maharashtra",
     "end": "Dharni, Maharashtra",
@@ -17,6 +18,19 @@
       "Dharni"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-548c", "label": "Met near Akot" },
+    { "id": "nh-161a", "label": "Met near Akola" },
+    { "id": "nh-161", "label": "Met near Akola" },
+    { "id": "sh-mh-194", "label": "Met near Akot" },
+    { "id": "sh-mh-200", "label": "Met near Akola" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akola",
@@ -38,12 +52,6 @@
         77.12865,
         21.52877
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

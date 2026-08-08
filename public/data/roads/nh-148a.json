@@ -19,6 +19,22 @@
       "Lado Sarai"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-gurgaon-expressway", "label": "Met near Gurgaon" },
+    { "id": "nh-48", "label": "Met near Gurgaon" },
+    { "id": "nh-148ae", "label": "Met near Chhattarpur" },
+    { "id": "sh-hr-137", "label": "Met near Sector 25" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "IFFCO Chowk",
@@ -68,16 +84,6 @@
         77.18986,
         28.5229
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pakshitīrtham, Tamil Nadu",
     "end": "Wallajahbad, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Wallajahbad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Maduranthakam" },
+    { "id": "nh-179b", "label": "Met near Wallajahbad" },
+    { "id": "sh-tn-58", "label": "Met near Thirukazhukundram" },
+    { "id": "sh-tn-118", "label": "Met near Maduranthakam" },
+    { "id": "mdr-tn-596", "label": "Met near Maduranthakam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pakshitīrtham",
@@ -31,12 +46,6 @@
         79.86308,
         12.74681
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

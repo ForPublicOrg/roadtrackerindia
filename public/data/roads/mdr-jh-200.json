@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 44.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Barhait, Jharkhand",
     "end": "Asanbani, Jharkhand",
@@ -17,6 +18,18 @@
       "Asanbani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-333a", "label": "Met near Barhait" },
+    { "id": "nh-133", "label": "Met near Godda" },
+    { "id": "sh-jh-18", "label": "Met near Barhait" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barhait",
@@ -31,12 +44,6 @@
         87.21356,
         24.80823
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

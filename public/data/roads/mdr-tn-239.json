@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mahabalipuram, Tamil Nadu",
     "end": "Sadras, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Sadras"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "east-coast-road", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-49a", "label": "Met near Mahabalipuram" },
+    { "id": "sh-tn-49", "label": "Met near Mahabalipuram" },
+    { "id": "mdr-tn-65", "label": "Met near Mahabalipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahabalipuram",
@@ -30,12 +44,6 @@
         80.18637,
         12.61969
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

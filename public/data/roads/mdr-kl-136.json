@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kayyur, Kerala",
     "end": "Kalikadavu, Kerala",
@@ -16,6 +17,19 @@
       "Kalikadavu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kalikadavu" },
+    { "id": "mdr-kl-17", "label": "Met near Kalikadavu" },
+    { "id": "mdr-kl-122", "label": "Met near Cheemeni" },
+    { "id": "kl-kayyur-chayyome-road", "label": "Met near Kayyur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kayyur",
@@ -37,12 +51,6 @@
         75.18315,
         12.18396
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

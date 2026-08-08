@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 54.3,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kalpi, Uttar Pradesh",
     "end": "Hamirpur, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Hamirpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Hamirpur" },
+    { "id": "nh-86", "label": "Met near Hamirpur" },
+    { "id": "mdr-up-19b", "label": "Met near Kalpi" },
+    { "id": "mdr-up-23b", "label": "Met near Kalpi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalpi",
@@ -30,12 +43,6 @@
         80.15378,
         25.95335
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

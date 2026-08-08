@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruppuvanam, Tamil Nadu",
     "end": "Viraganur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Viraganur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Tiruppuvanam" },
+    { "id": "mdr-tn-232", "label": "Met near Tiruppuvanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruppuvanam",
@@ -30,12 +42,6 @@
         78.25129,
         9.86019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

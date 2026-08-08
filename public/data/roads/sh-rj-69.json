@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 34.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Churu, Rajasthan",
     "end": "Taranagar, Rajasthan",
@@ -16,6 +17,17 @@
       "Taranagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-rj-36", "label": "Met near Churu" },
+    { "id": "sh-rj-6", "label": "Meets this road" },
+    { "id": "mdr-rj-95", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Churu",
@@ -30,12 +42,6 @@
         74.78566,
         28.54686
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

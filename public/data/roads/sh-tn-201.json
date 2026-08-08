@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 33.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ponnamaravati, Tamil Nadu",
     "end": "Malayidu, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Malayidu"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-u157", "label": "Met near Pudukkottai (South)" },
+    { "id": "mdr-tn-729", "label": "Met near Ponnamaravati" },
+    { "id": "mdr-tn-914", "label": "Met near Ponnamaravati" },
+    { "id": "mdr-tn-827", "label": "Met near Ponnamaravati" },
+    { "id": "mdr-tn-1196", "label": "Met near Ponnamaravati" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ponnamaravati",
@@ -30,12 +44,6 @@
         78.77751,
         10.32895
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 412.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kali Bagichi, Rajasthan",
     "end": "Jhalawar, Rajasthan",
@@ -24,6 +25,19 @@
       "Jhalawar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Indragarh" },
+    { "id": "nh-27", "label": "Met near Baran" },
+    { "id": "nh-552", "label": "Met near Sawai Madhopur" },
+    { "id": "nh-21", "label": "Met near Bharatpur" },
+    { "id": "nh-23", "label": "Met near Gangapur City" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kali Bagichi",
@@ -115,12 +129,6 @@
         76.17568,
         24.58108
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

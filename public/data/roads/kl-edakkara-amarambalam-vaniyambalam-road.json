@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Wandoor, Kerala",
     "end": "Nilambur, Kerala",
@@ -16,6 +17,20 @@
       "Nilambur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Nilambur" },
+    { "id": "sh-kl-39", "label": "Met near Nilambur" },
+    { "id": "sh-kl-28", "label": "Met near Nilambur" },
+    { "id": "kl-thirkkalangodu-thiruvali-wandoor-kalikavu-road", "label": "Met near Wandoor" },
+    { "id": "kl-pookkottupadam-chettippadam-tk-colony-road", "label": "Met near Kalikavu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wandoor",
@@ -30,12 +45,6 @@
         76.3107,
         11.36058
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

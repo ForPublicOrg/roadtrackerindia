@@ -18,6 +18,22 @@
       "Alipurduar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-317a", "label": "A branch off this highway, running Madarihat to Phuntsholing" },
+    { "id": "nh-27", "label": "Met near Alipurduar" },
+    { "id": "nh-17", "label": "Met near Birpara" },
+    { "id": "sh-wb-12a", "label": "Met near Alipurduar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Birpara",
@@ -46,16 +62,6 @@
         89.58972,
         26.49795
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

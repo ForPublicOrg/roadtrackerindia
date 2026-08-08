@@ -17,6 +17,23 @@
       "Hapa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Dhoraji" },
+    { "id": "nh-151a", "label": "Met near Jamnagar" },
+    { "id": "nh-151k", "label": "Met near Kalavad" },
+    { "id": "sh-gj-1", "label": "Met near Jam Kandoma" },
+    { "id": "sh-gj-26", "label": "Met near Jamnagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhoraji",
@@ -45,16 +62,6 @@
         70.11823,
         22.4463
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -9,7 +9,6 @@
   "lanes": "6 lanes, access-controlled (expandable to 8)",
   "agency": "YEIDA (Yamuna Expressway Industrial Development Authority)",
   "authority": "yeida",
-  "contractor": "Jaypee Infratech",
   "builtBy": [
     { "org": "jaypee-infratech" }
   ],
@@ -17,6 +16,7 @@
     { "org": "jaypee-infratech", "note": "collects the toll under a long concession" }
   ],
   "cost": "About ₹13,000 crore",
+  "contractor": "Jaypee Infratech",
   "route": {
     "start": "Greater Noida, Uttar Pradesh",
     "end": "Agra, Uttar Pradesh",
@@ -28,6 +28,10 @@
     { "name": "Mathura (Baldev) toll plaza", "note": "Mathura district" },
     { "name": "Agra toll plaza", "note": "near the Agra end" }
   ],
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2003", "event": "Project conceived as the Taj Expressway" },
     { "year": "2011", "event": "Buddh International Circuit, beside the expressway, hosts India's first Formula 1 Grand Prix" },
@@ -55,7 +59,10 @@
     { "id": "noida-greater-noida-expressway", "label": "Carries on from Zero Point towards Noida and Delhi" },
     { "id": "dnd-flyway", "label": "The usual way into Delhi at the far end of the Noida expressway" },
     { "id": "agra-lucknow-expressway", "label": "Picks up at Agra and carries on east towards Lucknow" },
-    { "id": "nh-19", "label": "The older, slower Delhi–Mathura–Agra highway that runs roughly parallel" }
+    { "id": "nh-19", "label": "The older, slower Delhi–Mathura–Agra highway that runs roughly parallel" },
+    { "id": "eastern-peripheral-expressway", "label": "Met near YEIDA City" },
+    { "id": "nh-21", "label": "Met near Agra" },
+    { "id": "nh-509", "label": "Met near Agra" }
   ],
   "travelNotes": "Greater Noida to Agra takes about two to two and a half hours at the 100 km/h car limit, with toll plazas at Jewar, Mathura and Agra. In the depths of winter the authority cuts the limit because thick fog settles on this stretch and has caused serious pile-ups — do not drive it at dawn in December or January if you can avoid it. There are proper rest areas with fuel, toilets and food, but long gaps between them, so stop when you see one. Watch for stray cattle and the occasional vehicle coming the wrong way near village crossings.",
   "futureUpgrades": [

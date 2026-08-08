@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Civil Station, Kerala",
     "end": "Puthiyangadi, Kerala",
@@ -16,6 +17,19 @@
       "Puthiyangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kozhikode" },
+    { "id": "kl-kozhikode-balussery-road", "label": "Met near Kozhikode" },
+    { "id": "kl-karaparamba-kunduparamba-road", "label": "Met near Puthiyangadi" },
+    { "id": "kl-east-hill-ganapathikavu-road", "label": "Met near Puthiyangadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Civil Station",
@@ -37,12 +51,6 @@
         75.76197,
         11.30291
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chinnasalem, Tamil Nadu",
     "end": "Tittakudi, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Tittakudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Labbaikudikadu" },
+    { "id": "nh-532", "label": "Met near Chinnasalem" },
+    { "id": "sh-tn-141", "label": "Met near Tittakudi" },
+    { "id": "sh-tn-143", "label": "Met near Tittakudi" },
+    { "id": "mdr-tn-1121", "label": "Met near Tittakudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chinnasalem",
@@ -30,12 +45,6 @@
         79.12059,
         11.40245
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

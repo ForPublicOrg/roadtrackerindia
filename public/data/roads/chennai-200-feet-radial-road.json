@@ -1,0 +1,114 @@
+{
+  "id": "chennai-200-feet-radial-road",
+  "ref": "200 Feet Radial Road",
+  "name": "Pallavaram–Thoraipakkam Radial Road",
+  "aka": ["200 Feet Road", "Major Mukund Varadharajan Salai"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 15.8,
+  "lanes": "6 lanes",
+  "authority": "tamil-nadu-highways",
+  "route": {
+    "start": "Adambakkam, Tamil Nadu",
+    "end": "Tambaram, Tamil Nadu",
+    "states": [
+      "Tamil Nadu"
+    ],
+    "majorCities": [
+      "Adambakkam",
+      "Narayanapuram",
+      "Jayachandran Nagar",
+      "Tambaram"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The 200 Feet Radial Road cuts east–west across south Chennai, from Pallavaram on the Grand Southern Trunk Road to Thoraipakkam on the IT corridor. It was widened to its present six lanes to link the two sides of the city's southern growth — the airport and the GST Road on one side, the software offices of Old Mahabalipuram Road on the other — and it is named after Major Mukund Varadharajan, an army officer from Chennai killed in Kashmir in 2014.",
+  "facts": [
+    "Links the GST Road at Pallavaram to the IT corridor at Thoraipakkam.",
+    "Named after Major Mukund Varadharajan, an Ashoka Chakra recipient from Chennai.",
+    "It is the main east–west route across south Chennai, where most roads run north–south.",
+    "It gives the software offices of the IT corridor their quickest road to the airport."
+  ],
+  "significance": "South Chennai grew along two parallel north–south corridors with very little joining them. This road is the link, and it is how most of the IT corridor reaches the airport.",
+  "relatedRoads": [
+    { "id": "chennai-outer-ring-road", "label": "The outer ring, met further west" },
+    { "id": "chennai-inner-ring-road", "label": "The inner ring road across the city" },
+    { "id": "east-coast-road", "label": "The coastal road south, reached from the eastern end" },
+    { "id": "sh-tn-48", "label": "Met near Adambakkam" },
+    { "id": "sh-tn-110", "label": "Met near Tambaram" },
+    { "id": "sh-tn-109", "label": "Met near Narayanapuram" }
+  ],
+  "travelNotes": "Heavy at office hours in both directions. It floods in places during the north-east monsoon.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Adambakkam",
+      "coords": [
+        80.2214,
+        12.97599
+      ]
+    },
+    {
+      "name": "Puzhuthivakkam",
+      "coords": [
+        80.21874,
+        12.9706
+      ]
+    },
+    {
+      "name": "Madipakkam",
+      "coords": [
+        80.20905,
+        12.94625
+      ]
+    },
+    {
+      "name": "Narayanapuram",
+      "coords": [
+        80.20586,
+        12.94096
+      ]
+    },
+    {
+      "name": "Jayachandran Nagar",
+      "coords": [
+        80.19734,
+        12.92289
+      ]
+    },
+    {
+      "name": "Medavakkam",
+      "coords": [
+        80.18554,
+        12.92058
+      ]
+    },
+    {
+      "name": "Gowriwakkam",
+      "coords": [
+        80.16013,
+        12.9233
+      ]
+    },
+    {
+      "name": "East Tambaram",
+      "coords": [
+        80.14041,
+        12.92237
+      ]
+    },
+    {
+      "name": "Tambaram",
+      "coords": [
+        80.11932,
+        12.92338
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 262.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Jagatpura, Rajasthan",
     "end": "Kankroli, Rajasthan",
@@ -23,6 +24,19 @@
       "Kankroli"
     ]
   },
+  "relatedRoads": [
+    { "id": "jaipur-ring-road", "label": "Met near Renwal Manji" },
+    { "id": "nh-48", "label": "Met near Bhilwara" },
+    { "id": "nh-52", "label": "Met near Jagatpura" },
+    { "id": "nh-58", "label": "Met near Rajsamand" },
+    { "id": "nh-758", "label": "Met near Gangapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagatpura",
@@ -107,12 +121,6 @@
         73.86581,
         25.07224
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 61.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kotputli, Rajasthan",
     "end": "Kishangarh Bas, Rajasthan",
@@ -18,6 +19,20 @@
       "Kishangarh Bas"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Kotputli" },
+    { "id": "nh-148b", "label": "Met near Bansur" },
+    { "id": "sh-rj-25", "label": "Met near Kishangarh Bas" },
+    { "id": "sh-rj-14", "label": "Met near Shree Krishan Nagar" },
+    { "id": "sh-rj-37b", "label": "Met near Kotputli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kotputli",
@@ -46,12 +61,6 @@
         76.72853,
         27.81696
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

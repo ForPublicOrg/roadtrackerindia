@@ -16,6 +16,22 @@
       "Mohanpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Bareilly" },
+    { "id": "nh-730c", "label": "Met near Bisalpur" },
+    { "id": "nh-731k", "label": "Met near Bisalpur" },
+    { "id": "sh-up-149w", "label": "Met near Bareilly" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bisalpur",
@@ -30,16 +46,6 @@
         79.49663,
         28.35394
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

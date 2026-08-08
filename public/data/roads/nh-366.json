@@ -18,6 +18,20 @@
       "Madkai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Madkai" },
+    { "id": "nh-566", "label": "Met near Vasco da Gama" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chicalim",
@@ -46,16 +60,6 @@
         73.90782,
         15.40255
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

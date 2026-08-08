@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Toranmal, Maharashtra",
     "end": "Pati, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Pati"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-39", "label": "Met near Pati" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Toranmal",
@@ -30,12 +41,6 @@
         74.73326,
         21.9645
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

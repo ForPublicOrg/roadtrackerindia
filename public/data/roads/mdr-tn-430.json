@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kazhugumalai, Tamil Nadu",
     "end": "Kovilpatti, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kovilpatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-44", "label": "Met near Kazhugumalai" },
+    { "id": "sh-tn-187", "label": "Met near Kazhugumalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kazhugumalai",
@@ -30,12 +42,6 @@
         77.7433,
         9.26744
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

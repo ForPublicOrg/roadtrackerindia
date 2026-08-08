@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholavandan, Tamil Nadu",
     "end": "Alanganallur, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Alanganallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vadipatti" },
+    { "id": "nh-744a", "label": "Met near Vadipatti" },
+    { "id": "madurai-north-ring-road", "label": "Met near Vadipatti" },
+    { "id": "sh-tn-73", "label": "Met near Sholavandan" },
+    { "id": "sh-tn-282", "label": "Met near Alanganallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholavandan",
@@ -37,12 +52,6 @@
         78.11791,
         10.15593
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

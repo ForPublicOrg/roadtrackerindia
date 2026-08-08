@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pazhaverkadu, Tamil Nadu",
     "end": "Minjur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Minjur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-1041", "label": "Met near Pazhaverkadu" },
+    { "id": "odr-tn-3984", "label": "Met near Pazhaverkadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pazhaverkadu",
@@ -30,12 +42,6 @@
         80.30463,
         13.35752
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,23 @@
       "Kola Satyanarayana Reddy Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Chilakaluripet" },
+    { "id": "nh-544d", "label": "Met near Narasaraopet" },
+    { "id": "nh-216", "label": "Met near Chirala" },
+    { "id": "nh-167ag", "label": "Met near Piduguralla" },
+    { "id": "nh-167ad", "label": "Met near Dachepalli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chirala",
@@ -75,16 +92,6 @@
         79.65937,
         16.68098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panathur, Kerala",
     "end": "Odayamchal, Kerala",
@@ -16,6 +17,18 @@
       "Odayamchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Panathur" },
+    { "id": "sh-kl-56", "label": "Met near Panathur" },
+    { "id": "mdr-kl-15", "label": "Met near Panathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panathur",
@@ -30,12 +43,6 @@
         75.26984,
         12.49421
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

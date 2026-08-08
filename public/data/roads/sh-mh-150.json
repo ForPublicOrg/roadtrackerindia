@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Kurduvadi, Maharashtra",
     "end": "Dharashiv, Maharashtra",
@@ -17,6 +18,19 @@
       "Dharashiv"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Vairag" },
+    { "id": "sh-mh-67", "label": "Met near Dharashiv" },
+    { "id": "sh-mh-149", "label": "Met near Kurduvadi" },
+    { "id": "sh-mh-151", "label": "Met near Vairag" },
+    { "id": "sh-mh-153", "label": "Met near Dharashiv" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kurduvadi",
@@ -38,12 +52,6 @@
         76.04331,
         18.17761
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

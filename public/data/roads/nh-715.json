@@ -19,6 +19,22 @@
       "Lokra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-715k", "label": "A branch off this highway, running Macharhat to Dohabora Chuk" },
+    { "id": "nh-2", "label": "Met near Amguri" },
+    { "id": "nh-15", "label": "Met near Tezpur" },
+    { "id": "nh-129", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amguri",
@@ -61,16 +77,6 @@
         92.77384,
         26.65455
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chhanera, Madhya Pradesh",
     "end": "Omkareshwar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Omkareshwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-70", "label": "Meets this road" },
+    { "id": "sh-mp-36a", "label": "Met near Omkareshwar" },
+    { "id": "mdr-mp-5015", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhanera",
@@ -30,12 +43,6 @@
         76.25579,
         22.1301
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

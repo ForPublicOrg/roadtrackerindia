@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bijeypur, Madhya Pradesh",
     "end": "Mohana, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Mohana"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-604", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bijeypur",
@@ -30,12 +41,6 @@
         77.53499,
         25.80285
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

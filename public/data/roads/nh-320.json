@@ -18,6 +18,23 @@
       "Ramgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Bokaro" },
+    { "id": "nh-20", "label": "Met near Ramgarh" },
+    { "id": "nh-18", "label": "Met near Chas" },
+    { "id": "nh-320b", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-24", "label": "Met near Chitarpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chas",
@@ -53,16 +70,6 @@
         85.54923,
         23.61516
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

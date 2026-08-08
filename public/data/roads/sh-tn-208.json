@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 8.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Attibele, Karnataka",
     "end": "Hosur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Hosur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Hosur" },
+    { "id": "nh-48", "label": "Met near Hosur" },
+    { "id": "nh-844", "label": "Met near Hosur" },
+    { "id": "sh-tn-17a", "label": "Met near Hosur" },
+    { "id": "mdr-tn-1247", "label": "Met near Hosur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attibele",
@@ -30,12 +44,6 @@
         77.82844,
         12.72251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

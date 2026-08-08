@@ -19,6 +19,23 @@
       "Vaniyambadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vaniyambadi" },
+    { "id": "nh-179b", "label": "Met near Harur" },
+    { "id": "nh-77", "label": "Met near Uthangarai" },
+    { "id": "nh-79", "label": "Met near Salem" },
+    { "id": "sh-tn-60", "label": "Met near Tirupattur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kamarajar Nagar Colony",
@@ -54,16 +71,6 @@
         78.6087,
         12.65947
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

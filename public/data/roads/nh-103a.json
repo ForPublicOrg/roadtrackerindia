@@ -19,6 +19,23 @@
       "Nawanshahr"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Hoshiarpur" },
+    { "id": "nh-344a", "label": "Met near Nawanshahr" },
+    { "id": "nh-344b", "label": "Met near Hoshiarpur" },
+    { "id": "sh-pb-24", "label": "Met near Hoshiarpur" },
+    { "id": "mdr-pb-56", "label": "Met near Nawanshahr" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hoshiarpur",
@@ -61,16 +78,6 @@
         76.12092,
         31.14111
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

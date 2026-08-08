@@ -20,6 +20,23 @@
       "Ramnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Purnia" },
+    { "id": "nh-31", "label": "Met near Maheshkhunt" },
+    { "id": "nh-327", "label": "Met near Saharsa" },
+    { "id": "nh-131", "label": "Met near Madhepura" },
+    { "id": "nh-131a", "label": "Met near Purnia" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maheshkhunt",
@@ -76,16 +93,6 @@
         87.54299,
         25.79139
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

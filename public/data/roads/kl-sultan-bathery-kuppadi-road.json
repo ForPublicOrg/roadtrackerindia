@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Sultan Bathery, Kerala",
     "end": "Muttil, Kerala",
@@ -16,6 +17,21 @@
       "Muttil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Sultan Bathery" },
+    { "id": "kl-sulthan-bathery-pulpally-perikalloor-road", "label": "Met near Sultan Bathery" },
+    {
+      "id": "kl-sulthan-bathery-karakkandi-vadakkanad-valluvady-odappallam-r",
+      "label": "Met near Sultan Bathery"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sultan Bathery",
@@ -30,12 +46,6 @@
         76.26729,
         11.68281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

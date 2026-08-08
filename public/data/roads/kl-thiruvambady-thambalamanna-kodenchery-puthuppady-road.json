@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Adivaram, Kerala",
     "end": "Thiruvambady, Kerala",
@@ -16,6 +17,19 @@
       "Thiruvambady"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Adivaram" },
+    { "id": "sh-kl-59", "label": "Met near Maikave" },
+    { "id": "sh-kl-68", "label": "Met near Maikave" },
+    { "id": "kl-engapuzha-omassery-road", "label": "Met near Adivaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adivaram",
@@ -37,12 +51,6 @@
         76.01051,
         11.36789
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

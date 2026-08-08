@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Hatma, Jharkhand",
     "end": "Garhi, Jharkhand",
@@ -18,6 +19,18 @@
       "Garhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-2", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-16", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-15", "label": "Met near Ranchi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hatma",
@@ -74,12 +87,6 @@
         85.38175,
         23.39587
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

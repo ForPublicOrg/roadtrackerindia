@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Menamkulam, Kerala",
     "end": "Kadinamkulam, Kerala",
@@ -17,6 +18,16 @@
       "Azhoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pothencode-murukkumpzha-road", "label": "Met near Kadinamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Menamkulam",
@@ -52,12 +63,6 @@
         76.80473,
         8.61226
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

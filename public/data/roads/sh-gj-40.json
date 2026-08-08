@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 12,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Dhandhuka, Gujarat",
     "end": "Dholera, Gujarat",
@@ -16,6 +17,16 @@
       "Dholera"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-751", "label": "Met near Dholera" },
+    { "id": "sh-gj-1", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhandhuka",
@@ -30,12 +41,6 @@
         72.23359,
         22.38313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

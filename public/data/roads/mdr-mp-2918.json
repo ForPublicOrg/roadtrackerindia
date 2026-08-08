@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 52.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Vidisha, Madhya Pradesh",
     "end": "Basoda, Madhya Pradesh",
@@ -17,6 +18,20 @@
       "Basoda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-146", "label": "Met near Vidisha" },
+    { "id": "mdr-mp-2911", "label": "Met near Basoda" },
+    { "id": "mdr-mp-2910", "label": "Met near Basoda" },
+    { "id": "mdr-mp-2912", "label": "Met near Basoda" },
+    { "id": "mdr-mp-2909", "label": "Met near Vidisha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vidisha",
@@ -52,12 +67,6 @@
         78.05645,
         23.90505
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

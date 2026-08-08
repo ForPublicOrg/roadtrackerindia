@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pammal, Tamil Nadu",
     "end": "Pozhichalur, Tamil Nadu",
@@ -18,6 +19,18 @@
       "Pozhichalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-113a", "label": "Met near Pammal" },
+    { "id": "mdr-tn-319", "label": "Met near Pammal" },
+    { "id": "odr-tn-5373", "label": "Met near Pozhichalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pammal",
@@ -46,12 +59,6 @@
         80.142,
         12.98934
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

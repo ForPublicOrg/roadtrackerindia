@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koothuparamba, Kerala",
     "end": "Kadachira, Kerala",
@@ -16,6 +17,17 @@
       "Kadachira"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-38", "label": "Met near Koothuparamba" },
+    { "id": "mdr-kl-17", "label": "Met near Kadachira" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothuparamba",
@@ -30,12 +42,6 @@
         75.50975,
         11.86571
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

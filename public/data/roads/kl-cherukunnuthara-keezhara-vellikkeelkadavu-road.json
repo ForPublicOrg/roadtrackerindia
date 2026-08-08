@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kannapuram, Kerala",
     "end": "Dharmasala, Kerala",
@@ -16,6 +17,19 @@
       "Dharmasala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-2", "label": "Met near Dharmasala" },
+    { "id": "kl-baliapattam-cheruthazham-road", "label": "Met near Kannapuram" },
+    { "id": "kl-pappinisseri-vellikkeel-road", "label": "Met near Kannapuram" },
+    { "id": "kl-poothamchal-parapool-vellikkeel-road", "label": "Met near Dharmasala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannapuram",
@@ -30,12 +44,6 @@
         75.33759,
         12.00136
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

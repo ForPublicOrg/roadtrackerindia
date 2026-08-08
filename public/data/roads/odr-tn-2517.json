@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Gummidipoondi, Tamil Nadu",
     "end": "Pazhaverkadu, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Pazhaverkadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-6564", "label": "Met near Gummidipoondi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gummidipoondi",
@@ -30,12 +41,6 @@
         80.19926,
         13.48831
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

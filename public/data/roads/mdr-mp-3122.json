@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sehore, Madhya Pradesh",
     "end": "Bairagarh, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Bairagarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-28", "label": "Met near Sehore" },
+    { "id": "mdr-mp-3206", "label": "Meets this road" },
+    { "id": "mdr-mp-3105", "label": "Met near Sehore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sehore",
@@ -30,12 +43,6 @@
         77.17703,
         23.35832
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

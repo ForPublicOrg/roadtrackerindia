@@ -19,6 +19,23 @@
       "Ballia"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Mubarakpur" },
+    { "id": "nh-31", "label": "Met near Ballia" },
+    { "id": "nh-24", "label": "Met near Aurangabad" },
+    { "id": "sh-up-94e", "label": "Met near Muhammadabad Gohna" },
+    { "id": "sh-up-158e", "label": "Met near Azamgarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Azamgarh",
@@ -54,16 +71,6 @@
         84.04754,
         25.76891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

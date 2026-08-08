@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Orathanadu, Tamil Nadu",
     "end": "Needamangalam, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Needamangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-248", "label": "Met near Orathanadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Orathanadu",
@@ -30,12 +41,6 @@
         79.29084,
         10.70472
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

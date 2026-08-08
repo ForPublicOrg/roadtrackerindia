@@ -18,6 +18,26 @@
       "Dholka"
     ]
   },
+  "significance": "NH 751D is a branch of NH 751. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Borsad to Dholka, and it meets NH 751 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-751",
+      "label": "NH 751 — the highway this branch takes its number from, running Sarkhej to Bhavnagar"
+    },
+    { "id": "nh-64", "label": "Met near Borsad" },
+    { "id": "nh-751dd", "label": "Met near Tarapur" },
+    { "id": "sh-gj-16", "label": "Met near Tarapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Borsad",
@@ -46,16 +66,6 @@
         72.40963,
         22.51823
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

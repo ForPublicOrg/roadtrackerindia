@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 25.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Manamelkudi, Tamil Nadu",
     "end": "Aranthangi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Aranthangi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Manamelkudi" },
+    { "id": "sh-tn-200", "label": "Met near Manamelkudi" },
+    { "id": "sh-tn-29", "label": "Met near Aranthangi" },
+    { "id": "mdr-tn-653", "label": "Met near Aranthangi" },
+    { "id": "mdr-tn-603", "label": "Met near Aranthangi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manamelkudi",
@@ -30,12 +44,6 @@
         78.99741,
         10.1698
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

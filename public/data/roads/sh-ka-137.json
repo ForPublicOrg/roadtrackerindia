@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 163.3,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Soraba, Karnataka",
     "end": "Navalagunda, Karnataka",
@@ -20,6 +21,19 @@
       "Navalagunda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Bankapur" },
+    { "id": "nh-52", "label": "Met near Navalagunda" },
+    { "id": "nh-67", "label": "Met near Annigeri" },
+    { "id": "nh-766e", "label": "Met near Hosahalli" },
+    { "id": "sh-ka-6", "label": "Met near Bankapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Soraba",
@@ -76,12 +90,6 @@
         75.35489,
         15.55481
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

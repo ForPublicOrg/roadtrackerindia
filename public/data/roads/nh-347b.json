@@ -20,6 +20,23 @@
       "Barwani"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Dharmapuri" },
+    { "id": "nh-47", "label": "Met near Betul" },
+    { "id": "nh-347c", "label": "Met near Khargone" },
+    { "id": "nh-753l", "label": "Met near Khandwa" },
+    { "id": "nh-347bg", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Betul",
@@ -69,16 +86,6 @@
         74.89632,
         22.03362
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

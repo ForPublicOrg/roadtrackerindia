@@ -1,10 +1,14 @@
 {
   "id": "durg-raipur-arang-expressway",
-  "ref": "NH",
-  "name": "Durg - Raipur - Arang Expressway",
+  "ref": "Durg–Raipur–Arang Expressway",
+  "name": "Durg–Raipur–Arang Expressway",
+  "aka": ["NH 53 (Durg–Arang section)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 95.3,
+  "lanes": "6 lanes with service roads",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Arang, Chhattisgarh",
     "end": "Chikhali, Chhattisgarh",
@@ -17,6 +21,38 @@
       "Chikhali"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
+  "history": "This is the six-lane, access-controlled stretch of NH 53 that runs across the middle of Chhattisgarh, linking the steel town of Bhilai and the city of Durg with the state capital Raipur and on to Arang. It is the busiest road in the state, carrying steel, coal and cement between the industrial belt and the rest of India.",
+  "facts": [
+    "Connects Durg and Bhilai, home of one of India's largest steel plants, with the state capital Raipur.",
+    "Part of NH 53, the east–west highway between Gujarat and Odisha.",
+    "Carries heavy steel, coal and cement freight from the Chhattisgarh industrial belt.",
+    "It passes Nava Raipur, the state's planned new capital city."
+  ],
+  "significance": "Durg, Bhilai and Raipur form one continuous industrial corridor, and this road is its spine. It is also the western approach to the new Raipur–Visakhapatnam expressway to the coast.",
+  "relatedRoads": [
+    {
+      "id": "raipur-visakhapatnam-expressway",
+      "label": "The new expressway from Raipur to the coast at Visakhapatnam"
+    },
+    { "id": "nh-53", "label": "The national highway this section belongs to" },
+    { "id": "nh-30", "label": "Met near Nava Raipur" },
+    { "id": "sh-ct-7", "label": "Met near Durg" }
+  ],
+  "travelNotes": "A fast run between Durg and Raipur, but expect heavy truck traffic throughout, especially near Bhilai.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arang",
@@ -38,16 +74,6 @@
         81.15389,
         21.12705
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

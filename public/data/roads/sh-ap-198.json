@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.8,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Gampalagudem, Andhra Pradesh",
     "end": "Revenue Ward 12, Andhra Pradesh",
@@ -18,6 +19,15 @@
       "Revenue Ward 12"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near A. Konduru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gampalagudem",
@@ -39,12 +49,6 @@
         80.83853,
         16.79152
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vithura, Kerala",
     "end": "Kulathupuzha, Kerala",
@@ -16,6 +17,17 @@
       "Kulathupuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Vithura" },
+    { "id": "kl-palode-brimoore-road", "label": "Met near Vithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vithura",
@@ -30,12 +42,6 @@
         77.05691,
         8.75653
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

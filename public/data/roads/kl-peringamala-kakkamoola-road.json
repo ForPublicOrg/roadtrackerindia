@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vellayani, Kerala",
     "end": "Kalliyoor, Kerala",
@@ -17,6 +18,17 @@
       "Kalliyoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pallichal-vizhinjam-road", "label": "Met near Balaramapuram" },
+    { "id": "kl-kakkamoola-kalliyoor-road", "label": "Met near Kalliyoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vellayani",
@@ -38,12 +50,6 @@
         77.02019,
         8.41702
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

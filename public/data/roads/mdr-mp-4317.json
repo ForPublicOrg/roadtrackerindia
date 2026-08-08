@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Katangi, Madhya Pradesh",
     "end": "Tumsar, Maharashtra",
@@ -16,6 +17,17 @@
       "Tumsar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4120", "label": "Met near Katangi" },
+    { "id": "mdr-mp-4316", "label": "Met near Katangi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Katangi",
@@ -30,12 +42,6 @@
         79.59365,
         21.56772
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

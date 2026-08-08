@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Satyamangalam, Tamil Nadu",
     "end": "Punjai Puliampatti, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Punjai Puliampatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-948", "label": "Met near Satyamangalam" },
+    { "id": "sh-tn-275", "label": "Met near Satyamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satyamangalam",
@@ -30,12 +42,6 @@
         77.13319,
         11.49055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

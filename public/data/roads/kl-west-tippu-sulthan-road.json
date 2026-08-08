@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thriprayar, Kerala",
     "end": "Chavakkad, Kerala",
@@ -16,6 +17,20 @@
       "Chavakkad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-azhikode-chamakkala-road", "label": "Met near Thriprayar" },
+    { "id": "mdr-kl-175", "label": "Met near Thriprayar" },
+    { "id": "kl-thalikulam-nambikkadavu-road", "label": "Met near Thriprayar" },
+    { "id": "mdr-kl-173", "label": "Met near Thriprayar" },
+    { "id": "mdr-kl-186", "label": "Met near Thriprayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thriprayar",
@@ -30,12 +45,6 @@
         76.06491,
         10.46059
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -16,6 +16,26 @@
       "Annapurna Nagar"
     ]
   },
+  "significance": "NH 160B is a branch of NH 160. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Kopargaon to Annapurna Nagar, and it meets NH 160 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-160",
+      "label": "NH 160 — the highway this branch takes its number from, running Sankeshwara to Kopargaon"
+    },
+    { "id": "samruddhi-mahamarg", "label": "Met near Kopargaon" },
+    { "id": "nh-752i", "label": "Met near Kopargaon" },
+    { "id": "nh-752g", "label": "Met near Kopargaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kopargaon",
@@ -30,16 +50,6 @@
         74.48154,
         19.86063
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

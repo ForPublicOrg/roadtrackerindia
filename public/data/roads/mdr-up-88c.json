@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 52.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Indira Nagar, Uttar Pradesh",
     "end": "Jankipuram, Uttar Pradesh",
@@ -16,6 +17,20 @@
       "Jankipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Indira Nagar" },
+    { "id": "nh-30", "label": "Met near Jankipuram" },
+    { "id": "nh-727h", "label": "Met near Barabanki" },
+    { "id": "lucknow-outer-ring-road", "label": "Met near Barabanki" },
+    { "id": "mdr-up-77c", "label": "Met near Jankipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Indira Nagar",
@@ -30,12 +45,6 @@
         80.89064,
         27.08362
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

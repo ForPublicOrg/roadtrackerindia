@@ -19,6 +19,24 @@
       "Tiruvuru"
     ]
   },
+  "significance": "NH 216H is a branch of NH 216. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Pedana to Tiruvuru, and it meets NH 216 along the way.",
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Tiruvuru" },
+    { "id": "nh-16", "label": "Met near Hanuman Junction" },
+    { "id": "nh-216", "label": "Met near Pedana" },
+    { "id": "nh-165", "label": "Met near Gudivada" },
+    { "id": "ap-nuzividu-eluru-road", "label": "Met near Nuzvid" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pedana",
@@ -75,16 +93,6 @@
         80.62466,
         17.08384
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 108,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Mul, Maharashtra",
     "end": "Aheri, Maharashtra",
@@ -18,6 +19,18 @@
       "Aheri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-353c", "label": "Met near Allapalli" },
+    { "id": "nh-930", "label": "Met near Mul" },
+    { "id": "nh-130d", "label": "Met near Allapalli" },
+    { "id": "sh-mh-363", "label": "Met near Allapalli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mul",
@@ -46,12 +59,6 @@
         80.00257,
         19.41244
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

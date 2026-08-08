@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 208.9,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Dubrajpur, West Bengal",
     "end": "Meherpur, West Bengal",
@@ -20,6 +21,19 @@
       "Meherpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Palashi" },
+    { "id": "nh-312", "label": "Met near Tehatta" },
+    { "id": "nh-14", "label": "Met near Dubrajpur" },
+    { "id": "nh-116a", "label": "Meets this road" },
+    { "id": "nh-114", "label": "Met near Guskara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dubrajpur",
@@ -62,12 +76,6 @@
         88.56073,
         23.80228
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

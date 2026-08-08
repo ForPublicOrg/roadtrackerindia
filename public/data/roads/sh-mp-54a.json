@@ -17,6 +17,19 @@
       "Chanderi"
     ]
   },
+  "significance": "SH 54A, Lalitpur–Chanderi State Highway, crosses the border between Uttar Pradesh and Madhya Pradesh. A state road that runs through more than one state has no single owner — UP PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-346", "label": "Met near Chanderi" },
+    { "id": "sh-mp-1", "label": "Met near Chanderi" },
+    { "id": "sh-mp-4", "label": "Met near Chanderi" },
+    { "id": "mdr-mp-807", "label": "Met near Chanderi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalitpur",
@@ -31,12 +44,6 @@
         78.13579,
         24.71251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

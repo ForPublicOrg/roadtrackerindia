@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalassery, Kerala",
     "end": "Panoor, Kerala",
@@ -16,6 +17,19 @@
       "Panoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thalassery" },
+    { "id": "sh-kl-30", "label": "Met near Thalassery" },
+    { "id": "kl-eranjoli-nettur-road", "label": "Met near Thalassery" },
+    { "id": "kl-eranholi-bridge-komathupara-road", "label": "Met near Thalassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalassery",
@@ -30,12 +44,6 @@
         75.53262,
         11.76728
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

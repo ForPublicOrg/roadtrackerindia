@@ -1,10 +1,14 @@
 {
   "id": "kota-indore-expressway",
-  "ref": "NH",
-  "name": "Kota Indore Expressway",
+  "ref": "Kota–Ujjain Expressway",
+  "name": "Kota–Ujjain–Indore Expressway",
+  "aka": ["Indore–Kota Economic Corridor"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 135.6,
+  "lanes": "4 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Freeganj, Madhya Pradesh",
     "end": "Shamgarh, Madhya Pradesh",
@@ -19,6 +23,31 @@
       "Shamgarh"
     ]
   },
+  "history": "This new corridor links Kota in Rajasthan with Ujjain and Indore in Madhya Pradesh, across the Malwa plateau. It is being built partly to connect Indore, the largest city in Madhya Pradesh, to the Delhi–Mumbai Expressway, which passes close to Kota — so traffic from Indore can reach either Delhi or Mumbai on an expressway rather than on the old two-lane roads through Ratlam.",
+  "facts": [
+    "Connects Indore and Ujjain to the Delhi–Mumbai Expressway near Kota.",
+    "Ujjain, on the route, is one of the four cities that host the Simhastha Kumbh Mela.",
+    "It crosses the Malwa plateau, one of India's main soybean and wheat regions.",
+    "Part of the Bharatmala programme of new national corridors."
+  ],
+  "significance": "Indore is central India's biggest commercial city and it has never had a fast road north. This corridor plugs it into the Delhi–Mumbai Expressway, and it also serves the huge crowds that come to Ujjain for the Kumbh.",
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "The expressway this corridor connects Indore to, near Kota" },
+    { "id": "nh-752d", "label": "Met near Ujjain" },
+    { "id": "nh-552g", "label": "Met near Ujjain" },
+    { "id": "sh-mp-64", "label": "Met near Ujjain" }
+  ],
+  "travelNotes": "Under construction and opening in sections.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Freeganj",
@@ -54,16 +83,6 @@
         75.65912,
         24.20245
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 72.6,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Siddapura, Karnataka",
     "end": "Yellapur, Karnataka",
@@ -17,6 +18,18 @@
       "Yellapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-766e", "label": "Met near Sirsi" },
+    { "id": "sh-ka-93", "label": "Met near Sirsi" },
+    { "id": "sh-ka-69", "label": "Met near Sirsi" },
+    { "id": "sh-ka-142", "label": "Met near Siddapura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Siddapura",
@@ -38,12 +51,6 @@
         74.73066,
         14.78727
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

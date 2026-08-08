@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 13.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Island Grounds, Tamil Nadu",
     "end": "Vanagaram, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Vanagaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-bypass-expressway", "label": "Met near Maduravoyal" },
+    { "id": "nh-48", "label": "Met near Maduravoyal" },
+    { "id": "chennai-inner-ring-road", "label": "Met near Arumbakkam" },
+    { "id": "sh-tn-u88", "label": "Met near Chennai" },
+    { "id": "sh-tn-2", "label": "Met near Arumbakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Island Grounds",
@@ -89,12 +103,6 @@
         80.15984,
         13.06145
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

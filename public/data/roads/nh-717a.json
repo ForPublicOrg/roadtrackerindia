@@ -19,6 +19,22 @@
       "Ranipool"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-17", "label": "Met near Odlabari" },
+    { "id": "nh-10", "label": "Met near Gangtok" },
+    { "id": "nh-717b", "label": "Met near Rhenock" },
+    { "id": "sh-wb-12", "label": "Met near Rangpo" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Odlabari",
@@ -47,16 +63,6 @@
         88.59121,
         27.29323
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

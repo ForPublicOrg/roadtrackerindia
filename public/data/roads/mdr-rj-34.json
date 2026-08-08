@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 125.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Nohar, Rajasthan",
     "end": "Lunkaransar, Rajasthan",
@@ -16,6 +17,20 @@
       "Lunkaransar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Meets this road" },
+    { "id": "nh-62", "label": "Meets this road" },
+    { "id": "nh-703", "label": "Met near Nohar" },
+    { "id": "sh-rj-7", "label": "Meets this road" },
+    { "id": "sh-rj-36", "label": "Met near Nohar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nohar",
@@ -30,12 +45,6 @@
         73.84745,
         28.79523
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

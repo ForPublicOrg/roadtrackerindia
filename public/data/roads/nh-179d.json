@@ -16,6 +16,20 @@
       "Bandypālaiyam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-179b", "label": "Met near Chetpet" },
+    { "id": "sh-tn-4", "label": "Met near Chetpet" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chetpet",
@@ -30,16 +44,6 @@
         79.34108,
         12.51626
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

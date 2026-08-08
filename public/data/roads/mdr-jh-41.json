@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 57,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Biramitrapur, Odisha",
     "end": "Jashpur Nagar, Chhattisgarh",
@@ -16,6 +17,18 @@
       "Jashpur Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-143", "label": "Meets this road" },
+    { "id": "mdr-jh-44", "label": "Meets this road" },
+    { "id": "mdr-jh-43", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Biramitrapur",
@@ -30,12 +43,6 @@
         84.23336,
         22.62728
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

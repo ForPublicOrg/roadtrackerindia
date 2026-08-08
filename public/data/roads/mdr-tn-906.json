@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mettupatti, Tamil Nadu",
     "end": "Begambur, Tamil Nadu",
@@ -18,6 +19,13 @@
       "Begambur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mettupatti",
@@ -32,12 +40,6 @@
         77.96572,
         10.35417
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

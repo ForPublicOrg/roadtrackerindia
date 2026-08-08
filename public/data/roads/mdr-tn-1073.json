@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Coonoor, Tamil Nadu",
     "end": "Kotagiri, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kotagiri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Coonoor" },
+    { "id": "sh-tn-15", "label": "Met near Kotagiri" },
+    { "id": "mdr-tn-994", "label": "Met near Kotagiri" },
+    { "id": "mdr-tn-1081", "label": "Met near Coonoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Coonoor",
@@ -37,12 +51,6 @@
         76.81332,
         11.41218
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

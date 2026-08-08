@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 141.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Hatta, Madhya Pradesh",
     "end": "Khurai, Madhya Pradesh",
@@ -18,6 +19,19 @@
       "Khurai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "nh-34", "label": "Met near Batiagarh" },
+    { "id": "nh-934", "label": "Met near Banda" },
+    { "id": "sh-mp-55", "label": "Met near Hatta" },
+    { "id": "sh-mp-22", "label": "Met near Patharia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hatta",
@@ -46,12 +60,6 @@
         78.48317,
         23.97531
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Muri, Jharkhand",
     "end": "Peterwar, Jharkhand",
@@ -16,6 +17,16 @@
       "Peterwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-24", "label": "Met near Muri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muri",
@@ -30,12 +41,6 @@
         85.80959,
         23.46149
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

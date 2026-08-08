@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kunnamkulam, Kerala",
     "end": "Guruvayur, Kerala",
@@ -16,6 +17,17 @@
       "Guruvayur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-kl-69", "label": "Met near Kunnamkulam" },
+    { "id": "sh-kl-62", "label": "Met near Guruvayur" },
+    { "id": "kl-thamarappilly-chowalloorpady-road", "label": "Met near Guruvayur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kunnamkulam",
@@ -37,12 +49,6 @@
         76.04576,
         10.59475
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

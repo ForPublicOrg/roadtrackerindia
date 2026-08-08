@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vallakkadavu, Kerala",
     "end": "Kochuveli, Kerala",
@@ -18,6 +19,13 @@
       "Kochuveli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vallakkadavu",
@@ -46,12 +54,6 @@
         76.89197,
         8.51237
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

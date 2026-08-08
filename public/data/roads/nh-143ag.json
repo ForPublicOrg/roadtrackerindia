@@ -17,6 +17,23 @@
       "Bundu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Meets this road" },
+    { "id": "nh-20", "label": "Met near Khunti" },
+    { "id": "nh-143d", "label": "Met near Khunti" },
+    { "id": "nh-143a", "label": "Met near Lohardaga" },
+    { "id": "mdr-jh-1", "label": "Met near Lohardaga" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lohardaga",
@@ -38,16 +55,6 @@
         85.65688,
         23.06426
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,21 @@
       "Motihari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Motihari" },
+    { "id": "nh-727", "label": "Met near Sagauli" },
+    { "id": "sh-br-54", "label": "Met near Motihari" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Raxaul",
@@ -40,16 +55,6 @@
         84.92889,
         26.64904
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

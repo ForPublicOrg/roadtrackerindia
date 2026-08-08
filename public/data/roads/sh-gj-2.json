@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 120.5,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Jhalod, Gujarat",
     "end": "Sarangpur, Gujarat",
@@ -20,6 +21,19 @@
       "Sarangpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vastral" },
+    { "id": "nh-848k", "label": "Met near Kathlal" },
+    { "id": "sh-gj-63", "label": "Met near Lunavada" },
+    { "id": "sh-gj-5", "label": "Met near Lunavada" },
+    { "id": "sh-gj-59", "label": "Met near Kathlal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhalod",
@@ -55,12 +69,6 @@
         72.59927,
         23.02225
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

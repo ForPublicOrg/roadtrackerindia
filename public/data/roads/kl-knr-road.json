@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vellanikkara, Kerala",
     "end": "Thanikkudam, Kerala",
@@ -17,6 +18,19 @@
       "Thanikkudam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Thrissur" },
+    { "id": "kl-chirakkakode-pullanikad-road", "label": "Met near Thrissur" },
+    { "id": "kl-chirakkakode-vellanikkara-road", "label": "Met near Thrissur" },
+    { "id": "kl-nellangara-mukkattukara-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vellanikkara",
@@ -31,12 +45,6 @@
         76.26453,
         10.56411
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

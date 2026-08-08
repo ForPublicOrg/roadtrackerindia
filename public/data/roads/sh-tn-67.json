@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 46.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nagore, Tamil Nadu",
     "end": "Natchiarkoil, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Natchiarkoil"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Nagore" },
+    { "id": "sh-tn-23", "label": "Met near Nannilam" },
+    { "id": "sh-tn-65", "label": "Met near Natchiarkoil" },
+    { "id": "sh-tn-u136", "label": "Met near Nagore" },
+    { "id": "mdr-tn-762", "label": "Met near Nannilam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagore",
@@ -38,12 +52,6 @@
         79.44908,
         10.90679
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

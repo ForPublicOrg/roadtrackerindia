@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 36,
+  "authority": "assam-pwd",
   "route": {
     "start": "Ramkrishna Nagar, Assam",
     "end": "Bairabi, Mizoram",
@@ -17,6 +18,28 @@
       "Bairabi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    {
+      "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    },
+    {
+      "id": "as-assam-kj-m-5-karimganj-major-distric-road-5-new-numbering-20",
+      "label": "Met near Dullabhcherra"
+    },
+    {
+      "id": "as-assam-kj-m-15-karimganj-major-distric-road-15-new-numbering",
+      "label": "Met near Dullabhcherra"
+    },
+    { "id": "mdr-as-15", "label": "Met near Dullabhcherra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ramkrishna Nagar",
@@ -38,12 +61,6 @@
         92.38322,
         24.25429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

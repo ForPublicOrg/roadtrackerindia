@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20.7,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Sangarul, Maharashtra",
     "end": "Gargoti, Maharashtra",
@@ -16,6 +17,16 @@
       "Gargoti"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-130", "label": "Met near Sangarul" },
+    { "id": "sh-mh-116", "label": "Met near Gargoti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sangarul",
@@ -30,12 +41,6 @@
         74.0327,
         16.41722
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

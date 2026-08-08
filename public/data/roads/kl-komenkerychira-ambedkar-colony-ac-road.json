@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kavumbhagom, Kerala",
     "end": "Vandipetta, Kerala",
@@ -16,6 +17,18 @@
       "Vandipetta"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-11", "label": "Met near Changanassery" },
+    { "id": "kl-muttar-central-road", "label": "Met near Changanassery" },
+    { "id": "kl-swamipalam-mepral-road", "label": "Met near Thiruvalla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kavumbhagom",
@@ -30,12 +43,6 @@
         76.50872,
         9.42447
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

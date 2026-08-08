@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vannarapalayam, Tamil Nadu",
     "end": "New Town, Tamil Nadu",
@@ -19,6 +20,17 @@
       "New Town"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Cuddalore" },
+    { "id": "sh-tn-68", "label": "Met near Cuddalore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vannarapalayam",
@@ -47,12 +59,6 @@
         79.76214,
         11.75405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

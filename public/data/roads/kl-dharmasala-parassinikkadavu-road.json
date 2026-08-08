@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Dharmasala, Kerala",
     "end": "Karinkalkuzhi, Kerala",
@@ -16,6 +17,20 @@
       "Karinkalkuzhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Dharmasala" },
+    {
+      "id": "kl-kavinmunambu-mullool-vellikkeel-7th-mile-trichambaram-muyyam",
+      "label": "Met near Dharmasala"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharmasala",
@@ -37,12 +52,6 @@
         75.40244,
         11.98487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 111.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Barnagar, Madhya Pradesh",
     "end": "Jaora, Madhya Pradesh",
@@ -17,6 +18,20 @@
       "Jaora"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-752d", "label": "Met near Barnagar" },
+    { "id": "sh-mp-65", "label": "Met near Barnagar" },
+    { "id": "sh-mp-64", "label": "Met near Barnagar" },
+    { "id": "sh-mp-38", "label": "Met near Nagda" },
+    { "id": "mdr-mp-2501", "label": "Met near Jaora" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barnagar",
@@ -38,12 +53,6 @@
         75.25012,
         23.57098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

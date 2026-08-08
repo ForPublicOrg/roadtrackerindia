@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Talera, Rajasthan",
     "end": "Keshoraipatan, Rajasthan",
@@ -16,6 +17,18 @@
       "Keshoraipatan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Talera" },
+    { "id": "sh-rj-34", "label": "Met near Keshoraipatan" },
+    { "id": "sh-rj-33", "label": "Met near Keshoraipatan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Talera",
@@ -30,12 +43,6 @@
         75.93869,
         25.29415
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

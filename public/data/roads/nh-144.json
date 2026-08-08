@@ -16,6 +16,20 @@
       "Reasi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-144a", "label": "A branch off this highway, running Narwal to Surankote" },
+    { "id": "nh-44", "label": "Met near Katra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Katra",
@@ -30,16 +44,6 @@
         74.83104,
         33.07313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

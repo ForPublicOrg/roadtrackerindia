@@ -16,6 +16,23 @@
       "Wardha"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Wardha" },
+    { "id": "nh-361", "label": "Met near Wardha" },
+    { "id": "nh-347a", "label": "Met near Arvi" },
+    { "id": "sh-mh-257", "label": "Met near Wardha" },
+    { "id": "sh-mh-245", "label": "Met near Arvi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arvi",
@@ -30,16 +47,6 @@
         78.59561,
         20.77265
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

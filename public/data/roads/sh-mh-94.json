@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Vile Bhagad MIDC, Maharashtra",
     "end": "Lavasa, Maharashtra",
@@ -16,6 +17,16 @@
       "Lavasa"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-60", "label": "Met near Vile Bhagad MIDC" },
+    { "id": "sh-mh-93", "label": "Met near Vile Bhagad MIDC" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vile Bhagad MIDC",
@@ -30,12 +41,6 @@
         73.35959,
         18.41519
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

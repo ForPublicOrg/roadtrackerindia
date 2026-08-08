@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Orathanadu, Tamil Nadu",
     "end": "Tarakkanpatti, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Tarakkanpatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-29", "label": "Met near Orathanadu" },
+    { "id": "mdr-tn-248", "label": "Met near Orathanadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Orathanadu",
@@ -30,12 +42,6 @@
         79.25811,
         10.61301
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

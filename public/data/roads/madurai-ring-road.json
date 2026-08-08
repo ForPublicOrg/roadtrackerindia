@@ -1,0 +1,83 @@
+{
+  "id": "madurai-ring-road",
+  "ref": "Ring Road",
+  "name": "Madurai Ring Road",
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 27.1,
+  "lanes": "4 lanes",
+  "authority": "tamil-nadu-highways",
+  "route": {
+    "start": "Tirumangalam, Tamil Nadu",
+    "end": "Madurai, Tamil Nadu",
+    "states": ["Tamil Nadu"],
+    "majorCities": ["Tirumangalam", "Pallivasal", "Chinthamani", "Viraganur", "Karuppayurani", "KK Nagar"]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Madurai's ring road runs around the western and southern side of the city, from Tirumangalam up past Viraganur, carrying highway traffic clear of the streets around the Meenakshi Amman temple. The old city is laid out in concentric squares around that temple, and its lanes fill with pilgrims and market traffic — no highway could sensibly pass through it.",
+  "facts": [
+    "Carries highway traffic around one of the oldest planned city centres in India.",
+    "Madurai's old city is laid out in concentric squares around the Meenakshi Amman temple.",
+    "It links the highways towards Tirunelveli, Theni, Dindigul and Rameswaram."
+  ],
+  "significance": "Madurai is a junction of four major roads and a pilgrimage city with a street plan two thousand years old. The ring is what keeps the two from colliding.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "The north–south national highway passing Madurai" },
+    { "id": "nh-85", "label": "The highway west towards Theni and Kerala" },
+    { "id": "nh-87", "label": "The highway east towards Rameswaram" },
+    { "id": "nh-38", "label": "Met near Vandiyur" },
+    { "id": "sh-tn-195", "label": "Met near Madurai" },
+    { "id": "sh-tn-32", "label": "Met near Pallivasal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Tirumangalam",
+      "coords": [
+        78.01581,
+        9.84819
+      ]
+    },
+    {
+      "name": "Pallivasal",
+      "coords": [
+        78.1055,
+        9.84186
+      ]
+    },
+    {
+      "name": "Chinthamani",
+      "coords": [
+        78.14587,
+        9.88477
+      ]
+    },
+    {
+      "name": "Viraganur",
+      "coords": [
+        78.16473,
+        9.89973
+      ]
+    },
+    {
+      "name": "Karuppayurani",
+      "coords": [
+        78.1689,
+        9.92964
+      ]
+    },
+    {
+      "name": "KK Nagar",
+      "coords": [
+        78.16347,
+        9.94948
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Badagaon, Madhya Pradesh",
     "end": "Ghuwara, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Ghuwara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-539", "label": "Met near Badagaon" },
+    { "id": "mdr-mp-1712", "label": "Met near Badagaon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badagaon",
@@ -30,12 +42,6 @@
         79.01941,
         24.5742
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanjikuzhi, Kerala",
     "end": "Nagampadam, Kerala",
@@ -17,6 +18,20 @@
       "Nagampadam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Kottayam" },
+    { "id": "sh-kl-1", "label": "Met near Kottayam" },
+    { "id": "kl-eranjal-thiruvanchoor-road", "label": "Met near Kottayam" },
+    { "id": "kl-muttambalam-nagampadom-road", "label": "Met near Kottayam" },
+    { "id": "kl-thiruvatta-nattasery-road", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanjikuzhi",
@@ -31,12 +46,6 @@
         76.53398,
         9.60207
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

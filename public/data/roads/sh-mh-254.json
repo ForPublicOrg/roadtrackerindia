@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 66.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Bahadura, Maharashtra",
     "end": "Police Line, Maharashtra",
@@ -18,6 +19,16 @@
       "Police Line"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-247", "label": "Met near Kuhi" },
+    { "id": "nh-353d", "label": "Met near Bahadura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bahadura",
@@ -39,12 +50,6 @@
         79.67433,
         21.12837
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

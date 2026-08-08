@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thanikkudam, Kerala",
     "end": "Puzhakkal, Kerala",
@@ -16,6 +17,17 @@
       "Puzhakkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Thrissur" },
+    { "id": "sh-kl-69", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thanikkudam",
@@ -30,12 +42,6 @@
         76.15821,
         10.59236
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

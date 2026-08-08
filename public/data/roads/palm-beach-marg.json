@@ -1,0 +1,106 @@
+{
+  "id": "palm-beach-marg",
+  "ref": "Palm Beach Marg",
+  "name": "Palm Beach Road",
+  "aka": ["Palm Beach Road", "PBR"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 13.7,
+  "lanes": "6 lanes with a landscaped central verge",
+  "route": {
+    "start": "Belapur West, Maharashtra",
+    "end": "Kopar Khairne, Maharashtra",
+    "states": [
+      "Maharashtra"
+    ],
+    "majorCities": [
+      "Belapur West",
+      "Navi Mumbai",
+      "Vashi",
+      "Kopar Khairne"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Palm Beach Road runs along the creek side of Navi Mumbai, from Vashi through Nerul to Belapur. It was built by the city development authority as the showpiece road of the planned city — six lanes, a wide planted median and a view of the creek and the flamingo wetlands beside it — and the neighbourhoods along it became Navi Mumbai's most expensive.",
+  "facts": [
+    "The showpiece road of Navi Mumbai, a city planned from scratch in the 1970s.",
+    "Runs beside the Thane creek wetlands, where flamingos gather in thousands each winter.",
+    "It is the address of Navi Mumbai's most expensive residential neighbourhoods.",
+    "Built with a wide landscaped median, unusual for an Indian city road."
+  ],
+  "significance": "It is the road that made Navi Mumbai desirable rather than merely affordable, and it is the fast way along the creek side of the city, parallel to the crowded Sion–Panvel Highway.",
+  "relatedRoads": [
+    {
+      "id": "sion-panvel-highway",
+      "label": "The main highway through Navi Mumbai, which this road runs parallel to"
+    },
+    { "id": "atal-setu", "label": "The sea bridge to Mumbai, reached from the southern end" },
+    { "id": "nh-348a", "label": "Met near Navi Mumbai" }
+  ],
+  "travelNotes": "One of the more pleasant drives in the Mumbai region. Busiest at commuting hours between Vashi and Belapur.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Belapur West",
+      "coords": [
+        73.03789,
+        19.01316
+      ]
+    },
+    {
+      "name": "Seawoods West",
+      "coords": [
+        73.01039,
+        19.01108
+      ]
+    },
+    {
+      "name": "Seawoods East",
+      "coords": [
+        73.00802,
+        19.01786
+      ]
+    },
+    {
+      "name": "Navi Mumbai",
+      "coords": [
+        73.00751,
+        19.03285
+      ]
+    },
+    {
+      "name": "Juinagar",
+      "coords": [
+        73.00857,
+        19.04998
+      ]
+    },
+    {
+      "name": "Sanpada",
+      "coords": [
+        73.00248,
+        19.05685
+      ]
+    },
+    {
+      "name": "Vashi",
+      "coords": [
+        73.00275,
+        19.07746
+      ]
+    },
+    {
+      "name": "Kopar Khairne",
+      "coords": [
+        73.01065,
+        19.09067
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

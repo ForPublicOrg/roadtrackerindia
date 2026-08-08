@@ -18,6 +18,17 @@
       "Nagar Untari"
     ]
   },
+  "significance": "SH 9A, Singrauli–Nagar Untari State Highway, crosses the border between Madhya Pradesh and Uttar Pradesh. A state road that runs through more than one state has no single owner — MP PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Anpara" },
+    { "id": "sh-up-5a", "label": "Met near Renukoot" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Singrauli",
@@ -39,12 +50,6 @@
         83.39712,
         24.25535
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

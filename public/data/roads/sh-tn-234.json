@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 61.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Minjur, Tamil Nadu",
     "end": "Vandalur, Tamil Nadu",
@@ -20,6 +21,19 @@
       "Vandalur"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Minjur" },
+    { "id": "nh-48", "label": "Met near Thirumazhisai" },
+    { "id": "nh-16", "label": "Met near Red Hills" },
+    { "id": "nh-32", "label": "Met near Vandalur" },
+    { "id": "nh-179b", "label": "Met near Vandalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Minjur",
@@ -76,12 +90,6 @@
         80.08359,
         12.88814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

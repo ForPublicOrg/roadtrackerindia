@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 25.2,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Aluru, Andhra Pradesh",
     "end": "Holagunda, Andhra Pradesh",
@@ -16,6 +17,15 @@
       "Holagunda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-167", "label": "Met near Aluru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aluru",
@@ -30,12 +40,6 @@
         77.04232,
         15.48811
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

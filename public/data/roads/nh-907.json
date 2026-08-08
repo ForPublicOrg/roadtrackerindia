@@ -19,6 +19,22 @@
       "Pansara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-907g", "label": "A branch off this highway, running Jagadhari to Bilaspur" },
+    { "id": "nh-7", "label": "Met near Paonta Sahib" },
+    { "id": "nh-344", "label": "Met near Yamunanagar" },
+    { "id": "nh-73a", "label": "Met near Paonta Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paonta Sahib",
@@ -47,16 +63,6 @@
         77.33396,
         30.1275
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kanakammachathram, Tamil Nadu",
     "end": "Vijayapuram, Andhra Pradesh",
@@ -16,6 +17,17 @@
       "Vijayapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716", "label": "Met near Kanakammachathram" },
+    { "id": "odr-tn-7213", "label": "Met near Kanakammachathram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanakammachathram",
@@ -30,12 +42,6 @@
         79.78641,
         13.21415
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

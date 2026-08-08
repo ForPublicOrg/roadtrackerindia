@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 107.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sehore, Madhya Pradesh",
     "end": "Khategaon, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Khategaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Khategaon" },
+    { "id": "nh-146b", "label": "Met near Khategaon" },
+    { "id": "sh-mp-28", "label": "Met near Sehore" },
+    { "id": "mdr-mp-2707", "label": "Met near Khategaon" },
+    { "id": "mdr-mp-3217", "label": "Met near Nasrullahganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sehore",
@@ -45,12 +59,6 @@
         76.96129,
         22.56596
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

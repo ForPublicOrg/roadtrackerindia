@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bundu, Jharkhand",
     "end": "Muri, Jharkhand",
@@ -16,6 +17,19 @@
       "Muri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Bundu" },
+    { "id": "mdr-jh-25", "label": "Met near Muri" },
+    { "id": "mdr-jh-27", "label": "Met near Bundu" },
+    { "id": "mdr-jh-28", "label": "Met near Rahe" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bundu",
@@ -30,12 +44,6 @@
         85.80757,
         23.25358
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

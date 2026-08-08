@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Erode, Tamil Nadu",
     "end": "Solar, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Solar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Erode" },
+    { "id": "nh-381a", "label": "Met near Erode" },
+    { "id": "sh-tn-79", "label": "Met near Erode" },
+    { "id": "sh-tn-84a", "label": "Met near Erode" },
+    { "id": "sh-tn-84", "label": "Met near Erode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erode",
@@ -52,12 +67,6 @@
         77.74901,
         11.32391
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Veppambaattu, Tamil Nadu",
     "end": "Tiruvallur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tiruvallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Tiruvallur" },
+    { "id": "chennai-peripherial-ring-road", "label": "Met near Tiruvallur" },
+    { "id": "odr-tn-3875", "label": "Met near Tiruvallur" },
+    { "id": "odr-tn-5618", "label": "Met near Tiruvallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Veppambaattu",
@@ -30,12 +44,6 @@
         79.91997,
         13.20873
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

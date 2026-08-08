@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 69.4,
+  "authority": "odisha-works",
   "route": {
     "start": "Jaykaypur, Odisha",
     "end": "Bhawanipatna, Odisha",
@@ -16,6 +17,15 @@
       "Bhawanipatna"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-326", "label": "Met near Jaykaypur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaykaypur",
@@ -30,12 +40,6 @@
         83.36477,
         19.70955
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

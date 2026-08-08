@@ -16,6 +16,24 @@
       "Baramulla"
     ]
   },
+  "significance": "NH 701A is a branch of NH 701. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Tangmarg to Baramulla, and it meets NH 701 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-701",
+      "label": "NH 701 — the highway this branch takes its number from, running Baramulla to Chilhana"
+    },
+    { "id": "nh-1", "label": "Met near Baramulla" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tangmarg",
@@ -30,16 +48,6 @@
         74.34765,
         34.20509
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

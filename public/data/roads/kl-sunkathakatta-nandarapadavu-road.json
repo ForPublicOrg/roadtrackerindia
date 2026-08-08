@@ -17,6 +17,21 @@
       "Padil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Sunkathakatta - Nandarapadavu Road, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Manjeshwar" },
+    { "id": "mdr-kl-56", "label": "Met near Manjeshwar" },
+    { "id": "kl-kunjathoor-kethumpady-nandarapadavu-road", "label": "Met near Manjeshwar" },
+    { "id": "kl-majerpalla-kottathaje-road", "label": "Met near Manjeshwar" },
+    { "id": "kl-majirpalla-kundadka-battiyapadavu-road", "label": "Met near Manjeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeshwar",
@@ -31,12 +46,6 @@
         74.95786,
         12.78495
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

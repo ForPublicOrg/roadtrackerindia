@@ -26,6 +26,23 @@
       "Jevaragi"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Challakere" },
+    { "id": "ne-10", "label": "Met near Lingasugur" },
+    { "id": "bangalore-mysore-expressway", "label": "Met near Mysuru" },
+    { "id": "mysuru-kushalnagar-expressway", "label": "Met near Srirangapatna" },
+    { "id": "nh-48", "label": "Met near Hiriyur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chamarajanagara",
@@ -152,16 +169,6 @@
         76.77401,
         17.01096
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

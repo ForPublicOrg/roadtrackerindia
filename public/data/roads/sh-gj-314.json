@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 19.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Janak Nagar, Gujarat",
     "end": "Morbi, Gujarat",
@@ -16,6 +17,16 @@
       "Morbi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-151a", "label": "Meets this road" },
+    { "id": "sh-gj-24", "label": "Met near Morbi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Janak Nagar",
@@ -30,12 +41,6 @@
         70.65756,
         22.9077
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

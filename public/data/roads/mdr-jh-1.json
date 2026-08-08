@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 83.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Lohardaga, Jharkhand",
     "end": "Khunti, Jharkhand",
@@ -16,6 +17,20 @@
       "Khunti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Meets this road" },
+    { "id": "nh-20", "label": "Met near Khunti" },
+    { "id": "nh-143ag", "label": "Met near Lohardaga" },
+    { "id": "nh-143a", "label": "Met near Lohardaga" },
+    { "id": "mdr-jh-31", "label": "Met near Khunti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lohardaga",
@@ -30,12 +45,6 @@
         85.27873,
         23.07553
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

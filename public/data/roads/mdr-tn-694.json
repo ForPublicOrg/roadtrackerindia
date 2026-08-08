@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sultan Bathery, Kerala",
     "end": "Pandalur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Pandalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-12", "label": "Met near Pandalur" },
+    { "id": "kl-sulthan-bathery-cherambady-road", "label": "Met near Sultan Bathery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sultan Bathery",
@@ -30,12 +42,6 @@
         76.27435,
         11.51655
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,22 @@
       "Tarazan/ Rupali Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Mokokchung" },
+    { "id": "nh-715", "label": "Met near Jorhat" },
+    { "id": "sh-as-7", "label": "Met near Mariani" },
+    { "id": "sh-as-1", "label": "Met near Mariani" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mokokchung",
@@ -55,16 +71,6 @@
         94.18228,
         26.75102
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

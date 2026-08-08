@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Krishnapuram, Tamil Nadu",
     "end": "Srirangam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Srirangam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Tiruchirappalli" },
+    { "id": "sh-tn-22", "label": "Met near Lalgudi" },
+    { "id": "sh-tn-u9", "label": "Met near Tiruchirappalli" },
+    { "id": "mdr-tn-782", "label": "Met near Lalgudi" },
+    { "id": "mdr-tn-821", "label": "Met near Tiruchirappalli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnapuram",
@@ -38,12 +53,6 @@
         78.6998,
         10.8502
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

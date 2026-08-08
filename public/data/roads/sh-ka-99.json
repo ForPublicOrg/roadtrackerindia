@@ -20,6 +20,20 @@
       "Beerongi Kothakota"
     ]
   },
+  "significance": "SH 99, Maluru–Beerongi Kothakota State Highway, crosses the border between Karnataka and Andhra Pradesh. A state road that runs through more than one state has no single owner — Karnataka PWD and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Kolar" },
+    { "id": "nh-69", "label": "Met near Srinivaspur" },
+    { "id": "nh-75", "label": "Met near Kolar" },
+    { "id": "sh-ka-5", "label": "Met near Kolar" },
+    { "id": "sh-ka-82", "label": "Met near Srinivaspur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maluru",
@@ -48,12 +62,6 @@
         78.23198,
         13.60292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

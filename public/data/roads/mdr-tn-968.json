@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Attur, Tamil Nadu",
     "end": "Chinnalapatti, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Chinnalapatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Chinnalapatti" },
+    { "id": "nh-381", "label": "Met near Attur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attur",
@@ -30,12 +42,6 @@
         77.89982,
         10.31341
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

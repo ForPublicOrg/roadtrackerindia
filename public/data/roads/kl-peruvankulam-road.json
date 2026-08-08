@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ollur, Kerala",
     "end": "Cheerachi, Kerala",
@@ -18,6 +19,19 @@
       "Cheerachi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Thrissur" },
+    { "id": "kl-edakkunny-road", "label": "Met near Thrissur" },
+    { "id": "kl-thrissur-thalore-road", "label": "Met near Thrissur" },
+    { "id": "kl-south-anchery-road", "label": "Met near Thrissur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ollur",
@@ -39,12 +53,6 @@
         76.23893,
         10.48618
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

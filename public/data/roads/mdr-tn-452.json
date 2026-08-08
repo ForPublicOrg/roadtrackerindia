@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Taramani, Tamil Nadu",
     "end": "Perungudi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Perungudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Taramani" },
+    { "id": "sh-tn-49a", "label": "Met near Palavakkam" },
+    { "id": "sh-tn-48b", "label": "Met near Taramani" },
+    { "id": "mdr-tn-752", "label": "Met near Taramani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Taramani",
@@ -30,12 +44,6 @@
         80.24648,
         12.964
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

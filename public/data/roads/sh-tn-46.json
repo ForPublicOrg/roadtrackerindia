@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 8.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chettikulam, Tamil Nadu",
     "end": "Peyode, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Peyode"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Nagercoil" },
+    { "id": "sh-tn-179", "label": "Met near Peyode" },
+    { "id": "mdr-tn-106", "label": "Met near Peyode" },
+    { "id": "mdr-tn-930", "label": "Met near Nagercoil" },
+    { "id": "mdr-tn-187", "label": "Met near Nagercoil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chettikulam",
@@ -53,12 +67,6 @@
         77.36906,
         8.13548
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

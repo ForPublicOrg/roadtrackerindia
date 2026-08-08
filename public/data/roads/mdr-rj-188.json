@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 72.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Viratnagar, Rajasthan",
     "end": "Govindgarh, Rajasthan",
@@ -18,6 +19,20 @@
       "Govindgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Manoharpur" },
+    { "id": "nh-52", "label": "Met near Govindgarh" },
+    { "id": "nh-248a", "label": "Met near Viratnagar" },
+    { "id": "sh-rj-37", "label": "Met near Manoharpur" },
+    { "id": "sh-rj-37c", "label": "Met near Khejroli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Viratnagar",
@@ -46,12 +61,6 @@
         75.62831,
         27.2911
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

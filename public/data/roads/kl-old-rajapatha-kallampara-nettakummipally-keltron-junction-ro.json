@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Housing Board, Kerala",
     "end": "Mancha, Kerala",
@@ -18,6 +19,20 @@
       "Mancha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-3", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-47", "label": "Met near Nedumangad" },
+    { "id": "kl-nedumangad-karipur-road", "label": "Met near Nedumangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Housing Board",
@@ -32,12 +47,6 @@
         76.98988,
         8.57014
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

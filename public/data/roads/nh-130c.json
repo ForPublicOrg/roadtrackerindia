@@ -19,6 +19,22 @@
       "Nava Raipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "raipur-visakhapatnam-expressway", "label": "Met near Nava Raipur" },
+    { "id": "or-biju-expressway", "label": "Meets this road" },
+    { "id": "nh-26", "label": "Met near Junagarh" },
+    { "id": "sh-ct-6", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Junagarh",
@@ -47,16 +63,6 @@
         81.7477,
         21.05495
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

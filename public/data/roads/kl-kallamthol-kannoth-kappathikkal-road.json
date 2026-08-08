@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Periya, Kerala",
     "end": "Odayamchal, Kerala",
@@ -16,6 +17,19 @@
       "Odayamchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-56", "label": "Met near Periya" },
+    { "id": "mdr-kl-2", "label": "Met near Periya" },
+    { "id": "mdr-kl-151", "label": "Met near Periya" },
+    { "id": "kl-eriya-kanhiradukkam-road", "label": "Met near Periya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Periya",
@@ -30,12 +44,6 @@
         75.16143,
         12.40864
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

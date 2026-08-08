@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalleri, Kerala",
     "end": "Peringatoor, Kerala",
@@ -17,6 +18,20 @@
       "Peringatoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-38", "label": "Met near Peringatoor" },
+    { "id": "kl-vadakara-villiyappally-chelakkad-road", "label": "Met near Kalleri" },
+    { "id": "kl-muttungal-nadapuram-pakramthalam-road", "label": "Met near Orkkatteri" },
+    { "id": "kl-villiappally-ayancherii-road", "label": "Met near Kalleri" },
+    { "id": "kl-kacheri-vellur-kottambaram-road", "label": "Met near Peringatoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalleri",
@@ -38,12 +53,6 @@
         75.60765,
         11.71513
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

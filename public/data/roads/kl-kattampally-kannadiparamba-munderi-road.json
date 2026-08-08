@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyatheru, Kerala",
     "end": "Karinkalkuzhi, Kerala",
@@ -16,6 +17,20 @@
       "Karinkalkuzhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-chirakkal-kattampally-mayyil-kololam-road", "label": "Met near Dharmasala" },
+    { "id": "kl-valiyannur-nayattupara-road", "label": "Met near Dharmasala" },
+    { "id": "kl-chelerimukku-kolacherimukku-road", "label": "Met near Dharmasala" },
+    { "id": "kl-kudukkimotta-munderimotta-road", "label": "Met near Dharmasala" },
+    { "id": "kl-kannadipparamba-pullooppikadavu-road", "label": "Met near Dharmasala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyatheru",
@@ -30,12 +45,6 @@
         75.43848,
         11.93396
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

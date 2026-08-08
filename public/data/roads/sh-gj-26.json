@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 173.9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Jamnagar, Gujarat",
     "end": "Veraval, Gujarat",
@@ -19,6 +20,19 @@
       "Veraval"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Dhoraji" },
+    { "id": "nh-51", "label": "Met near Veraval" },
+    { "id": "nh-151a", "label": "Met near Jamnagar" },
+    { "id": "nh-151k", "label": "Met near Kalavad" },
+    { "id": "nh-927d", "label": "Met near Jamnagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jamnagar",
@@ -68,12 +82,6 @@
         70.37831,
         20.91018
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

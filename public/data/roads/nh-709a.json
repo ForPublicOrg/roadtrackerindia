@@ -22,6 +22,24 @@
       "Bhiwani"
     ]
   },
+  "significance": "NH 709A is a branch of NH 709. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Garhmuktesar to Bhiwani, and it meets NH 709 along the way.",
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Chhatar" },
+    { "id": "trans-haryana-expressway", "label": "Met near Asandh" },
+    { "id": "delhi-dehradun-expressway", "label": "Met near Shamli" },
+    { "id": "nh-44", "label": "Met near Karnal" },
+    { "id": "nh-34", "label": "Met near Meerut" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Garhmuktesar",
@@ -99,16 +117,6 @@
         76.14614,
         28.79649
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

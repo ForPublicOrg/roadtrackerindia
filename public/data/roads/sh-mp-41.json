@@ -19,6 +19,20 @@
       "Chikhaldara"
     ]
   },
+  "significance": "SH 41, Narsinghpur–Chikhaldara State Highway, crosses the border between Madhya Pradesh and Maharashtra. A state road that runs through more than one state has no single owner — MP PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Multai" },
+    { "id": "nh-548c", "label": "Meets this road" },
+    { "id": "nh-547", "label": "Meets this road" },
+    { "id": "nh-347", "label": "Met near Multai" },
+    { "id": "sh-mp-62", "label": "Met near Parasia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narsinghpur",
@@ -47,12 +61,6 @@
         77.44067,
         21.47172
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

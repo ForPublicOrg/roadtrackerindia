@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Ajmer, Rajasthan",
     "end": "Beawar, Rajasthan",
@@ -16,6 +17,18 @@
       "Beawar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-448", "label": "Met near Ajmer" },
+    { "id": "sh-rj-102", "label": "Met near Nasirabad" },
+    { "id": "sh-rj-26a", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ajmer",
@@ -30,12 +43,6 @@
         74.50306,
         26.09328
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

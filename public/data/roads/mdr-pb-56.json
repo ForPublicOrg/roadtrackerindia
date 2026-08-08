@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 68.7,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Phagwara, Punjab",
     "end": "Nawanshahr, Punjab",
@@ -18,6 +19,19 @@
       "Nawanshahr"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Phagwara" },
+    { "id": "nh-344a", "label": "Met near Phagwara" },
+    { "id": "nh-103a", "label": "Met near Nawanshahr" },
+    { "id": "sh-pb-24", "label": "Met near Balachaur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phagwara",
@@ -46,12 +60,6 @@
         76.1185,
         31.12563
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

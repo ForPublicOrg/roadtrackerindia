@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 181,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Patharia, Madhya Pradesh",
     "end": "Gaurjhamar, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Gaurjhamar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "nh-45", "label": "Met near Udaipura" },
+    { "id": "sh-mp-63", "label": "Met near Garhakota" },
+    { "id": "sh-mp-20", "label": "Met near Udaipura" },
+    { "id": "sh-mp-19", "label": "Met near Patharia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patharia",
@@ -45,12 +59,6 @@
         79.02496,
         23.39524
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

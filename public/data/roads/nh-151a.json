@@ -20,6 +20,23 @@
       "Bhatiya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Maliya" },
+    { "id": "nh-927d", "label": "Met near Jamnagar" },
+    { "id": "nh-927k", "label": "Met near Khambhaliya" },
+    { "id": "sh-gj-26", "label": "Met near Jamnagar" },
+    { "id": "sh-gj-23", "label": "Met near Khambhaliya" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maliya",
@@ -76,16 +93,6 @@
         69.26783,
         22.10674
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

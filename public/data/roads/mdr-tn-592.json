@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruchengodu, Tamil Nadu",
     "end": "Sankagiri, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Sankagiri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-79", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-86", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-261", "label": "Met near Tiruchengodu" },
+    { "id": "mdr-tn-1132", "label": "Met near Tiruchengodu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruchengodu",
@@ -30,12 +44,6 @@
         77.9091,
         11.37739
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

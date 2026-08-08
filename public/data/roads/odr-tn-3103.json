@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Veppambaattu, Tamil Nadu",
     "end": "Nemilicheri, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Nemilicheri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716", "label": "Met near Nemilicheri" },
+    { "id": "sh-tn-50a", "label": "Met near Nemilicheri" },
+    { "id": "sh-tn-u148", "label": "Met near Nemilicheri" },
+    { "id": "odr-tn-4676", "label": "Met near Veppambaattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Veppambaattu",
@@ -30,12 +44,6 @@
         80.03638,
         13.13261
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,20 @@
       "Devgad"
     ]
   },
+  "significance": "SH 116, Nippani–Devgad State Highway, crosses the border between Karnataka and Maharashtra. A state road that runs through more than one state has no single owner — Karnataka PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Nippani" },
+    { "id": "nh-66", "label": "Met near Kankavali" },
+    { "id": "sh-mh-4", "label": "Met near Devgad" },
+    { "id": "sh-mh-130", "label": "Met near Gargoti" },
+    { "id": "sh-ka-18", "label": "Met near Nippani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nippani",
@@ -31,12 +45,6 @@
         73.40516,
         16.37854
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 68.3,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Chausa, Bihar",
     "end": "Sasaram, Bihar",
@@ -17,6 +18,19 @@
       "Sasaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Sasaram" },
+    { "id": "nh-319", "label": "Met near Kochas" },
+    { "id": "nh-119a", "label": "Met near Sasaram" },
+    { "id": "nh-319a", "label": "Met near Chausa" },
+    { "id": "sh-br-12", "label": "Met near Sasaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chausa",
@@ -38,12 +52,6 @@
         84.01003,
         24.95605
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

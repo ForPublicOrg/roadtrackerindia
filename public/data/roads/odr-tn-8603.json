@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallikondai, Tamil Nadu",
     "end": "Latteri, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Latteri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-1030", "label": "Met near Mottur" },
+    { "id": "tn-sugarcane-road-151", "label": "Met near Pallikondai" },
+    { "id": "odr-tn-3117", "label": "Met near Mottur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallikondai",
@@ -30,12 +43,6 @@
         79.01893,
         12.93438
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholavaram, Tamil Nadu",
     "end": "Poompozhil Nagar, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Poompozhil Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-1532", "label": "Met near Avadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholavaram",
@@ -30,12 +41,6 @@
         80.06354,
         13.21534
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

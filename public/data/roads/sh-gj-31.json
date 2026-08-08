@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 273.9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Gadu, Gujarat",
     "end": "Talaja, Gujarat",
@@ -21,6 +22,19 @@
       "Talaja"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Gadu" },
+    { "id": "nh-351g", "label": "Met near Lathi" },
+    { "id": "nh-351", "label": "Met near Jetpur" },
+    { "id": "nh-151", "label": "Met near Maliya" },
+    { "id": "sh-gj-96", "label": "Met near Keshod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadu",
@@ -70,12 +84,6 @@
         72.02987,
         21.36418
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

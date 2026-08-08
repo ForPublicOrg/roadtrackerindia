@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Shahpura, Rajasthan",
     "end": "Sanganer, Rajasthan",
@@ -17,6 +18,18 @@
       "Sanganer"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-758", "label": "Met near Bhilwara" },
+    { "id": "sh-rj-12", "label": "Met near Shahpura" },
+    { "id": "sh-rj-39a", "label": "Met near Banera" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahpura",
@@ -31,12 +44,6 @@
         74.65707,
         25.35912
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Freeganj, Madhya Pradesh",
     "end": "Maksi, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Maksi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Ujjain" },
+    { "id": "nh-752d", "label": "Met near Ujjain" },
+    { "id": "sh-mp-64", "label": "Met near Ujjain" },
+    { "id": "sh-mp-16", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Freeganj",
@@ -31,12 +45,6 @@
         76.14811,
         23.2506
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

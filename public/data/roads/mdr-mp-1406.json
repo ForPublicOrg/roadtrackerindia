@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Shahdol, Madhya Pradesh",
     "end": "ASH Area, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "ASH Area"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Shahdol" },
+    { "id": "sh-mp-57", "label": "Met near Shahdol" },
+    { "id": "mdr-mp-1407", "label": "Met near Shahdol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahdol",
@@ -30,12 +43,6 @@
         81.42491,
         23.28448
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

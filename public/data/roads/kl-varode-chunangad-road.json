@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ottapalam, Kerala",
     "end": "Sreekrishnapuram, Kerala",
@@ -16,6 +17,17 @@
       "Sreekrishnapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Ottapalam" },
+    { "id": "kl-mangalam-murukkumpetta-road", "label": "Met near Ottapalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ottapalam",
@@ -30,12 +42,6 @@
         76.40499,
         10.802
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

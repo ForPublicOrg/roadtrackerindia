@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Viruthampattu, Tamil Nadu",
     "end": "Sathuvachari, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Sathuvachari"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-75", "label": "Met near Vellore" },
+    { "id": "sh-tn-9", "label": "Met near Vellore" },
+    { "id": "sh-tn-u82", "label": "Met near Vellore" },
+    { "id": "odr-tn-2443", "label": "Met near Vellore" },
+    { "id": "odr-tn-1984", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Viruthampattu",
@@ -38,12 +53,6 @@
         79.13702,
         12.95016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

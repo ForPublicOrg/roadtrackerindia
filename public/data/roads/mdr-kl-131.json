@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chammattamvayal, Kerala",
     "end": "Chirupuram, Kerala",
@@ -19,6 +20,19 @@
       "Chirupuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kanhangad" },
+    { "id": "mdr-kl-17", "label": "Met near Nileshwaram" },
+    { "id": "mdr-kl-142", "label": "Met near Nileshwaram" },
+    { "id": "mdr-kl-121", "label": "Met near Kanhangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chammattamvayal",
@@ -40,12 +54,6 @@
         75.137,
         12.25887
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

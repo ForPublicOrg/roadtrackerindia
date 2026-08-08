@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyatheru, Kerala",
     "end": "Pappinisseri, Kerala",
@@ -16,6 +17,19 @@
       "Pappinisseri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-valapttanam-azheekkal-road", "label": "Met near Kannapuram" },
+    { "id": "kl-azheekkal-light-house-farm-road-onden-road", "label": "Met near Kannur" },
+    { "id": "kl-poothappara-neerkkadavu-road", "label": "Met near Kannur" },
+    { "id": "kl-poothappara-myladathadam-baliapattam-keeriyad-kattampally-ro", "label": "Met near Kannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyatheru",
@@ -30,12 +44,6 @@
         75.32047,
         11.92343
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

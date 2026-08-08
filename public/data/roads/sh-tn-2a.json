@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "St. Thomas Mount Cantonment, Tamil Nadu",
     "end": "Puzhuthivakkam, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Puzhuthivakkam"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Puzhuthivakkam" },
+    { "id": "chennai-200-feet-radial-road", "label": "Met near Puzhuthivakkam" },
+    { "id": "sh-tn-48", "label": "Met near Puzhuthivakkam" },
+    { "id": "sh-tn-u88", "label": "Met near St. Thomas Mount Cantonment" },
+    { "id": "sh-tn-48a", "label": "Met near Pazhavanthangal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "St. Thomas Mount Cantonment",
@@ -54,12 +68,6 @@
         80.21713,
         12.96755
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

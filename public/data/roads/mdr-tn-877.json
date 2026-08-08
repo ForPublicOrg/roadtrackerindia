@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sarvanampatti, Tamil Nadu",
     "end": "Thudiyalur, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Thudiyalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-948", "label": "Met near Sarvanampatti" },
+    { "id": "nh-181", "label": "Met near Thudiyalur" },
+    { "id": "mdr-tn-489", "label": "Met near Thudiyalur" },
+    { "id": "mdr-tn-984", "label": "Met near Thudiyalur" },
+    { "id": "mdr-tn-978", "label": "Met near Thudiyalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarvanampatti",
@@ -52,12 +67,6 @@
         76.94421,
         11.0811
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

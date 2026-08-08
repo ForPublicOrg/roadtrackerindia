@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-006-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 006 (new numbering 2023)",
+  "ref": "MDR Cachar 006",
+  "name": "Sonai–Vairengte district road",
+  "aka": ["Cachar Major District Road 006"],
   "category": "district",
   "status": "operational",
   "lengthKm": 17.3,
+  "authority": "assam-pwd",
   "route": {
     "start": "Sonai, Assam",
     "end": "Vairengte, Mizoram",
@@ -16,6 +18,20 @@
       "Vairengte"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Sonai and Vairengte. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-306", "label": "Met near Sonai" },
+    { "id": "sh-as-39", "label": "Met near Silchar" },
+    { "id": "as-assam-major-district-road-mdr-chachar-007-new-numbering-2023", "label": "Met near Sonai" },
+    { "id": "as-assam-major-district-road-mdr-chachar-008-new-numbering-2023", "label": "Met near Sonai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonai",
@@ -30,12 +46,6 @@
         92.84353,
         24.63677
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

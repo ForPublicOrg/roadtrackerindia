@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Komaralingam, Tamil Nadu",
     "end": "Madathukulam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Madathukulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Madathukulam" },
+    { "id": "sh-tn-97", "label": "Met near Madathukulam" },
+    { "id": "mdr-tn-510", "label": "Met near Komaralingam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Komaralingam",
@@ -30,12 +43,6 @@
         77.36309,
         10.56213
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

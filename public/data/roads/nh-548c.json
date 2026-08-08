@@ -25,6 +25,23 @@
       "Betul"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Barshi" },
+    { "id": "samruddhi-mahamarg", "label": "Met near Mehkar" },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Kuroli" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Partur" },
+    { "id": "nh-48", "label": "Met near Satara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satara",
@@ -123,16 +140,6 @@
         77.80273,
         21.85653
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

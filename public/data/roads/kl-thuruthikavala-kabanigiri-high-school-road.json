@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Perikkalloor, Kerala",
     "end": "Panamaram, Kerala",
@@ -16,6 +17,18 @@
       "Panamaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mullankolly-padichira-kabani-marakkadavu-road", "label": "Met near Perikkalloor" },
+    { "id": "kl-padichira-seethamount-kolavally-road", "label": "Met near Perikkalloor" },
+    { "id": "kl-seethamount-lourde-nagar-parakkavala-kabanigiri-road", "label": "Met near Perikkalloor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Perikkalloor",
@@ -30,12 +43,6 @@
         76.19657,
         11.84339
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

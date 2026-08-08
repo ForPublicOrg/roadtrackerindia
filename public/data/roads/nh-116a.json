@@ -19,6 +19,23 @@
       "Sagardighi"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Chandrakona" },
+    { "id": "nh-14", "label": "Met near Medinipur" },
+    { "id": "sh-wb-4", "label": "Met near Chandrakona" },
+    { "id": "sh-wb-8", "label": "Met near Bardhaman" },
+    { "id": "sh-wb-6", "label": "Met near Salar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Medinipur",
@@ -61,16 +78,6 @@
         88.01017,
         24.28978
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

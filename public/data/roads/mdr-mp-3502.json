@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bagdona, Madhya Pradesh",
     "end": "Shahpur, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Shahpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-46", "label": "Met near Shahpur" },
+    { "id": "sh-mp-45", "label": "Met near Bagdona" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bagdona",
@@ -30,12 +42,6 @@
         77.89153,
         22.13999
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

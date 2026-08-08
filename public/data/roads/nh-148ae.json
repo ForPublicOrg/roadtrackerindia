@@ -17,6 +17,21 @@
       "Vasant Vihar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-gurgaon-expressway", "label": "Met near Vasant Kunj" },
+    { "id": "nh-48", "label": "Met near Vasant Kunj" },
+    { "id": "nh-148a", "label": "Met near Chhattarpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhattarpur",
@@ -52,16 +67,6 @@
         77.1339,
         28.55221
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

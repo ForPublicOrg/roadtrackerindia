@@ -23,6 +23,24 @@
       "Loharu"
     ]
   },
+  "significance": "NH 334B is a branch of NH 334. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Partapur to Loharu, and it meets NH 334 along the way.",
+  "relatedRoads": [
+    { "id": "trans-haryana-expressway", "label": "Met near Charkhi Dadri" },
+    { "id": "delhi-dehradun-expressway", "label": "Met near Baghpat" },
+    { "id": "nh-44", "label": "Met near Sonipat" },
+    { "id": "nh-9", "label": "Met near Chhara" },
+    { "id": "nh-148b", "label": "Met near Charkhi Dadri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Partapur",
@@ -100,16 +118,6 @@
         75.80957,
         28.44463
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

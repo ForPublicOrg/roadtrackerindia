@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Bawāndīgha, Jharkhand",
     "end": "Deoghar, Jharkhand",
@@ -17,6 +18,20 @@
       "Deoghar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Madhupur" },
+    { "id": "nh-333", "label": "Met near Deoghar" },
+    { "id": "sh-jh-14", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-119", "label": "Met near Deoghar" },
+    { "id": "mdr-jh-228", "label": "Met near Deoghar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bawāndīgha",
@@ -38,12 +53,6 @@
         86.68008,
         24.48752
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

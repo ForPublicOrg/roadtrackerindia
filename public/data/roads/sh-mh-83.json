@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 6,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Rasayani, Maharashtra",
     "end": "Panvel, Maharashtra",
@@ -16,6 +17,17 @@
       "Panvel"
     ]
   },
+  "relatedRoads": [
+    { "id": "mumbai-pune-expressway", "label": "Met near Rasayani" },
+    { "id": "nh-48", "label": "Met near Rasayani" },
+    { "id": "sh-mh-82", "label": "Met near Rasayani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rasayani",
@@ -30,12 +42,6 @@
         73.16127,
         18.89149
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kundal, Tamil Nadu",
     "end": "Anjugramam, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Anjugramam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Anjugramam" },
+    { "id": "nh-66", "label": "Met near Kanyakumari" },
+    { "id": "sh-tn-179", "label": "Met near Kanyakumari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kundal",
@@ -38,12 +51,6 @@
         77.5615,
         8.1294
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

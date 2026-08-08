@@ -1,10 +1,14 @@
 {
   "id": "surat-chennai-expressway",
-  "ref": "NH",
-  "name": "Surat-Chennai Expressway",
+  "ref": "Surat–Chennai Expressway",
+  "name": "Surat–Chennai Expressway",
+  "aka": ["Surat–Chennai Economic Corridor"],
   "category": "expressway",
-  "status": "operational",
-  "lengthKm": 523.7,
+  "status": "under-construction",
+  "lengthKm": 1271,
+  "lanes": "4–6 lanes, access-controlled, land acquired for 8",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Kabilpore, Gujarat",
     "end": "Akkalkot, Maharashtra",
@@ -22,6 +26,34 @@
       "Akkalkot"
     ]
   },
+  "history": "The Surat–Chennai Expressway is one of the longest of the new economic corridors, cutting diagonally across the country from the textile city of Surat in Gujarat to Chennai on the east coast. It threads through six states by way of Nashik, Ahilyanagar, Solapur, Kalaburagi, Kurnool and Tirupati, joining a string of industrial cities that have never had a direct road between them — today the trip means going the long way round through Mumbai or Hyderabad.",
+  "facts": [
+    "One of India's longest expressway projects, running diagonally across the peninsula.",
+    "Passes through Gujarat, Maharashtra, Karnataka, Telangana, Andhra Pradesh and Tamil Nadu.",
+    "Built to cut the Surat–Chennai drive from around thirty-five hours to roughly sixteen.",
+    "It links Surat's textile and diamond trade with the ports and factories of the south-east.",
+    "Part of the Bharatmala programme of new national corridors."
+  ],
+  "significance": "Freight between western and southern India currently detours through Mumbai or Hyderabad. This corridor gives it a straight line, and along the way it connects a series of second-tier industrial cities — Nashik, Solapur, Kalaburagi, Kurnool — directly to two major ports.",
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Crosses the Maharashtra expressway network near Nashik" },
+    { "id": "nh-48", "label": "The older west-coast highway this corridor takes traffic from" },
+    { "id": "chennai-peripheral-ring-road", "label": "The Chennai ring road it will feed at its eastern end" },
+    { "id": "nh-52", "label": "Met near Tuljapur" },
+    { "id": "nh-65", "label": "Meets this road" },
+    { "id": "nh-548c", "label": "Met near Barshi" }
+  ],
+  "travelNotes": "Being built and opened in sections; whole stretches in Maharashtra and Karnataka are finished while others are still under construction.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kabilpore",
@@ -92,16 +124,6 @@
         76.20674,
         17.53676
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

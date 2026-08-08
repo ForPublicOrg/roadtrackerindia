@@ -16,6 +16,22 @@
       "Pukhrayan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Pukhrayan" },
+    { "id": "nh-19", "label": "Met near Auraiya" },
+    { "id": "sh-up-46", "label": "Met near Pukhrayan" },
+    { "id": "mdr-up-47c", "label": "Met near Auraiya" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Auraiya",
@@ -30,16 +46,6 @@
         79.81198,
         26.20134
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

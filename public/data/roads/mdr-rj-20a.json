@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 85.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Gadra Road, Rajasthan",
     "end": "Dahli, Rajasthan",
@@ -16,6 +17,16 @@
       "Dahli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-68", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadra Road",
@@ -30,12 +41,6 @@
         70.64976,
         25.74537
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

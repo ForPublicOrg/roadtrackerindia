@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kottayur, Tamil Nadu",
     "end": "Kandanur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kandanur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-536", "label": "Met near Karaikudi" },
+    { "id": "sh-tn-u159", "label": "Met near Karaikudi" },
+    { "id": "mdr-tn-209", "label": "Met near Karaikudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottayur",
@@ -30,12 +43,6 @@
         78.78196,
         10.14645
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

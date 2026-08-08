@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 69.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mauranipur, Uttar Pradesh",
     "end": "Poonch, Uttar Pradesh",
@@ -17,6 +18,18 @@
       "Poonch"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Poonch" },
+    { "id": "nh-39", "label": "Met near Mauranipur" },
+    { "id": "sh-up-42", "label": "Met near Gursarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mauranipur",
@@ -38,12 +51,6 @@
         79.04511,
         25.82048
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

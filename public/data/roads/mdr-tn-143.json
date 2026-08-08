@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kanchipuram, Tamil Nadu",
     "end": "Wallajahbad, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Wallajahbad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-132b", "label": "Met near Kanchipuram" },
+    { "id": "sh-tn-58", "label": "Met near Kanchipuram" },
+    { "id": "sh-tn-116", "label": "Met near Kanchipuram" },
+    { "id": "sh-tn-118a", "label": "Met near Kanchipuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanchipuram",
@@ -30,12 +44,6 @@
         79.68814,
         12.81126
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

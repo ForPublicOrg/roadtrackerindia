@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Borio, Jharkhand",
     "end": "Rajmahal, Jharkhand",
@@ -16,6 +17,18 @@
       "Rajmahal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Rajmahal" },
+    { "id": "sh-jh-18", "label": "Met near Borio" },
+    { "id": "mdr-jh-216", "label": "Met near Rajmahal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Borio",
@@ -30,12 +43,6 @@
         87.82808,
         25.05147
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

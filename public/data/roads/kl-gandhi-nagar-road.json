@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kumaranalloor, Kerala",
     "end": "Mannanam, Kerala",
@@ -16,6 +17,20 @@
       "Mannanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Kottayam" },
+    { "id": "sh-kl-1", "label": "Met near Kottayam" },
+    { "id": "kl-old-m-c-road", "label": "Met near Kottayam" },
+    { "id": "kl-neelimangalam-peroor-road", "label": "Met near Kottayam" },
+    { "id": "kl-arpookara-ammenchery-road", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumaranalloor",
@@ -37,12 +52,6 @@
         76.52416,
         9.6331
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

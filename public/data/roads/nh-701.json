@@ -18,6 +18,20 @@
       "Chilhana"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-701a", "label": "A branch off this highway, running Tangmarg to Baramulla" },
+    { "id": "nh-1", "label": "Met near Baramulla" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baramulla",
@@ -60,16 +74,6 @@
         73.77313,
         34.39209
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

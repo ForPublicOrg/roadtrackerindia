@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Iritty, Kerala",
     "end": "Kakkayangad, Kerala",
@@ -16,6 +17,19 @@
       "Kakkayangad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Iritty" },
+    { "id": "sh-kl-30", "label": "Met near Iritty" },
+    { "id": "kl-karkkottakkari-inthumkari-angadikkadavu-vaniyappara-randamka", "label": "Met near Iritty" },
+    { "id": "kl-kacherikadav-charalthattu-charal-road", "label": "Met near Iritty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Iritty",
@@ -30,12 +44,6 @@
         75.71674,
         12.02878
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

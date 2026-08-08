@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherthala, Kerala",
     "end": "Aroor, Kerala",
@@ -16,6 +17,19 @@
       "Aroor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-cherthala-arookkutty-road", "label": "Met near Vaikom" },
+    { "id": "kl-vaduthala-kudapuram-road", "label": "Met near Aroor" },
+    { "id": "kl-perumbalam-kombanamuri-road", "label": "Met near Aroor" },
+    { "id": "kl-poochakkal-olavaipu-road", "label": "Met near Vaikom" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherthala",
@@ -30,12 +44,6 @@
         76.33389,
         9.83357
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

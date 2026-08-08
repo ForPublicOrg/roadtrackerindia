@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 111.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palayamkottai, Tamil Nadu",
     "end": "Pandalgudi, Tamil Nadu",
@@ -20,6 +21,19 @@
       "Pandalgudi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Keelavaipar" },
+    { "id": "sh-tn-200", "label": "Met near Keelavaipar" },
+    { "id": "sh-tn-44", "label": "Met near Vilattikulam" },
+    { "id": "sh-tn-288", "label": "Met near Puthiamputhur" },
+    { "id": "sh-tn-32", "label": "Met near Puthiamputhur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palayamkottai",
@@ -55,12 +69,6 @@
         78.097,
         9.36596
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

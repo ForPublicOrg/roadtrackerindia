@@ -20,6 +20,23 @@
       "Kankroli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Bhilwara" },
+    { "id": "nh-58", "label": "Met near Rajsamand" },
+    { "id": "nh-162a", "label": "Met near Railmagara" },
+    { "id": "sh-rj-12", "label": "Met near Gangapur" },
+    { "id": "sh-rj-75", "label": "Met near Railmagara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandalgarh",
@@ -76,16 +93,6 @@
         73.86073,
         25.02858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

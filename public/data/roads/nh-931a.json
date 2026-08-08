@@ -16,6 +16,22 @@
       "Jagdishpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Salon" },
+    { "id": "nh-731", "label": "Met near Jagdishpur" },
+    { "id": "nh-128", "label": "Met near Gauriganj" },
+    { "id": "nh-330a", "label": "Met near Jagdishpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Salon",
@@ -30,16 +46,6 @@
         81.60691,
         26.44043
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

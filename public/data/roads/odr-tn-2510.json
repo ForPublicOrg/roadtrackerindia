@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adukkamparai, Tamil Nadu",
     "end": "Melvisharam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Melvisharam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-129", "label": "Met near Melvisharam" },
+    { "id": "odr-tn-419", "label": "Met near Melvisharam" },
+    { "id": "odr-tn-5504", "label": "Met near Adukkamparai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adukkamparai",
@@ -30,12 +43,6 @@
         79.23903,
         12.82364
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

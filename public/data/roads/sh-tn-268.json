@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 21.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pugalur, Tamil Nadu",
     "end": "Bharathi Nagar, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Bharathi Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Pugalur" },
+    { "id": "nh-81", "label": "Met near Kodumudi" },
+    { "id": "sh-tn-84", "label": "Met near Kodumudi" },
+    { "id": "sh-tn-u41", "label": "Met near Pugalur" },
+    { "id": "mdr-tn-72", "label": "Met near Kodumudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pugalur",
@@ -30,12 +44,6 @@
         77.91203,
         10.95891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

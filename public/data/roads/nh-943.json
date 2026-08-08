@@ -17,6 +17,23 @@
       "Nagod"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Pawai" },
+    { "id": "nh-39", "label": "Met near Nagod" },
+    { "id": "sh-mp-56", "label": "Met near Nagod" },
+    { "id": "mdr-mp-1816", "label": "Meets this road" },
+    { "id": "mdr-mp-909", "label": "Met near Nagod" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pawai",
@@ -38,16 +55,6 @@
         80.58446,
         24.57343
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

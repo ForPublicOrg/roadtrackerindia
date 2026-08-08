@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.4,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Silvassa, Dadra and Nagar Haveli and Daman and Diu",
     "end": "Valsad, Gujarat",
@@ -16,6 +17,18 @@
       "Valsad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Valsad" },
+    { "id": "nh-56", "label": "Met near Khergam" },
+    { "id": "nh-848", "label": "Meets this road" },
+    { "id": "sh-gj-181", "label": "Met near Khergam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Silvassa",
@@ -30,12 +43,6 @@
         72.9256,
         20.60753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

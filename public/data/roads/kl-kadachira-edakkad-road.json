@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kadachira, Kerala",
     "end": "Thottada, Kerala",
@@ -16,6 +17,19 @@
       "Thottada"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kadachira" },
+    { "id": "sh-kl-38", "label": "Met near Kadachira" },
+    { "id": "kl-kadachira-mammakunnu-road", "label": "Met near Kadachira" },
+    { "id": "kl-keezhara-mundayodu-poduvachery-road", "label": "Met near Kadachira" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadachira",
@@ -30,12 +44,6 @@
         75.44907,
         11.82347
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

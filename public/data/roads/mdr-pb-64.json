@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 48.2,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Dera Baba Nanak, Punjab",
     "end": "Joshi Nagar, Punjab",
@@ -19,6 +20,18 @@
       "Joshi Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Amritsar" },
+    { "id": "nh-354", "label": "Met near Dera Baba Nanak" },
+    { "id": "mdr-pb-63", "label": "Met near Churian" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dera Baba Nanak",
@@ -47,12 +60,6 @@
         74.8833,
         31.64019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

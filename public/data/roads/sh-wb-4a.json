@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.2,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Purulia, West Bengal",
     "end": "Muri, Jharkhand",
@@ -16,6 +17,17 @@
       "Muri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-18", "label": "Met near Purulia" },
+    { "id": "sh-wb-4", "label": "Met near Muri" },
+    { "id": "sh-jh-1", "label": "Met near Muri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Purulia",
@@ -30,12 +42,6 @@
         85.96706,
         23.36497
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

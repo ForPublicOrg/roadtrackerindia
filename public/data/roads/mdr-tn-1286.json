@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruppattur, Tamil Nadu",
     "end": "Kundrakudi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kundrakudi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-338", "label": "Met near Tiruppattur" },
+    { "id": "sh-tn-u218", "label": "Met near Tiruppattur" },
+    { "id": "sh-tn-191", "label": "Met near Tiruppattur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruppattur",
@@ -30,12 +43,6 @@
         78.55875,
         10.05898
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

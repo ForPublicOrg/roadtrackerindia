@@ -19,6 +19,24 @@
       "Purkaji"
     ]
   },
+  "significance": "NH 334A is a branch of NH 334. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs BHEL Township to Purkaji, and it meets NH 334 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-334",
+      "label": "NH 334 — the highway this branch takes its number from, running Bulandshahr to Har ki Pauri"
+    },
+    { "id": "sh-up-6w", "label": "Met near Purkaji" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "BHEL Township",
@@ -54,16 +72,6 @@
         77.84789,
         29.67435
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

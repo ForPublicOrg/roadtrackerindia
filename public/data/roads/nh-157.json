@@ -18,6 +18,22 @@
       "Athmallik"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-157a", "label": "A branch off this highway, running Phulbani to Athmallik" },
+    { "id": "nh-59", "label": "Met near Asika" },
+    { "id": "nh-57", "label": "Meets this road" },
+    { "id": "sh-or-23", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Asika",
@@ -53,16 +69,6 @@
         84.4225,
         20.58383
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

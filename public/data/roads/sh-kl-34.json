@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 69.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Areekode, Kerala",
     "end": "Koyilandy, Kerala",
@@ -20,6 +21,19 @@
       "Koyilandy"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Thamarassery" },
+    { "id": "sh-kl-38", "label": "Met near Ulliyeri" },
+    { "id": "sh-kl-28", "label": "Met near Manjeri" },
+    { "id": "sh-kl-68", "label": "Met near Omassery" },
+    { "id": "sh-kl-65", "label": "Met near Areekode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Areekode",
@@ -69,12 +83,6 @@
         75.69592,
         11.4417
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

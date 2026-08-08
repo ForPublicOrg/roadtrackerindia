@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 64.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Churhat, Madhya Pradesh",
     "end": "Mauganj, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Mauganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Churhat" },
+    { "id": "sh-mp-24", "label": "Met near Sidhi" },
+    { "id": "mdr-mp-1101", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Churhat",
@@ -30,12 +43,6 @@
         82.24393,
         24.56198
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,19 @@
       "Solaiyūr"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 1207, Pattersonpettai–Solaiyūr District road, crosses the border between Tamil Nadu and Andhra Pradesh. A state road that runs through more than one state has no single owner — TN Highways and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Jolarpet" },
+    { "id": "sh-tn-244", "label": "Met near Jolarpet" },
+    { "id": "mdr-tn-1111", "label": "Met near Jolarpet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pattersonpettai",
@@ -31,12 +44,6 @@
         78.46995,
         12.65969
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

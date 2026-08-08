@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 127,
+  "authority": "odisha-works",
   "route": {
     "start": "Kucheipadar, Odisha",
     "end": "Bhawanipatna, Odisha",
@@ -16,6 +17,17 @@
       "Bhawanipatna"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-26", "label": "Met near Bhawanipatna" },
+    { "id": "nh-326", "label": "Meets this road" },
+    { "id": "sh-or-16", "label": "Met near Bhawanipatna" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kucheipadar",
@@ -30,12 +42,6 @@
         83.15887,
         19.90583
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

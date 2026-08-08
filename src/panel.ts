@@ -322,9 +322,15 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
     ? `<div class="rd-section"><h3>Connected roads</h3><div class="rel-chips">${related
         .map((r) => {
           const s = state.byId.get(r.id)!
+          // A short label ("Met near Barshi") is the one thing the chip cannot
+          // already show, so it goes on screen. A long one stays a tooltip —
+          // there is no hover on a phone, but there is no room for it either.
+          const inline = r.label && r.label.length <= 30 ? r.label : null
           return `<button class="rel-chip" data-road="${esc(r.id)}" title="${esc(r.label ?? s.name)}">
             <span class="sr-badge cat-${s.category}">${esc(s.ref.length <= 9 ? s.ref : s.ref.split(/[\s–—]/)[0])}</span>
-            <span class="rc-name">${esc(s.name)}</span></button>`
+            <span class="rc-main"><span class="rc-name">${esc(s.name)}</span>${
+              inline ? `<span class="rc-where">${esc(inline)}</span>` : ''
+            }</span></button>`
         })
         .join('')}</div></div>`
     : ''

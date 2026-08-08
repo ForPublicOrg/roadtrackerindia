@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Orathanadu, Tamil Nadu",
     "end": "Vallam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Vallam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Vallam" },
+    { "id": "sh-tn-29", "label": "Met near Orathanadu" },
+    { "id": "sh-tn-u89", "label": "Met near Vallam" },
+    { "id": "sh-tn-99a", "label": "Met near Vallam" },
+    { "id": "mdr-tn-705", "label": "Met near Vallam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Orathanadu",
@@ -30,12 +45,6 @@
         79.07084,
         10.72193
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

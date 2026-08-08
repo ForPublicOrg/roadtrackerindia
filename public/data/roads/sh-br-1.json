@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.2,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Masaurhi, Bihar",
     "end": "Ranipur, Bihar",
@@ -17,6 +18,17 @@
       "Ranipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Ranipur" },
+    { "id": "nh-22", "label": "Met near Masaurhi" },
+    { "id": "sh-br-78", "label": "Met near Sampatchak" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Masaurhi",
@@ -38,12 +50,6 @@
         85.19147,
         25.58534
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

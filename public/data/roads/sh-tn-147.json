@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 42.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palavanthankattalai, Tamil Nadu",
     "end": "Nehru Nagar, Puducherry",
@@ -17,6 +18,19 @@
       "Nehru Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-23", "label": "Met near Nannilam" },
+    { "id": "sh-tn-209", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-211", "label": "Met near Nannilam" },
+    { "id": "mdr-tn-831", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-5", "label": "Met near Natchiarkoil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palavanthankattalai",
@@ -31,12 +45,6 @@
         79.75394,
         10.97512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

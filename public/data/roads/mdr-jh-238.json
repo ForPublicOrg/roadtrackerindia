@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38.9,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Jamtara, Jharkhand",
     "end": "Jarmundi, Jharkhand",
@@ -16,6 +17,18 @@
       "Jarmundi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-15", "label": "Met near Jamtara" },
+    { "id": "mdr-jh-193", "label": "Meets this road" },
+    { "id": "mdr-jh-239", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jamtara",
@@ -30,12 +43,6 @@
         87.1851,
         24.21775
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,23 @@
       "Tinsukia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-15", "label": "Met near Tinsukia" },
+    { "id": "nh-215", "label": "Met near Khonsa" },
+    { "id": "sh-as-7", "label": "Met near Naharkatia" },
+    { "id": "sh-as-1", "label": "Met near Naharkatia" },
+    { "id": "sh-as-5", "label": "Met near Tinsukia" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khonsa",
@@ -62,16 +79,6 @@
         95.35567,
         27.48855
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

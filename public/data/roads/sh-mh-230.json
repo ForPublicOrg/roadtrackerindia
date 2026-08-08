@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Waghala, Maharashtra",
     "end": "Nanded, Maharashtra",
@@ -16,6 +17,18 @@
       "Nanded"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-161a", "label": "Met near Nanded" },
+    { "id": "nh-361", "label": "Met near Nanded" },
+    { "id": "nh-161", "label": "Met near Nanded" },
+    { "id": "sh-mh-44", "label": "Met near Nanded" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Waghala",
@@ -30,12 +43,6 @@
         77.34415,
         19.14251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

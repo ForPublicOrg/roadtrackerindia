@@ -24,6 +24,23 @@
       "Moranhat"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Moran" },
+    { "id": "nh-15", "label": "Met near Namsai" },
+    { "id": "nh-702", "label": "Met near Jaboka" },
+    { "id": "nh-315", "label": "Met near Kharsang" },
+    { "id": "nh-315a", "label": "Met near Khonsa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Namsai",
@@ -80,16 +97,6 @@
         94.91498,
         27.18319
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

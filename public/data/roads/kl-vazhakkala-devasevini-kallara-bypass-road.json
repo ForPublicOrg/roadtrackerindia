@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kallara, Kerala",
     "end": "Neendoor, Kerala",
@@ -16,6 +17,18 @@
       "Neendoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-42", "label": "Met near Kallara" },
+    { "id": "kl-ettumanoor-vechoor-road", "label": "Met near Kallara" },
+    { "id": "kl-kallara-paravanthuruthu-manianthuruthu-road", "label": "Met near Kallara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kallara",
@@ -30,12 +43,6 @@
         76.48202,
         9.7012
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

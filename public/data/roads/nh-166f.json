@@ -16,6 +16,20 @@
       "MIDC Mahad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Mahad" },
+    { "id": "sh-mh-96", "label": "Met near Mahad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahad",
@@ -30,16 +44,6 @@
         73.43611,
         18.2296
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

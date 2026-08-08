@@ -19,6 +19,23 @@
       "Farah"
     ]
   },
+  "relatedRoads": [
+    { "id": "yamuna-expressway", "label": "Met near Etmadpur" },
+    { "id": "nh-44", "label": "Met near Agra" },
+    { "id": "nh-19", "label": "Met near Etmadpur" },
+    { "id": "nh-21", "label": "Met near Kiraoli" },
+    { "id": "sh-up-62", "label": "Met near Agra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Etmadpur",
@@ -47,16 +64,6 @@
         77.81306,
         27.2583
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

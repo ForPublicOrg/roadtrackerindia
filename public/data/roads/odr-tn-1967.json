@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thakkolam, Tamil Nadu",
     "end": "Kadambattur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kadambattur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-1233", "label": "Met near Thakkolam" },
+    { "id": "odr-tn-5157", "label": "Met near Thakkolam" },
+    { "id": "odr-tn-9012", "label": "Met near Thakkolam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thakkolam",
@@ -30,12 +43,6 @@
         79.78046,
         12.99172
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

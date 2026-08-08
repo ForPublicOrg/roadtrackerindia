@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 121.5,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Gohana, Haryana",
     "end": "Cheeka, Haryana",
@@ -18,6 +19,19 @@
       "Cheeka"
     ]
   },
+  "relatedRoads": [
+    { "id": "trans-haryana-expressway", "label": "Met near Asandh" },
+    { "id": "nh-709a", "label": "Met near Asandh" },
+    { "id": "nh-152d", "label": "Met near Asandh" },
+    { "id": "nh-152", "label": "Met near Kaithal" },
+    { "id": "nh-352a", "label": "Met near Gohana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gohana",
@@ -53,12 +67,6 @@
         76.32831,
         30.07873
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

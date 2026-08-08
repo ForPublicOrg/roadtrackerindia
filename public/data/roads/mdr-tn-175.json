@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Satyamangalam, Tamil Nadu",
     "end": "Nambiyur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Nambiyur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-15", "label": "Met near Satyamangalam" },
+    { "id": "mdr-tn-679", "label": "Met near Satyamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satyamangalam",
@@ -30,12 +42,6 @@
         77.29412,
         11.47638
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,26 @@
       "Mandangad"
     ]
   },
+  "significance": "NH 965DD is a branch of NH 965. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Lonand to Mandangad, and it meets NH 965 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-965",
+      "label": "NH 965 — the highway this branch takes its number from, running Akluj to Gopalpatti"
+    },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Bhor" },
+    { "id": "nh-48", "label": "Met near Bhor" },
+    { "id": "nh-66", "label": "Met near Mahad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lonand",
@@ -53,16 +73,6 @@
         73.25647,
         17.98844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

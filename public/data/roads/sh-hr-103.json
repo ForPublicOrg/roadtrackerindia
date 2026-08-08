@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.4,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Pephana, Rajasthan",
     "end": "Fatehabad, Haryana",
@@ -16,6 +17,17 @@
       "Fatehabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-hr-21", "label": "Met near Fatehabad" },
+    { "id": "sh-hr-104", "label": "Meets this road" },
+    { "id": "mdr-rj-65", "label": "Met near Pephana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pephana",
@@ -30,12 +42,6 @@
         75.33055,
         29.38914
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

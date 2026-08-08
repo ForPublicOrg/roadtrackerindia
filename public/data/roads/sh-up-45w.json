@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 61.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Aliganj, Uttar Pradesh",
     "end": "Kasganj, Uttar Pradesh",
@@ -17,6 +18,17 @@
       "Kasganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-21", "label": "Met near Kasganj" },
+    { "id": "sh-up-98w", "label": "Met near Aliganj" },
+    { "id": "sh-up-90w", "label": "Met near Ganj Dundwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aliganj",
@@ -52,12 +64,6 @@
         78.74822,
         27.88688
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

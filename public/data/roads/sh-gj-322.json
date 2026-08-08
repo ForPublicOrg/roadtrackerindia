@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Gondal, Gujarat",
     "end": "Jam Kandoma, Gujarat",
@@ -16,6 +17,16 @@
       "Jam Kandoma"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-1", "label": "Met near Gondal" },
+    { "id": "sh-gj-120", "label": "Met near Gondal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gondal",
@@ -30,12 +41,6 @@
         70.66323,
         22.02484
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

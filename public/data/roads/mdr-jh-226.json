@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Madhupur, Jharkhand",
     "end": "Sarwan, Jharkhand",
@@ -16,6 +17,20 @@
       "Sarwan"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Madhupur" },
+    { "id": "sh-jh-14", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-229", "label": "Met near Sarwan" },
+    { "id": "mdr-jh-225", "label": "Met near Madhupur" },
+    { "id": "mdr-jh-227", "label": "Met near Madhupur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Madhupur",
@@ -30,12 +45,6 @@
         86.68982,
         24.36084
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

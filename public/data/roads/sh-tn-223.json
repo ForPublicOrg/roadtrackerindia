@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 19.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Salem Camp, Tamil Nadu",
     "end": "Taramangalam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Taramangalam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Mettur" },
+    { "id": "sh-tn-86", "label": "Met near Taramangalam" },
+    { "id": "sh-tn-220", "label": "Met near Jalakandapuram" },
+    { "id": "sh-tn-219a", "label": "Met near Taramangalam" },
+    { "id": "mdr-tn-1174a", "label": "Met near Mettur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Salem Camp",
@@ -30,12 +44,6 @@
         77.97116,
         11.6959
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

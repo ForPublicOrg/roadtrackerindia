@@ -18,6 +18,23 @@
       "Nakrekal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-365b", "label": "A branch off this highway, running Suryapet to Sircilla" },
+    { "id": "nh-365a", "label": "A branch off this highway, running Kodada to Mahabubabad" },
+    { "id": "warangal-khammam-expressway", "label": "Met near Mahabubabad" },
+    { "id": "nh-65", "label": "Met near Nakrekal" },
+    { "id": "nh-163", "label": "Met near Mulugu" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulugu",
@@ -46,16 +63,6 @@
         79.41435,
         17.18273
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

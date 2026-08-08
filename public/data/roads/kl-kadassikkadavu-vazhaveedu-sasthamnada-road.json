@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anakkara, Kerala",
     "end": "1st Mile, Kerala",
@@ -16,6 +17,17 @@
       "1st Mile"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-185", "label": "Met near Anakkara" },
+    { "id": "sh-kl-19", "label": "Met near Anakkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anakkara",
@@ -30,12 +42,6 @@
         77.14609,
         9.68401
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

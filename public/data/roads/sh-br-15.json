@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 41.1,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Suryapura, Bihar",
     "end": "Dehri, Bihar",
@@ -17,6 +18,19 @@
       "Dehri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-120", "label": "Meets this road" },
+    { "id": "nh-319", "label": "Met near Suryapura" },
+    { "id": "nh-119a", "label": "Met near Bikramganj" },
+    { "id": "sh-br-12", "label": "Met near Bikramganj" },
+    { "id": "sh-br-81", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Suryapura",
@@ -38,12 +52,6 @@
         84.1919,
         24.90704
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

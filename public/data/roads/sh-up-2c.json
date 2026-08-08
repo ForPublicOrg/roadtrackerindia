@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 103.4,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Nighasan, Uttar Pradesh",
     "end": "Puranpur, Uttar Pradesh",
@@ -18,6 +19,18 @@
       "Puranpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-730", "label": "Met near Puranpur" },
+    { "id": "nh-731", "label": "Met near Palia Kalan" },
+    { "id": "sh-up-90", "label": "Met near Palia Kalan" },
+    { "id": "mdr-up-39c", "label": "Met near Puranpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nighasan",
@@ -46,12 +59,6 @@
         80.13861,
         28.51524
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

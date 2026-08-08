@@ -18,6 +18,23 @@
       "Barabanki"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Amethi" },
+    { "id": "lucknow-kanpur-expressway", "label": "Met near Alambagh" },
+    { "id": "nh-27", "label": "Met near Alambagh" },
+    { "id": "nh-30", "label": "Met near Vrindavan" },
+    { "id": "nh-731", "label": "Met near Amethi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jankipuram",
@@ -46,16 +63,6 @@
         81.19956,
         26.90685
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

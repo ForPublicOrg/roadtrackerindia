@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chittur, Kerala",
     "end": "Kunnathurmedu, Kerala",
@@ -16,6 +17,16 @@
       "Kunnathurmedu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-palakkad-chittur-road", "label": "Met near Palakkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chittur",
@@ -30,12 +41,6 @@
         76.68959,
         10.74004
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

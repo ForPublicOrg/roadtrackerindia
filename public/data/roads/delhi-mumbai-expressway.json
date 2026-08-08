@@ -16,6 +16,10 @@
     "states": ["Delhi", "Haryana", "Rajasthan", "Madhya Pradesh", "Gujarat", "Maharashtra"],
     "majorCities": ["Delhi", "Sohna", "Dausa", "Kota", "Ratlam", "Vadodara", "Surat", "Mumbai"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled, and collected through FASTag. Indian toll rates are revised every year on 1 April."
+  },
   "timeline": [
     { "year": "2019", "event": "Foundation stone laid in March" },
     { "year": "2023", "event": "First 246 km stretch from Sohna to Dausa–Lalsot opens in February" },
@@ -51,7 +55,10 @@
     { "id": "western-peripheral-expressway", "label": "The KMP ring expressway around Delhi, met at the Sohna end" },
     { "id": "ahmedabad-vadodara-expressway", "label": "Joins the corridor at Vadodara and carries traffic on to Ahmedabad" },
     { "id": "dnd-flyway", "label": "The Delhi connector spur is being built to link the expressway back to the DND Flyway" },
-    { "id": "atal-setu", "label": "The sea link from Nhava Sheva that carries expressway traffic straight into Mumbai" }
+    { "id": "atal-setu", "label": "The sea link from Nhava Sheva that carries expressway traffic straight into Mumbai" },
+    { "id": "ne-4c", "label": "Met near Sikandra" },
+    { "id": "nh-27", "label": "Met near Digod" },
+    { "id": "nh-52", "label": "Met near Chechat" }
   ],
   "travelNotes": "Where it is open, the expressway is fast and boring in the best way — long straight runs with no villages, no traffic lights and speed limits of 120 km/h for cars. Fuel pumps and food stops are still far apart on the newer sections, so fill up whenever you see one and carry water. Two-wheelers, three-wheelers and tractors are not allowed, tolling is by FASTag over the distance you travel, and in summer the Rajasthan and Madhya Pradesh stretches get very hot with almost no shade.",
   "futureUpgrades": [

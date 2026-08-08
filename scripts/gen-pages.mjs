@@ -58,11 +58,15 @@ const escAttr = (s) =>
 function roadHtml(road) {
   const startShort = road.start.split(',')[0]
   const endShort = road.end.split(',')[0]
-  const title = `${road.ref} — ${startShort} to ${endShort} | RoadTracker India`
+  // a ring road ends where it starts — "Bengaluru to Bengaluru" reads as a bug
+  const loops = road.start === road.end
+  const title = loops
+    ? `${road.ref} — around ${startShort} | RoadTracker India`
+    : `${road.ref} — ${startShort} to ${endShort} | RoadTracker India`
   const history = detailOf(road.id)?.history ? ` ${detailOf(road.id).history}` : ''
   const desc = (
     `${road.ref} (${road.name}) is a ${Math.round(road.lengthKm).toLocaleString('en-IN')} km ` +
-    `${CATEGORY_LABEL[road.category]} from ${road.start} to ${road.end}.${history}`
+    `${CATEGORY_LABEL[road.category]} ${loops ? `right around ${road.start}` : `from ${road.start} to ${road.end}`}.${history}`
   ).slice(0, 300)
   const url = `${SITE}/road/${road.id}/` // trailing slash matches the emitted directory — no 301 hop
 
@@ -155,6 +159,23 @@ for (const road of prerendered) {
   pages++
 }
 
+/**
+ * Roads that were merged into another record keep their URL. The page shows the
+ * surviving road and points its canonical tag at the surviving road's URL, so a
+ * search engine folds the two together instead of indexing a dead link. The app
+ * rewrites the address bar to the real one as soon as it boots.
+ */
+const byId = new Map(index.roads.map((r) => [r.id, r]))
+let merged = 0
+for (const [from, to] of Object.entries(index.aliases ?? {})) {
+  const road = byId.get(to)
+  if (!road) continue
+  const dir = join(DIST, 'road', from)
+  mkdirSync(dir, { recursive: true })
+  writeFileSync(join(dir, 'index.html'), roadHtml(road))
+  merged++
+}
+
 let orgs = []
 try {
   orgs = JSON.parse(readFileSync(join(DIST, 'data', 'orgs.json'), 'utf8')).orgs
@@ -194,6 +215,6 @@ writeFileSync(
 )
 
 console.log(
-  `✓ ${pages} road pages of ${index.roads.length} roads, ${orgs.length} company pages, ` +
-    `sitemap.xml (${urls.length} urls), 404.html`,
+  `✓ ${pages} road pages of ${index.roads.length} roads, ${merged} merged-road redirects, ` +
+    `${orgs.length} company pages, sitemap.xml (${urls.length} urls), 404.html`,
 )

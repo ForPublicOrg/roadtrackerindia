@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karinkalkuzhi, Kerala",
     "end": "Thottada, Kerala",
@@ -16,6 +17,18 @@
       "Thottada"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kannur-mattanur-road", "label": "Met near Kannur" },
+    { "id": "kl-valiyannur-nayattupara-road", "label": "Met near Dharmasala" },
+    { "id": "kl-kattampally-kannadiparamba-munderi-road", "label": "Met near Dharmasala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karinkalkuzhi",
@@ -30,12 +43,6 @@
         75.45806,
         11.91853
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

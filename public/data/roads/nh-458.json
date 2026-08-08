@@ -20,6 +20,23 @@
       "Ladnu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Bhim" },
+    { "id": "nh-25", "label": "Met near Jaitaran" },
+    { "id": "nh-162", "label": "Met near Raipur" },
+    { "id": "nh-158", "label": "Meets this road" },
+    { "id": "sh-rj-19", "label": "Met near Jayal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhim",
@@ -69,16 +86,6 @@
         74.39669,
         27.62603
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

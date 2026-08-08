@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Baghmara, Jharkhand",
     "end": "Barora, Jharkhand",
@@ -16,6 +17,18 @@
       "Barora"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-53", "label": "Met near Baghmara" },
+    { "id": "mdr-jh-51", "label": "Met near Baghmara" },
+    { "id": "mdr-jh-54", "label": "Met near Baghmara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baghmara",
@@ -30,12 +43,6 @@
         86.21872,
         23.79637
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

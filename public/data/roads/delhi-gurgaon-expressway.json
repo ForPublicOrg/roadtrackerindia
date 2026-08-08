@@ -1,10 +1,14 @@
 {
   "id": "delhi-gurgaon-expressway",
-  "ref": "NH",
-  "name": "Delhi-Gurgaon Expressway",
+  "ref": "Delhi–Gurgaon Expressway",
+  "name": "Delhi–Gurgaon Expressway",
+  "aka": ["Delhi–Gurgaon Toll Road", "NH 48 (Delhi–Kherki Daula section)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 28.8,
+  "lanes": "8 lanes, with elevated sections and service roads on both sides",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Dhaula Kuan, Delhi",
     "end": "Sector 83, Haryana",
@@ -20,6 +24,47 @@
       "Sector 83"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled at the Kherki Daula plaza in Gurugram. The Sirhaul plaza at the Delhi border was removed in 2014. Rates are revised every 1 April."
+  },
+  "history": "This is the stretch of the Delhi–Jaipur highway between Dhaula Kuan in Delhi and Kherki Daula in Gurugram, rebuilt as an eight-lane tolled expressway and opened in 2008. It was one of India's first big private-money road projects: a company was allowed to build the road and then collect toll on it for years to earn the money back. The road did what it was built for — it carries a huge share of Gurugram's office traffic — but its toll plazas became famous for the wrong reason. The Sirhaul plaza on the Delhi–Haryana border backed up for kilometres every morning and was finally pulled down in 2014. The Kherki Daula plaza at the far end has been argued over ever since, because thousands of people who live and work between the two plazas pay a full toll for a short hop.",
+  "facts": [
+    "One of India's earliest public–private highway projects, opened in 2008.",
+    "Carries some of the heaviest office-hour traffic in the country, between Delhi and Gurugram's Cyber City.",
+    "The Sirhaul toll plaza at the Delhi border was demolished in 2014 after years of jams.",
+    "It is also the main road to Indira Gandhi International Airport's Terminal 3 and the Aerocity hotel district.",
+    "Elevated flyovers carry the expressway lanes over the busy Rajokri, IFFCO Chowk and Signature Tower junctions.",
+    "It forms the first stretch of NH 48, the Delhi–Mumbai national highway by way of Jaipur."
+  ],
+  "significance": "Gurugram grew into one of India's biggest office cities along this road, and it is still the main artery between that office belt and Delhi. Almost everything moving between Delhi and Jaipur, and much of the traffic to Delhi airport, starts here.",
+  "interchanges": [
+    { "name": "Dhaula Kuan (Delhi)", "note": "northern end, where the expressway meets Delhi's Ring Road" },
+    { "name": "Mahipalpur / Airport", "note": "exit for Indira Gandhi International Airport and Aerocity" },
+    { "name": "Rajokri", "note": "cloverleaf interchange at the Delhi–Haryana border" },
+    { "name": "IFFCO Chowk (Gurugram)", "note": "flyover over one of Gurugram's busiest crossings" },
+    { "name": "Kherki Daula", "note": "southern end and the site of the surviving toll plaza" }
+  ],
+  "relatedRoads": [
+    { "id": "nh-48", "label": "The national highway this expressway begins — on to Jaipur, Ahmedabad and Mumbai" },
+    { "id": "dwarka-expressway", "label": "The parallel new expressway built to take pressure off this one" },
+    { "id": "delhi-outer-ring-road", "label": "Delhi's inner orbital road, joined at Dhaula Kuan" },
+    { "id": "western-peripheral-expressway", "label": "The Kundli–Manesar–Palwal ring, which lets through traffic skip Gurugram" },
+    { "id": "urban-extension-road-2", "label": "Met near Samalkha" },
+    { "id": "nh-248a", "label": "Met near Gurgaon" },
+    { "id": "nh-248bb", "label": "Met near Sector 74A" }
+  ],
+  "travelNotes": "Expect slow going between Dhaula Kuan and Rajokri on weekday mornings towards Gurugram, and the other way in the evening. Keep FASTag topped up for the Kherki Daula plaza. Service roads run the whole way, and using them for short local trips is usually quicker than joining the main carriageway.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhaula Kuan",
@@ -83,16 +128,6 @@
         76.98205,
         28.39543
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

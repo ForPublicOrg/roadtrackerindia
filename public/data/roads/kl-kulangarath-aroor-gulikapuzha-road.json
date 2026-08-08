@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nadapuram, Kerala",
     "end": "Kuttiadi, Kerala",
@@ -16,6 +17,19 @@
       "Kuttiadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-38", "label": "Met near Nadapuram" },
+    { "id": "kl-kuttiyadi-vellakkettu-kaipramkadavu-road", "label": "Met near Kuttiadi" },
+    { "id": "kl-ambalakkulangara-vatakandipara-road", "label": "Met near Kuttiadi" },
+    { "id": "kl-nambamvayal-kakkuni-road", "label": "Met near Kuttiadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadapuram",
@@ -30,12 +44,6 @@
         75.70621,
         11.60884
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

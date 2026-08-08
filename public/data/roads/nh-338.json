@@ -16,6 +16,23 @@
       "Tiruppattur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Melur" },
+    { "id": "melur-bypass-road", "label": "Met near Melur" },
+    { "id": "sh-tn-u218", "label": "Met near Tiruppattur" },
+    { "id": "sh-tn-191", "label": "Met near Tiruppattur" },
+    { "id": "sh-tn-u104", "label": "Met near Melur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melur",
@@ -30,16 +47,6 @@
         78.58079,
         10.0969
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

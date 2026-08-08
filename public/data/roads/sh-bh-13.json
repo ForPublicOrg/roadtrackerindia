@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 19.2,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Buxar, Bihar",
     "end": "Chausa, Bihar",
@@ -16,6 +17,17 @@
       "Chausa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-922", "label": "Met near Buxar" },
+    { "id": "nh-124c", "label": "Met near Chausa" },
+    { "id": "nh-319a", "label": "Met near Chausa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Buxar",
@@ -30,12 +42,6 @@
         83.88969,
         25.51052
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

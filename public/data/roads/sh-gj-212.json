@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Satlasana, Gujarat",
     "end": "Kheralu, Gujarat",
@@ -16,6 +17,15 @@
       "Kheralu"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-56", "label": "Met near Satlasana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satlasana",
@@ -30,12 +40,6 @@
         72.75473,
         23.96717
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

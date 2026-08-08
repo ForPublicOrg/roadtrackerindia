@@ -18,6 +18,23 @@
       "Arrah"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Sasaram" },
+    { "id": "nh-120", "label": "Met near Bikramganj" },
+    { "id": "sh-br-12", "label": "Met near Sasaram" },
+    { "id": "sh-br-17", "label": "Met near Sasaram" },
+    { "id": "sh-br-15", "label": "Met near Bikramganj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dalmianagar",
@@ -53,16 +70,6 @@
         84.645,
         25.53209
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

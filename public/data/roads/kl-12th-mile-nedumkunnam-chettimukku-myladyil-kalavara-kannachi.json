@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karukachal, Kerala",
     "end": "Pampady, Kerala",
@@ -16,6 +17,18 @@
       "Pampady"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-karukachal-manimala-road", "label": "Met near Karukachal" },
+    { "id": "kl-pampady-nedumkunnam-road", "label": "Met near Karukachal" },
+    { "id": "kl-nedumkunnam-attakulam-road", "label": "Met near Karukachal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karukachal",
@@ -30,12 +43,6 @@
         76.66481,
         9.50947
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

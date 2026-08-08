@@ -17,6 +17,23 @@
       "Umred"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-930", "label": "Met near Warora" },
+    { "id": "nh-347a", "label": "Met near Warora" },
+    { "id": "nh-353d", "label": "Met near Umred" },
+    { "id": "sh-mh-233", "label": "Met near Warora" },
+    { "id": "sh-mh-263", "label": "Met near Bhiwapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Warora",
@@ -38,16 +55,6 @@
         79.32252,
         20.84179
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

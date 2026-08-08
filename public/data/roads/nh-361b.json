@@ -16,6 +16,26 @@
       "Warora"
     ]
   },
+  "significance": "NH 361B is a branch of NH 361. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Bhosa to Warora, and it meets NH 361 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-361",
+      "label": "NH 361 — the highway this branch takes its number from, running Hingna to Tuljapur"
+    },
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "sh-mh-236", "label": "Meets this road" },
+    { "id": "sh-mh-257", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhosa",
@@ -30,16 +50,6 @@
         78.71931,
         20.28106
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

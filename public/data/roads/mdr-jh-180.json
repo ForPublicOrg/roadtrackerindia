@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Saraikela, Jharkhand",
     "end": "Chaibasa, Jharkhand",
@@ -16,6 +17,17 @@
       "Chaibasa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-220", "label": "Met near Saraikela" },
+    { "id": "sh-jh-6", "label": "Met near Saraikela" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saraikela",
@@ -30,12 +42,6 @@
         86.03101,
         22.55347
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

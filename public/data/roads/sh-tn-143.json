@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Annanagar, Tamil Nadu",
     "end": "Tittakudi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tittakudi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-136", "label": "Met near Ariyalur" },
+    { "id": "sh-tn-141", "label": "Met near Tittakudi" },
+    { "id": "sh-tn-256", "label": "Met near Tittakudi" },
+    { "id": "mdr-tn-1121", "label": "Met near Tittakudi" },
+    { "id": "mdr-tn-814", "label": "Met near Tittakudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Annanagar",
@@ -30,12 +44,6 @@
         79.11683,
         11.39586
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

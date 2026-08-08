@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Harmu, Jharkhand",
     "end": "Kadru, Jharkhand",
@@ -17,6 +18,16 @@
       "Kadru"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-15", "label": "Met near Ranchi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Harmu",
@@ -38,12 +49,6 @@
         85.31662,
         23.35233
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

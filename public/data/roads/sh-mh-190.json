@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 64.3,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Malkapur, Maharashtra",
     "end": "Nashirabad, Maharashtra",
@@ -18,6 +19,19 @@
       "Nashirabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Nashirabad" },
+    { "id": "nh-753a", "label": "Met near Malkapur" },
+    { "id": "nh-753l", "label": "Met near Bodvad" },
+    { "id": "sh-mh-188", "label": "Met near Bhusawal" },
+    { "id": "sh-mh-191", "label": "Met near Bodvad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malkapur",
@@ -46,12 +60,6 @@
         75.65783,
         21.0077
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mandla, Madhya Pradesh",
     "end": "Maharajpur, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Maharajpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Mandla" },
+    { "id": "nh-543", "label": "Met near Mandla" },
+    { "id": "sh-mp-33", "label": "Met near Mandla" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandla",
@@ -30,12 +43,6 @@
         80.48715,
         22.71477
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

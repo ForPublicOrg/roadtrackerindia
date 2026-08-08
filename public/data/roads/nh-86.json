@@ -1,10 +1,11 @@
 {
   "id": "nh-86",
   "ref": "NH 86",
-  "name": "Maharajpur–Kanpur National Highway",
+  "name": "Maharajpur–Kanpur Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 166.8,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Maharajpur, Madhya Pradesh",
     "end": "Kanpur, Uttar Pradesh",
@@ -21,6 +22,31 @@
       "Kanpur"
     ]
   },
+  "history": "National Highway 86 runs north from the Bundelkhand town of Maharajpur through Mahoba and Hamirpur to Kanpur, crossing the Betwa and Yamuna river country on the way. It is one of the main roads out of Bundelkhand — a dry, hard-farming region that has long been among the poorest parts of Uttar Pradesh and Madhya Pradesh — towards the industrial city of Kanpur.",
+  "facts": [
+    "Connects Bundelkhand to Kanpur, the largest industrial city in Uttar Pradesh.",
+    "Mahoba, on the route, was the capital of the Chandela kings who built Khajuraho.",
+    "It crosses the Yamuna near Hamirpur.",
+    "Granite and stone quarried in Bundelkhand travels north on this road."
+  ],
+  "significance": "Bundelkhand's farm produce and quarried stone move north on this road, and it is the route its people take to the hospitals, colleges and factories of Kanpur.",
+  "relatedRoads": [
+    { "id": "bundelkhand-expressway", "label": "The expressway serving the same region, from Chitrakoot towards Agra" },
+    { "id": "nh-34", "label": "The north–south national highway met near Kanpur" },
+    { "id": "nh-27", "label": "Met near Kanpur" },
+    { "id": "nh-19", "label": "Met near Kanpur" },
+    { "id": "nh-35", "label": "Met near Kabrai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maharajpur",
@@ -70,16 +96,6 @@
         80.33394,
         26.45566
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

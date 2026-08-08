@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pathalam, Kerala",
     "end": "Kongorpilly, Kerala",
@@ -16,6 +17,16 @@
       "Kongorpilly"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kadungalloor-elookara-kayantikara-alupuram-road", "label": "Met near Aluva" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pathalam",
@@ -30,12 +41,6 @@
         76.3046,
         10.09973
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

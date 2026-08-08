@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 13.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Dharmapuri, Tamil Nadu",
     "end": "Palacode, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Palacode"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Dharmapuri" },
+    { "id": "nh-844", "label": "Met near Dharmapuri" },
+    { "id": "sh-tn-224", "label": "Met near Palacode" },
+    { "id": "sh-tn-u129", "label": "Met near Dharmapuri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dharmapuri",
@@ -30,12 +43,6 @@
         78.05522,
         12.20778
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

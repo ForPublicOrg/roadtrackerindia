@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Marayoor, Kerala",
     "end": "Munnar, Kerala",
@@ -16,6 +17,19 @@
       "Munnar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-17", "label": "Met near Marayoor" },
+    { "id": "kl-chandramandalam-piradipallam-road", "label": "Met near Marayoor" },
+    { "id": "kl-marayoor-kovilkadavu-road", "label": "Met near Marayoor" },
+    { "id": "kl-sethuparvathipuram-kanthalloor-road", "label": "Met near Marayoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Marayoor",
@@ -30,12 +44,6 @@
         77.19715,
         10.21339
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

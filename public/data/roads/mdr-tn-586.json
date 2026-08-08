@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thondamuthur, Tamil Nadu",
     "end": "Kalampalayam, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kalampalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-271", "label": "Met near Thondamuthur" },
+    { "id": "sh-tn-272", "label": "Met near Thondamuthur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thondamuthur",
@@ -30,12 +42,6 @@
         76.86021,
         10.97325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

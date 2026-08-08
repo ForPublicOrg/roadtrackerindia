@@ -18,6 +18,23 @@
       "Jath"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Kavathe Ekand" },
+    { "id": "nh-48", "label": "Met near Karad" },
+    { "id": "nh-160", "label": "Met near Tasgaon" },
+    { "id": "nh-166", "label": "Meets this road" },
+    { "id": "nh-166e", "label": "Met near Jath" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karad",
@@ -53,16 +70,6 @@
         75.21579,
         17.04996
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

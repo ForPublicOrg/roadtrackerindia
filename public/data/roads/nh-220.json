@@ -20,6 +20,23 @@
       "Chaibasa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Chaibasa" },
+    { "id": "nh-49", "label": "Met near Karanjia" },
+    { "id": "sh-or-53", "label": "Met near Karanjia" },
+    { "id": "sh-jh-6", "label": "Met near Saraikela" },
+    { "id": "mdr-jh-172", "label": "Met near Govindpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kendujhargarh",
@@ -55,16 +72,6 @@
         85.80287,
         22.55353
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

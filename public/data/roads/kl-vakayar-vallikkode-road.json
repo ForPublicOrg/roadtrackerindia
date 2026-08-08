@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Azhoor, Kerala",
     "end": "Konni, Kerala",
@@ -16,6 +17,20 @@
       "Konni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Konni" },
+    { "id": "sh-kl-8", "label": "Met near Konni" },
+    { "id": "kl-v-kottayam-mallasseri-road", "label": "Met near Pathanamthitta" },
+    { "id": "kl-aruvappulam-vakayar-road", "label": "Met near Konni" },
+    { "id": "kl-kaipattur-vallikodu-road", "label": "Met near Pathanamthitta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Azhoor",
@@ -30,12 +45,6 @@
         76.83785,
         9.20173
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

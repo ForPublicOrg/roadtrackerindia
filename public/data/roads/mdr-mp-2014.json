@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chhota Chhindwara, Madhya Pradesh",
     "end": "Majholi, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Majholi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Meets this road" },
+    { "id": "mdr-mp-2015", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhota Chhindwara",
@@ -30,12 +42,6 @@
         79.53778,
         23.39615
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

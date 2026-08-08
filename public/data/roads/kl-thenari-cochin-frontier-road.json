@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanjikode, Kerala",
     "end": "Chittur, Kerala",
@@ -16,6 +17,18 @@
       "Chittur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-52", "label": "Met near Kanjikode" },
+    { "id": "sh-kl-25", "label": "Met near Chittur" },
+    { "id": "kl-kanjikode-para-kunnachi-kallukuttyal-road", "label": "Met near Kanjikode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanjikode",
@@ -30,12 +43,6 @@
         76.76624,
         10.72371
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

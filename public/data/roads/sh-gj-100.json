@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.6,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Maliya, Gujarat",
     "end": "Mendarda, Gujarat",
@@ -16,6 +17,19 @@
       "Mendarda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-151", "label": "Met near Maliya" },
+    { "id": "sh-gj-96", "label": "Met near Mendarda" },
+    { "id": "sh-gj-26", "label": "Met near Mendarda" },
+    { "id": "sh-gj-98", "label": "Met near Maliya" },
+    { "id": "sh-gj-99", "label": "Met near Mendarda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maliya",
@@ -30,12 +44,6 @@
         70.43602,
         21.32512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Wazirganj, Uttar Pradesh",
     "end": "Bilsi, Uttar Pradesh",
@@ -16,6 +17,15 @@
       "Bilsi"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-up-43", "label": "Met near Wazirganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wazirganj",
@@ -30,12 +40,6 @@
         78.91688,
         28.28734
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

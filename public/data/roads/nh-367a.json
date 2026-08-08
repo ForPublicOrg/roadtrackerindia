@@ -17,6 +17,21 @@
       "Kanakagiri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Meets this road" },
+    { "id": "nh-67", "label": "Met near Koppala" },
+    { "id": "sh-ka-36", "label": "Met near Koppala" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhagyanagara",
@@ -38,16 +53,6 @@
         76.25935,
         15.5181
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

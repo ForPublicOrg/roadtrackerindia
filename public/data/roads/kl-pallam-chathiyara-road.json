@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nooranad, Kerala",
     "end": "Kayamkulam, Kerala",
@@ -16,6 +17,18 @@
       "Kayamkulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Nooranad" },
+    { "id": "kl-ochira-thamarakkulam-road", "label": "Met near Nooranad" },
+    { "id": "kl-kambisserimukku-kattanam-road", "label": "Met near Nooranad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nooranad",
@@ -30,12 +43,6 @@
         76.60115,
         9.14144
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

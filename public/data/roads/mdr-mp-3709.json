@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sihora, Madhya Pradesh",
     "end": "Majholi, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Majholi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3710", "label": "Met near Majholi" },
+    { "id": "mdr-mp-3706", "label": "Met near Sihora" },
+    { "id": "mdr-mp-3704", "label": "Met near Sihora" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sihora",
@@ -30,12 +43,6 @@
         79.91121,
         23.42504
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

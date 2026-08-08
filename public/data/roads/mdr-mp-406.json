@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 33.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mangrol, Rajasthan",
     "end": "Sheopur, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Sheopur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-19b", "label": "Met near Mangrol" },
+    { "id": "mdr-mp-408", "label": "Met near Sheopur" },
+    { "id": "mdr-mp-405", "label": "Met near Sheopur" },
+    { "id": "mdr-mp-407", "label": "Met near Sheopur" },
+    { "id": "mdr-mp-410", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangrol",
@@ -30,12 +45,6 @@
         76.69494,
         25.66858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

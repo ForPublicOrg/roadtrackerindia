@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Moozhikkal, Kerala",
     "end": "Karanthur, Kerala",
@@ -16,6 +17,17 @@
       "Karanthur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kozhikode-balussery-road", "label": "Met near Moozhikkal" },
+    { "id": "kl-thadampattuthazhm-parambilkadavu-pullaloor-road", "label": "Met near Moozhikkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Moozhikkal",
@@ -30,12 +42,6 @@
         75.83281,
         11.32418
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

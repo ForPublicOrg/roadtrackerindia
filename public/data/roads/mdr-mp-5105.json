@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 40.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Nepanagar, Madhya Pradesh",
     "end": "Dharni, Maharashtra",
@@ -16,6 +17,18 @@
       "Dharni"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-70", "label": "Met near Dharni" },
+    { "id": "mdr-mp-5101", "label": "Met near Nepanagar" },
+    { "id": "mdr-mp-5106", "label": "Met near Nepanagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nepanagar",
@@ -30,12 +43,6 @@
         76.73774,
         21.54092
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

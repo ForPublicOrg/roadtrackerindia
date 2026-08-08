@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.2,
+  "authority": "odisha-works",
   "route": {
     "start": "Narasinghpur, Odisha",
     "end": "Barnapal, Odisha",
@@ -16,6 +17,16 @@
       "Barnapal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-655", "label": "Met near Barnapal" },
+    { "id": "sh-or-65", "label": "Met near Narasinghpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narasinghpur",
@@ -30,12 +41,6 @@
         85.18052,
         20.69243
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

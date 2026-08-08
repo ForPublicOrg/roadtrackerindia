@@ -21,6 +21,23 @@
       "Chitrakoot Dham"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Maihar" },
+    { "id": "nh-39", "label": "Met near Satna" },
+    { "id": "nh-35", "label": "Met near Chitrakoot Dham" },
+    { "id": "sh-mp-24", "label": "Met near Satna" },
+    { "id": "sh-mp-13", "label": "Met near Majhagawan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maihar",
@@ -63,16 +80,6 @@
         80.87969,
         25.21676
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

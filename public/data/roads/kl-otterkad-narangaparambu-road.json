@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kallekkad, Kerala",
     "end": "edathil colony, Kerala",
@@ -16,6 +17,16 @@
       "edathil colony"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kottayi-peringottukurrissi-road", "label": "Met near Ottapalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kallekkad",
@@ -30,12 +41,6 @@
         76.49851,
         10.72944
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

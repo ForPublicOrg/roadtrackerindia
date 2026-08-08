@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.5,
+  "authority": "assam-pwd",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Panchgram, Assam",
@@ -17,6 +18,19 @@
       "Panchgram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Badarpur" },
+    { "id": "nh-37", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met near Badarpur" },
+    { "id": "as-assam-kj-m-10-karimganj-major-distric-road-10-new-numbering", "label": "Met near Karimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karimganj",
@@ -38,12 +52,6 @@
         92.58271,
         24.87281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

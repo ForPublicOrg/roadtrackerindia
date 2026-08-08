@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 33.5,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Nawab Ganj, Uttar Pradesh",
     "end": "Amethi, Uttar Pradesh",
@@ -16,6 +17,20 @@
       "Amethi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Amethi" },
+    { "id": "lucknow-kanpur-expressway", "label": "Met near Nawab Ganj" },
+    { "id": "nh-27", "label": "Met near Nawab Ganj" },
+    { "id": "nh-30", "label": "Met near Vrindavan" },
+    { "id": "nh-731", "label": "Met near Amethi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nawab Ganj",
@@ -30,12 +45,6 @@
         81.10135,
         26.76707
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

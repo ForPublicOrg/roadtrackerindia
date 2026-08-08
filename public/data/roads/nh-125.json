@@ -18,6 +18,22 @@
       "Paota"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-125a", "label": "A branch off this highway, running Jwala Vihar to Saran Nagar" },
+    { "id": "nh-754k", "label": "Met near Balesar" },
+    { "id": "nh-11", "label": "Met near Pokaran" },
+    { "id": "nh-62", "label": "Met near Jodhpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pokaran",
@@ -46,16 +62,6 @@
         73.03816,
         26.3477
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanjikuzhi, Kerala",
     "end": "Kumbanad, Kerala",
@@ -19,6 +20,19 @@
       "Kumbanad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Kottayam" },
+    { "id": "kl-karukachal-manimala-road", "label": "Met near Karukachal" },
+    { "id": "kl-vennikulam-ranni-road", "label": "Met near Kumbanad" },
+    { "id": "kl-thiruvalla-mallappally-road", "label": "Met near Mallappally" },
+    { "id": "kl-pallom-thottakkad-road", "label": "Met near Puthuppally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanjikuzhi",
@@ -54,12 +68,6 @@
         76.67701,
         9.35724
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

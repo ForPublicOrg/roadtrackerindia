@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Arapeedika, Kerala",
     "end": "Kakkayam, Kerala",
@@ -16,6 +17,18 @@
       "Kakkayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Kakkayam" },
+    { "id": "sh-kl-34", "label": "Met near Thamarassery" },
+    { "id": "kl-balussery-kurumpoyil-vayalida-thalayad-road", "label": "Met near Kakkayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arapeedika",
@@ -30,12 +43,6 @@
         75.89578,
         11.55091
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

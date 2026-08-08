@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Attayampatti, Tamil Nadu",
     "end": "Kamarajar Nagar, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kamarajar Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-86", "label": "Met near Edappadi" },
+    { "id": "sh-tn-221", "label": "Met near Edappadi" },
+    { "id": "sh-tn-86a", "label": "Met near Attayampatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Attayampatti",
@@ -30,12 +43,6 @@
         77.90116,
         11.56814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

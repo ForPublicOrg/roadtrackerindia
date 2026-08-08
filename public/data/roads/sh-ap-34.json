@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 126.8,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Kadiri, Andhra Pradesh",
     "end": "Rajampeta, Andhra Pradesh",
@@ -18,6 +19,17 @@
       "Rajampeta"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-42", "label": "Met near Kadiri" },
+    { "id": "nh-716", "label": "Met near Rajampeta" },
+    { "id": "nh-716g", "label": "Met near Kadiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadiri",
@@ -53,12 +65,6 @@
         79.16022,
         14.19414
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

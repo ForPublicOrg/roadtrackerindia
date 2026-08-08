@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Urapakkam, Tamil Nadu",
     "end": "Kolapakkam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kolapakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Urapakkam" },
+    { "id": "mdr-tn-598", "label": "Met near Urapakkam" },
+    { "id": "odr-tn-1521", "label": "Met near Urapakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Urapakkam",
@@ -30,12 +43,6 @@
         80.0641,
         12.84543
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

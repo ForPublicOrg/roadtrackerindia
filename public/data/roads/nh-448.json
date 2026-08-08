@@ -18,6 +18,23 @@
       "Nasirabad Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "jaipur-kishangarh-expressway", "label": "Met near RICCO Industrial Area" },
+    { "id": "nh-48", "label": "Met near RICCO Industrial Area" },
+    { "id": "nh-58", "label": "Met near Ajmer" },
+    { "id": "sh-rj-7", "label": "Met near RICCO Industrial Area" },
+    { "id": "sh-rj-102", "label": "Met near Nasirabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "RICCO Industrial Area",
@@ -39,16 +56,6 @@
         74.74408,
         26.32071
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,14 @@
 {
   "id": "prayagraj-bypass-expressway",
-  "ref": "NH",
+  "ref": "Prayagraj Bypass",
   "name": "Prayagraj Bypass Expressway",
+  "aka": ["Allahabad Bypass", "NH 19 (Prayagraj bypass)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 80.2,
+  "lanes": "4–6 lanes",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Meja Road, Uttar Pradesh",
     "end": "Bharwari, Uttar Pradesh",
@@ -17,6 +21,37 @@
       "Bharwari"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
+  "history": "The Prayagraj Bypass carries the Grand Trunk Road traffic around the south of the city instead of through it. It was built as part of the Golden Quadrilateral programme so that the constant stream of trucks between Delhi and Kolkata would stop crossing a city that fills with millions of pilgrims at every Magh Mela and Kumbh Mela.",
+  "facts": [
+    "Takes Delhi–Kolkata highway traffic around Prayagraj rather than through it.",
+    "Built as part of the Golden Quadrilateral, the national highway programme linking India's four biggest cities.",
+    "Especially important during the Kumbh Mela, when the city itself is closed to through traffic.",
+    "It crosses the Yamuna and connects to the roads towards Rewa and Varanasi."
+  ],
+  "significance": "Prayagraj sits on the busiest freight route in northern India and hosts the largest religious gathering in the world. The bypass is what allows both to happen at once.",
+  "relatedRoads": [
+    { "id": "nh-19", "label": "The Grand Trunk Road route between Delhi and Kolkata that this bypasses" },
+    { "id": "ganga-expressway", "label": "The Meerut–Prayagraj expressway, which ends near this city" },
+    { "id": "purvanchal-expressway", "label": "The Lucknow–Ghazipur expressway serving the same part of Uttar Pradesh" },
+    { "id": "nh-30", "label": "Met near Phaphamau" },
+    { "id": "nh-330", "label": "Met near Phaphamau" },
+    { "id": "nh-731a", "label": "Met near Bharwari" }
+  ],
+  "travelNotes": "Use it to skip the city entirely. During Kumbh and Magh Mela seasons the bypass itself is heavily policed and diversions are common.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Meja Road",
@@ -38,16 +73,6 @@
         81.52955,
         25.57623
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

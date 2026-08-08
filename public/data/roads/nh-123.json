@@ -19,6 +19,22 @@
       "Dhaulpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Dhaulpur" },
+    { "id": "nh-21", "label": "Met near Bharatpur" },
+    { "id": "nh-23", "label": "Met near Dhaulpur" },
+    { "id": "sh-rj-42", "label": "Met near Sepau" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijay Nagar Colony",
@@ -47,16 +63,6 @@
         77.88369,
         26.69521
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

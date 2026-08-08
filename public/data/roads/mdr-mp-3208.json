@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ichhawar, Madhya Pradesh",
     "end": "Kala Pipal, Madhya Pradesh",
@@ -16,6 +17,13 @@
       "Kala Pipal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ichhawar",
@@ -30,12 +38,6 @@
         76.7876,
         23.13944
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

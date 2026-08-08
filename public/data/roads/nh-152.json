@@ -20,6 +20,23 @@
       "Narwana"
     ]
   },
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Kalayat" },
+    { "id": "trans-haryana-expressway", "label": "Met near Pehowa" },
+    { "id": "nh-44", "label": "Met near Ambala" },
+    { "id": "nh-52", "label": "Met near Narwana" },
+    { "id": "nh-7", "label": "Met near Zirakpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Zirakpur",
@@ -62,16 +79,6 @@
         76.13097,
         29.57494
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

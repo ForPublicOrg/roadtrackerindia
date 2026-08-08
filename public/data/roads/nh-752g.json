@@ -23,6 +23,23 @@
       "Sainagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Kopargaon" },
+    { "id": "nh-52", "label": "Met near Sendhwa" },
+    { "id": "nh-53", "label": "Met near Sakri" },
+    { "id": "nh-160", "label": "Met near Sainagar" },
+    { "id": "nh-752i", "label": "Met near Kopargaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sendhwa",
@@ -107,16 +124,6 @@
         74.47588,
         19.76526
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

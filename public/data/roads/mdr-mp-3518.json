@@ -17,6 +17,17 @@
       "Chandur Bazar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 3518, Paratwada–Chandur Bazar District road, crosses the border between Madhya Pradesh and Maharashtra. A state road that runs through more than one state has no single owner — MP PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-548c", "label": "Met near Paratwada" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paratwada",
@@ -31,12 +42,6 @@
         77.6572,
         21.38732
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

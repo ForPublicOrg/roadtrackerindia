@@ -19,6 +19,23 @@
       "Sikandra Rao"
     ]
   },
+  "relatedRoads": [
+    { "id": "yamuna-expressway", "label": "Met near Raya" },
+    { "id": "nh-44", "label": "Met near Gokul" },
+    { "id": "nh-21", "label": "Met near Sikandra Rao" },
+    { "id": "nh-509", "label": "Met near Hathras" },
+    { "id": "sh-up-102w", "label": "Met near Gokul" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gokul",
@@ -54,16 +71,6 @@
         78.37212,
         27.69184
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

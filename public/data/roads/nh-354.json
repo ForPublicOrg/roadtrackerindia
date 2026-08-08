@@ -23,6 +23,23 @@
       "Gurdaspur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Malout" },
+    { "id": "nh-3", "label": "Met near Amritsar" },
+    { "id": "nh-7", "label": "Met near Malout" },
+    { "id": "nh-5", "label": "Met near Firozpur" },
+    { "id": "nh-703a", "label": "Met near Firozpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malout",
@@ -100,16 +117,6 @@
         75.37715,
         32.031
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

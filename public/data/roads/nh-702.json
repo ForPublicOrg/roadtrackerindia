@@ -23,6 +23,23 @@
       "Jaboka"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-702b", "label": "A branch off this highway, running Longleng to Tuensang" },
+    { "id": "nh-702c", "label": "A branch off this highway, running Sivasagar to Sonari" },
+    { "id": "nh-2", "label": "Met near Changtongya" },
+    { "id": "nh-215", "label": "Met near Jaboka" },
+    { "id": "sh-as-1", "label": "Met near Jaboka" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Changtongya",
@@ -86,16 +103,6 @@
         95.17716,
         27.08148
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

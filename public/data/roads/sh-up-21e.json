@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Hata, Uttar Pradesh",
     "end": "Deoria, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Deoria"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-727a", "label": "Met near Deoria" },
+    { "id": "sh-up-25e", "label": "Met near Hata" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hata",
@@ -30,12 +41,6 @@
         83.77291,
         26.51871
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

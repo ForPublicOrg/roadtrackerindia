@@ -1,23 +1,46 @@
 {
   "id": "nagpur-outer-ring-road",
-  "ref": "NH",
+  "ref": "Outer Ring Road",
   "name": "Nagpur Outer Ring Road",
   "category": "nh",
   "status": "operational",
   "lengthKm": 86.9,
+  "lanes": "4–6 lanes",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
-    "start": "Bahadura, Maharashtra",
-    "end": "Bahadura, Maharashtra",
-    "states": [
-      "Maharashtra"
-    ],
-    "majorCities": [
-      "Bahadura",
-      "Kamptee",
-      "Seminary Hills",
-      "Hingna"
-    ]
+    "start": "Nagpur, Maharashtra",
+    "end": "Nagpur, Maharashtra",
+    "states": ["Maharashtra"],
+    "majorCities": ["Bahadura", "Kamptee", "Itwari", "Hingna"]
   },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Nagpur sits at the geographical centre of India, and the two great national highways — the north–south NH 44 and the east–west NH 53 — cross there. The Outer Ring Road was built so that the traffic on them, much of it long-distance freight, could pass round the city instead of meeting in the middle of it. It also serves the logistics hub and cargo airport built on the city's southern edge.",
+  "facts": [
+    "Nagpur is close to the geographical centre of India, where two of its longest highways cross.",
+    "The ring keeps north–south and east–west freight out of the city centre.",
+    "It serves the multi-modal logistics and cargo hub on the city's southern side.",
+    "The Samruddhi Mahamarg to Mumbai begins from the ring."
+  ],
+  "significance": "More long-distance road freight passes Nagpur than almost anywhere else in India, because the country's main north–south and east–west highways cross here. The ring is what stops all of it entering the city.",
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "The expressway to Mumbai, which starts from this ring" },
+    { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway crossing at Nagpur" },
+    { "id": "nh-53", "label": "The Hajira–Paradip highway crossing at Nagpur" },
+    { "id": "nh-353j", "label": "Met near Kalmeshwar" },
+    { "id": "nh-353d", "label": "Met near Bahadura" },
+    { "id": "nh-353i", "label": "Met near Hingna" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bahadura",
@@ -53,16 +76,6 @@
         79.15076,
         21.07808
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

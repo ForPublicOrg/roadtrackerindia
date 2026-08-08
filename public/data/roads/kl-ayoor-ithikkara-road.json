@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ayoor, Kerala",
     "end": "Tirumukku, Kerala",
@@ -17,6 +18,18 @@
       "Tirumukku"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Ayoor" },
+    { "id": "sh-kl-1", "label": "Met near Ayoor" },
+    { "id": "sh-kl-48", "label": "Met near Ayoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ayoor",
@@ -38,12 +51,6 @@
         76.69647,
         8.86687
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

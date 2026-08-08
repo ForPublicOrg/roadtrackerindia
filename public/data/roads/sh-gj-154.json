@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.6,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Devgadh Baria, Gujarat",
     "end": "Godhra, Gujarat",
@@ -16,6 +17,18 @@
       "Godhra"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Devgadh Baria" },
+    { "id": "nh-147d", "label": "Met near Devgadh Baria" },
+    { "id": "sh-gj-12", "label": "Met near Devgadh Baria" },
+    { "id": "sh-gj-152", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devgadh Baria",
@@ -30,12 +43,6 @@
         73.63529,
         22.93915
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

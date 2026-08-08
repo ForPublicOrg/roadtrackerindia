@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiyagadurgam, Tamil Nadu",
     "end": "Tirukkovilur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tirukkovilur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-79", "label": "Met near Thiyagadurgam" },
+    { "id": "sh-tn-9a", "label": "Met near Thiyagadurgam" },
+    { "id": "sh-tn-137", "label": "Met near Tirukkovilur" },
+    { "id": "mdr-tn-672", "label": "Met near Thiyagadurgam" },
+    { "id": "mdr-tn-811", "label": "Met near Thiyagadurgam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiyagadurgam",
@@ -30,12 +44,6 @@
         79.16185,
         11.8491
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

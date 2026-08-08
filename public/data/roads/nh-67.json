@@ -1,10 +1,11 @@
 {
   "id": "nh-67",
   "ref": "NH 67",
-  "name": "Krishnapatnam Port–Old Hubli National Highway",
+  "name": "Krishnapatnam–Hubballi Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 744,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Krishnapatnam Port, Andhra Pradesh",
     "end": "Old Hubli, Karnataka",
@@ -26,6 +27,32 @@
       "Old Hubli"
     ]
   },
+  "history": "National Highway 67 runs from the port of Krishnapatnam on the Andhra coast, through Nellore, Proddatur and Tadipatri, into Karnataka at Ballari and on through Hosapete to Hubballi. It is an ore road: the iron ore of the Ballari region and the granite and cement of Rayalaseema move along it towards the ports. It also passes within a few kilometres of Hampi.",
+  "facts": [
+    "Runs from Krishnapatnam port on the Bay of Bengal to Hubballi in northern Karnataka.",
+    "Passes Hosapete, the gateway town for the ruins of Hampi, a UNESCO World Heritage Site.",
+    "Carries iron ore from the Ballari mining belt towards the coast.",
+    "Crosses the dry Rayalaseema districts, some of the least rained-on country in peninsular India."
+  ],
+  "significance": "It is the main road link between the mineral belt of northern Karnataka and the ports of coastal Andhra Pradesh, and it carries a heavy load of ore and cement.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "The north–south national highway crossed near Gooty" },
+    { "id": "nh-16", "label": "The coastal highway met near Nellore" },
+    { "id": "pune-bengaluru-expressway", "label": "Meets this road" },
+    { "id": "nh-48", "label": "Met near Hubli" },
+    { "id": "nh-52", "label": "Met near Hubli" }
+  ],
+  "travelNotes": "Constant heavy lorry traffic between Ballari and the coast. Hosapete is the place to stop if you are visiting Hampi.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnapatnam Port",
@@ -166,16 +193,6 @@
         75.12097,
         15.32713
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

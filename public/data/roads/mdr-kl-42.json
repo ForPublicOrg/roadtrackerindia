@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karandakkad, Kerala",
     "end": "Kelugudde, Kerala",
@@ -17,6 +18,20 @@
       "Kelugudde"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kasaragod" },
+    { "id": "mdr-kl-17", "label": "Met near Kasaragod" },
+    { "id": "mdr-kl-107c", "label": "Met near Kasaragod" },
+    { "id": "mdr-kl-49b", "label": "Met near Kasaragod" },
+    { "id": "mdr-kl-71b", "label": "Met near Kasaragod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karandakkad",
@@ -31,12 +46,6 @@
         75.00921,
         12.55372
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

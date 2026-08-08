@@ -19,6 +19,22 @@
       "Almora"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Pithoragarh" },
+    { "id": "nh-109", "label": "Met near Almora" },
+    { "id": "nh-109k", "label": "Met near Bāgeshwar" },
+    { "id": "nh-309b", "label": "Met near Pithoragarh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pithoragarh",
@@ -54,16 +70,6 @@
         79.66295,
         29.59862
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

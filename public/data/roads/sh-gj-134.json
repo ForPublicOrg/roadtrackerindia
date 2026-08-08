@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.9,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Modhera, Gujarat",
     "end": "Samrat Nagar, Gujarat",
@@ -17,6 +18,18 @@
       "Samrat Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-7", "label": "Met near Modhera" },
+    { "id": "sh-gj-41", "label": "Met near Mahesana" },
+    { "id": "sh-gj-55", "label": "Met near Mahesana" },
+    { "id": "sh-gj-216", "label": "Met near Mahesana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Modhera",
@@ -31,12 +44,6 @@
         72.37689,
         23.59432
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

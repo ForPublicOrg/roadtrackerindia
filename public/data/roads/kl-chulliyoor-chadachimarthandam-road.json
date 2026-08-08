@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Neyyatinkara, Kerala",
     "end": "Russelpuram, Kerala",
@@ -16,6 +17,18 @@
       "Russelpuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-amaravila-ottasekharamangalam-road", "label": "Met near Neyyatinkara" },
+    { "id": "kl-perumkadavila-kunnathukal-road", "label": "Met near Neyyatinkara" },
+    { "id": "kl-mylachal-koranamcode-road", "label": "Met near Neyyatinkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neyyatinkara",
@@ -30,12 +43,6 @@
         77.10859,
         8.41776
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

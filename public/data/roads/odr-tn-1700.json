@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kadapakkam, Tamil Nadu",
     "end": "Edayanchavadi, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Edayanchavadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-7827", "label": "Met near Kadapakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadapakkam",
@@ -30,12 +41,6 @@
         80.25793,
         13.22712
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

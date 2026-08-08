@@ -14,12 +14,15 @@
     { "name": "Tata Projects–Daewoo Engineering & Construction joint venture", "note": "package 2, the 7.9 km bridge across Mumbai Bay" }
   ],
   "cost": "About ₹17,840 crore",
-  "newsQuery": "\"Atal Setu\" Mumbai",
   "route": {
     "start": "Sewri, Mumbai, Maharashtra",
     "end": "Chirle (near Nhava Sheva), Navi Mumbai, Maharashtra",
     "states": ["Maharashtra"],
     "majorCities": ["Mumbai", "Navi Mumbai"]
+  },
+  "tollInfo": {
+    "tolled": true,
+    "note": "Tolled, and collected through FASTag. Indian toll rates are revised every year on 1 April."
   },
   "timeline": [
     { "year": "2018", "event": "Main construction work begins" },
@@ -48,14 +51,27 @@
     { "name": "Chirle (NH 348)", "note": "the Navi Mumbai end — the link toward the Mumbai–Pune Expressway, Panvel and JNPT port" }
   ],
   "relatedRoads": [
-    { "id": "mumbai-eastern-freeway", "label": "The elevated road it joins at the Sewri end, carrying traffic on into south Mumbai" },
-    { "id": "mumbai-pune-expressway", "label": "Reached from the Chirle end — the bridge is now the fastest way out of Mumbai toward Pune" },
-    { "id": "mumbai-coastal-road", "label": "Mumbai's other mega road project, to be linked to this bridge by the planned Sewri–Worli connector" }
+    {
+      "id": "mumbai-eastern-freeway",
+      "label": "The elevated road it joins at the Sewri end, carrying traffic on into south Mumbai"
+    },
+    {
+      "id": "mumbai-pune-expressway",
+      "label": "Reached from the Chirle end — the bridge is now the fastest way out of Mumbai toward Pune"
+    },
+    {
+      "id": "mumbai-coastal-road",
+      "label": "Mumbai's other mega road project, to be linked to this bridge by the planned Sewri–Worli connector"
+    },
+    { "id": "nh-348", "label": "Met near Jasai" },
+    { "id": "nh-348a", "label": "Met near Jasai" },
+    { "id": "sh-mh-4", "label": "Met near Navi Mumbai" }
   ],
   "travelNotes": "The crossing takes about 20 minutes. Cars pay a toll of a few hundred rupees each way, revised from time to time, and it is collected electronically, so you don't stop. The car speed limit is 100 km/h on the main span but drops on the climbs and descents at each end. Two-wheelers, three-wheelers and tractors are banned. Stopping on the bridge for photos is not allowed, and in winter the Sewri approach is worth a look for the pink flamingo flocks on the mudflats below.",
   "futureUpgrades": [
     "A Sewri–Worli elevated connector is being built to link the bridge directly to the Mumbai Coastal Road."
   ],
+  "newsQuery": "\"Atal Setu\" Mumbai",
   "sources": [
     { "title": "MMRDA — Mumbai Metropolitan Region Development Authority", "url": "https://mmrda.maharashtra.gov.in/" },
     { "title": "Press Information Bureau", "url": "https://pib.gov.in/" }

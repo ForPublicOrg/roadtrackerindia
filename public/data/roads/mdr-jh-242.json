@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Dhanukpuja, Jharkhand",
     "end": "Maheshpur, Jharkhand",
@@ -17,6 +18,18 @@
       "Maheshpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-133a", "label": "Met near Pakaur" },
+    { "id": "mdr-jh-243", "label": "Met near Pakaur" },
+    { "id": "mdr-jh-245", "label": "Met near Maheshpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanukpuja",
@@ -31,12 +44,6 @@
         87.75705,
         24.48189
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 46.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kasganj, Uttar Pradesh",
     "end": "Atrauli, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Atrauli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-21", "label": "Met near Kasganj" },
+    { "id": "sh-up-105w", "label": "Met near Atrauli" },
+    { "id": "sh-up-82w", "label": "Met near Atrauli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kasganj",
@@ -30,12 +42,6 @@
         78.28349,
         28.02512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

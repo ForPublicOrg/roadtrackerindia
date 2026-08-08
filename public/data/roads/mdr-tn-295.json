@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sethiathoppu, Tamil Nadu",
     "end": "Neyveli, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Neyveli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-532", "label": "Met near Neyveli" },
+    { "id": "sh-tn-70", "label": "Met near Sethiathoppu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sethiathoppu",
@@ -30,12 +42,6 @@
         79.47955,
         11.53905
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

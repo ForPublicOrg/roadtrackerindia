@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Gandarvakottai, Tamil Nadu",
     "end": "Sitapatti, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Sitapatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-99", "label": "Met near Vallam" },
+    { "id": "mdr-tn-664", "label": "Met near Gandarvakottai" },
+    { "id": "mdr-tn-825", "label": "Met near Gandarvakottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gandarvakottai",
@@ -30,12 +43,6 @@
         78.95585,
         10.71087
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

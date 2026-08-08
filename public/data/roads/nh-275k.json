@@ -20,6 +20,24 @@
       "Rajendra Nagar"
     ]
   },
+  "significance": "NH 275K is a branch of NH 275. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Metagalli to Metagalli, and it meets NH 275 along the way.",
+  "relatedRoads": [
+    { "id": "bangalore-mysore-expressway", "label": "Met near Mysuru" },
+    { "id": "nh-150a", "label": "Met near Mysuru" },
+    { "id": "nh-275", "label": "Met near Mysuru" },
+    { "id": "nh-766", "label": "Met near Mysuru" },
+    { "id": "sh-ka-33", "label": "Met near Mysuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Metagalli",
@@ -76,16 +94,6 @@
         76.66721,
         12.34856
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

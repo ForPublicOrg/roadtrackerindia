@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 106.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Abu Road, Rajasthan",
     "end": "Sanchore, Rajasthan",
@@ -18,6 +19,19 @@
       "Sanchore"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Sanchore" },
+    { "id": "nh-68", "label": "Met near Sanchore" },
+    { "id": "nh-168", "label": "Met near Reodhar" },
+    { "id": "sh-rj-31", "label": "Met near Raniwar" },
+    { "id": "sh-rj-11a", "label": "Met near Abu Road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Abu Road",
@@ -46,12 +60,6 @@
         71.7803,
         24.75377
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

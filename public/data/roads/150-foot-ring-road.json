@@ -16,6 +16,21 @@
       "Navagam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Rajkot" },
+    { "id": "sh-gj-25", "label": "Met near Rajkot" },
+    { "id": "sh-gj-24", "label": "Met near Rajkot" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajkot",
@@ -30,16 +45,6 @@
         70.85729,
         22.33514
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

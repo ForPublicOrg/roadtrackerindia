@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Losal, Rajasthan",
     "end": "Kuchaman, Rajasthan",
@@ -16,6 +17,20 @@
       "Kuchaman"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-7", "label": "Met near Losal" },
+    { "id": "sh-rj-2", "label": "Met near Losal" },
+    { "id": "sh-rj-87", "label": "Met near Losal" },
+    { "id": "sh-rj-84", "label": "Met near Losal" },
+    { "id": "sh-rj-7d", "label": "Met near Kuchaman" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Losal",
@@ -30,12 +45,6 @@
         74.78173,
         27.24879
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

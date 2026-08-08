@@ -17,6 +17,22 @@
       "Barh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Fatwah" },
+    { "id": "nh-20", "label": "Met near Bakhtiyarpur" },
+    { "id": "sh-br-78", "label": "Met near Chandi" },
+    { "id": "sh-br-4", "label": "Met near Karai Parsurai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Fatwah",
@@ -45,16 +61,6 @@
         85.70098,
         25.46774
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

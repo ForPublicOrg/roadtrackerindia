@@ -17,6 +17,19 @@
       "Virajpet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Valavupara - Kacherikkadavu - Palathumkadavu Road, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-ka-91", "label": "Met near Iritty" },
+    { "id": "sh-kl-30", "label": "Met near Iritty" },
+    { "id": "kl-kacherikadav-charalthattu-charal-road", "label": "Met near Iritty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Iritty",
@@ -31,12 +44,6 @@
         75.79063,
         12.07965
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

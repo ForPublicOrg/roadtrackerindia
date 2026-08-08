@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ambur, Tamil Nadu",
     "end": "Vaniyambadi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Vaniyambadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Ambur" },
+    { "id": "sh-tn-130a", "label": "Met near Ambur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambur",
@@ -30,12 +42,6 @@
         78.71067,
         12.78829
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

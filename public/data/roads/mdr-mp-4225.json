@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chhindwara, Madhya Pradesh",
     "end": "Sausar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Sausar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-547", "label": "Meets this road" },
+    { "id": "sh-mp-46", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhindwara",
@@ -30,12 +42,6 @@
         79.0448,
         21.8136
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

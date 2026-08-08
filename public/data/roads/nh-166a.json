@@ -16,6 +16,23 @@
       "Pen"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Pen" },
+    { "id": "sh-mh-4", "label": "Met near Alibag" },
+    { "id": "sh-mh-90", "label": "Met near Alibag" },
+    { "id": "sh-mh-86", "label": "Met near Alibag" },
+    { "id": "sh-mh-89", "label": "Met near Alibag" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alibag",
@@ -30,16 +47,6 @@
         73.06645,
         18.72172
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

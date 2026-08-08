@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Vijayanagar, Rajasthan",
     "end": "Raisinghnagar, Rajasthan",
@@ -16,6 +17,18 @@
       "Raisinghnagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-911", "label": "Met near Raisinghnagar" },
+    { "id": "sh-rj-3", "label": "Met near Raisinghnagar" },
+    { "id": "sh-rj-94", "label": "Met near Vijayanagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayanagar",
@@ -30,12 +43,6 @@
         73.45024,
         29.52504
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

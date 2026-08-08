@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Nadbai, Rajasthan",
     "end": "Kherli, Rajasthan",
@@ -16,6 +17,16 @@
       "Kherli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-21", "label": "Met near Nadbai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadbai",
@@ -30,12 +41,6 @@
         77.20378,
         27.21274
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

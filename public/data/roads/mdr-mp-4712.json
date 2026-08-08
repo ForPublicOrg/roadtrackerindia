@@ -17,6 +17,20 @@
       "Toranmal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 4712, Alirajpur–Toranmal District road, crosses the border between Madhya Pradesh and Gujarat. A state road that runs through more than one state has no single owner — MP PWD and Gujarat R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "mdr-mp-4709", "label": "Met near Alirajpur" },
+    { "id": "mdr-mp-4716", "label": "Meets this road" },
+    { "id": "mdr-mp-4714", "label": "Met near Alirajpur" },
+    { "id": "mdr-mp-4711", "label": "Met near Alirajpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alirajpur",
@@ -31,12 +45,6 @@
         74.22334,
         22.01496
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

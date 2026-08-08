@@ -27,6 +27,9 @@
       "Machilipatnam"
     ]
   },
+  "tolls": [
+    { "name": "Panthangi toll plaza", "note": "near Choutuppal on the Hyderabad–Vijayawada stretch; famous for very long queues in the days before Sankranti" }
+  ],
   "timeline": [
     { "year": "2010", "event": "Renumbered from NH 9 to NH 65 in the national highway renumbering" },
     { "year": "2012", "event": "The tolled four-lane Hyderabad–Vijayawada section is completed and opens to traffic in October" }
@@ -54,12 +57,18 @@
     { "id": "nh-48", "label": "The Mumbai–Bengaluru corridor, close to the Pune end" },
     { "id": "nh-52", "label": "The Sangrur–Ankola highway, crossed at Solapur" },
     { "id": "nh-44", "label": "India's longest highway, met at Hyderabad" },
-    { "id": "hyderabad-outer-ring-road", "label": "The ring road NH 65 crosses on the eastern side of Hyderabad" },
-    { "id": "hyderabad-regional-ring-road", "label": "The planned outer ring that will cross this corridor east of Hyderabad" },
-    { "id": "nh-16", "label": "The east coast highway, joined at Vijayawada" }
-  ],
-  "tolls": [
-    { "name": "Panthangi toll plaza", "note": "near Choutuppal on the Hyderabad–Vijayawada stretch; famous for very long queues in the days before Sankranti" }
+    {
+      "id": "hyderabad-outer-ring-road",
+      "label": "The ring road NH 65 crosses on the eastern side of Hyderabad"
+    },
+    {
+      "id": "hyderabad-regional-ring-road",
+      "label": "The planned outer ring that will cross this corridor east of Hyderabad"
+    },
+    { "id": "nh-16", "label": "The east coast highway, joined at Vijayawada" },
+    { "id": "surat-chennai-expressway", "label": "Meets this road" },
+    { "id": "pune-ring-road", "label": "Met near Wagholi" },
+    { "id": "nh-30", "label": "Met near Ibrahimpatnam" }
   ],
   "travelNotes": "Hyderabad to Vijayawada is about 270 km and takes four to five hours on the tolled four-lane section — one of the easiest long drives in south India, with plenty of good highway restaurants around Choutuppal and Suryapet. Pune to Hyderabad is a longer day, roughly nine hours. The eastern half is jammed for two or three days before Sankranti in mid-January, when Hyderabad empties towards the coastal districts, and again on the return. Summer heat between April and June is fierce on the open Telangana stretch, and cyclone rain can affect the Vijayawada–Machilipatnam end between October and December.",
   "sources": [

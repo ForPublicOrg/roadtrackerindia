@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Paramathi Velur, Tamil Nadu",
     "end": "Paramathi, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Paramathi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Paramathi Velur" },
+    { "id": "sh-tn-198", "label": "Met near Paramathi Velur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paramathi Velur",
@@ -30,12 +41,6 @@
         78.01647,
         11.12647
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

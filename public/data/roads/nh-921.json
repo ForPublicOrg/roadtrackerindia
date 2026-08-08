@@ -17,6 +17,23 @@
       "Rajgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Reni" },
+    { "id": "nh-21", "label": "Met near Mahwa" },
+    { "id": "sh-rj-25", "label": "Met near Rajgarh" },
+    { "id": "sh-rj-22", "label": "Met near Mahwa" },
+    { "id": "sh-rj-78", "label": "Met near Mandawar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahwa",
@@ -38,16 +55,6 @@
         76.62082,
         27.23611
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

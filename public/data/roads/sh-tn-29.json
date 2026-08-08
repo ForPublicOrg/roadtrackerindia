@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 247.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sayalgudi, Tamil Nadu",
     "end": "Pudupattinam, Tamil Nadu",
@@ -22,6 +23,19 @@
       "Pudupattinam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Sayalgudi" },
+    { "id": "nh-83", "label": "Met near Thanjavur" },
+    { "id": "nh-85", "label": "Met near Kalaiyarkovil" },
+    { "id": "nh-87", "label": "Met near Paramakkudi" },
+    { "id": "nh-536", "label": "Met near Karaikudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sayalgudi",
@@ -99,12 +113,6 @@
         79.15422,
         10.77546
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

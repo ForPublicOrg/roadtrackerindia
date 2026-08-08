@@ -16,6 +16,22 @@
       "Khambhaliya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-51", "label": "Met near Porbandar" },
+    { "id": "nh-927k", "label": "Met near Khambhaliya" },
+    { "id": "sh-gj-95", "label": "Met near Khambhaliya" },
+    { "id": "sh-gj-28", "label": "Met near Porbandar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Porbandar",
@@ -30,16 +46,6 @@
         69.6351,
         22.18283
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

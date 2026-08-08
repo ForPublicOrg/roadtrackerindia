@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 35.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dhanvantri Nagar, Madhya Pradesh",
     "end": "Majholi, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Majholi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Meets this road" },
+    { "id": "sh-mp-55", "label": "Met near Majholi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanvantri Nagar",
@@ -30,12 +42,6 @@
         79.78949,
         23.5471
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

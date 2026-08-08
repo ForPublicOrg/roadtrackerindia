@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kothamangalam, Kerala",
     "end": "Velloorkunnam, Kerala",
@@ -16,6 +17,17 @@
       "Velloorkunnam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Kothamangalam" },
+    { "id": "kl-vazhakulam-kothamangalam-road", "label": "Met near Kothamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kothamangalam",
@@ -30,12 +42,6 @@
         76.62597,
         10.03156
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

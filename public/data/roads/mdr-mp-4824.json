@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khetia, Madhya Pradesh",
     "end": "Shahada, Maharashtra",
@@ -16,6 +17,18 @@
       "Shahada"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-752g", "label": "Met near Khetia" },
+    { "id": "sh-mp-39", "label": "Met near Khetia" },
+    { "id": "mdr-mp-4823", "label": "Met near Khetia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khetia",
@@ -30,12 +43,6 @@
         74.5873,
         21.67811
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

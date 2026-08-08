@@ -9,7 +9,6 @@
   "lanes": "8 lanes",
   "agency": "Noida Toll Bridge Company Ltd (NTBCL)",
   "authority": "noida-authority",
-  "contractor": "Noida Toll Bridge Company Ltd (NTBCL), owned by IL&FS",
   "builtBy": [
     { "org": "ntbcl" }
   ],
@@ -17,15 +16,16 @@
     { "org": "ntbcl" },
     { "org": "ntbcl", "note": "still maintains it, though tolling was stopped by court order" }
   ],
-  "tollInfo": {
-    "tolled": false,
-    "note": "The Allahabad High Court ordered the toll stopped in 2016, holding that drivers had already paid back the cost of the bridge many times over, and the Supreme Court upheld that in December 2024."
-  },
+  "contractor": "Noida Toll Bridge Company Ltd (NTBCL), owned by IL&FS",
   "route": {
     "start": "Maharani Bagh (Ring Road), Delhi",
     "end": "Noida, Uttar Pradesh",
     "states": ["Delhi", "Uttar Pradesh"],
     "majorCities": ["Delhi", "Noida"]
+  },
+  "tollInfo": {
+    "tolled": false,
+    "note": "The Allahabad High Court ordered the toll stopped in 2016, holding that drivers had already paid back the cost of the bridge many times over, and the Supreme Court upheld that in December 2024."
   },
   "timeline": [
     { "year": "1998", "event": "Construction starts under a build-own-operate-transfer deal with a private company" },
@@ -56,7 +56,12 @@
   "relatedRoads": [
     { "id": "noida-greater-noida-expressway", "label": "Carries on from the Noida end toward Greater Noida" },
     { "id": "yamuna-expressway", "label": "Reached from the Noida end, continuing to Agra" },
-    { "id": "delhi-mumbai-expressway", "label": "A connector spur is planned from the DND through Faridabad to the Delhi–Mumbai Expressway" }
+    {
+      "id": "delhi-mumbai-expressway",
+      "label": "A connector spur is planned from the DND through Faridabad to the Delhi–Mumbai Expressway"
+    },
+    { "id": "nh-44", "label": "Met near New Friends Colony" },
+    { "id": "delhi-inner-ring-road", "label": "Met near New Friends Colony" }
   ],
   "travelNotes": "It is free to use and takes only about ten minutes end to end when clear, but weekday mornings toward Noida and evenings back to Delhi are slow, and the Ashram/Maharani Bagh end is the usual bottleneck. Two-wheelers are allowed, and there are no toll booths to stop at any more.",
   "sources": [

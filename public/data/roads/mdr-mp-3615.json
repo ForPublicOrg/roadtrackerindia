@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Majholi, Madhya Pradesh",
     "end": "Patera, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Patera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-23", "label": "Meets this road" },
+    { "id": "mdr-mp-3613", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Majholi",
@@ -30,12 +42,6 @@
         79.82179,
         23.8018
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

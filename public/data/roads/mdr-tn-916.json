@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruvadanai, Tamil Nadu",
     "end": "Sundarapandianpattinam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Sundarapandianpattinam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Sundarapandianpattinam" },
+    { "id": "nh-85", "label": "Met near Tiruvadanai" },
+    { "id": "sh-tn-200", "label": "Met near Sundarapandianpattinam" },
+    { "id": "mdr-tn-917", "label": "Met near Sundarapandianpattinam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruvadanai",
@@ -30,12 +44,6 @@
         79.09447,
         9.84405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Aruppukkottai, Tamil Nadu",
     "end": "Virudhunagar, Tamil Nadu",
@@ -16,6 +17,15 @@
       "Virudhunagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-184", "label": "Met near Aruppukkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aruppukkottai",
@@ -30,12 +40,6 @@
         78.09576,
         9.61537
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

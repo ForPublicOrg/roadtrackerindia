@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 44,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Banka, Bihar",
     "end": "Bhagalpur, Bihar",
@@ -17,6 +18,16 @@
       "Bhagalpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Bhagalpur" },
+    { "id": "nh-333a", "label": "Met near Banka" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banka",
@@ -38,12 +49,6 @@
         86.96104,
         25.23728
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,23 @@
       "Sillod"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Jalna" },
+    { "id": "nh-52", "label": "Meets this road" },
+    { "id": "nh-753f", "label": "Met near Sillod" },
+    { "id": "nh-752i", "label": "Met near Jalna" },
+    { "id": "nh-752h", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Georai",
@@ -54,16 +71,6 @@
         75.65875,
         20.29619
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

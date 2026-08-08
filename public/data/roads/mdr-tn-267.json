@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Virudhachalam, Tamil Nadu",
     "end": "Pennadam, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Pennadam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-532", "label": "Met near Virudhachalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Virudhachalam",
@@ -30,12 +41,6 @@
         79.26097,
         11.52333
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panathur, Kerala",
     "end": "Odayamchal, Kerala",
@@ -16,6 +17,20 @@
       "Odayamchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-99", "label": "Met near Mulleria" },
+    { "id": "mdr-kl-6", "label": "Met near Panathur" },
+    { "id": "kl-paduppu-bandamkai-karivedakam-road", "label": "Met near Panathur" },
+    { "id": "mdr-kl-7", "label": "Met near Panathur" },
+    { "id": "mdr-kl-92", "label": "Met near Panathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panathur",
@@ -30,12 +45,6 @@
         75.24508,
         12.49042
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

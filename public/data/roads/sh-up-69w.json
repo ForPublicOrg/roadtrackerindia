@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 31.1,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Sambhal, Uttar Pradesh",
     "end": "Moradabad, Uttar Pradesh",
@@ -16,6 +17,17 @@
       "Moradabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Moradabad" },
+    { "id": "nh-509", "label": "Met near Moradabad" },
+    { "id": "sh-up-51", "label": "Met near Sambhal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sambhal",
@@ -30,12 +42,6 @@
         78.76304,
         28.7911
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

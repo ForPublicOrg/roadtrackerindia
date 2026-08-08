@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vadipatti, Tamil Nadu",
     "end": "Nilakkottai, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Nilakkottai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vadipatti" },
+    { "id": "sh-tn-73", "label": "Met near Vadipatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vadipatti",
@@ -30,12 +41,6 @@
         77.92458,
         10.13251
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

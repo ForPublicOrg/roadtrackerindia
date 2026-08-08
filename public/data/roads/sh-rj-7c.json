@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Chhapar, Rajasthan",
     "end": "Ratangarh, Rajasthan",
@@ -16,6 +17,16 @@
       "Ratangarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-11", "label": "Met near Ratangarh" },
+    { "id": "sh-rj-7", "label": "Met near Ratangarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhapar",
@@ -30,12 +41,6 @@
         74.60367,
         28.0564
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

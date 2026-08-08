@@ -17,6 +17,18 @@
       "Palasamudram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "ODR 5688, Podaturpet–Palasamudram District road, crosses the border between Tamil Nadu and Andhra Pradesh. A state road that runs through more than one state has no single owner — TN Highways and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-tn-108", "label": "Met near Podaturpet" },
+    { "id": "mdr-tn-788", "label": "Met near Podaturpet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Podaturpet",
@@ -31,12 +43,6 @@
         79.41686,
         13.2517
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,20 @@
       "Rampur Bushahr"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Balichowki" },
+    { "id": "nh-5", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balichowki",
@@ -38,16 +52,6 @@
         77.44218,
         31.33688
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Panagudi, Tamil Nadu",
     "end": "Cheranmahadevi, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Cheranmahadevi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Panagudi" },
+    { "id": "sh-tn-40", "label": "Met near Cheranmahadevi" },
+    { "id": "sh-tn-u28", "label": "Met near Panagudi" },
+    { "id": "mdr-tn-291", "label": "Met near Nanguneri" },
+    { "id": "mdr-tn-112", "label": "Met near Valiyoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panagudi",
@@ -30,12 +44,6 @@
         77.56518,
         8.68292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

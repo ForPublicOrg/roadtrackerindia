@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 35.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vedaranyam, Tamil Nadu",
     "end": "Velankanni, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Velankanni"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Velankanni" },
+    { "id": "sh-tn-200", "label": "Met near Velankanni" },
+    { "id": "sh-tn-63", "label": "Met near Vedaranyam" },
+    { "id": "mdr-tn-685", "label": "Met near Vedaranyam" },
+    { "id": "mdr-tn-835", "label": "Met near Vedaranyam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vedaranyam",
@@ -30,12 +44,6 @@
         79.83404,
         10.67279
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

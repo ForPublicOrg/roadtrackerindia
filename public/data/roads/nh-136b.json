@@ -18,6 +18,23 @@
       "Sirkazhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Sirkazhi" },
+    { "id": "nh-36", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-22", "label": "Met near Mayiladuthurai" },
+    { "id": "sh-tn-23", "label": "Met near Mayiladuthurai" },
+    { "id": "sh-tn-64", "label": "Met near Sirkazhi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chatamkaruppur",
@@ -46,16 +63,6 @@
         79.73243,
         11.21034
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

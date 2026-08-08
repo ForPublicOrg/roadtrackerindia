@@ -24,6 +24,24 @@
       "Bhadrapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-327a", "label": "A branch off this highway, running Nirmali to Supaul" },
+    { "id": "nh-327c", "label": "A branch off this highway, running Bhadrapur to Bagdogra" },
+    { "id": "nh-327b", "label": "A branch off this highway, running Panitanki to Kakarbitta" },
+    { "id": "nh-27", "label": "Met near Bagdogra" },
+    { "id": "nh-231", "label": "Met near Saharsa" },
+    { "id": "nh-131", "label": "Met near Tribeniganj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Police Colony",
@@ -108,16 +126,6 @@
         88.10441,
         26.54087
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

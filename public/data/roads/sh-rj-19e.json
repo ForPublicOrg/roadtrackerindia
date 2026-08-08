@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 40.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Dag, Rajasthan",
     "end": "Gangdhar, Rajasthan",
@@ -16,6 +17,19 @@
       "Gangdhar"
     ]
   },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Gangdhar" },
+    { "id": "nh-752d", "label": "Met near Gangdhar" },
+    { "id": "sh-rj-19a", "label": "Met near Dag" },
+    { "id": "sh-mp-58", "label": "Met near Gangdhar" },
+    { "id": "sh-rj-19c", "label": "Met near Gangdhar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dag",
@@ -30,12 +44,6 @@
         75.62546,
         23.9382
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

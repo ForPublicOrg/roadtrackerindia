@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sehore, Madhya Pradesh",
     "end": "Kurawar, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Kurawar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-46", "label": "Met near Kurawar" },
+    { "id": "sh-mp-28", "label": "Met near Sehore" },
+    { "id": "mdr-mp-3206", "label": "Met near Sehore" },
+    { "id": "mdr-mp-2407", "label": "Met near Sehore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sehore",
@@ -30,12 +44,6 @@
         77.08147,
         23.41372
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

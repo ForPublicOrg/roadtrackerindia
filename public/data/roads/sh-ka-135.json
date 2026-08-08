@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 69.9,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Badami, Karnataka",
     "end": "Nidagundi, Karnataka",
@@ -17,6 +18,19 @@
       "Nidagundi"
     ]
   },
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Guledagudda" },
+    { "id": "nh-367", "label": "Met near Guledagudda" },
+    { "id": "sh-ka-20", "label": "Met near Guledagudda" },
+    { "id": "sh-ka-14", "label": "Met near Badami" },
+    { "id": "sh-ka-44", "label": "Met near Guledagudda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badami",
@@ -38,12 +52,6 @@
         75.90192,
         16.31585
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

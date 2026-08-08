@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jaora, Madhya Pradesh",
     "end": "Piploda, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Piploda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2501", "label": "Met near Jaora" },
+    { "id": "mdr-mp-2506", "label": "Met near Piploda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaora",
@@ -30,12 +42,6 @@
         74.9652,
         23.61265
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

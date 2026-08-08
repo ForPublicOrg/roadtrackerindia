@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Jamshedpur, Jharkhand",
     "end": "Pārdih, Jharkhand",
@@ -16,6 +17,16 @@
       "Pārdih"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-118", "label": "Met near Jamshedpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jamshedpur",
@@ -37,12 +48,6 @@
         86.20244,
         22.84219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

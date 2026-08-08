@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Poovar, Kerala",
     "end": "Neyyatinkara, Kerala",
@@ -16,6 +17,18 @@
       "Neyyatinkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Neyyatinkara" },
+    { "id": "kl-neyytinkara-poovar-road", "label": "Met near Poovar" },
+    { "id": "kl-thirupurathur-pulluvila-road", "label": "Met near Neyyatinkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Poovar",
@@ -30,12 +43,6 @@
         77.08065,
         8.35642
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

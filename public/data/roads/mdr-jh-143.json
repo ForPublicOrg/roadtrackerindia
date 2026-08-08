@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Khelari, Jharkhand",
     "end": "Balumath, Jharkhand",
@@ -16,6 +17,17 @@
       "Balumath"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-22", "label": "Met near Balumath" },
+    { "id": "mdr-jh-142", "label": "Met near Khelari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khelari",
@@ -30,12 +42,6 @@
         84.79166,
         23.82566
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

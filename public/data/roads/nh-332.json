@@ -19,6 +19,22 @@
       "Viluppuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-332a", "label": "A branch off this highway, running Mahabalipuram to Oulgaret" },
+    { "id": "nh-32", "label": "Met near Puducherry" },
+    { "id": "nh-36", "label": "Met near Viluppuram" },
+    { "id": "sh-tn-7", "label": "Met near Viluppuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Villianur",
@@ -54,16 +70,6 @@
         79.49594,
         11.94123
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

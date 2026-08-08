@@ -21,6 +21,23 @@
       "Ramanattukara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Ramanattukara" },
+    { "id": "nh-544", "label": "Met near Palakkad" },
+    { "id": "sh-kl-59", "label": "Met near Kumaramputhur" },
+    { "id": "sh-kl-39", "label": "Met near Perinthalmanna" },
+    { "id": "sh-kl-28", "label": "Met near Malappuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chandranagar",
@@ -77,16 +94,6 @@
         75.87328,
         11.17603
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

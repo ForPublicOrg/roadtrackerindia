@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Satai, Madhya Pradesh",
     "end": "Chhatarpur, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Chhatarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-5", "label": "Met near Satai" },
+    { "id": "mdr-mp-1611", "label": "Met near Chhatarpur" },
+    { "id": "mdr-mp-1619", "label": "Met near Satai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satai",
@@ -30,12 +43,6 @@
         79.59175,
         24.8983
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

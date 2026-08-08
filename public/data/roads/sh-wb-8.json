@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 295.4,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Jibannagar, West Bengal",
     "end": "Sudamdih, Jharkhand",
@@ -22,6 +23,19 @@
       "Sudamdih"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Krishnanagar" },
+    { "id": "nh-312", "label": "Met near Krishnanagar" },
+    { "id": "nh-14", "label": "Met near Bankura" },
+    { "id": "nh-116a", "label": "Met near Bardhaman" },
+    { "id": "sh-wb-5", "label": "Met near Raghunathpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jibannagar",
@@ -92,12 +106,6 @@
         86.4715,
         23.61447
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

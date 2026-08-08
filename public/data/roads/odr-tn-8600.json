@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kannamangalam, Tamil Nadu",
     "end": "Pudūr, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Pudūr"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-418", "label": "Met near Kannamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannamangalam",
@@ -30,12 +41,6 @@
         79.20687,
         12.74814
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

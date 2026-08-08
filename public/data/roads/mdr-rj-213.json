@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 42.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bakani, Rajasthan",
     "end": "Suket, Rajasthan",
@@ -16,6 +17,20 @@
       "Suket"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552g", "label": "Met near Bakani" },
+    { "id": "sh-rj-19a", "label": "Met near Suket" },
+    { "id": "mdr-rj-177", "label": "Met near Bakani" },
+    { "id": "mdr-rj-179", "label": "Met near Sunel" },
+    { "id": "mdr-rj-214", "label": "Met near Sunel" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bakani",
@@ -30,12 +45,6 @@
         76.04675,
         24.53616
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

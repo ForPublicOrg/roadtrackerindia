@@ -19,6 +19,19 @@
       "Bawal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 170, Ferozepur Jhirka–Bawal District road, crosses the border between Rajasthan and Haryana. A state road that runs through more than one state has no single owner — Rajasthan PWD and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-rj-25", "label": "Met near Tijara" },
+    { "id": "sh-rj-108", "label": "Met near Kotkasim" },
+    { "id": "sh-rj-109", "label": "Met near Kotkasim" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ferozepur Jhirka",
@@ -47,12 +60,6 @@
         76.63829,
         28.07036
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

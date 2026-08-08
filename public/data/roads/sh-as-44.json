@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.1,
+  "authority": "assam-pwd",
   "route": {
     "start": "Sarupathar, Assam",
     "end": "Bokajan, Assam",
@@ -16,6 +17,16 @@
       "Bokajan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-129", "label": "Met near Bokajan" },
+    { "id": "sh-as-16", "label": "Met near Bokajan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarupathar",
@@ -30,12 +41,6 @@
         93.77016,
         26.02512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

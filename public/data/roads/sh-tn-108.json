@@ -17,6 +17,20 @@
       "Pallipattu"
     ]
   },
+  "significance": "SH 108, Sholinghur–Pallipattu State Highway, crosses the border between Tamil Nadu and Andhra Pradesh. A state road that runs through more than one state has no single owner — TN Highways and AP R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-716b", "label": "Met near Pallipattu" },
+    { "id": "sh-tn-54", "label": "Met near Palasamudram" },
+    { "id": "sh-tn-53", "label": "Met near Pallipattu" },
+    { "id": "mdr-tn-788", "label": "Met near Podaturpet" },
+    { "id": "mdr-tn-645", "label": "Met near Palasamudram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholinghur",
@@ -31,12 +45,6 @@
         79.44086,
         13.33662
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

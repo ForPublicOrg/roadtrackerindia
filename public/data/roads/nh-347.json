@@ -18,6 +18,23 @@
       "Multai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Seoni" },
+    { "id": "nh-47", "label": "Met near Multai" },
+    { "id": "nh-547", "label": "Met near Chhindwara" },
+    { "id": "sh-mp-41", "label": "Met near Multai" },
+    { "id": "sh-mp-46", "label": "Met near Chaurai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seoni",
@@ -46,16 +63,6 @@
         78.27468,
         21.77302
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

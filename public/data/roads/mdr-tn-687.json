@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sithayankottai, Tamil Nadu",
     "end": "Chinnalapatti, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Chinnalapatti"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Chinnalapatti" },
+    { "id": "nh-183", "label": "Met near Attur" },
+    { "id": "nh-381", "label": "Met near Attur" },
+    { "id": "mdr-tn-733", "label": "Met near Sithayankottai" },
+    { "id": "mdr-tn-969", "label": "Met near Attur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sithayankottai",
@@ -37,12 +52,6 @@
         77.92434,
         10.27856
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

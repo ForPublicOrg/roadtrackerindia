@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thakkolam, Tamil Nadu",
     "end": "Arakkonam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Arakkonam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-50b", "label": "Met near Thakkolam" },
+    { "id": "mdr-tn-447", "label": "Met near Thakkolam" },
+    { "id": "mdr-tn-793", "label": "Met near Thakkolam" },
+    { "id": "mdr-tn-1049", "label": "Met near Thakkolam" },
+    { "id": "odr-tn-9146", "label": "Met near Thakkolam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thakkolam",
@@ -30,12 +45,6 @@
         79.74292,
         13.05518
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

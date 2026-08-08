@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Erattupetta, Kerala",
     "end": "Elappara, Kerala",
@@ -17,6 +18,19 @@
       "Elappara"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Elappara" },
+    { "id": "sh-kl-44", "label": "Met near Erattupetta" },
+    { "id": "sh-kl-32", "label": "Met near Erattupetta" },
+    { "id": "kl-elappara-kochukarumtharuvi-upputhara-road", "label": "Met near Elappara" },
+    { "id": "kl-erattupetta-chennadu-road", "label": "Met near Erattupetta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erattupetta",
@@ -45,12 +59,6 @@
         76.97858,
         9.63044
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

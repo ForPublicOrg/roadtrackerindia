@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thriprayar, Kerala",
     "end": "Ollur, Kerala",
@@ -16,6 +17,20 @@
       "Ollur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thriprayar" },
+    { "id": "sh-kl-22", "label": "Met near Thrissur" },
+    { "id": "mdr-kl-187", "label": "Met near Thriprayar" },
+    { "id": "kl-thriprayar-kanjany-chavakkad-road", "label": "Met near Thriprayar" },
+    { "id": "kl-peringottukara-kizhuppillikara-karanchira-azhimavu-road", "label": "Met near Thriprayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thriprayar",
@@ -30,12 +45,6 @@
         76.2101,
         10.44651
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jaora, Madhya Pradesh",
     "end": "Nagda, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Nagda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-25", "label": "Meets this road" },
+    { "id": "mdr-mp-2506", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaora",
@@ -30,12 +42,6 @@
         75.40127,
         23.59689
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

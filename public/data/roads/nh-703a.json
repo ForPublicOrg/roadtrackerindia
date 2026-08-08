@@ -19,6 +19,24 @@
       "Sehjra"
     ]
   },
+  "significance": "NH 703A is a branch of NH 703. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jalandhar to Sehjra, and it meets NH 703 along the way.",
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Jalandhar" },
+    { "id": "ne-5a", "label": "Met near Sultanpur Lodhi" },
+    { "id": "nh-703", "label": "Met near Jalandhar" },
+    { "id": "nh-354", "label": "Met near Firozpur" },
+    { "id": "nh-703b", "label": "Met near Makhu" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jalandhar",
@@ -61,16 +79,6 @@
         74.73834,
         31.03776
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Madhaiyankuttai, Tamil Nadu",
     "end": "Salem Camp, Tamil Nadu",
@@ -17,6 +18,16 @@
       "Salem Camp"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Mettur" },
+    { "id": "sh-tn-220a", "label": "Met near Mettur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Madhaiyankuttai",
@@ -31,12 +42,6 @@
         77.81987,
         11.7984
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

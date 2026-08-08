@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kodungaiyur, Tamil Nadu",
     "end": "Puzhal, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Puzhal"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Madhavaram Milk Colony" },
+    { "id": "sh-tn-2", "label": "Met near Madhavaram Milk Colony" },
+    { "id": "sh-tn-u87", "label": "Met near Kodungaiyur" },
+    { "id": "odr-tn-7396", "label": "Met near Puzhal" },
+    { "id": "mdr-tn-1018", "label": "Met near Madhavaram Milk Colony" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodungaiyur",
@@ -67,12 +81,6 @@
         80.20293,
         13.18382
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

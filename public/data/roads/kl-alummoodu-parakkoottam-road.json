@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chennampallil, Kerala",
     "end": "Moonnalam, Kerala",
@@ -16,6 +17,18 @@
       "Moonnalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-pazhakulam-anayadi-road", "label": "Met near Nooranad" },
+    { "id": "kl-malamekkara-kunnathukara-chala-puthenchanda-water-tank-junct", "label": "Met near Adoor" },
+    { "id": "kl-nellimukal-thengamam-road", "label": "Met near Adoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chennampallil",
@@ -30,12 +43,6 @@
         76.68929,
         9.12599
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

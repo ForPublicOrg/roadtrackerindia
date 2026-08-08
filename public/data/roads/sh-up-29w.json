@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Baheri, Uttar Pradesh",
     "end": "Meerganj, Uttar Pradesh",
@@ -17,6 +18,15 @@
       "Meerganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-530", "label": "Met near Meerganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baheri",
@@ -38,12 +48,6 @@
         79.25834,
         28.51772
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

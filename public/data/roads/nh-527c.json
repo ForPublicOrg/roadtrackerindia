@@ -17,6 +17,22 @@
       "Musarmiya"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Muzaffarpur" },
+    { "id": "nh-227", "label": "Met near Matihani" },
+    { "id": "nh-122a", "label": "Met near Pupri" },
+    { "id": "sh-br-52", "label": "Met near Pupri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muzaffarpur",
@@ -38,16 +54,6 @@
         85.7959,
         26.54026
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

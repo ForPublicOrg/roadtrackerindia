@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 114.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Tonk, Rajasthan",
     "end": "Keshoraipatan, Rajasthan",
@@ -18,6 +19,19 @@
       "Keshoraipatan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Tonk" },
+    { "id": "nh-148d", "label": "Met near Nainwa" },
+    { "id": "sh-rj-37a", "label": "Met near Nainwa" },
+    { "id": "sh-rj-29", "label": "Meets this road" },
+    { "id": "sh-rj-33", "label": "Met near Keshoraipatan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tonk",
@@ -53,12 +67,6 @@
         75.93017,
         25.31666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

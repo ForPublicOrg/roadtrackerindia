@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 79,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Akbarpur, Uttar Pradesh",
     "end": "Pratapgarh, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Pratapgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Akbarpur" },
+    { "id": "nh-731", "label": "Met near Lambhua" },
+    { "id": "nh-135a", "label": "Met near Akbarpur" },
+    { "id": "nh-128", "label": "Met near Akbarpur" },
+    { "id": "sh-up-34", "label": "Met near Lambhua" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akbarpur",
@@ -30,12 +44,6 @@
         82.07844,
         25.9201
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

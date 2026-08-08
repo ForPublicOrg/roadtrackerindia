@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 137.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Renukoot, Uttar Pradesh",
     "end": "Bhullanpur, Uttar Pradesh",
@@ -20,6 +21,19 @@
       "Bhullanpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Renukoot" },
+    { "id": "sh-up-9a", "label": "Met near Renukoot" },
+    { "id": "sh-up-97", "label": "Met near Robertsganj" },
+    { "id": "sh-up-5", "label": "Met near Robertsganj" },
+    { "id": "sh-up-160e", "label": "Met near Robertsganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Renukoot",
@@ -62,12 +76,6 @@
         83.02488,
         25.19914
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

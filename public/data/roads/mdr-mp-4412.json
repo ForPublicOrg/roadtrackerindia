@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rajgarh, Madhya Pradesh",
     "end": "Petlawad, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Petlawad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Rajgarh" },
+    { "id": "nh-147e", "label": "Met near Petlawad" },
+    { "id": "sh-mp-64", "label": "Met near Petlawad" },
+    { "id": "sh-mp-26", "label": "Met near Petlawad" },
+    { "id": "mdr-mp-4408", "label": "Met near Petlawad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajgarh",
@@ -30,12 +45,6 @@
         74.79831,
         23.00364
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

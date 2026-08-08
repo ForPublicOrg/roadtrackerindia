@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Farrukhabad, Uttar Pradesh",
     "end": "Chhibramau, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Chhibramau"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Chhibramau" },
+    { "id": "nh-730c", "label": "Met near Farrukhabad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Farrukhabad",
@@ -30,12 +41,6 @@
         79.50245,
         27.15468
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

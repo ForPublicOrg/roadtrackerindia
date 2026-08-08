@@ -19,6 +19,23 @@
       "Murud"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Shahapur" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Shahapur" },
+    { "id": "mumbai-pune-expressway", "label": "Met near Khopoli" },
+    { "id": "nh-48", "label": "Met near Khopoli" },
+    { "id": "nh-66", "label": "Met near Nagothane" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahapur",
@@ -68,16 +85,6 @@
         72.98896,
         18.28845
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

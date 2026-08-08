@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalayolaparambu, Kerala",
     "end": "Kaduthuruthy, Kerala",
@@ -16,6 +17,19 @@
       "Kaduthuruthy"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-vellassery-koothattukulam-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-kayyoorikkal-irumpayam-pothi-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-velloor-police-station-enthumkkalpadi-road", "label": "Met near Thalayolaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalayolaparambu",
@@ -30,12 +44,6 @@
         76.47608,
         9.8015
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chutia, Jharkhand",
     "end": "Doronda, Jharkhand",
@@ -17,6 +18,18 @@
       "Doronda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-11", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-2", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-8", "label": "Met near Ranchi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chutia",
@@ -38,12 +51,6 @@
         85.32622,
         23.34485
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

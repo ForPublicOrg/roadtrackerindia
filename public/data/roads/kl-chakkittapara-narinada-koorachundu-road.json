@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koorachundu, Kerala",
     "end": "Chakkittapara, Kerala",
@@ -16,6 +17,19 @@
       "Chakkittapara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Koorachundu" },
+    { "id": "kl-balussery-kurachundu-road", "label": "Met near Koorachundu" },
+    { "id": "kl-perambra-chembra-koorachundu-road", "label": "Met near Koorachundu" },
+    { "id": "kl-narinada-kelothvayal-road", "label": "Met near Koorachundu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koorachundu",
@@ -30,12 +44,6 @@
         75.81677,
         11.57527
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

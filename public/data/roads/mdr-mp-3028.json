@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Baraily, Madhya Pradesh",
     "end": "Badi, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Badi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-62", "label": "Met near Baraily" },
+    { "id": "mdr-mp-3023", "label": "Met near Baraily" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baraily",
@@ -30,12 +42,6 @@
         78.23572,
         23.00735
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

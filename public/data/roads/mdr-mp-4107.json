@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 43.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dhanora, Madhya Pradesh",
     "end": "Keolari, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Keolari"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "sh-mp-42", "label": "Met near Keolari" },
+    { "id": "mdr-mp-4105", "label": "Met near Keolari" },
+    { "id": "mdr-mp-4112", "label": "Met near Keolari" },
+    { "id": "mdr-mp-4108", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanora",
@@ -30,12 +45,6 @@
         79.90498,
         22.36959
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

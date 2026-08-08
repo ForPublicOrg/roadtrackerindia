@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherthala, Kerala",
     "end": "Shava kotta palam, Kerala",
@@ -17,6 +18,20 @@
       "Shava kotta palam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "kl-old-nh-road-alappuzha", "label": "Met near Alappuzha" },
+    { "id": "kl-pathirappally-komalapuraam-road", "label": "Met near Alappuzha" },
+    { "id": "kl-kavunkal-valavanad-road", "label": "Met near Alappuzha" },
+    { "id": "kl-a-s-canal-east-bank-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherthala",
@@ -31,12 +46,6 @@
         76.33391,
         9.51687
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

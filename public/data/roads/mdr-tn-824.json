@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "HAPP Colony, Tamil Nadu",
     "end": "Thiruverumbur, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Thiruverumbur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Kailasapuram" },
+    { "id": "tiruchirappalli-ring-road", "label": "Met near HAPP Colony" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "HAPP Colony",
@@ -38,12 +50,6 @@
         78.77564,
         10.78623
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kelugudde, Kerala",
     "end": "Badiadka, Kerala",
@@ -16,6 +17,18 @@
       "Badiadka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-47b", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-49b", "label": "Met near Chengala" },
+    { "id": "mdr-kl-42", "label": "Met near Kasaragod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kelugudde",
@@ -30,12 +43,6 @@
         75.03632,
         12.58372
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

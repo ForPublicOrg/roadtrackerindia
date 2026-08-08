@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-017-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 017 (new numbering 2023)",
+  "ref": "MDR Cachar 017",
+  "name": "Dudpatil–Dudhpatli district road",
+  "aka": ["Cachar Major District Road 017"],
   "category": "district",
   "status": "operational",
   "lengthKm": 9.4,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dudpatil, Assam",
     "end": "Dudhpatli, Assam",
@@ -17,6 +19,17 @@
       "Dudhpatli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Dudpatil and Dudhpatli. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "as-assam-major-district-road-mdr-chachar-016-new-numbering-2023", "label": "Met near Silchar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dudpatil",
@@ -31,12 +44,6 @@
         92.8427,
         24.92403
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

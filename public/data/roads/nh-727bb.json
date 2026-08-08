@@ -17,6 +17,23 @@
       "Air Force Area"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Gorakhpur" },
+    { "id": "nh-730", "label": "Meets this road" },
+    { "id": "nh-727a", "label": "Met near Air Force Area" },
+    { "id": "nh-328", "label": "Meets this road" },
+    { "id": "sh-up-1", "label": "Met near Gorakhpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maharajganj",
@@ -38,16 +55,6 @@
         83.42287,
         26.74132
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

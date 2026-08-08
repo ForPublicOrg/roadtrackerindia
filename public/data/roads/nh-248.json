@@ -18,6 +18,22 @@
       "Ramganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Manoharpur" },
+    { "id": "nh-21", "label": "Met near Jaipur" },
+    { "id": "sh-rj-52", "label": "Met near Achrol" },
+    { "id": "sh-rj-55", "label": "Met near Jaipur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manoharpur",
@@ -46,16 +62,6 @@
         75.84374,
         26.90317
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

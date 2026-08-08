@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 38.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Palladam, Tamil Nadu",
     "end": "Annur, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Annur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Karumathampatti" },
+    { "id": "nh-81", "label": "Met near Sulur" },
+    { "id": "sh-tn-19", "label": "Met near Palladam" },
+    { "id": "sh-tn-163", "label": "Met near Sulur" },
+    { "id": "sh-tn-80", "label": "Met near Annur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palladam",
@@ -38,12 +52,6 @@
         77.12012,
         11.22869
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

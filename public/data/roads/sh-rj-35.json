@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 39.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Govindgarh, Rajasthan",
     "end": "Mandawar, Rajasthan",
@@ -17,6 +18,17 @@
       "Mandawar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-921", "label": "Met near Mandawar" },
+    { "id": "sh-rj-14", "label": "Met near Govindgarh" },
+    { "id": "sh-rj-44", "label": "Met near Lachhmangarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Govindgarh",
@@ -38,12 +50,6 @@
         76.81144,
         27.219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

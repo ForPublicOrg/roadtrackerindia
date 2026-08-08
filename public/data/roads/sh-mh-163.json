@@ -17,6 +17,19 @@
       "Lohara"
     ]
   },
+  "significance": "SH 163, Basavakalyana–Lohara State Highway, crosses the border between Karnataka and Maharashtra. A state road that runs through more than one state has no single owner — Karnataka PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-548b", "label": "Met near Umarga" },
+    { "id": "sh-ka-34", "label": "Met near Basavakalyana" },
+    { "id": "sh-mh-162", "label": "Met near Lohara" },
+    { "id": "sh-mh-167", "label": "Met near Umarga" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Basavakalyana",
@@ -31,12 +44,6 @@
         76.33981,
         17.98151
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

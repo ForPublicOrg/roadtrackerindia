@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 25.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Chandausi, Uttar Pradesh",
     "end": "Meerganj, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Meerganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-509", "label": "Meets this road" },
+    { "id": "sh-up-53w", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chandausi",
@@ -30,12 +41,6 @@
         79.01291,
         28.56325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

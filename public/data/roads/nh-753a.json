@@ -20,6 +20,23 @@
       "Chikalthana MIDC"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Jalna" },
+    { "id": "nh-53", "label": "Met near Malkapur" },
+    { "id": "nh-752i", "label": "Met near Jalna" },
+    { "id": "nh-752h", "label": "Met near Deulgaon Raja" },
+    { "id": "nh-753h", "label": "Met near Jalna" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Malkapur",
@@ -76,16 +93,6 @@
         75.43173,
         19.85689
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

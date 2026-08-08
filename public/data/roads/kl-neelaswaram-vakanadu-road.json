@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottarakkara, Kerala",
     "end": "Kundara, Kerala",
@@ -16,6 +17,18 @@
       "Kundara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-ezhukone-nedumonkavu-road", "label": "Met near Kundara" },
+    { "id": "kl-neeleswaram-chungathra-road", "label": "Met near Kottarakkara" },
+    { "id": "kl-edakkidam-kadakkodu-kudavattoor-road", "label": "Met near Kottarakkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottarakkara",
@@ -30,12 +43,6 @@
         76.73039,
         8.93736
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

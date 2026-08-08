@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Maraimalai Nagar, Tamil Nadu",
     "end": "Padappai, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Padappai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-57", "label": "Met near Maraimalai Nagar" },
+    { "id": "odr-tn-7367", "label": "Met near Maraimalai Nagar" },
+    { "id": "odr-tn-1950", "label": "Met near Maraimalai Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maraimalai Nagar",
@@ -30,12 +43,6 @@
         79.96922,
         12.83556
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

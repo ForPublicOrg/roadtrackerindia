@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 33.4,
+  "authority": "odisha-works",
   "route": {
     "start": "Jaleswar, Odisha",
     "end": "New Digha, West Bengal",
@@ -16,6 +17,16 @@
       "New Digha"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Jaleswar" },
+    { "id": "nh-316a", "label": "Met near Jaleswar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaleswar",
@@ -30,12 +41,6 @@
         87.45806,
         21.62981
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

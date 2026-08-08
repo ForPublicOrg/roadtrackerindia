@@ -16,6 +16,20 @@
       "Khagaria"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Munger" },
+    { "id": "nh-33", "label": "Met near Munger" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Munger",
@@ -37,16 +51,6 @@
         86.44129,
         25.46088
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

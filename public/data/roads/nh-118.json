@@ -19,6 +19,21 @@
       "Pārdih"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-18", "label": "Met near Jamshedpur" },
+    { "id": "sh-jh-5", "label": "Met near Gamharia" },
+    { "id": "mdr-jh-148", "label": "Met near Jamshedpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhetia",
@@ -61,16 +76,6 @@
         86.20341,
         22.85262
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

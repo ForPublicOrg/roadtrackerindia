@@ -21,6 +21,23 @@
       "Jhalrapatan"
     ]
   },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Ujjain" },
+    { "id": "nh-52", "label": "Met near Jhalrapatan" },
+    { "id": "nh-752d", "label": "Met near Ujjain" },
+    { "id": "nh-752b", "label": "Met near Susner" },
+    { "id": "sh-mp-64", "label": "Met near Ujjain" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Freeganj",
@@ -63,16 +80,6 @@
         76.18985,
         24.53368
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

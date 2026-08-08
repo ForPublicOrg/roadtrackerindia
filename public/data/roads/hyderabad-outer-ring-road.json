@@ -24,6 +24,10 @@
       "Patancheru"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2006", "event": "Construction begins" },
     { "year": "2008", "event": "First stretch (Gachibowli–Shamshabad, about 22 km) opens" },
@@ -54,9 +58,15 @@
     { "name": "Patancheru", "note": "junction with NH 65, the road west toward Solapur, Pune and Mumbai" }
   ],
   "relatedRoads": [
-    { "id": "hyderabad-regional-ring-road", "label": "The much bigger second ring being built further out from the city" },
+    {
+      "id": "hyderabad-regional-ring-road",
+      "label": "The much bigger second ring being built further out from the city"
+    },
     { "id": "nh-44", "label": "The Srinagar–Kanyakumari highway, met on the ring's north and south sides" },
-    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, met on the ring's west and east sides" }
+    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, met on the ring's west and east sides" },
+    { "id": "nh-163", "label": "Met near Narsingi" },
+    { "id": "nh-765", "label": "Met near Pahadi Sharif" },
+    { "id": "nh-765d", "label": "Met near Gandimaisamma" }
   ],
   "travelNotes": "Driving the full loop is about 158 km and takes roughly two hours, but almost nobody does the whole circle — most people use a slice of it to reach the airport or to skip across town. Tolling is by distance, so keep a working FASTag. The speed limit is high and the road is open, but service roads and slip lanes can be busy with local traffic, and winter mornings on the outer stretches can be foggy.",
   "futureUpgrades": [

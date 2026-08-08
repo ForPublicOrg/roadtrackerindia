@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Alanganallur, Tamil Nadu",
     "end": "Kadachanenthal, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Kadachanenthal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-785", "label": "Met near Oomachikulam" },
+    { "id": "nh-744a", "label": "Met near Alanganallur" },
+    { "id": "madurai-north-ring-road", "label": "Met near Alanganallur" },
+    { "id": "sh-tn-72a", "label": "Met near Kadachanenthal" },
+    { "id": "sh-tn-72", "label": "Met near Oomachikulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alanganallur",
@@ -45,12 +60,6 @@
         78.16888,
         9.97666
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

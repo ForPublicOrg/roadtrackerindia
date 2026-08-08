@@ -17,6 +17,20 @@
       "Chadachana"
     ]
   },
+  "significance": "SH 140, Jath–Chadachana State Highway, crosses the border between Maharashtra and Karnataka. A state road that runs through more than one state has no single owner — Maharashtra PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-166e", "label": "Met near Jath" },
+    { "id": "nh-561a", "label": "Met near Chadachana" },
+    { "id": "nh-965g", "label": "Met near Jath" },
+    { "id": "nh-266", "label": "Met near Jath" },
+    { "id": "sh-ka-41", "label": "Met near Chadachana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jath",
@@ -31,12 +45,6 @@
         75.6563,
         17.31321
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

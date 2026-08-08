@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Haripad, Kerala",
     "end": "Kurattikkadu, Kerala",
@@ -16,6 +17,18 @@
       "Kurattikkadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-6", "label": "Met near Kurattikkadu" },
+    { "id": "kl-mannar-veeyapuram-road", "label": "Met near Haripad" },
+    { "id": "kl-kadapra-veeyapuram-road", "label": "Met near Haripad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Haripad",
@@ -30,12 +43,6 @@
         76.5323,
         9.33207
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

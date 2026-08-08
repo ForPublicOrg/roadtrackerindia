@@ -21,6 +21,22 @@
       "Singarayakonda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Singarayakonda" },
+    { "id": "nh-565", "label": "Met near Pamuru" },
+    { "id": "nh-544g", "label": "Met near Chandrasekharapuram" },
+    { "id": "nh-167bg", "label": "Met near Seetharamapuram" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chandrasekharapuram",
@@ -70,16 +86,6 @@
         80.00551,
         15.24318
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

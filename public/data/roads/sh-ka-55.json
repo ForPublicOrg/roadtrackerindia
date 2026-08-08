@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 110.3,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kolahara, Karnataka",
     "end": "Muragoda, Karnataka",
@@ -17,6 +18,19 @@
       "Muragoda"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-ka-34", "label": "Met near Mudhol" },
+    { "id": "sh-ka-20", "label": "Met near Muragoda" },
+    { "id": "sh-ka-45", "label": "Met near Muragoda" },
+    { "id": "sh-ka-124", "label": "Meets this road" },
+    { "id": "sh-ka-44", "label": "Met near Mudhol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kolahara",
@@ -38,12 +52,6 @@
         75.02481,
         15.97203
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

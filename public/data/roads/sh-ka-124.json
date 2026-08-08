@@ -22,6 +22,20 @@
       "Maindargi"
     ]
   },
+  "significance": "SH 124, Mudhol–Maindargi State Highway, crosses the border between Karnataka and Maharashtra. A state road that runs through more than one state has no single owner — Karnataka PWD and Maharashtra PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Kolahara" },
+    { "id": "nh-50", "label": "Met near Basavana Bagevadi" },
+    { "id": "nh-150c", "label": "Met near Maindargi" },
+    { "id": "nh-150", "label": "Met near Afzalpur" },
+    { "id": "sh-ka-34", "label": "Met near Afzalpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mudhol",
@@ -78,12 +92,6 @@
         76.38087,
         17.53096
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

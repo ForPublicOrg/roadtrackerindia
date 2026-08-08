@@ -20,6 +20,23 @@
       "Falna"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Balotra" },
+    { "id": "nh-62", "label": "Met near Falna" },
+    { "id": "nh-25", "label": "Met near Balotra" },
+    { "id": "sh-rj-16", "label": "Met near Jalore" },
+    { "id": "sh-rj-31", "label": "Met near Jalore" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balotra",
@@ -69,16 +86,6 @@
         73.16096,
         25.29324
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

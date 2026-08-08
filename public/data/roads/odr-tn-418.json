@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kannamangalam, Tamil Nadu",
     "end": "Adukkamparai, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Adukkamparai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-129", "label": "Met near Kannamangalam" },
+    { "id": "odr-tn-8600", "label": "Met near Kannamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannamangalam",
@@ -30,12 +42,6 @@
         79.18832,
         12.75723
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

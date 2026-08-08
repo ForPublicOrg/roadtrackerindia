@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mettur, Tamil Nadu",
     "end": "Kolathur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kolathur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Mettur" },
+    { "id": "sh-ka-79", "label": "Met near Kolathur" },
+    { "id": "mdr-tn-1230", "label": "Met near Kolathur" },
+    { "id": "mdr-tn-1231", "label": "Met near Kolathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mettur",
@@ -30,12 +43,6 @@
         77.74611,
         11.84663
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

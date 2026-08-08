@@ -11,7 +11,6 @@
   "lanes": "Mostly 2 lanes, with wider stretches around Agartala",
   "agency": "NHIDCL",
   "authority": "nhidcl",
-  "newsQuery": "\"NH 8\" Tripura highway",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Sabroom, Tripura",
@@ -54,12 +53,16 @@
     { "name": "Sabroom", "note": "the southern end at the Maitri Setu crossing into Bangladesh" }
   ],
   "relatedRoads": [
-    { "id": "nh-37", "label": "The Assam highway NH 8 branches from, near Karimganj and Badarpur" }
+    { "id": "nh-37", "label": "The Assam highway NH 8 branches from, near Karimganj and Badarpur" },
+    { "id": "nh-108", "label": "Met near Panisagar" },
+    { "id": "nh-208", "label": "Met near Teliamura" },
+    { "id": "nh-108b", "label": "Met near Agartala" }
   ],
   "travelNotes": "Karimganj to Agartala is roughly 250 km but takes most of a day, because the hill crossings are slow and full of trucks. The heavy monsoon from May to September brings landslides and washouts, so October to March is the comfortable season. Fuel and food stops are spread out — Dharmanagar, Kumarghat, Ambassa and Teliamura are the reliable ones — and it is best not to drive the hill sections after dark.",
   "futureUpgrades": [
     "A four-lane rebuild of the roughly 130 km Churaibari–Champaknagar stretch has been approved, running alongside the railway with tunnels through the Atharamura and Longtharai hills."
   ],
+  "newsQuery": "\"NH 8\" Tripura highway",
   "sources": [
     { "title": "NHIDCL — National Highways & Infrastructure Development Corporation", "url": "https://nhidcl.com/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }

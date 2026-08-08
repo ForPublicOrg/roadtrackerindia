@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 91.5,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Arkalgud, Karnataka",
     "end": "Iritty, Kerala",
@@ -18,6 +19,19 @@
       "Iritty"
     ]
   },
+  "relatedRoads": [
+    { "id": "mysuru-kushalnagar-expressway", "label": "Met near Kushalanagara" },
+    { "id": "nh-275", "label": "Met near Kushalanagara" },
+    { "id": "sh-ka-27", "label": "Met near Virajpet" },
+    { "id": "sh-ka-85", "label": "Met near Arkalgud" },
+    { "id": "sh-ka-90", "label": "Met near Virajpet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arkalgud",
@@ -46,12 +60,6 @@
         75.7191,
         12.07011
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 65.2,
+  "authority": "assam-pwd",
   "route": {
     "start": "Tinsukia, Assam",
     "end": "Dibrugarh, Assam",
@@ -18,6 +19,19 @@
       "Dibrugarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-15", "label": "Met near Tinsukia" },
+    { "id": "nh-315a", "label": "Met near Tinsukia" },
+    { "id": "sh-as-7", "label": "Met near Duliajan" },
+    { "id": "sh-as-5", "label": "Met near Tinsukia" },
+    { "id": "sh-as-24", "label": "Met near Duliajan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tinsukia",
@@ -39,12 +53,6 @@
         94.99727,
         27.4528
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

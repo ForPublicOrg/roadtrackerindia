@@ -18,6 +18,20 @@
       "Tokitoli"
     ]
   },
+  "significance": "SH 1, Muri–Tokitoli State Highway, crosses the border between West Bengal and Jharkhand. A state road that runs through more than one state has no single owner — West Bengal PWD and Jharkhand RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Saraitoli" },
+    { "id": "sh-wb-4", "label": "Met near Muri" },
+    { "id": "sh-wb-4a", "label": "Met near Muri" },
+    { "id": "mdr-jh-25", "label": "Met near Muri" },
+    { "id": "mdr-jh-20", "label": "Met near Rahe" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muri",
@@ -39,12 +53,6 @@
         85.36486,
         23.3535
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

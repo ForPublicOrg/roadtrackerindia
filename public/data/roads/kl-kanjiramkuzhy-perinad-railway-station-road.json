@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anchalummood, Kerala",
     "end": "Neeravil, Kerala",
@@ -16,6 +17,17 @@
       "Neeravil"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Anchalummood" },
+    { "id": "kl-anchalummoodu-prakkulam-road", "label": "Met near Anchalummood" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anchalummood",
@@ -30,12 +42,6 @@
         76.61197,
         8.94219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

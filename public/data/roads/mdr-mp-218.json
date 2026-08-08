@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bijeypur, Madhya Pradesh",
     "end": "Sabalgarh, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Sabalgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Sabalgarh" },
+    { "id": "sh-rj-30", "label": "Met near Sabalgarh" },
+    { "id": "sh-mp-50", "label": "Met near Bijeypur" },
+    { "id": "mdr-mp-217", "label": "Met near Sabalgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bijeypur",
@@ -30,12 +44,6 @@
         77.41042,
         26.24857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

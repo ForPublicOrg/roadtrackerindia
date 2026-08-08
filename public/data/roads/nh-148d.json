@@ -22,6 +22,23 @@
       "Uniara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Gulabpura" },
+    { "id": "nh-52", "label": "Met near Hindoli" },
+    { "id": "nh-58", "label": "Met near Bhim" },
+    { "id": "nh-552", "label": "Met near Uniara" },
+    { "id": "nh-158", "label": "Met near Asind" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhim",
@@ -78,16 +95,6 @@
         76.00957,
         25.91527
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

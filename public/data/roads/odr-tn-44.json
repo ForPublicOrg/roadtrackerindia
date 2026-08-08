@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Urapakkam, Tamil Nadu",
     "end": "Karasangal, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Karasangal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-5871", "label": "Met near Vandalur" },
+    { "id": "odr-tn-1521", "label": "Met near Urapakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Urapakkam",
@@ -38,12 +50,6 @@
         80.04712,
         12.87315
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,23 @@
       "Rudrur"
     ]
   },
+  "relatedRoads": [
+    { "id": "hyderabad-regional-ring-road", "label": "Meets this road" },
+    { "id": "hyderabad-outer-ring-road", "label": "Met near Gandimaisamma" },
+    { "id": "nh-161aa", "label": "Meets this road" },
+    { "id": "nh-765dg", "label": "Met near Medak" },
+    { "id": "nh-161bb", "label": "Met near Rudrur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gandimaisamma",
@@ -46,16 +63,6 @@
         77.87587,
         18.58359
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

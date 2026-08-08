@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 44.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Virudhachalam, Tamil Nadu",
     "end": "Labbaikudikadu, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Labbaikudikadu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Labbaikudikadu" },
+    { "id": "nh-532", "label": "Met near Virudhachalam" },
+    { "id": "sh-tn-69", "label": "Met near Virudhachalam" },
+    { "id": "sh-tn-70", "label": "Met near Virudhachalam" },
+    { "id": "sh-tn-140", "label": "Met near Virudhachalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Virudhachalam",
@@ -46,12 +60,6 @@
         79.0269,
         11.40309
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

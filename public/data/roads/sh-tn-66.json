@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 75,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adirampattinam, Tamil Nadu",
     "end": "Kumbakonam, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Kumbakonam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Adirampattinam" },
+    { "id": "nh-83", "label": "Met near Needamangalam" },
+    { "id": "sh-tn-200", "label": "Met near Adirampattinam" },
+    { "id": "sh-tn-63", "label": "Met near Mannargudi" },
+    { "id": "sh-tn-64", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adirampattinam",
@@ -53,12 +67,6 @@
         79.38067,
         10.95978
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

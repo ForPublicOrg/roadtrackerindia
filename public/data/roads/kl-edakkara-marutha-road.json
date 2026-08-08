@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nilambur, Kerala",
     "end": "Pandalur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Pandalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-uppada-chembankolli-pallippadi-road", "label": "Met near Nilambur" },
+    { "id": "kl-vazhikkadavu-chakkappadam-road", "label": "Met near Pandalur" },
+    { "id": "kl-narokavu-thannikadavu-road", "label": "Met near Pandalur" },
+    { "id": "kl-edakkara-sankaramkulam-palemad-road", "label": "Met near Nilambur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nilambur",
@@ -30,12 +44,6 @@
         76.32686,
         11.42819
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

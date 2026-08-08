@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.1,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Rajula, Gujarat",
     "end": "Pipavav, Gujarat",
@@ -16,6 +17,16 @@
       "Pipavav"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-21", "label": "Met near Rajula" },
+    { "id": "sh-gj-34", "label": "Met near Rajula" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajula",
@@ -30,12 +41,6 @@
         71.43636,
         21.02297
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

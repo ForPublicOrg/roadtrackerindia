@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 197.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Ner, Maharashtra",
     "end": "Rajura, Maharashtra",
@@ -17,6 +18,19 @@
       "Rajura"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Meets this road" },
+    { "id": "nh-361", "label": "Meets this road" },
+    { "id": "nh-930", "label": "Met near Wani" },
+    { "id": "nh-353b", "label": "Met near Gadchandur" },
+    { "id": "nh-930d", "label": "Met near Rajura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ner",
@@ -38,12 +52,6 @@
         79.31989,
         19.64617
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.5,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Chebrole, Andhra Pradesh",
     "end": "Tenali, Andhra Pradesh",
@@ -16,6 +17,16 @@
       "Tenali"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-ap-334", "label": "Met near Tenali" },
+    { "id": "sh-ap-316", "label": "Met near Tenali" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chebrole",
@@ -30,12 +41,6 @@
         80.64337,
         16.23783
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

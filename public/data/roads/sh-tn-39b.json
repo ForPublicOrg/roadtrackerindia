@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 23.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sivagurunatha Puram, Tamil Nadu",
     "end": "Alangulam, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Alangulam"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-39", "label": "Met near Alangulam" },
+    { "id": "sh-tn-39a", "label": "Met near Surandai" },
+    { "id": "sh-tn-286", "label": "Met near Surandai" },
+    { "id": "mdr-tn-440a", "label": "Met near Surandai" },
+    { "id": "mdr-tn-195", "label": "Met near Kadayanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sivagurunatha Puram",
@@ -38,12 +52,6 @@
         77.45471,
         8.87947
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

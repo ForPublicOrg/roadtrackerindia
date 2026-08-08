@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 39.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Mandawar, Rajasthan",
     "end": "Alwar, Rajasthan",
@@ -17,6 +18,19 @@
       "Alwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-14", "label": "Met near Alwar" },
+    { "id": "sh-rj-108", "label": "Met near Mandawar" },
+    { "id": "mdr-rj-25", "label": "Met near Khairthal" },
+    { "id": "mdr-rj-200", "label": "Met near Mandawar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandawar",
@@ -38,12 +52,6 @@
         76.58822,
         27.66209
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

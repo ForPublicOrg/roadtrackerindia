@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 40,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Partur, Maharashtra",
     "end": "Jalna, Maharashtra",
@@ -16,6 +17,19 @@
       "Jalna"
     ]
   },
+  "relatedRoads": [
+    { "id": "jalna-nanded-expressway", "label": "Met near Partur" },
+    { "id": "nh-752i", "label": "Met near Jalna" },
+    { "id": "nh-753a", "label": "Met near Jalna" },
+    { "id": "nh-753h", "label": "Met near Jalna" },
+    { "id": "sh-mh-173", "label": "Met near Partur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Partur",
@@ -30,12 +44,6 @@
         75.88777,
         19.84891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

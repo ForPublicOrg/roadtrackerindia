@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalikavu, Kerala",
     "end": "Nilambur, Kerala",
@@ -16,6 +17,18 @@
       "Nilambur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-edakkara-amarambalam-vaniyambalam-road", "label": "Met near Nilambur" },
+    { "id": "kl-pookkottupadam-chettippadam-tk-colony-road", "label": "Met near Kalikavu" },
+    { "id": "kl-vengapparatha-olarvattam-road", "label": "Met near Kalikavu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalikavu",
@@ -30,12 +43,6 @@
         76.31727,
         11.25798
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

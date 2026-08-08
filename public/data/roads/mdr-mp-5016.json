@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khandwa, Madhya Pradesh",
     "end": "Chhanera, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Chhanera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347b", "label": "Met near Khandwa" },
+    { "id": "nh-753l", "label": "Met near Khandwa" },
+    { "id": "sh-mp-70", "label": "Met near Khandwa" },
+    { "id": "mdr-mp-5017", "label": "Met near Khandwa" },
+    { "id": "mdr-mp-5022", "label": "Met near Khandwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khandwa",
@@ -30,12 +45,6 @@
         76.34534,
         21.82202
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

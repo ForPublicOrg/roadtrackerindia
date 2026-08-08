@@ -18,6 +18,22 @@
       "Vallarpadam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kalamassery" },
+    { "id": "nh-544", "label": "Met near Kalamassery" },
+    { "id": "sh-kl-63", "label": "Met near Kochi" },
+    { "id": "kl-vallarpadom-panambukadu-road", "label": "Met near Kochi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalamassery",
@@ -74,16 +90,6 @@
         76.24122,
         9.98219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

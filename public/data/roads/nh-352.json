@@ -19,6 +19,24 @@
       "Rewari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-352a", "label": "A branch off this highway, running Jind to Sonipat" },
+    { "id": "nh-352w", "label": "A branch off this highway, running Rewari to Sector 10" },
+    { "id": "nh-352r", "label": "A branch off this highway, running Jhajjar to Bahadurgarh" },
+    { "id": "trans-haryana-expressway", "label": "Met near Julana" },
+    { "id": "nh-48", "label": "Met near Rewari" },
+    { "id": "nh-52", "label": "Met near Narwana" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rohtak",
@@ -61,16 +79,6 @@
         76.64893,
         28.21524
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

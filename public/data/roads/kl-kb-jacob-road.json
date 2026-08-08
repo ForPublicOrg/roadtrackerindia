@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koovapadam, Kerala",
     "end": "Kochi, Kerala",
@@ -17,6 +18,19 @@
       "Kochi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-63", "label": "Met near Kochi" },
+    { "id": "kl-k-j-hershal-road", "label": "Met near Kochi" },
+    { "id": "kl-amaravathy-road", "label": "Met near Kochi" },
+    { "id": "kl-jawahar-road", "label": "Met near Kochi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koovapadam",
@@ -38,12 +52,6 @@
         76.24441,
         9.96799
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 50.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Manoharthana, Rajasthan",
     "end": "Aklera, Rajasthan",
@@ -16,6 +17,17 @@
       "Aklera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-752", "label": "Met near Aklera" },
+    { "id": "sh-rj-37a", "label": "Met near Manoharthana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manoharthana",
@@ -30,12 +42,6 @@
         76.61873,
         24.44307
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

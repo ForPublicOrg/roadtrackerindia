@@ -1,0 +1,118 @@
+{
+  "id": "kolkata-grand-trunk-road",
+  "ref": "Grand Trunk Road",
+  "name": "Grand Trunk Road (Howrah–Bandel)",
+  "aka": ["GT Road", "Sadak-e-Azam"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 49.7,
+  "lanes": "4 lanes, narrowing through the old towns",
+  "authority": "west-bengal-pwd",
+  "route": {
+    "start": "Bandel, West Bengal",
+    "end": "Howrah, West Bengal",
+    "states": [
+      "West Bengal"
+    ],
+    "majorCities": [
+      "Bandel",
+      "Hugli-Chuchura",
+      "Bhatpara",
+      "Serampore",
+      "Bally",
+      "Kolkata",
+      "Howrah"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "This is the Bengal end of the Grand Trunk Road, the highway Sher Shah Suri rebuilt in the sixteenth century between Bengal and the north-west, and which the British later called the Grand Trunk Road. The stretch here runs up the west bank of the Hooghly from Howrah through Bally, Serampore, Chandannagar and Chinsurah to Bandel — past the Danish, French, Dutch and Portuguese river settlements that all sat along it before the British took Calcutta.",
+  "facts": [
+    "Part of the Grand Trunk Road, one of the oldest and longest roads in Asia.",
+    "Rebuilt in the sixteenth century under Sher Shah Suri, who ruled north India for five years.",
+    "It passes Serampore (Danish), Chandannagar (French) and Chinsurah (Dutch) — the European river settlements of Bengal.",
+    "Bandel, at its northern end, holds a Portuguese church founded in 1599.",
+    "The road runs along the west bank of the Hooghly, opposite Kolkata."
+  ],
+  "significance": "The Grand Trunk Road is the oldest continuously used long-distance road in South Asia, and this is the stretch where it reaches the Bengal delta. It is also the main street of the string of old mill towns north of Howrah.",
+  "relatedRoads": [
+    { "id": "nh-19", "label": "The modern national highway that follows the Grand Trunk Road route west" },
+    { "id": "belghoria-expressway", "label": "The fast link across the river to north Kolkata" },
+    { "id": "kona-expressway", "label": "The fast link out of Howrah towards the west" },
+    { "id": "nh-12", "label": "Met near Bally" },
+    { "id": "sh-wb-2", "label": "Met near Bally" },
+    { "id": "sh-wb-6", "label": "Met near Bally" }
+  ],
+  "travelNotes": "Narrow and slow through the old towns — this is a high street for most of its length, not a highway. NH 19 is the road to take if you are going any distance.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Bandel",
+      "coords": [
+        88.38425,
+        22.94187
+      ]
+    },
+    {
+      "name": "Hugli-Chuchura",
+      "coords": [
+        88.38287,
+        22.89866
+      ]
+    },
+    {
+      "name": "Bhatpara",
+      "coords": [
+        88.36148,
+        22.84362
+      ]
+    },
+    {
+      "name": "Shyamnagar",
+      "coords": [
+        88.35924,
+        22.83415
+      ]
+    },
+    {
+      "name": "Serampore",
+      "coords": [
+        88.34663,
+        22.74978
+      ]
+    },
+    {
+      "name": "Kamarhati",
+      "coords": [
+        88.35633,
+        22.68644
+      ]
+    },
+    {
+      "name": "Bally",
+      "coords": [
+        88.35059,
+        22.64994
+      ]
+    },
+    {
+      "name": "Kolkata",
+      "coords": [
+        88.3393,
+        22.59417
+      ]
+    },
+    {
+      "name": "Howrah",
+      "coords": [
+        88.31172,
+        22.56343
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Lavasa, Maharashtra",
     "end": "Paud, Maharashtra",
@@ -16,6 +17,18 @@
       "Paud"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-ring-road", "label": "Met near Paud" },
+    { "id": "nh-753f", "label": "Met near Paud" },
+    { "id": "sh-mh-60", "label": "Met near Paud" },
+    { "id": "sh-mh-59", "label": "Met near Paud" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lavasa",
@@ -30,12 +43,6 @@
         73.67785,
         18.51295
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

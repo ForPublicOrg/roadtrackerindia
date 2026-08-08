@@ -19,6 +19,21 @@
       "Perikkalloor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 228, Koothuparamba–Perikkalloor District road, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Mananthavady" },
+    { "id": "sh-ka-33", "label": "Met near Perikkalloor" },
+    { "id": "sh-kl-30", "label": "Met near Koothuparamba" },
+    { "id": "kl-mananthavady-vimalanagar-kulathada-valad-hs-periya-road", "label": "Met near Peravoor" },
+    { "id": "mdr-kl-214", "label": "Met near Peravoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothuparamba",
@@ -54,12 +69,6 @@
         76.11702,
         11.8563
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

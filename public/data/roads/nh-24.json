@@ -1,10 +1,12 @@
 {
   "id": "nh-24",
   "ref": "NH 24",
-  "name": "Mau–Sonauli National Highway",
+  "name": "Chandauli–Sonauli Highway",
+  "aka": ["Gorakhpur–Sonauli road"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 307.1,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Mau, Uttar Pradesh",
     "end": "Sonauli, Uttar Pradesh",
@@ -22,6 +24,37 @@
       "Sonauli"
     ]
   },
+  "history": "National Highway 24 runs north across eastern Uttar Pradesh from the Varanasi–Chandauli area, through Ghazipur, Mau and Gorakhpur, to the Nepal border at Sonauli. It is the main Indian road to the Nepalese town of Bhairahawa and on to Lumbini and Pokhara, and a large share of the trade between India and Nepal passes over it. Do not confuse it with the old NH 24, which was the Delhi–Lucknow highway — that number was reassigned in the 2010 renumbering.",
+  "facts": [
+    "Ends at Sonauli, one of the busiest India–Nepal border crossings.",
+    "It is the usual Indian road route to Lumbini, the birthplace of the Buddha.",
+    "The old NH 24 was the Delhi–Lucknow highway — a completely different road. The number was reassigned in 2010.",
+    "Gorakhpur, on the route, is home to the Gorakhnath temple and one of the largest railway workshops in India.",
+    "It serves the dense farming districts of eastern Uttar Pradesh."
+  ],
+  "significance": "This is one of India's main doors to Nepal. It carries cross-border freight, pilgrims heading for Lumbini, and daily traffic through some of the most densely populated countryside in the world.",
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The Gorakhpur–Lucknow highway crossing this route" },
+    {
+      "id": "purvanchal-expressway",
+      "label": "The expressway serving the same part of eastern Uttar Pradesh"
+    },
+    { "id": "gorakhpur-link-expressway", "label": "Links Gorakhpur to the Purvanchal Expressway" },
+    { "id": "nh-19", "label": "Met near Saiyad Raja" },
+    { "id": "nh-31", "label": "Met near Mainpur" },
+    { "id": "nh-730", "label": "Met near Anand Nagar" }
+  ],
+  "travelNotes": "Traffic is heavy and mixed — tractors, cycle rickshaws and trucks share the road. Allow plenty of time at the Sonauli border, where customs and immigration queues can be long.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mau",
@@ -92,16 +125,6 @@
         83.46981,
         27.47592
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

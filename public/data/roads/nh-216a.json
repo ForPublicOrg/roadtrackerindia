@@ -20,6 +20,20 @@
       "Bhimadole"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Rajamahendravaram" },
+    { "id": "nh-216e", "label": "Met near Ravulapalem" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajamahendravaram",
@@ -76,16 +90,6 @@
         81.26499,
         16.80845
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

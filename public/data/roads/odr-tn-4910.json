@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruverkadu, Tamil Nadu",
     "end": "Poonamallee, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Poonamallee"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Poonamallee" },
+    { "id": "sh-tn-55", "label": "Met near Poonamallee" },
+    { "id": "odr-tn-5797", "label": "Met near Poonamallee" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruverkadu",
@@ -30,12 +43,6 @@
         80.11293,
         13.06208
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

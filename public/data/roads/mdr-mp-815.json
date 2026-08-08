@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 35.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ashoknagar, Madhya Pradesh",
     "end": "Shadhora, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Shadhora"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-9", "label": "Met near Ashoknagar" },
+    { "id": "mdr-mp-804", "label": "Meets this road" },
+    { "id": "mdr-mp-808", "label": "Meets this road" },
+    { "id": "mdr-mp-803", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ashoknagar",
@@ -30,12 +44,6 @@
         77.62266,
         24.86044
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

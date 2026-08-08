@@ -23,6 +23,23 @@
       "Tirumangalam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Tirumangalam" },
+    { "id": "nh-66", "label": "Met near Kollam" },
+    { "id": "nh-183", "label": "Met near Kundara" },
+    { "id": "sh-kl-59", "label": "Met near Punalur" },
+    { "id": "mc-road", "label": "Met near Kottarakkara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kallumthazham",
@@ -107,16 +124,6 @@
         77.98407,
         9.81217
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,22 @@
       "Sunam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Jakhal" },
+    { "id": "sh-pb-12a", "label": "Met near Sunam" },
+    { "id": "sh-pb-11", "label": "Met near Sunam" },
+    { "id": "sh-pb-10", "label": "Met near Jakhal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jakhal",
@@ -38,16 +54,6 @@
         75.81432,
         30.13674
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

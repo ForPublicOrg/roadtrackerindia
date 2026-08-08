@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Anna Nagar, Tamil Nadu",
     "end": "Vavipalayam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Vavipalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Anna Nagar" },
+    { "id": "sh-tn-n2", "label": "Met near Vavipalayam" },
+    { "id": "sh-tn-173", "label": "Met near Anna Nagar" },
+    { "id": "mdr-tn-1102", "label": "Met near Vavipalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anna Nagar",
@@ -37,12 +51,6 @@
         77.38248,
         11.16085
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

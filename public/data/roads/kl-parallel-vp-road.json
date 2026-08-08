@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valiyapanikkan Thuruth, Kerala",
     "end": "Puthuvype, Kerala",
@@ -17,6 +18,20 @@
       "Puthuvype"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-63", "label": "Met near Cherai" },
+    { "id": "kl-jai-hind-puthuval-church-road", "label": "Met near Thekkinezhath" },
+    { "id": "kl-arattuvazhi-beach-road", "label": "Met near Thekkinezhath" },
+    { "id": "kl-cherai-beach-road", "label": "Met near Cherai" },
+    { "id": "kl-elamkunnappuzha-beach-road", "label": "Met near Kochi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valiyapanikkan Thuruth",
@@ -45,12 +60,6 @@
         76.21892,
         10.00861
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

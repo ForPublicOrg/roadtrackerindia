@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 281.8,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Koratagere, Karnataka",
     "end": "Perikkalloor, Kerala",
@@ -22,6 +23,19 @@
       "Perikkalloor"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Koratagere" },
+    { "id": "bangalore-mysore-expressway", "label": "Met near Maddur" },
+    { "id": "nh-48", "label": "Met near Tumakuru" },
+    { "id": "nh-150a", "label": "Met near Mysuru" },
+    { "id": "nh-75", "label": "Met near Kunigal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koratagere",
@@ -99,12 +113,6 @@
         76.14359,
         11.87347
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

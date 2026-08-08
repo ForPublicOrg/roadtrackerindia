@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chemmad, Kerala",
     "end": "Tirurangadi, Kerala",
@@ -16,6 +17,18 @@
       "Tirurangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Tirurangadi" },
+    { "id": "sh-kl-65", "label": "Met near Tirurangadi" },
+    { "id": "kl-parappanangadi-parakkadavu-road", "label": "Met near Tirurangadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chemmad",
@@ -30,12 +43,6 @@
         75.91115,
         11.04253
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,21 @@
       "Palakollu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Pamarru" },
+    { "id": "nh-216", "label": "Met near Palakollu" },
+    { "id": "nh-216h", "label": "Met near Gudivada" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pamarru",
@@ -83,16 +98,6 @@
         81.71954,
         16.5098
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

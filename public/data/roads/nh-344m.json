@@ -19,6 +19,23 @@
       "Alipur"
     ]
   },
+  "relatedRoads": [
+    { "id": "urban-extension-road-2", "label": "Met near Samalkha" },
+    { "id": "dwarka-expressway", "label": "Met near Kapashera" },
+    { "id": "nh-44", "label": "Met near Alipur" },
+    { "id": "nh-9", "label": "Met near Mundka" },
+    { "id": "nh-248bb", "label": "Met near Kapashera" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Samalkha",
@@ -75,16 +92,6 @@
         77.13491,
         28.81075
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

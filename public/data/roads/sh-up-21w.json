@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 22,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Farrukhabad, Uttar Pradesh",
     "end": "Kaimganj, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Kaimganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-730c", "label": "Met near Farrukhabad" },
+    { "id": "sh-up-110w", "label": "Met near Kaimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Farrukhabad",
@@ -30,12 +41,6 @@
         79.45452,
         27.48264
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

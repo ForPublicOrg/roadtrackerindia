@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 56.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Champua, Odisha",
     "end": "Noamundi, Jharkhand",
@@ -16,6 +17,20 @@
       "Noamundi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Champua" },
+    { "id": "nh-320g", "label": "Met near Noamundi" },
+    { "id": "mdr-jh-185", "label": "Meets this road" },
+    { "id": "mdr-jh-181", "label": "Met near Champua" },
+    { "id": "mdr-jh-182", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Champua",
@@ -30,12 +45,6 @@
         85.50352,
         22.15824
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

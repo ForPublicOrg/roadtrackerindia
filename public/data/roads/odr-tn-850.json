@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Lalapet, Tamil Nadu",
     "end": "Sholinghur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Sholinghur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Lalapet" },
+    { "id": "sh-tn-61", "label": "Met near Sholinghur" },
+    { "id": "sh-tn-124a", "label": "Met near Lalapet" },
+    { "id": "odr-tn-2919", "label": "Met near Sholinghur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lalapet",
@@ -30,12 +44,6 @@
         79.40259,
         13.06588
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

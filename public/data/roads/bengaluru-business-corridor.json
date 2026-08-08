@@ -21,6 +21,23 @@
       "Huskur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nice-road", "label": "Met near Madhavara" },
+    { "id": "electronic-city-elevated-expressway", "label": "Met near Electronic City" },
+    { "id": "nh-44", "label": "Met near Yelahanka" },
+    { "id": "nh-48", "label": "Met near Madhavara" },
+    { "id": "nh-75", "label": "Met near Madhavara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chikka Banavara",
@@ -91,16 +108,6 @@
         77.70318,
         12.86115
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-3-karimganj-major-distric-road-3-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Kj-M-3 (Karimganj Major Distric Road 3) (new Numbering 2023)",
+  "ref": "MDR KJ-M-3",
+  "name": "Karimganj–Zakiganj district road",
+  "aka": ["Karimganj Major District Road KJ-M-3"],
   "category": "district",
   "status": "operational",
   "lengthKm": 20.6,
+  "authority": "assam-pwd",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Zakiganj, Assam",
@@ -16,6 +18,21 @@
       "Zakiganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Karimganj and Zakiganj. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-37", "label": "Met near Karimganj" },
+    { "id": "mdr-as-3", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Karimganj" },
+    { "id": "mdr-as-6", "label": "Met near Karimganj" },
+    { "id": "mdr-as-11", "label": "Met near Karimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karimganj",
@@ -30,12 +47,6 @@
         92.35014,
         24.74545
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-kj-m-12-karimganj-new-numberin",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Kj-M-12 (Karimganj) (new numbering 2024)",
+  "ref": "MDR KJ-M-12",
+  "name": "Ramkrishna Nagar–Hailakandi district road",
+  "aka": ["Karimganj Major District Road KJ-M-12"],
   "category": "district",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "assam-pwd",
   "route": {
     "start": "Ramkrishna Nagar, Assam",
     "end": "Hailakandi, Assam",
@@ -16,6 +18,21 @@
       "Hailakandi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Ramkrishna Nagar and Hailakandi. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    {
+      "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    },
+    { "id": "mdr-as-12", "label": "Met near Ramkrishna Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ramkrishna Nagar",
@@ -30,12 +47,6 @@
         92.41144,
         24.65978
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

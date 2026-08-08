@@ -1,10 +1,11 @@
 {
   "id": "nh-79",
   "ref": "NH 79",
-  "name": "Ulundurpettai–Seelanaickenpatti National Highway",
+  "name": "Ulundurpettai–Salem Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 137.7,
+  "lanes": "4 lanes",
   "route": {
     "start": "Ulundurpettai, Tamil Nadu",
     "end": "Seelanaickenpatti, Tamil Nadu",
@@ -20,6 +21,31 @@
       "Seelanaickenpatti"
     ]
   },
+  "history": "National Highway 79 is a short, busy connector across central Tamil Nadu, running west from Ulundurpettai on the Chennai–Trichy road through Kallakurichi and Attur to Salem. It is the direct route between the Chennai corridor and the Salem–Erode industrial belt, and it saves a long detour through Trichy.",
+  "facts": [
+    "Links the Chennai–Trichy highway directly to Salem.",
+    "Salem, at its western end, is a centre of steel and textile manufacture.",
+    "It runs along the southern edge of the Kalvarayan hills.",
+    "Kallakurichi, on the route, is a major sugarcane district."
+  ],
+  "significance": "It is the shortest road between Chennai and the Kongu industrial region around Salem, Erode and Coimbatore, and it carries a steady stream of freight.",
+  "relatedRoads": [
+    { "id": "nh-32", "label": "The Chennai–Kanyakumari highway met at Ulundurpettai" },
+    { "id": "nh-44", "label": "The Bengaluru–Kanyakumari highway met at Salem" },
+    { "id": "nh-38", "label": "Met near Ulundurpettai" },
+    { "id": "nh-179b", "label": "Met near Ayodhiyapatinam" },
+    { "id": "nh-136", "label": "Met near Attur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ulundurpettai",
@@ -76,16 +102,6 @@
         78.14759,
         11.62517
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

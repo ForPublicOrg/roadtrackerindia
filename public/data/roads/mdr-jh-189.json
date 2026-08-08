@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Gua, Jharkhand",
     "end": "Barajamda, Jharkhand",
@@ -16,6 +17,17 @@
       "Barajamda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-320g", "label": "Met near Gua" },
+    { "id": "mdr-jh-187", "label": "Met near Gua" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gua",
@@ -30,12 +42,6 @@
         85.33167,
         22.31051
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

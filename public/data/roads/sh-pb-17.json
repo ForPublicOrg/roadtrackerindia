@@ -18,6 +18,20 @@
       "Sardulgarh"
     ]
   },
+  "significance": "SH 17, Kot Fatta–Sardulgarh State Highway, crosses the border between Punjab and Haryana. A state road that runs through more than one state has no single owner — Punjab PWD (B&R) and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-148b", "label": "Met near Kot Fatta" },
+    { "id": "nh-703", "label": "Met near Sardulgarh" },
+    { "id": "nh-254", "label": "Met near Talwandi Sabo" },
+    { "id": "sh-hr-101a", "label": "Met near Sardulgarh" },
+    { "id": "mdr-pb-42", "label": "Met near Talwandi Sabo" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kot Fatta",
@@ -39,12 +53,6 @@
         75.24875,
         29.71993
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

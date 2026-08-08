@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 21.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Potta, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -17,6 +18,19 @@
       "Irinjalakuda"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Irinjalakuda" },
+    { "id": "nh-544", "label": "Met near Potta" },
+    { "id": "sh-kl-22", "label": "Met near Irinjalakuda" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Potta" },
+    { "id": "sh-kl-51", "label": "Met near Potta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Potta",
@@ -31,12 +45,6 @@
         76.21685,
         10.34712
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

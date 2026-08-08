@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 33.5,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Jewar, Uttar Pradesh",
     "end": "Khurja, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Khurja"
     ]
   },
+  "relatedRoads": [
+    { "id": "yamuna-expressway", "label": "Met near Jewar" },
+    { "id": "nh-334dd", "label": "Met near Jewar" },
+    { "id": "sh-up-78w", "label": "Met near Jewar" },
+    { "id": "sh-up-63", "label": "Met near Khurja" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jewar",
@@ -30,12 +43,6 @@
         77.85476,
         28.24891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

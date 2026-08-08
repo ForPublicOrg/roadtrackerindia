@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-007-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 007 (new numbering 2023)",
+  "ref": "MDR Cachar 007",
+  "name": "Sonai–Tarapur district road",
+  "aka": ["Cachar Major District Road 007"],
   "category": "district",
   "status": "operational",
   "lengthKm": 8.5,
+  "authority": "assam-pwd",
   "route": {
     "start": "Sonai, Assam",
     "end": "Tarapur, Assam",
@@ -16,6 +18,18 @@
       "Tarapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Sonai and Tarapur. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-306", "label": "Met near Sonai" },
+    { "id": "as-assam-major-district-road-mdr-chachar-006-new-numbering-2023", "label": "Met near Sonai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sonai",
@@ -30,12 +44,6 @@
         92.79491,
         24.66446
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

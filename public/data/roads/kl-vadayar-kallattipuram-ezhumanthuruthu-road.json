@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thalayolaparambu, Kerala",
     "end": "Kaduthuruthy, Kerala",
@@ -16,6 +17,19 @@
       "Kaduthuruthy"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Thalayolaparambu" },
+    { "id": "sh-kl-15", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-krishnaswamy-temple-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-vazhamana-elamkavu-temple-road", "label": "Met near Thalayolaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thalayolaparambu",
@@ -37,12 +51,6 @@
         76.47306,
         9.75266
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

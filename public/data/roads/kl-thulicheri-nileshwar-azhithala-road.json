@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Athinhal, Kerala",
     "end": "Nileshwaram, Kerala",
@@ -17,6 +18,17 @@
       "Nileshwaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-57", "label": "Met near Kanhangad" },
+    { "id": "kl-tb-savaparambu-kottrachal-road", "label": "Met near Kanhangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Athinhal",
@@ -45,12 +57,6 @@
         75.1067,
         12.24228
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

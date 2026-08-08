@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28.6,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kanakapura, Karnataka",
     "end": "Hanur, Karnataka",
@@ -16,6 +17,15 @@
       "Hanur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-ka-3", "label": "Met near Kanakapura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanakapura",
@@ -30,12 +40,6 @@
         77.43214,
         12.28934
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

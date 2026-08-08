@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Chandwara, Jharkhand",
     "end": "Konra, Jharkhand",
@@ -16,6 +17,16 @@
       "Konra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Chandwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chandwara",
@@ -30,12 +41,6 @@
         85.50901,
         24.33456
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 88.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mubarakpur, Uttar Pradesh",
     "end": "Bahraich, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Bahraich"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Ayodhya" },
+    { "id": "nh-28", "label": "Met near Mubarakpur" },
+    { "id": "nh-330", "label": "Met near Ayodhya" },
+    { "id": "nh-135a", "label": "Met near Akbarpur" },
+    { "id": "nh-128", "label": "Met near Akbarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mubarakpur",
@@ -38,12 +52,6 @@
         81.59378,
         27.57964
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vizhinjam, Kerala",
     "end": "Venganoor, Kerala",
@@ -16,6 +17,19 @@
       "Venganoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Balaramapuram" },
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Venganoor" },
+    { "id": "kl-vizhinjam-poovar-road", "label": "Met near Vizhinjam" },
+    { "id": "kl-balaramapuram-vizhinjam-road", "label": "Met near Venganoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vizhinjam",
@@ -30,12 +44,6 @@
         77.01905,
         8.38417
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,13 @@
 {
   "id": "hyderabad-indore-expressway",
-  "ref": "NH",
-  "name": "Hyderabad-Indore Expressway",
+  "ref": "Hyderabad–Indore Corridor",
+  "name": "Hyderabad–Indore Economic Corridor",
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 99.5,
+  "lanes": "4 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Sadasivpet, Telangana",
     "end": "Degloor, Maharashtra",
@@ -16,6 +19,35 @@
       "Degloor"
     ]
   },
+  "history": "The Hyderabad–Indore corridor is a new north–south route being built up the middle of the Deccan, from Hyderabad through Sangareddy and the Marathwada districts towards Akola and on into Madhya Pradesh. The section mapped here is the stretch through the Telangana–Maharashtra border country around Sadasivpet and Degloor. It is being built in packages, with each stretch upgraded or laid new as land becomes available.",
+  "facts": [
+    "A new north–south route between Hyderabad and Indore through the middle of the Deccan.",
+    "It serves the Marathwada and Vidarbha districts, which sit far from any expressway today.",
+    "Part of the Bharatmala programme of new national corridors.",
+    "Only part of the full corridor is built; this record covers the section on the ground."
+  ],
+  "significance": "Traffic between Hyderabad and central India currently goes the long way round through Nagpur or Solapur. This corridor is the direct line, and it passes through farming districts that have never been well connected.",
+  "relatedRoads": [
+    {
+      "id": "hyderabad-outer-ring-road",
+      "label": "The Hyderabad ring road at the southern end of the corridor"
+    },
+    { "id": "nh-44", "label": "The main north–south national highway this corridor runs alongside" },
+    { "id": "nh-161", "label": "Meets this road" },
+    { "id": "nh-161b", "label": "Met near Narayankhed" },
+    { "id": "nh-161bb", "label": "Met near Degloor" }
+  ],
+  "travelNotes": "Being built and opened in packages, so the usable stretch changes from year to year.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sadasivpet",
@@ -30,16 +62,6 @@
         77.59279,
         18.5341
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

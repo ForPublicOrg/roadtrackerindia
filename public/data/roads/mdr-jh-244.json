@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Maheshpur, Jharkhand",
     "end": "Rampurhat, West Bengal",
@@ -16,6 +17,17 @@
       "Rampurhat"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-245", "label": "Met near Maheshpur" },
+    { "id": "mdr-jh-198", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maheshpur",
@@ -30,12 +42,6 @@
         87.65215,
         24.33232
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

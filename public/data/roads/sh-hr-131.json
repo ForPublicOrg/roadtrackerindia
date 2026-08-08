@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 41.3,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Hodal, Haryana",
     "end": "Mandikhera, Haryana",
@@ -16,6 +17,18 @@
       "Mandikhera"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Hodal" },
+    { "id": "nh-248a", "label": "Met near Mandikhera" },
+    { "id": "sh-hr-132", "label": "Met near Hodal" },
+    { "id": "sh-hr-2", "label": "Met near Hodal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hodal",
@@ -30,12 +43,6 @@
         76.9905,
         27.91858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

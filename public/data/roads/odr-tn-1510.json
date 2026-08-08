@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chengalpattu, Tamil Nadu",
     "end": "Garden City, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Garden City"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Chengalpattu" },
+    { "id": "mdr-tn-596", "label": "Met near Chengalpattu" },
+    { "id": "mdr-tn-540", "label": "Met near Chengalpattu" },
+    { "id": "odr-tn-800", "label": "Met near Chengalpattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chengalpattu",
@@ -30,12 +44,6 @@
         79.9246,
         12.6128
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

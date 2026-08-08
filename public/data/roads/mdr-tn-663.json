@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 46.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melkottai, Tamil Nadu",
     "end": "Malayidu, Tamil Nadu",
@@ -18,6 +19,20 @@
       "Malayidu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-29", "label": "Met near Aranthangi" },
+    { "id": "sh-tn-u217", "label": "Met near Pudukkottai (South)" },
+    { "id": "sh-tn-u157", "label": "Met near Pudukkottai (South)" },
+    { "id": "mdr-tn-1005", "label": "Met near Arimalam" },
+    { "id": "mdr-tn-1263", "label": "Met near Arimalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melkottai",
@@ -46,12 +61,6 @@
         78.81252,
         10.36169
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Birsinghpur, Madhya Pradesh",
     "end": "Manikpur Sarhat, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Manikpur Sarhat"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-13", "label": "Met near Birsinghpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Birsinghpur",
@@ -30,12 +41,6 @@
         81.06059,
         24.95185
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

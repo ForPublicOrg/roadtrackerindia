@@ -18,6 +18,22 @@
       "Srinivasa Colony"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544d", "label": "Met near Medikonduru" },
+    { "id": "nh-167a", "label": "Met near Piduguralla" },
+    { "id": "guntur-inner-ring-road", "label": "Met near Medikonduru" },
+    { "id": "sh-ap-2", "label": "Met near Medikonduru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Medikonduru",
@@ -46,16 +62,6 @@
         79.9192,
         16.46117
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vedasandur, Tamil Nadu",
     "end": "Seelapadi, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Seelapadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vedasandur" },
+    { "id": "sh-tn-152", "label": "Met near Vedasandur" },
+    { "id": "mdr-tn-1284", "label": "Met near Vedasandur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vedasandur",
@@ -30,12 +42,6 @@
         77.94588,
         10.54753
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

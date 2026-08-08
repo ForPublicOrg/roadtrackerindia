@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Varkala, Kerala",
     "end": "Kadakkavoor, Kerala",
@@ -16,6 +17,16 @@
       "Kadakkavoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-vilabhagom-road", "label": "Met near Varkala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Varkala",
@@ -30,12 +41,6 @@
         76.75137,
         8.70528
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

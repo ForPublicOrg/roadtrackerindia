@@ -18,6 +18,26 @@
       "Mahishadal"
     ]
   },
+  "significance": "NH 116B is a branch of NH 116. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs New Digha to Mahishadal, and it meets NH 116 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-116",
+      "label": "NH 116 — the highway this branch takes its number from, running Kolaghat to Haldia"
+    },
+    { "id": "nh-316a", "label": "Met near Digha" },
+    { "id": "sh-wb-5", "label": "Met near Contai" },
+    { "id": "sh-wb-4", "label": "Met near Mahishadal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "New Digha",
@@ -46,16 +66,6 @@
         87.91848,
         22.18754
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

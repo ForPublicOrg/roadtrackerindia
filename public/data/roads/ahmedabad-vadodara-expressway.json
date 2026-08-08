@@ -15,6 +15,10 @@
     "states": ["Gujarat"],
     "majorCities": ["Ahmedabad", "Nadiad", "Anand", "Vadodara"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2004", "event": "Fully opened to traffic" }
   ],
@@ -42,7 +46,10 @@
     { "id": "delhi-mumbai-expressway", "label": "India's longest expressway, which this road now feeds into near Vadodara" },
     { "id": "nh-48", "label": "The older Delhi–Mumbai national highway running alongside on the same corridor" },
     { "id": "ahmedabad-dholera-expressway", "label": "Gujarat's newest expressway, heading south from Ahmedabad" },
-    { "id": "mumbai-pune-expressway", "label": "India's first modern access-controlled expressway, opened two years before this one" }
+    { "id": "mumbai-pune-expressway", "label": "India's first modern access-controlled expressway, opened two years before this one" },
+    { "id": "nh-848k", "label": "Met near Nadiad" },
+    { "id": "sh-gj-150", "label": "Met near Kanjari" },
+    { "id": "sh-gj-59", "label": "Met near Nadiad" }
   ],
   "travelNotes": "The full run takes about an hour. It is a toll road and the toll for a car is around ₹125 for the whole length, revised from time to time. Traffic is heaviest on weekday mornings and evenings with commuters, and on weekends with Ahmedabad families heading out. There are fuel pumps and food plazas along the way, and this being Gujarat, the roadside farsan and dairy stops near Anand and Nadiad are a small attraction of their own.",
   "sources": [

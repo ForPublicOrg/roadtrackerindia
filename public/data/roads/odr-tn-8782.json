@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Perungalathur, Tamil Nadu",
     "end": "Mudichur, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Mudichur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-110", "label": "Met near Tambaram" },
+    { "id": "mdr-tn-1164", "label": "Met near Tambaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Perungalathur",
@@ -31,12 +43,6 @@
         80.06833,
         12.91526
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

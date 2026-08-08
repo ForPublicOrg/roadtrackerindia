@@ -20,6 +20,23 @@
       "Subramaniyapuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Tiruchirappalli" },
+    { "id": "nh-83", "label": "Met near Tiruchirappalli" },
+    { "id": "tiruchirappalli-ring-road", "label": "Met near Mathur" },
+    { "id": "sh-tn-26", "label": "Met near Keeranur" },
+    { "id": "sh-tn-u221", "label": "Met near Keeranur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kovilpatti",
@@ -48,16 +65,6 @@
         78.69643,
         10.78786
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

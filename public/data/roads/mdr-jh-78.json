@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Kathara, Jharkhand",
     "end": "Tilaiya, Jharkhand",
@@ -16,6 +17,19 @@
       "Tilaiya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-93", "label": "Met near Kathara" },
+    { "id": "mdr-jh-74", "label": "Met near Kathara" },
+    { "id": "mdr-jh-79", "label": "Met near Kathara" },
+    { "id": "mdr-jh-75", "label": "Met near Kathara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kathara",
@@ -30,12 +44,6 @@
         85.8274,
         23.86348
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 76.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallipalayam, Tamil Nadu",
     "end": "Paramathi Velur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Paramathi Velur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Bhavani" },
+    { "id": "nh-381a", "label": "Met near Pallipalayam" },
+    { "id": "sh-tn-79", "label": "Met near Pallipalayam" },
+    { "id": "sh-tn-79a", "label": "Met near Pallipalayam" },
+    { "id": "sh-tn-261", "label": "Met near Erode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallipalayam",
@@ -60,12 +74,6 @@
         78.00914,
         11.10731
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

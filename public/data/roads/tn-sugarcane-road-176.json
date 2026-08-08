@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Garden City, Tamil Nadu",
     "end": "Wallajahbad, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Wallajahbad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Chengalpattu" },
+    { "id": "nh-179b", "label": "Met near Garden City" },
+    { "id": "odr-tn-502", "label": "Met near Garden City" },
+    { "id": "odr-tn-127", "label": "Met near Chengalpattu" },
+    { "id": "odr-tn-2242", "label": "Met near Garden City" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Garden City",
@@ -30,12 +45,6 @@
         79.89627,
         12.75385
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

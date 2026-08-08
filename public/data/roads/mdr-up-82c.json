@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Naubasta, Uttar Pradesh",
     "end": "Lakhan Khera, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Lakhan Khera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Naubasta" },
+    { "id": "nh-86", "label": "Met near Naubasta" },
+    { "id": "sh-up-46", "label": "Met near Lakhan Khera" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Naubasta",
@@ -30,12 +43,6 @@
         80.36299,
         26.10487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

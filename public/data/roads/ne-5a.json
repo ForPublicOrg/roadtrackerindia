@@ -1,10 +1,14 @@
 {
   "id": "ne-5a",
   "ref": "NE 5A",
-  "name": "Nakodar–Goindval Expressway",
+  "name": "Delhi–Amritsar–Katra Expressway Goindval Spur",
+  "aka": ["NE-5 Goindval Sahib link"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 40.8,
+  "lanes": "4–6 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Nakodar, Punjab",
     "end": "Goindval, Punjab",
@@ -16,6 +20,29 @@
       "Goindval"
     ]
   },
+  "history": "The Delhi–Amritsar–Katra Expressway is built with branches to the Punjab towns it does not pass directly. This one runs from Nakodar to Goindval Sahib, the town on the Beas that holds one of Sikhism's important gurdwaras, connecting it and the Tarn Taran side of Punjab to the main expressway.",
+  "facts": [
+    "A spur of NE-5, the Delhi–Amritsar–Katra Expressway — the letter marks it as a branch.",
+    "Serves Goindval Sahib, a Sikh pilgrimage town on the banks of the Beas.",
+    "It connects the Nakodar and Tarn Taran side of Punjab to the main expressway."
+  ],
+  "significance": "The Delhi–Amritsar–Katra Expressway was planned as a pilgrim route, linking Sikh and Hindu shrines across north India. Branches like this are how the smaller shrine towns are brought onto it.",
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "The main expressway this branch connects to" },
+    { "id": "nh-703", "label": "Met near Nakodar" },
+    { "id": "nh-703a", "label": "Met near Sultanpur Lodhi" },
+    { "id": "mdr-pb-48", "label": "Met near Nakodar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nakodar",
@@ -30,16 +57,6 @@
         75.13043,
         31.34786
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kunnamkulam, Kerala",
     "end": "Koottanad, Kerala",
@@ -16,6 +17,19 @@
       "Koottanad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-39", "label": "Met near Kunnamkulam" },
+    { "id": "sh-kl-69", "label": "Met near Kunnamkulam" },
+    { "id": "kl-akkikavu-kadangode-erumapetty-road", "label": "Met near Kunnamkulam" },
+    { "id": "kl-pazhanji-kadavllur-road", "label": "Met near Kunnamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kunnamkulam",
@@ -30,12 +44,6 @@
         76.0918,
         10.69549
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

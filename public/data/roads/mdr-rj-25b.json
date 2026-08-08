@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 52.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Udaipurwati, Rajasthan",
     "end": "Mandawa, Rajasthan",
@@ -18,6 +19,20 @@
       "Mandawa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-11", "label": "Met near Mandawa" },
+    { "id": "sh-rj-37b", "label": "Met near Udaipurwati" },
+    { "id": "sh-rj-84", "label": "Met near Udaipurwati" },
+    { "id": "sh-rj-8", "label": "Met near Nawalgarh" },
+    { "id": "sh-rj-82", "label": "Met near Nawalgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Udaipurwati",
@@ -53,12 +68,6 @@
         75.15051,
         28.05571
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

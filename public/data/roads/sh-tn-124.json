@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiruvalam, Tamil Nadu",
     "end": "Gangadharanellore, Andhra Pradesh",
@@ -16,6 +17,19 @@
       "Gangadharanellore"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Lalapet" },
+    { "id": "sh-tn-54", "label": "Met near Gangadharanellore" },
+    { "id": "sh-tn-124a", "label": "Met near Lalapet" },
+    { "id": "sh-tn-u143", "label": "Met near Thiruvalam" },
+    { "id": "mdr-tn-607", "label": "Met near Lalapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiruvalam",
@@ -30,12 +44,6 @@
         79.25318,
         13.12171
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

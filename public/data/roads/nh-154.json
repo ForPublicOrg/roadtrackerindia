@@ -22,6 +22,22 @@
       "BBMB Colony"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-154a", "label": "A branch off this highway, running McLeod Ganj to Bakloh" },
+    { "id": "nh-44", "label": "Met near Pathankot" },
+    { "id": "nh-3", "label": "Met near Mandi" },
+    { "id": "nh-503", "label": "Met near Kangra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pathankot",
@@ -106,16 +122,6 @@
         76.90148,
         31.55533
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

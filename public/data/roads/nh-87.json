@@ -1,10 +1,11 @@
 {
   "id": "nh-87",
   "ref": "NH 87",
-  "name": "Rameswaram–Tiruppuvanam National Highway",
+  "name": "Rameswaram–Tiruppuvanam Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 177.9,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Rameswaram, Tamil Nadu",
     "end": "Tiruppuvanam, Tamil Nadu",
@@ -20,6 +21,33 @@
       "Tiruppuvanam"
     ]
   },
+  "history": "National Highway 87 runs from Rameswaram, on the island of Pamban at the tip of the Ramanathapuram coast, across the sea to the mainland and inland through Ramanathapuram and Paramakudi to Manamadurai and Tiruppuvanam near Madurai. Its crossing of the Palk Strait shallows on the Pamban road bridge, beside the century-old railway bridge, is one of the most striking pieces of road in India.",
+  "facts": [
+    "Crosses to Rameswaram island on the Pamban road bridge, opened in 1988.",
+    "Runs beside the Pamban railway bridge of 1914, India's first sea bridge.",
+    "Rameswaram is one of the Char Dham pilgrimage sites and holds the Ramanathaswamy temple.",
+    "From Dhanushkodi beyond Rameswaram, Sri Lanka is about 30 km across the water.",
+    "The road is regularly closed to high-sided vehicles when the wind gets up over the bridge."
+  ],
+  "significance": "Rameswaram is one of the four Char Dham shrines and draws pilgrims from all over India. This highway is the only road onto the island.",
+  "relatedRoads": [
+    { "id": "nh-38", "label": "The Vellore–Thoothukudi highway met near Madurai" },
+    { "id": "nh-36", "label": "The Vikravandi–Manamadurai highway met at Manamadurai" },
+    { "id": "nh-32", "label": "Met near Ramanathapuram" },
+    { "id": "nh-85", "label": "Met near Tiruppuvanam" },
+    { "id": "nh-536", "label": "Met near Ramanathapuram" }
+  ],
+  "travelNotes": "The Pamban crossing is exposed and can be closed in high winds. Rameswaram traffic peaks during the Tamil month of Aadi and at Mahashivaratri.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rameswaram",
@@ -62,16 +90,6 @@
         78.2473,
         9.82217
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

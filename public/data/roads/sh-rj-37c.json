@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Chomu, Rajasthan",
     "end": "Khejroli, Rajasthan",
@@ -16,6 +17,18 @@
       "Khejroli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Chomu" },
+    { "id": "sh-rj-37", "label": "Met near Khejroli" },
+    { "id": "mdr-rj-188", "label": "Met near Khejroli" },
+    { "id": "mdr-rj-187", "label": "Met near Khejroli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chomu",
@@ -30,12 +43,6 @@
         75.6985,
         27.33473
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

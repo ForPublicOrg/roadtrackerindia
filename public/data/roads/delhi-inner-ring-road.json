@@ -1,0 +1,109 @@
+{
+  "id": "delhi-inner-ring-road",
+  "ref": "Ring Road",
+  "name": "Delhi Ring Road",
+  "aka": ["Mahatma Gandhi Marg", "Inner Ring Road"],
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 48.7,
+  "lanes": "6–8 lanes, largely signal-free",
+  "authority": "delhi-pwd",
+  "route": {
+    "start": "Delhi, Delhi",
+    "end": "Delhi, Delhi",
+    "states": [
+      "Delhi"
+    ],
+    "majorCities": [
+      "Delhi",
+      "Azadpur",
+      "Punjabi Bagh",
+      "South Extension",
+      "New Delhi",
+      "Connaught Place"
+    ]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Delhi's Ring Road, formally Mahatma Gandhi Marg, was built in the 1960s around what was then the edge of the city, and it has been the capital's main circulating road ever since. It passes AIIMS, the Ashram crossing, ISBT at Kashmere Gate and Azadpur, and over the decades almost every junction on it has been given a flyover or underpass in a long campaign to make it signal-free. The Outer Ring Road was added further out as the city grew past it.",
+  "facts": [
+    "Formally named Mahatma Gandhi Marg, and built in the 1960s.",
+    "Runs past AIIMS, ISBT Kashmere Gate, Azadpur and the Ashram crossing.",
+    "Made almost entirely signal-free over the years by adding flyovers and underpasses.",
+    "The Barapullah elevated road and the DND Flyway both connect to it.",
+    "It is the inner of Delhi's two ring roads — the Outer Ring Road runs further out."
+  ],
+  "significance": "Every long trip across Delhi touches the Ring Road at some point. It links the railway terminals, the interstate bus terminal, the big hospitals and the arterial roads out of the city.",
+  "relatedRoads": [
+    { "id": "delhi-outer-ring-road", "label": "The outer of Delhi's two ring roads" },
+    { "id": "dnd-flyway", "label": "The Noida link, joined near Ashram" },
+    { "id": "delhi-meerut-expressway", "label": "Starts from the Ring Road at Sarai Kale Khan" },
+    { "id": "nh-48", "label": "The Jaipur and Mumbai highway, which leaves the Ring Road at Dhaula Kuan" },
+    { "id": "nh-44", "label": "Met near Delhi" }
+  ],
+  "travelNotes": "Signal-free for most of its length, but the Ashram, Moolchand and Azadpur stretches still back up badly at rush hour.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Delhi",
+      "coords": [
+        77.24701,
+        28.63382
+      ]
+    },
+    {
+      "name": "Civil Lines",
+      "coords": [
+        77.22275,
+        28.68124
+      ]
+    },
+    {
+      "name": "Azadpur",
+      "coords": [
+        77.17812,
+        28.70822
+      ]
+    },
+    {
+      "name": "Punjabi Bagh",
+      "coords": [
+        77.13906,
+        28.67115
+      ]
+    },
+    {
+      "name": "Naraina Village",
+      "coords": [
+        77.1364,
+        28.6209
+      ]
+    },
+    {
+      "name": "Kidwai Nagar",
+      "coords": [
+        77.20608,
+        28.56959
+      ]
+    },
+    {
+      "name": "South Extension",
+      "coords": [
+        77.22308,
+        28.56858
+      ]
+    },
+    {
+      "name": "New Delhi",
+      "coords": [
+        77.24704,
+        28.6251
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

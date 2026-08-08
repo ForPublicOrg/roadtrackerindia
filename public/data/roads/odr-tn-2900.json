@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Nemilicheri, Tamil Nadu",
     "end": "Veppambaattu, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Veppambaattu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-50a", "label": "Met near Avadi" },
+    { "id": "odr-tn-5612", "label": "Met near Veppambaattu" },
+    { "id": "odr-tn-3976", "label": "Met near Avadi" },
+    { "id": "odr-tn-4676", "label": "Met near Veppambaattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nemilicheri",
@@ -30,12 +44,6 @@
         80.0234,
         13.15283
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

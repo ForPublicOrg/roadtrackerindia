@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Gua, Jharkhand",
     "end": "Jhirpani, Odisha",
@@ -16,6 +17,17 @@
       "Jhirpani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-320g", "label": "Meets this road" },
+    { "id": "nh-320d", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gua",
@@ -30,12 +42,6 @@
         85.11487,
         22.30944
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -22,6 +22,23 @@
       "Kopargaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Meets this road" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Jalna" },
+    { "id": "nh-52", "label": "Met near Waluj MIDC" },
+    { "id": "nh-548c", "label": "Met near Mantha" },
+    { "id": "nh-753f", "label": "Met near Chhatrapati Sambhajinagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Umarkhed",
@@ -99,16 +116,6 @@
         74.48154,
         19.86063
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

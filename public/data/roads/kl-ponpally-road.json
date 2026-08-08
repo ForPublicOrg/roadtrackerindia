@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kumaranalloor, Kerala",
     "end": "Kanjikuzhi, Kerala",
@@ -18,6 +19,19 @@
       "Kanjikuzhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Kottayam" },
+    { "id": "kl-eranjal-thiruvanchoor-road", "label": "Met near Kottayam" },
+    { "id": "kl-puthupally-puthusserry-road", "label": "Met near Kottayam" },
+    { "id": "kl-kanjikuzhy-eranjal-road", "label": "Met near Kottayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumaranalloor",
@@ -32,12 +46,6 @@
         76.55332,
         9.5899
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

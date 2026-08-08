@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20.1,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Visnagar, Gujarat",
     "end": "Kheralu, Gujarat",
@@ -16,6 +17,17 @@
       "Kheralu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-168g", "label": "Met near Visnagar" },
+    { "id": "sh-gj-10", "label": "Met near Kheralu" },
+    { "id": "sh-gj-56", "label": "Met near Visnagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Visnagar",
@@ -30,12 +42,6 @@
         72.61094,
         23.87867
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

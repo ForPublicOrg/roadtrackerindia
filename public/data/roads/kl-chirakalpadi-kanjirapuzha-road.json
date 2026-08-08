@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mannarkkad, Kerala",
     "end": "Kumaramputhur, Kerala",
@@ -16,6 +17,18 @@
       "Kumaramputhur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-966", "label": "Met near Mannarkkad" },
+    { "id": "kl-kanjirapuzha-palakkayam-injikunnu-road", "label": "Met near Mannarkkad" },
+    { "id": "kl-poonchola-road", "label": "Met near Mannarkkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mannarkkad",
@@ -30,12 +43,6 @@
         76.53418,
         10.98938
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

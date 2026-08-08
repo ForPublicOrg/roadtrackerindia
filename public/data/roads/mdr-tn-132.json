@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kadayanallur, Tamil Nadu",
     "end": "Mela Kadayanallur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Mela Kadayanallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Kadayanallur" },
+    { "id": "mdr-tn-195", "label": "Met near Kadayanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadayanallur",
@@ -30,12 +42,6 @@
         77.40017,
         9.07617
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

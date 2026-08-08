@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 58,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Cantonment, Uttar Pradesh",
     "end": "Bilgram, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Bilgram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "ganga-expressway", "label": "Met near Bilgram" },
+    { "id": "nh-730c", "label": "Met near Farrukhabad" },
+    { "id": "nh-330d", "label": "Met near Bilgram" },
+    { "id": "sh-up-29a", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cantonment",
@@ -38,12 +52,6 @@
         80.03932,
         27.18078
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

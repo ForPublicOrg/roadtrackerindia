@@ -20,6 +20,22 @@
       "Sirohi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-168a", "label": "A branch off this highway, running Deesa to Sanchore" },
+    { "id": "nh-754k", "label": "Met near Tharad" },
+    { "id": "nh-62", "label": "Met near Sirohi" },
+    { "id": "nh-68", "label": "Met near Tharad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tharad",
@@ -55,16 +71,6 @@
         72.85267,
         24.885
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

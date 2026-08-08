@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Latteri, Tamil Nadu",
     "end": "Mottur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Mottur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-1030", "label": "Met near Mottur" },
+    { "id": "odr-tn-8593", "label": "Met near Latteri" },
+    { "id": "odr-tn-8603", "label": "Met near Mottur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Latteri",
@@ -30,12 +43,6 @@
         79.04455,
         12.93544
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

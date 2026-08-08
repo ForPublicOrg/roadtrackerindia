@@ -16,6 +16,24 @@
       "Athmallik"
     ]
   },
+  "significance": "NH 157A is a branch of NH 157. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Phulbani to Athmallik, and it meets NH 157 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-157",
+      "label": "NH 157 — the highway this branch takes its number from, running Asika to Athmallik"
+    },
+    { "id": "nh-57", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phulbani",
@@ -30,16 +48,6 @@
         84.50596,
         20.44911
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

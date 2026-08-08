@@ -20,6 +20,23 @@
       "Adimali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Adimali" },
+    { "id": "nh-183", "label": "Met near Kumily" },
+    { "id": "sh-kl-59", "label": "Met near Kattappana" },
+    { "id": "sh-kl-40", "label": "Met near Murickassery" },
+    { "id": "sh-kl-44", "label": "Met near Murickassery" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumily",
@@ -69,16 +86,6 @@
         76.9554,
         10.01423
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,26 @@
       "Ishwarpur"
     ]
   },
+  "significance": "NH 166H is a branch of NH 166. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Miraj to Ishwarpur, and it meets NH 166 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-166",
+      "label": "NH 166 — the highway this branch takes its number from, running Solapur to Pethkilla"
+    },
+    { "id": "nh-48", "label": "Met near Ishwarpur" },
+    { "id": "sh-mh-111", "label": "Met near Ishwarpur" },
+    { "id": "sh-mh-136", "label": "Met near Ashta" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Miraj",
@@ -46,16 +66,6 @@
         74.26893,
         17.04474
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

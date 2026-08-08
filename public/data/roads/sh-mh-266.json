@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.7,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Mauda, Maharashtra",
     "end": "Kanhan, Maharashtra",
@@ -16,6 +17,16 @@
       "Kanhan"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Kanhan" },
+    { "id": "sh-mh-253", "label": "Met near Mauda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mauda",
@@ -30,12 +41,6 @@
         79.23814,
         21.23171
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

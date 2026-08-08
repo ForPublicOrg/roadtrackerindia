@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Polur, Tamil Nadu",
     "end": "Arani, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Arani"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Polur" },
+    { "id": "sh-tn-4", "label": "Met near Arani" },
+    { "id": "sh-tn-239", "label": "Met near Kalambur" },
+    { "id": "mdr-tn-40", "label": "Met near Arani" },
+    { "id": "mdr-tn-801", "label": "Met near Kalambur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Polur",
@@ -38,12 +52,6 @@
         79.28516,
         12.66931
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

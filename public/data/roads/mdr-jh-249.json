@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32.4,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Latehar, Jharkhand",
     "end": "Taliatanr, Jharkhand",
@@ -16,6 +17,16 @@
       "Taliatanr"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-39", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Latehar",
@@ -30,12 +41,6 @@
         84.49657,
         23.74254
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

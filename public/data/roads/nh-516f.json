@@ -1,10 +1,12 @@
 {
   "id": "nh-516f",
   "ref": "NH 516F",
-  "name": "Kakinada Industrial Area–Kakinada National Highway",
+  "name": "Kakinada Port Link",
   "category": "nh",
   "status": "operational",
   "lengthKm": 11.6,
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Kakinada Industrial Area, Andhra Pradesh",
     "end": "Kakinada, Andhra Pradesh",
@@ -17,6 +19,23 @@
       "Kakinada"
     ]
   },
+  "facts": [
+    "Links Kakinada port and its industrial estate to the national highway network.",
+    "Kakinada is one of the main cargo ports of the Andhra Pradesh coast.",
+    "Short port-link highways like this carry a heavy load of freight for their length.",
+    "It serves the fertiliser, edible oil and bulk cargo traffic of the port."
+  ],
+  "significance": "A short national highway spur connecting Kakinada port and its industrial area to the city and the highway network beyond. Roads like this exist to get container and bulk freight from a port onto a national highway without dragging it through city streets.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kakinada Industrial Area",
@@ -45,16 +64,6 @@
         82.23575,
         16.94272
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

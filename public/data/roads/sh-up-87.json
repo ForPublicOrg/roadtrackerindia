@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 61.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Cantonment, Uttar Pradesh",
     "end": "Gopiganj, Uttar Pradesh",
@@ -19,6 +20,19 @@
       "Gopiganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-19", "label": "Met near Gopiganj" },
+    { "id": "nh-135a", "label": "Met near Bhadohi" },
+    { "id": "nh-731b", "label": "Met near Bhadohi" },
+    { "id": "varanasi-ring-road", "label": "Met near Varanasi" },
+    { "id": "sh-up-98", "label": "Met near Kachhwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cantonment",
@@ -47,12 +61,6 @@
         82.43215,
         25.2857
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

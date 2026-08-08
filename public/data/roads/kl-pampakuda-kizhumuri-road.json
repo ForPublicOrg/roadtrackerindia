@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thammanimattam, Kerala",
     "end": "Piravom, Kerala",
@@ -16,6 +17,17 @@
       "Piravom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-ramamangalam-thodupuzha-road", "label": "Met near Piravom" },
+    { "id": "kl-pampakuda-mannathoor-road", "label": "Met near Piravom" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thammanimattam",
@@ -30,12 +42,6 @@
         76.48197,
         9.92567
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

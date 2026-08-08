@@ -18,6 +18,23 @@
       "Izatnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Bareilly" },
+    { "id": "nh-9", "label": "Met near Rampur" },
+    { "id": "sh-up-37", "label": "Met near Bareilly" },
+    { "id": "sh-up-53w", "label": "Met near Rampur" },
+    { "id": "sh-up-33w", "label": "Met near Meerganj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rampur",
@@ -39,16 +56,6 @@
         79.42106,
         28.44155
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

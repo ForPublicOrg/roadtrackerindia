@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nadathara, Kerala",
     "end": "Chelakkottukara, Kerala",
@@ -16,6 +17,20 @@
       "Chelakkottukara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Thrissur" },
+    { "id": "kl-thrissur-mannamangalam-road", "label": "Met near Nadathara" },
+    { "id": "kl-edakkunny-road", "label": "Met near Thrissur" },
+    { "id": "kl-veembu-road", "label": "Met near Thrissur" },
+    { "id": "kl-poochatti-eravimangalam-puthur-puzhamballam-bethasda-maratha", "label": "Met near Nadathara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nadathara",
@@ -37,12 +52,6 @@
         76.26691,
         10.50038
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

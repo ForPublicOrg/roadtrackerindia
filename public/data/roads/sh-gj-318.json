@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 44.7,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Wankaner, Gujarat",
     "end": "Halvad, Gujarat",
@@ -16,6 +17,17 @@
       "Halvad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Wankaner" },
+    { "id": "sh-gj-22", "label": "Met near Halvad" },
+    { "id": "sh-gj-113", "label": "Met near Wankaner" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wankaner",
@@ -30,12 +42,6 @@
         71.06919,
         22.92383
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

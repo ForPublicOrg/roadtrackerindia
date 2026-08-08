@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 70.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Gogunda, Rajasthan",
     "end": "Kankroli, Rajasthan",
@@ -17,6 +18,20 @@
       "Kankroli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Gogunda" },
+    { "id": "nh-58", "label": "Met near Rajsamand" },
+    { "id": "nh-162", "label": "Meets this road" },
+    { "id": "sh-rj-12", "label": "Met near Rajsamand" },
+    { "id": "sh-rj-32", "label": "Met near Gogunda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gogunda",
@@ -31,12 +46,6 @@
         73.86528,
         25.07115
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

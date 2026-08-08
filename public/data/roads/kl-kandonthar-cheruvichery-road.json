@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pilathara, Kerala",
     "end": "Ezhilode, Kerala",
@@ -16,6 +17,17 @@
       "Ezhilode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-2", "label": "Met near Pilathara" },
+    { "id": "kl-panapuzha-kanaranvayal-road", "label": "Met near Pilathara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pilathara",
@@ -30,12 +42,6 @@
         75.30741,
         12.12269
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

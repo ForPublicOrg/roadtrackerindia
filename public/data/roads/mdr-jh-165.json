@@ -17,6 +17,18 @@
       "Balarampur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 165, Barabazar–Balarampur District road, crosses the border between West Bengal and Jharkhand. A state road that runs through more than one state has no single owner — West Bengal PWD and Jharkhand RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-wb-5", "label": "Meets this road" },
+    { "id": "mdr-jh-164", "label": "Met near Barabazar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barabazar",
@@ -31,12 +43,6 @@
         86.37471,
         22.9977
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

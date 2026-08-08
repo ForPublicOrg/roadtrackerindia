@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 269.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ujjain, Madhya Pradesh",
     "end": "Kukshi, Madhya Pradesh",
@@ -19,6 +20,19 @@
       "Kukshi"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Jaora" },
+    { "id": "nh-47", "label": "Met near Rajgarh" },
+    { "id": "nh-156", "label": "Met near Barnagar" },
+    { "id": "nh-752d", "label": "Met near Barnagar" },
+    { "id": "sh-mp-36", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ujjain",
@@ -54,12 +68,6 @@
         74.76544,
         22.21246
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

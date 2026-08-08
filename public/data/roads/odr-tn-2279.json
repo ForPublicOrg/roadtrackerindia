@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Arani, Tamil Nadu",
     "end": "Uthukottai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Uthukottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716a", "label": "Met near Arani" },
+    { "id": "sh-tn-51", "label": "Met near Arani" },
+    { "id": "odr-tn-2280", "label": "Met near Arani" },
+    { "id": "odr-tn-6698", "label": "Met near Arani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Arani",
@@ -30,12 +44,6 @@
         80.00477,
         13.31072
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

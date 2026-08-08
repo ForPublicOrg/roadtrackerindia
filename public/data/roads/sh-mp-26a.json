@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 12.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Kushalgarh, Rajasthan",
     "end": "Meghnagar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Meghnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Kushalgarh" },
+    { "id": "sh-mp-64", "label": "Met near Meghnagar" },
+    { "id": "sh-mp-26", "label": "Met near Meghnagar" },
+    { "id": "sh-rj-54a", "label": "Met near Kushalgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kushalgarh",
@@ -30,12 +43,6 @@
         74.58162,
         23.01968
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

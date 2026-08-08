@@ -26,6 +26,20 @@
       "Bhilad"
     ]
   },
+  "significance": "SH 4, Pernem–Bhilad State Highway, crosses the border between Maharashtra and Gujarat. A state road that runs through more than one state has no single owner — Maharashtra PWD and Gujarat R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "mumbai-nashik-expressway", "label": "Met near Thane" },
+    { "id": "atal-setu", "label": "Met near Navi Mumbai" },
+    { "id": "nh-48", "label": "Met near Thane" },
+    { "id": "nh-753f", "label": "Met near Murud" },
+    { "id": "nh-166", "label": "Met near Ratnagiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pernem",
@@ -145,12 +159,6 @@
         72.75424,
         20.18592
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

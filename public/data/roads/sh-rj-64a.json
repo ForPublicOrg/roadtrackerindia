@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 98.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Siwana, Rajasthan",
     "end": "Pali, Rajasthan",
@@ -16,6 +17,19 @@
       "Pali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-62", "label": "Met near Pali" },
+    { "id": "nh-325", "label": "Met near Siwana" },
+    { "id": "sh-rj-64", "label": "Meets this road" },
+    { "id": "sh-rj-61a", "label": "Met near Pali" },
+    { "id": "mdr-rj-122", "label": "Met near Pali" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Siwana",
@@ -30,12 +44,6 @@
         73.32665,
         25.76804
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

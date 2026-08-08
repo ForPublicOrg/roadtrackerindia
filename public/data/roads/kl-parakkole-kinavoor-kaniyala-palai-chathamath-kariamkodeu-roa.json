@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nileshwaram, Kerala",
     "end": "Choyamkode, Kerala",
@@ -19,6 +20,20 @@
       "Choyamkode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Nileshwaram" },
+    { "id": "mdr-kl-2", "label": "Met near Choyamkode" },
+    { "id": "mdr-kl-142", "label": "Met near Chayoth" },
+    { "id": "mdr-kl-128", "label": "Met near Choyamkode" },
+    { "id": "kl-kayyur-chayyome-road", "label": "Met near Chayoth" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nileshwaram",
@@ -54,12 +69,6 @@
         75.21817,
         12.27774
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 34.2,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Vairag, Maharashtra",
     "end": "Mohol, Maharashtra",
@@ -16,6 +17,17 @@
       "Mohol"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-65", "label": "Met near Mohol" },
+    { "id": "sh-mh-150", "label": "Met near Vairag" },
+    { "id": "sh-mh-151", "label": "Met near Vairag" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vairag",
@@ -30,12 +42,6 @@
         75.63223,
         17.81552
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

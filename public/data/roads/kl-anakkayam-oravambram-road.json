@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Melattur, Kerala",
     "end": "Manjeri, Kerala",
@@ -16,6 +17,20 @@
       "Manjeri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-73", "label": "Met near Melattur" },
+    { "id": "sh-kl-71", "label": "Met near Manjeri" },
+    { "id": "kl-manjeri-olipuzha-road", "label": "Met near Melattur" },
+    { "id": "kl-anakkayam-oravambram-link-road", "label": "Met near Manjeri" },
+    { "id": "kl-muttipalam-panayi-road", "label": "Met near Manjeri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melattur",
@@ -30,12 +45,6 @@
         76.12092,
         11.08783
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

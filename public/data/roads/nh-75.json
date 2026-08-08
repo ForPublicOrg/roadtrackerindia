@@ -1,10 +1,12 @@
 {
   "id": "nh-75",
   "ref": "NH 75",
-  "name": "Bantwal Cross Road–Viruthampattu National Highway",
+  "name": "Mangaluru–Bengaluru–Vellore Highway",
+  "aka": ["National Highway 48 (old numbering, Mangaluru–Bengaluru section)"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 502.1,
+  "lanes": "4 lanes, ghat section 2–4 lanes",
   "route": {
     "start": "Bantwal Cross Road, Karnataka",
     "end": "Viruthampattu, Tamil Nadu",
@@ -27,6 +29,34 @@
       "Viruthampattu"
     ]
   },
+  "history": "National Highway 75 is the main road between Bengaluru and the port of Mangaluru, running west through Kunigal, Hassan and Sakleshpur and dropping down the Shiradi Ghat to the coast; east of Bengaluru it continues through Kolar to Vellore in Tamil Nadu. The Shiradi Ghat section is the notorious part — a steep, heavily used descent through rainforest that has been rebuilt in concrete more than once after monsoon damage closed it for months at a time.",
+  "facts": [
+    "Carries most road freight between Bengaluru and New Mangalore Port.",
+    "Its Shiradi Ghat section is one of the wettest and most landslide-prone stretches of highway in India.",
+    "Passes Kolar, whose gold mines were among the deepest in the world before they closed.",
+    "Hassan, on the route, is the base for visits to the Hoysala temples at Belur and Halebidu.",
+    "The ghat section has been rebuilt in concrete to survive the monsoon."
+  ],
+  "significance": "Bengaluru is an inland city and Mangaluru is its nearest major port. This is the road between them, so it matters to everything from fuel tankers to coffee exports.",
+  "relatedRoads": [
+    { "id": "nh-73", "label": "The Charmadi Ghat route, the alternative road down to Mangaluru" },
+    { "id": "nh-66", "label": "The coastal highway met at Mangaluru" },
+    { "id": "nice-road", "label": "The peripheral road around Bengaluru this highway feeds" },
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hoskote" },
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Hoskote" },
+    { "id": "nh-44", "label": "Met near Hebbal" }
+  ],
+  "travelNotes": "Allow seven to eight hours Bengaluru to Mangaluru. Shiradi Ghat is slow, wet and often under repair; check before travelling in the monsoon, and consider Charmadi as an alternative.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bantwal Cross Road",
@@ -132,16 +162,6 @@
         79.1386,
         12.93589
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

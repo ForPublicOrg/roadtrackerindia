@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gunnor, Madhya Pradesh",
     "end": "Panna, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Panna"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-55", "label": "Met near Panna" },
+    { "id": "mdr-mp-1812", "label": "Met near Gunnor" },
+    { "id": "mdr-mp-1811", "label": "Met near Gunnor" },
+    { "id": "mdr-mp-1808", "label": "Met near Gunnor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gunnor",
@@ -30,12 +44,6 @@
         80.14777,
         24.64227
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

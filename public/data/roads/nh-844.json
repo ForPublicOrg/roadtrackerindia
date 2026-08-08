@@ -18,6 +18,23 @@
       "Dharmapuri"
     ]
   },
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hosur" },
+    { "id": "nh-44", "label": "Met near Hosur" },
+    { "id": "nh-48", "label": "Met near Hosur" },
+    { "id": "satellite-town-ring-road", "label": "Met near Hosur" },
+    { "id": "sh-tn-60", "label": "Met near Dharmapuri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hosur",
@@ -46,16 +63,6 @@
         78.13399,
         12.11925
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

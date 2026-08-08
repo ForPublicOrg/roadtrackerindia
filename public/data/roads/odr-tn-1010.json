@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholinghur, Tamil Nadu",
     "end": "Lalapet, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Lalapet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-54", "label": "Met near Sholinghur" },
+    { "id": "odr-tn-2692", "label": "Met near Sholinghur" },
+    { "id": "odr-tn-4675", "label": "Met near Lalapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholinghur",
@@ -30,12 +43,6 @@
         79.33439,
         13.08088
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

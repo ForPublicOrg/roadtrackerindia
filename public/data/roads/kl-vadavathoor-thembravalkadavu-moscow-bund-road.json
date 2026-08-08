@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kumaranalloor, Kerala",
     "end": "Manarcadu, Kerala",
@@ -16,6 +17,19 @@
       "Manarcadu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Manarcadu" },
+    { "id": "kl-eranjal-thiruvanchoor-road", "label": "Met near Kottayam" },
+    { "id": "kl-perumkavu-thalappady-madhavanpady-road", "label": "Met near Manarcadu" },
+    { "id": "kl-vadavathoor-road", "label": "Met near Manarcadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumaranalloor",
@@ -37,12 +51,6 @@
         76.56783,
         9.58963
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

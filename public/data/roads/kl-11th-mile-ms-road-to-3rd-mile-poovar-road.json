@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Neyyatinkara, Kerala",
     "end": "Balaramapuram, Kerala",
@@ -16,6 +17,17 @@
       "Balaramapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-neyytinkara-poovar-road", "label": "Met near Neyyatinkara" },
+    { "id": "kl-venpakal-road", "label": "Met near Neyyatinkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Neyyatinkara",
@@ -30,12 +42,6 @@
         77.07366,
         8.40889
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

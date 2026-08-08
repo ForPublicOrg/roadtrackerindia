@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "MIDC Mahad, Maharashtra",
     "end": "Nadgaon Tarf Birwadi, Maharashtra",
@@ -16,6 +17,16 @@
       "Nadgaon Tarf Birwadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Nadgaon Tarf Birwadi" },
+    { "id": "nh-965dd", "label": "Met near MIDC Mahad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "MIDC Mahad",
@@ -30,12 +41,6 @@
         73.46149,
         18.09763
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

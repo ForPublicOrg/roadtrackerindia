@@ -20,6 +20,23 @@
       "Sarkhej"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Maliya" },
+    { "id": "nh-51", "label": "Met near Dhrangadhra" },
+    { "id": "nh-147a", "label": "Met near Dhrangadhra" },
+    { "id": "sh-gj-21", "label": "Met near Halvad" },
+    { "id": "sh-gj-7", "label": "Met near Viramgam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maliya",
@@ -62,16 +79,6 @@
         72.49457,
         22.98697
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

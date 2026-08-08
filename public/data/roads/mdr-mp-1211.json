@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Vindhyanagar, Madhya Pradesh",
     "end": "Singrauli, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Singrauli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Meets this road" },
+    { "id": "mdr-mp-1210", "label": "Met near Singrauli" },
+    { "id": "mdr-mp-1208", "label": "Met near Singrauli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vindhyanagar",
@@ -30,12 +43,6 @@
         82.51599,
         24.21509
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

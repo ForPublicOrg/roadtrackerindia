@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 31.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyacavu, Kerala",
     "end": "Kozhencherry, Kerala",
@@ -18,6 +19,19 @@
       "Kozhencherry"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Mavelikkara" },
+    { "id": "mc-road", "label": "Met near Chengannur" },
+    { "id": "sh-kl-1", "label": "Met near Chengannur" },
+    { "id": "sh-kl-7", "label": "Met near Kozhencherry" },
+    { "id": "sh-kl-6", "label": "Met near Mavelikkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyacavu",
@@ -53,12 +67,6 @@
         76.70813,
         9.32677
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

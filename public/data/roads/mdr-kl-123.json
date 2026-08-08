@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thrikaripur, Kerala",
     "end": "Cheruvathur, Kerala",
@@ -17,6 +18,18 @@
       "Cheruvathur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-chandera-trikaripur-olavara-road", "label": "Met near Thrikaripur" },
+    { "id": "mdr-kl-132", "label": "Met near Thrikaripur" },
+    { "id": "mdr-kl-124", "label": "Met near Cheruvathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thrikaripur",
@@ -38,12 +51,6 @@
         75.15039,
         12.20955
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

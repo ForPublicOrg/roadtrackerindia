@@ -72,6 +72,7 @@ async function boot(): Promise<void> {
 
   state.roads = index.roads
   state.byId = new Map(index.roads.map((r) => [r.id, r]))
+  state.aliases = index.aliases ?? {}
   state.network = network
   emit('dataready', undefined)
 
@@ -158,6 +159,10 @@ async function boot(): Promise<void> {
     opts: { skipFly?: boolean; fromRouter?: boolean; at?: LngLat } = {},
   ) {
     clearOrg()
+    // a link to a road we have since merged into another one still points at a
+    // real road — follow it rather than telling the reader it does not exist
+    const merged = state.aliases[id]
+    if (merged && !state.byId.has(id) && state.byId.has(merged)) id = merged
     const summary = state.byId.get(id)
     if (!summary) {
       toast("We don't have that road catalogued (yet).")

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cheemeni, Kerala",
     "end": "Cherupuzha, Kerala",
@@ -16,6 +17,20 @@
       "Cherupuzha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-15", "label": "Met near Cherupuzha" },
+    { "id": "mdr-kl-120b", "label": "Met near Cheemeni" },
+    { "id": "mdr-kl-134", "label": "Met near Cheemeni" },
+    { "id": "kl-padiyottuchal-odamuttu-road", "label": "Met near Cherupuzha" },
+    { "id": "kl-pothamkandam-athootty-kooliyad-pettikund-pamparigara-pallipp", "label": "Met near Cheemeni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheemeni",
@@ -30,12 +45,6 @@
         75.33272,
         12.25352
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

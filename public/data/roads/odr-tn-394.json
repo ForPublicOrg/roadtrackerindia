@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sevvapet, Tamil Nadu",
     "end": "Veppambaattu, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Veppambaattu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-50", "label": "Met near Sevvapet" },
+    { "id": "odr-tn-6979", "label": "Met near Sevvapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sevvapet",
@@ -30,12 +42,6 @@
         79.95873,
         13.10653
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

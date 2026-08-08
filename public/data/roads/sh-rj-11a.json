@@ -17,6 +17,18 @@
       "Abu Road"
     ]
   },
+  "significance": "SH 11A, Ambaji–Abu Road State Highway, crosses the border between Gujarat and Rajasthan. A state road that runs through more than one state has no single owner — Gujarat R&B and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Abu Road" },
+    { "id": "sh-rj-11", "label": "Met near Abu Road" },
+    { "id": "sh-gj-9", "label": "Met near Ambaji" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambaji",
@@ -31,12 +43,6 @@
         72.78149,
         24.48106
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

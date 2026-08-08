@@ -18,6 +18,19 @@
       "Pirawa"
     ]
   },
+  "significance": "SH 19D, Bhawani Mandi–Pirawa State Highway, crosses the border between Rajasthan and Madhya Pradesh. A state road that runs through more than one state has no single owner — Rajasthan PWD and MP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-rj-19a", "label": "Met near Bhawani Mandi" },
+    { "id": "mdr-rj-177", "label": "Met near Pirawa" },
+    { "id": "mdr-rj-179", "label": "Met near Sunel" },
+    { "id": "mdr-rj-214", "label": "Met near Sunel" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhawani Mandi",
@@ -39,12 +52,6 @@
         76.03712,
         24.16369
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

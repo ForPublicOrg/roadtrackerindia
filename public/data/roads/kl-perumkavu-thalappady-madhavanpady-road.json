@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manarcadu, Kerala",
     "end": "Puthuppally, Kerala",
@@ -16,6 +17,20 @@
       "Puthuppally"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Manarcadu" },
+    { "id": "sh-kl-9", "label": "Met near Puthuppally" },
+    { "id": "kl-puthupally-vennimala-road", "label": "Met near Puthuppally" },
+    { "id": "kl-puthupally-puthusserry-road", "label": "Met near Manarcadu" },
+    { "id": "kl-vadavathoor-thembravalkadavu-moscow-bund-road", "label": "Met near Manarcadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manarcadu",
@@ -30,12 +45,6 @@
         76.5747,
         9.56749
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

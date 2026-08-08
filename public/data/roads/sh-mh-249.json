@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 44.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Katol, Maharashtra",
     "end": "Saoner, Maharashtra",
@@ -16,6 +17,18 @@
       "Saoner"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-753", "label": "Met near Saoner" },
+    { "id": "nh-547e", "label": "Met near Saoner" },
+    { "id": "sh-mh-247", "label": "Met near Katol" },
+    { "id": "sh-mh-250", "label": "Met near Saoner" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Katol",
@@ -30,12 +43,6 @@
         78.91843,
         21.38313
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

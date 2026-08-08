@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 373.9,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Ilkal, Karnataka",
     "end": "Karwar, Karnataka",
@@ -21,6 +22,19 @@
       "Karwar"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Naregal" },
+    { "id": "nh-48", "label": "Met near Bankapur" },
+    { "id": "nh-52", "label": "Met near Yellapur" },
+    { "id": "nh-66", "label": "Met near Karwar" },
+    { "id": "nh-50", "label": "Met near Ilkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ilkal",
@@ -112,12 +126,6 @@
         74.12985,
         14.80744
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

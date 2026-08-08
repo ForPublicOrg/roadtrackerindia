@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 4.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Narasothipatti, Tamil Nadu",
     "end": "Salem, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Salem"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Salem" },
+    { "id": "sh-tn-188", "label": "Met near Salem" },
+    { "id": "sh-tn-u80", "label": "Met near Salem" },
+    { "id": "sh-tn-u54", "label": "Met near Salem" },
+    { "id": "sh-tn-u64", "label": "Met near Salem" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Narasothipatti",
@@ -60,12 +74,6 @@
         78.15851,
         11.65483
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

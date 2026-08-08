@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 22.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chetpet, Tamil Nadu",
     "end": "Tiruvannamalai, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Tiruvannamalai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Tiruvannamalai" },
+    { "id": "sh-tn-9", "label": "Met near Tiruvannamalai" },
+    { "id": "sh-tn-4a", "label": "Meets this road" },
+    { "id": "sh-tn-248", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chetpet",
@@ -30,12 +43,6 @@
         79.07468,
         12.24412
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

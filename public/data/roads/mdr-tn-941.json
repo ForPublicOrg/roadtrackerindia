@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kattakada, Kerala",
     "end": "Kuzhithura, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Kuzhithura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kuzhithura" },
+    { "id": "sh-tn-45", "label": "Met near Kulasekaram" },
+    { "id": "sh-tn-181", "label": "Met near Kuzhithura" },
+    { "id": "mdr-tn-933", "label": "Met near Kulasekaram" },
+    { "id": "mdr-tn-1162", "label": "Met near Kulasekaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kattakada",
@@ -30,12 +45,6 @@
         77.20547,
         8.31676
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

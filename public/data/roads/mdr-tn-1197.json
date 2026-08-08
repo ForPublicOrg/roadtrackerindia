@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sitapatti, Tamil Nadu",
     "end": "Vallam, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Vallam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-99", "label": "Met near Sitapatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sitapatti",
@@ -30,12 +41,6 @@
         79.0202,
         10.70741
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

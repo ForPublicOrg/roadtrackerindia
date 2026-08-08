@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vandipetta, Kerala",
     "end": "Chingavanam, Kerala",
@@ -16,6 +17,23 @@
       "Chingavanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-11", "label": "Met near Changanassery" },
+    { "id": "kl-mancomb-kavalam-vikas-marg-road", "label": "Met near Changanassery" },
+    {
+      "id": "kl-narakathara-payattupakka-chakka-chambakka-akkanady-neelamper",
+      "label": "Met near Chingavanam"
+    },
+    { "id": "kl-kidangara-kannady-road", "label": "Met near Changanassery" },
+    { "id": "kl-cherukara-lisieux-road", "label": "Met near Changanassery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vandipetta",
@@ -30,12 +48,6 @@
         76.50855,
         9.50281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

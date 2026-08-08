@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Shanti Nagar, Tamil Nadu",
     "end": "Tirunelveli, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Tirunelveli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Thalaiyuthu" },
+    { "id": "sh-tn-75", "label": "Met near Thalaiyuthu" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-75a", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-114", "label": "Met near Thalaiyuthu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shanti Nagar",
@@ -38,12 +53,6 @@
         77.7141,
         8.74127
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

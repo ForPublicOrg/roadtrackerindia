@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 68.1,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Dasuya, Punjab",
     "end": "Balachaur, Punjab",
@@ -19,6 +20,19 @@
       "Balachaur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Dasuya" },
+    { "id": "nh-3", "label": "Met near Hoshiarpur" },
+    { "id": "nh-503a", "label": "Met near Hoshiarpur" },
+    { "id": "nh-103a", "label": "Met near Hoshiarpur" },
+    { "id": "mdr-pb-56", "label": "Met near Balachaur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dasuya",
@@ -54,12 +68,6 @@
         76.29269,
         31.05225
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

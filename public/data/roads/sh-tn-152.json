@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 42.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Oddanchatram, Tamil Nadu",
     "end": "Seelapadi, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Seelapadi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vedasandur" },
+    { "id": "nh-83", "label": "Met near Oddanchatram" },
+    { "id": "sh-tn-74", "label": "Met near Vedasandur" },
+    { "id": "sh-tn-193", "label": "Met near Vedasandur" },
+    { "id": "sh-tn-u10", "label": "Met near Dindigul" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Oddanchatram",
@@ -38,12 +52,6 @@
         78.10007,
         10.44345
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

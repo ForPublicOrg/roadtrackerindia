@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sohagpur, Madhya Pradesh",
     "end": "Baraily, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Baraily"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Sohagpur" },
+    { "id": "mdr-mp-3314", "label": "Met near Sohagpur" },
+    { "id": "mdr-mp-3303", "label": "Met near Sohagpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sohagpur",
@@ -30,12 +43,6 @@
         78.17083,
         22.87768
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

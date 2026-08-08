@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pazhakutty, Kerala",
     "end": "Nedumangad, Kerala",
@@ -16,6 +17,17 @@
       "Nedumangad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "kl-anad-branch-road-attukal-panavoor-road", "label": "Met near Nedumangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pazhakutty",
@@ -30,12 +42,6 @@
         77.01929,
         8.64884
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

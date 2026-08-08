@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pallipattu, Tamil Nadu",
     "end": "Srirangarajapuram, Andhra Pradesh",
@@ -16,6 +17,19 @@
       "Srirangarajapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-716b", "label": "Met near Pallipattu" },
+    { "id": "sh-tn-108", "label": "Met near Pallipattu" },
+    { "id": "odr-tn-7688", "label": "Met near Pallipattu" },
+    { "id": "odr-tn-5689", "label": "Met near Pallipattu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pallipattu",
@@ -30,12 +44,6 @@
         79.41915,
         13.3151
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

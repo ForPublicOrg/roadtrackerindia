@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 178.8,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Badami, Karnataka",
     "end": "Siruguppa, Karnataka",
@@ -19,6 +20,19 @@
       "Siruguppa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-50", "label": "Meets this road" },
+    { "id": "nh-150a", "label": "Met near Siruguppa" },
+    { "id": "nh-367", "label": "Met near Badami" },
+    { "id": "sh-ka-6", "label": "Met near Gajendragad" },
+    { "id": "sh-ka-30", "label": "Met near Gajendragad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badami",
@@ -54,12 +68,6 @@
         76.89294,
         15.63604
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

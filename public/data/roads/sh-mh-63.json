@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 112.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Wai, Maharashtra",
     "end": "Kedgaon, Maharashtra",
@@ -18,6 +19,19 @@
       "Kedgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Bhor" },
+    { "id": "nh-48", "label": "Met near Wai" },
+    { "id": "nh-65", "label": "Met near Kedgaon" },
+    { "id": "nh-965", "label": "Met near Saswad" },
+    { "id": "nh-965dd", "label": "Met near Bhor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wai",
@@ -46,12 +60,6 @@
         74.26299,
         18.47758
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

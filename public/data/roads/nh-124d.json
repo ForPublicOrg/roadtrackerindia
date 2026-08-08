@@ -17,6 +17,22 @@
       "Dullahapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Saidpur" },
+    { "id": "nh-24", "label": "Met near Mau" },
+    { "id": "sh-up-67", "label": "Met near Deva" },
+    { "id": "sh-up-106e", "label": "Met near Deva" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saidpur",
@@ -38,16 +54,6 @@
         83.55594,
         25.80822
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

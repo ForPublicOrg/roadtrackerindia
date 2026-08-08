@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Verappampalayam, Tamil Nadu",
     "end": "Periyasemur, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Periyasemur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Periyasemur" },
+    { "id": "sh-tn-15", "label": "Met near Periyasemur" },
+    { "id": "sh-tn-96", "label": "Met near Erode" },
+    { "id": "sh-tn-173", "label": "Met near Erode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Verappampalayam",
@@ -39,12 +53,6 @@
         77.69612,
         11.36574
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

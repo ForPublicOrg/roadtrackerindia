@@ -17,6 +17,26 @@
       "Chausa"
     ]
   },
+  "significance": "NH 319A is a branch of NH 319. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Mohania to Chausa, and it meets NH 319 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-319",
+      "label": "NH 319 — the highway this branch takes its number from, running Mohania to Arrah"
+    },
+    { "id": "nh-219", "label": "Met near Mohania" },
+    { "id": "nh-124c", "label": "Met near Chausa" },
+    { "id": "sh-br-17", "label": "Met near Chausa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mohania",
@@ -38,16 +58,6 @@
         83.88587,
         25.49899
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

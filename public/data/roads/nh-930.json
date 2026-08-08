@@ -23,6 +23,23 @@
       "Pandharkawada"
     ]
   },
+  "relatedRoads": [
+    { "id": "hyderabad-raipur-expressway", "label": "Met near Saoli" },
+    { "id": "nh-44", "label": "Met near Pandharkawada" },
+    { "id": "nh-353c", "label": "Met near Gadchiroli" },
+    { "id": "nh-353e", "label": "Met near Warora" },
+    { "id": "nh-930d", "label": "Met near Chandrapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhamtari",
@@ -100,16 +117,6 @@
         78.62375,
         20.13788
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

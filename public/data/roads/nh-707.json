@@ -18,6 +18,22 @@
       "Paonta Sahib"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-707a", "label": "A branch off this highway, running Srinagar to Mussoorie" },
+    { "id": "nh-7", "label": "Met near Paonta Sahib" },
+    { "id": "nh-705", "label": "Met near Sawra" },
+    { "id": "sh-hp-8", "label": "Met near Tiuni" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sawra",
@@ -39,16 +55,6 @@
         77.60631,
         30.44437
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

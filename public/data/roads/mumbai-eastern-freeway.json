@@ -8,11 +8,6 @@
   "lanes": "4 lanes, with no traffic signals; 8 lanes on the Anik–Panjarpol link",
   "agency": "MMRDA",
   "authority": "mmrda",
-  "tollInfo": {
-    "tolled": false,
-    "note": "Free to use — there is no toll plaza anywhere on the freeway."
-  },
-  "newsQuery": "\"Eastern Freeway\" Mumbai",
   "route": {
     "start": "P D'Mello Road (Orange Gate), Mumbai",
     "end": "Chheda Nagar, Ghatkopar, Mumbai",
@@ -27,6 +22,7 @@
       "Ghatkopar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "There is no toll plaza anywhere on the freeway." },
   "timeline": [
     {
       "year": "2013",
@@ -68,12 +64,18 @@
   "relatedRoads": [
     { "id": "atal-setu", "label": "The sea bridge to Navi Mumbai that joins the freeway at Sewri" },
     { "id": "eastern-express-highway", "label": "Carries on north from Chheda Nagar toward Thane" },
-    { "id": "mumbai-coastal-road", "label": "The freeway's opposite number on the western shore; twin tunnels are being dug to link the two" }
+    {
+      "id": "mumbai-coastal-road",
+      "label": "The freeway's opposite number on the western shore; twin tunnels are being dug to link the two"
+    },
+    { "id": "nh-48", "label": "Met near Mumbai" },
+    { "id": "sion-panvel-highway", "label": "Met near Mumbai" }
   ],
   "travelNotes": "End to end takes about 20 minutes, against an hour or more on the old surface roads. There is no toll and no signal anywhere on it. It is busiest heading south into the city in the morning and north in the evening, plus a burst of Atal Setu traffic at the Sewri ramps. There are no fuel pumps or food stops on the elevated section itself, so fill up before you get on.",
   "futureUpgrades": [
     "MMRDA is boring twin tunnels from Orange Gate to Marine Drive, due around 2028, which will link the Eastern Freeway directly to the Mumbai Coastal Road."
   ],
+  "newsQuery": "\"Eastern Freeway\" Mumbai",
   "sources": [
     {
       "title": "MMRDA — Mumbai Metropolitan Region Development Authority",

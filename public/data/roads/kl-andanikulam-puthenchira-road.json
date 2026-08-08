@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valiyaparambu, Kerala",
     "end": "Irinjalakuda, Kerala",
@@ -16,6 +17,20 @@
       "Irinjalakuda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Irinjalakuda" },
+    { "id": "kl-kombathukadavu-road", "label": "Met near Valiyaparambu" },
+    { "id": "kl-kombodinjamakkal-road", "label": "Met near Irinjalakuda" },
+    { "id": "kl-mala-puthenchira-road", "label": "Met near Valiyaparambu" },
+    { "id": "mdr-kl-243", "label": "Met near Valiyaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valiyaparambu",
@@ -30,12 +45,6 @@
         76.21935,
         10.3155
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,20 @@
       "Qazigund"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Qazigund" },
+    { "id": "nh-1", "label": "Met near Srinagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bemina",
@@ -76,16 +90,6 @@
         75.15827,
         33.60016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bairagarh, Madhya Pradesh",
     "end": "Bhopal, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Bhopal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3120", "label": "Met near Bairagarh" },
+    { "id": "mdr-mp-3122", "label": "Met near Sehore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bairagarh",
@@ -30,12 +42,6 @@
         77.27393,
         23.27754
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

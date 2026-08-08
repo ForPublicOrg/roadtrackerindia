@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanjikode, Kerala",
     "end": "Kozhinjampara, Kerala",
@@ -16,6 +17,18 @@
       "Kozhinjampara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Kanjikode" },
+    { "id": "kl-menonpara-kanjikode-road", "label": "Met near Kanjikode" },
+    { "id": "kl-menonpara-chullimada-road", "label": "Met near Kanjikode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanjikode",
@@ -30,12 +43,6 @@
         76.78541,
         10.78949
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

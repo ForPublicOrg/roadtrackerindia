@@ -23,6 +23,23 @@
       "Shahdol"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Mandla" },
+    { "id": "nh-53", "label": "Met near Deori" },
+    { "id": "nh-45", "label": "Met near Gada Sarai" },
+    { "id": "nh-353c", "label": "Met near Desaiganj" },
+    { "id": "nh-753", "label": "Met near Gondia" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bramhapuri",
@@ -100,16 +117,6 @@
         81.35884,
         23.29695
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

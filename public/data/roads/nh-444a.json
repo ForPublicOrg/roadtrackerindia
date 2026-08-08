@@ -16,6 +16,20 @@
       "Shahbad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Shahbad" },
+    { "id": "sh-hr-5", "label": "Met near Sadar Bazaar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sadar Bazaar",
@@ -30,16 +44,6 @@
         76.85891,
         30.19131
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

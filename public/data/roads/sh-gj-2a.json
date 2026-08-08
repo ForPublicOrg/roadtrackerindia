@@ -17,6 +17,19 @@
       "Simalwara"
     ]
   },
+  "significance": "SH 2A, Santrampur–Simalwara State Highway, crosses the border between Gujarat and Rajasthan. A state road that runs through more than one state has no single owner — Gujarat R&B and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-gj-63", "label": "Met near Santrampur" },
+    { "id": "sh-gj-2", "label": "Met near Santrampur" },
+    { "id": "sh-rj-54", "label": "Met near Simalwara" },
+    { "id": "sh-gj-191", "label": "Met near Santrampur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Santrampur",
@@ -31,12 +44,6 @@
         73.80532,
         23.43797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

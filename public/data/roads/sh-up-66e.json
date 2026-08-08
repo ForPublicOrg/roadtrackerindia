@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 90.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Musarfirkhana, Uttar Pradesh",
     "end": "Shahganj, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Shahganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Meets this road" },
+    { "id": "nh-330", "label": "Met near Kurebhar" },
+    { "id": "nh-135a", "label": "Met near Shahganj" },
+    { "id": "nh-128", "label": "Met near Kurebhar" },
+    { "id": "nh-330a", "label": "Met near Musarfirkhana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Musarfirkhana",
@@ -38,12 +52,6 @@
         82.68333,
         26.16481
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Manoharpur, Rajasthan",
     "end": "Khejroli, Rajasthan",
@@ -16,6 +17,19 @@
       "Khejroli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Manoharpur" },
+    { "id": "sh-rj-37", "label": "Met near Manoharpur" },
+    { "id": "sh-rj-37c", "label": "Met near Khejroli" },
+    { "id": "mdr-rj-188", "label": "Met near Manoharpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manoharpur",
@@ -30,12 +44,6 @@
         75.72921,
         27.27596
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

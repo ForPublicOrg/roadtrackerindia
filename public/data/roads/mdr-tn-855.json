@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Namagiripettai, Tamil Nadu",
     "end": "Annanagar, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Annanagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-79", "label": "Met near Namagiripettai" },
+    { "id": "sh-tn-95", "label": "Met near Namagiripettai" },
+    { "id": "mdr-tn-856", "label": "Met near Namagiripettai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Namagiripettai",
@@ -30,12 +43,6 @@
         78.27052,
         11.45652
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

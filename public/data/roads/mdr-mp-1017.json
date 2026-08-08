@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gurh, Madhya Pradesh",
     "end": "Rewa, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Rewa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-1008", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gurh",
@@ -30,12 +41,6 @@
         81.40242,
         24.71512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

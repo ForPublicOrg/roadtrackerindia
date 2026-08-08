@@ -16,6 +16,22 @@
       "Dohrighat"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Met near Azamgarh" },
+    { "id": "nh-24", "label": "Met near Dohrighat" },
+    { "id": "nh-28", "label": "Met near Azamgarh" },
+    { "id": "nh-90e", "label": "Met near Mubarakpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Azamgarh",
@@ -30,16 +46,6 @@
         83.47701,
         26.25171
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

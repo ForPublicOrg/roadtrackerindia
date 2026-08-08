@@ -16,6 +16,21 @@
       "Nganglam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Pathsala" },
+    { "id": "sh-as-6", "label": "Met near Mushalpur" },
+    { "id": "sh-as-9a", "label": "Met near Pathsala" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pathsala",
@@ -30,16 +45,6 @@
         91.26482,
         26.80407
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

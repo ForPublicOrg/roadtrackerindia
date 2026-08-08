@@ -16,6 +16,23 @@
       "Purulia"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Purulia" },
+    { "id": "nh-14", "label": "Met near Bankura" },
+    { "id": "nh-218", "label": "Met near Purulia" },
+    { "id": "sh-wb-5", "label": "Met near Purulia" },
+    { "id": "sh-wb-9", "label": "Met near Bankura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bankura",
@@ -37,16 +54,6 @@
         86.378,
         23.33242
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

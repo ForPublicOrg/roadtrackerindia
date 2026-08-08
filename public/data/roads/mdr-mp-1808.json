@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gunnor, Madhya Pradesh",
     "end": "Devendranagar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Devendranagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Devendranagar" },
+    { "id": "mdr-mp-1812", "label": "Met near Gunnor" },
+    { "id": "mdr-mp-1810", "label": "Met near Gunnor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gunnor",
@@ -30,12 +43,6 @@
         80.27888,
         24.64766
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

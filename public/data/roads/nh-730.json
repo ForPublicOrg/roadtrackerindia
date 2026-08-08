@@ -24,6 +24,24 @@
       "Tamkuhi Raj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-730a", "label": "A branch off this highway, running Misrikh to Puranpur" },
+    { "id": "nh-730h", "label": "A branch off this highway, running Rupadiya to Tikapur" },
+    { "id": "nh-730s", "label": "A branch off this highway, running Maharajganj to Nichlaul" },
+    { "id": "nh-27", "label": "Met near Tamkuhi Raj" },
+    { "id": "nh-731", "label": "Met near Mailani" },
+    { "id": "nh-24", "label": "Met near Anand Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pilibhit",
@@ -129,16 +147,6 @@
         84.17962,
         26.68859
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

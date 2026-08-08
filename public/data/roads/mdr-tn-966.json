@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vedasandur, Tamil Nadu",
     "end": "Begambur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Begambur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vedasandur" },
+    { "id": "nh-83", "label": "Met near Dindigul" },
+    { "id": "sh-tn-193", "label": "Met near Vedasandur" },
+    { "id": "sh-tn-152", "label": "Met near Vedasandur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vedasandur",
@@ -30,12 +44,6 @@
         77.86814,
         10.42986
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

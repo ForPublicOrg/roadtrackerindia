@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 23.6,
+  "authority": "assam-pwd",
   "route": {
     "start": "Barama, Assam",
     "end": "Mushalpur, Assam",
@@ -16,6 +17,18 @@
       "Mushalpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Barama" },
+    { "id": "nh-127e", "label": "Met near Barama" },
+    { "id": "sh-as-10", "label": "Met near Barama" },
+    { "id": "sh-as-6", "label": "Met near Mushalpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barama",
@@ -30,12 +43,6 @@
         91.34007,
         26.66686
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kumaranalloor, Kerala",
     "end": "Ettumanoor, Kerala",
@@ -17,6 +18,20 @@
       "Ettumanoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Ettumanoor" },
+    { "id": "sh-kl-1", "label": "Met near Ettumanoor" },
+    { "id": "kl-ettumanoor-vechoor-road", "label": "Met near Ettumanoor" },
+    { "id": "kl-pattithanam-manarcad-bypass", "label": "Met near Ettumanoor" },
+    { "id": "kl-shutterkavala-pallikkunnu-kandanchira-aruvakurinji-road", "label": "Met near Ettumanoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumaranalloor",
@@ -45,12 +60,6 @@
         76.55663,
         9.66854
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

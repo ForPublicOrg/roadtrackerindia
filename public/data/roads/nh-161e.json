@@ -18,6 +18,26 @@
       "Badnera"
     ]
   },
+  "significance": "NH 161E is a branch of NH 161. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Washim to Badnera, and it meets NH 161 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-161",
+      "label": "NH 161 — the highway this branch takes its number from, running Sangareddy to Washim"
+    },
+    { "id": "samruddhi-mahamarg", "label": "Met near Karanja Lad" },
+    { "id": "nh-53", "label": "Met near Badnera" },
+    { "id": "nh-161a", "label": "Met near Mangrul Pir" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Washim",
@@ -46,16 +66,6 @@
         77.63474,
         20.76615
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

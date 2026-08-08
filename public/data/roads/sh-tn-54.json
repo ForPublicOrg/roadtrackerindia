@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 49.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Tiruttani, Tamil Nadu",
     "end": "Gangadharanellore, Andhra Pradesh",
@@ -17,6 +18,19 @@
       "Gangadharanellore"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-58", "label": "Met near Tiruttani" },
+    { "id": "sh-tn-61", "label": "Met near Sholinghur" },
+    { "id": "sh-tn-106", "label": "Met near Tiruttani" },
+    { "id": "sh-tn-124a", "label": "Met near Lalapet" },
+    { "id": "sh-tn-108", "label": "Met near Palasamudram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tiruttani",
@@ -38,12 +52,6 @@
         79.22139,
         13.15524
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

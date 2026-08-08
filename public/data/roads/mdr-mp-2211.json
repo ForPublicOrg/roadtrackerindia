@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rampura, Madhya Pradesh",
     "end": "Shamgarh, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Shamgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2207", "label": "Met near Shamgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rampura",
@@ -30,12 +41,6 @@
         75.56787,
         24.22665
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

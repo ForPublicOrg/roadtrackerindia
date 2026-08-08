@@ -1,10 +1,14 @@
 {
   "id": "western-freeway",
-  "ref": "NH",
-  "name": "Western Freeway",
+  "ref": "Western Freeway",
+  "name": "Mumbai Western Freeway",
+  "aka": ["Mumbai Coastal Road corridor", "Versova–Bandra–Worli–Marine Drive corridor"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 27.1,
+  "lanes": "6–8 lanes, mostly access-controlled, with tunnels and sea bridges",
+  "agency": "MSRDC",
+  "authority": "msrdc",
   "route": {
     "start": "Versova, Maharashtra",
     "end": "Kalbadevi, Maharashtra",
@@ -19,6 +23,35 @@
       "Kalbadevi"
     ]
   },
+  "history": "The Western Freeway is the name for the whole fast road being built down Mumbai's western shore, from Versova in the north to the southern tip of the island city. It is not one project but three joined end to end: the Bandra–Worli Sea Link, opened in 2009; the Coastal Road from Worli to Marine Drive, opened in 2024; and the Versova–Bandra link still being built north of that. Together they give the west side of Mumbai something it has never had — a road with no traffic lights, no junctions and no level crossings — as an alternative to the packed Western Express Highway further inland.",
+  "facts": [
+    "Made of three parts: the Bandra–Worli Sea Link, the Coastal Road and the Versova–Bandra Sea Link.",
+    "The Coastal Road section carries India's widest road tunnels, bored under Malabar Hill.",
+    "It is Mumbai's western counterpart to the Eastern Freeway on the harbour side of the city.",
+    "The route is built partly on reclaimed land and partly on bridges out over the sea.",
+    "Much of the reclaimed land alongside it is being laid out as public parks and promenades."
+  ],
+  "significance": "Mumbai is a long, narrow city, so almost every trip is a north–south one, and for decades all of them squeezed onto two inland highways. This shoreline route is the first genuine third option on the western side, and it takes the journey from the northern suburbs to the business districts of south Mumbai down from hours to minutes.",
+  "relatedRoads": [
+    { "id": "mumbai-coastal-road", "label": "The Worli–Marine Drive section, opened in 2024" },
+    {
+      "id": "mumbai-eastern-freeway",
+      "label": "The matching fast road on the eastern, harbour side of Mumbai"
+    },
+    { "id": "western-express-highway", "label": "The older inland highway this route relieves" },
+    { "id": "atal-setu", "label": "The sea bridge that carries traffic on across the harbour to Navi Mumbai" }
+  ],
+  "travelNotes": "Two-wheelers and slow vehicles are not allowed on the sea link or the coastal road sections. Sections open at different times as construction finishes, so check which stretch is running before planning a trip end to end.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Versova",
@@ -82,16 +115,6 @@
         72.82325,
         18.94287
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

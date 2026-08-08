@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Aluva, Kerala",
     "end": "Kothamangalam, Kerala",
@@ -17,6 +18,19 @@
       "Kothamangalam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-85", "label": "Met near Kothamangalam" },
+    { "id": "mc-road", "label": "Met near Perumbavoor" },
+    { "id": "sh-kl-1", "label": "Met near Perumbavoor" },
+    { "id": "kl-perumbavoor-puthencruz-road", "label": "Met near Perumbavoor" },
+    { "id": "kl-keezhillam-kurichilacode-road", "label": "Met near Perumbavoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aluva",
@@ -38,12 +52,6 @@
         76.61814,
         10.06587
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

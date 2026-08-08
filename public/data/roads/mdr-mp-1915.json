@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Banda, Madhya Pradesh",
     "end": "Shahgarh, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Shahgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-934", "label": "Met near Banda" },
+    { "id": "sh-mp-19", "label": "Met near Banda" },
+    { "id": "mdr-mp-1903", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banda",
@@ -30,12 +43,6 @@
         78.93602,
         24.29255
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

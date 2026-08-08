@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 49.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pandhurna, Madhya Pradesh",
     "end": "Sausar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Sausar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Pandhurna" },
+    { "id": "nh-547", "label": "Met near Sausar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pandhurna",
@@ -30,12 +42,6 @@
         78.7965,
         21.64755
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

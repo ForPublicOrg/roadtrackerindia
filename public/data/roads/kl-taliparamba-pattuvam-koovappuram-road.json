@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chiravakku, Kerala",
     "end": "Muttukandi, Kerala",
@@ -17,6 +18,23 @@
       "Muttukandi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Taliparamba" },
+    { "id": "sh-kl-36", "label": "Met near Taliparamba" },
+    { "id": "mdr-kl-2", "label": "Met near Chiravakku" },
+    {
+      "id": "kl-kavinmunambu-mullool-vellikkeel-7th-mile-trichambaram-muyyam",
+      "label": "Met near Pazhayangadi"
+    },
+    { "id": "kl-kuppam-parammelkadavu-muthukuda-kavungal-road", "label": "Met near Chiravakku" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chiravakku",
@@ -31,12 +49,6 @@
         75.30414,
         12.01703
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

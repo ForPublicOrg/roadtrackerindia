@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mullakkal, Kerala",
     "end": "Vellakinar, Kerala",
@@ -16,6 +17,17 @@
       "Vellakinar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-11", "label": "Met near Alappuzha" },
+    { "id": "kl-nedumudy-kuppapuram-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mullakkal",
@@ -30,12 +42,6 @@
         76.38462,
         9.47955
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

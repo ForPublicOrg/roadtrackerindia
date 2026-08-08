@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 75,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Harur, Tamil Nadu",
     "end": "Tiruvannamalai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tiruvannamalai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-179b", "label": "Met near Tiruvannamalai" },
+    { "id": "nh-179a", "label": "Met near Harur" },
+    { "id": "sh-tn-6", "label": "Met near Tiruvannamalai" },
+    { "id": "sh-tn-6b", "label": "Met near Tiruvannamalai" },
+    { "id": "mdr-tn-777", "label": "Met near Harur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Harur",
@@ -30,12 +44,6 @@
         79.03671,
         12.19468
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

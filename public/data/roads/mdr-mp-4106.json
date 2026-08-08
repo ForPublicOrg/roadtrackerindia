@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dhanora, Madhya Pradesh",
     "end": "Ghansor, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Ghansor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-33", "label": "Met near Ghansor" },
+    { "id": "mdr-mp-4104", "label": "Met near Dhanora" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhanora",
@@ -30,12 +42,6 @@
         79.93791,
         22.65269
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

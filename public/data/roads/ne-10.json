@@ -1,10 +1,13 @@
 {
   "id": "ne-10",
   "ref": "NE 10",
-  "name": "Vadgaon–Jawaharnagar Expressway",
+  "name": "Belagavi–Raichur Greenfield Highway",
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 315.7,
+  "lanes": "4 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Vadgaon, Karnataka",
     "end": "Jawaharnagar, Karnataka",
@@ -22,6 +25,32 @@
       "Jawaharnagar"
     ]
   },
+  "history": "This is a new road being cut across northern Karnataka, from Belagavi near the Maharashtra border east through Bagalkot district and Ilkal to Raichur on the Telangana side. Northern Karnataka is dry, thinly served farming country, and until now getting across it has meant a slow run on state highways through every town on the way. The greenfield alignment skirts them all.",
+  "facts": [
+    "Crosses northern Karnataka from Belagavi to Raichur, districts with no fast road today.",
+    "A greenfield road, built on a new alignment rather than by widening an old one.",
+    "It passes near Badami and Aihole, the rock-cut temple sites of the Chalukya kings.",
+    "Ilkal, on the route, is famous for its handloom sarees, and Raichur for its granite."
+  ],
+  "significance": "Northern Karnataka has long been the part of the state furthest from any expressway. This road gives its farming and quarrying districts a direct route east towards Hyderabad and west towards the coast.",
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Belagavi" },
+    { "id": "nh-52", "label": "Met near Keruru" },
+    { "id": "nh-50", "label": "Met near Hunagund" },
+    { "id": "nh-150a", "label": "Met near Lingasugur" },
+    { "id": "nh-167", "label": "Met near Raichur" }
+  ],
+  "travelNotes": "Being built in sections. The existing route between these cities runs on state highways through the towns.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vadgaon",
@@ -113,16 +142,6 @@
         77.48617,
         16.20731
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,26 @@
       "Sonari"
     ]
   },
+  "significance": "NH 702C is a branch of NH 702. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Sivasagar to Sonari, and it meets NH 702 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-702",
+      "label": "NH 702 — the highway this branch takes its number from, running Changtongya to Jaboka"
+    },
+    { "id": "nh-2", "label": "Met near Sivasagar" },
+    { "id": "sh-as-7", "label": "Met near Nazira" },
+    { "id": "sh-as-1", "label": "Met near Sonari" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sivasagar",
@@ -38,16 +58,6 @@
         95.01734,
         27.02627
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

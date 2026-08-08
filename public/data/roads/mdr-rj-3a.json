@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 112.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sapotra, Rajasthan",
     "end": "Kailaras, Madhya Pradesh",
@@ -18,6 +19,19 @@
       "Kailaras"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-23", "label": "Met near Sarmathura" },
+    { "id": "sh-rj-22", "label": "Met near Mandrail" },
+    { "id": "sh-rj-123", "label": "Meets this road" },
+    { "id": "mdr-rj-3", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sapotra",
@@ -46,12 +60,6 @@
         77.56794,
         26.43455
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

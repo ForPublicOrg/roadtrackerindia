@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 16,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thriprayar, Kerala",
     "end": "West Fort, Kerala",
@@ -17,6 +18,19 @@
       "West Fort"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thriprayar" },
+    { "id": "mdr-kl-187", "label": "Met near Thriprayar" },
+    { "id": "kl-thriprayar-kanjany-chavakkad-road", "label": "Met near Thriprayar" },
+    { "id": "kl-pullu-manakkody-road", "label": "Met near Thrissur" },
+    { "id": "kl-karamukku-enamavu-road", "label": "Met near Thriprayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thriprayar",
@@ -31,12 +45,6 @@
         76.20197,
         10.52212
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

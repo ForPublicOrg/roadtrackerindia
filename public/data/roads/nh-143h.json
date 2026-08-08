@@ -17,6 +17,24 @@
       "Rajgangpur"
     ]
   },
+  "significance": "NH 143H is a branch of NH 143. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Biramitrapur to Rajgangpur, and it meets NH 143 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-143",
+      "label": "NH 143 — the highway this branch takes its number from, running PurunapaniRange to Gumla"
+    },
+    { "id": "sh-or-10", "label": "Met near Rajgangpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Biramitrapur",
@@ -31,16 +49,6 @@
         84.48073,
         22.22301
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

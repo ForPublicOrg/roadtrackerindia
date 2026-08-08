@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kaloth, Kerala",
     "end": "Areekode, Kerala",
@@ -16,6 +17,18 @@
       "Areekode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-manjeri-kizhisseri-road", "label": "Met near Areekode" },
+    { "id": "kl-perakamanna-kuzhiyamparamba-road", "label": "Met near Areekode" },
+    { "id": "kl-palakkad-mongam-road", "label": "Met near Kondotty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaloth",
@@ -30,12 +43,6 @@
         76.0526,
         11.19014
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

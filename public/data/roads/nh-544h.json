@@ -20,6 +20,26 @@
       "Bommiampatty"
     ]
   },
+  "significance": "NH 544H is a branch of NH 544. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Veerappanchatiram to Bommiampatty, and it meets NH 544 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-544",
+      "label": "NH 544 — the highway this branch takes its number from, running Edappally to Kandhampatty"
+    },
+    { "id": "nh-44", "label": "Met near Bommiampatty" },
+    { "id": "nh-381a", "label": "Met near Erode" },
+    { "id": "sh-tn-15", "label": "Met near Periyasemur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Veerappanchatiram",
@@ -69,16 +89,6 @@
         78.05425,
         11.93705
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

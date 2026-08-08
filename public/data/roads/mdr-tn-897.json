@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Naidupuram, Tamil Nadu",
     "end": "Kodaikanal, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Kodaikanal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-156", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-170", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-217", "label": "Met near Kodaikanal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Naidupuram",
@@ -30,12 +43,6 @@
         77.48747,
         10.2386
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

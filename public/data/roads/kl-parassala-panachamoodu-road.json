@@ -17,6 +17,21 @@
       "Neyyatinkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Parassala - Panachamoodu Road, crosses the border between Kerala and Tamil Nadu. A state road that runs through more than one state has no single owner — Kerala PWD and TN Highways each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Parassala" },
+    { "id": "sh-kl-3", "label": "Met near Parassala" },
+    { "id": "sh-tn-181", "label": "Met near Parassala" },
+    { "id": "kl-arattukuzhi-amboori-neyyar-dam-road", "label": "Met near Parassala" },
+    { "id": "kl-chempoor-road", "label": "Met near Parassala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parassala",
@@ -31,12 +46,6 @@
         77.19506,
         8.45385
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

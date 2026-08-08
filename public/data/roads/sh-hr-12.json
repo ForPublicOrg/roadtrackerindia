@@ -19,6 +19,20 @@
       "Rajgarh"
     ]
   },
+  "significance": "SH 12, Jind–Rajgarh State Highway, crosses the border between Haryana and Rajasthan. A state road that runs through more than one state has no single owner — Haryana PWD (B&R) and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met near Hansi" },
+    { "id": "nh-148b", "label": "Met near Hansi" },
+    { "id": "nh-709a", "label": "Met near Jind" },
+    { "id": "sh-hr-10", "label": "Met near Jind" },
+    { "id": "sh-hr-110", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jind",
@@ -47,12 +61,6 @@
         75.55401,
         28.62175
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

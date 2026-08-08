@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Panathur, Kerala",
     "end": "Badiadka, Kerala",
@@ -17,6 +18,20 @@
       "Badiadka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Mulleria" },
+    { "id": "sh-kl-56", "label": "Met near Panathur" },
+    { "id": "sh-kl-55", "label": "Met near Mulleria" },
+    { "id": "sh-kl-31", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-99", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panathur",
@@ -38,12 +53,6 @@
         75.07445,
         12.5837
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

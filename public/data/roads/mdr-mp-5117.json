@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Shapur, Madhya Pradesh",
     "end": "Jalgaon Jamod, Maharashtra",
@@ -16,6 +17,16 @@
       "Jalgaon Jamod"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-5116", "label": "Met near Shapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shapur",
@@ -30,12 +41,6 @@
         76.38933,
         21.12043
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

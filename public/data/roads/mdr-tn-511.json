@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kinathukadavu, Tamil Nadu",
     "end": "Eripalayam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Eripalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Met near Udumalaipettai" },
+    { "id": "sh-tn-21", "label": "Met near Udumalaipettai" },
+    { "id": "sh-tn-87", "label": "Met near Udumalaipettai" },
+    { "id": "mdr-tn-155", "label": "Meets this road" },
+    { "id": "mdr-tn-881", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kinathukadavu",
@@ -31,12 +46,6 @@
         77.24541,
         10.5955
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

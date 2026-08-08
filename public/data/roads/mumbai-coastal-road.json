@@ -13,10 +13,6 @@
     { "org": "larsen-toubro", "note": "two of the packages, including the twin tunnels under Malabar Hill" },
     { "name": "Hindustan Construction Company–Hyundai Development Corporation joint venture", "note": "package 2" }
   ],
-  "tollInfo": {
-    "tolled": false,
-    "note": "Free to use. The city decided not to charge a toll on the coastal road."
-  },
   "cost": "About ₹12,700 crore",
   "route": {
     "start": "Marine Drive (Princess Street flyover), Mumbai, Maharashtra",
@@ -24,6 +20,7 @@
     "states": ["Maharashtra"],
     "majorCities": ["Marine Drive", "Girgaum", "Breach Candy", "Haji Ali", "Worli"]
   },
+  "tollInfo": { "tolled": false, "note": "The city decided not to charge a toll on the coastal road." },
   "timeline": [
     { "year": "2018", "event": "Construction begins" },
     { "year": "2022", "event": "Both tunnels under Malabar Hill are holed through by the tunnel boring machine" },
@@ -56,9 +53,16 @@
     { "name": "Worli", "note": "northern end, joining the Bandra–Worli Sea Link" }
   ],
   "relatedRoads": [
-    { "id": "mumbai-eastern-freeway", "label": "The matching signal-free road on Mumbai's eastern side; twin tunnels are being dug to join the two" },
-    { "id": "western-express-highway", "label": "Traffic leaving the Bandra–Worli Sea Link joins it for the western suburbs" },
-    { "id": "atal-setu", "label": "The other big new sea crossing reshaping how traffic moves around Mumbai" }
+    {
+      "id": "mumbai-eastern-freeway",
+      "label": "The matching signal-free road on Mumbai's eastern side; twin tunnels are being dug to join the two"
+    },
+    {
+      "id": "western-express-highway",
+      "label": "Traffic leaving the Bandra–Worli Sea Link joins it for the western suburbs"
+    },
+    { "id": "atal-setu", "label": "The other big new sea crossing reshaping how traffic moves around Mumbai" },
+    { "id": "western-freeway", "label": "Met near Girgaon" }
   ],
   "travelNotes": "Marine Drive to Worli takes roughly 10 to 12 minutes, and there is no toll. The busiest flows are northbound in the evening and southbound in the morning, when office traffic reverses. The tunnels are the quickest bit but also where breakdowns cause the worst jams, so keep your distance. The promenade alongside is a favourite evening walk and gets crowded at sunset and on weekends, so expect people and parked cars near the access points.",
   "futureUpgrades": [

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 70.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Makatpur, Jharkhand",
     "end": "Jamtara, Jharkhand",
@@ -19,6 +20,20 @@
       "Jamtara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-114a", "label": "Met near Giridih" },
+    { "id": "nh-419", "label": "Met near Jamtara" },
+    { "id": "sh-jh-14", "label": "Met near Giridih" },
+    { "id": "sh-jh-15", "label": "Met near Jamtara" },
+    { "id": "mdr-jh-237", "label": "Met near Jamtara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Makatpur",
@@ -54,12 +69,6 @@
         86.80254,
         23.95841
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

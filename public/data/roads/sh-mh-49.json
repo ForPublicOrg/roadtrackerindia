@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 119.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Bhagur, Maharashtra",
     "end": "Sangamner, Maharashtra",
@@ -17,6 +18,19 @@
       "Sangamner"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Rahuri" },
+    { "id": "nh-753f", "label": "Met near Ghodegaon" },
+    { "id": "nh-160", "label": "Met near Rahuri" },
+    { "id": "nh-160c", "label": "Met near Rahuri" },
+    { "id": "sh-mh-44", "label": "Met near Bhagur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhagur",
@@ -38,12 +52,6 @@
         74.33461,
         19.33947
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khargone, Madhya Pradesh",
     "end": "Dharmapuri, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Dharmapuri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347c", "label": "Met near Khargone" },
+    { "id": "mdr-mp-4910", "label": "Meets this road" },
+    { "id": "mdr-mp-4801", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khargone",
@@ -30,12 +43,6 @@
         75.38829,
         21.99214
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

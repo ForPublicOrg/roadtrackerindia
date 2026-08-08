@@ -15,6 +15,10 @@
     "states": ["Uttar Pradesh"],
     "majorCities": ["Lucknow", "Haidergarh", "Sultanpur", "Akbarpur", "Azamgarh", "Mau", "Ghazipur"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2018", "event": "Foundation stone laid and construction begins" },
     { "year": "2021", "event": "Inaugurated on 16 November; the Prime Minister's C-130J Hercules lands on the expressway" }
@@ -43,10 +47,19 @@
     { "name": "Haidaria, Ghazipur", "note": "the eastern end, joining the highway toward Varanasi and the Bihar border" }
   ],
   "relatedRoads": [
-    { "id": "gorakhpur-link-expressway", "label": "The 91 km branch that joins at Salarpur and runs up to Gorakhpur" },
+    {
+      "id": "gorakhpur-link-expressway",
+      "label": "The 91 km branch that joins at Salarpur and runs up to Gorakhpur"
+    },
     { "id": "agra-lucknow-expressway", "label": "Continues the fast route westward from Lucknow toward Agra" },
     { "id": "yamuna-expressway", "label": "The Agra–Greater Noida link that completes the chain to Delhi" },
-    { "id": "lucknow-kanpur-expressway", "label": "Another expressway meeting the same Lucknow ring, heading toward Kanpur" }
+    {
+      "id": "lucknow-kanpur-expressway",
+      "label": "Another expressway meeting the same Lucknow ring, heading toward Kanpur"
+    },
+    { "id": "nh-31", "label": "Met near Mohammadabad" },
+    { "id": "nh-731", "label": "Met near Haidargarh" },
+    { "id": "nh-24", "label": "Met near Mau" }
   ],
   "travelNotes": "Lucknow to Ghazipur takes about four hours on the expressway, against six or more on the old highways. Toll is charged by distance at six plazas, and FASTag is the easy way to pay. There are long gaps between fuel pumps and food stops, so fill up and eat before joining. Winter fog from December to January and stray cattle wandering on to the carriageway are the two real hazards, and night driving is best avoided.",
   "futureUpgrades": [

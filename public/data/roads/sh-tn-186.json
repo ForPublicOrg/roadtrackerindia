@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vishwanatham, Tamil Nadu",
     "end": "Rajapalayam, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Rajapalayam"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-41", "label": "Met near Rajapalayam" },
+    { "id": "sh-tn-187", "label": "Met near Sivakasi" },
+    { "id": "sh-tn-183", "label": "Met near Sivakasi" },
+    { "id": "mdr-tn-697", "label": "Met near Rajapalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vishwanatham",
@@ -30,12 +43,6 @@
         77.55554,
         9.44381
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

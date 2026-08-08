@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Maduranthakam, Tamil Nadu",
     "end": "Thirukazhukundram, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Thirukazhukundram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-1117", "label": "Met near Maduranthakam" },
+    { "id": "mdr-tn-596", "label": "Met near Maduranthakam" },
+    { "id": "odr-tn-4648", "label": "Met near Maduranthakam" },
+    { "id": "odr-tn-4123", "label": "Met near Maduranthakam" },
+    { "id": "odr-tn-7655", "label": "Met near Maduranthakam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maduranthakam",
@@ -30,12 +45,6 @@
         79.98212,
         12.4983
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

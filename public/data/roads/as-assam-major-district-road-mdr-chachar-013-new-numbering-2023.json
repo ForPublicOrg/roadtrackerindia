@@ -1,10 +1,12 @@
 {
   "id": "as-assam-major-district-road-mdr-chachar-013-new-numbering-2023",
-  "ref": "MDR",
-  "name": "Assam Major District Road (MDR) Chachar 013 (new numbering 2023)",
+  "ref": "MDR Cachar 013",
+  "name": "Badarpur–Panchgram district road",
+  "aka": ["Cachar Major District Road 013"],
   "category": "district",
   "status": "operational",
   "lengthKm": 13.1,
+  "authority": "assam-pwd",
   "route": {
     "start": "Badarpur, Assam",
     "end": "Panchgram, Assam",
@@ -16,6 +18,17 @@
       "Panchgram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Cachar district, Assam, running between Badarpur and Panchgram. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-6", "label": "Met near Badarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badarpur",
@@ -30,12 +43,6 @@
         92.51157,
         24.8823
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

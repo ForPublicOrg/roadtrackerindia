@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Samayapuram, Tamil Nadu",
     "end": "Manachanallur, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Manachanallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Samayapuram" },
+    { "id": "sh-tn-62", "label": "Met near Manachanallur" },
+    { "id": "sh-tn-u134", "label": "Met near Samayapuram" },
+    { "id": "mdr-tn-244", "label": "Met near Manachanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Samayapuram",
@@ -30,12 +44,6 @@
         78.69896,
         10.90759
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

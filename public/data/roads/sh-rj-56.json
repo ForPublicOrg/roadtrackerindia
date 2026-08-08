@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 83.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bhim, Rajasthan",
     "end": "Rajsamand, Rajasthan",
@@ -18,6 +19,19 @@
       "Rajsamand"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Bhim" },
+    { "id": "nh-758", "label": "Met near Rajsamand" },
+    { "id": "sh-rj-61", "label": "Met near Deogarh" },
+    { "id": "mdr-rj-201", "label": "Met near Amet" },
+    { "id": "mdr-rj-77", "label": "Met near Amet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bhim",
@@ -46,12 +60,6 @@
         73.96116,
         25.10512
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

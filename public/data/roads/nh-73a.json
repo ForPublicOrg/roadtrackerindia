@@ -19,6 +19,20 @@
       "Jagadhari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-7", "label": "Met near Paonta Sahib" },
+    { "id": "nh-907", "label": "Met near Paonta Sahib" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paonta Sahib",
@@ -47,16 +61,6 @@
         77.29812,
         30.1648
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

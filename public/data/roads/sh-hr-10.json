@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 94.3,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Balsamand, Haryana",
     "end": "Jind, Haryana",
@@ -17,6 +18,19 @@
       "Jind"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Barwala" },
+    { "id": "nh-9", "label": "Met near Sector 14" },
+    { "id": "nh-148b", "label": "Met near Barwala" },
+    { "id": "nh-709a", "label": "Met near Jind" },
+    { "id": "sh-hr-12", "label": "Met near Jind" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balsamand",
@@ -38,12 +52,6 @@
         76.28711,
         29.30416
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

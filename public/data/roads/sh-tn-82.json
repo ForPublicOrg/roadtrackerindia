@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 53.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Satyamangalam, Tamil Nadu",
     "end": "Bhavani, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Bhavani"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544h", "label": "Met near Bhavani" },
+    { "id": "mdr-tn-679", "label": "Met near Satyamangalam" },
+    { "id": "mdr-tn-116", "label": "Met near Anthiyur" },
+    { "id": "mdr-tn-29", "label": "Met near Anthiyur" },
+    { "id": "mdr-tn-150", "label": "Met near Gobichettipalayam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Satyamangalam",
@@ -38,12 +52,6 @@
         77.68376,
         11.44758
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

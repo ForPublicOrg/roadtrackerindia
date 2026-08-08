@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kongorpilly, Kerala",
     "end": "Thottakkattukara, Kerala",
@@ -16,6 +17,20 @@
       "Thottakkattukara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kottapuram-koonammavu-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-thattampady-purappillykavu-karumallur-govt-hospital-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-aluva-alangad-road-2nd-reach", "label": "Met near Kongorpilly" },
+    { "id": "kl-puthiya-road-puthiya-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-thiruvallur-kunnelpally-panayiulam-road", "label": "Met near Kongorpilly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kongorpilly",
@@ -30,12 +45,6 @@
         76.29808,
         10.12165
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

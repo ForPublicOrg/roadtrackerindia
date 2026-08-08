@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 56.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Nasirabad, Rajasthan",
     "end": "Kekri, Rajasthan",
@@ -16,6 +17,18 @@
       "Kekri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Nasirabad" },
+    { "id": "sh-rj-12", "label": "Meets this road" },
+    { "id": "sh-rj-7e", "label": "Met near Sarwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nasirabad",
@@ -30,12 +43,6 @@
         75.20906,
         26.12842
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

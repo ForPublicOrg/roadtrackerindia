@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Annanagar, Tamil Nadu",
     "end": "Golden nagar, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Golden nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Zamianagar new" },
+    { "id": "sh-tn-74", "label": "Met near Golden nagar" },
+    { "id": "sh-tn-193", "label": "Met near Carenagar" },
+    { "id": "mdr-tn-606", "label": "Met near Muthammal Nagar" },
+    { "id": "mdr-tn-628", "label": "Met near Golden nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Annanagar",
@@ -38,12 +53,6 @@
         78.11255,
         10.67966
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

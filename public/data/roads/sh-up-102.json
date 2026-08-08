@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 100.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Sarai Aquil, Uttar Pradesh",
     "end": "Gaipura, Uttar Pradesh",
@@ -18,6 +19,19 @@
       "Gaipura"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Shankargarh" },
+    { "id": "nh-35", "label": "Met near Shankargarh" },
+    { "id": "nh-135c", "label": "Met near Koraon" },
+    { "id": "sh-up-44", "label": "Met near Gaipura" },
+    { "id": "sh-up-146e", "label": "Met near Koraon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarai Aquil",
@@ -46,12 +60,6 @@
         82.24201,
         25.15268
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

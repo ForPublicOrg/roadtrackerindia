@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 204.2,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Saran Nagar, Rajasthan",
     "end": "Bhim, Rajasthan",
@@ -18,6 +19,19 @@
       "Bhim"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Bhim" },
+    { "id": "nh-62", "label": "Met near Saran Nagar" },
+    { "id": "nh-25", "label": "Meets this road" },
+    { "id": "nh-162", "label": "Met near Sojat" },
+    { "id": "nh-125a", "label": "Met near Saran Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Saran Nagar",
@@ -46,12 +60,6 @@
         74.07851,
         25.74396
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

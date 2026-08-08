@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pattunool Chataram, Tamil Nadu",
     "end": "Sriperumbudur, Tamil Nadu",
@@ -16,6 +17,13 @@
       "Sriperumbudur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pattunool Chataram",
@@ -30,12 +38,6 @@
         80.00328,
         12.94669
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 65.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gulganj, Madhya Pradesh",
     "end": "Tikamgarh, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Tikamgarh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Gulganj" },
+    { "id": "nh-539", "label": "Met near Tikamgarh" },
+    { "id": "mdr-up-30b", "label": "Met near Tikamgarh" },
+    { "id": "mdr-mp-1710", "label": "Met near Baldeogarh" },
+    { "id": "mdr-mp-1709", "label": "Met near Tikamgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gulganj",
@@ -38,12 +52,6 @@
         78.83112,
         24.74094
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 57.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Gadri, Jharkhand",
     "end": "Torpa, Jharkhand",
@@ -16,6 +17,18 @@
       "Torpa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Meets this road" },
+    { "id": "mdr-jh-30", "label": "Meets this road" },
+    { "id": "mdr-jh-34", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gadri",
@@ -30,12 +43,6 @@
         84.91839,
         22.92642
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

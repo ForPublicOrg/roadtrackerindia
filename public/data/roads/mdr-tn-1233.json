@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Swamy Nagar, Tamil Nadu",
     "end": "Tiruchengodu, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Tiruchengodu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-86", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-94", "label": "Met near Vaiyappamalai" },
+    { "id": "mdr-tn-1232", "label": "Met near Paramathi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Swamy Nagar",
@@ -30,12 +43,6 @@
         77.94405,
         11.28797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

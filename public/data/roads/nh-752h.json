@@ -17,6 +17,23 @@
       "Deulgaon Raja"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Waluj MIDC" },
+    { "id": "nh-52", "label": "Met near Waluj MIDC" },
+    { "id": "nh-753f", "label": "Met near Phulambri" },
+    { "id": "nh-752g", "label": "Met near Yeola" },
+    { "id": "nh-753a", "label": "Met near Deulgaon Raja" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Yeola",
@@ -45,16 +62,6 @@
         76.03548,
         20.02997
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

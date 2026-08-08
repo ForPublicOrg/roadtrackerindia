@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 31.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Lakhipur, Assam",
     "end": "Goalpara, Assam",
@@ -16,6 +17,16 @@
       "Goalpara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-17", "label": "Met near Goalpara" },
+    { "id": "sh-as-46", "label": "Met near Lakhipur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lakhipur",
@@ -30,12 +41,6 @@
         90.56107,
         26.0864
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

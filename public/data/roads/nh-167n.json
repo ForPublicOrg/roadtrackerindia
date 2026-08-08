@@ -19,6 +19,26 @@
       "Kamatana"
     ]
   },
+  "significance": "NH 167N is a branch of NH 167. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Mahbubnagar to Kamatana, and it meets NH 167 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-167",
+      "label": "NH 167 — the highway this branch takes its number from, running Bandimot to Kodada"
+    },
+    { "id": "nh-65", "label": "Met near Kamatana" },
+    { "id": "nh-163", "label": "Met near Tanduru" },
+    { "id": "sh-ka-15", "label": "Met near Chandapura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahbubnagar",
@@ -47,16 +67,6 @@
         77.38315,
         17.71948
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

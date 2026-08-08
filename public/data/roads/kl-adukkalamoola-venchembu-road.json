@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Punalur, Kerala",
     "end": "Anchal, Kerala",
@@ -16,6 +17,19 @@
       "Anchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Punalur" },
+    { "id": "sh-kl-48", "label": "Met near Punalur" },
+    { "id": "kl-kokkadu-venchembu-road", "label": "Met near Punalur" },
+    { "id": "kl-karavaloor-venchembu-road", "label": "Met near Punalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Punalur",
@@ -30,12 +44,6 @@
         76.90447,
         8.98302
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

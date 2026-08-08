@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 87,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Valparai, Tamil Nadu",
     "end": "Chalakudy, Kerala",
@@ -16,6 +17,19 @@
       "Chalakudy"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Kalady" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Chalakudy" },
+    { "id": "mdr-tn-354", "label": "Met near Valparai" },
+    { "id": "kl-chalakudy-vellikulangara-road", "label": "Met near Chalakudy" },
+    { "id": "kl-muringoor-ezhattumugham-road", "label": "Met near Chalakudy" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Valparai",
@@ -30,12 +44,6 @@
         76.33707,
         10.311
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

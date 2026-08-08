@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 77.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Hameergarh, Rajasthan",
     "end": "Mandalgarh, Rajasthan",
@@ -16,6 +17,18 @@
       "Mandalgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Hameergarh" },
+    { "id": "nh-758", "label": "Met near Hameergarh" },
+    { "id": "mdr-rj-20", "label": "Met near Hameergarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hameergarh",
@@ -30,12 +43,6 @@
         75.07998,
         25.19602
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

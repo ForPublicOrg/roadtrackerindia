@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanhangad, Kerala",
     "end": "Nileshwaram, Kerala",
@@ -17,6 +18,17 @@
       "Nileshwaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-57", "label": "Met near Kanhangad" },
+    { "id": "kl-thulicheri-nileshwar-azhithala-road", "label": "Met near Kanhangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanhangad",
@@ -45,12 +57,6 @@
         75.11068,
         12.2457
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

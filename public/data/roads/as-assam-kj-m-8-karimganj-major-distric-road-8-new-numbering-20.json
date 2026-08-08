@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Kj-M-8 (Karimganj Major Distric Road 8) (new Numbering 2024)",
+  "ref": "MDR KJ-M-8",
+  "name": "Badarpur–Barlekha district road",
+  "aka": ["Karimganj Major District Road KJ-M-8"],
   "category": "district",
   "status": "operational",
   "lengthKm": 59.1,
+  "authority": "assam-pwd",
   "route": {
     "start": "Badarpur, Assam",
     "end": "Barlekha, Assam",
@@ -17,6 +19,24 @@
       "Barlekha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Badarpur and Barlekha. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "nh-37", "label": "Met near Badarpur" },
+    { "id": "sh-as-39", "label": "Met near Hailakandi" },
+    { "id": "mdr-as-3", "label": "Met near Ramkrishna Nagar" },
+    {
+      "id": "as-assam-kj-m-5-karimganj-major-distric-road-5-new-numbering-20",
+      "label": "Met near Ramkrishna Nagar"
+    },
+    { "id": "mdr-as-5", "label": "Met near Ramkrishna Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Badarpur",
@@ -45,12 +65,6 @@
         92.32482,
         24.64096
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

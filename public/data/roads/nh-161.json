@@ -24,6 +24,23 @@
       "Washim"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Malegaon" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Waghala" },
+    { "id": "hyderabad-regional-ring-road", "label": "Met near Sangareddy" },
+    { "id": "hyderabad-indore-expressway", "label": "Meets this road" },
+    { "id": "nh-53", "label": "Met near Akola" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sangareddy",
@@ -94,16 +111,6 @@
         77.14137,
         20.10773
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

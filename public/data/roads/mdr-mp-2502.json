@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Daloda, Madhya Pradesh",
     "end": "Jaora, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Jaora"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Meets this road" },
+    { "id": "sh-mp-25", "label": "Meets this road" },
+    { "id": "mdr-mp-2504", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Daloda",
@@ -30,12 +43,6 @@
         75.38243,
         23.72208
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

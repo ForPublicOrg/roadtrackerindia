@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 356.2,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Mandya, Karnataka",
     "end": "Huvina Hadagali, Karnataka",
@@ -22,6 +23,19 @@
       "Huvina Hadagali"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Kurki" },
+    { "id": "nh-150a", "label": "Met near Melukote" },
+    { "id": "nh-69", "label": "Met near Huliyaru" },
+    { "id": "nh-75", "label": "Met near Shravanabelagola" },
+    { "id": "nh-275", "label": "Met near Mandya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandya",
@@ -92,12 +106,6 @@
         75.93322,
         15.01429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

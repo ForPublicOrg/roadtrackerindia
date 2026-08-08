@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Suchindram, Tamil Nadu",
     "end": "Aralvaimozhi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Aralvaimozhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Suchindram" },
+    { "id": "nh-944", "label": "Met near Nagercoil" },
+    { "id": "mdr-tn-27", "label": "Met near Suchindram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Suchindram",
@@ -30,12 +43,6 @@
         77.49294,
         8.22327
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 65.6,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Nandgaon Khandeshwar, Maharashtra",
     "end": "Arvi, Maharashtra",
@@ -17,6 +18,19 @@
       "Arvi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-347a", "label": "Met near Arvi" },
+    { "id": "sh-mh-199", "label": "Met near Chandur" },
+    { "id": "sh-mh-200", "label": "Met near Mozari" },
+    { "id": "sh-mh-257", "label": "Met near Arvi" },
+    { "id": "sh-mh-237", "label": "Met near Mozari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nandgaon Khandeshwar",
@@ -38,12 +52,6 @@
         78.22757,
         20.99672
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

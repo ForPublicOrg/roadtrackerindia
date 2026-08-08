@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sihora, Madhya Pradesh",
     "end": "Khitola, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Khitola"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Sihora" },
+    { "id": "mdr-mp-3706", "label": "Met near Sihora" },
+    { "id": "mdr-mp-3704", "label": "Met near Sihora" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sihora",
@@ -30,12 +43,6 @@
         80.0479,
         23.55066
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

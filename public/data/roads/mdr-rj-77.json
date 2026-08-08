@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Kankroli, Rajasthan",
     "end": "Amet, Rajasthan",
@@ -16,6 +17,17 @@
       "Amet"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Rajsamand" },
+    { "id": "sh-rj-56", "label": "Met near Amet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kankroli",
@@ -30,12 +42,6 @@
         73.92313,
         25.29593
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

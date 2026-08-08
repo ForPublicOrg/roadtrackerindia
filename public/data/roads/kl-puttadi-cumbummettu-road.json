@@ -17,6 +17,18 @@
       "Parakadavu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Puttadi - Cumbummettu Road, crosses the border between Tamil Nadu and Kerala. A state road that runs through more than one state has no single owner — TN Highways and Kerala PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-19", "label": "Met near Anakkara" },
+    { "id": "kl-chellarkovil-pazhayakochera-road", "label": "Met near Anakkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anakkara",
@@ -31,12 +43,6 @@
         77.16218,
         9.69617
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

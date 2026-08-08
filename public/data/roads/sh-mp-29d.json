@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 17.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sethani Ghat, Madhya Pradesh",
     "end": "Budhni, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Budhni"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-46", "label": "Met near Budhni" },
+    { "id": "nh-146b", "label": "Met near Narmadapuram" },
+    { "id": "sh-mp-29c", "label": "Met near Narmadapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sethani Ghat",
@@ -30,12 +42,6 @@
         77.65806,
         22.88154
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

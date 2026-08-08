@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 36.7,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Yawal, Maharashtra",
     "end": "Jalgaon, Maharashtra",
@@ -16,6 +17,16 @@
       "Jalgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Jalgaon" },
+    { "id": "nh-753be", "label": "Met near Yawal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Yawal",
@@ -30,12 +41,6 @@
         75.57303,
         21.00769
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,21 @@
       "Badiadka"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 12, Mulleria–Badiadka District road, crosses the border between Karnataka and Kerala. A state road that runs through more than one state has no single owner — Karnataka PWD and Kerala PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Badiadka" },
+    { "id": "sh-kl-31", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-112", "label": "Met near Badiadka" },
+    { "id": "kl-pilankatta-agalpady-jayanagar-karuvathdka-kumbadaje-bolinja", "label": "Met near Badiadka" },
+    { "id": "mdr-kl-66a", "label": "Met near Mulleria" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulleria",
@@ -31,12 +46,6 @@
         75.07443,
         12.58391
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

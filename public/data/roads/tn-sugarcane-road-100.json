@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Maduranthakam, Tamil Nadu",
     "end": "Vandavasi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Vandavasi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-518", "label": "Met near Maduranthakam" },
+    { "id": "odr-tn-1506", "label": "Met near Maduranthakam" },
+    { "id": "odr-tn-2386", "label": "Met near Maduranthakam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Maduranthakam",
@@ -30,12 +43,6 @@
         79.79763,
         12.51686
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

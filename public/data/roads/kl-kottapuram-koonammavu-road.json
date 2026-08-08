@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kongorpilly, Kerala",
     "end": "Thrikkapuram, Kerala",
@@ -16,6 +17,20 @@
       "Thrikkapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kongorpilly" },
+    { "id": "kl-aluva-alangad-road-2nd-reach", "label": "Met near Kongorpilly" },
+    { "id": "kl-kochal-karingamthuruth-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-kongorppilly-olanad-road", "label": "Met near Kongorpilly" },
+    { "id": "kl-puthiya-road-puthiya-road", "label": "Met near Kongorpilly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kongorpilly",
@@ -30,12 +45,6 @@
         76.26855,
         10.10195
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

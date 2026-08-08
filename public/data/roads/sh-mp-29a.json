@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 43.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Gairatganj, Madhya Pradesh",
     "end": "Raisen, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Raisen"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mp-29", "label": "Met near Gairatganj" },
+    { "id": "sh-mp-29b", "label": "Met near Raisen" },
+    { "id": "mdr-mp-3011", "label": "Met near Gairatganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gairatganj",
@@ -30,12 +42,6 @@
         77.78425,
         23.33011
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

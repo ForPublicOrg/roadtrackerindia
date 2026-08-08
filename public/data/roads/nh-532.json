@@ -19,6 +19,23 @@
       "Chinnasalem"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Cuddalore Old Town" },
+    { "id": "nh-38", "label": "Met near Tittakudi" },
+    { "id": "nh-36", "label": "Met near Vadalur" },
+    { "id": "nh-79", "label": "Met near Chinnasalem" },
+    { "id": "sh-tn-69", "label": "Met near Virudhachalam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cuddalore Old Town",
@@ -54,16 +71,6 @@
         78.80739,
         11.59296
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

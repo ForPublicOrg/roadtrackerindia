@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 59.9,
+  "authority": "assam-pwd",
   "route": {
     "start": "Nagaon, Assam",
     "end": "Marigaon, Assam",
@@ -17,6 +18,18 @@
       "Marigaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-715a", "label": "Met near Bhuragaon" },
+    { "id": "sh-as-3", "label": "Met near Nagaon" },
+    { "id": "sh-as-18", "label": "Met near Nagaon" },
+    { "id": "sh-as-15", "label": "Met near Marigaon" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagaon",
@@ -52,12 +65,6 @@
         92.33884,
         26.28233
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

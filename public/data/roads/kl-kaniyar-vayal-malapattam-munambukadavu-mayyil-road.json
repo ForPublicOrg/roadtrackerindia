@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Irikkoor, Kerala",
     "end": "Karinkalkuzhi, Kerala",
@@ -17,6 +18,20 @@
       "Karinkalkuzhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-36", "label": "Met near Sreekandapuram" },
+    { "id": "mdr-kl-17", "label": "Met near Sreekandapuram" },
+    { "id": "kl-chirakkal-kattampally-mayyil-kololam-road", "label": "Met near Dharmasala" },
+    { "id": "kl-ulikkal-thermala-kanjileri-kaniyarvayal-road", "label": "Met near Sreekandapuram" },
+    { "id": "kl-malapattam-kottoor-road", "label": "Met near Sreekandapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Irikkoor",
@@ -38,12 +53,6 @@
         75.47165,
         11.99082
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

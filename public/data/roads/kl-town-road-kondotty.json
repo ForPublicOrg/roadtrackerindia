@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kaloth, Kerala",
     "end": "Kondotty, Kerala",
@@ -16,6 +17,17 @@
       "Kondotty"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-966", "label": "Met near Kondotty" },
+    { "id": "sh-kl-65", "label": "Met near Kondotty" },
+    { "id": "kl-kondotti-vazhakkad-road", "label": "Met near Kondotty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaloth",
@@ -30,12 +42,6 @@
         75.96753,
         11.1447
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

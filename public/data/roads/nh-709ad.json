@@ -23,6 +23,24 @@
       "Bapoli"
     ]
   },
+  "significance": "NH 709AD is a branch of NH 709. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Nagina to Bapoli, and it meets NH 709 along the way.",
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Shamli" },
+    { "id": "nh-44", "label": "Met near Panipat" },
+    { "id": "nh-34", "label": "Met near Bijnor" },
+    { "id": "nh-709a", "label": "Met near Shamli" },
+    { "id": "nh-709", "label": "Met near Panipat" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagina",
@@ -79,16 +97,6 @@
         77.06666,
         29.38195
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

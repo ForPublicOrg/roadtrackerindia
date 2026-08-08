@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dewas, Madhya Pradesh",
     "end": "Freeganj, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Freeganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-64", "label": "Met near Dewas" },
+    { "id": "sh-mp-59", "label": "Meets this road" },
+    { "id": "mdr-mp-4504", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dewas",
@@ -30,12 +43,6 @@
         75.83863,
         22.98403
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 369.6,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Contai, West Bengal",
     "end": "Sitarampur, West Bengal",
@@ -20,6 +21,19 @@
       "Sitarampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Purulia" },
+    { "id": "nh-16", "label": "Met near Belda" },
+    { "id": "nh-49", "label": "Met near Jhargram" },
+    { "id": "nh-18", "label": "Met near Purulia" },
+    { "id": "nh-116b", "label": "Met near Contai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Contai",
@@ -76,12 +90,6 @@
         86.87865,
         23.74888
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

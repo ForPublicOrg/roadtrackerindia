@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vaikom, Kerala",
     "end": "Aroor, Kerala",
@@ -16,6 +17,18 @@
       "Aroor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Vaikom" },
+    { "id": "kl-thuravoor-kumbalanghi-road", "label": "Met near Vaikom" },
+    { "id": "kl-kuthiathodu-valamangalam-road", "label": "Met near Vaikom" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vaikom",
@@ -30,12 +43,6 @@
         76.30459,
         9.78019
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nooranad, Kerala",
     "end": "Mavelikkara, Kerala",
@@ -16,6 +17,23 @@
       "Mavelikkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Nooranad" },
+    { "id": "sh-kl-5", "label": "Met near Nooranad" },
+    { "id": "kl-kattanam-mavelikkara-road", "label": "Met near Kayamkulam" },
+    {
+      "id": "kl-mavelikara-railway-station-junction-ponnezha-vathikulam-koic",
+      "label": "Met near Kayamkulam"
+    },
+    { "id": "kl-thonnalloor-athikattukulangara-road", "label": "Met near Nooranad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nooranad",
@@ -30,12 +48,6 @@
         76.56245,
         9.19204
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

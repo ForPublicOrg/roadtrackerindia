@@ -17,6 +17,21 @@
       "Imphal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Imphal" },
+    { "id": "nh-37", "label": "Met near Imphal" },
+    { "id": "nh-102", "label": "Met near Kakching" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kakching",
@@ -38,16 +53,6 @@
         93.93508,
         24.79967
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

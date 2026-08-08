@@ -17,6 +17,26 @@
       "Sonipat"
     ]
   },
+  "significance": "NH 352A is a branch of NH 352. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jind to Sonipat, and it meets NH 352 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-352",
+      "label": "NH 352 — the highway this branch takes its number from, running Rohtak to Rewari"
+    },
+    { "id": "trans-haryana-expressway", "label": "Met near Jind" },
+    { "id": "nh-709", "label": "Met near Gohana" },
+    { "id": "nh-152d", "label": "Met near Jind" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jind",
@@ -38,16 +58,6 @@
         77.01985,
         28.99392
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

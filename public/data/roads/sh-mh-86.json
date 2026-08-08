@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 26.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Nagothane, Maharashtra",
     "end": "Alibag, Maharashtra",
@@ -16,6 +17,16 @@
       "Alibag"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Nagothane" },
+    { "id": "nh-166a", "label": "Met near Alibag" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagothane",
@@ -30,12 +41,6 @@
         72.98268,
         18.68759
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

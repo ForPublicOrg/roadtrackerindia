@@ -25,6 +25,23 @@
       "Bhopalpatnam"
     ]
   },
+  "relatedRoads": [
+    { "id": "warangal-khammam-expressway", "label": "Met near Warangal" },
+    { "id": "hyderabad-regional-ring-road", "label": "Met near Yadagirigutta" },
+    { "id": "hyderabad-outer-ring-road", "label": "Met near Narsingi" },
+    { "id": "hyderabad-elevated-expressway-p-v-narasimha-rao", "label": "Met near Mehdipatnam" },
+    { "id": "nh-44", "label": "Met near Hyderabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gurumathakal",
@@ -116,16 +133,6 @@
         80.37632,
         18.85948
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

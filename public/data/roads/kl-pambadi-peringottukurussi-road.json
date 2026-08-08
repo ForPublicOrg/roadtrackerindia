@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ottapalam, Kerala",
     "end": "Kallekkad, Kerala",
@@ -16,6 +17,18 @@
       "Kallekkad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-77", "label": "Met near Ottapalam" },
+    { "id": "kl-kottayi-peringottukurrissi-road", "label": "Met near Ottapalam" },
+    { "id": "kl-thiruvilwamala-peringottukurussi-road", "label": "Met near Ottapalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ottapalam",
@@ -30,12 +43,6 @@
         76.49363,
         10.75701
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

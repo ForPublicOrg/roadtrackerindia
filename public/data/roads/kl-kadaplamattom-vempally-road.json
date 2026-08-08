@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanakkarry, Kerala",
     "end": "Kidangoor, Kerala",
@@ -17,6 +18,20 @@
       "Kidangoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Kuravilangad" },
+    { "id": "sh-kl-1", "label": "Met near Kuravilangad" },
+    { "id": "kl-omalloor-elakkadu-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-cherpunkal-marangattupally-road", "label": "Met near Kidangoor" },
+    { "id": "kl-prayar-koodallor-kadaplamattom-road", "label": "Met near Kidangoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanakkarry",
@@ -38,12 +53,6 @@
         76.60959,
         9.71462
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

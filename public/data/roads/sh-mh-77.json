@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Latur, Maharashtra",
     "end": "MIDC, Maharashtra",
@@ -16,6 +17,18 @@
       "MIDC"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-63", "label": "Met near Latur" },
+    { "id": "nh-361", "label": "Met near Latur" },
+    { "id": "nh-548b", "label": "Met near Latur" },
+    { "id": "sh-mh-160", "label": "Met near Latur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Latur",
@@ -30,12 +43,6 @@
         76.54013,
         18.40834
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

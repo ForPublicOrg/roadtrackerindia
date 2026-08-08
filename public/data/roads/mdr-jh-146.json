@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 27.7,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Sini, Jharkhand",
     "end": "Jogibera, Jharkhand",
@@ -16,6 +17,18 @@
       "Jogibera"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-252", "label": "Meets this road" },
+    { "id": "mdr-jh-144", "label": "Met near Sini" },
+    { "id": "mdr-jh-161", "label": "Met near Sini" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sini",
@@ -30,12 +43,6 @@
         85.61123,
         22.88893
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

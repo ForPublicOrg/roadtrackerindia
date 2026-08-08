@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koothattukulam, Kerala",
     "end": "Piravom, Kerala",
@@ -16,6 +17,20 @@
       "Piravom"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Koothattukulam" },
+    { "id": "sh-kl-1", "label": "Met near Koothattukulam" },
+    { "id": "sh-kl-40", "label": "Met near Koothattukulam" },
+    { "id": "sh-kl-42", "label": "Met near Koothattukulam" },
+    { "id": "kl-koothattukulam-edayar-piravom-road", "label": "Met near Koothattukulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koothattukulam",
@@ -30,12 +45,6 @@
         76.57161,
         9.88628
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

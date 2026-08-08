@@ -19,6 +19,23 @@
       "Cantonment"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Chhatrapati Sambhajinagar" },
+    { "id": "nh-61", "label": "Met near Shirur Kasar" },
+    { "id": "nh-752i", "label": "Met near Chhatrapati Sambhajinagar" },
+    { "id": "nh-548d", "label": "Met near Patoda" },
+    { "id": "nh-361f", "label": "Met near Shirur Kasar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patoda",
@@ -47,16 +64,6 @@
         75.29295,
         19.84111
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -24,6 +24,23 @@
       "Hazi Ratan Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Kotputli" },
+    { "id": "nh-52", "label": "Met near Barwala" },
+    { "id": "nh-9", "label": "Met near Hansi" },
+    { "id": "nh-11", "label": "Met near Narnaul" },
+    { "id": "nh-54", "label": "Met near Bathinda" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baroda Meo",
@@ -115,16 +132,6 @@
         74.95661,
         30.18932
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

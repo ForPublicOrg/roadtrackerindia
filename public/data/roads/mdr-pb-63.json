@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 107.2,
+  "authority": "punjab-pwd",
   "route": {
     "start": "Sri Hargobindpur, Punjab",
     "end": "Attari, Punjab",
@@ -19,6 +20,20 @@
       "Attari"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Sri Hargobindpur" },
+    { "id": "nh-3", "label": "Met near Attari" },
+    { "id": "nh-354", "label": "Met near Ajnala" },
+    { "id": "nh-503a", "label": "Met near Sri Hargobindpur" },
+    { "id": "nh-503d", "label": "Met near Batala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sri Hargobindpur",
@@ -61,12 +76,6 @@
         74.62752,
         31.61027
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

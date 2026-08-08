@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Omalur, Tamil Nadu",
     "end": "Muthunaickenpati, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Muthunaickenpati"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Omalur" },
+    { "id": "sh-tn-86", "label": "Met near Omalur" },
+    { "id": "mdr-tn-696", "label": "Met near Omalur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Omalur",
@@ -30,12 +42,6 @@
         78.05034,
         11.75765
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Bovikkanam, Kerala",
     "end": "Mulleria, Kerala",
@@ -16,6 +17,20 @@
       "Mulleria"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-55", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-2", "label": "Met near Bovikkanam" },
+    { "id": "kl-bevinje-aloor-iriyanni-road", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-39", "label": "Met near Mulleria" },
+    { "id": "kl-kottoor-ottachal-payarpallam-road", "label": "Met near Bovikkanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bovikkanam",
@@ -30,12 +45,6 @@
         75.14714,
         12.50201
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 18.3,
+  "authority": "himachal-pradesh-pwd",
   "route": {
     "start": "Chamba, Himachal Pradesh",
     "end": "Dalhousie, Himachal Pradesh",
@@ -16,6 +17,15 @@
       "Dalhousie"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-154a", "label": "Met near Chamba" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chamba",
@@ -30,12 +40,6 @@
         76.03311,
         32.66465
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karunagapally, Kerala",
     "end": "Nooranad, Kerala",
@@ -16,6 +17,18 @@
       "Nooranad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-puthiyakavu-chakkuvally-road", "label": "Met near Nooranad" },
+    { "id": "kl-sooranadu-thamarakkulam-road", "label": "Met near Nooranad" },
+    { "id": "kl-thodiyoor-patharam-road", "label": "Met near Karunagapally" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karunagapally",
@@ -30,12 +43,6 @@
         76.62612,
         9.08787
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

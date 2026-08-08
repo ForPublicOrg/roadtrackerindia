@@ -16,6 +16,25 @@
       "Dhorimanna"
     ]
   },
+  "significance": "NH 925A is a branch of NH 925. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Chitalwana to Dhorimanna, and it meets NH 925 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-925",
+      "label": "NH 925 — the highway this branch takes its number from, running Chitalwana to Gadra Road"
+    },
+    { "id": "nh-754k", "label": "Met near Chitalwana" },
+    { "id": "nh-68", "label": "Met near Chitalwana" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chitalwana",
@@ -30,16 +49,6 @@
         71.16151,
         24.81658
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

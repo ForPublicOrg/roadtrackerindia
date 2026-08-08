@@ -21,6 +21,20 @@
       "Paliganj"
     ]
   },
+  "significance": "SH 69, Chhatarpur–Paliganj State Highway, crosses the border between Jharkhand and Bihar. A state road that runs through more than one state has no single owner — Jharkhand RCD and Bihar RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Sherghati" },
+    { "id": "nh-33", "label": "Met near Paliganj" },
+    { "id": "nh-139", "label": "Met near Paliganj" },
+    { "id": "nh-120", "label": "Met near Belaganj" },
+    { "id": "sh-br-2", "label": "Met near Paliganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chhatarpur",
@@ -63,12 +77,6 @@
         84.80154,
         25.32726
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 53.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thrissur, Kerala",
     "end": "Kuttippuram, Kerala",
@@ -18,6 +19,19 @@
       "Kuttippuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kuttippuram" },
+    { "id": "sh-kl-39", "label": "Met near Kunnamkulam" },
+    { "id": "sh-kl-22", "label": "Met near Thrissur" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Thrissur" },
+    { "id": "sh-kl-50", "label": "Met near Kunnamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thrissur",
@@ -60,12 +74,6 @@
         76.02163,
         10.8395
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dr. Ambedkar Nagar, Madhya Pradesh",
     "end": "Simrol, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Simrol"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347bg", "label": "Met near Simrol" },
+    { "id": "sh-mp-38a", "label": "Met near Dr. Ambedkar Nagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dr. Ambedkar Nagar",
@@ -30,12 +42,6 @@
         75.90107,
         22.57153
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

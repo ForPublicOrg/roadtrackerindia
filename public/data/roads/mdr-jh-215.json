@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Barharwa, Jharkhand",
     "end": "Udhwa, Jharkhand",
@@ -16,6 +17,19 @@
       "Udhwa"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Barharwa" },
+    { "id": "nh-133a", "label": "Met near Barharwa" },
+    { "id": "mdr-jh-212", "label": "Met near Barharwa" },
+    { "id": "mdr-jh-211", "label": "Met near Barharwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barharwa",
@@ -30,12 +44,6 @@
         87.77414,
         24.85806
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

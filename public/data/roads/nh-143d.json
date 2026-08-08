@@ -17,6 +17,24 @@
       "Khunti"
     ]
   },
+  "significance": "NH 143D is a branch of NH 143. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Biramitrapur to Khunti, and it meets NH 143 along the way.",
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Khunti" },
+    { "id": "nh-143", "label": "Meets this road" },
+    { "id": "nh-143ag", "label": "Met near Khunti" },
+    { "id": "mdr-jh-45", "label": "Meets this road" },
+    { "id": "mdr-jh-30", "label": "Met near Torpa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Biramitrapur",
@@ -38,16 +56,6 @@
         85.28015,
         23.07131
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

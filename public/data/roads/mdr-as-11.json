@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.2,
+  "authority": "assam-pwd",
   "route": {
     "start": "Karimganj, Assam",
     "end": "Ramkrishna Nagar, Assam",
@@ -16,6 +17,20 @@
       "Ramkrishna Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-as-3", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Barlekha" },
+    { "id": "mdr-as-6", "label": "Met near Barlekha" },
+    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met near Karimganj" },
+    { "id": "as-assam-kj-m-3-karimganj-major-distric-road-3-new-numbering-20", "label": "Met near Karimganj" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karimganj",
@@ -30,12 +45,6 @@
         92.3154,
         24.60649
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

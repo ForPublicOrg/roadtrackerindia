@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kumbala, Kerala",
     "end": "Siraj Nagar, Kerala",
@@ -16,6 +17,18 @@
       "Siraj Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-17", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-94", "label": "Met near Kumbala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kumbala",
@@ -30,12 +43,6 @@
         74.96787,
         12.57325
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

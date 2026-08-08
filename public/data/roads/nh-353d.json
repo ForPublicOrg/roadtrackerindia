@@ -21,6 +21,23 @@
       "Bahadura"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Bahadura" },
+    { "id": "nh-543", "label": "Met near Bramhapuri" },
+    { "id": "nh-353c", "label": "Met near Armori" },
+    { "id": "nh-247", "label": "Met near Umred" },
+    { "id": "nh-353e", "label": "Met near Umred" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Armori",
@@ -63,16 +80,6 @@
         79.13103,
         21.114
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,23 @@
       "Songadh"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-60", "label": "Met near Ojhar" },
+    { "id": "nh-360", "label": "Met near Dindori" },
+    { "id": "sh-mh-20", "label": "Met near Saputara" },
+    { "id": "sh-mh-17", "label": "Met near Dindori" },
+    { "id": "sh-gj-174", "label": "Met near Ahwa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ojhar",
@@ -47,16 +64,6 @@
         73.56457,
         21.16622
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

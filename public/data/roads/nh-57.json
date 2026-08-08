@@ -1,10 +1,11 @@
 {
   "id": "nh-57",
   "ref": "NH 57",
-  "name": "Balangir–Baseli Sahi National Highway",
+  "name": "Balangir–Khordha Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 297.6,
+  "lanes": "2 lanes, widened in places",
   "route": {
     "start": "Balangir, Odisha",
     "end": "Baseli Sahi, Odisha",
@@ -21,6 +22,31 @@
       "Baseli Sahi"
     ]
   },
+  "history": "National Highway 57 crosses western Odisha from Balangir through Subarnapur, Boudh and Nayagarh to Khordha, near Bhubaneswar. It runs through the middle of the state along the Mahanadi valley, connecting the western districts — some of the poorest in Odisha — to the capital region. The old NH 57 was the Muzaffarpur–Purnia road in Bihar; that number was reassigned in the 2010 renumbering.",
+  "facts": [
+    "Links western Odisha directly to the Bhubaneswar region.",
+    "Follows the Mahanadi valley through Subarnapur and Boudh.",
+    "The old NH 57 ran through Bihar between Muzaffarpur and Purnia — a different road entirely.",
+    "It passes through districts with some of Odisha's densest forest cover."
+  ],
+  "significance": "Western Odisha is a long way from the coast where the state's wealth and government sit. This is the direct road between the two.",
+  "relatedRoads": [
+    { "id": "nh-55", "label": "The other main east–west road across Odisha, further north" },
+    { "id": "nh-16", "label": "The coastal highway met near Khordha" },
+    { "id": "nh-26", "label": "Met near Balangir" },
+    { "id": "nh-157", "label": "Meets this road" },
+    { "id": "nh-153b", "label": "Met near Boudh" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Balangir",
@@ -84,16 +110,6 @@
         85.64376,
         20.18623
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

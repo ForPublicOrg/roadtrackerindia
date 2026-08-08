@@ -1,10 +1,11 @@
 {
   "id": "or-biju-expressway",
-  "ref": "SH",
+  "ref": "Biju Expressway",
   "name": "Biju Expressway",
   "category": "expressway",
   "status": "operational",
   "lengthKm": 75.3,
+  "lanes": "4 lanes",
   "route": {
     "start": "Kongra, Odisha",
     "end": "Bangomunda, Odisha",
@@ -16,6 +17,25 @@
       "Bangomunda"
     ]
   },
+  "history": "The Biju Expressway is Odisha's own expressway project, named after the former chief minister Biju Patnaik. It runs across the western districts of the state — the mineral belt around Sundargarh, Jharsuguda, Sambalpur, Bargarh and Nuapada — country that has plenty of coal, aluminium and steel but has always been poorly served by road. It is built and maintained by the state, not by NHAI.",
+  "facts": [
+    "Named after Biju Patnaik, twice chief minister of Odisha.",
+    "Runs through Odisha's western mineral belt — coal, aluminium and steel country.",
+    "A state project, built by Odisha rather than by the national highways authority.",
+    "It connects districts that were among the least road-connected in the state."
+  ],
+  "significance": "Western Odisha produces a large share of India's aluminium and a great deal of its coal, and this is the road that moves it. It also gives some of the state's poorest districts their first fast link to the rest of Odisha.",
+  "relatedRoads": [
+    { "id": "nh-26", "label": "Meets this road" },
+    { "id": "nh-130c", "label": "Meets this road" }
+  ],
+  "travelNotes": "A state highway standard road rather than a fenced expressway for much of its length. Heavy mineral truck traffic throughout.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kongra",
@@ -30,12 +50,6 @@
         82.73237,
         20.10004
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

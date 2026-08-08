@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 111.1,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Mauzamabad, Rajasthan",
     "end": "Govindgarh, Rajasthan",
@@ -19,6 +20,20 @@
       "Govindgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "jaipur-kishangarh-expressway", "label": "Met near Bagru" },
+    { "id": "nh-48", "label": "Met near Bagru" },
+    { "id": "sh-rj-19", "label": "Met near Renwal" },
+    { "id": "sh-rj-2", "label": "Met near Mauzamabad" },
+    { "id": "sh-rj-90", "label": "Met near Jobner" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mauzamabad",
@@ -54,12 +69,6 @@
         75.64051,
         27.21468
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

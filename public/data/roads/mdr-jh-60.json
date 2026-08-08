@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Kasturba Nagar, Jharkhand",
     "end": "Barwadda, Jharkhand",
@@ -17,6 +18,16 @@
       "Barwadda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-18", "label": "Met near Dhanbad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kasturba Nagar",
@@ -31,12 +42,6 @@
         86.43089,
         23.83525
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

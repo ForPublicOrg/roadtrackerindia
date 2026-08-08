@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Mahuatoli, Jharkhand",
     "end": "Khejurtoli, Jharkhand",
@@ -19,6 +20,20 @@
       "Khejurtoli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-2", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-32", "label": "Met near Khejurtoli" },
+    { "id": "mdr-jh-11", "label": "Met near Ranchi" },
+    { "id": "mdr-jh-13", "label": "Met near Khejurtoli" },
+    { "id": "mdr-jh-4", "label": "Met near Ranchi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahuatoli",
@@ -89,12 +104,6 @@
         85.30426,
         23.32219
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,23 @@
       "Bharat Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Met near Hingna" },
+    { "id": "nh-53", "label": "Met near Nagpur" },
+    { "id": "nh-361", "label": "Met near Wardha" },
+    { "id": "nh-353j", "label": "Met near Nagpur" },
+    { "id": "nagpur-outer-ring-road", "label": "Met near Hingna" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wardha",
@@ -38,16 +55,6 @@
         79.0032,
         21.15002
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

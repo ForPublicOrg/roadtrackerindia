@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 63.7,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Jhajha, Bihar",
     "end": "Sheikhpura, Bihar",
@@ -18,6 +19,17 @@
       "Sheikhpura"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-333a", "label": "Met near Jamui" },
+    { "id": "nh-333", "label": "Met near Jhajha" },
+    { "id": "sh-br-8", "label": "Met near Lakhisarai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jhajha",
@@ -46,12 +58,6 @@
         85.87122,
         25.13677
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

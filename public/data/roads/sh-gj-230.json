@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Keshod, Gujarat",
     "end": "Maliya, Gujarat",
@@ -16,6 +17,17 @@
       "Maliya"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-96", "label": "Met near Keshod" },
+    { "id": "sh-gj-31", "label": "Met near Keshod" },
+    { "id": "sh-gj-97", "label": "Met near Keshod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Keshod",
@@ -30,12 +42,6 @@
         70.2542,
         21.29922
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 11.4,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Jiyyamavalasa, Andhra Pradesh",
     "end": "Veeraghattam, Andhra Pradesh",
@@ -16,6 +17,12 @@
       "Veeraghattam"
     ]
   },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jiyyamavalasa",
@@ -30,12 +37,6 @@
         83.6749,
         18.76327
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

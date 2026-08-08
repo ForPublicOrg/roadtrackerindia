@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mulanur, Tamil Nadu",
     "end": "Oddanchatram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Oddanchatram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-381", "label": "Met near Oddanchatram" },
+    { "id": "mdr-tn-910", "label": "Met near Mulanur" },
+    { "id": "mdr-tn-991", "label": "Met near Mulanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulanur",
@@ -30,12 +43,6 @@
         77.68024,
         10.59894
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

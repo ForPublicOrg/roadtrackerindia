@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vattappally, Kerala",
     "end": "Zakariya Bazar, Kerala",
@@ -18,6 +19,20 @@
       "Zakariya Bazar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "sh-kl-11", "label": "Met near Alappuzha" },
+    { "id": "kl-old-nh-road-alappuzha", "label": "Met near Alappuzha" },
+    { "id": "kl-malsyagandhi-junction-snm-hs-junction-road", "label": "Met near Alappuzha" },
+    { "id": "kl-pazhayanadakkavu-ambalappuzha-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vattappally",
@@ -39,12 +54,6 @@
         76.32711,
         9.46386
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

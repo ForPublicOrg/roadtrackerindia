@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 37.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Morar Cantonment, Madhya Pradesh",
     "end": "Ambah, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Ambah"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-204", "label": "Met near Ambah" },
+    { "id": "mdr-mp-212", "label": "Meets this road" },
+    { "id": "mdr-mp-208", "label": "Meets this road" },
+    { "id": "mdr-mp-210", "label": "Met near Morena" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Morar Cantonment",
@@ -30,12 +44,6 @@
         78.26167,
         26.57245
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

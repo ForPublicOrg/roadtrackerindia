@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 29.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thiyagadurgam, Tamil Nadu",
     "end": "Ulundurpettai, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Ulundurpettai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-69", "label": "Met near Ulundurpettai" },
+    { "id": "sh-tn-137", "label": "Met near Ulundurpettai" },
+    { "id": "sh-tn-246", "label": "Met near Thiyagadurgam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thiyagadurgam",
@@ -30,12 +43,6 @@
         79.28885,
         11.74075
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

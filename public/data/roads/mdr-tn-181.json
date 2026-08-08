@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 22.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sendamangalam, Tamil Nadu",
     "end": "Namagiripettai, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Namagiripettai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-260", "label": "Met near Sendamangalam" },
+    { "id": "mdr-tn-690", "label": "Met near Sendamangalam" },
+    { "id": "mdr-tn-1237", "label": "Met near Sendamangalam" },
+    { "id": "mdr-tn-1235", "label": "Met near Sendamangalam" },
+    { "id": "mdr-tn-293", "label": "Met near Sendamangalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sendamangalam",
@@ -30,12 +45,6 @@
         78.30965,
         11.32755
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

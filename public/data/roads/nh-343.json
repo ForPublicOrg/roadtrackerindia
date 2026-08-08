@@ -18,6 +18,23 @@
       "Garhwa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Ambikapur" },
+    { "id": "sh-ct-3", "label": "Met near Ramanuj Ganj" },
+    { "id": "sh-ct-12", "label": "Meets this road" },
+    { "id": "sh-ct-2", "label": "Met near Ambikapur" },
+    { "id": "mdr-jh-135", "label": "Met near Ramanuj Ganj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambikapur",
@@ -39,16 +56,6 @@
         83.82012,
         24.14187
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

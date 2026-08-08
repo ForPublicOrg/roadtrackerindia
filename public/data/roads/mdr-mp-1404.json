@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Barhi, Madhya Pradesh",
     "end": "Ramnagar, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Ramnagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-57", "label": "Meets this road" },
+    { "id": "mdr-mp-1302", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barhi",
@@ -30,12 +42,6 @@
         81.37432,
         23.9967
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

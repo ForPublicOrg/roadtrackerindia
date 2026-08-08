@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ayyanthole, Kerala",
     "end": "Thriprayar, Kerala",
@@ -16,6 +17,19 @@
       "Thriprayar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-75", "label": "Met near Thriprayar" },
+    { "id": "kl-thriprayar-kanjany-chavakkad-road", "label": "Met near Thrissur" },
+    { "id": "kl-karamukku-palazhi-road", "label": "Met near Thriprayar" },
+    { "id": "kl-manalur-palazhi-road", "label": "Met near Thriprayar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ayyanthole",
@@ -30,12 +44,6 @@
         76.11059,
         10.47519
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

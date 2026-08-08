@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 77.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pichandarkovil, Tamil Nadu",
     "end": "Namakkal, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Namakkal"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Pichandarkovil" },
+    { "id": "nh-81", "label": "Met near Manachanallur" },
+    { "id": "nh-381b", "label": "Met near Musiri" },
+    { "id": "sh-tn-71", "label": "Met near Musiri" },
+    { "id": "sh-tn-30", "label": "Met near Musiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pichandarkovil",
@@ -60,12 +74,6 @@
         78.1682,
         11.21916
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

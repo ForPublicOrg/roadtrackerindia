@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kallekkad, Kerala",
     "end": "Kannanur, Kerala",
@@ -16,6 +17,18 @@
       "Kannanur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kuzhalmannam-mankara-road", "label": "Met near Palakkad" },
+    { "id": "kl-pambadi-peringottukurussi-road", "label": "Met near Ottapalam" },
+    { "id": "kl-otterkad-narangaparambu-road", "label": "Met near Ottapalam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kallekkad",
@@ -30,12 +43,6 @@
         76.54453,
         10.76082
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

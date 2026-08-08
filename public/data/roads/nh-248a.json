@@ -23,6 +23,23 @@
       "Sector 32"
     ]
   },
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Sohna" },
+    { "id": "delhi-gurgaon-expressway", "label": "Met near Gurgaon" },
+    { "id": "nh-48", "label": "Met near Gurgaon" },
+    { "id": "nh-148b", "label": "Met near Mia" },
+    { "id": "nh-919", "label": "Met near Sohna" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahpur",
@@ -107,16 +124,6 @@
         77.03362,
         28.44508
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

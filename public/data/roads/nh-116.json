@@ -18,6 +18,20 @@
       "Haldia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-116b", "label": "A branch off this highway, running New Digha to Mahishadal" },
+    { "id": "sh-wb-4", "label": "Met near Tamluk" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kolaghat",
@@ -46,16 +60,6 @@
         88.0869,
         22.04708
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

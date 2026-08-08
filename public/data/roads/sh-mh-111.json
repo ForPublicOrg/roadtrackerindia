@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 135.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Rajapur, Maharashtra",
     "end": "Ishwarpur, Maharashtra",
@@ -16,6 +17,19 @@
       "Ishwarpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Ishwarpur" },
+    { "id": "nh-66", "label": "Met near Rajapur" },
+    { "id": "nh-166", "label": "Meets this road" },
+    { "id": "nh-166h", "label": "Met near Ishwarpur" },
+    { "id": "sh-mh-80", "label": "Met near Shirala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajapur",
@@ -37,12 +51,6 @@
         74.25676,
         17.04739
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

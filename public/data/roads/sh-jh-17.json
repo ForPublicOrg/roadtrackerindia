@@ -17,6 +17,20 @@
       "Gangta"
     ]
   },
+  "significance": "SH 17, Rampurhat–Gangta State Highway, crosses the border between West Bengal and Jharkhand. A state road that runs through more than one state has no single owner — West Bengal PWD and Jharkhand RCD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-14", "label": "Met near Rampurhat" },
+    { "id": "nh-114a", "label": "Meets this road" },
+    { "id": "nh-133", "label": "Meets this road" },
+    { "id": "nh-133e", "label": "Meets this road" },
+    { "id": "sh-jh-18", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rampurhat",
@@ -31,12 +45,6 @@
         87.05986,
         24.68078
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

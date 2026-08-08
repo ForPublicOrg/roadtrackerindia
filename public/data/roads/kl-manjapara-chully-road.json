@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kalady, Kerala",
     "end": "Angamaly, Kerala",
@@ -16,6 +17,17 @@
       "Angamaly"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-mookkanoor-ezhattumugham-road", "label": "Met near Angamaly" },
+    { "id": "kl-manjapara-ayyampuzha-road", "label": "Met near Kalady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalady",
@@ -30,12 +42,6 @@
         76.43677,
         10.27038
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

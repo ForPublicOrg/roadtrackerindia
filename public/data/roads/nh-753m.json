@@ -17,6 +17,23 @@
       "Jalna"
     ]
   },
+  "relatedRoads": [
+    { "id": "samruddhi-mahamarg", "label": "Meets this road" },
+    { "id": "nh-752i", "label": "Meets this road" },
+    { "id": "nh-752h", "label": "Meets this road" },
+    { "id": "nh-753a", "label": "Meets this road" },
+    { "id": "nh-753h", "label": "Met near Bhokardan" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chikhli",
@@ -38,16 +55,6 @@
         75.69047,
         19.86987
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

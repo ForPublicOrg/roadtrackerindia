@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ottupara, Kerala",
     "end": "Wadakkancherry, Kerala",
@@ -16,6 +17,18 @@
       "Wadakkancherry"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-22", "label": "Met near Wadakkancherry" },
+    { "id": "sh-kl-74", "label": "Met near Wadakkancherry" },
+    { "id": "kl-chittanda-thalassery-road", "label": "Met near Wadakkancherry" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ottupara",
@@ -30,12 +43,6 @@
         76.2148,
         10.71454
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

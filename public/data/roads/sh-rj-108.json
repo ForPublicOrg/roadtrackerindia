@@ -20,6 +20,20 @@
       "Tauru"
     ]
   },
+  "significance": "SH 108, Bardod–Tauru State Highway, crosses the border between Rajasthan and Haryana. A state road that runs through more than one state has no single owner — Rajasthan PWD and Haryana PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-rj-25", "label": "Met near Tapukara" },
+    { "id": "sh-rj-14", "label": "Met near Bardod" },
+    { "id": "sh-rj-52", "label": "Met near Bardod" },
+    { "id": "sh-hr-132", "label": "Met near Tauru" },
+    { "id": "sh-rj-109", "label": "Met near Kotkasim" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bardod",
@@ -69,12 +83,6 @@
         76.96025,
         28.15655
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

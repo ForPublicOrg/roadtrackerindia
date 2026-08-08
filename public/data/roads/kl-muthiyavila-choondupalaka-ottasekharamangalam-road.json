@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kattakada, Kerala",
     "end": "Russelpuram, Kerala",
@@ -16,6 +17,17 @@
       "Russelpuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-thiruvananthapuram-neyyar-dam-road", "label": "Met near Kattakada" },
+    { "id": "kl-mandapathindadavu-mukunthara-road", "label": "Met near Kattakada" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kattakada",
@@ -30,12 +42,6 @@
         77.12378,
         8.49157
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

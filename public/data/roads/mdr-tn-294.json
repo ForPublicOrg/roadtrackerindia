@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thirupparankundram, Tamil Nadu",
     "end": "Thiru Nagar, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Thiru Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Thirupparankundram" },
+    { "id": "mdr-tn-302", "label": "Met near Thirupparankundram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thirupparankundram",
@@ -30,12 +42,6 @@
         78.01392,
         9.87919
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

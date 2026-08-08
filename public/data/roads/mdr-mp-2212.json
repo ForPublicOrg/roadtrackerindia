@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 34.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mandsaur, Madhya Pradesh",
     "end": "Rampura, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Rampura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-2205", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandsaur",
@@ -30,12 +41,6 @@
         75.28777,
         24.28489
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

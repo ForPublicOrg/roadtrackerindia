@@ -18,6 +18,20 @@
       "Attibele"
     ]
   },
+  "significance": "SH 85, Rayakottai–Attibele State Highway, crosses the border between Tamil Nadu and Karnataka. A state road that runs through more than one state has no single owner — TN Highways and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hosur" },
+    { "id": "satellite-town-ring-road", "label": "Met near Hosur" },
+    { "id": "nh-844", "label": "Met near Rayakottai" },
+    { "id": "sh-ka-35", "label": "Met near Attibele" },
+    { "id": "sh-tn-17b", "label": "Met near Hosur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rayakottai",
@@ -39,12 +53,6 @@
         77.77011,
         12.76828
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

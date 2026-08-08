@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chengala, Kerala",
     "end": "Anebagilu, Kerala",
@@ -17,6 +18,18 @@
       "Anebagilu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Chengala" },
+    { "id": "mdr-kl-86", "label": "Met near Chengala" },
+    { "id": "kl-chala-vidyanagar-road", "label": "Met near Chengala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chengala",
@@ -38,12 +51,6 @@
         75.02166,
         12.50588
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

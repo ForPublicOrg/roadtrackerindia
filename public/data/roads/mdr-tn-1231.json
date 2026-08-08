@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kolathur, Tamil Nadu",
     "end": "Mettur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Mettur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-20a", "label": "Met near Kolathur" },
+    { "id": "mdr-tn-1230", "label": "Met near Kolathur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kolathur",
@@ -30,12 +42,6 @@
         77.7512,
         11.84981
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

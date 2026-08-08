@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 84.7,
+  "authority": "odisha-works",
   "route": {
     "start": "Rambha, Odisha",
     "end": "Asika, Odisha",
@@ -16,6 +17,19 @@
       "Asika"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Rambha" },
+    { "id": "nh-157", "label": "Met near Asika" },
+    { "id": "sh-or-21", "label": "Met near Bellaguntha" },
+    { "id": "sh-or-31", "label": "Met near Asika" },
+    { "id": "sh-or-33", "label": "Met near Buguda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rambha",
@@ -30,12 +44,6 @@
         84.67285,
         19.60628
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

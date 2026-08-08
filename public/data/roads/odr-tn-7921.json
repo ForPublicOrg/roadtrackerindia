@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholinghur, Tamil Nadu",
     "end": "Palasamudram, Andhra Pradesh",
@@ -16,6 +17,18 @@
       "Palasamudram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-54", "label": "Met near Sholinghur" },
+    { "id": "odr-tn-3393", "label": "Met near Sholinghur" },
+    { "id": "odr-tn-6611", "label": "Met near Sholinghur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholinghur",
@@ -30,12 +43,6 @@
         79.49155,
         13.17262
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

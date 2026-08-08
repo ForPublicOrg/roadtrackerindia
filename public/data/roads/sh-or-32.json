@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 24.7,
+  "authority": "odisha-works",
   "route": {
     "start": "Lochapada, Odisha",
     "end": "Purushotampur, Odisha",
@@ -16,6 +17,17 @@
       "Purushotampur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Brahmapur" },
+    { "id": "sh-or-36", "label": "Met near Purushotampur" },
+    { "id": "sh-or-31", "label": "Met near Purushotampur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Lochapada",
@@ -30,12 +42,6 @@
         84.87968,
         19.52159
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

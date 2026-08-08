@@ -17,6 +17,22 @@
       "Singhana"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-11", "label": "Met near Singhana" },
+    { "id": "sh-rj-37", "label": "Meets this road" },
+    { "id": "sh-rj-13", "label": "Met near Khetri" },
+    { "id": "mdr-rj-93", "label": "Met near Jasrapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jasrapur",
@@ -38,16 +54,6 @@
         75.83308,
         28.09279
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

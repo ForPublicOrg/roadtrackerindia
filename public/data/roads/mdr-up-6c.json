@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.8,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Palia Kalan, Uttar Pradesh",
     "end": "Phulbari, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Phulbari"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-up-90", "label": "Met near Palia Kalan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palia Kalan",
@@ -30,12 +41,6 @@
         80.77117,
         28.5445
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

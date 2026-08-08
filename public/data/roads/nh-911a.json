@@ -16,6 +16,24 @@
       "Khajuwala"
     ]
   },
+  "significance": "NH 911A is a branch of NH 911. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Poogal to Khajuwala, and it meets NH 911 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-911",
+      "label": "NH 911 — the highway this branch takes its number from, running Sri Ganganagar to Bap"
+    },
+    { "id": "sh-rj-94", "label": "Met near Khajuwala" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Poogal",
@@ -30,16 +48,6 @@
         72.59767,
         28.70206
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

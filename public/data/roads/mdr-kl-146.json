@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Palakunnu, Kerala",
     "end": "Periya, Kerala",
@@ -16,6 +17,20 @@
       "Periya"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Periya" },
+    { "id": "sh-kl-57", "label": "Met near Palakunnu" },
+    { "id": "mdr-kl-17", "label": "Met near Palakunnu" },
+    { "id": "mdr-kl-151", "label": "Met near Periya" },
+    { "id": "kl-poochakkad-mosque-periya-road", "label": "Met near Periya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Palakunnu",
@@ -30,12 +45,6 @@
         75.09654,
         12.40405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

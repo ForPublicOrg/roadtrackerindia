@@ -19,6 +19,20 @@
       "Talwara"
     ]
   },
+  "significance": "SH 25, Naya Nangal–Talwara State Highway, crosses the border between Himachal Pradesh and Punjab. A state road that runs through more than one state has no single owner — HP PWD and Punjab PWD (B&R) each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Amb" },
+    { "id": "nh-503a", "label": "Met near Una" },
+    { "id": "nh-503", "label": "Met near Amb" },
+    { "id": "sh-hp-32", "label": "Met near Una" },
+    { "id": "sh-hp-27", "label": "Met near Talwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Naya Nangal",
@@ -40,12 +54,6 @@
         75.8908,
         31.94055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

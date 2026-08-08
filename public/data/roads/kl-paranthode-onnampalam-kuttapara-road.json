@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vithura, Kerala",
     "end": "Mancha, Kerala",
@@ -16,6 +17,18 @@
       "Mancha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Vithura" },
+    { "id": "kl-vithura-peppara-road", "label": "Met near Vithura" },
+    { "id": "kl-aryanad-kottakkakam-road", "label": "Met near Vithura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vithura",
@@ -30,12 +43,6 @@
         77.08292,
         8.62242
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

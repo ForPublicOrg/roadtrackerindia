@@ -20,6 +20,23 @@
       "Pattunool Chataram"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Sriperumbudur" },
+    { "id": "chennai-peripheral-ring-road", "label": "Met near Arani" },
+    { "id": "nh-48", "label": "Met near Sriperumbudur" },
+    { "id": "nh-16", "label": "Met near Sholavaram" },
+    { "id": "nh-716", "label": "Met near Sevvapet" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ennore Port",
@@ -76,16 +93,6 @@
         79.94149,
         12.95575
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

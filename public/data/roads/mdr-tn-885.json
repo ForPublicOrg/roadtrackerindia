@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Solar, Tamil Nadu",
     "end": "Rangampalayam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Rangampalayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-381a", "label": "Met near Arachalur" },
+    { "id": "sh-tn-83a", "label": "Met near Arachalur" },
+    { "id": "sh-tn-198", "label": "Met near Tiruchengodu" },
+    { "id": "sh-tn-84a", "label": "Met near Arachalur" },
+    { "id": "sh-tn-84", "label": "Met near Erode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Solar",
@@ -30,12 +45,6 @@
         77.66452,
         11.23906
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

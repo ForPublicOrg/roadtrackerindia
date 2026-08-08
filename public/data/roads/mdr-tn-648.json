@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Ponmuchanti, Tamil Nadu",
     "end": "Seelapadi, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Seelapadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-83", "label": "Meets this road" },
+    { "id": "sh-tn-199", "label": "Meets this road" },
+    { "id": "sh-tn-u10", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ponmuchanti",
@@ -30,12 +43,6 @@
         78.16043,
         10.48844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

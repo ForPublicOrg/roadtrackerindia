@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Parakode, Kerala",
     "end": "Central Junction, Kerala",
@@ -17,6 +18,20 @@
       "Central Junction"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kizhakketheruvu-pathanapuram-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-kunnikkodu-pathanapuram-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-pattazhy-pidavoor-thariyanthoppu-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-maloor-shappu-mukku-salempuram-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-enathu-pattazhi-road", "label": "Met near Adoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parakode",
@@ -31,12 +46,6 @@
         76.8556,
         9.08292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

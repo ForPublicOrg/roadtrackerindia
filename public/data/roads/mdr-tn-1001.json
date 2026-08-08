@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vepanapalli, Tamil Nadu",
     "end": "Krishnagiri, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Krishnagiri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vepanapalli" },
+    { "id": "nh-48", "label": "Met near Vepanapalli" },
+    { "id": "sh-tn-226", "label": "Met near Vepanapalli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vepanapalli",
@@ -30,12 +43,6 @@
         78.12944,
         12.60035
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

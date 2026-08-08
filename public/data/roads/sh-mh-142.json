@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 67.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Kalamb, Maharashtra",
     "end": "Jamkhed, Maharashtra",
@@ -16,6 +17,19 @@
       "Jamkhed"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Meets this road" },
+    { "id": "nh-548d", "label": "Met near Jamkhed" },
+    { "id": "nh-752e", "label": "Met near Patoda" },
+    { "id": "sh-mh-155", "label": "Meets this road" },
+    { "id": "sh-mh-161", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalamb",
@@ -30,12 +44,6 @@
         75.31229,
         18.73369
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 45.8,
+  "authority": "odisha-works",
   "route": {
     "start": "Baripada, Odisha",
     "end": "Jaleswar, Odisha",
@@ -16,6 +17,17 @@
       "Jaleswar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Jaleswar" },
+    { "id": "nh-18", "label": "Met near Baripada" },
+    { "id": "nh-316a", "label": "Met near Jaleswar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baripada",
@@ -30,12 +42,6 @@
         87.1132,
         21.71963
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -16,6 +16,23 @@
       "Jhalod"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Meets this road" },
+    { "id": "nh-56", "label": "Met near Jhalod" },
+    { "id": "sh-mp-64", "label": "Met near Jhalod" },
+    { "id": "sh-gj-58", "label": "Met near Jhalod" },
+    { "id": "sh-gj-12", "label": "Met near Devgadh Baria" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devgadh Baria",
@@ -30,16 +47,6 @@
         74.31832,
         23.05422
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

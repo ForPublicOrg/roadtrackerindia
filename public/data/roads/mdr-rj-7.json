@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 75.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bigod, Rajasthan",
     "end": "Deoli, Rajasthan",
@@ -18,6 +19,19 @@
       "Deoli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-148d", "label": "Met near Jahazpur" },
+    { "id": "nh-758", "label": "Met near Bigod" },
+    { "id": "sh-rj-26", "label": "Met near Deoli" },
+    { "id": "mdr-rj-41", "label": "Met near Jahazpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bigod",
@@ -46,12 +60,6 @@
         75.37355,
         25.76016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

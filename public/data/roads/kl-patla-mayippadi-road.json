@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Siraj Nagar, Kerala",
     "end": "Kelugudde, Kerala",
@@ -16,6 +17,17 @@
       "Kelugudde"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-107c", "label": "Met near Kumbala" },
+    { "id": "mdr-kl-49b", "label": "Met near Kasaragod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Siraj Nagar",
@@ -30,12 +42,6 @@
         75.00274,
         12.56212
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottapuram, Kerala",
     "end": "North Paravur, Kerala",
@@ -16,6 +17,17 @@
       "North Paravur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near North Paravur" },
+    { "id": "kl-andipillykkavu-vadakkumpuram-road", "label": "Met near North Paravur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottapuram",
@@ -30,12 +42,6 @@
         76.22251,
         10.15433
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 18.8,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Godhra, Gujarat",
     "end": "Devgadh Baria, Gujarat",
@@ -16,6 +17,17 @@
       "Devgadh Baria"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-gj-150", "label": "Met near Godhra" },
+    { "id": "sh-gj-12", "label": "Met near Godhra" },
+    { "id": "sh-gj-5b", "label": "Met near Godhra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Godhra",
@@ -30,12 +42,6 @@
         73.75858,
         22.70397
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

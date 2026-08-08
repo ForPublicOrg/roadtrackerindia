@@ -17,6 +17,21 @@
       "Uppala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Kunjathoor - Kethumpady - Nandarapadavu Road, crosses the border between Kerala and Karnataka. A state road that runs through more than one state has no single owner — Kerala PWD and Karnataka PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Manjeshwar" },
+    { "id": "sh-kl-59", "label": "Met near Manjeshwar" },
+    { "id": "kl-sunkathakatta-nandarapadavu-road", "label": "Met near Manjeshwar" },
+    { "id": "mdr-kl-55", "label": "Met near Manjeshwar" },
+    { "id": "kl-bakery-junction-thoudugoli-road", "label": "Met near Manjeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manjeshwar",
@@ -31,12 +46,6 @@
         74.94141,
         12.77951
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

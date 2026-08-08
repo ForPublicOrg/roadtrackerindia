@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyacavu, Kerala",
     "end": "Kayamkulam, Kerala",
@@ -17,6 +18,23 @@
       "Kayamkulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-5", "label": "Met near Kayamkulam" },
+    { "id": "sh-kl-10", "label": "Met near Mavelikkara" },
+    { "id": "sh-kl-6", "label": "Met near Mavelikkara" },
+    {
+      "id": "kl-bharanikavu-komalloor-theruvumukku-padanilam-kudassanad-road",
+      "label": "Met near Kayamkulam"
+    },
+    { "id": "kl-kottapuzhakkal-thazhava-road", "label": "Met near Kayamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyacavu",
@@ -31,12 +49,6 @@
         76.56418,
         9.17637
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

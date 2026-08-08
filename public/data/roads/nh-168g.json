@@ -19,6 +19,23 @@
       "Modasa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Meets this road" },
+    { "id": "nh-68", "label": "Met near Mahesana" },
+    { "id": "nh-848k", "label": "Meets this road" },
+    { "id": "sh-gj-10", "label": "Met near Vadnagar" },
+    { "id": "sh-gj-5", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akshardham township",
@@ -54,16 +71,6 @@
         73.36733,
         23.68249
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

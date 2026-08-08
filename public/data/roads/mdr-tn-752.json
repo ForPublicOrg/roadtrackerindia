@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adambakkam, Tamil Nadu",
     "end": "Kottivakkam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Kottivakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-inner-ring-road", "label": "Met near Adambakkam" },
+    { "id": "chennai-200-feet-radial-road", "label": "Met near Adambakkam" },
+    { "id": "sh-tn-48", "label": "Met near Adambakkam" },
+    { "id": "sh-tn-49a", "label": "Met near Taramani" },
+    { "id": "sh-tn-48b", "label": "Met near Adambakkam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adambakkam",
@@ -45,12 +60,6 @@
         80.25261,
         12.9799
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

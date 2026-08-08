@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 68.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Bakani, Rajasthan",
     "end": "Khanpur, Rajasthan",
@@ -16,6 +17,18 @@
       "Khanpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Jhalrapatan" },
+    { "id": "sh-rj-1", "label": "Met near Jhalawar" },
+    { "id": "sh-rj-74", "label": "Met near Khanpur" },
+    { "id": "mdr-rj-177", "label": "Met near Bakani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bakani",
@@ -30,12 +43,6 @@
         76.25555,
         24.76525
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

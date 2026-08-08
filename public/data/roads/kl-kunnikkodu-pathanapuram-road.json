@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Central Junction, Kerala",
     "end": "Pathanapuram, Kerala",
@@ -16,6 +17,20 @@
       "Pathanapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Pathanapuram" },
+    { "id": "sh-kl-59", "label": "Met near Pathanapuram" },
+    { "id": "sh-kl-8", "label": "Met near Pathanapuram" },
+    { "id": "kl-pattazhy-kunnikkodu-road", "label": "Met near Pathanapuram" },
+    { "id": "kl-pathanapuram-eanath-road", "label": "Met near Pathanapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Central Junction",
@@ -30,12 +45,6 @@
         76.85626,
         9.09253
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

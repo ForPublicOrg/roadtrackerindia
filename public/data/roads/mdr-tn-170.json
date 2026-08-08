@@ -17,6 +17,21 @@
       "Marayoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 170, Kodaikanal–Marayoor District road, crosses the border between Tamil Nadu and Kerala. A state road that runs through more than one state has no single owner — TN Highways and Kerala PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "sh-tn-156", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-117", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-897", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-217", "label": "Met near Kodaikanal" },
+    { "id": "mdr-tn-298", "label": "Met near Kodaikanal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kodaikanal",
@@ -31,12 +46,6 @@
         77.23555,
         10.12858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

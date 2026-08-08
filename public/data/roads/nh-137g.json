@@ -17,6 +17,20 @@
       "Pailapool"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-37", "label": "Met near Pailapool" },
+    { "id": "as-assam-major-district-road-mdr-chachar-001-new-numbering-2023", "label": "Met near Pailapool" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Purana Maibong",
@@ -31,16 +45,6 @@
         93.02293,
         24.82913
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

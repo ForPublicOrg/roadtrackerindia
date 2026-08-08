@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rajgarh, Madhya Pradesh",
     "end": "Sardarpur, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Sardarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Met near Rajgarh" },
+    { "id": "sh-mp-65", "label": "Met near Rajgarh" },
+    { "id": "mdr-mp-4611", "label": "Met near Sardarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajgarh",
@@ -30,12 +43,6 @@
         74.97951,
         22.66485
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

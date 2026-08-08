@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Udhagamandalam, Tamil Nadu",
     "end": "Kundah, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kundah"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-181", "label": "Met near Udhagamandalam" },
+    { "id": "mdr-tn-86", "label": "Met near Kundah" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Udhagamandalam",
@@ -30,12 +42,6 @@
         76.69094,
         11.31281
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

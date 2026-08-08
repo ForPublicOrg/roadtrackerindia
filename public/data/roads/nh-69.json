@@ -1,10 +1,11 @@
 {
   "id": "nh-69",
   "ref": "NH 69",
-  "name": "Honnavar–Neptune Nagar National Highway",
+  "name": "Honnavar–Chittoor Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 626.4,
+  "lanes": "2 lanes, widened in places",
   "route": {
     "start": "Honnavar, Karnataka",
     "end": "Neptune Nagar, Andhra Pradesh",
@@ -25,6 +26,32 @@
       "Neptune Nagar"
     ]
   },
+  "history": "National Highway 69 crosses the peninsula from the Karnataka coast at Honnavar, climbs the Western Ghats past Sagara and Jog Falls to Shivamogga, then runs east across the Deccan through Sira and Chintamani into Andhra Pradesh at Chittoor. It is one of the few direct east–west roads across southern Karnataka, and it links the coast to the dry interior.",
+  "facts": [
+    "Climbs the Western Ghats near Sagara, close to Jog Falls, one of India's highest waterfalls.",
+    "Runs from the Arabian Sea coast at Honnavar to the Andhra Pradesh border at Chittoor.",
+    "Shivamogga, on the route, is the gateway town to the Malnad hill country.",
+    "It crosses the dry plains of Tumakuru and Chikkaballapur in its eastern half."
+  ],
+  "significance": "Coastal Karnataka and the interior are separated by the Ghats, and there are only a handful of roads across. This is one of them, and it gives the Malnad districts a direct route to both the coast and Bengaluru's eastern satellite towns.",
+  "relatedRoads": [
+    { "id": "nh-66", "label": "The coastal highway met at Honnavar" },
+    { "id": "nh-44", "label": "The north–south highway crossed near Chittoor" },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Agali" },
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Palamaneru" },
+    { "id": "nh-48", "label": "Met near Sira" }
+  ],
+  "travelNotes": "The ghat section near Sagara is winding and slow, and lovely in the monsoon. The eastern half is open, dry and fast.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Honnavar",
@@ -130,16 +157,6 @@
         79.06066,
         13.19702
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

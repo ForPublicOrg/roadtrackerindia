@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Chithode, Tamil Nadu",
     "end": "Periyasemur, Tamil Nadu",
@@ -17,6 +18,17 @@
       "Periyasemur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-15", "label": "Met near Chithode" },
+    { "id": "sh-tn-u110", "label": "Met near Chithode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chithode",
@@ -31,12 +43,6 @@
         77.66642,
         11.38977
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

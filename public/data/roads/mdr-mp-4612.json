@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dhar, Madhya Pradesh",
     "end": "Mandu, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Mandu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-40", "label": "Met near Dhar" },
+    { "id": "mdr-mp-4616", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhar",
@@ -30,12 +42,6 @@
         75.46218,
         22.49535
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

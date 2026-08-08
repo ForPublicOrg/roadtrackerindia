@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 28.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Seoni Malwa, Madhya Pradesh",
     "end": "Rehatgarh, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Rehatgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-47", "label": "Meets this road" },
+    { "id": "sh-mp-67", "label": "Met near Seoni Malwa" },
+    { "id": "mdr-mp-3325", "label": "Met near Seoni Malwa" },
+    { "id": "mdr-mp-3323", "label": "Met near Seoni Malwa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seoni Malwa",
@@ -30,12 +44,6 @@
         77.41185,
         22.23141
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -1,10 +1,12 @@
 {
   "id": "as-assam-kj-m-7-karimganj-major-distric-road-7-new-numbering-20",
-  "ref": "MDR",
-  "name": "Assam Kj-M-7 (Karimganj Major Distric Road 7) (new Numbering 2024)",
+  "ref": "MDR KJ-M-7",
+  "name": "Dullabhcherra–Panisagar district road",
+  "aka": ["Karimganj Major District Road KJ-M-7"],
   "category": "district",
   "status": "operational",
   "lengthKm": 25.7,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dullabhcherra, Assam",
     "end": "Panisagar, Tripura",
@@ -16,6 +18,17 @@
       "Panisagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "A major district road in Karimganj district, Assam, running between Dullabhcherra and Panisagar. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "relatedRoads": [
+    { "id": "mdr-as-7", "label": "Met near Dullabhcherra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dullabhcherra",
@@ -30,12 +43,6 @@
         92.30082,
         24.25271
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

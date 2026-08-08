@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Edavannappara, Kerala",
     "end": "Areekode, Kerala",
@@ -16,6 +17,20 @@
       "Areekode"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-34", "label": "Met near Areekode" },
+    { "id": "kl-kondotti-vazhakkad-road", "label": "Met near Edavannappara" },
+    { "id": "kl-areacode-othayi-edavanna-road", "label": "Met near Areekode" },
+    { "id": "kl-kadungallur-vilayil-chaliyappuram-road", "label": "Met near Edavannappara" },
+    { "id": "kl-valillappuzha-elamaram-irattamoozhi-road", "label": "Met near Edavannappara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Edavannappara",
@@ -30,12 +45,6 @@
         76.04755,
         11.23603
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

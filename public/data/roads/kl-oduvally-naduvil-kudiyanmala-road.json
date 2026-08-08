@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chemperi, Kerala",
     "end": "Karuvanchal, Kerala",
@@ -17,6 +18,20 @@
       "Karuvanchal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Naduvil" },
+    { "id": "kl-taliparamba-coorg-border-road", "label": "Met near Naduvil" },
+    { "id": "kl-chundaparamba-pooparamba-nellikutty-areekkamala-vellad-karuv", "label": "Met near Chemperi" },
+    { "id": "kl-sreekandapuram-chempanthotty-naduvil-road", "label": "Met near Naduvil" },
+    { "id": "kl-mandalam-mavumpallam-karayathumchal-road", "label": "Met near Naduvil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chemperi",
@@ -38,12 +53,6 @@
         75.4406,
         12.13484
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

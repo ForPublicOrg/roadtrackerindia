@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pothencode, Kerala",
     "end": "Sreekariyam, Kerala",
@@ -16,6 +17,20 @@
       "Sreekariyam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mc-road", "label": "Met near Pothencode" },
+    { "id": "kl-old-nh-road-thiruvananthapuram", "label": "Met near Sreekariyam" },
+    { "id": "kl-pothencode-murukkumpzha-road", "label": "Met near Pothencode" },
+    { "id": "kl-sreekariyam-pothencode-road", "label": "Met near Pothencode" },
+    { "id": "kl-vembayam-pallippuram-road", "label": "Met near Pothencode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pothencode",
@@ -30,12 +45,6 @@
         76.91694,
         8.55326
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

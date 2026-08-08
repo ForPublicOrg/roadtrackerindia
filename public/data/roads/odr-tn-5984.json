@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mottur, Tamil Nadu",
     "end": "Ariyur, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Ariyur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-6794", "label": "Met near Vellore" },
+    { "id": "odr-tn-9129", "label": "Met near Vellore" },
+    { "id": "odr-tn-5986", "label": "Met near Vellore" },
+    { "id": "odr-tn-3198", "label": "Met near Vellore" },
+    { "id": "odr-tn-2872", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mottur",
@@ -37,12 +52,6 @@
         79.09478,
         12.89655
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -22,6 +22,22 @@
       "Hosa Mandli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-169a", "label": "A branch off this highway, running Tirthahalli to Adi Udupi" },
+    { "id": "nh-66", "label": "Met near Mangaluru" },
+    { "id": "nh-69", "label": "Met near Shivamogga" },
+    { "id": "nh-73", "label": "Met near Mangaluru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nanthoor",
@@ -92,16 +108,6 @@
         75.56649,
         13.91936
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

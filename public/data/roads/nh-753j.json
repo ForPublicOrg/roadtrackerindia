@@ -19,6 +19,23 @@
       "Jalgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Chalisgaon" },
+    { "id": "nh-53", "label": "Met near Jalgaon" },
+    { "id": "nh-752g", "label": "Met near Manmad" },
+    { "id": "nh-160h", "label": "Met near Manmad" },
+    { "id": "sh-mh-16", "label": "Met near Nandgaon" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manmad",
@@ -61,16 +78,6 @@
         75.5658,
         20.99505
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

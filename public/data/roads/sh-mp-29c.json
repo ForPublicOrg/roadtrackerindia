@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 58.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Budhni, Madhya Pradesh",
     "end": "Badi, Madhya Pradesh",
@@ -17,6 +18,18 @@
       "Badi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-45", "label": "Met near Badi" },
+    { "id": "nh-46", "label": "Met near Narmadapuram" },
+    { "id": "nh-146b", "label": "Met near Badi" },
+    { "id": "sh-mp-29d", "label": "Met near Narmadapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Budhni",
@@ -38,12 +51,6 @@
         78.07725,
         23.02632
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

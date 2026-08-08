@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 41.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melapalayam, Tamil Nadu",
     "end": "Nanguneri, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Nanguneri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Tirunelveli" },
+    { "id": "sh-tn-u93", "label": "Met near Tirunelveli" },
+    { "id": "mdr-tn-152", "label": "Met near Nanguneri" },
+    { "id": "mdr-tn-292", "label": "Met near Nanguneri" },
+    { "id": "mdr-tn-151", "label": "Met near Sathankulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melapalayam",
@@ -31,12 +46,6 @@
         77.75628,
         8.40596
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

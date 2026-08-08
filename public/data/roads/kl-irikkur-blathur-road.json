@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Payyavoor, Kerala",
     "end": "Irikkoor, Kerala",
@@ -16,6 +17,18 @@
       "Irikkoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-36", "label": "Met near Irikkoor" },
+    { "id": "mdr-kl-17", "label": "Met near Irikkoor" },
+    { "id": "kl-kalliyad-oorathur-thermala-road", "label": "Met near Irikkoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Payyavoor",
@@ -30,12 +43,6 @@
         75.54959,
         11.98672
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

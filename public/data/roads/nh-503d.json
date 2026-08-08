@@ -18,6 +18,23 @@
       "Dera Baba Nanak"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Beas" },
+    { "id": "nh-354", "label": "Met near Dera Baba Nanak" },
+    { "id": "nh-503a", "label": "Met near Mehta Chowk" },
+    { "id": "mdr-pb-63", "label": "Met near Batala" },
+    { "id": "mdr-pb-66", "label": "Met near Batala" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Beas",
@@ -53,16 +70,6 @@
         75.04158,
         32.01804
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

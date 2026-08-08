@@ -1,0 +1,111 @@
+{
+  "id": "hyderabad-inner-ring-road",
+  "ref": "Inner Ring Road",
+  "name": "Hyderabad Inner Ring Road",
+  "category": "local",
+  "status": "operational",
+  "lengthKm": 51.1,
+  "lanes": "4–6 lanes, flyovers at the main junctions",
+  "authority": "ghmc",
+  "route": {
+    "start": "Hyderabad, Telangana",
+    "end": "Hyderabad, Telangana",
+    "states": ["Telangana"],
+    "majorCities": ["Hyderabad", "Mehdipatnam", "Attapur", "Bairamalguda", "Secunderabad"]
+  },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "Hyderabad's Inner Ring Road loops around the older parts of the city, through Mehdipatnam, Attapur, Bairamalguda and up towards Secunderabad. It was built long before the Outer Ring Road, to keep traffic out of the crowded lanes of the old city around Charminar, and it is still the ring most everyday city traffic uses — the Outer Ring Road is far out and mainly serves long-distance and airport trips.",
+  "facts": [
+    "Rings the older parts of Hyderabad, well inside the Outer Ring Road.",
+    "Built to keep through traffic out of the old city around Charminar.",
+    "Links Hyderabad and Secunderabad, the twin cities either side of the Hussain Sagar lake.",
+    "The elevated airport expressway branches off it at Mehdipatnam."
+  ],
+  "significance": "It is the ring that ordinary city traffic uses. The Outer Ring Road is for long journeys and the airport; this is the one people drive every day.",
+  "relatedRoads": [
+    { "id": "hyderabad-outer-ring-road", "label": "The much larger tolled ring further out" },
+    {
+      "id": "hyderabad-elevated-expressway-p-v-narasimha-rao",
+      "label": "The elevated airport expressway that branches off at Mehdipatnam"
+    },
+    {
+      "id": "hyderabad-regional-ring-road",
+      "label": "The third and largest ring, planned around the wider region"
+    },
+    { "id": "nh-44", "label": "Met near Secunderabad" },
+    { "id": "nh-65", "label": "Met near LB Nagar" },
+    { "id": "nh-163", "label": "Met near Mehdipatnam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "waypoints": [
+    {
+      "name": "Gudimalkapur",
+      "coords": [
+        78.42952,
+        17.3876
+      ]
+    },
+    {
+      "name": "Attapur",
+      "coords": [
+        78.42932,
+        17.36967
+      ]
+    },
+    {
+      "name": "Mailardevpally",
+      "coords": [
+        78.44414,
+        17.31432
+      ]
+    },
+    {
+      "name": "Hyderabad",
+      "coords": [
+        78.49751,
+        17.33745
+      ]
+    },
+    {
+      "name": "Bairamalguda",
+      "coords": [
+        78.54634,
+        17.34184
+      ]
+    },
+    {
+      "name": "Uppal",
+      "coords": [
+        78.56026,
+        17.40179
+      ]
+    },
+    {
+      "name": "Malkajgiri",
+      "coords": [
+        78.51795,
+        17.43679
+      ]
+    },
+    {
+      "name": "Secunderabad",
+      "coords": [
+        78.50054,
+        17.44291
+      ]
+    },
+    {
+      "name": "Mehdipatnam",
+      "coords": [
+        78.43351,
+        17.39537
+      ]
+    }
+  ],
+  "provenance": "osm"
+}

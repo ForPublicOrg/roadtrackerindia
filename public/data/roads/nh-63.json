@@ -6,8 +6,8 @@
   "category": "nh",
   "status": "operational",
   "lengthKm": 1065,
-  "authority": "nhai",
   "lanes": "Mostly 2 lanes, with 4-lane stretches near the bigger towns",
+  "authority": "nhai",
   "route": {
     "start": "Daund, Maharashtra",
     "end": "Koraput, Odisha",
@@ -40,7 +40,13 @@
   "relatedRoads": [
     { "id": "nh-65", "label": "The Pune–Machilipatnam highway, which NH 63 leaves near Daund" },
     { "id": "nh-30", "label": "Chhattisgarh's north–south highway, met at Jagdalpur" },
-    { "id": "raipur-visakhapatnam-expressway", "label": "The new expressway through Bastar towards the Visakhapatnam port" }
+    {
+      "id": "raipur-visakhapatnam-expressway",
+      "label": "The new expressway through Bastar towards the Visakhapatnam port"
+    },
+    { "id": "warangal-khammam-expressway", "label": "Met near thimmapur" },
+    { "id": "nh-44", "label": "Met near Armoor" },
+    { "id": "nh-52", "label": "Met near Dharashiv" }
   ],
   "travelNotes": "This is a slow highway: mostly two lanes, and the full run takes two to three days. The Maharashtra and Telangana halves are ordinary plains driving, but from Sironcha eastwards the road enters long stretches of thick forest with very few fuel pumps, few places to eat and patchy mobile signal — fill the tank at Mancherial or Jagdalpur and avoid driving that section after dark. The Bastar and Koraput hills are beautiful in the cool months from November to February; the monsoon between June and September brings mud, fallen trees and slow going.",
   "sources": [

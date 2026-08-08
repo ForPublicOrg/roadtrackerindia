@@ -18,6 +18,21 @@
       "Ghumarwin"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-3", "label": "Met near Hamirpur" },
+    { "id": "nh-503a", "label": "Met near Bhotta" },
+    { "id": "sh-hp-32", "label": "Met near Bhotta" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anu",
@@ -46,16 +61,6 @@
         76.70991,
         31.44067
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

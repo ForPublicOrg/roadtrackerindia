@@ -18,6 +18,24 @@
       "Moga"
     ]
   },
+  "significance": "NH 703B is a branch of NH 703. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Khalra to Moga, and it meets NH 703 along the way.",
+  "relatedRoads": [
+    { "id": "nh-703", "label": "Met near Moga" },
+    { "id": "nh-354", "label": "Met near Bhikhiwind" },
+    { "id": "nh-703a", "label": "Met near Makhu" },
+    { "id": "sh-pb-20", "label": "Met near Kot Ise Khan" },
+    { "id": "mdr-pb-62", "label": "Met near Patti" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khalra",
@@ -53,16 +71,6 @@
         75.19018,
         30.8617
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

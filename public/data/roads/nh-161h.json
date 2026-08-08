@@ -16,6 +16,21 @@
       "Jalgaon Jamod"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-161g", "label": "Met near Jalgaon Jamod" },
+    { "id": "sh-mh-194", "label": "Met near Jalgaon Jamod" },
+    { "id": "sh-mh-196", "label": "Met near Nandura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nandura",
@@ -30,16 +45,6 @@
         76.5247,
         21.04128
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

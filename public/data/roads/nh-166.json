@@ -20,6 +20,24 @@
       "Pethkilla"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-166e", "label": "A branch off this highway, running Vijayapura to Chiplun" },
+    { "id": "nh-166g", "label": "A branch off this highway, running Kankavali to Mangalwar Peth" },
+    { "id": "nh-166h", "label": "A branch off this highway, running Miraj to Ishwarpur" },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Kavathe Ekand" },
+    { "id": "nh-48", "label": "Met near Kolhapur" },
+    { "id": "nh-52", "label": "Met near Solapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Solapur",
@@ -90,16 +108,6 @@
         73.27204,
         16.99741
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

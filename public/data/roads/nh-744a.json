@@ -19,6 +19,23 @@
       "Alanganallur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Vadipatti" },
+    { "id": "nh-38", "label": "Met near Kadachanenthal" },
+    { "id": "nh-785", "label": "Met near Oomachikulam" },
+    { "id": "madurai-north-ring-road", "label": "Met near Vadipatti" },
+    { "id": "sh-tn-72a", "label": "Met near Kadachanenthal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kadachanenthal",
@@ -61,16 +78,6 @@
         78.22757,
         9.98003
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

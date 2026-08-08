@@ -19,6 +19,21 @@
       "Khowai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-208a", "label": "A branch off this highway, running Ramkrishna Nagar to Kumarghat" },
+    { "id": "nh-8", "label": "Met near Teliamura" },
+    { "id": "nh-108b", "label": "Met near Khowai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panchari",
@@ -54,16 +69,6 @@
         91.59898,
         24.08215
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

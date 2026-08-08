@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 154.5,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Patan, Maharashtra",
     "end": "Pandharpur, Maharashtra",
@@ -17,6 +18,19 @@
       "Pandharpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Mayani" },
+    { "id": "nh-48", "label": "Met near Karad" },
+    { "id": "nh-160", "label": "Met near Mayani" },
+    { "id": "nh-166e", "label": "Met near Patan" },
+    { "id": "nh-561a", "label": "Met near Pandharpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patan",
@@ -38,12 +52,6 @@
         75.33124,
         17.67642
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

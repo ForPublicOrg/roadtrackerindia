@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 62.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sanchore, Rajasthan",
     "end": "Bhinmal, Rajasthan",
@@ -16,6 +17,19 @@
       "Bhinmal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Sanchore" },
+    { "id": "nh-68", "label": "Met near Sanchore" },
+    { "id": "sh-rj-16a", "label": "Met near Bhinmal" },
+    { "id": "sh-rj-31", "label": "Met near Bhinmal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sanchore",
@@ -30,12 +44,6 @@
         72.27243,
         24.99915
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

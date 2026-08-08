@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mannargudi, Tamil Nadu",
     "end": "Kuttanallur, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Kuttanallur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-63", "label": "Met near Mannargudi" },
+    { "id": "sh-tn-202", "label": "Met near Mannargudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mannargudi",
@@ -30,12 +42,6 @@
         79.46109,
         10.66374
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -16,6 +16,21 @@
       "Lochapada"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-516a", "label": "A branch off this highway, running Gopalpur to Balugaon" },
+    { "id": "nh-16", "label": "Met near Brahmapur" },
+    { "id": "nh-59", "label": "Met near Brahmapur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gopalpur",
@@ -30,16 +45,6 @@
         84.84548,
         19.30766
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

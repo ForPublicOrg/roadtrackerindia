@@ -1,10 +1,14 @@
 {
   "id": "mumbai-nashik-expressway",
-  "ref": "NH",
-  "name": "Mumbai Nashik Expressway",
+  "ref": "Mumbai–Nashik Expressway",
+  "name": "Mumbai–Nashik Expressway",
+  "aka": ["NH 160 (Mumbai–Nashik section)", "Mumbai–Agra Road (old NH 3)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 168.3,
+  "lanes": "4–6 lanes, with ghat sections through the Western Ghats",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Panchavati, Maharashtra",
     "end": "Naupada, Maharashtra",
@@ -22,6 +26,41 @@
       "Naupada"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
+  "history": "The road from Mumbai up to Nashik is the old Mumbai–Agra highway, and it climbs the Western Ghats through the Kasara and Igatpuri ghats. It has been widened in stages into a six-lane, partly access-controlled highway to handle the enormous traffic between Mumbai, Thane and Nashik — freight from the ports, pilgrims heading to Trimbakeshwar and Shirdi, and Mumbai families driving up to the hills at Igatpuri for the monsoon. The steep ghat section is the hardest part of the route: it is where the road slows to a crawl behind heavy trucks and where landslides close lanes in heavy rain.",
+  "facts": [
+    "It climbs the Western Ghats through the Kasara ghat, one of the steepest highway climbs near Mumbai.",
+    "The route follows what used to be National Highway 3, the Mumbai–Agra road.",
+    "It is the main road for pilgrims travelling from Mumbai to Shirdi, Trimbakeshwar and Nashik.",
+    "Nashik's vineyards and Igatpuri's monsoon hills draw heavy weekend traffic from Mumbai onto it.",
+    "It meets the Samruddhi Mahamarg near Nashik, which now carries long-distance Nagpur traffic away from it."
+  ],
+  "significance": "This is the road between Mumbai and the industrial city of Nashik, and it doubles as Mumbai's way out to the north-east — towards Shirdi, Aurangabad and, historically, Agra. It carries a constant stream of freight between Nashik's factories and Mumbai's ports.",
+  "relatedRoads": [
+    {
+      "id": "samruddhi-mahamarg",
+      "label": "The newer expressway to Nagpur, which meets this route near Nashik"
+    },
+    { "id": "eastern-express-highway", "label": "Carries this traffic on into Mumbai through Thane" },
+    { "id": "nh-60", "label": "Continues north-east from Nashik towards Dhule and Madhya Pradesh" },
+    { "id": "nh-48", "label": "Met near Thane" },
+    { "id": "nh-61", "label": "Met near Bhiwandi" },
+    { "id": "nh-848", "label": "Met near Thane" }
+  ],
+  "travelNotes": "Allow three to four hours from Mumbai to Nashik, and much longer on a festival weekend. The Kasara ghat is the bottleneck — heavy rain brings landslips and slow-moving trucks, and the climb is best avoided after dark in the monsoon.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Panchavati",
@@ -99,16 +138,6 @@
         72.96461,
         19.18526
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

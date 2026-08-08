@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Karyavattom, Kerala",
     "end": "Kulathoor, Kerala",
@@ -17,6 +18,18 @@
       "Kulathoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kazhakkoottam" },
+    { "id": "kl-old-nh-road-thiruvananthapuram", "label": "Met near Kazhakkoottam" },
+    { "id": "kl-sreekariyam-kazhakkuttom-via-kulathoor-road", "label": "Met near Kulathoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karyavattom",
@@ -38,12 +51,6 @@
         76.88528,
         8.54239
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

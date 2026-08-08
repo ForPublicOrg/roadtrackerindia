@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kotti, Kerala",
     "end": "Kunhimangalam, Kerala",
@@ -17,6 +18,20 @@
       "Kunhimangalam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-punnakadavu-kunnaru-palakode-road", "label": "Met near Payyanur" },
+    { "id": "kl-payyannur-south-bazar-kandankali-kurumkadavu-punnakkadavu-ro", "label": "Met near Payyanur" },
+    { "id": "kl-payyannur-railway-station-ramanthali-ettikulam-road", "label": "Met near Payyanur" },
+    { "id": "kl-ramanthali-high-school-kunnaru-road", "label": "Met near Payyanur" },
+    { "id": "kl-punnakadavu-vadakkumbad-moorikode-road", "label": "Met near Payyanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kotti",
@@ -31,12 +46,6 @@
         75.19014,
         12.06057
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

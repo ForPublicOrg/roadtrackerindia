@@ -20,6 +20,26 @@
       "Kedgaon"
     ]
   },
+  "significance": "NH 965G is a branch of NH 965. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Jath to Kedgaon, and it meets NH 965 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-965",
+      "label": "NH 965 — the highway this branch takes its number from, running Akluj to Gopalpatti"
+    },
+    { "id": "nh-65", "label": "Met near Indapur" },
+    { "id": "nh-548c", "label": "Met near Akluj" },
+    { "id": "nh-160", "label": "Met near Baramati" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jath",
@@ -76,16 +96,6 @@
         74.47257,
         18.41723
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

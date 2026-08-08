@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Sangod, Rajasthan",
     "end": "Khanpur, Rajasthan",
@@ -16,6 +17,20 @@
       "Khanpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-51", "label": "Met near Sangod" },
+    { "id": "sh-rj-74", "label": "Met near Sangod" },
+    { "id": "mdr-rj-88", "label": "Met near Sangod" },
+    { "id": "mdr-rj-186", "label": "Met near Sangod" },
+    { "id": "mdr-rj-55a", "label": "Met near Sangod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sangod",
@@ -30,12 +45,6 @@
         76.20302,
         24.81734
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

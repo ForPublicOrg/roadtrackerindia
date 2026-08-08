@@ -18,6 +18,19 @@
       "Jassur"
     ]
   },
+  "significance": "SH 27, Talwara–Jassur State Highway, crosses the border between Punjab and Himachal Pradesh. A state road that runs through more than one state has no single owner — Punjab PWD (B&R) and HP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-154", "label": "Met near Jassur" },
+    { "id": "sh-hp-22", "label": "Met near Baud" },
+    { "id": "sh-pb-25", "label": "Met near Talwara" },
+    { "id": "sh-hp-25", "label": "Met near Talwara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Talwara",
@@ -32,12 +45,6 @@
         75.8519,
         32.28287
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

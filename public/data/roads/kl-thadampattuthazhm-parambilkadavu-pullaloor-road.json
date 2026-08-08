@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Civil Station, Kerala",
     "end": "Karanthur, Kerala",
@@ -17,6 +18,19 @@
       "Karanthur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kozhikode" },
+    { "id": "kl-kozhikode-balussery-road", "label": "Met near Kozhikode" },
+    { "id": "kl-moottoli-kuruvattor-road", "label": "Met near Moozhikkal" },
+    { "id": "kl-parambil-bazar-moozhikkal-road", "label": "Met near Moozhikkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Civil Station",
@@ -38,12 +52,6 @@
         75.84812,
         11.33565
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

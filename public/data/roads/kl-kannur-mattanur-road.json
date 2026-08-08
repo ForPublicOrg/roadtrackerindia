@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kannur, Kerala",
     "end": "Mattannur, Kerala",
@@ -16,6 +17,20 @@
       "Mattannur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kannur" },
+    { "id": "sh-kl-30", "label": "Met near Mattannur" },
+    { "id": "mdr-kl-17", "label": "Met near Mattannur" },
+    { "id": "mdr-kl-2", "label": "Met near Kannur" },
+    { "id": "mdr-kl-230", "label": "Met near Mattannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kannur",
@@ -30,12 +45,6 @@
         75.57263,
         11.93176
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

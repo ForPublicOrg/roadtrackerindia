@@ -18,6 +18,26 @@
       "Udvada"
     ]
   },
+  "significance": "NH 848B is a branch of NH 848. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Vapi to Udvada, and it meets NH 848 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-848",
+      "label": "NH 848 — the highway this branch takes its number from, running Majiwada to Udvada"
+    },
+    { "id": "nh-48", "label": "Met near Vapi" },
+    { "id": "sh-gj-185", "label": "Met near Daman" },
+    { "id": "sh-gj-186", "label": "Met near Udvada" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vapi",
@@ -46,16 +66,6 @@
         72.88839,
         20.46788
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

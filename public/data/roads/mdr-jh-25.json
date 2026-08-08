@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 38.6,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Muri, Jharkhand",
     "end": "Sini, Jharkhand",
@@ -16,6 +17,19 @@
       "Sini"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-jh-1", "label": "Met near Muri" },
+    { "id": "mdr-jh-27", "label": "Met near Muri" },
+    { "id": "mdr-jh-26", "label": "Met near Muri" },
+    { "id": "mdr-jh-28", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muri",
@@ -30,12 +44,6 @@
         85.86588,
         23.03717
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

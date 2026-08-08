@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kottarakkara, Kerala",
     "end": "Puthoor, Kerala",
@@ -16,6 +17,20 @@
       "Puthoor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-744", "label": "Met near Kundara" },
+    { "id": "mc-road", "label": "Met near Kottarakkara" },
+    { "id": "kl-kottarakkara-sasthamkotta-road", "label": "Met near Kottarakkara" },
+    { "id": "kl-neeleswaram-chungathra-road", "label": "Met near Kottarakkara" },
+    { "id": "kl-neelaswaram-ambalapuram-nellikunnam-road", "label": "Met near Kottarakkara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kottarakkara",
@@ -30,12 +45,6 @@
         76.76635,
         8.99908
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

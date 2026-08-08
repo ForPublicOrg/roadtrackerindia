@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 12.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Akkur, Tamil Nadu",
     "end": "Poraiyar, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Poraiyar"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-280", "label": "Met near Akkur" },
+    { "id": "mdr-tn-708", "label": "Met near Akkur" },
+    { "id": "mdr-tn-1278", "label": "Met near Akkur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Akkur",
@@ -30,12 +42,6 @@
         79.75145,
         11.00247
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

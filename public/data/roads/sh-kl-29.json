@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 29.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Pandalur, Tamil Nadu",
     "end": "Old Vythiri, Kerala",
@@ -16,6 +17,19 @@
       "Old Vythiri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-766", "label": "Met near Kalpetta" },
+    { "id": "sh-kl-59", "label": "Met near Kalpetta" },
+    { "id": "sh-tn-12", "label": "Met near Pandalur" },
+    { "id": "kl-vaduvanchal-kolagappara-road", "label": "Met near Sultan Bathery" },
+    { "id": "kl-muttil-meppadi-road", "label": "Met near Kalpetta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pandalur",
@@ -30,12 +44,6 @@
         76.05932,
         11.57472
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

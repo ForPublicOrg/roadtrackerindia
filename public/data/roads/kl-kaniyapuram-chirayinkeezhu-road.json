@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mangalapuram, Kerala",
     "end": "Kaniyapuram, Kerala",
@@ -18,6 +19,19 @@
       "Kaniyapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Karichara" },
+    { "id": "kl-pothencode-murukkumpzha-road", "label": "Met near Kadinamkulam" },
+    { "id": "kl-chirayinkil-kaniyapuram-road", "label": "Met near Mangalapuram" },
+    { "id": "kl-thonnakkal-valikonam-veiloor-road", "label": "Met near Mangalapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangalapuram",
@@ -53,12 +67,6 @@
         76.85372,
         8.58844
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

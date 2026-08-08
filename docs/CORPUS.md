@@ -114,9 +114,42 @@ which is also how the generator recognises its own output on the next run.
 
 To promote a generated road to a hand-authored one: fill in `history`, `facts`,
 `timeline`, real `sources`, and delete the `provenance` key. It will never be
-touched again.
+touched again. In practice the generator already leaves alone any file carrying
+a key it does not produce, so adding `history` is enough to protect a road.
 
-## 4. Toll rates
+## 4. Roads the ref query cannot find
+
+The corpus is enumerated by highway **ref** — "NH 44", "SH 27" — which is the
+only way to pull thousands of roads in an afternoon. A city's arterials have no
+ref. Bengaluru's Outer Ring Road is called "Outer Ring Road", and so is
+Chennai's, and Hyderabad's; no query separates them. Those are named one at a
+time, by OSM relation id:
+
+```bash
+node scripts/add-named-road.mjs                 # everything in its table
+node scripts/add-named-road.mjs --only bengaluru-outer-ring-road
+node scripts/add-named-road.mjs --geometry-only # existing roads, alignment only
+```
+
+It writes a stage-1 cache entry, so `generate-roads.mjs` then derives the route,
+waypoints and major cities exactly as it does for every other road. Add an entry
+to the `NAMED_ROADS` table at the top of the script to catalogue a new one.
+
+## 5. Roads that turn out to be the same road
+
+OpenStreetMap often carries one road twice: once under its expressway number and
+once under its common name. `data/merged-roads.json` records which id won, e.g.
+`"ne-4": "delhi-mumbai-expressway"`. That one file does three things — the
+generator skips the merged ids so an `--overwrite` run cannot bring them back,
+the build ships the map in `index.json` so `/road/ne-4/` still resolves, and
+`gen-pages.mjs` stamps a page for the old id whose canonical tag points at the
+new one.
+
+Before merging, check the claim against the geometry rather than the name: two
+records are the same road when one alignment is almost entirely inside the
+other's, not when their numbers look related.
+
+## 6. Toll rates
 
 ```bash
 node scripts/fetch-toll-rates.mjs --dry   # report what would change

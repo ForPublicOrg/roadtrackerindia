@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 83,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Paliganj, Bihar",
     "end": "Aurangabad, Bihar",
@@ -17,6 +18,17 @@
       "Aurangabad"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Aurangabad" },
+    { "id": "nh-139", "label": "Meets this road" },
+    { "id": "nh-120", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Paliganj",
@@ -38,12 +50,6 @@
         84.49234,
         24.69591
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

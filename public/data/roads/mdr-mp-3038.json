@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jaisinghnagar, Madhya Pradesh",
     "end": "Kesli, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Kesli"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3005", "label": "Met near Jaisinghnagar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaisinghnagar",
@@ -30,12 +41,6 @@
         78.59717,
         23.51306
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 45.9,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Biswan, Uttar Pradesh",
     "end": "Lakhimpur, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Lakhimpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-727h", "label": "Met near Biswan" },
+    { "id": "sh-up-30b", "label": "Met near Biswan" },
+    { "id": "mdr-up-83c", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Biswan",
@@ -30,12 +43,6 @@
         80.72949,
         27.7687
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

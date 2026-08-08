@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 30.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jaisinghnagar, Madhya Pradesh",
     "end": "Begamganj, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Begamganj"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-62", "label": "Met near Begamganj" },
+    { "id": "sh-mp-20", "label": "Met near Jaisinghnagar" },
+    { "id": "sh-mp-30", "label": "Met near Jaisinghnagar" },
+    { "id": "mdr-mp-3003", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaisinghnagar",
@@ -30,12 +44,6 @@
         78.36831,
         23.62013
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

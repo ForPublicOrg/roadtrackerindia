@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Irinjalakuda, Kerala",
     "end": "Puthukkad, Kerala",
@@ -16,6 +17,20 @@
       "Puthukkad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Puthukkad" },
+    { "id": "sh-kl-22", "label": "Met near Irinjalakuda" },
+    { "id": "kl-old-nh-road-thrissur", "label": "Met near Puthukkad" },
+    { "id": "kl-chathan-master-road", "label": "Met near Irinjalakuda" },
+    { "id": "kl-anandapuram-nellai-road", "label": "Met near Puthukkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Irinjalakuda",
@@ -30,12 +45,6 @@
         76.2767,
         10.40529
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

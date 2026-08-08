@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Shava kotta palam, Kerala",
     "end": "Vazhicherry, Kerala",
@@ -16,6 +17,18 @@
       "Vazhicherry"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "sh-kl-66", "label": "Met near Alappuzha" },
+    { "id": "kl-kalavoor-mannancherry-road", "label": "Met near Alappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shava kotta palam",
@@ -30,12 +43,6 @@
         76.30386,
         9.56668
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

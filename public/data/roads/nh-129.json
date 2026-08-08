@@ -20,6 +20,22 @@
       "BOGORIJENG — NARAKANWAR REGION"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-129a", "label": "A branch off this highway, running Dimapur to Senapati" },
+    { "id": "nh-29", "label": "Met near Dimapur" },
+    { "id": "nh-715", "label": "Meets this road" },
+    { "id": "sh-as-17", "label": "Met near Golaghat" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dimapur",
@@ -62,16 +78,6 @@
         93.72729,
         26.63069
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

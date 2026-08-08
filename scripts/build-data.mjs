@@ -30,6 +30,9 @@ const SHAPES_DIR = join(DATA_DIR, 'shapes')
 // is the authored file *plus* the road list the build rolls up for it
 const ORGS_SRC_DIR = join(ROOT, 'data', 'orgs')
 const ORGS_OUT_DIR = join(DATA_DIR, 'org')
+// ids that used to be their own road before the catalogue found they were
+// another name for one it already had — /road/<old-id>/ has to keep working
+const MERGED_FILE = join(ROOT, 'data', 'merged-roads.json')
 
 const CATEGORIES = ['nh', 'expressway', 'sh', 'district', 'local']
 const STATUSES = ['operational', 'under-construction', 'planned']
@@ -473,6 +476,24 @@ const allWarnings = []
 const roads = []
 const allIds = new Set(files.map((f) => f.replace(/\.json$/, '')))
 
+// ── merged roads ────────────────────────────────────────────────────
+const aliases = {}
+if (existsSync(MERGED_FILE)) {
+  let map = {}
+  try {
+    map = JSON.parse(readFileSync(MERGED_FILE, 'utf8')).aliases ?? {}
+  } catch (e) {
+    allErrors.push(`merged-roads.json: invalid JSON — ${e.message}`)
+  }
+  for (const [from, to] of Object.entries(map)) {
+    // a merged id that still has a file is a half-done merge: the old road is
+    // live *and* claims to be the new one, and the two pages disagree
+    if (allIds.has(from)) allErrors.push(`merged-roads.json: "${from}" is merged into "${to}" but public/data/roads/${from}.json still exists`)
+    else if (!allIds.has(to)) allErrors.push(`merged-roads.json: "${from}" points at "${to}", which is not in the catalogue`)
+    else aliases[from] = to
+  }
+}
+
 // ── organisations ───────────────────────────────────────────────────
 const orgs = new Map()
 for (const file of existsSync(ORGS_SRC_DIR)
@@ -643,7 +664,12 @@ for (const road of roads) {
 
 writeFileSync(
   join(DATA_DIR, 'index.json'),
-  JSON.stringify({ generated: new Date().toISOString(), count: indexRows.length, roads: indexRows })
+  JSON.stringify({
+    generated: new Date().toISOString(),
+    count: indexRows.length,
+    roads: indexRows,
+    aliases,
+  })
 )
 writeFileSync(
   join(DATA_DIR, 'network-lite.geojson'),

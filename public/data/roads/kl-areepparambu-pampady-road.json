@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Manarcadu, Kerala",
     "end": "Pampady, Kerala",
@@ -16,6 +17,19 @@
       "Pampady"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Pampady" },
+    { "id": "kl-oravakkal-koorali-road", "label": "Met near Manarcadu" },
+    { "id": "kl-pampady-anickadu-road", "label": "Met near Pampady" },
+    { "id": "kl-karckakuzhy-thottakad-road", "label": "Met near Pampady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manarcadu",
@@ -30,12 +44,6 @@
         76.63802,
         9.56949
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 39.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Sanawad, Madhya Pradesh",
     "end": "Kasrawad, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Kasrawad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-38", "label": "Met near Kasrawad" },
+    { "id": "mdr-mp-4914", "label": "Met near Sanawad" },
+    { "id": "mdr-mp-4909", "label": "Met near Mandaleshwar" },
+    { "id": "mdr-mp-4908", "label": "Met near Kasrawad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sanawad",
@@ -30,12 +44,6 @@
         75.6162,
         22.12727
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

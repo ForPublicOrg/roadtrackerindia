@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 40.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Amanganj, Madhya Pradesh",
     "end": "Devendranagar, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Devendranagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-1811", "label": "Met near Gunnor" },
+    { "id": "mdr-mp-1810", "label": "Met near Gunnor" },
+    { "id": "mdr-mp-1809", "label": "Met near Devendranagar" },
+    { "id": "mdr-mp-1808", "label": "Met near Gunnor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Amanganj",
@@ -38,12 +52,6 @@
         80.37889,
         24.50939
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

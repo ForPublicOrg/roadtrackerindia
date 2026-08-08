@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 46.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Krishnagiri, Tamil Nadu",
     "end": "Shoolagiri, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Shoolagiri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Krishnagiri" },
+    { "id": "nh-48", "label": "Met near Krishnagiri" },
+    { "id": "sh-tn-17c", "label": "Met near Hosur" },
+    { "id": "mdr-tn-422", "label": "Met near Hosur" },
+    { "id": "mdr-tn-1001", "label": "Met near Vepanapalli" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnagiri",
@@ -38,12 +52,6 @@
         77.97362,
         12.80525
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

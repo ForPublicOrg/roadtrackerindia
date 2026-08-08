@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 62.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Muhammadabad Gohna, Uttar Pradesh",
     "end": "Belthara Road, Uttar Pradesh",
@@ -16,6 +17,18 @@
       "Belthara Road"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-24", "label": "Met near Kopaganj" },
+    { "id": "nh-727b", "label": "Met near Belthara Road" },
+    { "id": "nh-128b", "label": "Met near Muhammadabad Gohna" },
+    { "id": "sh-up-17e", "label": "Met near Belthara Road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Muhammadabad Gohna",
@@ -30,12 +43,6 @@
         83.84507,
         26.11566
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

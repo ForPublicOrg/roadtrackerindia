@@ -18,6 +18,22 @@
       "Ambikapur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-130a", "label": "A branch off this highway, running Kawardha to Pathalgaon" },
+    { "id": "nh-30", "label": "Met near Simga" },
+    { "id": "nh-43", "label": "Met near Ambikapur" },
+    { "id": "nh-49", "label": "Met near Bilaspur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Simga",
@@ -53,16 +69,6 @@
         83.1899,
         23.10438
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

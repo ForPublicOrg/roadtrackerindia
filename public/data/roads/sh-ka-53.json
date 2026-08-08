@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 131.1,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Shedabal, Karnataka",
     "end": "Murnal, Karnataka",
@@ -20,6 +21,19 @@
       "Murnal"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Rabakavi Banahatti" },
+    { "id": "nh-160", "label": "Met near Shedabal" },
+    { "id": "nh-548b", "label": "Met near Shedabal" },
+    { "id": "sh-ka-34", "label": "Met near Jamakhandi" },
+    { "id": "sh-ka-20", "label": "Met near Murnal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shedabal",
@@ -55,12 +69,6 @@
         75.51507,
         16.20487
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

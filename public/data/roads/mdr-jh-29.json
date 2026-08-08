@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.3,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Rahe, Jharkhand",
     "end": "Sisipidih, Jharkhand",
@@ -16,6 +17,16 @@
       "Sisipidih"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-jh-27", "label": "Met near Rahe" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rahe",
@@ -30,12 +41,6 @@
         85.66054,
         23.34135
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,22 @@
       "Babhandih"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Met near Jashpur Nagar" },
+    { "id": "sh-ct-12", "label": "Met near Jashpur Nagar" },
+    { "id": "sh-jh-9", "label": "Meets this road" },
+    { "id": "mdr-jh-36", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jashpur Nagar",
@@ -31,16 +47,6 @@
         84.11352,
         23.39638
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

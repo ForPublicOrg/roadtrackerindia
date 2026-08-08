@@ -19,6 +19,23 @@
       "Dindigul"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Singampunari" },
+    { "id": "nh-536", "label": "Met near Karaikudi" },
+    { "id": "nh-785", "label": "Met near Natham" },
+    { "id": "sh-tn-29", "label": "Met near Karaikudi" },
+    { "id": "sh-tn-74", "label": "Met near Dindigul" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Managiri",
@@ -54,16 +71,6 @@
         77.97696,
         10.36323
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

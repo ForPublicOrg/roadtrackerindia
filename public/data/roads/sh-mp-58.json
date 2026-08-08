@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 55,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Mandsaur, Madhya Pradesh",
     "end": "Gangdhar, Rajasthan",
@@ -16,6 +17,19 @@
       "Gangdhar"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Meets this road" },
+    { "id": "nh-156", "label": "Met near Mandsaur" },
+    { "id": "sh-mp-8", "label": "Meets this road" },
+    { "id": "sh-rj-81", "label": "Met near Mandsaur" },
+    { "id": "sh-rj-19e", "label": "Met near Gangdhar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandsaur",
@@ -30,12 +44,6 @@
         75.46515,
         23.95292
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

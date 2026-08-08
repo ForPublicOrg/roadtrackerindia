@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 62.7,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kopaganj, Uttar Pradesh",
     "end": "Ballia, Uttar Pradesh",
@@ -16,6 +17,16 @@
       "Ballia"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Ballia" },
+    { "id": "sh-up-17e", "label": "Met near Rasra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kopaganj",
@@ -30,12 +41,6 @@
         84.14371,
         25.76068
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

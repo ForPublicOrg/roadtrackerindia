@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 88.1,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Pulgaon, Maharashtra",
     "end": "Mowad, Maharashtra",
@@ -18,6 +19,19 @@
       "Mowad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Karanja" },
+    { "id": "nh-353j", "label": "Met near Jalalkheda" },
+    { "id": "nh-647", "label": "Met near Arvi" },
+    { "id": "sh-mh-257", "label": "Met near Arvi" },
+    { "id": "sh-mh-246", "label": "Met near Mowad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pulgaon",
@@ -46,12 +60,6 @@
         78.4458,
         21.46838
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

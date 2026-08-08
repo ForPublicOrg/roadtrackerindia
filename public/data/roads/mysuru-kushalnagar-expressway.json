@@ -1,10 +1,14 @@
 {
   "id": "mysuru-kushalnagar-expressway",
-  "ref": "NH",
-  "name": "Mysuru-Kushalnagar Expressway",
+  "ref": "Mysuru–Kushalnagar Highway",
+  "name": "Mysuru–Kushalnagar Highway",
+  "aka": ["NH 275 (Mysuru–Kushalnagar section)"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 91.8,
+  "lanes": "4 lanes, being widened",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Baichanahalli, Karnataka",
     "end": "Srirangapatna, Karnataka",
@@ -20,6 +24,35 @@
       "Srirangapatna"
     ]
   },
+  "history": "This is the road west from Mysuru towards Kodagu, the coffee-growing hill district also known as Coorg. It is being upgraded into a four-lane, part access-controlled highway to carry the heavy tourist traffic that pours into the hills every weekend and to speed up the movement of coffee, pepper and timber down to Mysuru.",
+  "facts": [
+    "The main road from Mysuru into Kodagu, India's best-known coffee district.",
+    "Part of NH 275, which runs from Bengaluru through Mysuru to Mangaluru.",
+    "It passes Srirangapatna, the island fortress capital of Tipu Sultan.",
+    "Weekend tourist traffic from Bengaluru and Mysuru to Madikeri travels this way."
+  ],
+  "significance": "Kodagu's coffee estates and hill resorts depend on this road for both their crop and their visitors, and it is the western continuation of the Bengaluru–Mysuru expressway corridor.",
+  "relatedRoads": [
+    {
+      "id": "bangalore-mysore-expressway",
+      "label": "The expressway from Bengaluru that this road continues westward"
+    },
+    { "id": "nh-275", "label": "The national highway this section belongs to" },
+    { "id": "nh-150a", "label": "Met near Srirangapatna" },
+    { "id": "nh-373", "label": "Met near Ayyara Halli" },
+    { "id": "sh-ka-86", "label": "Met near Hunsur" }
+  ],
+  "travelNotes": "Busiest on Friday evenings and Sunday afternoons with weekend traffic to Coorg. Sections are under widening, so expect diversions.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baichanahalli",
@@ -76,16 +109,6 @@
         76.67532,
         12.41086
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -22,6 +22,23 @@
       "Swaroopganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Sailana" },
+    { "id": "nh-27", "label": "Met near Swaroopganj" },
+    { "id": "nh-48", "label": "Met near Kherwara" },
+    { "id": "nh-58", "label": "Meets this road" },
+    { "id": "nh-56", "label": "Met near Banswara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ratlam",
@@ -92,16 +109,6 @@
         72.93186,
         24.65677
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Cheyur, Tamil Nadu",
     "end": "Maduranthakam, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Maduranthakam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-1117", "label": "Met near Cheyur" },
+    { "id": "odr-tn-7857", "label": "Met near Cheyur" },
+    { "id": "odr-tn-916", "label": "Met near Cheyur" },
+    { "id": "odr-tn-10168", "label": "Met near Cheyur" },
+    { "id": "odr-tn-8800", "label": "Met near Cheyur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cheyur",
@@ -30,12 +45,6 @@
         79.89696,
         12.37878
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

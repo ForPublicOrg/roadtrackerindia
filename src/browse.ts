@@ -1,7 +1,7 @@
 import { state } from './state'
 import type { Category, RoadSummary, Status } from './types'
 import { esc, STATUS_LABEL } from './ui'
-import { formatKm } from './geo'
+import { formatEnds, formatKm } from './geo'
 import { openPanel, panelMode, setBrowseContent } from './panel'
 
 /**
@@ -130,7 +130,7 @@ function render(): void {
             <span class="sr-badge cat-${esc(r.category)}">${esc(shortRef(r.ref))}</span>
             <span class="sr-main">
               <span class="sr-title">${esc(r.name)}</span>
-              <span class="sr-sub">${esc(r.start.split(',')[0])} → ${esc(r.end.split(',')[0])}${r.states.length === 1 ? ` · ${esc(r.states[0])}` : ` · ${STATUS_LABEL[r.status]}`}</span>
+              <span class="sr-sub">${esc(formatEnds(r.start, r.end))}${r.states.length === 1 ? ` · ${esc(r.states[0])}` : ` · ${STATUS_LABEL[r.status]}`}</span>
             </span>
             <span class="br-len">${formatKm(r.lengthKm)}</span>
           </button></li>`,

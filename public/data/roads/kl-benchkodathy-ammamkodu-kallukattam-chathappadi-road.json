@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.1,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Bovikkanam, Kerala",
     "end": "Cherkala, Kerala",
@@ -16,6 +17,19 @@
       "Cherkala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-55", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-2", "label": "Met near Bovikkanam" },
+    { "id": "mdr-kl-23b", "label": "Met near Bovikkanam" },
+    { "id": "kl-bovikkanam-mallam-paika-road", "label": "Met near Bovikkanam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bovikkanam",
@@ -30,12 +44,6 @@
         75.10009,
         12.53312
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

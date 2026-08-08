@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 52.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Walajapet, Tamil Nadu",
     "end": "Arakkonam, Tamil Nadu",
@@ -18,6 +19,19 @@
       "Arakkonam"
     ]
   },
+  "relatedRoads": [
+    { "id": "chennai-bengaluru-expressway", "label": "Met near Sholinghur" },
+    { "id": "sh-tn-58", "label": "Met near Arakkonam" },
+    { "id": "sh-tn-54", "label": "Met near Sholinghur" },
+    { "id": "sh-tn-126", "label": "Met near Arakkonam" },
+    { "id": "sh-tn-128", "label": "Met near Sholinghur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Walajapet",
@@ -39,12 +53,6 @@
         79.66606,
         13.08495
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

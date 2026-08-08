@@ -21,6 +21,26 @@
       "New Digha"
     ]
   },
+  "significance": "NH 316A is a branch of NH 316. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Pipili to New Digha, and it meets NH 316 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-316",
+      "label": "NH 316 — the highway this branch takes its number from, running Satya Nagar to Konark"
+    },
+    { "id": "nh-53", "label": "Met near Kendrapara" },
+    { "id": "nh-16", "label": "Met near Jaleswar" },
+    { "id": "nh-20", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pipili",
@@ -84,16 +104,6 @@
         87.48353,
         21.62275
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

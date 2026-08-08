@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 79.2,
+  "authority": "himachal-pradesh-pwd",
   "route": {
     "start": "Baud, Himachal Pradesh",
     "end": "Jwalamukhi, Himachal Pradesh",
@@ -18,6 +19,17 @@
       "Jwalamukhi"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-503", "label": "Met near Dehra Gopipur" },
+    { "id": "nh-303", "label": "Met near Jwalamukhi" },
+    { "id": "sh-hp-27", "label": "Met near Baud" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baud",
@@ -46,12 +58,6 @@
         76.31622,
         31.87733
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

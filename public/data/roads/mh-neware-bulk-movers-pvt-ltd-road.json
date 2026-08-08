@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 9.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Boisar, Maharashtra",
     "end": "Palghar, Maharashtra",
@@ -16,6 +17,12 @@
       "Palghar"
     ]
   },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Boisar",
@@ -30,12 +37,6 @@
         72.79428,
         19.83699
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

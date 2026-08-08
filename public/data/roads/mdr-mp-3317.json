@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Dolariya, Madhya Pradesh",
     "end": "Itarsi, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Itarsi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-67", "label": "Met near Dolariya" },
+    { "id": "mdr-mp-3316", "label": "Met near Dolariya" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dolariya",
@@ -30,12 +42,6 @@
         77.76188,
         22.62712
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

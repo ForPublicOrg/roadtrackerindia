@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 71.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Nagda, Madhya Pradesh",
     "end": "Jharda, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Jharda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kota-indore-expressway", "label": "Met near Jharda" },
+    { "id": "nh-752d", "label": "Met near Jharda" },
+    { "id": "nh-552g", "label": "Meets this road" },
+    { "id": "sh-mp-16", "label": "Met near Nagda" },
+    { "id": "mdr-mp-2609", "label": "Met near Jharda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagda",
@@ -30,12 +45,6 @@
         75.65736,
         23.59521
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

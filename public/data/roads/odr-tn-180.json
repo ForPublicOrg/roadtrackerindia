@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Karaikkadu, Tamil Nadu",
     "end": "Thiruvandhipuram, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Thiruvandhipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-138", "label": "Met near Nellikkuppam" },
+    { "id": "mdr-tn-199", "label": "Met near Karaikkadu" },
+    { "id": "mdr-tn-1220", "label": "Met near Karaikkadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Karaikkadu",
@@ -30,12 +43,6 @@
         79.68328,
         11.70104
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

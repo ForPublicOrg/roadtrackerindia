@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 19.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Mulanur, Tamil Nadu",
     "end": "Dharapuram, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Dharapuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-381", "label": "Met near Dharapuram" },
+    { "id": "sh-tn-83", "label": "Met near Dharapuram" },
+    { "id": "mdr-tn-911", "label": "Met near Dharapuram" },
+    { "id": "mdr-tn-908", "label": "Met near Mulanur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mulanur",
@@ -30,12 +44,6 @@
         77.5356,
         10.59979
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

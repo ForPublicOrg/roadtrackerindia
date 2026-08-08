@@ -16,6 +16,21 @@
       "Sheohar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-22", "label": "Meets this road" },
+    { "id": "nh-527c", "label": "Met near Pupri" },
+    { "id": "sh-br-52", "label": "Met near Pupri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pupri",
@@ -30,16 +45,6 @@
         85.38564,
         26.3985
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -21,6 +21,20 @@
       "Kherwara"
     ]
   },
+  "significance": "SH 10, Ruppur–Kherwara State Highway, crosses the border between Gujarat and Rajasthan. A state road that runs through more than one state has no single owner — Gujarat R&B and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Meets this road" },
+    { "id": "nh-68", "label": "Met near Patan" },
+    { "id": "nh-168g", "label": "Met near Vadnagar" },
+    { "id": "sh-gj-145", "label": "Met near Idar" },
+    { "id": "sh-gj-7", "label": "Met near Patan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ruppur",
@@ -70,12 +84,6 @@
         73.34779,
         24.01125
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

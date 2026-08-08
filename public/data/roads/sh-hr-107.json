@@ -17,6 +17,19 @@
       "Balsamand"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "This state highway carries no toll." },
+  "facts": [
+    "Runs west from Hisar, a major grain and cattle market town in Haryana.",
+    "Crosses into Rajasthan, where the other state's roads department takes over.",
+    "It serves the farming villages of the dry country between Hisar and the desert."
+  ],
+  "significance": "A state highway running west out of Hisar in Haryana towards Balsamand and the Rajasthan border. Hisar is one of the main market and industrial towns of western Haryana, and this road carries the farm traffic of the villages between it and the desert edge. It crosses into Rajasthan, so the Haryana and Rajasthan roads departments each maintain the stretch inside their own state.",
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hisar",
@@ -31,12 +44,6 @@
         75.4886,
         29.06858
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

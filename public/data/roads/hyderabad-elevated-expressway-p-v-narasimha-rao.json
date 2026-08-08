@@ -1,10 +1,14 @@
 {
   "id": "hyderabad-elevated-expressway-p-v-narasimha-rao",
-  "ref": "NH",
-  "name": "Hyderabad Elevated Expressway \"P.V. Narasimha Rao\"",
+  "ref": "P. V. Narasimha Rao Expressway",
+  "name": "P. V. Narasimha Rao Elevated Expressway",
+  "aka": ["PVNR Expressway", "Hyderabad Airport Elevated Expressway"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 11.2,
+  "lanes": "4 lanes, fully elevated",
+  "agency": "HMDA",
+  "authority": "hmda",
   "route": {
     "start": "Mailardevpally, Telangana",
     "end": "Masab Tank, Telangana",
@@ -19,6 +23,36 @@
       "Masab Tank"
     ]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
+  "history": "When Hyderabad's new airport opened at Shamshabad in 2008, it sat well outside the city and the roads to it ran through some of the oldest and most crowded parts of Hyderabad. This eleven-kilometre elevated expressway, named after former Prime Minister P. V. Narasimha Rao, was built to lift airport traffic clean over Mehdipatnam, Attapur and Aramghar. It was for a time the longest flyover in the country.",
+  "facts": [
+    "Built to connect central Hyderabad to Rajiv Gandhi International Airport at Shamshabad.",
+    "Was the longest flyover in India when it opened in 2009.",
+    "Named after P. V. Narasimha Rao, Prime Minister of India from 1991 to 1996.",
+    "It flies over Mehdipatnam and Attapur, two of the city's most congested junctions.",
+    "At its southern end it feeds the Outer Ring Road and the airport approach."
+  ],
+  "significance": "It is the standard route between Hyderabad city and its airport, and it turned a journey that once crawled through old-city traffic into a straight run.",
+  "relatedRoads": [
+    { "id": "hyderabad-outer-ring-road", "label": "The ring road this expressway feeds at its southern end" },
+    { "id": "nh-44", "label": "The Hyderabad–Bengaluru highway running south past the airport" },
+    { "id": "nh-163", "label": "Met near Mehdipatnam" },
+    { "id": "hyderabad-inner-ring-road", "label": "Met near Hyderabad" }
+  ],
+  "travelNotes": "The quickest way to the airport from the west and centre of Hyderabad. Allow extra time at the Mehdipatnam end in the evening peak.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mailardevpally",
@@ -75,16 +109,6 @@
         78.44365,
         17.39834
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

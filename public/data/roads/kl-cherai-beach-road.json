@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Cherai, Kerala",
     "end": "North Paravur, Kerala",
@@ -16,6 +17,17 @@
       "North Paravur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-63", "label": "Met near Cherai" },
+    { "id": "kl-parallel-vp-road", "label": "Met near Cherai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Cherai",
@@ -30,12 +42,6 @@
         76.1824,
         10.13973
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

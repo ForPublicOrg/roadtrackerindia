@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Kundal, Tamil Nadu",
     "end": "Kottar, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Kottar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Nagercoil" },
+    { "id": "sh-tn-179", "label": "Met near Suchindram" },
+    { "id": "mdr-tn-187", "label": "Met near Nagercoil" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kundal",
@@ -38,12 +51,6 @@
         77.44004,
         8.16997
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

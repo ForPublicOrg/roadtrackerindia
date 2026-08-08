@@ -19,6 +19,23 @@
       "Veerangna Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-39", "label": "Met near Jhansi" },
+    { "id": "nh-934", "label": "Met near Shahgarh" },
+    { "id": "sh-mp-12", "label": "Meets this road" },
+    { "id": "sh-mp-54b", "label": "Met near Tikamgarh" },
+    { "id": "mdr-mp-1620", "label": "Met near Ghuwara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahgarh",
@@ -61,16 +78,6 @@
         78.65137,
         25.41709
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

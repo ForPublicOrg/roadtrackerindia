@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 52.3,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Kaduru, Karnataka",
     "end": "Huliyaru, Karnataka",
@@ -16,6 +17,17 @@
       "Huliyaru"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-69", "label": "Met near Kaduru" },
+    { "id": "nh-173", "label": "Met near Kaduru" },
+    { "id": "sh-ka-47", "label": "Met near Huliyaru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kaduru",
@@ -30,12 +42,6 @@
         76.41397,
         13.62775
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

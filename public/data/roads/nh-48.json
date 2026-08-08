@@ -40,6 +40,10 @@
       "Chennai"
     ]
   },
+  "tolls": [
+    { "name": "Kherki Daula toll plaza", "note": "on the Delhi–Jaipur stretch in Gurugram, famous for long queues at peak hours" },
+    { "name": "Khed Shivapur toll plaza", "note": "just south of Pune on the road to Satara and Bengaluru" }
+  ],
   "timeline": [
     { "year": "2001", "event": "Four-laning of the Delhi–Mumbai and Mumbai–Chennai corridors begins under the Golden Quadrilateral project" },
     { "year": "2008", "event": "The Delhi–Gurugram Expressway, a signal-free six- to eight-lane stretch out of Delhi, is completed" },
@@ -75,21 +79,33 @@
     { "name": "Krishnagiri", "note": "NH 44 splits off south toward Salem and Madurai" },
     { "name": "Sriperumbudur", "note": "eastern end of the Bengaluru–Chennai Expressway joins here" }
   ],
-  "tolls": [
-    { "name": "Kherki Daula toll plaza", "note": "on the Delhi–Jaipur stretch in Gurugram, famous for long queues at peak hours" },
-    { "name": "Khed Shivapur toll plaza", "note": "just south of Pune on the road to Satara and Bengaluru" }
-  ],
   "relatedRoads": [
-    { "id": "delhi-mumbai-expressway", "label": "The new expressway being built as a much faster Delhi–Mumbai alternative" },
-    { "id": "mumbai-pune-expressway", "label": "Runs beside NH 48 between Mumbai and Pune and takes most of the car traffic" },
+    {
+      "id": "delhi-mumbai-expressway",
+      "label": "The new expressway being built as a much faster Delhi–Mumbai alternative"
+    },
+    {
+      "id": "mumbai-pune-expressway",
+      "label": "Runs beside NH 48 between Mumbai and Pune and takes most of the car traffic"
+    },
     { "id": "dwarka-expressway", "label": "Joins NH 48 at Kherki Daula in Gurugram" },
-    { "id": "western-peripheral-expressway", "label": "The Kundli–Manesar–Palwal ring, which crosses NH 48 at Manesar" },
-    { "id": "ahmedabad-vadodara-expressway", "label": "A parallel tolled expressway on the Ahmedabad–Vadodara stretch" },
+    {
+      "id": "western-peripheral-expressway",
+      "label": "The Kundli–Manesar–Palwal ring, which crosses NH 48 at Manesar"
+    },
+    {
+      "id": "ahmedabad-vadodara-expressway",
+      "label": "A parallel tolled expressway on the Ahmedabad–Vadodara stretch"
+    },
     { "id": "western-express-highway", "label": "The Mumbai city section of NH 48, from Bandra to Dahisar" },
     { "id": "nice-road", "label": "Bengaluru's peripheral road, which starts from NH 48 at Madavara" },
-    { "id": "chennai-bengaluru-expressway", "label": "The new expressway shortening the Bengaluru–Chennai leg" },
-    { "id": "nh-44", "label": "India's longest highway, shared and met around Bengaluru and Krishnagiri" },
-    { "id": "nh-16", "label": "The Kolkata–Chennai highway, where NH 48 finally ends" }
+    {
+      "id": "chennai-bengaluru-expressway",
+      "label": "The new expressway shortening the Bengaluru–Chennai leg"
+    },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Bhor" },
+    { "id": "ne-10", "label": "Met near Belagavi" },
+    { "id": "bengaluru-satellite-town-ring-road", "label": "Met near Hosur" }
   ],
   "travelNotes": "Nobody drives the whole thing in one go — think of it as several famous road trips joined end to end. Delhi to Jaipur is about five hours, Mumbai to Pune about three on the parallel expressway, and Bengaluru to Chennai six to seven. The Delhi–Gurugram section jams badly on weekday mornings and evenings, the Vapi–Mumbai stretch is slow because of heavy container traffic, and December–January fog can crawl the Delhi–Jaipur leg. Dhaba culture is strong on the Rajasthan and Gujarat sections, and the Karnataka–Tamil Nadu section has good, modern highway food courts. October to March is the pleasantest season overall.",
   "futureUpgrades": [

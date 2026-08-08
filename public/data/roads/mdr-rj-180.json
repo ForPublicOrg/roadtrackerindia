@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 67.8,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Nimbi Jodhan, Rajasthan",
     "end": "Mukandgarh, Rajasthan",
@@ -17,6 +18,20 @@
       "Mukandgarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-58", "label": "Met near Nimbi Jodhan" },
+    { "id": "nh-458", "label": "Met near Ladnu" },
+    { "id": "sh-rj-7", "label": "Meets this road" },
+    { "id": "sh-rj-2", "label": "Meets this road" },
+    { "id": "sh-rj-59", "label": "Met near Nimbi Jodhan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nimbi Jodhan",
@@ -38,12 +53,6 @@
         75.22908,
         27.93778
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

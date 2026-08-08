@@ -23,6 +23,23 @@
       "Jalandhar"
     ]
   },
+  "relatedRoads": [
+    { "id": "amritsar-katra-expressway", "label": "Met near Nakodar" },
+    { "id": "ne-5a", "label": "Met near Nakodar" },
+    { "id": "nh-44", "label": "Met near Jalandhar" },
+    { "id": "nh-9", "label": "Met near Sirsa" },
+    { "id": "nh-3", "label": "Met near Jalandhar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Churu",
@@ -114,16 +131,6 @@
         75.57845,
         31.31628
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

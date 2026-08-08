@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chalakudy, Kerala",
     "end": "Thachudaparambu, Kerala",
@@ -16,6 +17,18 @@
       "Thachudaparambu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-kuttikkad-mothirakanny-road", "label": "Met near Chalakudy" },
+    { "id": "kl-mothirakanni-panchayath-road", "label": "Met near Chalakudy" },
+    { "id": "kl-marancode-kuttichira-road", "label": "Met near Chalakudy" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chalakudy",
@@ -30,12 +43,6 @@
         76.41631,
         10.32022
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

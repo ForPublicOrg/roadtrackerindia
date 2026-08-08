@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "RV Nagar, Tamil Nadu",
     "end": "Bagayam, Tamil Nadu",
@@ -17,6 +18,18 @@
       "Bagayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-38", "label": "Met near Vellore" },
+    { "id": "sh-tn-9", "label": "Met near Vellore" },
+    { "id": "odr-tn-5506", "label": "Met near Vellore" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "RV Nagar",
@@ -31,12 +44,6 @@
         79.14701,
         12.89201
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

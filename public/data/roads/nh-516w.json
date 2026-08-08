@@ -17,6 +17,20 @@
       "Chillakur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Chillakur" },
+    { "id": "nh-67", "label": "Met near Muttukuru" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Krishnapatnam Port",
@@ -31,16 +45,6 @@
         79.8742,
         14.11861
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

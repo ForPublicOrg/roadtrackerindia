@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ottupara, Kerala",
     "end": "Shoranur, Kerala",
@@ -17,6 +18,18 @@
       "Shoranur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-50", "label": "Met near Wadakkancherry" },
+    { "id": "kl-mulloorkkara-varavoor-road", "label": "Met near Wadakkancherry" },
+    { "id": "kl-varavoor-pilakkad-thali-road", "label": "Met near Shoranur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ottupara",
@@ -31,12 +44,6 @@
         76.21639,
         10.74415
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

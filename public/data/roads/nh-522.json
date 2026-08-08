@@ -17,6 +17,23 @@
       "Bagodar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Hazaribagh" },
+    { "id": "nh-22", "label": "Met near Chatra" },
+    { "id": "sh-jh-7", "label": "Met near Hazaribagh" },
+    { "id": "mdr-jh-70", "label": "Met near Hazaribagh" },
+    { "id": "mdr-jh-72", "label": "Met near Chatra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chatra",
@@ -38,16 +55,6 @@
         85.83188,
         24.07756
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -18,6 +18,20 @@
       "Bari Brahmana"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Nagrota Cantonment" },
+    { "id": "nh-144a", "label": "Met near Akhnoor" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nagrota Cantonment",
@@ -46,16 +60,6 @@
         74.93019,
         32.60092
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

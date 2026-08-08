@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 51.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ghuwara, Madhya Pradesh",
     "end": "Bijawar, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Bijawar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-34", "label": "Met near Bada Malhera" },
+    { "id": "nh-43", "label": "Met near Bijawar" },
+    { "id": "nh-539", "label": "Met near Ghuwara" },
+    { "id": "mdr-mp-1621", "label": "Met near Bijawar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ghuwara",
@@ -38,12 +52,6 @@
         79.48647,
         24.62582
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

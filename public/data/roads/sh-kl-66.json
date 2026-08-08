@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 51.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Shava kotta palam, Kerala",
     "end": "Thoppumpady, Kerala",
@@ -19,6 +20,19 @@
       "Thoppumpady"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Alappuzha" },
+    { "id": "kl-pathirappally-komalapuraam-road", "label": "Met near Alappuzha" },
+    { "id": "kl-cherthala-thyckal-arthunkal-road", "label": "Met near Cherthala" },
+    { "id": "kl-kavunkal-valavanad-road", "label": "Met near Alappuzha" },
+    { "id": "kl-vallayil-champakadu-road", "label": "Met near Cherthala" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shava kotta palam",
@@ -54,12 +68,6 @@
         76.26155,
         9.93578
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

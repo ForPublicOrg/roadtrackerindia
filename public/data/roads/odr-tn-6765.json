@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Melapattai, Tamil Nadu",
     "end": "Tiruvetipuram, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tiruvetipuram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-505", "label": "Met near Melapattai" },
+    { "id": "odr-tn-1808", "label": "Met near Melapattai" },
+    { "id": "odr-tn-3912", "label": "Met near Melapattai" },
+    { "id": "odr-tn-1807", "label": "Met near Melapattai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Melapattai",
@@ -30,12 +44,6 @@
         79.46381,
         12.76457
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

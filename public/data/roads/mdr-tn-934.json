@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pavoorchatram, Tamil Nadu",
     "end": "Kadayam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kadayam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-40", "label": "Met near Kadayam" },
+    { "id": "sh-tn-39", "label": "Met near Pavoorchatram" },
+    { "id": "sh-tn-39a", "label": "Met near Pavoorchatram" },
+    { "id": "mdr-tn-1295", "label": "Met near Pavoorchatram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pavoorchatram",
@@ -30,12 +44,6 @@
         77.37008,
         8.83164
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

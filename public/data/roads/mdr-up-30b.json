@@ -18,6 +18,19 @@
       "Lalitpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 30B, Tikamgarh–Lalitpur District road, crosses the border between Madhya Pradesh and Uttar Pradesh. A state road that runs through more than one state has no single owner — MP PWD and UP PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Lalitpur" },
+    { "id": "sh-mp-54b", "label": "Met near Tikamgarh" },
+    { "id": "mdr-up-35b", "label": "Met near Mahrauni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tikamgarh",
@@ -39,12 +52,6 @@
         78.45384,
         24.6568
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

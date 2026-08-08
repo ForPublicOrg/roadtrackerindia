@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 63.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Pimpalner, Maharashtra",
     "end": "Saputara, Gujarat",
@@ -16,6 +17,18 @@
       "Saputara"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mh-16", "label": "Meets this road" },
+    { "id": "sh-mh-19", "label": "Meets this road" },
+    { "id": "sh-mh-20", "label": "Meets this road" },
+    { "id": "sh-mh-17", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pimpalner",
@@ -30,12 +43,6 @@
         73.90573,
         20.42055
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

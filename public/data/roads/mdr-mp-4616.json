@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.3,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Pithampur, Madhya Pradesh",
     "end": "Mandu, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Mandu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347c", "label": "Met near Mandu" },
+    { "id": "sh-mp-40", "label": "Met near Pithampur" },
+    { "id": "mdr-mp-4612", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pithampur",
@@ -30,12 +43,6 @@
         75.41561,
         22.48224
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

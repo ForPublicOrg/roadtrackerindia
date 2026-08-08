@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 25.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Rehatgarh, Madhya Pradesh",
     "end": "Harda, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Harda"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3410", "label": "Meets this road" },
+    { "id": "mdr-mp-3408", "label": "Met near Harda" },
+    { "id": "mdr-mp-3406", "label": "Met near Harda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rehatgarh",
@@ -30,12 +43,6 @@
         76.99458,
         22.25405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

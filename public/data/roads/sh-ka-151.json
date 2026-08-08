@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 45.7,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Hale Hagari Bommanahalli, Karnataka",
     "end": "Davanagere, Karnataka",
@@ -16,6 +17,18 @@
       "Davanagere"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-ka-47", "label": "Met near Harapanahalli" },
+    { "id": "sh-ka-45", "label": "Met near Hale Hagari Bommanahalli" },
+    { "id": "sh-ka-2", "label": "Met near Harapanahalli" },
+    { "id": "sh-ka-150", "label": "Met near Davanagere" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hale Hagari Bommanahalli",
@@ -30,12 +43,6 @@
         75.97447,
         14.61269
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

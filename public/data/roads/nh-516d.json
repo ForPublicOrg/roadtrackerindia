@@ -18,6 +18,20 @@
       "Jeelugumilli"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Devarapalle" },
+    { "id": "nh-365bb", "label": "Met near Jeelugumilli" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devarapalle",
@@ -53,16 +67,6 @@
         81.13372,
         17.21269
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

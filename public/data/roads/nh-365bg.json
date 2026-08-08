@@ -22,6 +22,22 @@
       "Venkata Sudha Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Tiruvuru" },
+    { "id": "nh-16", "label": "Met near Devarapalle" },
+    { "id": "nh-365bb", "label": "Met near Khammam" },
+    { "id": "nh-365a", "label": "Met near Khammam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devarapalle",
@@ -99,16 +115,6 @@
         80.05829,
         17.23459
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vijayapuram, Andhra Pradesh",
     "end": "Tiruttani, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Tiruttani"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-tn-719", "label": "Met near Tiruttani" },
+    { "id": "odr-tn-375", "label": "Met near Vijayapuram" },
+    { "id": "odr-tn-4532", "label": "Met near Vijayapuram" },
+    { "id": "odr-tn-6670", "label": "Met near Vijayapuram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayapuram",
@@ -30,12 +44,6 @@
         79.62833,
         13.20949
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

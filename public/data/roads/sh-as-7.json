@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 307.2,
+  "authority": "assam-pwd",
   "route": {
     "start": "Dergaon, Assam",
     "end": "Namsai, Arunachal Pradesh",
@@ -22,6 +23,19 @@
       "Namsai"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-2", "label": "Met near Amguri" },
+    { "id": "nh-15", "label": "Met near Namsai" },
+    { "id": "nh-715", "label": "Meets this road" },
+    { "id": "nh-315", "label": "Met near Digboi" },
+    { "id": "nh-702d", "label": "Met near Mariani" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dergaon",
@@ -99,12 +113,6 @@
         95.79572,
         27.63929
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

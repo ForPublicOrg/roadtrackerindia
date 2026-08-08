@@ -1,10 +1,14 @@
 {
   "id": "warangal-khammam-expressway",
-  "ref": "NH",
-  "name": "Warangal-Khammam Expressway",
+  "ref": "Warangal–Khammam Highway",
+  "name": "Warangal–Khammam Highway",
+  "aka": ["NH 163 (Warangal–Khammam section)"],
   "category": "expressway",
   "status": "operational",
   "lengthKm": 217.3,
+  "lanes": "4 lanes",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Srinagar Colony, Telangana",
     "end": "thimmapur, Telangana",
@@ -19,6 +23,30 @@
       "thimmapur"
     ]
   },
+  "history": "Warangal and Khammam are two of Telangana's larger cities, and this four-lane highway is the direct road between them, running south-east from Warangal through Nekkonda. It is the state's main link between the northern Telangana districts and the road to Andhra Pradesh and the coast.",
+  "facts": [
+    "Connects Warangal, the historic Kakatiya capital, with Khammam in south-eastern Telangana.",
+    "It carries agricultural freight — rice, chilli and cotton — out of the Telangana interior.",
+    "Warangal at its northern end is home to the Thousand Pillar Temple and the Kakatiya fort ruins."
+  ],
+  "significance": "This is the road that ties northern Telangana to the routes east and south, and it carries a large share of the state's farm produce towards the coastal markets.",
+  "relatedRoads": [
+    { "id": "nh-163", "label": "The Hyderabad–Bhopalpatnam national highway serving the same region" },
+    { "id": "hyderabad-outer-ring-road", "label": "The Hyderabad ring road this corridor feeds" },
+    { "id": "nh-63", "label": "Met near thimmapur" },
+    { "id": "nh-930p", "label": "Met near Mahabubabad" },
+    { "id": "nh-365", "label": "Met near Mahabubabad" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Srinagar Colony",
@@ -54,16 +82,6 @@
         79.55505,
         18.84246
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -15,13 +15,13 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { dedupeWays, overpass } from './lib/overpass.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ROADS_DIR = join(ROOT, 'public', 'data', 'roads')
 const GEOM_DIR = join(ROOT, 'public', 'data', 'geometry')
 mkdirSync(GEOM_DIR, { recursive: true })
 
-const OVERPASS = 'https://overpass-api.de/api/interpreter'
 const BBOX = '(6.0,67.5,37.5,97.6)' // south,west,north,east — greater India
 const FORCE = process.argv.includes('--force')
 const onlyArg = process.argv.find((a) => a.startsWith('--only'))
@@ -51,6 +51,33 @@ const NAME_QUERIES = {
   'dwarka-expressway': 'Dwarka Expressway',
   'trans-haryana-expressway': 'Trans.{0,3}Haryana|Ambala.{0,3}Narnaul Expressway',
   'amritsar-katra-expressway': 'Delhi.{0,3}Amritsar.{0,3}Katra Expressway',
+}
+
+/**
+ * Roads whose name is too generic to query — half a dozen Indian cities have a
+ * relation called plainly "Outer Ring Road" — so the relation is named outright.
+ * Each entry is a list of attempts, tried in order until one passes the length
+ * and location checks below. An attempt naming several relations unions them,
+ * which is how a corridor mapped one state at a time comes back whole.
+ */
+const RELATION_IDS = {
+  'delhi-outer-ring-road': [[1208532]],
+  'urban-extension-road-2': [[2723963]],
+  'east-coast-road': [[3305033]],
+  'nice-road': [[8430045]],
+  'eastern-express-highway': [[8550034]],
+  'western-express-highway': [[13552614]],
+  'dwarka-expressway': [[9240778]],
+  'trans-haryana-expressway': [[11566238]],
+  // the parent relation holds the three state sections as members, not ways
+  'raipur-visakhapatnam-expressway': [[11634998, 11637504, 11638457]],
+  'jaipur-ring-road': [[11794355]],
+  'bengaluru-satellite-town-ring-road': [[15647226]],
+  'delhi-dehradun-expressway': [[17144676]],
+  'dnd-flyway': [[6796612]],
+  'mumbai-pune-expressway': [[1247233]],
+  'hyderabad-outer-ring-road': [[5634923], [3303114], [8428024]],
+  'mumbai-coastal-road': [[17381878]],
 }
 
 // ── small geo helpers (self-contained on purpose) ─────────────────
@@ -130,38 +157,32 @@ function stitch(segments) {
 
 // ── overpass ──────────────────────────────────────────────────────
 
-async function overpass(query) {
-  const body = `data=${encodeURIComponent(`[out:json][timeout:120];${query}out geom;`)}`
-  const res = await fetch(OVERPASS, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/x-www-form-urlencoded',
-      'User-Agent': 'RoadTrackerIndia-data-build/1.0 (https://roadtrackerindia.com)',
-      Accept: 'application/json',
-    },
-    body,
-  })
-  if (!res.ok) throw new Error(`HTTP ${res.status}`)
-  return res.json()
-}
+/** The shared client rotates mirrors and backs off — Overpass 504s a lot. */
+const fetchRelations = (query) => overpass(`${query}out geom;`, { timeout: 180 })
 
-function extractSegments(json) {
+function extractSegments(json, explicitIds) {
   // pick the relation with the most way members (dual-carriageway roads often
   // have several relations; the biggest one is the main route)
   const relations = (json.elements ?? []).filter((e) => e.type === 'relation')
   if (!relations.length) return []
   relations.sort((a, b) => (b.members?.length ?? 0) - (a.members?.length ?? 0))
-  const members = (relations[0].members ?? []).filter(
-    (m) => m.type === 'way' && Array.isArray(m.geometry) && m.geometry.length > 1,
-  )
-  // dual carriageways are mapped as forward/backward member pairs — stitching
-  // both doubles the length; keep a single carriageway when roles are present
-  const oneSide = members.filter((m) => !m.role || m.role === 'forward')
+  // A named query can land on unrelated roads, so it only trusts the biggest
+  // relation. A query that named its relation ids meant all of them.
+  const chosenRels = explicitIds ? relations : relations.slice(0, 1)
+  const members = chosenRels
+    .flatMap((r) => r.members ?? [])
+    .filter((m) => m.type === 'way' && Array.isArray(m.geometry) && m.geometry.length > 1)
+  // Roles would tell us which carriageway is which, but Indian divided highways
+  // are usually mapped as two untagged parallel ways. Stitching both end to end
+  // reports the road at twice its length, so drop whatever is already covered.
+  const oneSide = members.filter((m) => m.role === 'forward')
   const chosen = oneSide.length >= members.length * 0.3 && oneSide.length > 0 ? oneSide : members
-  return chosen.map((m) => m.geometry.map((g) => [g.lon, g.lat]))
+  return dedupeWays(chosen.map((m) => m.geometry.map((g) => [g.lon, g.lat])))
 }
 
 function queriesFor(road) {
+  const attempts = RELATION_IDS[road.id]
+  if (attempts) return attempts.map((ids) => `relation(id:${ids.join(',')});`)
   const m = road.id.match(/^nh-(\d+[a-z]*)$/)
   if (m) {
     const n = m[1].toUpperCase()
@@ -201,17 +222,14 @@ for (const road of roads) {
   let done = false
   for (const q of queries) {
     let json = null
-    for (let attempt = 1; attempt <= 2 && !json; attempt++) {
-      try {
-        json = await overpass(q)
-      } catch (e) {
-        console.log(`  ! ${road.id}: ${e.message}${attempt === 1 ? ' — retrying in 12s' : ' — giving up on this query'}`)
-        if (attempt === 1) await sleep(12000)
-      }
+    try {
+      json = await fetchRelations(q)
+    } catch (e) {
+      console.log(`  ! ${road.id}: ${e.message} — giving up on this query`)
     }
     if (!json) continue
     try {
-      const segs = extractSegments(json)
+      const segs = extractSegments(json, Boolean(RELATION_IDS[road.id]))
       if (!segs.length) continue
       const line = stitch(segs)
       const km = lineLen(line)
@@ -220,6 +238,17 @@ for (const road of roads) {
       // truncate the road on the map, so demand near-complete coverage
       if (ratio < 0.8 || ratio > 1.5) {
         console.log(`  ~ ${road.id}: OSM match is ${Math.round(km)} km vs official ${road.lengthKm} km — skipping (partial/contaminated)`)
+        continue
+      }
+      // Half a dozen cities have a road called "Outer Ring Road". A match of the
+      // right length in the wrong city would silently move the road across India.
+      const mid = (pts) => {
+        const c = pts.reduce((a, p) => [a[0] + p[0], a[1] + p[1]], [0, 0])
+        return [c[0] / pts.length, c[1] / pts.length]
+      }
+      const drift = haversineKm(mid(line), mid(road.waypoints.map((w) => w.coords)))
+      if (drift > Math.max(60, road.lengthKm / 3)) {
+        console.log(`  ~ ${road.id}: OSM match sits ${Math.round(drift)} km from where the road is — wrong road, skipping`)
         continue
       }
       const coords = simplify(line, 0.03).map(([x, y]) => [

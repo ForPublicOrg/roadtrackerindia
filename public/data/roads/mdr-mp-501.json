@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Seondha, Madhya Pradesh",
     "end": "Maharajpura, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Maharajpura"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Maharajpura" },
+    { "id": "sh-mp-1", "label": "Met near Seondha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Seondha",
@@ -30,12 +42,6 @@
         78.8272,
         26.11804
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

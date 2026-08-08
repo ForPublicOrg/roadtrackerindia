@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 82.2,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Pukhrayan, Uttar Pradesh",
     "end": "Fatehpur, Uttar Pradesh",
@@ -17,6 +18,19 @@
       "Fatehpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Pukhrayan" },
+    { "id": "nh-34", "label": "Met near Ghatampur" },
+    { "id": "nh-19", "label": "Meets this road" },
+    { "id": "nh-86", "label": "Met near Ghatampur" },
+    { "id": "nh-519", "label": "Met near Pukhrayan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pukhrayan",
@@ -45,12 +59,6 @@
         80.58755,
         26.12467
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,21 @@
       "Changrabandha"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Maynaguri" },
+    { "id": "nh-17", "label": "Met near Mal Bazaar" },
+    { "id": "sh-wb-12a", "label": "Met near Maynaguri" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mal Bazaar",
@@ -38,16 +53,6 @@
         88.91881,
         26.41503
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

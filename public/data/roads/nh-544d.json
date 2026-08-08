@@ -24,6 +24,23 @@
       "Ananda Theertha Agraharam"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-16", "label": "Met near Guntur" },
+    { "id": "nh-67", "label": "Met near Tadipatri" },
+    { "id": "nh-565", "label": "Met near Peda Araveedu" },
+    { "id": "nh-40", "label": "Met near Nandyala" },
+    { "id": "nh-765", "label": "Met near Peda Araveedu" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anantapur",
@@ -143,16 +160,6 @@
         80.40033,
         16.28272
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

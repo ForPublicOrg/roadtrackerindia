@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 165.4,
+  "authority": "andhra-pradesh-rnb",
   "route": {
     "start": "Hanuman Nagar, Andhra Pradesh",
     "end": "Piduguralla, Andhra Pradesh",
@@ -21,6 +22,19 @@
       "Macherla"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-544d", "label": "Met near Medikonduru" },
+    { "id": "nh-167a", "label": "Met near Piduguralla" },
+    { "id": "nh-167ag", "label": "Met near Medikonduru" },
+    { "id": "nh-167ad", "label": "Met near Dachepalli" },
+    { "id": "guntur-inner-ring-road", "label": "Met near Medikonduru" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hanuman Nagar",
@@ -98,12 +112,6 @@
         79.84058,
         16.51078
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 305.6,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Aurad, Karnataka",
     "end": "Raichur, Karnataka",
@@ -21,6 +22,19 @@
       "Raichur"
     ]
   },
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Raichur" },
+    { "id": "nh-65", "label": "Met near Kamatana" },
+    { "id": "nh-150a", "label": "Met near Shahapura" },
+    { "id": "nh-161a", "label": "Met near Bidar" },
+    { "id": "nh-150", "label": "Met near Yadgiri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Aurad",
@@ -84,12 +98,6 @@
         77.19829,
         16.19961
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

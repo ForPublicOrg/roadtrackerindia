@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 51.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Katni, Madhya Pradesh",
     "end": "Barhi, Madhya Pradesh",
@@ -17,6 +18,20 @@
       "Barhi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-30", "label": "Met near Katni" },
+    { "id": "nh-43", "label": "Met near Katni" },
+    { "id": "sh-mp-63", "label": "Met near Barhi" },
+    { "id": "sh-mp-6", "label": "Met near Barhi" },
+    { "id": "mdr-mp-3614", "label": "Met near Vijayraghavgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Katni",
@@ -38,12 +53,6 @@
         80.81242,
         23.90333
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

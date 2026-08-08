@@ -18,6 +18,18 @@
       "Silvassa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vapi" },
+    { "id": "nh-56", "label": "Met near Vapi" },
+    { "id": "nh-848a", "label": "Met near Silvassa" },
+    { "id": "nh-848b", "label": "Met near Daman" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Daman",
@@ -46,12 +58,6 @@
         73.00401,
         20.27131
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

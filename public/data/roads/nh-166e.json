@@ -20,6 +20,26 @@
       "Chiplun"
     ]
   },
+  "significance": "NH 166E is a branch of NH 166. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Vijayapura to Chiplun, and it meets NH 166 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-166",
+      "label": "NH 166 — the highway this branch takes its number from, running Solapur to Pethkilla"
+    },
+    { "id": "pune-bengaluru-expressway", "label": "Met near Vita" },
+    { "id": "nh-48", "label": "Met near Karad" },
+    { "id": "nh-52", "label": "Met near Vijayapura" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayapura",
@@ -90,16 +110,6 @@
         73.53804,
         17.5255
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

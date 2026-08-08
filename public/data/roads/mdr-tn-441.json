@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Annalagraharam, Tamil Nadu",
     "end": "Melacauvery, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Melacauvery"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-36", "label": "Met near Kumbakonam" },
+    { "id": "sh-tn-8", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-720", "label": "Met near Kumbakonam" },
+    { "id": "mdr-tn-695", "label": "Met near Kumbakonam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Annalagraharam",
@@ -30,12 +44,6 @@
         79.327,
         10.95314
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

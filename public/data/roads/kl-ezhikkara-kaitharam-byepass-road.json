@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Thrikkapuram, Kerala",
     "end": "Cheriyappilly, Kerala",
@@ -18,6 +19,18 @@
       "Cheriyappilly"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Cheriyappilly" },
+    { "id": "kl-paravur-chathanadu-road", "label": "Met near North Paravur" },
+    { "id": "kl-thonniakavu-thrikkapuram-road", "label": "Met near Cheriyappilly" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thrikkapuram",
@@ -53,12 +66,6 @@
         76.24719,
         10.11719
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

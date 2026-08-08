@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 11.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Adirampattinam, Tamil Nadu",
     "end": "Pattukkottai, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Pattukkottai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-66", "label": "Met near Adirampattinam" },
+    { "id": "sh-tn-146", "label": "Met near Pattukkottai" },
+    { "id": "mdr-tn-343", "label": "Met near Pattukkottai" },
+    { "id": "mdr-tn-226", "label": "Met near Pattukkottai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Adirampattinam",
@@ -30,12 +44,6 @@
         79.31829,
         10.42319
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

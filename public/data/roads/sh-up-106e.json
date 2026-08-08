@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28.3,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Mau, Uttar Pradesh",
     "end": "Deva, Uttar Pradesh",
@@ -16,6 +17,19 @@
       "Deva"
     ]
   },
+  "relatedRoads": [
+    { "id": "purvanchal-expressway", "label": "Meets this road" },
+    { "id": "nh-24", "label": "Met near Mau" },
+    { "id": "nh-124d", "label": "Met near Deva" },
+    { "id": "sh-up-67", "label": "Met near Deva" },
+    { "id": "sh-up-41e", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mau",
@@ -30,12 +44,6 @@
         83.41166,
         25.81429
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

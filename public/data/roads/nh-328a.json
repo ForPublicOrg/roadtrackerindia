@@ -17,6 +17,26 @@
       "Jalalpur"
     ]
   },
+  "significance": "NH 328A is a branch of NH 328. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Mehdawal to Jalalpur, and it meets NH 328 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-328",
+      "label": "NH 328 — the highway this branch takes its number from, running Maharajganj to Basti"
+    },
+    { "id": "nh-27", "label": "Met near Maghar" },
+    { "id": "nh-28", "label": "Met near Jalalpur" },
+    { "id": "nh-227a", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mehdawal",
@@ -38,16 +58,6 @@
         82.86933,
         26.37554
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

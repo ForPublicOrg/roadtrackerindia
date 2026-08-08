@@ -1,10 +1,11 @@
 {
   "id": "nh-61",
   "ref": "NH 61",
-  "name": "Jagtial–Temghar National Highway",
+  "name": "Jagtial–Kalyan Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 748.1,
+  "lanes": "2–4 lanes",
   "route": {
     "start": "Jagtial, Telangana",
     "end": "Temghar, Maharashtra",
@@ -25,6 +26,35 @@
       "Temghar"
     ]
   },
+  "history": "National Highway 61 runs a long diagonal from Jagtial in northern Telangana through Nirmal, across the Godavari into Maharashtra at Nanded, then west through Parbhani, Majalgaon and Ahilyanagar and over the Western Ghats at Malshej Ghat to Kalyan, on the edge of Mumbai. It is the road that ties the Marathwada districts to both Mumbai and Telangana, and it crosses some of the driest farmland in the country.",
+  "facts": [
+    "Crosses the Western Ghats at Malshej Ghat, a monsoon waterfall route popular with Mumbai day-trippers.",
+    "Passes Junnar, near the fort of Shivneri where Chhatrapati Shivaji Maharaj was born.",
+    "Serves Nanded, home to Hazur Sahib, one of the five takhts of Sikhism.",
+    "It runs across Marathwada, one of the most drought-prone regions in India."
+  ],
+  "significance": "This is the road that connects the interior of Marathwada and northern Telangana to Mumbai without going round by Pune. It is also the pilgrim route from Mumbai towards Nanded.",
+  "relatedRoads": [
+    {
+      "id": "jalna-nanded-expressway",
+      "label": "The new expressway link bringing Nanded onto the Samruddhi Mahamarg"
+    },
+    { "id": "nh-65", "label": "The Pune–Hyderabad highway crossing this route" },
+    { "id": "surat-chennai-expressway", "label": "Met near Ahilyanagar" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Bhiwandi" },
+    { "id": "nh-44", "label": "Met near Nirmal" }
+  ],
+  "travelNotes": "Malshej Ghat is spectacular in the monsoon and slow in it — fog, waterfalls onto the carriageway and weekend crowds. The Marathwada stretches are open and fast but have long gaps between towns.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagtial",
@@ -130,16 +160,6 @@
         73.08323,
         19.26957
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -22,6 +22,23 @@
       "Railway Colony"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Jamalpur" },
+    { "id": "nh-333a", "label": "Met near Jamui" },
+    { "id": "nh-114a", "label": "Met near Deoghar" },
+    { "id": "nh-333c", "label": "Meets this road" },
+    { "id": "sh-jh-14", "label": "Met near Deoghar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rāmpur",
@@ -71,16 +88,6 @@
         86.57614,
         25.28279
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

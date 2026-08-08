@@ -17,6 +17,25 @@
       "Mansurchak"
     ]
   },
+  "significance": "NH 122B is a branch of NH 122. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Hajipur to Mansurchak, and it meets NH 122 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-122",
+      "label": "NH 122 — the highway this branch takes its number from, running Barauni to Muzaffarpur"
+    },
+    { "id": "nh-31", "label": "Met near Hajipur" },
+    { "id": "nh-22", "label": "Met near Hajipur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hajipur",
@@ -45,16 +64,6 @@
         85.87715,
         25.58909
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

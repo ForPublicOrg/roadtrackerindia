@@ -1,10 +1,14 @@
 {
   "id": "dnd-kmp-expressway",
-  "ref": "NH",
-  "name": "DND–KMP Expressway",
+  "ref": "DND–KMP Expressway",
+  "name": "DND–Faridabad–KMP Expressway",
+  "aka": ["Delhi–Mumbai Expressway Delhi spur"],
   "category": "expressway",
-  "status": "operational",
+  "status": "under-construction",
   "lengthKm": 27.4,
+  "lanes": "6 lanes, access-controlled, part elevated",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Sohna, Haryana",
     "end": "Ballabgarh, Haryana",
@@ -16,6 +20,34 @@
       "Ballabgarh"
     ]
   },
+  "history": "The Delhi–Mumbai Expressway officially begins at Sohna, well outside Delhi, which left the question of how Delhi traffic was meant to reach it. This link is the answer: a fast road from the DND Flyway at the Delhi–Noida border, past Faridabad, to the Kundli–Manesar–Palwal expressway near Sohna. Much of the Delhi stretch is elevated, because it runs along the Yamuna floodplain and through built-up Faridabad.",
+  "facts": [
+    "Built as the Delhi approach to the Delhi–Mumbai Expressway.",
+    "Runs from the DND Flyway at Kalindi Kunj to the Kundli–Manesar–Palwal expressway near Sohna.",
+    "Long elevated sections carry it over the Yamuna floodplain and the built-up parts of Faridabad.",
+    "Once complete it puts the Delhi–Mumbai Expressway within about twenty minutes of south Delhi."
+  ],
+  "significance": "Without it, a driver in Delhi has to cross Gurugram or Faridabad on ordinary roads before the country's longest expressway even starts. This link is what makes the expressway usable from the capital itself.",
+  "relatedRoads": [
+    { "id": "dnd-flyway", "label": "The Delhi–Noida flyway this link starts from" },
+    { "id": "delhi-mumbai-expressway", "label": "The expressway this link exists to reach" },
+    { "id": "western-peripheral-expressway", "label": "The Kundli–Manesar–Palwal ring it meets near Sohna" },
+    { "id": "eastern-peripheral-expressway", "label": "The other half of Delhi's orbital expressway ring" },
+    { "id": "nh-44", "label": "Met near Jhar Saitli" },
+    { "id": "nh-919", "label": "Met near Sohna" },
+    { "id": "sh-hr-2", "label": "Met near Jhar Saitli" }
+  ],
+  "travelNotes": "Opening in sections. Check which stretches are running before relying on it end to end.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sohna",
@@ -37,16 +69,6 @@
         77.34452,
         28.31691
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

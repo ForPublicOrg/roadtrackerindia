@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 51.9,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Omkareshwar, Madhya Pradesh",
     "end": "Sanawad, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Sanawad"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-347bg", "label": "Met near Sanawad" },
+    { "id": "mdr-mp-4914", "label": "Met near Sanawad" },
+    { "id": "mdr-mp-4904", "label": "Met near Sanawad" },
+    { "id": "mdr-mp-5004", "label": "Met near Omkareshwar" },
+    { "id": "mdr-mp-4903", "label": "Met near Sanawad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Omkareshwar",
@@ -30,12 +44,6 @@
         76.07318,
         22.17372
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -17,6 +17,24 @@
       "Amalapuram"
     ]
   },
+  "significance": "NH 216E is a branch of NH 216. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Ravulapalem to Amalapuram, and it meets NH 216 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-216",
+      "label": "NH 216 — the highway this branch takes its number from, running Ongole to Jagannaikpur"
+    },
+    { "id": "nh-216a", "label": "Met near Ravulapalem" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ravulapalem",
@@ -52,16 +70,6 @@
         82.00321,
         16.57747
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

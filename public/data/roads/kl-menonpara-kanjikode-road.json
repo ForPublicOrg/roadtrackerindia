@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kanjikode, Kerala",
     "end": "Chandranagar, Kerala",
@@ -16,6 +17,20 @@
       "Chandranagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-544", "label": "Met near Kanjikode" },
+    { "id": "kl-kanjikode-para-kunnachi-kallukuttyal-road", "label": "Met near Kanjikode" },
+    { "id": "kl-menonpara-chullimada-road", "label": "Met near Kanjikode" },
+    { "id": "kl-kanjikkode-bazar-road", "label": "Met near Kanjikode" },
+    { "id": "kl-chullimada-bazaar-road", "label": "Met near Kanjikode" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kanjikode",
@@ -30,12 +45,6 @@
         76.74719,
         10.79657
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

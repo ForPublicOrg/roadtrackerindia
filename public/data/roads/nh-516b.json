@@ -18,6 +18,22 @@
       "Srungavarapukota"
     ]
   },
+  "relatedRoads": [
+    { "id": "raipur-visakhapatnam-expressway", "label": "Met near Kothavalasa" },
+    { "id": "nh-16", "label": "Met near Pendurthi" },
+    { "id": "nh-516e", "label": "Met near Srungavarapukota" },
+    { "id": "nh-130cd", "label": "Met near Kothavalasa" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pendurthi",
@@ -46,16 +62,6 @@
         83.13874,
         18.11397
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

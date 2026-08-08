@@ -19,6 +19,20 @@
       "Sawai Madhopur"
     ]
   },
+  "significance": "SH 30, Morena–Sawai Madhopur State Highway, crosses the border between Madhya Pradesh and Rajasthan. A state road that runs through more than one state has no single owner — MP PWD and Rajasthan PWD each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Morena" },
+    { "id": "nh-552", "label": "Met near Kumheri" },
+    { "id": "sh-rj-123", "label": "Met near Kasba Khandhar" },
+    { "id": "sh-rj-122", "label": "Met near Sawai Madhopur" },
+    { "id": "sh-mp-50", "label": "Met near Sabalgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Morena",
@@ -61,12 +75,6 @@
         76.35638,
         26.01211
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

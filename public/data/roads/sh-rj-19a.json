@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 118.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Dag, Rajasthan",
     "end": "Jhalawar, Rajasthan",
@@ -17,6 +18,19 @@
       "Jhalawar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Jhalrapatan" },
+    { "id": "sh-rj-19d", "label": "Met near Bhawani Mandi" },
+    { "id": "sh-rj-19e", "label": "Met near Dag" },
+    { "id": "mdr-rj-179", "label": "Meets this road" },
+    { "id": "mdr-rj-214", "label": "Met near Bhawani Mandi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dag",
@@ -38,12 +52,6 @@
         76.15622,
         24.59137
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

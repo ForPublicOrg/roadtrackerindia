@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Mananthavady, Kerala",
     "end": "Perikkalloor, Kerala",
@@ -16,6 +17,17 @@
       "Perikkalloor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-kl-228", "label": "Met near Mananthavady" },
+    { "id": "kl-begur-thirunelly-road", "label": "Met near Mananthavady" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mananthavady",
@@ -30,12 +42,6 @@
         76.00948,
         11.9031
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

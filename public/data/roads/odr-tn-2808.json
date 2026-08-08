@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Alapakkam, Tamil Nadu",
     "end": "Mahindra World City, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Mahindra World City"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "odr-tn-3591", "label": "Met near Thirukazhukundram" },
+    { "id": "odr-tn-2766", "label": "Met near Thirukazhukundram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Alapakkam",
@@ -30,12 +42,6 @@
         80.0753,
         12.68764
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

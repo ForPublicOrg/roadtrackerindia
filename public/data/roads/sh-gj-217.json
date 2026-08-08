@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 39.4,
+  "authority": "gujarat-rnb",
   "route": {
     "start": "Mehsana Lakhvad, Gujarat",
     "end": "Gandhinagar, Gujarat",
@@ -16,6 +17,16 @@
       "Gandhinagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-68", "label": "Met near Mahesana" },
+    { "id": "sh-gj-138", "label": "Met near Kalol" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mehsana Lakhvad",
@@ -30,12 +41,6 @@
         72.64532,
         23.28256
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -19,6 +19,26 @@
       "Khatīma"
     ]
   },
+  "significance": "NH 731K is a branch of NH 731. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Shahjahanpur to Khatīma, and it meets NH 731 along the way.",
+  "relatedRoads": [
+    {
+      "id": "nh-731",
+      "label": "NH 731 — the highway this branch takes its number from, running Saidpur to Palia Kalan"
+    },
+    { "id": "nh-730", "label": "Met near Pilibhit" },
+    { "id": "nh-730b", "label": "Met near Bisalpur" },
+    { "id": "sh-up-62w", "label": "Met near Bisalpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shahjahanpur",
@@ -47,16 +67,6 @@
         79.96991,
         28.91976
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

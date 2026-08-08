@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 229.4,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Banswara, Rajasthan",
     "end": "Sadri, Rajasthan",
@@ -19,6 +20,19 @@
       "Sadri"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Gogunda" },
+    { "id": "nh-48", "label": "Met near Udaipur" },
+    { "id": "nh-58", "label": "Met near Udaipur" },
+    { "id": "nh-927a", "label": "Met near Banswara" },
+    { "id": "udaipur-bypass", "label": "Met near Udaipur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Banswara",
@@ -61,12 +75,6 @@
         73.55009,
         25.1211
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

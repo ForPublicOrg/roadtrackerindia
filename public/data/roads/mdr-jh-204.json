@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 18.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Mandro, Jharkhand",
     "end": "Mahagama, Jharkhand",
@@ -16,6 +17,16 @@
       "Mahagama"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-133", "label": "Met near Mandro" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mandro",
@@ -30,12 +41,6 @@
         87.45178,
         25.11011
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

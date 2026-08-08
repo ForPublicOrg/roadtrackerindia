@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 119.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Anjugramam, Tamil Nadu",
     "end": "Briyant Nagar, Tamil Nadu",
@@ -19,6 +20,19 @@
       "Briyant Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Anjugramam" },
+    { "id": "nh-32", "label": "Met near Thisayanvilai" },
+    { "id": "sh-tn-40", "label": "Met near Tiruchendur" },
+    { "id": "sh-tn-288", "label": "Met near Kayalpattinam" },
+    { "id": "sh-tn-92", "label": "Met near Anuvijay Township" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anjugramam",
@@ -47,12 +61,6 @@
         78.14276,
         8.79314
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

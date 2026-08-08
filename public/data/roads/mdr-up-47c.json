@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 40.6,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Auraiya, Uttar Pradesh",
     "end": "Dibiyapur, Uttar Pradesh",
@@ -16,6 +17,20 @@
       "Dibiyapur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-19", "label": "Met near Auraiya" },
+    { "id": "nh-519", "label": "Met near Auraiya" },
+    { "id": "sh-up-40", "label": "Meets this road" },
+    { "id": "sh-up-68", "label": "Meets this road" },
+    { "id": "mdr-up-85c", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Auraiya",
@@ -30,12 +45,6 @@
         79.77984,
         26.67629
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

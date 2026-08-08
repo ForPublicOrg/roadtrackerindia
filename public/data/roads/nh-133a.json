@@ -19,6 +19,23 @@
       "Barharwa"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-12", "label": "Met near Dhulian" },
+    { "id": "nh-33", "label": "Met near Barharwa" },
+    { "id": "nh-333a", "label": "Met near Sundarpur" },
+    { "id": "mdr-jh-243", "label": "Met near Pakaur" },
+    { "id": "mdr-jh-212", "label": "Met near Pakaur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dhulian",
@@ -47,16 +64,6 @@
         87.77414,
         24.85806
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

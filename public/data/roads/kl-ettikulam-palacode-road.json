@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyangadi, Kerala",
     "end": "Pazhayangadi, Kerala",
@@ -16,6 +17,19 @@
       "Pazhayangadi"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-punnakadavu-kunnaru-palakode-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-ezhimala-top-road", "label": "Met near Puthiyangadi" },
+    { "id": "kl-madayi-tb-muttam-palakode-road", "label": "Met near Pazhayangadi" },
+    { "id": "kl-link-road-connecting-ettikulam-kottapally-gate-no-7-road", "label": "Met near Puthiyangadi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyangadi",
@@ -30,12 +44,6 @@
         75.23032,
         12.03164
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

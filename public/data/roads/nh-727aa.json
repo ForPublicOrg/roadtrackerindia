@@ -1,10 +1,12 @@
 {
   "id": "nh-727aa",
   "ref": "NH 727AA",
-  "name": "Gopalganj–Bettiah National Highway",
+  "name": "Gopalganj–Bettiah Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 20.5,
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
     "start": "Gopalganj, Bihar",
     "end": "Bettiah, Bihar",
@@ -16,6 +18,23 @@
       "Bettiah"
     ]
   },
+  "facts": [
+    "Connects the district towns of Gopalganj and Bettiah in north-western Bihar.",
+    "Crosses the Gandak plain, which floods most monsoons.",
+    "Bettiah is the gateway town for the Valmiki Tiger Reserve on the Nepal border.",
+    "The area is one of the most densely populated rural districts in India."
+  ],
+  "significance": "A short national highway across north-western Bihar between Gopalganj and Bettiah, through the Gandak plain. This is flood country — the Gandak and its tributaries cut the district roads most monsoons — so an all-weather highway between the two district towns matters more here than its length suggests.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gopalganj",
@@ -30,16 +49,6 @@
         84.47646,
         26.69023
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

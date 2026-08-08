@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 125.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ashoknagar, Madhya Pradesh",
     "end": "Bamori, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Bamori"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-mp-10", "label": "Met near Guna" },
+    { "id": "sh-mp-9", "label": "Met near Ashoknagar" },
+    { "id": "sh-mp-4a", "label": "Meets this road" },
+    { "id": "mdr-mp-702", "label": "Meets this road" },
+    { "id": "mdr-mp-703", "label": "Met near Bamori" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ashoknagar",
@@ -38,12 +52,6 @@
         76.97551,
         25.06686
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,23 @@
       "Air Force Area"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Air Force Area" },
+    { "id": "nh-227a", "label": "Met near Mairwa" },
+    { "id": "nh-727b", "label": "Met near Salempur" },
+    { "id": "nh-727bb", "label": "Met near Air Force Area" },
+    { "id": "sh-up-152e", "label": "Met near Deoria" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mairwa",
@@ -55,16 +72,6 @@
         83.47667,
         26.69754
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

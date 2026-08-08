@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Sultan Bathery, Kerala",
     "end": "Pandalur, Tamil Nadu",
@@ -16,6 +17,18 @@
       "Pandalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-sulthan-bathery-noolpuzha-road", "label": "Met near Sultan Bathery" },
+    { "id": "kl-madakkara-thazhathoor-cheeral-road", "label": "Met near Sultan Bathery" },
+    { "id": "kl-nambyarkunnu-poolakund-road", "label": "Met near Sultan Bathery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sultan Bathery",
@@ -30,12 +43,6 @@
         76.31093,
         11.62958
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

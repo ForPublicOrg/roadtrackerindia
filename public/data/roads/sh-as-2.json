@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 62.8,
+  "authority": "assam-pwd",
   "route": {
     "start": "Bongaigaon, Assam",
     "end": "Barpeta, Assam",
@@ -17,6 +18,17 @@
       "Barpeta"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Bongaigaon" },
+    { "id": "nh-17", "label": "Met near Abhayapuri" },
+    { "id": "nh-427", "label": "Met near Barpeta" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bongaigaon",
@@ -38,12 +50,6 @@
         91.00419,
         26.3275
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

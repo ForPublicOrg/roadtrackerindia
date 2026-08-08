@@ -19,6 +19,23 @@
       "Wagholi"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-ring-road", "label": "Met near Wagholi" },
+    { "id": "nh-48", "label": "Met near Anandnagar" },
+    { "id": "nh-65", "label": "Met near Gopalpatti" },
+    { "id": "nh-753f", "label": "Met near Wagholi" },
+    { "id": "nh-60", "label": "Met near Katraj" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vadgaon Budruk",
@@ -47,16 +64,6 @@
         74.02213,
         18.57285
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

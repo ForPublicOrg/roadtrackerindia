@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 40.9,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Chauth ka Barwara, Rajasthan",
     "end": "Sawai Madhopur, Rajasthan",
@@ -16,6 +17,18 @@
       "Sawai Madhopur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Sawai Madhopur" },
+    { "id": "sh-rj-122", "label": "Met near Sawai Madhopur" },
+    { "id": "mdr-rj-111", "label": "Met near Sawai Madhopur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chauth ka Barwara",
@@ -30,12 +43,6 @@
         76.34151,
         26.01543
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

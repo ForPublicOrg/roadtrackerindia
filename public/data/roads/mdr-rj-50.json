@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.3,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Jurhara, Rajasthan",
     "end": "Sikri, Rajasthan",
@@ -16,6 +17,18 @@
       "Sikri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-rj-22", "label": "Met near Sikri" },
+    { "id": "mdr-rj-143", "label": "Met near Pahari" },
+    { "id": "mdr-rj-72", "label": "Met near Jurhara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jurhara",
@@ -30,12 +43,6 @@
         77.12217,
         27.53363
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

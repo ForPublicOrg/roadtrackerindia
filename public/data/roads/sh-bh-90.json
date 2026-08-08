@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 67.3,
+  "authority": "bihar-rcd",
   "route": {
     "start": "Barharia, Bihar",
     "end": "Chhapra, Bihar",
@@ -17,6 +18,17 @@
       "Chhapra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-31", "label": "Met near Chhapra" },
+    { "id": "nh-331", "label": "Meets this road" },
+    { "id": "sh-br-73", "label": "Met near Masrakh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barharia",
@@ -38,12 +50,6 @@
         84.75082,
         25.78967
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

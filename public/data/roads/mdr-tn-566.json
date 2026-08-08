@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 7.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sithalapakkam, Tamil Nadu",
     "end": "Rajakilpakkam, Tamil Nadu",
@@ -17,6 +18,20 @@
       "Rajakilpakkam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-200-feet-radial-road", "label": "Met near Tambaram" },
+    { "id": "sh-tn-48", "label": "Met near Tambaram" },
+    { "id": "sh-tn-110a", "label": "Met near Sithalapakkam" },
+    { "id": "mdr-tn-633", "label": "Met near Sithalapakkam" },
+    { "id": "odr-tn-3409", "label": "Met near Tambaram" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sithalapakkam",
@@ -45,12 +60,6 @@
         80.14587,
         12.91797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

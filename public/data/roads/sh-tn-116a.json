@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 37.8,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Walajapet, Tamil Nadu",
     "end": "Kanchipuram, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Kanchipuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-5", "label": "Met near Walajapet" },
+    { "id": "sh-tn-u243", "label": "Met near Kanchipuram" },
+    { "id": "mdr-tn-666", "label": "Met near Walajapet" },
+    { "id": "odr-tn-3941", "label": "Met near Kanchipuram" },
+    { "id": "tn-sugarcane-road-292", "label": "Met near Walajapet" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Walajapet",
@@ -30,12 +44,6 @@
         79.68225,
         12.83355
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

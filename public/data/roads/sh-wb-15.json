@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 236.7,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Shibpur, West Bengal",
     "end": "Memari, West Bengal",
@@ -20,6 +21,19 @@
       "Memari"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Uluberia" },
+    { "id": "kona-expressway", "label": "Met near Howrah" },
+    { "id": "nh-16", "label": "Met near Howrah" },
+    { "id": "nh-12", "label": "Met near Howrah" },
+    { "id": "sh-wb-2", "label": "Met near Tarkeshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Shibpur",
@@ -90,12 +104,6 @@
         88.10068,
         23.17887
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

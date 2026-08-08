@@ -18,6 +18,23 @@
       "Chimthane"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Chimthane" },
+    { "id": "nh-752g", "label": "Met near Nandurbar" },
+    { "id": "nh-753b", "label": "Met near Nandurbar" },
+    { "id": "nh-160h", "label": "Met near Dondaicha" },
+    { "id": "sh-mh-1", "label": "Met near Dondaicha" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nandurbar",
@@ -46,16 +63,6 @@
         74.81403,
         21.15979
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

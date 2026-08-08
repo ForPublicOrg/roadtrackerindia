@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Puthiyacavu, Kerala",
     "end": "Mavelikkara, Kerala",
@@ -16,6 +17,22 @@
       "Mavelikkara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Mavelikkara" },
+    { "id": "sh-kl-10", "label": "Met near Mavelikkara" },
+    { "id": "kl-karuvalil-kannattuchanda-road", "label": "Met near Mavelikkara" },
+    {
+      "id": "kl-kollakadavu-ferry-road-old-mavelikkara-chengannoor-road-to-k",
+      "label": "Met near Mavelikkara"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Puthiyacavu",
@@ -30,12 +47,6 @@
         76.5665,
         9.25539
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

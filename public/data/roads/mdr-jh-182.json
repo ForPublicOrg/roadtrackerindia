@@ -17,6 +17,21 @@
       "Champua"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR 182, Jagannathpur–Champua District road, crosses the border between Jharkhand and Odisha. A state road that runs through more than one state has no single owner — Jharkhand RCD and Odisha Works Dept each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "nh-20", "label": "Met near Jagannathpur" },
+    { "id": "nh-320g", "label": "Met near Jagannathpur" },
+    { "id": "mdr-jh-185", "label": "Meets this road" },
+    { "id": "mdr-jh-184", "label": "Meets this road" },
+    { "id": "mdr-jh-183", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jagannathpur",
@@ -31,12 +46,6 @@
         85.87928,
         21.98041
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

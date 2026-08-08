@@ -19,6 +19,24 @@
       "Sector 10"
     ]
   },
+  "significance": "NH 352W is a branch of NH 352. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Rewari to Sector 10, and it meets NH 352 along the way.",
+  "relatedRoads": [
+    { "id": "western-peripheral-expressway", "label": "Met near Sector 97" },
+    { "id": "dwarka-expressway", "label": "Met near Sector 36B" },
+    { "id": "nh-352", "label": "Met near Rewari" },
+    { "id": "nh-248bb", "label": "Met near Sector 88A" },
+    { "id": "sh-hr-132", "label": "Met near Pataudi" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rewari",
@@ -54,16 +72,6 @@
         76.99682,
         28.44818
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "School Kavala, Kerala",
     "end": "Ambalakkavala, Kerala",
@@ -17,6 +18,17 @@
       "Ambalakkavala"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Kattappana" },
+    { "id": "kl-nariampara-kalthotty-vellilamkandom-road", "label": "Met near Kattappana" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "School Kavala",
@@ -31,12 +43,6 @@
         77.08557,
         9.72893
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

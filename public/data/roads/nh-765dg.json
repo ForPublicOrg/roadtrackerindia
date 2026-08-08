@@ -18,6 +18,22 @@
       "Hasanparthy"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Ramayampet" },
+    { "id": "nh-563", "label": "Met near Hasanparthy" },
+    { "id": "nh-365b", "label": "Met near Siddipet" },
+    { "id": "nh-765d", "label": "Met near Medak" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Medak",
@@ -53,16 +69,6 @@
         79.44862,
         18.09542
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

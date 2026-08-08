@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 23.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Erode, Tamil Nadu",
     "end": "Chennimalai, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Chennimalai"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-83a", "label": "Met near Erode" },
+    { "id": "sh-tn-96", "label": "Met near Chennimalai" },
+    { "id": "sh-tn-267", "label": "Met near Perundurai" },
+    { "id": "mdr-tn-885", "label": "Met near Perundurai" },
+    { "id": "mdr-tn-71", "label": "Met near Chennimalai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Erode",
@@ -37,12 +52,6 @@
         77.60233,
         11.16618
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

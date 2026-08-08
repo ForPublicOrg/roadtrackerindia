@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 9.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Parangipettai, Tamil Nadu",
     "end": "Chidambaram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Chidambaram"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Chidambaram" },
+    { "id": "odr-tn-923", "label": "Met near Chidambaram" },
+    { "id": "mdr-tn-162", "label": "Met near Parangipettai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Parangipettai",
@@ -30,12 +42,6 @@
         79.7068,
         11.43911
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

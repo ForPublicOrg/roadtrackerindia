@@ -23,6 +23,22 @@
       "Udvada"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-848b", "label": "A branch off this highway, running Vapi to Udvada" },
+    { "id": "surat-chennai-expressway", "label": "Met near Dindori" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Thane" },
+    { "id": "nh-48", "label": "Met near Thane" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Majiwada",
@@ -86,16 +102,6 @@
         72.94565,
         20.51353
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

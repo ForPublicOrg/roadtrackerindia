@@ -19,6 +19,20 @@
       "Doranala"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-40", "label": "Met near Kallur" },
+    { "id": "nh-765", "label": "Met near Doranala" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ram Nagar",
@@ -61,16 +75,6 @@
         79.09095,
         15.90749
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

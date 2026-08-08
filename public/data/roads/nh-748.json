@@ -22,6 +22,22 @@
       "Mahantesh Nagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-748aa", "label": "A branch off this highway, running Corlim to Udyambag" },
+    { "id": "nh-48", "label": "Met near Belagavi" },
+    { "id": "nh-66", "label": "Met near Panaji" },
+    { "id": "nh-67", "label": "Met near Ramanagara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Patto",
@@ -92,16 +108,6 @@
         74.52383,
         15.89256
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

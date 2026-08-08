@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 14.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Wandoor, Kerala",
     "end": "Manjeri, Kerala",
@@ -16,6 +17,18 @@
       "Manjeri"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-28", "label": "Met near Manjeri" },
+    { "id": "kl-thirkkalangodu-thiruvali-wandoor-kalikavu-road", "label": "Met near Wandoor" },
+    { "id": "kl-cherukulam-pelepuram-pathiriyal-road", "label": "Met near Wandoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Wandoor",
@@ -30,12 +43,6 @@
         76.11976,
         11.14016
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

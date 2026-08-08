@@ -22,6 +22,21 @@
       "Goalpara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-17", "label": "Met near Dudhnai" },
+    { "id": "nh-127b", "label": "Met near Tura" },
+    { "id": "sh-as-46", "label": "Met near Dudhnai" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dudhnai",
@@ -92,16 +107,6 @@
         90.6457,
         26.0437
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

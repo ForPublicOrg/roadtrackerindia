@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 18.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nellimoottilpadi, Kerala",
     "end": "Puthoor, Kerala",
@@ -17,6 +18,19 @@
       "Puthoor"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Puthoor" },
+    { "id": "nh-183a", "label": "Met near Adoor" },
+    { "id": "sh-kl-1", "label": "Met near Adoor" },
+    { "id": "kl-kottarakkara-sasthamkotta-road", "label": "Met near Puthoor" },
+    { "id": "kl-kadampanadu-enadi-road", "label": "Met near Puthoor" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nellimoottilpadi",
@@ -31,12 +45,6 @@
         76.62622,
         9.04302
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

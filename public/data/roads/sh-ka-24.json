@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 140.2,
+  "authority": "karnataka-pwd",
   "route": {
     "start": "Galihalli, Karnataka",
     "end": "Amarapuram, Andhra Pradesh",
@@ -19,6 +20,19 @@
       "Amarapuram"
     ]
   },
+  "relatedRoads": [
+    { "id": "pune-bengaluru-expressway", "label": "Met near Amarapuram" },
+    { "id": "nh-48", "label": "Met near Hiriyur" },
+    { "id": "nh-150a", "label": "Met near Hiriyur" },
+    { "id": "nh-69", "label": "Met near Tarikere" },
+    { "id": "nh-173", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Galihalli",
@@ -47,12 +61,6 @@
         76.93182,
         14.05472
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

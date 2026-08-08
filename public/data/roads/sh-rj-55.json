@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 87.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Thanagazi, Rajasthan",
     "end": "Ramganj, Rajasthan",
@@ -17,6 +18,19 @@
       "Ramganj"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-148", "label": "Met near Jamwa Ramgarh" },
+    { "id": "nh-248", "label": "Met near Jaipur" },
+    { "id": "sh-rj-52", "label": "Met near Thanagazi" },
+    { "id": "sh-rj-77", "label": "Meets this road" },
+    { "id": "mdr-rj-152", "label": "Met near Jamwa Ramgarh" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thanagazi",
@@ -38,12 +52,6 @@
         75.86838,
         26.96128
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

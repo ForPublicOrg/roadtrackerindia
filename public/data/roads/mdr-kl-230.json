@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Peravoor, Kerala",
     "end": "Mattannur, Kerala",
@@ -16,6 +17,20 @@
       "Mattannur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-30", "label": "Met near Mattannur" },
+    { "id": "mdr-kl-2", "label": "Met near Mattannur" },
+    { "id": "kl-kannur-mattanur-road", "label": "Met near Mattannur" },
+    { "id": "mdr-kl-214", "label": "Met near Peravoor" },
+    { "id": "mdr-kl-229", "label": "Met near Mattannur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Peravoor",
@@ -30,12 +45,6 @@
         75.57214,
         11.92861
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

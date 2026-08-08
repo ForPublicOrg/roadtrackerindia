@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.2,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Vengara, Kerala",
     "end": "Kondotty, Kerala",
@@ -16,6 +17,19 @@
       "Kondotty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-65", "label": "Met near Vengara" },
+    { "id": "kl-vengara-kunnumpuram-road", "label": "Met near Vengara" },
+    { "id": "kl-chelari-olakara-peruvallur-road", "label": "Met near Kondotty" },
+    { "id": "kl-kollamchina-pukayoor-road", "label": "Met near Kondotty" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vengara",
@@ -30,12 +44,6 @@
         75.94282,
         11.11279
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

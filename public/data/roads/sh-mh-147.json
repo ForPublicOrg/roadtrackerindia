@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 60.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Pathardi, Maharashtra",
     "end": "Beed, Maharashtra",
@@ -17,6 +18,19 @@
       "Beed"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-61", "label": "Met near Pathardi" },
+    { "id": "nh-361f", "label": "Met near Beed" },
+    { "id": "nh-752e", "label": "Met near Shirur Kasar" },
+    { "id": "nh-561", "label": "Met near Beed" },
+    { "id": "sh-mh-68", "label": "Met near Pathardi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pathardi",
@@ -38,12 +52,6 @@
         75.63421,
         18.98839
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

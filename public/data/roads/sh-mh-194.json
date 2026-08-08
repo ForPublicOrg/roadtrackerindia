@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 214.3,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Raver, Maharashtra",
     "end": "Nanadgaon, Maharashtra",
@@ -19,6 +20,19 @@
       "Nanadgaon"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Nanadgaon" },
+    { "id": "nh-548c", "label": "Met near Akot" },
+    { "id": "nh-753l", "label": "Meets this road" },
+    { "id": "nh-161g", "label": "Met near Jalgaon Jamod" },
+    { "id": "nh-161h", "label": "Met near Jalgaon Jamod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Raver",
@@ -61,12 +75,6 @@
         77.81238,
         21.00987
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

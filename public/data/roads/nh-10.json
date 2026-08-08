@@ -1,10 +1,12 @@
 {
   "id": "nh-10",
   "ref": "NH 10",
-  "name": "Gangtok–Teesta Bazaar National Highway",
+  "name": "Siliguri–Gangtok Highway",
+  "aka": ["National Highway 31A (old numbering)", "The Sikkim lifeline"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 117.1,
+  "lanes": "2 lanes, widened in places; mountain road throughout",
   "route": {
     "start": "Gangtok, Sikkim",
     "end": "Teesta Bazaar, West Bengal",
@@ -20,6 +22,40 @@
       "Teesta Bazaar"
     ]
   },
+  "history": "National Highway 10 climbs from the plains at Siliguri up the gorge of the Teesta river to Gangtok, and it is the only practical road into Sikkim. It crosses the Teesta at the Coronation Bridge at Sevoke, an arched bridge built in 1941, then follows the river through Kalimpong district and Rangpo into the state. Because it is squeezed between a cliff and a river for most of its length, it is one of the most landslide-prone highways in India, and every monsoon brings closures. In October 2023 a glacial lake burst above the Teesta and the flood tore away long sections of the road, cutting Sikkim off for weeks and forcing large parts of it to be rebuilt.",
+  "facts": [
+    "The only all-weather road link between Sikkim and the rest of India.",
+    "Follows the Teesta river gorge for most of its length.",
+    "Crosses the Coronation Bridge at Sevoke, an arch bridge from 1941.",
+    "Beware the old numbering: this route used to be NH 31A. Today's NH 10 has nothing to do with the old NH 10, which ran from Delhi to Fazilka.",
+    "A glacial lake outburst flood on the Teesta in October 2023 destroyed long stretches of it.",
+    "Landslides close it somewhere along its length most monsoons."
+  ],
+  "significance": "Everything that reaches Sikkim by road — food, fuel, building material, tourists, army supplies for the border posts beyond Gangtok — travels on this one highway. When it closes, the state has no land route left except long detours through Kalimpong.",
+  "engineering": [
+    {
+      "name": "Coronation Bridge, Sevoke",
+      "note": "a single-span arch over the Teesta, built in 1941 and still carrying the highway"
+    }
+  ],
+  "relatedRoads": [
+    { "id": "nh-27", "label": "The east–west highway met at Siliguri, running across north Bengal" },
+    { "id": "nh-17", "label": "The Sevoke–Guwahati highway that branches from the same corridor" },
+    { "id": "nh-717a", "label": "Met near Gangtok" },
+    { "id": "nh-510", "label": "Met near Singtam" },
+    { "id": "nh-110", "label": "Met near Siliguri" }
+  ],
+  "travelNotes": "Allow four to five hours from Siliguri to Gangtok in good conditions, and expect much longer in the monsoon. Check road status before travelling between June and September — one-way traffic control and diversions through Kalimpong are common. Landslide debris and river erosion are the usual causes of closure.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Gangtok",
@@ -69,16 +105,6 @@
         88.42356,
         26.97719
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

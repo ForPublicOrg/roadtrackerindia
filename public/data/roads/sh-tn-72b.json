@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.4,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Villapuram, Tamil Nadu",
     "end": "Pallivasal, Tamil Nadu",
@@ -16,6 +17,15 @@
       "Pallivasal"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-tn-32", "label": "Met near Madurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Villapuram",
@@ -37,12 +47,6 @@
         78.10863,
         9.87305
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

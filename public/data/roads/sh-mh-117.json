@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 88.8,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Rajapur, Maharashtra",
     "end": "Kolamb, Maharashtra",
@@ -17,6 +18,19 @@
       "Kolamb"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Kankavali" },
+    { "id": "nh-166g", "label": "Meets this road" },
+    { "id": "sh-mh-4", "label": "Met near Malvan" },
+    { "id": "sh-mh-116", "label": "Met near Kankavali" },
+    { "id": "sh-mh-115", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Rajapur",
@@ -38,12 +52,6 @@
         73.43762,
         16.19683
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

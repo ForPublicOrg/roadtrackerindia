@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 89.2,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Barshi, Maharashtra",
     "end": "Shirur Kasar, Maharashtra",
@@ -16,6 +17,19 @@
       "Shirur Kasar"
     ]
   },
+  "relatedRoads": [
+    { "id": "surat-chennai-expressway", "label": "Met near Barshi" },
+    { "id": "nh-61", "label": "Met near Shirur Kasar" },
+    { "id": "nh-548d", "label": "Met near Patoda" },
+    { "id": "nh-361f", "label": "Met near Shirur Kasar" },
+    { "id": "nh-752e", "label": "Met near Patoda" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barshi",
@@ -30,12 +44,6 @@
         75.46485,
         19.0439
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

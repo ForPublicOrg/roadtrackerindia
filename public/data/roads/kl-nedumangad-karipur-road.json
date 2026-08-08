@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.5,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nedumangad, Kerala",
     "end": "Pazhakutty, Kerala",
@@ -16,6 +17,23 @@
       "Pazhakutty"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-45", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-47", "label": "Met near Nedumangad" },
+    {
+      "id": "kl-old-rajapatha-kallampara-nettakummipally-keltron-junction-ro",
+      "label": "Met near Nedumangad"
+    },
+    { "id": "kl-anad-pulippara-road", "label": "Met near Nedumangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nedumangad",
@@ -30,12 +48,6 @@
         77.02794,
         8.63473
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

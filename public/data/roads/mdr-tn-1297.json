@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thisayanvilai, Tamil Nadu",
     "end": "Sathankulam, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Sathankulam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Thisayanvilai" },
+    { "id": "sh-tn-176", "label": "Met near Thisayanvilai" },
+    { "id": "sh-tn-93", "label": "Met near Sathankulam" },
+    { "id": "mdr-tn-479", "label": "Met near Sathankulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thisayanvilai",
@@ -30,12 +44,6 @@
         77.91211,
         8.44423
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

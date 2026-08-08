@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 52.6,
+  "authority": "assam-pwd",
   "route": {
     "start": "Mangaldoi, Assam",
     "end": "Tangla, Assam",
@@ -18,6 +19,16 @@
       "Tangla"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-as-10", "label": "Met near Tangla" },
+    { "id": "sh-as-4", "label": "Met near Mangaldoi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mangaldoi",
@@ -46,12 +57,6 @@
         91.81264,
         26.73964
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

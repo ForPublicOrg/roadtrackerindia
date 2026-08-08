@@ -21,6 +21,23 @@
       "Kharar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Shimla" },
+    { "id": "nh-503", "label": "Met near Kiratpur Sahib" },
+    { "id": "nh-344a", "label": "Met near Rupnagar" },
+    { "id": "nh-105", "label": "Met near Kiratpur Sahib" },
+    { "id": "nh-205a", "label": "Met near Kharar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Boilelganj",
@@ -70,16 +87,6 @@
         76.64123,
         30.74973
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

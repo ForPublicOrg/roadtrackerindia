@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 87.7,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Santrampur, Gujarat",
     "end": "Ghatol, Rajasthan",
@@ -17,6 +18,19 @@
       "Ghatol"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-56", "label": "Met near Ghatol" },
+    { "id": "nh-927a", "label": "Met near Garhi" },
+    { "id": "sh-rj-32", "label": "Met near Sundani" },
+    { "id": "sh-rj-54a", "label": "Met near Garhi" },
+    { "id": "sh-gj-152", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Santrampur",
@@ -38,12 +52,6 @@
         74.40878,
         23.7582
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

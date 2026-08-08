@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bajna, Madhya Pradesh",
     "end": "Petlawad, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Petlawad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "delhi-mumbai-expressway", "label": "Met near Rawti" },
+    { "id": "sh-mp-26", "label": "Met near Petlawad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bajna",
@@ -30,12 +42,6 @@
         74.71612,
         23.10892
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

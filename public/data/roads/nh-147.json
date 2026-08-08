@@ -18,6 +18,23 @@
       "Gandhinagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Gandhinagar" },
+    { "id": "sh-gj-41", "label": "Met near Adalaj" },
+    { "id": "sh-gj-17", "label": "Met near Sarkhej" },
+    { "id": "sh-gj-141", "label": "Met near Gandhinagar" },
+    { "id": "sh-gj-71", "label": "Met near Gandhinagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sarkhej",
@@ -53,16 +70,6 @@
         72.66802,
         23.21246
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

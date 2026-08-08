@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 20.5,
+  "authority": "uttar-pradesh-pwd",
   "route": {
     "start": "Kalsia, Uttar Pradesh",
     "end": "Chhutmalpur, Uttar Pradesh",
@@ -16,6 +17,15 @@
       "Chhutmalpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "sh-up-57", "label": "Met near Kalsia" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kalsia",
@@ -30,12 +40,6 @@
         77.75993,
         30.04249
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

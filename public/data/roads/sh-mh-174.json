@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 85.4,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Ambad, Maharashtra",
     "end": "Partur, Maharashtra",
@@ -16,6 +17,19 @@
       "Partur"
     ]
   },
+  "relatedRoads": [
+    { "id": "jalna-nanded-expressway", "label": "Met near Partur" },
+    { "id": "nh-548c", "label": "Met near Partur" },
+    { "id": "nh-753h", "label": "Meets this road" },
+    { "id": "sh-mh-148", "label": "Met near Ghansawangi" },
+    { "id": "sh-mh-173", "label": "Met near Ghansawangi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambad",
@@ -30,12 +44,6 @@
         76.21218,
         19.58493
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

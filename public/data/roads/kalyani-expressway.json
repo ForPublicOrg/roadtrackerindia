@@ -1,10 +1,11 @@
 {
   "id": "kalyani-expressway",
-  "ref": "NH",
+  "ref": "Kalyani Expressway",
   "name": "Kalyani Expressway",
   "category": "expressway",
   "status": "operational",
   "lengthKm": 42.5,
+  "lanes": "4 lanes",
   "route": {
     "start": "Belgharia, West Bengal",
     "end": "Bansberia, West Bengal",
@@ -21,6 +22,31 @@
       "Bansberia"
     ]
   },
+  "history": "The Kalyani Expressway runs north out of Kolkata along the east bank of the Hooghly, past the old mill towns of Barrackpore, Bhatpara and Naihati, to the planned city of Kalyani. It was built alongside the historic Barrackpore Trunk Road, which by the twentieth century was far too narrow for the traffic of the industrial belt it served, and it gives that whole string of towns a fast road into the city.",
+  "facts": [
+    "Runs parallel to the Barrackpore Trunk Road, one of the oldest roads in the Kolkata region.",
+    "Serves the old jute and industrial towns strung along the east bank of the Hooghly.",
+    "Kalyani, at its northern end, is one of India's early planned townships, laid out after Independence.",
+    "It connects to the Belghoria Expressway for traffic heading to Kolkata airport and the river bridges."
+  ],
+  "significance": "The Hooghly's east bank north of Kolkata is an almost unbroken line of towns, and their only through road was a colonial-era trunk road. This expressway is what makes a daily commute from Kalyani or Naihati into Kolkata realistic.",
+  "relatedRoads": [
+    { "id": "belghoria-expressway", "label": "Connects this corridor to the airport and the Hooghly bridges" },
+    { "id": "nh-12", "label": "The national highway running north through Bengal" },
+    { "id": "sh-wb-2", "label": "Met near Barrackpore" },
+    { "id": "sh-wb-1", "label": "Met near Kalyani" }
+  ],
+  "travelNotes": "Busiest at commuting hours in both directions. The towns it passes have many at-grade crossings, so speeds drop in built-up stretches.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Belgharia",
@@ -84,16 +110,6 @@
         88.41387,
         22.96832
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 79.6,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Phalodi, Rajasthan",
     "end": "Tinwari, Rajasthan",
@@ -16,6 +17,18 @@
       "Tinwari"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-754k", "label": "Met near Tinwari" },
+    { "id": "nh-125", "label": "Meets this road" },
+    { "id": "sh-rj-61", "label": "Met near Tinwari" },
+    { "id": "sh-rj-95", "label": "Met near Tinwari" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Phalodi",
@@ -30,12 +43,6 @@
         72.88717,
         26.55474
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

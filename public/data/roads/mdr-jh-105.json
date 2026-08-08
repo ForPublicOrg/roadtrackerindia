@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 21,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Hesal, Jharkhand",
     "end": "Chitarpur, Jharkhand",
@@ -16,6 +17,18 @@
       "Chitarpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-320b", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-23", "label": "Met near Chitarpur" },
+    { "id": "mdr-jh-101", "label": "Met near Chitarpur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Hesal",
@@ -30,12 +43,6 @@
         85.66482,
         23.45131
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

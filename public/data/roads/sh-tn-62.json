@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 32,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Pichandarkovil, Tamil Nadu",
     "end": "Thuraiyur, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Thuraiyur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-81", "label": "Met near Manachanallur" },
+    { "id": "sh-tn-30", "label": "Met near Thuraiyur" },
+    { "id": "sh-tn-25", "label": "Met near Pichandarkovil" },
+    { "id": "sh-tn-u170", "label": "Met near Thuraiyur" },
+    { "id": "mdr-tn-244", "label": "Met near Manachanallur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pichandarkovil",
@@ -38,12 +52,6 @@
         78.59146,
         11.13408
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

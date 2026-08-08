@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Jaora, Madhya Pradesh",
     "end": "Khachrod, Madhya Pradesh",
@@ -16,6 +17,20 @@
       "Khachrod"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-65", "label": "Met near Jaora" },
+    { "id": "mdr-mp-2521", "label": "Met near Jaora" },
+    { "id": "mdr-mp-2522", "label": "Met near Jaora" },
+    { "id": "mdr-mp-2524", "label": "Met near Khachrod" },
+    { "id": "mdr-mp-2619", "label": "Met near Khachrod" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Jaora",
@@ -30,12 +45,6 @@
         75.13646,
         23.50936
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

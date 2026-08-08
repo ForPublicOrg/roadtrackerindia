@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Red Hills, Tamil Nadu",
     "end": "Surapattu, Tamil Nadu",
@@ -16,6 +17,20 @@
       "Surapattu"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "chennai-outer-ring-road", "label": "Met near Red Hills" },
+    { "id": "sh-tn-57", "label": "Met near Red Hills" },
+    { "id": "sh-tn-234", "label": "Met near Red Hills" },
+    { "id": "mdr-tn-575a", "label": "Met near Red Hills" },
+    { "id": "odr-tn-7725", "label": "Met near Red Hills" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Red Hills",
@@ -30,12 +45,6 @@
         80.15519,
         13.15797
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

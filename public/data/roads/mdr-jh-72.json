@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 26.5,
+  "authority": "jharkhand-rcd",
   "route": {
     "start": "Keredari, Jharkhand",
     "end": "Chatra, Jharkhand",
@@ -16,6 +17,18 @@
       "Chatra"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-522", "label": "Met near Chatra" },
+    { "id": "sh-jh-7", "label": "Met near Keredari" },
+    { "id": "mdr-jh-71", "label": "Met near Chatra" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Keredari",
@@ -30,12 +43,6 @@
         84.93708,
         24.06132
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

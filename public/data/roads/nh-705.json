@@ -17,6 +17,22 @@
       "Sawra"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-5", "label": "Met near Theog" },
+    { "id": "nh-707", "label": "Met near Sawra" },
+    { "id": "sh-hp-6", "label": "Met near Theog" },
+    { "id": "sh-hp-10", "label": "Met near Sawra" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Theog",
@@ -38,16 +54,6 @@
         77.74598,
         31.12602
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

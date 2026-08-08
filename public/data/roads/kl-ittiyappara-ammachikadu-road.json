@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ranni, Kerala",
     "end": "Mamukku, Kerala",
@@ -16,6 +17,20 @@
       "Mamukku"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-59", "label": "Met near Ranni" },
+    { "id": "sh-kl-8", "label": "Met near Ranni" },
+    { "id": "kl-chethomkara-athikkayam-road", "label": "Met near Ranni" },
+    { "id": "kl-ozhuvanpara-vadasserikara-road", "label": "Met near Ranni" },
+    { "id": "kl-kalayanimukku-alimukku-road", "label": "Met near Ranni" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ranni",
@@ -30,12 +45,6 @@
         76.78688,
         9.38631
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

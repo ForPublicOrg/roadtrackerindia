@@ -19,6 +19,24 @@
       "Jetpur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-351g", "label": "A branch off this highway, running Sayla to Jafarabad" },
+    { "id": "nh-351k", "label": "A branch off this highway, running Una to Bagasara" },
+    { "id": "nh-351f", "label": "A branch off this highway, running Amreli to Lathi" },
+    { "id": "nh-27", "label": "Met near Jetpur" },
+    { "id": "nh-51", "label": "Met near Mahuva" },
+    { "id": "nh-151", "label": "Met near Jetpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Mahuva",
@@ -54,16 +72,6 @@
         70.61193,
         21.74527
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

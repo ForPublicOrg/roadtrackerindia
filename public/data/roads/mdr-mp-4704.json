@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 36.8,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ranapur, Madhya Pradesh",
     "end": "Alirajpur, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Alirajpur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-36", "label": "Meets this road" },
+    { "id": "sh-mp-26", "label": "Meets this road" },
+    { "id": "mdr-mp-4415", "label": "Met near Ranapur" },
+    { "id": "mdr-mp-4413", "label": "Met near Ranapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ranapur",
@@ -30,12 +44,6 @@
         74.58197,
         22.41044
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

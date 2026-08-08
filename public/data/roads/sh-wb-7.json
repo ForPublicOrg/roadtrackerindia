@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 92.3,
+  "authority": "west-bengal-pwd",
   "route": {
     "start": "Medinipur, West Bengal",
     "end": "Arambagh, West Bengal",
@@ -17,6 +18,18 @@
       "Arambagh"
     ]
   },
+  "relatedRoads": [
+    { "id": "varanasi-kolkata-expressway", "label": "Met near Chandrakona" },
+    { "id": "nh-14", "label": "Met near Medinipur" },
+    { "id": "nh-116a", "label": "Met near Medinipur" },
+    { "id": "sh-wb-4", "label": "Met near Chandrakona" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Medinipur",
@@ -38,12 +51,6 @@
         87.78039,
         22.88913
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

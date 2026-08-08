@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 97.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Pati, Maharashtra",
     "end": "Chandur Bazar, Maharashtra",
@@ -17,6 +18,19 @@
       "Chandur Bazar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-161a", "label": "Met near Pati" },
+    { "id": "nh-353j", "label": "Met near Chandur Bazar" },
+    { "id": "sh-mh-194", "label": "Met near Daryapur" },
+    { "id": "sh-mh-204", "label": "Met near Pati" },
+    { "id": "sh-mh-212", "label": "Met near Daryapur" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Pati",
@@ -38,12 +52,6 @@
         77.70154,
         21.23173
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

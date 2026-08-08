@@ -16,6 +16,10 @@
     "states": ["Maharashtra"],
     "majorCities": ["Nagpur", "Wardha", "Karanja Lad", "Jalna", "Chhatrapati Sambhajinagar", "Shirdi", "Igatpuri", "Bhiwandi"]
   },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+  },
   "timeline": [
     { "year": "2019", "event": "Construction begins" },
     { "year": "2022", "event": "First 520 km from Nagpur to Shirdi opens in December" },
@@ -72,18 +76,15 @@
     }
   ],
   "relatedRoads": [
-    {
-      "id": "nh-44",
-      "label": "The north–south highway through Nagpur, near the expressway's eastern end"
-    },
+    { "id": "nh-44", "label": "The north–south highway through Nagpur, near the expressway's eastern end" },
     {
       "id": "nh-53",
       "label": "The older east–west highway through Nagpur that the expressway takes long-distance traffic from"
     },
-    {
-      "id": "mumbai-pune-expressway",
-      "label": "Maharashtra's first expressway, also built and run by MSRDC"
-    }
+    { "id": "mumbai-pune-expressway", "label": "Maharashtra's first expressway, also built and run by MSRDC" },
+    { "id": "surat-chennai-expressway", "label": "Meets this road" },
+    { "id": "jalna-nanded-expressway", "label": "Met near Jalna" },
+    { "id": "mumbai-nashik-expressway", "label": "Met near Kasara" }
   ],
   "travelNotes": "End to end is about 8 hours of driving, and most people break it at Shirdi or Chhatrapati Sambhajinagar. The posted speed limit is 120 km/h for cars and it is enforced with cameras. Wayside food and fuel stops are still far apart on the middle stretches, so fill up before you leave a town. The road has had a bad run of crashes blamed on speeding, driver drowsiness and tyre bursts on hot afternoons — check your tyres before starting and take a break every couple of hours. Tolling is distance-based and paid by FASTag.",
   "futureUpgrades": [

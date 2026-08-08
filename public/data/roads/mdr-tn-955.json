@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 15.2,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sholavandan, Tamil Nadu",
     "end": "Koodal Nagar, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Koodal Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Samayanallur" },
+    { "id": "sh-tn-282", "label": "Met near Alanganallur" },
+    { "id": "sh-tn-u73", "label": "Met near Alanganallur" },
+    { "id": "mdr-tn-568", "label": "Met near Sholavandan" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sholavandan",
@@ -30,12 +44,6 @@
         78.09205,
         10.00514
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

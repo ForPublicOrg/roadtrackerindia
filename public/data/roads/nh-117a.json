@@ -16,6 +16,20 @@
       "Kokrajhar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-27", "label": "Met near Kokrajhar" },
+    { "id": "nh-17", "label": "Met near Bilasipara" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bilasipara",
@@ -30,16 +44,6 @@
         90.26871,
         26.40105
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

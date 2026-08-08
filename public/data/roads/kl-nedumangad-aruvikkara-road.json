@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Nedumangad, Kerala",
     "end": "Mancha, Kerala",
@@ -16,6 +17,23 @@
       "Mancha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "thiruvananthapuram-outer-ring-road", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-2", "label": "Met near Nedumangad" },
+    { "id": "sh-kl-3", "label": "Met near Nedumangad" },
+    { "id": "kl-nettirachira-vellanad-poovachal-road", "label": "Met near Nedumangad" },
+    {
+      "id": "kl-old-rajapatha-kallampara-nettakummipally-keltron-junction-ro",
+      "label": "Met near Nedumangad"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nedumangad",
@@ -30,12 +48,6 @@
         77.01031,
         8.59467
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

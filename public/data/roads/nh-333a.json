@@ -22,6 +22,24 @@
       "Sundarpur"
     ]
   },
+  "significance": "NH 333A is a branch of NH 333. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Barbigha to Sundarpur, and it meets NH 333 along the way.",
+  "relatedRoads": [
+    { "id": "nh-33", "label": "Met near Barbigha" },
+    { "id": "nh-333", "label": "Met near Jamui" },
+    { "id": "nh-133", "label": "Met near Godda" },
+    { "id": "nh-133e", "label": "Met near Banka" },
+    { "id": "nh-133a", "label": "Met near Sundarpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barbigha",
@@ -78,16 +96,6 @@
         87.69729,
         24.69439
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

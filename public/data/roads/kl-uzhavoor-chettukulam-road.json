@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 2.9,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kozha, Kerala",
     "end": "Kuravilangad, Kerala",
@@ -16,6 +17,19 @@
       "Kuravilangad"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-elanji-alapuram-uzhavoor-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-uzhavoor-neerupothy-puthuveli-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-kappukala-pious-mount-road", "label": "Met near Kuravilangad" },
+    { "id": "kl-monippally-kuzhippilly-pious-mount-road", "label": "Met near Kuravilangad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kozha",
@@ -30,12 +44,6 @@
         76.59064,
         9.79673
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

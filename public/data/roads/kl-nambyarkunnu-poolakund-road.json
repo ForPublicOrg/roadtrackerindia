@@ -17,6 +17,17 @@
       "Pandalur"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "significance": "MDR, Nambyarkunnu - Poolakund Road, crosses the border between Kerala and Tamil Nadu. A state road that runs through more than one state has no single owner — Kerala PWD and TN Highways each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "kl-pazhoor-cheeral-nambiarkunnu-road", "label": "Met near Sultan Bathery" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sultan Bathery",
@@ -31,12 +42,6 @@
         76.30046,
         11.57499
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

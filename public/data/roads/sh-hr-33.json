@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 28.5,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Nilokheri, Haryana",
     "end": "Kaul, Haryana",
@@ -16,6 +17,17 @@
       "Kaul"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Nilokheri" },
+    { "id": "sh-hr-9", "label": "Met near Kaul" },
+    { "id": "sh-hr-120", "label": "Met near Nilokheri" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Nilokheri",
@@ -30,12 +42,6 @@
         76.66723,
         29.84182
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

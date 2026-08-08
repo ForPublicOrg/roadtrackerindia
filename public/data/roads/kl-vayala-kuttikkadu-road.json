@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 4.4,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Anchal, Kerala",
     "end": "Kadakkal, Kerala",
@@ -16,6 +17,19 @@
       "Kadakkal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "kl-chengamanadu-kadakkal-road", "label": "Met near Kadakkal" },
+    { "id": "kl-ayirakkuzhi-anchal-road", "label": "Met near Kadakkal" },
+    { "id": "kl-vayala-manjappara-road", "label": "Met near Kadakkal" },
+    { "id": "kl-pothiyaruvila-charipparambu-road", "label": "Met near Kadakkal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Anchal",
@@ -30,12 +44,6 @@
         76.92345,
         8.8506
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

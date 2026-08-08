@@ -18,6 +18,24 @@
       "Nagal"
     ]
   },
+  "significance": "NH 344G is a branch of NH 344. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Baghpat to Nagal, and it meets NH 344 along the way.",
+  "relatedRoads": [
+    { "id": "delhi-dehradun-expressway", "label": "Met near Baghpat" },
+    { "id": "eastern-peripheral-expressway", "label": "Met near Baghpat" },
+    { "id": "nh-709a", "label": "Met near Shamli" },
+    { "id": "nh-334b", "label": "Met near Baghpat" },
+    { "id": "nh-344", "label": "Met near Saharanpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Baghpat",
@@ -46,16 +64,6 @@
         77.57331,
         29.85862
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

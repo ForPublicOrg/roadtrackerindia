@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.5,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Sethiathoppu, Tamil Nadu",
     "end": "Chidambaram, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Chidambaram"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-70", "label": "Met near Sethiathoppu" },
+    { "id": "mdr-tn-161", "label": "Met near Sethiathoppu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sethiathoppu",
@@ -30,12 +42,6 @@
         79.60695,
         11.4256
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

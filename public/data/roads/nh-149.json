@@ -17,6 +17,21 @@
       "Pal Lahara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-53", "label": "Met near Talcher" },
+    { "id": "nh-49", "label": "Met near Pal Lahara" },
+    { "id": "nh-55", "label": "Met near Biswanathpur" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Barnapal",
@@ -45,16 +60,6 @@
         85.1835,
         21.43582
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

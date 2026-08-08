@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.9,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Thoothukudi, Tamil Nadu",
     "end": "Briyant Nagar, Tamil Nadu",
@@ -16,6 +17,19 @@
       "Briyant Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-176", "label": "Met near Thoothukudi" },
+    { "id": "sh-tn-u92", "label": "Met near Thoothukudi" },
+    { "id": "mdr-tn-220", "label": "Met near Thoothukudi" },
+    { "id": "mdr-tn-9", "label": "Met near Thoothukudi" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Thoothukudi",
@@ -30,12 +44,6 @@
         78.14276,
         8.79314
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

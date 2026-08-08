@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 8.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Vanagaram, Tamil Nadu",
     "end": "Thiruvengada Nagar, Tamil Nadu",
@@ -19,6 +20,20 @@
       "Thiruvengada Nagar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-48", "label": "Met near Vanagaram" },
+    { "id": "nh-716", "label": "Met near Avadi" },
+    { "id": "sh-tn-u148", "label": "Met near Avadi" },
+    { "id": "sh-tn-205", "label": "Met near Avadi" },
+    { "id": "odr-tn-2958", "label": "Met near Thiruverkadu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vanagaram",
@@ -54,12 +69,6 @@
         80.15026,
         13.10345
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

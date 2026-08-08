@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 269.2,
+  "authority": "chhattisgarh-pwd",
   "route": {
     "start": "Bohla, Chhattisgarh",
     "end": "Shahdol, Madhya Pradesh",
@@ -17,6 +18,19 @@
       "Shahdol"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-43", "label": "Meets this road" },
+    { "id": "nh-343", "label": "Met near Ramanuj Ganj" },
+    { "id": "sh-ct-12", "label": "Meets this road" },
+    { "id": "sh-ct-8", "label": "Met near Manendragarh" },
+    { "id": "sh-mp-68", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bohla",
@@ -31,12 +45,6 @@
         81.66866,
         23.68647
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -20,6 +20,24 @@
       "Sangareddy"
     ]
   },
+  "significance": "NH 161AA is a branch of NH 161. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Choutuppal to Sangareddy, and it meets NH 161 along the way.",
+  "relatedRoads": [
+    { "id": "hyderabad-regional-ring-road", "label": "Met near Jagdevpur" },
+    { "id": "nh-44", "label": "Met near Tupran" },
+    { "id": "nh-65", "label": "Met near Choutuppal" },
+    { "id": "nh-163", "label": "Met near Bhongir" },
+    { "id": "nh-161", "label": "Met near Sangareddy" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Choutuppal",
@@ -69,16 +87,6 @@
         78.13011,
         17.62217
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

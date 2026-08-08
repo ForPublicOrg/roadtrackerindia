@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 32.3,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Manamadurai, Tamil Nadu",
     "end": "Pallivasal, Tamil Nadu",
@@ -16,6 +17,17 @@
       "Pallivasal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-tn-u97", "label": "Meets this road" },
+    { "id": "mdr-tn-718", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Manamadurai",
@@ -30,12 +42,6 @@
         78.10229,
         9.69369
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 102.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Sangamner, Maharashtra",
     "end": "Junnar, Maharashtra",
@@ -16,6 +17,17 @@
       "Junnar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-61", "label": "Met near Junnar" },
+    { "id": "nh-60", "label": "Met near Sangamner" },
+    { "id": "sh-mh-21", "label": "Met near Akole" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sangamner",
@@ -30,12 +42,6 @@
         73.8227,
         19.405
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

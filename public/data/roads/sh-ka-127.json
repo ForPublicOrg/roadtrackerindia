@@ -19,6 +19,20 @@
       "Aija"
     ]
   },
+  "significance": "SH 127, Sedam–Aija State Highway, crosses the border between Karnataka and Telangana. A state road that runs through more than one state has no single owner — Karnataka PWD and Telangana R&B each maintain the stretch inside their own state, so which department to contact depends on where along the road you are.",
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Siravara" },
+    { "id": "nh-167", "label": "Met near Mantralayam" },
+    { "id": "nh-150c", "label": "Meets this road" },
+    { "id": "nh-150", "label": "Meets this road" },
+    { "id": "sh-ka-20", "label": "Met near Siravara" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sedam",
@@ -47,12 +61,6 @@
         77.51659,
         16.07974
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 5.5,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Ibrahimpura, Madhya Pradesh",
     "end": "Bhopal, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Bhopal"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-3118", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3115", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3117", "label": "Met near Bhopal" },
+    { "id": "mdr-mp-3113", "label": "Met near Bhopal" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ibrahimpura",
@@ -30,12 +44,6 @@
         77.41427,
         23.25212
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

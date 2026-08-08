@@ -1,23 +1,51 @@
 {
   "id": "lucknow-outer-ring-road",
-  "ref": "NH",
+  "ref": "Outer Ring Road",
   "name": "Lucknow Outer Ring Road",
+  "aka": ["Kisan Path"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 104.4,
+  "lanes": "6 lanes, access-controlled",
+  "agency": "NHAI",
+  "authority": "nhai",
   "route": {
-    "start": "Kakori, Uttar Pradesh",
-    "end": "Kakori, Uttar Pradesh",
-    "states": [
-      "Uttar Pradesh"
-    ],
-    "majorCities": [
-      "Kakori",
-      "Jankipuram",
-      "Vrindavan",
-      "Rajaji Puram"
-    ]
+    "start": "Lucknow, Uttar Pradesh",
+    "end": "Lucknow, Uttar Pradesh",
+    "states": ["Uttar Pradesh"],
+    "majorCities": ["Kakori", "Jankipuram", "Bagiamau", "Vrindavan", "Rajaji Puram"]
   },
+  "tollInfo": { "tolled": false, "note": "City roads are not tolled." },
+  "history": "The Lucknow Outer Ring Road is a 104 km loop built by the national highways authority right around the Uttar Pradesh capital, so that traffic between Kanpur, Ayodhya, Sultanpur, Sitapur and Raebareli no longer has to cross the city. Much of it is known locally as the Kisan Path. It ties together every highway and expressway radiating from Lucknow, including the Agra–Lucknow and Purvanchal expressways, and it has pulled a ring of new housing and warehousing out to the city's edge.",
+  "facts": [
+    "A full 104 km ring right around Lucknow.",
+    "Much of it is known locally as the Kisan Path.",
+    "It connects the Agra–Lucknow Expressway, the Purvanchal Expressway and the highways to Kanpur, Ayodhya and Sitapur.",
+    "Built by the national highways authority as a bypass for all traffic crossing the capital."
+  ],
+  "significance": "Lucknow sits where half a dozen major roads of Uttar Pradesh meet. Before the ring, all of that traffic crossed the city. Now it goes round, and the state's two big expressways connect to each other without touching the centre.",
+  "relatedRoads": [
+    { "id": "agra-lucknow-expressway", "label": "The expressway west to Agra, met on the ring" },
+    {
+      "id": "purvanchal-expressway",
+      "label": "The expressway east towards Ghazipur, which starts from the ring"
+    },
+    { "id": "lucknow-kanpur-expressway", "label": "The new expressway to Kanpur" },
+    { "id": "nh-27", "label": "Met near Barabanki" },
+    { "id": "nh-30", "label": "Met near Jankipuram" },
+    { "id": "nh-731", "label": "Met near Kakori" }
+  ],
+  "travelNotes": "Fast and mostly free-flowing. It is usually quicker to use the ring than to cross Lucknow, even when the direct route looks shorter.",
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kakori",
@@ -53,16 +81,6 @@
         80.81248,
         26.79238
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

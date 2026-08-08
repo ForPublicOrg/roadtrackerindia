@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 20.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khargone, Madhya Pradesh",
     "end": "Mandaleshwar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Mandaleshwar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "mdr-mp-4910", "label": "Meets this road" },
+    { "id": "mdr-mp-4914", "label": "Met near Khargone" },
+    { "id": "mdr-mp-4907", "label": "Met near Mandaleshwar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khargone",
@@ -30,12 +43,6 @@
         75.72546,
         22.09214
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 67.6,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Khategaon, Madhya Pradesh",
     "end": "Kannod, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Kannod"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-146b", "label": "Met near Khategaon" },
+    { "id": "sh-mp-70", "label": "Met near Kannod" },
+    { "id": "sh-mp-66", "label": "Met near Khategaon" },
+    { "id": "mdr-mp-2708", "label": "Meets this road" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Khategaon",
@@ -30,12 +44,6 @@
         76.56494,
         22.70423
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

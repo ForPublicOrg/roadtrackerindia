@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 16.1,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Bamitha, Madhya Pradesh",
     "end": "Ajaigarh, Madhya Pradesh",
@@ -16,6 +17,16 @@
       "Ajaigarh"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-mp-5", "label": "Met near Bamitha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Bamitha",
@@ -30,12 +41,6 @@
         80.04528,
         24.8809
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

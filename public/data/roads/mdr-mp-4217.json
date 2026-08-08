@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.7,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Chaurai, Madhya Pradesh",
     "end": "Chhindwara, Madhya Pradesh",
@@ -16,6 +17,17 @@
       "Chhindwara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-347", "label": "Met near Chaurai" },
+    { "id": "sh-mp-46", "label": "Met near Chaurai" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chaurai",
@@ -30,12 +42,6 @@
         79.2339,
         22.04851
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 1.6,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Chottanikkara, Kerala",
     "end": "Aroor, Kerala",
@@ -16,6 +17,18 @@
       "Aroor"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-15", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-mulanthuruthy-kanjiramattom-neerpara-road", "label": "Met near Thalayolaparambu" },
+    { "id": "kl-puthiyakavu-poothotta-mla-road", "label": "Met near Thalayolaparambu" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Chottanikkara",
@@ -30,12 +43,6 @@
         76.38824,
         9.85238
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

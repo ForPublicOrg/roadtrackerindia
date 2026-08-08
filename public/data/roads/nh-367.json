@@ -20,6 +20,23 @@
       "Bhagyanagara"
     ]
   },
+  "relatedRoads": [
+    { "id": "ne-10", "label": "Met near Guledagudda" },
+    { "id": "nh-52", "label": "Met near Murnal" },
+    { "id": "nh-67", "label": "Met near Koppala" },
+    { "id": "sh-ka-6", "label": "Met near Gajendragad" },
+    { "id": "sh-ka-20", "label": "Met near Murnal" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Murnal",
@@ -69,16 +86,6 @@
         76.04413,
         15.38272
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

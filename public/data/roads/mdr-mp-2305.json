@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 13.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Susner, Madhya Pradesh",
     "end": "Agar, Madhya Pradesh",
@@ -16,6 +17,18 @@
       "Agar"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552g", "label": "Met near Susner" },
+    { "id": "sh-mp-17", "label": "Met near Susner" },
+    { "id": "mdr-mp-2304", "label": "Met near Susner" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Susner",
@@ -30,12 +43,6 @@
         76.10265,
         23.85334
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

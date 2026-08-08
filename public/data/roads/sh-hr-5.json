@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 14.8,
+  "authority": "haryana-pwd",
   "route": {
     "start": "Sadar Bazaar, Haryana",
     "end": "Barara, Haryana",
@@ -16,6 +17,16 @@
       "Barara"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-44", "label": "Met near Sadar Bazaar" },
+    { "id": "nh-444a", "label": "Met near Sadar Bazaar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Sadar Bazaar",
@@ -30,12 +41,6 @@
         76.96791,
         30.30086
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

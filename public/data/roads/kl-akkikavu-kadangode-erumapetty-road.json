@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 9.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Kunnamkulam, Kerala",
     "end": "Ottupara, Kerala",
@@ -16,6 +17,20 @@
       "Ottupara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-39", "label": "Met near Kunnamkulam" },
+    { "id": "sh-kl-69", "label": "Met near Kunnamkulam" },
+    { "id": "sh-kl-50", "label": "Met near Wadakkancherry" },
+    { "id": "kl-karukaputhur-akkikavu-road", "label": "Met near Koottanad" },
+    { "id": "kl-pazhanji-road", "label": "Met near Kunnamkulam" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Kunnamkulam",
@@ -30,12 +45,6 @@
         76.1598,
         10.6804
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

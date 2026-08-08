@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 40.5,
+  "authority": "rajasthan-pwd",
   "route": {
     "start": "Dausa, Rajasthan",
     "end": "Viratnagar, Rajasthan",
@@ -16,6 +17,18 @@
       "Viratnagar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-148", "label": "Met near Dausa" },
+    { "id": "sh-rj-52", "label": "Meets this road" },
+    { "id": "sh-rj-55", "label": "Meets this road" },
+    { "id": "mdr-rj-29", "label": "Met near Dausa" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Dausa",
@@ -30,12 +43,6 @@
         76.16419,
         27.25516
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

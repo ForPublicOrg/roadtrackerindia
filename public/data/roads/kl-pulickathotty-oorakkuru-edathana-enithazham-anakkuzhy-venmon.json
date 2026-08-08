@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 3.3,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Koickakudy, Kerala",
     "end": "Adimali, Kerala",
@@ -16,6 +17,19 @@
       "Adimali"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "sh-kl-40", "label": "Met near Adimali" },
+    { "id": "kl-pulikkathotty-venmony-road", "label": "Met near Neriamangalam" },
+    { "id": "kl-pulikkathotty-venmony-road-via-rajagiri-choodanmanappady", "label": "Met near Adimali" },
+    { "id": "kl-pattayakkudy-venmony-road", "label": "Met near Adimali" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Koickakudy",
@@ -30,12 +44,6 @@
         76.87209,
         9.97564
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

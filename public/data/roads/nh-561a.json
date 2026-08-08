@@ -21,6 +21,24 @@
       "Karjat"
     ]
   },
+  "significance": "NH 561A is a branch of NH 561. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Vijayapura to Karjat, and it meets NH 561 along the way.",
+  "relatedRoads": [
+    { "id": "nh-52", "label": "Met near Vijayapura" },
+    { "id": "nh-65", "label": "Meets this road" },
+    { "id": "nh-548c", "label": "Meets this road" },
+    { "id": "nh-61", "label": "Met near Ahilyanagar" },
+    { "id": "nh-753f", "label": "Met near Ahilyanagar" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Vijayapura",
@@ -63,16 +81,6 @@
         75.09143,
         18.64891
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

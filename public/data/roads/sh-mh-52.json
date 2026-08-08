@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 30.9,
+  "authority": "maharashtra-pwd",
   "route": {
     "start": "Ozhar, Maharashtra",
     "end": "Junnar, Maharashtra",
@@ -16,6 +17,16 @@
       "Junnar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-61", "label": "Met near Junnar" },
+    { "id": "nh-60", "label": "Met near Ozhar" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ozhar",
@@ -30,12 +41,6 @@
         73.87469,
         19.20416
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

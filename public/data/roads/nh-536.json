@@ -19,6 +19,23 @@
       "Kottayur"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-32", "label": "Met near Devipattinam" },
+    { "id": "nh-85", "label": "Met near Tiruvadanai" },
+    { "id": "nh-87", "label": "Met near Ramanathapuram" },
+    { "id": "nh-383", "label": "Met near Karaikudi" },
+    { "id": "sh-tn-200", "label": "Met near Devipattinam" }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ramanathapuram",
@@ -61,16 +78,6 @@
         78.75105,
         10.23334
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "NHAI — National Highways Authority of India",
-      "url": "https://nhai.gov.in/"
-    },
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

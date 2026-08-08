@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 12.7,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Ambalappuzha, Kerala",
     "end": "Vattappally, Kerala",
@@ -17,6 +18,20 @@
       "Vattappally"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Ambalappuzha" },
+    { "id": "kl-pazhayanadakkavu-ambalappuzha-road", "label": "Met near Alappuzha" },
+    { "id": "kl-sn-kavala-kanjippadam-road", "label": "Met near Ambalappuzha" },
+    { "id": "kl-scooter-factory-road", "label": "Met near Alappuzha" },
+    { "id": "kl-ambalappuzha-karoor-road", "label": "Met near Ambalappuzha" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Ambalappuzha",
@@ -31,12 +46,6 @@
         76.32559,
         9.46338
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

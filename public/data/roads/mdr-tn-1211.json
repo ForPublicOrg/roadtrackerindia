@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 17.1,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Giingee, Tamil Nadu",
     "end": "Tindivanam, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Tindivanam"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-77", "label": "Met near Giingee" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Giingee",
@@ -30,12 +41,6 @@
         79.50419,
         12.25564
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

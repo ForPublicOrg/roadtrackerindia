@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 23.6,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Colachel, Tamil Nadu",
     "end": "Thiruvattar, Tamil Nadu",
@@ -17,6 +18,19 @@
       "Thiruvattar"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-66", "label": "Met near Thuckalay" },
+    { "id": "sh-tn-179", "label": "Met near Colachel" },
+    { "id": "sh-tn-91", "label": "Met near Thingal Nagar" },
+    { "id": "sh-tn-90", "label": "Met near Thiruvattar" },
+    { "id": "mdr-tn-932", "label": "Met near Colachel" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Colachel",
@@ -45,12 +59,6 @@
         77.26829,
         8.33107
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

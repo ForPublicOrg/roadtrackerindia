@@ -9,19 +9,23 @@
   "lanes": "6 lanes, access-controlled (expandable to 8)",
   "agency": "UPEIDA",
   "authority": "upeida",
-  "cost": "₹11,527 crore (excluding the cost of land)",
-  "contractor": "Built in five packages by contractors including Larsen & Toubro, Afcons Infrastructure, PNC Infratech and Nagarjuna Construction Company",
   "builtBy": [
     { "org": "larsen-toubro", "note": "one of five packages" },
     { "org": "afcons", "note": "one of five packages" },
     { "org": "pnc-infratech", "note": "one of five packages" },
     { "org": "ncc", "note": "one of five packages" }
   ],
+  "cost": "₹11,527 crore (excluding the cost of land)",
+  "contractor": "Built in five packages by contractors including Larsen & Toubro, Afcons Infrastructure, PNC Infratech and Nagarjuna Construction Company",
   "route": {
     "start": "Agra (Inner Ring Road), Uttar Pradesh",
     "end": "Lucknow, Uttar Pradesh",
     "states": ["Uttar Pradesh"],
     "majorCities": ["Agra", "Firozabad", "Etawah", "Kannauj", "Bangarmau", "Lucknow"]
+  },
+  "tollInfo": {
+    "tolled": true,
+    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
   },
   "timeline": [
     { "year": "2014", "event": "Foundation stone laid on 23 November" },
@@ -53,12 +57,24 @@
     { "name": "Lucknow (near Kakori)", "note": "the eastern end — joins Lucknow's outer ring road, which carries traffic on to the Purvanchal Expressway" }
   ],
   "relatedRoads": [
-    { "id": "yamuna-expressway", "label": "Joined to this road by the Agra Inner Ring Road — together they make a near-continuous expressway run from Greater Noida to Lucknow" },
+    {
+      "id": "yamuna-expressway",
+      "label": "Joined to this road by the Agra Inner Ring Road — together they make a near-continuous expressway run from Greater Noida to Lucknow"
+    },
     { "id": "bundelkhand-expressway", "label": "Branches south from this road near Etawah toward Chitrakoot" },
     { "id": "ganga-expressway", "label": "Meets this road at Bangarmau in Unnao district" },
     { "id": "purvanchal-expressway", "label": "Carries on from the Lucknow area eastward to Ghazipur" },
-    { "id": "lucknow-kanpur-expressway", "label": "The short new expressway from Lucknow to Kanpur, also known as the Awadh Expressway" },
-    { "id": "nh-19", "label": "The old Delhi–Agra–Kanpur highway that this expressway replaced for long-distance traffic" }
+    {
+      "id": "lucknow-kanpur-expressway",
+      "label": "The short new expressway from Lucknow to Kanpur, also known as the Awadh Expressway"
+    },
+    {
+      "id": "nh-19",
+      "label": "The old Delhi–Agra–Kanpur highway that this expressway replaced for long-distance traffic"
+    },
+    { "id": "nh-34", "label": "Met near Bilhaur" },
+    { "id": "nh-234", "label": "Meets this road" },
+    { "id": "lucknow-outer-ring-road", "label": "Met near Kakori" }
   ],
   "travelNotes": "The full run takes a little over three hours at the 100 km/h car speed limit. It is a toll road — a car pays roughly ₹650 end to end, and rates are revised from time to time. Fuel and food are only at the four amenity complexes, so top up before you start rather than hoping for a pump. Winter fog between December and February is the main hazard and can badly cut visibility in the early morning; the road is otherwise fine year round.",
   "futureUpgrades": [

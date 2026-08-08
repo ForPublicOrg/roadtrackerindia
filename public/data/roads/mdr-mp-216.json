@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 63.2,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Joura, Madhya Pradesh",
     "end": "Kailaras, Madhya Pradesh",
@@ -16,6 +17,19 @@
       "Kailaras"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-552", "label": "Met near Joura" },
+    { "id": "sh-rj-30", "label": "Met near Joura" },
+    { "id": "mdr-mp-219", "label": "Met near Kailaras" },
+    { "id": "mdr-mp-313", "label": "Met near Joura" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Joura",
@@ -30,12 +44,6 @@
         77.61515,
         26.30212
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

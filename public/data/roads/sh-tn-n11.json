@@ -5,6 +5,7 @@
   "category": "sh",
   "status": "operational",
   "lengthKm": 2.7,
+  "authority": "tamil-nadu-highways",
   "route": {
     "start": "Devadānappatti, Tamil Nadu",
     "end": "Batlagundu, Tamil Nadu",
@@ -16,6 +17,16 @@
       "Batlagundu"
     ]
   },
+  "relatedRoads": [
+    { "id": "nh-183", "label": "Met near Devadānappatti" },
+    { "id": "sh-tn-101", "label": "Met near Devadānappatti" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Devadānappatti",
@@ -30,12 +41,6 @@
         77.6558,
         10.14872
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

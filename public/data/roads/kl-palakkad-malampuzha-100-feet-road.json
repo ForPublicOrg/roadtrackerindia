@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 6.8,
+  "authority": "kerala-pwd",
   "route": {
     "start": "Tharekkad, Kerala",
     "end": "Akathethara, Kerala",
@@ -17,6 +18,19 @@
       "Akathethara"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "relatedRoads": [
+    { "id": "nh-966", "label": "Met near Palakkad" },
+    { "id": "kl-malampuzha-anakkal-ring-road", "label": "Met near Palakkad" },
+    { "id": "kl-kanjikkode-malampuzha-road", "label": "Met near Palakkad" },
+    { "id": "kl-olavakkode-malampuzha-road", "label": "Met near Palakkad" }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Tharekkad",
@@ -45,12 +59,6 @@
         76.66395,
         10.81515
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"

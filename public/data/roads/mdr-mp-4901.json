@@ -5,6 +5,7 @@
   "category": "district",
   "status": "operational",
   "lengthKm": 31.4,
+  "authority": "madhya-pradesh-pwd",
   "route": {
     "start": "Simrol, Madhya Pradesh",
     "end": "Barwaha, Madhya Pradesh",
@@ -16,6 +17,13 @@
       "Barwaha"
     ]
   },
+  "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
   "waypoints": [
     {
       "name": "Simrol",
@@ -30,12 +38,6 @@
         76.02474,
         22.27441
       ]
-    }
-  ],
-  "sources": [
-    {
-      "title": "Ministry of Road Transport & Highways",
-      "url": "https://morth.nic.in/"
     }
   ],
   "provenance": "osm"
