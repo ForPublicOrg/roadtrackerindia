@@ -60,6 +60,14 @@ hosts that read neither file.
 `vercel.json` is read from the repo root and only sets `rewrites`, so it does
 not disturb build settings configured in the dashboard.
 
+**The primary domain must be the apex, not `www`.** `gen-pages.mjs` stamps
+`SITE = 'https://roadtrackerindia.com'` into every canonical link, `og:url`,
+JSON-LD entry and sitemap URL. If Vercel makes `www` primary instead, all ~1,150
+prerendered pages then declare a canonical host that immediately 308s somewhere
+else, and every sitemap URL is a redirect — Search Console reports those as
+"Page with redirect" rather than indexing them. Either keep the apex primary in
+Settings → Domains, or change `SITE` and rebuild. The two must agree.
+
 Two limits worth knowing at this catalogue size:
 
 - **Files.** A build currently emits ~17,000 files. Vercel documents *no* upper
@@ -103,8 +111,9 @@ Two limits worth knowing at this catalogue size:
       an NH 44 title in the tab.
 - [ ] `https://roadtrackerindia.com/sitemap.xml` responds → submit it in
       [Google Search Console](https://search.google.com/search-console).
-- [ ] `curl -s https://roadtrackerindia.com/api/ratings?roadId=nh-44 | head -c 80`
-      returns **JSON**. A host that answers this with the SPA's `index.html` and
+- [ ] `curl -sL "https://roadtrackerindia.com/api/ratings?roadId=nh-44"`
+      returns **JSON** (`-L` matters — whichever of apex and `www` is not
+      primary answers 308). A host that serves the SPA's `index.html` and
       HTTP 200 parses to `{}` and makes every road claim "be the first to rate
       this road" — the client rejects non-JSON now, but this is the fastest way
       to see the routing is right.
