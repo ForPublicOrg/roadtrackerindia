@@ -1,53 +1,20 @@
 rules_version = '2';
 
-// RoadTracker India — Firestore security rules.
-// Deploy from Firebase console → Firestore Database → Rules (see docs/FIREBASE.md).
+// DENY EVERYTHING. This is deliberate, not an oversight.
+//
+// The site never talks to Firestore from the browser: there is no Firebase
+// client SDK in package.json, and every read/write goes through the serverless
+// API (/api/ratings, /api/reports) using the Admin SDK, which bypasses these
+// rules entirely. Public read rules would buy the app nothing — while letting
+// anyone who learns the project id enumerate the whole 7,750-road rating set
+// straight from a browser and bill us for every read.
+//
+// If you ever add the Firebase *client* SDK back, re-open only the specific
+// collections it needs — and remember that `road_ratings` must stay server-only
+// regardless: its document ids are salted dedupe hashes, and exposing them lets
+// anyone test whether a given (coarse IP + device) has rated a given road.
 service cloud.firestore {
   match /databases/{database}/documents {
-
-    // Community road-problem reports (potholes / damage / flooding).
-    match /reports/{reportId} {
-      allow read: if true;
-
-      // Anyone signed in anonymously can add a well-formed report as themselves.
-      allow create: if request.auth != null
-        && request.resource.data.uid == request.auth.uid
-        && request.resource.data.type in ['pothole', 'damage', 'flooding']
-        && request.resource.data.roadId is string
-        && request.resource.data.roadId.size() < 100
-        && request.resource.data.note is string
-        && request.resource.data.note.size() <= 280
-        && request.resource.data.lng is number
-        && request.resource.data.lat is number
-        && request.resource.data.lng > 60 && request.resource.data.lng < 100
-        && request.resource.data.lat > 5 && request.resource.data.lat < 38
-        && request.resource.data.fixedBy is list
-        && request.resource.data.fixedBy.size() == 0
-        // must be serverTimestamp() — clients cannot forge/backdate timestamps
-        && request.resource.data.createdAt == request.time;
-
-      // Only the reporter can delete their report.
-      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
-
-      // Others may only append their uid to fixedBy ("mark fixed" votes).
-      allow update: if request.auth != null
-        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['fixedBy'])
-        && request.resource.data.fixedBy is list
-        && request.resource.data.fixedBy.hasAll(resource.data.fixedBy)
-        && request.resource.data.fixedBy.size() <= resource.data.fixedBy.size() + 1
-        && request.resource.data.fixedBy.hasAny([request.auth.uid]);
-    }
-
-    // One rating per road per anonymous user; doc id is "<roadId>_<uid>".
-    match /ratings/{ratingId} {
-      allow read: if true;
-      allow create, update: if request.auth != null
-        && ratingId == request.resource.data.roadId + '_' + request.auth.uid
-        && request.resource.data.uid == request.auth.uid
-        && request.resource.data.stars is int
-        && request.resource.data.stars >= 1
-        && request.resource.data.stars <= 5;
-      allow delete: if request.auth != null && resource.data.uid == request.auth.uid;
-    }
+    match /{document=**} { allow read, write: if false; }
   }
 }

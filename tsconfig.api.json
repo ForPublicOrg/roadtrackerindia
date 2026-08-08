@@ -1,0 +1,26 @@
+{
+  // Server-side code (Vercel Serverless Functions). Deliberately separate from
+  // the client tsconfig: this half must NOT see the DOM lib, or a stray
+  // `localStorage`/`window` reference inside a function would typecheck and
+  // then fail at runtime in Node.
+  "compilerOptions": {
+    "target": "ES2022",
+    // NodeNext (not "bundler"): these run as real ESM on Node, where relative
+    // imports need the .js extension. Matching the runtime here means a missing
+    // extension fails typecheck instead of at cold start in production.
+    "module": "NodeNext",
+    "lib": ["ES2022"],
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "types": ["node"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["api"]
+}

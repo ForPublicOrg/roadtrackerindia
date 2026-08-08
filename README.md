@@ -16,12 +16,17 @@ the camera flies to it, the route draws itself, and an encyclopedia panel slides
 - 📖 **Road panel** — progressive disclosure: summary chips first, then route, lanes,
   agency, cost, contractor, toll plazas, timeline, history, facts, official sources
 - 🕳 **Community reports** — anyone can pin potholes / damaged stretches / waterlogging
-  on a road and remove their own pins; others confirm "fixed" (3 confirmations hide a report)
-- ⭐ **Road ratings** — 1–5 stars per road with community averages
-- ☁️ **Firestore-backed** — reports & ratings live in Cloud Firestore (free tier,
-  anonymous auth), configured via a `VITE_FIREBASE_CONFIG` env var at build time (or a
-  gitignored `public/firebase-config.json` for local dev). Without a working config the
-  community sections show an "unavailable" state. See [docs/FIREBASE.md](docs/FIREBASE.md)
+  on a road, and anyone can remove a pin once the problem is fixed (stale reports
+  otherwise outlive the pothole). Deletes are soft, so they're recoverable
+- ⭐ **Road ratings** — 1–5 stars per road, with the community average *and* the
+  full distribution, so "consistently mediocre" reads differently from "divisive"
+- 🔒 **No user tracking** — no account, no anonymous sign-in, no stored identity.
+  One-rating-per-road is enforced by a salted server-side hash of (coarse IP +
+  device fingerprint); raw values are never stored, and your own stars live only
+  in your browser. See [docs/FIREBASE.md](docs/FIREBASE.md)
+- ☁️ **Firestore behind a serverless API** — `/api/ratings` and `/api/reports` hold
+  the Admin credentials, so `firestore.rules` denies all direct browser access and
+  there is no Firebase SDK in the bundle
 - 🌗 **Light & dark map styles** with a toggle (dark style is derived programmatically)
 - 🔗 **SEO & deep links** — every road gets a real static page at `/road/<id>` with its
   own meta tags + JSON-LD, plus sitemap.xml
@@ -99,7 +104,8 @@ Full details in [docs/CORPUS.md](docs/CORPUS.md).
   relations by `scripts/fetch-india-boundary.mjs`
 - **Static pages for SEO**: `scripts/gen-pages.mjs` stamps `dist/road/<id>/index.html`
   per road (own title/description/OG/JSON-LD) + `sitemap.xml` + `404.html` SPA fallback
-- **Firestore adapter** is lazy-loaded only when configured, so the default bundle stays lean
+- **No database SDK in the browser**: community data goes through `api/`, which
+  holds the Admin credentials. The bundle ships no Firebase client code at all
 
 ```
 src/
@@ -112,12 +118,17 @@ src/
   browse.ts      filter chips (category/status/state/city) + list
   locate.ts      GPS → nearest-road snapping with fallbacks
   reports.ts     community problem reports (pins, dialog, popups)
-  ratings.ts     star ratings
-  storage.ts     Firestore connection + config detection (env var or local file)
-  firestore.ts   CloudStore (lazy) — anonymous auth, reports, ratings, aggregates
+  ratings.ts     star ratings + community distribution
+  storage.ts     ApiStore — talks to /api/*, remembers your own stars/pins locally
+  turnstile.ts   lazy Cloudflare Turnstile (interaction-only, so usually invisible)
   router.ts      /road/<id> deep links + meta/canonical/OG sync
+api/
+  ratings.ts     GET summaries (one road or a batch) + POST a rating
+  reports.ts     GET/POST/DELETE reports — anyone may delete, soft
+  _lib/          Admin SDK handle, integrity (hash/Turnstile/rate limit), stores
 scripts/
   build-data.mjs           validate + derive (also `--lint`)
+  migrate-firestore.mjs    one-time move to the identity-free schema (`--apply`)
   gen-pages.mjs            per-road SEO pages + sitemap
   fetch-news.mjs           per-road news snapshots (Google News RSS, build time)
   fetch-osm-geometry.mjs   real OSM alignments via Overpass

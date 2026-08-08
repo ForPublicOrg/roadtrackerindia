@@ -208,31 +208,38 @@ export interface ReportItem {
   lat: number
   note: string
   createdAt: number
-  uid: string
-  fixedBy: string[]
+  /** Purely cosmetic ("You reported this"), remembered in this browser. The
+   *  server holds no author identity, and anyone may delete any report. */
   mine: boolean
 }
 
+export interface NewReport {
+  roadId: string
+  type: ReportType
+  lng: number
+  lat: number
+  note: string
+}
+
 export interface RatingSummary {
-  avg: number
-  count: number
+  mean: number
+  votes: number
+  /** stars ("1".."5") → how many people chose it. A mean alone hides whether a
+   *  road is consistently mediocre or genuinely divisive. */
+  distribution: Record<string, number>
 }
 
 export interface UserStore {
-  readonly uid: string
-  addReport(r: {
-    roadId: string
-    type: ReportType
-    lng: number
-    lat: number
-    note: string
-  }): Promise<ReportItem>
+  addReport(r: NewReport): Promise<ReportItem>
+  /** Anyone may remove any report — stale ones outlive the pothole. */
   removeReport(id: string): Promise<void>
-  markFixed(id: string): Promise<void>
   getReportsForRoad(roadId: string): Promise<ReportItem[]>
+  /** Reports filed from this browser, resolved from locally-remembered ids. */
   getMyReports(): Promise<ReportItem[]>
-  setRating(roadId: string, stars: number): Promise<void>
-  getMyRating(roadId: string): Promise<number | null>
+  setRating(roadId: string, stars: number): Promise<RatingSummary>
+  /** Local only, and deliberately so: with no account there is nothing on the
+   *  server tying a rating back to you, so "your" rating lives in this browser. */
+  getMyRating(roadId: string): number | null
   /** `null` means the road is genuinely unrated. A failed lookup rejects — the
    *  two must stay distinguishable or the UI reports "no ratings yet" for a road
    *  it simply could not read. */

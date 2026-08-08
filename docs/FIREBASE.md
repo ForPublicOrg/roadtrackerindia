@@ -1,141 +1,155 @@
-# Setting up reports & ratings (Firestore)
+# Setting up reports & ratings (Firestore behind the API)
 
-Community reports (potholes / damage / flooding) and star ratings are stored in
-Cloud Firestore — there is no local fallback. Until a working Firebase config is
-provided, those sections of the site show "unavailable right now". The site stays
-100% static — visitors talk to Firestore directly from the browser, no server needed.
+Community reports (potholes / damage / flooding) and star ratings live in Cloud
+Firestore, but **the browser never talks to Firestore.** Every read and write goes
+through this site's own serverless API — `/api/ratings` and `/api/reports` — which
+uses the Firebase Admin SDK. The Admin SDK bypasses security rules, so
+[`firestore.rules`](../firestore.rules) denies *everything*, and there is no way
+for a visitor to read or write the database directly.
 
-Takes about 10 minutes. The free (Spark) tier is far more than enough to start.
+This is the same design as the RankYourPolitician site, and it is what makes the
+next line possible.
 
-## 1. Create the Firebase project
+## What is and isn't stored about people
 
-1. Go to <https://console.firebase.google.com/> and **Add project**
-   (e.g. `roadtracker-india`). Google Analytics is optional — off is fine.
-2. In the project, click the **Web** icon (`</>`) to register a web app
-   (nickname "roadtracker", no hosting needed).
-3. You'll be shown an `const firebaseConfig = { ... }` object. Keep it handy.
+There is **no account and no anonymous sign-in. The server identifies nobody.**
 
-## 2. Enable Anonymous sign-in
+- A rating document holds `{road_id, stars, updated_at}`. Nothing else.
+- A report document holds `{road_id, type, lng, lat, note, created_at}`. Nothing else.
+- "One rating per road per person" is enforced by the *document id*, which is a
+  salted SHA-256 of (coarsened IP + a small device fingerprint). Raw IPs and
+  fingerprints are never stored, and the hash is never returned to any client.
+- Your own stars and your own pins are remembered in **your browser's
+  localStorage**, never on the server.
 
-Build → **Authentication** → Get started → Sign-in method → **Anonymous** → Enable.
+The salt is the only thing that makes those hashes un-recomputable, so
+`VOTE_HASH_SALT` below is a real secret.
 
-(Visitors never see a login — this just gives each device a stable anonymous ID so
-people can delete *their own* reports and rate each road once.)
+## 1. Firebase project and database
 
-## 3. Create the Firestore database
+1. <https://console.firebase.google.com/> → **Add project**. Analytics optional.
+2. Build → **Firestore Database** → Create database → **Production mode** →
+   a region close to India (`asia-south1`, Mumbai).
 
-Build → **Firestore Database** → Create database → **Production mode** →
-pick a region close to India (e.g. `asia-south1`, Mumbai).
+You do **not** need to register a web app, and you do **not** need to enable
+Anonymous sign-in or manage Authorized domains any more. Those were requirements
+of the old browser-direct design and are now dead steps.
 
-## 4. Paste the security rules
+## 2. Publish the rules
 
 Firestore Database → **Rules** → replace everything with the contents of
-[`firestore.rules`](../firestore.rules) from this repo → **Publish**.
+[`firestore.rules`](../firestore.rules) → **Publish**.
 
-These rules enforce:
-- anyone can read; only signed-in (anonymous) users can write
-- reports must be well-formed (valid type, note ≤ 280 chars, coordinates inside India)
-- only the reporter can delete their report
-- others can only append their ID to `fixedBy` ("mark fixed" votes) — 3 votes hide a report
-- one rating per road per device, stars 1–5
+They deny all direct access. That is correct and deliberate — read the comment in
+the file before "fixing" it.
 
-## 5. Add the config to the site
+## 3. Create a service account
 
-**Recommended — environment variable (config never enters the repo):**
+Project settings (gear) → **Service accounts** → **Generate new private key**.
+A JSON file downloads. This is a **real credential** — unlike the old web config,
+it grants full database access. Never commit it.
 
-In your host's dashboard (Vercel / Netlify / Cloudflare Pages → project →
-Settings → Environment Variables), add one variable, marked secret/encrypted:
+## 4. Environment variables on Vercel
 
-- **Name:** `VITE_FIREBASE_CONFIG`
-- **Value:** the whole config object from step 1 on one line:
+Project → Settings → Environment Variables. Mark every one of these secret:
 
+| Variable | Required | What it is |
+| --- | --- | --- |
+| `FIREBASE_SERVICE_ACCOUNT_JSON` | **yes** | the whole service-account JSON from step 3, on one line |
+| `VOTE_HASH_SALT` | **yes in production** | a long random string. Without it the dedupe hashes are effectively unsalted — the API logs a loud error at startup |
+| `TURNSTILE_SECRET_KEY` | recommended | Cloudflare Turnstile secret. **If unset, bot protection is disabled** and the API allows writes unverified (`dev: true` in responses) |
+| `VITE_TURNSTILE_SITE_KEY` | recommended | the matching Turnstile *site* key. Public, baked into the bundle at build time |
+| `UPSTASH_REDIS_REST_URL` | recommended | Upstash Redis for rate limiting |
+| `UPSTASH_REDIS_REST_TOKEN` | recommended | " |
+
+Without Upstash, rate limiting falls back to per-instance memory, which on
+serverless is close to useless — each cold start gets a fresh, empty counter.
+Since **anyone can delete any report**, the rate limit is the main thing standing
+between the map and a wipe script. Configure Upstash before launch.
+
+Get Turnstile keys at Cloudflare dashboard → Turnstile → Add site. The widget
+renders in `interaction-only` mode, so visitors normally never see it.
+
+## 5. Migrate existing data
+
+The old browser-written documents use a different shape (`roadId` rather than
+`road_id`) and carry the anonymous `uid` this redesign removes. Existing reports
+would be invisible to the API until migrated.
+
+Dry run first — it changes nothing and prints what it would do:
+
+```bash
+node scripts/migrate-firestore.mjs
 ```
-{"apiKey":"AIza...","authDomain":"roadtracker-india.firebaseapp.com","projectId":"roadtracker-india","storageBucket":"roadtracker-india.appspot.com","messagingSenderId":"1234567890","appId":"1:1234567890:web:abc123"}
+
+Then commit it:
+
+```bash
+node scripts/migrate-firestore.mjs --apply
 ```
 
-Redeploy — Vite injects it at build time and the app switches to shared mode.
+It renames the report fields, strips every `uid`/`fixedBy`, preserves reports
+already hidden by three "fixed" votes, folds any old ratings into the new
+per-road aggregates, and deletes the uid-keyed rating documents. Per-person
+dedupe cannot carry across — the old keys were anonymous uids and the new ones
+are salted IP+device hashes, so those historical ratings survive as counts only.
 
-**Local testing alternative:** copy `public/firebase-config.example.json` to
-`public/firebase-config.json` and paste your values. That file is **gitignored**
-so it cannot be committed; don't remove it from `.gitignore`.
+## 6. Running it locally
 
-> Honesty note: whatever the delivery mechanism, a browser app must hand the
-> config to the browser, so it is always discoverable in the shipped bundle.
-> That is by design and Google documents it as safe: the web `apiKey` only
-> *identifies* the project. What actually protects your data is the security
-> rules (step 4), the authorized-domains list (step 6), and App Check. The env
-> var's job is keeping the config out of your public git history — good hygiene,
-> not secrecy.
+`npm run dev` starts vite only. It does **not** run `api/` — those are Vercel
+functions, and vite knows nothing about them — so `/api/*` deliberately answers
+404 and the community sections show "not available on this deployment". Every
+other part of the site works normally.
 
-## 6. Restrict where it works (recommended)
+To exercise the real endpoints locally:
 
-Firebase console → Authentication → Settings → **Authorized domains**: keep
-`localhost` and add `roadtrackerindia.com` (and your host's preview domain if you
-use one). Requests from other origins will be refused.
+```bash
+npx vercel dev
+```
+
+Put the same variables from §4 in a local `.env` (gitignored). Point it at a
+throwaway Firebase project rather than production — writes are real.
 
 ## 7. Deploy
 
-Rebuild/redeploy the site. The app detects the config automatically:
+Push and let Vercel build. Check the browser console on a road page:
 
-- the browser console logs `[storage] Firestore connected — project "…"`
-  (or a precise one-line reason when something is still missing)
-- the rating row shows "Be the first to rate this road" / "Community: 4.2 ★ from 12 ratings"
+- `[storage] community features ready` and a rating row showing
+  "Community: 4.2 ★ from 12 ratings" with a distribution bar chart.
+- `/api/ratings?roadId=nh-44` in a browser tab should return JSON.
+
+## Collections
+
+| Collection | Document id | Purpose |
+| --- | --- | --- |
+| `road_ratings` | `<roadId>__<raterHash>` | one person's stars for one road |
+| `road_rating_aggregates` | `<roadId>` | counts/total/sum, written in the same transaction as the rating |
+| `reports` | auto | one problem report; `deleted: true` hides it |
+
+The aggregate is maintained transactionally alongside every rating, so the score
+shown can never drift from the ratings behind it — and reading a road's score (or
+100 roads' scores for a list) is one cheap document fetch rather than a live
+aggregation query.
 
 ## Costs & abuse notes
 
-- Spark tier: 50k reads + 20k writes per day free — plenty for a young site.
-  Reports are only fetched per selected road (capped at 150), ratings use
-  server-side aggregate queries, so reads stay tiny.
-- The rules cap note length and coordinates; deleting spam is possible from the
-  Firebase console (Firestore Database → Data → `reports`).
-- If the site grows, add App Check (reCAPTCHA v3) for bot protection. This **does**
-  need a code change: the app must call `initializeAppCheck()` with a
-  `ReCaptchaV3Provider` before any Firestore call. Turning on *enforcement* in the
-  console without that ships a client with no App Check token, and Firestore then
-  rejects **every** read and write with `PERMISSION_DENIED` — regardless of your
-  security rules. Register the provider first, confirm requests succeed, and only
-  then switch the Firestore API from "Unenforced" to "Enforced".
+- Spark tier: 50k reads + 20k writes/day free. Rating reads hit one aggregate doc
+  per road and are edge-cached for 5 minutes; a batch of 100 roads is one request.
+- **Deletion is open to anyone**, by design: stale reports outlive the pothole and
+  their author rarely returns to clear them. Deletes are *soft* (`deleted: true`),
+  so anything removed maliciously is recoverable in the console.
+- Rules deny direct access entirely, so a leaked project id buys an attacker
+  nothing — there is no public read surface to enumerate.
 
-## Troubleshooting `PERMISSION_DENIED` (403)
-
-`{"code": 403, "message": "Missing or insufficient permissions."}` on reports or
-ratings almost always means the rules **in force on the project** are not the ones
-in `firestore.rules`. Note that `/ratings` grants `allow read: if true`, so a denied
-*read* proves the rules were never published (a Production-mode database starts at
-`allow read, write: if false`).
-
-Narrow it down — open the browser console (the app now logs `[ratings] …` with the
-Firebase error code) and try filing a pothole report:
+## Troubleshooting
 
 | Symptom | Cause | Fix |
 | --- | --- | --- |
-| Reports work, ratings 403 | published rules predate the `/ratings` block | redo step 4 — paste the **whole** current `firestore.rules` |
-| Reports *and* ratings 403 | rules never published, or App Check enforced with no client SDK | redo step 4; then check App Check → APIs → Cloud Firestore reads **Unenforced** |
-| `[storage] community features disabled` | config/auth problem, not rules | the logged reason names the exact fix |
+| `503 unavailable` from `/api/*` | `FIREBASE_SERVICE_ACCOUNT_JSON` unset or malformed | check the var; the function logs the init error |
+| `403 captcha` | Turnstile secret set but the site key isn't (or vice versa) | set both, or neither |
+| `429 rate-limited` | working as intended, or Upstash unset and a cold instance | configure Upstash |
+| Reports vanished after deploy | step 5 not run | run the migration |
+| `PERMISSION_DENIED` in a *function* log | the service account lacks Datastore access | grant it "Cloud Datastore User" in Google Cloud IAM |
 
-After **Publish** in the console, rules propagate in a few seconds — reload the page
-rather than assuming the change failed.
-
-## Known limitations to be aware of
-
-These are inherent to a serverless/anonymous design and are fine at small scale,
-but worth knowing:
-
-- **Anonymous IDs are public.** Every report stores its author's anonymous `uid`
-  (the rules need it so people can delete their own reports). Someone reading the
-  raw collection could group reports by `uid` and infer where one device travels.
-  Mitigate by periodically purging old reports, or move reads behind a Cloud
-  Function later if this becomes a concern.
-- **"Mark fixed" can be gamed.** Clearing site data gives a fresh anonymous ID, so
-  a determined person could self-vote a report hidden with 3 fake confirmations.
-  App Check raises the cost of doing this at scale; true one-person-one-vote needs
-  real accounts.
-- **Coordinates aren't verified server-side.** The app only files a report when the
-  tapped point is within ~4 km of the named road, but someone calling the API
-  directly could attach wrong coordinates (rules only constrain them to India's
-  bounding box). Spot-check the `reports` collection occasionally.
-- **Volume caps.** The app fetches at most 150 reports per road; a spam flood could
-  push real reports out of view until you delete the spam in the console.
-
-Practical posture: enable App Check early, glance at the `reports` collection now
-and then, and delete junk from the console — that covers a young site well.
+A `PERMISSION_DENIED` in the **browser** now means something is still using the
+client SDK — there shouldn't be one; `firebase` is no longer a dependency.

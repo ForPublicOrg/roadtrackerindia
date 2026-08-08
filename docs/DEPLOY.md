@@ -1,17 +1,27 @@
 # Deploying roadtrackerindia.com
 
-The site is 100% static: `npm run build` produces a self-contained `dist/` folder.
-Any static host works. All options below have free tiers that fit this site.
+The **pages** are 100% static: `npm run build` produces a self-contained `dist/`
+folder that any host can serve. But reports and ratings now run through
+serverless functions in `api/`, so the site is no longer fully host-agnostic:
+
+- **Vercel — the supported target.** Serves `dist/` and runs `api/*.ts` as Node
+  functions (auto-detected from the `api/` directory — `vercel.json` stays
+  rewrites-only, see below).
+- **Any other static host** will serve every road page correctly, but `/api/*`
+  will 404 and the reports and ratings sections will show their "unavailable"
+  state. Everything else — map, search, browse, all 7,750 roads — works fine.
+
+Moving to Cloudflare Pages would mean rewriting `api/` against the Firestore REST
+API: Pages Functions run on the Workers runtime, which cannot load `firebase-admin`.
 
 In every case:
 
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
 - **Node version:** 24 (set `NODE_VERSION=24` env var where relevant)
-- **Firestore (required for reports & ratings):** add a `VITE_FIREBASE_CONFIG`
-  environment variable in the host dashboard (marked secret) — never commit the
-  config to the repo. Without it those sections show "unavailable". See
-  [docs/FIREBASE.md](FIREBASE.md) §5.
+- **Firestore + secrets (required for reports & ratings):** see
+  [docs/FIREBASE.md](FIREBASE.md) §4. The service-account key is a real
+  credential — host env vars only, never the repo.
 
 ## Deep links need a rewrite rule
 

@@ -1,7 +1,11 @@
 /**
  * Community reports: potholes, damaged stretches, waterlogging.
- * Anyone can drop a pin; you can remove your own pins; in shared (Firestore)
- * mode others can "mark fixed" — three such votes hide the report.
+ *
+ * Anyone can drop a pin, and anyone can remove any pin — stale reports outlive
+ * the pothole and their author rarely comes back to clear them. That replaced
+ * the old "three 'fixed' votes hide it" mechanism, which existed only because
+ * deletion used to be restricted to the reporter. Deletes are soft server-side,
+ * so a bad one is recoverable from the Firebase console.
  */
 import maplibregl from 'maplibre-gl'
 import { state } from './state'
@@ -33,6 +37,16 @@ const markers = new Map<string, maplibregl.Marker>()
 let popup: maplibregl.Popup | null = null
 let dialogOpen = false
 
+/** Deletion is open to everyone, so the rate limit is what stands between the
+ *  map and a wipe script — say so plainly rather than "try again". */
+function removeError(e: unknown): string {
+  const code = (e as Error)?.message
+  if (code === 'rate-limited') return "That's a lot of changes at once — try again in a while."
+  if (code === 'not-found') return 'That report is already gone.'
+  if (code === 'captcha') return "Couldn't verify this browser — reload the page and try again."
+  return "Couldn't remove it — try again."
+}
+
 export function isReporting(): boolean {
   return state.reportMode
 }
@@ -47,13 +61,14 @@ export function initReports(): void {
       else exitReportMode()
     }
   })
-  // show the user's own pins from previous visits (skip when Firestore is unavailable)
+  // show the pins this browser filed on earlier visits (resolved from locally
+  // remembered ids — the server holds no author identity)
   void getStore()
     .then(async (store) => {
       const mine = await store.getMyReports()
       mine.forEach(addMarker)
     })
-    .catch(() => {})
+    .catch((e) => console.warn('[reports] could not load your pins —', e))
 }
 
 export function enterReportMode(): void {
@@ -159,7 +174,7 @@ function closeDialog(): void {
 // ── markers & popups ───────────────────────────────────────────────
 
 function addMarker(r: ReportItem): void {
-  if (markers.has(r.id) || (!r.mine && r.fixedBy.length >= 3)) return
+  if (markers.has(r.id)) return
   const el = document.createElement('button')
   el.className = `report-marker ${TYPE_META[r.type].cls}`
   el.setAttribute('aria-label', `${TYPE_META[r.type].label} report`)
@@ -201,29 +216,17 @@ function showPopup(r: ReportItem): void {
   }
   void getStore()
     .then((store) => {
-      if (r.mine) {
-        mkBtn('Remove report', async () => {
-          try {
-            await store.removeReport(r.id)
-            removeMarker(r.id)
-            popup?.remove()
-            toast('Report removed.')
-            refreshPanelSlot(r.roadId)
-          } catch {
-            toast("Couldn't remove it — try again.")
-          }
-        })
-      } else {
-        mkBtn('✓ It’s fixed now', async () => {
-          try {
-            await store.markFixed(r.id)
-            popup?.remove()
-            toast('Thanks! With a few confirmations this report will disappear.')
-          } catch {
-            toast("Couldn't record that — try again.")
-          }
-        })
-      }
+      mkBtn(r.mine ? 'Remove report' : '✓ Fixed — remove it', async () => {
+        try {
+          await store.removeReport(r.id)
+          removeMarker(r.id)
+          popup?.remove()
+          toast('Report removed.')
+          refreshPanelSlot(r.roadId)
+        } catch (e) {
+          toast(removeError(e))
+        }
+      })
     })
     .catch(() => {})
   popup = new maplibregl.Popup({ offset: 20, maxWidth: '270px' })
@@ -244,18 +247,15 @@ function refreshPanelSlot(roadId: string): void {
 
 export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef: string): Promise<void> {
   el.innerHTML = `<h3>Road problems</h3><div class="skel" style="height:44px"></div>`
-  let store
-  try {
-    store = await getStore()
-  } catch {
-    el.innerHTML = `<h3>Road problems</h3><p class="rating-note">Community reports are unavailable right now — please try again later.</p>`
-    return
-  }
+  const store = await getStore()
   let items: ReportItem[] = []
   try {
     items = await store.getReportsForRoad(roadId)
-  } catch {
-    /* transient read failure — show just the CTA */
+  } catch (e) {
+    if (state.selectedId !== roadId) return
+    console.warn('[reports] read failed —', e)
+    el.innerHTML = `<h3>Road problems</h3><p class="rating-note">Community reports can't be loaded right now — please try again later.</p>`
+    return
   }
   if (state.selectedId !== roadId) return
   items.forEach(addMarker)
@@ -271,7 +271,7 @@ export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef
             <div class="ri-time">${r.mine ? 'You' : 'Someone'} reported this ${relTime(r.createdAt)}</div>
           </span>
           <span class="ri-actions">
-            ${r.mine ? `<button data-act="remove">Remove</button>` : `<button data-act="fixed">Fixed?</button>`}
+            <button data-act="remove">${r.mine ? 'Remove' : 'Fixed? Remove'}</button>
           </span>
         </div>`,
         )
@@ -283,24 +283,19 @@ export async function renderRoadReports(el: HTMLElement, roadId: string, roadRef
       <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       Report a pothole, damage or flooding
     </button>
-    <p class="rating-note" style="margin:8px 0 0">Reports are shared with all visitors. Three “fixed” confirmations hide a report.</p>`
+    <p class="rating-note" style="margin:8px 0 0">Reports are shared with all visitors. Anyone can remove one once the problem is fixed.</p>`
 
   el.querySelector('#report-cta')?.addEventListener('click', () => enterReportMode())
-  el.querySelectorAll<HTMLButtonElement>('[data-act]').forEach((btn) => {
+  el.querySelectorAll<HTMLButtonElement>('[data-act="remove"]').forEach((btn) => {
     btn.addEventListener('click', async () => {
       const id = btn.closest<HTMLElement>('.report-item')!.dataset.id!
       try {
-        if (btn.dataset.act === 'remove') {
-          await store.removeReport(id)
-          removeMarker(id)
-          toast('Report removed.')
-        } else {
-          await store.markFixed(id)
-          toast('Thanks! With a few confirmations this report will disappear.')
-        }
+        await store.removeReport(id)
+        removeMarker(id)
+        toast('Report removed.')
         void renderRoadReports(el, roadId, roadRef)
-      } catch {
-        toast('That didn’t go through — try again.')
+      } catch (e) {
+        toast(removeError(e))
       }
     })
   })

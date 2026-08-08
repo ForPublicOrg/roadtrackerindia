@@ -485,6 +485,21 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 .rating-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .rating-note { font-size: 12.5px; color: var(--ink-2); }
 
+/* Turnstile renders in interaction-only mode, so this host is empty and
+   zero-height almost always. When Cloudflare does want a challenge it must be
+   reachable rather than stranded at the bottom of the document. */
+#turnstile-host { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 60; }
+#turnstile-host:empty { display: none; }
+
+/* rating distribution — an average alone can't tell "consistently mediocre"
+   from "genuinely divisive", which is exactly what people want to know */
+.rating-breakdown { display: grid; gap: 3px; margin-top: 10px; max-width: 260px; }
+.rb-row { display: grid; grid-template-columns: 26px 1fr 22px; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); }
+.rb-star { text-align: right; font-variant-numeric: tabular-nums; }
+.rb-bar { height: 6px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.rb-bar > span { display: block; height: 100%; border-radius: 999px; background: var(--star-on); transition: width 0.3s var(--ease-spring); }
+.rb-count { text-align: right; font-variant-numeric: tabular-nums; }
+
 /* reports in panel */
 .report-item {
   display: flex; gap: 10px; align-items: flex-start;
