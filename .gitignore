@@ -19,3 +19,7 @@ public/data/orgs.json
 public/data/org/
 # raw OpenStreetMap downloads used to generate the corpus (large, re-fetchable)
 .cache/
+# the 22 MB launch video and its stills would live in git forever — re-cut them
+# any time with marketing/recorder. The demo GIF in the README is the exception.
+marketing/*.mp4
+marketing/*.png

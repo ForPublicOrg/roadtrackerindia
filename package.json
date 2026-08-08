@@ -4,6 +4,15 @@
   "version": "1.0.0",
   "type": "module",
   "description": "RoadTracker India — a map-first encyclopedia of Indian roads",
+  "license": "MIT",
+  "homepage": "https://roadtrackerindia.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForPublicOrg/roadtrackerindia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ForPublicOrg/roadtrackerindia/issues"
+  },
   "scripts": {
     "data": "node scripts/build-data.mjs",
     "news": "node scripts/fetch-news.mjs",

@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: 'Inter V';
+        src: url('fonts/inter-latin-wght-normal.woff2') format('woff2-variations');
+        font-weight: 100 900;
+      }
+      @font-face {
+        font-family: 'Fraunces V';
+        src: url('fonts/fraunces-latin-full-normal.woff2') format('woff2-variations');
+        font-weight: 100 900;
+      }
+      :root {
+        --ink: #f6f1e6;
+        --ink-2: #b9b0a0;
+        --accent: #f4915a;
+        --scrim: 6, 8, 12;
+      }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; background: transparent; }
+      body { font-family: 'Inter V', sans-serif; -webkit-font-smoothing: antialiased; }
+
+      .band { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; }
+      .band.top {
+        top: 0; padding: 82px 74px 150px;
+        background: linear-gradient(
+          to bottom,
+          rgba(var(--scrim), 0.97) 0%, rgba(var(--scrim), 0.95) 42%,
+          rgba(var(--scrim), 0.78) 66%, rgba(var(--scrim), 0) 100%);
+      }
+      .band.bottom {
+        bottom: 0; padding: 190px 74px 108px; justify-content: flex-end;
+        background: linear-gradient(
+          to top,
+          rgba(var(--scrim), 0.97) 0%, rgba(var(--scrim), 0.95) 44%,
+          rgba(var(--scrim), 0.76) 68%, rgba(var(--scrim), 0) 100%);
+      }
+
+      .rule { width: 84px; height: 7px; border-radius: 4px; background: var(--accent); margin-bottom: 30px; }
+      h1 {
+        font-family: 'Fraunces V', serif;
+        font-weight: 600;
+        font-size: 74px;
+        line-height: 1.1;
+        letter-spacing: -0.015em;
+        color: var(--ink);
+      }
+      h1 em { font-style: normal; color: var(--accent); }
+      p {
+        margin-top: 22px;
+        font-size: 37px;
+        line-height: 1.36;
+        font-weight: 450;
+        color: var(--ink-2);
+        letter-spacing: 0.004em;
+      }
+      p b { color: var(--ink); font-weight: 650; }
+
+      /* ── end card ── */
+      .end {
+        position: absolute; inset: 0; display: flex; flex-direction: column;
+        align-items: center; justify-content: center; text-align: center;
+        background: rgba(var(--scrim), 0.90); padding: 0 76px;
+      }
+      .mark { width: 168px; height: 168px; margin-bottom: 44px; }
+      .end h2 {
+        font-family: 'Fraunces V', serif; font-weight: 600; font-size: 66px;
+        color: var(--ink); letter-spacing: -0.01em; line-height: 1.12;
+      }
+      .url {
+        margin-top: 34px; font-size: 60px; font-weight: 700; color: var(--accent);
+        letter-spacing: -0.005em;
+      }
+      .stat {
+        margin-top: 40px; font-size: 36px; color: var(--ink); font-weight: 550;
+        line-height: 1.5;
+      }
+      .stat span { color: var(--ink-2); font-weight: 450; }
+      .chips { margin-top: 46px; display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+      .chip {
+        border: 2px solid rgba(246, 241, 230, 0.26); border-radius: 999px;
+        padding: 15px 30px; font-size: 31px; color: var(--ink); font-weight: 550;
+      }
+      .credit { position: absolute; bottom: 78px; left: 0; right: 0; font-size: 25px; color: #7e776b; }
+    </style>
+  </head>
+  <body></body>
+</html>
