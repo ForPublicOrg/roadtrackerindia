@@ -43,7 +43,17 @@ let baseClickCb: (lngLat: [number, number]) => void = () => {}
 
 const tip = document.createElement('div')
 tip.className = 'road-tip'
-document.body.appendChild(tip)
+// <main> is position:fixed, so it owns a stacking context: parked on <body> the
+// chip sits in the root context and floats over the details sheet — over every
+// z-index inside <main> — however low its own z-index goes.
+;(document.querySelector('main') ?? document.body).appendChild(tip)
+
+/**
+ * A touchscreen has no hover, but tapping still fires one compatibility
+ * mousemove — enough to raise the name chip and thicken the line, with no
+ * pointer left to move away and take them back down again.
+ */
+const canHover = window.matchMedia('(hover: hover)')
 
 export function getMap(): maplibregl.Map {
   return map
@@ -441,13 +451,24 @@ function hitLayers(): string[] {
   return ['network-hit', 'network-detail-hit'].filter((l) => map.getLayer(l))
 }
 
+/** Most roads carry a number and a name; a few are only ever their name. */
+function tipLabel(ref: unknown, name: unknown): string {
+  const r = String(ref ?? '').trim()
+  const n = String(name ?? '').trim()
+  if (!r) return n
+  return !n || n === r ? r : `${r} — ${n}`
+}
+
 function wireInteractions(): void {
   map.on('mouseout', clearHover)
+  // a hybrid laptop reports (hover: hover) and still gets tapped
+  map.on('touchstart', clearHover)
   // zoomend covers wheel and pinch; moveend also catches a fitBounds that lands
   // deep (following a deep link straight to a two-kilometre district road)
   map.on('zoomend', maybeRequestDetail)
   map.on('moveend', maybeRequestDetail)
   map.on('mousemove', (e) => {
+    if (!canHover.matches) return
     const layers = hitLayers()
     if (!layers.length) return
     const top = map.queryRenderedFeatures(e.point, { layers })[0]
@@ -456,7 +477,7 @@ function wireInteractions(): void {
       if (hovered?.id !== top.properties.id) {
         hovered = { source: top.source, id: top.properties.id as string }
         map.setFeatureState({ source: hovered.source, id: hovered.id }, { hover: true })
-        tip.textContent = `${top.properties.ref} — ${top.properties.name}`
+        tip.textContent = tipLabel(top.properties.ref, top.properties.name)
         tip.classList.add('is-on')
       }
       map.getCanvas().style.cursor = 'pointer'
