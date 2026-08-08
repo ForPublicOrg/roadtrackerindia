@@ -1,5 +1,8 @@
 # Data licence
 
+**The MIT licence in [LICENSE](LICENSE) covers the software only — `src/`,
+`api/`, `scripts/` and `docs/`. It does not cover the road data.**
+
 This repository is licensed in two parts, because the code and the road
 catalogue come from different places.
 
