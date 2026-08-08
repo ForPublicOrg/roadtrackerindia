@@ -18,7 +18,9 @@ In every case:
 
 - **Build command:** `npm run build`
 - **Output directory:** `dist`
-- **Node version:** 24 (set `NODE_VERSION=24` env var where relevant)
+- **Node version:** 24. Cloudflare Pages and Netlify read a `NODE_VERSION=24`
+  env var; **Vercel does not** — it takes the version from Project Settings →
+  General → Node.js Version (`firebase-admin` needs at least 18)
 - **Firestore + secrets (required for reports & ratings):** see
   [docs/FIREBASE.md](FIREBASE.md) §4. The service-account key is a real
   credential — host env vars only, never the repo.
@@ -46,8 +48,14 @@ hosts that read neither file.
 ## Vercel (the live host for roadtrackerindia.com)
 
 1. Add New Project → import repo. Framework preset: **Vite** (or "Other").
-2. Build `npm run build`, output `dist`. Set `NODE_VERSION=24`.
-3. Project → Settings → Domains → add `roadtrackerindia.com`.
+2. Build `npm run build`, output `dist`. Set the Node version in Project →
+   Settings → General → Node.js Version — a `NODE_VERSION` env var does nothing
+   here, that is the Netlify and Cloudflare convention.
+3. Project → Settings → Environment Variables → add the six from
+   [docs/FIREBASE.md](FIREBASE.md) §4 **before** the first deploy.
+   `VITE_TURNSTILE_SITE_KEY` is baked into the bundle by `vite build` rather
+   than read at runtime, so adding it later changes nothing until you redeploy.
+4. Project → Settings → Domains → add `roadtrackerindia.com`.
 
 `vercel.json` is read from the repo root and only sets `rewrites`, so it does
 not disturb build settings configured in the dashboard.
@@ -95,8 +103,16 @@ Two limits worth knowing at this catalogue size:
       an NH 44 title in the tab.
 - [ ] `https://roadtrackerindia.com/sitemap.xml` responds → submit it in
       [Google Search Console](https://search.google.com/search-console).
-- [ ] If using Firestore: add the production domain to Firebase
-      **Authorized domains** (see docs/FIREBASE.md §6).
+- [ ] `curl -s https://roadtrackerindia.com/api/ratings?roadId=nh-44 | head -c 80`
+      returns **JSON**. A host that answers this with the SPA's `index.html` and
+      HTTP 200 parses to `{}` and makes every road claim "be the first to rate
+      this road" — the client rejects non-JSON now, but this is the fastest way
+      to see the routing is right.
+- [ ] Post a rating and a report on a throwaway road, then check the Firestore
+      console: the rating doc id must be `<roadId>__<hash>`, and neither
+      collection may contain a `uid`. Nothing about Firebase **Authorized
+      domains** applies any more — that was for the browser's anonymous
+      sign-in, which no longer exists (docs/FIREBASE.md).
 - [ ] Lighthouse (mobile) in Chrome DevTools — expect green performance;
       the map tile CDN (`tiles.openfreemap.org`) is preconnected already.
 
