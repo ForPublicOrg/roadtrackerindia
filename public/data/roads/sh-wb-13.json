@@ -1,13 +1,13 @@
 {
   "id": "sh-wb-13",
   "ref": "SH 13",
-  "name": "Dankuni–Memari State Highway",
+  "name": "Dankuni–Mallarpur State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 83,
+  "lengthKm": 98.3,
   "route": {
     "start": "Dankuni, West Bengal",
-    "end": "Memari, West Bengal",
+    "end": "Mallarpur, West Bengal",
     "states": [
       "West Bengal"
     ],
@@ -15,9 +15,9 @@
       "Dankuni",
       "Bally",
       "Bhatpara",
-      "Kalyani",
       "Pandua",
-      "Memari"
+      "Memari",
+      "Mallarpur"
     ]
   },
   "waypoints": [
@@ -29,13 +29,6 @@
       ]
     },
     {
-      "name": "Palta",
-      "coords": [
-        88.31332,
-        22.76979
-      ]
-    },
-    {
       "name": "Bhatpara",
       "coords": [
         88.32282,
@@ -43,10 +36,17 @@
       ]
     },
     {
-      "name": "Kalyani",
+      "name": "Hugli-Chuchura",
       "coords": [
-        88.37363,
-        22.98037
+        88.34841,
+        22.92826
+      ]
+    },
+    {
+      "name": "Kuntighat",
+      "coords": [
+        88.36957,
+        22.99402
       ]
     },
     {
@@ -61,6 +61,13 @@
       "coords": [
         88.08996,
         23.17807
+      ]
+    },
+    {
+      "name": "Mallarpur",
+      "coords": [
+        87.7235,
+        24.07283
       ]
     }
   ],

@@ -1,34 +1,34 @@
 {
   "id": "sh-mp-37",
   "ref": "SH 37",
-  "name": "Sardarpur–Sendhwa State Highway",
+  "name": "Sendhwa–Sardarpur State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 129.1,
+  "lengthKm": 107.7,
   "route": {
-    "start": "Sardarpur, Madhya Pradesh",
-    "end": "Sendhwa, Madhya Pradesh",
+    "start": "Sendhwa, Madhya Pradesh",
+    "end": "Sardarpur, Madhya Pradesh",
     "states": [
       "Madhya Pradesh"
     ],
     "majorCities": [
-      "Sardarpur",
-      "Sendhwa"
+      "Sendhwa",
+      "Sardarpur"
     ]
   },
   "waypoints": [
-    {
-      "name": "Sardarpur",
-      "coords": [
-        75.11567,
-        22.59637
-      ]
-    },
     {
       "name": "Sendhwa",
       "coords": [
         74.92106,
         21.68254
+      ]
+    },
+    {
+      "name": "Sardarpur",
+      "coords": [
+        75.11567,
+        22.59637
       ]
     }
   ],

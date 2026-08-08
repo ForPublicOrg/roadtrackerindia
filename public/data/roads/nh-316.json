@@ -1,22 +1,23 @@
 {
   "id": "nh-316",
   "ref": "NH 316",
-  "name": "Satya Nagar–Balugaon National Highway",
+  "name": "Satya Nagar–Konark National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 107.5,
+  "lengthKm": 157.1,
   "route": {
     "start": "Satya Nagar, Odisha",
-    "end": "Balugaon, Odisha",
+    "end": "Konark, Odisha",
     "states": [
       "Odisha"
     ],
     "majorCities": [
       "Satya Nagar",
       "Bhubaneshwar",
-      "Pipili",
+      "Sakhigopal",
+      "Chandanpur",
       "Puri",
-      "Balugaon"
+      "Konark"
     ]
   },
   "waypoints": [
@@ -32,6 +33,13 @@
       "coords": [
         85.86247,
         20.25261
+      ]
+    },
+    {
+      "name": "Sisupalgarh",
+      "coords": [
+        85.86104,
+        20.22298
       ]
     },
     {
@@ -51,15 +59,15 @@
     {
       "name": "Puri",
       "coords": [
-        85.81058,
-        19.81689
+        85.8259,
+        19.81513
       ]
     },
     {
-      "name": "Balugaon",
+      "name": "Konark",
       "coords": [
-        85.43789,
-        19.66636
+        86.09867,
+        19.88414
       ]
     }
   ],

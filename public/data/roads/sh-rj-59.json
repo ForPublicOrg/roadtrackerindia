@@ -1,29 +1,35 @@
 {
   "id": "sh-rj-59",
   "ref": "SH 59",
-  "name": "Degana–Beawar State Highway",
+  "name": "Nimbi Jodhan–Beawar State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 116.6,
+  "lengthKm": 150.8,
   "route": {
-    "start": "Degana, Rajasthan",
+    "start": "Nimbi Jodhan, Rajasthan",
     "end": "Beawar, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
+      "Nimbi Jodhan",
       "Degana",
-      "Govindgarh",
-      "Peesangan",
       "Beawar"
     ]
   },
   "waypoints": [
     {
+      "name": "Nimbi Jodhan",
+      "coords": [
+        74.34703,
+        27.53881
+      ]
+    },
+    {
       "name": "Degana",
       "coords": [
-        74.32308,
-        26.89959
+        74.32416,
+        26.89488
       ]
     },
     {
@@ -31,13 +37,6 @@
       "coords": [
         74.38445,
         26.45686
-      ]
-    },
-    {
-      "name": "Peesangan",
-      "coords": [
-        74.38406,
-        26.39888
       ]
     },
     {

@@ -71,15 +71,34 @@ a re-run picks up where it stopped. `--bulk` skips a road that is already
 cached, so the way to repair a suspect alignment is to delete its cache file
 and run again.
 
-### What `lengthKm` means on a generated road
+### Gaps, bridges, and what `lengthKm` means
 
-It is the length of the alignment we actually have, measured from the OSM
-geometry — not the ministry's published figure. For most national highways the
-two agree within 1–3%. Where OSM's route relations only cover part of a road
-they diverge sharply: NH 6 and NH 7 come out around 37% of their official
-lengths because that is how much of them is mapped as a route relation. Writing
-the official figure in is enrichment work, and doing so makes the road
-hand-authored.
+OSM maps many roads in disconnected pieces. `stitch()` joins them, and the
+straight line it draws across a gap is a **bridge** — drawn so the road reads as
+one road, but never counted:
+
+```
+lengthKm  = length of the assembled line − bridged
+bridgedKm = how much of it was invented to close gaps
+```
+
+Counting bridges as road overstated 248 roads, one Kerala state highway by
+164 km. How far a bridge may reach depends on whether the road has a number:
+
+- **Numbered** (NH 44, SH 27, MDR 12) — up to 100 km. The designation is
+  evidence that both pieces are the same road. Capping this tightly threw away
+  a thousand kilometres of real NH 44.
+- **Named, no number** ("Temple Road") — 4 km, and anything further is emitted
+  as its own road (`-2`, `-3`). Two Kerala relations both called "Temple Road"
+  are two roads 31 km apart; welding them produced a 32.4 km "road" that was
+  97% straight line across empty ground.
+
+`lengthKm` is therefore the road we can actually see, not the ministry's
+published figure. For most national highways the two agree within 1–3%. Where
+OSM's route relations only cover part of a road they diverge sharply: NH 6 and
+NH 7 come out around 37% of official, because that is how much of them is
+mapped. Writing the official figure in is enrichment work, and doing so makes
+the road hand-authored.
 
 ## 3. Generate the road files
 

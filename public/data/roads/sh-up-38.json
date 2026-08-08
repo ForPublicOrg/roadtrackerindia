@@ -1,13 +1,13 @@
 {
   "id": "sh-up-38",
   "ref": "SH 38",
-  "name": "Bilgram–Unnao State Highway",
+  "name": "Bilgram–Unchahar State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 92.4,
+  "lengthKm": 134.2,
   "route": {
     "start": "Bilgram, Uttar Pradesh",
-    "end": "Unnao, Uttar Pradesh",
+    "end": "Unchahar, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
@@ -15,7 +15,9 @@
       "Bilgram",
       "Bangarmau",
       "Safipur",
-      "Unnao"
+      "Unnao",
+      "Dalmau",
+      "Unchahar"
     ]
   },
   "waypoints": [
@@ -45,6 +47,20 @@
       "coords": [
         80.48636,
         26.54608
+      ]
+    },
+    {
+      "name": "Dalmau",
+      "coords": [
+        81.05114,
+        26.07822
+      ]
+    },
+    {
+      "name": "Unchahar",
+      "coords": [
+        81.29061,
+        25.93204
       ]
     }
   ],

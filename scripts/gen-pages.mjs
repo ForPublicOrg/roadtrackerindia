@@ -182,6 +182,17 @@ writeFileSync(join(DIST, 'sitemap.xml'), sitemap)
 
 copyFileSync(join(DIST, 'index.html'), join(DIST, '404.html'))
 
+// Only the roads worth their own page get one stamped; the rest are reachable
+// but would otherwise be served by 404.html with an HTTP 404 status, which
+// turns a perfectly good shared link into a dead one. Static files still win
+// over these rules, so the prerendered pages keep their own meta tags.
+// Cloudflare Pages and Netlify both read _redirects; 404.html stays as the
+// fallback for hosts that read neither.
+writeFileSync(
+  join(DIST, '_redirects'),
+  ['/road/* /index.html 200', '/company/* /index.html 200', ''].join('\n'),
+)
+
 console.log(
   `✓ ${pages} road pages of ${index.roads.length} roads, ${orgs.length} company pages, ` +
     `sitemap.xml (${urls.length} urls), 404.html`,

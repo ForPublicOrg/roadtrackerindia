@@ -1,26 +1,32 @@
 {
   "id": "sh-rj-94",
   "ref": "SH 94",
-  "name": "Suratgarh–Khajuwala State Highway",
+  "name": "Hanumangarh–Khajuwala State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 187.4,
+  "lengthKm": 258.7,
   "route": {
-    "start": "Suratgarh, Rajasthan",
+    "start": "Hanumangarh, Rajasthan",
     "end": "Khajuwala, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
-      "Suratgarh",
+      "Hanumangarh",
       "Jaitsar",
       "Anupgarh",
-      "Gharsana",
       "Rawla Mandi",
       "Khajuwala"
     ]
   },
   "waypoints": [
+    {
+      "name": "Hanumangarh",
+      "coords": [
+        74.28631,
+        29.61077
+      ]
+    },
     {
       "name": "Suratgarh",
       "coords": [
@@ -66,8 +72,8 @@
     {
       "name": "Khajuwala",
       "coords": [
-        72.60502,
-        28.70963
+        72.60563,
+        28.71015
       ]
     }
   ],

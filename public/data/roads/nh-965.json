@@ -1,31 +1,38 @@
 {
   "id": "nh-965",
   "ref": "NH 965",
-  "name": "Pandharpur–Gopalpatti National Highway",
+  "name": "Akluj–Gopalpatti National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 273.5,
+  "lengthKm": 242.1,
   "route": {
-    "start": "Pandharpur, Maharashtra",
+    "start": "Akluj, Maharashtra",
     "end": "Gopalpatti, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
+      "Akluj",
       "Pandharpur",
+      "Mohol",
       "Natepute",
       "Phaltan",
-      "Jejuri",
-      "Saswad",
       "Gopalpatti"
     ]
   },
   "waypoints": [
     {
+      "name": "Akluj",
+      "coords": [
+        74.91681,
+        17.85734
+      ]
+    },
+    {
       "name": "Pandharpur",
       "coords": [
-        75.32749,
-        17.68079
+        75.33274,
+        17.68221
       ]
     },
     {
@@ -50,38 +57,17 @@
       ]
     },
     {
-      "name": "Lonand",
-      "coords": [
-        74.21117,
-        18.04154
-      ]
-    },
-    {
-      "name": "Walhe",
-      "coords": [
-        74.15571,
-        18.18633
-      ]
-    },
-    {
-      "name": "Jejuri",
-      "coords": [
-        74.16255,
-        18.2775
-      ]
-    },
-    {
       "name": "Saswad",
       "coords": [
-        74.0297,
-        18.34656
+        74.02882,
+        18.34756
       ]
     },
     {
       "name": "Gopalpatti",
       "coords": [
-        73.94732,
-        18.49373
+        73.93669,
+        18.50113
       ]
     }
   ],

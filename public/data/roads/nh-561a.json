@@ -1,13 +1,13 @@
 {
   "id": "nh-561a",
   "ref": "NH 561A",
-  "name": "Vijayapura–Ahilyanagar National Highway",
+  "name": "Vijayapura–Karjat National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 291.5,
   "route": {
     "start": "Vijayapura, Karnataka",
-    "end": "Ahilyanagar, Maharashtra",
+    "end": "Karjat, Maharashtra",
     "states": [
       "Karnataka",
       "Maharashtra"
@@ -17,7 +17,8 @@
       "Mangalwedha",
       "Pandharpur",
       "Karmala",
-      "Ahilyanagar"
+      "Ahilyanagar",
+      "Karjat"
     ]
   },
   "waypoints": [
@@ -52,8 +53,15 @@
     {
       "name": "Ahilyanagar",
       "coords": [
-        74.74686,
-        19.09258
+        74.75196,
+        19.08963
+      ]
+    },
+    {
+      "name": "Karjat",
+      "coords": [
+        75.09143,
+        18.64891
       ]
     }
   ],

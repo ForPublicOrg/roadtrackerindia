@@ -1,13 +1,13 @@
 {
   "id": "nh-709b",
   "ref": "NH 709B",
-  "name": "Shahdara–Saharanpur National Highway",
+  "name": "Shahdara–Shamli National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 157.3,
+  "lengthKm": 159.5,
   "route": {
     "start": "Shahdara, Delhi",
-    "end": "Saharanpur, Uttar Pradesh",
+    "end": "Shamli, Uttar Pradesh",
     "states": [
       "Delhi",
       "Uttar Pradesh"
@@ -17,9 +17,10 @@
       "Loni",
       "Baghpat",
       "Baraut",
-      "Shamli",
-      "Jalalabad",
-      "Saharanpur"
+      "Thana Bhawan",
+      "Nanauta",
+      "Saharanpur",
+      "Shamli"
     ]
   },
   "waypoints": [
@@ -59,24 +60,10 @@
       ]
     },
     {
-      "name": "Shamli",
-      "coords": [
-        77.33799,
-        29.4443
-      ]
-    },
-    {
       "name": "Thana Bhawan",
       "coords": [
         77.41964,
         29.58565
-      ]
-    },
-    {
-      "name": "Jalalabad",
-      "coords": [
-        77.43436,
-        29.61425
       ]
     },
     {
@@ -98,6 +85,13 @@
       "coords": [
         77.54749,
         29.95269
+      ]
+    },
+    {
+      "name": "Shamli",
+      "coords": [
+        77.29412,
+        29.43073
       ]
     }
   ],

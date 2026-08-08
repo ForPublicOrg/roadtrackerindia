@@ -1,0 +1,46 @@
+{
+  "id": "ganga-expressway-2",
+  "ref": "NE",
+  "name": "Ganga Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 2.8,
+  "route": {
+    "start": "Bangarmau, Uttar Pradesh",
+    "end": "Safipur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Bangarmau",
+      "Safipur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Bangarmau",
+      "coords": [
+        80.34666,
+        26.92216
+      ]
+    },
+    {
+      "name": "Safipur",
+      "coords": [
+        80.34639,
+        26.90684
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

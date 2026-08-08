@@ -1,27 +1,26 @@
 {
   "id": "nh-60",
   "ref": "NH 60",
-  "name": "Dhule–Shukrawar Peth National Highway",
+  "name": "Dhule–Ozhar National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 401,
+  "lengthKm": 448.4,
   "route": {
     "start": "Dhule, Maharashtra",
-    "end": "Shukrawar Peth, Maharashtra",
+    "end": "Ozhar, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
       "Dhule",
       "Malegaon",
-      "Chandvad",
+      "Ojhar",
       "Nashik",
-      "Sinnar",
       "Sangamner",
-      "Manchar",
-      "Pimpri-Chinchwad",
+      "Ozhar",
+      "Chakan",
       "Pune",
-      "Shukrawar Peth"
+      "Khed"
     ]
   },
   "waypoints": [
@@ -47,17 +46,17 @@
       ]
     },
     {
+      "name": "Ojhar",
+      "coords": [
+        73.92345,
+        20.08986
+      ]
+    },
+    {
       "name": "Nashik",
       "coords": [
         73.80657,
         20.00947
-      ]
-    },
-    {
-      "name": "Deolali",
-      "coords": [
-        73.85581,
-        19.93841
       ]
     },
     {
@@ -96,38 +95,45 @@
       ]
     },
     {
-      "name": "Khed",
+      "name": "Chakan",
       "coords": [
-        73.88425,
-        18.84509
-      ]
-    },
-    {
-      "name": "Pimpri-Chinchwad",
-      "coords": [
-        73.82639,
-        18.61785
+        73.85862,
+        18.75945
       ]
     },
     {
       "name": "Pune",
       "coords": [
-        73.85317,
-        18.5258
+        73.8543,
+        18.5234
       ]
     },
     {
-      "name": "Dhayari",
+      "name": "Anandnagar",
       "coords": [
-        73.85696,
-        18.42932
+        73.85647,
+        18.47356
       ]
     },
     {
       "name": "Shukrawar Peth",
       "coords": [
-        73.85382,
-        18.51056
+        73.85376,
+        18.50995
+      ]
+    },
+    {
+      "name": "Khed",
+      "coords": [
+        73.88671,
+        18.84951
+      ]
+    },
+    {
+      "name": "Ozhar",
+      "coords": [
+        74.0995,
+        19.18525
       ]
     }
   ],

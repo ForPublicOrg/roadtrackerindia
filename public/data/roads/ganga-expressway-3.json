@@ -1,0 +1,46 @@
+{
+  "id": "ganga-expressway-3",
+  "ref": "NE",
+  "name": "Ganga Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 2.2,
+  "route": {
+    "start": "Unchahar, Uttar Pradesh",
+    "end": "Salon, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Unchahar",
+      "Salon"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Unchahar",
+      "coords": [
+        81.29003,
+        26.02511
+      ]
+    },
+    {
+      "name": "Salon",
+      "coords": [
+        81.2749,
+        26.03201
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

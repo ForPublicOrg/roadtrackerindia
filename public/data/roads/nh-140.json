@@ -1,52 +1,30 @@
 {
   "id": "nh-140",
   "ref": "NH 140",
-  "name": "Pudipatla–Neptune Nagar National Highway",
+  "name": "Chittoor–Pudipatla National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 61.7,
+  "lengthKm": 61.3,
   "route": {
-    "start": "Pudipatla, Andhra Pradesh",
-    "end": "Neptune Nagar, Andhra Pradesh",
+    "start": "Chittoor, Andhra Pradesh",
+    "end": "Pudipatla, Andhra Pradesh",
     "states": [
       "Andhra Pradesh"
     ],
     "majorCities": [
-      "Pudipatla",
-      "Chandragiri",
-      "Pakala",
-      "Puthalapattu",
       "Chittoor",
-      "Neptune Nagar"
+      "Puthalapattu",
+      "Pakala",
+      "Chandragiri",
+      "Pudipatla"
     ]
   },
   "waypoints": [
     {
-      "name": "Pudipatla",
+      "name": "Chittoor",
       "coords": [
-        79.34987,
-        13.59728
-      ]
-    },
-    {
-      "name": "Chandragiri",
-      "coords": [
-        79.31361,
-        13.57911
-      ]
-    },
-    {
-      "name": "Pakala",
-      "coords": [
-        79.13152,
-        13.43172
-      ]
-    },
-    {
-      "name": "Puthalapattu",
-      "coords": [
-        79.08272,
-        13.3472
+        79.0651,
+        13.19835
       ]
     },
     {
@@ -57,17 +35,31 @@
       ]
     },
     {
-      "name": "Chittoor",
+      "name": "Puthalapattu",
       "coords": [
-        79.06711,
-        13.22814
+        79.08272,
+        13.3472
       ]
     },
     {
-      "name": "Neptune Nagar",
+      "name": "Pakala",
       "coords": [
-        79.06533,
-        13.19755
+        79.12966,
+        13.4302
+      ]
+    },
+    {
+      "name": "Chandragiri",
+      "coords": [
+        79.31361,
+        13.57911
+      ]
+    },
+    {
+      "name": "Pudipatla",
+      "coords": [
+        79.34987,
+        13.59728
       ]
     }
   ],

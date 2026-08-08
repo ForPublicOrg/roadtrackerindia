@@ -8,6 +8,7 @@ import { emit, state } from './state'
 import { loadDetail, loadIndex, loadNetwork, loadNetworkDetail, loadOrg, loadShape } from './data'
 import {
   clearSelected,
+  detailNetworkFailed,
   flyHome,
   flyToRoad,
   highlightRoads,
@@ -78,7 +79,9 @@ async function boot(): Promise<void> {
     void loadNetworkDetail()
       .then(setDetailNetworkData)
       .catch(() => {
-        /* the trunk network still works — no need to alarm anyone */
+        // the trunk network still works, so this needs no alarm — but let the
+        // next zoom retry rather than leaving the tier dead for the session
+        detailNetworkFailed()
       })
   })
 

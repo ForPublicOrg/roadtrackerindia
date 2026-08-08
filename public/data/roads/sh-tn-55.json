@@ -1,63 +1,28 @@
 {
   "id": "sh-tn-55",
   "ref": "SH 55",
-  "name": "St. Thomas Mount Cantonment–Avadi State Highway",
+  "name": "Avadi–St. Thomas Mount Cantonment State Highway",
   "category": "sh",
   "status": "operational",
   "lengthKm": 21.6,
   "route": {
-    "start": "St. Thomas Mount Cantonment, Tamil Nadu",
-    "end": "Avadi, Tamil Nadu",
+    "start": "Avadi, Tamil Nadu",
+    "end": "St. Thomas Mount Cantonment, Tamil Nadu",
     "states": [
       "Tamil Nadu"
     ],
     "majorCities": [
-      "St. Thomas Mount Cantonment",
+      "Avadi",
       "Poonamallee",
-      "Avadi"
+      "St. Thomas Mount Cantonment"
     ]
   },
   "waypoints": [
     {
-      "name": "St. Thomas Mount Cantonment",
+      "name": "Avadi",
       "coords": [
-        80.20204,
-        13.00738
-      ]
-    },
-    {
-      "name": "Ramapuram",
-      "coords": [
-        80.18201,
-        13.02208
-      ]
-    },
-    {
-      "name": "Porur",
-      "coords": [
-        80.15668,
-        13.03443
-      ]
-    },
-    {
-      "name": "Gerugambakkam",
-      "coords": [
-        80.13655,
-        13.03753
-      ]
-    },
-    {
-      "name": "Poonamallee",
-      "coords": [
-        80.1118,
-        13.04639
-      ]
-    },
-    {
-      "name": "Thiruverkadu",
-      "coords": [
-        80.11263,
-        13.07126
+        80.09508,
+        13.11766
       ]
     },
     {
@@ -68,10 +33,45 @@
       ]
     },
     {
-      "name": "Avadi",
+      "name": "Thiruverkadu",
       "coords": [
-        80.09565,
-        13.11726
+        80.11263,
+        13.07126
+      ]
+    },
+    {
+      "name": "Poonamallee",
+      "coords": [
+        80.1118,
+        13.04639
+      ]
+    },
+    {
+      "name": "Moulivakkam",
+      "coords": [
+        80.14647,
+        13.0363
+      ]
+    },
+    {
+      "name": "Porur",
+      "coords": [
+        80.15827,
+        13.03442
+      ]
+    },
+    {
+      "name": "Ramapuram",
+      "coords": [
+        80.18201,
+        13.02208
+      ]
+    },
+    {
+      "name": "St. Thomas Mount Cantonment",
+      "coords": [
+        80.19628,
+        13.00737
       ]
     }
   ],

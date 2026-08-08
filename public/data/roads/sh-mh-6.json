@@ -1,13 +1,13 @@
 {
   "id": "sh-mh-6",
   "ref": "SH 6",
-  "name": "Dharangaon–Shindkheda State Highway",
+  "name": "Dharangaon–Akkalkuva State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 102,
+  "lengthKm": 115,
   "route": {
     "start": "Dharangaon, Maharashtra",
-    "end": "Shindkheda, Maharashtra",
+    "end": "Akkalkuva, Maharashtra",
     "states": [
       "Maharashtra"
     ],
@@ -15,15 +15,16 @@
       "Dharangaon",
       "Erandol",
       "Amalner",
-      "Shindkheda"
+      "Nandurbar",
+      "Akkalkuva"
     ]
   },
   "waypoints": [
     {
       "name": "Dharangaon",
       "coords": [
-        75.27828,
-        21.00308
+        75.27823,
+        21.00306
       ]
     },
     {
@@ -48,10 +49,17 @@
       ]
     },
     {
-      "name": "Shindkheda",
+      "name": "Nandurbar",
       "coords": [
-        74.7474,
-        21.27434
+        74.23673,
+        21.3668
+      ]
+    },
+    {
+      "name": "Akkalkuva",
+      "coords": [
+        74.04182,
+        21.44936
       ]
     }
   ],

@@ -1,20 +1,19 @@
 {
   "id": "nh-127b",
   "ref": "NH 127B",
-  "name": "Laskarpara–Nongstoin National Highway",
+  "name": "Dhubri–Nongstoin National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 370.5,
+  "lengthKm": 389.8,
   "route": {
-    "start": "Laskarpara, Assam",
+    "start": "Dhubri, Assam",
     "end": "Nongstoin, Assam",
     "states": [
       "Assam"
     ],
     "majorCities": [
-      "Laskarpara",
-      "Gauripur",
       "Dhubri",
+      "Golakganj",
       "Garobadha",
       "Rongram",
       "Williamnagar",
@@ -23,10 +22,10 @@
   },
   "waypoints": [
     {
-      "name": "Laskarpara",
+      "name": "Dhubri",
       "coords": [
-        89.90406,
-        26.43748
+        90.03907,
+        25.88801
       ]
     },
     {
@@ -44,6 +43,13 @@
       ]
     },
     {
+      "name": "Selsella",
+      "coords": [
+        90.01196,
+        25.61664
+      ]
+    },
+    {
       "name": "Garobadha",
       "coords": [
         90.02337,
@@ -51,31 +57,17 @@
       ]
     },
     {
-      "name": "Tura",
-      "coords": [
-        90.22103,
-        25.5147
-      ]
-    },
-    {
       "name": "Rongram",
       "coords": [
-        90.25128,
-        25.59681
+        90.25346,
+        25.59812
       ]
     },
     {
       "name": "Williamnagar",
       "coords": [
-        90.60913,
-        25.50822
-      ]
-    },
-    {
-      "name": "Mawshynrut",
-      "coords": [
-        91.06279,
-        25.65772
+        90.60522,
+        25.51268
       ]
     },
     {

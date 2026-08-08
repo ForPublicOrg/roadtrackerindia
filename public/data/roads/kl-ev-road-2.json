@@ -1,34 +1,34 @@
 {
-  "id": "kl-temple-road",
+  "id": "kl-ev-road-2",
   "ref": "MDR",
-  "name": "Temple Road",
+  "name": "EV road",
   "category": "district",
   "status": "operational",
-  "lengthKm": 32.4,
+  "lengthKm": 1.1,
   "route": {
-    "start": "Kottayam, Kerala",
-    "end": "Chengannur, Kerala",
+    "start": "Vaikom, Kerala",
+    "end": "Arattukulangara, Kerala",
     "states": [
       "Kerala"
     ],
     "majorCities": [
-      "Kottayam",
-      "Chengannur"
+      "Vaikom",
+      "Arattukulangara"
     ]
   },
   "waypoints": [
     {
-      "name": "Kottayam",
+      "name": "Vaikom",
       "coords": [
-        76.5167,
-        9.59024
+        76.39573,
+        9.75714
       ]
     },
     {
-      "name": "Chengannur",
+      "name": "Arattukulangara",
       "coords": [
-        76.61638,
-        9.31909
+        76.38983,
+        9.74955
       ]
     }
   ],

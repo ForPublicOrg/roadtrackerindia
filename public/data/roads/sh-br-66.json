@@ -1,0 +1,42 @@
+{
+  "id": "sh-br-66",
+  "ref": "SH 66",
+  "name": "Supaul–Madhepura State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 28,
+  "route": {
+    "start": "Supaul, Bihar",
+    "end": "Madhepura, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Supaul",
+      "Madhepura"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Supaul",
+      "coords": [
+        86.59552,
+        26.11546
+      ]
+    },
+    {
+      "name": "Madhepura",
+      "coords": [
+        86.79343,
+        25.98606
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

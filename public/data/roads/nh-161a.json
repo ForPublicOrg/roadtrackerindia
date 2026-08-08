@@ -1,33 +1,40 @@
 {
   "id": "nh-161a",
   "ref": "NH 161A",
-  "name": "Chikkapeta–Akot National Highway",
+  "name": "Aurad–Akot National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 552.4,
+  "lengthKm": 552.9,
   "route": {
-    "start": "Chikkapeta, Karnataka",
+    "start": "Aurad, Karnataka",
     "end": "Akot, Maharashtra",
     "states": [
-      "Karnataka",
-      "Maharashtra"
+      "Maharashtra",
+      "Karnataka"
     ],
     "majorCities": [
-      "Chikkapeta",
+      "Aurad",
       "Bidar",
       "Mukhed",
       "Nanded",
       "Bhokar",
       "Kinwat",
+      "Arni",
       "Digras",
-      "Mangrul Pir",
       "Akola",
       "Akot"
     ]
   },
   "waypoints": [
     {
-      "name": "Chikkapeta",
+      "name": "Aurad",
+      "coords": [
+        77.39523,
+        18.36924
+      ]
+    },
+    {
+      "name": "Bidar",
       "coords": [
         77.51321,
         17.9373
@@ -52,6 +59,13 @@
       "coords": [
         77.32714,
         19.12902
+      ]
+    },
+    {
+      "name": "Mudkhed",
+      "coords": [
+        77.50772,
+        19.15153
       ]
     },
     {
@@ -90,6 +104,13 @@
       ]
     },
     {
+      "name": "Manora",
+      "coords": [
+        77.54986,
+        20.21906
+      ]
+    },
+    {
       "name": "Mangrul Pir",
       "coords": [
         77.34079,
@@ -101,13 +122,6 @@
       "coords": [
         77.003,
         20.71315
-      ]
-    },
-    {
-      "name": "Pati",
-      "coords": [
-        77.00249,
-        20.87272
       ]
     },
     {

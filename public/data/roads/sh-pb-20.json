@@ -1,19 +1,20 @@
 {
   "id": "sh-pb-20",
   "ref": "SH 20",
-  "name": "Dharamkot–Fazilka State Highway",
+  "name": "Firozpur Cantonment–Fazilka State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 149.5,
+  "lengthKm": 150.7,
   "route": {
-    "start": "Dharamkot, Punjab",
+    "start": "Firozpur Cantonment, Punjab",
     "end": "Fazilka, Punjab",
     "states": [
       "Punjab"
     ],
     "majorCities": [
-      "Dharamkot",
       "Firozpur Cantonment",
+      "Dharamkot",
+      "Kot Ise Khan",
       "Firozpur",
       "Jalalabad",
       "Fazilka"
@@ -21,10 +22,17 @@
   },
   "waypoints": [
     {
+      "name": "Firozpur Cantonment",
+      "coords": [
+        74.63017,
+        30.92834
+      ]
+    },
+    {
       "name": "Dharamkot",
       "coords": [
-        75.23344,
-        30.93628
+        75.22497,
+        30.94282
       ]
     },
     {
@@ -42,13 +50,6 @@
       ]
     },
     {
-      "name": "Guru Har Sahai",
-      "coords": [
-        74.38301,
-        30.75425
-      ]
-    },
-    {
       "name": "Jalalabad",
       "coords": [
         74.2542,
@@ -58,8 +59,8 @@
     {
       "name": "Fazilka",
       "coords": [
-        74.03199,
-        30.39702
+        74.03213,
+        30.39487
       ]
     }
   ],

@@ -1,26 +1,32 @@
 {
   "id": "nh-352",
   "ref": "NH 352",
-  "name": "Narwana–Rewari National Highway",
+  "name": "Rohtak–Rewari National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 187.2,
+  "lengthKm": 196.3,
   "route": {
-    "start": "Narwana, Haryana",
+    "start": "Rohtak, Haryana",
     "end": "Rewari, Haryana",
     "states": [
       "Haryana"
     ],
     "majorCities": [
+      "Rohtak",
       "Narwana",
       "Jind",
       "Julana",
-      "Rohtak",
-      "Jhajjar",
       "Rewari"
     ]
   },
   "waypoints": [
+    {
+      "name": "Rohtak",
+      "coords": [
+        76.46334,
+        28.9178
+      ]
+    },
     {
       "name": "Narwana",
       "coords": [
@@ -47,13 +53,6 @@
       "coords": [
         76.57808,
         28.89718
-      ]
-    },
-    {
-      "name": "Jhajjar",
-      "coords": [
-        76.67377,
-        28.61928
       ]
     },
     {

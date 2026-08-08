@@ -1,26 +1,42 @@
 {
   "id": "sh-mh-30",
   "ref": "SH 30",
-  "name": "Panchavati–Yeola State Highway",
+  "name": "Dahanu–Paithan State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 78.9,
+  "lengthKm": 186.4,
   "route": {
-    "start": "Panchavati, Maharashtra",
-    "end": "Yeola, Maharashtra",
+    "start": "Dahanu, Maharashtra",
+    "end": "Paithan, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
-      "Panchavati",
+      "Dahanu",
+      "Jawhar",
       "Nashik",
-      "Niphad",
-      "Yeola"
+      "Nashik Road",
+      "Chhatrapati Sambhajinagar",
+      "Paithan"
     ]
   },
   "waypoints": [
     {
-      "name": "Panchavati",
+      "name": "Dahanu",
+      "coords": [
+        72.723,
+        19.98606
+      ]
+    },
+    {
+      "name": "Jawhar",
+      "coords": [
+        73.18166,
+        19.88134
+      ]
+    },
+    {
+      "name": "Nashik",
       "coords": [
         73.81021,
         20.01079
@@ -34,10 +50,17 @@
       ]
     },
     {
-      "name": "Yeola",
+      "name": "Chhatrapati Sambhajinagar",
       "coords": [
-        74.48405,
-        20.04313
+        75.30214,
+        19.85485
+      ]
+    },
+    {
+      "name": "Paithan",
+      "coords": [
+        75.3883,
+        19.49054
       ]
     }
   ],

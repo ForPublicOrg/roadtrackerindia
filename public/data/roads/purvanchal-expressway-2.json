@@ -1,0 +1,46 @@
+{
+  "id": "purvanchal-expressway-2",
+  "ref": "NH",
+  "name": "Purvanchal Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 3,
+  "route": {
+    "start": "Kurebhar, Uttar Pradesh",
+    "end": "Sultanpur, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Kurebhar",
+      "Sultanpur"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Kurebhar",
+      "coords": [
+        82.26683,
+        26.35151
+      ]
+    },
+    {
+      "name": "Sultanpur",
+      "coords": [
+        82.26012,
+        26.36559
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

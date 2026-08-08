@@ -1,17 +1,19 @@
 {
   "id": "sh-mh-60",
   "ref": "SH 60",
-  "name": "Vile Bhagad MIDC–Murud State Highway",
+  "name": "Shivajinagar–Murud State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 70,
+  "lengthKm": 81,
   "route": {
-    "start": "Vile Bhagad MIDC, Maharashtra",
+    "start": "Shivajinagar, Maharashtra",
     "end": "Murud, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
+      "Shivajinagar",
+      "Pune",
       "Vile Bhagad MIDC",
       "Roha",
       "Murud"
@@ -19,10 +21,31 @@
   },
   "waypoints": [
     {
+      "name": "Shivajinagar",
+      "coords": [
+        73.84287,
+        18.52819
+      ]
+    },
+    {
+      "name": "Pune",
+      "coords": [
+        73.84776,
+        18.52233
+      ]
+    },
+    {
+      "name": "Bavdhan",
+      "coords": [
+        73.7903,
+        18.50832
+      ]
+    },
+    {
       "name": "Vile Bhagad MIDC",
       "coords": [
-        73.36136,
-        18.41256
+        73.33931,
+        18.40316
       ]
     },
     {

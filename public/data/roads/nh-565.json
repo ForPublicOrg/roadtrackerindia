@@ -1,72 +1,100 @@
 {
   "id": "nh-565",
   "ref": "NH 565",
-  "name": "Panagal–Yerpedu National Highway",
+  "name": "Yerpedu–Panagal National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 486.3,
+  "lengthKm": 493.6,
   "route": {
-    "start": "Panagal, Telangana",
-    "end": "Yerpedu, Andhra Pradesh",
+    "start": "Yerpedu, Andhra Pradesh",
+    "end": "Panagal, Telangana",
     "states": [
-      "Telangana",
-      "Andhra Pradesh"
+      "Andhra Pradesh",
+      "Telangana"
     ],
     "majorCities": [
-      "Panagal",
-      "Nalgonda",
-      "Macherla",
-      "Yerragonda Palem",
-      "Markapur",
-      "Kanigiri",
-      "Pamuru",
-      "Kaluvaya",
-      "Rapur",
+      "Yerpedu",
       "Venkatagiri",
-      "Yerpedu"
+      "Rapur",
+      "Ananthasagaram",
+      "Pamuru",
+      "Kanigiri",
+      "Markapur",
+      "Yerragonda Palem",
+      "Macherla",
+      "Nalgonda",
+      "Panagal"
     ]
   },
   "waypoints": [
     {
-      "name": "Panagal",
+      "name": "Yerpedu",
       "coords": [
-        79.30839,
-        17.15776
+        79.59401,
+        13.6937
       ]
     },
     {
-      "name": "Nalgonda",
+      "name": "Venkatagiri",
       "coords": [
-        79.26763,
-        17.04837
+        79.59771,
+        13.96343
       ]
     },
     {
-      "name": "Macherla",
+      "name": "Rapur",
       "coords": [
-        79.42452,
-        16.47322
+        79.52918,
+        14.20034
       ]
     },
     {
-      "name": "Veldurthi",
+      "name": "Kaluvaya",
       "coords": [
-        79.32657,
-        16.29075
+        79.3713,
+        14.50755
       ]
     },
     {
-      "name": "Yerragonda Palem",
+      "name": "Ananthasagaram",
       "coords": [
-        79.30728,
-        16.02497
+        79.36447,
+        14.53855
       ]
     },
     {
-      "name": "Peda Araveedu",
+      "name": "Gopavaram",
       "coords": [
-        79.259,
-        15.79984
+        79.19288,
+        14.69201
+      ]
+    },
+    {
+      "name": "Duttaluru",
+      "coords": [
+        79.40623,
+        14.85652
+      ]
+    },
+    {
+      "name": "Pamuru",
+      "coords": [
+        79.41978,
+        15.08856
+      ]
+    },
+    {
+      "name": "Kanigiri",
+      "coords": [
+        79.50211,
+        15.40482
+      ]
+    },
+    {
+      "name": "Podili",
+      "coords": [
+        79.53516,
+        15.56923
       ]
     },
     {
@@ -77,66 +105,45 @@
       ]
     },
     {
-      "name": "Podili",
+      "name": "Peda Araveedu",
       "coords": [
-        79.53162,
-        15.57618
+        79.26346,
+        15.80965
       ]
     },
     {
-      "name": "Kanigiri",
+      "name": "Yerragonda Palem",
       "coords": [
-        79.50126,
-        15.40723
+        79.30608,
+        16.04402
       ]
     },
     {
-      "name": "Pamuru",
+      "name": "Veldurthi",
       "coords": [
-        79.41978,
-        15.09172
+        79.37412,
+        16.35067
       ]
     },
     {
-      "name": "Duttaluru",
+      "name": "Macherla",
       "coords": [
-        79.40632,
-        14.85729
+        79.42675,
+        16.4619
       ]
     },
     {
-      "name": "Gopavaram",
+      "name": "Nalgonda",
       "coords": [
-        79.18908,
-        14.68733
+        79.26529,
+        17.05261
       ]
     },
     {
-      "name": "Kaluvaya",
+      "name": "Panagal",
       "coords": [
-        79.37049,
-        14.51376
-      ]
-    },
-    {
-      "name": "Rapur",
-      "coords": [
-        79.52845,
-        14.20465
-      ]
-    },
-    {
-      "name": "Venkatagiri",
-      "coords": [
-        79.59291,
-        13.96661
-      ]
-    },
-    {
-      "name": "Yerpedu",
-      "coords": [
-        79.59401,
-        13.6937
+        79.30839,
+        17.15776
       ]
     }
   ],

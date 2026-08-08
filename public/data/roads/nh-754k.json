@@ -1,27 +1,27 @@
 {
   "id": "nh-754k",
   "ref": "NH 754K",
-  "name": "Jasol–Lalgarh National Highway",
+  "name": "Tharad–Lalgarh National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 1365.4,
+  "lengthKm": 1085.1,
   "route": {
-    "start": "Jasol, Rajasthan",
+    "start": "Tharad, Gujarat",
     "end": "Lalgarh, Rajasthan",
     "states": [
-      "Rajasthan",
       "Gujarat",
+      "Rajasthan",
       "Haryana"
     ],
     "majorCities": [
-      "Jasol",
-      "Balotra",
-      "Sanchore",
       "Tharad",
-      "Bagoda",
+      "Sanchore",
+      "Gudha Malani",
+      "Balotra",
       "Panchoo",
       "Napasar",
       "Hanumangarh",
+      "Sangariya",
       "Suratgarh",
       "Lunkaransar",
       "Lalgarh"
@@ -29,10 +29,24 @@
   },
   "waypoints": [
     {
-      "name": "Jasol",
+      "name": "Tharad",
       "coords": [
-        72.23275,
-        25.79041
+        71.1414,
+        23.7457
+      ]
+    },
+    {
+      "name": "Sanchore",
+      "coords": [
+        71.78071,
+        24.74896
+      ]
+    },
+    {
+      "name": "Chitalwana",
+      "coords": [
+        71.68546,
+        24.9809
       ]
     },
     {
@@ -43,31 +57,24 @@
       ]
     },
     {
-      "name": "Sanchore",
+      "name": "Balotra",
       "coords": [
-        71.77885,
-        24.76535
-      ]
-    },
-    {
-      "name": "Tharad",
-      "coords": [
-        71.64453,
-        24.39954
-      ]
-    },
-    {
-      "name": "Bagoda",
-      "coords": [
-        72.03727,
-        25.21965
+        72.22324,
+        25.77518
       ]
     },
     {
       "name": "Panchoo",
       "coords": [
-        73.19947,
-        27.50842
+        73.20033,
+        27.50987
+      ]
+    },
+    {
+      "name": "Deshnoke",
+      "coords": [
+        73.36463,
+        27.76334
       ]
     },
     {
@@ -87,8 +94,8 @@
     {
       "name": "Mandi Dabwali",
       "coords": [
-        74.75298,
-        29.9501
+        74.75161,
+        29.9616
       ]
     },
     {
@@ -101,8 +108,8 @@
     {
       "name": "Dabli Rathan",
       "coords": [
-        74.19236,
-        29.54425
+        74.20617,
+        29.55465
       ]
     },
     {
@@ -115,15 +122,15 @@
     {
       "name": "Suratgarh",
       "coords": [
-        73.90492,
-        29.30757
+        73.88738,
+        29.31542
       ]
     },
     {
       "name": "Lunkaransar",
       "coords": [
-        73.7556,
-        28.50852
+        73.75632,
+        28.51036
       ]
     },
     {

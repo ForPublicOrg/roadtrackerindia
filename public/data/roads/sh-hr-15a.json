@@ -1,0 +1,58 @@
+{
+  "id": "sh-hr-15a",
+  "ref": "SH 15A",
+  "name": "Shivaji Nagar–Jhajjar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 44.7,
+  "route": {
+    "start": "Shivaji Nagar, Haryana",
+    "end": "Jhajjar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Shivaji Nagar",
+      "Gurgaon",
+      "Farrukhnagar",
+      "Jhajjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Shivaji Nagar",
+      "coords": [
+        77.02647,
+        28.45929
+      ]
+    },
+    {
+      "name": "Sector 102",
+      "coords": [
+        76.96815,
+        28.46975
+      ]
+    },
+    {
+      "name": "Farrukhnagar",
+      "coords": [
+        76.83912,
+        28.45646
+      ]
+    },
+    {
+      "name": "Jhajjar",
+      "coords": [
+        76.65928,
+        28.60257
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,13 +1,13 @@
 {
   "id": "sh-wb-11",
   "ref": "SH 11",
-  "name": "Siuri–Cossimbazar State Highway",
+  "name": "Siuri–Ranaghat State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 85.5,
+  "lengthKm": 112.8,
   "route": {
     "start": "Siuri, West Bengal",
-    "end": "Cossimbazar, West Bengal",
+    "end": "Ranaghat, West Bengal",
     "states": [
       "West Bengal"
     ],
@@ -16,7 +16,8 @@
       "Sainthia",
       "Kandi",
       "Berhampore",
-      "Cossimbazar"
+      "Krishnanagar",
+      "Ranaghat"
     ]
   },
   "waypoints": [
@@ -49,10 +50,24 @@
       ]
     },
     {
-      "name": "Cossimbazar",
+      "name": "Murshidabad",
       "coords": [
         88.29314,
         24.12419
+      ]
+    },
+    {
+      "name": "Krishnanagar",
+      "coords": [
+        88.49525,
+        23.39384
+      ]
+    },
+    {
+      "name": "Ranaghat",
+      "coords": [
+        88.55857,
+        23.18123
       ]
     }
   ],

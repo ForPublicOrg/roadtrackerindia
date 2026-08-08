@@ -152,11 +152,23 @@ const nearestPlace = (pt, { radiusKm = 60, exclude = null } = {}) => {
         const p = places[idx]
         if (exclude && p.n.toLowerCase() === exclude.toLowerCase()) continue
         const d = haversineKm(pt, p.c)
+        // radiusKm sized the search box; it has to bound the answer too, or a
+        // road's endpoint gets named after a town in the next state
+        if (d > radiusKm) continue
         if (!best || d < best.d) best = { d, p }
       }
     }
   }
   return best?.p ?? null
+}
+
+/**
+ * "Place, State" for an endpoint. The state is taken from where the *place*
+ * is, not from where the road ends — otherwise a town just over a border gets
+ * labelled with the neighbouring state's name.
+ */
+function endpointLabel(place, fallbackState) {
+  return `${place.n}, ${stateAt(place.c) ?? fallbackState}`
 }
 
 // ── road file assembly ───────────────────────────────────────────────
@@ -224,20 +236,32 @@ function build(route) {
   const cities = pickAlong(along, targetCityCount(km), km).map((p) => p.n)
 
   const last = coords[coords.length - 1]
-  const startPlace = nearestPlace(coords[0]) ?? along[0]
+  // A ring road ends where it starts. Forcing a second, different town onto
+  // that same point would claim the road runs between two places when it runs
+  // between one and itself.
+  const isRing = coords.length > 4 && km >= 5 && haversineKm(coords[0], last) < 1
+
+  const startPlace = nearestPlace(coords[0], { radiusKm: 45 }) ?? along[0]
   // A short road often has the same town nearest to both ends. Naming it twice
   // says nothing, so the far end falls back to the nearest *different* place.
-  let endPlace = nearestPlace(last) ?? along[along.length - 1]
-  if (startPlace && endPlace && endPlace.n === startPlace.n) {
+  let endPlace = nearestPlace(last, { radiusKm: 45 }) ?? along[along.length - 1]
+  if (!isRing && startPlace && endPlace && endPlace.n === startPlace.n) {
     endPlace = nearestPlace(last, { radiusKm: 90, exclude: startPlace.n }) ?? endPlace
   }
   if (!startPlace || !endPlace) return null
-  const startState = stateAt(coords[0]) ?? stateList[0]
-  const endState = stateAt(last) ?? stateList[stateList.length - 1]
-  const start = `${startPlace.n}, ${startState}`
-  const end = `${endPlace.n}, ${endState}`
+  const start = endpointLabel(startPlace, stateAt(coords[0]) ?? stateList[0])
+  const end = isRing
+    ? start
+    : endpointLabel(endPlace, stateAt(last) ?? stateList[stateList.length - 1])
 
   const majorCities = [...new Set([startPlace.n, ...cities, endPlace.n])]
+  if (majorCities.length < 2) {
+    // a ring, or a road whose whole length sits beside one town — name the
+    // next nearest place from its midpoint so there is something to steer by
+    const mid = coords[Math.floor(coords.length / 2)]
+    const other = nearestPlace(mid, { radiusKm: 60, exclude: startPlace.n })
+    if (other) majorCities.push(other.n)
+  }
   if (majorCities.length < 2) return null
 
   // waypoints: real places along the route, endpoints always included
@@ -267,7 +291,9 @@ function build(route) {
   const ref = named ? (route.class ?? classOf(route)) : route.ref
   const name = named
     ? route.ref
-    : `${startPlace.n}–${endPlace.n} ${CLASS_LABEL[route.category] ?? 'road'}`
+    : isRing
+      ? `${startPlace.n} ring road`
+      : `${startPlace.n}–${endPlace.n} ${CLASS_LABEL[route.category] ?? 'road'}`
 
   const road = {
     id: route.id,
@@ -323,11 +349,23 @@ for (const f of readdirSync(ROADS_DIR)) {
 }
 console.log(`${authored.size} hand-authored or enriched roads will be preserved.`)
 
-const stats = { written: 0, geometry: 0, skippedAuthored: 0, tooShort: 0, empty: 0, noPlace: 0 }
+const stats = {
+  written: 0, geometry: 0, skippedAuthored: 0, tooShort: 0, empty: 0, noPlace: 0, unreadable: 0,
+}
+
 let pointTotal = 0
 
 for (const file of routeFiles) {
-  const route = JSON.parse(readFileSync(cachePath('routes', file), 'utf8'))
+  if (!file.endsWith('.json')) continue
+  let route
+  try {
+    route = JSON.parse(readFileSync(cachePath('routes', file), 'utf8'))
+  } catch (e) {
+    // one truncated cache file must not abort a 7,700-road run
+    console.log(`  ! ${file}: unreadable cache entry (${e.code ?? e.name}) — re-fetch this road`)
+    stats.unreadable++
+    continue
+  }
   if (!route.coords?.length || route.lengthKm <= 0) {
     stats.empty++
     continue
@@ -337,16 +375,21 @@ for (const file of routeFiles) {
     continue
   }
 
-  // the display alignment: ~30 m fidelity is far more than the map can show
-  const line = simplify(route.coords, 0.03)
-  pointTotal += line.length
-  if (!DRY) {
-    writeFileSync(
-      join(GEOM_DIR, `${route.id}.json`),
-      JSON.stringify({ type: 'Polyline', precision: 5, lengthKm: route.lengthKm, data: encodePolyline(line) }),
-    )
+  // The alignment is written even for hand-authored roads — a real OSM shape
+  // beats a waypoint polyline for them too — but never over a curated one in
+  // the legacy directory, which build-data reads first for exactly that reason.
+  if (!existsSync(join(LEGACY_GEOM_DIR, `${route.id}.json`))) {
+    // the display alignment: ~30 m fidelity is far more than the map can show
+    const line = simplify(route.coords, 0.03)
+    pointTotal += line.length
+    if (!DRY) {
+      writeFileSync(
+        join(GEOM_DIR, `${route.id}.json`),
+        JSON.stringify({ type: 'Polyline', precision: 5, lengthKm: route.lengthKm, data: encodePolyline(line) }),
+      )
+    }
+    stats.geometry++
   }
-  stats.geometry++
 
   const target = join(ROADS_DIR, `${route.id}.json`)
   if (authored.has(route.id)) {

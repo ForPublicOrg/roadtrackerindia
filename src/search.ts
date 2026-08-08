@@ -112,16 +112,21 @@ interface Terms {
   name: string
   sname: string
   aka: string[]
+  /** ref is just a road class ("MDR", "SH") with no number to identify it */
+  classOnly: boolean
 }
+const CLASS_ONLY_REF = /^(nh|sh|ne|mdr|odr|scr|expressway|road)$/
 const terms = new WeakMap<RoadSummary, Terms>()
 function termsFor(road: RoadSummary): Terms {
   let t = terms.get(road)
   if (!t) {
+    const ref = squash(road.ref)
     t = {
-      ref: squash(road.ref),
+      ref,
       name: norm(road.name),
       sname: squash(road.name),
       aka: (road.aka ?? []).map(squash),
+      classOnly: CLASS_ONLY_REF.test(ref),
     }
     terms.set(road, t)
   }
@@ -146,8 +151,11 @@ function compute(q: string): Result[] {
   for (const road of state.roads) {
     let score = 0
     const t = termsFor(road)
-    if (t.ref === sq) score = 100
-    else if (t.ref.startsWith(sq)) score = 80
+    // A named road with no number carries the bare class as its badge ("MDR").
+    // Treating that as an exact ref match would let 2,000 unnumbered stubs
+    // outrank NH 44 for the query "nh" — the commonest search on the site.
+    if (t.ref === sq) score = t.classOnly ? 30 : 100
+    else if (t.ref.startsWith(sq)) score = t.classOnly ? 25 : 80
     else if (t.name.startsWith(q)) score = 72
     else if (t.sname.includes(sq)) score = 55
     else if (t.aka.some((a) => a.includes(sq))) score = 50

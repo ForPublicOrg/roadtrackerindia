@@ -268,7 +268,7 @@ function group(relations) {
  * start a new chain; the chains are then joined nearest-first, so a road with
  * real gaps in OSM still comes out as one drawable line.
  */
-function stitch(segments, maxGapKm = 12) {
+function stitch(segments, maxBridgeKm = MAX_BRIDGE_KM, maxGapKm = 12) {
   const segs = segments.filter((s) => s.length > 1).sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
   const chains = []
   while (segs.length) {
@@ -298,10 +298,15 @@ function stitch(segments, maxGapKm = 12) {
     chains.push(chain)
   }
 
-  // join the leftover chains nearest-first, tracking how much is bridged
+  // Join the leftover chains nearest-first. A real road mapped in pieces has
+  // small gaps between them; a big gap means the pieces are not the same road,
+  // and drawing a straight line across it invents geography AND counts that
+  // line as road length. So bridging is capped, and whatever cannot be reached
+  // within the cap is handed back as a separate piece rather than absorbed.
   chains.sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
   let line = chains.shift() ?? []
   let bridged = 0
+  const orphans = []
   while (chains.length) {
     const head = line[0]
     const tail = line[line.length - 1]
@@ -318,13 +323,71 @@ function stitch(segments, maxGapKm = 12) {
     }
     if (best.i === -1) break
     const seg = chains.splice(best.i, 1)[0]
-    // a tiny stray chain across a huge gap is noise, not road — drop it
-    if (best.d > 40 && lineLengthKm(seg) < best.d) continue
+    if (best.d > maxBridgeKm) {
+      orphans.push(seg)
+      continue
+    }
     bridged += best.d
     const oriented = best.rev ? [...seg].reverse() : seg
     line = best.where === 'tail' ? line.concat(oriented) : oriented.concat(line)
   }
-  return { line, bridged }
+  return { line, bridged, orphans }
+}
+
+/**
+ * How far a straight line may be drawn between two mapped pieces of the same
+ * road. Real OSM gaps are junctions and unmapped village stretches — a few
+ * kilometres. Beyond this the pieces are almost always different roads that
+ * happen to share a name or number.
+ */
+const MAX_BRIDGE_KM = 6
+
+/**
+ * Assemble one road's ways into its cached alignment.
+ *
+ * `lengthKm` is the road we actually have — the bridges drawn between mapped
+ * pieces are subtracted, because a straight line across a gap is not road and
+ * publishing it as such overstated 248 roads (one Kerala state highway by 164 km).
+ *
+ * A numbered road is trusted to be one road even where OSM maps it in pieces,
+ * so its gaps are bridged generously — NH 44 is genuinely NH 44 either side of
+ * an unmapped stretch, and refusing to join them threw away a thousand
+ * kilometres of real highway. A *named* road has no number to trust: two
+ * relations both called "Temple Road" in the same state are two different
+ * roads, so their pieces are emitted as separate entries instead of being
+ * welded into one fictional 32 km road.
+ */
+function assembleRoad(road, ways) {
+  const segments = dedupeWays(ways)
+  if (!segments.length) return []
+  const named = road.named === true
+  const { line, bridged, orphans } = stitch(segments, named ? 4 : 100)
+  const out = []
+
+  const push = (coords, bridgedKm, suffix) => {
+    const km = lineLengthKm(coords) - bridgedKm
+    if (coords.length < 2 || km < 0.5) return
+    out.push({
+      ...road,
+      id: suffix ? `${road.id}-${suffix}` : road.id,
+      coords: simplify(coords, 0.02).map(([x, y]) => [round5(x), round5(y)]),
+      lengthKm: Math.round(km * 10) / 10,
+      bridgedKm: Math.round(bridgedKm * 10) / 10,
+    })
+  }
+
+  push(line, bridged, null)
+  if (named) {
+    // each stranded piece is its own road, largest first
+    orphans.sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
+    let n = 2
+    for (const piece of orphans) {
+      if (lineLengthKm(piece) < 1) continue // a stub, not a road
+      push(piece, 0, n++)
+      if (n > 6) break // a name this ambiguous is not worth chasing further
+    }
+  }
+  return out
 }
 
 /**
@@ -428,23 +491,18 @@ async function runBulk(all) {
   let empty = 0
   let failed = 0
   let done = 0
+  let split = 0
 
   const write = (road, ways) => {
-    const segments = dedupeWays(ways)
-    const { line, bridged } = segments.length ? stitch(segments) : { line: [], bridged: 0 }
-    const lengthKm = line.length > 1 ? lineLengthKm(line) : 0
-    if (lengthKm < 0.5) {
+    const parts = assembleRoad(road, ways)
+    if (!parts.length) {
       empty++
       writeCache({ ...road, coords: [], lengthKm: 0, empty: true }, 'routes', `${road.id}.json`)
       return
     }
-    const coords = simplify(line, 0.02).map(([x, y]) => [round5(x), round5(y)])
-    writeCache(
-      { ...road, coords, lengthKm: Math.round(lengthKm * 10) / 10, bridgedKm: Math.round(bridged * 10) / 10 },
-      'routes',
-      `${road.id}.json`,
-    )
+    for (const part of parts) writeCache(part, 'routes', `${part.id}.json`)
     ok++
+    if (parts.length > 1) split += parts.length - 1
   }
 
   // Chunks are built from whole roads, never split mid-road: every relation a
@@ -498,7 +556,10 @@ async function runBulk(all) {
     await flush()
   }
 
-  console.log(`\n✓ bulk: ${ok} alignments cached, ${empty} empty, ${failed} failed.`)
+  console.log(
+    `\n✓ bulk: ${ok} alignments cached${split ? ` (+${split} pieces split off ambiguous names)` : ''}, ` +
+      `${empty} empty, ${failed} failed.`,
+  )
 }
 
 // ── main ─────────────────────────────────────────────────────────────
@@ -565,20 +626,15 @@ async function fetchBatch(batch, depth = 0) {
 
   for (const road of batch) {
     done++
-    const segments = collectWays(road.relationIds.filter((id) => byId.has(id)).map((id) => byId.get(id)))
-    const { line, bridged } = segments.length ? stitch(segments) : { line: [], bridged: 0 }
-    const lengthKm = line.length > 1 ? lineLengthKm(line) : 0
-    if (lengthKm < 0.5) {
+    const rels = road.relationIds.filter((id) => byId.has(id)).map((id) => byId.get(id))
+    // collectWays already dedupes; assembleRoad dedupes again harmlessly
+    const parts = assembleRoad(road, collectWays(rels))
+    if (!parts.length) {
       empty++
       writeCache({ ...road, coords: [], lengthKm: 0, empty: true }, 'routes', `${road.id}.json`)
       continue
     }
-    const coords = simplify(line, 0.02).map(([x, y]) => [round5(x), round5(y)])
-    writeCache(
-      { ...road, coords, lengthKm: Math.round(lengthKm * 10) / 10, bridgedKm: Math.round(bridged * 10) / 10 },
-      'routes',
-      `${road.id}.json`,
-    )
+    for (const part of parts) writeCache(part, 'routes', `${part.id}.json`)
     ok++
   }
 }

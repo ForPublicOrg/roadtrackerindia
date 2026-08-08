@@ -1,27 +1,43 @@
 {
   "id": "sh-mh-217",
   "ref": "SH 217",
-  "name": "Ahmadpur–Udgir State Highway",
+  "name": "Washim–Udgir State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 81.7,
+  "lengthKm": 156.9,
   "route": {
-    "start": "Ahmadpur, Maharashtra",
-    "end": "Udgir, Karnataka",
+    "start": "Washim, Maharashtra",
+    "end": "Udgir, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
-      "Ahmadpur",
+      "Washim",
+      "Sengaon",
+      "Jintur",
       "Udgir"
     ]
   },
   "waypoints": [
     {
-      "name": "Ahmadpur",
+      "name": "Washim",
       "coords": [
-        76.77021,
-        18.73551
+        77.14539,
+        19.96985
+      ]
+    },
+    {
+      "name": "Sengaon",
+      "coords": [
+        76.89044,
+        19.79565
+      ]
+    },
+    {
+      "name": "Jintur",
+      "coords": [
+        76.68822,
+        19.60545
       ]
     },
     {

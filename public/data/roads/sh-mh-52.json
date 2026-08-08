@@ -1,34 +1,34 @@
 {
   "id": "sh-mh-52",
   "ref": "SH 52",
-  "name": "Junnar–Ozhar State Highway",
+  "name": "Ozhar–Junnar State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 30.1,
+  "lengthKm": 30.9,
   "route": {
-    "start": "Junnar, Maharashtra",
-    "end": "Ozhar, Maharashtra",
+    "start": "Ozhar, Maharashtra",
+    "end": "Junnar, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
-      "Junnar",
-      "Ozhar"
+      "Ozhar",
+      "Junnar"
     ]
   },
   "waypoints": [
-    {
-      "name": "Junnar",
-      "coords": [
-        73.82038,
-        19.2918
-      ]
-    },
     {
       "name": "Ozhar",
       "coords": [
         73.97408,
         19.11779
+      ]
+    },
+    {
+      "name": "Junnar",
+      "coords": [
+        73.87469,
+        19.20416
       ]
     }
   ],

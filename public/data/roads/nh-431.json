@@ -1,49 +1,49 @@
 {
   "id": "nh-431",
   "ref": "NH 431",
-  "name": "Barh–Fatwah National Highway",
+  "name": "Fatwah–Barh National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 70,
+  "lengthKm": 69.9,
   "route": {
-    "start": "Barh, Bihar",
-    "end": "Fatwah, Bihar",
+    "start": "Fatwah, Bihar",
+    "end": "Barh, Bihar",
     "states": [
       "Bihar"
     ],
     "majorCities": [
-      "Barh",
+      "Fatwah",
       "Chandi",
-      "Fatwah"
+      "Barh"
     ]
   },
   "waypoints": [
     {
-      "name": "Barh",
+      "name": "Fatwah",
       "coords": [
-        85.70098,
-        25.46774
-      ]
-    },
-    {
-      "name": "Chandi",
-      "coords": [
-        85.40369,
-        25.3324
+        85.29806,
+        25.51023
       ]
     },
     {
       "name": "Nagarnausa",
       "coords": [
-        85.34614,
-        25.39426
+        85.34462,
+        25.39767
       ]
     },
     {
-      "name": "Fatwah",
+      "name": "Chandi",
       "coords": [
-        85.29951,
-        25.50786
+        85.39926,
+        25.33231
+      ]
+    },
+    {
+      "name": "Barh",
+      "coords": [
+        85.70098,
+        25.46774
       ]
     }
   ],

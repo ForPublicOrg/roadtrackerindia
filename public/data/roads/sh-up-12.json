@@ -1,20 +1,22 @@
 {
   "id": "sh-up-12",
   "ref": "SH 12",
-  "name": "Dhampur–Police Line State Highway",
+  "name": "Dhampur–Kairana State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 47.6,
+  "lengthKm": 75,
   "route": {
     "start": "Dhampur, Uttar Pradesh",
-    "end": "Police Line, Uttar Pradesh",
+    "end": "Kairana, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
       "Dhampur",
       "Bijnor",
-      "Police Line"
+      "Police Line",
+      "Shamli",
+      "Kairana"
     ]
   },
   "waypoints": [
@@ -33,10 +35,17 @@
       ]
     },
     {
-      "name": "Police Line",
+      "name": "Shamli",
       "coords": [
-        78.12345,
-        29.39023
+        77.30532,
+        29.44788
+      ]
+    },
+    {
+      "name": "Kairana",
+      "coords": [
+        77.1444,
+        29.3896
       ]
     }
   ],

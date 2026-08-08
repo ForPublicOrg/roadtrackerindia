@@ -1,28 +1,34 @@
 {
   "id": "nh-167b",
   "ref": "NH 167B",
-  "name": "Mydukuru–Singarayakonda National Highway",
+  "name": "Chandrasekharapuram–Singarayakonda National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 190.6,
+  "lengthKm": 193,
   "route": {
-    "start": "Mydukuru, Andhra Pradesh",
+    "start": "Chandrasekharapuram, Andhra Pradesh",
     "end": "Singarayakonda, Andhra Pradesh",
     "states": [
       "Andhra Pradesh"
     ],
     "majorCities": [
+      "Chandrasekharapuram",
       "Mydukuru",
+      "Brahmamgari Matam",
       "Porumamilla",
       "Seetharamapuram",
-      "Chandrasekharapuram",
-      "Pamuru",
-      "Voletivaripalem",
       "Kandukur",
       "Singarayakonda"
     ]
   },
   "waypoints": [
+    {
+      "name": "Chandrasekharapuram",
+      "coords": [
+        79.28679,
+        15.17169
+      ]
+    },
     {
       "name": "Mydukuru",
       "coords": [
@@ -49,27 +55,6 @@
       "coords": [
         79.13959,
         15.01702
-      ]
-    },
-    {
-      "name": "Chandrasekharapuram",
-      "coords": [
-        79.27038,
-        15.17723
-      ]
-    },
-    {
-      "name": "Pamuru",
-      "coords": [
-        79.41685,
-        15.09446
-      ]
-    },
-    {
-      "name": "Voletivaripalem",
-      "coords": [
-        79.72584,
-        15.16869
       ]
     },
     {

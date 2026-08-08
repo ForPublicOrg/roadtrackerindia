@@ -1,26 +1,33 @@
 {
   "id": "sh-rj-2",
   "ref": "SH 2",
-  "name": "Kuchaman–Dausa State Highway",
+  "name": "Laxmangarh–Dausa State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 224.7,
+  "lengthKm": 255.8,
   "route": {
-    "start": "Kuchaman, Rajasthan",
+    "start": "Laxmangarh, Rajasthan",
     "end": "Dausa, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
+      "Laxmangarh",
       "Kuchaman",
+      "Nawa",
       "Sambhar",
-      "Phulera",
-      "Phagi",
-      "Chaksu",
+      "Dudu",
       "Dausa"
     ]
   },
   "waypoints": [
+    {
+      "name": "Laxmangarh",
+      "coords": [
+        75.01381,
+        27.8191
+      ]
+    },
     {
       "name": "Kuchaman",
       "coords": [
@@ -45,8 +52,8 @@
     {
       "name": "Narayana",
       "coords": [
-        75.2049,
-        26.78759
+        75.20007,
+        26.79029
       ]
     },
     {
@@ -68,20 +75,6 @@
       "coords": [
         75.56044,
         26.57918
-      ]
-    },
-    {
-      "name": "Chaksu",
-      "coords": [
-        75.94359,
-        26.608
-      ]
-    },
-    {
-      "name": "Lawan",
-      "coords": [
-        76.20631,
-        26.76966
       ]
     },
     {

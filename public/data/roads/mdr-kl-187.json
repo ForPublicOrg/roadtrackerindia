@@ -1,27 +1,35 @@
 {
   "id": "mdr-kl-187",
   "ref": "MDR 187",
-  "name": "Thriprayar–Chavakkad District road",
+  "name": "Kalady–Chavakkad District road",
   "category": "district",
   "status": "operational",
-  "lengthKm": 18.9,
+  "lengthKm": 21.1,
   "route": {
-    "start": "Thriprayar, Kerala",
+    "start": "Kalady, Kerala",
     "end": "Chavakkad, Kerala",
     "states": [
       "Kerala"
     ],
     "majorCities": [
+      "Kalady",
       "Thriprayar",
       "Chavakkad"
     ]
   },
   "waypoints": [
     {
+      "name": "Kalady",
+      "coords": [
+        76.47523,
+        10.18551
+      ]
+    },
+    {
       "name": "Thriprayar",
       "coords": [
-        76.1294,
-        10.37919
+        76.11109,
+        10.41404
       ]
     },
     {

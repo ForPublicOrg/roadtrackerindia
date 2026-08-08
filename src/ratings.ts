@@ -4,6 +4,8 @@ import { toast } from './ui'
 const STAR =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.95 5.98 6.6.96-4.78 4.66 1.13 6.58L12 17.57l-5.9 3.11 1.13-6.58L2.45 9.44l6.6-.96Z" fill="currentColor"/></svg>'
 
+const errCode = (e: unknown): string | undefined => (e as { code?: string })?.code
+
 export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<void> {
   let store
   try {
@@ -15,8 +17,8 @@ export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<
   let mine: number | null = null
   try {
     mine = await store.getMyRating(roadId)
-  } catch {
-    /* ignore */
+  } catch (e) {
+    console.warn('[ratings] could not read your rating —', errCode(e) ?? e)
   }
 
   el.innerHTML = `
@@ -43,7 +45,15 @@ export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<
   }
 
   const setSummaryText = async () => {
-    const sum = await store.getRatingSummary(roadId).catch(() => null)
+    let sum: Awaited<ReturnType<typeof store.getRatingSummary>>
+    try {
+      sum = await store.getRatingSummary(roadId)
+    } catch (e) {
+      // never claim "be the first" for a road we merely failed to read
+      console.warn('[ratings] summary unavailable —', errCode(e) ?? e)
+      note.textContent = "Community ratings can't be loaded right now."
+      return
+    }
     note.textContent = sum
       ? `Community: ${sum.avg.toFixed(1)} ★ from ${sum.count} rating${sum.count > 1 ? 's' : ''}`
       : mine !== null
@@ -55,14 +65,25 @@ export async function renderRatingRow(el: HTMLElement, roadId: string): Promise<
   el.querySelectorAll<HTMLButtonElement>('[data-stars]').forEach((b) =>
     b.addEventListener('click', async () => {
       const stars = Number(b.dataset.stars)
+      const prev = mine
       mine = stars
       paint(stars)
       try {
         await store.setRating(roadId, stars)
         toast(`You rated this road ${stars} star${stars > 1 ? 's' : ''}.`)
         void setSummaryText()
-      } catch {
-        toast("Couldn't save your rating — try again.")
+      } catch (e) {
+        // the optimistic paint above must not survive a failed write, or a
+        // rejected rating looks saved until the next reload
+        mine = prev
+        paint(prev)
+        const code = errCode(e)
+        console.warn('[ratings] save failed —', code ?? e)
+        toast(
+          code === 'permission-denied'
+            ? "Ratings aren't being accepted right now — this site's Firestore rules need publishing (docs/FIREBASE.md step 4)."
+            : "Couldn't save your rating — try again.",
+        )
       }
     }),
   )

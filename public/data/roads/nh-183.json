@@ -1,35 +1,55 @@
 {
   "id": "nh-183",
   "ref": "NH 183",
-  "name": "Neeravil–Begambur National Highway",
+  "name": "Kottayam–Begambur National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 336.2,
+  "lengthKm": 339,
   "route": {
-    "start": "Neeravil, Kerala",
+    "start": "Kottayam, Kerala",
     "end": "Begambur, Tamil Nadu",
     "states": [
       "Kerala",
       "Tamil Nadu"
     ],
     "majorCities": [
-      "Neeravil",
+      "Kottayam",
+      "Thengana",
       "Kollam",
       "Kozhencherry",
-      "Kottayam",
+      "Kanjirappalli",
       "Vandiperiyar",
-      "Kumily",
-      "Theni",
       "Dindigul",
       "Begambur"
     ]
   },
   "waypoints": [
     {
-      "name": "Neeravil",
+      "name": "Kottayam",
+      "coords": [
+        76.52313,
+        9.58537
+      ]
+    },
+    {
+      "name": "Thengana",
+      "coords": [
+        76.5451,
+        9.4518
+      ]
+    },
+    {
+      "name": "Kollam",
       "coords": [
         76.59539,
         8.92255
+      ]
+    },
+    {
+      "name": "Anchalummood",
+      "coords": [
+        76.60723,
+        8.93407
       ]
     },
     {
@@ -40,17 +60,17 @@
       ]
     },
     {
-      "name": "Mavelikkara",
-      "coords": [
-        76.58491,
-        9.24872
-      ]
-    },
-    {
       "name": "Kozhencherry",
       "coords": [
         76.62575,
         9.30463
+      ]
+    },
+    {
+      "name": "Thiruvalla",
+      "coords": [
+        76.57793,
+        9.39038
       ]
     },
     {
@@ -68,10 +88,10 @@
       ]
     },
     {
-      "name": "Pampady",
+      "name": "Vazhoor",
       "coords": [
-        76.64577,
-        9.56303
+        76.70252,
+        9.56642
       ]
     },
     {
@@ -79,13 +99,6 @@
       "coords": [
         76.79366,
         9.55971
-      ]
-    },
-    {
-      "name": "Elappara",
-      "coords": [
-        76.97075,
-        9.58234
       ]
     },
     {
@@ -103,6 +116,13 @@
       ]
     },
     {
+      "name": "Kumily",
+      "coords": [
+        77.16969,
+        9.60916
+      ]
+    },
+    {
       "name": "Cumbum",
       "coords": [
         77.2757,
@@ -114,34 +134,6 @@
       "coords": [
         77.34027,
         9.80121
-      ]
-    },
-    {
-      "name": "Min Arasu Nagar",
-      "coords": [
-        77.44178,
-        9.97228
-      ]
-    },
-    {
-      "name": "Theni",
-      "coords": [
-        77.46347,
-        10.01828
-      ]
-    },
-    {
-      "name": "Devadānappatti",
-      "coords": [
-        77.63929,
-        10.14154
-      ]
-    },
-    {
-      "name": "Batlagundu",
-      "coords": [
-        77.76316,
-        10.17717
       ]
     },
     {

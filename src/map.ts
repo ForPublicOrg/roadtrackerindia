@@ -23,7 +23,7 @@ let map: maplibregl.Map
 let networkFC: NetworkFC | null = null
 let detailFC: NetworkFC | null = null
 let detailRequested = false
-let detailNeededCb: () => void = () => {}
+let detailNeededCb: (() => void) | null = null
 let selectedShape: ShapeFeature | null = null
 let selectedCategory: Category = 'nh'
 let dimmed = false
@@ -390,8 +390,17 @@ export function onDetailNetworkNeeded(cb: () => void): void {
   maybeRequestDetail()
 }
 
+/** The loader failed — let the next zoom try again instead of giving up forever. */
+export function detailNetworkFailed(): void {
+  detailRequested = false
+}
+
 function maybeRequestDetail(): void {
-  if (detailRequested || !map || map.getZoom() < DETAIL_ZOOM) return
+  // The zoom listeners are wired during initMap, before main.ts has handed us
+  // the loader. Burning the one-shot flag here would disable the whole detail
+  // tier for the session, silently — so wait until there is something to call.
+  if (detailNeededCb === null || detailRequested || !map) return
+  if (map.getZoom() < DETAIL_ZOOM) return
   detailRequested = true
   detailNeededCb()
 }

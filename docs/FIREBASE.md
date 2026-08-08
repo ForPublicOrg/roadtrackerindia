@@ -88,8 +88,33 @@ Rebuild/redeploy the site. The app detects the config automatically:
   server-side aggregate queries, so reads stay tiny.
 - The rules cap note length and coordinates; deleting spam is possible from the
   Firebase console (Firestore Database → Data → `reports`).
-- If the site grows, add App Check (reCAPTCHA v3) in the Firebase console for
-  bot protection — no code changes needed here beyond enabling enforcement.
+- If the site grows, add App Check (reCAPTCHA v3) for bot protection. This **does**
+  need a code change: the app must call `initializeAppCheck()` with a
+  `ReCaptchaV3Provider` before any Firestore call. Turning on *enforcement* in the
+  console without that ships a client with no App Check token, and Firestore then
+  rejects **every** read and write with `PERMISSION_DENIED` — regardless of your
+  security rules. Register the provider first, confirm requests succeed, and only
+  then switch the Firestore API from "Unenforced" to "Enforced".
+
+## Troubleshooting `PERMISSION_DENIED` (403)
+
+`{"code": 403, "message": "Missing or insufficient permissions."}` on reports or
+ratings almost always means the rules **in force on the project** are not the ones
+in `firestore.rules`. Note that `/ratings` grants `allow read: if true`, so a denied
+*read* proves the rules were never published (a Production-mode database starts at
+`allow read, write: if false`).
+
+Narrow it down — open the browser console (the app now logs `[ratings] …` with the
+Firebase error code) and try filing a pothole report:
+
+| Symptom | Cause | Fix |
+| --- | --- | --- |
+| Reports work, ratings 403 | published rules predate the `/ratings` block | redo step 4 — paste the **whole** current `firestore.rules` |
+| Reports *and* ratings 403 | rules never published, or App Check enforced with no client SDK | redo step 4; then check App Check → APIs → Cloud Firestore reads **Unenforced** |
+| `[storage] community features disabled` | config/auth problem, not rules | the logged reason names the exact fix |
+
+After **Publish** in the console, rules propagate in a few seconds — reload the page
+rather than assuming the change failed.
 
 ## Known limitations to be aware of
 

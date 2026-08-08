@@ -1,0 +1,42 @@
+{
+  "id": "sh-hr-123",
+  "ref": "SH 123",
+  "name": "Khaira–Jhajjar State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 19.2,
+  "route": {
+    "start": "Khaira, Delhi",
+    "end": "Jhajjar, Haryana",
+    "states": [
+      "Haryana"
+    ],
+    "majorCities": [
+      "Khaira",
+      "Jhajjar"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Khaira",
+      "coords": [
+        76.84237,
+        28.56263
+      ]
+    },
+    {
+      "name": "Jhajjar",
+      "coords": [
+        76.6634,
+        28.60506
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

@@ -1,43 +1,29 @@
 {
   "id": "nh-751",
   "ref": "NH 751",
-  "name": "Bhavnagar–Sarkhej National Highway",
+  "name": "Sarkhej–Bhavnagar National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 154.6,
   "route": {
-    "start": "Bhavnagar, Gujarat",
-    "end": "Sarkhej, Gujarat",
+    "start": "Sarkhej, Gujarat",
+    "end": "Bhavnagar, Gujarat",
     "states": [
       "Gujarat"
     ],
     "majorCities": [
-      "Bhavnagar",
-      "Dholera",
+      "Sarkhej",
       "Dholka",
-      "Sarkhej"
+      "Dholera",
+      "Bhavnagar"
     ]
   },
   "waypoints": [
     {
-      "name": "Bhavnagar",
+      "name": "Sarkhej",
       "coords": [
-        72.08287,
-        21.73332
-      ]
-    },
-    {
-      "name": "Dholera SIR",
-      "coords": [
-        72.17478,
-        22.23575
-      ]
-    },
-    {
-      "name": "Dholera",
-      "coords": [
-        72.19164,
-        22.25156
+        72.49747,
+        22.93609
       ]
     },
     {
@@ -48,10 +34,24 @@
       ]
     },
     {
-      "name": "Sarkhej",
+      "name": "Dholera",
       "coords": [
-        72.49747,
-        22.93609
+        72.19164,
+        22.25156
+      ]
+    },
+    {
+      "name": "Dholera SIR",
+      "coords": [
+        72.17478,
+        22.23575
+      ]
+    },
+    {
+      "name": "Bhavnagar",
+      "coords": [
+        72.08143,
+        21.74898
       ]
     }
   ],

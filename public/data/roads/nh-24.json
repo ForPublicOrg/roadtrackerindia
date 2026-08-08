@@ -1,33 +1,33 @@
 {
   "id": "nh-24",
   "ref": "NH 24",
-  "name": "Saiyad Raja–Sonauli National Highway",
+  "name": "Mau–Sonauli National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 307.2,
+  "lengthKm": 307.1,
   "route": {
-    "start": "Saiyad Raja, Uttar Pradesh",
+    "start": "Mau, Uttar Pradesh",
     "end": "Sonauli, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Saiyad Raja",
-      "Chandauli",
-      "Ghazipur",
       "Mau",
+      "Chandauli",
+      "Zamania",
+      "Ghazipur",
+      "Kopaganj",
       "Dohrighat",
       "Gorakhpur",
-      "Anand Nagar",
       "Sonauli"
     ]
   },
   "waypoints": [
     {
-      "name": "Saiyad Raja",
+      "name": "Mau",
       "coords": [
-        83.36116,
-        25.24905
+        83.56572,
+        25.9231
       ]
     },
     {
@@ -45,24 +45,10 @@
       ]
     },
     {
-      "name": "Mainpur",
-      "coords": [
-        83.5638,
-        25.5132
-      ]
-    },
-    {
       "name": "Ghazipur",
       "coords": [
         83.59476,
         25.59721
-      ]
-    },
-    {
-      "name": "Mau",
-      "coords": [
-        83.53103,
-        25.94815
       ]
     },
     {
@@ -80,6 +66,13 @@
       ]
     },
     {
+      "name": "Barhalganj",
+      "coords": [
+        83.49703,
+        26.30393
+      ]
+    },
+    {
       "name": "Gorakhpur",
       "coords": [
         83.33159,
@@ -87,31 +80,17 @@
       ]
     },
     {
-      "name": "Sahjanwa",
-      "coords": [
-        83.25583,
-        26.75355
-      ]
-    },
-    {
       "name": "Anand Nagar",
       "coords": [
-        83.28155,
-        27.11017
-      ]
-    },
-    {
-      "name": "Kolhui",
-      "coords": [
-        83.33472,
-        27.29488
+        83.28337,
+        27.10882
       ]
     },
     {
       "name": "Sonauli",
       "coords": [
-        83.46909,
-        27.47373
+        83.46981,
+        27.47592
       ]
     }
   ],

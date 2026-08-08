@@ -145,20 +145,20 @@ export class CloudStore implements UserStore {
     return snap.exists() ? ((snap.data() as { stars: number }).stars ?? null) : null
   }
 
+  /** Rejects if the aggregate can't be read — callers must not render that as
+   *  "no ratings yet". `permission-denied` here is diagnostic rather than
+   *  transient: firestore.rules grants `allow read: if true` on /ratings, so a
+   *  denial means the rules in force aren't this repo's (docs/FIREBASE.md #4). */
   async getRatingSummary(roadId: string): Promise<RatingSummary | null> {
-    try {
-      const { average, collection, count, getAggregateFromServer, query, where } = await import(
-        'firebase/firestore'
-      )
-      const snap = await getAggregateFromServer(
-        query(collection(this.db, 'ratings'), where('roadId', '==', roadId)),
-        { count: count(), avg: average('stars') },
-      )
-      const { count: c, avg } = snap.data()
-      if (!c || avg == null) return null
-      return { avg, count: c }
-    } catch {
-      return null
-    }
+    const { average, collection, count, getAggregateFromServer, query, where } = await import(
+      'firebase/firestore'
+    )
+    const snap = await getAggregateFromServer(
+      query(collection(this.db, 'ratings'), where('roadId', '==', roadId)),
+      { count: count(), avg: average('stars') },
+    )
+    const { count: c, avg } = snap.data()
+    if (!c || avg == null) return null
+    return { avg, count: c }
   }
 }

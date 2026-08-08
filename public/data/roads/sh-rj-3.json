@@ -1,13 +1,13 @@
 {
   "id": "sh-rj-3",
   "ref": "SH 3",
-  "name": "Sri Ganganagar–Bikaner State Highway",
+  "name": "Sri Ganganagar–Poogal State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 271.6,
+  "lengthKm": 272.6,
   "route": {
     "start": "Sri Ganganagar, Rajasthan",
-    "end": "Bikaner, Rajasthan",
+    "end": "Poogal, Rajasthan",
     "states": [
       "Rajasthan"
     ],
@@ -15,7 +15,8 @@
       "Sri Ganganagar",
       "Raisinghnagar",
       "Anupgarh",
-      "Bikaner"
+      "Bikaner",
+      "Poogal"
     ]
   },
   "waypoints": [
@@ -64,8 +65,15 @@
     {
       "name": "Bikaner",
       "coords": [
-        73.29335,
-        28.02493
+        73.29235,
+        28.02762
+      ]
+    },
+    {
+      "name": "Poogal",
+      "coords": [
+        73.12911,
+        28.61225
       ]
     }
   ],

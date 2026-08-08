@@ -1,17 +1,21 @@
 {
   "id": "sh-rj-16",
   "ref": "SH 16",
-  "name": "Jalore–Jat Colony State Highway",
+  "name": "Amet–Jat Colony State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 134.5,
+  "lengthKm": 196.7,
   "route": {
-    "start": "Jalore, Rajasthan",
+    "start": "Amet, Rajasthan",
     "end": "Jat Colony, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
+      "Amet",
+      "Desuri",
+      "Sadri",
+      "Falna",
       "Jalore",
       "Sayla",
       "Jat Colony"
@@ -19,10 +23,45 @@
   },
   "waypoints": [
     {
+      "name": "Amet",
+      "coords": [
+        73.7837,
+        25.28167
+      ]
+    },
+    {
+      "name": "Desuri",
+      "coords": [
+        73.57175,
+        25.27943
+      ]
+    },
+    {
+      "name": "Sadri",
+      "coords": [
+        73.4531,
+        25.18402
+      ]
+    },
+    {
+      "name": "Bali",
+      "coords": [
+        73.29015,
+        25.19342
+      ]
+    },
+    {
+      "name": "Falna",
+      "coords": [
+        73.24071,
+        25.23546
+      ]
+    },
+    {
       "name": "Jalore",
       "coords": [
-        72.56759,
-        25.44458
+        72.60447,
+        25.36365
       ]
     },
     {

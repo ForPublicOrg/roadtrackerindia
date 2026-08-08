@@ -1,21 +1,21 @@
 {
   "id": "sh-gj-34",
   "ref": "SH 34",
-  "name": "Jafarabad–Savarkundla State Highway",
+  "name": "Jafarabad–Chital State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 51.3,
+  "lengthKm": 82.6,
   "route": {
     "start": "Jafarabad, Gujarat",
-    "end": "Savarkundla, Gujarat",
+    "end": "Chital, Gujarat",
     "states": [
       "Gujarat"
     ],
     "majorCities": [
       "Jafarabad",
-      "Pipavav",
       "Rajula",
-      "Savarkundla"
+      "Amreli",
+      "Chital"
     ]
   },
   "waypoints": [
@@ -41,10 +41,17 @@
       ]
     },
     {
-      "name": "Savarkundla",
+      "name": "Amreli",
       "coords": [
-        71.34294,
-        21.26173
+        71.21757,
+        21.60753
+      ]
+    },
+    {
+      "name": "Chital",
+      "coords": [
+        71.29981,
+        21.84241
       ]
     }
   ],

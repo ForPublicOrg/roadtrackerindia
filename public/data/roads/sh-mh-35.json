@@ -1,21 +1,21 @@
 {
   "id": "sh-mh-35",
   "ref": "SH 35",
-  "name": "Karjat–Kalyan-Dombivli State Highway",
+  "name": "Karjat–Wada State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 47.6,
+  "lengthKm": 70,
   "route": {
     "start": "Karjat, Maharashtra",
-    "end": "Kalyan-Dombivli, Maharashtra",
+    "end": "Wada, Maharashtra",
     "states": [
       "Maharashtra"
     ],
     "majorCities": [
       "Karjat",
-      "Neral",
       "Kulgaon Badlapur",
-      "Kalyan-Dombivli"
+      "Kalyan-Dombivli",
+      "Wada"
     ]
   },
   "waypoints": [
@@ -27,10 +27,10 @@
       ]
     },
     {
-      "name": "Neral",
+      "name": "Matheran",
       "coords": [
-        73.31164,
-        19.02445
+        73.31444,
+        19.01773
       ]
     },
     {
@@ -41,17 +41,24 @@
       ]
     },
     {
-      "name": "Ambernath",
+      "name": "Ulhasnagar",
       "coords": [
-        73.20443,
-        19.20291
+        73.16818,
+        19.22332
       ]
     },
     {
       "name": "Kalyan-Dombivli",
       "coords": [
-        73.13698,
-        19.23824
+        73.14004,
+        19.23635
+      ]
+    },
+    {
+      "name": "Wada",
+      "coords": [
+        73.14345,
+        19.65204
       ]
     }
   ],

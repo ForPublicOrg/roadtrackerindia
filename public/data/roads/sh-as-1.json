@@ -1,13 +1,13 @@
 {
   "id": "sh-as-1",
   "ref": "SH 1",
-  "name": "Dergaon–Garhgaon State Highway",
+  "name": "Dergaon–Tengapani State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 122.4,
+  "lengthKm": 174.4,
   "route": {
     "start": "Dergaon, Assam",
-    "end": "Garhgaon, Assam",
+    "end": "Tengapani, Arunachal Pradesh",
     "states": [
       "Assam"
     ],
@@ -17,7 +17,8 @@
       "Mariani",
       "Amguri",
       "Nazira",
-      "Garhgaon"
+      "Namrup",
+      "Tengapani"
     ]
   },
   "waypoints": [
@@ -64,10 +65,17 @@
       ]
     },
     {
-      "name": "Garhgaon",
+      "name": "Namrup",
       "coords": [
-        94.74326,
-        26.92723
+        95.35589,
+        27.19385
+      ]
+    },
+    {
+      "name": "Tengapani",
+      "coords": [
+        95.88758,
+        27.84886
       ]
     }
   ],

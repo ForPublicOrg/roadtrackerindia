@@ -1,34 +1,34 @@
 {
   "id": "sh-tn-124",
   "ref": "SH 124",
-  "name": "Gangadharanellore–Thiruvalam State Highway",
+  "name": "Thiruvalam–Gangadharanellore State Highway",
   "category": "sh",
   "status": "operational",
   "lengthKm": 16.4,
   "route": {
-    "start": "Gangadharanellore, Tamil Nadu",
-    "end": "Thiruvalam, Tamil Nadu",
+    "start": "Thiruvalam, Tamil Nadu",
+    "end": "Gangadharanellore, Andhra Pradesh",
     "states": [
       "Tamil Nadu"
     ],
     "majorCities": [
-      "Gangadharanellore",
-      "Thiruvalam"
+      "Thiruvalam",
+      "Gangadharanellore"
     ]
   },
   "waypoints": [
-    {
-      "name": "Gangadharanellore",
-      "coords": [
-        79.25318,
-        13.12171
-      ]
-    },
     {
       "name": "Thiruvalam",
       "coords": [
         79.26154,
         12.9902
+      ]
+    },
+    {
+      "name": "Gangadharanellore",
+      "coords": [
+        79.25318,
+        13.12171
       ]
     }
   ],

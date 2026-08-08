@@ -1,27 +1,49 @@
 {
   "id": "sh-or-10",
   "ref": "SH 10",
-  "name": "Chhend–Sambalpur State Highway",
+  "name": "Joda–Jharsuguda State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 170.4,
+  "lengthKm": 197.5,
   "route": {
-    "start": "Chhend, Odisha",
-    "end": "Sambalpur, Odisha",
+    "start": "Joda, Odisha",
+    "end": "Jharsuguda, Odisha",
     "states": [
       "Odisha"
     ],
     "majorCities": [
+      "Joda",
+      "Barbil",
       "Chhend",
       "Rajgangpur",
       "Bargaon",
       "Sundargarh",
-      "Jharsuguda",
-      "Rengali",
-      "Sambalpur"
+      "Sambalpur",
+      "Jharsuguda"
     ]
   },
   "waypoints": [
+    {
+      "name": "Joda",
+      "coords": [
+        85.38381,
+        22.05713
+      ]
+    },
+    {
+      "name": "Barbil",
+      "coords": [
+        85.38566,
+        22.11797
+      ]
+    },
+    {
+      "name": "Gua",
+      "coords": [
+        85.40779,
+        22.16395
+      ]
+    },
     {
       "name": "Chhend",
       "coords": [
@@ -51,24 +73,17 @@
       ]
     },
     {
-      "name": "Jharsuguda",
-      "coords": [
-        83.99816,
-        21.85536
-      ]
-    },
-    {
-      "name": "Rengali",
-      "coords": [
-        84.04426,
-        21.62394
-      ]
-    },
-    {
       "name": "Sambalpur",
       "coords": [
         83.97671,
         21.47091
+      ]
+    },
+    {
+      "name": "Jharsuguda",
+      "coords": [
+        84.03529,
+        21.92938
       ]
     }
   ],

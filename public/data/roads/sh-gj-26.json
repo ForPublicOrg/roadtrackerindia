@@ -1,29 +1,51 @@
 {
   "id": "sh-gj-26",
   "ref": "SH 26",
-  "name": "Dhoraji–Veraval State Highway",
+  "name": "Jamnagar–Veraval State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 126.1,
+  "lengthKm": 173.9,
   "route": {
-    "start": "Dhoraji, Gujarat",
+    "start": "Jamnagar, Gujarat",
     "end": "Veraval, Gujarat",
     "states": [
       "Gujarat"
     ],
     "majorCities": [
+      "Jamnagar",
+      "Kalavad",
       "Dhoraji",
       "Junagadh",
-      "Mendarda",
       "Veraval"
     ]
   },
   "waypoints": [
     {
+      "name": "Jamnagar",
+      "coords": [
+        70.06892,
+        22.47326
+      ]
+    },
+    {
+      "name": "Kalavad",
+      "coords": [
+        70.3791,
+        22.2157
+      ]
+    },
+    {
       "name": "Dhoraji",
       "coords": [
-        70.45749,
-        21.74787
+        70.44927,
+        21.73366
+      ]
+    },
+    {
+      "name": "Dolatpara",
+      "coords": [
+        70.46405,
+        21.55749
       ]
     },
     {
@@ -38,13 +60,6 @@
       "coords": [
         70.44033,
         21.32571
-      ]
-    },
-    {
-      "name": "talala",
-      "coords": [
-        70.53571,
-        21.06196
       ]
     },
     {

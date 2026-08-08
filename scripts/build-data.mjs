@@ -221,7 +221,10 @@ const hasRealGeometry = (id) =>
  * data/geometry/, or a plain LineString in the legacy public/data/geometry/.
  */
 function realGeometry(id) {
-  for (const dir of [GEOM_DIR, LEGACY_GEOM_DIR]) {
+  // Legacy first: public/data/geometry/ is the hand-placed override, and
+  // data/geometry/ is bulk-generated. The other order made a curated alignment
+  // (and `npm run fetch-geometry`) a silent no-op.
+  for (const dir of [LEGACY_GEOM_DIR, GEOM_DIR]) {
     const file = join(dir, `${id}.json`)
     if (!existsSync(file)) continue
     try {
@@ -629,10 +632,7 @@ for (const road of roads) {
     start: road.route.start,
     end: road.route.end,
     states: road.route.states,
-    // The index is downloaded before the map can draw anything, and every road
-    // in India is in it. Six places per road is enough to find it by city;
-    // the full list is in the road's own file, fetched when it is opened.
-    cities: road.route.majorCities.slice(0, 6),
+    cities: road.route.majorCities,
     bbox,
   }
   if (road.aka) row.aka = road.aka

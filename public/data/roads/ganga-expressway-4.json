@@ -1,0 +1,46 @@
+{
+  "id": "ganga-expressway-4",
+  "ref": "NE",
+  "name": "Ganga Expressway",
+  "category": "expressway",
+  "status": "operational",
+  "lengthKm": 1.8,
+  "route": {
+    "start": "Dalmau, Uttar Pradesh",
+    "end": "Raebareli, Uttar Pradesh",
+    "states": [
+      "Uttar Pradesh"
+    ],
+    "majorCities": [
+      "Dalmau",
+      "Raebareli"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Dalmau",
+      "coords": [
+        81.02571,
+        26.19279
+      ]
+    },
+    {
+      "name": "Raebareli",
+      "coords": [
+        81.03608,
+        26.19339
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NHAI — National Highways Authority of India",
+      "url": "https://nhai.gov.in/"
+    },
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

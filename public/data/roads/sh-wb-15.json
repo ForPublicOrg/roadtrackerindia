@@ -1,24 +1,23 @@
 {
   "id": "sh-wb-15",
   "ref": "SH 15",
-  "name": "Shibpur–Katwa State Highway",
+  "name": "Shibpur–Memari State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 298.4,
+  "lengthKm": 236.7,
   "route": {
     "start": "Shibpur, West Bengal",
-    "end": "Katwa, West Bengal",
+    "end": "Memari, West Bengal",
     "states": [
       "West Bengal"
     ],
     "majorCities": [
       "Shibpur",
+      "Mahishadal",
       "Tamluk",
-      "Bagnan",
       "Howrah",
-      "Dashghara",
-      "Memari",
-      "Katwa"
+      "Tarkeshwar",
+      "Memari"
     ]
   },
   "waypoints": [
@@ -30,24 +29,31 @@
       ]
     },
     {
-      "name": "Nurpur",
+      "name": "Mahishadal",
       "coords": [
-        88.04575,
-        22.21999
+        88.04085,
+        22.22203
       ]
     },
     {
       "name": "Tamluk",
       "coords": [
-        87.98614,
-        22.29975
+        87.98505,
+        22.30527
       ]
     },
     {
       "name": "Bagnan",
       "coords": [
-        87.97459,
-        22.46646
+        87.97044,
+        22.47064
+      ]
+    },
+    {
+      "name": "Domjur",
+      "coords": [
+        88.219,
+        22.63576
       ]
     },
     {
@@ -65,6 +71,13 @@
       ]
     },
     {
+      "name": "Tarkeshwar",
+      "coords": [
+        88.01453,
+        22.87733
+      ]
+    },
+    {
       "name": "Dashghara",
       "coords": [
         88.02865,
@@ -76,13 +89,6 @@
       "coords": [
         88.10068,
         23.17887
-      ]
-    },
-    {
-      "name": "Katwa",
-      "coords": [
-        88.16354,
-        23.59103
       ]
     }
   ],

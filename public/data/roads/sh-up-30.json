@@ -1,27 +1,35 @@
 {
   "id": "sh-up-30",
   "ref": "SH 30",
-  "name": "Gonda–Bahraich State Highway",
+  "name": "Mubarakpur–Bahraich State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 64,
+  "lengthKm": 88.7,
   "route": {
-    "start": "Gonda, Uttar Pradesh",
+    "start": "Mubarakpur, Uttar Pradesh",
     "end": "Bahraich, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Gonda",
+      "Mubarakpur",
+      "Akbarpur",
       "Bahraich"
     ]
   },
   "waypoints": [
     {
-      "name": "Gonda",
+      "name": "Mubarakpur",
       "coords": [
-        81.9685,
-        27.14567
+        82.77055,
+        26.45413
+      ]
+    },
+    {
+      "name": "Akbarpur",
+      "coords": [
+        82.53311,
+        26.42704
       ]
     },
     {

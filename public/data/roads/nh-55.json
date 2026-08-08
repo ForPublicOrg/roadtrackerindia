@@ -1,31 +1,38 @@
 {
   "id": "nh-55",
   "ref": "NH 55",
-  "name": "Jagatsinghpur–Sambalpur National Highway",
+  "name": "Choudwar–Sambalpur National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 339.7,
+  "lengthKm": 340.2,
   "route": {
-    "start": "Jagatsinghpur, Odisha",
+    "start": "Choudwar, Odisha",
     "end": "Sambalpur, Odisha",
     "states": [
       "Odisha"
     ],
     "majorCities": [
+      "Choudwar",
       "Jagatsinghpur",
       "Cuttack",
       "Athagad",
       "Biswanathpur",
-      "Rairakhol",
       "Sambalpur"
     ]
   },
   "waypoints": [
     {
+      "name": "Choudwar",
+      "coords": [
+        85.94199,
+        20.52505
+      ]
+    },
+    {
       "name": "Jagatsinghpur",
       "coords": [
-        86.19103,
-        20.11128
+        86.16798,
+        20.25536
       ]
     },
     {
@@ -39,7 +46,7 @@
       "name": "Choudwar",
       "coords": [
         85.90624,
-        20.52507
+        20.5251
       ]
     },
     {
@@ -68,13 +75,6 @@
       "coords": [
         85.10519,
         20.80841
-      ]
-    },
-    {
-      "name": "Rairakhol",
-      "coords": [
-        84.33634,
-        21.0716
       ]
     },
     {

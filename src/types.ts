@@ -233,5 +233,8 @@ export interface UserStore {
   getMyReports(): Promise<ReportItem[]>
   setRating(roadId: string, stars: number): Promise<void>
   getMyRating(roadId: string): Promise<number | null>
+  /** `null` means the road is genuinely unrated. A failed lookup rejects — the
+   *  two must stay distinguishable or the UI reports "no ratings yet" for a road
+   *  it simply could not read. */
   getRatingSummary(roadId: string): Promise<RatingSummary | null>
 }

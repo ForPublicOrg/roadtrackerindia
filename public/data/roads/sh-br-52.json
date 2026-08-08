@@ -1,0 +1,50 @@
+{
+  "id": "sh-br-52",
+  "ref": "SH 52",
+  "name": "Sitamarhi–Benipatti State Highway",
+  "category": "sh",
+  "status": "operational",
+  "lengthKm": 41,
+  "route": {
+    "start": "Sitamarhi, Bihar",
+    "end": "Benipatti, Bihar",
+    "states": [
+      "Bihar"
+    ],
+    "majorCities": [
+      "Sitamarhi",
+      "Pupri",
+      "Benipatti"
+    ]
+  },
+  "waypoints": [
+    {
+      "name": "Sitamarhi",
+      "coords": [
+        85.51023,
+        26.59268
+      ]
+    },
+    {
+      "name": "Pupri",
+      "coords": [
+        85.70155,
+        26.47434
+      ]
+    },
+    {
+      "name": "Benipatti",
+      "coords": [
+        85.82248,
+        26.41959
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ministry of Road Transport & Highways",
+      "url": "https://morth.nic.in/"
+    }
+  ],
+  "provenance": "osm"
+}

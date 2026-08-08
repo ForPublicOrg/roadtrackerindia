@@ -4,7 +4,7 @@
   "name": "Gangtok–Teesta Bazaar National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 146.3,
+  "lengthKm": 117.1,
   "route": {
     "start": "Gangtok, Sikkim",
     "end": "Teesta Bazaar, West Bengal",
@@ -14,9 +14,10 @@
     ],
     "majorCities": [
       "Gangtok",
+      "Singtam",
       "Kalimpong",
-      "Teesta Bazaar",
-      "Siliguri"
+      "Siliguri",
+      "Teesta Bazaar"
     ]
   },
   "waypoints": [
@@ -49,17 +50,17 @@
       ]
     },
     {
+      "name": "Teesta Bazaar",
+      "coords": [
+        88.42813,
+        27.065
+      ]
+    },
+    {
       "name": "Siliguri",
       "coords": [
         88.41403,
         26.73447
-      ]
-    },
-    {
-      "name": "Bagdogra",
-      "coords": [
-        88.36712,
-        26.71115
       ]
     },
     {

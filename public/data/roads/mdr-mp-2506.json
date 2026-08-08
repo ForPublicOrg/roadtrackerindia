@@ -1,27 +1,35 @@
 {
   "id": "mdr-mp-2506",
   "ref": "MDR 2506",
-  "name": "Nagda–Gangdhar District road",
+  "name": "Piploda–Gangdhar District road",
   "category": "district",
   "status": "operational",
-  "lengthKm": 18.4,
+  "lengthKm": 35.5,
   "route": {
-    "start": "Nagda, Madhya Pradesh",
-    "end": "Gangdhar, Madhya Pradesh",
+    "start": "Piploda, Madhya Pradesh",
+    "end": "Gangdhar, Rajasthan",
     "states": [
       "Madhya Pradesh"
     ],
     "majorCities": [
-      "Nagda",
+      "Piploda",
+      "Jaora",
       "Gangdhar"
     ]
   },
   "waypoints": [
     {
-      "name": "Nagda",
+      "name": "Piploda",
       "coords": [
-        75.51688,
-        23.61223
+        74.94839,
+        23.60882
+      ]
+    },
+    {
+      "name": "Jaora",
+      "coords": [
+        75.1109,
+        23.629
       ]
     },
     {

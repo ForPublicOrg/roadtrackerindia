@@ -1,29 +1,36 @@
 {
   "id": "nh-344g",
   "ref": "NH 344G",
-  "name": "Nagal–Baghpat National Highway",
+  "name": "Baghpat–Nagal National Highway",
   "category": "nh",
   "status": "operational",
-  "lengthKm": 119.1,
+  "lengthKm": 119.4,
   "route": {
-    "start": "Nagal, Uttar Pradesh",
-    "end": "Baghpat, Uttar Pradesh",
+    "start": "Baghpat, Uttar Pradesh",
+    "end": "Nagal, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Nagal",
-      "Thana Bhawan",
+      "Baghpat",
       "Baraut",
-      "Baghpat"
+      "Thana Bhawan",
+      "Nagal"
     ]
   },
   "waypoints": [
     {
-      "name": "Nagal",
+      "name": "Baghpat",
       "coords": [
-        77.58774,
-        29.88845
+        77.24884,
+        28.87851
+      ]
+    },
+    {
+      "name": "Baraut",
+      "coords": [
+        77.28681,
+        29.08498
       ]
     },
     {
@@ -34,17 +41,10 @@
       ]
     },
     {
-      "name": "Baraut",
+      "name": "Nagal",
       "coords": [
-        77.28746,
-        29.08629
-      ]
-    },
-    {
-      "name": "Baghpat",
-      "coords": [
-        77.25643,
-        28.94804
+        77.57331,
+        29.85862
       ]
     }
   ],

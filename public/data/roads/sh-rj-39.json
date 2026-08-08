@@ -1,20 +1,21 @@
 {
   "id": "sh-rj-39",
   "ref": "SH 39",
-  "name": "Mundwa–Merta City State Highway",
+  "name": "Mundwa–Gulabpura State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 62.2,
+  "lengthKm": 112.2,
   "route": {
     "start": "Mundwa, Rajasthan",
-    "end": "Merta City, Rajasthan",
+    "end": "Gulabpura, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
       "Mundwa",
-      "Merta Road",
-      "Merta City"
+      "Merta City",
+      "Beawar",
+      "Gulabpura"
     ]
   },
   "waypoints": [
@@ -37,6 +38,20 @@
       "coords": [
         74.03097,
         26.65144
+      ]
+    },
+    {
+      "name": "Beawar",
+      "coords": [
+        74.32239,
+        26.10485
+      ]
+    },
+    {
+      "name": "Gulabpura",
+      "coords": [
+        74.65847,
+        25.90939
       ]
     }
   ],

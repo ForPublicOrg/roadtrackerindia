@@ -1,34 +1,42 @@
 {
   "id": "sh-hr-26",
   "ref": "SH 26",
-  "name": "Rewari–Bawal State Highway",
+  "name": "Sector 8–Rewari State Highway",
   "category": "sh",
   "status": "operational",
-  "lengthKm": 7.7,
+  "lengthKm": 9.8,
   "route": {
-    "start": "Rewari, Haryana",
-    "end": "Bawal, Haryana",
+    "start": "Sector 8, Haryana",
+    "end": "Rewari, Haryana",
     "states": [
       "Haryana"
     ],
     "majorCities": [
-      "Rewari",
-      "Bawal"
+      "Sector 8",
+      "Gurgaon",
+      "Rewari"
     ]
   },
   "waypoints": [
     {
-      "name": "Rewari",
+      "name": "Sector 8",
       "coords": [
-        76.63067,
-        28.22728
+        77.01582,
+        28.45698
       ]
     },
     {
-      "name": "Bawal",
+      "name": "Sector 10",
       "coords": [
-        76.59583,
-        28.19433
+        77.00301,
+        28.4508
+      ]
+    },
+    {
+      "name": "Rewari",
+      "coords": [
+        76.61577,
+        28.20268
       ]
     }
   ],
