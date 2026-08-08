@@ -105,6 +105,26 @@ export interface RoadIndex {
   roads: RoadSummary[]
 }
 
+// ── places: where a city or a state is on the ground ────────────────
+
+/** `[name, minLng, minLat, maxLng, maxLat]` — packed, because there are 5,000. */
+export type PlaceExtent = [string, number, number, number, number]
+
+export interface PlaceIndex {
+  generated: string
+  cities: PlaceExtent[]
+  states: PlaceExtent[]
+}
+
+/** A city or state the map has been narrowed to. */
+export interface Area {
+  kind: 'city' | 'state'
+  name: string
+  bbox: BBox
+  /** Every catalogued road that passes through it — the ones left lit up. */
+  ids: string[]
+}
+
 // ── organisations: authorities, builders and operators ──────────────
 
 export type OrgType = 'authority' | 'pwd' | 'psu' | 'developer' | 'contractor' | 'operator'

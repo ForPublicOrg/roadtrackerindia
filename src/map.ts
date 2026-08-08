@@ -1,6 +1,6 @@
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import type { BBox, Category, NetworkFC, ShapeFeature } from './types'
+import type { BBox, Category, LngLat, NetworkFC, ShapeFeature } from './types'
 import { getTheme, MAP_COLORS, onThemeChange, type Theme } from './theme'
 import { buildStyle, fallbackStyle } from './mapstyle'
 import { cancelDraw, drawRoute, easeOutCubic, prefersReducedMotion } from './animate'
@@ -27,8 +27,14 @@ let detailNeededCb: (() => void) | null = null
 let selectedShape: ShapeFeature | null = null
 let selectedCategory: Category = 'nh'
 let dimmed = false
-/** Road ids to light up for an organisation, remembered until the layers exist. */
-let highlightIds: string[] | null = null
+/**
+ * The roads that stay in full colour while the rest of the country fades back:
+ * one organisation's work, or everything running through a chosen city. Held
+ * here because a style swap rebuilds every layer and has to repaint it.
+ */
+let focusIds: string[] | null = null
+/** An organisation also gets an accent line; an area keeps its road colours. */
+let focusAccent = false
 let hovered: { source: string; id: string } | null = null
 let usingFallbackStyle = false
 
@@ -368,7 +374,10 @@ export function addAppLayers(): void {
   })
 
   applyDim()
-  applyHighlight() // a company deep link may have asked for one before now
+  // a company deep link may have asked for a focus before the layers existed
+  applyFocusState()
+  applyAccent()
+  applyDetailZoom()
 }
 
 export function setNetworkData(fc: NetworkFC): void {
@@ -381,6 +390,7 @@ export function setDetailNetworkData(fc: NetworkFC): void {
   detailFC = fc
   const src = map.getSource('network-detail') as maplibregl.GeoJSONSource | undefined
   src?.setData(fc as never)
+  applyFocusState()
   applyDim()
 }
 
@@ -388,6 +398,16 @@ export function setDetailNetworkData(fc: NetworkFC): void {
 export function onDetailNetworkNeeded(cb: () => void): void {
   detailNeededCb = cb
   maybeRequestDetail()
+}
+
+/**
+ * Fetch the state/district tier now, whatever the zoom. Choosing a city has to
+ * count its small roads before the camera has finished arriving there.
+ */
+export function ensureDetailNetwork(): void {
+  if (detailNeededCb === null || detailRequested) return
+  detailRequested = true
+  detailNeededCb()
 }
 
 /** The loader failed — let the next zoom try again instead of giving up forever. */
@@ -485,17 +505,59 @@ export function setDimmed(v: boolean): void {
  * this is a filter change, not a download.
  */
 export function highlightRoads(ids: string[] | null): void {
-  highlightIds = ids?.length ? ids : null
-  applyHighlight()
-  setDimmed(!!highlightIds)
+  setFocus(ids, true)
 }
 
 /**
- * Deep-linking straight to a company page can ask for a highlight before the
- * style has loaded and the network layers exist. Remember what was asked for
- * and paint it here, which `addAppLayers` calls again once they do.
+ * Narrow the map to one city or state. Its roads keep their own colours and
+ * full weight; everything else recedes to a hint of where the network runs.
  */
-function applyHighlight(): void {
+export function focusArea(ids: string[] | null): void {
+  setFocus(ids, false)
+}
+
+function setFocus(ids: string[] | null, accent: boolean): void {
+  focusIds = ids?.length ? ids : null
+  focusAccent = focusIds !== null && accent
+  applyFocusState()
+  applyAccent()
+  applyDetailZoom() // after applyAccent, which is what creates its detail layer
+  applyDim()
+}
+
+/**
+ * A state fits on screen at about zoom 6.5, below where the state and district
+ * tier normally appears — so a focus, which is exactly the request to see one
+ * place's roads, brings that tier forward. Only far enough to cover a state:
+ * the whole country's minor roads at once would still be a wall of lines.
+ */
+function applyDetailZoom(): void {
+  const min = focusIds ? 6.2 : DETAIL_ZOOM
+  for (const layer of ['network-detail-casing', 'network-detail-line', 'network-detail-hit', 'org-highlight-detail']) {
+    if (map.getLayer(layer)) map.setLayerZoomRange(layer, min, 24)
+  }
+}
+
+/**
+ * Which roads are in focus is a per-feature question, so it is answered with
+ * feature state rather than a filter: a 2,000-id `in` expression would be
+ * re-evaluated against all 7,700 features every time the layer re-bucketed.
+ */
+function applyFocusState(): void {
+  for (const source of ['network', 'network-detail']) {
+    if (!map.getSource(source)) continue
+    map.removeFeatureState({ source }, 'focus')
+    if (!focusIds) continue
+    for (const id of focusIds) map.setFeatureState({ source, id }, { focus: true })
+  }
+}
+
+/**
+ * The accent line an organisation's roads get on top of their own colour.
+ * Deep-linking straight to a company page can ask for it before the style has
+ * loaded and the network layers exist, so `addAppLayers` calls this again.
+ */
+function applyAccent(): void {
   for (const [layer, source, minzoom] of [
     ['org-highlight', 'network', undefined],
     ['org-highlight-detail', 'network-detail', DETAIL_ZOOM],
@@ -517,25 +579,41 @@ function applyHighlight(): void {
     }
     map.setFilter(
       layer,
-      highlightIds
-        ? (['in', ['get', 'id'], ['literal', highlightIds]] as never)
+      focusIds && focusAccent
+        ? (['in', ['get', 'id'], ['literal', focusIds]] as never)
         : (['==', ['get', 'id'], ''] as never),
     )
   }
 }
 
+/**
+ * How far back everything that is not the answer fades. Low enough that the
+ * roads in focus are the only ones the eye picks up, high enough that the rest
+ * of the network still shows where it runs.
+ */
+const FADED = { line: 0.13, dashed: 0.12, casing: 0.14, detail: 0.1, label: 0.18 }
+
+/**
+ * Fading is per-road as soon as a focus exists, so a chosen city's roads stay
+ * bright while the country behind them drops away. With nothing chosen it is a
+ * flat wash over the whole network, sitting behind the selected road.
+ */
+function fade(full: number, faded: number): unknown {
+  if (focusIds) return ['case', ['boolean', ['feature-state', 'focus'], false], full, faded]
+  return dimmed ? faded : full
+}
+
 function applyDim(): void {
   if (!map.getLayer('network-line')) return
-  const lineOp = dimmed ? 0.3 : 1
-  map.setPaintProperty('network-line', 'line-opacity', lineOp)
-  map.setPaintProperty('network-line-dashed', 'line-opacity', dimmed ? 0.28 : 0.9)
-  map.setPaintProperty('network-casing', 'line-opacity', dimmed ? 0.4 : 0.85)
+  map.setPaintProperty('network-line', 'line-opacity', fade(1, FADED.line) as never)
+  map.setPaintProperty('network-line-dashed', 'line-opacity', fade(0.9, FADED.dashed) as never)
+  map.setPaintProperty('network-casing', 'line-opacity', fade(0.85, FADED.casing) as never)
   if (map.getLayer('network-detail-line')) {
-    map.setPaintProperty('network-detail-line', 'line-opacity', dimmed ? 0.22 : 0.92)
-    map.setPaintProperty('network-detail-casing', 'line-opacity', dimmed ? 0.3 : 0.8)
+    map.setPaintProperty('network-detail-line', 'line-opacity', fade(0.92, FADED.detail) as never)
+    map.setPaintProperty('network-detail-casing', 'line-opacity', fade(0.8, FADED.detail) as never)
   }
   if (map.getLayer('network-label'))
-    map.setPaintProperty('network-label', 'text-opacity', dimmed ? 0.45 : 1)
+    map.setPaintProperty('network-label', 'text-opacity', fade(1, FADED.label) as never)
 }
 
 // ── camera ─────────────────────────────────────────────────────────
@@ -550,29 +628,93 @@ function fitPaddingHome() {
     : { top: 84, bottom: 70, left: 26, right: 26 }
 }
 
-export function flyToRoad(bbox: BBox): void {
+/** Room for the panel, so what we frame does not open underneath it. */
+function fitPadding() {
   const w = map.getContainer().clientWidth
   const h = map.getContainer().clientHeight
-  const padding = isDesktop()
-    ? {
-        top: 100,
-        bottom: 70,
-        left: Math.min(464, Math.round(w * 0.45)),
-        right: 60,
-      }
+  return isDesktop()
+    ? { top: 100, bottom: 70, left: Math.min(464, Math.round(w * 0.45)), right: 60 }
     : { top: 86, bottom: Math.round(h * 0.42), left: 28, right: 28 }
-  map.fitBounds(
-    [
-      [bbox[0], bbox[1]],
-      [bbox[2], bbox[3]],
-    ],
-    {
-      padding,
-      duration: prefersReducedMotion() ? 0 : 1500,
-      easing: easeOutCubic,
-      maxZoom: 12.5,
-    },
-  )
+}
+
+/**
+ * What the panel is about to cover, in screen pixels. Narrower than the fit
+ * padding on a phone, where a road opens the sheet at its peek height rather
+ * than full — this is the strip that must stay clear, not a comfortable frame.
+ */
+function panelInset() {
+  const w = map.getContainer().clientWidth
+  return isDesktop()
+    ? { top: 92, bottom: 44, left: Math.min(452, Math.round(w * 0.45)), right: 28 }
+    : { top: 80, bottom: 216, left: 24, right: 24 }
+}
+
+const asBounds = (b: BBox): [[number, number], [number, number]] => [
+  [b[0], b[1]],
+  [b[2], b[3]],
+]
+
+export function flyToRoad(bbox: BBox): void {
+  map.fitBounds(asBounds(bbox), {
+    padding: fitPadding(),
+    duration: prefersReducedMotion() ? 0 : 1500,
+    easing: easeOutCubic,
+    maxZoom: 12.5,
+  })
+}
+
+/**
+ * Selecting a road by tapping it on the map. Framing the whole road is right
+ * when it makes the road *bigger*, and wrong the rest of the time: pulling back
+ * to fit 3,700 km of NH 44 because someone tapped it in Kochi throws away the
+ * view they were working in. So the camera only ever moves closer, and
+ * otherwise just slides the tapped point out from behind the panel.
+ */
+export function focusRoad(bbox: BBox, at: LngLat): void {
+  const camera = map.cameraForBounds(asBounds(bbox), { padding: fitPadding() })
+  const fitZoom = Math.min(camera?.zoom ?? 0, 12.5)
+  if (fitZoom >= map.getZoom() + 0.6) flyToRoad(bbox)
+  else keepInView(at)
+}
+
+/**
+ * Pan by the least that clears a point from behind the panel — and by nothing
+ * at all when it is already visible. The zoom is never touched.
+ */
+export function keepInView(at: LngLat): void {
+  const el = map.getContainer()
+  const inset = panelInset()
+  const margin = 18
+  const left = inset.left + margin
+  const right = el.clientWidth - inset.right - margin
+  const top = inset.top + margin
+  const bottom = el.clientHeight - inset.bottom - margin
+  const p = map.project(at)
+
+  let dx = 0
+  let dy = 0
+  if (right > left) dx = p.x < left ? p.x - left : p.x > right ? p.x - right : 0
+  if (bottom > top) dy = p.y < top ? p.y - top : p.y > bottom ? p.y - bottom : 0
+  if (dx === 0 && dy === 0) return
+
+  // move the camera by the overshoot rather than panBy'ing the content, so the
+  // sign of the shift stays obvious
+  const centre = map.project(map.getCenter())
+  map.easeTo({
+    center: map.unproject([centre.x + dx, centre.y + dy]),
+    duration: prefersReducedMotion() ? 0 : 520,
+    easing: easeOutCubic,
+  })
+}
+
+/** Frame a city or a state. Cities are small, so this can go a lot closer in. */
+export function flyToArea(bbox: BBox): void {
+  map.fitBounds(asBounds(bbox), {
+    padding: fitPadding(),
+    duration: prefersReducedMotion() ? 0 : 1400,
+    easing: easeOutCubic,
+    maxZoom: 13.5,
+  })
 }
 
 export function flyHome(): void {

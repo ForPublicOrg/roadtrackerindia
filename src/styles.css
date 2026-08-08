@@ -637,6 +637,8 @@ button.og-chip:active { transform: scale(0.97); }
   background: var(--surface); transition: all 0.15s ease;
 }
 .br-chip[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+/* the place the map itself is narrowed to — a different kind of filter to the rest */
+.br-chip.is-area[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); }
 .br-select {
   width: 100%; height: 42px; border: 1px solid var(--line); border-radius: var(--radius-s);
   background: var(--surface); color: var(--ink); font: 550 14px var(--font-ui); padding: 0 12px;

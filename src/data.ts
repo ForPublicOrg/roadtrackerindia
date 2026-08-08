@@ -3,6 +3,7 @@ import type {
   NewsSnapshot,
   OrgIndex,
   OrgProfile,
+  PlaceIndex,
   RoadDetail,
   RoadIndex,
   ShapeFeature,
@@ -23,6 +24,8 @@ export const loadIndex = () => getJSON<RoadIndex>('/data/index.json')
 export const loadNetwork = () => getJSON<NetworkFC>('/data/network-lite.geojson')
 /** State + district roads — only worth downloading once the map is zoomed in. */
 export const loadNetworkDetail = () => getJSON<NetworkFC>('/data/network-detail.geojson')
+/** Where the cities and states are — only needed once somebody searches for one. */
+export const loadPlaces = () => getJSON<PlaceIndex>('/data/places.json')
 export const loadDetail = (id: string) => getJSON<RoadDetail>(`/data/roads/${id}.json`)
 export const loadShape = (id: string) => getJSON<ShapeFeature>(`/data/shapes/${id}.json`)
 export const loadNews = (id: string) => getJSON<NewsSnapshot>(`/data/news/${id}.json`)

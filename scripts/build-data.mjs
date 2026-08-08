@@ -7,6 +7,7 @@
  * Reads   public/data/geometry/<id>.json       (optional real OSM geometry override)
  * Writes  public/data/index.json               (search/browse index)
  * Writes  public/data/network-lite.geojson     (simplified all-roads overview)
+ * Writes  public/data/places.json              (where every city and state is)
  * Writes  public/data/shapes/<id>.json         (display geometry per road)
  * Writes  public/data/orgs.json                (organisation index with rollups)
  * Writes  public/data/org/<id>.json            (profile + every road it touched)
@@ -186,6 +187,7 @@ function simplify(coords, tolKm) {
 
 const round5 = (n) => Math.round(n * 1e5) / 1e5
 const round4 = (n) => Math.round(n * 1e4) / 1e4
+const round3 = (n) => Math.round(n * 1e3) / 1e3
 
 /** Decode a Google-style encoded polyline into [lng, lat] pairs. */
 function decodePolyline(str, precision = 5) {
@@ -595,7 +597,6 @@ for (const road of roads) {
     if (y > maxY) maxY = y
   }
   // only ever used to frame the camera, so ~100 m precision is plenty
-  const round3 = (n) => Math.round(n * 1e3) / 1e3
   const bbox = [round3(minX), round3(minY), round3(maxX), round3(maxY)]
 
   staleShapes.delete(`${road.id}.json`)
@@ -654,6 +655,224 @@ writeFileSync(
 )
 // shapes for roads that no longer exist
 for (const f of staleShapes) rmSync(join(SHAPES_DIR, f), { force: true })
+
+// ── place extents ───────────────────────────────────────────────────
+// Nothing in the corpus records a coordinate for a town — only roads have
+// geometry. But every road both names the places it passes through and carries
+// a waypoint for each, so a place sits at the knot where those waypoints agree.
+// India reuses its place names freely (two Srinagars, eleven Ramgarhs), so only
+// the densest cluster survives, weighted towards the bigger roads: the Srinagar
+// on NH 44 is the one somebody typing "Srinagar" means.
+
+const placeNorm = (s) =>
+  s.toLowerCase().replace(/\(.*?\)/g, ' ').replace(/[–—-]/g, ' ').replace(/\s+/g, ' ').trim()
+
+const PLACE_WEIGHT = { expressway: 5, nh: 4, sh: 2, district: 1, local: 1 }
+const placeWeight = (road) => (PLACE_WEIGHT[road.category] ?? 1) + Math.min(6, road.lengthKm / 300)
+
+/** normalised place name → weighted points, and the spellings the index uses. */
+const placePoints = new Map()
+const placeNames = new Map()
+/** normalised place name → the roads that claim to run through it. */
+const placeRoads = new Map()
+
+function notePlace(name, coords, weight, indexed) {
+  const key = placeNorm(name)
+  if (!key) return
+  if (!placePoints.has(key)) placePoints.set(key, [])
+  placePoints.get(key).push({ coords, weight })
+  if (!indexed) return
+  if (!placeNames.has(key)) placeNames.set(key, new Set())
+  placeNames.get(key).add(name)
+}
+
+for (const road of roads) {
+  const w = placeWeight(road)
+  const byName = new Map()
+  for (const p of road.waypoints) {
+    const key = placeNorm(p.name)
+    if (!byName.has(key)) byName.set(key, p.coords)
+  }
+  // only majorCities reach the search index, so only they need a display name
+  for (const city of road.route.majorCities) {
+    const key = placeNorm(city)
+    if (!placeRoads.has(key)) placeRoads.set(key, [])
+    placeRoads.get(key).push(road)
+    const hit = byName.get(key)
+    if (hit) notePlace(city, hit, w, true)
+    else notePlace(city, null, 0, true) // known to the index, position unknown
+  }
+  // the terminus names are the first and last point of the alignment by
+  // construction, which pins places that never appear as a waypoint of their own
+  const first = road.waypoints[0].coords
+  const last = road.waypoints[road.waypoints.length - 1].coords
+  notePlace(road.route.start.split(',')[0], first, w, false)
+  notePlace(road.route.end.split(',')[0], last, w, false)
+}
+
+const degKm = (dx, dy) => Math.hypot(dx * 100, dy * 111)
+const CLUSTER_KM = 45
+
+/** The heaviest knot of same-name points, with the other towns of that name dropped. */
+function densestCluster(points) {
+  if (points.length < 3) return points
+  const cells = new Map()
+  for (const p of points) {
+    const key = `${Math.round(p.coords[0] * 2)}|${Math.round(p.coords[1] * 2)}`
+    if (!cells.has(key)) cells.set(key, [])
+    cells.get(key).push(p)
+  }
+  let best = null
+  for (const key of cells.keys()) {
+    const [cx, cy] = key.split('|').map(Number)
+    let weight = 0
+    let members = []
+    // count the neighbouring cells too, or a knot straddling a cell edge loses
+    for (let dx = -1; dx <= 1; dx++)
+      for (let dy = -1; dy <= 1; dy++) {
+        const near = cells.get(`${cx + dx}|${cy + dy}`)
+        if (!near) continue
+        for (const p of near) weight += p.weight
+        members = members.concat(near)
+      }
+    if (!best || weight > best.weight) best = { weight, members }
+  }
+  let seed = centroid(best.members)
+  for (let i = 0; i < 2; i++) {
+    const near = points.filter((p) => degKm(p.coords[0] - seed[0], p.coords[1] - seed[1]) <= CLUSTER_KM)
+    if (!near.length) break
+    seed = centroid(near)
+  }
+  const kept = points.filter((p) => degKm(p.coords[0] - seed[0], p.coords[1] - seed[1]) <= CLUSTER_KM)
+  // two equally-heavy towns of the same name can leave the centroid in open
+  // country between them, further than the radius from either — never return
+  // nothing, or the place ends up with no extent at all
+  return kept.length ? kept : best.members
+}
+
+function centroid(points) {
+  let sx = 0, sy = 0, sw = 0
+  for (const p of points) {
+    const w = p.weight || 0.01
+    sx += p.coords[0] * w
+    sy += p.coords[1] * w
+    sw += w
+  }
+  return [sx / sw, sy / sw]
+}
+
+/** Grow a point cloud into a box the camera can fly to. */
+function extentOf(points, { pad = 0.03, minSpan = 0.14 } = {}) {
+  let a = Infinity, b = Infinity, c = -Infinity, d = -Infinity
+  for (const p of points) {
+    const [x, y] = p.coords ?? p
+    a = Math.min(a, x); c = Math.max(c, x)
+    b = Math.min(b, y); d = Math.max(d, y)
+  }
+  if (a === Infinity) return null
+  a -= pad; b -= pad; c += pad; d += pad
+  const gapX = minSpan - (c - a)
+  if (gapX > 0) { a -= gapX / 2; c += gapX / 2 }
+  const gapY = minSpan - (d - b)
+  if (gapY > 0) { b -= gapY / 2; d += gapY / 2 }
+  return [round3(a), round3(b), round3(c), round3(d)]
+}
+
+const bboxById = new Map(indexRows.map((r) => [r.id, r.bbox]))
+
+// A waypoint is a pinprick, and a city is not. What tells Mumbai apart from a
+// village of the same importance to the catalogue is the roads that belong to
+// it alone — a short road naming a place is a road *of* that place, so it gets
+// to stretch the extent. Everything is still held inside a radius no town
+// outgrows, or one long district road would swallow the district.
+const CITY_LOCAL_KM = 40
+const CITY_NEAR_KM = 20
+const CITY_MAX_KM = 22
+
+const clampAround = (box, seed, maxKm) => [
+  round3(Math.max(box[0], seed[0] - maxKm / 100)),
+  round3(Math.max(box[1], seed[1] - maxKm / 111)),
+  round3(Math.min(box[2], seed[0] + maxKm / 100)),
+  round3(Math.min(box[3], seed[1] + maxKm / 111)),
+]
+
+const cityRows = []
+let unplacedCities = 0
+for (const [key, spellings] of placeNames) {
+  const points = (placePoints.get(key) ?? []).filter((p) => p.coords)
+  if (!points.length) {
+    unplacedCities++
+    continue
+  }
+  const knot = densestCluster(points)
+  const seed = centroid(knot)
+  const corners = knot.map((p) => p.coords)
+  for (const road of placeRoads.get(key) ?? []) {
+    const box = bboxById.get(road.id)
+    if (!box || road.lengthKm > CITY_LOCAL_KM) continue
+    const middle = [(box[0] + box[2]) / 2, (box[1] + box[3]) / 2]
+    if (degKm(middle[0] - seed[0], middle[1] - seed[1]) > CITY_NEAR_KM) continue
+    corners.push([box[0], box[1]], [box[2], box[3]])
+  }
+  const box = clampAround(extentOf(corners), seed, CITY_MAX_KM)
+  for (const name of spellings) cityRows.push([name, ...box])
+}
+cityRows.sort((a, b) => a[0].localeCompare(b[0]))
+
+// A state is framed by the roads that never leave it — their combined extent is
+// the state, minus whatever corner no road reaches. Roads that cross a border
+// still contribute the terminus that names the state they end in.
+const stateBoxes = new Map()
+const stretch = (box, x, y) =>
+  box ? [Math.min(box[0], x), Math.min(box[1], y), Math.max(box[2], x), Math.max(box[3], y)] : [x, y, x, y]
+
+for (const road of roads) {
+  const box = bboxById.get(road.id)
+  if (!box) continue
+  if (road.route.states.length === 1) {
+    const st = road.route.states[0]
+    stateBoxes.set(st, stretch(stretch(stateBoxes.get(st), box[0], box[1]), box[2], box[3]))
+    continue
+  }
+  for (const [text, point] of [
+    [road.route.start, road.waypoints[0].coords],
+    [road.route.end, road.waypoints[road.waypoints.length - 1].coords],
+  ]) {
+    const tail = text.split(',').pop().trim()
+    if (road.route.states.includes(tail))
+      stateBoxes.set(tail, stretch(stateBoxes.get(tail), point[0], point[1]))
+  }
+}
+
+// A state the catalogue barely reaches has nothing to triangulate from — fall
+// back to the whole extent of its roads, which at least points the map at it.
+const everyState = new Set()
+for (const road of roads) road.route.states.forEach((s) => everyState.add(s))
+const looseStates = []
+for (const st of everyState) {
+  if (stateBoxes.has(st)) continue
+  looseStates.push(st)
+  let box = null
+  for (const road of roads) {
+    if (!road.route.states.includes(st)) continue
+    const b = bboxById.get(road.id)
+    if (b) box = stretch(stretch(box, b[0], b[1]), b[2], b[3])
+  }
+  if (box) stateBoxes.set(st, box)
+}
+
+const stateRows = [...stateBoxes]
+  .map(([name, box]) => [name, ...extentOf([[box[0], box[1]], [box[2], box[3]]], { pad: 0.06, minSpan: 0.3 })])
+  .sort((a, b) => a[0].localeCompare(b[0]))
+
+writeFileSync(
+  join(DATA_DIR, 'places.json'),
+  JSON.stringify({ generated: new Date().toISOString(), cities: cityRows, states: stateRows })
+)
+if (unplacedCities)
+  allWarnings.push(`${unplacedCities} city name(s) have no waypoint to place them — search will list them without zooming`)
+if (looseStates.length)
+  allWarnings.push(`no road stays inside ${looseStates.join(', ')} — their map extent is only as tight as the roads that cross them`)
 
 // ── organisation profiles ───────────────────────────────────────────
 // Every "how many roads has this company built" figure is counted here, from
@@ -750,6 +969,7 @@ console.log(
     `  index.json ${kb(sizeOf('index.json'))} · network-lite ${kb(sizeOf('network-lite.geojson'))} ` +
     `(${liteFeatures.length} trunk roads) · network-detail ${kb(sizeOf('network-detail.geojson'))} ` +
     `(${detailFeatures.length} state & district roads)\n` +
+    `  places.json ${kb(sizeOf('places.json'))} (${cityRows.length} cities, ${stateRows.length} states & UTs)\n` +
     `  orgs.json ${kb(sizeOf('orgs.json'))} (${orgRows.length} organisations, ` +
     `${orgRows.filter((o) => o.stats.roadCount > 0).length} with roads on file)`
 )

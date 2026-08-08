@@ -2,31 +2,58 @@ import { state } from './state'
 import type { Category, RoadSummary, Status } from './types'
 import { esc, STATUS_LABEL } from './ui'
 import { formatKm } from './geo'
-import { openPanel, setBrowseContent } from './panel'
+import { openPanel, panelMode, setBrowseContent } from './panel'
+
+/**
+ * The city or state the map has been narrowed to. `ids` is what the map is
+ * actually lighting up; until it has been worked out the list falls back to the
+ * roads that name the place, so the panel never waits on a download.
+ */
+export interface AreaFilter {
+  kind: 'city' | 'state'
+  name: string
+  ids: Set<string> | null
+}
 
 interface Filters {
   category: Category | 'all'
   status: Status | 'all'
   state: string
-  city: string | null
+  area: AreaFilter | null
 }
 
-const filters: Filters = { category: 'all', status: 'all', state: 'all', city: null }
+const filters: Filters = { category: 'all', status: 'all', state: 'all', area: null }
 
 const MAX_ROWS = 400
 
 let onRoad: (id: string) => void = () => {}
 let onClose: () => void = () => {}
+let onAreaClear: () => void = () => {}
 
-export function initBrowse(cb: { onRoad: (id: string) => void; onClose: () => void }): void {
+export function initBrowse(cb: {
+  onRoad: (id: string) => void
+  onClose: () => void
+  onAreaClear: () => void
+}): void {
   onRoad = cb.onRoad
   onClose = cb.onClose
+  onAreaClear = cb.onAreaClear
 }
 
 export function openBrowse(preset: Partial<Filters> = {}): void {
-  Object.assign(filters, { category: 'all', status: 'all', state: 'all', city: null }, preset)
+  Object.assign(filters, { category: 'all', status: 'all', state: 'all', area: null }, preset)
   render()
   openPanel('browse', 'full')
+}
+
+/**
+ * Swap in the settled road list for the area already on screen. Ignored once
+ * the user has moved on to a different area, or cleared it.
+ */
+export function refreshBrowseArea(area: AreaFilter): void {
+  if (filters.area?.kind !== area.kind || filters.area.name !== area.name) return
+  filters.area = area
+  if (panelMode() === 'browse') render()
 }
 
 function allStates(): string[] {
@@ -39,8 +66,13 @@ function matches(r: RoadSummary): boolean {
   if (filters.category !== 'all' && r.category !== filters.category) return false
   if (filters.status !== 'all' && r.status !== filters.status) return false
   if (filters.state !== 'all' && !r.states.includes(filters.state)) return false
-  if (filters.city && !r.cities.includes(filters.city)) return false
+  if (filters.area && !inArea(r, filters.area)) return false
   return true
+}
+
+function inArea(r: RoadSummary, area: AreaFilter): boolean {
+  if (area.ids) return area.ids.has(r.id)
+  return area.kind === 'city' ? r.cities.includes(area.name) : r.states.includes(area.name)
 }
 
 const CAT_CHIPS: [Category | 'all', string][] = [
@@ -67,9 +99,10 @@ function render(): void {
   // open, and nobody scrolls past the first screenful anyway
   const shown = rows.slice(0, MAX_ROWS)
 
+  const area = filters.area
   root.innerHTML = `
     <div class="rd-head">
-      <h2 class="rd-name" style="font-size:21px">Browse roads</h2>
+      <h2 class="rd-name" style="font-size:21px">${area ? esc(area.name) : 'Browse roads'}</h2>
       <button class="rd-close" id="br-close" aria-label="Close browse">
         <svg viewBox="0 0 14 14" width="14" height="14" aria-hidden="true">
           <path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
@@ -77,7 +110,7 @@ function render(): void {
       </button>
     </div>
     <div class="br-filters">
-      ${filters.city ? `<div class="br-chip-row"><button class="br-chip" id="br-city-clear" aria-pressed="true">Through ${esc(filters.city)} ✕</button></div>` : ''}
+      ${area ? `<div class="br-chip-row"><button class="br-chip is-area" id="br-area-clear" aria-pressed="true">${area.kind === 'city' ? 'Through' : 'In'} ${esc(area.name)} ✕</button></div>` : ''}
       <div class="br-chip-row" role="group" aria-label="Filter by road type">
         ${CAT_CHIPS.map(([v, l]) => `<button class="br-chip" data-cat="${v}" aria-pressed="${filters.category === v}">${l}</button>`).join('')}
       </div>
@@ -108,8 +141,9 @@ function render(): void {
   `
 
   root.querySelector('#br-close')?.addEventListener('click', () => onClose())
-  root.querySelector('#br-city-clear')?.addEventListener('click', () => {
-    filters.city = null
+  root.querySelector('#br-area-clear')?.addEventListener('click', () => {
+    filters.area = null
+    onAreaClear() // let the whole map back in, not just the list
     render()
   })
   root.querySelectorAll('[data-cat]').forEach((b) =>

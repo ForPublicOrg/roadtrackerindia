@@ -4,6 +4,8 @@ export const state = {
   roads: [] as RoadSummary[],
   byId: new Map<string, RoadSummary>(),
   network: null as NetworkFC | null,
+  /** The state/district tier, once the map has zoomed in far enough to want it. */
+  networkDetail: null as NetworkFC | null,
   selectedId: null as string | null,
   reportMode: false,
 }

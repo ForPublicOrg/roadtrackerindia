@@ -2,15 +2,20 @@ import '@fontsource-variable/inter'
 import '@fontsource-variable/fraunces'
 import './styles.css'
 
-import type { BBox } from './types'
+import type { Area, BBox, LngLat } from './types'
 import { initTheme, toggleTheme } from './theme'
 import { emit, state } from './state'
 import { loadDetail, loadIndex, loadNetwork, loadNetworkDetail, loadOrg, loadShape } from './data'
+import { recountArea, resolveArea } from './area'
 import {
   clearSelected,
   detailNetworkFailed,
+  ensureDetailNetwork,
   flyHome,
+  flyToArea,
   flyToRoad,
+  focusArea,
+  focusRoad,
   highlightRoads,
   initMap,
   onBaseClick,
@@ -33,7 +38,7 @@ import {
 } from './panel'
 import { initOrgs, orgSummary, renderOrgProfile } from './orgs'
 import { initSearch } from './search'
-import { initBrowse, openBrowse } from './browse'
+import { initBrowse, openBrowse, refreshBrowseArea } from './browse'
 import { initLocate } from './locate'
 import { initReports, handleMapClick as handleReportClick, isReporting } from './reports'
 import {
@@ -73,11 +78,36 @@ async function boot(): Promise<void> {
   await mapReady
   setNetworkData(network)
 
+  // ── area flow: the map narrowed to one city or state ─────────────
+  let currentArea: Area | null = null
+  let areaToken = 0
+
+  const areaFilter = (area: Area) => ({ kind: area.kind, name: area.name, ids: new Set(area.ids) })
+
+  function applyArea(area: Area): void {
+    currentArea = area
+    focusArea(area.ids)
+    refreshBrowseArea(areaFilter(area))
+  }
+
+  function clearArea(): void {
+    areaToken++ // an area still resolving must not land after this
+    if (!currentArea) return
+    currentArea = null
+    focusArea(null)
+  }
+
   // thousands of state and district roads — fetched the first time the map is
   // zoomed in far enough for them to be legible, never on the home view
   onDetailNetworkNeeded(() => {
     void loadNetworkDetail()
-      .then(setDetailNetworkData)
+      .then((fc) => {
+        state.networkDetail = fc
+        setDetailNetworkData(fc)
+        // a city chosen before these arrived was measured against the trunk
+        // network alone — most of its roads are in this file
+        if (currentArea) applyArea(recountArea(currentArea))
+      })
       .catch(() => {
         // the trunk network still works, so this needs no alarm — but let the
         // next zoom retry rather than leaving the tier dead for the session
@@ -94,10 +124,39 @@ async function boot(): Promise<void> {
   function clearOrg(): void {
     if (!selectedOrgId) return
     selectedOrgId = null
-    highlightRoads(null)
+    // an organisation borrowed the map's focus — hand it back to the area, if
+    // the user had narrowed to one, rather than letting the whole country back
+    if (currentArea) focusArea(currentArea.ids)
+    else highlightRoads(null)
   }
 
-  async function select(id: string, opts: { skipFly?: boolean; fromRouter?: boolean } = {}) {
+  /**
+   * Picking a place from search: the camera goes there, its roads are the only
+   * ones left lit, and the panel lists exactly those. The list opens on the
+   * name match immediately and is swapped for the geographic answer as soon as
+   * the place extents have landed.
+   */
+  async function selectArea(kind: 'city' | 'state', name: string) {
+    deselect()
+    const token = ++areaToken
+    ensureDetailNetwork() // a city is mostly district roads, so fetch them now
+    openBrowse({ area: { kind, name, ids: null } })
+    document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'true')
+
+    const area = await resolveArea(kind, name)
+    if (token !== areaToken) return
+    if (!area) {
+      toast(`We can't place ${name} on the map yet — these are the roads that name it.`)
+      return
+    }
+    applyArea(area)
+    if (state.selectedId === null) flyToArea(area.bbox)
+  }
+
+  async function select(
+    id: string,
+    opts: { skipFly?: boolean; fromRouter?: boolean; at?: LngLat } = {},
+  ) {
     clearOrg()
     const summary = state.byId.get(id)
     if (!summary) {
@@ -114,7 +173,10 @@ async function boot(): Promise<void> {
     document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'false')
 
     if (!already || !isPanelOpen()) showLoading(summary)
-    if (!opts.skipFly) flyToRoad(summary.bbox)
+    if (!opts.skipFly) {
+      if (opts.at) focusRoad(summary.bbox, opts.at)
+      else flyToRoad(summary.bbox)
+    }
     if (opts.fromRouter) applyMeta(summary)
     else navigateToRoad(summary)
 
@@ -152,6 +214,7 @@ async function boot(): Promise<void> {
     state.selectedId = null
     emit('select', null)
     clearSelected()
+    clearArea() // a company's roads are the answer now, not a city's
     selectedOrgId = id
     document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'false')
 
@@ -187,6 +250,7 @@ async function boot(): Promise<void> {
   function deselect(opts: { fromRouter?: boolean } = {}) {
     selectToken++
     const hadSelection = state.selectedId !== null || selectedOrgId !== null
+    clearArea() // before clearOrg, which would otherwise hand focus back to it
     clearOrg()
     state.selectedId = null
     emit('select', null)
@@ -209,7 +273,8 @@ async function boot(): Promise<void> {
       handleReportClick(lngLat)
       return
     }
-    void select(id)
+    // `at` is what keeps the camera from pulling back to frame the whole road
+    void select(id, { at: lngLat })
   })
   onBaseClick((lngLat) => {
     if (isReporting()) {
@@ -221,16 +286,8 @@ async function boot(): Promise<void> {
 
   initSearch({
     onRoad: (id) => void select(id),
-    onCity: (city) => {
-      deselect()
-      openBrowse({ city })
-      document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'true')
-    },
-    onState: (st) => {
-      deselect()
-      openBrowse({ state: st })
-      document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'true')
-    },
+    onCity: (city) => void selectArea('city', city),
+    onState: (st) => void selectArea('state', st),
   })
 
   initBrowse({
@@ -239,6 +296,7 @@ async function boot(): Promise<void> {
       closePanel()
       document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'false')
     },
+    onAreaClear: () => clearArea(),
   })
   document.getElementById('btn-browse')?.addEventListener('click', () => {
     const btn = document.getElementById('btn-browse')!
@@ -246,8 +304,12 @@ async function boot(): Promise<void> {
       closePanel()
       btn.setAttribute('aria-pressed', 'false')
     } else {
+      // going back to the list means dropping the open road, not the city the
+      // user narrowed to — deselect clears both, so put the area back
+      const area = currentArea
       if (state.selectedId) deselect()
-      openBrowse()
+      if (area) applyArea(area)
+      openBrowse(area ? { area: areaFilter(area) } : {})
       btn.setAttribute('aria-pressed', 'true')
     }
   })
