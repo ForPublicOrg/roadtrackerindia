@@ -36,6 +36,12 @@
   --star-off: #9c9180;
   --star-on: #b7791f;
 
+  /* the tiranga, for the "India" in the wordmark. A white middle band would
+     vanish into this paper, so on light it becomes the chakra's navy. */
+  --flag-saffron: #e07b12;
+  --flag-middle: #1c2b7a;
+  --flag-green: #12800a;
+
   --shadow-1: 0 1px 2px rgba(40, 32, 16, 0.05), 0 10px 30px rgba(40, 32, 16, 0.13);
   --shadow-2: 0 2px 6px rgba(40, 32, 16, 0.08), 0 18px 50px rgba(40, 32, 16, 0.2);
   --radius: 16px;
@@ -82,6 +88,11 @@
 
   --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.5);
   --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.5), 0 18px 50px rgba(0, 0, 0, 0.6);
+
+  /* dark surfaces can carry the real white band */
+  --flag-saffron: #ff9933;
+  --flag-middle: #ffffff;
+  --flag-green: #3fbf2e;
 }
 
 /* ── base ─────────────────────────────────────────────────────── */
@@ -171,6 +182,35 @@ a { color: var(--accent); }
   white-space: nowrap;
 }
 .brand-name em { font-style: italic; color: var(--accent); }
+/* Paint the flag's three equal bands through the word itself. Keep the accent
+   fill as the fallback and only go transparent where the clip is supported,
+   so "India" can never end up invisible.
+   The stops are em offsets from the top of the painted box, which spans the
+   font's whole ascent-to-descent. Splitting *that* into thirds would strand
+   the saffron above the caps, so the bands are thirds of the x-height
+   (0.485em–0.995em down the box) instead: every letter of "India" then wears
+   all three, and the two ascenders simply run up into the saffron. */
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+  .brand-name em {
+    background-image: linear-gradient(
+      180deg,
+      var(--flag-saffron) 0 0.65em,
+      var(--flag-middle) 0.65em 0.82em,
+      var(--flag-green) 0.82em
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}
+/* High-contrast modes drop background images — take the system colour back. */
+@media (forced-colors: active) {
+  .brand-name em {
+    -webkit-text-fill-color: currentColor;
+    color: currentColor;
+  }
+}
 
 /* search */
 .search { position: relative; height: 48px; }
