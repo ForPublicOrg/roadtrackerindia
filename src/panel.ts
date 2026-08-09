@@ -39,6 +39,9 @@ export function openPanel(newMode: PanelMode, sheet: SheetState = 'peek'): void 
     lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
   }
   el.hidden = false
+  // the prerendered page ships this panel already open so the road reads before
+  // MapLibre boots; from here on the sheet's position is ours to animate
+  el.classList.remove('is-static')
   if (isMobile()) {
     void el.offsetHeight // flush layout so the sheet animates from off-screen
     snapSheet(newMode === 'browse' ? 'full' : sheet)

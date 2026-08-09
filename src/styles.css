@@ -36,11 +36,14 @@
   --star-off: #9c9180;
   --star-on: #b7791f;
 
-  /* the tiranga, for the "India" in the wordmark. A white middle band would
-     vanish into this paper, so on light it becomes the chakra's navy. */
-  --flag-saffron: #e07b12;
-  --flag-middle: #1c2b7a;
-  --flag-green: #12800a;
+  /* the tiranga, for the "India" in the wordmark — the flag's own three
+     colours on both themes. On this paper the white band has nothing to show
+     against, so the light theme outlines the glyphs (see .brand-name em) and
+     the band becomes the gap between the two edges, the way it reads on the
+     flag itself. */
+  --flag-saffron: #ff9933;
+  --flag-middle: #ffffff;
+  --flag-green: #138808;
 
   --shadow-1: 0 1px 2px rgba(40, 32, 16, 0.05), 0 10px 30px rgba(40, 32, 16, 0.13);
   --shadow-2: 0 2px 6px rgba(40, 32, 16, 0.08), 0 18px 50px rgba(40, 32, 16, 0.2);
@@ -89,7 +92,7 @@
   --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.5);
   --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.5), 0 18px 50px rgba(0, 0, 0, 0.6);
 
-  /* dark surfaces can carry the real white band */
+  /* dark surfaces carry the white band unaided, and want a brighter green */
   --flag-saffron: #ff9933;
   --flag-middle: #ffffff;
   --flag-green: #3fbf2e;
@@ -202,6 +205,13 @@ a { color: var(--accent); }
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+  }
+  /* The white band is the same colour as the paper, so on light it needs an
+     edge to exist at all — a hairline outline gives the whole word one and the
+     middle band reads as white rather than as a hole. Dark surfaces carry
+     white on their own and are left clean. */
+  [data-theme='light'] .brand-name em {
+    -webkit-text-stroke: 0.4px color-mix(in srgb, var(--ink) 42%, transparent);
   }
 }
 /* High-contrast modes drop background images — take the system colour back. */
@@ -356,6 +366,15 @@ a { color: var(--accent); }
 .lg-local { border-color: var(--c-local); }
 .lg-dashed { border-top-style: dashed; border-color: var(--ink-2); }
 .legend.is-collapsed ul { display: none; }
+/* The one link out of the map. It sits outside the collapsible list on
+   purpose: the key starts collapsed on a phone, and a link hidden there is a
+   link neither a reader nor a mobile-first crawler ever sees. */
+.legend-all {
+  display: block; padding: 9px 14px 11px;
+  border-top: 1px solid var(--line);
+  font: 550 12.5px var(--font-ui); text-decoration: none;
+}
+.legend-all:hover { background: var(--surface-2); }
 
 /* ── panel (desktop side sheet / mobile bottom sheet) ─────────── */
 
@@ -422,6 +441,11 @@ a { color: var(--accent); }
     will-change: transform;
     touch-action: none;
   }
+  /* A prerendered page ships the sheet already up, so the road reads before
+     MapLibre has booted. Without this it would sit at translateY(100%) — off
+     screen — until JavaScript arrived, which on a slow phone is the whole
+     point of prerendering it. `openPanel()` drops the class and takes over. */
+  .panel.is-static { transform: none; touch-action: auto; }
   .panel .panel-scroll { touch-action: pan-y; padding: 0 18px 40px; }
   .sheet-handle {
     display: flex; justify-content: center; padding: 10px 0 6px; flex: none;
@@ -584,6 +608,10 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 }
 .rel-chip:hover { background: var(--surface-2); }
 .rel-chip:active { transform: scale(0.985); }
+/* the prerendered page renders these as real links so a crawler can follow
+   them; the app swaps in the identical button once it boots */
+a.rel-chip, a.og-chip { color: inherit; text-decoration: none; }
+a.og-chip:hover { background: var(--surface-2); border-color: var(--ink-2); }
 .rel-chip .rc-main { display: grid; gap: 1px; min-width: 0; }
 .rel-chip .rc-name { font-weight: 550; font-size: 13.5px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* where the two roads actually meet — the one thing the badge and name can't say */
@@ -853,6 +881,114 @@ button.og-chip:active { transform: scale(0.97); }
   animation: shimmer 1.4s infinite;
 }
 @keyframes shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+
+/* ── prerendered pages ───────────────────────────────────────────
+   Every road and company page ships its content in the panel before any
+   JavaScript runs, and ends with links out so no page is a dead end. The app
+   replaces the whole panel on boot, so this only ever paints once.
+   ─────────────────────────────────────────────────────────────── */
+
+.seo-nav {
+  margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--line);
+  display: grid; gap: 9px; font-size: 13.5px;
+}
+.seo-nav a { font-weight: 550; text-decoration: none; }
+.seo-nav a:hover { text-decoration: underline; }
+
+/* ── directory pages (/roads/, /state/…, /company/) ───────────────
+   Standalone documents: a list of roads has nothing to draw, so these skip
+   the map entirely and only share the stylesheet.
+   ─────────────────────────────────────────────────────────────── */
+
+/* the app pins body to the viewport for the map; a directory just scrolls */
+.hub-body { background: var(--bg); height: auto; min-height: 100%; }
+.hub {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 30px 20px max(60px, calc(env(safe-area-inset-bottom) + 40px));
+}
+
+.hub-brand {
+  display: inline-flex; align-items: center; gap: 9px;
+  color: inherit; text-decoration: none; margin-bottom: 26px;
+}
+.hub-brand .brand-mark { width: 28px; height: 28px; flex: none; }
+/* the topbar drops the wordmark under 768px to save room for search; a
+   directory page has the whole width and needs the name */
+.hub-brand .brand-name { display: inline-block; }
+
+.hub-title {
+  font-family: var(--font-display);
+  font-size: clamp(30px, 5.6vw, 44px); font-weight: 640; line-height: 1.1;
+  letter-spacing: -0.02em; margin: 0;
+}
+.hub-lede {
+  font-size: 16px; line-height: 1.65; color: var(--ink-2);
+  margin: 14px 0 0; max-width: 62ch;
+}
+.hub-stats { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+
+.hub-section { margin-top: 40px; }
+.hub-section > h2 {
+  font-family: var(--font-display);
+  font-size: 21px; font-weight: 620; letter-spacing: -0.01em;
+  margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line);
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+}
+.hub-count {
+  flex: none; font: 650 12px var(--font-ui); color: var(--ink-2);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.02em;
+}
+
+.hub-grid { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); }
+.hub-card {
+  display: flex; align-items: center; gap: 10px; min-width: 0;
+  border: 1px solid var(--line); border-radius: var(--radius-s);
+  padding: 10px 12px; background: var(--surface);
+  color: inherit; text-decoration: none;
+  transition: background 0.14s ease, border-color 0.14s ease, transform 0.18s var(--ease-spring);
+}
+.hub-card:hover { background: var(--surface-2); border-color: var(--ink-2); }
+.hub-card:active { transform: scale(0.99); }
+.hub-card-main { display: grid; gap: 2px; min-width: 0; }
+.hub-card-name {
+  font-weight: 600; font-size: 14px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.hub-card-sub {
+  color: var(--ink-2); font-size: 12.5px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+/* the long tail — thousands of district roads, where the name is the whole
+   story and a card each would put a state page over half a megabyte */
+.hub-plain {
+  columns: 3 220px; column-gap: 26px;
+  font-size: 13.5px; line-height: 1.55;
+}
+.hub-plain a {
+  display: block; break-inside: avoid; padding: 3px 0;
+  color: inherit; text-decoration: none;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.hub-plain a:hover { color: var(--accent); text-decoration: underline; }
+
+.hub-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.hub-links a {
+  display: inline-flex; align-items: baseline; gap: 8px;
+  border: 1px solid var(--line); border-radius: 999px;
+  padding: 7px 14px; background: var(--surface);
+  color: inherit; text-decoration: none; font-size: 13.5px; font-weight: 550;
+  transition: background 0.14s ease, border-color 0.14s ease;
+}
+.hub-links a:hover { background: var(--surface-2); border-color: var(--ink-2); }
+
+.hub-nav {
+  margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: 14px;
+}
+.hub-nav a { font-weight: 550; text-decoration: none; }
+.hub-nav a:hover { text-decoration: underline; }
 
 /* ── reduced motion ──────────────────────────────────────────── */
 

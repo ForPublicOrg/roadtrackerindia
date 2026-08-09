@@ -27,23 +27,23 @@ In every case:
 
 ## Deep links need a rewrite rule
 
-This used to be free: every road had its own stamped page, so `/road/<id>/` was
-always a real file. With 7,700 roads in the catalogue only the ~1,150 worth
-their own SEO page are prerendered, and the rest are served by the app itself.
-
-Without a rewrite those URLs fall to `404.html` and answer **HTTP 404** — the
-page renders, but the status code tells search engines and link previews the
-road does not exist. The build therefore emits rules for both conventions:
+Every road in the catalogue is prerendered, so `/road/<id>/` is a real file and
+this rule is a safety net rather than the load-bearing path it once was. It
+still matters for anything *not* in the corpus — a mistyped id, a road we
+retire, a link shared before a rebuild. Without a rewrite those URLs fall to
+`404.html` and answer **HTTP 404**: the page renders, but the status code tells
+search engines and link previews the road does not exist. The build emits rules
+for both conventions:
 
 | Host | File | Provided by |
 |---|---|---|
 | Vercel | `vercel.json` (repo root) | committed |
 | Cloudflare Pages, Netlify | `dist/_redirects` | `gen-pages.mjs` |
 
-Both send `/road/*` and `/company/*` to `/index.html` with a 200. Static files
-still win over rewrites on every one of these hosts, so a prerendered road keeps
-its own title, description and JSON-LD. `404.html` remains the fallback for
-hosts that read neither file.
+Both send `/road/*`, `/company/*` and `/state/*` to `/index.html` with a 200.
+Static files still win over rewrites on every one of these hosts, so a
+prerendered road or directory keeps its own title, description and JSON-LD.
+`404.html` remains the fallback for hosts that read neither file.
 
 ## Vercel (the live host for roadtrackerindia.com)
 
@@ -62,7 +62,7 @@ not disturb build settings configured in the dashboard.
 
 **The primary domain must be the apex, not `www`.** `gen-pages.mjs` stamps
 `SITE = 'https://roadtrackerindia.com'` into every canonical link, `og:url`,
-JSON-LD entry and sitemap URL. If Vercel makes `www` primary instead, all ~1,150
+JSON-LD entry and sitemap URL. If Vercel makes `www` primary instead, all 7,800+
 prerendered pages then declare a canonical host that immediately 308s somewhere
 else, and every sitemap URL is a redirect — Search Console reports those as
 "Page with redirect" rather than indexing them. Either keep the apex primary in
@@ -70,10 +70,12 @@ Settings → Domains, or change `SITE` and rebuild. The two must agree.
 
 Two limits worth knowing at this catalogue size:
 
-- **Files.** A build currently emits ~17,000 files. Vercel documents *no* upper
-  limit on build output, so Git-connected deploys are fine — but a `vercel`
-  **CLI** deploy uploads source files and caps at **15,000**, which this repo now
-  exceeds. Deploy from Git, not the CLI.
+- **Files.** A build currently emits ~23,700 files and about 120 MB, most of it
+  the 7,757 prerendered road pages (~11 KB each, ~3 KB over the wire once the
+  host gzips them). Vercel documents *no* upper limit on build output, so
+  Git-connected deploys are fine — but a `vercel` **CLI** deploy uploads source
+  files and caps at **15,000**, which this repo comfortably exceeds. Deploy from
+  Git, not the CLI.
 - **Routes.** Every rewrite, redirect and header counts toward a 2,048-route
   limit. That is why the rules are two wildcards rather than one per road.
 
@@ -110,7 +112,15 @@ Two limits worth knowing at this catalogue size:
 - [ ] Visit `/road/nh-44` directly (hard refresh) — the page should load with
       an NH 44 title in the tab.
 - [ ] `https://roadtrackerindia.com/sitemap.xml` responds → submit it in
-      [Google Search Console](https://search.google.com/search-console).
+      [Google Search Console](https://search.google.com/search-console). It is a
+      sitemap *index*; submitting it is enough, Google fetches the children
+      (`sitemap-pages.xml`, `sitemap-roads-N.xml`) itself. Expect the road URLs
+      to be discovered over weeks, not days — that is normal for 7,800 pages on
+      a new domain, and nothing to fix.
+- [ ] Paste a road URL into the
+      [Rich Results Test](https://search.google.com/test/rich-results) — it
+      should find `Road` and `BreadcrumbList`, and the rendered HTML should show
+      the road's text (that text is in the source, not JavaScript-generated).
 - [ ] `curl -sL "https://roadtrackerindia.com/api/ratings?roadId=nh-44"`
       returns **JSON** (`-L` matters — whichever of apex and `www` is not
       primary answers 308). A host that serves the SPA's `index.html` and
