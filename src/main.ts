@@ -2,6 +2,8 @@ import '@fontsource-variable/inter'
 import '@fontsource-variable/fraunces'
 import './styles.css'
 
+import { inject as injectAnalytics } from '@vercel/analytics'
+
 import type { Area, BBox, LngLat } from './types'
 import { initTheme, toggleTheme } from './theme'
 import { emit, state } from './state'
@@ -53,7 +55,23 @@ import {
 } from './router'
 import { initLegend, toast } from './ui'
 
+/**
+ * Vercel Web Analytics — a count of page views, nothing else. It is cookie-less
+ * and stores no identifier, so it sits alongside the app's no-account stance
+ * rather than against it.
+ *
+ * The injected script watches `pushState` on its own, which is what makes this
+ * one call enough: every road and organisation the router opens is a real URL,
+ * so /road/nh-44 is counted like any other page without a hook in router.ts.
+ * Production only — in dev the package reaches for a debug script on Vercel's
+ * CDN, and `npm run dev` has no business talking to the network for that.
+ */
+function startAnalytics(): void {
+  if (import.meta.env.PROD) injectAnalytics()
+}
+
 async function boot(): Promise<void> {
+  startAnalytics()
   initTheme()
   initLegend()
 
