@@ -91,9 +91,10 @@ one count:
   Kerala` returns nothing), and `intitle:` in an OR.
 - **Two lists, each walked from where it stopped.** Hot things (every
   hand-written road's own `newsQuery`, and the terms of roads with news) get up
-  to 65% of a run, which on a normal day covers all of them (~85 queries). The
+  to 70% of a run, which on a normal day covers all of them (~87 queries). The
   rotation gets the rest, ~50 a day: ~4,400 terms is about 445 queries round,
-  so every nine days or so. Its place is
+  so every nine days or so. Batches are formed once, in a fixed order, so a
+  saved place always lands on the same query. Its place is
   saved in `_status.json`, and `cold.lastLap` records when it last came all
   the way round.
 

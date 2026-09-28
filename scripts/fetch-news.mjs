@@ -68,9 +68,9 @@ const ONLY = option('only')?.split(',').map((s) => s.trim()).filter(Boolean) ?? 
 const MAX_QUERIES = Number(option('max-queries') ?? 140)
 /**
  * Hot roads may use this share; the rotation always gets the rest. Hot needs
- * ~85 queries on a normal day (46 of them hand-written roads' own queries).
+ * ~87 queries on a normal day (46 of them hand-written roads' own queries).
  */
-const HOT_SHARE = 0.65
+const HOT_SHARE = 0.7
 const GAP_MS = Number(option('gap-ms') ?? 3000)
 
 const MAX_ITEMS = 8
@@ -193,38 +193,44 @@ const coldList = [...entries.values()].filter((e) => !e.hot).sort((a, b) => a.ke
 const phrase = (t) => `"${t.replace(/"/g, '').replace(/[–—-]+/g, ' ').replace(/\s+/g, ' ').trim()}"`
 const solo = (e) => !!e.query || loud.has(e.term)
 
-/** Where `key` sits in a sorted list — the first entry at or after it. */
-const indexOf = (list, key) => {
-  const i = key == null ? 0 : list.findIndex((e) => e.key >= key)
-  return i < 0 ? 0 : i
-}
-
 /**
- * Walks a list from `cursor`, wrapping at the end, and stops just before
- * `stopAt` (or after one whole lap), yielding the queries to ask: runs of up
- * to BATCH plain terms, and solo entries on their own.
+ * A list's queries, the same every run: its plain terms ten at a time in key
+ * order, and each solo entry (a newsQuery, a loud term) on its own — neither
+ * interrupting the other — all placed by their first key. A run may start at
+ * any of them, so a saved cursor always lands on a query boundary.
  */
-function* lap(list, cursor, stopAt) {
-  const n = list.length
-  if (!n) return
-  const start = indexOf(list, cursor)
-  const take = stopAt === undefined ? n : (indexOf(list, stopAt) - start + n) % n
-  const order = Array.from({ length: take }, (_, i) => list[(start + i) % n])
+function plan(list) {
+  const queries = []
   let batch = []
-  for (const e of order) {
+  for (const e of list) {
     if (solo(e)) {
-      if (batch.length) yield batch
-      batch = []
-      yield [e]
+      queries.push([e])
       continue
     }
     batch.push(e)
     if (batch.length === BATCH) {
-      yield batch
+      queries.push(batch)
       batch = []
     }
   }
-  if (batch.length) yield batch
+  if (batch.length) queries.push(batch)
+  return queries.sort((a, b) => a[0].key.localeCompare(b[0].key))
+}
+const hotPlan = plan(hotList)
+const coldPlan = plan(coldList)
+
+/** Which query a cursor points at: the first one starting at or after it. */
+const indexOf = (queries, key) => {
+  const i = key == null ? 0 : queries.findIndex((q) => q[0].key >= key)
+  return i < 0 ? 0 : i
+}
+
+/** Walks the queries from `cursor`, wrapping at the end, to just before `stopAt` (default: one lap). */
+function* lap(queries, cursor, stopAt) {
+  const n = queries.length
+  const start = indexOf(queries, cursor)
+  const take = stopAt === undefined ? n : (indexOf(queries, stopAt) - start + n) % n
+  for (let i = 0; i < take; i++) yield queries[(start + i) % n]
 }
 
 const queryText = (group) => (group.length === 1 && group[0].query ? group[0].query : group.map((e) => phrase(e.term)).join(' OR '))
@@ -233,8 +239,9 @@ const queryText = (group) => (group.length === 1 && group[0].query ? group[0].qu
 
 const unsearchable = roads.length - roads.filter((r) => matchers.get(r.id).searchable).length
 log(
-  `news: ${hotList.length} hot and ${coldList.length} rotating things to ask about ` +
-    `(${unsearchable} roads have nothing a headline could name); up to ${MAX_QUERIES} queries`,
+  `news: ${hotList.length} hot things to ask about in ${hotPlan.length} queries, ` +
+    `${coldList.length} rotating in ${coldPlan.length} (${unsearchable} roads have nothing a headline ` +
+    `could name); up to ${MAX_QUERIES} queries today`,
 )
 
 const gathered = new Map() // road id → [{ item, viaNewsQuery }]
@@ -255,11 +262,11 @@ let hotEmpty = 0
  *   stop was asked; `wrapped` says the walk went past the end of the list, so
  *   a pass over the whole list has now been completed.
  */
-async function work(list, cursor, budget, hot, stopAt) {
-  const firstKey = list[0]?.key
-  const startsAtTop = indexOf(list, cursor) === 0
+async function work(queries, cursor, budget, hot, stopAt) {
+  const firstKey = queries[0]?.[0].key
+  const startsAtTop = indexOf(queries, cursor) === 0
   const splits = []
-  const it = lap(list, cursor, stopAt)
+  const it = lap(queries, cursor, stopAt)
   let spent = 0
   let wrapped = false
   let next
@@ -320,11 +327,14 @@ async function work(list, cursor, budget, hot, stopAt) {
 
 const hotStart = ONLY ? null : (previousStatus.hot?.cursor ?? null)
 const hotBudget = ONLY ? MAX_QUERIES : Math.floor(MAX_QUERIES * HOT_SHARE)
-const hot = await work(hotList, hotStart, hotBudget, true)
-const cold = await work(coldList, ONLY ? null : (previousStatus.cold?.cursor ?? null), MAX_QUERIES - hot.spent, false)
+const hot = await work(hotPlan, hotStart, hotBudget, true)
+const cold = await work(coldPlan, ONLY ? null : (previousStatus.cold?.cursor ?? null), MAX_QUERIES - hot.spent, false)
 // the rotation has had its share; what is left goes back to the hot roads
 // this run did not reach, and stops where today's hot walk began
-const hotRest = !hot.done && !refused && asked < MAX_QUERIES ? await work(hotList, hot.next, MAX_QUERIES - asked, true, hotStart ?? hotList[0]?.key) : null
+const hotRest =
+  !hot.done && !refused && asked < MAX_QUERIES
+    ? await work(hotPlan, hot.next, MAX_QUERIES - asked, true, hotStart ?? hotPlan[0]?.[0].key)
+    : null
 const hotNext = hotRest ? hotRest.next : hot.next
 
 // ── the stories each road keeps ─────────────────────────────────────

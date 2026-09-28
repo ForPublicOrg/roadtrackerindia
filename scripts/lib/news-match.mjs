@@ -423,10 +423,23 @@ export function buildMatchers(roads) {
         // distinctive enough to stand on its own
         (x.hand || !n.needsPlace),
     )
+    // One search per name, not one per spelling: "Lucknow–Agra Expressway" is
+    // the same search as "Agra–Lucknow Expressway" (the test reads both), and
+    // a name the road's own newsQuery already asks for is not asked twice. (A
+    // number is: `"NH 50" Karnataka` would never find NH 50 in Maharashtra.)
+    const quotedInQuery = new Set([...(road.newsQuery ?? '').matchAll(/"([^"]+)"/g)].map((m) => norm(m[1]).trim()))
+    const signature = (s) => norm(s).trim().split(' ').sort().join(' ')
+    const seenSig = new Set()
+    const once = (t) => {
+      const sig = signature(t)
+      if (seenSig.has(sig)) return false
+      seenSig.add(sig)
+      return true
+    }
     const terms = [
-      ...searchRefs.map(refKey),
-      ...searchNames.map((n) => n.display),
-      ...(searchRefs.length || searchNames.length ? [] : pairs.map((p) => `${p.a} ${p.b}`)),
+      ...searchRefs.map(refKey).filter(once),
+      ...searchNames.map((n) => n.display).filter((t) => !quotedInQuery.has(norm(t).trim()) && once(t)),
+      ...(searchRefs.length || searchNames.length ? [] : pairs.map((p) => `${p.a} ${p.b}`).filter(once)),
     ]
     out.set(road.id, {
       id: road.id,
