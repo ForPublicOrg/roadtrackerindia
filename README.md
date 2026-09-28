@@ -119,9 +119,10 @@ Full details in [docs/CORPUS.md](docs/CORPUS.md).
   for MapLibre. Those sections link to connected roads, states and organisations, which
   is the only crawlable path through a map. Plus a sitemap index and a `404.html`
   SPA fallback
-- **Daily news**: a GitHub Action (`.github/workflows/news.yml`) asks Google News about
-  every road each morning, keeps only headlines that name the road, and commits them;
-  the push redeploys the site. See [docs/NEWS.md](docs/NEWS.md)
+- **Daily news**: a GitHub Action (`.github/workflows/news.yml`) searches Google News
+  each morning — busy roads daily, every other road about once a week, within what
+  Google allows one machine — keeps only headlines that name the road, and commits
+  them; the push redeploys the site. See [docs/NEWS.md](docs/NEWS.md)
 - **No database SDK in the browser**: community data goes through `api/`, which
   holds the Admin credentials. The bundle ships no Firebase client code at all
 

@@ -407,49 +407,41 @@ export function buildMatchers(roads) {
       return false
     }
 
+    // What gets searched is a smaller set than what gets recognised: Google
+    // allows a feed reader a few hundred queries a day, so every term has to
+    // earn its place. A district road's number ("MDR 695") essentially never
+    // reaches a headline; its two towns sometimes do. A road with a number or
+    // a name is found by those, and has its towns searched only without either.
+    const searchRefs = refs.filter((r) => r.kind !== 'MDR' && r.kind !== 'ODR')
+    const searchNames = names.filter(
+      (n) =>
+        !n.reversed &&
+        // an abbreviation on its own ("ORR", "ECR") brings back every
+        // headline in India that uses it
+        n.phrase.replace(/ /g, '').length >= 5 &&
+        // a generated road's street name ("Station Road") only if it is
+        // distinctive enough to stand on its own
+        (x.hand || !n.needsPlace),
+    )
+    const terms = [
+      ...searchRefs.map(refKey),
+      ...searchNames.map((n) => n.display),
+      ...(searchRefs.length || searchNames.length ? [] : pairs.map((p) => `${p.a} ${p.b}`)),
+    ]
     out.set(road.id, {
       id: road.id,
-      queries: queriesFor(road, x, refs, names, pairs),
+      /**
+       * Phrases a headline about this road would contain — what gets searched.
+       * The test above still decides; a term only has to bring the right
+       * headlines back.
+       */
+      terms: [...new Set(terms.map((s) => s.replace(/["“”]/g, '').replace(/[–—]/g, ' ').replace(/\s+/g, ' ').trim()))],
+      /** The road's hand-written query, sent as it is. */
+      newsQuery: road.newsQuery ?? null,
       /** False when nothing about this road could ever be recognised in a headline. */
       searchable: refs.length > 0 || names.length > 0 || pairs.length > 0,
       test,
     })
   }
   return out
-}
-
-// ── queries ─────────────────────────────────────────────────────────
-
-const quote = (s) => `"${s.replace(/"/g, '')}"`
-const titleCase = (s) => s.replace(/\b[a-z]/g, (c) => c.toUpperCase())
-
-/**
- * What to ask Google News. The headline test decides relevance; a query only
- * has to get the right headlines into the 100 results the feed returns. One
- * query for a generated road, up to three for a hand-written one.
- */
-function queriesFor(road, x, refs, names, pairs) {
-  // Google reads `a b OR c` as a AND (b OR c): the number, in any of the
-  // road's states
-  const states = x.states.slice(0, 8).map((s) => {
-    const name = titleCase(STATE_ALIASES[s]?.[0] ?? s)
-    return name.includes(' ') ? quote(name) : name
-  })
-  const refQ = refs.map((r) => {
-    const n = quote(`${r.kind} ${r.num}${r.suffix}`)
-    return r.needsPlace && states.length ? `${n} ${states.join(' OR ')}` : n
-  })
-  const own = names.filter((n) => !n.reversed)
-  const nameQ = own.filter((n) => !n.needsPlace).map((n) => quote(n.display))
-  const city = town(road.route?.start ?? '')
-  const genericQ = own.filter((n) => n.needsPlace).map((n) => (city ? `${quote(n.display)} ${city}` : quote(n.display)))
-  const pairQ = pairs.map((p) => `${quote(p.a)} ${quote(p.b)} road`)
-
-  const q = []
-  if (road.newsQuery) q.push(road.newsQuery)
-  q.push(...nameQ)
-  // district-road numbers almost never reach a headline; the two towns do
-  if (road.category === 'district') q.push(...pairQ, ...refQ, ...genericQ)
-  else q.push(...refQ, ...genericQ, ...pairQ)
-  return [...new Set(q)].slice(0, x.hand ? 3 : 1)
 }

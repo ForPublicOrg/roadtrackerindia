@@ -204,13 +204,20 @@ test('a road known only by its two ends', () => {
   assert.ok(!about('mdr-tn-695', 'Ariyathidal-Papanasam NH 36 stretch flooded'))
 })
 
-test('queries', () => {
-  assert.deepEqual(M.get('nh-342').queries, ['"NH 342"'])
-  assert.deepEqual(M.get('sh-mp-29').queries, ['"SH 29" "Madhya Pradesh"'])
-  assert.deepEqual(M.get('mdr-tn-695').queries, ['"Ariyathidal" "Papanasam" road'])
-  assert.equal(M.get('nh-8').queries[0], '"NH 8" Tripura highway')
-  assert.ok(M.get('nh-8').queries.includes('"NH 8" Assam OR Tripura'))
-  for (const m of M.values()) assert.ok(m.queries.length <= 3)
+test('search terms: few, and shared where roads share them', () => {
+  // a road with a number is found by it; its end towns are only searched without one
+  assert.deepEqual(M.get('nh-342').terms, ['NH 342'])
+  // every state's SH 29 is the same term, so it is asked about once
+  assert.deepEqual(M.get('sh-mp-29').terms, ['SH 29'])
+  assert.deepEqual(M.get('sh-ka-29').terms, ['SH 29'])
+  // district numbers never reach headlines; the two towns sometimes do
+  assert.deepEqual(M.get('mdr-tn-695').terms, ['Ariyathidal Papanasam'])
+  assert.deepEqual(M.get('agra-lucknow-expressway').terms, ['Agra Lucknow Expressway'])
+  assert.ok(M.get('atal-setu').terms.includes('Mumbai Trans Harbour Link'))
+  // "ORR" alone would bring back every ORR headline in India
+  assert.ok(!M.get('delhi-outer-ring-road').terms.includes('ORR'))
+  assert.equal(M.get('nh-8').newsQuery, '"NH 8" Tripura highway')
+  assert.equal(M.get('nh-342').newsQuery, null)
   assert.equal(M.get('tn-sugarcane-road-108').searchable, false)
 })
 

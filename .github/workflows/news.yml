@@ -1,4 +1,4 @@
-# Refreshes every road's "In the news" headlines once a day and commits them.
+# Refreshes the roads' "In the news" headlines once a day and commits them.
 # Vercel deploys every push to main, so the commit is what puts them live.
 # scripts/fetch-news.mjs explains the exit codes; docs/NEWS.md the whole job.
 name: Daily road news
@@ -11,11 +11,11 @@ on:
   workflow_dispatch:
     inputs:
       only:
-        description: 'Only these road ids, comma-separated (blank = every road)'
+        description: 'Only these road ids, comma-separated (blank = the usual daily run)'
         required: false
         default: ''
-      reset:
-        description: 'The matching rules changed — rebuild every list from scratch'
+      rules_changed:
+        description: 'The matching rules changed on purpose — let headlines that no longer pass go'
         type: boolean
         default: false
 
@@ -30,7 +30,8 @@ concurrency:
 jobs:
   news:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    # ~140 queries three seconds apart: ten minutes on a normal day
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7
 
@@ -46,14 +47,14 @@ jobs:
         id: fetch
         env:
           ONLY: ${{ inputs.only }}
-          RESET: ${{ inputs.reset && '--reset' || '' }}
+          RULES_CHANGED: ${{ inputs.rules_changed && '--rules-changed' || '' }}
         run: |
           set +e
-          node scripts/fetch-news.mjs --budget-min 240 ${ONLY:+--only "$ONLY"} $RESET
+          node scripts/fetch-news.mjs ${ONLY:+--only "$ONLY"} $RULES_CHANGED
           code=$?
           echo "code=$code" >> "$GITHUB_OUTPUT"
-          # 3 and 4 = ran out of time or of Google's patience: what it has is
-          # good, so commit it; the next run starts with the roads it missed
+          # 3 and 4 = Google refused before the day's queries were spent: what
+          # the run has is good, so commit it; the next run carries on from there
           case "$code" in 0|3|4) ;; *) exit "$code" ;; esac
 
       - name: Commit and push
@@ -78,10 +79,10 @@ jobs:
 
       - name: Flag an unfinished run
         if: steps.fetch.outputs.code == '3'
-        run: echo "::warning::Not every road was checked this run; the next run starts with the rest."
+        run: echo "::warning::Google refused before this run's queries were spent; the next run carries on from where it stopped."
 
-      - name: Fail if no run has finished in three days
+      - name: Fail if Google keeps refusing
         if: steps.fetch.outputs.code == '4'
         run: |
-          echo "::error::No run has reached every road in three days: Google is throttling this job."
+          echo "::error::Google refused this job two runs in a row, or the rotation has not come round in three weeks. See docs/NEWS.md."
           exit 1

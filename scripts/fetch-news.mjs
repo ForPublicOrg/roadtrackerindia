@@ -1,30 +1,46 @@
 #!/usr/bin/env node
 /**
- * Daily news. For every road, asks the Google News RSS feed for the latest
- * stories, keeps only the headlines that actually name that road (the rules
- * are in lib/news-match.mjs), and writes them newest first to
- * public/data/news/<id>.json. Run once a day by .github/workflows/news.yml,
- * which commits the result — and that commit is what redeploys the site.
+ * Daily news. Asks the Google News RSS feed for headlines about the roads,
+ * keeps only the ones that name a road (lib/news-match.mjs), and writes them
+ * newest first to public/data/news/<id>.json. Run once a day by
+ * .github/workflows/news.yml, which commits the result — and that commit is
+ * what redeploys the site. docs/NEWS.md describes the whole job.
  *
- *   node scripts/fetch-news.mjs                   # every road
- *   node scripts/fetch-news.mjs --only nh-44,mc-road
- *   node scripts/fetch-news.mjs --dry-run         # fetch and report, write nothing
- *   node scripts/fetch-news.mjs --reset           # the matching rules changed: start
- *                                                 # every list afresh
- *   node scripts/fetch-news.mjs --budget-min 200  # stop starting queries after 200 min
+ *   node scripts/fetch-news.mjs                   # a daily run
+ *   node scripts/fetch-news.mjs --only nh-44,mc-road --dry-run
+ *   node scripts/fetch-news.mjs --rules-changed   # the matching rules changed on
+ *                                                 # purpose: let headlines go
  *
- * Google throttles a feed reader that asks too fast, so requests are spaced,
- * and spaced further (after a pause) every time it pushes back. Nothing is
- * written until the run is over, and then only if the run looks sane:
+ * Google allows a feed reader a few hundred queries a day from one machine —
+ * a GitHub runner was refused after 171 — and a refusal lasts hours. So each
+ * run asks at most MAX_QUERIES, and makes each one count:
  *
- *   exit 0  every road checked, results written
- *   exit 3  time or Google's patience ran out first — what was checked is
- *           written, and the rest is recorded so the next run starts with it
- *   exit 4  as 3, but no run has reached every road in three days: written,
- *           and the workflow then fails so a job Google keeps throttling
- *           gets noticed
- *   exit 1  the run looks broken (too many failed requests, feeds coming back
- *           empty, headlines vanishing wholesale) — nothing written
+ *   - It searches headline *terms*, not roads. A road contributes its numbers,
+ *     its names, and (if it has no number) its two end towns; a term shared by
+ *     many roads ("SH 29" is a road in most states) is asked once.
+ *   - Terms go ten to a query, `"NH 342" OR "NH 548C" OR …`, which Google
+ *     answers with the union of their results. Every headline that comes back
+ *     is offered to every road behind the batch, and each road's own test
+ *     decides. A batch that fills the feed's 100 results may have lost some,
+ *     so it is split and asked again; a term that fills it alone is
+ *     remembered, and asked alone from then on.
+ *   - Hot roads — hand-written ones, and any road that already has news — are
+ *     asked about every day. The other ~7,000 take turns: each run carries on
+ *     through them from where the last one stopped, so every road is asked
+ *     about roughly once a week.
+ *
+ * Each road's list merges today's matches with what it already had, all
+ * re-checked against the current rules: newest first, at most eight, none
+ * older than two years. Nothing is written until the run is over, and then
+ * only if it looks sane:
+ *
+ *   exit 0  written
+ *   exit 3  written, but Google refused before the run's budget was spent —
+ *           the next run carries on from where this one stopped
+ *   exit 4  written, but refused two runs in a row (or the rotation has not
+ *           come round in three weeks): the workflow fails, so it gets noticed
+ *   exit 1  the run looks broken (queries failing, feeds coming back empty,
+ *           headlines vanishing wholesale) — nothing written
  */
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -46,73 +62,50 @@ function option(name) {
 }
 
 const DRY = flag('dry-run')
-const RESET = flag('reset')
+const RULES_CHANGED = flag('rules-changed')
 const ONLY = option('only')?.split(',').map((s) => s.trim()).filter(Boolean) ?? null
-const BUDGET_MS = Number(option('budget-min') ?? 240) * 60_000
+/** Well under the 171 queries after which a GitHub runner was first refused. */
+const MAX_QUERIES = Number(option('max-queries') ?? 140)
+/** Hot roads may use this many; the rotation always gets the rest. */
+const HOT_SHARE = 0.6
+const GAP_MS = Number(option('gap-ms') ?? 3000)
 
 const MAX_ITEMS = 8
 /** "In the news" means the last two years; older stories drop off the list. */
 const WINDOW_MS = 730 * 24 * 3600_000
-/** Starting gap between requests, and how far pushback may stretch it. */
-const BASE_GAP_MS = Number(option('gap-ms') ?? 900)
-const MAX_GAP_MS = 8_000
-/** Stop for the day once Google has kept the run waiting this long in total. */
-const MAX_THROTTLE_MS = 60 * 60_000
-const WORKERS = 3
+const BATCH = 10
+/** The feed never returns more than 100; this many means some may be missing. */
+const FULL = 95
+/** A refusal can be a passing hiccup: wait once, then stop for the day. */
+const REFUSAL_PAUSE_MS = 3 * 60_000
+/** The rotation should come round in about a week; three means it is stuck. */
+const LAP_ALARM_MS = 21 * 24 * 3600_000
 const USER_AGENT = 'RoadTrackerIndia-news/2.0 (+https://roadtrackerindia.com)'
 
 const log = (s) => console.log(s)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
-
-// ── pacing ──────────────────────────────────────────────────────────
-
-const pace = {
-  gap: BASE_GAP_MS,
-  next: 0,
-  /** Every worker holds until Google has had its pause. */
-  pausedUntil: 0,
-  throttledMs: 0,
-  pushbacks: 0,
-  async slot() {
-    for (;;) {
-      const now = Date.now()
-      const at = Math.max(this.next, this.pausedUntil)
-      if (at <= now) {
-        this.next = now + this.gap + Math.random() * 250
-        return
-      }
-      await sleep(at - now)
-    }
-  },
-  pushback() {
-    // workers already queued behind a pause report the same pushback
-    if (Date.now() < this.pausedUntil) return
-    this.pushbacks++
-    // 1, 2, 4, 8, then 10 minutes — and the gap widens for the rest of the run
-    const wait = Math.min(10, 2 ** Math.min(this.pushbacks - 1, 4)) * 60_000
-    this.gap = Math.min(MAX_GAP_MS, Math.round(this.gap * 1.6))
-    this.throttledMs += wait
-    this.pausedUntil = Date.now() + wait
-    log(`  … Google pushed back (#${this.pushbacks}); pausing ${wait / 60_000} min, gap now ${this.gap} ms`)
-  },
-}
-
-class GiveUp extends Error {}
-
 const startedAt = Date.now()
-const outOfTime = () => Date.now() - startedAt > BUDGET_MS
-const outOfPatience = () => pace.throttledMs > MAX_THROTTLE_MS
+const elapsedMin = () => ((Date.now() - startedAt) / 60_000).toFixed(1)
+
+// ── asking Google ───────────────────────────────────────────────────
+
+class Refused extends Error {}
+let lastRequest = 0
+let refusals = 0
 
 /**
- * One query → the feed's items. Retries network errors and 5xx a few times;
- * waits out throttling for as long as the run's patience lasts.
+ * One query → the feed's items. Network errors and 5xx are retried a few
+ * times. A refusal (503/429, or Google's "Sorry…" page) is waited out once;
+ * a second one ends the run with `Refused`.
  */
 async function fetchFeed(query) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-IN&gl=IN&ceid=IN:en`
   let errors = 0
+  let refusedHere = false
   for (;;) {
-    if (outOfTime() || outOfPatience()) throw new GiveUp()
-    await pace.slot()
+    const wait = lastRequest + GAP_MS + Math.random() * 500 - Date.now()
+    if (wait > 0) await sleep(wait)
+    lastRequest = Date.now()
     let status = 0
     let body = ''
     try {
@@ -126,7 +119,11 @@ async function fetchFeed(query) {
     }
     if (status === 200 && isFeed(body)) return parseRss(body)
     if (status === 429 || status === 503 || /unusual traffic|<title>Sorry/i.test(body)) {
-      pace.pushback()
+      refusals++
+      if (refusedHere) throw new Refused()
+      refusedHere = true
+      log(`  … Google refused a query; waiting ${REFUSAL_PAUSE_MS / 60_000} min before one more try`)
+      await sleep(REFUSAL_PAUSE_MS)
       continue
     }
     if (++errors >= 4 || (status >= 400 && status < 500)) throw new Error(`HTTP ${status}`)
@@ -134,7 +131,7 @@ async function fetchFeed(query) {
   }
 }
 
-// ── what to check ───────────────────────────────────────────────────
+// ── what there is to ask ────────────────────────────────────────────
 
 const roads = readdirSync(ROADS_DIR)
   .filter((f) => f.endsWith('.json'))
@@ -165,16 +162,169 @@ for (const f of readdirSync(NEWS_DIR)) {
   if (f.endsWith('.json') && !f.startsWith('_')) previous.set(f.slice(0, -5), readJSON(join(NEWS_DIR, f))?.items ?? [])
 }
 const had = (id) => (previous.get(id) ?? []).length > 0
+const loud = new Set(previousStatus.loud ?? [])
 
-// Whatever the last run did not reach goes first, then hand-written roads,
-// then roads that already have news, then the rest. A run cut short has spent
-// itself on the roads that matter most, and the next one picks up the others.
-const pending = new Set(previousStatus.pending ?? [])
-const rank = new Map(roads.map((r) => [r.id, pending.has(r.id) ? 0 : r.provenance !== 'osm' ? 1 : had(r.id) ? 2 : 3]))
-const queue = (ONLY ? ONLY.map((id) => byId.get(id)) : roads)
-  .filter((r) => matchers.get(r.id).searchable)
-  .sort((a, b) => rank.get(a.id) - rank.get(b.id) || a.id.localeCompare(b.id))
+const inScope = (ONLY ? ONLY.map((id) => byId.get(id)) : roads).filter((r) => matchers.get(r.id).searchable)
+const isHot = (r) => r.provenance !== 'osm' || had(r.id)
+
+/**
+ * The things to ask, each keyed so the two lists sort the same way every run:
+ * a search term (and every road it could be about), or a hand-written road's
+ * own newsQuery, which is asked on its own because it is not a bare phrase.
+ */
+const entries = new Map()
+for (const r of inScope) {
+  const m = matchers.get(r.id)
+  for (const t of m.terms) {
+    const key = `t:${t.toLowerCase()}`
+    const e = entries.get(key) ?? { key, term: t, roads: new Set(), hot: false }
+    e.roads.add(r.id)
+    e.hot ||= isHot(r)
+    entries.set(key, e)
+  }
+  if (m.newsQuery) entries.set(`q:${r.id}`, { key: `q:${r.id}`, query: m.newsQuery, roads: new Set([r.id]), hot: true })
+}
+const hotList = [...entries.values()].filter((e) => e.hot).sort((a, b) => a.key.localeCompare(b.key))
+const coldList = [...entries.values()].filter((e) => !e.hot).sort((a, b) => a.key.localeCompare(b.key))
+
+const phrase = (t) => `"${t.replace(/"/g, '').replace(/[–—-]+/g, ' ').replace(/\s+/g, ' ').trim()}"`
+const solo = (e) => !!e.query || loud.has(e.term)
+
+/** Where `key` sits in a sorted list — the first entry at or after it. */
+const indexOf = (list, key) => {
+  const i = key == null ? 0 : list.findIndex((e) => e.key >= key)
+  return i < 0 ? 0 : i
+}
+
+/**
+ * Walks a list from `cursor`, wrapping at the end, and stops just before
+ * `stopAt` (or after one whole lap), yielding the queries to ask: runs of up
+ * to BATCH plain terms, and solo entries on their own.
+ */
+function* lap(list, cursor, stopAt) {
+  const n = list.length
+  if (!n) return
+  const start = indexOf(list, cursor)
+  const take = stopAt === undefined ? n : (indexOf(list, stopAt) - start + n) % n
+  const order = Array.from({ length: take }, (_, i) => list[(start + i) % n])
+  let batch = []
+  for (const e of order) {
+    if (solo(e)) {
+      if (batch.length) yield batch
+      batch = []
+      yield [e]
+      continue
+    }
+    batch.push(e)
+    if (batch.length === BATCH) {
+      yield batch
+      batch = []
+    }
+  }
+  if (batch.length) yield batch
+}
+
+const queryText = (group) => (group.length === 1 && group[0].query ? group[0].query : group.map((e) => phrase(e.term)).join(' OR '))
+
+// ── the run ─────────────────────────────────────────────────────────
+
 const unsearchable = roads.length - roads.filter((r) => matchers.get(r.id).searchable).length
+log(
+  `news: ${hotList.length} hot and ${coldList.length} rotating things to ask about ` +
+    `(${unsearchable} roads have nothing a headline could name); up to ${MAX_QUERIES} queries`,
+)
+
+const gathered = new Map() // road id → [{ item, viaNewsQuery }]
+const failed = []
+const newLoud = new Set()
+const quiet = new Set()
+let asked = 0
+let refused = false
+let hotAsked = 0
+let hotEmpty = 0
+
+/**
+ * Asks one list's queries, from `cursor` round to `stopAt` (default: one whole
+ * lap), until `budget` runs out or Google refuses.
+ *
+ * @returns {{ next: string | null, done: boolean, wrapped: boolean, spent: number }}
+ *   `next` is where to carry on next time; `done` says everything up to the
+ *   stop was asked; `wrapped` says the walk went past the end of the list, so
+ *   a pass over the whole list has now been completed.
+ */
+async function work(list, cursor, budget, hot, stopAt) {
+  const firstKey = list[0]?.key
+  const startsAtTop = indexOf(list, cursor) === 0
+  const splits = []
+  const it = lap(list, cursor, stopAt)
+  let spent = 0
+  let wrapped = false
+  let next
+  let done = false
+  for (;;) {
+    const group = splits.shift() ?? it.next().value
+    if (!group) {
+      done = true
+      // a walk that began at the top and got to the bottom has come round too
+      if (startsAtTop && stopAt === undefined) wrapped = true
+      next = stopAt ?? cursor ?? null
+      break
+    }
+    if (spent >= budget || refused) {
+      next = group[0].key
+      break
+    }
+    let items
+    try {
+      items = await fetchFeed(queryText(group))
+    } catch (e) {
+      if (e instanceof Refused) {
+        refused = true
+        next = group[0].key
+        break
+      }
+      failed.push(queryText(group))
+      log(`  ! ${queryText(group).slice(0, 90)}: ${e.message}`)
+      spent++
+      asked++
+      continue
+    }
+    spent++
+    asked++
+    if (hot) {
+      hotAsked++
+      if (!items.length) hotEmpty++
+    }
+    if (items.length >= FULL && group.length > 1) {
+      // some of this batch's headlines may not have fitted: ask each half again
+      const half = Math.ceil(group.length / 2)
+      splits.unshift(group.slice(0, half), group.slice(half))
+      continue
+    }
+    if (!startsAtTop && group.some((e) => e.key === firstKey)) wrapped = true
+    if (group.length === 1 && group[0].term) (items.length >= FULL ? newLoud : quiet).add(group[0].term)
+    const viaNewsQuery = group.length === 1 && !!group[0].query
+    for (const e of group) {
+      for (const id of e.roads) {
+        const list = gathered.get(id) ?? []
+        for (const item of items) list.push({ item, viaNewsQuery })
+        gathered.set(id, list)
+      }
+    }
+  }
+  return { next, done, wrapped, spent }
+}
+
+const hotStart = ONLY ? null : (previousStatus.hot?.cursor ?? null)
+const hotBudget = ONLY ? MAX_QUERIES : Math.floor(MAX_QUERIES * HOT_SHARE)
+const hot = await work(hotList, hotStart, hotBudget, true)
+const cold = await work(coldList, ONLY ? null : (previousStatus.cold?.cursor ?? null), MAX_QUERIES - hot.spent, false)
+// the rotation has had its share; what is left goes back to the hot roads
+// this run did not reach, and stops where today's hot walk began
+const hotRest = !hot.done && !refused && asked < MAX_QUERIES ? await work(hotList, hot.next, MAX_QUERIES - asked, true, hotStart ?? hotList[0]?.key) : null
+const hotNext = hotRest ? hotRest.next : hot.next
+
+// ── the stories each road keeps ─────────────────────────────────────
 
 const now = Date.now()
 const inWindow = (item) => {
@@ -183,15 +333,14 @@ const inWindow = (item) => {
 }
 
 /**
- * The stories that name this road — what the queries returned, merged with
- * what the road already had (re-checked, so a rule change applies to old
- * stories too) — newest first. Google's results wobble from day to day; with
- * the merge a story only leaves the list when newer ones push it out or it
- * turns two years old.
+ * What came back that names this road, merged with what it already had —
+ * re-checked, so a rule change reaches old stories too — newest first.
+ * Google's results wobble from day to day; with the merge a story only
+ * leaves when newer ones push it out or it turns two years old.
  */
 function select(road, fetched) {
   const m = matchers.get(road.id)
-  const carried = RESET ? [] : (previous.get(road.id) ?? []).map((item) => ({ item, viaNewsQuery: !!road.newsQuery }))
+  const carried = (previous.get(road.id) ?? []).map((item) => ({ item, viaNewsQuery: !!road.newsQuery }))
   const seen = new Set()
   const keep = []
   for (const { item, viaNewsQuery } of [...fetched, ...carried]) {
@@ -206,67 +355,31 @@ function select(road, fetched) {
   return keep.slice(0, MAX_ITEMS)
 }
 
-// ── the run ─────────────────────────────────────────────────────────
-
-log(`news: checking ${queue.length} roads (${unsearchable} have nothing a headline could name)`)
-
-const results = new Map() // id → items
-const raw = new Map() // id → how many stories the feed returned before filtering
-const failures = new Map() // id → message
-let cursor = 0
-let stopped = false
-
-async function worker() {
-  while (!stopped && cursor < queue.length) {
-    const road = queue[cursor++]
-    const m = matchers.get(road.id)
-    try {
-      const fetched = []
-      for (const [i, q] of m.queries.entries()) {
-        const viaNewsQuery = i === 0 && !!road.newsQuery
-        for (const item of await fetchFeed(q)) fetched.push({ item, viaNewsQuery })
-      }
-      raw.set(road.id, fetched.length)
-      results.set(road.id, select(road, fetched))
-    } catch (e) {
-      // out of time or patience: this road is simply not reached
-      if (e instanceof GiveUp) {
-        stopped = true
-        break
-      }
-      failures.set(road.id, e.message)
-      log(`  ! ${road.id}: ${e.message}`)
-    }
-    const done = results.size + failures.size
-    if (done % 250 === 0) log(`  ${done}/${queue.length} · ${((Date.now() - startedAt) / 60_000).toFixed(1)} min · gap ${pace.gap} ms`)
-  }
+// Every road with a file is re-checked, asked about today or not: stories age
+// out, and an empty file (the old fetcher wrote them) is removed.
+const results = new Map()
+for (const r of ONLY ? ONLY.map((id) => byId.get(id)) : roads) {
+  if (gathered.has(r.id) || previous.has(r.id)) results.set(r.id, select(r, gathered.get(r.id) ?? []))
 }
-await Promise.all(Array.from({ length: WORKERS }, worker))
-
-const notReached = queue.filter((r) => !results.has(r.id) && !failures.has(r.id)).map((r) => r.id)
-const complete = notReached.length === 0
 
 // ── is this run sane? ───────────────────────────────────────────────
 
-const attempted = results.size + failures.size
 const hasNews = [...results.values()].filter((items) => items.length).length
 const hadNews = [...results.keys()].filter(had).length
 const stillHas = [...results.keys()].filter((id) => had(id) && results.get(id).length).length
-// hand-written roads are the best-known ones; their feeds are never all empty
-const hand = [...results.keys()].filter((id) => byId.get(id).provenance !== 'osm')
-const emptyHand = hand.filter((id) => raw.get(id) === 0).length
-const minutes = ((Date.now() - startedAt) / 60_000).toFixed(1)
+const gained = [...results.keys()].filter((id) => !had(id) && results.get(id).length).length
 log(
-  `news: ${results.size} checked, ${failures.size} failed, ${notReached.length} not reached · ` +
-    `${hasNews} with headlines · ${minutes} min, ${pace.pushbacks} pushbacks`,
+  `news: ${asked} queries (${refusals} refused) in ${elapsedMin()} min · ${hasNews} roads with headlines, ` +
+    `${gained} of them new${refused ? ' · stopped early: Google refused' : ''}`,
 )
 
 const problems = []
-if (attempted && failures.size / attempted > 0.1) problems.push(`${failures.size} of ${attempted} roads failed`)
-if (hand.length >= 20 && emptyHand / hand.length > 0.5)
-  problems.push(`Google returned nothing at all for ${emptyHand} of ${hand.length} hand-written roads`)
-if (!RESET && hadNews >= 40 && stillHas < hadNews * 0.5)
-  problems.push(`only ${stillHas} of ${hadNews} roads kept their headlines — pass --reset if the rules changed on purpose`)
+if (asked >= 20 && failed.length / asked > 0.1) problems.push(`${failed.length} of ${asked} queries failed`)
+// hot roads are the ones in the news; their feeds are never nearly all empty
+if (hotAsked >= 10 && hotEmpty / hotAsked > 0.9)
+  problems.push(`Google returned nothing for ${hotEmpty} of ${hotAsked} queries about roads that are in the news`)
+if (!RULES_CHANGED && hadNews >= 40 && stillHas < hadNews * 0.5)
+  problems.push(`only ${stillHas} of ${hadNews} roads kept their headlines — pass --rules-changed if that is on purpose`)
 if (problems.length) {
   console.error(`news: not writing anything — ${problems.join('; ')}`)
   process.exit(1)
@@ -275,7 +388,7 @@ if (problems.length) {
 if (DRY) {
   for (const [id, items] of results) {
     if (!ONLY && !items.length) continue
-    log(`${id} (${raw.get(id)} fetched → ${items.length} kept)`)
+    log(`${id} (${(gathered.get(id) ?? []).length} fetched → ${items.length} kept)`)
     for (const i of items) log(`    ${i.date.slice(0, 10)}  ${i.title}  — ${i.source}`)
   }
   log('news: dry run, nothing written')
@@ -302,6 +415,7 @@ for (const [id, items] of results) {
   written++
 }
 
+let exitCode = refused ? 3 : 0
 if (!ONLY) {
   // a road that no longer exists (merged, renamed) takes its news with it
   for (const id of previous.keys()) {
@@ -312,30 +426,36 @@ if (!ONLY) {
   }
   const withNews = readdirSync(NEWS_DIR).filter((f) => f.endsWith('.json') && !f.startsWith('_')).length
   const finished = new Date().toISOString()
+  const lastLap = cold.wrapped ? finished : (previousStatus.cold?.lastLap ?? null)
   const status = {
     checked: finished,
-    completed: complete ? finished : (previousStatus.completed ?? null),
     roads: roads.length,
     withNews,
-    pending: notReached,
+    queries: asked,
+    refused,
+    hot: { cursor: hotNext },
+    // the rotation through every other road: where the next run carries on,
+    // and when it last came all the way round
+    cold: { cursor: cold.next, lastLap, lapStarted: previousStatus.cold?.lapStarted ?? finished },
+    loud: [...new Set([...loud, ...newLoud])].filter((t) => entries.has(`t:${t.toLowerCase()}`) && !quiet.has(t)).sort(),
   }
+  if (cold.wrapped) status.cold.lapStarted = finished
   writeFileSync(STATUS_FILE, `${JSON.stringify(status, null, 2)}\n`)
+
+  const lapAge = Date.now() - Date.parse(lastLap ?? status.cold.lapStarted)
+  if (refused && previousStatus.refused) exitCode = 4
+  if (lapAge > LAP_ALARM_MS) exitCode = 4
+
   if (process.env.GITHUB_STEP_SUMMARY) {
     appendFileSync(
       process.env.GITHUB_STEP_SUMMARY,
-      `### Road news\n\n| | |\n|---|---|\n| Roads checked | ${results.size} of ${queue.length} |\n` +
-        `| Failed | ${failures.size} |\n| Roads with headlines | ${withNews} |\n| Files changed | ${written} updated, ${removed} removed |\n` +
-        `| Time | ${minutes} min, ${pace.pushbacks} pushbacks from Google |\n`,
+      `### Road news\n\n| | |\n|---|---|\n` +
+        `| Queries | ${asked} of ${MAX_QUERIES}${refused ? ' — stopped early, Google refused' : ''} |\n` +
+        `| Roads with headlines | ${withNews} (${gained} new today) |\n| Files | ${written} updated, ${removed} removed |\n` +
+        `| Rotation | ${cold.wrapped ? 'came all the way round today' : `last came round ${lastLap ?? 'not yet'}`} |\n`,
     )
   }
 }
-log(`news: ${written} files updated, ${removed} removed${complete ? '' : ` · ${notReached.length} roads left for the next run`}`)
-
-if (!complete) {
-  const lastComplete = Date.parse(previousStatus.completed ?? '')
-  if (!ONLY && !(lastComplete > Date.now() - 72 * 3600_000)) {
-    console.error('news: no run has reached every road in three days — Google is throttling this job')
-    process.exit(4)
-  }
-  process.exit(3)
-}
+log(`news: ${written} files updated, ${removed} removed`)
+if (exitCode === 4) console.error('news: Google has refused this job two runs in a row, or the rotation is stuck — see docs/NEWS.md')
+process.exit(exitCode)
