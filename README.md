@@ -120,7 +120,7 @@ Full details in [docs/CORPUS.md](docs/CORPUS.md).
   is the only crawlable path through a map. Plus a sitemap index and a `404.html`
   SPA fallback
 - **Daily news**: a GitHub Action (`.github/workflows/news.yml`) searches Google News
-  each morning — busy roads daily, every other road about once a week, within what
+  each morning — busy roads daily, every other road every nine days or so, within what
   Google allows one machine — keeps only headlines that name the road, and commits
   them; the push redeploys the site. See [docs/NEWS.md](docs/NEWS.md)
 - **No database SDK in the browser**: community data goes through `api/`, which

@@ -4,7 +4,7 @@ Every road page has an **In the news** section: up to eight recent headlines
 that name that road, newest first. They come from the Google News RSS feed via a
 GitHub Action that runs once a day. Busy roads — every hand-written road, and any
 road already in the news — are searched every day; the other ~7,000 take turns,
-and each is searched about once a week. Why not all of them daily: see
+and each is searched every nine days or so. Why not all of them daily: see
 [How much Google allows](#how-much-google-allows).
 
 ```
@@ -91,8 +91,9 @@ one count:
   Kerala` returns nothing), and `intitle:` in an OR.
 - **Two lists, each walked from where it stopped.** Hot things (every
   hand-written road's own `newsQuery`, and the terms of roads with news) get up
-  to 60% of a run, which on a normal day covers all of them. The rotation gets
-  the rest: ~4,400 terms, about 445 queries round, so about a week. Its place is
+  to 65% of a run, which on a normal day covers all of them (~85 queries). The
+  rotation gets the rest, ~50 a day: ~4,400 terms is about 445 queries round,
+  so every nine days or so. Its place is
   saved in `_status.json`, and `cold.lastLap` records when it last came all
   the way round.
 

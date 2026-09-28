@@ -27,7 +27,7 @@
  *   - Hot roads — hand-written ones, and any road that already has news — are
  *     asked about every day. The other ~7,000 take turns: each run carries on
  *     through them from where the last one stopped, so every road is asked
- *     about roughly once a week.
+ *     about every nine days or so.
  *
  * Each road's list merges today's matches with what it already had, all
  * re-checked against the current rules: newest first, at most eight, none
@@ -66,8 +66,11 @@ const RULES_CHANGED = flag('rules-changed')
 const ONLY = option('only')?.split(',').map((s) => s.trim()).filter(Boolean) ?? null
 /** Well under the 171 queries after which a GitHub runner was first refused. */
 const MAX_QUERIES = Number(option('max-queries') ?? 140)
-/** Hot roads may use this many; the rotation always gets the rest. */
-const HOT_SHARE = 0.6
+/**
+ * Hot roads may use this share; the rotation always gets the rest. Hot needs
+ * ~85 queries on a normal day (46 of them hand-written roads' own queries).
+ */
+const HOT_SHARE = 0.65
 const GAP_MS = Number(option('gap-ms') ?? 3000)
 
 const MAX_ITEMS = 8
