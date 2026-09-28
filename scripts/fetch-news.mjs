@@ -45,7 +45,7 @@
 import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { isFeed, parseRss } from './lib/news-feed.mjs'
+import { cleanTitle, isFeed, parseRss } from './lib/news-feed.mjs'
 import { buildMatchers, norm } from './lib/news-match.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
@@ -347,12 +347,15 @@ function select(road, fetched) {
   const seen = new Set()
   const keep = []
   for (const { item, viaNewsQuery } of [...fetched, ...carried]) {
-    if (!inWindow(item) || !m.test(item.title, { source: item.source, viaNewsQuery })) continue
-    const key = norm(item.title).trim()
+    // stored stories get today's cleaning too, so an old one and its fresh
+    // copy are recognised as the same story
+    const title = cleanTitle(item.title, item.source)
+    if (!inWindow(item) || !m.test(title, { source: item.source, viaNewsQuery })) continue
+    const key = norm(title).trim()
     if (seen.has(item.url) || seen.has(key)) continue
     seen.add(item.url)
     seen.add(key)
-    keep.push({ title: item.title, url: item.url, source: item.source, date: item.date })
+    keep.push({ title, url: item.url, source: item.source, date: item.date })
   }
   keep.sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title))
   return keep.slice(0, MAX_ITEMS)

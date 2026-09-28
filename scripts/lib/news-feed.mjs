@@ -27,6 +27,16 @@ function tag(block, name) {
 /** Throttling and errors come back as an HTML page, never as an empty feed. */
 export const isFeed = (xml) => /<rss[\s>]/.test(xml) && xml.includes('<channel>')
 
+/**
+ * Google appends " - Source" to every headline, and sometimes the publisher
+ * already had: "Locals go fishing … - India Today - India Today".
+ */
+export function cleanTitle(title, source) {
+  let t = title.trim()
+  if (source) while (t.length > source.length + 3 && t.endsWith(` - ${source}`)) t = t.slice(0, -(source.length + 3)).trim()
+  return t
+}
+
 /** `{ title, url, source, date }` for every usable item, in feed order. */
 export function parseRss(xml) {
   const items = []
@@ -36,9 +46,7 @@ export function parseRss(xml) {
     const source = tag(block, 'source')
     const ts = Date.parse(tag(block, 'pubDate'))
     if (!raw || !/^https?:\/\//.test(url) || !Number.isFinite(ts)) continue
-    // Google appends " - Source" to every headline; <source> has it cleanly
-    const title = source && raw.endsWith(` - ${source}`) ? raw.slice(0, -(source.length + 3)).trim() : raw
-    items.push({ title, url, source, date: new Date(ts).toISOString() })
+    items.push({ title: cleanTitle(raw, source), url, source, date: new Date(ts).toISOString() })
   }
   return items
 }

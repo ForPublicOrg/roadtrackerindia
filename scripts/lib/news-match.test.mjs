@@ -2,7 +2,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { buildMatchers, findRefs, norm } from './news-match.mjs'
-import { isFeed, parseRss } from './news-feed.mjs'
+import { cleanTitle, isFeed, parseRss } from './news-feed.mjs'
 
 const road = (id, fields) => ({
   id,
@@ -235,4 +235,6 @@ test('reading the feed', () => {
     { title: 'Road\'s ‘fix’', url: 'https://news.google.com/rss/articles/def', source: 'Onmanorama', date: '2025-11-10T08:00:00.000Z' },
   ])
   assert.ok(!isFeed('<html><head><title>Sorry...</title></head></html>'))
+  assert.equal(cleanTitle('Locals go fishing on flooded ganga expressway - India Today - India Today', 'India Today'), 'Locals go fishing on flooded ganga expressway')
+  assert.equal(cleanTitle('India Today', 'India Today'), 'India Today')
 })
