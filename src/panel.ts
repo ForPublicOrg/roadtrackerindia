@@ -494,13 +494,15 @@ export function showOrgLoading(name: string): void {
   openPanel('org', 'full')
 }
 
-/** "In the news" — latest-first headlines snapshotted at build time. */
+/** "In the news" — headlines that name this road, refreshed daily, newest first. */
 async function fillNews(id: string): Promise<void> {
   const slot = document.getElementById('news-slot')
-  if (!slot) return
+  // most roads have no headlines, and the index says which — no request, no 404
+  if (!slot || !state.byId.get(id)?.news) return
   try {
     const snap = await loadNews(id)
     if (state.selectedId !== id || !snap.items.length) return
+    const updated = state.newsChecked ? ` · updated ${relTime(Date.parse(state.newsChecked))}` : ''
     slot.hidden = false
     slot.innerHTML = `<h3>In the news</h3>
       <ul class="news-list">${snap.items
@@ -511,7 +513,7 @@ async function fillNews(id: string): Promise<void> {
           </a></li>`,
         )
         .join('')}</ul>
-      <p class="rating-note">Headlines auto-collected from Google News, newest first · snapshot ${relTime(Date.parse(snap.generated))}</p>`
+      <p class="rating-note">Headlines from Google News that name this road, newest first${updated}</p>`
   } catch {
     /* no news snapshot for this road — section stays hidden */
   }

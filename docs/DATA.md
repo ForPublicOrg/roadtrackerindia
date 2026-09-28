@@ -137,7 +137,7 @@ delete a road file without adding it here — a live URL would start 404ing.
   "futureUpgrades": [                    // officially announced plans only
     "Widening to 8 lanes announced for the Hyderabad–Bengaluru section."
   ],
-  "newsQuery": "\"Yamuna Expressway\"",  // override for the news fetcher when ref+name alone would be ambiguous
+  "newsQuery": "\"Atal Setu\" Mumbai",   // first Google News query; quoted = names, the rest = places that disambiguate them (docs/NEWS.md)
   "provenance": "osm"                    // set ONLY on generated files; remove it once a human has written the road up
 }
 ```

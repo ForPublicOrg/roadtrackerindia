@@ -1,0 +1,87 @@
+# Refreshes every road's "In the news" headlines once a day and commits them.
+# Vercel deploys every push to main, so the commit is what puts them live.
+# scripts/fetch-news.mjs explains the exit codes; docs/NEWS.md the whole job.
+name: Daily road news
+
+on:
+  schedule:
+    # 00:37 UTC = 06:07 IST. Off the hour: GitHub delays or drops scheduled
+    # runs at :00 when everyone else's fire.
+    - cron: '37 0 * * *'
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Only these road ids, comma-separated (blank = every road)'
+        required: false
+        default: ''
+      reset:
+        description: 'The matching rules changed — rebuild every list from scratch'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# never two runs at once: the second would fight the first over the same files
+concurrency:
+  group: daily-road-news
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      # the news scripts use nothing but Node itself — no npm install
+      - name: Test the headline rules
+        run: npm test
+
+      - name: Fetch headlines
+        id: fetch
+        env:
+          ONLY: ${{ inputs.only }}
+          RESET: ${{ inputs.reset && '--reset' || '' }}
+        run: |
+          set +e
+          node scripts/fetch-news.mjs --budget-min 240 ${ONLY:+--only "$ONLY"} $RESET
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          # 3 and 4 = ran out of time or of Google's patience: what it has is
+          # good, so commit it; the next run starts with the roads it missed
+          case "$code" in 0|3|4) ;; *) exit "$code" ;; esac
+
+      - name: Commit and push
+        run: |
+          git add public/data/news
+          if git diff --cached --quiet; then
+            echo "No change in the news."
+            exit 0
+          fi
+          with_news=$(node -p "require('./public/data/news/_status.json').withNews")
+          git -c user.name='github-actions[bot]' \
+              -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+              commit -q -m "Refresh road news ($with_news roads with headlines)"
+          # someone may have pushed while this ran; the news files are this
+          # job's alone, so a rebase onto their work cannot conflict
+          for attempt in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep $((attempt * 15))
+          done
+          echo "::error::Could not push the news commit after three attempts"
+          exit 1
+
+      - name: Flag an unfinished run
+        if: steps.fetch.outputs.code == '3'
+        run: echo "::warning::Not every road was checked this run; the next run starts with the rest."
+
+      - name: Fail if no run has finished in three days
+        if: steps.fetch.outputs.code == '4'
+        run: |
+          echo "::error::No run has reached every road in three days: Google is throttling this job."
+          exit 1

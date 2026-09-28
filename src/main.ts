@@ -91,6 +91,7 @@ async function boot(): Promise<void> {
   state.roads = index.roads
   state.byId = new Map(index.roads.map((r) => [r.id, r]))
   state.aliases = index.aliases ?? {}
+  state.newsChecked = index.newsChecked ?? null
   state.network = network
   emit('dataready', undefined)
 

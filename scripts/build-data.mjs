@@ -5,6 +5,7 @@
  * Reads   public/data/roads/<id>.json          (hand-authored, single source of truth)
  * Reads   data/orgs/<id>.json                  (hand-authored organisation profiles)
  * Reads   public/data/geometry/<id>.json       (optional real OSM geometry override)
+ * Reads   public/data/news/                    (which roads have headlines — see fetch-news.mjs)
  * Writes  public/data/index.json               (search/browse index)
  * Writes  public/data/network-lite.geojson     (simplified all-roads overview)
  * Writes  public/data/places.json              (where every city and state is)
@@ -33,6 +34,8 @@ const ORGS_OUT_DIR = join(DATA_DIR, 'org')
 // ids that used to be their own road before the catalogue found they were
 // another name for one it already had — /road/<old-id>/ has to keep working
 const MERGED_FILE = join(ROOT, 'data', 'merged-roads.json')
+// written daily by scripts/fetch-news.mjs; a road with no file has no headlines
+const NEWS_DIR = join(DATA_DIR, 'news')
 
 const CATEGORIES = ['nh', 'expressway', 'sh', 'district', 'local']
 const STATUSES = ['operational', 'under-construction', 'planned']
@@ -494,6 +497,27 @@ if (existsSync(MERGED_FILE)) {
   }
 }
 
+// ── news ────────────────────────────────────────────────────────────
+// fetch-news.mjs writes a file only for a road it found headlines for, and
+// _status.json says when it last ran — the panel shows that as "updated …"
+const newsIds = new Set()
+let newsChecked = null
+if (existsSync(NEWS_DIR)) {
+  for (const f of readdirSync(NEWS_DIR)) {
+    if (!f.endsWith('.json')) continue
+    let body
+    try {
+      body = JSON.parse(readFileSync(join(NEWS_DIR, f), 'utf8'))
+    } catch (e) {
+      allErrors.push(`news/${f}: invalid JSON — ${e.message}`)
+      continue
+    }
+    if (f === '_status.json') newsChecked = typeof body.checked === 'string' ? body.checked : null
+    else if (!allIds.has(f.slice(0, -5))) allWarnings.push(`news/${f}: no such road (the next news run removes it)`)
+    else if (Array.isArray(body.items) && body.items.length) newsIds.add(f.slice(0, -5))
+  }
+}
+
 // ── organisations ───────────────────────────────────────────────────
 const orgs = new Map()
 for (const file of existsSync(ORGS_SRC_DIR)
@@ -659,6 +683,8 @@ for (const road of roads) {
   }
   if (road.aka) row.aka = road.aka
   if (road.completionPercent !== undefined) row.completionPercent = road.completionPercent
+  // lets the panel skip asking for headlines the road does not have
+  if (newsIds.has(road.id)) row.news = true
   indexRows.push(row)
 }
 
@@ -669,6 +695,7 @@ writeFileSync(
     count: indexRows.length,
     roads: indexRows,
     aliases,
+    ...(newsChecked ? { newsChecked } : {}),
   })
 )
 writeFileSync(

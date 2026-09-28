@@ -119,6 +119,9 @@ Full details in [docs/CORPUS.md](docs/CORPUS.md).
   for MapLibre. Those sections link to connected roads, states and organisations, which
   is the only crawlable path through a map. Plus a sitemap index and a `404.html`
   SPA fallback
+- **Daily news**: a GitHub Action (`.github/workflows/news.yml`) asks Google News about
+  every road each morning, keeps only headlines that name the road, and commits them;
+  the push redeploys the site. See [docs/NEWS.md](docs/NEWS.md)
 - **No database SDK in the browser**: community data goes through `api/`, which
   holds the Admin credentials. The bundle ships no Firebase client code at all
 
@@ -146,7 +149,7 @@ scripts/
   migrate-firestore.mjs    one-time move to the identity-free schema (`--apply`)
   gen-pages.mjs            road/company/state pages + sitemap index
   make-og-image.mjs        redraws public/og.png, the social share card
-  fetch-news.mjs           per-road news snapshots (Google News RSS, build time)
+  fetch-news.mjs           daily per-road headlines (Google News RSS) — docs/NEWS.md
   fetch-osm-geometry.mjs   real OSM alignments via Overpass
   fetch-india-boundary.mjs India's external boundary (Survey of India depiction)
 ```

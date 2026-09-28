@@ -17,6 +17,8 @@ export interface RoadSummary {
   bbox: BBox
   aka?: string[]
   completionPercent?: number
+  /** The daily news run found headlines that name this road. */
+  news?: true
 }
 
 /** The six standard Indian toll classes. Two-wheelers travel free. */
@@ -93,9 +95,8 @@ export interface NewsItem {
   date: string | null
 }
 
+/** public/data/news/<id>.json — headlines that name the road, newest first. */
 export interface NewsSnapshot {
-  generated: string
-  query: string
   items: NewsItem[]
 }
 
@@ -105,6 +106,8 @@ export interface RoadIndex {
   roads: RoadSummary[]
   /** Old road id → the id it was merged into, so its links keep working. */
   aliases?: Record<string, string>
+  /** When the daily news run last finished. */
+  newsChecked?: string
 }
 
 // ── places: where a city or a state is on the ground ────────────────

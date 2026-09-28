@@ -5,6 +5,8 @@ export const state = {
   byId: new Map<string, RoadSummary>(),
   /** Retired road ids → the road that absorbed them. Keeps old links alive. */
   aliases: {} as Record<string, string>,
+  /** When the daily news run last finished, for the "updated …" under headlines. */
+  newsChecked: null as string | null,
   network: null as NetworkFC | null,
   /** The state/district tier, once the map has zoomed in far enough to want it. */
   networkDetail: null as NetworkFC | null,
