@@ -24,10 +24,10 @@
  *     decides. A batch that fills the feed's 100 results may have lost some,
  *     so it is split and asked again; a term that fills it alone is
  *     remembered, and asked alone from then on.
- *   - Hot roads — hand-written ones, and any road that already has news — are
- *     asked about every day. The other ~7,000 take turns: each run carries on
- *     through them from where the last one stopped, so every road is asked
- *     about every nine days or so.
+ *   - Hot roads — hand-written ones, and any road in the news in the last
+ *     three months — are asked about every day. The other ~7,000 take turns:
+ *     each run carries on through them from where the last one stopped, so
+ *     every road is asked about every ten days or so.
  *
  * Each road's list merges today's matches with what it already had, all
  * re-checked against the current rules: newest first, at most eight, none
@@ -68,9 +68,12 @@ const ONLY = option('only')?.split(',').map((s) => s.trim()).filter(Boolean) ?? 
 const MAX_QUERIES = Number(option('max-queries') ?? 140)
 /**
  * Hot roads may use this share; the rotation always gets the rest. Hot needs
- * ~87 queries on a normal day (46 of them hand-written roads' own queries).
+ * ~95 queries on a normal day (46 of them hand-written roads' own queries,
+ * ~30 terms loud enough to be asked alone), plus room for the odd split.
  */
-const HOT_SHARE = 0.7
+const HOT_SHARE = 0.75
+/** A road stays hot while its newest story is this recent. */
+const HOT_FOR_MS = 90 * 24 * 3600_000
 const GAP_MS = Number(option('gap-ms') ?? 3000)
 
 const MAX_ITEMS = 8
@@ -79,6 +82,8 @@ const WINDOW_MS = 730 * 24 * 3600_000
 const BATCH = 10
 /** The feed never returns more than 100; this many means some may be missing. */
 const FULL = 95
+/** A loud term goes back into batches only once it returns fewer than this alone. */
+const QUIET = 60
 /** A refusal can be a passing hiccup: wait once, then stop for the day. */
 const REFUSAL_PAUSE_MS = 3 * 60_000
 /** The rotation should come round in about a week; three means it is stuck. */
@@ -168,7 +173,10 @@ const had = (id) => (previous.get(id) ?? []).length > 0
 const loud = new Set(previousStatus.loud ?? [])
 
 const inScope = (ONLY ? ONLY.map((id) => byId.get(id)) : roads).filter((r) => matchers.get(r.id).searchable)
-const isHot = (r) => r.provenance !== 'osm' || had(r.id)
+// a road only in old news goes back to the rotation, or the daily list would
+// grow for ever as roads collect stories
+const inTheNews = (id) => (previous.get(id) ?? []).some((i) => Date.now() - Date.parse(i.date) < HOT_FOR_MS)
+const isHot = (r) => r.provenance !== 'osm' || inTheNews(r.id)
 
 /**
  * The things to ask, each keyed so the two lists sort the same way every run:
@@ -312,7 +320,12 @@ async function work(queries, cursor, budget, hot, stopAt) {
       continue
     }
     if (!startsAtTop && group.some((e) => e.key === firstKey)) wrapped = true
-    if (group.length === 1 && group[0].term) (items.length >= FULL ? newLoud : quiet).add(group[0].term)
+    if (group.length === 1 && group[0].term) {
+      // well clear of the line either way, or a term hovering near 100 would
+      // be batched one day, split the next, and cost queries every time
+      if (items.length >= FULL) newLoud.add(group[0].term)
+      else if (items.length < QUIET) quiet.add(group[0].term)
+    }
     const viaNewsQuery = group.length === 1 && !!group[0].query
     for (const e of group) {
       for (const id of e.roads) {

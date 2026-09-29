@@ -3,8 +3,8 @@
 Every road page has an **In the news** section: up to eight recent headlines
 that name that road, newest first. They come from the Google News RSS feed via a
 GitHub Action that runs once a day. Busy roads — every hand-written road, and any
-road already in the news — are searched every day; the other ~7,000 take turns,
-and each is searched every nine days or so. Why not all of them daily: see
+road in the news in the last three months — are searched every day; the other
+~7,000 take turns, and each is searched every ten days or so. Why not all of them daily: see
 [How much Google allows](#how-much-google-allows).
 
 ```
@@ -89,14 +89,16 @@ one count:
   remembered in `_status.json` and asked alone from then on. Two things that do
   **not** work, also measured: mixing OR with other words (`"SH 29" OR "SH 30"
   Kerala` returns nothing), and `intitle:` in an OR.
-- **Two lists, each walked from where it stopped.** Hot things (every
-  hand-written road's own `newsQuery`, and the terms of roads with news) get up
-  to 70% of a run, which on a normal day covers all of them (~87 queries). The
-  rotation gets the rest, ~50 a day: ~4,400 terms is about 445 queries round,
-  so every nine days or so. Batches are formed once, in a fixed order, so a
-  saved place always lands on the same query. Its place is
-  saved in `_status.json`, and `cold.lastLap` records when it last came all
-  the way round.
+- **Two lists, each walked from where it stopped.** The hot list — every
+  hand-written road's own `newsQuery`, and the terms of roads with a story from
+  the last three months — gets up to 75% of a run, which on a normal day covers
+  all of it (~95 queries). The rotation gets the rest, ~40 a day: ~4,400 terms
+  is about 445 queries round, so every ten days or so. Both places are saved in
+  `_status.json`, and `cold.lastLap` records when the rotation last came all
+  the way round. Batches are formed once, in a fixed order, so a saved place
+  always lands on the same query. A term counts as loud from 95 results and
+  goes back into batches only below 60, so one hovering near the line does not
+  cost a split every day.
 
 Other sources were tried. GDELT's DOC API, which is built for programmatic
 access, turns GitHub's runners away on the first request (they share IPs with
