@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>You're offline — RoadTracker India</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#f4f1ea" id="meta-theme-color" />
+    <!--
+      Served by sw.js in place of any page that could not be fetched, so it must
+      stand alone: the stylesheet and fonts are hashed files this page cannot
+      name, and they would not load offline anyway.
+    -->
+    <script>
+      try {
+        var t = localStorage.getItem('rti-theme')
+        t = t || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+        document.documentElement.dataset.theme = t
+        if (t === 'dark') document.getElementById('meta-theme-color').content = '#10131a'
+      } catch (e) {}
+    </script>
+    <style>
+      :root { --bg: #f4f1ea; --surface: #fffefb; --ink: #221f1a; --ink-2: #6b6456; --line: #e5dfd2; --accent: #bc4b1f; --accent-ink: #fff; }
+      [data-theme='dark'] { --bg: #10131a; --surface: #191e27; --ink: #ece7dc; --ink-2: #a49b8a; --line: #2b313c; --accent: #e8703d; --accent-ink: #16100c; }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; margin: 0; }
+      body {
+        display: grid; place-items: center; padding: 24px;
+        background: var(--bg); color: var(--ink);
+        font: 15px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        width: min(100%, 380px); text-align: center;
+        background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+        padding: 30px 24px 26px;
+      }
+      svg { width: 56px; height: 56px; }
+      h1 { font: 640 22px/1.25 Georgia, 'Times New Roman', serif; margin: 16px 0 6px; }
+      p { color: var(--ink-2); margin: 0 0 22px; }
+      button {
+        font: 650 15px system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        background: var(--accent); color: var(--accent-ink); border: 0; border-radius: 26px;
+        height: 48px; padding: 0 26px; cursor: pointer;
+      }
+      button:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#bc4b1f" />
+        <path d="M20 56 C26 38 30 30 44 8" stroke="#fff" stroke-opacity="0.3" stroke-width="13" fill="none" stroke-linecap="round" />
+        <path d="M20 56 C26 38 30 30 44 8" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-dasharray="7 8" />
+      </svg>
+      <h1>You're offline</h1>
+      <p>RoadTracker needs a connection to load the map. This page will reload by itself when you're back online.</p>
+      <button type="button" onclick="location.reload()">Try again</button>
+    </main>
+    <script>
+      addEventListener('online', function () { location.reload() })
+    </script>
+  </body>
+</html>

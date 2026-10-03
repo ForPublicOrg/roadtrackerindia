@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "RoadTracker India",
+  "short_name": "RoadTracker",
+  "description": "Every National Highway, Expressway and State Highway of India on one map — routes, tolls, history and road reports.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f1ea",
+  "theme_color": "#f4f1ea",
+  "lang": "en-IN",
+  "dir": "ltr",
+  "categories": ["navigation", "travel", "reference"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

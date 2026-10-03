@@ -54,6 +54,7 @@ import {
   replaceHome,
 } from './router'
 import { initLegend, toast } from './ui'
+import { initInstall, registerServiceWorker } from './install'
 
 /**
  * Vercel Web Analytics — a count of page views, nothing else. It is cookie-less
@@ -72,6 +73,8 @@ function startAnalytics(): void {
 
 async function boot(): Promise<void> {
   startAnalytics()
+  registerServiceWorker()
+  initInstall() // before any await: the browser offers installing once per page load
   initTheme()
   initLegend()
 

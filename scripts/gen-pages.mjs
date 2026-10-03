@@ -519,6 +519,9 @@ function hubShell({ title, description, url, h1, body, jsonLd }) {
     <meta name="description" content="${esc(description)}" />
     <link rel="canonical" href="${url}" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="RoadTracker" />
     <meta name="theme-color" content="#f4f1ea" id="meta-theme-color" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="RoadTracker India" />
