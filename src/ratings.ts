@@ -99,6 +99,8 @@ export async function renderCommunity(
   // and nothing server-side ties a rating back to you.
   let mine = store.getMyRating(roadId)
   let summary: RatingSummary | null = null
+  /** Set once any write here returns a summary, which is newer than the initial read. */
+  let wrote = false
 
   // ── stars ────────────────────────────────────────────────────────
 
@@ -224,6 +226,7 @@ export async function renderCommunity(
     submit.textContent = 'Saving…'
     try {
       summary = await store.setReview(roadId, text)
+      wrote = true
       composing = false
       toast('Thanks! Your review is live for everyone.')
       renderReviews()
@@ -238,6 +241,7 @@ export async function renderCommunity(
     if (!confirm('Delete your review?')) return
     try {
       summary = await store.removeReview(roadId)
+      wrote = true
       toast('Your review was removed.')
       renderReviews()
     } catch (e) {
@@ -278,24 +282,10 @@ export async function renderCommunity(
     if (ta.tagName === 'TEXTAREA' && count) count.textContent = String(ta.value.length)
   })
 
-  // ── load ─────────────────────────────────────────────────────────
-
-  reviewsEl.innerHTML = `<h3>What travellers say</h3><div class="skel" style="height:44px"></div>`
-  try {
-    summary = await store.getRatingSummary(roadId)
-    showRating()
-    renderReviews()
-  } catch (e) {
-    // never claim "be the first" for a road we merely failed to read
-    const code = errCode(e)
-    console.warn('[ratings] summary unavailable —', code)
-    note.textContent =
-      code === 'no-api'
-        ? 'Ratings need the site API — not available on this deployment.'
-        : "Community ratings can't be loaded right now."
-    chart.innerHTML = ''
-    reviewsEl.innerHTML = `<h3>What travellers say</h3><p class="rating-note">Reviews can't be loaded right now — please try again later.</p>`
-  }
+  // ── stars: wired BEFORE the summary loads ───────────────────────
+  // The buttons are on screen from the first paint. Wiring them only after the
+  // read returned left them dead for as long as that took — seconds on a cold
+  // start — so the first tap did nothing and only the second one rated.
 
   ratingEl.querySelectorAll<HTMLButtonElement>('[data-stars]').forEach((b) =>
     b.addEventListener('click', async () => {
@@ -308,6 +298,7 @@ export async function renderCommunity(
         // the write itself rather than a follow-up read that the edge cache
         // could answer with a pre-rating value.
         summary = await store.setRating(roadId, stars)
+        wrote = true
         showRating()
         renderReviews() // your review, if any, now shows the new stars
         // the moment someone has an opinion is the moment to ask for the words
@@ -326,4 +317,28 @@ export async function renderCommunity(
       }
     }),
   )
+
+  // ── load ─────────────────────────────────────────────────────────
+
+  reviewsEl.innerHTML = `<h3>What travellers say</h3><div class="skel" style="height:44px"></div>`
+  try {
+    const loaded = await store.getRatingSummary(roadId)
+    // A rating or review saved while this read was in flight returned a newer
+    // summary than the one this (possibly edge-cached) read is about to give.
+    if (wrote) return
+    summary = loaded
+    showRating()
+    renderReviews()
+  } catch (e) {
+    if (wrote) return // the write's own summary is already on screen
+    // never claim "be the first" for a road we merely failed to read
+    const code = errCode(e)
+    console.warn('[ratings] summary unavailable —', code)
+    note.textContent =
+      code === 'no-api'
+        ? 'Ratings need the site API — not available on this deployment.'
+        : "Community ratings can't be loaded right now."
+    chart.innerHTML = ''
+    reviewsEl.innerHTML = `<h3>What travellers say</h3><p class="rating-note">Reviews can't be loaded right now — please try again later.</p>`
+  }
 }
