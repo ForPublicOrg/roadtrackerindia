@@ -1,9 +1,9 @@
 # Setting up reports & ratings (Firestore behind the API)
 
-Community reports (potholes / damage / flooding) and star ratings live in Cloud
-Firestore, but **the browser never talks to Firestore.** Every read and write goes
-through this site's own serverless API — `/api/ratings` and `/api/reports` — which
-uses the Firebase Admin SDK. The Admin SDK bypasses security rules, so
+Community reports (potholes / damage / flooding), star ratings and written reviews
+live in Cloud Firestore, but **the browser never talks to Firestore.** Every read
+and write goes through this site's own serverless API — `/api/ratings`,
+`/api/reviews` and `/api/reports` — which uses the Firebase Admin SDK. The Admin SDK bypasses security rules, so
 [`firestore.rules`](../firestore.rules) denies *everything*, and there is no way
 for a visitor to read or write the database directly.
 
@@ -14,13 +14,19 @@ next line possible.
 
 There is **no account and no anonymous sign-in. The server identifies nobody.**
 
-- A rating document holds `{road_id, stars, updated_at}`. Nothing else.
+- A rating document holds `{road_id, stars, updated_at}`, plus — if that person
+  also wrote a review or found some helpful — `review_id` and `liked` (random
+  review ids). Nothing else.
+- A review is `{id, text, stars, likes, at}` inside the road's aggregate document.
+  Its id is random: nothing in it points back at its author, or at the same
+  person's reviews on other roads.
 - A report document holds `{road_id, type, lng, lat, note, created_at}`. Nothing else.
-- "One rating per road per person" is enforced by the *document id*, which is a
-  salted SHA-256 of (coarsened IP + a small device fingerprint). Raw IPs and
-  fingerprints are never stored, and the hash is never returned to any client.
-- Your own stars and your own pins are remembered in **your browser's
-  localStorage**, never on the server.
+- "One rating (and one review) per road per person" is enforced by the *document
+  id*, which is a salted SHA-256 of (coarsened IP + a small device fingerprint).
+  Raw IPs and fingerprints are never stored, and the hash is never returned to
+  any client.
+- Your own stars, your own review and your own likes are remembered in **your
+  browser's localStorage**, never on the server.
 
 The salt is the only thing that makes those hashes un-recomputable, so
 `VOTE_HASH_SALT` below is a real secret.
@@ -122,8 +128,8 @@ Push and let Vercel build. Check the browser console on a road page:
 
 | Collection | Document id | Purpose |
 | --- | --- | --- |
-| `road_ratings` | `<roadId>__<raterHash>` | one person's stars for one road |
-| `road_rating_aggregates` | `<roadId>` | counts/total/sum, written in the same transaction as the rating |
+| `road_ratings` | `<roadId>__<raterHash>` | one person's stars for one road, the id of their review, the ids they liked |
+| `road_rating_aggregates` | `<roadId>` | counts/total/sum **and the road's reviews** (`reviews[]`, most-liked first, capped at 100), written in the same transaction as the rating, review or like |
 | `reports` | auto | one problem report; `deleted: true` hides it |
 
 The aggregate is maintained transactionally alongside every rating, so the score
@@ -131,10 +137,23 @@ shown can never drift from the ratings behind it — and reading a road's score 
 100 roads' scores for a list) is one cheap document fetch rather than a live
 aggregation query.
 
+Reviews deliberately live *inside* that document rather than in a collection of
+their own: the panel already reads it to show the stars, so showing the reviews
+too costs zero additional reads, and there is no per-road query to index. A road
+that fills its 100 slots drops the least-liked, oldest review for a new one. The
+trade-off is that every write on a road — rating, review, like — lands on one
+document, which Firestore rates at about one sustained write per second; for a
+road atlas that is ample, but it is the ceiling to know about.
+
 ## Costs & abuse notes
 
 - Spark tier: 50k reads + 20k writes/day free. Rating reads hit one aggregate doc
   per road and are edge-cached for 5 minutes; a batch of 100 roads is one request.
+  Reviews ride inside that same read. A review or a like is one transaction over
+  two documents (2 reads, 2 writes) — the same price as a rating.
+- Nobody can delete someone else's review, unlike reports: an open delete would
+  be the obvious way to bury criticism of a road. A review can be removed from
+  the console by editing the aggregate's `reviews` array.
 - **Deletion is open to anyone**, by design: stale reports outlive the pothole and
   their author rarely returns to clear them. Deletes are *soft* (`deleted: true`),
   so anything removed maliciously is recoverable in the console.

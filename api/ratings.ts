@@ -2,9 +2,12 @@
  * Road ratings. The browser never touches Firestore — this endpoint is the only
  * way in, which is what lets firestore.rules deny everything.
  *
- * GET  /api/ratings?roadId=nh-44          → one road's summary
+ * GET  /api/ratings?roadId=nh-44          → one road's summary, reviews included
  * GET  /api/ratings?roadIds=nh-44,nh-48   → many (for lists and search results)
  * POST /api/ratings {roadId, stars, fingerprint, turnstileToken}
+ *
+ * Writing a review or liking one is /api/reviews; reading them is here, because
+ * they live inside the same document as the score.
  */
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { getDb, isFirestoreConfigured } from './_lib/db.js'
@@ -38,7 +41,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     if (!ids.length) return res.status(400).json({ error: 'bad-request' })
 
     try {
-      const summaries = await getSummaries(db, ids)
+      // Reviews ride along only on a single-road read (the panel); a list of
+      // 100 roads wants scores, not prose.
+      const summaries = await getSummaries(db, ids, Boolean(single))
       // Cached at the edge: the panel fetches this on every road open, and a
       // rating's own POST returns the fresh summary, so staleness is invisible
       // to the person who just rated.

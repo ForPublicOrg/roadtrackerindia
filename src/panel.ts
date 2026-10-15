@@ -4,7 +4,7 @@ import { formatKm } from './geo'
 import { state } from './state'
 import { loadNews } from './data'
 import { prefersReducedMotion, spring, type SpringHandle } from './animate'
-import { renderRatingRow } from './ratings'
+import { renderCommunity } from './ratings'
 import { renderRoadReports } from './reports'
 import { behindHtml, contactsHtml, helplinesFor, loadOrg, orgKnown, tollHtml } from './orgs'
 
@@ -393,6 +393,7 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
     ${relatedHtml}
     ${sparse}
     <div class="rd-section" id="news-slot" hidden></div>
+    <div class="rd-section" id="reviews-slot"></div>
     <div class="rd-section" id="reports-slot"></div>
     ${sources}
     <div class="rd-section">
@@ -421,8 +422,11 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       ),
     )
 
+  // stars stay up top where the chips are; what people wrote sits with the
+  // other community content further down, so the encyclopedia reads first
   const ratingSlot = document.getElementById('rating-slot')!
-  void renderRatingRow(ratingSlot, d.id)
+  const reviewsSlot = document.getElementById('reviews-slot')!
+  void renderCommunity(ratingSlot, reviewsSlot, d.id, summary.ref)
   const reportsSlot = document.getElementById('reports-slot')!
   void renderRoadReports(reportsSlot, d.id, summary.ref)
   void fillNews(d.id)

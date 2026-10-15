@@ -29,6 +29,7 @@ import {
 } from './map'
 import {
   closePanel,
+  expandSheet,
   initSheetGestures,
   isPanelOpen,
   onPanelClose,
@@ -361,6 +362,8 @@ async function boot(): Promise<void> {
     const id = (e as CustomEvent<{ id?: string }>).detail?.id
     if (id) void selectOrg(id)
   })
+  // the review composer sits low in the sheet — bring it up before focusing it
+  document.addEventListener('rti:expand-sheet', () => expandSheet())
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape' || e.defaultPrevented) return // report mode/dialog consumed it
