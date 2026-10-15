@@ -15,6 +15,25 @@ import { getTurnstileToken, resetTurnstile } from './turnstile'
 
 const MY_RATING = 'rti-rating:'
 const MY_REPORTS = 'rti-reports'
+const MY_REVIEW = 'rti-review:'
+const MY_LIKES = 'rti-likes:'
+
+function local(key: string): string | null {
+  try {
+    return localStorage.getItem(key)
+  } catch {
+    return null
+  }
+}
+
+function setLocal(key: string, value: string | null): void {
+  try {
+    if (value === null) localStorage.removeItem(key)
+    else localStorage.setItem(key, value)
+  } catch {
+    /* private mode / quota — it just won't be remembered next visit */
+  }
+}
 
 /** A small, privacy-light device signal used ONLY as a soft dedupe hint. It is
  *  sent to our own API, hashed with a server-side secret, and never stored. */
@@ -166,7 +185,45 @@ class ApiStore implements UserStore {
     // to read, never "this road has no ratings".
     if (!Array.isArray(summaries)) throw new Error('bad-response')
     const s = summaries[0]
-    return s && s.votes > 0 ? s : null
+    return s && (s.votes > 0 || s.reviews?.length) ? s : null
+  }
+
+  async setReview(roadId: string, text: string): Promise<RatingSummary> {
+    const { summary, reviewId } = await send<{ summary: RatingSummary; reviewId: string }>(
+      '/api/reviews',
+      'POST',
+      { roadId, text },
+    )
+    setLocal(MY_REVIEW + roadId, reviewId)
+    return summary
+  }
+
+  async removeReview(roadId: string): Promise<RatingSummary> {
+    const { summary } = await send<{ summary: RatingSummary }>('/api/reviews', 'DELETE', { roadId })
+    setLocal(MY_REVIEW + roadId, null)
+    return summary
+  }
+
+  async setReviewLike(roadId: string, id: string, on: boolean) {
+    const r = await send<{ likes: number; liked: boolean }>('/api/reviews', 'PUT', { roadId, id, on })
+    const likes = this.getMyLikes(roadId)
+    if (r.liked) likes.add(id)
+    else likes.delete(id)
+    setLocal(MY_LIKES + roadId, JSON.stringify([...likes]))
+    return r
+  }
+
+  getMyReviewId(roadId: string): string | null {
+    return local(MY_REVIEW + roadId)
+  }
+
+  getMyLikes(roadId: string): Set<string> {
+    try {
+      const v: unknown = JSON.parse(local(MY_LIKES + roadId) ?? '[]')
+      return new Set(Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [])
+    } catch {
+      return new Set()
+    }
   }
 }
 

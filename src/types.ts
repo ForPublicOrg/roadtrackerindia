@@ -246,12 +246,26 @@ export interface NewReport {
   note: string
 }
 
+export interface ReviewItem {
+  id: string
+  text: string
+  /** The author's stars, kept in step when they re-rate; null if they never rated. */
+  stars: number | null
+  likes: number
+  /** ISO timestamps, as the server wrote them. */
+  at: string
+  edited?: string
+}
+
 export interface RatingSummary {
   mean: number
   votes: number
   /** stars ("1".."5") → how many people chose it. A mean alone hides whether a
    *  road is consistently mediocre or genuinely divisive. */
   distribution: Record<string, number>
+  /** Most-liked first. Present on single-road reads only — they ship inside the
+   *  same document as the score, so showing them costs no extra read. */
+  reviews?: ReviewItem[]
 }
 
 export interface UserStore {
@@ -269,4 +283,13 @@ export interface UserStore {
    *  two must stay distinguishable or the UI reports "no ratings yet" for a road
    *  it simply could not read. */
   getRatingSummary(roadId: string): Promise<RatingSummary | null>
+  /** Writes or replaces your one review of the road; resolves the fresh summary. */
+  setReview(roadId: string, text: string): Promise<RatingSummary>
+  removeReview(roadId: string): Promise<RatingSummary>
+  /** Sets, not toggles: liking what you already liked is a no-op, so a browser
+   *  that forgot its likes converges on the server rather than flipping blind. */
+  setReviewLike(roadId: string, id: string, on: boolean): Promise<{ likes: number; liked: boolean }>
+  /** Which review is yours and which you liked — local only, like your stars. */
+  getMyReviewId(roadId: string): string | null
+  getMyLikes(roadId: string): Set<string>
 }

@@ -576,6 +576,46 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 .rb-bar > span { display: block; height: 100%; border-radius: 999px; background: var(--star-on); transition: width 0.3s var(--ease-spring); }
 .rb-count { text-align: right; font-variant-numeric: tabular-nums; }
 
+/* reviews — the three most liked, each clamped to four lines; one button for the
+   rest and the composer folded away, so the section reads at a glance */
+.rv-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.rv-item {
+  background: var(--surface-2); border: 1px solid var(--line);
+  border-radius: var(--radius-s); padding: 10px 12px 6px; font-size: 13.5px;
+}
+.rv-item.is-mine { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.rv-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.rv-stars { color: var(--star-on); font-size: 13px; letter-spacing: 1px; }
+.rv-stars span { color: var(--star-off); }
+.rv-text {
+  margin: 6px 0 0; line-height: 1.5; white-space: pre-line; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
+}
+.rv-item.is-open .rv-text { display: block; -webkit-line-clamp: none; }
+.rv-actions { display: flex; align-items: center; gap: 2px; margin: 4px 0 0 -8px; }
+.rv-btn {
+  display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 0 8px;
+  border-radius: 8px; font: 600 12.5px var(--font-ui); color: var(--ink-2);
+}
+.rv-btn:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); color: var(--accent); }
+.rv-like svg { width: 16px; height: 16px; }
+.rv-like b { font-weight: 700; font-variant-numeric: tabular-nums; }
+.rv-like[aria-pressed='true'] { color: var(--accent); }
+.rv-like[aria-pressed='true'] svg { fill: currentColor; }
+.rv-read { margin-left: auto; }
+.rv-read[hidden] { display: none; } /* the class's display would otherwise beat the attribute */
+.rv-own { display: flex; gap: 2px; }
+.rv-more {
+  width: 100%; min-height: 40px; margin-top: 8px; border-radius: var(--radius-s);
+  font: 600 13px var(--font-ui); color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+.rv-form { margin-top: 10px; }
+.rv-input { margin-top: 0; min-height: 96px; font-size: 16px; line-height: 1.45; } /* 16px: iOS zooms into anything smaller */
+.rv-form-foot { margin: 6px 0 0; text-align: right; font-variant-numeric: tabular-nums; }
+/* on a phone every target is a thumb target */
+@media (max-width: 768px) { .rv-btn { min-height: 40px; } }
+
 /* reports in panel */
 .report-item {
   display: flex; gap: 10px; align-items: flex-start;
