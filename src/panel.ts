@@ -133,15 +133,24 @@ export function initSheetGestures(): void {
   let velocity = 0
   let armed = false
   let dragging = false
-  let suppressClick = false
+  // A mouse or pen drag ends in a click on whatever is under the pointer, and
+  // that click must not press a button. A FINGER drag ends in no click at all,
+  // so this used to be a plain "swallow the next click" flag that outlived the
+  // drag and ate the visitor's next real tap instead: drag the sheet up, tap
+  // "Copy link", nothing happens. The suppression now covers only the moment
+  // right after a drag, and any new touch clears it.
+  const TRAILING_CLICK_MS = 350
+  let suppressUntil = 0
 
   const onDown = (e: PointerEvent) => {
+    // first, before any early return: a new gesture means the last drag's
+    // trailing click, if it was ever coming, has already been and gone
+    suppressUntil = 0
     if (!isMobile() || el.hidden || !e.isPrimary) return
     // expanded sheet: the content area scrolls, so only the handle starts a drag
     if (sheetState === 'full' && !handle.contains(e.target as Node)) return
     armed = true
     dragging = false
-    suppressClick = false
     startY = lastY = e.clientY
     startSheetY = sheetY
     lastT = performance.now()
@@ -173,7 +182,7 @@ export function initSheetGestures(): void {
     armed = false
     if (!dragging) return
     dragging = false
-    suppressClick = true
+    suppressUntil = performance.now() + TRAILING_CLICK_MS
     const h = el.getBoundingClientRect().height
     const peekTarget = h - PEEK_VISIBLE
     if (velocity > 650 && sheetY > peekTarget * 0.55) {
@@ -198,8 +207,8 @@ export function initSheetGestures(): void {
   el.addEventListener(
     'click',
     (e) => {
-      if (!suppressClick) return
-      suppressClick = false
+      if (performance.now() > suppressUntil) return
+      suppressUntil = 0
       e.preventDefault()
       e.stopPropagation()
     },
