@@ -21,7 +21,7 @@
  */
 import { copyFileSync, mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { execSync } from 'node:child_process'
-import { join } from 'node:path'
+import { join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
@@ -60,30 +60,44 @@ const STATUS_LABEL = { operational: 'Open', 'under-construction': 'Being built',
  * `lastmod` has to be the truth or it is worse than nothing — a build date
  * stamped on 7,757 URLs tells a crawler every page changed today, every deploy,
  * and the whole signal gets discounted. One `git log` pass gives the real date
- * each road file last changed.
+ * each road file last changed. A file with no known date gets no `lastmod`.
+ *
+ * A shallow clone (Vercel's build checkout, actions/checkout's default) does
+ * not make git fail. It shows its oldest commits as if they added every file in
+ * the tree, which would date every road to whenever that commit was made, and
+ * move them all forward on every deploy. Those boundary commits say nothing
+ * about when a file changed, so their file lists are skipped.
  */
 function gitLastModified() {
-  const when = new Map()
+  const dates = new Map()
+  let shallow = false
   try {
-    const log = execSync('git log --name-only --pretty=format:%x00%cI', {
-      cwd: ROOT,
-      maxBuffer: 1 << 28,
-    }).toString()
+    const git = (args) => execSync(`git ${args}`, { cwd: ROOT, maxBuffer: 1 << 28 }).toString()
+    const boundary = new Set()
+    if (git('rev-parse --is-shallow-repository').trim() === 'true') {
+      shallow = true
+      const list = resolve(ROOT, git('rev-parse --git-path shallow').trim())
+      for (const hash of readFileSync(list, 'utf8').split('\n')) if (hash) boundary.add(hash)
+    }
+    const log = git('log --name-only --pretty=format:%x00%H%x20%cI')
     for (const record of log.split('\0')) {
       const lines = record.split('\n').filter(Boolean)
       if (!lines.length) continue
-      const date = lines[0].slice(0, 10)
-      for (const file of lines.slice(1)) if (!when.has(file)) when.set(file, date)
+      const [hash, when] = lines[0].split(' ')
+      if (boundary.has(hash)) continue
+      const date = when.slice(0, 10)
+      for (const file of lines.slice(1)) if (!dates.has(file)) dates.set(file, date)
     }
   } catch {
-    /* shallow clone or no git — fall back to the build date below */
+    /* no git — nothing gets a lastmod */
   }
-  return when
+  return { dates, shallow }
 }
-const gitDates = gitLastModified()
-const TODAY = new Date().toISOString().slice(0, 10)
-const roadLastmod = (id) => gitDates.get(`public/data/roads/${id}.json`) ?? TODAY
-const orgLastmod = (id) => gitDates.get(`data/orgs/${id}.json`) ?? TODAY
+const { dates: gitDates, shallow: shallowHistory } = gitLastModified()
+const roadLastmod = (id) => gitDates.get(`public/data/roads/${id}.json`)
+const orgLastmod = (id) => gitDates.get(`data/orgs/${id}.json`)
+/** The latest of some YYYY-MM-DD dates (they sort as text), skipping unknown ones. */
+const newest = (dates) => dates.reduce((max, d) => (d && (!max || d > max) ? d : max), undefined)
 
 const detailCache = new Map()
 function detailOf(id) {
@@ -96,6 +110,20 @@ function detailOf(id) {
   }
   detailCache.set(id, detail)
   return detail
+}
+
+const profileCache = new Map()
+/** An organisation's profile, with the roads the data build linked to it. */
+function profileOf(id) {
+  if (profileCache.has(id)) return profileCache.get(id)
+  let profile = null
+  try {
+    profile = JSON.parse(readFileSync(join(DIST, 'data', 'org', `${id}.json`), 'utf8'))
+  } catch {
+    /* index-only */
+  }
+  profileCache.set(id, profile)
+  return profile
 }
 
 // ── text helpers ───────────────────────────────────────────────────
@@ -169,36 +197,49 @@ function withSocialMeta(html) {
 }
 
 function shell({ title, description, url, h1, body, jsonLd, panelLabel = 'Road details' }) {
+  // Every replacement is a function, never a string. In a replacement string
+  // `$1`, `$2`, `$&` and `$'` are patterns, so a road text citing a "US$2
+  // billion" loan would splice the template's own markup into the page head.
   return withSocialMeta(template)
-    .replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`)
-    .replace(/(<meta\s+name="description"\s+content=")[\s\S]*?("\s*\/?>)/, `$1${esc(description)}$2`)
-    .replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, `$1${url}$2`)
-    .replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, `$1${esc(title)}$2`)
+    .replace(/<title>[\s\S]*?<\/title>/, () => `<title>${esc(title)}</title>`)
+    .replace(/(<meta\s+name="description"\s+content=")[\s\S]*?("\s*\/?>)/, (_, a, b) => a + esc(description) + b)
+    .replace(/(<link\s+rel="canonical"\s+href=")[^"]*(")/, (_, a, b) => a + url + b)
+    .replace(/(<meta\s+property="og:title"\s+content=")[^"]*(")/, (_, a, b) => a + esc(title) + b)
     .replace(
       /(<meta\s+property="og:description"\s+content=")[\s\S]*?("\s*\/?>)/,
-      `$1${esc(description)}$2`,
+      (_, a, b) => a + esc(description) + b,
     )
-    .replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, `$1${url}$2`)
+    .replace(/(<meta\s+property="og:url"\s+content=")[^"]*(")/, (_, a, b) => a + url + b)
     .replace(
       /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
-      `<script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
+      () => `<script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
     )
-    .replace(/(<h1 class="visually-hidden" id="page-h1">)[\s\S]*?(<\/h1>)/, `$1${esc(h1)}$2`)
+    .replace(/(<h1 class="visually-hidden" id="page-h1">)[\s\S]*?(<\/h1>)/, (_, a, b) => a + esc(h1) + b)
     .replace(
       '<aside id="panel" class="panel" aria-label="Road details" hidden>',
-      `<aside id="panel" class="panel is-open is-static" aria-label="${esc(panelLabel)}">`,
+      () => `<aside id="panel" class="panel is-open is-static" aria-label="${esc(panelLabel)}">`,
     )
     .replace(
       '<div class="panel-scroll" id="panel-content"></div>',
-      `<div class="panel-scroll" id="panel-content">${body}</div>`,
+      () => `<div class="panel-scroll" id="panel-content">${body}</div>`,
     )
 }
+
+const OSM_COPYRIGHT = `<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a>`
+
+/**
+ * The credit DATA-LICENSE.md asks for anywhere the catalogue is shown. The app
+ * carries it in the map's attribution control, but that only exists once
+ * MapLibre boots, and these pages are read before that or without it.
+ */
+const CREDIT = `<p class="rd-provenance">Map data © ${OSM_COPYRIGHT} contributors, ODbL · Road catalogue © RoadTracker India contributors, ODbL</p>`
 
 /** The links every prerendered page ends with, so no page is a dead end. */
 function footerNav(links) {
   return `<nav class="seo-nav" aria-label="More of RoadTracker India">
       ${links.map(([href, label]) => `<a href="${href}">${esc(label)}</a>`).join('')}
-    </nav>`
+    </nav>
+    ${CREDIT}`
 }
 
 const breadcrumb = (trail) => ({
@@ -292,6 +333,11 @@ function roadBody(road, detail, orgById) {
         .map((s) => `<a href="${esc(s.url)}" rel="nofollow noopener" target="_blank">${esc(s.title)}</a>`)
         .join('')}</div>`
     : ''
+  // the line the app's panel gives every road generated from OpenStreetMap
+  const provenance =
+    d.provenance === 'osm'
+      ? `<p class="rd-provenance">Route, length and place names for this road come from ${OSM_COPYRIGHT} contributors (ODbL).</p>`
+      : ''
 
   const primaryState = states[0]
   return `
@@ -347,7 +393,7 @@ function roadBody(road, detail, orgById) {
     ${kv.length ? section('More details', `<dl class="kv">${kv.join('')}</dl>`) : ''}
     ${section('Behind this road', behind)}
     ${section('Connected roads', relatedHtml)}
-    ${section('Sources', sources)}
+    ${section('Sources', sources + provenance)}
     ${footerNav(
       [
         primaryState ? [`/state/${slug(primaryState)}/`, `All roads in ${primaryState}`] : null,
@@ -439,12 +485,7 @@ function orgPage(org) {
   const description = clamp(`${org.name}: ${org.summary}${scale}`, 300)
   const url = `${SITE}/company/${org.id}/`
 
-  let profile = null
-  try {
-    profile = JSON.parse(readFileSync(join(DIST, 'data', 'org', `${org.id}.json`), 'utf8'))
-  } catch {
-    /* index-only */
-  }
+  const profile = profileOf(org.id)
   const roads = (profile?.roads ?? []).map((r) => byId.get(r.id)).filter(Boolean)
 
   const body = `
@@ -558,6 +599,7 @@ function hubShell({ title, description, url, h1, body, jsonLd }) {
       </a>
       <h1 class="hub-title">${esc(h1)}</h1>
       ${body}
+      ${CREDIT}
     </div>
   </body>
 </html>
@@ -869,7 +911,7 @@ function homePage(roads) {
 
   return withSocialMeta(template).replace(
     /<script type="application\/ld\+json">[\s\S]*?<\/script>/,
-    `<script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
+    () => `<script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>`,
   )
 }
 
@@ -930,28 +972,36 @@ const xml = (urls) =>
   urls
     .map(
       ({ loc, lastmod, priority }) =>
-        `  <url><loc>${loc}</loc><lastmod>${lastmod}</lastmod>` +
+        `  <url><loc>${loc}</loc>` +
+        (lastmod ? `<lastmod>${lastmod}</lastmod>` : '') +
         (priority ? `<priority>${priority}</priority>` : '') +
         `</url>`,
     )
     .join('\n') +
   `\n</urlset>\n`
 
-const siteLastmod = gitDates.get('index.html') ?? TODAY
+// A hub changes when any road (or organisation) it lists changes, not only
+// when the template does, so it is dated by the newest of all of them.
+const siteLastmod = gitDates.get('index.html')
+const roadsLastmod = (roads) => newest([siteLastmod, ...roads.map((r) => roadLastmod(r.id))])
+const orgPageLastmod = (id) => newest([orgLastmod(id), ...(profileOf(id)?.roads ?? []).map((r) => roadLastmod(r.id))])
+const everyRoadLastmod = roadsLastmod(index.roads)
 
 // Hubs first: they are the pages that carry the links to everything else.
 const hubUrls = [
-  { loc: `${SITE}/`, lastmod: siteLastmod, priority: '1.0' },
-  { loc: `${SITE}/roads/`, lastmod: siteLastmod, priority: '0.9' },
-  ...(orgIndex.length ? [{ loc: `${SITE}/company/`, lastmod: siteLastmod, priority: '0.8' }] : []),
-  ...states.map(([name]) => ({
+  { loc: `${SITE}/`, lastmod: everyRoadLastmod, priority: '1.0' },
+  { loc: `${SITE}/roads/`, lastmod: everyRoadLastmod, priority: '0.9' },
+  ...(orgIndex.length
+    ? [{ loc: `${SITE}/company/`, lastmod: newest([siteLastmod, ...orgIndex.map((o) => orgPageLastmod(o.id))]), priority: '0.8' }]
+    : []),
+  ...states.map(([name, roads]) => ({
     loc: `${SITE}/state/${slug(name)}/`,
-    lastmod: siteLastmod,
+    lastmod: roadsLastmod(roads),
     priority: '0.8',
   })),
   ...orgIndex.map((o) => ({
     loc: `${SITE}/company/${o.id}/`,
-    lastmod: orgLastmod(o.id),
+    lastmod: orgPageLastmod(o.id),
     priority: '0.6',
   })),
 ]
@@ -969,13 +1019,15 @@ const roadUrls = index.roads.map((r) => ({
   priority: PRIORITY[r.category] ?? '0.5',
 }))
 
+// a sitemap changed when the newest page in it did, not on every deploy
 const files = []
 writeFileSync(join(DIST, 'sitemap-pages.xml'), xml(hubUrls))
-files.push('sitemap-pages.xml')
+files.push({ name: 'sitemap-pages.xml', lastmod: newest(hubUrls.map((u) => u.lastmod)) })
 for (let i = 0; i < roadUrls.length; i += SITEMAP_CHUNK) {
   const name = `sitemap-roads-${Math.floor(i / SITEMAP_CHUNK) + 1}.xml`
-  writeFileSync(join(DIST, name), xml(roadUrls.slice(i, i + SITEMAP_CHUNK)))
-  files.push(name)
+  const chunk = roadUrls.slice(i, i + SITEMAP_CHUNK)
+  writeFileSync(join(DIST, name), xml(chunk))
+  files.push({ name, lastmod: newest(chunk.map((u) => u.lastmod)) })
 }
 
 writeFileSync(
@@ -983,7 +1035,10 @@ writeFileSync(
   `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     files
-      .map((f) => `  <sitemap><loc>${SITE}/${f}</loc><lastmod>${TODAY}</lastmod></sitemap>`)
+      .map(
+        ({ name, lastmod }) =>
+          `  <sitemap><loc>${SITE}/${name}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}</sitemap>`,
+      )
       .join('\n') +
     `\n</sitemapindex>\n`,
 )
@@ -1000,6 +1055,13 @@ writeFileSync(
 )
 
 const total = hubUrls.length + roadUrls.length
+// say so, or a deploy from a shallow clone quietly ships a sitemap of undated roads
+const undated = roadUrls.filter((u) => !u.lastmod).length
+if (shallowHistory && undated)
+  console.warn(
+    `  warn  shallow git clone: ${undated.toLocaleString('en-IN')} road(s) last changed before its oldest commit go out ` +
+      `without a sitemap lastmod — build from a full clone (on Vercel, VERCEL_DEEP_CLONE=true) to date them`,
+  )
 console.log(
   `✓ ${index.roads.length.toLocaleString('en-IN')} road pages, ${merged} merged-road aliases, ` +
     `${orgIndex.length} company pages, ${states.length} state pages, /roads/, /company/\n` +

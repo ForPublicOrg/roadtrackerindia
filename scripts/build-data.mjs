@@ -4,7 +4,8 @@
  *
  * Reads   public/data/roads/<id>.json          (hand-authored, single source of truth)
  * Reads   data/orgs/<id>.json                  (hand-authored organisation profiles)
- * Reads   public/data/geometry/<id>.json       (optional real OSM geometry override)
+ * Reads   data/geometry/<id>.json              (real OSM alignment, where there is one)
+ * Reads   public/data/geometry/<id>.json       (legacy alignments, the fallback)
  * Reads   public/data/news/                    (which roads have headlines — see fetch-news.mjs)
  * Writes  public/data/index.json               (search/browse index)
  * Writes  public/data/network-lite.geojson     (simplified all-roads overview)
@@ -224,36 +225,81 @@ function decodePolyline(str, precision = 5) {
 const hasRealGeometry = (id) =>
   existsSync(join(GEOM_DIR, `${id}.json`)) || existsSync(join(LEGACY_GEOM_DIR, `${id}.json`))
 
+/** One geometry file as [lng, lat] pairs, or why it can't be used. */
+function readGeometry(file) {
+  try {
+    const g = JSON.parse(readFileSync(file, 'utf8'))
+    if (g?.type === 'Polyline' && typeof g.data === 'string') {
+      const coords = decodePolyline(g.data, g.precision ?? 5)
+      if (coords.length > 1) return coords
+    }
+    const geom = g?.type === 'Feature' ? g.geometry : g
+    if (geom?.type === 'LineString' && Array.isArray(geom.coordinates) && geom.coordinates.length > 1) {
+      return geom.coordinates
+    }
+    return { error: 'geometry override is not a LineString or Polyline' }
+  } catch {
+    return { error: 'unreadable geometry override' }
+  }
+}
+
+/** How far a road's terminus may sit from a line that claims to be that road. */
+const TERMINUS_KM = 25
+
+/**
+ * Whether a line can be this road: it reaches both termini and is roughly the
+ * official length. The line's own first and last points prove nothing — a
+ * stitched alignment can start and end anywhere along the road.
+ */
+function fitsRoad(line, road) {
+  const ratio = polyLenKm(line) / road.lengthKm
+  if (ratio < 0.5 || ratio > 1.45) return false
+  const wp = road.waypoints
+  return [wp[0].coords, wp[wp.length - 1].coords].every((end) =>
+    line.some((p) => haversineKm(p, end) <= TERMINUS_KM),
+  )
+}
+
 /**
  * The real alignment for a road, if we have one: an encoded polyline in
  * data/geometry/, or a plain LineString in the legacy public/data/geometry/.
+ * Returns { coords } to draw, and/or a { warning } for the build log.
+ *
+ * data/geometry/ wins. The legacy files came from one early Overpass fetch
+ * whose greedy stitch could run out and back along a road and stop far short
+ * of its end — read first, they hid better lines (NH 19 stopped at Varanasi,
+ * 570 km short of Kolkata). A legacy line is still used when it is the only
+ * one of the two that fits the road, because data/geometry/ has a few bad
+ * lines of its own (NH 28's wanders down its branch roads to 2.7× its length).
  */
-function realGeometry(id) {
-  // Legacy first: public/data/geometry/ is the hand-placed override, and
-  // data/geometry/ is bulk-generated. The other order made a curated alignment
-  // (and `npm run fetch-geometry`) a silent no-op.
-  for (const dir of [LEGACY_GEOM_DIR, GEOM_DIR]) {
-    const file = join(dir, `${id}.json`)
+function realGeometry(road) {
+  const lines = []
+  let error = null
+  for (const dir of [GEOM_DIR, LEGACY_GEOM_DIR]) {
+    const file = join(dir, `${road.id}.json`)
     if (!existsSync(file)) continue
-    try {
-      const g = JSON.parse(readFileSync(file, 'utf8'))
-      if (g?.type === 'Polyline' && typeof g.data === 'string') {
-        const coords = decodePolyline(g.data, g.precision ?? 5)
-        if (coords.length > 1) return coords
-      }
-      const geom = g?.type === 'Feature' ? g.geometry : g
-      if (geom?.type === 'LineString' && Array.isArray(geom.coordinates) && geom.coordinates.length > 1) {
-        return geom.coordinates
-      }
-      return { error: 'geometry override is not a LineString or Polyline' }
-    } catch {
-      return { error: 'unreadable geometry override' }
+    const g = readGeometry(file)
+    if (Array.isArray(g)) lines.push(g)
+    else error ??= `${file.slice(ROOT.length)}: ${g.error}`
+  }
+  if (lines.length > 1 && !fitsRoad(lines[0], road) && fitsRoad(lines[1], road)) {
+    return {
+      coords: lines[1],
+      warning: `data/geometry/${road.id}.json misses an end of the road or its length — using public/data/geometry/${road.id}.json`,
     }
   }
-  return null
+  // a broken file is still reported when the other one stands in for it
+  if (lines.length) return error ? { coords: lines[0], warning: `${error} — using the other alignment` } : { coords: lines[0] }
+  return error ? { warning: `${error} — using waypoints` } : {}
 }
 
 // ── validation ──────────────────────────────────────────────────────
+
+// A field of the wrong shape is already reported by the validators. Code that
+// walks it afterwards must not crash on it first: the stack trace names
+// neither the file nor the field, and every error collected so far is lost.
+const listOf = (v) => (Array.isArray(v) ? v : [])
+const isRecord = (v) => Boolean(v) && typeof v === 'object' && !Array.isArray(v)
 
 function validateRoad(road, file) {
   const errors = []
@@ -281,8 +327,10 @@ function validateRoad(road, file) {
     }
     if (!Array.isArray(r.states) || r.states.length === 0 || r.states.some((s) => typeof s !== 'string' || !s.trim()))
       err(`"route.states" must be a non-empty array of state names`)
-    if (!Array.isArray(r.majorCities) || r.majorCities.length < 2)
-      err(`"route.majorCities" must list at least 2 places`)
+    // every entry becomes a search key — a null here passes the length check and
+    // then crashes the build halfway through writing its outputs
+    if (!Array.isArray(r.majorCities) || r.majorCities.length < 2 || r.majorCities.some((c) => typeof c !== 'string' || !c.trim()))
+      err(`"route.majorCities" must list at least 2 place names`)
   }
 
   const wp = road.waypoints
@@ -431,7 +479,7 @@ function validateOrg(org, file) {
   }
   validateHelplines(org.helplines, err, 'helplines')
   // publishing a number nobody else publishes means owning it — say where it came from
-  for (const h of org.helplines ?? []) {
+  for (const h of listOf(org.helplines)) {
     if (validPhone(h?.number) && !NATIONAL_NUMBERS.has(h.number) && !org.website && !(org.sources ?? []).length)
       err(`helpline ${h.number} is not a national short code — link the page that publishes it`)
   }
@@ -530,6 +578,10 @@ for (const file of existsSync(ORGS_SRC_DIR)
     allErrors.push(`orgs/${file}: invalid JSON — ${e.message}`)
     continue
   }
+  if (!isRecord(org)) {
+    allErrors.push(`orgs/${file}: must be a JSON object`)
+    continue
+  }
   const { errors, warnings } = validateOrg(org, file)
   allErrors.push(...errors)
   allWarnings.push(...warnings)
@@ -544,16 +596,20 @@ for (const file of files) {
     allErrors.push(`${file}: invalid JSON — ${e.message}`)
     continue
   }
+  if (!isRecord(road)) {
+    allErrors.push(`${file}: must be a JSON object`)
+    continue
+  }
   const { errors, warnings } = validateRoad(road, file)
-  for (const rel of road?.relatedRoads ?? []) {
+  for (const rel of listOf(road.relatedRoads)) {
     if (rel?.id && !allIds.has(rel.id))
       warnings.push(`${file}: relatedRoads points at "${rel.id}" which is not in the catalogue`)
   }
   // a dangling org id would silently drop the road off that company's profile
   for (const ref of [
-    ...(road?.authority ? [{ org: road.authority, from: 'authority' }] : []),
-    ...(road?.builtBy ?? []).map((o) => ({ org: o?.org, from: 'builtBy' })),
-    ...(road?.operatedBy ?? []).map((o) => ({ org: o?.org, from: 'operatedBy' })),
+    ...(road.authority ? [{ org: road.authority, from: 'authority' }] : []),
+    ...listOf(road.builtBy).map((o) => ({ org: o?.org, from: 'builtBy' })),
+    ...listOf(road.operatedBy).map((o) => ({ org: o?.org, from: 'operatedBy' })),
   ]) {
     if (ref.org && !orgs.has(ref.org))
       errors.push(`${file}: ${ref.from} points at organisation "${ref.org}" — no data/orgs/${ref.org}.json`)
@@ -606,14 +662,13 @@ let realGeomCount = 0
 for (const road of roads) {
   let base = road.waypoints.map((w) => w.coords)
   let real = false
-  const geom = realGeometry(road.id)
-  if (Array.isArray(geom)) {
-    base = geom
+  const geom = realGeometry(road)
+  if (geom.coords) {
+    base = geom.coords
     real = true
     realGeomCount++
-  } else if (geom?.error) {
-    allWarnings.push(`${road.id}: ${geom.error} — using waypoints`)
   }
+  if (geom.warning) allWarnings.push(`${road.id}: ${geom.warning}`)
 
   const closed = base.length > 4 && haversineKm(base[0], base[base.length - 1]) < 1
   // Overview tolerance, scaled to the road: short urban roads need a tight one
@@ -766,41 +821,31 @@ for (const road of roads) {
 const degKm = (dx, dy) => Math.hypot(dx * 100, dy * 111)
 const CLUSTER_KM = 45
 
-/** The heaviest knot of same-name points, with the other towns of that name dropped. */
+/**
+ * The heaviest knot of same-name points, with the other towns of that name
+ * dropped. Every point walks to the weighted middle of the points within
+ * CLUSTER_KM of it, again and again until it stops moving (a mean shift), so
+ * two towns of one name settle into two knots and the heavier one wins.
+ * Averaging them instead put the place in the empty country between the two —
+ * a box holding neither town, as with the Kothapetas 200 km apart in Andhra
+ * Pradesh and Telangana.
+ */
 function densestCluster(points) {
-  if (points.length < 3) return points
-  const cells = new Map()
-  for (const p of points) {
-    const key = `${Math.round(p.coords[0] * 2)}|${Math.round(p.coords[1] * 2)}`
-    if (!cells.has(key)) cells.set(key, [])
-    cells.get(key).push(p)
-  }
+  const around = (at) => points.filter((p) => degKm(p.coords[0] - at[0], p.coords[1] - at[1]) <= CLUSTER_KM)
   let best = null
-  for (const key of cells.keys()) {
-    const [cx, cy] = key.split('|').map(Number)
-    let weight = 0
-    let members = []
-    // count the neighbouring cells too, or a knot straddling a cell edge loses
-    for (let dx = -1; dx <= 1; dx++)
-      for (let dy = -1; dy <= 1; dy++) {
-        const near = cells.get(`${cx + dx}|${cy + dy}`)
-        if (!near) continue
-        for (const p of near) weight += p.weight
-        members = members.concat(near)
-      }
-    if (!best || weight > best.weight) best = { weight, members }
+  for (const start of points) {
+    let seed = start.coords
+    let near = around(seed)
+    for (let i = 0; i < 20; i++) {
+      const next = centroid(near)
+      if (degKm(next[0] - seed[0], next[1] - seed[1]) < 0.1) break
+      seed = next
+      near = around(seed)
+    }
+    const weight = near.reduce((sum, p) => sum + p.weight, 0)
+    if (!best || weight > best.weight) best = { weight, near }
   }
-  let seed = centroid(best.members)
-  for (let i = 0; i < 2; i++) {
-    const near = points.filter((p) => degKm(p.coords[0] - seed[0], p.coords[1] - seed[1]) <= CLUSTER_KM)
-    if (!near.length) break
-    seed = centroid(near)
-  }
-  const kept = points.filter((p) => degKm(p.coords[0] - seed[0], p.coords[1] - seed[1]) <= CLUSTER_KM)
-  // two equally-heavy towns of the same name can leave the centroid in open
-  // country between them, further than the radius from either — never return
-  // nothing, or the place ends up with no extent at all
-  return kept.length ? kept : best.members
+  return best.near
 }
 
 function centroid(points) {
