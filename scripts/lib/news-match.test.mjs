@@ -103,6 +103,14 @@ const ROADS = [
     newsQuery: '"Atal Setu" Mumbai',
     route: { start: 'Sewri, Maharashtra', end: 'Chirle, Maharashtra', states: ['Maharashtra'], majorCities: ['Sewri', 'Navi Mumbai'] },
   }),
+  road('bengaluru-satellite-town-ring-road', {
+    ref: 'Satellite Town Ring Road',
+    name: 'Bengaluru Satellite Town Ring Road',
+    category: 'expressway',
+    aka: ['NH 948A', 'STRR'],
+    newsQuery: '"Satellite Town Ring Road" Bengaluru',
+    route: { start: 'Dobbaspet, Karnataka', end: 'Dobbaspet, Karnataka', states: ['Karnataka', 'Tamil Nadu'], majorCities: ['Dobbaspet', 'Hoskote', 'Hosur'] },
+  }),
   road('mdr-tn-695', {
     ref: 'MDR 695',
     name: 'Ariyathidal–Papanasam District road',
@@ -181,6 +189,15 @@ test('a generic name needs its city, and the longest name wins', () => {
   assert.deepEqual(who("Bengaluru's Outer Ring Road gets a dedicated bus lane"), ['bengaluru-outer-ring-road'])
   assert.deepEqual(who('Delhi plans elevated corridor to decongest Ring Road by 2030'), ['delhi-ring-road'])
   assert.deepEqual(who('Traffic jam on Outer Ring Road'), [])
+})
+
+test('an acronym needs a place however long it is', () => {
+  // STRR is also a stock ticker, and Yahoo Finance headlines its quote pages
+  // with nothing but tickers
+  assert.deepEqual(who('ANGX,CDNL,AMRC,CUEN,LIEN,FISV,STRR,SPG,FRST | Stock Prices | Quote Comparison - Yahoo Finance'), [])
+  assert.deepEqual(who('Star Equity Holdings (STRR) Holds Steady at $10.17'), [])
+  assert.ok(about('bengaluru-satellite-town-ring-road', 'STRR land acquisition near Hosur gathers pace'))
+  assert.ok(about('bengaluru-satellite-town-ring-road', 'Bengaluru STRR stretch opens to traffic'))
 })
 
 test('a distinctive name stands on its own, either way round', () => {

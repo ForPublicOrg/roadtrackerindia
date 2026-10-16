@@ -49,6 +49,9 @@ Why the places:
   current road in the headline tells them apart.
 - **Generic names repeat.** Six cities have an Outer Ring Road. "Ring Road" inside
   "Outer Ring Road" belongs to the longer name.
+- **An acronym is never enough on its own, however long.** "STRR" is Bengaluru's
+  Satellite Town Ring Road and also a stock ticker, and Yahoo Finance headlines
+  its quote pages with nothing but tickers.
 
 A "place" is the road's states, the towns at its ends, its major cities, and its
 waypoints; the outlet's own name counts too ("Kashmir Observer", "Telangana

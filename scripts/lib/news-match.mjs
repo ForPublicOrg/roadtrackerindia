@@ -197,14 +197,21 @@ function trimGeneric(s) {
 const stripParens = (s) => s.replace(/\([^)]*\)/g, ' ').replace(/\s+—.*$/, '').replace(/\s+/g, ' ').trim()
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
-/** "Outer Ring Road", "MC Road", "ORR" — true when the name alone cannot pick one road. */
-function isGenericName(phrase) {
+/**
+ * "Outer Ring Road", "MC Road", "ORR" — true when the name alone cannot pick
+ * one road. `display` is the name as the road file writes it, which is the
+ * only place an acronym still shows its capitals.
+ */
+function isGenericName(phrase, display = '') {
   if (PROGRAMME.test(phrase)) return true
   const left = phrase.split(' ').filter((w) => w && !GENERIC.has(w) && !/^\d+$/.test(w))
   if (!left.length) return true
   // an abbreviation on its own — MC Road, GT Road, ORR, ECR — is used all over
-  // India; "KMP Expressway" and "DND Flyway" are the kind that name one road
-  if (left.join('').length <= 3) return !/\b(expressway|flyway)\b/.test(phrase)
+  // India; "KMP Expressway" and "DND Flyway" are the kind that name one road.
+  // Length is no defence: "STRR" and "CPRR" are four letters, and STRR is a
+  // stock ticker that fills Yahoo Finance quote pages.
+  if (left.join('').length <= 3 || /^[A-Z]{2,}$/.test(display.trim()))
+    return !/\b(expressway|flyway)\b/.test(phrase)
   return false
 }
 
@@ -348,10 +355,10 @@ export function buildMatchers(roads) {
       reversed: meta.reversed,
       // a name the hand-written newsQuery anchored (`"Atal Setu" Mumbai`) is
       // also vouched for by that query having returned the story
-      vouched: meta.forceAnchor && !isGenericName(phrase),
+      vouched: meta.forceAnchor && !isGenericName(phrase, meta.display),
       needsPlace:
         meta.forceAnchor ||
-        isGenericName(phrase) ||
+        isGenericName(phrase, meta.display) ||
         nameCount.get(phrase) > 1 ||
         // an OSM street name ("Palm Beach Road", "Station Road") is only trusted
         // on its own when it carries one of the road's own place names
