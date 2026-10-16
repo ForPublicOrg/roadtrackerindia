@@ -22,6 +22,7 @@
  *   - generic names ("Outer Ring Road" — six cities have one) and abbreviations
  *     ("MC Road", "ORR").
  *
+ * Also here, at the end: where each day's walk through the queries starts.
  * Everything here is pure: no network, no file system. `scripts/fetch-news.mjs`
  * does the fetching, and `news-match.test.mjs` pins the rules down.
  */
@@ -81,11 +82,14 @@ const dashes = (s) => s.replace(/[‐‑‒–—―]/g, '-').replace(/\s+/g, ' 
 /**
  * Every standard road number in a piece of text. Case matters: "NH 130CD" has
  * suffix CD, "NH 44 in Kashmir" has none, and "NH-44A" is not NH 44. A suffix
- * is only read when it is attached — "NH 548C", "NH-548-C".
+ * is only read when it is attached — "NH 548C", "NH-548-C". The spelled-out
+ * kinds are read in capitals too, for the headlines written all in capitals
+ * ("NATIONAL HIGHWAY 342 WIDENING APPROVED").
  */
 const REF_SCAN = new RegExp(
-  String.raw`(?<![A-Za-z0-9])(NH|NE|SH|MDR|ODR|N\.H\.|S\.H\.|[Nn]ational [Hh]ighway|[Nn]ational [Ee]xpressway|[Ss]tate [Hh]ighway|[Mm]ajor [Dd]istrict [Rr]oad|[Oo]ther [Dd]istrict [Rr]oad)` +
-    String.raw`\s*(?:-\s*)?(?:[Nn]o\.?\s*)?(\d{1,4})(?:-?([A-Z]{1,3}))?(?![A-Za-z0-9])`,
+  String.raw`(?<![A-Za-z0-9])(NH|NE|SH|MDR|ODR|N\.H\.|S\.H\.|[Nn]ational [Hh]ighway|[Nn]ational [Ee]xpressway|[Ss]tate [Hh]ighway|[Mm]ajor [Dd]istrict [Rr]oad|[Oo]ther [Dd]istrict [Rr]oad|` +
+    String.raw`NATIONAL HIGHWAY|NATIONAL EXPRESSWAY|STATE HIGHWAY|MAJOR DISTRICT ROAD|OTHER DISTRICT ROAD)` +
+    String.raw`\s*(?:-\s*)?(?:(?:[Nn]o|NO)\.?\s*)?(\d{1,4})(?:-?([A-Z]{1,3}))?(?![A-Za-z0-9])`,
   'g',
 )
 
@@ -116,18 +120,18 @@ export const refKey = (r) => `${r.kind} ${r.num}${r.suffix}`
 
 /** How each kind of number is written in a headline (dashes already unified). */
 const KIND_PATTERN = {
-  NH: String.raw`NH|N\.\s?H\.|[Nn]ational\s+[Hh]ighway`,
-  NE: String.raw`NE|N\.\s?E\.|[Nn]ational\s+[Ee]xpressway`,
-  SH: String.raw`SH|S\.\s?H\.|[Ss]tate\s+[Hh]ighway`,
-  MDR: String.raw`MDR|M\.D\.R\.|[Mm]ajor\s+[Dd]istrict\s+[Rr]oad`,
-  ODR: String.raw`ODR|O\.D\.R\.|[Oo]ther\s+[Dd]istrict\s+[Rr]oad`,
+  NH: String.raw`NH|N\.\s?H\.|[Nn]ational\s+[Hh]ighway|NATIONAL\s+HIGHWAY`,
+  NE: String.raw`NE|N\.\s?E\.|[Nn]ational\s+[Ee]xpressway|NATIONAL\s+EXPRESSWAY`,
+  SH: String.raw`SH|S\.\s?H\.|[Ss]tate\s+[Hh]ighway|STATE\s+HIGHWAY`,
+  MDR: String.raw`MDR|M\.D\.R\.|[Mm]ajor\s+[Dd]istrict\s+[Rr]oad|MAJOR\s+DISTRICT\s+ROAD`,
+  ODR: String.raw`ODR|O\.D\.R\.|[Oo]ther\s+[Dd]istrict\s+[Rr]oad|OTHER\s+DISTRICT\s+ROAD`,
 }
 
 /** Finds this exact number in a headline — and not NH 44A, or NH 441, for NH 44. */
 function refRegex({ kind, num, suffix }) {
   const lead =
     String.raw`(?<![A-Za-z0-9])(?:${KIND_PATTERN[kind]})\s*(?:\([A-Z]{2,3}\)\s*)?(?:[-:]\s*)?` +
-    String.raw`(?:[Nn]o\.?\s*|[Nn]umber\s*)?0*${num}`
+    String.raw`(?:(?:[Nn]o|NO)\.?\s*|(?:[Nn]umber|NUMBER)\s*)?0*${num}`
   const tail = suffix
     ? String.raw`-?${suffix}(?![A-Za-z0-9])`
     : String.raw`(?![0-9])(?!-?[A-Z]{1,3}(?![A-Za-z0-9]))`
@@ -163,7 +167,7 @@ const PLACE_STOP = new Set(
   ).split(' '),
 )
 
-/** State names as a headline writes them. "UP" is checked case-sensitively. */
+/** State names as a headline writes them. "UP" is checked case-sensitively (saysUP). */
 const STATE_ALIASES = {
   'Jammu and Kashmir': ['jammu and kashmir', 'kashmir', 'jammu'],
   'Andhra Pradesh': ['andhra pradesh', 'andhra'],
@@ -172,6 +176,23 @@ const STATE_ALIASES = {
   'West Bengal': ['west bengal', 'bengal'],
   'Andaman and Nicobar Islands': ['andaman', 'nicobar'],
   'Dadra and Nagar Haveli and Daman and Diu': ['dadra', 'nagar haveli', 'daman', 'diu'],
+}
+
+/** Most of its letters capitals — "PILE-UP ON NH-44, Rs 5 LAKH AID" too. */
+function inCapitals(s) {
+  const letters = s.replace(/[^A-Za-z]/g, '')
+  return letters.replace(/[^A-Z]/g, '').length > letters.length * 0.8
+}
+
+/**
+ * Whether a headline says "UP" for Uttar Pradesh. In ordinary case the
+ * capitals are enough; in a headline written in capitals the English word is
+ * there too — PILE-UP, TRAFFIC PILES UP, UP TO 2 KM — so only the forms it
+ * never takes count: "UP: …", "(UP)", "UP'S", "IN UP".
+ */
+function saysUP(raw) {
+  if (!inCapitals(raw)) return /(?<![A-Za-z])UP(?![A-Za-z])/.test(raw)
+  return /^UP\s*:|\(UP\)|(?<![A-Za-z-])UP['’]S(?![A-Za-z])|(?<![A-Za-z-])IN UP(?![A-Za-z]| TO(?![A-Za-z]))/.test(raw)
 }
 
 /** Words that make "A–B …" a road rather than a flight, a train or a rivalry. */
@@ -397,7 +418,7 @@ export function buildMatchers(roads) {
       const t = norm(title)
       if (has(t, 'new hampshire')) return false
       const where = `${t}${norm(from.source ?? '')}`
-      const strongPlace = strong.some((p) => has(where, p)) || (hasUP && /(?<![A-Za-z])UP(?![A-Za-z])/.test(raw))
+      const strongPlace = strong.some((p) => has(where, p)) || (hasUP && saysUP(raw))
       const anyPlace = strongPlace || weak.some((p) => has(where, p))
 
       for (const r of refs) if (r.re.test(raw) && (!r.needsPlace || anyPlace)) return true
@@ -464,4 +485,61 @@ export function buildMatchers(roads) {
     })
   }
   return out
+}
+
+// ── the daily rotation ──────────────────────────────────────────────
+
+/**
+ * One day's walk through a list's queries, from a saved cursor round to just
+ * before `stopAt` (default: one lap). `queries` is fetch-news.mjs's plan: each
+ * query an array of `{ key }` entries in key order, the queries ordered by
+ * their first key, a loud term's own query sitting after the batch whose
+ * range its key falls in.
+ *
+ * The cursor is the smallest key not yet asked this lap. Batch edges move when
+ * the list does — a road gains a story and turns hot, a term turns loud — so a
+ * cursor can fall inside a batch. The walk starts at the first query still
+ * holding a key at or after it: the terms before the cursor in that batch go
+ * out again, inside the same one query, and none after it is skipped.
+ *
+ *   next()           the next query, or undefined at the stop. Call it only
+ *                    once the one before has been asked in full, splits too.
+ *   resumeAt(group)  the cursor to save when the walk stops with `group`
+ *                    (and everything after it) not yet asked
+ *   round            the walk has got past the end of the list, so the
+ *                    rotation has come all the way round
+ */
+export function rotation(queries, cursor, stopAt) {
+  const n = queries.length
+  // keys compare the way the plan sorts them
+  const at = (key) => {
+    if (key == null) return 0
+    const i = queries.findIndex((q) => q[q.length - 1].key.localeCompare(key) >= 0)
+    // past every key: the last walk got to the end, and terms after it have
+    // since left the list
+    return i < 0 ? n : i
+  }
+  const start = at(cursor)
+  const take = stopAt === undefined ? n : (at(stopAt) - start + n) % n
+  let taken = 0
+  let round = false
+  return {
+    next() {
+      // asked for the query after the last one, so the last one is done —
+      // whether or not there is budget left to ask this one
+      if (start + taken === n) round = true
+      return taken < take ? queries[(start + taken++) % n] : undefined
+    },
+    resumeAt(group) {
+      // a split batch's second half can be waiting while a loud term inside
+      // its range, asked on its own just after it, has a smaller key. The
+      // query after the end of the list belongs to the next lap.
+      const p = start + taken
+      const ahead = taken < take && p !== n ? queries[p % n][0].key : null
+      return ahead !== null && ahead.localeCompare(group[0].key) < 0 ? ahead : group[0].key
+    },
+    get round() {
+      return round
+    },
+  }
 }
