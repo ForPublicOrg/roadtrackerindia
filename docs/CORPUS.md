@@ -28,7 +28,11 @@ node scripts/fetch-osm-reference.mjs
   Used to work out which states a road passes through, by sampling points along
   it and testing containment.
 - `.cache/osm/places.json` — `place=city|town|suburb|village` nodes. Used for
-  `route.start`, `route.end`, `route.majorCities` and waypoint names.
+  `route.start`, `route.end`, `route.majorCities` and waypoint names. The query
+  is a bounding box, so it also holds towns in Pakistan, Nepal, Bhutan,
+  Bangladesh and Myanmar; `generate-roads.mjs` drops every place outside an
+  Indian state, or a road ending at a border crossing gets named after the town
+  across it (NH 927 once ended at "Nepalgunj" rather than Rupaidiha).
 
 Every state and every place band is cached separately, so a run that dies
 partway costs only the piece it was on. Re-run it to fill the gaps; add
