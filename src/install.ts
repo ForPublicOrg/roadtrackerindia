@@ -57,12 +57,22 @@ function isIosBrowser(): boolean {
   return ios && /Safari\//.test(ua)
 }
 
+// initInstall runs early in boot(), and touching localStorage throws when the
+// browser blocks site data — a nudge must never be what stops the map loading
 function snoozed(): boolean {
-  return Number(localStorage.getItem(KEY)) > Date.now()
+  try {
+    return Number(localStorage.getItem(KEY)) > Date.now()
+  } catch {
+    return false
+  }
 }
 
 function snooze(): void {
-  localStorage.setItem(KEY, String(Date.now() + SNOOZE_MS))
+  try {
+    localStorage.setItem(KEY, String(Date.now() + SNOOZE_MS))
+  } catch {
+    /* storage blocked / quota — "Not now" just lasts until the next visit */
+  }
 }
 
 export function initInstall(): void {

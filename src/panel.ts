@@ -7,6 +7,7 @@ import { prefersReducedMotion, spring, type SpringHandle } from './animate'
 import { renderCommunity } from './ratings'
 import { renderRoadReports } from './reports'
 import { behindHtml, contactsHtml, helplinesFor, loadOrg, orgKnown, tollHtml } from './orgs'
+import { whenMap } from './map'
 
 type PanelMode = 'detail' | 'browse' | 'org'
 type SheetState = 'peek' | 'full'
@@ -31,13 +32,18 @@ export function onPanelClose(cb: () => void): void {
 const isMobile = () => matchMedia('(max-width: 768px)').matches
 
 export function openPanel(newMode: PanelMode, sheet: SheetState = 'peek'): void {
+  const el = panel()
+  const opening = el.hidden || mode === null
   mode = newMode
   pendingClose?.() // a close animation is in flight — cancel it, don't let it hide us
   pendingClose = null
-  const el = panel()
-  if (!(document.activeElement instanceof HTMLElement) || !el.contains(document.activeElement)) {
-    lastFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
-  }
+  // Remember where focus was, to hand it back on close. Moving on from inside
+  // the panel (a row in the list, a connected-road chip) swaps the content
+  // first, which drops focus to <body> — not somewhere the user was, so it
+  // must not overwrite the place they came from.
+  const active = document.activeElement
+  if (active instanceof HTMLElement && active !== document.body && !el.contains(active)) lastFocus = active
+  else if (opening) lastFocus = null
   el.hidden = false
   // the prerendered page ships this panel already open so the road reads before
   // MapLibre boots; from here on the sheet's position is ours to animate
@@ -437,7 +443,9 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
   const reviewsSlot = document.getElementById('reviews-slot')!
   void renderCommunity(ratingSlot, reviewsSlot, d.id, summary.ref)
   const reportsSlot = document.getElementById('reports-slot')!
-  void renderRoadReports(reportsSlot, d.id, summary.ref)
+  // a road's problems are pins on the map as much as rows here, and a deep
+  // link can open this panel before the map exists — so they wait for it
+  whenMap(() => void renderRoadReports(reportsSlot, d.id, summary.ref))
   void fillNews(d.id)
   void fillContacts(d)
   wireOrgChips()

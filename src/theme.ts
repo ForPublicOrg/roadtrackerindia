@@ -28,18 +28,29 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
 }
 
 let current: Theme = 'light'
+// picked with the button this visit — still honoured when storage couldn't keep it
+let chosen = false
 
 export function getTheme(): Theme {
   return current
 }
 
+/** The reader's explicit choice, if any. Reading localStorage throws when the
+ *  browser blocks site data, and boot must not die over a colour preference. */
+function stored(): Theme | null {
+  try {
+    return localStorage.getItem(KEY) as Theme | null
+  } catch {
+    return null
+  }
+}
+
 export function initTheme(): Theme {
-  const stored = localStorage.getItem(KEY) as Theme | null
-  current = stored ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+  current = stored() ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
   apply(current)
   // follow the OS only while the user hasn't chosen explicitly
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    if (!localStorage.getItem(KEY)) {
+    if (!chosen && !stored()) {
       current = e.matches ? 'dark' : 'light'
       apply(current)
       notify()
@@ -50,9 +61,14 @@ export function initTheme(): Theme {
 
 export function toggleTheme(): Theme {
   current = current === 'light' ? 'dark' : 'light'
-  localStorage.setItem(KEY, current)
+  chosen = true
   apply(current)
   notify()
+  try {
+    localStorage.setItem(KEY, current)
+  } catch {
+    /* storage blocked / quota — the switch still works, it just isn't remembered */
+  }
   return current
 }
 

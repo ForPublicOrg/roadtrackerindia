@@ -19,8 +19,25 @@ const EMPTY_FC = { type: 'FeatureCollection', features: [] } as unknown as GeoJS
  */
 const DETAIL_ZOOM = 7.2
 
+/**
+ * How long the tile CDN gets to hand over the base style before the map starts
+ * on the plain fallback instead. A network that silently drops packets, rather
+ * than refusing them, can hold that request open for minutes.
+ */
+const STYLE_WAIT_MS = 6000
+
+/**
+ * Undefined until initMap has built it — and for good in a browser that cannot
+ * (no WebGL, a blocklisted GPU). The app runs without it, so everything
+ * exported below either checks for it or waits for it.
+ */
 let map: maplibregl.Map
+let mapFailed = false
+/** Map calls made before the map existed, in order — a deep link opened while the style was on its way. */
+const pending: Array<() => void> = []
 let networkFC: NetworkFC | null = null
+/** The trunk tier's ids, to tell which roads in a focus live in the detail tier. */
+let trunkIds = new Set<string>()
 let detailFC: NetworkFC | null = null
 let detailRequested = false
 let detailNeededCb: (() => void) | null = null
@@ -33,6 +50,12 @@ let dimmed = false
  * here because a style swap rebuilds every layer and has to repaint it.
  */
 let focusIds: string[] | null = null
+/**
+ * The ids carrying focus feature state right now. MapLibre refuses to drop one
+ * state key across a whole source (`removeFeatureState` wants an id with a
+ * key), so the last focus has to be remembered to be cleared road by road.
+ */
+let focusApplied: string[] = []
 /** An organisation also gets an accent line; an area keeps its road colours. */
 let focusAccent = false
 let hovered: { source: string; id: string } | null = null
@@ -59,6 +82,15 @@ export function getMap(): maplibregl.Map {
   return map
 }
 
+/**
+ * Run something that needs the map now, or as soon as it exists. Dropped when
+ * this browser cannot build one at all.
+ */
+export function whenMap(fn: () => void): void {
+  if (map) fn()
+  else if (!mapFailed) pending.push(fn)
+}
+
 export function onRoadClick(cb: typeof roadClickCb): void {
   roadClickCb = cb
 }
@@ -67,26 +99,47 @@ export function onBaseClick(cb: typeof baseClickCb): void {
 }
 
 export async function initMap(): Promise<maplibregl.Map> {
-  let style
-  try {
-    style = await buildStyle(getTheme())
+  // Only the light style is downloaded; dark is derived from it. Waiting on
+  // that, then asking for the current theme, keeps a theme switch made during
+  // the download.
+  const fetched = buildStyle('light')
+  let style = await Promise.race([
+    fetched.then(() => buildStyle(getTheme())),
+    new Promise<null>((resolve) => setTimeout(() => resolve(null), STYLE_WAIT_MS)),
+  ]).catch(() => null)
+  if (style) {
     usingFallbackStyle = false
-  } catch {
+  } else {
     style = fallbackStyle(getTheme())
     usingFallbackStyle = true
     showNetBanner()
+    // too slow is not the same as never: swap the real map in if it does come
+    fetched.then(
+      () => {
+        if (map && usingFallbackStyle) void retryStyle()
+      },
+      () => {},
+    )
   }
 
-  map = new maplibregl.Map({
-    container: 'map',
-    style: style as never,
-    center: [80.5, 22.6],
-    zoom: 3.8,
-    minZoom: 3.1,
-    maxZoom: 17.5,
-    attributionControl: false,
-    fadeDuration: prefersReducedMotion() ? 0 : 300,
-  })
+  try {
+    map = new maplibregl.Map({
+      container: 'map',
+      style: style as never,
+      center: [80.5, 22.6],
+      zoom: 3.8,
+      minZoom: 3.1,
+      maxZoom: 17.5,
+      attributionControl: false,
+      fadeDuration: prefersReducedMotion() ? 0 : 300,
+    })
+  } catch (e) {
+    // no WebGL here: the rest of the app carries on without a map, so stop
+    // saving up camera moves for one that is never coming
+    mapFailed = true
+    pending.length = 0
+    throw e
+  }
   map.addControl(
     new maplibregl.AttributionControl({
       compact: true,
@@ -113,11 +166,13 @@ export async function initMap(): Promise<maplibregl.Map> {
     }
     if (++netErrors >= 6 && !navigator.onLine) showNetBanner()
   })
-  // a wifi blip can raise the banner — clear it once the map settles again,
-  // and climb out of the offline fallback style as soon as we're back online
-  map.on('idle', () => {
-    if (!usingFallbackStyle) hideNetBanner()
+  // a wifi blip can raise the banner — clear it once a base map tile actually
+  // arrives again. Not on 'idle': MapLibre counts a failed tile as finished, so
+  // the map goes idle over blank tiles while still offline.
+  map.on('sourcedata', (e) => {
+    if (e.tile && e.source?.type === 'vector' && navigator.onLine && !usingFallbackStyle) hideNetBanner()
   })
+  // and climb out of the offline fallback style as soon as we're back online
   window.addEventListener('online', () => {
     if (usingFallbackStyle) void retryStyle()
   })
@@ -137,6 +192,9 @@ export async function initMap(): Promise<maplibregl.Map> {
     void retryStyle()
   })
 
+  // whatever was asked of the map while it was still on its way
+  for (const fn of pending.splice(0)) fn()
+
   return map
 }
 
@@ -144,7 +202,8 @@ function showNetBanner(): void {
   document.getElementById('net-banner')?.removeAttribute('hidden')
 }
 function hideNetBanner(): void {
-  document.getElementById('net-banner')?.setAttribute('hidden', '')
+  const el = document.getElementById('net-banner')
+  if (el && !el.hidden) el.hidden = true // runs on every tile, so touch the DOM only when it changes
 }
 
 async function retryStyle(): Promise<void> {
@@ -392,12 +451,15 @@ export function addAppLayers(): void {
 
 export function setNetworkData(fc: NetworkFC): void {
   networkFC = fc
+  trunkIds = new Set(fc.features.map((f) => f.properties.id))
+  if (!map) return // addAppLayers draws it once the layers exist
   const src = map.getSource('network') as maplibregl.GeoJSONSource | undefined
   src?.setData(fc as never)
 }
 
 export function setDetailNetworkData(fc: NetworkFC): void {
   detailFC = fc
+  if (!map) return // addAppLayers draws it once the layers exist
   const src = map.getSource('network-detail') as maplibregl.GeoJSONSource | undefined
   src?.setData(fc as never)
   applyFocusState()
@@ -443,7 +505,9 @@ function clearHover(): void {
   }
   hovered = null
   tip.classList.remove('is-on')
-  if (map) map.getCanvas().style.cursor = ''
+  // report mode's crosshair is the only cue that a tap drops a pin — leaving
+  // the map, or hovering a road, must not take it away
+  if (map && !document.body.classList.contains('is-reporting')) map.getCanvas().style.cursor = ''
 }
 
 /** Hit layers currently on the map — the detail tier only exists once loaded. */
@@ -500,9 +564,10 @@ function wireInteractions(): void {
 export function showSelected(shape: ShapeFeature, category: Category, lengthKm: number): void {
   selectedShape = shape
   selectedCategory = category
+  setDimmed(true)
+  if (!map) return // restoreSelection draws it once the layers exist
   const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
   src?.setData(shape as never)
-  setDimmed(true)
   const duration = Math.min(2400, Math.max(950, lengthKm * 0.85 + 650))
   drawRoute(map, MAP_COLORS[getTheme()].categories[category], duration)
 }
@@ -510,9 +575,10 @@ export function showSelected(shape: ShapeFeature, category: Category, lengthKm: 
 export function clearSelected(): void {
   cancelDraw()
   selectedShape = null
+  setDimmed(false)
+  if (!map) return
   const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
   src?.setData(EMPTY_FC as never)
-  setDimmed(false)
 }
 
 export function setDimmed(v: boolean): void {
@@ -540,6 +606,11 @@ export function focusArea(ids: string[] | null): void {
 function setFocus(ids: string[] | null, accent: boolean): void {
   focusIds = ids?.length ? ids : null
   focusAccent = focusIds !== null && accent
+  // a state PWD's roads are nearly all state and district roads, which only
+  // the detail tier has — fetch it now rather than once someone happens to
+  // zoom past DETAIL_ZOOM, or the focus lights up nothing at all
+  if (focusIds?.some((id) => !trunkIds.has(id))) ensureDetailNetwork()
+  if (!map) return // addAppLayers applies the rest once the layers exist
   applyFocusState()
   applyAccent()
   applyDetailZoom() // after applyAccent, which is what creates its detail layer
@@ -554,9 +625,12 @@ function setFocus(ids: string[] | null, accent: boolean): void {
  */
 function applyDetailZoom(): void {
   const min = focusIds ? 6.2 : DETAIL_ZOOM
-  for (const layer of ['network-detail-casing', 'network-detail-line', 'network-detail-hit', 'org-highlight-detail']) {
+  for (const layer of ['network-detail-casing', 'network-detail-line', 'network-detail-hit']) {
     if (map.getLayer(layer)) map.setLayerZoomRange(layer, min, 24)
   }
+  // an organisation's own roads are the whole answer, and a state department's
+  // fill a phone's frame well below that floor — its accent line draws at any zoom
+  if (map.getLayer('org-highlight-detail')) map.setLayerZoomRange('org-highlight-detail', focusAccent ? 0 : min, 24)
 }
 
 /**
@@ -565,11 +639,12 @@ function applyDetailZoom(): void {
  * re-evaluated against all 7,700 features every time the layer re-bucketed.
  */
 function applyFocusState(): void {
+  const stale = focusApplied
+  focusApplied = focusIds ?? []
   for (const source of ['network', 'network-detail']) {
     if (!map.getSource(source)) continue
-    map.removeFeatureState({ source }, 'focus')
-    if (!focusIds) continue
-    for (const id of focusIds) map.setFeatureState({ source, id }, { focus: true })
+    for (const id of stale) map.removeFeatureState({ source, id }, 'focus')
+    for (const id of focusApplied) map.setFeatureState({ source, id }, { focus: true })
   }
 }
 
@@ -625,7 +700,7 @@ function fade(full: number, faded: number): unknown {
 }
 
 function applyDim(): void {
-  if (!map.getLayer('network-line')) return
+  if (!map || !map.getLayer('network-line')) return
   map.setPaintProperty('network-line', 'line-opacity', fade(1, FADED.line) as never)
   map.setPaintProperty('network-line-dashed', 'line-opacity', fade(0.9, FADED.dashed) as never)
   map.setPaintProperty('network-casing', 'line-opacity', fade(0.85, FADED.casing) as never)
@@ -676,12 +751,14 @@ const asBounds = (b: BBox): [[number, number], [number, number]] => [
 ]
 
 export function flyToRoad(bbox: BBox): void {
-  map.fitBounds(asBounds(bbox), {
-    padding: fitPadding(),
-    duration: prefersReducedMotion() ? 0 : 1500,
-    easing: easeOutCubic,
-    maxZoom: 12.5,
-  })
+  whenMap(() =>
+    map.fitBounds(asBounds(bbox), {
+      padding: fitPadding(),
+      duration: prefersReducedMotion() ? 0 : 1500,
+      easing: easeOutCubic,
+      maxZoom: 12.5,
+    }),
+  )
 }
 
 /**
@@ -730,29 +807,35 @@ export function keepInView(at: LngLat): void {
 
 /** Frame a city or a state. Cities are small, so this can go a lot closer in. */
 export function flyToArea(bbox: BBox): void {
-  map.fitBounds(asBounds(bbox), {
-    padding: fitPadding(),
-    duration: prefersReducedMotion() ? 0 : 1400,
-    easing: easeOutCubic,
-    maxZoom: 13.5,
-  })
+  whenMap(() =>
+    map.fitBounds(asBounds(bbox), {
+      padding: fitPadding(),
+      duration: prefersReducedMotion() ? 0 : 1400,
+      easing: easeOutCubic,
+      maxZoom: 13.5,
+    }),
+  )
 }
 
 export function flyHome(): void {
-  map.fitBounds(INDIA_BOUNDS, {
-    padding: fitPaddingHome(),
-    duration: prefersReducedMotion() ? 0 : 1200,
-    easing: easeOutCubic,
-  })
+  whenMap(() =>
+    map.fitBounds(INDIA_BOUNDS, {
+      padding: fitPaddingHome(),
+      duration: prefersReducedMotion() ? 0 : 1200,
+      easing: easeOutCubic,
+    }),
+  )
 }
 
 export function flyToPoint(lngLat: [number, number], zoom = 13): void {
-  map.flyTo({
-    center: lngLat,
-    zoom,
-    duration: prefersReducedMotion() ? 0 : 1600,
-    curve: 1.35,
-  })
+  whenMap(() =>
+    map.flyTo({
+      center: lngLat,
+      zoom,
+      duration: prefersReducedMotion() ? 0 : 1600,
+      curve: 1.35,
+    }),
+  )
 }
 
 // ── user location marker ───────────────────────────────────────────
@@ -760,11 +843,13 @@ export function flyToPoint(lngLat: [number, number], zoom = 13): void {
 let userMarker: maplibregl.Marker | null = null
 
 export function setUserMarker(lngLat: [number, number]): void {
-  if (!userMarker) {
-    const el = document.createElement('div')
-    el.className = 'user-dot'
-    userMarker = new maplibregl.Marker({ element: el }).setLngLat(lngLat).addTo(map)
-  } else {
-    userMarker.setLngLat(lngLat)
-  }
+  whenMap(() => {
+    if (!userMarker) {
+      const el = document.createElement('div')
+      el.className = 'user-dot'
+      userMarker = new maplibregl.Marker({ element: el }).setLngLat(lngLat).addTo(map)
+    } else {
+      userMarker.setLngLat(lngLat)
+    }
+  })
 }

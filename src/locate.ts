@@ -1,14 +1,31 @@
+import type { NetworkFC } from './types'
 import { state } from './state'
 import { nearestRoads } from './geo'
 import { flyToPoint, setUserMarker } from './map'
 import { toast } from './ui'
 
 let selectRoad: (id: string, opts?: { skipFly?: boolean }) => void = () => {}
+let loadDetailTier: () => Promise<NetworkFC> = () => Promise.reject(new Error('not wired'))
 
-export function initLocate(select: typeof selectRoad): void {
+export function initLocate(select: typeof selectRoad, detail: typeof loadDetailTier): void {
   selectRoad = select
+  loadDetailTier = detail
   const btn = document.getElementById('btn-locate')!
   btn.addEventListener('click', locate)
+}
+
+/**
+ * The road under someone's feet is far more often a state or district road
+ * than a highway, and those live in the detail tier — so wait for it rather
+ * than snapping to an NH twenty kilometres off. If it will not load, the trunk
+ * network on its own is still a better answer than none.
+ */
+async function nearestAnywhere(here: [number, number], trunk: NetworkFC, n: number) {
+  let detail = state.networkDetail
+  if (!detail) detail = await loadDetailTier().catch(() => null)
+  const near = nearestRoads(here, trunk, n)
+  if (detail) near.push(...nearestRoads(here, detail, n))
+  return near.sort((a, b) => a.distKm - b.distKm).slice(0, n)
 }
 
 function locate(): void {
@@ -23,15 +40,16 @@ function locate(): void {
   }
   btn.classList.add('is-busy')
   navigator.geolocation.getCurrentPosition(
-    (pos) => {
-      btn.classList.remove('is-busy')
+    async (pos) => {
       const here: [number, number] = [pos.coords.longitude, pos.coords.latitude]
       setUserMarker(here)
       if (!state.network) {
+        btn.classList.remove('is-busy')
         flyToPoint(here)
         return
       }
-      const near = nearestRoads(here, state.network, 3)
+      const near = await nearestAnywhere(here, state.network, 3)
+      btn.classList.remove('is-busy')
       const best = near[0]
       if (!best) {
         flyToPoint(here)
