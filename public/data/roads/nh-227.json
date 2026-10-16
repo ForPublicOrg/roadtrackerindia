@@ -1,13 +1,13 @@
 {
   "id": "nh-227",
   "ref": "NH 227",
-  "name": "Chakia–Nirmali National Highway",
+  "name": "Chakia–Narahia National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 200.2,
   "route": {
     "start": "Chakia, Bihar",
-    "end": "Nirmali, Bihar",
+    "end": "Narahia, Bihar",
     "states": [
       "Bihar"
     ],
@@ -16,19 +16,19 @@
       "Mehsi",
       "Sheohar",
       "Sitamarhi",
-      "Jaleshwar",
-      "Nagarain",
+      "Bhitthamore",
+      "Harlakhi",
       "Jainagar",
       "Khutauna",
-      "Nirmali"
+      "Narahia"
     ]
   },
   "relatedRoads": [
-    { "id": "nh-227j", "label": "A branch off this highway, running Rahika to Mukhiyapatti Bazar" },
-    { "id": "nh-227l", "label": "A branch off this highway, running Nagarain to Rahika" },
-    { "id": "nh-27", "label": "Met near Nirmali" },
+    { "id": "nh-227j", "label": "A branch off this highway, running Rahika to Saharghat" },
+    { "id": "nh-227l", "label": "A branch off this highway, running Umgaon to Kaluahi" },
+    { "id": "nh-27", "label": "Met at both ends, near Chakia and Narahia" },
     { "id": "nh-22", "label": "Met near Sitamarhi" },
-    { "id": "nh-527c", "label": "Met near Matihani" }
+    { "id": "nh-527c", "label": "Met near Choraut" }
   ],
   "sources": [
     {
@@ -70,31 +70,31 @@
       ]
     },
     {
-      "name": "Jaleshwar",
+      "name": "Sursand",
+      "coords": [
+        85.72672,
+        26.6423
+      ]
+    },
+    {
+      "name": "Bhitthamore",
       "coords": [
         85.77524,
         26.62469
       ]
     },
     {
-      "name": "Mukhiyapatti Bazar",
+      "name": "Choraut",
       "coords": [
-        85.8833,
-        26.56662
+        85.79705,
+        26.54076
       ]
     },
     {
-      "name": "Nagarain",
+      "name": "Harlakhi",
       "coords": [
-        85.93577,
-        26.60118
-      ]
-    },
-    {
-      "name": "Kamala",
-      "coords": [
-        86.10658,
-        26.62466
+        85.98357,
+        26.63429
       ]
     },
     {
@@ -112,7 +112,7 @@
       ]
     },
     {
-      "name": "Nirmali",
+      "name": "Narahia",
       "coords": [
         86.49276,
         26.35798
