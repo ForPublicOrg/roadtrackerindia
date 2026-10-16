@@ -1,28 +1,29 @@
 {
   "id": "nh-227l",
   "ref": "NH 227L",
-  "name": "Nagarain–Rahika National Highway",
+  "name": "Umgaon–Kaluahi National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 19.6,
   "route": {
-    "start": "Nagarain, Bihar",
-    "end": "Rahika, Bihar",
+    "start": "Umgaon, Bihar",
+    "end": "Kaluahi, Bihar",
     "states": [
       "Bihar"
     ],
     "majorCities": [
-      "Nagarain",
-      "Rahika"
+      "Umgaon",
+      "Basopatti",
+      "Kaluahi"
     ]
   },
-  "significance": "NH 227L is a branch of NH 227. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Nagarain to Rahika, and it meets NH 227 along the way.",
+  "significance": "NH 227L is a branch of NH 227. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Umgaon, where it leaves NH 227, to Kaluahi.",
   "relatedRoads": [
     {
       "id": "nh-227",
-      "label": "NH 227 — the highway this branch takes its number from, running Chakia to Nirmali"
+      "label": "NH 227 — the highway this branch takes its number from, running Chakia to Narahia"
     },
-    { "id": "nh-527b", "label": "Met near Rahika" }
+    { "id": "nh-527b", "label": "Met near Kaluahi" }
   ],
   "sources": [
     {
@@ -36,14 +37,21 @@
   ],
   "waypoints": [
     {
-      "name": "Nagarain",
+      "name": "Umgaon",
       "coords": [
         85.96988,
         26.61246
       ]
     },
     {
-      "name": "Rahika",
+      "name": "Basopatti",
+      "coords": [
+        86.00303,
+        26.57829
+      ]
+    },
+    {
+      "name": "Kaluahi",
       "coords": [
         86.06252,
         26.46414

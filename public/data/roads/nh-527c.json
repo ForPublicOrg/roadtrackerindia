@@ -1,25 +1,26 @@
 {
   "id": "nh-527c",
   "ref": "NH 527C",
-  "name": "Muzaffarpur–Musarmiya National Highway",
+  "name": "Muzaffarpur–Choraut National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 66.5,
   "route": {
     "start": "Muzaffarpur, Bihar",
-    "end": "Musarmiya, Bihar",
+    "end": "Choraut, Bihar",
     "states": [
       "Bihar"
     ],
     "majorCities": [
       "Muzaffarpur",
+      "Katra",
       "Pupri",
-      "Musarmiya"
+      "Choraut"
     ]
   },
   "relatedRoads": [
     { "id": "nh-27", "label": "Met near Muzaffarpur" },
-    { "id": "nh-227", "label": "Met near Matihani" },
+    { "id": "nh-227", "label": "Met near Choraut" },
     { "id": "nh-122a", "label": "Met near Pupri" },
     { "id": "sh-br-52", "label": "Met near Pupri" }
   ],
@@ -42,6 +43,13 @@
       ]
     },
     {
+      "name": "Katra",
+      "coords": [
+        85.63874,
+        26.22117
+      ]
+    },
+    {
       "name": "Pupri",
       "coords": [
         85.70412,
@@ -49,7 +57,7 @@
       ]
     },
     {
-      "name": "Musarmiya",
+      "name": "Choraut",
       "coords": [
         85.7959,
         26.54026

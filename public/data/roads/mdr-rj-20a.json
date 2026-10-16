@@ -1,25 +1,25 @@
 {
   "id": "mdr-rj-20a",
   "ref": "MDR 20A",
-  "name": "Gadra Road–Dahli District road",
+  "name": "Shiv–Gadra Road District road",
   "category": "district",
   "status": "operational",
   "lengthKm": 85.2,
   "authority": "rajasthan-pwd",
   "route": {
-    "start": "Gadra Road, Rajasthan",
-    "end": "Dahli, Rajasthan",
+    "start": "Shiv, Rajasthan",
+    "end": "Gadra Road, Rajasthan",
     "states": [
       "Rajasthan"
     ],
     "majorCities": [
-      "Gadra Road",
-      "Dahli"
+      "Shiv",
+      "Gadra Road"
     ]
   },
   "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
   "relatedRoads": [
-    { "id": "nh-68", "label": "Meets this road" }
+    { "id": "nh-68", "label": "Met near Shiv" }
   ],
   "sources": [
     {
@@ -29,14 +29,35 @@
   ],
   "waypoints": [
     {
-      "name": "Gadra Road",
+      "name": "Shiv",
       "coords": [
         71.24089,
         26.1963
       ]
     },
     {
-      "name": "Dahli",
+      "name": "Kotra",
+      "coords": [
+        71.18124,
+        26.16079
+      ]
+    },
+    {
+      "name": "Balasar",
+      "coords": [
+        71.10886,
+        26.10811
+      ]
+    },
+    {
+      "name": "Harsani",
+      "coords": [
+        70.78569,
+        25.95481
+      ]
+    },
+    {
+      "name": "Gadra Road",
       "coords": [
         70.64976,
         25.74537

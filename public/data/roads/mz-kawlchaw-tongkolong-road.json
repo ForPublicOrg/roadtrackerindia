@@ -1,24 +1,24 @@
 {
   "id": "mz-kawlchaw-tongkolong-road",
   "ref": "SH",
-  "name": "Kawlchaw -Tongkolong Road",
+  "name": "Kawlchaw–Tongkolong Road",
   "category": "sh",
   "status": "operational",
   "lengthKm": 67.8,
   "authority": "mizoram-pwd",
   "route": {
-    "start": "Siaha, Mizoram",
-    "end": "Lalengpi, Mizoram",
+    "start": "Kawlchaw, Mizoram",
+    "end": "Tongkolong, Mizoram",
     "states": [
       "Mizoram"
     ],
     "majorCities": [
-      "Siaha",
-      "Lalengpi"
+      "Kawlchaw",
+      "Tongkolong"
     ]
   },
   "relatedRoads": [
-    { "id": "nh-2", "label": "Met near Siaha" }
+    { "id": "nh-2", "label": "Met near Kawlchaw" }
   ],
   "sources": [
     {
@@ -28,17 +28,17 @@
   ],
   "waypoints": [
     {
-      "name": "Siaha",
+      "name": "Kawlchaw",
       "coords": [
         92.96384,
         22.39868
       ]
     },
     {
-      "name": "Lalengpi",
+      "name": "Tongkolong",
       "coords": [
-        92.91323,
-        22.07236
+        92.92246,
+        22.17387
       ]
     }
   ],

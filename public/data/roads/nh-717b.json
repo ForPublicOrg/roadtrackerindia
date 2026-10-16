@@ -1,27 +1,27 @@
 {
   "id": "nh-717b",
   "ref": "NH 717B",
-  "name": "Xiayadong–Rhenock National Highway",
+  "name": "Sherathang–Rhenock National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 99.3,
   "route": {
-    "start": "Xiayadong, Sikkim",
+    "start": "Sherathang, Sikkim",
     "end": "Rhenock, Sikkim",
     "states": [
       "Sikkim"
     ],
     "majorCities": [
-      "Xiayadong",
-      "Tagyel",
-      "Gangrong",
+      "Sherathang",
+      "Kupup",
+      "Zuluk",
       "Rongli",
       "Rhenock"
     ]
   },
   "relatedRoads": [
     { "id": "nh-717a", "label": "Met near Rhenock" },
-    { "id": "nh-310", "label": "Met near Xiayadong" }
+    { "id": "nh-310", "label": "Met at Sherathang, where this road begins" }
   ],
   "sources": [
     {
@@ -35,24 +35,31 @@
   ],
   "waypoints": [
     {
-      "name": "Xiayadong",
+      "name": "Sherathang",
       "coords": [
         88.81956,
         27.37794
       ]
     },
     {
-      "name": "Tagyel",
+      "name": "Kupup",
       "coords": [
-        88.7862,
-        27.25423
+        88.84147,
+        27.34264
       ]
     },
     {
-      "name": "Gangrong",
+      "name": "Zuluk",
       "coords": [
-        88.76795,
-        27.23209
+        88.77529,
+        27.25073
+      ]
+    },
+    {
+      "name": "Phadamchen",
+      "coords": [
+        88.7598,
+        27.22977
       ]
     },
     {

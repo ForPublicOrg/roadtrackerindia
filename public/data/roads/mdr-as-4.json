@@ -1,29 +1,29 @@
 {
   "id": "mdr-as-4",
   "ref": "MDR 4",
-  "name": "Barlekha–Beanibazar District road",
+  "name": "Kanaibazar District road",
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
   "authority": "assam-pwd",
   "route": {
-    "start": "Barlekha, Assam",
-    "end": "Beanibazar, Assam",
+    "start": "Kanaibazar, Assam",
+    "end": "Junction with MDR 6 near the Bangladesh border, Assam",
     "states": [
       "Assam"
     ],
     "majorCities": [
-      "Barlekha",
-      "Beanibazar"
+      "Kanaibazar",
+      "MDR 6 junction"
     ]
   },
   "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
   "relatedRoads": [
-    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met near Barlekha" },
-    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Barlekha" },
-    { "id": "mdr-as-6", "label": "Met near Barlekha" },
-    { "id": "mdr-as-11", "label": "Met near Barlekha" },
-    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met near Barlekha" }
+    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met at Kanaibazar, where this road begins" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near the Bangladesh border, west of Baraigram, where this road ends" },
+    { "id": "mdr-as-6", "label": "Met near the Bangladesh border, west of Baraigram, where this road ends" },
+    { "id": "mdr-as-11", "label": "Met where this road ends, near the Bangladesh border" },
+    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met where this road ends, near the Bangladesh border" }
   ],
   "sources": [
     {
@@ -33,14 +33,14 @@
   ],
   "waypoints": [
     {
-      "name": "Barlekha",
+      "name": "Kanaibazar",
       "coords": [
         92.32409,
         24.64279
       ]
     },
     {
-      "name": "Beanibazar",
+      "name": "MDR 6 junction",
       "coords": [
         92.29391,
         24.70389

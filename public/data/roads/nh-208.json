@@ -1,22 +1,22 @@
 {
   "id": "nh-208",
   "ref": "NH 208",
-  "name": "Panchari–Khowai National Highway",
+  "name": "Kumarghat–Sabroom National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 174.9,
   "route": {
-    "start": "Panchari, Tripura",
-    "end": "Khowai, Tripura",
+    "start": "Lebachhara, Tripura",
+    "end": "Kumarghat, Tripura",
     "states": [
       "Tripura"
     ],
     "majorCities": [
-      "Panchari",
       "Amarpur",
       "Teliamura",
+      "Khowai",
       "Kamalpur",
-      "Khowai"
+      "Kumarghat"
     ]
   },
   "relatedRoads": [
@@ -36,10 +36,10 @@
   ],
   "waypoints": [
     {
-      "name": "Panchari",
+      "name": "Lebachhara",
       "coords": [
-        91.75327,
-        23.34379
+        91.76085,
+        23.39033
       ]
     },
     {
@@ -57,6 +57,13 @@
       ]
     },
     {
+      "name": "Khowai",
+      "coords": [
+        91.59898,
+        24.08215
+      ]
+    },
+    {
       "name": "Kamalpur",
       "coords": [
         91.81028,
@@ -64,10 +71,10 @@
       ]
     },
     {
-      "name": "Khowai",
+      "name": "Kumarghat",
       "coords": [
-        91.59898,
-        24.08215
+        92.03376,
+        24.16636
       ]
     }
   ],
