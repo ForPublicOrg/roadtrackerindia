@@ -379,6 +379,7 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       <span class="chip">${CATEGORY_LABEL[d.category]}</span>
     </div>
     <div class="rd-section" id="rating-slot"></div>
+    <div class="rd-section" id="reviews-slot"></div>
     <div class="rd-section">
       <h3>Route</h3>
       <div class="rd-route-ends">
@@ -402,7 +403,6 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
     ${relatedHtml}
     ${sparse}
     <div class="rd-section" id="news-slot" hidden></div>
-    <div class="rd-section" id="reviews-slot"></div>
     <div class="rd-section" id="reports-slot"></div>
     ${sources}
     <div class="rd-section">
@@ -431,8 +431,8 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
       ),
     )
 
-  // stars stay up top where the chips are; what people wrote sits with the
-  // other community content further down, so the encyclopedia reads first
+  // what people wrote sits right under the stars, so a traveller's take on
+  // the road is the first thing after the headline numbers
   const ratingSlot = document.getElementById('rating-slot')!
   const reviewsSlot = document.getElementById('reviews-slot')!
   void renderCommunity(ratingSlot, reviewsSlot, d.id, summary.ref)
