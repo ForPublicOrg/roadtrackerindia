@@ -1,20 +1,21 @@
 {
   "id": "mdr-up-74c",
   "ref": "MDR 74C",
-  "name": "Gulariya–Nighasan District road",
+  "name": "Sisaiya Kalan–Dhakherwa District road",
   "category": "district",
   "status": "operational",
   "lengthKm": 31.9,
   "authority": "uttar-pradesh-pwd",
   "route": {
-    "start": "Gulariya, Uttar Pradesh",
-    "end": "Nighasan, Uttar Pradesh",
+    "start": "Sisaiya Kalan, Uttar Pradesh",
+    "end": "Dhakherwa, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Gulariya",
-      "Nighasan"
+      "Sisaiya Kalan",
+      "Dhaurahra",
+      "Dhakherwa"
     ]
   },
   "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
@@ -26,14 +27,21 @@
   ],
   "waypoints": [
     {
-      "name": "Gulariya",
+      "name": "Sisaiya Kalan",
       "coords": [
         81.1622,
         27.95635
       ]
     },
     {
-      "name": "Nighasan",
+      "name": "Dhaurahra",
+      "coords": [
+        81.09443,
+        28.00266
+      ]
+    },
+    {
+      "name": "Dhakherwa",
       "coords": [
         80.98788,
         28.17256

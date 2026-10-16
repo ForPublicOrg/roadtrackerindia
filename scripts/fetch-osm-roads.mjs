@@ -267,12 +267,19 @@ function group(relations) {
  * Greedy end-to-end assembly. Segments that cannot be joined within `maxGapKm`
  * start a new chain; the chains are then joined nearest-first, so a road with
  * real gaps in OSM still comes out as one drawable line.
+ *
+ * Every gap closed is a bridge, whichever pass closes it, and each chain keeps
+ * its own count, so a piece later split off as its own road takes its bridges
+ * with it. Counting only the second pass turned a 10 km gap into 20 km of road
+ * (while a 20 km gap came out right) and let named roads weld across 12 km.
  */
 function stitch(segments, maxBridgeKm = MAX_BRIDGE_KM, maxGapKm = 12) {
+  const gapKm = Math.min(maxGapKm, maxBridgeKm)
   const segs = segments.filter((s) => s.length > 1).sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
   const chains = []
   while (segs.length) {
     let chain = segs.shift()
+    let chainBridged = 0
     let grew = true
     while (grew && segs.length) {
       grew = false
@@ -289,13 +296,14 @@ function stitch(segments, maxBridgeKm = MAX_BRIDGE_KM, maxGapKm = 12) {
         ]
         for (const o of opts) if (o.d < best.d) best = { ...o, i }
       }
-      if (best.i === -1 || best.d > maxGapKm) break
+      if (best.i === -1 || best.d > gapKm) break
+      chainBridged += best.d
       const seg = segs.splice(best.i, 1)[0]
       const oriented = best.rev ? [...seg].reverse() : seg
       chain = best.where === 'tail' ? chain.concat(oriented) : oriented.concat(chain)
       grew = true
     }
-    chains.push(chain)
+    chains.push({ coords: chain, bridged: chainBridged })
   }
 
   // Join the leftover chains nearest-first. A real road mapped in pieces has
@@ -303,16 +311,19 @@ function stitch(segments, maxBridgeKm = MAX_BRIDGE_KM, maxGapKm = 12) {
   // and drawing a straight line across it invents geography AND counts that
   // line as road length. So bridging is capped, and whatever cannot be reached
   // within the cap is handed back as a separate piece rather than absorbed.
-  chains.sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
-  let line = chains.shift() ?? []
-  let bridged = 0
+  // The longest piece of *road* leads, not the longest line.
+  const realKm = (c) => lineLengthKm(c.coords) - c.bridged
+  chains.sort((a, b) => realKm(b) - realKm(a))
+  const first = chains.shift()
+  let line = first?.coords ?? []
+  let bridged = first?.bridged ?? 0
   const orphans = []
   while (chains.length) {
     const head = line[0]
     const tail = line[line.length - 1]
     let best = { d: Infinity, i: -1, where: 'tail', rev: false }
     for (let i = 0; i < chains.length; i++) {
-      const s = chains[i]
+      const s = chains[i].coords
       const opts = [
         { d: haversineKm(tail, s[0]), where: 'tail', rev: false },
         { d: haversineKm(tail, s[s.length - 1]), where: 'tail', rev: true },
@@ -322,13 +333,13 @@ function stitch(segments, maxBridgeKm = MAX_BRIDGE_KM, maxGapKm = 12) {
       for (const o of opts) if (o.d < best.d) best = { ...o, i }
     }
     if (best.i === -1) break
-    const seg = chains.splice(best.i, 1)[0]
+    const piece = chains.splice(best.i, 1)[0]
     if (best.d > maxBridgeKm) {
-      orphans.push(seg)
+      orphans.push(piece) // carries its own bridged count
       continue
     }
-    bridged += best.d
-    const oriented = best.rev ? [...seg].reverse() : seg
+    bridged += best.d + piece.bridged
+    const oriented = best.rev ? [...piece.coords].reverse() : piece.coords
     line = best.where === 'tail' ? line.concat(oriented) : oriented.concat(line)
   }
   return { line, bridged, orphans }
@@ -379,11 +390,12 @@ function assembleRoad(road, ways) {
   push(line, bridged, null)
   if (named) {
     // each stranded piece is its own road, largest first
-    orphans.sort((a, b) => lineLengthKm(b) - lineLengthKm(a))
+    const realKm = (piece) => lineLengthKm(piece.coords) - piece.bridged
+    orphans.sort((a, b) => realKm(b) - realKm(a))
     let n = 2
     for (const piece of orphans) {
-      if (lineLengthKm(piece) < 1) continue // a stub, not a road
-      push(piece, 0, n++)
+      if (realKm(piece) < 1) continue // a stub, not a road
+      push(piece.coords, piece.bridged, n++)
       if (n > 6) break // a name this ambiguous is not worth chasing further
     }
   }

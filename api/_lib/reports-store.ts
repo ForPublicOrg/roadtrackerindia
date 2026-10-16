@@ -69,13 +69,26 @@ function millis(iso: string | undefined): number {
   return Number.isFinite(t) ? t : Date.now()
 }
 
-/** Deliberately a single equality filter with no orderBy: that combination is
- *  served by Firestore's automatic single-field index, so deploying this needs
- *  no composite index to be created by hand. Filtering `deleted` and sorting
- *  happen here instead — at 200 docs per road that is far cheaper than the
- *  operational cost of a manual index step. */
+/** Deliberately equality filters only, with no orderBy: Firestore serves that by
+ *  merging its automatic single-field indexes, so deploying this needs no
+ *  composite index to be created by hand. Sorting happens here instead.
+ *
+ *  `deleted` MUST be filtered in the query, not after it. Without an orderBy the
+ *  limit takes the lowest document ids, and auto-ids are random — so once a road
+ *  had collected 200 docs, soft-deleted ones filled the slots and a new report
+ *  had only a random chance of being listed at all. Every doc carries the field:
+ *  addReport writes false and the migration sets it.
+ *
+ *  The limit still picks by id, not by age, should a road ever hold more than
+ *  200 *live* reports. At that point add orderBy('created_at') with a composite
+ *  index (and its deploy step) rather than raising the number. */
 export async function listReports(db: Firestore, roadId: string): Promise<ReportOut[]> {
-  const snap = await db.collection(REPORTS).where('road_id', '==', roadId).limit(200).get()
+  const snap = await db
+    .collection(REPORTS)
+    .where('road_id', '==', roadId)
+    .where('deleted', '==', false)
+    .limit(200)
+    .get()
   const items: ReportOut[] = []
   snap.forEach((d) => {
     const v = d.data() as ReportDoc

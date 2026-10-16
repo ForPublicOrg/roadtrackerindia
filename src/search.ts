@@ -38,6 +38,42 @@ const norm = (s: string) =>
 /** "nh44" and "nh 44" should match the same way. */
 const squash = (s: string) => norm(s).replace(/\s/g, '')
 
+/** "National Highway 44" is NH 44, whether someone types it or an aka spells it out. */
+const abbreviate = (s: string) =>
+  s
+    .replace(/\bnational highways?\b/g, 'nh')
+    .replace(/\bnational expressways?\b/g, 'ne')
+    .replace(/\bstate highways?\b/g, 'sh')
+
+/** The squashed designation ("nh44") a whole normalised query names, or null. */
+function designation(q: string): string | null {
+  const m = abbreviate(q).match(/^(nh|ne|sh) ?(\d+[a-z]*)$/)
+  return m ? m[1] + m[2] : null
+}
+
+/**
+ * Every designation an aka mentions, matched whole so that old NH 4 is not old
+ * NH 45. A list shares its prefix: "the former NH 8B, 8A and 15" names nh8b,
+ * nh8a and nh15.
+ */
+function designationsIn(aka: string): string[] {
+  const out: string[] = []
+  let cls = ''
+  for (const w of abbreviate(norm(aka)).split(/[^a-z0-9]+/)) {
+    const joined = w.match(/^(nh|ne|sh)\d+[a-z]*$/)
+    if (joined) {
+      out.push(w)
+      cls = joined[1]
+    } else if (/^(nh|ne|sh)$/.test(w)) cls = w
+    else if (cls && /^\d+[a-z]*$/.test(w)) out.push(cls + w)
+    else if (w !== 'and') cls = ''
+  }
+  return out
+}
+
+/** "old NH 7" asks for the pre-2010 numbering, which lives only in aka. */
+const OLD_NUMBERING = /^(?:the )?(?:old|former) /
+
 export function initSearch(cb: {
   onRoad: (id: string) => void
   onCity: (city: string) => void
@@ -130,6 +166,10 @@ interface Terms {
   name: string
   sname: string
   aka: string[]
+  /** designations the road carried before the 2010 renumbering ("nh7"), from akas that say old or former */
+  oldRefs: string[]
+  /** the number of a numbered ref — "44" for NH 44, "444a" for NH 444A — or '' */
+  num: string
   /** ref is just a road class ("MDR", "SH") with no number to identify it */
   classOnly: boolean
 }
@@ -144,6 +184,8 @@ function termsFor(road: RoadSummary): Terms {
       name: norm(road.name),
       sname: squash(road.name),
       aka: (road.aka ?? []).map(squash),
+      oldRefs: (road.aka ?? []).filter((a) => /\b(old|former)\b/i.test(a)).flatMap(designationsIn),
+      num: ref.match(/^[a-z]+(\d[0-9a-z]*)$/)?.[1] ?? '',
       classOnly: CLASS_ONLY_REF.test(ref),
     }
     terms.set(road, t)
@@ -161,7 +203,18 @@ const CATEGORY_BONUS: Record<string, number> = {
 }
 
 function compute(q: string): Result[] {
-  const sq = squash(q)
+  const sq = designation(q) ?? squash(q)
+  // "old NH 7" finds only the roads whose aka marks that old number: ref and name
+  // matching would put today's NH 7 (Fazilka–Mana) first, and an aka substring
+  // would take old NH 45 for old NH 4.
+  const oldRef = OLD_NUMBERING.test(q) ? designation(q.replace(OLD_NUMBERING, '')) : null
+  // A bare "44" is a road number: matched against each ref's number it scores
+  // just under an exact ref, so CATEGORY_BONUS puts NH 44 before SH 44.
+  const numeric = /^\d+[a-z]{0,2}$/.test(sq)
+  // Merged roads live on as aliases: ne-1 to ne-8 point at the named expressways
+  // that carry those numbers now, and the alias is the only place the number
+  // survives as a whole value. Without it "NE 1" opens NE 10 on a ref prefix.
+  const merged = new Map(Object.entries(state.aliases).map(([from, to]) => [squash(from), to]))
   const out: Result[] = []
   const cityHits = new Map<string, RoadSummary[]>()
   const stateHits = new Map<string, RoadSummary[]>()
@@ -169,11 +222,15 @@ function compute(q: string): Result[] {
   for (const road of state.roads) {
     let score = 0
     const t = termsFor(road)
+    if (oldRef) score = t.oldRefs.includes(oldRef) ? 90 : 0
     // A named road with no number carries the bare class as its badge ("MDR").
     // Treating that as an exact ref match would let 2,000 unnumbered stubs
     // outrank NH 44 for the query "nh" — the commonest search on the site.
-    if (t.ref === sq) score = t.classOnly ? 30 : 100
+    else if (t.ref === sq) score = t.classOnly ? 30 : 100
+    else if (merged.get(sq) === road.id) score = 100
     else if (t.ref.startsWith(sq)) score = t.classOnly ? 25 : 80
+    else if (numeric && t.num === sq) score = 90
+    else if (numeric && t.num.startsWith(sq)) score = 60
     else if (t.name.startsWith(q)) score = 72
     else if (t.sname.includes(sq)) score = 55
     else if (t.aka.some((a) => a.includes(sq))) score = 50
@@ -254,8 +311,14 @@ function render(): void {
   })
 }
 
-function shortRef(ref: string): string {
-  return ref.length <= 7 ? ref : ref.split(/[\s–—]/)[0].slice(0, 7)
+/**
+ * The ref as a list badge, shared with browse. A name ("Outer Ring Road") is
+ * cut to its first word, but a numbered ref stays whole: cut to "NH",
+ * NH 365BB and NH 365BG look the same, and both look like an unnumbered stub.
+ */
+export function shortRef(ref: string): string {
+  if (ref.length <= 7 || (/\d/.test(ref) && ref.length <= 14)) return ref
+  return ref.split(/[\s–—]/)[0].slice(0, 7)
 }
 
 /**

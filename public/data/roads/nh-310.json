@@ -1,25 +1,26 @@
 {
   "id": "nh-310",
   "ref": "NH 310",
-  "name": "Gangtok–Xiayadong National Highway",
+  "name": "Gangtok–Nathu La National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 63.2,
   "route": {
     "start": "Gangtok, Sikkim",
-    "end": "Xiayadong, Sikkim",
+    "end": "Nathu La (India–China border), Sikkim",
     "states": [
       "Sikkim"
     ],
     "majorCities": [
       "Gangtok",
-      "Xiayadong"
+      "Sherathang",
+      "Nathu La"
     ]
   },
   "relatedRoads": [
     { "id": "nh-310a", "label": "A branch off this highway, running Lachung to Gangtok" },
     { "id": "nh-10", "label": "Met near Gangtok" },
-    { "id": "nh-717b", "label": "Met near Xiayadong" }
+    { "id": "nh-717b", "label": "Branches off at Sherathang, running south via Kupup and Zuluk to Rhenock" }
   ],
   "sources": [
     {
@@ -40,7 +41,21 @@
       ]
     },
     {
-      "name": "Xiayadong",
+      "name": "Tsomgo Lake",
+      "coords": [
+        88.7639,
+        27.37649
+      ]
+    },
+    {
+      "name": "Sherathang",
+      "coords": [
+        88.81962,
+        27.37997
+      ]
+    },
+    {
+      "name": "Nathu La (India–China border)",
       "coords": [
         88.83081,
         27.38681

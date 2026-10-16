@@ -1,7 +1,7 @@
 // node --test scripts/lib/   — the rules that decide which headline belongs to which road
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { buildMatchers, findRefs, norm } from './news-match.mjs'
+import { buildMatchers, findRefs, norm, rotation } from './news-match.mjs'
 import { cleanTitle, isFeed, parseRss } from './news-feed.mjs'
 
 const road = (id, fields) => ({
@@ -34,6 +34,16 @@ const ROADS = [
       end: 'Kanyakumari, Tamil Nadu',
       states: ['Jammu and Kashmir', 'Punjab', 'Haryana', 'Delhi', 'Maharashtra', 'Tamil Nadu'],
       majorCities: ['Srinagar', 'Jammu', 'Karnal', 'Delhi', 'Nagpur', 'Kanyakumari'],
+    },
+  }),
+  road('nh-19', {
+    ref: 'NH 19',
+    name: 'Delhi–Kolkata Highway',
+    route: {
+      start: 'Delhi, Delhi',
+      end: 'Kolkata, West Bengal',
+      states: ['Delhi', 'Haryana', 'Uttar Pradesh', 'Bihar', 'Jharkhand', 'West Bengal'],
+      majorCities: ['Agra', 'Kanpur', 'Prayagraj', 'Varanasi'],
     },
   }),
   road('nh-66', {
@@ -103,6 +113,14 @@ const ROADS = [
     newsQuery: '"Atal Setu" Mumbai',
     route: { start: 'Sewri, Maharashtra', end: 'Chirle, Maharashtra', states: ['Maharashtra'], majorCities: ['Sewri', 'Navi Mumbai'] },
   }),
+  road('bengaluru-satellite-town-ring-road', {
+    ref: 'Satellite Town Ring Road',
+    name: 'Bengaluru Satellite Town Ring Road',
+    category: 'expressway',
+    aka: ['NH 948A', 'STRR'],
+    newsQuery: '"Satellite Town Ring Road" Bengaluru',
+    route: { start: 'Dobbaspet, Karnataka', end: 'Dobbaspet, Karnataka', states: ['Karnataka', 'Tamil Nadu'], majorCities: ['Dobbaspet', 'Hoskote', 'Hosur'] },
+  }),
   road('mdr-tn-695', {
     ref: 'MDR 695',
     name: 'Ariyathidal–Papanasam District road',
@@ -129,6 +147,7 @@ test('road numbers: exact, suffix-aware, case-aware', () => {
   assert.deepEqual(findRefs('NH-548C'), [{ kind: 'NH', num: 548, suffix: 'C' }])
   assert.deepEqual(findRefs('National Highway No. 44'), [{ kind: 'NH', num: 44, suffix: '' }])
   assert.deepEqual(findRefs('Kerala State Highway 1'), [{ kind: 'SH', num: 1, suffix: '' }])
+  assert.deepEqual(findRefs('NATIONAL HIGHWAY NO. 44 SHUT'), [{ kind: 'NH', num: 44, suffix: '' }])
   assert.deepEqual(findRefs('SH-U 10'), [])
   assert.deepEqual(findRefs('MDR KJ-M-10'), [])
 })
@@ -169,6 +188,24 @@ test('a new-scheme NH number stands on its own', () => {
   assert.ok(!about('nh-342', 'Navy Day celebrations in Visakhapatnam'))
 })
 
+test('a headline in capitals', () => {
+  // the spelled-out number stands as it does in ordinary case
+  assert.deepEqual(who('NATIONAL HIGHWAY 342 WIDENING APPROVED'), ['nh-342'])
+  assert.deepEqual(who('STATE HIGHWAY 29 REPAIRS BEGIN IN VIDISHA'), ['sh-mp-29'])
+  // "UP" here is as often the English word as Uttar Pradesh
+  assert.deepEqual(who('MASSIVE PILE-UP ON NH-19 AFTER FOG, 3 DEAD'), [])
+  assert.deepEqual(who('TRUCK BURSTS INTO FLAMES ON NH 19, TRAFFIC PILES UP'), [])
+  assert.deepEqual(who('PILE-UP ON NH-19, Rs 5 LAKH AID FOR KIN'), [])
+  assert.deepEqual(who('NH-19 SIX-LANING TO FINISH IN UP TO TWO YEARS'), [])
+  // …except where the word never goes
+  assert.deepEqual(who('UP: TRUCK OVERTURNS ON NH-19, 2 DEAD'), ['nh-19'])
+  assert.deepEqual(who("FOG IN UP: TRUCKS COLLIDE ON NH-19"), ['nh-19'])
+  assert.deepEqual(who("UP'S NH-19 GETS 3 NEW TOLL PLAZAS"), ['nh-19'])
+  // and in ordinary case, capitals are enough
+  assert.deepEqual(who('Massive pile-up on NH-19 after fog in UP'), ['nh-19'])
+  assert.deepEqual(who('Traffic piles up on NH-19 after truck fire'), [])
+})
+
 test('state-highway numbers restart in every state', () => {
   assert.deepEqual(who('Two killed on SH-29 near Vidisha'), ['sh-mp-29'])
   assert.deepEqual(who('SH 29 repairs begin in Chitradurga'), ['sh-ka-29'])
@@ -181,6 +218,15 @@ test('a generic name needs its city, and the longest name wins', () => {
   assert.deepEqual(who("Bengaluru's Outer Ring Road gets a dedicated bus lane"), ['bengaluru-outer-ring-road'])
   assert.deepEqual(who('Delhi plans elevated corridor to decongest Ring Road by 2030'), ['delhi-ring-road'])
   assert.deepEqual(who('Traffic jam on Outer Ring Road'), [])
+})
+
+test('an acronym needs a place however long it is', () => {
+  // STRR is also a stock ticker, and Yahoo Finance headlines its quote pages
+  // with nothing but tickers
+  assert.deepEqual(who('ANGX,CDNL,AMRC,CUEN,LIEN,FISV,STRR,SPG,FRST | Stock Prices | Quote Comparison - Yahoo Finance'), [])
+  assert.deepEqual(who('Star Equity Holdings (STRR) Holds Steady at $10.17'), [])
+  assert.ok(about('bengaluru-satellite-town-ring-road', 'STRR land acquisition near Hosur gathers pace'))
+  assert.ok(about('bengaluru-satellite-town-ring-road', 'Bengaluru STRR stretch opens to traffic'))
 })
 
 test('a distinctive name stands on its own, either way round', () => {
@@ -237,4 +283,61 @@ test('reading the feed', () => {
   assert.ok(!isFeed('<html><head><title>Sorry...</title></head></html>'))
   assert.equal(cleanTitle('Locals go fishing on flooded ganga expressway - India Today - India Today', 'India Today'), 'Locals go fishing on flooded ganga expressway')
   assert.equal(cleanTitle('India Today', 'India Today'), 'India Today')
+})
+
+test('the rotation never skips a term, and notices when it has come round', () => {
+  const q = (...keys) => keys.map((key) => ({ key }))
+  // planned as fetch-news.mjs plans: batches (of three here) by their first
+  // key, and "e", a loud term, asked on its own after the batch it falls in
+  const plan = [q('a', 'b', 'c'), q('d', 'f', 'g'), q('e'), q('h', 'i')]
+  const walk = (cursor, stopAt) => rotation(plan, cursor, stopAt)
+  assert.equal(walk(null).next(), plan[0])
+  assert.equal(walk('d').next(), plan[1])
+  assert.equal(walk('h').next(), plan[3])
+
+  // the list changed since "d" was saved ("a" turned hot), so the batch
+  // edges moved: start at the batch that now holds it, not the one after
+  const today = [q('b', 'c', 'd'), q('f', 'g', 'h'), q('i')]
+  assert.equal(rotation(today, 'd').next(), today[0])
+  // a cursor on the loud term starts at the batch whose range holds it: d
+  // goes out again, but f and g are not skipped
+  assert.equal(walk('e').next(), plan[1])
+
+  // a batch filled the feed and its second half was still waiting: the loud
+  // term after it has the smaller key, and both are asked next run
+  const split = walk('d')
+  split.next()
+  assert.equal(split.resumeAt(q('f', 'g')), 'e')
+  // the last batch's second half is still this lap, not the next one's
+  const last = walk('h')
+  last.next()
+  assert.equal(last.resumeAt(q('i')), 'i')
+  const back = walk('i')
+  assert.equal(back.next(), plan[3])
+  assert.equal(back.round, false)
+
+  // a walk from the top comes round when it gets to the bottom
+  const top = walk(null)
+  for (const want of plan) {
+    assert.equal(top.next(), want)
+    assert.equal(top.round, false)
+  }
+  assert.equal(top.next(), undefined)
+  assert.equal(top.round, true)
+  // one that spends its budget on the last query has come round too, though
+  // it never asks the first; the next run starts at the top
+  const end = walk('h')
+  end.next()
+  assert.equal(end.round, false)
+  assert.equal(end.next(), plan[0])
+  assert.equal(end.round, true)
+  assert.equal(end.resumeAt(plan[0]), 'a')
+  // so has one whose cursor's terms have all left the list
+  const gone = walk('j')
+  assert.equal(gone.next(), plan[0])
+  assert.equal(gone.round, true)
+
+  // the hot list's second walk stops where the first began
+  const rest = walk('h', 'd')
+  assert.deepEqual([rest.next(), rest.next(), rest.next()], [plan[3], plan[0], undefined])
 })

@@ -49,11 +49,20 @@ Why the places:
   current road in the headline tells them apart.
 - **Generic names repeat.** Six cities have an Outer Ring Road. "Ring Road" inside
   "Outer Ring Road" belongs to the longer name.
+- **An acronym is never enough on its own, however long.** "STRR" is Bengaluru's
+  Satellite Town Ring Road and also a stock ticker, and Yahoo Finance headlines
+  its quote pages with nothing but tickers.
 
 A "place" is the road's states, the towns at its ends, its major cities, and its
 waypoints; the outlet's own name counts too ("Kashmir Observer", "Telangana
 Today"). A headline that names a different road number ("Karode–Kanyakumari NH 66
 stretch") is never credited to another road by its ends.
+
+Some headlines arrive in capitals. Numbers read the same there ("NATIONAL
+HIGHWAY 342"), but "UP" is as often the English word (PILE-UP, PILES UP, UP TO
+2 KM) as Uttar Pradesh, so in a headline that is mostly capitals it counts as
+the state only as "UP: …", "(UP)", "UP'S" or "IN UP". In ordinary case the
+capitals are enough.
 
 Renamed cities fold together (Bangalore/Bengaluru, Gurgaon/Gurugram, Orissa/Odisha …),
 names are matched either way round (Lucknow–Agra Expressway), and aliases marked
@@ -94,11 +103,14 @@ one count:
   the last three months — gets up to 75% of a run, which on a normal day covers
   all of it (~95 queries). The rotation gets the rest, ~40 a day: ~4,400 terms
   is about 445 queries round, so every ten days or so. Both places are saved in
-  `_status.json`, and `cold.lastLap` records when the rotation last came all
-  the way round. Batches are formed once, in a fixed order, so a saved place
-  always lands on the same query. A term counts as loud from 95 results and
-  goes back into batches only below 60, so one hovering near the line does not
-  cost a split every day.
+  `_status.json`, each as the first term not yet asked. Batch edges move whenever a
+  list changes (a road gets a story and turns hot, a term turns loud), so the
+  next run starts at whichever query now holds that term: a few terms already
+  asked may go out again in it, but none is skipped. `cold.lastLap` records
+  when the rotation last got past the end of its list, even if the run's
+  queries ran out right there. A term counts as loud from 95 results and goes
+  back into batches only below 60, so one hovering near the line does not cost
+  a split every day.
 
 Other sources were tried. GDELT's DOC API, which is built for programmatic
 access, turns GitHub's runners away on the first request (they share IPs with
@@ -118,8 +130,8 @@ the job does not do that.
   each day's commit is the real diff. News for a road that no longer exists is
   removed.
 - **Refusals.** The first refusal is waited out (three minutes) and retried once;
-  a second ends the run. What it has is still committed, and the next run
-  carries on from the same places.
+  a second, of the same query or any later one, ends the run. What it has is
+  still committed, and the next run carries on from the same places.
 
 Exit codes, which the workflow acts on:
 

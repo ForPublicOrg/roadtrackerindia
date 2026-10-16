@@ -62,7 +62,14 @@ export function initLegend(): void {
   const btn = document.getElementById('legend-toggle')
   if (!legend || !btn) return
   const small = matchMedia('(max-width: 768px)').matches
-  const stored = localStorage.getItem('rti-legend')
+  // reading storage throws when the browser blocks site data, and this runs
+  // before anything else in boot — a throw here would leave the app unwired
+  let stored: string | null = null
+  try {
+    stored = localStorage.getItem('rti-legend')
+  } catch {
+    /* blocked — fall back to the screen-size default */
+  }
   let collapsed = stored ? stored === '0' : small
   const apply = () => {
     legend.classList.toggle('is-collapsed', collapsed)
@@ -70,7 +77,11 @@ export function initLegend(): void {
   }
   btn.addEventListener('click', () => {
     collapsed = !collapsed
-    localStorage.setItem('rti-legend', collapsed ? '0' : '1')
+    try {
+      localStorage.setItem('rti-legend', collapsed ? '0' : '1')
+    } catch {
+      /* storage blocked / quota — the toggle still works, it just isn't remembered */
+    }
     apply()
   })
   apply()
@@ -103,5 +114,7 @@ export function relTime(ts: number): string {
   if (d < 30) return `${d} day${d > 1 ? 's' : ''} ago`
   const mo = Math.round(d / 30)
   if (mo < 12) return `${mo} month${mo > 1 ? 's' : ''} ago`
-  return `${Math.round(mo / 12)} year${mo >= 24 ? 's' : ''} ago`
+  // pluralise what is printed: 18 months rounds to "2 year", not "1 year"
+  const y = Math.round(mo / 12)
+  return `${y} year${y > 1 ? 's' : ''} ago`
 }

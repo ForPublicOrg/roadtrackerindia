@@ -9,7 +9,11 @@
   "lanes": "6 lanes, access-controlled",
   "agency": "NHAI",
   "authority": "nhai",
+  "builtBy": [
+    { "org": "pnc-infratech", "note": "built both the elevated and the greenfield sections" }
+  ],
   "cost": "₹4,700 crore (approx.)",
+  "contractor": "PNC Infratech",
   "route": {
     "start": "Lucknow (Shaheed Path), Uttar Pradesh",
     "end": "Kanpur, Uttar Pradesh",
@@ -18,13 +22,15 @@
   },
   "tollInfo": {
     "tolled": true,
-    "note": "This road is tolled. Indian toll rates are revised every year on 1 April, so check the current notification before you travel."
+    "note": "Toll was charged from the July 2026 opening, but NHAI suspended it in early August 2026 while damaged stretches were repaired and said it would restart once the repairs were finished. Check the current position before you travel."
   },
   "timeline": [
     { "year": "2023", "event": "Main construction in progress on both the elevated and greenfield sections" },
-    { "year": "2026", "event": "Inaugurated on 13 July and opened to traffic" }
+    { "year": "2026", "event": "Inaugurated on 13 July and opened to traffic" },
+    { "year": "2026", "event": "Cracks and sinking appear within weeks; in August NHAI stops charging toll and sets up an expert probe led by IIT Kharagpur" },
+    { "year": "2026", "event": "In September NHAI bars PNC Infratech from bidding for new NHAI and road ministry work for three years; the Delhi High Court puts the ban on hold in October" }
   ],
-  "history": "Lucknow and Kanpur sit only about 80 km apart and are two of Uttar Pradesh's biggest cities, but the old highway between them ran through village after village and the drive often took two to three hours. NHAI's answer was the Lucknow–Kanpur Expressway, a 63 km six-lane road officially numbered National Expressway 6 and also called the Awadh Expressway. It is built in two very different halves: the first stretch out of Lucknow is a long elevated road on pillars directly above the old highway, because there was no room on the ground; after that it becomes a brand-new road cutting across open country in Unnao district. The project cost about ₹4,700 crore and was inaugurated on 13 July 2026. It brought the Lucknow–Kanpur drive down to roughly 40 minutes.",
+  "history": "Lucknow and Kanpur sit only about 80 km apart and are two of Uttar Pradesh's biggest cities, but the old highway between them ran through village after village and the drive often took two to three hours. NHAI's answer was the Lucknow–Kanpur Expressway, a 63 km six-lane road officially numbered National Expressway 6 and also called the Awadh Expressway. It is built in two very different halves: the first stretch out of Lucknow is a long elevated road on pillars directly above the old highway, because there was no room on the ground; after that it becomes a brand-new road cutting across open country in Unnao district. The project cost about ₹4,700 crore and was inaugurated on 13 July 2026. It brought the Lucknow–Kanpur drive down to roughly 40 minutes. But within two weeks heavy rain made a 300 m stretch slip, and cracks and sinking soon showed up at other spots too. NHAI stopped charging toll in early August while the road was repaired, asked experts led by IIT Kharagpur to find out what went wrong, and in September barred the builder, PNC Infratech, from bidding for new national highway work for three years — a ban the Delhi High Court put on hold in October 2026.",
   "facts": [
     "Cuts the Lucknow–Kanpur drive from about two to three hours down to roughly 40 minutes.",
     "Begins with a long elevated stretch built on pillars above the old Lucknow–Kanpur highway, so the old road below keeps working.",
@@ -32,6 +38,7 @@
     "Officially numbered National Expressway 6 (NE-6).",
     "Built by NHAI at a cost of about ₹4,700 crore.",
     "Inaugurated on 13 July 2026 by the Union road transport minister and the Uttar Pradesh chief minister.",
+    "Within weeks of opening, parts of the new road cracked and sank after heavy rain, so NHAI stopped charging toll until the repairs were done.",
     "At its Lucknow end it meets Shaheed Path, the city's ring road, which links straight on to the Agra–Lucknow and Purvanchal expressways."
   ],
   "significance": "Lucknow is Uttar Pradesh's capital and Kanpur is its biggest industrial city, so the two are joined at the hip — people commute, factories ship goods, and lorries run between them all day. The old road had become one of the state's worst bottlenecks. By joining Shaheed Path at one end, the expressway also plugs Kanpur straight into the network of expressways that already runs from Agra through Lucknow to Ghazipur, so a lorry can now leave Kanpur and stay on expressways almost all the way across the state.",
@@ -53,7 +60,7 @@
     { "id": "nh-230", "label": "Met near Alambagh" },
     { "id": "sh-up-38", "label": "Met near Unnao" }
   ],
-  "travelNotes": "Allow about 45 minutes end to end. It is a toll road, and most drivers pay with FASTag. The busiest times are the weekday morning and evening commutes at both ends. Dense fog is common on this part of the Ganga plain in December and January, when speeds drop sharply. Fuel and food are easier to find at the Lucknow and Kanpur ends than in the middle.",
+  "travelNotes": "Allow about 45 minutes end to end. Since August 2026 parts of the road have been under repair, with diversions on the damaged stretches, so expect some slow patches; NHAI suspended toll that month until the repairs are done, so check whether it has restarted before you set out. The busiest times are the weekday morning and evening commutes at both ends. Dense fog is common on this part of the Ganga plain in December and January, when speeds drop sharply. Fuel and food are easier to find at the Lucknow and Kanpur ends than in the middle.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
     { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },

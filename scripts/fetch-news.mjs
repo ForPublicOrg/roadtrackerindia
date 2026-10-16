@@ -46,7 +46,7 @@ import { appendFileSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSyn
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { cleanTitle, isFeed, parseRss } from './lib/news-feed.mjs'
-import { buildMatchers, norm } from './lib/news-match.mjs'
+import { buildMatchers, norm, rotation } from './lib/news-match.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const ROADS_DIR = join(ROOT, 'public', 'data', 'roads')
@@ -103,13 +103,13 @@ let refusals = 0
 
 /**
  * One query → the feed's items. Network errors and 5xx are retried a few
- * times. A refusal (503/429, or Google's "Sorry…" page) is waited out once;
- * a second one ends the run with `Refused`.
+ * times. A refusal (503/429, or Google's "Sorry…" page) is waited out once a
+ * run; a second one, of this query or any later one, ends the run with
+ * `Refused`.
  */
 async function fetchFeed(query) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-IN&gl=IN&ceid=IN:en`
   let errors = 0
-  let refusedHere = false
   for (;;) {
     const wait = lastRequest + GAP_MS + Math.random() * 500 - Date.now()
     if (wait > 0) await sleep(wait)
@@ -127,9 +127,9 @@ async function fetchFeed(query) {
     }
     if (status === 200 && isFeed(body)) return parseRss(body)
     if (status === 429 || status === 503 || /unusual traffic|<title>Sorry/i.test(body)) {
-      refusals++
-      if (refusedHere) throw new Refused()
-      refusedHere = true
+      // one wait a run: a second refusal, whichever query it hits, stops the
+      // day's asking, and the next run carries on from here
+      if (refusals++ > 0) throw new Refused()
       log(`  … Google refused a query; waiting ${REFUSAL_PAUSE_MS / 60_000} min before one more try`)
       await sleep(REFUSAL_PAUSE_MS)
       continue
@@ -202,10 +202,11 @@ const phrase = (t) => `"${t.replace(/"/g, '').replace(/[–—-]+/g, ' ').replac
 const solo = (e) => !!e.query || loud.has(e.term)
 
 /**
- * A list's queries, the same every run: its plain terms ten at a time in key
- * order, and each solo entry (a newsQuery, a loud term) on its own — neither
- * interrupting the other — all placed by their first key. A run may start at
- * any of them, so a saved cursor always lands on a query boundary.
+ * A list's queries: its plain terms ten at a time in key order, and each solo
+ * entry (a newsQuery, a loud term) on its own — neither interrupting the
+ * other — all placed by their first key. Batch edges move whenever the list
+ * changes, so a saved cursor can fall inside a batch; rotation() (in
+ * lib/news-match.mjs) starts from the batch that holds it.
  */
 function plan(list) {
   const queries = []
@@ -226,20 +227,6 @@ function plan(list) {
 }
 const hotPlan = plan(hotList)
 const coldPlan = plan(coldList)
-
-/** Which query a cursor points at: the first one starting at or after it. */
-const indexOf = (queries, key) => {
-  const i = key == null ? 0 : queries.findIndex((q) => q[0].key >= key)
-  return i < 0 ? 0 : i
-}
-
-/** Walks the queries from `cursor`, wrapping at the end, to just before `stopAt` (default: one lap). */
-function* lap(queries, cursor, stopAt) {
-  const n = queries.length
-  const start = indexOf(queries, cursor)
-  const take = stopAt === undefined ? n : (indexOf(queries, stopAt) - start + n) % n
-  for (let i = 0; i < take; i++) yield queries[(start + i) % n]
-}
 
 const queryText = (group) => (group.length === 1 && group[0].query ? group[0].query : group.map((e) => phrase(e.term)).join(' OR '))
 
@@ -271,25 +258,21 @@ let hotEmpty = 0
  *   a pass over the whole list has now been completed.
  */
 async function work(queries, cursor, budget, hot, stopAt) {
-  const firstKey = queries[0]?.[0].key
-  const startsAtTop = indexOf(queries, cursor) === 0
+  const walk = rotation(queries, cursor, stopAt)
   const splits = []
-  const it = lap(queries, cursor, stopAt)
   let spent = 0
-  let wrapped = false
   let next
   let done = false
   for (;;) {
-    const group = splits.shift() ?? it.next().value
+    // a batch's halves are asked before the walk moves on
+    const group = splits.shift() ?? walk.next()
     if (!group) {
       done = true
-      // a walk that began at the top and got to the bottom has come round too
-      if (startsAtTop && stopAt === undefined) wrapped = true
       next = stopAt ?? cursor ?? null
       break
     }
     if (spent >= budget || refused) {
-      next = group[0].key
+      next = walk.resumeAt(group)
       break
     }
     let items
@@ -298,7 +281,7 @@ async function work(queries, cursor, budget, hot, stopAt) {
     } catch (e) {
       if (e instanceof Refused) {
         refused = true
-        next = group[0].key
+        next = walk.resumeAt(group)
         break
       }
       failed.push(queryText(group))
@@ -319,7 +302,6 @@ async function work(queries, cursor, budget, hot, stopAt) {
       splits.unshift(group.slice(0, half), group.slice(half))
       continue
     }
-    if (!startsAtTop && group.some((e) => e.key === firstKey)) wrapped = true
     if (group.length === 1 && group[0].term) {
       // well clear of the line either way, or a term hovering near 100 would
       // be batched one day, split the next, and cost queries every time
@@ -335,7 +317,7 @@ async function work(queries, cursor, budget, hot, stopAt) {
       }
     }
   }
-  return { next, done, wrapped, spent }
+  return { next, done, wrapped: walk.round, spent }
 }
 
 const hotStart = ONLY ? null : (previousStatus.hot?.cursor ?? null)

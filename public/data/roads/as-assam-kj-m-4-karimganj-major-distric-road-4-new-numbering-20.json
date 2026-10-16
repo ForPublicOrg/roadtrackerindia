@@ -1,31 +1,31 @@
 {
   "id": "as-assam-kj-m-4-karimganj-major-distric-road-4-new-numbering-20",
   "ref": "MDR KJ-M-4",
-  "name": "Barlekha–Beanibazar district road",
+  "name": "Kanaibazar district road",
   "aka": ["Karimganj Major District Road KJ-M-4"],
   "category": "district",
   "status": "operational",
   "lengthKm": 10.7,
   "authority": "assam-pwd",
   "route": {
-    "start": "Barlekha, Assam",
-    "end": "Beanibazar, Assam",
+    "start": "Kanaibazar, Assam",
+    "end": "Junction with MDR KJ-M-6 near the Bangladesh border, Assam",
     "states": [
       "Assam"
     ],
     "majorCities": [
-      "Barlekha",
-      "Beanibazar"
+      "Kanaibazar",
+      "KJ-M-6 junction"
     ]
   },
   "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
-  "significance": "A major district road in Karimganj district, Assam, running between Barlekha and Beanibazar. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
+  "significance": "A major district road in Karimganj district, Assam, running north-west from NH 8 at Kanaibazar to meet MDR KJ-M-6 and KJ-M-11 near the Bangladesh border. Assam renumbered its district roads in 2023 and 2024, so older maps and signboards may carry a different number.",
   "relatedRoads": [
-    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met near Barlekha" },
-    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near Barlekha" },
-    { "id": "mdr-as-6", "label": "Met near Barlekha" },
-    { "id": "mdr-as-11", "label": "Met near Barlekha" },
-    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met near Barlekha" }
+    { "id": "as-assam-kj-m-8-karimganj-major-distric-road-8-new-numbering-20", "label": "Met at Kanaibazar, where this road begins" },
+    { "id": "as-assam-kj-m-6-karimganj-major-distric-road-6-new-numbering-20", "label": "Met near the Bangladesh border, west of Baraigram, where this road ends" },
+    { "id": "mdr-as-6", "label": "Met near the Bangladesh border, west of Baraigram, where this road ends" },
+    { "id": "mdr-as-11", "label": "Met where this road ends, near the Bangladesh border" },
+    { "id": "as-assam-kj-m-11-karimganj-major-distric-road-11-new-numbering", "label": "Met where this road ends, near the Bangladesh border" }
   ],
   "sources": [
     {
@@ -35,14 +35,14 @@
   ],
   "waypoints": [
     {
-      "name": "Barlekha",
+      "name": "Kanaibazar",
       "coords": [
         92.32409,
         24.64279
       ]
     },
     {
-      "name": "Beanibazar",
+      "name": "KJ-M-6 junction",
       "coords": [
         92.29391,
         24.70389

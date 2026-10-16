@@ -1,31 +1,38 @@
 {
   "id": "nh-109d",
   "ref": "NH 109D",
-  "name": "Tanakpur–Nepal Border Highway",
+  "name": "Banbasa–Nepal Border Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 5.7,
   "agency": "NHAI",
   "authority": "nhai",
   "route": {
-    "start": "Tanakpur, Uttarakhand",
-    "end": "Bhimdatta, Uttarakhand",
+    "start": "Banbasa, Uttarakhand",
+    "end": "Banbasa (India–Nepal border), Uttarakhand",
     "states": [
       "Uttarakhand"
     ],
     "majorCities": [
-      "Tanakpur",
-      "Bhimdatta"
+      "Banbasa",
+      "Banbassa Canal"
     ]
   },
   "facts": [
-    "Runs from Tanakpur, in the Kumaon foothills, to the Nepal border.",
+    "Runs from NH 9 at Banbasa a few kilometres to the Nepal border.",
     "Bhimdatta, on the Nepalese side, is also known as Mahendranagar.",
     "It is one of the main road crossings into far-western Nepal.",
-    "The Sharda river, which the road follows, forms part of the India–Nepal boundary here."
+    "The Sharda river, called the Mahakali in Nepal, forms much of the India–Nepal boundary in this area.",
+    "It was made a national highway in July 2020, officially running from NH 9 near the Jagbuda bridge to border pillar 802/11."
   ],
-  "significance": "A short national highway link running from Tanakpur in Uttarakhand to the Nepal border at Bhimdatta (Mahendranagar). It is one of the crossings between the Kumaon foothills and far-western Nepal, and it carries the cross-border trade and traffic of that corner of the frontier.",
+  "significance": "A short national highway link from NH 9 at Banbasa, in Uttarakhand's Champawat district, to the Nepal border a few kilometres east of the town, across from Bhimdatta (Mahendranagar). It is one of the crossings between the Kumaon foothills and far-western Nepal, and it carries the cross-border trade and traffic of that corner of the frontier.",
+  "relatedRoads": [
+    { "id": "nh-9", "label": "Met at Banbasa, where this road begins" }
+  ],
   "travelNotes": "A short road, but the border crossing at the end has customs and immigration formalities — allow time for them.",
+  "futureUpgrades": [
+    "NHAI is building a new four-lane link from NH 9 near the Jagbuda bridge in Banbasa to the Nepal border at Dodhara Chandani, where Nepal plans a dry port."
+  ],
   "sources": [
     {
       "title": "NHAI — National Highways Authority of India",
@@ -38,14 +45,21 @@
   ],
   "waypoints": [
     {
-      "name": "Tanakpur",
+      "name": "Banbasa",
       "coords": [
         80.07203,
         28.99585
       ]
     },
     {
-      "name": "Bhimdatta",
+      "name": "Banbassa Canal",
+      "coords": [
+        80.09039,
+        28.99249
+      ]
+    },
+    {
+      "name": "Banbasa (India–Nepal border)",
       "coords": [
         80.12164,
         28.99169

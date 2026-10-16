@@ -1,20 +1,21 @@
 {
   "id": "mdr-as-2",
   "ref": "MDR 2",
-  "name": "Bijni–Gelephu District road",
+  "name": "Bijni–Malibhita District road",
   "category": "district",
   "status": "operational",
   "lengthKm": 50.7,
   "authority": "assam-pwd",
   "route": {
     "start": "Bijni, Assam",
-    "end": "Gelephu, Assam",
+    "end": "Malibhita, Assam",
     "states": [
       "Assam"
     ],
     "majorCities": [
       "Bijni",
-      "Gelephu"
+      "Amguri",
+      "Malibhita"
     ]
   },
   "tollInfo": { "tolled": false, "note": "District roads in India are not tolled." },
@@ -33,7 +34,14 @@
       ]
     },
     {
-      "name": "Gelephu",
+      "name": "Amguri",
+      "coords": [
+        90.5687,
+        26.64156
+      ]
+    },
+    {
+      "name": "Malibhita",
       "coords": [
         90.52444,
         26.83169

@@ -1,28 +1,30 @@
 {
   "id": "nh-730h",
   "ref": "NH 730H",
-  "name": "Rupadiya–Tikapur National Highway",
+  "name": "Mihinpurwa–Katarniaghat National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 46.9,
   "route": {
-    "start": "Rupadiya, Uttar Pradesh",
-    "end": "Tikapur, Uttar Pradesh",
+    "start": "Kundwa (near Mihinpurwa), Uttar Pradesh",
+    "end": "Katarniaghat, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Rupadiya",
-      "Tikapur"
+      "Mihinpurwa",
+      "Nishangara",
+      "Bichia",
+      "Katarniaghat"
     ]
   },
-  "significance": "NH 730H is a branch of NH 730. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Rupadiya to Tikapur, and it meets NH 730 along the way.",
+  "significance": "NH 730H is a branch of NH 730. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one leaves NH 730 at Kundwa, near Mihinpurwa, and runs north-west past Nishangara and Bichia to Katarniaghat, in the Katarniaghat Wildlife Sanctuary close to the Nepal border.",
   "relatedRoads": [
     {
       "id": "nh-730",
       "label": "NH 730 — the highway this branch takes its number from, running Pilibhit to Tamkuhi Raj"
     },
-    { "id": "sh-up-149e", "label": "Meets this road" }
+    { "id": "sh-up-149e", "label": "Mapped along the same road, Kundwa to Katarniaghat" }
   ],
   "sources": [
     {
@@ -36,14 +38,35 @@
   ],
   "waypoints": [
     {
-      "name": "Rupadiya",
+      "name": "Kundwa",
       "coords": [
         81.40564,
         28.01548
       ]
     },
     {
-      "name": "Tikapur",
+      "name": "Mihinpurwa",
+      "coords": [
+        81.38552,
+        28.02769
+      ]
+    },
+    {
+      "name": "Nishangara",
+      "coords": [
+        81.31188,
+        28.11269
+      ]
+    },
+    {
+      "name": "Bichia",
+      "coords": [
+        81.27487,
+        28.18235
+      ]
+    },
+    {
+      "name": "Katarniaghat",
       "coords": [
         81.12351,
         28.33605

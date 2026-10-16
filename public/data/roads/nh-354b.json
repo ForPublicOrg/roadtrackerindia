@@ -1,26 +1,35 @@
 {
   "id": "nh-354b",
   "ref": "NH 354B",
-  "name": "Dera Baba Nanak–Narowal National Highway",
+  "name": "Dera Baba Nanak–Kartarpur Corridor Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 3.6,
+  "lanes": "4 lanes",
+  "agency": "NHAI",
+  "cost": "₹120 crore (approx.)",
   "route": {
-    "start": "Dera Baba Nanak, Punjab",
-    "end": "Narowal, Punjab",
+    "start": "Dera Baba Nanak (junction with NH 354), Punjab",
+    "end": "India–Pakistan border (Kartarpur Corridor), Punjab",
     "states": [
       "Punjab"
     ],
     "majorCities": [
       "Dera Baba Nanak",
-      "Narowal"
+      "Kartarpur Corridor"
     ]
   },
-  "significance": "NH 354B is a branch of NH 354. In the national highway numbering used since 2010, a letter after the number marks a spur or link off the main route — this one runs Dera Baba Nanak to Narowal, and it meets NH 354 along the way.",
+  "facts": [
+    "A four-lane road built by NHAI for about ₹120 crore.",
+    "Near the border end, the Integrated Check Post at Dera Baba Nanak, built by the Land Ports Authority of India, has more than 50 immigration counters to handle about 5,000 pilgrims a day.",
+    "The road ends at the 'zero line', the exact point of the India–Pakistan border, where pilgrims crossed into Pakistan.",
+    "Pilgrim crossings have been suspended since 7 May 2025."
+  ],
+  "significance": "NH 354B is a short four-lane spur that leaves NH 354 near Dera Baba Nanak in Gurdaspur district and runs to the India–Pakistan border. It is the Indian road of the Kartarpur Corridor, built to let Sikh pilgrims cross without a visa to Gurdwara Darbar Sahib at Kartarpur in Pakistan, where Guru Nanak spent his last years. Pilgrim crossings have been suspended since 7 May 2025.",
   "relatedRoads": [
     {
       "id": "nh-354",
-      "label": "NH 354 — the highway this branch takes its number from, running Malout to Gurdaspur"
+      "label": "NH 354 — the Malout–Gurdaspur highway; NH 354B starts from it near Dera Baba Nanak"
     }
   ],
   "sources": [
@@ -35,17 +44,24 @@
   ],
   "waypoints": [
     {
-      "name": "Dera Baba Nanak",
-      "coords": [
-        75.02639,
-        32.04859
-      ]
-    },
-    {
-      "name": "Narowal",
+      "name": "Junction with NH 354",
       "coords": [
         75.04539,
         32.02169
+      ]
+    },
+    {
+      "name": "Dera Baba Nanak",
+      "coords": [
+        75.02939,
+        32.03909
+      ]
+    },
+    {
+      "name": "Kartarpur Corridor (India–Pakistan border)",
+      "coords": [
+        75.02639,
+        32.04859
       ]
     }
   ],

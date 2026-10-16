@@ -44,7 +44,13 @@ const MERGED = (() => {
 // ── reference layers ─────────────────────────────────────────────────
 
 const states = readCache('states.json') ?? []
-const places = readCache('places.json') ?? []
+// The place layer is fetched by bounding box, and the box takes in Pakistan,
+// Nepal, Bhutan, Bangladesh, Myanmar and Tibet. A road that runs to a border
+// crossing is often nearer the town across it than its own, which is how NH
+// 927 came to end at Nepalgunj rather than Rupaidiha and NH 70 to start at
+// Sadiqabad in Pakistan — labelled "Rajasthan", because endpointLabel falls
+// back to the road's state. Only a place inside an Indian state names a road.
+const places = (readCache('places.json') ?? []).filter((p) => stateAt(p.c))
 if (!states.length || !places.length) {
   console.error('Missing reference layers — run: node scripts/fetch-osm-reference.mjs')
   process.exit(1)

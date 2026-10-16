@@ -4,7 +4,7 @@ import './styles.css'
 
 import { inject as injectAnalytics } from '@vercel/analytics'
 
-import type { Area, BBox, LngLat } from './types'
+import type { Area, BBox, LngLat, NetworkFC } from './types'
 import { initTheme, toggleTheme } from './theme'
 import { emit, state } from './state'
 import { loadDetail, loadIndex, loadNetwork, loadNetworkDetail, loadOrg, loadShape } from './data'
@@ -79,7 +79,18 @@ async function boot(): Promise<void> {
   initTheme()
   initLegend()
 
-  const mapReady = initMap()
+  // The map is the one part of the page that can fail to start (no WebGL, a
+  // blocked GPU) or start slowly (its style comes from a tile CDN). Nothing
+  // below waits to find out: search, browse, the panel and deep links all work
+  // without it, and the map catches up with whatever was chosen meanwhile.
+  const mapReady = initMap().then(
+    () => true,
+    (e: unknown) => {
+      console.warn('[map] could not start —', e)
+      toast("This browser couldn't start the map — search and browse still work.", { duration: 12000 })
+      return false
+    },
+  )
 
   let index, network
   try {
@@ -99,7 +110,6 @@ async function boot(): Promise<void> {
   state.network = network
   emit('dataready', undefined)
 
-  await mapReady
   setNetworkData(network)
 
   // ── area flow: the map narrowed to one city or state ─────────────
@@ -122,22 +132,32 @@ async function boot(): Promise<void> {
   }
 
   // thousands of state and district roads — fetched the first time the map is
-  // zoomed in far enough for them to be legible, never on the home view
-  onDetailNetworkNeeded(() => {
-    void loadNetworkDetail()
-      .then((fc) => {
-        state.networkDetail = fc
-        setDetailNetworkData(fc)
-        // a city chosen before these arrived was measured against the trunk
-        // network alone — most of its roads are in this file
-        if (currentArea) applyArea(recountArea(currentArea))
-      })
-      .catch(() => {
-        // the trunk network still works, so this needs no alarm — but let the
-        // next zoom retry rather than leaving the tier dead for the session
-        detailNetworkFailed()
-      })
-  })
+  // zoomed in far enough for them to be legible, never on the home view. One
+  // request however many things ask: the map, a chosen city, Find my road.
+  let detailLoad: Promise<NetworkFC> | null = null
+  function loadDetailTier(): Promise<NetworkFC> {
+    if (!detailLoad) {
+      detailLoad = loadNetworkDetail().then(
+        (fc) => {
+          state.networkDetail = fc
+          setDetailNetworkData(fc)
+          // a city chosen before these arrived was measured against the trunk
+          // network alone — most of its roads are in this file
+          if (currentArea) applyArea(recountArea(currentArea))
+          return fc
+        },
+        (e: unknown) => {
+          // the trunk network still works, so this needs no alarm — but let the
+          // next zoom retry rather than leaving the tier dead for the session
+          detailLoad = null
+          detailNetworkFailed()
+          throw e
+        },
+      )
+    }
+    return detailLoad
+  }
+  onDetailNetworkNeeded(() => void loadDetailTier().catch(() => {}))
 
   void initOrgs() // org names for the panel chips; the page works without them
 
@@ -185,7 +205,8 @@ async function boot(): Promise<void> {
     // a link to a road we have since merged into another one still points at a
     // real road — follow it rather than telling the reader it does not exist
     const merged = state.aliases[id]
-    if (merged && !state.byId.has(id) && state.byId.has(merged)) id = merged
+    const aliased = Boolean(merged) && !state.byId.has(id) && state.byId.has(merged)
+    if (aliased) id = merged
     const summary = state.byId.get(id)
     if (!summary) {
       toast("We don't have that road catalogued (yet).")
@@ -205,8 +226,13 @@ async function boot(): Promise<void> {
       if (opts.at) focusRoad(summary.bbox, opts.at)
       else flyToRoad(summary.bbox)
     }
-    if (opts.fromRouter) applyMeta(summary)
-    else navigateToRoad(summary)
+    if (opts.fromRouter) {
+      // the old address still opens the road, but the bar should show the real
+      // one — it is what gets copied and shared. Replace, never push: this runs
+      // at boot and inside popstate.
+      if (aliased) history.replaceState({ roadId: id }, '', `/road/${id}/`)
+      applyMeta(summary)
+    } else navigateToRoad(summary)
 
     try {
       const [detail, shape] = await Promise.all([loadDetail(id), loadShape(id)])
@@ -332,18 +358,24 @@ async function boot(): Promise<void> {
       closePanel()
       btn.setAttribute('aria-pressed', 'false')
     } else {
-      // going back to the list means dropping the open road, not the city the
-      // user narrowed to — deselect clears both, so put the area back
+      // going back to the list means dropping the open road or company, not
+      // the city the user narrowed to — deselect clears both, so put the area
+      // back. A company counts too: its URL, title and lit-up roads would
+      // otherwise outlive the profile the list just replaced.
       const area = currentArea
-      if (state.selectedId) deselect()
+      if (state.selectedId || selectedOrgId) deselect()
       if (area) applyArea(area)
       openBrowse(area ? { area: areaFilter(area) } : {})
       btn.setAttribute('aria-pressed', 'true')
     }
   })
 
-  initLocate((id, opts) => void select(id, opts))
-  initReports()
+  initLocate((id, opts) => void select(id, opts), loadDetailTier)
+  // report mode is a tap on the map and its pins sit on the map, so it waits
+  // for one — and stays off in a browser that could not start it
+  void mapReady.then((ok) => {
+    if (ok) initReports()
+  })
 
   document.getElementById('btn-theme')?.addEventListener('click', () => toggleTheme())
 

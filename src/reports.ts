@@ -237,6 +237,9 @@ function showPopup(r: ReportItem): void {
 
 // ── panel section ──────────────────────────────────────────────────
 
+/** Re-reading right after a write is safe: for the edge cache's lifetime the
+ *  writer's reads skip it (storage.ts), so this shows the change just made
+ *  rather than the list from before it — no removed pin coming back. */
 function refreshPanelSlot(roadId: string): void {
   const slot = document.getElementById('reports-slot')
   if (slot && state.selectedId === roadId) {

@@ -151,7 +151,26 @@ export function tollHtml(d: RoadDetail): string {
     return `<div class="rd-section"><h3>Toll</h3>
       <p class="toll-free"><b>Free to use.</b>${info.note ? ` ${esc(info.note)}` : ''}</p></div>`
   }
-  if (!plazas.length && !info?.endToEnd) return ''
+
+  const passes = info?.passes?.length
+    ? `<ul class="rd-list toll-passes">${info.passes.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>`
+    : ''
+  const source = info?.source
+    ? `<a href="${esc(info.source.url)}" target="_blank" rel="noopener noreferrer">${esc(info.source.title)}</a>`
+    : ''
+
+  if (!plazas.length && !info?.endToEnd) {
+    if (!info || (info.tolled !== true && !info.note && !passes)) return ''
+    // Tolled, but no plazas or rates on file: the note is the whole story
+    // ("suspended for repairs", "barrier-free FASTag"). Most notes already open
+    // with "Tolled", so it goes in alone, without the rate-card apology that is
+    // meant for named plazas.
+    return `<div class="rd-section"><h3>Toll</h3>
+      <p class="toll-note">${esc(info.note || 'This road is tolled.')}</p>
+      ${passes}
+      ${source ? `<p class="rating-note">${source}</p>` : ''}
+    </div>`
+  }
 
   const endToEnd = info?.endToEnd
     ? `<div class="toll-block"><h4>Whole road, one way</h4>${ratesTable(info.endToEnd)}</div>`
@@ -181,18 +200,13 @@ export function tollHtml(d: RoadDetail): string {
   const meta: string[] = []
   if (info?.asOf) meta.push(`Rates as they stood on ${asOfLabel(info.asOf)}`)
   meta.push('Indian toll rates are revised every year on 1 April')
-  const passes = info?.passes?.length
-    ? `<ul class="rd-list toll-passes">${info.passes.map((p) => `<li>${esc(p)}</li>`).join('')}</ul>`
-    : ''
-  const source = info?.source
-    ? ` · <a href="${esc(info.source.url)}" target="_blank" rel="noopener noreferrer">${esc(info.source.title)}</a>`
-    : ''
+  if (source) meta.push(source)
 
   return `<div class="rd-section"><h3>Toll charges</h3>
     ${endToEnd}${perPlaza}${plazaList}
     ${info?.note ? `<p class="toll-note">${esc(info.note)}</p>` : ''}
     ${passes}
-    ${endToEnd || perPlaza ? `<p class="rating-note">${meta.join(' · ')}${source}</p>` : ''}
+    ${endToEnd || perPlaza ? `<p class="rating-note">${meta.join(' · ')}</p>` : ''}
   </div>`
 }
 

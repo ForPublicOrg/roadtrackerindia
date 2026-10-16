@@ -17,6 +17,14 @@ const MY_RATING = 'rti-rating:'
 const MY_REPORTS = 'rti-reports'
 const MY_REVIEW = 'rti-review:'
 const MY_LIKES = 'rti-likes:'
+const RATED_AT = 'rti-rated-at:'
+const REPORTED_AT = 'rti-reported-at'
+
+/** How long a pre-write copy can still come back from the edge: s-maxage plus
+ *  stale-while-revalidate, as set in api/ratings.ts and api/reports.ts. Keep
+ *  these in step with those headers. */
+const RATINGS_CACHE_MS = (300 + 600) * 1000
+const REPORTS_CACHE_MS = (30 + 120) * 1000
 
 function local(key: string): string | null {
   try {
@@ -42,7 +50,11 @@ function deviceFingerprint(): string {
     const bits = [
       navigator.language,
       new Date().getTimezoneOffset(),
-      screen.width + 'x' + screen.height,
+      // Smaller side first, so rotating an Android phone (which swaps width and
+      // height) doesn't turn one person into two raters. A phone held upright
+      // already reports its smaller side first, so keys from portrait phones are
+      // unchanged by this; a landscape screen (most desktops) gets a new one once.
+      Math.min(screen.width, screen.height) + 'x' + Math.max(screen.width, screen.height),
       screen.colorDepth,
       navigator.hardwareConcurrency,
       // navigator.platform is deprecated but still the most stable coarse
@@ -95,9 +107,22 @@ async function parse<T>(res: Response): Promise<T> {
   return data
 }
 
+/** Writes go out one at a time. Each needs its own single-use Turnstile token,
+ *  and a new one is only minted once the previous write has reset the widget —
+ *  two writes in flight together would carry the same token, and the second
+ *  would be refused as a duplicate. Queuing also means quick successive taps
+ *  (4★ then 5★) reach the server in the order they were made. */
+let writes: Promise<unknown> = Promise.resolve()
+
+function send<T>(path: string, method: string, body: Record<string, unknown>): Promise<T> {
+  const p = writes.then(() => sendOne<T>(path, method, body))
+  writes = p.catch(() => {})
+  return p
+}
+
 /** Every write carries a Turnstile token and the fingerprint. The token is
  *  single-use, so it is reset after the round trip whatever the outcome. */
-async function send<T>(path: string, method: string, body: Record<string, unknown>): Promise<T> {
+async function sendOne<T>(path: string, method: string, body: Record<string, unknown>): Promise<T> {
   const turnstileToken = await getTurnstileToken()
   let res: Response
   try {
@@ -116,6 +141,33 @@ async function get<T>(path: string): Promise<T> {
   return parse<T>(await fetch(path))
 }
 
+/** The reads are edge-cached and nothing purges them on a write, so right after
+ *  your own write the same URL can answer with the copy from before it — your
+ *  review missing, your removed pin back. For as long as such a copy could
+ *  still be served, this browser's reads carry its write time, which the edge
+ *  treats as a different URL. Everyone else keeps the shared cache. Kept in
+ *  localStorage so a reload inside the window is covered too, and in memory so
+ *  it still holds where storage throws. The newer of the two wins, so a write
+ *  made in another tab counts here as well. */
+const wroteAt = new Map<string, number>()
+
+function afterWrite(path: string, key: string, windowMs: number): string {
+  const at = Math.max(wroteAt.get(key) ?? 0, Number(local(key)) || 0)
+  if (!at) return path
+  if (Date.now() - at > windowMs) {
+    wroteAt.delete(key)
+    setLocal(key, null)
+    return path
+  }
+  return `${path}&v=${at}`
+}
+
+function markWrite(key: string): void {
+  const now = Date.now()
+  wroteAt.set(key, now)
+  setLocal(key, String(now))
+}
+
 class ApiStore implements UserStore {
   async addReport(r: NewReport): Promise<ReportItem> {
     const { report } = await send<{ report: Omit<ReportItem, 'mine'> }>(
@@ -124,18 +176,24 @@ class ApiStore implements UserStore {
       r as unknown as Record<string, unknown>,
     )
     writeIds([...readIds(), report.id])
+    markWrite(REPORTED_AT)
     return { ...report, mine: true }
   }
 
   async removeReport(id: string): Promise<void> {
     await send<unknown>('/api/reports', 'DELETE', { id })
     writeIds(readIds().filter((x) => x !== id))
+    // Not per road: a removal only knows the report's id. Reports are rare
+    // enough that skipping the cache on every road for a couple of minutes
+    // costs next to nothing.
+    markWrite(REPORTED_AT)
   }
 
   async getReportsForRoad(roadId: string): Promise<ReportItem[]> {
     const mine = new Set(readIds())
+    const path = `/api/reports?roadId=${encodeURIComponent(roadId)}`
     const { reports } = await get<{ reports: Omit<ReportItem, 'mine'>[] }>(
-      `/api/reports?roadId=${encodeURIComponent(roadId)}`,
+      afterWrite(path, REPORTED_AT, REPORTS_CACHE_MS),
     )
     if (!Array.isArray(reports)) throw new Error('bad-response')
     return reports.map((r) => ({ ...r, mine: mine.has(r.id) }))
@@ -164,6 +222,7 @@ class ApiStore implements UserStore {
     } catch {
       /* private mode — the stars just won't be remembered next visit */
     }
+    markWrite(RATED_AT + roadId)
     return summary
   }
 
@@ -178,8 +237,9 @@ class ApiStore implements UserStore {
   }
 
   async getRatingSummary(roadId: string): Promise<RatingSummary | null> {
+    const path = `/api/ratings?roadId=${encodeURIComponent(roadId)}`
     const { summaries } = await get<{ summaries: RatingSummary[] }>(
-      `/api/ratings?roadId=${encodeURIComponent(roadId)}`,
+      afterWrite(path, RATED_AT + roadId, RATINGS_CACHE_MS),
     )
     // A well-formed reply always carries the array. Anything else is a failure
     // to read, never "this road has no ratings".
@@ -195,12 +255,14 @@ class ApiStore implements UserStore {
       { roadId, text },
     )
     setLocal(MY_REVIEW + roadId, reviewId)
+    markWrite(RATED_AT + roadId)
     return summary
   }
 
   async removeReview(roadId: string): Promise<RatingSummary> {
     const { summary } = await send<{ summary: RatingSummary }>('/api/reviews', 'DELETE', { roadId })
     setLocal(MY_REVIEW + roadId, null)
+    markWrite(RATED_AT + roadId)
     return summary
   }
 
@@ -210,6 +272,7 @@ class ApiStore implements UserStore {
     if (r.liked) likes.add(id)
     else likes.delete(id)
     setLocal(MY_LIKES + roadId, JSON.stringify([...likes]))
+    markWrite(RATED_AT + roadId)
     return r
   }
 
