@@ -67,7 +67,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   // Likes get a budget of their own, so a generous reader is never locked out
   // of writing — and a review spree never locks anyone out of liking.
   const scope = req.method === 'PUT' ? 'like' : 'review'
-  if (!(await checkRateLimit(ip, scope))) return res.status(429).json({ error: 'rate-limited' })
+  // An Upstash error rejects rather than failing open: fail closed, in JSON.
+  const allowed = await checkRateLimit(ip, scope).catch((err: unknown) => {
+    console.error('[reviews] rate limiter failed:', err)
+    return null
+  })
+  if (allowed === null) return res.status(503).json({ error: 'unavailable' })
+  if (!allowed) return res.status(429).json({ error: 'rate-limited' })
 
   const key = raterKey(ip, body.fingerprint ?? '')
   const dev = bot.dev ?? false

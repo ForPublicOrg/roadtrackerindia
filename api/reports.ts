@@ -62,7 +62,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     try {
       const reports = await listReports(db, roadId)
       // Shorter than the ratings cache: a new hazard should appear quickly, and
-      // a deleted one should stop being shown quickly.
+      // a deleted one should stop being shown quickly. Whoever made the change
+      // skips this cache for its lifetime (src/storage.ts) — keep them in step.
       res.setHeader('cache-control', 'public, max-age=0, s-maxage=30, stale-while-revalidate=120')
       return res.status(200).json({ ok: true, reports })
     } catch (err) {
@@ -77,7 +78,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   const body = (req.body ?? {}) as {
-    id?: string
+    id?: unknown
     roadId?: string
     type?: string
     lng?: number
@@ -91,11 +92,22 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const bot = await verifyTurnstile(body.turnstileToken ?? '', ip)
   if (!bot.ok) return res.status(403).json({ error: 'captcha', reason: bot.reason })
 
-  if (!(await checkRateLimit(ip, 'report'))) return res.status(429).json({ error: 'rate-limited' })
+  // An Upstash error (spent quota, rotated token, 5xx) rejects rather than
+  // failing open. Fail closed — the limit is what stops a delete script — but
+  // answer in JSON the client can read instead of crashing the function.
+  const allowed = await checkRateLimit(ip, 'report').catch((err: unknown) => {
+    console.error('[reports] rate limiter failed:', err)
+    return null
+  })
+  if (allowed === null) return res.status(503).json({ error: 'unavailable' })
+  if (!allowed) return res.status(429).json({ error: 'rate-limited' })
 
   if (req.method === 'DELETE') {
-    // Accept the id from the query too — some proxies drop DELETE bodies.
-    const id = (body.id ?? (typeof req.query.id === 'string' ? req.query.id : '')).trim()
+    // Accept the id from the query too — some proxies drop DELETE bodies. The
+    // body is unchecked JSON, so a non-string id is "invalid", not a crash.
+    const raw =
+      typeof body.id === 'string' ? body.id : typeof req.query.id === 'string' ? req.query.id : ''
+    const id = raw.trim()
     if (!id || id.length > 200) return res.status(400).json({ error: 'invalid' })
     try {
       const removed = await softDeleteReport(db, id)

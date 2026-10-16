@@ -44,9 +44,11 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       // Reviews ride along only on a single-road read (the panel); a list of
       // 100 roads wants scores, not prose.
       const summaries = await getSummaries(db, ids, Boolean(single))
-      // Cached at the edge: the panel fetches this on every road open, and a
-      // rating's own POST returns the fresh summary, so staleness is invisible
-      // to the person who just rated.
+      // Cached at the edge: the panel fetches this on every road open. A write
+      // returns the fresh summary, and for this cache's lifetime afterwards the
+      // writer's browser adds a cache-buster to its reads (src/storage.ts), so
+      // reopening the road or reloading still shows them their own review.
+      // Change these numbers there too.
       res.setHeader('cache-control', 'public, max-age=0, s-maxage=300, stale-while-revalidate=600')
       return res.status(200).json({ ok: true, summaries })
     } catch (err) {
@@ -83,7 +85,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const bot = await verifyTurnstile(turnstileToken, ip)
   if (!bot.ok) return res.status(403).json({ error: 'captcha', reason: bot.reason })
 
-  if (!(await checkRateLimit(ip, 'rate'))) return res.status(429).json({ error: 'rate-limited' })
+  // An Upstash error rejects rather than failing open: fail closed, in JSON.
+  const allowed = await checkRateLimit(ip, 'rate').catch((err: unknown) => {
+    console.error('[ratings] rate limiter failed:', err)
+    return null
+  })
+  if (allowed === null) return res.status(503).json({ error: 'unavailable' })
+  if (!allowed) return res.status(429).json({ error: 'rate-limited' })
 
   try {
     const { summary, updated } = await recordRating(db, roadId, raterKey(ip, fingerprint), stars)

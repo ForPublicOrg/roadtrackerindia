@@ -287,10 +287,17 @@ export async function renderCommunity(
   // read returned left them dead for as long as that took — seconds on a cold
   // start — so the first tap did nothing and only the second one rated.
 
+  // A quick 4★-then-5★ puts two writes in the queue. Only the newest tap's
+  // failure may undo the paint, and it goes back to what the server last
+  // accepted — not to whatever was on screen when that tap was made, which may
+  // itself have been an earlier tap that never saved.
+  let saved = mine
+  let latest = 0
+
   ratingEl.querySelectorAll<HTMLButtonElement>('[data-stars]').forEach((b) =>
     b.addEventListener('click', async () => {
       const stars = Number(b.dataset.stars)
-      const prev = mine
+      const click = ++latest
       mine = stars
       paint(stars)
       try {
@@ -298,6 +305,7 @@ export async function renderCommunity(
         // the write itself rather than a follow-up read that the edge cache
         // could answer with a pre-rating value.
         summary = await store.setRating(roadId, stars)
+        saved = stars
         wrote = true
         showRating()
         renderReviews() // your review, if any, now shows the new stars
@@ -307,10 +315,12 @@ export async function renderCommunity(
           action: ask ? { label: 'Add a review', cb: openComposer } : undefined,
         })
       } catch (e) {
+        // a newer tap is still on its way, and its outcome decides what shows
+        if (click !== latest) return
         // the optimistic paint above must not survive a failed write, or a
         // rejected rating looks saved until the next reload
-        mine = prev
-        paint(prev)
+        mine = saved
+        paint(saved)
         const code = errCode(e)
         console.warn('[ratings] save failed —', code)
         toast(failMessage(code, 'Rating'))
