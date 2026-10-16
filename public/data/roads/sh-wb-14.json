@@ -1,32 +1,34 @@
 {
   "id": "sh-wb-14",
   "ref": "SH 14",
-  "name": "Dubrajpur–Meherpur State Highway",
+  "name": "Dubrajpur–Betai State Highway",
   "category": "sh",
   "status": "operational",
   "lengthKm": 208.9,
   "authority": "west-bengal-pwd",
   "route": {
     "start": "Dubrajpur, West Bengal",
-    "end": "Meherpur, West Bengal",
+    "end": "Betai, Nadia district, West Bengal",
     "states": [
       "West Bengal"
     ],
     "majorCities": [
       "Dubrajpur",
+      "Illambazar",
       "Kanksa",
       "Guskara",
       "Katwa",
       "Palashi",
-      "Meherpur"
+      "Betai"
     ]
   },
   "relatedRoads": [
     { "id": "nh-12", "label": "Met near Palashi" },
-    { "id": "nh-312", "label": "Met near Tehatta" },
+    { "id": "nh-312", "label": "Met at Betai" },
     { "id": "nh-14", "label": "Met near Dubrajpur" },
-    { "id": "nh-116a", "label": "Meets this road" },
-    { "id": "nh-114", "label": "Met near Guskara" }
+    { "id": "nh-116a", "label": "Crossed between Guskara and Balgona" },
+    { "id": "nh-114", "label": "Met near Guskara" },
+    { "id": "nh-19", "label": "Shared from Panagarh to Budbud" }
   ],
   "sources": [
     {
@@ -43,10 +45,24 @@
       ]
     },
     {
+      "name": "Illambazar",
+      "coords": [
+        87.54047,
+        23.62351
+      ]
+    },
+    {
       "name": "Kanksa",
       "coords": [
         87.4623,
         23.45976
+      ]
+    },
+    {
+      "name": "Mankar",
+      "coords": [
+        87.55725,
+        23.42001
       ]
     },
     {
@@ -57,10 +73,24 @@
       ]
     },
     {
+      "name": "Balgona",
+      "coords": [
+        87.94904,
+        23.46121
+      ]
+    },
+    {
       "name": "Katwa",
       "coords": [
         88.12304,
         23.63909
+      ]
+    },
+    {
+      "name": "Debagram",
+      "coords": [
+        88.30512,
+        23.68236
       ]
     },
     {
@@ -71,7 +101,14 @@
       ]
     },
     {
-      "name": "Meherpur",
+      "name": "Palashipara",
+      "coords": [
+        88.45056,
+        23.79425
+      ]
+    },
+    {
+      "name": "Betai",
       "coords": [
         88.56073,
         23.80228

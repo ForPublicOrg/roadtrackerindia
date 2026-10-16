@@ -1,23 +1,25 @@
 {
   "id": "nh-127c",
   "ref": "NH 127C",
-  "name": "Gelephu–Kajalgaon National Highway",
+  "name": "Dadgiri–Samthaibari National Highway",
+  "aka": ["Samthaibari–Gelephu road"],
   "category": "nh",
   "status": "operational",
   "lengthKm": 39.2,
   "route": {
-    "start": "Gelephu, Assam",
-    "end": "Kajalgaon, Assam",
+    "start": "Dadgiri, Assam",
+    "end": "Samthaibari, Assam",
     "states": [
       "Assam"
     ],
     "majorCities": [
-      "Gelephu",
-      "Kajalgaon"
+      "Dadgiri",
+      "Deosiri",
+      "Samthaibari"
     ]
   },
   "relatedRoads": [
-    { "id": "nh-27", "label": "Met near Kajalgaon" }
+    { "id": "nh-27", "label": "Met near Samthaibari" }
   ],
   "sources": [
     {
@@ -31,14 +33,28 @@
   ],
   "waypoints": [
     {
-      "name": "Gelephu",
+      "name": "Dadgiri",
       "coords": [
         90.48375,
         26.85961
       ]
     },
     {
-      "name": "Kajalgaon",
+      "name": "Deosiri",
+      "coords": [
+        90.46481,
+        26.77316
+      ]
+    },
+    {
+      "name": "Rangalikhata",
+      "coords": [
+        90.38502,
+        26.63405
+      ]
+    },
+    {
+      "name": "Samthaibari",
       "coords": [
         90.37635,
         26.55154

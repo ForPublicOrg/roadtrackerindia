@@ -1,13 +1,13 @@
 {
   "id": "nh-327",
   "ref": "NH 327",
-  "name": "Police Colony–Bhadrapur National Highway",
+  "name": "Police Colony–Bagdogra National Highway",
   "category": "nh",
   "status": "operational",
   "lengthKm": 273.8,
   "route": {
     "start": "Police Colony, Bihar",
-    "end": "Bhadrapur, West Bengal",
+    "end": "Bagdogra, West Bengal",
     "states": [
       "Bihar",
       "West Bengal"
@@ -20,17 +20,22 @@
       "Araria",
       "Bahadurganj",
       "Thakurganj",
+      "Galgalia",
+      "Kharibari",
       "Panitanki",
-      "Bhadrapur"
+      "Bagdogra"
     ]
   },
   "relatedRoads": [
     { "id": "nh-327a", "label": "A branch off this highway, running Nirmali to Supaul" },
-    { "id": "nh-327c", "label": "A branch off this highway, running Bhadrapur to Bagdogra" },
-    { "id": "nh-327b", "label": "A branch off this highway, running Panitanki to Kakarbitta" },
+    { "id": "nh-327c", "label": "A branch off this highway, running Kharibari to Ghoshpukur" },
+    { "id": "nh-327b", "label": "A branch off this highway, running Panitanki to the Mechi bridge on the Nepal border" },
     { "id": "nh-27", "label": "Met near Bagdogra" },
     { "id": "nh-231", "label": "Met near Saharsa" },
     { "id": "nh-131", "label": "Met near Tribeniganj" }
+  ],
+  "futureUpgrades": [
+    "Four-laning of the 31 km Bagdogra–Panitanki–Kharibari–Galgalia section was approved in September 2026, at about ₹2,077 crore, with three major bridges, a road over bridge and five elephant underpasses."
   ],
   "sources": [
     {
@@ -107,6 +112,20 @@
       ]
     },
     {
+      "name": "Galgalia",
+      "coords": [
+        88.11838,
+        26.5264
+      ]
+    },
+    {
+      "name": "Kharibari",
+      "coords": [
+        88.17288,
+        26.55732
+      ]
+    },
+    {
       "name": "Panitanki",
       "coords": [
         88.17133,
@@ -118,13 +137,6 @@
       "coords": [
         88.32907,
         26.70112
-      ]
-    },
-    {
-      "name": "Bhadrapur",
-      "coords": [
-        88.10441,
-        26.54087
       ]
     }
   ],

@@ -1,25 +1,27 @@
 {
   "id": "sh-up-149e",
   "ref": "SH 149E",
-  "name": "Rupadiya–Tikapur State Highway",
+  "name": "Mihinpurwa–Katarniaghat State Highway",
   "category": "sh",
   "status": "operational",
   "lengthKm": 46.8,
   "authority": "uttar-pradesh-pwd",
   "route": {
-    "start": "Rupadiya, Uttar Pradesh",
-    "end": "Tikapur, Uttar Pradesh",
+    "start": "Kundwa (near Mihinpurwa), Uttar Pradesh",
+    "end": "Katarniaghat, Uttar Pradesh",
     "states": [
       "Uttar Pradesh"
     ],
     "majorCities": [
-      "Rupadiya",
-      "Tikapur"
+      "Mihinpurwa",
+      "Nishangara",
+      "Bichia",
+      "Katarniaghat"
     ]
   },
   "relatedRoads": [
-    { "id": "nh-730", "label": "Meets this road" },
-    { "id": "nh-730h", "label": "Meets this road" }
+    { "id": "nh-730", "label": "Met at Kundwa, near Mihinpurwa" },
+    { "id": "nh-730h", "label": "Mapped along the same road, Kundwa to Katarniaghat" }
   ],
   "sources": [
     {
@@ -29,14 +31,35 @@
   ],
   "waypoints": [
     {
-      "name": "Rupadiya",
+      "name": "Kundwa",
       "coords": [
         81.40564,
         28.01548
       ]
     },
     {
-      "name": "Tikapur",
+      "name": "Mihinpurwa",
+      "coords": [
+        81.38552,
+        28.02769
+      ]
+    },
+    {
+      "name": "Nishangara",
+      "coords": [
+        81.31193,
+        28.1127
+      ]
+    },
+    {
+      "name": "Bichia",
+      "coords": [
+        81.27086,
+        28.18232
+      ]
+    },
+    {
+      "name": "Katarniaghat",
       "coords": [
         81.12351,
         28.33605
