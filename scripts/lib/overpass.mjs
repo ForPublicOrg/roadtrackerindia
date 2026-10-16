@@ -50,7 +50,15 @@ export async function overpass(query, { timeout = 600, retries = 4 } = {}) {
       const text = await res.text()
       // Overpass sometimes returns a 200 with a truncated body on timeout
       if (!text.trimEnd().endsWith('}')) throw new Error('truncated response')
-      return JSON.parse(text)
+      const json = JSON.parse(text)
+      // ...and sometimes a 200 with a well-formed body that is empty or cut
+      // short, because the query timed out or ran out of memory partway. The
+      // only sign is a "runtime error" remark. Returned as data, it got cached
+      // as a road with no ways, or half its ways, and re-runs never refetched it.
+      if (typeof json.remark === 'string' && /runtime error/i.test(json.remark)) {
+        throw new Error(json.remark.trim())
+      }
+      return json
     } catch (e) {
       lastErr = e
       endpointIdx++

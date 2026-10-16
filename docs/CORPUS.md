@@ -73,7 +73,10 @@ quietly shortened NH 44 from 3,680 km to 2,630 km.)
 Interrupt it freely. Alignments are cached per road in `.cache/osm/routes/`, so
 a re-run picks up where it stopped. `--bulk` skips a road that is already
 cached, so the way to repair a suspect alignment is to delete its cache file
-and run again.
+and run again. A query that times out or runs out of memory on the server still
+comes back as HTTP 200, with an empty or partial answer and a `runtime error`
+remark. The client treats that as a failure, so nothing from it is cached and
+the next run fetches the road again.
 
 ### Gaps, bridges, and what `lengthKm` means
 
@@ -96,6 +99,11 @@ Counting bridges as road overstated 248 roads, one Kerala state highway by
   as its own road (`-2`, `-3`). Two Kerala relations both called "Temple Road"
   are two roads 31 km apart; welding them produced a 32.4 km "road" that was
   97% straight line across empty ground.
+
+Every gap counts, whichever pass of `stitch()` closes it, and a piece split off
+as its own road has its own bridges subtracted. An earlier version counted only
+gaps over 12 km, so a 10 km gap came out as 20 km of road and named roads were
+welded across gaps of up to 12 km.
 
 `lengthKm` is therefore the road we can actually see, not the ministry's
 published figure. For most national highways the two agree within 1–3%. Where
@@ -169,10 +177,15 @@ A plaza is attached to a road only when the NH number matches *and* the plaza's
 coordinates sit within 6 km of that road's alignment. The number alone is not
 enough: highways were renumbered in 2010 and TIS still carries old numbers in
 places, which would otherwise staple Delhi plazas onto a Tamil Nadu highway.
+The number is matched in full, so a plaza on NH 348BB goes to that spur and
+never to NH 348B, which it starts from. Distance is measured to the drawn line,
+not to its vertices, which can be tens of kilometres apart on a straight stretch.
 
 Hand-authored rates win. A road that already has `tollInfo.asOf` is left alone
 unless you pass `--force`, and a road marked `"tolled": false` is never
-silently contradicted — the script warns and moves on.
+silently contradicted — the script warns and moves on. A plaza already listed by
+hand keeps its name and note and only gains the TIS rates. One that TIS does not
+list stays in the file, without rates.
 
 ## Attribution
 

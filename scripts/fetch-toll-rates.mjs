@@ -118,32 +118,42 @@ const pick = (row, ...names) => {
   return undefined
 }
 
-/** "NH-44", "NH 44 (Old NH-7)", "44" → "44" */
+/** "NH-44", "NH 44 (Old NH-7)", "44" → "44" · "NH-348BB" → "348bb" */
 function nhNumber(row) {
   const raw = String(pick(row, 'NHNo', 'NH_No', 'NationalHighwayNumber', 'NH', 'HighwayNumber') ?? '')
-  const m = raw.match(/(\d+[A-Za-z]?)/)
-  return m ? m[1].toLowerCase() : null
+  // The whole suffix, not just its first letter: NH 348BB is a spur of NH 348B,
+  // not NH 348B, and it starts on its parent, so the distance check would not
+  // keep the spur's plaza off the parent road.
+  const m = raw.match(/(\d+)([A-Za-z]*)/)
+  return m && m[2].length <= 2 ? `${m[1]}${m[2]}`.toLowerCase() : null
 }
 
 // ── geometry ────────────────────────────────────────────────────────
 
-const R = 6371
-function haversineKm([lng1, lat1], [lng2, lat2]) {
-  const toRad = (d) => (d * Math.PI) / 180
-  const dLat = toRad(lat2 - lat1)
-  const dLng = toRad(lng2 - lng1)
-  const a =
-    Math.sin(dLat / 2) ** 2 + Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2
-  return 2 * R * Math.asin(Math.sqrt(a))
-}
-
-/** Closest approach of a point to a road's drawn alignment, in km. */
-function distanceToShape(point, coords) {
-  let best = Infinity
-  for (const c of coords) {
-    const d = haversineKm(point, c)
-    if (d < best) best = d
-    if (best < 0.4) break
+/**
+ * Closest approach of a point to a road's drawn alignment, in km. Measured to
+ * the segments, not the vertices: a simplified shape can have vertices tens of
+ * km apart on a straight stretch, and a plaza in the middle of one sits on the
+ * road while being far from every vertex.
+ */
+function distanceToShape([lng, lat], coords) {
+  if (!coords.length) return Infinity
+  // a flat frame centred on the point is accurate to metres within 6 km
+  const kx = 111.32 * Math.cos((lat * Math.PI) / 180)
+  const ky = 110.574
+  const at = ([x, y]) => [(x - lng) * kx, (y - lat) * ky]
+  let [ax, ay] = at(coords[0])
+  let best = Math.hypot(ax, ay)
+  for (let i = 1; i < coords.length && best >= 0.4; i++) {
+    const [bx, by] = at(coords[i])
+    const dx = bx - ax
+    const dy = by - ay
+    const dd = dx * dx + dy * dy
+    // where along this segment the point projects, clamped to its ends
+    const t = dd ? Math.max(0, Math.min(1, -(ax * dx + ay * dy) / dd)) : 0
+    best = Math.min(best, Math.hypot(ax + t * dx, ay + t * dy))
+    ax = bx
+    ay = by
   }
   return best
 }
@@ -191,12 +201,39 @@ const renderRates = (rates) =>
     .map(([k, v]) => `"${k}": ${v}`)
     .join(', ')} }`
 
+const renderPlaza = (p) =>
+  `    { "name": ${JSON.stringify(p.name)}` +
+  (p.note ? `, "note": ${JSON.stringify(p.note)}` : '') +
+  (p.rates ? `, "rates": ${renderRates(p.rates)}` : '') +
+  ' }'
+
 const renderTolls = (plazas) => (comma) =>
-  `  "tolls": [\n` +
-  plazas
-    .map((p) => `    { "name": ${JSON.stringify(p.name)}, "rates": ${renderRates(p.rates)} }`)
-    .join(',\n') +
-  `\n  ]${comma ? ',' : ''}`
+  `  "tolls": [\n` + plazas.map(renderPlaza).join(',\n') + `\n  ]${comma ? ',' : ''}`
+
+/** "Kherki Daula toll plaza" (by hand) and "KHERKI DAULA" (TIS) are one plaza. */
+const plazaKey = (name) => norm(name).replace(/(toll)?plaza/g, '')
+
+/**
+ * A plaza someone already listed by hand keeps its name and note and takes
+ * TIS's rates. The note — "famous for long queues at peak hours" — is why it
+ * was written up, and TIS has nothing to replace it. A listed plaza TIS does
+ * not know is kept too, without rates, which would be misdated under TIS's date.
+ */
+function mergeTolls(authored, fromTis) {
+  const rest = [...fromTis]
+  const rates = new Map() // authored index → TIS rates
+  const take = (same) =>
+    authored.forEach((mine, j) => {
+      if (rates.has(j)) return
+      const i = rest.findIndex((p) => same(plazaKey(p.name), plazaKey(mine.name)))
+      if (i > -1) rates.set(j, rest.splice(i, 1)[0].rates)
+    })
+  take((a, b) => a === b)
+  // then "Kherki Daula TP" or "Kherki Daula (NH-48)": a near miss would
+  // otherwise list the one plaza twice, once by hand and once from TIS
+  take((a, b) => Math.min(a.length, b.length) >= 5 && (a.includes(b) || b.includes(a)))
+  return [...authored.map((mine, j) => ({ name: mine.name, note: mine.note, rates: rates.get(j) })), ...rest]
+}
 
 const renderTollInfo = (asOf) => (comma) =>
   `  "tollInfo": {\n` +
@@ -229,7 +266,7 @@ const roads = readdirSync(ROADS_DIR)
 /** "44" → the nh-44 road file, when we have one */
 const byNh = new Map()
 for (const entry of roads) {
-  const m = entry.road.id.match(/^nh-(\d+[a-z]?)$/)
+  const m = entry.road.id.match(/^nh-(\d+[a-z]{0,2})$/)
   if (m) byNh.set(m[1], entry)
 }
 
@@ -269,7 +306,7 @@ for (const row of rows) {
     if (!Number.isNaN(d.getTime())) effective = d.toISOString().slice(0, 10)
   }
   if (!matched.has(entry.road.id)) matched.set(entry.road.id, [])
-  matched.get(entry.road.id).push({ name, note: undefined, rates })
+  matched.get(entry.road.id).push({ name, rates })
 }
 
 const asOf = effective ?? new Date().toISOString().slice(0, 10)
@@ -290,7 +327,8 @@ for (const [id, plazas] of matched) {
   }
   const path = join(ROADS_DIR, entry.file)
   let text = readFileSync(path, 'utf8')
-  const withTolls = spliceKey(text, 'tolls', renderTolls(plazas))
+  const tolls = mergeTolls(Array.isArray(road.tolls) ? road.tolls : [], plazas)
+  const withTolls = spliceKey(text, 'tolls', renderTolls(tolls))
   const withInfo = withTolls && spliceKey(withTolls, 'tollInfo', renderTollInfo(asOf))
   if (!withInfo) {
     console.warn(`  ! ${id}: no safe place to write toll rates — left alone`)
