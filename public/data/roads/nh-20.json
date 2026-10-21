@@ -1,17 +1,17 @@
 {
   "id": "nh-20",
   "ref": "NH 20",
-  "name": "Bakhtiyarpur–Panikoili Highway",
-  "aka": ["Formed from parts of the former NH 31, NH 33 and NH 215"],
+  "name": "Bakhtiyarpur–Satabhaya Highway",
+  "aka": ["Formed from parts of the former NH 23, NH 31, NH 33, NH 75 and NH 215"],
   "category": "nh",
   "status": "operational",
-  "lengthKm": 729,
+  "lengthKm": 810,
   "lanes": "Four lanes between Barhi, Hazaribagh, Ramgarh and Ranchi; two lanes on several other stretches",
   "agency": "NHAI",
   "authority": "nhai",
   "route": {
     "start": "Bakhtiyarpur, Bihar",
-    "end": "Panikoili, Odisha",
+    "end": "Satabhaya, Odisha",
     "states": ["Bihar", "Jharkhand", "Odisha"],
     "majorCities": [
       "Bakhtiyarpur",
@@ -19,22 +19,26 @@
       "Nawada",
       "Hazaribagh",
       "Ranchi",
+      "Khunti",
       "Chaibasa",
       "Kendujhar",
-      "Panikoili"
+      "Jajpur",
+      "Chandbali",
+      "Satabhaya"
     ]
   },
   "timeline": [
-    { "year": "2010", "event": "Given the number NH 20 in the national highway renumbering, joining parts of the old NH 31, NH 33 and NH 215" },
-    { "year": "2012", "event": "The four-lane Hazaribagh–Ramgarh–Ranchi section, often called the Ranchi–Hazaribagh Expressway, is completed" }
+    { "year": "2010", "event": "Given the number NH 20 in the national highway renumbering, joining parts of the old NH 23, NH 31, NH 33, NH 75 and NH 215, and ending at Panikoili on NH 16" },
+    { "year": "2012", "event": "The four-lane Hazaribagh–Ramgarh–Ranchi section, often called the Ranchi–Hazaribagh Expressway, is completed" },
+    { "year": "2015", "event": "Extended from Panikoili east through Jajpur, Chandbali and Rajkanika to Satabhaya on the Odisha coast" }
   ],
-  "history": "NH 20 runs from Bakhtiyarpur on the Ganga in Bihar down to Panikoili in Odisha, crossing the hills and forests of the Chota Nagpur plateau on the way. It was created in the 2010 renumbering of national highways by joining older roads, including parts of the old NH 31, NH 33 and NH 215. South of Nawada the road leaves the flat Ganga plains and climbs the Rajauli ghat onto the plateau, entering mining country around Koderma and Hazaribagh. The busiest and best-built part is the four-lane stretch from Barhi through Hazaribagh and Ramgarh to Ranchi, finished in 2012 with a bypass at Hazaribagh town. Beyond Ranchi the highway threads through Chandil, Chaibasa and the iron-ore hills of Kendujhar before ending on NH 16, the Kolkata–Chennai coastal highway.",
+  "history": "NH 20 runs from Bakhtiyarpur on the Ganga in Bihar to Satabhaya on the Odisha coast, crossing the hills and forests of the Chota Nagpur plateau on the way. It was created in the 2010 renumbering of national highways by joining older roads, including parts of the old NH 31, NH 33 and NH 215, and ended at Panikoili until a 2015 notification carried it on to the coast. South of Nawada the road leaves the flat Ganga plains and climbs the Rajauli ghat onto the plateau, entering mining country around Koderma and Hazaribagh. The busiest and best-built part is the four-lane stretch from Barhi through Hazaribagh and Ramgarh to Ranchi, finished in 2012 with a bypass at Hazaribagh town. Beyond Ranchi the highway runs south through Khunti and Chakradharpur to Chaibasa, then through the iron-ore hills of Kendujhar to Panikoili on NH 16, the Kolkata–Chennai coastal highway. From there it heads east past Jajpur and Chandbali to end at Satabhaya, in Kendrapara district.",
   "facts": [
-    "About 729 km long, crossing Bihar, Jharkhand and Odisha.",
+    "About 810 km long, crossing Bihar, Jharkhand and Odisha.",
     "Meets the historic Grand Trunk Road corridor at Barhi in Jharkhand.",
     "Ranchi, the capital of Jharkhand, is the biggest city on the route.",
     "Passes the famous Maa Tarini temple at Ghatagaon in Odisha.",
-    "Ends at Panikoili on NH 16, the Kolkata–Chennai coastal highway.",
+    "Meets NH 16, the Kolkata–Chennai coastal highway, at Panikoili, then carries on east to end at Satabhaya on the Odisha coast.",
     "The Barhi–Hazaribagh–Ramgarh–Ranchi stretch is a four-lane road widely known as the Ranchi–Hazaribagh Expressway.",
     "It runs through two famous mineral belts — the mica mines around Koderma and the iron-ore hills of Kendujhar.",
     "The Rajauli ghat, south of Nawada, is where the road climbs off the Ganga plains onto the Chota Nagpur plateau."
@@ -47,12 +51,12 @@
   "interchanges": [
     { "name": "Barhi", "note": "junction with NH 19, the Grand Trunk Road between Delhi and Kolkata" },
     { "name": "Ranchi", "note": "Jharkhand's capital and the biggest city on the route; the four-lane road from Hazaribagh ends here" },
-    { "name": "Chandil", "note": "junction where the road toward Jamshedpur branches off" },
-    { "name": "Panikoili", "note": "southern end, on NH 16 — the Kolkata–Chennai coastal highway" }
+    { "name": "Chaibasa", "note": "junction with NH 43, which ends here" },
+    { "name": "Panikoili", "note": "meets NH 16, the Kolkata–Chennai coastal highway, and runs with it for a short way" }
   ],
   "relatedRoads": [
     { "id": "nh-19", "label": "The Grand Trunk Road, crossed at Barhi in Jharkhand" },
-    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway, where NH 20 ends at Panikoili" },
+    { "id": "nh-16", "label": "The Kolkata–Chennai coastal highway, met at Panikoili in Odisha" },
     {
       "id": "nh-22",
       "label": "The other main Bihar-to-Jharkhand highway, running down the western side through Patna and Gaya"
@@ -61,14 +65,16 @@
     { "id": "nh-43", "label": "Met near Kumbatoli" },
     { "id": "nh-31", "label": "Met near Bakhtiyarpur" }
   ],
-  "travelNotes": "End to end is a long 14–16 hour drive, so most people break the journey at Ranchi, which sits roughly halfway. The plateau stretches through Koderma, Chandil and Kendujhar are hilly, forested and thinly settled, and local drivers prefer to cover them in daylight. Truck traffic from the mines is heaviest between Kendujhar and Panikoili. The monsoon, from June to September, brings mist and slippery ghat bends; October to February is the pleasant season.",
+  "travelNotes": "End to end is a long 14–16 hour drive, so most people break the journey at Ranchi. The plateau stretches through Koderma, Khunti and Kendujhar are hilly, forested and thinly settled, and local drivers prefer to cover them in daylight. Truck traffic from the mines is heaviest between Kendujhar and Panikoili. The monsoon, from June to September, brings mist and slippery ghat bends; October to February is the pleasant season.",
   "futureUpgrades": [
     "The Bakhtiyarpur–Rajauli stretch in Bihar is being four-laned by NHAI in several packages.",
     "The Kendujhar–Panikoili stretch in Odisha is also being four-laned."
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "MoRTH notification S.O. 689(E), 4 April 2011 — list of national highways", "url": "https://morth.gov.in/backend/old_files/comprehensive_compendium_circular/112.11-04.04.2011-689-NH%20NEW%20LIST.pdf" },
+    { "title": "MoRTH notification S.O. 2526(E), 17 September 2015 — NH 20 extended to Satabhaya", "url": "https://morth.gov.in/backend/old_files/comprehensive_compendium_circular/112.81-17.09.2015-2526.pdf" },
+    { "title": "MoRTH notifications S.O. 56(E)–60(E), 5 January 2026 — NH 20's Kuakhia–Satabhaya section in Odisha", "url": "https://morth.gov.in/backend/documents/uploaded/Notification%2056%20to%2060%20dated%205th%20Jan_2026.pdf" }
   ],
   "waypoints": [
     { "name": "Bakhtiyarpur", "coords": [85.530, 25.462] },
@@ -80,14 +86,19 @@
     { "name": "Hazaribagh", "coords": [85.361, 23.996] },
     { "name": "Ramgarh", "coords": [85.514, 23.630] },
     { "name": "Ranchi", "coords": [85.330, 23.360] },
-    { "name": "Bundu", "coords": [85.590, 23.161] },
-    { "name": "Chandil", "coords": [86.030, 22.958] },
-    { "name": "Saraikela", "coords": [85.932, 22.700] },
+    { "name": "Khunti", "coords": [85.280, 23.077] },
+    { "name": "Murhu", "coords": [85.283, 22.971] },
+    { "name": "Chakradharpur", "coords": [85.629, 22.676] },
     { "name": "Chaibasa", "coords": [85.803, 22.554] },
-    { "name": "Jagannathpur", "coords": [85.640, 22.220] },
+    { "name": "Jaintgarh", "coords": [85.673, 22.072] },
     { "name": "Champua", "coords": [85.664, 22.066] },
     { "name": "Kendujhar", "coords": [85.582, 21.629] },
     { "name": "Ghatagaon", "coords": [85.895, 21.393] },
-    { "name": "Panikoili", "coords": [86.235, 20.920] }
+    { "name": "Panikoili", "coords": [86.235, 20.920] },
+    { "name": "Jajpur", "coords": [86.339, 20.852] },
+    { "name": "Aradi", "coords": [86.655, 20.812] },
+    { "name": "Chandbali", "coords": [86.738, 20.773] },
+    { "name": "Rajkanika", "coords": [86.696, 20.734] },
+    { "name": "Satabhaya", "coords": [86.933, 20.633] }
   ]
 }

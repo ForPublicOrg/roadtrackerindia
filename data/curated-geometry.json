@@ -54,5 +54,13 @@
   "nh-54": {
     "why": "Corpus line extended from Hanumangarh to the Kenchiya terminus along NH54-tagged ways, and taken round the mapped Mandi Dabwali bypass instead of a 2.9 km straight jump across the town. The record gains the Kenchiya waypoint its route.end already named.",
     "date": "2026-10-21"
+  },
+  "delhi-mumbai-expressway": {
+    "why": "One carriageway of relation 12356328 (NE 4) from its Sohna start to Virar, plus 12 NE4-tagged ways the relation lacks (Oct 2026), which fill a 3 km hole near 27.32 N 76.78 E and a 1.5 km one at the Vadodara junction. Replaces the out-and-back legacy line in public/data/geometry. Virar to JNPT is not mapped yet.",
+    "date": "2026-10-21"
+  },
+  "nh-20": {
+    "why": "Relations 5775922, 5775946 and 5775956 routed as one line from the NH 31 junction at Bakhtiyarpur to Chandbali, where OSM's NH 20 ends (Oct 2026), with one 265 m join west of Chandbali. The rest of the road to Satabhaya (S.O. 2526(E), 2015) is not mapped, and OSM runs Panikoili-Jajpur on the old SH 56 road rather than through Kuakhia.",
+    "date": "2026-10-21"
   }
 }
