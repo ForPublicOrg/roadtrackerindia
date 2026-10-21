@@ -36,6 +36,16 @@
   --star-off: #9c9180;
   --star-on: #b7791f;
 
+  /* how a stretch of road rates, bad → good, with grey for "not rated yet".
+     The map paints stretches in the same six (MAP_COLORS in theme.ts), so a
+     colour on the bar in the panel is the colour of that part of the road. */
+  --score-0: #adb5bd;
+  --score-1: #c92a2a;
+  --score-2: #e8590c;
+  --score-3: #f08c00;
+  --score-4: #74b816;
+  --score-5: #2b8a3e;
+
   /* the tiranga, for the "India" in the wordmark — the flag's own three
      colours on both themes. On this paper the white band has nothing to show
      against, so the light theme outlines the glyphs (see .brand-name em) and
@@ -88,6 +98,13 @@
   --water: #74c0fc;
   --star-off: #55617a;
   --star-on: #f0b429;
+
+  --score-0: #5c677d;
+  --score-1: #ff6b6b;
+  --score-2: #ff922b;
+  --score-3: #fcc419;
+  --score-4: #a9e34b;
+  --score-5: #69db7c;
 
   --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.5);
   --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.5), 0 18px 50px rgba(0, 0, 0, 0.6);
@@ -552,14 +569,85 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
   color: var(--ink-2); font-size: 13.5px;
 }
 
-/* stars */
+/* stars — the one row of them that takes a tap, in the rating card */
 .stars { display: inline-flex; gap: 2px; }
 .stars button { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 8px; color: var(--star-off); transition: transform 0.15s var(--ease-spring), color 0.12s ease; }
 .stars button:hover { transform: scale(1.18); }
 .stars button.is-on { color: var(--star-on); }
 .stars svg { width: 25px; height: 25px; }
-.rating-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
 .rating-note { font-size: 12.5px; color: var(--ink-2); }
+/* on a phone every target is a thumb target */
+@media (max-width: 768px) { .stars button { width: 44px; height: 44px; } }
+
+/* the headline: one big number, its stars, and how many people said so */
+.rating-head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; min-height: 34px; }
+.rh-mean { font: 650 34px/1 var(--font-display); letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.rh-stars { position: relative; display: inline-block; color: var(--star-off); font-size: 17px; line-height: 1; letter-spacing: 1px; white-space: nowrap; }
+.rh-stars > span { position: absolute; top: 0; left: 0; bottom: 0; overflow: hidden; color: var(--star-on); }
+.rh-meta { font-size: 13px; color: var(--ink-2); }
+.rh-empty { margin: 0; font-size: 14px; color: var(--ink-2); }
+
+/* Score colours: the class says which score, each part paints with --sc. */
+.s0 { --sc: var(--score-0); }
+.s1 { --sc: var(--score-1); }
+.s2 { --sc: var(--score-2); }
+.s3 { --sc: var(--score-3); }
+.s4 { --sc: var(--score-4); }
+.s5 { --sc: var(--score-5); }
+
+/* The stretch bar: the road laid flat, start to end, each stretch as long as
+   it is in km and coloured by how it rates. The bar itself is thin; the strip
+   around it is a 44px target, because it is tapped, not read. */
+.sb {
+  display: flex; align-items: center; gap: 2px; height: 44px; margin-top: 8px;
+  cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+}
+.sb-seg {
+  flex: 1 1 0; min-width: 0; height: 12px; background: var(--sc, var(--score-0));
+  transition: height 0.22s var(--ease-spring), opacity 0.2s ease;
+}
+.sb-seg:first-child { border-radius: 6px 0 0 6px; }
+.sb-seg:last-child { border-radius: 0 6px 6px 0; }
+.sb:hover .sb-seg { height: 14px; }
+.sb.has-sel .sb-seg { opacity: 0.3; }
+.sb.has-sel .sb-seg.is-sel { opacity: 1; height: 22px; }
+.sb-ends { display: flex; justify-content: space-between; gap: 12px; margin-top: -4px; font-size: 12.5px; font-weight: 600; }
+.sb-ends span:last-child { text-align: right; }
+.sb-legend { display: flex; flex-wrap: wrap; gap: 2px 12px; margin: 6px 0 0; font-size: 12px; color: var(--ink-2); }
+.sb-legend i, .sb-dot {
+  display: inline-block; flex: none; width: 10px; height: 10px; border-radius: 3px;
+  background: var(--sc, var(--score-0)); margin-right: 5px; vertical-align: -1px;
+}
+
+/* every stretch as a button — the way in for a keyboard or a screen reader */
+details.sb-list { margin-top: 4px; }
+details.sb-list > summary {
+  list-style: none; cursor: pointer; width: fit-content;
+  display: flex; align-items: center; gap: 8px; min-height: 44px;
+  font-weight: 650; font-size: 13.5px; color: var(--accent);
+}
+details.sb-list > summary::-webkit-details-marker { display: none; }
+details.sb-list > summary::after {
+  content: ''; width: 7px; height: 7px;
+  border-right: 2px solid currentColor; border-bottom: 2px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); transition: transform 0.25s var(--ease-out);
+}
+details.sb-list[open] > summary::after { transform: translateY(2px) rotate(-135deg); }
+.sb-rows { display: grid; gap: 4px; padding-bottom: 6px; }
+.sb-row {
+  width: 100%; min-height: 44px; text-align: left;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 2px 8px;
+  padding: 8px 10px; border-radius: var(--radius-s); border: 1px solid transparent;
+  font-size: 13.5px; transition: background 0.14s ease, border-color 0.14s ease;
+}
+.sb-row:hover { background: var(--surface-2); border-color: var(--line); }
+.sb-row[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
+}
+.sb-row .sb-dot { margin-right: 0; }
+.sb-name { flex: 1 1 auto; min-width: 0; font-weight: 600; }
+.sb-meta { color: var(--ink-2); font-size: 12.5px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* Turnstile renders in interaction-only mode, so this host is empty and
    zero-height almost always. When Cloudflare does want a challenge it must be
@@ -567,32 +655,99 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 #turnstile-host { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 60; }
 #turnstile-host:empty { display: none; }
 
-/* rating distribution — an average alone can't tell "consistently mediocre"
-   from "genuinely divisive", which is exactly what people want to know */
-.rating-breakdown { display: grid; gap: 3px; margin-top: 10px; max-width: 260px; }
-.rb-row { display: grid; grid-template-columns: 26px 1fr 22px; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); }
-.rb-star { text-align: right; font-variant-numeric: tabular-nums; }
-.rb-bar { height: 6px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
-.rb-bar > span { display: block; height: 100%; border-radius: 999px; background: var(--star-on); transition: width 0.3s var(--ease-spring); }
-.rb-count { text-align: right; font-variant-numeric: tabular-nums; }
+/* The rating card: the one place to rate the road and to write about it. Its
+   label says what the stars rate, which changes with the stretch picked; a
+   review being written opens inside it, under the same stars. */
+.rate {
+  margin-top: 16px; padding: 10px 12px 12px;
+  border: 1px solid var(--line); border-radius: var(--radius-s);
+}
+/* the stretch list's 44px summary already leaves room above */
+details.sb-list + .rate { margin-top: 8px; }
+.rating-label { margin: 0; font-size: 13.5px; font-weight: 650; line-height: 1.4; }
+.rate-row { display: flex; margin-top: 4px; }
+/* the stars' own padding, so the first one lines up with the label */
+.rate-row .stars { margin-left: -8px; }
+/* The write button, and beside it how the picked stretch rates so far: five
+   thumb-sized stars leave no room for that on a phone. */
+.rate-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 0 10px; }
+/* a flex row too, so the buttons sit exactly in their margins, with no line box around them */
+.rate-act { flex: 1 1 auto; min-width: 0; display: flex; flex-wrap: wrap; }
+.rate-act > .rv-form { flex: 1 1 100%; min-width: 0; }
+/* Small text buttons whose 36–44px targets reach into the card's padding
+   rather than adding rows of their own. */
+.rate-write {
+  display: inline-flex; align-items: center; gap: 7px;
+  min-height: 36px; margin: 4px 0 -6px -8px; padding: 0 8px; border-radius: 8px;
+  font: 650 13px var(--font-ui); color: var(--accent);
+}
+.rate-write + .rate-write { margin-left: 0; } /* side by side, never overlapping targets */
+.rate-write svg { flex: none; width: 15px; height: 15px; } /* a label that wraps never squeezes the pen */
+.rate-write:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.rate-del { color: var(--ink-2); }
+.rate-del:hover { color: var(--accent); }
+/* Its top margin is the button's top margin less its bottom one, so beside
+   the button the two centre on the same line, and on a line of its own it
+   stays clear of the button's target. */
+.rate-meta {
+  flex: 0 1 auto; min-width: 0; margin: 10px 0 0;
+  font-size: 12.5px; line-height: 1.4; color: var(--ink-2); font-variant-numeric: tabular-nums;
+}
+/* Still a live region while empty, so the first stretch picked is read out;
+   out of the flex flow, so it leaves no gap. */
+.rate-meta:empty { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.rate-meta > span { white-space: nowrap; } /* breaks fall between facts, at the dots */
+/* With the stretch list open, the pressed row just above already says the
+   stretch's km and score, and each fact is said once. */
+.rate.is-listed .rate-meta { display: none; }
+@media (max-width: 768px) {
+  .rate-write { min-height: 44px; margin-bottom: -10px; }
+  .rate-meta { margin-top: 14px; }
+}
 
-/* reviews — the three most liked, each clamped to four lines; one button for the
-   rest and the composer folded away, so the section reads at a glance */
+/* the review being written: where you drove, a few words, Post */
+.rv-form { margin-top: 8px; }
+.rv-pick { display: flex; flex-wrap: wrap; gap: 8px; }
+/* Each label sits above its select, so the select gets the whole column: a
+   "From" beside it left a 360px phone too little room for "Narsinghpur". */
+.rv-end { flex: 1 1 130px; min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; }
+.rv-end label { font-size: 12.5px; line-height: 1.3; font-weight: 600; color: var(--ink-2); }
+.rv-end select {
+  width: 100%; min-width: 0; height: 44px; padding: 0 6px;
+  border: 1px solid var(--line); border-radius: var(--radius-s);
+  background: var(--surface-2); color: var(--ink);
+  font: 550 16px var(--font-ui); /* 16px: iOS zooms into anything smaller */
+}
+[data-theme='dark'] .rv-end select { color-scheme: dark; } /* the open list, too */
+.rv-pick-sum { margin: 6px 0 0; font-size: 12.5px; line-height: 1.4; color: var(--ink-2); }
+.rv-input { margin-top: 8px; font-size: 16px; line-height: 1.45; } /* 16px: iOS zooms into anything smaller */
+.rv-form-foot { margin: 4px 0 0; text-align: right; font-variant-numeric: tabular-nums; }
+.rv-form .rp-actions { margin-top: 8px; }
+
+/* reviews — the three most liked, each clamped to four lines, and one small
+   button for the rest, so the list reads at a glance */
+#rating-slot + #reviews-slot { margin-top: 16px; }
+#reviews-slot:empty { display: none; }
 .rv-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .rv-item {
   background: var(--surface-2); border: 1px solid var(--line);
   border-radius: var(--radius-s); padding: 10px 12px 6px; font-size: 13.5px;
 }
 .rv-item.is-mine { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
-.rv-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
+.rv-head { display: flex; align-items: center; gap: 4px 8px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); }
 .rv-stars { color: var(--star-on); font-size: 13px; letter-spacing: 1px; }
 .rv-stars span { color: var(--star-off); }
+.rv-you {
+  padding: 0 7px; border-radius: 999px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  font: 700 11px/1.5 var(--font-ui); color: var(--accent);
+}
 .rv-text {
   margin: 6px 0 0; line-height: 1.5; white-space: pre-line; overflow-wrap: anywhere;
   display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; overflow: hidden;
 }
 .rv-item.is-open .rv-text { display: block; -webkit-line-clamp: none; }
-.rv-actions { display: flex; align-items: center; gap: 2px; margin: 4px 0 0 -8px; }
+.rv-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 2px; margin: 4px 0 0 -8px; }
+.rv-actions > .rating-note { margin-left: 8px; }
 .rv-btn {
   display: inline-flex; align-items: center; gap: 5px; min-height: 36px; padding: 0 8px;
   border-radius: 8px; font: 600 12.5px var(--font-ui); color: var(--ink-2);
@@ -600,21 +755,37 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 .rv-btn:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); color: var(--accent); }
 .rv-like svg { width: 16px; height: 16px; }
 .rv-like b { font-weight: 700; font-variant-numeric: tabular-nums; }
+.rv-like b::before { content: '·'; margin-right: 5px; font-weight: 400; } /* "Helpful · 6" */
 .rv-like[aria-pressed='true'] { color: var(--accent); }
 .rv-like[aria-pressed='true'] svg { fill: currentColor; }
 .rv-read { margin-left: auto; }
 .rv-read[hidden] { display: none; } /* the class's display would otherwise beat the attribute */
 .rv-own { display: flex; gap: 2px; }
-.rv-more {
-  width: 100%; min-height: 40px; margin-top: 8px; border-radius: var(--radius-s);
-  font: 600 13px var(--font-ui); color: var(--accent);
-  background: color-mix(in srgb, var(--accent) 8%, transparent);
+/* your stars with no words: one line, not a card — nothing in it to read */
+.rv-item.rv-rated {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 0 8px;
+  background: none; border: 0; border-radius: 0; padding: 0;
 }
-.rv-form { margin-top: 10px; }
-.rv-input { margin-top: 0; min-height: 96px; font-size: 16px; line-height: 1.45; } /* 16px: iOS zooms into anything smaller */
-.rv-form-foot { margin: 6px 0 0; text-align: right; font-variant-numeric: tabular-nums; }
+.rv-rated b { font-weight: 650; }
+.rv-rated .rv-own { margin-left: -8px; }
+.rv-more {
+  display: inline-flex; align-items: center; min-height: 36px; margin: 4px 0 0 -8px; padding: 0 8px;
+  border-radius: 8px; font: 650 13px var(--font-ui); color: var(--accent);
+}
+.rv-more:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.rv-empty { margin: 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
 /* on a phone every target is a thumb target */
-@media (max-width: 768px) { .rv-btn { min-height: 40px; } }
+@media (max-width: 768px) { .rv-btn, .rv-more { min-height: 44px; } }
+
+/* which part of the road a review is about */
+.rv-range {
+  display: inline-flex; align-items: center; max-width: 100%;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface);
+  font: 600 11.5px/1.4 var(--font-ui); color: var(--ink); overflow-wrap: anywhere;
+}
+.rv-filter { display: flex; align-items: center; flex-wrap: wrap; gap: 0 6px; margin: 0 0 8px; font-size: 13px; color: var(--ink-2); }
+.rv-filter button { min-height: 36px; padding: 0 4px; color: var(--accent); font-weight: 650; }
+@media (max-width: 768px) { .rv-filter button { min-height: 44px; } }
 
 /* reports in panel */
 .report-item {
@@ -895,6 +1066,10 @@ button.og-chip:active { transform: scale(0.97); }
 @keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(0.96); } }
 @keyframes toast-out { to { opacity: 0; transform: translateY(8px) scale(0.97); } }
 .toast button { color: inherit; font-weight: 750; text-decoration: underline; flex: none; }
+/* A toast's action is often the next step ("Add a few words", "Reviews"), so
+   on a phone it is a thumb target. The negative margins hand the extra height
+   and width back, so the toast is no bigger and the label doesn't move. */
+@media (max-width: 768px) { .toast button { min-height: 44px; margin: -12px -10px; padding: 0 10px; } }
 
 /* "Install the app" (src/install.ts). It sits just above the two floating
    buttons so it never covers them, full width on a phone. While a sheet is up

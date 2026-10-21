@@ -2,17 +2,20 @@
  * Road ratings. The browser never touches Firestore — this endpoint is the only
  * way in, which is what lets firestore.rules deny everything.
  *
- * GET  /api/ratings?roadId=nh-44          → one road's summary, reviews included
+ * GET  /api/ratings?roadId=nh-44          → one road's summary, reviews and stretch scores included
  * GET  /api/ratings?roadIds=nh-44,nh-48   → many (for lists and search results)
- * POST /api/ratings {roadId, stars, fingerprint, turnstileToken}
+ * POST /api/ratings {roadId, stars, fingerprint, turnstileToken}  → whole-road stars
  *
- * Writing a review or liking one is /api/reviews; reading them is here, because
- * they live inside the same document as the score.
+ * Rating a stretch, writing a review or liking one is /api/reviews; reading
+ * them is here, because they live inside the same document as the score. The
+ * POST stays for pages built before stretches: it saves a whole-road entry and
+ * leaves any review text as it was.
  */
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { getDb, isFirestoreConfigured } from './_lib/db.js'
 import { checkRateLimit, getClientIp, raterKey, verifyTurnstile } from './_lib/integrity.js'
-import { emptySummary, getSummaries, recordRating } from './_lib/ratings-store.js'
+import { ALL, RATINGS_PER_HOUR } from './_lib/ratings-math.js'
+import { emptySummary, getSummaries, saveEntry } from './_lib/ratings-store.js'
 
 /** Road ids are generated slugs (see scripts/fetch-osm-roads.mjs). Validating the
  *  shape keeps arbitrary strings out of document paths. */
@@ -85,8 +88,10 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const bot = await verifyTurnstile(turnstileToken, ip)
   if (!bot.ok) return res.status(403).json({ error: 'captcha', reason: bot.reason })
 
+  // The same 'rate' budget as star-only saves on /api/reviews — the same limit
+  // too, or the two would count in separate windows.
   // An Upstash error rejects rather than failing open: fail closed, in JSON.
-  const allowed = await checkRateLimit(ip, 'rate').catch((err: unknown) => {
+  const allowed = await checkRateLimit(ip, 'rate', RATINGS_PER_HOUR).catch((err: unknown) => {
     console.error('[ratings] rate limiter failed:', err)
     return null
   })
@@ -94,8 +99,13 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (!allowed) return res.status(429).json({ error: 'rate-limited' })
 
   try {
-    const { summary, updated } = await recordRating(db, roadId, raterKey(ip, fingerprint), stars)
-    return res.status(200).json({ ok: true, updated, dev: bot.dev ?? false, summary })
+    const r = await saveEntry(db, roadId, raterKey(ip, fingerprint), { range: ALL, stars })
+    // `all` never fills a road, so in practice only 'too-many' comes back here.
+    if (typeof r === 'string') return res.status(400).json({ error: r })
+    const { summary, updated, range, reviewId } = r
+    return res
+      .status(200)
+      .json({ ok: true, updated, dev: bot.dev ?? false, summary, range, stars: r.stars, reviewId })
   } catch (err) {
     console.error('[ratings] write failed:', err)
     return res.status(503).json({ error: 'unavailable', summary: emptySummary(roadId) })

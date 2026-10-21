@@ -8,6 +8,13 @@ export interface MapColors {
   labelText: string
   labelHalo: string
   background: string
+  /**
+   * A stretch's colour by its rounded score: [not rated yet, 1★ … 5★]. The
+   * panel's bar paints the same hex from the --score-0..5 tokens in
+   * styles.css, so the two have to change together (scripts/contracts.test.mjs
+   * fails when they don't).
+   */
+  scores: [string, string, string, string, string, string]
 }
 
 export const MAP_COLORS: Record<Theme, MapColors> = {
@@ -17,6 +24,7 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
     labelText: '#3d3830',
     labelHalo: 'rgba(255,255,255,0.92)',
     background: '#f4f1ea',
+    scores: ['#adb5bd', '#c92a2a', '#e8590c', '#f08c00', '#74b816', '#2b8a3e'],
   },
   dark: {
     categories: { expressway: '#8da2fb', nh: '#f4915a', sh: '#6ecb7c', district: '#d4a24c', local: '#93a0af' },
@@ -24,6 +32,7 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
     labelText: '#d8d2c6',
     labelHalo: 'rgba(16,19,26,0.9)',
     background: '#10131a',
+    scores: ['#5c677d', '#ff6b6b', '#ff922b', '#fcc419', '#a9e34b', '#69db7c'],
   },
 }
 

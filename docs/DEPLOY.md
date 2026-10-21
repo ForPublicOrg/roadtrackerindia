@@ -57,6 +57,8 @@ prerendered road or directory keeps its own title, description and JSON-LD.
    than read at runtime, so adding it later changes nothing until you redeploy.
 4. Project → Settings → Domains → add `roadtrackerindia.com`.
 
+Never Instant Rollback past the stretch-reviews release, or point a preview at the production database before it is live: read "The upgrade is one-way" under [How ratings are stored](FIREBASE.md#how-ratings-are-stored) first.
+
 `vercel.json` is read from the repo root and only sets `rewrites`, so it does
 not disturb build settings configured in the dashboard.
 

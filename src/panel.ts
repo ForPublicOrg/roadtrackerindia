@@ -1,4 +1,4 @@
-import type { RoadDetail, RoadSummary } from './types'
+import type { LngLat, RoadDetail, RoadSummary, ShapeFeature } from './types'
 import { esc, CATEGORY_LABEL, STATUS_LABEL, toast, relTime } from './ui'
 import { formatKm } from './geo'
 import { state } from './state'
@@ -116,6 +116,10 @@ function snapSheet(state: SheetState): void {
   const target = state === 'full' ? 0 : Math.max(0, h - PEEK_VISIBLE)
   sheetAnim?.cancel()
   sheetState = state
+  // read by ratings.ts, which this module imports and so shouldn't import
+  // back: a stretch tapped on the map while the sheet only peeks needs saying
+  // out loud, because the panel can't show it
+  panel().dataset.sheet = state
   content().style.overflowY = state === 'full' ? 'auto' : 'hidden'
   // collapsed: keep the browser from claiming vertical pans so the whole card drags
   content().style.touchAction = state === 'full' ? 'pan-y' : 'none'
@@ -286,7 +290,11 @@ function wireHead(): void {
   document.getElementById('rd-close')?.addEventListener('click', () => onCloseCb())
 }
 
-export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
+export function renderDetail(
+  d: RoadDetail,
+  summary: RoadSummary,
+  ctx: { shape?: ShapeFeature; at?: LngLat } = {},
+): void {
   const cityLine = d.route.majorCities.join(' · ')
   const kv: string[] = []
   if (d.lanes) kv.push(`<dt>Lanes</dt><dd>${esc(d.lanes)}</dd>`)
@@ -441,7 +449,15 @@ export function renderDetail(d: RoadDetail, summary: RoadSummary): void {
   // the road is the first thing after the headline numbers
   const ratingSlot = document.getElementById('rating-slot')!
   const reviewsSlot = document.getElementById('reviews-slot')!
-  void renderCommunity(ratingSlot, reviewsSlot, d.id, summary.ref)
+  // the shape carries the road's stops, which is what cuts it into stretches;
+  // `at` is where it was tapped or found, the stretch a new review starts on
+  void renderCommunity(ratingSlot, reviewsSlot, {
+    roadId: d.id,
+    roadRef: summary.ref,
+    lengthKm: d.lengthKm,
+    shape: ctx.shape,
+    at: ctx.at,
+  })
   const reportsSlot = document.getElementById('reports-slot')!
   // a road's problems are pins on the map as much as rows here, and a deep
   // link can open this panel before the map exists — so they wait for it

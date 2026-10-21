@@ -108,15 +108,18 @@ async function migrateRatings() {
     const ref = db.collection('road_rating_aggregates').doc(roadId)
     await db.runTransaction(async (tx) => {
       const cur = (await tx.get(ref)).data()
-      const counts = { ...(cur?.counts ?? {}) }
-      for (const [k, n] of Object.entries(agg.counts)) counts[k] = (counts[k] ?? 0) + n
-      tx.set(ref, {
-        road_id: roadId,
-        counts,
-        total: (cur?.total ?? 0) + agg.total,
-        sum: (cur?.sum ?? 0) + agg.sum,
-        updated_at: now,
-      })
+      const add = (into) => {
+        const counts = { ...(into?.counts ?? {}) }
+        for (const [k, n] of Object.entries(agg.counts)) counts[k] = (counts[k] ?? 0) + n
+        return { counts, total: (into?.total ?? 0) + agg.total, sum: (into?.sum ?? 0) + agg.sum }
+      }
+      // Everything else on the aggregate — its reviews, its per-stretch
+      // `ranges` — is kept as it is. These old votes were all whole-road, so an
+      // aggregate that already splits its votes by range gets them under `all`
+      // too (one without `ranges` is read that way anyway; see ratings-math.ts).
+      const next = { ...(cur ?? {}), road_id: roadId, ...add(cur), updated_at: now }
+      if (cur?.ranges) next.ranges = { ...cur.ranges, all: add(cur.ranges.all) }
+      tx.set(ref, next)
     })
   }
   // The old docs carry a uid in their document id — delete them, that is the point.

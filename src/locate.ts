@@ -1,10 +1,10 @@
-import type { NetworkFC } from './types'
+import type { LngLat, NetworkFC } from './types'
 import { state } from './state'
 import { nearestRoads } from './geo'
 import { flyToPoint, setUserMarker } from './map'
 import { toast } from './ui'
 
-let selectRoad: (id: string, opts?: { skipFly?: boolean }) => void = () => {}
+let selectRoad: (id: string, opts?: { skipFly?: boolean; at?: LngLat }) => void = () => {}
 let loadDetailTier: () => Promise<NetworkFC> = () => Promise.reject(new Error('not wired'))
 
 export function initLocate(select: typeof selectRoad, detail: typeof loadDetailTier): void {
@@ -58,7 +58,8 @@ function locate(): void {
       }
       if (best.distKm <= 2.5) {
         toast(`You're on or right next to ${best.ref} — ${best.name}`)
-        selectRoad(best.id, { skipFly: true })
+        // close enough that the stretch you're on is the one you'd review
+        selectRoad(best.id, { skipFly: true, at: here })
         flyToPoint(here, 12)
       } else if (best.distKm <= 25) {
         toast(`Nearest catalogued road: ${best.ref}, about ${Math.round(best.distKm)} km away`)

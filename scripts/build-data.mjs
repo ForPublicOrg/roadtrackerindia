@@ -10,7 +10,7 @@
  * Writes  public/data/index.json               (search/browse index)
  * Writes  public/data/network-lite.geojson     (simplified all-roads overview)
  * Writes  public/data/places.json              (where every city and state is)
- * Writes  public/data/shapes/<id>.json         (display geometry per road)
+ * Writes  public/data/shapes/<id>.json         (display geometry per road, with its stretch stops)
  * Writes  public/data/orgs.json                (organisation index with rollups)
  * Writes  public/data/org/<id>.json            (profile + every road it touched)
  *
@@ -20,6 +20,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, statSync } from 'node:fs'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { cumulativeKm, deriveStops, isRing, orient, projectPoint, rotateRing } from './lib/stretches.mjs'
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url))
 const DATA_DIR = join(ROOT, 'public', 'data')
@@ -193,6 +194,7 @@ function simplify(coords, tolKm) {
 }
 
 const round5 = (n) => Math.round(n * 1e5) / 1e5
+const round5pt = (c) => [round5(c[0]), round5(c[1])]
 const round4 = (n) => Math.round(n * 1e4) / 1e4
 const round3 = (n) => Math.round(n * 1e3) / 1e3
 
@@ -659,6 +661,15 @@ const liteFeatures = []
 const detailFeatures = []
 let realGeomCount = 0
 
+// Stretch stops, for the summary. A generated road is "provenance": "osm"
+// (docs/DATA.md); only the hand-written ones are named when they get none,
+// because a few thousand short district roads would bury them.
+const isHandWritten = (road) => !road.provenance
+let stretchRoads = 0
+let flippedShapes = 0
+const gatedByReason = new Map()
+const gatedHandWritten = []
+
 for (const road of roads) {
   let base = road.waypoints.map((w) => w.coords)
   let real = false
@@ -671,6 +682,14 @@ for (const road of roads) {
   if (geom.warning) allWarnings.push(`${road.id}: ${geom.warning}`)
 
   const closed = base.length > 4 && haversineKm(base[0], base[base.length - 1]) < 1
+  const ring = isRing(road, base)
+  // Stretches are numbered from route.start, and a line drawn the other way
+  // (half the hand-written ones were) would number them backwards. Turned here,
+  // before either simplification, so the overview and the shape agree.
+  const oriented = orient(base, road.waypoints, ring)
+  base = oriented.coords
+  if (oriented.flipped) flippedShapes++
+
   // Overview tolerance, scaled to the road: short urban roads need a tight one
   // or they collapse to chords, while a 3,000 km highway drawn at 1 m fidelity
   // would cost megabytes to say something the screen renders as a few pixels.
@@ -681,12 +700,38 @@ for (const road of roads) {
   const liteTol = isTrunk(road)
     ? road.lengthKm < 30 ? 0.05 : road.lengthKm < 120 ? 0.15 : road.lengthKm < 400 ? 0.35 : 0.7
     : Math.max(0.08, Math.min(0.3, road.lengthKm / 400))
-  const shape = real
-    ? simplify(base, 0.04)
-    : simplify(chaikin(base, 3, closed), 0.06)
-  const lite = real
-    ? simplify(base, liteTol)
-    : simplify(chaikin(base, 2, closed), liteTol)
+  const outline = () => ({
+    shape: (real ? simplify(base, 0.04) : simplify(chaikin(base, 3, closed), 0.06)).map(round5pt),
+    lite: real ? simplify(base, liteTol) : simplify(chaikin(base, 2, closed), liteTol),
+  })
+  let { shape, lite } = outline()
+  // stops are placed on the line exactly as it is written, so the km a review
+  // range resolves to in the browser is the km measured here. The full line
+  // goes along too: simplifying leaves a straight road as one long segment,
+  // and only the line it came from tells that apart from a hole in the OSM
+  // stitching. A line drawn from waypoints is all long segments, so it has
+  // nothing to tell.
+  const full = () => (real ? { raw: base } : {})
+  let stretches = deriveStops(road, shape, ring, full())
+  if (stretches.coords !== shape) {
+    // a loop comes back cut at its first stop: cut the full line there too and
+    // simplify again, or the overview and the shape would start in two places
+    base = rotateRing(base, projectPoint(stretches.coords[0], base, cumulativeKm(base)).km)
+    ;({ shape, lite } = outline())
+    stretches = deriveStops(road, shape, ring, full())
+    shape = stretches.coords.map(round5pt)
+  }
+  if (stretches.gate) {
+    const { reason, detail } = stretches.gate
+    gatedByReason.set(reason, (gatedByReason.get(reason) ?? 0) + 1)
+    if (isHandWritten(road)) {
+      gatedHandWritten.push(`${road.id} (${reason})`)
+      // a short road, or one with too few places named, is fine as it is —
+      // a line that misses its own road is something to fix
+      if (reason !== 'short' && reason !== 'stops')
+        allWarnings.push(`${road.id}: no stretches — ${detail}; its reviews stay whole-road`)
+    }
+  } else stretchRoads++
 
   // spread-based Math.min blows the stack on a 30,000-point alignment
   let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity
@@ -704,8 +749,16 @@ for (const road of roads) {
     join(SHAPES_DIR, `${road.id}.json`),
     JSON.stringify({
       type: 'Feature',
-      properties: { id: road.id, real },
-      geometry: { type: 'LineString', coordinates: shape.map((c) => [round5(c[0]), round5(c[1])]) },
+      properties: {
+        id: road.id,
+        real,
+        // the length of these coordinates — the browser scales stop km by its
+        // own measure over this, so the two never drift apart
+        km: Math.round(polyLenKm(shape) * 10) / 10,
+        ...(stretches.stops.length ? { stops: stretches.stops } : {}),
+        ...(stretches.marks.length ? { marks: stretches.marks } : {}),
+      },
+      geometry: { type: 'LineString', coordinates: shape },
     })
   )
 
@@ -1060,6 +1113,7 @@ writeFileSync(
 )
 
 const kb = (n) => `${Math.round(n / 1024).toLocaleString('en-IN')} KB`
+const num = (x) => x.toLocaleString('en-IN')
 const sizeOf = (f) => statSync(join(DATA_DIR, f)).size
 for (const w of allWarnings) console.warn(`  warn  ${w}`)
 console.log(
@@ -1069,5 +1123,8 @@ console.log(
     `(${detailFeatures.length} state & district roads)\n` +
     `  places.json ${kb(sizeOf('places.json'))} (${cityRows.length} cities, ${stateRows.length} states & UTs)\n` +
     `  orgs.json ${kb(sizeOf('orgs.json'))} (${orgRows.length} organisations, ` +
-    `${orgRows.filter((o) => o.stats.roadCount > 0).length} with roads on file)`
+    `${orgRows.filter((o) => o.stats.roadCount > 0).length} with roads on file)\n` +
+    `  stretches: ${num(stretchRoads)} roads, ${num(flippedShapes)} flipped, ${num(roads.length - stretchRoads)} gated out` +
+    ` (${[...gatedByReason].sort((a, b) => b[1] - a[1]).map(([r, c]) => `${r} ${num(c)}`).join(', ') || 'none'})` +
+    (gatedHandWritten.length ? `\n  whole-road reviews only (hand-written): ${gatedHandWritten.join(', ')}` : '')
 )

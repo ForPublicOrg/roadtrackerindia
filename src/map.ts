@@ -1,6 +1,7 @@
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import type { BBox, Category, LngLat, NetworkFC, ShapeFeature } from './types'
+import type { FeatureCollection, LineString } from 'geojson'
+import type { BBox, Category, LngLat, NetworkFC, ShapeFeature, StretchProps } from './types'
 import { getTheme, MAP_COLORS, onThemeChange, type Theme } from './theme'
 import { buildStyle, fallbackStyle } from './mapstyle'
 import { cancelDraw, drawRoute, easeOutCubic, prefersReducedMotion } from './animate'
@@ -25,6 +26,12 @@ const DETAIL_ZOOM = 7.2
  * than refusing them, can hold that request open for minutes.
  */
 const STYLE_WAIT_MS = 6000
+
+/** How long a road's stretch colours take to come in once its line is drawn. */
+const STRETCH_FADE_MS = 350
+
+/** The selected road's width — its stretches draw at exactly this, over it. */
+const SELECTED_WIDTH = ['interpolate', ['linear'], ['zoom'], 4, 3.4, 10, 6, 14, 9]
 
 /**
  * Undefined until initMap has built it — and for good in a browser that cannot
@@ -61,7 +68,30 @@ let focusAccent = false
 let hovered: { source: string; id: string } | null = null
 let usingFallbackStyle = false
 
-let roadClickCb: (id: string, lngLat: [number, number]) => void = () => {}
+/** A stretch on the map, tagged with the road it was drawn for. */
+type StretchFeatureProps = StretchProps & { road: string }
+
+/**
+ * The selected road's stretches, as the panel last scored them. Each carries
+ * the road's id because swapping a source's data is not instant: for a frame
+ * or two after a new road is chosen, the last road's lines can still answer a
+ * tap, and that tap must not pick a stretch of the new one.
+ */
+let stretchData: FeatureCollection<LineString, StretchFeatureProps> | null = null
+/** Whether anyone has rated any stretch of this road — the grey for the rest only means something then. */
+let stretchesRated = false
+/** The stretches picked in the panel, or null while none is. */
+let stretchPick: number[] | null = null
+/**
+ * Bumped by every new selection, and checked when a draw-on sweep reports that
+ * it has finished: the report may be about a road that has gone since.
+ */
+let selectionToken = 0
+/** The current road's line has finished drawing itself; the stretches wait for that. */
+let swept = false
+let hoveredStretch: number | null = null
+
+let roadClickCb: (id: string, lngLat: [number, number], stretch?: number) => void = () => {}
 let baseClickCb: (lngLat: [number, number]) => void = () => {}
 
 const tip = document.createElement('div')
@@ -246,6 +276,13 @@ function restoreSelection(): void {
     const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
     src?.setData(selectedShape as never)
     drawRoute(map, MAP_COLORS[getTheme()].categories[selectedCategory], 0)
+    // A sweep the style swap cut short never reports back, and this redraw is
+    // instant, so the stretches come straight back with it — onto a layer the
+    // swap rebuilt from scratch, which knows nothing of the old one's state.
+    swept = true
+    const stretches = map.getSource('stretches') as maplibregl.GeoJSONSource | undefined
+    stretches?.setData((stretchData ?? EMPTY_FC) as never)
+    applyStretches(false)
     applyDim()
   }
 }
@@ -267,6 +304,12 @@ function categoryColorExpr(theme: Theme): unknown {
 
 function hoverWidth(base: number, hovered: number): unknown {
   return ['case', ['boolean', ['feature-state', 'hover'], false], hovered, base]
+}
+
+/** A stretch's colour from its rounded score; `unrated` for one nobody has scored. */
+function stretchColorExpr(theme: Theme, unrated: string): unknown {
+  const s = MAP_COLORS[theme].scores
+  return ['match', ['get', 'score'], 1, s[1], 2, s[2], 3, s[3], 4, s[4], 5, s[5], unrated]
 }
 
 export function addAppLayers(): void {
@@ -438,8 +481,30 @@ export function addAppLayers(): void {
     source: 'selected',
     layout: { 'line-cap': 'round', 'line-join': 'round' },
     paint: {
-      'line-width': ['interpolate', ['linear'], ['zoom'], 4, 3.4, 10, 6, 14, 9],
+      'line-width': SELECTED_WIDTH as never,
     },
+  })
+
+  // The selected road's stretches, coloured by how people rate them, laid over
+  // the road at its own width. Flat ends, so neighbours meet at the stop they
+  // share instead of overlapping round caps. Hidden until applyStretches says.
+  map.addSource('stretches', { type: 'geojson', data: EMPTY_FC as never, promoteId: 'i' })
+  map.addLayer({
+    id: 'stretch-line',
+    type: 'line',
+    source: 'stretches',
+    layout: { 'line-cap': 'butt', 'line-join': 'round' },
+    paint: {
+      'line-color': stretchColorExpr(theme, colors.scores[0]) as never,
+      'line-width': SELECTED_WIDTH as never,
+      'line-opacity': 0,
+    },
+  })
+  map.addLayer({
+    id: 'stretch-hit',
+    type: 'line',
+    source: 'stretches',
+    paint: { 'line-color': '#000', 'line-opacity': 0.001, 'line-width': 14 },
   })
 
   applyDim()
@@ -504,6 +569,7 @@ function clearHover(): void {
     map.setFeatureState({ source: hovered.source, id: hovered.id }, { hover: false })
   }
   hovered = null
+  hoveredStretch = null
   tip.classList.remove('is-on')
   // report mode's crosshair is the only cue that a tap drops a pin — leaving
   // the map, or hovering a road, must not take it away
@@ -523,6 +589,27 @@ function tipLabel(ref: unknown, name: unknown): string {
   return !n || n === r ? r : `${r} — ${n}`
 }
 
+/**
+ * The selected road's stretch under a point, if there is one. Asked on its
+ * own, never alongside the network's hit layers: a query naming a layer that
+ * is missing — this one is, until the style has loaded — comes back empty for
+ * every layer in it.
+ */
+function stretchAt(point: maplibregl.PointLike): { i: number; tip: string } | null {
+  const road = selectedShape?.properties.id
+  if (!road || !stretchData?.features.length || !map.getLayer('stretch-hit')) return null
+  const f = map
+    .queryRenderedFeatures(point, { layers: ['stretch-hit'] })
+    .find((x) => x.properties.road === road)
+  return f ? { i: Number(f.properties.i), tip: String(f.properties.tip ?? '') } : null
+}
+
+function placeTip(point: maplibregl.Point): void {
+  const rect = map.getContainer().getBoundingClientRect()
+  tip.style.left = `${rect.left + point.x}px`
+  tip.style.top = `${rect.top + point.y}px`
+}
+
 function wireInteractions(): void {
   map.on('mouseout', clearHover)
   // a hybrid laptop reports (hover: hover) and still gets tapped
@@ -533,6 +620,25 @@ function wireInteractions(): void {
   map.on('moveend', maybeRequestDetail)
   map.on('mousemove', (e) => {
     if (!canHover.matches) return
+    // The open road's own stretches answer first, with their name and score.
+    // They never set the road's hover state — that would thicken the network
+    // line under them — but a road the pointer has just left still lets go.
+    const stretch = stretchAt(e.point)
+    if (stretch) {
+      if (hovered || (hoveredStretch !== null && hoveredStretch !== stretch.i)) clearHover()
+      if (!document.body.classList.contains('is-reporting')) {
+        // the text too: a new rating rewrites a stretch's line without moving it
+        if (hoveredStretch !== stretch.i || tip.textContent !== stretch.tip) {
+          hoveredStretch = stretch.i
+          tip.textContent = stretch.tip
+          tip.classList.add('is-on')
+        }
+        map.getCanvas().style.cursor = 'pointer'
+        placeTip(e.point)
+      }
+      return
+    }
+    if (hoveredStretch !== null) clearHover()
     const layers = hitLayers()
     if (!layers.length) return
     const top = map.queryRenderedFeatures(e.point, { layers })[0]
@@ -545,40 +651,139 @@ function wireInteractions(): void {
         tip.classList.add('is-on')
       }
       map.getCanvas().style.cursor = 'pointer'
-      const rect = map.getContainer().getBoundingClientRect()
-      tip.style.left = `${rect.left + e.point.x}px`
-      tip.style.top = `${rect.top + e.point.y}px`
+      placeTip(e.point)
     }
   })
 
   map.on('click', (e) => {
+    const at: [number, number] = [e.lngLat.lng, e.lngLat.lat]
+    // a tap on the open road is about the stretch under it, whatever crosses there
+    const stretch = stretchAt(e.point)
+    if (stretch && selectedShape) {
+      roadClickCb(selectedShape.properties.id, at, stretch.i)
+      return
+    }
     const layers = hitLayers()
     const feats = layers.length ? map.queryRenderedFeatures(e.point, { layers }) : []
-    if (feats[0]) roadClickCb(feats[0].properties.id as string, [e.lngLat.lng, e.lngLat.lat])
-    else baseClickCb([e.lngLat.lng, e.lngLat.lat])
+    if (feats[0]) roadClickCb(feats[0].properties.id as string, at)
+    else baseClickCb(at)
   })
 }
 
 // ── selection ──────────────────────────────────────────────────────
 
 export function showSelected(shape: ShapeFeature, category: Category, lengthKm: number): void {
+  // the last road's stretches go now; this road's wait for its line to draw
+  clearStretches()
   selectedShape = shape
   selectedCategory = category
+  const token = ++selectionToken
+  swept = false
   setDimmed(true)
   if (!map) return // restoreSelection draws it once the layers exist
   const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
   src?.setData(shape as never)
   const duration = Math.min(2400, Math.max(950, lengthKm * 0.85 + 650))
-  drawRoute(map, MAP_COLORS[getTheme()].categories[category], duration)
+  drawRoute(map, MAP_COLORS[getTheme()].categories[category], duration, () => {
+    if (token !== selectionToken) return
+    swept = true
+    applyStretches(true)
+  })
 }
 
 export function clearSelected(): void {
   cancelDraw()
   selectedShape = null
+  selectionToken++
+  swept = false
+  clearStretches()
   setDimmed(false)
   if (!map) return
   const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
   src?.setData(EMPTY_FC as never)
+}
+
+/**
+ * Colour the selected road by stretch, from the panel's scores. Called again
+ * whenever the scores change; dropped if the road has been closed meanwhile.
+ * Has to come after showSelected for that road, which clears the last one's.
+ */
+export function showStretches(fc: FeatureCollection<LineString, StretchProps>): void {
+  if (!selectedShape) return
+  const road = selectedShape.properties.id
+  stretchData = {
+    type: 'FeatureCollection',
+    features: fc.features.map((f) => ({ ...f, properties: { ...f.properties, road } })),
+  }
+  stretchesRated = fc.features.some((f) => f.properties.score > 0)
+  if (!map) return // restoreSelection hands them over once the layers exist
+  const src = map.getSource('stretches') as maplibregl.GeoJSONSource | undefined
+  src?.setData(stretchData as never)
+  applyStretches(true)
+}
+
+/** Show only these stretches, and fade the rest of the road behind them. null or [] shows them all again. */
+export function setStretchSelection(indices: number[] | null): void {
+  if (!selectedShape) return
+  stretchPick = indices?.length ? [...indices] : null
+  if (!map) return
+  applyStretches(true)
+}
+
+/** Back to the plain selected line, at once — nothing fades out of a road being left. */
+export function clearStretches(): void {
+  stretchData = null
+  stretchesRated = false
+  stretchPick = null
+  if (hoveredStretch !== null) clearHover()
+  if (!map) return
+  const src = map.getSource('stretches') as maplibregl.GeoJSONSource | undefined
+  src?.setData(EMPTY_FC as never)
+  applyStretches(false)
+}
+
+/**
+ * Put the stretches, and the selected line under them, in the state the
+ * selection asks for. Nothing shows until the line has finished drawing and
+ * the scores are in: colour arriving over a half-drawn road fights the sweep.
+ *
+ * With nothing picked, rated stretches wear their score and the rest go grey —
+ * unless none is rated, when the road keeps its own colour, because a road of
+ * grey says less than the plain line. Picking shows just those stretches (in
+ * the road's colour while nobody has rated them) over a faded road.
+ *
+ * Each opacity is a plain number, never an expression: MapLibre snaps a
+ * data-driven value rather than fading it, so which stretches draw is left to
+ * the filter.
+ */
+function applyStretches(animate: boolean): void {
+  if (!map || !map.getLayer('stretch-line')) return
+  const theme = getTheme()
+  const colors = MAP_COLORS[theme]
+  const picked = stretchPick !== null
+  const show = swept && Boolean(stretchData?.features.length) && (picked || stretchesRated)
+  // undefined rather than null for no filter: MapLibre tells the two apart,
+  // and would re-cut the source's tiles on every call
+  map.setFilter('stretch-line', picked ? (['in', ['get', 'i'], ['literal', stretchPick]] as never) : undefined)
+  // Grey only where it can show. On a road nobody has rated, un-picking fades
+  // this layer out over the line beneath it, and a colour change re-cuts the
+  // source's tiles: the rebuilt ones land a frame or two in, near full opacity,
+  // and would paint the whole road grey just as it fades. In the road's own
+  // colour the fade cannot be seen, and picking there changes only the filter.
+  const unrated = picked || !stretchesRated ? colors.categories[selectedCategory] : colors.scores[0]
+  map.setPaintProperty('stretch-line', 'line-color', stretchColorExpr(theme, unrated))
+  const ms = animate && !prefersReducedMotion() && document.visibilityState !== 'hidden' ? STRETCH_FADE_MS : 0
+  const faded = show && picked
+  setOpacity('stretch-line', show ? 1 : 0, ms)
+  setOpacity('selected-line', faded ? 0.3 : 1, ms)
+  setOpacity('selected-glow', faded ? 0 : 1, ms)
+}
+
+/** The transition is set with every value, so an instant change can't inherit a fade, or a fade an instant. */
+function setOpacity(layer: string, value: number, ms: number): void {
+  if (!map.getLayer(layer)) return
+  map.setPaintProperty(layer, 'line-opacity-transition', { duration: ms, delay: 0 })
+  map.setPaintProperty(layer, 'line-opacity', value)
 }
 
 export function setDimmed(v: boolean): void {

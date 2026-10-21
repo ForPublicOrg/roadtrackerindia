@@ -11,7 +11,8 @@ The build step (`npm run data`) validates every file, then derives:
 - `public/data/index.json` — the search/browse index (one summary row per road)
 - `public/data/network-lite.geojson` — the trunk network (expressways, NHs, city roads)
 - `public/data/network-detail.geojson` — state + district roads, loaded only when the map zooms in
-- `public/data/shapes/<id>.json` — the display geometry for the selected-road animation
+- `public/data/shapes/<id>.json` — the display geometry for the selected-road animation, and
+  the stops its reviews are tied to (see [Stretches](#stretches))
 
 You never edit the derived files. **The road JSON is the single source of truth.**
 
@@ -155,6 +156,125 @@ matter only for roads with no alignment on file. This directory sits outside
 `public/` on purpose — it is a build input, not something browsers download.
 Plain `{"type":"LineString"}` files also work, and the legacy
 `public/data/geometry/` location is still read.
+
+## Stretches
+
+A review belongs to a **stretch** of road between two of its main stops —
+"Delhi → Agra" on NH 44 — because 3,745 km is not one drive. `npm run data`
+works out each road's stops and writes them into its shape:
+
+```jsonc
+{
+  "type": "Feature",
+  "properties": {
+    "id": "nh-44",
+    "real": true,
+    "km": 3658,                          // length of the coordinates below
+    "stops": [                           // road order, from km 0 to "km"
+      { "n": "Srinagar", "k": "srinagar", "km": 0 },
+      { "n": "Jammu", "k": "jammu", "km": 232.6 },
+      { "n": "Kanyakumari", "k": "kanyakumari", "km": 3658 }
+    ],
+    "marks": [["qazigund", 56.4], ["banihal", 81.4]]   // every other place on the line
+  },
+  "geometry": { "type": "LineString", "coordinates": [[74.8601, 34.03571], …] }
+}
+```
+
+- `n` is the name shown, `k` the **key** a review is stored under (a range is
+  two keys, `agra--delhi`), `km` how far along the line the stop is.
+- A key is the place name folded to `a-z`, `0-9` and single dashes, with accents
+  and anything in brackets dropped, cut at 40 characters, and made unique with
+  `-2`, `-3`… in km order. Every place on the line gets one, stop or not, so a
+  key never depends on which places end up as stops — and `marks` ships the km
+  of the ones that are not, so a stored review still finds its stretch after a
+  rule change (or a new `majorCities` entry) moves the stops.
+- A road with no stretches has no `stops` or `marks`, and its reviews are for
+  the whole road. `km` is always there.
+
+**Which way the line runs.** Every shape runs from `route.start` to
+`route.end`. A line drawn the other way (about half the hand-written ones, NH 44
+among them) is turned round before it is simplified, so the shape and the
+network files agree. An open road is judged by its ends: whichever pairing of
+line ends and first/last waypoint is closer by more than 5 km wins. If neither
+is, it goes by a vote of consecutive waypoints — further along the line, or
+back. A **loop** goes by the vote too, and is cut at its first stop so km 0 is
+a place. A loop is a line whose ends are under 1 km apart *and* a road that
+says it goes round (`route.start` equals `route.end`, or its first and last
+waypoints are close); a ring road whose line is a broken arc is an open road.
+
+**Which places become stops.**
+
+1. Every waypoint, plus an open road's termini as `route.start`/`route.end`
+   name them (the text before the first comma, placed at the first and last
+   waypoint — one place, if the names match). An open road that starts and ends
+   in one city — a ring road drawn as an arc — is named at its ends after its
+   first and last waypoints instead, since the city is neither end. A loop's
+   places are its waypoints. A place more than 15 km off the line is dropped.
+2. The main stops are the places whose name matches a `majorCities` entry —
+   equal, or the entry is whole words of it ("Kengeri Bengaluru" is Bengaluru)
+   — shown under that entry's spelling. Matching ignores case, accents,
+   punctuation, a trailing "area" and anything in brackets. A brackets-only
+   city still counts once: an entry that no place matches by name goes to the
+   first place, in road order, whose brackets name it exactly, with a leading
+   "near" ignored — "Duhai (Ghaziabad)" is Ghaziabad, "Kudrail (near Etawah)"
+   is Etawah, but "Bajghera (Delhi–Haryana border)" is not Delhi. Its key stays
+   its own (`duhai`). The order of `majorCities` does not matter. With fewer
+   than two places matched, every place is a main stop.
+3. A main stop out of order along the line is dropped — its waypoint is in the
+   wrong place.
+4. An open road's termini are its first and last stop, at km 0 and the end of
+   the line. A loop starts and ends at its first main stop.
+5. Stops under 10 km apart are one stop (an end always stays).
+6. A stretch over 250 km is split at the waypoint nearest its middle (one that
+   is not a main stop, and at least 10 km from both ends), longest first, while
+   there are fewer than 17 stops.
+7. Over 17, the stop whose loss leaves the shortest stretch goes, until 17.
+8. No two stops go by one name (compared as in step 2), because a stretch
+   called "Diu → Diu" tells a reader nothing. The one repeat is a loop's last
+   stop, which is its first again. When two clash, a place that went by a city
+   only because the city is whole words of its name goes back to its own
+   ("East Kolkata Wetlands", not a second Kolkata); otherwise the one that is
+   not an end of the road stops being a stop and stays a mark.
+
+**The quality gate.** Stops in the wrong place would be worse than none, so a
+road whose line fails any of these gets no stops at all, and whole-road reviews
+only. The build counts each by the reason it prints:
+
+| reason | the road fails when |
+|---|---|
+| `short` | it is under 25 km |
+| `length` | its line is not 0.8–1.25× `lengthKm` |
+| `ends` | an open road's line starts or ends over 25 km from its first or last waypoint, or both its ends go by one name (a loop whose line does not close) |
+| `off-line` | fewer than 70% of its waypoints are within 15 km of the line |
+| `gap` | its `data/geometry` line, before it is simplified, has one straight segment over 20 km that is also over 4% of the line: a hole the OSM stitching jumped. A line drawn from waypoints is not checked, and neither is a greenfield straight that is a sliver of a long road (the Samruddhi Mahamarg's 24 km of 700) |
+| `retrace` | over 40% of the line, sampled every 500 m, lies within 150 m of another part of it more than 5 km further on or back: out along a road and back down it (NH 744A). Loops are checked too, so a road that ends where it starts is not cut as a loop when its line only goes there and back |
+| `order` | fewer than 80% of its main stops are in order along the line |
+| `stops` | fewer than 3 stops are left |
+
+The summary line reads `stretches: N roads, M flipped, K gated out (short …,
+stops …, gap …)`. It names every hand-written road that missed, and warns for
+every reason but `short` and `stops`: the rest mean the line or its waypoints
+are wrong, which is worth fixing.
+
+To give a hand-written road stretches:
+
+- Stops come from waypoints, not from `majorCities`. Each town you want as a
+  stop must be a waypoint, in road order, whose name is a `majorCities` entry,
+  holds it as whole words, or names it in brackets.
+- At least two waypoints must match, or every waypoint is a main stop. If only
+  the two termini match, the road gets a middle stop only where a stretch would
+  be over 250 km.
+- Keep the first and last waypoints where the road really ends.
+- Stops under 10 km apart merge, so a short city road with its places close
+  together can end up with too few. That is `stops`, and it is fine.
+- Any other reason means the line or the waypoints are wrong: fetch the line
+  again with `npm run fetch-geometry`, or fix the waypoints.
+- A line you rebuild by hand goes in `data/geometry/<id>.json`, and its id goes
+  in `data/curated-geometry.json` with the reason. Otherwise the next corpus
+  regeneration writes the old line back from the cache (docs/CORPUS.md,
+  "Repaired alignments"). Once `npm run data` runs, the road should be gone
+  from the hand-written gated list.
 
 ## Waypoint rules (these drive the map — get them right)
 

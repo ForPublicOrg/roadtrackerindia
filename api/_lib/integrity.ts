@@ -4,8 +4,8 @@
  * is sybil-proof. We (1) verify a Cloudflare Turnstile token, (2) rate-limit on
  * a hashed, coarsened IP, and (3) dedupe on a salted hash of
  * (coarse IP + device fingerprint). We NEVER store raw IPs or fingerprints —
- * only the derived key, which is what makes "one rating per road" possible
- * without holding any identity for the person who cast it.
+ * only the derived key, which is what makes "one entry per person per range
+ * of a road" possible without holding any identity for the person who cast it.
  */
 import { createHash } from 'node:crypto'
 
@@ -104,21 +104,31 @@ export async function verifyTurnstile(token: string, ip: string): Promise<Turnst
 
 type Limiter = (key: string) => Promise<{ success: boolean }>
 
-let limiter: Limiter | null = null
-const memHits = new Map<string, number[]>()
+const HOUR_MS = 60 * 60 * 1000
+
+/** One per limit: a limiter is built for one window size, so caching a single
+ *  one would quietly give every later caller the first caller's limit. The
+ *  promise is kept, not the limiter, so two cold requests build only one. */
+const limiters = new Map<number, Promise<Limiter>>()
 
 function memLimiter(limit: number, windowMs: number): Limiter {
+  // Its own hits, like Upstash's own prefix below, so two limits never share a window.
+  const hits = new Map<string, number[]>()
   return async (key: string) => {
     const now = Date.now()
-    const arr = (memHits.get(key) || []).filter((t) => now - t < windowMs)
-    arr.push(now)
-    memHits.set(key, arr)
-    return { success: arr.length <= limit }
+    const arr = (hits.get(key) || []).filter((t) => now - t < windowMs)
+    // A refused attempt is not counted, as in Upstash's sliding window: retrying
+    // must not push the lockout further out, and a script hammering one key
+    // cannot grow its list past `limit`.
+    const success = arr.length < limit
+    if (success) arr.push(now)
+    hits.set(key, arr)
+    return { success }
   }
 }
 
-async function getLimiter(limit: number): Promise<Limiter> {
-  if (limiter) return limiter
+/** Never rejects — anything Upstash throws while setting up falls back to memory. */
+async function buildLimiter(limit: number): Promise<Limiter> {
   const url = process.env.UPSTASH_REDIS_REST_URL
   const token = process.env.UPSTASH_REDIS_REST_TOKEN
   if (url && token) {
@@ -128,23 +138,36 @@ async function getLimiter(limit: number): Promise<Limiter> {
       const rl = new Ratelimit({
         redis: new Redis({ url, token }),
         limiter: Ratelimit.slidingWindow(limit, '1 h'),
-        prefix: 'rti:write',
+        // The limit is in the prefix: the same key under two limits would
+        // otherwise count into one window and be judged by whichever asked.
+        prefix: `rti:write:${limit}`,
       })
-      limiter = async (key: string) => {
+      return async (key: string) => {
         const { success } = await rl.limit(key)
         return { success }
       }
-      return limiter
     } catch {
       // @upstash/* not installed — fall through to memory.
     }
   }
-  limiter = memLimiter(limit, 60 * 60 * 1000)
-  return limiter
+  return memLimiter(limit, HOUR_MS)
 }
 
-/** `scope` keeps rating and report budgets separate, so a burst of ratings
- *  cannot lock someone out of reporting a genuine hazard. */
+function getLimiter(limit: number): Promise<Limiter> {
+  let rl = limiters.get(limit)
+  if (!rl) {
+    rl = buildLimiter(limit)
+    limiters.set(limit, rl)
+  }
+  return rl
+}
+
+/** `limit` writes per hour per coarse IP. `scope` keeps rating and report
+ *  budgets separate, so a burst of ratings cannot lock someone out of reporting
+ *  a genuine hazard. Each limit is a window of its own, so every caller that
+ *  shares a scope must pass the same limit, or that scope's budget splits in two.
+ *  Never key this on the fingerprint: it comes from the client, and a fresh one
+ *  per request would be a fresh budget. */
 export async function checkRateLimit(ip: string, scope: string, limit = 20): Promise<boolean> {
   const rl = await getLimiter(limit)
   const { success } = await rl(`${scope}:${ipRateKey(ip)}`)

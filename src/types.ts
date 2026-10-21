@@ -217,9 +217,29 @@ export interface NetworkFC {
   features: NetworkFeature[]
 }
 
+/** A main stop on a road's shape: its name as shown, its key, and how far along
+ *  the shipped line it sits. The key is worked out at build time and never in
+ *  the browser, so a review stored against it reads the same on every visit. */
+export interface StopMark {
+  n: string
+  k: string
+  km: number
+}
+
 export interface ShapeFeature {
   type: 'Feature'
-  properties: { id: string; real?: boolean }
+  properties: {
+    id: string
+    real?: boolean
+    /** Length of the shipped line, which stop and mark km are measured along. */
+    km?: number
+    /** Both ends included, in road order; stretch i runs stops[i] → stops[i+1].
+     *  Absent on roads too short or too unreliable to split. */
+    stops?: StopMark[]
+    /** Every other place a stop could have been, as [key, km] — so a review
+     *  keyed to a stop that later stopped being one still finds its place. */
+    marks?: [string, number][]
+  }
   geometry: { type: 'LineString'; coordinates: LngLat[] }
 }
 
@@ -255,6 +275,17 @@ export interface ReviewItem {
   /** ISO timestamps, as the server wrote them. */
   at: string
   edited?: string
+  /** Which part of the road it is about — "all", or two stop keys. Absent on
+   *  reviews written before stretches existed, which were all whole-road. */
+  range?: string
+}
+
+/** One range's votes: every entry for it counts, so one person's two
+ *  overlapping stretch reviews are two votes here. */
+export interface RangeStats {
+  total: number
+  sum: number
+  counts: Record<string, number>
 }
 
 export interface RatingSummary {
@@ -266,6 +297,40 @@ export interface RatingSummary {
   /** Most-liked first. Present on single-road reads only — they ship inside the
    *  same document as the score, so showing them costs no extra read. */
   reviews?: ReviewItem[]
+  /** range key → its votes. Single-road reads only, like reviews. The headline
+   *  above counts each person once; these count each entry. */
+  ranges?: Record<string, RangeStats>
+}
+
+/** What this browser remembers of one of your entries on a road. */
+export interface MyEntry {
+  /** null only for a review written before reviews needed stars. */
+  stars: number | null
+  reviewId?: string
+}
+
+export interface SaveEntryInput {
+  stars: number
+  range: string
+  /** undefined keeps whatever you wrote before; '' removes it. */
+  text?: string
+}
+
+export interface SaveEntryResult {
+  summary: RatingSummary
+  /** The range as the server stored it, which is what to key it by here. */
+  range: string
+  stars: number | null
+  reviewId: string | null
+}
+
+/** Properties of one stretch on the map. */
+export interface StretchProps {
+  i: number
+  /** 0 = not rated yet, else the rounded mean, 1..5 — what picks its colour. */
+  score: number
+  /** The hover line: "Delhi → Agra · ★ 3.5 · 4 ratings". */
+  tip: string
 }
 
 export interface UserStore {
@@ -275,21 +340,30 @@ export interface UserStore {
   getReportsForRoad(roadId: string): Promise<ReportItem[]>
   /** Reports filed from this browser, resolved from locally-remembered ids. */
   getMyReports(): Promise<ReportItem[]>
-  setRating(roadId: string, stars: number): Promise<RatingSummary>
-  /** Local only, and deliberately so: with no account there is nothing on the
-   *  server tying a rating back to you, so "your" rating lives in this browser. */
-  getMyRating(roadId: string): number | null
   /** `null` means the road is genuinely unrated. A failed lookup rejects — the
    *  two must stay distinguishable or the UI reports "no ratings yet" for a road
    *  it simply could not read. */
   getRatingSummary(roadId: string): Promise<RatingSummary | null>
-  /** Writes or replaces your one review of the road; resolves the fresh summary. */
-  setReview(roadId: string, text: string): Promise<RatingSummary>
-  removeReview(roadId: string): Promise<RatingSummary>
+  /** Writes or replaces your one entry for that range of the road — stars, and
+   *  words if you gave any; resolves the fresh summary. */
+  saveEntry(roadId: string, input: SaveEntryInput): Promise<SaveEntryResult>
+  /** Removes your stars and words for that range. One already gone elsewhere
+   *  still resolves, with a fresh summary, and is forgotten here too. One the
+   *  server may still hold under another key — written over a different
+   *  network — rejects with 'not-yours' and stays remembered here. */
+  removeEntry(roadId: string, range: string): Promise<RatingSummary>
+  /** Drops that range's entry from this browser only — no request. The way
+   *  out of a 'not-yours' that can never clear: a delete that went through but
+   *  whose answer was lost leaves stars this browser can't tell from another
+   *  person's vote on the same range. */
+  forgetEntry(roadId: string, range: string): void
+  /** range → your entry. Local only, and deliberately so: with no account there
+   *  is nothing on the server tying an entry back to you, so "yours" lives in
+   *  this browser. */
+  getMyEntries(roadId: string): Record<string, MyEntry>
   /** Sets, not toggles: liking what you already liked is a no-op, so a browser
    *  that forgot its likes converges on the server rather than flipping blind. */
   setReviewLike(roadId: string, id: string, on: boolean): Promise<{ likes: number; liked: boolean }>
-  /** Which review is yours and which you liked — local only, like your stars. */
-  getMyReviewId(roadId: string): string | null
+  /** Which reviews you liked — local only, like your entries. */
   getMyLikes(roadId: string): Set<string>
 }

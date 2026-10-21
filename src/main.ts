@@ -43,6 +43,7 @@ import { initOrgs, orgSummary, renderOrgProfile } from './orgs'
 import { initSearch } from './search'
 import { initBrowse, openBrowse, refreshBrowseArea } from './browse'
 import { initLocate } from './locate'
+import { clearStretchSelection, hasDraft, holdsDraft, mayLeaveDraft, ownsRoad, stretchTap } from './ratings'
 import { initReports, handleMapClick as handleReportClick, isReporting } from './reports'
 import {
   applyMeta,
@@ -165,6 +166,19 @@ async function boot(): Promise<void> {
   let selectToken = 0
   let selectedOrgId: string | null = null
 
+  /**
+   * Whether the open road may give way to something else. A review being
+   * written there is never dropped without asking (ratings.ts asks). Back and
+   * Forward have already moved the address bar by the time this runs, so
+   * staying puts the open road's address back on top of the history.
+   */
+  function mayLeave(fromRouter = false): boolean {
+    if (!isPanelOpen() || mayLeaveDraft()) return true
+    const open = state.selectedId ? state.byId.get(state.selectedId) : undefined
+    if (fromRouter && open) navigateToRoad(open)
+    return false
+  }
+
   function clearOrg(): void {
     if (!selectedOrgId) return
     selectedOrgId = null
@@ -181,7 +195,7 @@ async function boot(): Promise<void> {
    * the place extents have landed.
    */
   async function selectArea(kind: 'city' | 'state', name: string) {
-    deselect()
+    if (!deselect()) return
     const token = ++areaToken
     ensureDetailNetwork() // a city is mostly district roads, so fetch them now
     openBrowse({ area: { kind, name, ids: null } })
@@ -201,13 +215,25 @@ async function boot(): Promise<void> {
     id: string,
     opts: { skipFly?: boolean; fromRouter?: boolean; at?: LngLat } = {},
   ) {
-    clearOrg()
     // a link to a road we have since merged into another one still points at a
     // real road — follow it rather than telling the reader it does not exist
     const merged = state.aliases[id]
     const aliased = Boolean(merged) && !state.byId.has(id) && state.byId.has(merged)
     if (aliased) id = merged
     const summary = state.byId.get(id)
+    const already = state.selectedId === id
+    if (summary && already && isPanelOpen() && hasDraft(id)) {
+      // This road is open with a review being written in it. Building its
+      // panel again would throw the words away, so it stays as it is — the
+      // camera still goes where it was asked to.
+      selectToken++ // nor may an earlier load of it land over the draft
+      if (!opts.skipFly) {
+        if (opts.at) focusRoad(summary.bbox, opts.at)
+        else flyToRoad(summary.bbox)
+      }
+      return
+    }
+    clearOrg()
     if (!summary) {
       toast("We don't have that road catalogued (yet).")
       if (opts.fromRouter) replaceHome() // never pushState inside popstate — traps the back button
@@ -215,8 +241,8 @@ async function boot(): Promise<void> {
       applyMeta(null)
       return
     }
+    if (!already && !mayLeave(opts.fromRouter)) return
     const token = ++selectToken
-    const already = state.selectedId === id
     state.selectedId = id
     emit('select', id)
     document.getElementById('btn-browse')?.setAttribute('aria-pressed', 'false')
@@ -238,7 +264,7 @@ async function boot(): Promise<void> {
       const [detail, shape] = await Promise.all([loadDetail(id), loadShape(id)])
       if (token !== selectToken) return
       showSelected(shape, summary.category, summary.lengthKm)
-      renderDetail(detail, summary)
+      renderDetail(detail, summary, { shape, at: opts.at })
     } catch {
       if (token !== selectToken) return
       toast("Couldn't load this road's details — check your connection.")
@@ -264,6 +290,7 @@ async function boot(): Promise<void> {
    * built this?" into "what else have they built?".
    */
   async function selectOrg(id: string, opts: { fromRouter?: boolean } = {}) {
+    if (!mayLeave(opts.fromRouter)) return
     const token = ++selectToken
     state.selectedId = null
     emit('select', null)
@@ -301,7 +328,10 @@ async function boot(): Promise<void> {
     }
   }
 
-  function deselect(opts: { fromRouter?: boolean } = {}) {
+  /** False when the reader chose to stay with a review they are writing, and
+   *  nothing was closed — the caller must not go on to replace the panel. */
+  function deselect(opts: { fromRouter?: boolean } = {}): boolean {
+    if (!mayLeave(opts.fromRouter)) return false
     selectToken++
     const hadSelection = state.selectedId !== null || selectedOrgId !== null
     clearArea() // before clearOrg, which would otherwise hand focus back to it
@@ -316,17 +346,30 @@ async function boot(): Promise<void> {
     } else {
       applyMeta(null)
     }
+    return true
   }
 
   // ── wire everything ──────────────────────────────────────────────
   initSheetGestures()
-  onPanelClose(() => deselect())
+  // Staying with a draft brings the sheet back up (ratings.ts), which also
+  // undoes a fling that was meant to dismiss it.
+  onPanelClose(() => void deselect())
 
-  onRoadClick((id, lngLat) => {
+  onRoadClick((id, lngLat, i) => {
     if (isReporting()) {
       handleReportClick(lngLat)
       return
     }
+    // A tap on the road that is already open picks a stretch of it. Selecting
+    // it again would re-render the panel and wipe a half-written review. Not
+    // while its details are still loading, or failed to: then the tap opens it
+    // again, which is how a slow or failed load is retried.
+    if (id === state.selectedId && isPanelOpen() && ownsRoad(id)) {
+      stretchTap(id, i ?? null, lngLat)
+      return
+    }
+    // a tap that missed the open road must not throw away a review being written
+    if (isPanelOpen() && holdsDraft()) return
     // `at` is what keeps the camera from pulling back to frame the whole road
     void select(id, { at: lngLat })
   })
@@ -335,6 +378,9 @@ async function boot(): Promise<void> {
       handleReportClick(lngLat)
       return
     }
+    // A tap off the road never throws away a review being written, and lets go
+    // of a picked stretch before it closes anything: one thing per tap.
+    if (clearStretchSelection()) return
     if (isPanelOpen()) deselect()
   })
 
@@ -363,7 +409,7 @@ async function boot(): Promise<void> {
       // back. A company counts too: its URL, title and lit-up roads would
       // otherwise outlive the profile the list just replaced.
       const area = currentArea
-      if (state.selectedId || selectedOrgId) deselect()
+      if ((state.selectedId || selectedOrgId) && !deselect()) return
       if (area) applyArea(area)
       openBrowse(area ? { area: areaFilter(area) } : {})
       btn.setAttribute('aria-pressed', 'true')
@@ -381,8 +427,7 @@ async function boot(): Promise<void> {
 
   document.getElementById('brand-link')?.addEventListener('click', (e) => {
     e.preventDefault()
-    deselect()
-    flyHome()
+    if (deselect()) flyHome()
   })
 
   // "Connected roads" chips in the panel select without tight coupling
@@ -401,6 +446,7 @@ async function boot(): Promise<void> {
     if (e.key !== 'Escape' || e.defaultPrevented) return // report mode/dialog consumed it
     const searchOpen = !document.getElementById('search-list')?.hidden
     if (searchOpen || isReporting()) return // handled elsewhere
+    if (clearStretchSelection()) return // a review being written, then a picked stretch, then the panel
     if (isPanelOpen()) deselect()
   })
 
