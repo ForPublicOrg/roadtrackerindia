@@ -188,11 +188,10 @@ export function initSheetGestures(): void {
     lastT = now
     setSheetY(Math.max(0, startSheetY + (e.clientY - startY)))
   }
-  const onUp = () => {
-    armed = false
-    if (!dragging) return
-    dragging = false
-    suppressUntil = performance.now() + TRAILING_CLICK_MS
+  // Where a let-go sheet comes to rest: a fling decides, otherwise the nearer
+  // of the two rests. A pull from the content has already been past its
+  // resistance, so it goes all the way down unless it was pushed back up.
+  const settle = (pulled: boolean) => {
     const h = el.getBoundingClientRect().height
     const peekTarget = h - PEEK_VISIBLE
     if (velocity > 650 && sheetY > peekTarget * 0.55) {
@@ -204,15 +203,98 @@ export function initSheetGestures(): void {
       snapSheet('peek')
     } else if (velocity < -380) {
       snapSheet('full')
+    } else if (pulled) {
+      snapSheet('peek')
     } else {
       snapSheet(sheetY < peekTarget / 2 ? 'full' : 'peek')
     }
+  }
+  const onUp = () => {
+    armed = false
+    if (!dragging) return
+    dragging = false
+    suppressUntil = performance.now() + TRAILING_CLICK_MS
+    settle(false)
   }
 
   el.addEventListener('pointerdown', onDown)
   el.addEventListener('pointermove', onMove)
   el.addEventListener('pointerup', onUp)
   el.addEventListener('pointercancel', onUp)
+
+  // Expanded, the content is a native scroller, so pulling the sheet down from
+  // it can't go through the pointer path above: the browser takes the pan and
+  // the pointer stream ends in pointercancel. Touch events can keep a gesture,
+  // but only from its first touchmove (once a scroll has started nothing stops
+  // it), so the gesture is decided there. Scrolled to the top and moving down,
+  // it drags the sheet; there is nothing above to scroll to, so all it costs
+  // is the browser's rubber band. Anything else scrolls for the whole touch.
+  // The sheet resists the first RESIST px, so a flick that only meant to reach
+  // the top of the content doesn't fold the sheet away with it.
+  const RESIST = 64
+  const GIVE = 0.3 // px the sheet moves per px of finger while it resists
+  const scroller = content()
+  let pull: 'no' | 'maybe' | 'yes' = 'no'
+  let pullX = 0
+  let pullY = 0
+  let pullFrom = 0
+  let pullBy = 0
+  scroller.addEventListener(
+    'touchstart',
+    (e) => {
+      if (pull === 'yes') return // a second finger mid-pull changes nothing
+      pull = 'no'
+      if (!isMobile() || el.hidden || sheetState !== 'full' || scroller.scrollTop > 0) return
+      if ((e.target as Element).closest('input, select, textarea')) return // fields keep their own gestures
+      const t = e.touches[0]
+      pull = 'maybe'
+      pullX = t.clientX
+      pullY = lastY = t.clientY
+      pullBy = 0
+      lastT = performance.now()
+      velocity = 0
+    },
+    { passive: true },
+  )
+  scroller.addEventListener(
+    'touchmove',
+    (e) => {
+      if (pull === 'no') return
+      const t = e.touches[0]
+      if (pull === 'maybe') {
+        const dx = t.clientX - pullX
+        const dy = t.clientY - pullY
+        if (!dx && !dy) return
+        if (dy <= 0 || Math.abs(dx) > dy || !e.cancelable) {
+          pull = 'no'
+          return
+        }
+        pull = 'yes'
+        sheetAnim?.cancel()
+        pullFrom = sheetY
+      }
+      e.preventDefault()
+      const now = performance.now()
+      velocity = ((t.clientY - lastY) / Math.max(1, now - lastT)) * 1000
+      lastY = t.clientY
+      lastT = now
+      pullBy = Math.max(0, t.clientY - pullY)
+      setSheetY(pullFrom + (pullBy < RESIST ? pullBy * GIVE : RESIST * GIVE + pullBy - RESIST))
+    },
+    { passive: false },
+  )
+  // A finger drag ends in no click, so unlike onUp there is none to swallow.
+  const endPull = () => {
+    const pulled = pull === 'yes'
+    pull = 'no'
+    if (!pulled) return
+    // let go inside the resistance: it was only ever a nudge
+    if (pullBy < RESIST) snapSheet('full')
+    else settle(true)
+  }
+  scroller.addEventListener('touchend', endPull)
+  scroller.addEventListener('touchcancel', endPull)
+
   // capture phase so a drag's trailing click never reaches buttons underneath
   el.addEventListener(
     'click',
