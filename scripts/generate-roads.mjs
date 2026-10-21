@@ -11,6 +11,7 @@
  * Reads  .cache/osm/places.json        (reference layer)
  * Writes public/data/roads/<id>.json   (only where no hand-authored file exists)
  * Writes data/geometry/<id>.json       (encoded polyline, the build's real alignment)
+ *                                      — never for an id in data/curated-geometry.json
  *
  * Hand-authored roads are never overwritten — they carry history, facts and
  * sources that no automatic pass can produce. Data © OpenStreetMap contributors.
@@ -40,6 +41,23 @@ const MERGED = (() => {
   if (!existsSync(p)) return new Map()
   return new Map(Object.entries(JSON.parse(readFileSync(p, 'utf8')).aliases ?? {}))
 })()
+
+/**
+ * Alignments repaired by hand (data/curated-geometry.json): rebuilt from fresher
+ * OSM, trimmed where they ran on along another road, or stitched again where
+ * stitch() went wrong. The cache still holds the old line, so without this a
+ * regeneration run would quietly put every repaired road back behind its gate.
+ */
+const CURATED = (() => {
+  const p = join(ROOT, 'data', 'curated-geometry.json')
+  if (!existsSync(p)) return new Set()
+  return new Set(Object.keys(JSON.parse(readFileSync(p, 'utf8'))))
+})()
+for (const id of CURATED) {
+  if (!existsSync(join(GEOM_DIR, `${id}.json`))) {
+    console.log(`  ! ${id}: listed in data/curated-geometry.json but has no data/geometry file`)
+  }
+}
 
 // ── reference layers ─────────────────────────────────────────────────
 
@@ -373,6 +391,8 @@ const stats = {
 }
 
 let pointTotal = 0
+/** curated ids the cache had a line for, and so would have been rewritten */
+const kept = new Set()
 
 for (const file of routeFiles) {
   if (!file.endsWith('.json')) continue
@@ -402,7 +422,9 @@ for (const file of routeFiles) {
   // The alignment is written even for hand-authored roads — a real OSM shape
   // beats a waypoint polyline for them too — but never over a curated one in
   // the legacy directory, which build-data reads first for exactly that reason.
-  if (
+  // A line repaired in place in data/geometry/ is kept the same way.
+  if (CURATED.has(geomId)) kept.add(geomId)
+  else if (
     !existsSync(join(LEGACY_GEOM_DIR, `${geomId}.json`)) &&
     // the surviving road usually has its own, better-matching shape already
     !(merged && existsSync(join(GEOM_DIR, `${geomId}.json`)))
@@ -449,6 +471,7 @@ console.log(
     `(${(pointTotal / 1e6).toFixed(2)}M points)\n` +
     `  preserved ${stats.skippedAuthored} hand-authored · skipped ${stats.empty} empty, ` +
     `${stats.tooShort} under 1 km, ${stats.noPlace} with no nearby place, ` +
-    `${stats.merged} already merged into another road`,
+    `${stats.merged} already merged into another road\n` +
+    `  kept ${kept.size} curated alignments (data/curated-geometry.json)`,
 )
 console.log(`  legacy geometry dir still read from: ${LEGACY_GEOM_DIR}`)

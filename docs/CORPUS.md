@@ -112,6 +112,25 @@ NH 7 come out around 37% of official, because that is how much of them is
 mapped. Writing the official figure in is enrichment work, and doing so makes
 the road hand-authored.
 
+### Repaired alignments
+
+Fetching again does not fix every bad line. Sometimes the relation itself runs
+on along another road (NH 31 into Malda on NH 131A), leaves out a section OSM
+maps only as tagged ways (all of NH 39 in Jharkhand), or dedupe drops the one
+way that closes a ring (Pune Ring Road). Those lines are rebuilt by hand,
+written straight to `data/geometry/<id>.json`, and listed in
+`data/curated-geometry.json` with the reason:
+
+```json
+{ "nh-31": { "why": "Corpus line cut at Samsi. …", "date": "2026-10-21" } }
+```
+
+`generate-roads.mjs` never writes the alignment of a listed road, whatever the
+cache holds, and its summary says how many it kept. A listed road with no
+`data/geometry` file is named in the log. To give a road back to the generator,
+delete its entry. If the cached line is the broken one, delete its cache file
+as well and fetch it again.
+
 ## 3. Generate the road files
 
 ```bash

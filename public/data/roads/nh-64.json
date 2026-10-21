@@ -1,74 +1,70 @@
 {
   "id": "nh-64",
   "ref": "NH 64",
-  "name": "Maliya–Dandi Highway",
+  "name": "Ahmedabad–Dandi Highway",
   "aka": [
-    "Southern section was the former NH 228 (old numbering)",
-    "Dandi Heritage Route (Ahmedabad–Dandi section)"
+    "National Highway 228 (old numbering)",
+    "Dandi Heritage Route"
   ],
   "category": "nh",
   "status": "operational",
-  "lengthKm": 528,
+  "lengthKm": 386,
   "authority": "nhai",
   "route": {
-    "start": "Maliya, Gujarat",
+    "start": "Ahmedabad, Gujarat",
     "end": "Dandi, Gujarat",
     "states": ["Gujarat"],
-    "majorCities": ["Maliya", "Dhrangadhra", "Viramgam", "Ahmedabad", "Anand", "Vadodara", "Bharuch", "Surat", "Navsari", "Dandi"]
+    "majorCities": ["Ahmedabad", "Anand", "Vadodara", "Bharuch", "Surat", "Navsari", "Dandi"]
   },
   "timeline": [
     { "year": "1930", "event": "Mahatma Gandhi walks from Sabarmati Ashram to Dandi along this route, 12 March to 5 April, and breaks the salt law on 6 April" },
-    { "year": "2010s", "event": "Renumbered as NH 64; its southern half had been NH 228, the Dandi Heritage Route" },
+    { "year": "2010s", "event": "Renumbered as NH 64; it had been NH 228, the Dandi Heritage Route" },
     { "year": "2019", "event": "The National Salt Satyagraha Memorial opens at Dandi, at the highway's southern end" }
   ],
-  "history": "NH 64 joins two very different corners of Gujarat: the salt flats near Maliya at the edge of the Little Rann of Kutch, and the seaside village of Dandi, where Mahatma Gandhi's Salt March ended in 1930. From Maliya it runs east through Dhrangadhra and Viramgam to Ahmedabad, then turns south as the Dandi Heritage Route, roughly following the path of the march through Kheda, Anand, Bharuch, Surat and Navsari to the sea, crossing the Mahi river near Vadodara on the way. Gandhi and a small group of followers covered that southern stretch on foot in 24 days, stopping each night in a village along the way. The route was made a national highway so the path could be protected and marked, and many of the halt villages now carry memorials. Along its length the road also passes some of India's busiest industry — the ceramic works of Morbi district, the chemical estates of Ankleshwar and the diamond and textile mills of Surat.",
+  "history": "NH 64 joins the big city of Ahmedabad to the seaside village of Dandi, where Mahatma Gandhi's Salt March ended in 1930. From Ahmedabad it runs south as the Dandi Heritage Route, roughly following the path of the march through Kheda, Anand, Bharuch, Surat and Navsari to the sea, crossing the Mahi river on the way. Gandhi and a small group of followers covered that path on foot in 24 days, stopping each night in a village along the way. The route was made a national highway so the path could be protected and marked, and many of the halt villages now carry memorials. Along its length the road also passes some of India's busiest industry — the chemical estates of Ankleshwar and the diamond and textile mills of Surat.",
   "facts": [
-    "Its southern section retraces Mahatma Gandhi's famous 1930 Salt March from the Ahmedabad area to Dandi.",
+    "It retraces Mahatma Gandhi's famous 1930 Salt March from the Ahmedabad area to Dandi.",
     "Ends at Dandi beach, where Gandhi broke the salt law on 6 April 1930.",
     "Crosses the Narmada river at Bharuch, near the historic Golden Bridge.",
-    "About 528 km long, entirely within Gujarat.",
+    "About 386 km long, entirely within Gujarat.",
     "Gandhi's marchers walked roughly 385 km of this route in 24 days, halting overnight in villages along the way.",
-    "Begins at the edge of the Little Rann of Kutch, the only home of the Indian wild ass.",
     "Passes through Anand, the town where Amul and India's milk co-operative movement began."
   ],
-  "significance": "NH 64 is unusual among national highways because it is as much a memorial as a road — the Ahmedabad–Dandi half preserves and signposts one of the most important journeys of India's freedom movement. It is also a working highway that threads through Gujarat's industrial heartland, linking the salt and ceramic belt of Saurashtra to the chemical, textile and port towns between Ahmedabad and Surat.",
+  "significance": "NH 64 is unusual among national highways because it is as much a memorial as a road — it preserves and signposts one of the most important journeys of India's freedom movement. It is also a working highway that threads through Gujarat's industrial heartland, linking Ahmedabad to the chemical, textile and port towns of the south, from Bharuch to Surat.",
   "engineering": [
     { "name": "Narmada crossing at Bharuch", "note": "the river is more than a kilometre wide here; the 19th-century Golden Bridge of 1881, about 1.4 km long, still stands beside the newer crossings" },
     { "name": "Mahi river crossing", "note": "the road bridges the wide, tidal lower Mahi on the boundary between Anand and Vadodara districts" }
   ],
   "interchanges": [
-    { "name": "Maliya", "note": "the western end, where the road meets the Rajkot–Kutch corridor at the edge of the Little Rann" },
-    { "name": "Ahmedabad", "note": "the turning point of the highway, and the start of the Dandi Heritage Route section" },
-    { "name": "Vadodara", "note": "meets NH 48, the Delhi–Mumbai Golden Quadrilateral arm" },
+    { "name": "Ahmedabad", "note": "the northern end of the highway, and the start of the Dandi Heritage Route" },
+    { "name": "Anand", "note": "leaves NH 48, the Delhi–Mumbai Golden Quadrilateral arm, and turns south-west towards Borsad" },
     { "name": "Bharuch", "note": "the Narmada crossing, next to the Ankleshwar chemical belt" },
-    { "name": "Surat", "note": "meets NH 48 again before the last run down to Navsari and Dandi" }
+    { "name": "Surat", "note": "crosses the Tapi river on the Amroli bridge before the last run down to Navsari and Dandi" }
   ],
   "relatedRoads": [
     {
       "id": "ahmedabad-vadodara-expressway",
-      "label": "The faster toll route between Ahmedabad and Vadodara, running parallel to this highway"
+      "label": "The faster toll road from Ahmedabad towards Vadodara, running parallel to this highway as far as Anand"
     },
     {
       "id": "nh-48",
-      "label": "The Delhi–Mumbai Golden Quadrilateral arm, which this highway runs with and meets between Ahmedabad, Vadodara and Surat"
+      "label": "The Delhi–Mumbai Golden Quadrilateral arm, which this highway runs with from Ahmedabad to Anand"
     },
     {
       "id": "delhi-mumbai-expressway",
-      "label": "The new expressway that runs through the same Vadodara–Bharuch–Surat belt, a little further inland"
+      "label": "The new expressway that runs through the same Bharuch–Surat belt, a little further inland"
     },
     { "id": "nh-53", "label": "Met near Sachin" },
     { "id": "nh-848k", "label": "Met near Nadiad" },
     { "id": "nh-751d", "label": "Met near Borsad" }
   ],
-  "travelNotes": "The Ahmedabad–Dandi half makes a popular one- or two-day heritage drive, with signboards and small memorials at the villages where Gandhi halted; the National Salt Satyagraha Memorial at Dandi is the natural place to finish. Traffic is heaviest around Ahmedabad, Vadodara and Surat, and the Bharuch–Ankleshwar stretch is busy with tanker and container trucks. Gujarat's roads here are good and food stops are frequent. Winter, from November to February, is the pleasant season; May and June are very hot on the open Saurashtra section.",
+  "travelNotes": "The whole road makes a popular one- or two-day heritage drive, with signboards and small memorials at the villages where Gandhi halted; the National Salt Satyagraha Memorial at Dandi is the natural place to finish. Traffic is heaviest around Ahmedabad and Surat, and the Bharuch–Ankleshwar stretch is busy with tanker and container trucks. Gujarat's roads here are good and food stops are frequent. Winter, from November to February, is the pleasant season; May and June are very hot.",
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "NHAI — State-wise length of National Highways in India (as on 30.11.2018)", "url": "https://nhai.gov.in/nhai/sites/default/files/StateWiseLengthNHsIndia.pdf" }
   ],
   "waypoints": [
-    { "name": "Maliya", "coords": [70.76, 23.09] },
-    { "name": "Dhrangadhra", "coords": [71.47, 22.99] },
-    { "name": "Viramgam", "coords": [72.03, 23.12] },
     { "name": "Ahmedabad", "coords": [72.58, 23.02] },
     { "name": "Kheda", "coords": [72.68, 22.75] },
     { "name": "Anand", "coords": [72.96, 22.56] },

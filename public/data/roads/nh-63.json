@@ -1,49 +1,50 @@
 {
   "id": "nh-63",
   "ref": "NH 63",
-  "name": "Daund–Koraput Highway",
+  "name": "Barshi–Borigumma Highway",
   "aka": ["Nizamabad–Jagdalpur section was the former NH 16 (old numbering)"],
   "category": "nh",
   "status": "operational",
-  "lengthKm": 1065,
+  "lengthKm": 833,
   "lanes": "Mostly 2 lanes, with 4-lane stretches near the bigger towns",
   "authority": "nhai",
   "route": {
-    "start": "Daund, Maharashtra",
-    "end": "Koraput, Odisha",
+    "start": "Kuslamb (near Barshi), Maharashtra",
+    "end": "Borigumma, Odisha",
     "states": ["Maharashtra", "Telangana", "Chhattisgarh", "Odisha"],
-    "majorCities": ["Daund", "Barshi", "Latur", "Udgir", "Nizamabad", "Jagtial", "Mancherial", "Jagdalpur", "Koraput"]
+    "majorCities": ["Barshi", "Latur", "Udgir", "Nizamabad", "Jagtial", "Mancherial", "Jagdalpur", "Borigumma"]
   },
-  "history": "NH 63 is one of the long east–west roads of central India. From Daund, a railway town in Pune district, it crosses the Marathwada plain through Barshi, Latur and Udgir, runs across northern Telangana through Nizamabad, Jagtial and Mancherial, and then winds through the forests of Bastar in Chhattisgarh before ending at Koraput in the hills of Odisha. Much of its middle portion carried the number NH 16 before the highways were renumbered. For years the route was broken by rivers that had no bridge, and traffic had to make long detours; new bridges over the Pranahita near Sironcha and the Indravati near Bhopalpatnam finally joined the pieces together. It remains one of the quietest long national highways in the country, because it deliberately links inland districts that the big corridors skip.",
+  "history": "NH 63 is one of the long east–west roads of central India. It starts near Barshi, a town in Solapur district, crosses the Marathwada plain through Latur and Udgir, runs across northern Telangana through Nizamabad, Jagtial and Mancherial, and then winds through the forests of Bastar in Chhattisgarh before ending at Borigumma in Odisha's Koraput district. Much of its middle portion carried the number NH 16 before the highways were renumbered. For years the route was broken by rivers that had no bridge, and traffic had to make long detours; new bridges over the Pranahita near Sironcha and the Indravati near Bhopalpatnam finally joined the pieces together. It remains one of the quietest long national highways in the country, because it deliberately links inland districts that the big corridors skip.",
   "facts": [
-    "About 1,065 km long, crossing Maharashtra, Telangana, Chhattisgarh and Odisha.",
+    "About 833 km long, crossing Maharashtra, Telangana, Chhattisgarh and Odisha.",
     "Crosses three big rivers on its way: the Godavari, the Pranahita and the Indravati.",
     "Passes through Jagdalpur, the main town of the forested Bastar region.",
     "Its Nizamabad–Jagdalpur portion was the old NH 16.",
     "New bridges over the Pranahita near Sironcha and the Indravati near Bhopalpatnam completed the link between Telangana, Maharashtra and Chhattisgarh.",
-    "Latur, on the Maharashtra section, was the town worst hit by the 1993 earthquake.",
+    "Latur, on the Maharashtra section, gave its name to the deadly 1993 earthquake, which was centred on Killari village in the same district.",
     "Nizamabad and Jagtial along the route sit in one of India's biggest turmeric-growing belts."
   ],
   "significance": "NH 63 is the only continuous road across the middle of the Deccan that ties Marathwada, north Telangana, Bastar and the hills of southern Odisha together. Because these are inland districts that the big national corridors bypass, this highway is how their farm produce, coal, timber and minerals reach markets — and how people from remote tribal blocks reach the nearest hospitals and colleges. It also gives central India a direct road link towards the Eastern Ghats and the Odisha coast.",
   "engineering": [
-    { "name": "Godavari bridge at the Maharashtra–Telangana border", "note": "carries the highway over one of peninsular India's biggest rivers, just before it reaches Bodhan in Telangana" },
+    { "name": "Godavari bridge between Dharmapuri and Mancherial", "note": "carries the highway over one of peninsular India's biggest rivers, inside Telangana" },
     { "name": "Pranahita bridge near Sironcha", "note": "links Telangana with Maharashtra's Gadchiroli district; before it opened, traffic had to detour a long way round" },
     { "name": "Indravati bridge near Bhopalpatnam", "note": "carries the road across the Maharashtra–Chhattisgarh border into the Bastar forests" }
   ],
   "interchanges": [
-    { "name": "Daund", "note": "the western end, where the highway leaves the Pune–Solapur corridor" },
+    { "name": "Kuslamb (near Barshi)", "note": "the western end, where the highway begins at a junction with NH 548C, the Satara–Betul highway" },
     { "name": "Latur", "note": "the main town of eastern Marathwada, with roads north to Chhatrapati Sambhajinagar and south to Solapur" },
     { "name": "Nizamabad", "note": "north Telangana's biggest town on the route, and the start of the old NH 16 section" },
     { "name": "Jagdalpur", "note": "meets NH 30, the long north–south highway from Raipur through Bastar" },
-    { "name": "Koraput", "note": "the eastern end, high in the Eastern Ghats of southern Odisha" }
+    { "name": "Borigumma", "note": "the eastern end, where the highway meets NH 26 in Odisha's Koraput district" }
   ],
   "relatedRoads": [
-    { "id": "nh-65", "label": "The Pune–Machilipatnam highway, which NH 63 leaves near Daund" },
+    { "id": "nh-548c", "label": "The Satara–Betul highway, where NH 63 begins near Barshi" },
     { "id": "nh-30", "label": "Chhattisgarh's north–south highway, met at Jagdalpur" },
     {
       "id": "raipur-visakhapatnam-expressway",
       "label": "The new expressway through Bastar towards the Visakhapatnam port"
     },
+    { "id": "nh-26", "label": "The Bargarh–Vizianagaram highway, met at Borigumma where NH 63 ends" },
     { "id": "warangal-khammam-expressway", "label": "Met near thimmapur" },
     { "id": "nh-44", "label": "Met near Armoor" },
     { "id": "nh-52", "label": "Met near Dharashiv" }
@@ -54,11 +55,13 @@
   ],
   "sources": [
     { "title": "NHAI — National Highways Authority of India", "url": "https://nhai.gov.in/" },
-    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" }
+    { "title": "Ministry of Road Transport & Highways", "url": "https://morth.nic.in/" },
+    { "title": "MoRTH notification S.O. 651(E) of 28 February 2017: NH 63 from its junction with NH 548C near Barshi to its junction with NH 26 near Boriguma", "url": "https://egazette.gov.in/WriteReadData/2017/174498.pdf" },
+    { "title": "MoRTH notification S.O. 2021(E) of 22 April 2026: NH 63 km 0.6 to km 20.47 in Barshi taluka, Solapur district (villages Kuslamb, Puri, Pangri, Chincholi and Dhotre)", "url": "https://egazette.gov.in/WriteReadData/2026/271999.pdf" },
+    { "title": "NHAI — State-wise length of National Highways in India as on 30.11.2018 (NH 63: 832.9 km)", "url": "https://nhai.gov.in/nhai/sites/default/files/StateWiseLengthNHsIndia.pdf" }
   ],
   "waypoints": [
-    { "name": "Daund", "coords": [74.58, 18.46] },
-    { "name": "Barshi", "coords": [75.69, 18.23] },
+    { "name": "Kuslamb (near Barshi)", "coords": [75.773, 18.282] },
     { "name": "Yedshi", "coords": [75.94, 18.29] },
     { "name": "Latur", "coords": [76.56, 18.4] },
     { "name": "Renapur", "coords": [76.6, 18.51] },
@@ -80,7 +83,6 @@
     { "name": "Geedam", "coords": [81.4, 18.98] },
     { "name": "Jagdalpur", "coords": [82.03, 19.09] },
     { "name": "Kotpad", "coords": [82.33, 19.14] },
-    { "name": "Borigumma", "coords": [82.55, 19.05] },
-    { "name": "Koraput", "coords": [82.71, 18.81] }
+    { "name": "Borigumma", "coords": [82.55, 19.05] }
   ]
 }

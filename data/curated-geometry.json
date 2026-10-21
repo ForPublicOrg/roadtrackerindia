@@ -1,0 +1,58 @@
+{
+  "pune-ring-road": {
+    "why": "All 44 members of relation 17154586 stitched without dedupe. Dedupe dropped the 1.07 km Mulshi tunnel way 1479116060, which left the ring open by 1.003 km and gated it 'ends'.",
+    "date": "2026-10-21"
+  },
+  "ahmedabad-dholera-expressway": {
+    "why": "Relation 17140072 cut where NE8 tagging ends near Adhelai (km 109.2). The 15.1 km the relation runs on is the NH 751 four-lane towards Bhavnagar.",
+    "date": "2026-10-21"
+  },
+  "delhi-meerut-expressway": {
+    "why": "One carriageway (the Meerut-to-Delhi members of relation 11568319, Oct 2026), stitched without dedupe, leaving out the Lal Kuan motorway_link ramps. There is no cached route for this road.",
+    "date": "2026-10-21"
+  },
+  "nh-31": {
+    "why": "Corpus line cut at Samsi. Relation 5781541 runs on 58.3 km via Ratua (SH 10, NH 131A) and down NH 12 south of Malda, none of which is NH 31.",
+    "date": "2026-10-21"
+  },
+  "nh-9": {
+    "why": "Fresh relations plus 40 ref=NH9 ways that are in no relation, carrying the road from Tawaghat to Lipulekh Pass (S.O. 2407(E), 2020). The NH9-tagged Gunji-Kuti branch is left out.",
+    "date": "2026-10-21"
+  },
+  "nh-11": {
+    "why": "Fresh relations plus ways 179120146, 22836535 and 22836536 (Myajlar to Jaisalmer), which no relation includes. 22836535 lost its NH11 ref in a 2025 edit.",
+    "date": "2026-10-21"
+  },
+  "nh-46": {
+    "why": "Relation 3248209 cut at the NH 47 junction in Betul, where the stitch had hung old-alignment stubs off the end with 32 km and 9.6 km bridges. One doubled 2.6 km pass at Mandideep removed.",
+    "date": "2026-10-21"
+  },
+  "nh-35": {
+    "why": "Relation 3229508 without 9 members of a parallel old alignment at Varanasi, which made a 5.6 km back-jump to a dead end. Ends at the NH 19 bypass interchange.",
+    "date": "2026-10-21"
+  },
+  "urban-extension-road-2": {
+    "why": "One carriageway of ref=NH344M ways from the NH 44 slip road to the NH 248BB junction at Dwarka Sector 24, including bridge way 1118736285 that relation 2723963 lacks. There is no cached route for this road.",
+    "date": "2026-10-21"
+  },
+  "nh-39": {
+    "why": "The UP and MP relations plus the Jharkhand section, which OSM maps only as ref=NH39 ways with no relation, and 20 ways that fill a 4.5 km hole near Mauranipur.",
+    "date": "2026-10-21"
+  },
+  "nh-62": {
+    "why": "Abohar Bypass arcs and a 5.8 km stitch bridge cut off (NHAI chainage puts km 0 at the bypass junction). Real vertices kept at least every 5 km, so the straight Suratgarh-Sri Ganganagar road is not stored as one 51.6 km segment that the gap gate reads as a hole. simplify(..., 0.03) would undo this.",
+    "date": "2026-10-21"
+  },
+  "raipur-visakhapatnam-expressway": {
+    "why": "Built from the 91 named construction ways (Oct 2026) with one carriageway near Koraput, which removes a 25.3 km stitch jump between the two. There is no cached route for this road.",
+    "date": "2026-10-21"
+  },
+  "dwarka-expressway": {
+    "why": "One carriageway: relation 9240778's Haryana members plus the Delhi section (IGI tunnel, Bharthal underpass, Shiv Murti ramps), which OSM has not added to the relation yet. There is no cached route for this road.",
+    "date": "2026-10-21"
+  },
+  "nh-54": {
+    "why": "Corpus line extended from Hanumangarh to the Kenchiya terminus along NH54-tagged ways, and taken round the mapped Mandi Dabwali bypass instead of a 2.9 km straight jump across the town. The record gains the Kenchiya waypoint its route.end already named.",
+    "date": "2026-10-21"
+  }
+}
