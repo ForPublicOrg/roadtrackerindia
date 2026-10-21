@@ -6,6 +6,7 @@ import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync,
 import { tmpdir } from 'node:os'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { MAX_SEGMENT_KM, decodePolyline, haversineKm } from './lib/overpass.mjs'
 
 const SCRIPTS = fileURLToPath(new URL('.', import.meta.url))
 const roots = []
@@ -81,4 +82,15 @@ test('without a curated list every cached alignment is written', () => {
   })
   assert.notEqual(JSON.parse(run.read('data/geometry/nh-901.json')).data, 'stale')
   assert.match(run.out, /kept 0 curated alignments/)
+})
+
+test('a dead-straight cached road is written with a real vertex every few kilometres', () => {
+  // Alpha to Beta, 55.6 km due north with a vertex every ~280 m: simplifying
+  // by tolerance alone wrote it as one segment, which the gap gate reads as a hole
+  const coords = []
+  for (let i = 0; i <= 200; i++) coords.push([77, 20 + i * 0.0025])
+  const run = generate({ '.cache/osm/routes/nh-904.json': { ...route('nh-904'), coords } })
+  const line = decodePolyline(JSON.parse(run.read('data/geometry/nh-904.json')).data)
+  const longest = Math.max(...line.slice(1).map((p, i) => haversineKm(line[i], p)))
+  assert.ok(longest <= MAX_SEGMENT_KM + 0.05, `longest ${longest} km`)
 })

@@ -6,6 +6,7 @@
  *   node scripts/fetch-osm-roads.mjs                # + fetch geometry for each road
  *   node scripts/fetch-osm-roads.mjs --force        # refetch geometry already cached
  *   node scripts/fetch-osm-roads.mjs --limit 50     # stop after N roads (smoke test)
+ *   node scripts/fetch-osm-roads.mjs --only nh-709a,sh-up-93  # refetch just these
  *
  * Writes .cache/osm/relations.json (raw relation tags) and
  * .cache/osm/routes/<id>.json (one stitched alignment per designation).
@@ -13,8 +14,8 @@
  */
 import { existsSync, readdirSync } from 'node:fs'
 import {
-  BBOX, cachePath, dedupeWays, haversineKm, lineLengthKm, overpass, readCache, round5, simplify,
-  sleep, writeCache,
+  BBOX, MAX_SEGMENT_KM, cachePath, dedupeWays, haversineKm, lineLengthKm, overpass, readCache, round5,
+  simplify, sleep, writeCache,
 } from './lib/overpass.mjs'
 
 const LIST_ONLY = process.argv.includes('--list')
@@ -33,6 +34,10 @@ const TO = numArg('--to', Infinity)
 // --category nh,expressway prioritises the roads people actually look up
 const catArg = process.argv.indexOf('--category')
 const CATEGORIES = catArg > -1 ? process.argv[catArg + 1].split(',').map((s) => s.trim()) : null
+// --only names roads to refetch even though they are cached. Unlike --force it
+// keeps the cached relation list, which is one very large query to redo.
+const onlyArg = process.argv.indexOf('--only')
+const ONLY = onlyArg > -1 ? new Set(process.argv[onlyArg + 1].split(',').map((s) => s.trim())) : null
 
 /** State/UT code → name, for IN:SH:<code> networks. */
 const STATE_CODE = {
@@ -381,7 +386,7 @@ function assembleRoad(road, ways) {
     out.push({
       ...road,
       id: suffix ? `${road.id}-${suffix}` : road.id,
-      coords: simplify(coords, 0.02).map(([x, y]) => [round5(x), round5(y)]),
+      coords: simplify(coords, 0.02, { maxSegKm: MAX_SEGMENT_KM }).map(([x, y]) => [round5(x), round5(y)]),
       lengthKm: Math.round(km * 10) / 10,
       bridgedKm: Math.round(bridgedKm * 10) / 10,
     })
@@ -453,7 +458,7 @@ const CHUNK_RELATIONS = { nh: 40, expressway: 40, sh: 120, district: 300 }
 async function runBulk(all) {
   const todo = all
     .filter((r) => (CATEGORIES ? CATEGORIES.includes(r.category) : true))
-    .filter((r) => FORCE || !existsSync(cachePath('routes', `${r.id}.json`)))
+    .filter((r) => (ONLY ? ONLY.has(r.id) : FORCE || !existsSync(cachePath('routes', `${r.id}.json`))))
   console.log(`\nBulk mode: ${todo.length} roads to fetch\n`)
 
   let ok = 0
@@ -543,6 +548,7 @@ console.log(`\n${relations.length} relations → ${all.length} distinct roads`)
 console.log(`  by category: ${Object.entries(byCat).map(([k, v]) => `${k} ${v}`).join(', ')}`)
 console.log(`  skipped: ${skipped.old} historical, ${skipped.unparseable} unparseable ref, ${skipped.nonRoad} other networks`)
 writeCache(all, 'roads-list.json')
+for (const id of ONLY ?? []) if (!roads.has(id)) console.log(`  ! ${id}: no such road in the relation list`)
 
 if (LIST_ONLY) {
   console.log('\nSample:')
@@ -563,7 +569,7 @@ const existing = new Set(
 const todo = all
   .slice(FROM, TO === Infinity ? undefined : TO)
   .filter((r) => (CATEGORIES ? CATEGORIES.includes(r.category) : true))
-  .filter((r) => FORCE || !existing.has(r.id))
+  .filter((r) => (ONLY ? ONLY.has(r.id) : FORCE || !existing.has(r.id)))
   .slice(0, LIMIT)
 console.log(`\nGeometry: ${todo.length} to fetch (of ${all.length} roads, slice ${FROM}–${TO})\n`)
 

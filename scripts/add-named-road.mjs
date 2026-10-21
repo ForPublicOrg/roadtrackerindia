@@ -20,8 +20,8 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import {
-  ROOT, cachePath, dedupeWays, haversineKm, lineLengthKm, overpass, round5, simplify, sleep,
-  writeCache,
+  MAX_SEGMENT_KM, ROOT, cachePath, dedupeWays, haversineKm, lineLengthKm, overpass, round5, simplify,
+  sleep, writeCache,
 } from './lib/overpass.mjs'
 
 const ROADS_DIR = join(ROOT, 'public', 'data', 'roads')
@@ -128,7 +128,7 @@ for (const entry of NAMED_ROADS) {
     continue
   }
 
-  const coords = simplify(line, 0.02).map(([x, y]) => [round5(x), round5(y)])
+  const coords = simplify(line, 0.02, { maxSegKm: MAX_SEGMENT_KM }).map(([x, y]) => [round5(x), round5(y)])
   const km = Math.round(lineLengthKm(coords) * 10) / 10
   const existing = exists ? JSON.parse(readFileSync(join(ROADS_DIR, `${entry.id}.json`), 'utf8')) : null
   if (existing) {

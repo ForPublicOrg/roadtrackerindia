@@ -73,7 +73,9 @@ quietly shortened NH 44 from 3,680 km to 2,630 km.)
 Interrupt it freely. Alignments are cached per road in `.cache/osm/routes/`, so
 a re-run picks up where it stopped. `--bulk` skips a road that is already
 cached, so the way to repair a suspect alignment is to delete its cache file
-and run again. A query that times out or runs out of memory on the server still
+and run again, or to name it: `--only nh-709a,sh-up-93` refetches just those
+roads, cached or not, and keeps the cached relation list (`--force` would query
+every relation in India again). A query that times out or runs out of memory on the server still
 comes back as HTTP 200, with an empty or partial answer and a `runtime error`
 remark. The client treats that as a failure, so nothing from it is cached and
 the next run fetches the road again.
@@ -104,6 +106,16 @@ Every gap counts, whichever pass of `stitch()` closes it, and a piece split off
 as its own road has its own bridges subtracted. An earlier version counted only
 gaps over 12 km, so a 10 km gap came out as 20 km of road and named roads were
 welded across gaps of up to 12 km.
+
+**A straight road must not look like a bridge.** The line is simplified twice,
+to 20 m here and to 30 m by `generate-roads.mjs`, and tolerance alone leaves a
+dead-straight road (Rajasthan and Punjab have plenty over 20 km) as one
+segment. That is exactly what a bridge looks like to the `gap` gate in
+docs/DATA.md. So both passes also keep a real vertex at least every 5 km
+(`MAX_SEGMENT_KM` in `lib/overpass.mjs`). A bridge has no vertices between its
+ends to keep, so it still comes out as one segment and the gate still sees it.
+Alignments cached before 2026-10-21 were simplified without this rule; fetch
+one again with `--only` if the gate reads a straight road as a hole.
 
 `lengthKm` is therefore the road we can actually see, not the ministry's
 published figure. For most national highways the two agree within 1–3%. Where

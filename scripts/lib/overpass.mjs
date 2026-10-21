@@ -161,8 +161,21 @@ export function dedupeWays(input) {
   return kept
 }
 
-/** Douglas–Peucker; tolerance in km. */
-export function simplify(coords, tolKm) {
+/**
+ * How far apart two kept vertices of a road alignment may be, when the road
+ * has vertices between them. Douglas–Peucker alone leaves a dead-straight road
+ * (Rajasthan and Punjab have plenty over 20 km) as one segment, and one long
+ * segment is exactly what a hole the stitching bridged looks like — the 'gap'
+ * gate in lib/stretches.mjs cannot tell the two apart. A bridge has no vertices
+ * between its ends to keep, so it still comes out as one segment.
+ */
+export const MAX_SEGMENT_KM = 5
+
+/**
+ * Douglas–Peucker; tolerance in km. With `maxSegKm`, a stretch longer than
+ * that also keeps the vertex nearest its middle, whatever the tolerance says.
+ */
+export function simplify(coords, tolKm, { maxSegKm = Infinity } = {}) {
   if (coords.length < 3) return coords
   const midLat = coords[Math.floor(coords.length / 2)][1]
   const kx = 111.32 * Math.cos((midLat * Math.PI) / 180)
@@ -174,6 +187,8 @@ export function simplify(coords, tolKm) {
     const [lo, hi] = stack.pop()
     let maxD = 0
     let idx = -1
+    let mid = -1
+    let midOff = Infinity
     const ax = coords[lo][0] * kx
     const ay = coords[lo][1] * ky
     const dx = coords[hi][0] * kx - ax
@@ -188,10 +203,15 @@ export function simplify(coords, tolKm) {
         maxD = d
         idx = i
       }
+      if (Math.abs(t - 0.5) < midOff) {
+        midOff = Math.abs(t - 0.5)
+        mid = i
+      }
     }
-    if (maxD > tolKm && idx !== -1) {
-      keep[idx] = 1
-      stack.push([lo, idx], [idx, hi])
+    const split = maxD > tolKm ? idx : dd > maxSegKm * maxSegKm ? mid : -1
+    if (split !== -1) {
+      keep[split] = 1
+      stack.push([lo, split], [split, hi])
     }
   }
   return coords.filter((_, i) => keep[i])

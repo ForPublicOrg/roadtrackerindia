@@ -247,7 +247,7 @@ only. The build counts each by the reason it prints:
 | `length` | its line is not 0.8–1.25× `lengthKm` |
 | `ends` | an open road's line starts or ends over 25 km from its first or last waypoint, or both its ends go by one name (a loop whose line does not close) |
 | `off-line` | fewer than 70% of its waypoints are within 15 km of the line |
-| `gap` | its `data/geometry` line, before it is simplified, has one straight segment over 20 km that is also over 4% of the line: a hole the OSM stitching jumped. A line drawn from waypoints is not checked, and neither is a greenfield straight that is a sliver of a long road (the Samruddhi Mahamarg's 24 km of 700) |
+| `gap` | its `data/geometry` line, before it is simplified, has one straight segment over 20 km that is also over 4% of the line: a hole the OSM stitching jumped. The corpus keeps a real vertex at least every 5 km of a straight road (docs/CORPUS.md), so only a bridge is that long. A line drawn from waypoints is not checked, and neither is a greenfield straight that is a sliver of a long road (the Samruddhi Mahamarg's 24 km of 700) |
 | `retrace` | over 40% of the line, sampled every 500 m, lies within 150 m of another part of it more than 5 km further on or back: out along a road and back down it (NH 744A). Loops are checked too, so a road that ends where it starts is not cut as a loop when its line only goes there and back |
 | `order` | fewer than 80% of its main stops are in order along the line |
 | `stops` | fewer than 3 stops are left |

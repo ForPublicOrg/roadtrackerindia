@@ -19,7 +19,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import {
-  ROOT, cachePath, encodePolyline, haversineKm, lineLengthKm, readCache, round5, simplify,
+  MAX_SEGMENT_KM, ROOT, cachePath, encodePolyline, haversineKm, lineLengthKm, readCache, round5, simplify,
 } from './lib/overpass.mjs'
 
 const DRY = process.argv.includes('--dry')
@@ -429,8 +429,9 @@ for (const file of routeFiles) {
     // the surviving road usually has its own, better-matching shape already
     !(merged && existsSync(join(GEOM_DIR, `${geomId}.json`)))
   ) {
-    // the display alignment: ~30 m fidelity is far more than the map can show
-    const line = simplify(route.coords, 0.03)
+    // the display alignment: ~30 m fidelity is far more than the map can show,
+    // but a straight road must not shrink to one segment the gap gate reads as a hole
+    const line = simplify(route.coords, 0.03, { maxSegKm: MAX_SEGMENT_KM })
     pointTotal += line.length
     if (!DRY) {
       writeFileSync(
