@@ -980,6 +980,13 @@ button.og-chip:active { transform: scale(0.97); }
   background: var(--surface-2); color: var(--ink); font: 400 14px var(--font-ui);
   resize: none;
 }
+/* iOS Safari zooms the page into any field under 16px when it is focused, and
+   stays zoomed after: pick a road from the search and the sheet and the top
+   bar run off the right edge of the phone. On a touch screen every field is
+   16px. */
+@media (max-width: 768px), (pointer: coarse) {
+  .search input, .br-select, .rp-note { font-size: 16px; }
+}
 .rp-actions { display: flex; gap: 8px; margin-top: 12px; }
 .rp-actions .btn {
   flex: 1; height: 44px; border-radius: var(--radius-s); font-weight: 650;
