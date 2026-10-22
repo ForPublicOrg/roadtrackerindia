@@ -32,7 +32,7 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
     labelText: '#d8d2c6',
     labelHalo: 'rgba(16,19,26,0.9)',
     background: '#10131a',
-    scores: ['#5c677d', '#ff6b6b', '#ff922b', '#fcc419', '#a9e34b', '#69db7c'],
+    scores: ['#5c677d', '#f03e3e', '#ff922b', '#fcc419', '#a9e34b', '#69db7c'],
   },
 }
 
