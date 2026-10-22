@@ -18,8 +18,9 @@ export interface MapColors {
 }
 
 /** 1★ … 5★, the same in both themes — mid tones that read on the cream map
- *  and the dark one. Only "not rated yet" changes, to sink into each. */
-const RATED = ['#f03e3e', '#e8590c', '#fab005', '#74b816', '#2b8a3e'] as const
+ *  and the dark one. Only "not rated yet" changes, to sink into each. Three
+ *  colours, not five, as the legend says: 1-2★ bad, 3★ okay, 4-5★ good. */
+const RATED = ['#f03e3e', '#f03e3e', '#fab005', '#2b8a3e', '#2b8a3e'] as const
 
 export const MAP_COLORS: Record<Theme, MapColors> = {
   light: {

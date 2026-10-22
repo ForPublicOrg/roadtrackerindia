@@ -39,12 +39,13 @@
   /* how a stretch of road rates, bad → good, with grey for "not rated yet".
      The map paints stretches in the same six (MAP_COLORS in theme.ts), so a
      colour on the bar in the panel is the colour of that part of the road.
-     1-5 hold in both themes; only the grey changes in the dark block. */
+     1-5 hold in both themes; only the grey changes in the dark block. Three
+     colours, as the legend says: 2★ wears bad's red, 4★ good's green. */
   --score-0: #adb5bd;
   --score-1: #f03e3e;
-  --score-2: #e8590c;
+  --score-2: #f03e3e;
   --score-3: #fab005;
-  --score-4: #74b816;
+  --score-4: #2b8a3e;
   --score-5: #2b8a3e;
 
   /* the tiranga, for the "India" in the wordmark — the flag's own three
