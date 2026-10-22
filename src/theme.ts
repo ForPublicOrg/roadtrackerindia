@@ -17,6 +17,10 @@ export interface MapColors {
   scores: [string, string, string, string, string, string]
 }
 
+/** 1★ … 5★, the same in both themes — mid tones that read on the cream map
+ *  and the dark one. Only "not rated yet" changes, to sink into each. */
+const RATED = ['#f03e3e', '#e8590c', '#fab005', '#74b816', '#2b8a3e'] as const
+
 export const MAP_COLORS: Record<Theme, MapColors> = {
   light: {
     categories: { expressway: '#3b5bdb', nh: '#d9480f', sh: '#2f9e44', district: '#9c6f19', local: '#78838f' },
@@ -24,7 +28,7 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
     labelText: '#3d3830',
     labelHalo: 'rgba(255,255,255,0.92)',
     background: '#f4f1ea',
-    scores: ['#adb5bd', '#c92a2a', '#e8590c', '#f08c00', '#74b816', '#2b8a3e'],
+    scores: ['#adb5bd', ...RATED],
   },
   dark: {
     categories: { expressway: '#8da2fb', nh: '#f4915a', sh: '#6ecb7c', district: '#d4a24c', local: '#93a0af' },
@@ -32,7 +36,7 @@ export const MAP_COLORS: Record<Theme, MapColors> = {
     labelText: '#d8d2c6',
     labelHalo: 'rgba(16,19,26,0.9)',
     background: '#10131a',
-    scores: ['#5c677d', '#f03e3e', '#ff922b', '#fcc419', '#a9e34b', '#69db7c'],
+    scores: ['#5c677d', ...RATED],
   },
 }
 

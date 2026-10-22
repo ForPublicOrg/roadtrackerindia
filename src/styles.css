@@ -38,11 +38,12 @@
 
   /* how a stretch of road rates, bad → good, with grey for "not rated yet".
      The map paints stretches in the same six (MAP_COLORS in theme.ts), so a
-     colour on the bar in the panel is the colour of that part of the road. */
+     colour on the bar in the panel is the colour of that part of the road.
+     1-5 hold in both themes; only the grey changes in the dark block. */
   --score-0: #adb5bd;
-  --score-1: #c92a2a;
+  --score-1: #f03e3e;
   --score-2: #e8590c;
-  --score-3: #f08c00;
+  --score-3: #fab005;
   --score-4: #74b816;
   --score-5: #2b8a3e;
 
@@ -100,11 +101,6 @@
   --star-on: #f0b429;
 
   --score-0: #5c677d;
-  --score-1: #f03e3e;
-  --score-2: #ff922b;
-  --score-3: #fcc419;
-  --score-4: #a9e34b;
-  --score-5: #69db7c;
 
   --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.5);
   --shadow-2: 0 2px 6px rgba(0, 0, 0, 0.5), 0 18px 50px rgba(0, 0, 0, 0.6);

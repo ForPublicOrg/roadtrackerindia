@@ -59,11 +59,14 @@ test('REVIEW_MAX reads the same in the API and the composer', () => {
 test('the map and the panel paint scores in the same six colours, in both themes', () => {
   const theme = read('src/theme.ts')
   const css = read('src/styles.css')
-  // MAP_COLORS lists light first, then dark; each has one `scores: ['#…', …]`
+  // MAP_COLORS lists light first, then dark; each has one `scores: ['#…', …RATED]`
   assert.ok(theme.indexOf('light: {') < theme.indexOf('dark: {'), 'MAP_COLORS order changed')
+  const hexes = (s) => [...s.matchAll(/'(#[0-9a-f]{6})'/gi)].map((x) => x[1].toLowerCase())
+  const rated = theme.match(/const RATED = \[([^\]]*)\]/)
+  assert.ok(rated, 'no RATED list in theme.ts')
   // (the interface's `scores: [string, …]` has no colours, so it is not matched)
   const map = [...theme.matchAll(/scores:\s*\[('#[^\]]*)\]/g)].map((m) =>
-    [...m[1].matchAll(/'(#[0-9a-f]{6})'/gi)].map((x) => x[1].toLowerCase()),
+    hexes(m[1].replace('...RATED', rated[1])),
   )
   assert.equal(map.length, 2, 'expected scores for light and dark in theme.ts')
 
@@ -74,8 +77,11 @@ test('the map and the panel paint scores in the same six colours, in both themes
     for (const m of block.matchAll(/--score-(\d):\s*(#[0-9a-f]{6})/gi)) out[Number(m[1])] = m[2].toLowerCase()
     return out
   }
-  assert.deepEqual(tokens(css.slice(0, dark)), map[0], 'light --score-0..5 vs MAP_COLORS.light.scores')
-  assert.deepEqual(tokens(css.slice(dark, css.indexOf('}', dark))), map[1], 'dark --score-0..5 vs MAP_COLORS.dark.scores')
+  const light = tokens(css.slice(0, dark))
+  assert.deepEqual(light, map[0], 'light --score-0..5 vs MAP_COLORS.light.scores')
+  // the dark block overrides only what differs, so read it over the light one
+  const darkTokens = Object.assign([...light], tokens(css.slice(dark, css.indexOf('}', dark))))
+  assert.deepEqual(darkTokens, map[1], 'dark --score-0..5 vs MAP_COLORS.dark.scores')
 })
 
 const NH44 = new URL('../public/data/shapes/nh-44.json', import.meta.url)
