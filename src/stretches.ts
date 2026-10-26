@@ -22,7 +22,7 @@
  * Kept free of the DOM and of everything but geo.ts, so the tests can import
  * this file straight into Node.
  */
-import type { FeatureCollection, LineString } from 'geojson'
+import type { FeatureCollection, LineString, MultiLineString } from 'geojson'
 import type { BBox, LngLat, RangeStats, ShapeFeature, StretchProps } from './types'
 import { bboxOf, cumulativeKm, segProject, sliceLine } from './geo.ts'
 
@@ -52,7 +52,31 @@ export interface Stretch {
   kmFrom: number
   kmTo: number
   coords: LngLat[]
+  /** What the map draws of it: `coords` less any hole in the line. */
+  pieces: LngLat[][]
   bbox: BBox
+}
+
+/** The line from kmA to kmB as it is drawn: cut wherever a hole (a km range) crosses it. */
+export function drawnPieces(
+  coords: LngLat[],
+  cum: number[],
+  kmA: number,
+  kmB: number,
+  holes: readonly (readonly [number, number])[],
+): LngLat[][] {
+  const runs: [number, number][] = [[kmA, kmB]]
+  for (const [h0, h1] of holes) {
+    for (let r = runs.length - 1; r >= 0; r--) {
+      const [a, b] = runs[r]
+      if (h1 <= a || h0 >= b) continue
+      const keep: [number, number][] = []
+      if (h0 > a) keep.push([a, h0])
+      if (h1 < b) keep.push([h1, b])
+      runs.splice(r, 1, ...keep)
+    }
+  }
+  return runs.filter(([a, b]) => b - a > 1e-6).map(([a, b]) => sliceLine(coords, cum, a, b))
 }
 
 export interface StretchScore {
@@ -118,6 +142,10 @@ export function buildStretches(shape: ShapeFeature): Stretch[] {
   )
   for (let j = 1; j < km.length; j++) km[j] = Math.max(km[j], km[j - 1])
 
+  const holes = (shape.properties.gaps ?? [])
+    .filter((g) => g > 0 && g < coords.length)
+    .map((g): [number, number] => [cum[g - 1], cum[g]])
+
   const out: Stretch[] = []
   for (let i = 0; i < last; i++) {
     const line = sliceLine(coords, cum, km[i], km[i + 1])
@@ -130,6 +158,9 @@ export function buildStretches(shape: ShapeFeature): Stretch[] {
       kmFrom: km[i],
       kmTo: km[i + 1],
       coords: line,
+      pieces: holes.some(([h0, h1]) => h1 > km[i] && h0 < km[i + 1])
+        ? drawnPieces(coords, cum, km[i], km[i + 1], holes)
+        : [line],
       bbox: bboxOf(line),
     })
   }
@@ -406,7 +437,7 @@ export function stretchesFC(
   s: readonly Stretch[],
   scores: readonly (StretchScore | null)[],
   way: Way = 'fwd',
-): FeatureCollection<LineString, StretchProps> {
+): FeatureCollection<LineString | MultiLineString, StretchProps> {
   return {
     type: 'FeatureCollection',
     features: s.map((st, i) => {
@@ -415,7 +446,10 @@ export function stretchesFC(
       return {
         type: 'Feature',
         properties: { i: st.i, score, tip: tip(st, sc, way) },
-        geometry: { type: 'LineString', coordinates: st.coords },
+        geometry:
+          st.pieces.length === 1
+            ? { type: 'LineString', coordinates: st.pieces[0] }
+            : { type: 'MultiLineString', coordinates: st.pieces },
       }
     }),
   }

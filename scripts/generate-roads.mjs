@@ -476,3 +476,5 @@ console.log(
     `  kept ${kept.size} curated alignments (data/curated-geometry.json)`,
 )
 console.log(`  legacy geometry dir still read from: ${LEGACY_GEOM_DIR}`)
+// the cache's lines still have their stitch holes drawn straight across
+if (stats.geometry && !DRY) console.log('  next: node scripts/fill-gaps.mjs, to close or mark the holes in the lines just written')

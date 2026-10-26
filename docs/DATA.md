@@ -157,6 +157,16 @@ matter only for roads with no alignment on file. This directory sits outside
 Plain `{"type":"LineString"}` files also work, and the legacy
 `public/data/geometry/` location is still read.
 
+A line can carry `"holes": [13, …]`: segments with no road under them, each
+named by the index of the point that ends it (so `13` is the segment from point
+12 to point 13). They are straight lines the OSM stitching drew across ground
+OSM maps no road on, written by `scripts/fill-gaps.mjs` when it could not close
+them (docs/CORPUS.md). A hole stays in the line, because stops and review
+ranges are measured along it, but it is never drawn: the overview networks
+carry the road as a `MultiLineString` of the pieces between its holes, and its
+shape lists them as `gaps` (the same, as indices into the shape) for the
+browser to leave out of the selected road and its stretches.
+
 ## Stretches
 
 A review belongs to a **stretch** of road between two of its main stops —

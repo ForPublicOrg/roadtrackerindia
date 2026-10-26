@@ -26,7 +26,7 @@
  * thing is a bottom sheet, so every control is a thumb-sized target and the
  * inputs are 16px so iOS doesn't zoom.
  */
-import type { FeatureCollection, LineString } from 'geojson'
+import type { FeatureCollection, LineString, MultiLineString } from 'geojson'
 import { prefersReducedMotion } from './animate'
 import { flyToRoad, setStretchSelection, showStretches } from './map'
 import { state } from './state'
@@ -158,7 +158,7 @@ interface Road {
   /** Set once any write here returns a summary, which is newer than the initial read. */
   wrote: boolean
   scores: (StretchScore | null)[]
-  fc: FeatureCollection<LineString, StretchProps>
+  fc: FeatureCollection<LineString | MultiLineString, StretchProps>
   /** What the reviews are narrowed to. The composer never changes it, so
    *  closing the composer hands the bar and the map straight back to it. */
   sel: Span | null

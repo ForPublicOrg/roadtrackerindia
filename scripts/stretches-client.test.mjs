@@ -359,6 +359,24 @@ test('displayKm states lengths in the road’s published km', () => {
   assert.equal(displayKm([], 0, 0, 340), 0)
 })
 
+test('a hole in the line is measured along but left out of what each stretch draws', () => {
+  // points 14 → 16 (1.4° to 1.6°, inside Mathura → Agra) have no road under them
+  const holed = { ...road, properties: { ...road.properties, gaps: [15, 16] } }
+  const h = buildStretches(holed)
+  assert.deepEqual(h.map((x) => [x.kmFrom, x.kmTo]), s.map((x) => [x.kmFrom, x.kmTo]))
+  assert.deepEqual(h.map((x) => x.pieces.length), [1, 2, 1])
+  assert.equal(h[0].pieces[0], h[0].coords, 'a stretch without a hole draws its own line')
+  const [before, after] = h[1].pieces
+  near(before.at(-1)[1], 1.4)
+  near(after[0][1], 1.6)
+  near(before[0][1], 1, 1e-3)
+  near(after.at(-1)[1], 2, 1e-3)
+
+  const fc = stretchesFC(h, [null, null, null])
+  assert.deepEqual(fc.features.map((f) => f.geometry.type), ['LineString', 'MultiLineString', 'LineString'])
+  assert.equal(fc.features[1].geometry.coordinates, h[1].pieces)
+})
+
 test('stretchesFC carries index, rounded score and the hover line', () => {
   const fc = stretchesFC(s, scoreStretches(s, ranges, marks))
   assert.equal(fc.type, 'FeatureCollection')

@@ -1,4 +1,4 @@
-import type { BBox, LngLat, NetworkFC } from './types'
+import type { BBox, LngLat, NetworkFC, NetworkFeature } from './types'
 
 const R = 6371
 
@@ -120,19 +120,24 @@ export interface NearestRoad {
   distKm: number
 }
 
+/** A network line as the pieces it is drawn in — several where it has holes. */
+export const linesOf = (g: NetworkFeature['geometry']): LngLat[][] =>
+  g.type === 'LineString' ? [g.coordinates] : g.coordinates
+
 /** The n nearest catalogued roads to a point, cheap enough to run on tap. */
 export function nearestRoads(p: LngLat, network: NetworkFC, n = 3): NearestRoad[] {
   const results: NearestRoad[] = []
   for (const f of network.features) {
-    const coords = f.geometry.coordinates
     let best = Infinity
-    for (let i = 1; i < coords.length; i++) {
-      // cheap prefilter: skip segments whose start is >5° away (~550 km)
-      if (Math.abs(coords[i][0] - p[0]) > 5 || Math.abs(coords[i][1] - p[1]) > 5) {
-        if (Math.abs(coords[i - 1][0] - p[0]) > 5 || Math.abs(coords[i - 1][1] - p[1]) > 5) continue
+    for (const coords of linesOf(f.geometry)) {
+      for (let i = 1; i < coords.length; i++) {
+        // cheap prefilter: skip segments whose start is >5° away (~550 km)
+        if (Math.abs(coords[i][0] - p[0]) > 5 || Math.abs(coords[i][1] - p[1]) > 5) {
+          if (Math.abs(coords[i - 1][0] - p[0]) > 5 || Math.abs(coords[i - 1][1] - p[1]) > 5) continue
+        }
+        const d = segProject(p, coords[i - 1], coords[i]).distKm
+        if (d < best) best = d
       }
-      const d = segProject(p, coords[i - 1], coords[i]).distKm
-      if (d < best) best = d
     }
     if (best < Infinity) {
       results.push({ id: f.properties.id, ref: f.properties.ref, name: f.properties.name, distKm: best })

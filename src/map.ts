@@ -1,11 +1,11 @@
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
-import type { FeatureCollection, LineString } from 'geojson'
+import type { FeatureCollection, LineString, MultiLineString } from 'geojson'
 import type { Way } from './stretches'
 import type { BBox, Category, LngLat, NetworkFC, ShapeFeature, StretchProps } from './types'
 import { getTheme, MAP_COLORS, onThemeChange, type Theme } from './theme'
 import { buildStyle, fallbackStyle } from './mapstyle'
-import { cancelDraw, drawRoute, easeOutCubic, prefersReducedMotion } from './animate'
+import { cancelDraw, drawRoute, easeOutCubic, prefersReducedMotion, type Hole } from './animate'
 
 const INDIA_BOUNDS: [[number, number], [number, number]] = [
   [67.8, 6.7],
@@ -51,6 +51,8 @@ let detailRequested = false
 let detailNeededCb: (() => void) | null = null
 let selectedShape: ShapeFeature | null = null
 let selectedCategory: Category = 'nh'
+/** The selected road's holes, where its line is not drawn. */
+let selectedHoles: Hole[] = []
 let dimmed = false
 /**
  * The roads that stay in full colour while the rest of the country fades back:
@@ -78,7 +80,7 @@ type StretchFeatureProps = StretchProps & { road: string }
  * or two after a new road is chosen, the last road's lines can still answer a
  * tap, and that tap must not pick a stretch of the new one.
  */
-let stretchData: FeatureCollection<LineString, StretchFeatureProps> | null = null
+let stretchData: FeatureCollection<LineString | MultiLineString, StretchFeatureProps> | null = null
 /** Whether anyone has rated any stretch of this road — the grey for the rest only means something then. */
 let stretchesRated = false
 /** The stretches picked in the panel, or null while none is. */
@@ -279,7 +281,7 @@ function restoreSelection(): void {
   if (selectedShape) {
     const src = map.getSource('selected') as maplibregl.GeoJSONSource | undefined
     src?.setData(selectedShape as never)
-    drawRoute(map, MAP_COLORS[getTheme()].categories[selectedCategory], 0)
+    drawRoute(map, MAP_COLORS[getTheme()].categories[selectedCategory], 0, undefined, selectedHoles)
     // A sweep the style swap cut short never reports back, and this redraw is
     // instant, so the stretches come straight back with it — onto a layer the
     // swap rebuilt from scratch, which knows nothing of the old one's state.
@@ -734,6 +736,7 @@ export function showSelected(shape: ShapeFeature, category: Category, lengthKm: 
   clearStretches()
   selectedShape = shape
   selectedCategory = category
+  selectedHoles = holesOf(shape)
   const token = ++selectionToken
   swept = false
   setDimmed(true)
@@ -745,12 +748,32 @@ export function showSelected(shape: ShapeFeature, category: Category, lengthKm: 
     if (token !== selectionToken) return
     swept = true
     applyStretches(true)
-  })
+  }, selectedHoles)
+}
+
+/**
+ * Where the shape's holes fall in line-progress, which MapLibre measures in
+ * Web Mercator — so they are measured that way here too, not in km, or a long
+ * north–south road would put them a little off.
+ */
+function holesOf(shape: ShapeFeature): Hole[] {
+  const gaps = shape.properties.gaps
+  const c = shape.geometry.coordinates
+  if (!gaps?.length || c.length < 2) return []
+  const merc = c.map(([lng, lat]) => [lng / 360, Math.log(Math.tan(Math.PI / 4 + (lat * Math.PI) / 360)) / (2 * Math.PI)])
+  const cum = [0]
+  for (let i = 1; i < merc.length; i++) {
+    cum.push(cum[i - 1] + Math.hypot(merc[i][0] - merc[i - 1][0], merc[i][1] - merc[i - 1][1]))
+  }
+  const total = cum[cum.length - 1]
+  if (!(total > 0)) return []
+  return gaps.filter((g) => g > 0 && g < c.length).map((g): Hole => [cum[g - 1] / total, cum[g] / total])
 }
 
 export function clearSelected(): void {
   cancelDraw()
   selectedShape = null
+  selectedHoles = []
   selectionToken++
   swept = false
   clearStretches()
@@ -765,7 +788,7 @@ export function clearSelected(): void {
  * whenever the scores change; dropped if the road has been closed meanwhile.
  * Has to come after showSelected for that road, which clears the last one's.
  */
-export function showStretches(fc: FeatureCollection<LineString, StretchProps>): void {
+export function showStretches(fc: FeatureCollection<LineString | MultiLineString, StretchProps>): void {
   if (!selectedShape) return
   const road = selectedShape.properties.id
   stretchData = {

@@ -25,6 +25,30 @@ function gradientExpr(color: string, transparent: string, p: number): unknown {
   return expr
 }
 
+/**
+ * The same sweep over a line with holes in it, as line-progress ranges: the
+ * line stays one line, so the sweep runs on across a hole it does not draw.
+ * Every point where either changes is a stop, given the sweep's opacity there,
+ * or none just inside a hole.
+ */
+function holedGradientExpr(hex: string, alpha: number, p: number, holes: readonly Hole[]): unknown {
+  if (p < 1 && Math.max(p, 0.0001) <= 0.0002) return withAlpha(hex, 0)
+  const head = p >= 1 ? Infinity : Math.max(p, 0.0001)
+  const tail = Math.max(head - 0.035, 0)
+  const sweep = (q: number) => (q <= tail ? 1 : q >= head ? 0 : (head - q) / (head - tail))
+  const inHole = (q: number) => holes.some(([a, b]) => q > a && q < b)
+  const EDGE = 0.00001
+  const at = new Set([0, 1])
+  for (const q of [tail, head, head + 0.0001]) if (q > 0 && q < 1) at.add(q)
+  for (const [a, b] of holes) for (const q of [a, a + EDGE, b - EDGE, b]) if (q >= 0 && q <= 1) at.add(q)
+  const expr: unknown[] = ['interpolate', ['linear'], ['line-progress']]
+  for (const q of [...at].sort((x, y) => x - y)) expr.push(q, withAlpha(hex, inHole(q) ? 0 : alpha * sweep(q)))
+  return expr
+}
+
+/** A stretch of a line left undrawn, as [from, to] in line-progress (0–1). */
+export type Hole = [number, number]
+
 function withAlpha(hex: string, alpha: number): string {
   const n = parseInt(hex.slice(1), 16)
   return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${alpha})`
@@ -39,6 +63,7 @@ export function drawRoute(
   color: string,
   durationMs: number,
   onDone?: () => void,
+  holes: readonly Hole[] = [],
 ): void {
   const token = ++drawToken
   const glow = withAlpha(color, 0.28)
@@ -47,8 +72,16 @@ export function drawRoute(
 
   const apply = (p: number) => {
     if (!map.getLayer('selected-line')) return
-    map.setPaintProperty('selected-line', 'line-gradient', gradientExpr(color, lineClear, p))
-    map.setPaintProperty('selected-glow', 'line-gradient', gradientExpr(glow, glowClear, p))
+    map.setPaintProperty(
+      'selected-line',
+      'line-gradient',
+      holes.length ? holedGradientExpr(color, 1, p, holes) : gradientExpr(color, lineClear, p),
+    )
+    map.setPaintProperty(
+      'selected-glow',
+      'line-gradient',
+      holes.length ? holedGradientExpr(color, 0.28, p, holes) : gradientExpr(glow, glowClear, p),
+    )
   }
 
   if (prefersReducedMotion() || durationMs <= 0 || document.visibilityState === 'hidden') {

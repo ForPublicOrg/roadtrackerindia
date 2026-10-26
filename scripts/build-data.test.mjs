@@ -6,6 +6,7 @@ import { copyFileSync, cpSync, existsSync, mkdirSync, mkdtempSync, readFileSync,
 import { tmpdir } from 'node:os'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { encodePolyline } from './lib/overpass.mjs'
 
 const SCRIPT = fileURLToPath(new URL('./build-data.mjs', import.meta.url))
 const LIB = fileURLToPath(new URL('./lib', import.meta.url))
@@ -218,4 +219,36 @@ test('a line with a hole in it gets no stops, and the build names the road', () 
   assert.match(out.log, /hand-written\): nh-11 \(gap\)$/m)
   assert.match(out.log, /nh-11: no stretches — the line jumps 60 km in a straight line at km 40; its reviews stay whole-road/)
   assert.doesNotMatch(out.log, /nh-12/)
+})
+
+test('a hole fill-gaps found no road for is measured along but never drawn', () => {
+  const at = (km) => [76, Math.round((10 + km / ((6371 * Math.PI) / 180)) * 1e5) / 1e5]
+  // OSM has no road from km 60 to km 70. The file runs Delta to Alpha, so the
+  // build turns it round, and the hole has to come through that by its ends.
+  const north = Array.from({ length: 31 }, (_, i) => at(i * 5)).filter(([, lat]) => lat <= at(60)[1] || lat >= at(70)[1])
+  const coords = north.slice().reverse()
+  const out = build({
+    ...road('nh-13', { km: 140, stops: [['Alpha', at(0)], ['Beta', at(50)], ['Gamma', at(100)], ['Delta', at(150)]] }),
+    'data/geometry/nh-13.json': {
+      type: 'Polyline',
+      precision: 5,
+      lengthKm: 140,
+      holes: [coords.indexOf(north[12])],
+      data: encodePolyline(coords),
+    },
+  })
+  assert.equal(out.code, 0, out.log)
+  assert.match(out.log, /1 drawn around holes OSM has no road for/)
+
+  const shape = out.read('public/data/shapes/nh-13.json')
+  const c = shape.geometry.coordinates
+  assert.equal(shape.geometry.type, 'LineString')
+  assert.deepEqual(shape.properties.gaps.map((g) => [c[g - 1], c[g]]), [[at(60), at(70)]])
+  // a 10 km hole in 150 km is no reason to refuse stretches
+  assert.equal(shape.properties.stops.length, 4)
+
+  const lite = out.read('public/data/network-lite.geojson').features.find((f) => f.properties.id === 'nh-13')
+  assert.equal(lite.geometry.type, 'MultiLineString')
+  const [south, rest] = lite.geometry.coordinates
+  assert.deepEqual([south[0], south.at(-1), rest[0]], [at(0), at(60), at(70)].map(([x, y]) => [x, Math.round(y * 1e4) / 1e4]))
 })

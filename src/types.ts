@@ -209,7 +209,8 @@ export interface NetworkFeature {
     status: Status
     lengthKm: number
   }
-  geometry: { type: 'LineString'; coordinates: LngLat[] }
+  /** Several lines when the road has holes OSM maps no road across. */
+  geometry: { type: 'LineString'; coordinates: LngLat[] } | { type: 'MultiLineString'; coordinates: LngLat[][] }
 }
 
 export interface NetworkFC {
@@ -239,6 +240,10 @@ export interface ShapeFeature {
     /** Every other place a stop could have been, as [key, km] — so a review
      *  keyed to a stop that later stopped being one still finds its place. */
     marks?: [string, number][]
+    /** Segments that are holes, each by the index of the point that ends it:
+     *  a straight line across ground OSM maps no road on. Measured like the
+     *  rest of the line, never drawn. */
+    gaps?: number[]
   }
   geometry: { type: 'LineString'; coordinates: LngLat[] }
 }

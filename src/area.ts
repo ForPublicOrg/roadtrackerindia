@@ -1,4 +1,5 @@
 import { loadPlaces } from './data'
+import { linesOf } from './geo'
 import { state } from './state'
 import type { Area, BBox, LngLat, NetworkFC, PlaceExtent } from './types'
 
@@ -78,7 +79,7 @@ function collectCrossings(fc: NetworkFC, bbox: BBox, into: Set<string>): void {
     // the road's own extent rejects all but a handful before any segment maths
     const summary = state.byId.get(id)
     if (summary && !overlaps(summary.bbox, bbox)) continue
-    if (crosses(f.geometry.coordinates, bbox)) into.add(id)
+    if (linesOf(f.geometry).some((line) => crosses(line, bbox))) into.add(id)
   }
 }
 

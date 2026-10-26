@@ -224,20 +224,45 @@ function decodePolyline(str, precision = 5) {
   return coords
 }
 
+/** One key for a segment, whichever way the line runs over it. */
+const segKey = (a, b) => {
+  const p = `${a[0]},${a[1]}`
+  const q = `${b[0]},${b[1]}`
+  return p < q ? `${p}|${q}` : `${q}|${p}`
+}
+
+/** The line cut at its holes: the pieces between them, each with its own ends. */
+function splitAtHoles(coords, holes) {
+  if (!holes.size) return [coords]
+  const pieces = [[coords[0]]]
+  for (let i = 1; i < coords.length; i++) {
+    if (holes.has(segKey(coords[i - 1], coords[i]))) pieces.push([])
+    pieces[pieces.length - 1].push(coords[i])
+  }
+  return pieces
+}
+
 const hasRealGeometry = (id) =>
   existsSync(join(GEOM_DIR, `${id}.json`)) || existsSync(join(LEGACY_GEOM_DIR, `${id}.json`))
 
-/** One geometry file as [lng, lat] pairs, or why it can't be used. */
+/**
+ * One geometry file as [lng, lat] pairs, or why it can't be used. `holes` are
+ * the segments scripts/fill-gaps.mjs found no road for, each named by the index
+ * of the point that ends it: straight lines the OSM stitching drew across a
+ * hole, which stay in the line (stops are measured along it) but are not drawn.
+ */
 function readGeometry(file) {
   try {
     const g = JSON.parse(readFileSync(file, 'utf8'))
+    const holesIn = (coords) =>
+      (Array.isArray(g.holes) ? g.holes : []).filter((i) => Number.isInteger(i) && i > 0 && i < coords.length)
     if (g?.type === 'Polyline' && typeof g.data === 'string') {
       const coords = decodePolyline(g.data, g.precision ?? 5)
-      if (coords.length > 1) return coords
+      if (coords.length > 1) return { coords, holes: holesIn(coords) }
     }
     const geom = g?.type === 'Feature' ? g.geometry : g
     if (geom?.type === 'LineString' && Array.isArray(geom.coordinates) && geom.coordinates.length > 1) {
-      return geom.coordinates
+      return { coords: geom.coordinates, holes: holesIn(geom.coordinates) }
     }
     return { error: 'geometry override is not a LineString or Polyline' }
   } catch {
@@ -265,7 +290,7 @@ function fitsRoad(line, road) {
 /**
  * The real alignment for a road, if we have one: an encoded polyline in
  * data/geometry/, or a plain LineString in the legacy public/data/geometry/.
- * Returns { coords } to draw, and/or a { warning } for the build log.
+ * Returns { coords, holes } to draw, and/or a { warning } for the build log.
  *
  * data/geometry/ wins. The legacy files came from one early Overpass fetch
  * whose greedy stitch could run out and back along a road and stop far short
@@ -281,17 +306,17 @@ function realGeometry(road) {
     const file = join(dir, `${road.id}.json`)
     if (!existsSync(file)) continue
     const g = readGeometry(file)
-    if (Array.isArray(g)) lines.push(g)
+    if (g.coords) lines.push(g)
     else error ??= `${file.slice(ROOT.length)}: ${g.error}`
   }
-  if (lines.length > 1 && !fitsRoad(lines[0], road) && fitsRoad(lines[1], road)) {
+  if (lines.length > 1 && !fitsRoad(lines[0].coords, road) && fitsRoad(lines[1].coords, road)) {
     return {
-      coords: lines[1],
+      ...lines[1],
       warning: `data/geometry/${road.id}.json misses an end of the road or its length — using public/data/geometry/${road.id}.json`,
     }
   }
   // a broken file is still reported when the other one stands in for it
-  if (lines.length) return error ? { coords: lines[0], warning: `${error} — using the other alignment` } : { coords: lines[0] }
+  if (lines.length) return error ? { ...lines[0], warning: `${error} — using the other alignment` } : lines[0]
   return error ? { warning: `${error} — using waypoints` } : {}
 }
 
@@ -660,6 +685,7 @@ const indexRows = []
 const liteFeatures = []
 const detailFeatures = []
 let realGeomCount = 0
+let holedRoads = 0
 
 // Stretch stops, for the summary. A generated road is "provenance": "osm"
 // (docs/DATA.md); only the hand-written ones are named when they get none,
@@ -680,6 +706,9 @@ for (const road of roads) {
     realGeomCount++
   }
   if (geom.warning) allWarnings.push(`${road.id}: ${geom.warning}`)
+  // named by their ends, so they survive the line being turned or rotated below
+  const holes = new Set((geom.holes ?? []).map((i) => segKey(base[i - 1], base[i])))
+  if (holes.size) holedRoads++
 
   const closed = base.length > 4 && haversineKm(base[0], base[base.length - 1]) < 1
   const ring = isRing(road, base)
@@ -700,10 +729,21 @@ for (const road of roads) {
   const liteTol = isTrunk(road)
     ? road.lengthKm < 30 ? 0.05 : road.lengthKm < 120 ? 0.15 : road.lengthKm < 400 ? 0.35 : 0.7
     : Math.max(0.08, Math.min(0.3, road.lengthKm / 400))
-  const outline = () => ({
-    shape: (real ? simplify(base, 0.04) : simplify(chaikin(base, 3, closed), 0.06)).map(round5pt),
-    lite: real ? simplify(base, liteTol) : simplify(chaikin(base, 2, closed), liteTol),
-  })
+  // Each piece between holes is simplified on its own, so a hole's two ends
+  // are kept exactly and the shape still has the hole as one segment to name.
+  const outline = () => {
+    if (!real) {
+      return {
+        shape: simplify(chaikin(base, 3, closed), 0.06).map(round5pt),
+        lite: [simplify(chaikin(base, 2, closed), liteTol)],
+      }
+    }
+    const pieces = splitAtHoles(base, holes)
+    return {
+      shape: pieces.flatMap((p) => simplify(p, 0.04)).map(round5pt),
+      lite: pieces.map((p) => simplify(p, liteTol)).filter((p) => p.length > 1),
+    }
+  }
   let { shape, lite } = outline()
   // stops are placed on the line exactly as it is written, so the km a review
   // range resolves to in the browser is the km measured here. The full line
@@ -743,6 +783,9 @@ for (const road of roads) {
   }
   // only ever used to frame the camera, so ~100 m precision is plenty
   const bbox = [round3(minX), round3(minY), round3(maxX), round3(maxY)]
+  // the shape's own indices of its holes, for the browser to leave undrawn
+  const gaps = []
+  if (holes.size) for (let i = 1; i < shape.length; i++) if (holes.has(segKey(shape[i - 1], shape[i]))) gaps.push(i)
 
   staleShapes.delete(`${road.id}.json`)
   writeFileSync(
@@ -757,10 +800,12 @@ for (const road of roads) {
         km: Math.round(polyLenKm(shape) * 10) / 10,
         ...(stretches.stops.length ? { stops: stretches.stops } : {}),
         ...(stretches.marks.length ? { marks: stretches.marks } : {}),
+        ...(gaps.length ? { gaps } : {}),
       },
       geometry: { type: 'LineString', coordinates: shape },
     })
   )
+  const overview = lite.map((piece) => piece.map((c) => [round4(c[0]), round4(c[1])]))
 
   ;(isTrunk(road) ? liteFeatures : detailFeatures).push({
     type: 'Feature',
@@ -772,8 +817,12 @@ for (const road of roads) {
       status: road.status,
       lengthKm: road.lengthKm,
     },
-    // 4 decimals is ~11 m — finer than the overview can draw, and 15% smaller
-    geometry: { type: 'LineString', coordinates: lite.map((c) => [round4(c[0]), round4(c[1])]) },
+    // 4 decimals is ~11 m — finer than the overview can draw, and 15% smaller.
+    // A road with holes is drawn as the pieces between them.
+    geometry:
+      overview.length === 1
+        ? { type: 'LineString', coordinates: overview[0] }
+        : { type: 'MultiLineString', coordinates: overview },
   })
 
   const row = {
@@ -1117,7 +1166,8 @@ const num = (x) => x.toLocaleString('en-IN')
 const sizeOf = (f) => statSync(join(DATA_DIR, f)).size
 for (const w of allWarnings) console.warn(`  warn  ${w}`)
 console.log(
-  `✓ ${roads.length} roads validated (${realGeomCount} with real OSM geometry, ${allWarnings.length} warnings)\n` +
+  `✓ ${roads.length} roads validated (${realGeomCount} with real OSM geometry, ` +
+    `${holedRoads} drawn around holes OSM has no road for, ${allWarnings.length} warnings)\n` +
     `  index.json ${kb(sizeOf('index.json'))} · network-lite ${kb(sizeOf('network-lite.geojson'))} ` +
     `(${liteFeatures.length} trunk roads) · network-detail ${kb(sizeOf('network-detail.geojson'))} ` +
     `(${detailFeatures.length} state & district roads)\n` +

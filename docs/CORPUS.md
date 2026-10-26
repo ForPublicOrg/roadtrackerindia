@@ -12,6 +12,8 @@ fetch-osm-roads.mjs       every route relation + its geometry ─┤
                                                               │      ↓
                                                               │  public/data/roads/<id>.json
                                                               │  data/geometry/<id>.json
+                                                              │      ↓
+                                                              │  fill-gaps.mjs (closes or marks stitch holes)
                                                               └→ build-data.mjs → index, network, shapes
 ```
 
@@ -142,6 +144,47 @@ cache holds, and its summary says how many it kept. A listed road with no
 `data/geometry` file is named in the log. To give a road back to the generator,
 delete its entry. If the cached line is the broken one, delete its cache file
 as well and fetch it again.
+
+### Holes: closed, or left undrawn
+
+A bridge is right for measuring a road and wrong for drawing one. Drawn, it is a
+dead-straight highway across fields: NH 148B ran 58 km straight from Kotputli to
+Baroda Meo, where the real road is the Paniyala–Barodameo expressway, still
+being built and only mapped at its two ends. So after every generator run:
+
+```bash
+node scripts/fill-gaps.mjs                 # every line in data/geometry
+node scripts/fill-gaps.mjs --only nh-148b  # just these
+node scripts/fill-gaps.mjs --dry           # report only
+```
+
+For every segment over 5 km it asks a router (the OSRM demo server, OSM data,
+one request a second) for the road between the segment's two ends, both ways
+round when the first answer is not the segment itself, because a router keeps
+to one-way carriageways:
+
+- **The road is the segment itself** — a straight road from a line cached before
+  the 5 km vertex rule. Points go in along it, so the gate stops reading it as
+  a hole.
+- **A route `judge()` takes for this road** replaces the bridge, and a measured
+  `lengthKm` grows by the road filled in — never past the drawn line, because
+  August's lines counted some bridges as road already, and never down, since
+  correcting those old figures is a separate job. It must be at most 1.3× the bridge
+  plus 2 km, or 2× plus 5 km when half of it carries the road's own number
+  (mountain roads wind). It may not run more than 10 km mostly on another
+  number: SH 20 Jhajjar–Sonipat has 9 km left in OSM, and the road between its
+  pieces is NH 334B now, not SH 20. An expressway hole is filled only by
+  motorway. A ferry, a route back along the line (NH 709B's stitch jumped back
+  to a stub of road it had already drawn), or one out to a U-turn and back
+  down the other carriageway is refused.
+- **Anything else stays a hole.** Its index goes in the line's `holes` list, and
+  the build keeps it in the line for measuring but never draws it
+  (docs/DATA.md). A road with holes shows as pieces, which is what OSM knows.
+
+Every route is cached in `.cache/osm/gaps/`, so the run after a regeneration
+asks the router nothing, and `.cache/osm/gaps/report.json` lists every hole
+filled or left, with the reason. Curated lines go through it too: the script
+only adds points or marks holes, it never redraws what is already road.
 
 ## 3. Generate the road files
 
