@@ -9,6 +9,7 @@
  * Reads  .cache/osm/routes/<id>.json   (stage 1: fetch-osm-roads.mjs)
  * Reads  .cache/osm/states.json        (reference layer)
  * Reads  .cache/osm/places.json        (reference layer)
+ * Reads  data/road-status.json         (roads OSM maps before they are built)
  * Writes public/data/roads/<id>.json   (only where no hand-authored file exists)
  * Writes data/geometry/<id>.json       (encoded polyline, the build's real alignment)
  *                                      — never for an id in data/curated-geometry.json
@@ -58,6 +59,18 @@ for (const id of CURATED) {
     console.log(`  ! ${id}: listed in data/curated-geometry.json but has no data/geometry file`)
   }
 }
+
+/**
+ * Roads OSM maps before they exist (data/road-status.json): a greenfield
+ * highway's alignment is tagged with its number years before it opens. The
+ * status matters beyond the label — fill-gaps draws a road being built only
+ * along its own mapped road, never along the village roads beside it.
+ */
+const STATUS = (() => {
+  const p = join(ROOT, 'data', 'road-status.json')
+  if (!existsSync(p)) return new Map()
+  return new Map(Object.entries(JSON.parse(readFileSync(p, 'utf8'))).map(([id, v]) => [id, v.status]))
+})()
 
 // ── reference layers ─────────────────────────────────────────────────
 
@@ -336,7 +349,7 @@ function build(route) {
     ref,
     name,
     category: route.category,
-    status: 'operational',
+    status: STATUS.get(route.id) ?? 'operational',
     lengthKm: Math.round(km * 10) / 10,
     route: { start, end, states: stateList, majorCities },
     waypoints,

@@ -20,6 +20,39 @@ import { haversineKm } from './overpass.mjs'
 export const normRef = (s) =>
   String(s ?? '').toUpperCase().replace(/[^A-Z0-9]/g, '').replace(/([A-Z])0+(?=\d)/g, '$1')
 
+/**
+ * Every way OSM may write a road, normalised: its number, its names, its aka
+ * (and a number in brackets there), and the ids of roads merged into it
+ * ("ne-4" → "NE4"). An expressway's `ref` here is its name: OSM numbers the
+ * Samruddhi Mahamarg ME-2 and names it "Samruddhi Mahamarg", and matching on
+ * the number alone left every curve of it a hole.
+ */
+export function identity(road, mergedIds = []) {
+  const out = new Set()
+  const add = (s) => {
+    const n = normRef(s)
+    if (n.length >= 2) out.add(n)
+  }
+  add(road?.ref)
+  add(road?.name)
+  for (const aka of road?.aka ?? []) {
+    add(aka)
+    add(aka.replace(/\s*\([^)]*\)/g, ''))
+    // "(NE-1)" is a number; "(northern section)" is not a name either
+    for (const [, inner] of aka.matchAll(/\(([^)]+)\)/g)) if (/^[A-Za-z]{1,4}[\s-]*\d/.test(inner.trim())) add(inner)
+  }
+  for (const id of mergedIds) add(id)
+  return out
+}
+
+/** Initial compass bearing from a to b, in whole degrees. */
+export function bearing(a, b) {
+  const rad = Math.PI / 180
+  const y = Math.sin((b[0] - a[0]) * rad) * Math.cos(b[1] * rad)
+  const x = Math.cos(a[1] * rad) * Math.sin(b[1] * rad) - Math.sin(a[1] * rad) * Math.cos(b[1] * rad) * Math.cos((b[0] - a[0]) * rad)
+  return Math.round((Math.atan2(y, x) / rad + 360) % 360)
+}
+
 /** Segments longer than `minKm`: { i, a, b, km }, where i is the index of b. */
 export function longSegments(coords, minKm) {
   const out = []
@@ -65,8 +98,9 @@ export function offSegmentKm(p, a, b) {
 /**
  * What the verdict needs of an OSRM /route answer (with steps) for `seg`: its
  * length, how far its ends had to snap to reach a road, how far it strays from
- * the straight segment, its line, and its legs as [km, ref, kind], kind being
- * 'motorway', 'ferry' or ''.
+ * the straight segment, its line, and its legs as [km, ref, kind, name], kind
+ * being 'motorway', 'ferry' or ''. (The OSRM demo server sends no road
+ * classes, so 'motorway' only ever comes from a server that does.)
  */
 export function summarise(osrm, seg) {
   const route = osrm.routes?.[0]
@@ -77,7 +111,7 @@ export function summarise(osrm, seg) {
       if (!st.distance) continue
       const classes = st.intersections?.flatMap((x) => x.classes ?? []) ?? []
       const kind = st.mode === 'ferry' || classes.includes('ferry') ? 'ferry' : classes.includes('motorway') ? 'motorway' : ''
-      legs.push([Math.round(st.distance) / 1000, st.ref ?? '', kind])
+      legs.push([Math.round(st.distance) / 1000, st.ref ?? '', kind, st.name ?? ''])
     }
   }
   const coords = route.geometry.coordinates
@@ -90,33 +124,146 @@ export function summarise(osrm, seg) {
   }
 }
 
-/** The road route runs along the segment itself: a straight road, not a hole. */
+/**
+ * The road route runs along the segment itself: a straight road, not a hole.
+ * Its stretch from beside a to beside b is what counts (trim()), so a route
+ * that starts on the wrong carriageway, drives on to a U-turn and then down
+ * the whole segment is the road all the same (NH 47 near Bhavnagar, 6.6 km).
+ */
 export function isStraightRoad(seg, route) {
   if (!route || route.snapKm > 0.1) return false
-  return route.km <= seg.km * 1.02 + 0.2 && route.devKm < 0.15
+  const r = trim(seg, route)
+  return r.km <= seg.km * 1.02 + 0.2 && r.devKm < 0.15
+}
+
+/** A route end passing this close to the hole's end has reached it. */
+const NEAR_KM = 0.15
+/** route → segment's ends → trimmed: one route serves every line over its segment, either way round */
+const trimmed = new WeakMap()
+/**
+ * The route from where it last passes a to where it first reaches b, turned
+ * to run a to b. A router starting on the wrong carriageway goes on to a
+ * U-turn and comes back past the start; one arriving on the wrong side goes
+ * past the end and comes back. Neither out-and-back is road to draw, and both
+ * made a good route look long. Legs are scaled with the length (a spur runs
+ * on the road it leaves from).
+ */
+export function trim(seg, route) {
+  const key = `${seg.a}|${seg.b}`
+  let bySeg = trimmed.get(route)
+  if (!bySeg) trimmed.set(route, (bySeg = new Map()))
+  if (bySeg.has(key)) return bySeg.get(key)
+  const turned = route.coords.length && haversineKm(route.coords[0], seg.b) < haversineKm(route.coords[0], seg.a)
+  let out = turned ? { ...route, coords: [...route.coords].reverse(), legs: [...route.legs].reverse() } : route
+  route = out
+  const pts = resample(route.coords, 0.05)
+  // the closest point of the first pass by b, and of the last pass by a before it
+  const db = pts.map(({ p }) => haversineKm(p, seg.b))
+  let j = db.findIndex((d) => d <= NEAR_KM)
+  if (j < 0) j = pts.length - 1
+  else for (let k = j + 1; k < pts.length && db[k] <= NEAR_KM; k++) if (db[k] < db[j]) j = k
+  let i = 0
+  let k = j
+  while (k >= 0 && haversineKm(pts[k].p, seg.a) > NEAR_KM) k--
+  if (k >= 0) {
+    i = k
+    for (; k >= 0 && haversineKm(pts[k].p, seg.a) <= NEAR_KM; k--) if (haversineKm(pts[k].p, seg.a) < haversineKm(pts[i].p, seg.a)) i = k
+  }
+  const total = pts.length ? pts[pts.length - 1].km : 0
+  const [from, to] = [pts[i]?.km ?? 0, pts[j]?.km ?? 0]
+  if (pts.length > 1 && (from > 0.05 || to < total - 0.05)) {
+    const round = ([x, y]) => [Math.round(x * 1e5) / 1e5, Math.round(y * 1e5) / 1e5]
+    pts[i].p = round(pts[i].p)
+    pts[j].p = round(pts[j].p)
+    const coords = [pts[i].p]
+    let km = 0
+    for (let k = 1; k < route.coords.length; k++) {
+      km += haversineKm(route.coords[k - 1], route.coords[k])
+      if (km > from && km < to) coords.push(route.coords[k])
+    }
+    coords.push(pts[j].p)
+    const scale = route.km && total ? (to - from) / total : 1
+    out = {
+      ...route,
+      km: route.km * scale,
+      devKm: Math.max(0, ...coords.map((p) => offSegmentKm(p, seg.a, seg.b))),
+      coords,
+      legs: route.legs.map(([km, ...rest]) => [km * scale, ...rest]),
+    }
+  }
+  bySeg.set(key, out)
+  return out
 }
 
 /**
- * The better of a segment's two routes, a to b and b to a (`back`, already
- * turned to run a to b). A router keeps to one-way carriageways, and a line
+ * What to do with a segment, given every route asked for between its ends
+ * (each turned to run a to b): { straight } when one of them is the segment
+ * itself, else judge()'s verdict on the shortest route it takes for this road,
+ * with that `route`, or on the shortest of all when it takes none.
+ *
+ * There are several because a router keeps to one-way carriageways. A line
  * drawn down a dual carriageway against its traffic gets a route that runs on
- * to a U-turn and back — NH 148B's 11 km near Satnali came back as 21 km. The
- * other way round follows the carriageway.
+ * to a U-turn and back — NH 148B's 11 km near Satnali came back as 21 km — and
+ * the route the other way round follows the carriageway. And where a line's
+ * two pieces lie on opposite carriageways, as the Samruddhi Mahamarg's often
+ * do, neither way round does: 23.7 km of expressway came back as 70.9 km and
+ * 91.8 km. Asked with both ends held to the direction of travel, it is 23.8.
+ *
+ * Each route is judged as trim() leaves it. A refusal over whose road it is
+ * (another number's, or the line's own already) holds for every longer route
+ * along the same roads: how a router splits its steps decides how many of
+ * them carry a number, and SH 72's hole was drawn down NH 152 because the
+ * longer of two routes along it happened to name less of it.
  */
-export function bestRoute(seg, route, back) {
-  if (!back || isStraightRoad(seg, route)) return route
-  if (!route || isStraightRoad(seg, back)) return back
-  return back.km < route.km ? back : route
+export function choose(seg, routes, ctx) {
+  const found = routes.filter(Boolean).map((r) => trim(seg, r))
+  const straight = found.find((r) => isStraightRoad(seg, r))
+  if (straight) return { straight: true, ok: true, route: straight }
+  const verdicts = found.map((route) => ({ ...judge(seg, route, ctx), route })).sort((x, y) => x.route.km - y.route.km)
+  for (const v of verdicts) {
+    // a route mostly on the road's own number is its own evidence: OSM tags SH
+    // 168's Surat bypass SH 168 one way and NH 53 the other
+    if (!v.ok || v.own >= 0.5) continue
+    const by = verdicts.find((w) => w.whose && w.route.km <= v.route.km && sameRoads(v.route, w.route))
+    if (by) Object.assign(v, { ok: false, why: by.why })
+  }
+  // with none taken, the reason worth reporting is from a route that did reach the ends
+  const reached = verdicts.find((v) => v.route.snapKm <= SNAP_KM)
+  return verdicts.find((v) => v.ok) ?? reached ?? verdicts[0] ?? { ...judge(seg, null, ctx), route: null }
 }
 
-/** How a route's kilometres split: on the road's own number, another, none; motorway; ferry. */
-export function split(route, ref) {
-  const own = normRef(ref)
+/** Half of route x lies within 150 m of route y. */
+function sameRoads(x, y) {
+  const pts = resample(x.coords)
+  const near = pts.filter(({ p }) =>
+    y.coords.some((q, k) => k > 0 && Math.min(Math.abs(q[1] - p[1]), Math.abs(y.coords[k - 1][1] - p[1])) < 0.05 && offSegmentKm(p, y.coords[k - 1], q) < 0.15),
+  ).length
+  return near / pts.length >= 0.5
+}
+
+/** Whether a leg is on this road: by its number, or by its name. */
+function isOwn(own, refs, name) {
+  if (refs.some((r) => own.has(r))) return true
+  const n = normRef(name)
+  if (!n) return false
+  if (own.has(n)) return true
+  // "Hindu Hrudaysamrat … Samruddhi Mahamarg" is the Samruddhi Mahamarg; a bare
+  // "Expressway" is not every expressway, hence the length
+  for (const id of own) if (id.length >= 12 && n.includes(id)) return true
+  return false
+}
+
+/**
+ * How a route's kilometres split: on this road (`own`, a ref or an identity()
+ * set), on another number, on none; motorway; ferry.
+ */
+export function split(route, own) {
+  const ids = own instanceof Set ? own : new Set([normRef(own)].filter(Boolean))
   const out = { own: 0, other: 0, none: 0, motorway: 0, ferry: 0, mainOther: null }
   const others = new Map()
-  for (const [km, legRef, kind] of route.legs) {
+  for (const [km, legRef, kind, name] of route.legs) {
     const refs = String(legRef).split(';').map(normRef).filter(Boolean)
-    if (own && refs.includes(own)) out.own += km
+    if (isOwn(ids, refs, name)) out.own += km
     else if (refs.length) {
       out.other += km
       others.set(legRef, (others.get(legRef) ?? 0) + km)
@@ -150,31 +297,53 @@ export const SNAP_KM = 0.5
  * - A long route along another numbered road is that road. When OSM has only
  *   remnants of a number left (SH 20 Jhajjar–Sonipat: 9 km mapped, the road
  *   between them now NH 334B), drawing it along the other number would put two
- *   roads on one line.
+ *   roads on one line. A national highway may run on another national or
+ *   state highway's number: one shares tarmac with another for miles (NH 28
+ *   with NH 27 into Muzaffarpur), and most new ones were declared over a state
+ *   highway OSM still numbers the old way (NH 703 along SH 23). Not along a
+ *   district road, which is how a greenfield highway's unbuilt stretch looks
+ *   (NH 544G along MDR 68).
+ * - Where the line's own road already reaches an end of the hole, the hole is
+ *   a stitch jumping back, and a route along other roads between them is the
+ *   corridor drawn twice or a loop closed (NH 179B from Harur back to Salem,
+ *   SH 128 round the Ballari bypass).
  * - An expressway is its own road: a hole in one is an unbuilt or unmapped
- *   stretch, never the old road beside it.
+ *   stretch, never the old road beside it. A road still being built is drawn
+ *   only along its own mapped road (data/road-status.json); a planned one has
+ *   nothing built, so whatever road joins two points of it is some other road.
  * - A ferry is not road, and a route back along the road's own line is the
  *   stitch gone wrong.
+ *
+ * `own` is the road's identity() set; a bare `ref` will do where that is all
+ * there is. A refusal over whose road the route is comes back with `whose`.
  */
-export function judge(seg, route, { ref, category, line }) {
+export function judge(seg, route, { own, ref, category, status, line, undrawn }) {
   if (!route) return { ok: false, why: 'no road joins the two ends' }
   if (route.snapKm > SNAP_KM) return { ok: false, why: `an end is ${route.snapKm.toFixed(1)} km from any road` }
-  const s = split(route, ref)
+  if (status === 'planned') return { ok: false, why: 'the road is only planned: no road joining its points is it' }
+  const s = split(route, own ?? ref)
   const ownShare = route.km ? s.own / route.km : 0
+  if (status === 'under-construction' && ownShare < 0.5) {
+    return { ok: false, why: 'the road is still being built: only its own mapped road can close a hole' }
+  }
   const limit = ownShare >= 0.5 ? OWN_DETOUR * seg.km + 5 : DETOUR * seg.km + SLACK_KM
   if (route.km > limit) {
     return { ok: false, why: `the nearest road round is ${route.km.toFixed(1)} km for a ${seg.km.toFixed(1)} km hole` }
   }
   if (s.ferry > 0.2) return { ok: false, why: 'the way across is a ferry' }
+  if (ownShare < 0.5 && reachedElsewhere(seg, line, undrawn)) {
+    return { ok: false, whose: true, why: 'the line already reaches an end of the hole: a stitch jumping back' }
+  }
   if (route.km > SHARED_KM && s.other / route.km > 0.5 && ownShare < 0.25) {
-    return { ok: false, why: `the road between the ends is ${s.mainOther}` }
+    const highway = /^(NH|SHU?)\d/.test(normRef(s.mainOther))
+    if (category !== 'nh' || !highway) return { ok: false, whose: true, why: `the road between the ends is ${s.mainOther}` }
   }
   if (category === 'expressway' && ownShare < 0.5 && s.motorway / route.km < 0.8) {
     return { ok: false, why: 'no expressway joins the two ends' }
   }
-  if (retraces(route.coords, line, seg)) return { ok: false, why: 'the route runs back along the road itself' }
+  if (retraces(route.coords, line, seg, undrawn)) return { ok: false, whose: true, why: 'the route runs back along the road itself' }
   if (doublesBack(route.coords)) return { ok: false, why: 'the route turns back on itself' }
-  return { ok: true, why: `${route.km.toFixed(1)} km of road, ${Math.round(100 * ownShare)}% tagged with its number` }
+  return { ok: true, own: ownShare, why: `${route.km.toFixed(1)} km of road, ${Math.round(100 * ownShare)}% tagged with its number` }
 }
 
 /**
@@ -183,13 +352,13 @@ export function judge(seg, route, { ref, category, line }) {
  * straight — exactly where a U-turn's two legs run side by side.
  */
 const STEP_KM = 0.25
-function resample(coords) {
+function resample(coords, step = STEP_KM) {
   if (coords.length < 2) return coords.map((p) => ({ p, km: 0 }))
   const out = [{ p: coords[0], km: 0 }]
   let km = 0
   for (let i = 1; i < coords.length; i++) {
     const d = haversineKm(coords[i - 1], coords[i])
-    const n = Math.max(1, Math.ceil(d / STEP_KM))
+    const n = Math.max(1, Math.ceil(d / step))
     for (let k = 1; k <= n; k++) {
       const t = k / n
       out.push({ p: [coords[i - 1][0] + (coords[i][0] - coords[i - 1][0]) * t, coords[i - 1][1] + (coords[i][1] - coords[i - 1][1]) * t], km: km + d * t })
@@ -221,8 +390,29 @@ function doublesBack(coords) {
   return close / pts.length > 0.4
 }
 
-/** Over 30% of the route, away from the hole's ends, lies within 200 m of the rest of the line. */
-function retraces(coords, line, seg) {
+/**
+ * The line's road passes within 2 km (a quarter of the hole, if less) of the
+ * hole's a after it, or of its b before it: its own road already reaches that
+ * end, and the hole is the stitch going back. A route along other roads
+ * between them draws the corridor twice, or closes a loop. `undrawn` holds the
+ * indices of the line's other long segments that are not straight road: a
+ * hole is not road the line reaches anything by.
+ */
+function reachedElsewhere(seg, line, undrawn) {
+  if (!line?.length || !(seg.i >= 1)) return false
+  const reach = Math.min(2, seg.km / 4)
+  const near = (p, k) => !undrawn?.has(k) && offSegmentKm(p, line[k - 1], line[k]) < reach
+  for (let k = seg.i + 1; k < line.length; k++) if (near(seg.a, k)) return true
+  for (let k = 1; k <= seg.i - 1; k++) if (near(seg.b, k)) return true
+  return false
+}
+
+/**
+ * Over 30% of the route, away from the hole's ends, lies within 200 m of the
+ * rest of the line's road (not its other holes: NH 179B's 5.5 km gap was
+ * refused for lying beside the undrawn 65.6 km jump from Harur to Salem).
+ */
+function retraces(coords, line, seg, undrawn) {
   const probe = resample(coords)
     .map(({ p }) => p)
     .filter((p) => haversineKm(p, seg.a) > 1 && haversineKm(p, seg.b) > 1)
@@ -231,7 +421,7 @@ function retraces(coords, line, seg) {
   const hi = [Math.max(seg.a[0], seg.b[0]) + 0.5, Math.max(seg.a[1], seg.b[1]) + 0.5]
   const near = []
   for (let i = 1; i < line.length; i++) {
-    if (i === seg.i) continue
+    if (i === seg.i || undrawn?.has(i)) continue
     const [p, q] = [line[i - 1], line[i]]
     if (Math.max(p[0], q[0]) < lo[0] || Math.min(p[0], q[0]) > hi[0]) continue
     if (Math.max(p[1], q[1]) < lo[1] || Math.min(p[1], q[1]) > hi[1]) continue

@@ -36,7 +36,7 @@ import {
   MAX_SEGMENT_KM, ROOT, decodePolyline, encodePolyline, haversineKm, lineLengthKm, readCache, round5,
   simplify, sleep, writeCache,
 } from './lib/overpass.mjs'
-import { bestRoute, between, isStraightRoad, judge, longSegments, segKey, summarise } from './lib/gaps.mjs'
+import { bearing, between, choose, identity, isStraightRoad, longSegments, segKey, summarise } from './lib/gaps.mjs'
 
 const DRY = process.argv.includes('--dry')
 const onlyArg = process.argv.indexOf('--only')
@@ -47,6 +47,12 @@ const LEGACY_GEOM_DIR = join(ROOT, 'public', 'data', 'geometry')
 const ROADS_DIR = join(ROOT, 'public', 'data', 'roads')
 const OSRM = 'https://router.project-osrm.org/route/v1/driving'
 const UA = 'RoadTrackerIndia-data-build/1.0 (https://roadtrackerindia.com)'
+
+// a road merged into another is still how OSM numbers it ("ne-1" → NE 1)
+const mergedInto = new Map()
+for (const [from, to] of Object.entries(JSON.parse(readFileSync(join(ROOT, 'data', 'merged-roads.json'), 'utf8')).aliases ?? {})) {
+  mergedInto.set(to, [...(mergedInto.get(to) ?? []), from])
+}
 
 // ── read every line ──────────────────────────────────────────────────
 
@@ -77,8 +83,8 @@ const todo = new Map()
 for (const { long } of lines) for (const s of long) if (!(segKey(s.a, s.b) in routes)) todo.set(segKey(s.a, s.b), s)
 console.log(`routing ${todo.size} segments (${Object.keys(routes).length} cached)`)
 
-async function route(s) {
-  const url = `${OSRM}/${s.a[0]},${s.a[1]};${s.b[0]},${s.b[1]}?overview=full&geometries=geojson&steps=true`
+async function route(s, query) {
+  const url = `${OSRM}/${s.a[0]},${s.a[1]};${s.b[0]},${s.b[1]}?overview=full&geometries=geojson&steps=true${query}`
   for (let attempt = 0; ; attempt++) {
     try {
       const res = await fetch(url, { headers: { 'User-Agent': UA } })
@@ -97,11 +103,11 @@ async function route(s) {
 }
 
 /** Route every segment in `queue`, from its a to its b, into `cache` (saved as `name`). */
-async function routeAll(queue, cache, name) {
+async function routeAll(queue, cache, name, query = () => '') {
   let n = 0
   for (const [key, s] of queue) {
     const started = Date.now()
-    const osrm = await route(s)
+    const osrm = await route(s, query(s))
     const r = osrm && summarise(osrm, s)
     // only the line is cut down: the verdict already has what the full one says
     cache[key] = r && { ...r, coords: simplify(r.coords, 0.03, { maxSegKm: MAX_SEGMENT_KM }).map(([x, y]) => [round5(x), round5(y)]) }
@@ -127,10 +133,44 @@ for (const { long } of lines) {
 console.log(`routing ${backTodo.size} of them the other way (${Object.keys(backs).length} cached)`)
 await routeAll(backTodo, backs, 'routes-back.json')
 
+// Then with both ends held to a direction of travel, for a line whose two
+// pieces lie on opposite carriageways: from either end, the plain route runs on
+// to a U-turn. Each pass asks only for segments no route so far runs along.
+// 90° either side keeps a winding road's ends in reach, but at an interchange
+// it also takes the slip road beside the carriageway (the Samruddhi Mahamarg
+// near Mehkar: 57.5 km through the town for 10.4 km of expressway); 30° does
+// not, and asked from the other end it settled every expressway the 90° pass
+// left.
+const HELD = [
+  { name: 'routes-bearing.json', range: 90 },
+  { name: 'routes-bearing-back.json', range: 30, back: true },
+  { name: 'routes-bearing-30.json', range: 30 },
+]
+const held = []
+/** Every route asked for between a segment's ends so far, each turned to run a to b. */
+const candidates = (s, key) => [routes[key], backs[key], ...held.map((c) => c[key])].map((r) => along(s, r))
+for (const { name, range, back } of HELD) {
+  const cache = readCache('gaps', name) ?? {}
+  const queue = new Map()
+  for (const { long } of lines) {
+    for (const s of long) {
+      const key = segKey(s.a, s.b)
+      if (key in cache || candidates(s, key).some((r) => isStraightRoad(s, r))) continue
+      queue.set(key, back ? { ...s, a: s.b, b: s.a } : s)
+    }
+  }
+  console.log(`routing ${queue.size} of them held to their direction${back ? ' the other way' : ''}, ±${range}° (${Object.keys(cache).length} cached)`)
+  await routeAll(queue, cache, name, (q) => {
+    const deg = bearing(q.a, q.b)
+    return `&bearings=${deg},${range};${deg},${range}`
+  })
+  held.push(cache)
+}
+
 /** A cached route, turned to run from the segment's a to its b. */
 function along(s, r) {
   if (!r || haversineKm(r.coords[0], s.a) <= haversineKm(r.coords[0], s.b)) return r
-  return { ...r, coords: [...r.coords].reverse() }
+  return { ...r, coords: [...r.coords].reverse(), legs: [...r.legs].reverse() }
 }
 
 // ── 2. rewrite the lines ─────────────────────────────────────────────
@@ -142,16 +182,20 @@ for (const { id, file, geo, road, coords, long } of lines) {
   const at = new Map(long.map((s) => [s.i, s]))
   const out = [coords[0]]
   const holes = []
+  // the line's other long segments that no route runs along: holes or fills,
+  // neither of them road already drawn where the straight line runs
+  const undrawn = new Set(long.filter((s) => !candidates(s, segKey(s.a, s.b)).some((r) => isStraightRoad(s, r))).map((s) => s.i))
+  const ctx = { own: identity(road, mergedInto.get(id)), category: road?.category, status: road?.status, line: coords, undrawn }
   let addedKm = 0
   for (let i = 1; i < coords.length; i++) {
     const s = at.get(i)
     // each was asked for one way or the other, whichever way a line ran then
-    const path = s && bestRoute(s, along(s, routes[segKey(s.a, s.b)]), along(s, backs[segKey(s.a, s.b)]))
-    if (s && isStraightRoad(s, path)) {
+    const verdict = s && choose(s, candidates(s, segKey(s.a, s.b)), ctx)
+    const path = verdict?.route
+    if (verdict?.straight) {
       out.push(...between(s.a, s.b, MAX_SEGMENT_KM))
       stats.straight++
     } else if (s) {
-      const verdict = judge(s, path, { ref: road?.ref, category: road?.category, line: coords })
       if (verdict.ok) {
         // the route starts and ends where it met a road; the line's own ends stay
         const inner = path.coords.slice(haversineKm(path.coords[0], s.a) < 0.001 ? 1 : 0)
@@ -166,7 +210,7 @@ for (const { id, file, geo, road, coords, long } of lines) {
         addedKm += lineLengthKm([s.a, ...inner, s.b])
         stats.filled++
         stats.filledKm += s.km
-        filled.push({ id, km: s.km, why: verdict.why })
+        filled.push({ id, km: s.km, why: verdict.why, a: s.a, b: s.b })
       } else {
         holes.push(out.length)
         stats.holes++

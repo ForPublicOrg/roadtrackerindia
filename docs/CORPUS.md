@@ -159,9 +159,17 @@ node scripts/fill-gaps.mjs --dry           # report only
 ```
 
 For every segment over 5 km it asks a router (the OSRM demo server, OSM data,
-one request a second) for the road between the segment's two ends, both ways
-round when the first answer is not the segment itself, because a router keeps
-to one-way carriageways:
+one request a second) for the road between the segment's two ends. A router
+keeps to one-way carriageways, so when the first answer is not the segment
+itself it asks again: the other way round, then with both ends held to a
+direction of travel (`bearings`) — a to b within 90°, b to a within 30°, a to b
+within 30° — stopping at the first answer that runs along the segment. The held
+routes are for a line whose two pieces lie on opposite carriageways, as the
+Samruddhi Mahamarg's did all along its length: from either end the plain route
+runs on to an interchange and back, 70 km for 23.7 km of expressway, and the
+hole was left undrawn. The narrow ones are for an interchange, where 90° takes
+the slip road beside the carriageway. Of the answers, the shortest one
+`judge()` takes wins:
 
 - **The road is the segment itself** — a straight road from a line cached before
   the 5 km vertex rule. Points go in along it, so the gate stops reading it as
@@ -170,13 +178,32 @@ to one-way carriageways:
   `lengthKm` grows by the road filled in — never past the drawn line, because
   August's lines counted some bridges as road already, and never down, since
   correcting those old figures is a separate job. It must be at most 1.3× the bridge
-  plus 2 km, or 2× plus 5 km when half of it carries the road's own number
-  (mountain roads wind). It may not run more than 10 km mostly on another
-  number: SH 20 Jhajjar–Sonipat has 9 km left in OSM, and the road between its
-  pieces is NH 334B now, not SH 20. An expressway hole is filled only by
-  motorway. A ferry, a route back along the line (NH 709B's stitch jumped back
-  to a stub of road it had already drawn), or one out to a U-turn and back
-  down the other carriageway is refused.
+  plus 2 km, or 2× plus 5 km when half of it is the road itself (mountain roads
+  wind). The road itself is any leg whose number or name is one the road goes
+  by: its `ref`, `name`, `aka`, and the ids merged into it (`ne-1`), because OSM
+  numbers the Samruddhi Mahamarg ME-2 and the road file calls it by name. A
+  state or district road may not run more than 10 km mostly on another number:
+  SH 20 Jhajjar–Sonipat has 9 km left in OSM, and the road between its pieces
+  is NH 334B now, not SH 20. A national highway may run on another national or
+  state highway's number, since it shares tarmac with another for miles or was
+  declared over a state highway OSM still numbers the old way — but not on a
+  district road. Where the line's own road already reaches an end of the hole,
+  the hole is a stitch jumping back, and a route mostly on other roads between
+  them is the corridor drawn twice or a loop closed (NH 179B's Harur–Salem
+  corridor, SH 128 round the Ballari bypass). Such a refusal holds for every
+  longer route along the same roads, since how a router splits its steps
+  decides how much of a route carries a number. An expressway hole is filled
+  only by the expressway (the demo server reports no road classes, so in
+  practice by its number or name). A road being built is filled only along its
+  own mapped road, and a planned one by nothing at all — which is why
+  `data/road-status.json` exists: OSM maps a greenfield highway's alignment
+  years before it opens, the generator calls every road operational, and NH
+  544G's unbuilt stretches came out drawn along village roads. The generator
+  takes a road's status from that file. A ferry, a route back along the line
+  (NH 709B's stitch jumped back to a stub of road it had already drawn), or one
+  out to a U-turn and back down the other carriageway is refused. A route that
+  sets off the wrong way and turns round is judged, and drawn, from where it
+  last passes the hole's start to where it first reaches its end.
 - **Anything else stays a hole.** Its index goes in the line's `holes` list, and
   the build keeps it in the line for measuring but never draws it
   (docs/DATA.md). A road with holes shows as pieces, which is what OSM knows.
