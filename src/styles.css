@@ -605,6 +605,10 @@ details.rd-more[open] > summary::after { transform: rotate(-135deg); }
 }
 .sb-seg:first-child { border-radius: 6px 0 0 6px; }
 .sb-seg:last-child { border-radius: 0 6px 6px 0; }
+/* the road looked at the other way: laid out from its far end */
+.sb.is-rev { flex-direction: row-reverse; }
+.sb.is-rev .sb-seg:first-child { border-radius: 0 6px 6px 0; }
+.sb.is-rev .sb-seg:last-child { border-radius: 6px 0 0 6px; }
 .sb:hover .sb-seg { height: 14px; }
 .sb.has-sel .sb-seg { opacity: 0.3; }
 .sb.has-sel .sb-seg.is-sel { opacity: 1; height: 22px; }
@@ -662,7 +666,19 @@ details.sb-list[open] > summary::after { transform: translateY(2px) rotate(-135d
 /* the stretch list's 44px summary already leaves room above */
 details.sb-list + .rate { margin-top: 8px; }
 .rating-label { margin: 0; font-size: 13.5px; font-weight: 650; line-height: 1.4; }
+/* The label, and right after it the arrows that turn its direction round. The
+   button's target reaches into the card's padding and the gap below rather
+   than adding a row; the stars step down just far enough to stay clear of it. */
+.rate-top { display: flex; align-items: center; gap: 2px; }
+.rate-flip {
+  flex: none; display: grid; place-items: center; width: 36px; height: 36px; margin: -9px 0;
+  border-radius: 8px; color: var(--accent);
+}
+.rate-flip svg { width: 18px; height: 18px; }
+.rate-flip:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
+.rate-flip[hidden] { display: none; } /* the class's display would otherwise beat the attribute */
 .rate-row { display: flex; margin-top: 4px; }
+.rate.can-flip .rate-row { margin-top: 8px; }
 /* the stars' own padding, so the first one lines up with the label */
 .rate-row .stars { margin-left: -8px; }
 /* The write button, and beside it how the picked stretch rates so far: five
@@ -700,6 +716,8 @@ details.sb-list + .rate { margin-top: 8px; }
 @media (max-width: 768px) {
   .rate-write { min-height: 44px; margin-bottom: -10px; }
   .rate-meta { margin-top: 14px; }
+  .rate-flip { width: 44px; height: 44px; margin: -12px 0; }
+  .rate.can-flip .rate-row { margin-top: 13px; }
 }
 
 /* the review being written: where you drove, a few words, Post */

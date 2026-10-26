@@ -16,10 +16,13 @@ import {
   nearestStretch,
   rangeKey,
   rangeLabel,
+  rangeWay,
   scoreRange,
   scoreStretches,
   slug,
   stretchesFC,
+  stretchName,
+  wayLabel,
 } from '../src/stretches.ts'
 import { bboxOf, cumulativeKm, haversineKm, nearestOnLine, nearestRoads, segProject, sliceLine } from '../src/geo.ts'
 
@@ -147,7 +150,7 @@ test('expandRange gives up on keys it cannot place or that are not keys', () => 
   assert.equal(expandRange([], ALL), null)
 })
 
-test('rangeLabel reads in road order', () => {
+test('rangeLabel reads an old-spelling range in road order, the way it was rated', () => {
   assert.equal(rangeLabel(s, ALL), 'Whole road')
   assert.equal(rangeLabel(s, 'agra--delhi'), 'Delhi → Agra')
   assert.equal(rangeLabel(s, 'etawah--mathura'), 'Mathura → Etawah')
@@ -156,9 +159,58 @@ test('rangeLabel reads in road order', () => {
   assert.equal(rangeLabel([], 'agra--delhi'), 'Part of the road')
 })
 
-test('rangeLabel calls a range over every stretch the whole road, a loop included', () => {
-  // the two end stops, stored before "every stretch" was keyed as ALL
-  assert.equal(rangeLabel(s, 'delhi--etawah'), 'Whole road')
+test('rangeKey with a way keeps the order it was driven in, the whole road included', () => {
+  assert.equal(rangeKey(s, 0, 0, 'fwd'), 'delhi>mathura')
+  assert.equal(rangeKey(s, 0, 0, 'rev'), 'mathura>delhi')
+  assert.equal(rangeKey(s, 1, 2, 'rev'), 'etawah>mathura')
+  assert.equal(rangeKey(s, 2, 1, 'fwd'), 'mathura>etawah') // indices the wrong way round are still 1..2
+  // every stretch one way is a direction, not ALL
+  assert.equal(rangeKey(s, 0, 2, 'fwd'), 'delhi>etawah')
+  assert.equal(rangeKey(s, 0, 2, 'rev'), 'etawah>delhi')
+  assert.equal(rangeKey([], 0, 0, 'fwd'), ALL)
+  for (const way of ['fwd', 'rev']) {
+    for (let a = 0; a < 3; a++) {
+      for (let b = a; b < 3; b++) {
+        const key = rangeKey(s, a, b, way)
+        assert.ok(isRangeKey(key), key)
+        assert.deepEqual(expandRange(s, key), [a, b], key)
+        assert.equal(rangeWay(s, key), way, key)
+      }
+    }
+  }
+})
+
+test('rangeWay reads the direction from stops or marks, and road order from the old spelling', () => {
+  assert.equal(rangeWay(s, 'agra>delhi'), 'rev')
+  assert.equal(rangeWay(s, 'delhi>agra'), 'fwd')
+  assert.equal(rangeWay(s, 'firozabad>palwal', marks), 'rev')
+  assert.equal(rangeWay(s, 'palwal>kosi-kalan', marks), 'fwd')
+  assert.deepEqual(expandRange(s, 'firozabad>palwal', marks), [0, 2])
+  // sorted, so the key's own order is not the road's: Agra comes after Delhi
+  assert.equal(rangeWay(s, 'agra--delhi'), 'fwd')
+  assert.equal(rangeWay(s, 'firozabad--palwal', marks), 'fwd')
+  assert.equal(rangeWay(s, 'nowhere--delhi', marks), null)
+  assert.equal(rangeWay(s, ALL), null)
+  assert.equal(rangeWay(s, 'nowhere>delhi', marks), null)
+  assert.equal(expandRange(s, 'delhi>delhi'), null)
+  assert.equal(expandRange(s, 'delhi>>agra'), null)
+  assert.equal(expandRange(s, 'delhi-->agra'), null)
+  assert.equal(expandRange(s, 'delhi>agra--etawah'), null)
+})
+
+test('rangeLabel reads a range driven one way in the order it was driven', () => {
+  assert.equal(rangeLabel(s, 'delhi>agra'), 'Delhi → Agra')
+  assert.equal(rangeLabel(s, 'agra>delhi'), 'Agra → Delhi')
+  assert.equal(rangeLabel(s, 'firozabad>mathura', marks), 'Etawah → Mathura')
+  // the whole road one way is still a direction between two places
+  assert.equal(rangeLabel(s, 'etawah>delhi'), 'Etawah → Delhi')
+  assert.equal(rangeLabel(s, 'nowhere>delhi', marks), 'Part of the road')
+})
+
+test('rangeLabel names a run over every stretch by its ends, and a loop by which way round', () => {
+  // the two end stops in the old spelling, stored before "every stretch" was
+  // keyed as ALL: driven in road order like every old one
+  assert.equal(rangeLabel(s, 'delhi--etawah'), 'Delhi → Etawah')
   // ends that are no longer stops, placed by their marks, still cover it all
   const ends = shape({
     stops: [
@@ -169,7 +221,7 @@ test('rangeLabel calls a range over every stretch the whole road, a loop include
     ],
     marks: [['delhi', 0], ['etawah', L]],
   })
-  assert.equal(rangeLabel(buildStretches(ends), 'delhi--etawah', ends.properties.marks), 'Whole road')
+  assert.equal(rangeLabel(buildStretches(ends), 'delhi--etawah', ends.properties.marks), 'Palwal → Firozabad')
   // a loop starts and closes on one place, under a second key
   const ring = shape({
     stops: [
@@ -181,11 +233,24 @@ test('rangeLabel calls a range over every stretch the whole road, a loop include
     marks: [],
   })
   const loop = buildStretches(ring)
-  assert.equal(rangeLabel(loop, 'gachibowli--gachibowli-2'), 'Whole road')
   assert.equal(rangeKey(loop, 0, loop.length - 1), ALL)
-  // a part of the loop still reads by its ends
+  // a part of the loop still reads by its ends, an old one in road order
   assert.equal(rangeLabel(loop, 'gachibowli--medchal'), 'Gachibowli → Medchal')
   assert.equal(rangeLabel(loop, 'gachibowli-2--shamshabad'), 'Shamshabad → Gachibowli')
+  assert.equal(rangeLabel(loop, 'gachibowli-2>shamshabad'), 'Gachibowli → Shamshabad')
+  // All the way round from one place to itself says which way round. The
+  // test line runs due north, so a loop of it has no area; give it one.
+  const square = buildStretches({
+    ...ring,
+    properties: { ...ring.properties, km: undefined },
+    geometry: { type: 'LineString', coordinates: [[77, 0], [78, 0], [78, 1], [77, 1], [77, 0]] },
+  })
+  // east, north, west, south: anticlockwise in road order
+  assert.equal(rangeLabel(square, rangeKey(square, 0, square.length - 1, 'fwd')), 'Whole road, anticlockwise')
+  assert.equal(rangeLabel(square, rangeKey(square, 0, square.length - 1, 'rev')), 'Whole road, clockwise')
+  assert.equal(rangeLabel(square, 'gachibowli--gachibowli-2'), 'Whole road, anticlockwise') // old, so road order
+  assert.equal(wayLabel(square, 'fwd'), 'going anticlockwise')
+  assert.equal(wayLabel(square, 'rev'), 'going clockwise')
 })
 
 const stats = (votes) => {
@@ -231,6 +296,38 @@ test('scoreRange sums the counts of every range touching the selection', () => {
   assert.deepEqual(middleOn.counts, { 2: 1, 5: 1 })
 
   assert.equal(scoreRange(s, { [ALL]: stats([4]) }, 0, 2), null)
+})
+
+const ways = {
+  'delhi>mathura': stats([5, 5]), // stretch 0, driven from Delhi
+  'mathura>delhi': stats([1]), // stretch 0, the other carriageway
+  'delhi--mathura': stats([3]), // stretch 0, before directions: road order, from Delhi
+  'etawah>delhi': stats([2, 2, 2]), // every stretch, one way: the whole road
+}
+
+test('scoreStretches given a way colours each side by its own votes, never the two together', () => {
+  // driven from Delhi: 5, 5 and the old 3, which was rated in road order
+  assert.deepEqual(scoreStretches(s, ways, undefined, 'fwd'), [{ mean: 13 / 3, votes: 3 }, null, null])
+  // the other carriageway: its 1 alone — the whole road one way colours nothing
+  assert.deepEqual(scoreStretches(s, ways, undefined, 'rev'), [{ mean: 1, votes: 1 }, null, null])
+  // an old rating is on the road-order side only
+  assert.deepEqual(scoreStretches(s, { 'delhi--mathura': stats([4]) }, undefined, 'fwd')[0], { mean: 4, votes: 1 })
+  assert.deepEqual(scoreStretches(s, { 'delhi--mathura': stats([4]) }, undefined, 'rev')[0], null)
+  assert.deepEqual(scoreStretches(s, { 'delhi>mathura': stats([4]) }, undefined, 'rev')[0], null)
+})
+
+test('scoreRange given a way leaves out the other way, old ratings on the road-order side', () => {
+  assert.deepEqual(scoreRange(s, ways, 0, 0, undefined, 'fwd'), { mean: 13 / 3, votes: 3, counts: { 5: 2, 3: 1 } })
+  assert.deepEqual(scoreRange(s, ways, 0, 0, undefined, 'rev'), { mean: 1, votes: 1, counts: { 1: 1 } })
+  assert.equal(scoreRange(s, ways, 0, 0).votes, 4)
+  // nobody drove stretch 1 on its own, and the whole road one way says nothing about it
+  assert.equal(scoreRange(s, ways, 1, 1, undefined, 'rev'), null)
+})
+
+test('intersects places a range driven one way like any other', () => {
+  assert.equal(intersects(s, 'mathura>delhi', 0, 0), true)
+  assert.equal(intersects(s, 'mathura>delhi', 1, 2), false)
+  assert.equal(intersects(s, 'etawah>delhi', 1, 1), true)
 })
 
 test('intersects keeps whole-road and unplaceable reviews in every filter', () => {
@@ -279,6 +376,19 @@ test('stretchesFC carries index, rounded score and the hover line', () => {
 
   const unrated = stretchesFC(s, [null, null, null])
   assert.deepEqual(unrated.features[2].properties, { i: 2, score: 0, tip: 'Agra → Etawah · not rated yet' })
+
+  // looked at the other way, each stretch is named the way it is driven
+  const back = stretchesFC(s, scoreStretches(s, ways, undefined, 'rev'), 'rev')
+  assert.deepEqual(back.features[0].properties, { i: 0, score: 1, tip: 'Mathura → Delhi · ★ 1.0 · 1 rating' })
+  assert.equal(back.features[2].properties.tip, 'Etawah → Agra · not rated yet')
+})
+
+test('wayLabel names the end a way heads for, or which way round a loop goes', () => {
+  assert.equal(wayLabel(s, 'fwd'), 'towards Etawah')
+  assert.equal(wayLabel(s, 'rev'), 'towards Delhi')
+  assert.equal(wayLabel([], 'fwd'), '')
+  assert.equal(stretchName(s[1]), 'Mathura → Agra')
+  assert.equal(stretchName(s[1], 'rev'), 'Agra → Mathura')
 })
 
 test('slug makes keys the range pattern accepts', () => {

@@ -11,6 +11,13 @@
  * the rating card and the reviews to that part. Roads too short or too
  * unreliable to cut up (see stretches.ts) keep one set of stars for the whole road.
  *
+ * A road is looked at, and rated, one way at a time: the card says "Rate Agra →
+ * Gwalior", and the arrows beside it turn that round to "Gwalior → Agra" — two
+ * carriageways on a divided road, a climb and a descent on a ghat. Everything
+ * follows the way being looked at, never both added together: the colours on
+ * the map, the bar (laid out from the end you start at), the stretch list, the
+ * card's score. Arrows along the road on the map say which way that is.
+ *
  * Every fact is said once, and there is one row of stars to tap: the card's.
  * The headline's stars only show the average. Writing a review opens inside
  * that card, under those same stars, so rating a road and reviewing it are one
@@ -31,13 +38,18 @@ import {
   expandRange,
   intersects,
   nearestStretch,
+  otherWay,
   rangeKey,
   rangeLabel,
+  rangeWay,
   scoreRange,
   scoreStretches,
   stretchesFC,
+  stretchName,
+  wayLabel,
   type Stretch,
   type StretchScore,
+  type Way,
 } from './stretches'
 import type { BBox, LngLat, RatingSummary, ReviewItem, ShapeFeature, StretchProps, UserStore } from './types'
 import { esc, relTime, toast } from './ui'
@@ -48,6 +60,8 @@ const THUMB =
   '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 7h3v7H2zM5 7l3-5.5c1.2 0 2 .9 1.8 2.1L9.3 7H13a1.5 1.5 0 0 1 1.45 1.9l-1.2 4.2A1.5 1.5 0 0 1 11.8 14H5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>'
 const PEN =
   '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 12h10M3 9.5 10 2.5l1.5 1.5-7 7H3z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>'
+const FLIP =
+  '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2.5 5.5h10.5M10.5 2.5l3 3-3 3M13.5 10.5H3M5.5 7.5l-3 3 3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
 
 /** How many reviews show before "Show more" — enough to get the gist, not a wall. */
 const SHOWN = 3
@@ -116,7 +130,7 @@ interface Composer {
   original: string | null
   /** What it opened with. Stars, words or a range changed since are a draft,
    *  and a stray Escape or tap on the map must not throw a draft away. */
-  start: { stars: number | null; text: string; span: Span | null }
+  start: { stars: number | null; text: string; span: Span | null; way: Way }
   /** A new review picked onto a range you already hold, and what it brought
    *  in from that entry (null where it brought nothing), so it can take them
    *  away again when the range moves on — see fillHeld. */
@@ -148,6 +162,13 @@ interface Road {
   /** What the reviews are narrowed to. The composer never changes it, so
    *  closing the composer hands the bar and the map straight back to it. */
   sel: Span | null
+  /** Which way the road is being looked at and rated — the composer's From
+   *  and To included, so what it posts and the colours around it agree. It
+   *  stays as it is from one stretch to the next: whoever drove Gwalior → Agra
+   *  drove the stretches either side of it that way too. */
+  way: Way
+  /** The way `scores` and `fc` were worked out for. */
+  scoredWay: Way
   composer: Composer | null
   expanded: boolean
   /** Reviews opened with "Read more". The list is rebuilt on every change —
@@ -189,14 +210,18 @@ function spanBox(s: readonly Stretch[], sp: Span): BBox {
   return box
 }
 
-const spanName = (r: Road, sp: Span): string => `${r.s[sp[0]].fromName} → ${r.s[sp[1]].toName}`
+const spanName = (r: Road, sp: Span): string =>
+  viewWay(r) === 'fwd' ? `${r.s[sp[0]].fromName} → ${r.s[sp[1]].toName}` : `${r.s[sp[1]].toName} → ${r.s[sp[0]].fromName}`
 
 /** What a range is called in a sentence: "Delhi → Agra", or the road itself —
- *  which a key over every stretch is too, whatever its two ends are called. */
+ *  which a key over every stretch is too, whatever its two ends are called,
+ *  unless it is driven one way between two different places. */
 function nameOf(r: Road, key: string): string {
-  const sp = key === ALL ? null : expandRange(r.s, key, r.marks)
-  if (key === ALL || (sp && sp[0] === 0 && sp[1] === r.s.length - 1)) return r.s.length ? 'the whole road' : 'this road'
-  return sp ? rangeLabel(r.s, key, r.marks) : 'part of the road'
+  if (key === ALL) return r.s.length ? 'the whole road' : 'this road'
+  const label = rangeLabel(r.s, key, r.marks)
+  // the labels that are not place names, as they read mid-sentence
+  if (label === 'Part of the road') return 'part of the road'
+  return label.startsWith('Whole road') ? `the w${label.slice(1)}` : label
 }
 
 /** The stretches lit up on the bar, the list and the map: the composer's pick
@@ -207,13 +232,39 @@ function activeSpan(r: Road): Span | null {
   return c.locked ? expandRange(r.s, c.locked, r.marks) : c.span
 }
 
+/** Which way that span is being rated: an entry being edited, the way it was
+ *  driven. null only for an edit of the whole road's `all`. */
+function activeWay(r: Road): Way | null {
+  const c = r.composer
+  return c?.locked ? rangeWay(r.s, c.locked, r.marks) : r.way
+}
+
+/** The way the colours, the bar and the list show the road: the way being
+ *  rated, or while `all` is being edited, the way it was looked at. */
+const viewWay = (r: Road): Way => activeWay(r) ?? r.way
+
+/**
+ * The key stretches sp are rated under, driven `way`. A rating you gave before
+ * directions sits under the old spelling, `agra--delhi`, and was driven in road
+ * order — so for the road-order way it is that entry, and re-rating it or adding
+ * words changes it, rather than casting you a second vote on the same side.
+ * Everybody else writes the new key.
+ */
+function ownKey(r: Road, sp: Span, way: Way): string {
+  const key = rangeKey(r.s, sp[0], sp[1], way)
+  if (way !== 'fwd') return key
+  // every stretch in the old spelling is `all`, the headline's own vote
+  const old = rangeKey(r.s, sp[0], sp[1])
+  return old !== ALL && r.store.getMyEntries(r.roadId)[old] ? old : key
+}
+
 /** The range the composer would post to — null until one is picked. */
 function composerKey(r: Road): string | null {
   const c = r.composer
   if (!c) return null
   if (c.locked) return c.locked
   if (!r.s.length) return ALL
-  return c.span ? rangeKey(r.s, c.span[0], c.span[1]) : null
+  return c.span ? ownKey(r, c.span, r.way) : null
 }
 
 /** The range the card's stars rate. null: a stretched road with nothing
@@ -221,7 +272,19 @@ function composerKey(r: Road): string | null {
 function rowKey(r: Road): string | null {
   if (r.composer) return composerKey(r)
   if (!r.s.length) return ALL
-  return r.sel ? rangeKey(r.s, r.sel[0], r.sel[1]) : null
+  return r.sel ? ownKey(r, r.sel, r.way) : null
+}
+
+/** What the card's arrows turn to, said the way the label would say it: the
+ *  picked stretches driven back, or the road looked at from its other end.
+ *  null where there is no other way to turn to: a road with no stretches, or
+ *  an entry being edited, whose range is the entry. */
+function flipName(r: Road): string | null {
+  const c = r.composer
+  if (!r.s.length || c?.locked) return null
+  const sp = c ? c.span : r.sel
+  const other = otherWay(r.way)
+  return sp ? nameOf(r, rangeKey(r.s, sp[0], sp[1], other)) : wayLabel(r.s, other)
 }
 
 function rowStars(r: Road): number | null {
@@ -245,8 +308,11 @@ function near(r: Road): Span | null {
 
 /** Stars, words or where you drove changed since the composer opened. Picking
  *  From and To is work too, and a tap that misses the road must not undo it. */
-const touched = (c: Composer): boolean =>
-  c.stars !== c.start.stars || c.text !== c.start.text || String(c.span) !== String(c.start.span)
+const touched = (r: Road, c: Composer): boolean =>
+  c.stars !== c.start.stars ||
+  c.text !== c.start.text ||
+  String(c.span) !== String(c.start.span) ||
+  (c.span !== null && r.way !== c.start.way)
 
 // ── painting ─────────────────────────────────────────────────────────
 
@@ -333,12 +399,16 @@ function ratingHtml(r: Road): string {
   // far shares the row with the write button: beside five thumb-sized stars a
   // phone has no room for it, and it would only wrap onto a row of its own.
   // Letting go of a pick is the reviews' "Show all", next to what it changes.
+  // The arrows beside the label turn what it names round, "Agra → Gwalior" to
+  // "Gwalior → Agra", right where the direction is written — and with it the
+  // whole road: the bar, the list and the map show that way's ratings.
+  const flip = n ? `<button type="button" class="rate-flip" data-act="flip" hidden>${FLIP}</button>` : ''
   return `
     <h3>Reviews</h3>
     <div class="rating-head"></div>
     ${stretches}
     <div class="rate">
-      <p class="rating-label" id="rating-label"></p>
+      <div class="rate-top"><p class="rating-label" id="rating-label"></p>${flip}</div>
       <div class="rate-row">
         <div class="stars" role="group" aria-labelledby="rating-label">${starButtons()}</div>
       </div>
@@ -376,13 +446,37 @@ function rowHtml(r: Road, i: number): string {
     ? `<span aria-hidden="true">★ ${sc.mean.toFixed(1)} (${sc.votes})</span><span class="visually-hidden">${sc.mean.toFixed(1)} stars from ${plural(sc.votes, 'rating')}</span>`
     : 'not rated yet'
   return `<i class="sb-dot s${scoreClass(sc)}" aria-hidden="true"></i>
-    <span class="sb-name">${esc(st.fromName)} → ${esc(st.toName)}</span>
+    <span class="sb-name">${esc(stretchName(st, r.scoredWay))}</span>
     <span class="sb-meta">${kmText(displayKm(r.s, i, i, r.lengthKm))} · ${score}</span>`
+}
+
+/**
+ * The bar and the list read from the end you start at: looking at the road
+ * driven back, the bar is laid out the other way round, its ends swap, and the
+ * list runs from the other end. The rows are moved rather than restyled, so a
+ * keyboard meets them in the order they are shown.
+ */
+function orderStretches(r: Road): void {
+  const el = r.ratingEl
+  const rev = r.scoredWay === 'rev'
+  el.querySelector('.sb')?.classList.toggle('is-rev', rev)
+  const ends = el.querySelectorAll('.sb-ends span')
+  const n = r.s.length
+  if (ends.length === 2) {
+    ends[0].textContent = rev ? r.s[n - 1].toName : r.s[0].fromName
+    ends[1].textContent = rev ? r.s[0].fromName : r.s[n - 1].toName
+  }
+  const box = el.querySelector('.sb-rows')
+  const first = rev ? String(n - 1) : '0'
+  if (!box || (box.firstElementChild as HTMLElement | null)?.dataset.i === first) return
+  const rows = Array.from(box.children).reverse()
+  for (const row of rows) box.appendChild(row)
 }
 
 function paintStretches(r: Road): void {
   const el = r.ratingEl
   const sp = activeSpan(r)
+  orderStretches(r)
   el.querySelector('.sb')?.classList.toggle('has-sel', sp !== null)
   el.querySelectorAll<HTMLElement>('.sb-seg').forEach((seg) => {
     const i = Number(seg.dataset.i)
@@ -400,7 +494,8 @@ function paintStretches(r: Road): void {
 function labelText(r: Road, key: string | null): string {
   const locked = r.composer?.locked
   if (locked) return `Your review of ${nameOf(r, locked)}`
-  return key === null ? 'Rate a stretch' : `Rate ${nameOf(r, key)}`
+  // with nothing picked, which way the road is being looked at
+  return key === null ? `Rate a stretch ${wayLabel(r.s, r.way)}` : `Rate ${nameOf(r, key)}`
 }
 
 /** How a picked stretch rates so far, next to the stars that rate it — the
@@ -410,7 +505,8 @@ function metaHtml(r: Road, sp: Span): string {
   const km = `<span>${kmText(displayKm(r.s, sp[0], sp[1], r.lengthKm))}</span>`
   // until the read lands, "not rated yet" would only be a guess
   if (!r.loaded) return km
-  const sc = scoreRange(r.s, r.summary?.ranges, sp[0], sp[1], r.marks)
+  // the way the label names: what the other way's drivers said is theirs
+  const sc = scoreRange(r.s, r.summary?.ranges, sp[0], sp[1], r.marks, viewWay(r))
   if (!sc) return `not rated yet · ${km}`
   const mean = sc.mean.toFixed(1)
   return `<span aria-hidden="true">★ ${mean} · ${plural(sc.votes, 'rating')}</span><span class="visually-hidden">${mean} stars from ${plural(sc.votes, 'rating')}</span> · ${km}`
@@ -434,6 +530,17 @@ function paintRate(r: Road): void {
   const c = r.composer
   const key = rowKey(r)
   setHtml(el.querySelector('.rating-label'), esc(labelText(r, key)))
+  const flip = el.querySelector<HTMLButtonElement>('.rate-flip')
+  if (flip) {
+    const other = flipName(r)
+    flip.hidden = other === null
+    el.querySelector('.rate')?.classList.toggle('can-flip', other !== null)
+    if (other !== null) {
+      const label = `Switch to the other way: ${other}`
+      flip.setAttribute('aria-label', label)
+      flip.title = label
+    }
+  }
   paintStars(el.querySelector('.rate-row'), rowStars(r))
   // While composing, the composer's own line says what is picked, and one
   // announcement is enough.
@@ -448,6 +555,12 @@ function paintRate(r: Road): void {
 }
 
 function paintRating(r: Road): void {
+  // The way can turn under any repaint — the arrows, From after To, opening
+  // an entry driven the other way — and the colours on the map go with it.
+  if (r.scoredWay !== viewWay(r)) {
+    rescore(r)
+    showOnMap(r)
+  }
   setHtml(r.ratingEl.querySelector('.rating-head'), headHtml(r))
   if (r.s.length) paintStretches(r)
   paintRate(r)
@@ -472,13 +585,14 @@ function listSpan(r: Road): Span | null {
   return sp && !(sp[0] === 0 && sp[1] === r.s.length - 1) ? sp : null
 }
 
-/** Which part of the road a review is about. A road with no stretches has no
- *  parts to tell apart, so its reviews carry no chip at all — and a review of
- *  just what the list is narrowed to needs none either: the card above names it. */
+/** Which part of the road a review is about, and which way. A road with no
+ *  stretches has no parts to tell apart, so its reviews carry no chip at all —
+ *  and a review of just what the list is narrowed to, driven the way the card
+ *  above names, needs none either. One from the other way says so. */
 function rangeChip(r: Road, key: string, sp: Span | null): string {
   if (!r.s.length) return ''
   const ex = sp ? expandRange(r.s, key, r.marks) : null
-  if (sp && ex && ex[0] === sp[0] && ex[1] === sp[1]) return ''
+  if (sp && ex && ex[0] === sp[0] && ex[1] === sp[1] && rangeWay(r.s, key, r.marks) === activeWay(r)) return ''
   return `<span class="rv-range">${esc(rangeLabel(r.s, key, r.marks))}</span>`
 }
 
@@ -605,14 +719,23 @@ function showOnMap(r: Road): void {
 function syncMap(r: Road, fly: boolean): void {
   if (!onMap(r)) return
   const sp = activeSpan(r)
-  setStretchSelection(sp ? indices(sp) : null)
+  // Arrows say which way the colours are: along a picked run, the way it is
+  // being rated; with nothing picked, along the whole road.
+  setStretchSelection(sp ? indices(sp) : null, viewWay(r))
   if (fly && sp) flyToRoad(spanBox(r.s, sp))
+}
+
+/** Each stretch's score driven the way the road is being looked at, never the
+ *  two ways added together, and the map's lines to match. */
+function rescore(r: Road): void {
+  r.scoredWay = viewWay(r)
+  r.scores = scoreStretches(r.s, r.summary?.ranges, r.marks, r.scoredWay)
+  r.fc = stretchesFC(r.s, r.scores, r.scoredWay)
 }
 
 /** Everything that follows from a new summary: the scores, both slots, the map. */
 function refresh(r: Road): void {
-  r.scores = scoreStretches(r.s, r.summary?.ranges, r.marks)
-  r.fc = stretchesFC(r.s, r.scores)
+  rescore(r)
   paintRating(r)
   renderList(r)
   showOnMap(r)
@@ -636,6 +759,20 @@ function setSel(r: Road, sp: Span | null): void {
   paintRating(r)
   renderList(r)
   syncMap(r, sp !== null)
+}
+
+/** The card's arrows: the road looked at, and rated, the other way — its
+ *  colours on the map and the bar, the list, the card's score and what its
+ *  stars rate. In the composer it also swaps From and To. */
+function flip(r: Road): void {
+  const c = r.composer
+  if (c && (c.busy || c.locked)) return
+  r.way = otherWay(r.way)
+  if (c) return rangeMoved(r, c, false)
+  paintRating(r)
+  // reviews from the way just left now carry a chip saying so
+  renderList(r)
+  syncMap(r, false)
 }
 
 /** The filter rule: a tap picks that one stretch, and a tap on the one picked
@@ -710,10 +847,16 @@ function fillHeld(r: Road, c: Composer): void {
   c.fill = fill
 }
 
+/** The stops a span starts and ends at, driven that way: stop j is where
+ *  stretch j starts, so stretches j..k-1 run from stop j to stop k. */
+function endsOf(sp: Span, way: Way): [number, number] {
+  return way === 'fwd' ? [sp[0], sp[1] + 1] : [sp[1] + 1, sp[0]]
+}
+
 /**
- * From or To moved. Stop j is where stretch j starts, so "From j to k" is
- * stretches j..k-1. The other end follows when it has to, so the pair always
- * names a real run, never an empty or a backwards one.
+ * From or To moved. Either can be any stop: From after To is the same road
+ * driven back. The other end follows when it has to — to the next stop the
+ * way being driven — so the pair always names a real run, never an empty one.
  */
 function endPicked(r: Road, end: 'from' | 'to', raw: string): void {
   const c = r.composer
@@ -724,20 +867,24 @@ function endPicked(r: Road, end: 'from' | 'to', raw: string): void {
     syncMap(r, false)
     return
   }
-  const last = r.s.length - 1
+  const stops = r.s.length
   if (raw === '') c.span = null
   else {
-    const j = Number(raw)
-    let from = c.span ? c.span[0] : null
-    let to = c.span ? c.span[1] + 1 : null
+    const j = Math.max(0, Math.min(stops, Number(raw)))
+    const step = r.way === 'fwd' ? 1 : -1
+    const beside = (k: number, by: number) => (k + by >= 0 && k + by <= stops ? k + by : k - by)
+    const was = c.span ? endsOf(c.span, r.way) : null
+    let from: number
+    let to: number
     if (end === 'from') {
       from = j
-      if (to === null || to <= from) to = from + 1
+      to = was && was[1] !== from ? was[1] : beside(from, step)
     } else {
       to = j
-      if (from === null || from >= to) from = to - 1
+      from = was && was[0] !== to ? was[0] : beside(to, -step)
     }
-    c.span = [Math.max(0, Math.min(last, from)), Math.max(0, Math.min(last, to - 1))]
+    r.way = from < to ? 'fwd' : 'rev'
+    c.span = [Math.min(from, to), Math.max(from, to) - 1]
   }
   rangeMoved(r, c, c.span !== null)
 }
@@ -834,7 +981,7 @@ function nudge(r: Road, c: Composer): void {
 /** The open composer holds something a stray tap must not throw away. */
 const keeps = (r: Road): Composer | null => {
   const c = r.composer
-  return c && inPanel(r) && (c.busy || touched(c)) ? c : null
+  return c && inPanel(r) && (c.busy || touched(r, c)) ? c : null
 }
 
 /**
@@ -891,7 +1038,7 @@ export function hasDraft(roadId: string): boolean {
 export function mayLeaveDraft(): boolean {
   const r = cur
   const c = r && inPanel(r) ? r.composer : null
-  if (!r || !c || c.busy || !touched(c)) return true
+  if (!r || !c || c.busy || !touched(r, c)) return true
   if (confirm("Your review isn't posted yet. Leave without posting it?")) {
     cancelComposer(r)
     return true
@@ -918,19 +1065,15 @@ interface ComposerInit {
 type Aim = 'text' | 'stars'
 
 function composerHtml(r: Road, c: Composer): string {
-  // Every stop in road order. A run starts at any stop but the last and ends
-  // at any stop but the first; first to last is the whole road.
+  // Every stop in road order, in both lists: a run starts and ends at any two
+  // different stops, and From after To is the road driven back.
   const stops = r.s.length ? [r.s[0].fromName, ...r.s.map((st) => st.toName)] : []
-  const opts = (from: number, to: number) =>
-    stops
-      .slice(from, to)
-      .map((name, k) => `<option value="${from + k}">${esc(name)}</option>`)
-      .join('')
+  const opts = stops.map((name, j) => `<option value="${j}">${esc(name)}</option>`).join('')
   const pick =
     r.s.length && !c.locked
       ? `<div class="rv-pick" role="group" aria-label="Where you drove">
-          <span class="rv-end"><label for="rv-from">From</label><select id="rv-from" data-end="from"><option value="">Choose…</option>${opts(0, stops.length - 1)}</select></span>
-          <span class="rv-end"><label for="rv-to">To</label><select id="rv-to" data-end="to"><option value="">Choose…</option>${opts(1, stops.length)}</select></span>
+          <span class="rv-end"><label for="rv-from">From</label><select id="rv-from" data-end="from"><option value="">Choose…</option>${opts}</select></span>
+          <span class="rv-end"><label for="rv-to">To</label><select id="rv-to" data-end="to"><option value="">Choose…</option>${opts}</select></span>
         </div>
         <p class="rv-pick-sum" aria-live="polite"></p>`
       : ''
@@ -969,11 +1112,11 @@ function paintComposer(r: Road, c: Composer): void {
   const from = form.querySelector<HTMLSelectElement>('#rv-from')
   const to = form.querySelector<HTMLSelectElement>('#rv-to')
   if (from && to) {
-    const sp = c.span
-    from.value = sp ? String(sp[0]) : ''
-    to.value = sp ? String(sp[1] + 1) : ''
-    // nothing can end before it starts
-    for (const o of Array.from(to.options)) o.disabled = sp !== null && o.value !== '' && Number(o.value) <= sp[0]
+    const ends = c.span ? endsOf(c.span, r.way) : null
+    from.value = ends ? String(ends[0]) : ''
+    to.value = ends ? String(ends[1]) : ''
+    // a drive ends somewhere other than where it started
+    for (const o of Array.from(to.options)) o.disabled = ends !== null && o.value === String(ends[0])
     setHtml(form.querySelector('.rv-pick-sum'), pickSumHtml(r, key))
   }
   const area = form.querySelector<HTMLTextAreaElement>('textarea')
@@ -1002,7 +1145,7 @@ function openComposer(r: Road, init: ComposerInit, aim: Aim): void {
   const box = r.ratingEl.querySelector<HTMLElement>('.rate-act')
   if (!box || !live(r)) return
   const open = r.composer
-  if (open && (open.busy || touched(open))) {
+  if (open && (open.busy || touched(r, open))) {
     // one at a time — never throw away words already typed
     focusOn(box.querySelector<HTMLElement>('textarea'))
     r.ratingEl.querySelector('.rate')?.scrollIntoView({ block: 'nearest', behavior: smooth() })
@@ -1015,14 +1158,14 @@ function openComposer(r: Road, init: ComposerInit, aim: Aim): void {
     stars: init.stars ?? null,
     text: init.text ?? '',
     original: init.original ?? null,
-    start: { stars: null, text: '', span: null },
+    start: { stars: null, text: '', span: null, way: 'fwd' },
     fill: null,
     busy: false,
   }
   r.composer = c
   fillHeld(r, c)
   // what it opens with, an entry you hold included, is not yet a draft
-  c.start = { stars: c.stars, text: c.text, span: c.span }
+  c.start = { stars: c.stars, text: c.text, span: c.span, way: r.way }
   said = { text: '', at: -Infinity } // a new draft gets its own first "not posted yet"
   setHtml(box, composerHtml(r, c))
   paintRating(r)
@@ -1051,6 +1194,8 @@ function cancelComposer(r: Road): void {
   if (!c || c.busy) return
   // a tap on the map is not a reason to pull focus into the panel
   const wasIn = r.ratingEl.querySelector('.rv-form')?.contains(document.activeElement) ?? false
+  // the way the draft turned the road goes back with it, as its pick does
+  r.way = c.start.way
   closeComposer(r)
   paintRating(r)
   renderList(r)
@@ -1098,8 +1243,10 @@ async function post(r: Road): Promise<void> {
     adopt(r, res.summary)
     r.pending.delete(res.range)
     closeComposer(r)
-    // show what was just posted in its place: the list narrowed to its stretches
+    // show what was just posted in its place: the list narrowed to its
+    // stretches, and the card facing the way it was driven
     r.sel = res.range === ALL ? null : expandRange(r.s, res.range, r.marks)
+    r.way = rangeWay(r.s, res.range, r.marks) ?? r.way
     r.expanded = false
     r.opened.clear()
     refresh(r)
@@ -1299,6 +1446,8 @@ function wire(r: Road, signal: AbortSignal): void {
         }
         case 'cancel':
           return cancelComposer(r)
+        case 'flip':
+          return flip(r)
       }
       const row = t.closest<HTMLButtonElement>('.sb-row')
       if (row) return pick(r, Number(row.dataset.i))
@@ -1415,6 +1564,8 @@ export async function renderCommunity(ratingEl: HTMLElement, reviewsEl: HTMLElem
     scores,
     fc: stretchesFC(s, scores),
     sel: null,
+    way: 'fwd',
+    scoredWay: 'fwd',
     composer: null,
     expanded: false,
     opened: new Set(),

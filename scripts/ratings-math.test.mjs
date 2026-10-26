@@ -88,6 +88,30 @@ test('canonicalRange sorts the two slugs and rejects anything else', () => {
   assert.ok(RANGE_KEY.test('agra--delhi') && !RANGE_KEY.test('agra'))
 })
 
+test('canonicalRange keeps a range driven one way in the order it was driven', () => {
+  assert.equal(canonicalRange('delhi>agra'), 'delhi>agra')
+  assert.equal(canonicalRange('agra>delhi'), 'agra>delhi')
+  assert.equal(canonicalRange('new-delhi>agra-2'), 'new-delhi>agra-2')
+  assert.equal(canonicalRange('agra>agra'), null)
+  for (const bad of ['>', 'agra>', '>delhi', 'agra>>delhi', 'agra-->delhi', 'agra>delhi>etawah', 'agra>delhi--etawah', 'a->b', 'a>-b']) {
+    assert.equal(canonicalRange(bad), null, JSON.stringify(bad))
+  }
+  const side = 'a'.repeat(44)
+  assert.equal(canonicalRange(`${side}>${side}b`), `${side}>${side}b`) // 90
+  assert.equal(canonicalRange(`${side}>${side}bb`), null) // 91
+})
+
+test('two directions of one stretch are two entries, each with its own votes', () => {
+  const w = world(undefined)
+  w.save('p', { range: 'delhi>agra', stars: 5 })
+  w.save('p', { range: 'agra>delhi', stars: 1 })
+  assert.deepEqual(Object.keys(w.entries('p')).sort(), ['agra>delhi', 'delhi>agra'])
+  assert.deepEqual(w.agg.ranges['delhi>agra'], { total: 1, sum: 5, counts: { 5: 1 } })
+  assert.deepEqual(w.agg.ranges['agra>delhi'], { total: 1, sum: 1, counts: { 1: 1 } })
+  // one person, one vote in the headline: the mean of their two
+  assert.deepEqual([w.agg.total, w.agg.sum], [1, 3])
+})
+
 // ── normalising old documents ──────────────────────────────────────
 
 test('normaliseAgg: every vote cast before stretches was a whole-road vote', () => {

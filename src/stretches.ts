@@ -5,10 +5,19 @@
  *
  * Where the stops are is decided at build time (scripts/lib/stretches.mjs) and
  * shipped on the road's shape — nothing here works out a key. A review stores
- * its range as two stop keys, sorted, so it has to keep finding its place after
- * the stop rules or the road's data change: a key that is no longer a stop is
+ * its range as two stop keys, so it has to keep finding its place after the
+ * stop rules or the road's data change: a key that is no longer a stop is
  * placed by its km from the shape's marks instead, and lands on whichever
  * stretches now cover it.
+ *
+ * A range also says which way it was driven. On a divided highway "Delhi →
+ * Agra" and "Agra → Delhi" are two carriageways, and even on one they are a
+ * climb and a descent, a queue at the toll and none. `delhi>agra` is driven
+ * from Delhi. `agra--delhi`, its two keys sorted, is the old spelling — every
+ * review written before directions, and what an old page still posts — and it
+ * is driven in road order, start to end: the only way those pages offered,
+ * with "Rate Delhi → Agra" in road order over the stars. So a road's old
+ * reviews keep their way only while `route.start` and `route.end` do.
  *
  * Kept free of the DOM and of everything but geo.ts, so the tests can import
  * this file straight into Node.
@@ -20,8 +29,13 @@ import { bboxOf, cumulativeKm, segProject, sliceLine } from './geo.ts'
 /** The whole road — and what a review written before stretches is about. */
 export const ALL = 'all'
 /** Mirrors api/_lib/ratings-math.ts; scripts/contracts.test.mjs holds the two in step. */
-export const RANGE_KEY = /^(?:all|[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*)$/
+export const RANGE_KEY = /^(?:all|[a-z0-9]+(?:-[a-z0-9]+)*(?:--|>)[a-z0-9]+(?:-[a-z0-9]+)*)$/
 const KEY_MAX = 90
+
+/** Which way a range is driven: the road's own order, start to end, or back. */
+export type Way = 'fwd' | 'rev'
+
+export const otherWay = (w: Way): Way => (w === 'fwd' ? 'rev' : 'fwd')
 
 /** Less overlap than this between a review's range and a stretch is a stop that
  *  moved a little or km rounding, not a review of that stretch. Boundaries are
@@ -131,15 +145,22 @@ function span(s: readonly Stretch[], i0: number, i1: number): [number, number] {
   return [lo, hi]
 }
 
-/** The key a review of stretches i0..i1 is stored under: the two end stops,
- *  sorted so either direction of travel names the same range — or ALL when it
- *  is every stretch, which is the whole road under its usual name. */
-export function rangeKey(s: readonly Stretch[], i0: number, i1: number): string {
+/** The key a review of stretches i0..i1 is stored under. Driven one way, it is
+ *  the stop it starts from and the stop it ends at, in that order — every
+ *  stretch included, since "Srinagar → Kanyakumari" is a direction too. With
+ *  no way, the old spelling a page from before directions posted: the two end
+ *  stops sorted, and ALL when it is every stretch, the whole road under its
+ *  usual name. */
+export function rangeKey(s: readonly Stretch[], i0: number, i1: number, way?: Way): string {
   if (!s.length) return ALL
   const [lo, hi] = span(s, i0, i1)
+  const ends = [s[lo].fromKey, s[hi].toKey]
+  if (way) return (way === 'fwd' ? ends : ends.reverse()).join('>')
   if (lo === 0 && hi === s.length - 1) return ALL
-  return [s[lo].fromKey, s[hi].toKey].sort().join('--')
+  return ends.sort().join('--')
 }
+
+const directed = (key: string): boolean => key.includes('>')
 
 /** The stretches a range covers, first and last. Placing it means a km for
  *  each end — a stop's, or failing that a mark's — then every stretch that
@@ -160,8 +181,15 @@ function covering(s: readonly Stretch[], a: number, b: number): [number, number]
   return i < 0 ? [s.length - 1, s.length - 1] : [i, i]
 }
 
+/** Where a key lands: the stretches it covers, and which way it is driven —
+ *  null only for ALL, the whole road's headline vote. */
+interface Placed {
+  span: [number, number]
+  way: Way | null
+}
+
 /** One lookup table per call, rather than one per range key. */
-function resolver(s: readonly Stretch[], marks?: Marks): (key: string) => [number, number] | null {
+function resolver(s: readonly Stretch[], marks?: Marks): (key: string) => Placed | null {
   /** stop key → boundary index: 0 is the start of stretch 0, s.length the end. */
   const boundary = new Map<string, number>()
   s.forEach((st, i) => {
@@ -181,39 +209,77 @@ function resolver(s: readonly Stretch[], marks?: Marks): (key: string) => [numbe
 
   return (key) => {
     if (!s.length) return null
-    if (key === ALL) return [0, s.length - 1]
+    if (key === ALL) return { span: [0, s.length - 1], way: null }
     if (!isRangeKey(key)) return null
-    const [a, b] = key.split('--')
+    const one = directed(key)
+    const [a, b] = key.split(one ? '>' : '--')
     if (a === b) return null
+    // Driven from a to b: forward when a comes first along the road. The old
+    // spelling is sorted, so its order says nothing — it was forward.
+    const way = (first: boolean): Way => (!one || first ? 'fwd' : 'rev')
     const ja = boundary.get(a)
     const jb = boundary.get(b)
     if (ja !== undefined && jb !== undefined) {
       const lo = Math.min(ja, jb)
       const hi = Math.max(ja, jb)
-      return lo < hi ? [lo, hi - 1] : null
+      return lo < hi ? { span: [lo, hi - 1], way: way(ja < jb) } : null
     }
     const ka = kmOf(a)
     const kb = kmOf(b)
     if (ka === null || kb === null) return null
-    return covering(s, Math.min(ka, kb), Math.max(ka, kb))
+    return { span: covering(s, Math.min(ka, kb), Math.max(ka, kb)), way: way(ka < kb) }
   }
 }
 
+const whole = (s: readonly Stretch[], sp: readonly [number, number]): boolean => sp[0] === 0 && sp[1] === s.length - 1
+
 /** The first and last stretch a stored range covers, in road order whichever
- *  way its key is sorted. null when it can't be placed on this road any more. */
+ *  way it is driven. null when it can't be placed on this road any more. */
 export function expandRange(s: readonly Stretch[], key: string, marks?: Marks): [number, number] | null {
-  return resolver(s, marks)(key)
+  return resolver(s, marks)(key)?.span ?? null
 }
 
-/** "Delhi → Agra", always in road order. A key that covers every stretch is
- *  the whole road whatever its two ends are called — on a loop they are one
- *  place, and "Gachibowli → Gachibowli" says nothing. */
+/** Which way a stored range is driven along this road — forward for the old
+ *  spelling — or null for ALL and for a key that can't be placed. */
+export function rangeWay(s: readonly Stretch[], key: string, marks?: Marks): Way | null {
+  return resolver(s, marks)(key)?.way ?? null
+}
+
+/** Whether a loop's own order runs clockwise, by the sign of its area. */
+const clockwise = new WeakMap<readonly Stretch[], boolean>()
+function runsClockwise(s: readonly Stretch[]): boolean {
+  let known = clockwise.get(s)
+  if (known === undefined) {
+    let area = 0
+    for (const st of s) {
+      for (let j = 1; j < st.coords.length; j++) {
+        const [x0, y0] = st.coords[j - 1]
+        const [x1, y1] = st.coords[j]
+        area += x0 * y1 - x1 * y0
+      }
+    }
+    known = area < 0
+    clockwise.set(s, known)
+  }
+  return known
+}
+
+/**
+ * "Delhi → Agra" for a range driven from Delhi — an old-spelling one reads in
+ * road order, as it did when it was written. A loop driven all the way round
+ * starts and ends at one place, and "Gachibowli → Gachibowli" says nothing, so
+ * it says which way round instead.
+ */
 export function rangeLabel(s: readonly Stretch[], key: string, marks?: Marks): string {
   if (key === ALL) return 'Whole road'
-  const r = expandRange(s, key, marks)
-  if (!r) return 'Part of the road'
-  if (r[0] === 0 && r[1] === s.length - 1) return 'Whole road'
-  return `${s[r[0]].fromName} → ${s[r[1]].toName}`
+  const p = resolver(s, marks)(key)
+  if (!p?.way) return 'Part of the road'
+  const [lo, hi] = p.span
+  const [from, to] = p.way === 'fwd' ? [s[lo].fromName, s[hi].toName] : [s[hi].toName, s[lo].fromName]
+  if (from === to && whole(s, p.span)) {
+    return `Whole road, ${runsClockwise(s) === (p.way === 'fwd') ? 'clockwise' : 'anticlockwise'}`
+  }
+  return `${from} → ${to}`
 }
 
 /** How long stretches i0..i1 are, in the road's published km rather than the
@@ -226,15 +292,21 @@ export function displayKm(s: readonly Stretch[], i0: number, i1: number, lengthK
 }
 
 /**
- * Each stretch's score, from the reviews that name it. A whole-road vote says
- * nothing about any one stretch, so ALL never colours one — it only feeds the
- * headline. A review of several stretches is a vote on each of them. A range
- * that can no longer be placed is left out: there is no saying where it was.
+ * Each stretch's score, from the reviews that name it. Given a way, only
+ * what was said driving that way: the two sides of a divided road are two
+ * roads, and a broken northbound carriageway must not be averaged away by a
+ * smooth southbound one. Every review from before directions was driven in
+ * road order, and counts that way only. A whole-road vote says nothing about any
+ * one stretch, so ALL never colours one, and neither does a range over every
+ * stretch (the whole road, one way): they only feed the headline. A review of
+ * several stretches is a vote on each of them. A range that can no longer be
+ * placed is left out: there is no saying where it was.
  */
 export function scoreStretches(
   s: readonly Stretch[],
   ranges: Record<string, RangeStats> | undefined,
   marks?: Marks,
+  way?: Way,
 ): (StretchScore | null)[] {
   const sum = s.map(() => 0)
   const votes = s.map(() => 0)
@@ -242,8 +314,8 @@ export function scoreStretches(
   for (const [key, st] of Object.entries(ranges ?? {})) {
     if (key === ALL || !st || !(st.total > 0)) continue
     const r = resolve(key)
-    if (!r) continue
-    for (let i = r[0]; i <= r[1]; i++) {
+    if (!r || whole(s, r.span) || (way && r.way !== way)) continue
+    for (let i = r.span[0]; i <= r.span[1]; i++) {
       sum[i] += st.sum
       votes[i] += st.total
     }
@@ -251,14 +323,16 @@ export function scoreStretches(
   return s.map((_, i) => (votes[i] ? { mean: sum[i] / votes[i], votes: votes[i] } : null))
 }
 
-/** The votes of every range that touches stretches i0..i1 — what the panel's
- *  breakdown shows for a selection. Same exclusions as scoreStretches. */
+/** The votes of every range that touches stretches i0..i1 — what the rating
+ *  card shows for a selection. Same exclusions as scoreStretches. Given a way,
+ *  ranges driven the other way are left out. */
 export function scoreRange(
   s: readonly Stretch[],
   ranges: Record<string, RangeStats> | undefined,
   i0: number,
   i1: number,
   marks?: Marks,
+  way?: Way,
 ): RangeScore | null {
   if (!s.length) return null
   const [lo, hi] = span(s, i0, i1)
@@ -269,7 +343,8 @@ export function scoreRange(
   for (const [key, st] of Object.entries(ranges ?? {})) {
     if (key === ALL || !st || !(st.total > 0)) continue
     const r = resolve(key)
-    if (!r || r[1] < lo || r[0] > hi) continue
+    if (!r || r.span[1] < lo || r.span[0] > hi || whole(s, r.span)) continue
+    if (way && r.way !== way) continue
     sum += st.sum
     votes += st.total
     for (const [n, c] of Object.entries(st.counts ?? {})) counts[n] = (counts[n] ?? 0) + c
@@ -303,17 +378,34 @@ export function nearestStretch(s: readonly Stretch[], p: LngLat, maxKm = 15): nu
   return best >= 0 && bestKm <= maxKm ? best : null
 }
 
-function tip(st: Stretch, sc: StretchScore | null): string {
-  const name = `${st.fromName} → ${st.toName}`
+/** "Agra → Gwalior", or driven back, "Gwalior → Agra". */
+export function stretchName(st: Stretch, way: Way = 'fwd'): string {
+  return way === 'fwd' ? `${st.fromName} → ${st.toName}` : `${st.toName} → ${st.fromName}`
+}
+
+/** Which way the road is being looked at, as a few words that fit after "Rate
+ *  a stretch": the end it heads for, or, on a loop, which way round. */
+export function wayLabel(s: readonly Stretch[], way: Way): string {
+  if (!s.length) return ''
+  const start = s[0].fromName
+  const end = s[s.length - 1].toName
+  if (start === end) return `going ${runsClockwise(s) === (way === 'fwd') ? 'clockwise' : 'anticlockwise'}`
+  return `towards ${way === 'fwd' ? end : start}`
+}
+
+function tip(st: Stretch, sc: StretchScore | null, way: Way): string {
+  const name = stretchName(st, way)
   return sc
     ? `${name} · ★ ${sc.mean.toFixed(1)} · ${sc.votes} rating${sc.votes === 1 ? '' : 's'}`
     : `${name} · not rated yet`
 }
 
-/** The map's stretch source: one line per stretch, its colour picked by score. */
+/** The map's stretch source: one line per stretch, its colour picked by the
+ *  score it has driven this way, and named that way round. */
 export function stretchesFC(
   s: readonly Stretch[],
   scores: readonly (StretchScore | null)[],
+  way: Way = 'fwd',
 ): FeatureCollection<LineString, StretchProps> {
   return {
     type: 'FeatureCollection',
@@ -322,7 +414,7 @@ export function stretchesFC(
       const score = sc ? Math.max(1, Math.min(5, Math.round(sc.mean))) : 0
       return {
         type: 'Feature',
-        properties: { i: st.i, score, tip: tip(st, sc) },
+        properties: { i: st.i, score, tip: tip(st, sc, way) },
         geometry: { type: 'LineString', coordinates: st.coords },
       }
     }),

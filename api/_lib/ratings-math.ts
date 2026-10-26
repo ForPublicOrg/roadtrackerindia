@@ -18,9 +18,11 @@
  */
 
 export const ALL = 'all'
-/** `all`, or two stop slugs joined by `--`. Mirrored in src/stretches.ts, and
- *  scripts/contracts.test.mjs holds the two in step. */
-export const RANGE_KEY = /^(?:all|[a-z0-9]+(?:-[a-z0-9]+)*--[a-z0-9]+(?:-[a-z0-9]+)*)$/
+/** `all`; two stop slugs joined by `>`, driven from the first to the second; or
+ *  the old spelling, two joined by `--`, which the site reads as driven in road
+ *  order (the server cannot tell which way that is: it has no stops). Mirrored
+ *  in src/stretches.ts, and scripts/contracts.test.mjs holds the two in step. */
+export const RANGE_KEY = /^(?:all|[a-z0-9]+(?:-[a-z0-9]+)*(?:--|>)[a-z0-9]+(?:-[a-z0-9]+)*)$/
 const RANGE_KEY_MAX = 90
 
 /** Per road. Beyond this the least-liked, oldest review makes way for a new one. */
@@ -28,10 +30,11 @@ export const MAX_REVIEWS = 100
 export const REVIEW_MAX = 500
 /** Per road. The server cannot check a slug against the road's stops, so this
  *  is what stops made-up range keys growing the aggregate without bound. One
- *  build's 17 stops make at most 136 keys, `all` among them; the rest is room
- *  for stops that later builds dropped. Whoever hits it did nothing to fill it,
- *  so it answers 'road-full', not 'too-many'. */
-export const MAX_RANGE_KEYS = 200
+ *  build's 17 stops make at most 272 keys driven one way, plus the 136 in the
+ *  old spelling pages from before directions could still post; the rest is
+ *  room for stops that later builds dropped. Whoever hits it did nothing to
+ *  fill it, so it answers 'road-full', not 'too-many'. */
+export const MAX_RANGE_KEYS = 500
 /** Per person per road — more than any real trip needs, few enough that one
  *  person cannot bloat a road's documents. */
 export const MAX_ENTRIES_PER_PERSON = 20
@@ -132,14 +135,17 @@ export interface LikeOutcome {
   liked: boolean
 }
 
-/** The one spelling of a range: `agra--delhi` and `delhi--agra` are the same
- *  road, so they must be the same key, or one stretch would split its votes. */
+/** The one spelling of a range: in the old spelling, `agra--delhi` and
+ *  `delhi--agra` are the same run, so they must be the same key, or one stretch
+ *  would split its votes. `delhi>agra` and `agra>delhi` are two directions, and
+ *  keep their order. */
 export function canonicalRange(raw: string): string | null {
   if (typeof raw !== 'string' || raw.length > RANGE_KEY_MAX || !RANGE_KEY.test(raw)) return null
   if (raw === ALL) return ALL
-  const [a, b] = raw.split('--')
+  const one = raw.includes('>')
+  const [a, b] = raw.split(one ? '>' : '--')
   if (a === b) return null
-  return [a, b].sort().join('--')
+  return one ? raw : [a, b].sort().join('--')
 }
 
 const entry = (stars: number | null, reviewId?: string): RaterEntry =>

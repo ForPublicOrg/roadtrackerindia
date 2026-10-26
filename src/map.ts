@@ -1,6 +1,7 @@
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import type { FeatureCollection, LineString } from 'geojson'
+import type { Way } from './stretches'
 import type { BBox, Category, LngLat, NetworkFC, ShapeFeature, StretchProps } from './types'
 import { getTheme, MAP_COLORS, onThemeChange, type Theme } from './theme'
 import { buildStyle, fallbackStyle } from './mapstyle'
@@ -82,6 +83,9 @@ let stretchData: FeatureCollection<LineString, StretchFeatureProps> | null = nul
 let stretchesRated = false
 /** The stretches picked in the panel, or null while none is. */
 let stretchPick: number[] | null = null
+/** Which way the panel is looking at the road, whose ratings colour it —
+ *  arrows along it say so. null while no road is open. */
+let stretchWay: Way | null = null
 /**
  * Bumped by every new selection, and checked when a draw-on sweep reports that
  * it has finished: the report may be about a road that has gone since.
@@ -312,6 +316,39 @@ function stretchColorExpr(theme: Theme, unrated: string): unknown {
   return ['match', ['get', 'score'], 1, s[1], 2, s[2], 3, s[3], 4, s[4], 5, s[5], unrated]
 }
 
+const ARROW = 'stretch-arrow'
+
+/**
+ * The chevron laid along a picked stretch to say which way it is being rated:
+ * white over a dark rim, so it reads on every score colour in either theme.
+ * Drawn here rather than shipped, at the screen's own density. It points along
+ * the line's own order, which is the road's; the other way turns it round.
+ */
+function addArrowImage(): void {
+  if (map.hasImage(ARROW)) return
+  const ratio = Math.max(1, Math.min(3, Math.round(window.devicePixelRatio || 1)))
+  const size = 18 * ratio
+  const canvas = document.createElement('canvas')
+  canvas.width = canvas.height = size
+  const ctx = canvas.getContext('2d')
+  if (!ctx) return
+  ctx.scale(ratio, ratio)
+  ctx.lineCap = 'round'
+  ctx.lineJoin = 'round'
+  const chevron = (color: string, width: number) => {
+    ctx.beginPath()
+    ctx.moveTo(6.5, 4.5)
+    ctx.lineTo(11.5, 9)
+    ctx.lineTo(6.5, 13.5)
+    ctx.strokeStyle = color
+    ctx.lineWidth = width
+    ctx.stroke()
+  }
+  chevron('rgba(0, 0, 0, 0.55)', 4.8)
+  chevron('#fff', 2.4)
+  map.addImage(ARROW, { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data }, { pixelRatio: ratio })
+}
+
 export function addAppLayers(): void {
   if (map.getSource('network')) return
   const theme = getTheme()
@@ -499,6 +536,26 @@ export function addAppLayers(): void {
       'line-width': SELECTED_WIDTH as never,
       'line-opacity': 0,
     },
+  })
+  // Arrows along the open road, the way the panel is looking at it: its
+  // colours are that way's ratings. Only the open road carries them, so the
+  // rest of the map keeps one plain line per road.
+  addArrowImage()
+  map.addLayer({
+    id: 'stretch-dir',
+    type: 'symbol',
+    source: 'stretches',
+    filter: ['in', ['get', 'i'], ['literal', []]],
+    layout: {
+      'symbol-placement': 'line',
+      'symbol-spacing': 72,
+      'icon-image': ARROW,
+      'icon-size': ['interpolate', ['linear'], ['zoom'], 4, 0.7, 10, 0.85, 14, 1],
+      'icon-rotation-alignment': 'map',
+      'icon-allow-overlap': true,
+      'icon-ignore-placement': true,
+    },
+    paint: { 'icon-opacity': 0 },
   })
   map.addLayer({
     id: 'stretch-hit',
@@ -722,10 +779,12 @@ export function showStretches(fc: FeatureCollection<LineString, StretchProps>): 
   applyStretches(true)
 }
 
-/** Show only these stretches, and fade the rest of the road behind them. null or [] shows them all again. */
-export function setStretchSelection(indices: number[] | null): void {
+/** Show only these stretches, and fade the rest of the road behind them. null
+ *  or [] shows them all again. Arrows point `way` along whatever shows. */
+export function setStretchSelection(indices: number[] | null, way: Way | null = null): void {
   if (!selectedShape) return
   stretchPick = indices?.length ? [...indices] : null
+  stretchWay = way
   if (!map) return
   applyStretches(true)
 }
@@ -735,6 +794,7 @@ export function clearStretches(): void {
   stretchData = null
   stretchesRated = false
   stretchPick = null
+  stretchWay = null
   if (hoveredStretch !== null) clearHover()
   if (!map) return
   const src = map.getSource('stretches') as maplibregl.GeoJSONSource | undefined
@@ -777,6 +837,16 @@ function applyStretches(animate: boolean): void {
   setOpacity('stretch-line', show ? 1 : 0, ms)
   setOpacity('selected-line', faded ? 0.3 : 1, ms)
   setOpacity('selected-glow', faded ? 0 : 1, ms)
+  if (map.getLayer('stretch-dir')) {
+    // The colours are one way's, so the arrows go wherever colours show: along
+    // the picked stretches, close together, or spread along the whole road. A
+    // flip turns them round without re-cutting which stretches carry them.
+    map.setFilter('stretch-dir', picked ? (['in', ['get', 'i'], ['literal', stretchPick]] as never) : undefined)
+    map.setLayoutProperty('stretch-dir', 'symbol-spacing', picked ? 72 : 180)
+    map.setLayoutProperty('stretch-dir', 'icon-rotate', stretchWay === 'rev' ? 180 : 0)
+    map.setPaintProperty('stretch-dir', 'icon-opacity-transition', { duration: ms, delay: 0 })
+    map.setPaintProperty('stretch-dir', 'icon-opacity', show && stretchWay ? 1 : 0)
+  }
 }
 
 /** The transition is set with every value, so an instant change can't inherit a fade, or a fade an instant. */

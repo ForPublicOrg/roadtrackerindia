@@ -182,7 +182,9 @@ works out each road's stops and writes them into its shape:
 ```
 
 - `n` is the name shown, `k` the **key** a review is stored under (a range is
-  two keys, `agra--delhi`), `km` how far along the line the stop is.
+  two keys: `delhi>agra` driven from Delhi, or the old `agra--delhi`, road order — see
+  [FIREBASE.md](FIREBASE.md#how-ratings-are-stored)), `km` how far along the
+  line the stop is.
 - A key is the place name folded to `a-z`, `0-9` and single dashes, with accents
   and anything in brackets dropped, cut at 40 characters, and made unique with
   `-2`, `-3`… in km order. Every place on the line gets one, stop or not, so a

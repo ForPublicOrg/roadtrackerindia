@@ -6,8 +6,9 @@
  * DELETE /api/reviews {roadId, range?, fingerprint, turnstileToken}               → remove it
  * PUT    /api/reviews {roadId, id, on, fingerprint, turnstileToken}               → like / unlike one
  *
- * `range` is `all` (the default) or two stop slugs joined by `--`, in either
- * order. On POST, leaving `text` out keeps the review you have and an empty one
+ * `range` is `all` (the default), two stop slugs joined by `>` for a run driven
+ * from the first to the second, or joined by `--`, in either order — the old
+ * spelling, which the site reads as driven in road order. On POST, leaving `text` out keeps the review you have and an empty one
  * removes it. Pages built before stretches still post {roadId, text} and delete
  * {roadId}: both mean "my whole-road review", and the stars stay as they were.
  *

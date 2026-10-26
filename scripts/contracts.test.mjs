@@ -5,7 +5,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { existsSync, readFileSync } from 'node:fs'
-import { buildStretches, expandRange, isRangeKey, rangeKey, ALL as CLIENT_ALL } from '../src/stretches.ts'
+import { buildStretches, expandRange, isRangeKey, rangeKey, rangeWay, ALL as CLIENT_ALL } from '../src/stretches.ts'
 import { canonicalRange } from '../api/_lib/ratings-math.ts'
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8')
@@ -99,15 +99,19 @@ test(
     // the build's km and the browser's measure of the same line agree
     assert.ok(Math.abs(s.at(-1).kmTo - shape.properties.km) < 0.2, `${s.at(-1).kmTo} vs ${shape.properties.km}`)
 
-    // Every run a person can pick is a key the API stores unchanged, and that
-    // key reads back as the same run.
-    for (let i0 = 0; i0 < s.length; i0++) {
-      for (let i1 = i0; i1 < s.length; i1++) {
-        const key = rangeKey(s, i0, i1)
-        if (i0 === 0 && i1 === s.length - 1) assert.equal(key, CLIENT_ALL)
-        assert.ok(isRangeKey(key), key)
-        assert.equal(canonicalRange(key), key)
-        assert.deepEqual(expandRange(s, key, marks), [i0, i1], key)
+    // Every run a person can pick, driven one way or in the old spelling, is a
+    // key the API stores unchanged, and it reads back as the same run, the same
+    // way — the old spelling in road order, the way those pages rated it.
+    for (const way of [undefined, 'fwd', 'rev']) {
+      for (let i0 = 0; i0 < s.length; i0++) {
+        for (let i1 = i0; i1 < s.length; i1++) {
+          const key = rangeKey(s, i0, i1, way)
+          if (!way && i0 === 0 && i1 === s.length - 1) assert.equal(key, CLIENT_ALL)
+          assert.ok(isRangeKey(key), key)
+          assert.equal(canonicalRange(key), key)
+          assert.deepEqual(expandRange(s, key, marks), [i0, i1], key)
+          assert.equal(rangeWay(s, key, marks), way ?? (key === CLIENT_ALL ? null : 'fwd'), key)
+        }
       }
     }
     // A review stored against a place that is not a stop any more still lands

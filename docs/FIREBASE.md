@@ -173,13 +173,36 @@ Firestore in them, and
 [`scripts/ratings-math.test.mjs`](../scripts/ratings-math.test.mjs) checks them
 over thousands of random writes against a recount of every vote.
 
-**Range keys.** A range is either `all` (the whole road) or two stop slugs joined
-by `--`, sorted as plain strings: `agra--delhi`, never `delhi--agra`, so one
-stretch can never split its votes between two spellings. A review can span
-several consecutive stretches (start stop → end stop), and choosing every stretch
-is `all`. Keys are at most 90 characters and must match `RANGE_KEY`; the server
-cannot check a slug against the road's stops, which is one reason for the caps
-below. Roads too short or too oddly mapped for stretches only ever use `all`.
+**Range keys.** A range is `all` (the whole road), or two stop slugs:
+
+- joined by `>`, a run **driven one way** — `delhi>agra` is from Delhi to Agra,
+  `agra>delhi` the other carriageway. Order is the meaning, so the server keeps
+  it. This is what the site posts today, every stretch included: the whole of
+  NH 44 driven south is `srinagar>kanyakumari`, not `all`.
+- joined by `--`, sorted as plain strings — the **old spelling**: `agra--delhi`,
+  never `delhi--agra`, so it can never split its votes between two spellings.
+  Every stretch review written before directions (October 2026) is one of
+  these, and a page cached from then still posts them. Those pages only ever
+  offered one way — "Rate Delhi → Agra", in road order (`route.start` to
+  `route.end`) — so the site reads an old-spelling key as driven in road order
+  and counts it on that side only. Nothing in Firestore is rewritten; the
+  direction comes from the road's stops when the page reads the key. So **never
+  swap a road's `route.start` and `route.end`** once it has reviews: its old
+  ones would swap sides with it. Someone who gave an old rating keeps it as
+  their road-order entry: re-rating that side changes it rather than adding a
+  second vote.
+
+A review can span several consecutive stretches (start stop → end stop). Keys
+are at most 90 characters and must match `RANGE_KEY`; the server cannot check a
+slug against the road's stops, which is one reason for the caps below. Roads too
+short or too oddly mapped for stretches only ever use `all`.
+
+The two directions are never added together. The site shows a road one way at
+a time, and a stretch's colour (on the map, the bar and the list) and the
+rating card's score count only the keys driven that way, old spellings on the
+road-order side. A key over every stretch colours none — like `all`, it only
+feeds the headline, which still counts each person once whichever way they
+drove.
 
 **Entries.** `road_ratings/<roadId>__<raterHash>` is
 
@@ -215,13 +238,13 @@ evicted is dropped the next time that person writes anything on the road.
 | --- | --- | --- | --- |
 | entries per person per road | 20 | `too-many` | more than any real trip; one person cannot bloat a road |
 | written reviews per person per road | 5 live | `too-many` | the 100 review slots are shared by everybody |
-| range keys per road | 200 (`all` is exempt) | `road-full` | made-up keys cannot grow the aggregate without bound, and the whole road stays rateable |
+| range keys per road | 500 (`all` is exempt) | `road-full` | made-up keys cannot grow the aggregate without bound, and the whole road stays rateable |
 | reviews per road | 100 | — | at the limit, the least-liked, oldest review makes way (no error) |
 
 `too-many` is the person's own doing, and they can edit or delete one of theirs.
 `road-full` is not: whoever meets it may never have rated the road. A new
 entry on a key the road already holds, or on `all`, still saves. One build's 17
-stops make at most 136 keys, so a full road means keys left by many rebuilds'
+stops make at most 272 one-way keys and 136 in the old spelling, so a full road means keys left by many rebuilds'
 stops, or made-up ones (the server cannot tell a real slug from an invented
 one). A person at their own 20 hears `too-many` even on a full road, since that
 is the cap they can do something about.
