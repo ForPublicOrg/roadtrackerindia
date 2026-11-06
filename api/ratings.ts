@@ -15,7 +15,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { getDb, isFirestoreConfigured } from './_lib/db.js'
 import { checkRateLimit, getClientIp, raterKey, verifyTurnstile } from './_lib/integrity.js'
 import { ALL, RATINGS_PER_HOUR } from './_lib/ratings-math.js'
-import { emptySummary, getSummaries, saveEntry } from './_lib/ratings-store.js'
+import { emptySummary, getNetworkRatingCoverage, getSummaries, saveEntry } from './_lib/ratings-store.js'
 
 /** Road ids are generated slugs (see scripts/fetch-osm-roads.mjs). Validating the
  *  shape keeps arbitrary strings out of document paths. */
@@ -35,6 +35,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 
   if (req.method === 'GET') {
+    if (req.query.coverage === '1') {
+      try {
+        const coverage = await getNetworkRatingCoverage(db)
+        res.setHeader('cache-control', 'public, max-age=0, s-maxage=300, stale-while-revalidate=600')
+        return res.status(200).json({ ok: true, ...coverage })
+      } catch (err) {
+        console.error('[ratings] network coverage read failed:', err)
+        return res.status(503).json({ error: 'unavailable' })
+      }
+    }
     const single = typeof req.query.roadId === 'string' ? req.query.roadId : ''
     const many = typeof req.query.roadIds === 'string' ? req.query.roadIds : ''
     const ids = (single ? [single] : many ? many.split(',') : [])
