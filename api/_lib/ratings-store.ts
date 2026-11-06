@@ -221,21 +221,3 @@ export async function getSummaries(
     toSummary(snap.exists ? (snap.data() as RatingAggregate) : undefined, roadIds[i], withReviews),
   )
 }
-
-/** Public, text-free totals for the network-wide ratings coverage layer. */
-export async function getNetworkRatingCoverage(db: Firestore): Promise<{
-  totalRatings: number
-  roads: { roadId: string; mean: number; votes: number }[]
-}> {
-  const snaps = await db.collection(AGGREGATES).select('total', 'sum').get()
-  let totalRatings = 0
-  const roads: { roadId: string; mean: number; votes: number }[] = []
-  for (const snap of snaps.docs) {
-    const data = snap.data() as Pick<RatingAggregate, 'total' | 'sum'>
-    const votes = Number(data.total) || 0
-    if (votes <= 0) continue
-    totalRatings += votes
-    roads.push({ roadId: snap.id, mean: Number(data.sum) / votes, votes })
-  }
-  return { totalRatings, roads }
-}

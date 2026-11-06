@@ -26,7 +26,6 @@ import {
   setDetailNetworkData,
   setNetworkData,
   showSelected,
-  setRatingCoverage,
 } from './map'
 import {
   closePanel,
@@ -80,28 +79,6 @@ async function boot(): Promise<void> {
   initInstall() // before any await: the browser offers installing once per page load
   initTheme()
   initLegend()
-
-  let ratingCoverageData: { totalRatings: number; roads: { roadId: string; mean: number; votes: number }[]; demo?: boolean } | null = null
-  const coverageButton = document.getElementById('btn-rating-coverage')
-  coverageButton?.addEventListener('click', () => {
-    if (coverageButton.getAttribute('aria-disabled') === 'true') return
-    const enable = coverageButton.getAttribute('aria-pressed') !== 'true'
-    if (ratingCoverageData) {
-      setRatingCoverage(ratingCoverageData.roads, enable, Boolean(ratingCoverageData.demo))
-      return
-    }
-    coverageButton.setAttribute('aria-disabled', 'true')
-    fetch('/api/ratings?coverage=1')
-      .then((res) => { if (!res.ok) throw new Error('Rating totals unavailable'); return res.json() })
-      .then((data: typeof ratingCoverageData) => {
-        if (!data) throw new Error('Rating totals unavailable')
-        ratingCoverageData = data
-        setRatingCoverage(data.roads, true, Boolean(data.demo))
-        if (data.demo) toast('Showing sample rating coverage. Deploy with Firestore to show live totals.', { duration: 7000 })
-      })
-      .catch(() => toast('Could not load rating coverage. Please try again.'))
-      .finally(() => coverageButton.removeAttribute('aria-disabled'))
-  })
 
   // The map is the one part of the page that can fail to start (no WebGL, a
   // blocked GPU) or start slowly (its style comes from a tile CDN). Nothing
