@@ -379,6 +379,7 @@ a { color: var(--accent); }
 .lg-sh { border-color: var(--c-sh); }
 .lg-local { border-color: var(--c-local); }
 .lg-dashed { border-top-style: dashed; border-color: var(--ink-2); }
+.lg-rated { border-color: #2b8a3e; }
 .legend.is-collapsed ul { display: none; }
 /* The one link out of the map. It sits outside the collapsible list on
    purpose: the key starts collapsed on a phone, and a link hidden there is a
