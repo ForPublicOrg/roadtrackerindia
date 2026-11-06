@@ -70,8 +70,6 @@ let focusApplied: string[] = []
 let focusAccent = false
 let hovered: { source: string; id: string } | null = null
 let usingFallbackStyle = false
-let ratingCoverage = new Map<string, number>()
-let ratingCoverageOn = false
 
 /** A stretch on the map, tagged with the road it was drawn for. */
 type StretchFeatureProps = StretchProps & { road: string }
@@ -403,7 +401,7 @@ export function addAppLayers(): void {
       filter: ['==', ['get', 'status'], 'operational'],
       layout: { 'line-cap': 'round', 'line-join': 'round' },
       paint: {
-        'line-color': (ratingCoverageOn ? coverageColorExpr(theme) : categoryColorExpr(theme)) as never,
+        'line-color': categoryColorExpr(theme) as never,
         'line-width': lineWidth as never,
       },
     },
@@ -418,7 +416,7 @@ export function addAppLayers(): void {
       filter: ['!=', ['get', 'status'], 'operational'],
       layout: { 'line-join': 'round' },
       paint: {
-        'line-color': (ratingCoverageOn ? coverageColorExpr(theme) : categoryColorExpr(theme)) as never,
+        'line-color': categoryColorExpr(theme) as never,
         'line-width': lineWidth as never,
         'line-dasharray': [2.1, 1.7],
         'line-opacity': 0.9,
@@ -580,50 +578,7 @@ export function setNetworkData(fc: NetworkFC): void {
   trunkIds = new Set(fc.features.map((f) => f.properties.id))
   if (!map) return // addAppLayers draws it once the layers exist
   const src = map.getSource('network') as maplibregl.GeoJSONSource | undefined
-  if (ratingCoverageOn) paintCoverage()
-  else src?.setData(fc as never)
-}
-
-function coverageColorExpr(theme: Theme): unknown {
-  const c = MAP_COLORS[theme].scores
-  return ['match', ['get', 'ratingBand'], 'low', c[1], 'mid', c[3], 'high', c[5], c[0]]
-}
-
-function paintCoverage(): void {
-  if (!map || !map.getLayer('network-line')) return
-  const theme = getTheme()
-  for (const [source, data] of [['network', networkFC], ['network-detail', detailFC]] as const) {
-    if (!data) continue
-    const decorated = { ...data, features: data.features.map((f) => {
-      const score = ratingCoverage.get(f.properties.id)
-      const ratingBand = score === undefined ? 'unrated' : score < 2.5 ? 'low' : score < 3.5 ? 'mid' : 'high'
-      return { ...f, properties: { ...f.properties, ratingBand } }
-    }) }
-    ;(map.getSource(source) as maplibregl.GeoJSONSource | undefined)?.setData(decorated as never)
-  }
-  for (const layer of ['network-line', 'network-line-dashed', 'network-detail-line']) {
-    if (map.getLayer(layer)) map.setPaintProperty(layer, 'line-color', (ratingCoverageOn ? coverageColorExpr(theme) : categoryColorExpr(theme)) as never)
-  }
-}
-
-export function setRatingCoverage(
-  roads: { roadId: string; mean: number; votes: number }[],
-  enabled?: boolean,
-  demo = false,
-): void {
-  ratingCoverage = new Map(roads.map((r) => [r.roadId, r.mean]))
-  if (enabled !== undefined) ratingCoverageOn = enabled
-  paintCoverage()
-  const button = document.getElementById('btn-rating-coverage')
-  button?.setAttribute('aria-pressed', String(ratingCoverageOn))
-  button?.setAttribute('aria-label', ratingCoverageOn ? 'Show road categories' : 'Colour roads by rating quality')
-  const legend = document.getElementById('rating-coverage-legend')
-  if (legend) legend.hidden = !ratingCoverageOn
-  const count = document.getElementById('rating-coverage-count')
-  const ratings = roads.reduce((sum, r) => sum + r.votes, 0)
-  if (count) count.textContent = `${demo ? 'Sample: ' : ''}${ratingCoverage.size.toLocaleString()} roads · ${ratings.toLocaleString()} ratings`
-  const key = document.getElementById('rating-quality-key')
-  if (key) key.hidden = !ratingCoverageOn
+  src?.setData(fc as never)
 }
 
 export function setDetailNetworkData(fc: NetworkFC): void {
@@ -631,7 +586,6 @@ export function setDetailNetworkData(fc: NetworkFC): void {
   if (!map) return // addAppLayers draws it once the layers exist
   const src = map.getSource('network-detail') as maplibregl.GeoJSONSource | undefined
   src?.setData(fc as never)
-  if (ratingCoverageOn) paintCoverage()
   applyFocusState()
   applyDim()
 }
